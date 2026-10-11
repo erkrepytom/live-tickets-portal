@@ -20,3 +20,4 @@ Purchases through affiliate links may earn the operator a commission. Availabili
 ## License
 
 MIT. Third-party videos, trademarks and linked supplier content retain their respective rights.
+`nThe 13-slide editable carousel advances every 6 seconds. The search bar is hidden at the owner's request. Brazilian Serie A uses a realistic stadium banner with varied shirt colors. Pause and keyboard controls remain available.
