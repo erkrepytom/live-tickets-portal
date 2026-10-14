@@ -8,12 +8,17 @@ on:
     paths: ["scripts/atualiza_dados.py"]
 permissions:
   contents: write
+  pages: write
+  id-token: write
 concurrency:
-  group: dados-esportivos
+  group: pages
   cancel-in-progress: false
 jobs:
   atualizar:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,8 +29,27 @@ jobs:
           FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
         run: python scripts/atualiza_dados.py
       - name: Publicar se houver mudança
+        id: pub
         run: |
           git config user.name "dados-bot"
           git config user.email "actions@users.noreply.github.com"
           git add dados.json
-          git diff --cached --quiet || { git commit -m "Atualiza notícias e placares"; git push; }
+          if git diff --cached --quiet; then
+            echo "mudou=nao" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Atualiza notícias e placares"
+            git push
+            echo "mudou=sim" >> "$GITHUB_OUTPUT"
+          fi
+      # O push acima usa o token do Actions e não dispara o pages.yml,
+      # então o deploy do site é feito aqui mesmo quando os dados mudam.
+      - uses: actions/configure-pages@v5
+        if: steps.pub.outputs.mudou == 'sim'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.pub.outputs.mudou == 'sim'
+        with:
+          path: .
+      - name: Deploy
+        id: deployment
+        if: steps.pub.outputs.mudou == 'sim'
+        uses: actions/deploy-pages@v4
