@@ -621,6 +621,50 @@ def evento(lang, ev, eventos):
     return h + corpo + rodape(lang, pagina, alternos)
 
 
+ROTULOS_CAT = {
+ "pt": {"ev": "Eventos com página", "comp": "Ligas e campeonatos", "teams": "Times", "cities": "Cidades", "music": "Artistas", "sports": "Esportes",
+        "home": "Catálogo completo do parceiro", "date": "Data", "venue": "Local", "guide": "Guia no site", "tickets": "Ingressos"},
+ "en": {"ev": "Events with a page", "comp": "Leagues and competitions", "teams": "Teams", "cities": "Cities", "music": "Artists", "sports": "Sports",
+        "home": "Full partner catalogue", "date": "Date", "venue": "Venue", "guide": "Guide on the site", "tickets": "Tickets"},
+ "es": {"ev": "Eventos con página", "comp": "Ligas y competiciones", "teams": "Equipos", "cities": "Ciudades", "music": "Artistas", "sports": "Deportes",
+        "home": "Catálogo completo del socio", "date": "Fecha", "venue": "Recinto", "guide": "Guía en el sitio", "tickets": "Entradas"},
+}
+
+
+def gerar_catalogo(eventos):
+    """Catálogo de links de afiliado para o agente do WhatsApp (mesmos destinos do site)."""
+    cat = {"atualizado": dt.date.today().isoformat(), "afiliado": AFILIADO, "idiomas": {}}
+    for lang in IDIOMAS:
+        c = {
+            "catalogo_parceiro": parceiro(lang, "/"),
+            "eventos": [{
+                "nome": L(ev["titulo"], lang), "data": ev["data"], "data_texto": data_longa(ev["data"], lang),
+                "local": ev["local"], "cidade": L(ev["cidade"], lang), "pais": L(ev["pais"], lang),
+                "competicao": L(ev["competicao"]["nome"], lang),
+                "times": [L(t["nome"], lang) for t in ev.get("times", [])] + ([ev["artista"]["nome"]] if ev.get("artista") else []),
+                "ingressos": parceiro(lang, f"/event/{ev['id']}"),
+                "guia": f"{BASE_URL}/{caminho_evento(lang, ev['slug'])}",
+                "como_chegar": ev["chegar"][lang], "dicas": DICAS[ev["tipo"]][lang],
+            } for ev in eventos],
+            "competicoes": [{"nome": L(n, lang), "link": parceiro(lang, "/dock/competition/" + s)} for n, s in COMPETICOES],
+            "times": [{"nome": L(n, lang), "link": parceiro(lang, "/dock/team/" + s)} for n, s in TIMES],
+            "cidades": [{"nome": L(n, lang), "link": parceiro(lang, "/dock/cities/" + s)} for n, s in CIDADES],
+            "artistas": [{"nome": L(n, lang), "link": parceiro(lang, "/dock/music/" + s)} for n, s in ARTISTAS],
+            "esportes": [{"nome": L(n, lang), "link": parceiro(lang, p)} for n, p, _ in ESPORTES],
+        }
+        cat["idiomas"][lang] = c
+        r = ROTULOS_CAT[lang]
+        md = [f"# MyTickets Tours ({lang.upper()})", "", f"{r['home']}: {c['catalogo_parceiro']}", "", f"## {r['ev']}", ""]
+        for x in c["eventos"]:
+            md += [f"### {x['nome']}", f"- {r['date']}: {x['data_texto']}", f"- {r['venue']}: {x['local']}, {x['cidade']}, {x['pais']} ({x['competicao']})",
+                   f"- {r['tickets']}: {x['ingressos']}", f"- {r['guide']}: {x['guia']}"] + [f"- {y}" for y in x["como_chegar"]] + [""]
+        for k, h in [("competicoes", "comp"), ("times", "teams"), ("cidades", "cities"), ("artistas", "music"), ("esportes", "sports")]:
+            md += [f"## {r[h]}", ""] + [f"- {x['nome']}: {x['link']}" for x in c[k]] + [""]
+        (RAIZ / "atendimento").mkdir(exist_ok=True)
+        (RAIZ / "atendimento" / f"catalogo-{lang}.md").write_text(chr(10).join(md), encoding="utf-8")
+    (RAIZ / "atendimento" / "catalogo.json").write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def main():
     dados = json.loads((RAIZ / "data" / "eventos.json").read_text(encoding="utf-8"))
     hoje = dt.date.today().isoformat()
@@ -640,7 +684,8 @@ def main():
             (RAIZ / p).mkdir(parents=True, exist_ok=True)
             (RAIZ / p / "index.html").write_text(evento(lang, ev, eventos), encoding="utf-8")
             urls.append(p)
-    mapa = "\n".join(f"  <url><loc>{BASE_URL}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
+    gerar_catalogo(eventos)
+    mapa ="\n".join(f"  <url><loc>{BASE_URL}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
     (RAIZ / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{mapa}\n</urlset>\n', encoding="utf-8")
     (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
     print(f"{len(urls)} páginas geradas ({len(eventos)} eventos x {len(IDIOMAS)} idiomas + 3 iniciais).")
