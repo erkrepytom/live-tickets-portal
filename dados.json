@@ -1,65 +1,341 @@
 {
- "atualizado": "2026-10-14T19:28:23+00:00",
+ "atualizado": "2026-10-14T22:46:38+00:00",
+ "ordem_paises": "padrao",
+ "paises": [
+  {
+   "pais": "BR",
+   "nome": {
+    "pt": "Brasil",
+    "en": "Brazil",
+    "es": "Brasil"
+   },
+   "noticias": [
+    {
+     "t": "Endrick 'voando' em remontada do Real Madrid, shows de Barcelona e PSG e mais: o melhor da 2ª rodada da Champions",
+     "u": "https://www.espn.com.br/futebol/champions-league/artigo/_/id/17381182/endrick-voando-remontada-real-madrid-shows-barcelona-psg-melhor-segunda-rodada-champions-league",
+     "f": "ESPN Brasil",
+     "alta": false
+    },
+    {
+     "t": "▶️ River-PI intensifica preparação para final contra Flamengo-PI; veja entrevistas",
+     "u": "https://ge.globo.com/pi/futebol/times/river-pi/playlist/-river-pi-intensifica-preparacao-para-final-contra-flamengo-pi-veja-entrevistas.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Semifinal do Brasileiro Sub-17: datas e horários de Bragantino x Corinthians e Atlético-MG x Cruzeiro",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/noticia/2026/10/14/semifinal-do-brasileiro-sub-17-datas-e-horarios-de-bragantino-x-corinthians-e-atletico-mg-x-cruzeiro.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Endrick 'muda' jogo e marca, Real Madrid faz três gols em sete minutos e consegue virada histórica contra a Roma na Champions",
+     "u": "https://www.espn.com.br/futebol/champions-league/artigo/_/id/17381356/endrick-muda-jogo-marca-real-madrid-faz-tres-gols-sete-minutos-consegue-virada-historica-contra-roma-champions",
+     "f": "ESPN Brasil",
+     "alta": false
+    }
+   ]
+  },
+  {
+   "pais": "US",
+   "nome": {
+    "pt": "Estados Unidos",
+    "en": "United States",
+    "es": "Estados Unidos"
+   },
+   "noticias": [
+    {
+     "t": "UEFA Champions League scores, schedule: Manchester City vs. PSG highlights Matchday 2",
+     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-2/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "While Manchester City are forced to defend their past, PSG show why they own the present in Champions League",
+     "u": "https://www.cbssports.com/soccer/news/manchester-city-destroyed-by-psg-uefa-champions-league-md-2/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Man City can't compete with PSG, the Champions League's gold standard",
+     "u": "https://www.espn.com/soccer/story/_/id/50184341/man-city-compete-psg-champions-league-gold-standard",
+     "f": "ESPN",
+     "alta": false
+    },
+    {
+     "t": "Real Madrid's late rally stuns Roma in 7-goal thriller",
+     "u": "https://www.espn.com/soccer/report/_/gameId/401915414",
+     "f": "ESPN",
+     "alta": false
+    }
+   ]
+  },
+  {
+   "pais": "PT",
+   "nome": {
+    "pt": "Portugal",
+    "en": "Portugal",
+    "es": "Portugal"
+   },
+   "noticias": [
+    {
+     "t": "A crónica do Manchester City-PSG, 2-4: Recital parisiense no Etihad",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/a-cronica-do-manchester-city-psg-2-4-recital-parisiense-no-etihad",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Portugal goleia Itália no Mundial",
+     "u": "https://www.abola.pt/noticias/portugal-goleia-italia-no-mundial-2026101422175115834",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Portugal goleia a Itália e fica em 2.º do grupo A no Mundial de hóquei em patins",
+     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/20261014-195005-italia-portugal-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Se o Sporting é um Mercedes, o Benfica é... Marco Silva responde",
+     "u": "https://www.abola.pt/video/se-o-sporting-e-um-mercedes-o-benfica-e-marco-silva-responde-2026101415043840556",
+     "f": "A Bola",
+     "alta": false
+    }
+   ]
+  },
+  {
+   "pais": "ES",
+   "nome": {
+    "pt": "Espanha",
+    "en": "Spain",
+    "es": "España"
+   },
+   "noticias": [
+    {
+     "t": "El Real Madrid de las remontadas en Champions volvió en Roma",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238861/real-madrid-remontadas-champions-volvio-roma.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "El 1X1 del Real Madrid ante la Roma",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238843/1x1-real-madrid-roma.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
+     "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "¡Netflix se queda el Mundial de España!",
+     "u": "https://www.marca.com/futbol/mundial/2026/10/13/netflix-adquiere-derechos-audiovisuales-espana-mundial-2030.html",
+     "f": "Marca",
+     "alta": false
+    }
+   ]
+  },
+  {
+   "pais": "GB",
+   "nome": {
+    "pt": "Reino Unido",
+    "en": "United Kingdom",
+    "es": "Reino Unido"
+   },
+   "noticias": [
+    {
+     "t": "Man City show fight but fall short of fightback against slick PSG",
+     "u": "https://www.bbc.co.uk/sport/football/videos/cqp8gn9x801po?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Hollywood star Bettany reflects on Arsenal's title win on Premier League show",
+     "u": "https://www.skysports.com/football/live-blog/12040/13455133/premier-league-show-live-latest-team-news-exclusive-interviews-and-analysis",
+     "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Quickfire Doué and Dembélé inspire PSG to wild win at Manchester City",
+     "u": "https://www.theguardian.com/football/2026/oct/14/manchester-city-psg-champions-league-league-stage-match-report",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Real Madrid produce incredible late comeback to beat Roma",
+     "u": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+     "f": "Sky Sports",
+     "alta": false
+    }
+   ]
+  },
+  {
+   "pais": "MX",
+   "nome": {
+    "pt": "México",
+    "en": "Mexico",
+    "es": "México"
+   },
+   "noticias": [
+    {
+     "t": "Vinícius Jr. hace berrinche tras salir de cambio en el Real Madrid",
+     "u": "https://www.excelsior.com.mx/deportes/vinicius-jr-berrinche-real-madrid-roma-champions-league",
+     "f": "Excélsior",
+     "alta": false
+    },
+    {
+     "t": "Tri Femenil toma revancha ante Jamaica y pone la mira en el boleto al Mundial 2027",
+     "u": "https://www.excelsior.com.mx/deportes/tri-femenil-toma-revancha-jamaica-y-pone-mira-boleto-mundial-2027",
+     "f": "Excélsior",
+     "alta": false
+    }
+   ]
+  },
+  {
+   "pais": "AR",
+   "nome": {
+    "pt": "Argentina",
+    "en": "Argentina",
+    "es": "Argentina"
+   },
+   "noticias": [
+    {
+     "t": "River Plate pierde contra Sarmiento por el partido pendiente de la fecha 11 del Torneo Clausura",
+     "u": "https://www.infobae.com/deportes/2026/10/14/river-plate-visitara-a-sarmiento-en-busca-de-un-triunfo-que-lo-situe-en-zona-de-clasificacion-a-los-playoffs-del-clausura-hora-tv-y-formaciones/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "El empujón de Enzo Fernández al árbitro en la derrota del Manchester City frente al PSG por la Champions League",
+     "u": "https://www.infobae.com/deportes/2026/10/14/el-empujon-de-enzo-fernandez-al-arbitro-en-la-derrota-del-manchester-city-frente-al-psg-por-la-champions-league/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Boca y Vasco: mañana, el día clave por el escenario de la revancha",
+     "u": "https://www.ole.com.ar/boca-juniors/maracana-vascodagama-boca-revancha-copasudamericana-justiciaderiodejaneiro-xeneize-fla-flu-stj-entradas-semifinales_0_tOWHklCH9J.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Lionel Messi en Inter Miami vs. New York City, hoy en VIVO, por la MLS: el 10 será titular",
+     "u": "https://www.ole.com.ar/mls/inter-miami/lionel-messi-inter-miami-new-york-city-mls_0_xzxPwH8Ff9.html",
+     "f": "Olé",
+     "alta": false
+    }
+   ]
+  },
+  {
+   "pais": "IT",
+   "nome": {
+    "pt": "Itália",
+    "en": "Italy",
+    "es": "Italia"
+   },
+   "noticias": [
+    {
+     "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+     "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+     "f": "La Gazzetta dello Sport",
+     "alta": false
+    },
+    {
+     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
+     "f": "La Gazzetta dello Sport",
+     "alta": false
+    }
+   ]
+  },
+  {
+   "pais": "FR",
+   "nome": {
+    "pt": "França",
+    "en": "France",
+    "es": "Francia"
+   },
+   "noticias": [
+    {
+     "t": "Face à Manchester City, le trio du PSG Doué - Dembélé - Akliouche a connu 100% de réussite sur ses frappes",
+     "u": "https://www.lequipe.fr/Football/Actualites/Face-a-manchester-city-le-trio-du-psg-doue-dembele-akliouche-a-connu-100-de-reussite-sur-ses-frappes/1735850#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    },
+    {
+     "t": "Les notes de Manchester City-PSG",
+     "u": "https://www.lequipe.fr/Football/Article/Les-notes-de-manchester-city-psg-la-lumiere-doue-le-phare-haaland/1735839#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    }
+   ]
+  }
+ ],
  "destaques": [
   {
-   "t": "Roma x Real Madrid - Liga dos Campeões 2026/2027 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/14-10-2026/roma-realmadrid.ghtml",
-   "f": "ge"
+   "t": "Endrick 'voando' em remontada do Real Madrid, shows de Barcelona e PSG e mais: o melhor da 2ª rodada da Champions",
+   "u": "https://www.espn.com.br/futebol/champions-league/artigo/_/id/17381182/endrick-voando-remontada-real-madrid-shows-barcelona-psg-melhor-segunda-rodada-champions-league",
+   "f": "ESPN Brasil",
+   "alta": false,
+   "pais": "BR"
   },
   {
-   "t": "Vini Jr. pega gancho pesado no Espanhol e perderá El Classico",
-   "u": "https://www.gazetaesportiva.com/times/real-madrid/vinicius-jr-suspenso-quatro-jogos-real-madrid/",
-   "f": "Gazeta Esportiva"
+   "t": "UEFA Champions League scores, schedule: Manchester City vs. PSG highlights Matchday 2",
+   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-2/",
+   "f": "CBS Sports",
+   "alta": false,
+   "pais": "US"
   },
   {
-   "t": "Manchester City x Paris Saint-Germain - Liga dos Campeões 2026/2027 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/14-10-2026/Manchestercity-parissaintgermain.ghtml",
-   "f": "ge"
+   "t": "A crónica do Manchester City-PSG, 2-4: Recital parisiense no Etihad",
+   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/a-cronica-do-manchester-city-psg-2-4-recital-parisiense-no-etihad",
+   "f": "Record",
+   "alta": false,
+   "pais": "PT"
   },
   {
-   "t": "Seedorf destaca coragem e experiência e define time como ‘leão ferido’",
-   "u": "https://www.gazetaesportiva.com/futebol/seedorf-destaca-coragem-e-experiencia-e-define-time-como-leao-ferido/",
-   "f": "Gazeta Esportiva"
+   "t": "El Real Madrid de las remontadas en Champions volvió en Roma",
+   "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238861/real-madrid-remontadas-champions-volvio-roma.html",
+   "f": "Mundo Deportivo",
+   "alta": false,
+   "pais": "ES"
   },
   {
-   "t": "União-TO x São Paulo - Copa do Brasil Sub-20 2026 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/to/futebol/copa-do-brasil-sub-20/jogo/14-10-2026/uniao-to-sao-paulo.ghtml",
-   "f": "ge"
+   "t": "Man City show fight but fall short of fightback against slick PSG",
+   "u": "https://www.bbc.co.uk/sport/football/videos/cqp8gn9x801po?at_medium=RSS&at_campaign=rss",
+   "f": "BBC Sport",
+   "alta": false,
+   "pais": "GB"
   },
   {
-   "t": "Santos treina forte e recebe crianças no CT Rei Pelé",
-   "u": "https://www.gazetaesportiva.com/todas-as-noticias/santos-treina-forte-e-recebe-criancas-no-ct-rei-pele/",
-   "f": "Gazeta Esportiva"
+   "t": "Vinícius Jr. hace berrinche tras salir de cambio en el Real Madrid",
+   "u": "https://www.excelsior.com.mx/deportes/vinicius-jr-berrinche-real-madrid-roma-champions-league",
+   "f": "Excélsior",
+   "alta": false,
+   "pais": "MX"
   },
   {
-   "t": "Flamengo x Criciúma - Copa do Brasil Sub-20 2026 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/sc/futebol/copa-do-brasil-sub-20/jogo/14-10-2026/flamengo-criciuma.ghtml",
-   "f": "ge"
+   "t": "River Plate pierde contra Sarmiento por el partido pendiente de la fecha 11 del Torneo Clausura",
+   "u": "https://www.infobae.com/deportes/2026/10/14/river-plate-visitara-a-sarmiento-en-busca-de-un-triunfo-que-lo-situe-en-zona-de-clasificacion-a-los-playoffs-del-clausura-hora-tv-y-formaciones/",
+   "f": "Infobae",
+   "alta": true,
+   "pais": "AR"
   },
   {
-   "t": "Seedorf explica motivos para aceitar convite do Corinthians no retorno ao Brasil",
-   "u": "https://www.gazetaesportiva.com/todas-as-noticias/seedorf-explica-motivos-para-aceitar-convite-do-corinthians-no-retorno-ao-brasil/",
-   "f": "Gazeta Esportiva"
+   "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+   "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+   "f": "La Gazzetta dello Sport",
+   "alta": false,
+   "pais": "IT"
   },
   {
-   "t": "Novo Kaká? Joia potiguar do Santos assina com empresário Wagner Ribeiro",
-   "u": "https://ge.globo.com/rn/blogs/augustox/post/2026/10/14/novo-kaka-joia-potiguar-do-santos-assina-com-empresario-wagner-ribeiro.ghtml",
-   "f": "ge"
-  },
-  {
-   "t": "Em jogo de nove gols, Liverpool conta com brilho de Barcola e vence LASK na Champions",
-   "u": "https://www.gazetaesportiva.com/times/liverpool/em-jogo-de-nove-gols-liverpool-conta-com-brilho-de-barcola-e-vence-lask-na-champions/",
-   "f": "Gazeta Esportiva"
-  },
-  {
-   "t": "Paulinho revela recusa ao Corinthians e chora ao explicar saída do Mirassol para o Cruzeiro",
-   "u": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/14/paulinho-revela-recusa-ao-corinthians-e-chora-ao-explicar-saida-do-mirassol-para-o-cruzeiro.ghtml",
-   "f": "ge"
-  },
-  {
-   "t": "Luciano e Calleri avançam em recuperação, e dupla vai a campo em treino do São Paulo",
-   "u": "https://www.gazetaesportiva.com/times/sao-paulo/luciano-calleri-avancam-recuperacao-sao-paulo/",
-   "f": "Gazeta Esportiva"
+   "t": "Face à Manchester City, le trio du PSG Doué - Dembélé - Akliouche a connu 100% de réussite sur ses frappes",
+   "u": "https://www.lequipe.fr/Football/Actualites/Face-a-manchester-city-le-trio-du-psg-doue-dembele-akliouche-a-connu-100-de-reussite-sur-ses-frappes/1735850#at_medium=RSS_feeds",
+   "f": "L'Équipe",
+   "alta": false,
+   "pais": "FR"
   }
  ],
  "jogos": []

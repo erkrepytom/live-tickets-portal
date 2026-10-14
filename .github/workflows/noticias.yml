@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/atualiza_dados.py"]
+    paths: ["scripts/atualiza_dados.py", "data/eventos.json"]
 permissions:
   contents: write
   pages: write
@@ -24,9 +24,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Instalar cliente do Google Analytics (só se o GA4 estiver configurado)
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+        if: env.GA4_PROPERTY_ID != ''
+        run: pip install --quiet google-analytics-data==0.18.19
       - name: Gerar dados.json
         env:
           FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_CREDENTIALS: ${{ secrets.GA4_CREDENTIALS }}
         run: python scripts/atualiza_dados.py
       - name: Publicar se houver mudança
         id: pub

@@ -71,13 +71,15 @@ if (clockEl){
   clock(); setInterval(clock, 15000);
 }
 
-/* ---------- Notícias do robô (dados.json) ---------- */
+/* ---------- Notícias do robô (dados.json): um bloco por país, na ordem do ranking ---------- */
 const news = document.getElementById("news");
 if (news){
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const lang = news.dataset.lang || "pt", hot = news.dataset.hot || "";
   fetch((news.dataset.src || "dados.json") + "?t=" + Date.now()).then(r => r.ok ? r.json() : null).then(j => {
-    if (!j || !Array.isArray(j.destaques) || !j.destaques.length) return;
-    news.innerHTML = j.destaques.slice(0, 10).map(d => `<li><a href="${esc(d.u || "#")}" target="_blank" rel="noopener">${esc(d.t)}<small>${esc(d.f || "")}</small></a></li>`).join("");
+    if (!j || !Array.isArray(j.paises) || !j.paises.length) return;
+    news.innerHTML = j.paises.map(p => `<article class="country"><h3><span class="cc">${esc(p.pais)}</span> ${esc((p.nome && p.nome[lang]) || p.pais)}</h3><ul>${
+      p.noticias.map(n => `<li><a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.t)}<small>${esc(n.f)}${n.alta ? " · " + esc(hot) : ""}</small></a></li>`).join("")}</ul></article>`).join("");
   }).catch(() => {});
 }
 

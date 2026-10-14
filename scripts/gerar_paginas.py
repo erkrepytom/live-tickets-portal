@@ -25,6 +25,8 @@ IDIOMAS = ["pt", "en", "es"]
 # Coloque aqui https://formsubmit.co/ajax/<seu-email-titan> (ou o código aleatório que o
 # FormSubmit envia depois da ativação). Vazio = formulário mostra "em breve".
 FORM_ENDPOINT = ""
+# ID de medição do Google Analytics 4 (G-XXXXXXX). Vazio = sem Analytics no site.
+GA_MEASUREMENT_ID = ""
 HREFLANG = {"pt": "pt-BR", "en": "en", "es": "es"}
 FOTO_TOPO = "hero.jpg"  # imagens locais ficam em assets/img (banners do portal anterior)
 
@@ -49,7 +51,7 @@ T = {
             ("Entenda", "Cada vídeo leva à página do evento: data, estádio, como chegar e dicas de setor."),
             ("Garanta", "O ingresso é vendido e entregue pela SportsEvents365. Você vê setor e preço antes de pagar.")],
   "reel_cap": "Barça x Real Madrid no Camp Nou: como conseguir ingresso", "reel_link": "LINK NA BIO → PÁGINA DO EVENTO", "admit": "ENTRADA · 1",
-  "news_kicker": "Notícias", "news_h": "Últimas do esporte", "news_sub": "Manchetes do ge, UOL, Gazeta Esportiva e ESPN, atualizadas a cada hora.",
+  "news_kicker": "Notícias pelo mundo", "news_h": "O que está em alta", "news_sub": "Manchetes de veículos de cada país sobre os esportes e eventos do site, priorizando os assuntos mais buscados. Atualizado a cada hora.", "hot": "EM ALTA",
   "alerts_kicker": "Alertas de venda", "alerts_h": "Avise-me quando abrir",
   "alerts_sub": "Um e-mail quando a venda do seu evento abrir. Sem spam, e você cancela com um clique.",
   "f_email": "Seu e-mail", "f_event": "Evento", "f_lang": "Idioma dos alertas", "ph_email": "voce@email.com",
@@ -87,7 +89,7 @@ T = {
             ("Plan", "Every video leads to the event page: date, stadium, getting there and seating tips."),
             ("Book", "Tickets are sold and delivered by SportsEvents365. You see the section and price before you pay.")],
   "reel_cap": "Barça vs Real Madrid at Camp Nou: how to get tickets", "reel_link": "LINK IN BIO → EVENT PAGE", "admit": "ADMIT · 1",
-  "news_kicker": "News", "news_h": "Latest sport", "news_sub": "",
+  "news_kicker": "News around the world", "news_h": "What's trending", "news_sub": "Headlines from each country's own outlets about the sports and events on this site, led by the most searched topics. Updated hourly.", "hot": "TRENDING",
   "alerts_kicker": "Sale alerts", "alerts_h": "Tell me when it opens",
   "alerts_sub": "One email when sales for your event open. No spam, and you can unsubscribe in one click.",
   "f_email": "Your email", "f_event": "Event", "f_lang": "Alert language", "ph_email": "you@email.com",
@@ -125,7 +127,7 @@ T = {
             ("Entiende", "Cada video lleva a la página del evento: fecha, estadio, cómo llegar y consejos de sector."),
             ("Asegura", "La entrada la vende y entrega SportsEvents365. Ves sector y precio antes de pagar.")],
   "reel_cap": "Barça vs Real Madrid en el Camp Nou: cómo conseguir entradas", "reel_link": "LINK EN LA BIO → PÁGINA DEL EVENTO", "admit": "ENTRADA · 1",
-  "news_kicker": "Noticias", "news_h": "Lo último", "news_sub": "",
+  "news_kicker": "Noticias por el mundo", "news_h": "Lo más buscado", "news_sub": "Titulares de medios de cada país sobre los deportes y eventos del sitio, empezando por los temas más buscados. Se actualiza cada hora.", "hot": "EN ALZA",
   "alerts_kicker": "Alertas de venta", "alerts_h": "Avísame cuando abra",
   "alerts_sub": "Un correo cuando abra la venta de tu evento. Sin spam, y te das de baja con un clic.",
   "f_email": "Tu correo", "f_event": "Evento", "f_lang": "Idioma de las alertas", "ph_email": "tu@correo.com",
@@ -271,6 +273,14 @@ def mag(href, texto, cls="btn btn-signal", ext=True, seta=True):
     return f'<a class="{cls}" data-magnetic href="{e(href)}"{alvo}><span class="mag-inner">{texto}{s}</span></a>'
 
 
+def ga_tag():
+    if not GA_MEASUREMENT_ID:
+        return ""
+    g = GA_MEASUREMENT_ID
+    return (f'<script async src="https://www.googletagmanager.com/gtag/js?id={g}"></script>'
+            f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{g}');</script>")
+
+
 def cabeca(lang, pagina, titulo, desc, alternos, extra=""):
     alt = "\n".join(f'<link rel="alternate" hreflang="{HREFLANG[l]}" href="{BASE_URL}/{p}">' for l, p in alternos.items())
     return f"""<!DOCTYPE html>
@@ -292,6 +302,7 @@ def cabeca(lang, pagina, titulo, desc, alternos, extra=""):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@500;700&family=Chakra+Petch:wght@600&family=IBM+Plex+Mono:wght@400&display=swap">
 <link rel="stylesheet" href="{rel(pagina, 'assets/site.css')}{versao('assets/site.css')}">
+{ga_tag()}
 {extra}
 </head>"""
 
@@ -405,13 +416,16 @@ def home(lang, eventos, noticias):
     def chips(itens, base):
         return "".join(f'<a class="chip" href="{e(parceiro(lang, base + s))}" target="_blank" rel="sponsored noopener">{e(L(n, lang))}</a>' for n, s in itens)
     passos = "".join(f'<li class="step{" on" if i == 0 else ""}"><span class="step-n">{i + 1}</span><div><h3>{e(a)}</h3><p>{e(b)}</p></div></li>' for i, (a, b) in enumerate(t["steps"]))
+    def bloco_pais(p):
+        itens = "".join(f'<li><a href="{e(n["u"])}" target="_blank" rel="noopener">{e(n["t"])}<small>{e(n["f"])}{" · " + t["hot"] if n.get("alta") else ""}</small></a></li>' for n in p["noticias"])
+        return f'<article class="country"><h3><span class="cc">{e(p["pais"])}</span> {e(p["nome"][lang])}</h3><ul>{itens}</ul></article>'
     noticias_html = ""
-    if lang == "pt" and noticias:
-        itens = "".join(f'<li><a href="{e(n.get("u", "#"))}" target="_blank" rel="noopener">{e(n["t"])}<small>{e(n.get("f", ""))}</small></a></li>' for n in noticias[:10])
+    if noticias:
+        blocos = "".join(bloco_pais(p) for p in noticias)
         noticias_html = f"""<section class="band" id="noticias" aria-labelledby="news-h" style="padding-top:0">
   <div class="wrap">
-    <div class="sec-head"><div><p class="kicker">{t['news_kicker']}</p><h2 id="news-h" data-scramble>{t['news_h']}</h2></div><p>{t['news_sub']}</p></div>
-    <ul class="news" id="news" data-src="dados.json">{itens}</ul>
+    <div class="sec-head"><div><p class="kicker">{e(t['news_kicker'])}</p><h2 id="news-h" data-scramble>{e(t['news_h'])}</h2></div><p>{e(t['news_sub'])}</p></div>
+    <div class="countries" id="news" data-src="{rel(pagina, 'dados.json')}" data-lang="{lang}" data-hot="{e(t['hot'])}">{blocos}</div>
   </div>
 </section>"""
     corpo = f"""
@@ -670,7 +684,7 @@ def main():
     hoje = dt.date.today().isoformat()
     eventos = sorted([x for x in dados["eventos"] if x["data"] >= hoje], key=lambda x: x["data"])
     try:
-        noticias = json.loads((RAIZ / "dados.json").read_text(encoding="utf-8")).get("destaques", [])
+        noticias = json.loads((RAIZ / "dados.json").read_text(encoding="utf-8")).get("paises", [])
     except (OSError, ValueError):
         noticias = []
     urls = []

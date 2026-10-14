@@ -186,13 +186,18 @@ p{margin:0}
   .step{display:none}.step.on{display:grid}
 }
 
-/* Notícias (robô) */
-.news{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px}
-.news li{border-top:1px solid var(--line)}
-.news a{display:block;padding:14px 0;text-decoration:none;font:600 17px/1.35 var(--f-body)}
-.news a:hover{text-decoration:underline}
-.news small{display:block;margin-top:4px;font:500 12px/1 var(--f-mono);letter-spacing:.06em;color:var(--mut);text-transform:uppercase}
-@media (max-width:760px){.news{grid-template-columns:minmax(0,1fr)}}
+/* Notícias por país (robô) */
+.countries{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.country{background:var(--surface);border-radius:16px;box-shadow:0 0 0 1px var(--line);padding:18px 20px 8px;min-width:0}
+.country h3{display:flex;align-items:center;gap:10px;font:800 22px/1 var(--f-display);text-transform:uppercase;letter-spacing:.03em;margin-bottom:6px}
+.cc{font:700 11px/1 var(--f-mono);letter-spacing:.1em;background:var(--board);color:var(--signal);padding:6px 7px;border-radius:5px}
+.country ul{list-style:none;margin:0;padding:0}
+.country li+li{border-top:1px solid var(--line)}
+.country a{display:block;padding:12px 0;text-decoration:none;font:600 16px/1.35 var(--f-body)}
+.country a:hover{text-decoration:underline}
+.country small{display:block;margin-top:4px;font:500 11px/1.2 var(--f-mono);letter-spacing:.06em;color:var(--mut);text-transform:uppercase}
+@media (max-width:1000px){.countries{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.countries{grid-template-columns:minmax(0,1fr)}}
 
 /* Página de evento */
 .ev-hero{position:relative;overflow:hidden;background:var(--night);color:var(--on-night);isolation:isolate}
