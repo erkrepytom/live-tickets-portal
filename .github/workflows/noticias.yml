@@ -1,0 +1,31 @@
+name: Atualizar dados esportivos
+on:
+  schedule:
+    - cron: "17 * * * *"   # a cada hora, fora do pico do minuto 0
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/atualiza_dados.py"]
+permissions:
+  contents: write
+concurrency:
+  group: dados-esportivos
+  cancel-in-progress: false
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gerar dados.json
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+        run: python scripts/atualiza_dados.py
+      - name: Publicar se houver mudança
+        run: |
+          git config user.name "dados-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add dados.json
+          git diff --cached --quiet || { git commit -m "Atualiza notícias e placares"; git push; }

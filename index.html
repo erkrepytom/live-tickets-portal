@@ -752,8 +752,13 @@ document.querySelectorAll('.crest').forEach(el=>{
 const ligas=[["Libertadores","trophy"],["Série B","shield"],["Sul-Americana","award"],["Premier League","crown"],["Tênis","circle-dot"],["NBA","dribbble"],["NFL","shield-half"]];
 $('#ligas').innerHTML=ligas.map(([n,i])=>`<li class="border-t border-[var(--line)] first:border-t-0"><a href="#" data-aff="assinatura" class="flex items-center gap-3 h-9 px-1 hover:bg-[#f4f5f6]"><i data-lucide="${i}" class="w-4 h-4 text-[#7a7d82]"></i><span class="flex-1">${n}</span><i data-lucide="external-link" class="w-3.5 h-3.5 text-[#9a9ca0]"></i></a></li>`).join("");
 
-const destaques=["O que assistir nesta quarta-feira no Play+","Vasco vence Boca Juniors na Bombonera","Pedrinho desabafa por impasse com Maracanã","Palmeiras perde Vitor Roque contra o Flu","Barcelona atropela Galatasaray na Champions","Seedorf tinha conversas com Fluminense","Justiça define Vasco x Boca no Maracanã","Jogadores do Cruzeiro são alvo de protesto"];
-$('#destaques').innerHTML=destaques.map(d=>`<li class="border-b border-[var(--line)] last:border-b-0"><a href="#" class="block py-2 leading-snug hover:underline">${d}</a></li>`).join("");
+const destaquesPadrao=["O que assistir nesta quarta-feira no Play+","Vasco vence Boca Juniors na Bombonera","Pedrinho desabafa por impasse com Maracanã","Palmeiras perde Vitor Roque contra o Flu","Barcelona atropela Galatasaray na Champions","Seedorf tinha conversas com Fluminense","Justiça define Vasco x Boca no Maracanã","Jogadores do Cruzeiro são alvo de protesto"].map(t=>({t}));
+function renderDestaques(ls){
+  $('#destaques').innerHTML=ls.map(d=>`<li class="border-b border-[var(--line)] last:border-b-0"><a href="${d.u?esc(d.u):'#'}"${d.u?' target="_blank" rel="noopener"':''} class="block py-2 leading-snug hover:underline">${esc(d.t)}${d.f?` <span class="text-[10px] text-[var(--muted)]">· ${esc(d.f)}</span>`:''}</a></li>`).join("");
+}
+renderDestaques(destaquesPadrao);
+/* Notícias atualizadas pelo robô (.github/workflows/noticias.yml) */
+fetch('dados.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(j=>{ if(j&&Array.isArray(j.destaques)&&j.destaques.length) renderDestaques(j.destaques); }).catch(()=>{});
 
 /* Carrossel */
 const slides=[
