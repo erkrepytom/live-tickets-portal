@@ -254,6 +254,13 @@ p{margin:0}
 .channel span{font:500 12px/1.3 var(--f-mono);color:var(--mut)}
 @media (max-width:860px){.alerts-grid{grid-template-columns:minmax(0,1fr)}.row2{grid-template-columns:minmax(0,1fr)}}
 
+/* Páginas de texto (privacidade) */
+.legal{max-width:760px;display:grid;gap:14px}
+.legal h1{font:900 clamp(40px,6vw,64px)/1 var(--f-display);text-transform:uppercase}
+.legal h2{font-size:28px;margin-top:22px}
+.legal p{color:var(--mut);max-width:68ch}
+.legal a{color:var(--ink)}
+
 /* Rodapé */
 .foot{background:var(--night);color:var(--on-night-mut);padding-block:56px 40px;font-size:14px}
 .foot .wrap{display:grid;gap:22px}

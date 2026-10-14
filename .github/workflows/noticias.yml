@@ -50,6 +50,15 @@ jobs:
           fi
       # O push acima usa o token do Actions e não dispara o pages.yml,
       # então o deploy do site é feito aqui mesmo quando os dados mudam.
+      - name: Publicar em mytickets.tours (Azure Static Web Apps)
+        if: steps.pub.outputs.mudou == 'sim'
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: "."
+          skip_app_build: true
+          skip_api_build: true
       - uses: actions/configure-pages@v5
         if: steps.pub.outputs.mudou == 'sim'
       - uses: actions/upload-pages-artifact@v3

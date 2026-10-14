@@ -1,0 +1,35 @@
+{
+  "routes": [
+    {
+      "route": "/tickets",
+      "redirect": "https://sportsevents365.com/?a_aid=6821d72fcdbe3",
+      "statusCode": 302
+    },
+    {
+      "route": "/tickets/*",
+      "redirect": "https://sportsevents365.com/?a_aid=6821d72fcdbe3",
+      "statusCode": 302
+    },
+    {
+      "route": "/scripts/*",
+      "statusCode": 404
+    },
+    {
+      "route": "/.github/*",
+      "statusCode": 404
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html",
+      "statusCode": 404
+    }
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}

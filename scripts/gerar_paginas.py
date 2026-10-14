@@ -16,10 +16,10 @@ import re
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 
 # Troque para https://mytickets.tours quando o domínio apontar para o GitHub Pages.
-BASE_URL = "https://erkrepytom.github.io/live-tickets-portal"
+BASE_URL = "https://mytickets.tours"
 AFILIADO = "6821d72fcdbe3"
-# O parceiro tem um site por idioma; o mesmo caminho e o mesmo a_aid funcionam nos três.
-PARCEIRO = {"pt": "https://365tickets.com.br", "en": "https://sportsevents365.com", "es": "https://sportsevents365.es"}
+# Todos os idiomas usam o site principal do parceiro, onde o a_aid é contabilizado.
+PARCEIRO = {"pt": "https://sportsevents365.com", "en": "https://sportsevents365.com", "es": "https://sportsevents365.com"}
 IDIOMAS = ["pt", "en", "es"]
 # Formulário de alertas: o FormSubmit entrega cada cadastro como e-mail na caixa do Titan.
 # Coloque aqui https://formsubmit.co/ajax/<seu-email-titan> (ou o código aleatório que o
@@ -367,7 +367,8 @@ def rodape(lang, pagina, alternos):
   <div class="wrap">
     <a class="brand" href="{rel(pagina, caminho_home(lang))}">MY<b>TICKETS</b>.TOURS</a>
     <p class="foot-disc">{e(t['foot_disc'])}</p>
-    <div class="foot-links">{langs}<a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored noopener">SPORTSEVENTS365</a></div>
+    <div class="foot-links">{langs}<a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a><a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored noopener">SPORTSEVENTS365</a></div>
+    <p>{e(RESPONSAVEL)} · {CONTATO_EMAIL}</p>
     <p>© {dt.date.today().year} MyTickets Tours</p>
   </div>
 </footer>
@@ -635,6 +636,98 @@ def evento(lang, ev, eventos):
     return h + corpo + rodape(lang, pagina, alternos)
 
 
+PRIV = {
+ "pt": {"path": "privacidade/", "link": "PRIVACIDADE E CONTATO", "title": "Política de privacidade | MyTickets Tours",
+  "desc": "Como o MyTickets Tours trata seus dados, e como falar conosco.", "h1": "Política de privacidade",
+  "updated": "Atualizada em 14 de outubro de 2026.",
+  "sections": [
+   ("Quem somos", ["O MyTickets Tours (mytickets.tours) é um site afiliado de ingressos para eventos esportivos e shows, mantido por Everton Bras.",
+                   "Não vendemos ingressos. A compra acontece no site da SportsEvents365, que é responsável pela venda, pelo pagamento e pela entrega."]),
+   ("Que dados tratamos", ["Navegação: os serviços que hospedam o site (Microsoft Azure e GitHub) registram dados técnicos, como endereço IP e tipo de navegador, para manter o site no ar e protegido.",
+                           "Alertas de venda: se você pedir um alerta, guardamos seu e-mail, o evento escolhido e o idioma, com o seu consentimento. O cadastro chega à nossa caixa de e-mail pelo serviço FormSubmit.",
+                           "Atendimento no WhatsApp: se você falar conosco, tratamos seu número e suas mensagens para responder, pela plataforma da Meta.",
+                           "Cookies: hoje o site não usa cookies de estatística nem de publicidade. Se passarmos a usar o Google Analytics, vamos pedir seu consentimento antes.",
+                           "Links de afiliado: quando você clica num link para a SportsEvents365, o parceiro registra que você veio do MyTickets (código a_aid) para calcular nossa comissão. A partir daí vale a política de privacidade da SportsEvents365."]),
+   ("Para que usamos", ["Enviar o alerta que você pediu, responder suas mensagens e manter o site funcionando e seguro. Não vendemos nem alugamos seus dados."]),
+   ("Base legal", ["Consentimento para alertas, atendimento e estatísticas (LGPD, art. 7º, I; GDPR, art. 6(1)(a)). Interesse legítimo para a segurança e o funcionamento do site (LGPD, art. 7º, IX; GDPR, art. 6(1)(f))."]),
+   ("Por quanto tempo", ["E-mails de alerta: até o evento acontecer ou até você pedir para sair, o que vier primeiro. Conversas do WhatsApp: até 12 meses."]),
+   ("Compartilhamento e transferência internacional", ["Seus dados passam apenas pelos fornecedores citados acima (Microsoft, GitHub, FormSubmit, Meta e, se ativado, Google). Eles podem tratar os dados fora do seu país, sob as garantias contratuais de cada um."]),
+   ("Seus direitos", ["Você pode pedir acesso, correção, exclusão e portabilidade dos seus dados, e retirar o consentimento a qualquer momento. Escreva para email@mytickets.tours e respondemos em até 15 dias.",
+                      "Você também pode reclamar à ANPD, no Brasil, ou à autoridade de proteção de dados do seu país."]),
+   ("Menores de idade", ["O site não é voltado para menores de 18 anos. Compras de ingressos devem ser feitas por adultos."]),
+   ("Mudanças", ["Se esta política mudar, a data no topo da página será atualizada."]),
+  ],
+  "contact_h": "Contato", "resp": "Responsável"},
+ "en": {"path": "en/privacy/", "link": "PRIVACY AND CONTACT", "title": "Privacy policy | MyTickets Tours",
+  "desc": "How MyTickets Tours handles your data, and how to reach us.", "h1": "Privacy policy",
+  "updated": "Last updated October 14, 2026.",
+  "sections": [
+   ("Who we are", ["MyTickets Tours (mytickets.tours) is an affiliate site for sports and concert tickets, run by Everton Bras.",
+                   "We do not sell tickets. Purchases happen on the SportsEvents365 site, which is responsible for the sale, payment and delivery."]),
+   ("What data we handle", ["Browsing: the services that host the site (Microsoft Azure and GitHub) log technical data, such as IP address and browser type, to keep the site running and secure.",
+                            "Sale alerts: if you ask for an alert, we keep your email, the event you chose and your language, with your consent. The sign-up reaches our inbox through the FormSubmit service.",
+                            "WhatsApp support: if you message us, we handle your number and messages to reply, through Meta's platform.",
+                            "Cookies: the site currently uses no analytics or advertising cookies. If we start using Google Analytics, we will ask for your consent first.",
+                            "Affiliate links: when you click a link to SportsEvents365, the partner records that you came from MyTickets (code a_aid) to calculate our commission. From then on, the SportsEvents365 privacy policy applies."]),
+   ("Why we use it", ["To send the alert you asked for, reply to your messages and keep the site running and secure. We never sell or rent your data."]),
+   ("Legal basis", ["Consent for alerts, support and analytics (GDPR Art. 6(1)(a); LGPD Art. 7, I). Legitimate interest for security and operation of the site (GDPR Art. 6(1)(f); LGPD Art. 7, IX)."]),
+   ("How long we keep it", ["Alert emails: until the event takes place or until you unsubscribe, whichever comes first. WhatsApp conversations: up to 12 months."]),
+   ("Sharing and international transfers", ["Your data only goes through the providers named above (Microsoft, GitHub, FormSubmit, Meta and, if enabled, Google). They may process data outside your country under their own contractual safeguards."]),
+   ("Your rights", ["You can ask to access, correct, delete or port your data, and withdraw consent at any time. Write to email@mytickets.tours and we will reply within 15 days.",
+                    "You can also complain to the data protection authority in your country."]),
+   ("Minors", ["The site is not aimed at people under 18. Ticket purchases must be made by adults."]),
+   ("Changes", ["If this policy changes, the date at the top of the page will be updated."]),
+  ],
+  "contact_h": "Contact", "resp": "Responsible person"},
+ "es": {"path": "es/privacidad/", "link": "PRIVACIDAD Y CONTACTO", "title": "Política de privacidad | MyTickets Tours",
+  "desc": "Cómo MyTickets Tours trata tus datos y cómo contactarnos.", "h1": "Política de privacidad",
+  "updated": "Actualizada el 14 de octubre de 2026.",
+  "sections": [
+   ("Quiénes somos", ["MyTickets Tours (mytickets.tours) es un sitio afiliado de entradas para eventos deportivos y conciertos, gestionado por Everton Bras.",
+                      "No vendemos entradas. La compra se hace en el sitio de SportsEvents365, responsable de la venta, el pago y la entrega."]),
+   ("Qué datos tratamos", ["Navegación: los servicios que alojan el sitio (Microsoft Azure y GitHub) registran datos técnicos, como la dirección IP y el navegador, para mantener el sitio activo y seguro.",
+                           "Alertas de venta: si pides una alerta, guardamos tu correo, el evento elegido y el idioma, con tu consentimiento. El registro llega a nuestro correo mediante el servicio FormSubmit.",
+                           "Atención por WhatsApp: si nos escribes, tratamos tu número y tus mensajes para responderte, a través de la plataforma de Meta.",
+                           "Cookies: hoy el sitio no usa cookies de estadística ni de publicidad. Si empezamos a usar Google Analytics, te pediremos el consentimiento antes.",
+                           "Enlaces de afiliado: al hacer clic en un enlace a SportsEvents365, el socio registra que llegaste desde MyTickets (código a_aid) para calcular nuestra comisión. Desde ese momento rige la política de privacidad de SportsEvents365."]),
+   ("Para qué los usamos", ["Enviar la alerta que pediste, responder tus mensajes y mantener el sitio funcionando y seguro. Nunca vendemos ni alquilamos tus datos."]),
+   ("Base legal", ["Consentimiento para alertas, atención y estadísticas (RGPD, art. 6.1.a; LGPD, art. 7, I). Interés legítimo para la seguridad y el funcionamiento del sitio (RGPD, art. 6.1.f; LGPD, art. 7, IX)."]),
+   ("Cuánto tiempo", ["Correos de alerta: hasta que se celebre el evento o hasta que te des de baja, lo que ocurra primero. Conversaciones de WhatsApp: hasta 12 meses."]),
+   ("Cesión y transferencias internacionales", ["Tus datos solo pasan por los proveedores citados (Microsoft, GitHub, FormSubmit, Meta y, si se activa, Google). Pueden tratarlos fuera de tu país bajo sus propias garantías contractuales."]),
+   ("Tus derechos", ["Puedes pedir acceso, rectificación, supresión y portabilidad de tus datos, y retirar el consentimiento en cualquier momento. Escribe a email@mytickets.tours y respondemos en un plazo de 15 días.",
+                     "También puedes reclamar ante la autoridad de protección de datos de tu país."]),
+   ("Menores", ["El sitio no está dirigido a menores de 18 años. Las compras de entradas deben hacerlas adultos."]),
+   ("Cambios", ["Si esta política cambia, se actualizará la fecha al inicio de la página."]),
+  ],
+  "contact_h": "Contacto", "resp": "Responsable"},
+}
+CONTATO_EMAIL = "email@mytickets.tours"
+RESPONSAVEL = "Everton Bras"
+
+
+def privacidade(lang):
+    pv = PRIV[lang]
+    pagina = pv["path"]
+    alternos = {l: PRIV[l]["path"] for l in IDIOMAS}
+    h = cabeca(lang, pagina, pv["title"], pv["desc"], alternos)
+    secoes = "".join(f"<h2>{e(tit)}</h2>" + "".join(f"<p>{e(x)}</p>" for x in pars) for tit, pars in pv["sections"])
+    corpo = f"""
+<body>
+{topo(lang, pagina, alternos)}
+<main class="band">
+  <article class="wrap legal">
+    <p class="kicker">MyTickets Tours</p>
+    <h1>{e(pv['h1'])}</h1>
+    <p class="disclose">{e(pv['updated'])}</p>
+    {secoes}
+    <h2 id="contato">{e(pv['contact_h'])}</h2>
+    <p>{e(pv['resp'])}: {e(RESPONSAVEL)}<br>E-mail: <a href="mailto:{CONTATO_EMAIL}">{CONTATO_EMAIL}</a></p>
+  </article>
+</main>
+"""
+    return h + corpo + rodape(lang, pagina, alternos)
+
+
 ROTULOS_CAT = {
  "pt": {"ev": "Eventos com página", "comp": "Ligas e campeonatos", "teams": "Times", "cities": "Cidades", "music": "Artistas", "sports": "Esportes",
         "home": "Catálogo completo do parceiro", "date": "Data", "venue": "Local", "guide": "Guia no site", "tickets": "Ingressos"},
@@ -698,6 +791,11 @@ def main():
             (RAIZ / p).mkdir(parents=True, exist_ok=True)
             (RAIZ / p / "index.html").write_text(evento(lang, ev, eventos), encoding="utf-8")
             urls.append(p)
+    for lang in IDIOMAS:
+        p = PRIV[lang]["path"]
+        (RAIZ / p).mkdir(parents=True, exist_ok=True)
+        (RAIZ / p / "index.html").write_text(privacidade(lang), encoding="utf-8")
+        urls.append(p)
     gerar_catalogo(eventos)
     mapa ="\n".join(f"  <url><loc>{BASE_URL}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
     (RAIZ / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{mapa}\n</urlset>\n', encoding="utf-8")

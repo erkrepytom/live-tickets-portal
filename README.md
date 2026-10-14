@@ -16,13 +16,13 @@ All pages are generated. Do not edit them by hand.
 
 1. Edit `data/eventos.json`. The `id` is the SportsEvents365 event number (`/event/<id>`).
 2. Run `python scripts/gerar_paginas.py`.
-3. Commit and push. GitHub Pages publishes on every push to `main`.
+3. Commit and push. Every push to `main` publishes to mytickets.tours (Azure) and to the GitHub Pages mirror.
 
 Past events are dropped automatically the next time the script runs.
 
 ## Affiliate links
 
-Every ticket link goes straight to the matching event, competition, team, city or artist page at the partner, with `a_aid=6821d72fcdbe3`. Each language uses the partner's own site: `365tickets.com.br` (PT), `sportsevents365.com` (EN) and `sportsevents365.es` (ES).
+Every ticket link goes straight to the matching event, competition, team, city or artist page on sportsevents365.com, with `a_aid=6821d72fcdbe3`.
 
 ## Assets
 
@@ -33,12 +33,16 @@ Every ticket link goes straight to the matching event, competition, team, city o
 
 ## News robot
 
-`.github/workflows/noticias.yml` updates `dados.json` every hour. The Portuguese home page shows those headlines.
+`.github/workflows/noticias.yml` updates `dados.json` every hour and republishes the site. The home pages show one news block per country, ordered by GA4 visitors when configured.
 
-## Before going live on mytickets.tours
+## Hosting
 
-- Point the domain at GitHub Pages and change `BASE_URL` in `scripts/gerar_paginas.py`.
-- Connect the alert form to an email provider and add the WhatsApp channel links.
+The official site is https://mytickets.tours, served by the Azure Static Web App `app-mytickets-tours` (Free plan). Both workflows deploy there on every push and every hourly news update, using the `AZURE_STATIC_WEB_APPS_API_TOKEN` secret. `/tickets` redirects to the partner for old links (see `staticwebapp.config.json`). GitHub Pages keeps a mirror; canonical URLs point to mytickets.tours.
+
+## Still to do
+
+- Connect the alert form (`FORM_ENDPOINT`) and add the WhatsApp channel links.
+- Add `GA_MEASUREMENT_ID` and the GA4 secrets, with a cookie consent banner.
 
 ## Affiliate disclosure
 

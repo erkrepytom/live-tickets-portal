@@ -8,7 +8,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Sunday, October 25, 2026
 - Venue: Camp Nou, Barcelona, Spain (La Liga)
 - Tickets: https://sportsevents365.com/event/395343?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/barcelona-vs-real-madrid-2026-10-25/
+- Guide on the site: https://mytickets.tours/en/events/barcelona-vs-real-madrid-2026-10-25/
 - Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal.
 - Arrive 90 minutes early for El Clásico. Security lines are slow.
 
@@ -16,7 +16,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Saturday, October 31, 2026
 - Venue: San Siro (Giuseppe Meazza), Milan, Italy (Serie A)
 - Tickets: https://sportsevents365.com/event/391609?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/milan-vs-inter-2026-10-31/
+- Guide on the site: https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/
 - Metro M5 to San Siro Stadio station, next to the stadium.
 - Tram 16 also stops at the square in front of the stadium.
 
@@ -24,7 +24,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Thursday, November 12, 2026
 - Venue: San Siro (Giuseppe Meazza), Milan, Italy (UEFA Nations League)
 - Tickets: https://sportsevents365.com/event/387682?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/italia-vs-franca-2026-11-12/
+- Guide on the site: https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/
 - Metro M5 to San Siro Stadio station, next to the stadium.
 - Night internationals pack the metro after the final whistle. It pays to wait 20 minutes.
 
@@ -32,7 +32,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Friday, November 13, 2026
 - Venue: Stade de France, Paris, France (World Rugby Nations Championship)
 - Tickets: https://sportsevents365.com/event/383977?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/franca-vs-africa-do-sul-2026-11-13/
+- Guide on the site: https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/
 - RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.
 - Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away.
 
@@ -40,7 +40,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Sunday, December 6, 2026
 - Venue: Yas Marina Circuit, Abu Dhabi, United Arab Emirates (Formula 1)
 - Tickets: https://sportsevents365.com/event/387903?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/gp-abu-dhabi-f1-2026-12-06/
+- Guide on the site: https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/
 - The circuit is on Yas Island, about 30 minutes by car from central Abu Dhabi.
 - Organizers usually run shuttle buses on race weekend. Check the official GP site.
 
@@ -48,7 +48,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Tuesday, December 8, 2026
 - Venue: Camp Nou, Barcelona, Spain (UEFA Champions League)
 - Tickets: https://sportsevents365.com/event/402363?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/barcelona-vs-manchester-city-2026-12-08/
+- Guide on the site: https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/
 - Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal.
 - Champions League games are on weeknights. Book a hotel near a metro line.
 
@@ -56,7 +56,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Monday, January 11, 2027
 - Venue: Madison Square Garden, New York, USA (NBA)
 - Tickets: https://sportsevents365.com/event/401302?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/knicks-vs-nuggets-2027-01-11/
+- Guide on the site: https://mytickets.tours/en/events/knicks-vs-nuggets-2027-01-11/
 - The arena sits above Penn Station: subway 1, 2, 3, A, C and E to 34 St–Penn Station.
 - Doors usually open one hour before tip-off.
 
@@ -64,7 +64,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Sunday, January 31, 2027
 - Venue: Rod Laver Arena, Melbourne, Australia (Australian Open (Grand Slam))
 - Tickets: https://sportsevents365.com/event/390886?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/final-australian-open-2027-01-31/
+- Guide on the site: https://mytickets.tours/en/events/final-australian-open-2027-01-31/
 - Rod Laver Arena is in Melbourne Park, about a 15-minute walk from Flinders Street station.
 - Extra trams run to Melbourne Park during the tournament. Check times on the Australian Open site.
 
@@ -72,7 +72,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Friday, May 14, 2027
 - Venue: Paris La Défense Arena, Paris, France (Concerts)
 - Tickets: https://sportsevents365.com/event/391312?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/celine-dion-paris-2027-05-14/
+- Guide on the site: https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/
 - RER A, metro line 1 or tram T2 to La Défense–Grande Arche.
 - The arena is about a 10-minute walk from the station.
 
@@ -80,7 +80,7 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 - Date: Saturday, June 5, 2027
 - Venue: Estadio Metropolitano, Madrid, Spain (UEFA Champions League)
 - Tickets: https://sportsevents365.com/event/399236?a_aid=6821d72fcdbe3
-- Guide on the site: https://erkrepytom.github.io/live-tickets-portal/en/events/final-champions-league-2027-06-05/
+- Guide on the site: https://mytickets.tours/en/events/final-champions-league-2027-06-05/
 - Metro line 7 to Estadio Metropolitano station, right outside the stadium.
 - Arrive two hours early for a final. Security and queues are long.
 
