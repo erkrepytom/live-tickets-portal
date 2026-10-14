@@ -3,837 +3,182 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="description" content="Garanta ingressos para os maiores eventos esportivos, jogos de futebol europeu e shows internacionais.">
-<title>MyTickets Tours | Ingressos Esportivos e Shows Internacionais</title>
-<meta name="description" content="Compare e garanta ingressos para Premier League, Champions League, La Liga, Série A, NBA, tênis e shows internacionais. Vídeos, destaques e ofertas atualizadas.">
-<link rel="canonical" href="https://mytickets.tours/">
+<title>MyTickets Tours | Ingressos para esporte e shows no mundo todo</title>
+<meta name="description" content="Ingressos para La Liga, Serie A, Champions League, NBA, Fórmula 1, tênis e shows internacionais, com o guia de cada evento. Venda e entrega pela SportsEvents365.">
+<link rel="canonical" href="https://erkrepytom.github.io/live-tickets-portal/">
+<link rel="alternate" hreflang="pt-BR" href="https://erkrepytom.github.io/live-tickets-portal/">
+<link rel="alternate" hreflang="en" href="https://erkrepytom.github.io/live-tickets-portal/en/">
+<link rel="alternate" hreflang="es" href="https://erkrepytom.github.io/live-tickets-portal/es/">
+<link rel="alternate" hreflang="x-default" href="https://erkrepytom.github.io/live-tickets-portal/en/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="MyTickets Tours | Ingressos Esportivos e Shows Internacionais">
-<meta property="og:description" content="Ingressos para futebol europeu, NBA, tênis e shows mundiais, com vídeos e destaques do dia.">
-<meta property="og:url" content="https://mytickets.tours/">
+<meta property="og:title" content="MyTickets Tours | Ingressos para esporte e shows no mundo todo">
+<meta property="og:description" content="Ingressos para La Liga, Serie A, Champions League, NBA, Fórmula 1, tênis e shows internacionais, com o guia de cada evento. Venda e entrega pela SportsEvents365.">
+<meta property="og:url" content="https://erkrepytom.github.io/live-tickets-portal/">
 <meta property="og:locale" content="pt_BR">
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Roboto+Condensed:wght@500;700&family=Roboto+Slab:wght@500;600;700&family=Chakra+Petch:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<script src="https://cdn.tailwindcss.com/3.4.17"></script>
-<script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@500;700&family=Chakra+Petch:wght@600&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="assets/site.css">
 <style>
-  /* Layout: portal esportivo em 3 colunas (menu | vídeo + afiliados | destaques) seguido da vitrine de ingressos e rodapé */
-  :root{
-    color-scheme: light;
-    --page:#eceef0; --card:#ffffff; --ink:#1c1d1f; --muted:#6b6e73; --line:#e3e4e6;
-    --nav:#1f2022; --brand:#d0021b; --teal:#1a6574; --gold:#f2a900;
-    --navy:#0b3d6e; --sky:#1aa3d9; --cta:#ec6a1e; --promo:#ee4d2d; --foot:#f0f1f6;
-    --f-body:'Roboto',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
-    --f-cond:'Roboto Condensed','Arial Narrow',Arial,sans-serif;
-    --f-slab:'Roboto Slab',Georgia,serif;
-  }
-  html,body{margin:0;background:var(--page);color:var(--ink);font-family:var(--f-body)}
-  .gutter{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-  .cond{font-family:var(--f-cond)}
-  .slab{font-family:var(--f-slab)}
-  .tnum{font-variant-numeric:tabular-nums}
-  .no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{scrollbar-width:none}
-  .ph{background-color:#2a3442;background-size:cover;background-position:center}
-  .facade:hover .playbtn{transform:scale(1.08);background:var(--brand)}
-  .playbtn{transition:transform .2s,background .2s}
-  .aff-link{transition:background .15s,color .15s,border-color .15s}
-  a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
-  .slide{transition:opacity .6s ease}
-  @media (prefers-reduced-motion:reduce){.slide,.playbtn,.aff-link{transition:none}}
-</style>
-</head>
-<body>
-
-
-<!-- ============ BANNER 3D (sistema solar esportivo) ============ -->
-<style>
+/* Estilos originais do banner 3D "Universo MyTickets". */
   #banner3d{position:relative;height:300px;background:#05060d;overflow:hidden}
   #cena3d{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:pan-y}
   #rotulos3d .rotulo{position:absolute;left:0;top:0;pointer-events:none;font:10.5px 'IBM Plex Mono',ui-monospace,Menlo,monospace;color:#e6e9ff;white-space:nowrap;text-shadow:0 0 4px #000,0 0 2px #000}
   #rotulos3d .rotulo small{display:block;color:#8b91b8;font-size:9.5px;text-align:center}
   @media (max-width:640px){#banner3d{height:240px}#rotulos3d{display:none}}
 </style>
+</head>
+<body data-gate="PORTÃO" data-admit="ENTRADA · 1" data-ticket="FC BARCELONA X REAL MADRID" data-venue="CAMP NOU · BARCELONA">
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="" aria-label="MyTickets Tours">MY<b>TICKETS</b>.TOURS</a>
+    <nav class="nav" aria-label="Menu"><a href="#partidas">Partidas</a><a href="#explorar">Explorar</a><a href="#video">Como funciona</a><a href="#alertas">Alertas</a></nav>
+    <div class="top-r">
+      <nav class="langs" aria-label="Idioma / Language"><a href="" hreflang="pt-BR" aria-current="true">PT</a><a href="en/" hreflang="en" aria-current="false">EN</a><a href="es/" hreflang="es" aria-current="false">ES</a></nav>
+      <a class="btn btn-signal btn-sm" data-magnetic href="https://365tickets.com.br/?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="mag-inner">Ver ingressos</span></a>
+    </div>
+  </div>
+</header>
+<main id="inicio">
+<section class="hero" data-parallax aria-labelledby="hero-h">
+  <div class="layer l-photo photo" data-depth="0.12" style="background-image:url('assets/img/hero.jpg');"></div>
+  <div class="layer l-shade"></div>
+  <div class="layer l-glow" data-depth="0.15"></div>
+  <div class="layer l-grid" data-depth="0.3" aria-hidden="true"><svg viewBox="0 0 1200 700" preserveAspectRatio="none"><g stroke="rgba(160,190,230,.18)" stroke-width="1" fill="none"><path d="M600 330 L-200 700 M600 330 L100 700 M600 330 L400 700 M600 330 L800 700 M600 330 L1100 700 M600 330 L1400 700"/><path d="M0 420 H1200 M0 480 H1200 M0 560 H1200 M0 660 H1200"/></g></svg></div>
+  <div class="layer l-bowl" data-depth="0.5" aria-hidden="true"><svg viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice"><g fill="none" stroke="rgba(255,196,0,.22)" stroke-width="1.5"><ellipse cx="900" cy="330" rx="420" ry="120"/><ellipse cx="900" cy="330" rx="330" ry="88"/><ellipse cx="900" cy="330" rx="240" ry="58" stroke="rgba(255,196,0,.35)"/></g><g stroke="rgba(238,242,246,.35)" stroke-width="3"><path d="M520 330 V170 M1280 330 V170 M640 300 V150 M1160 300 V150"/></g></svg></div>
+  <div class="wrap">
+    <div class="hero-copy on-night">
+      <p class="kicker">Ingressos para esporte e shows no mundo todo</p>
+      <h1 id="hero-h"><span class="sr">Partidas para o jogo</span>
+        <span class="flapline" data-flap="PARTIDAS PARA" data-w="13" aria-hidden="true">PARTIDAS PARA</span>
+        <span class="flapline" data-flap="O JOGO" data-w="13" aria-hidden="true">O JOGO</span></h1>
+      <p class="hero-sub">Escolha o evento, entenda a viagem e compre no parceiro oficial. Em português, inglês e espanhol.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-signal" data-magnetic href="https://365tickets.com.br/?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="mag-inner">Ver ingressos <span class="arrow" aria-hidden="true">→</span></span></a>
+        <a class="btn btn-ghost" data-magnetic href="#alertas"><span class="mag-inner">Receber alertas</span></a>
+      </div>
+      <p class="hero-note">Ingressos vendidos e entregues pela SportsEvents365.</p>
+    </div>
+    <div class="passes" aria-hidden="true"><a class="pass" data-i="1" data-depth="0.9" data-rot="-6" style="left:0;top:2%" href="eventos/barcelona-vs-real-madrid-2026-10-25/" tabindex="-1"><span class="pass-top"><span>GRU</span><span>PORTÃO 7</span></span><span class="pass-body"><span class="pass-route">GRU → BCN</span><span class="pass-venue">Camp Nou · Barcelona</span></span><span class="pass-stub"><span>25 OUT</span><span class="bars"></span></span></a><a class="pass" data-i="2" data-depth="1.4" data-rot="5" style="left:44%;top:40%" href="eventos/knicks-vs-nuggets-2027-01-11/" tabindex="-1"><span class="pass-top"><span>MEX</span><span>PORTÃO 10</span></span><span class="pass-body"><span class="pass-route">MEX → JFK</span><span class="pass-venue">Madison Square Garden · Nova York</span></span><span class="pass-stub"><span>11 JAN</span><span class="bars"></span></span></a><a class="pass" data-i="3" data-depth="0.6" data-rot="3" style="left:4%;top:60%" href="eventos/final-australian-open-2027-01-31/" tabindex="-1"><span class="pass-top"><span>EZE</span><span>PORTÃO 13</span></span><span class="pass-body"><span class="pass-route">EZE → MEL</span><span class="pass-venue">Rod Laver Arena · Melbourne</span></span><span class="pass-stub"><span>31 JAN</span><span class="bars"></span></span></a><a class="pass" data-i="4" data-depth="1.1" data-rot="-3" style="left:50%;top:-4%" href="eventos/final-champions-league-2027-06-05/" tabindex="-1"><span class="pass-top"><span>LIS</span><span>PORTÃO 16</span></span><span class="pass-body"><span class="pass-route">LIS → MAD</span><span class="pass-venue">Estadio Metropolitano · Madri</span></span><span class="pass-stub"><span>05 JUN</span><span class="bars"></span></span></a></div>
+  </div>
+</section>
+
+<section class="band" id="partidas" aria-labelledby="board-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">Painel de partidas</p><h2 id="board-h" data-scramble>Próximas partidas</h2></div><p>Toque no nome para ver o guia do evento, ou em embarque para ir direto aos ingressos.</p></div>
+    <div class="board">
+      <div class="board-scroll"><div class="board-grid" id="board" role="list">
+        <div class="b-row b-head" aria-hidden="true"><span>QUANDO</span><span>EVENTO</span><span class="b-city">CIDADE</span><span style="justify-self:end">STATUS</span></div>
+        <div class="b-row" role="listitem"><span class="flapline" data-flap="25 OUT" data-w="6" aria-label="domingo, 25 de outubro de 2026">25 OUT</span><a class="flapline b-event" href="eventos/barcelona-vs-real-madrid-2026-10-25/" data-flap="BARCELONA X R. MADRID" data-w="22" aria-label="FC Barcelona x Real Madrid">BARCELONA X R. MADRID</a><span class="flapline b-city" data-flap="BARCELONA" data-w="10">BARCELONA</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/395343?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: FC Barcelona x Real Madrid">EMBARQUE</a></div><div class="b-row" role="listitem"><span class="flapline" data-flap="31 OUT" data-w="6" aria-label="sábado, 31 de outubro de 2026">31 OUT</span><a class="flapline b-event" href="eventos/milan-vs-inter-2026-10-31/" data-flap="MILAN X INTER" data-w="22" aria-label="AC Milan x Inter">MILAN X INTER</a><span class="flapline b-city" data-flap="MILÃO" data-w="10">MILÃO</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/391609?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: AC Milan x Inter">EMBARQUE</a></div><div class="b-row" role="listitem"><span class="flapline" data-flap="12 NOV" data-w="6" aria-label="quinta, 12 de novembro de 2026">12 NOV</span><a class="flapline b-event" href="eventos/italia-vs-franca-2026-11-12/" data-flap="ITÁLIA X FRANÇA" data-w="22" aria-label="Itália x França">ITÁLIA X FRANÇA</a><span class="flapline b-city" data-flap="MILÃO" data-w="10">MILÃO</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/387682?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: Itália x França">EMBARQUE</a></div><div class="b-row" role="listitem"><span class="flapline" data-flap="13 NOV" data-w="6" aria-label="sexta, 13 de novembro de 2026">13 NOV</span><a class="flapline b-event" href="eventos/franca-vs-africa-do-sul-2026-11-13/" data-flap="FRANÇA X ÁFRICA DO SUL" data-w="22" aria-label="França x África do Sul">FRANÇA X ÁFRICA DO SUL</a><span class="flapline b-city" data-flap="PARIS" data-w="10">PARIS</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/383977?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: França x África do Sul">EMBARQUE</a></div><div class="b-row" role="listitem"><span class="flapline" data-flap="06 DEZ" data-w="6" aria-label="domingo, 6 de dezembro de 2026">06 DEZ</span><a class="flapline b-event" href="eventos/gp-abu-dhabi-f1-2026-12-06/" data-flap="GP DE ABU DHABI F1" data-w="22" aria-label="GP de Abu Dhabi de Fórmula 1">GP DE ABU DHABI F1</a><span class="flapline b-city" data-flap="ABU DHABI" data-w="10">ABU DHABI</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/387903?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: GP de Abu Dhabi de Fórmula 1">EMBARQUE</a></div><div class="b-row" role="listitem"><span class="flapline" data-flap="08 DEZ" data-w="6" aria-label="terça, 8 de dezembro de 2026">08 DEZ</span><a class="flapline b-event" href="eventos/barcelona-vs-manchester-city-2026-12-08/" data-flap="BARCELONA X MAN. CITY" data-w="22" aria-label="FC Barcelona x Manchester City">BARCELONA X MAN. CITY</a><span class="flapline b-city" data-flap="BARCELONA" data-w="10">BARCELONA</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/402363?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: FC Barcelona x Manchester City">EMBARQUE</a></div><div class="b-row" role="listitem"><span class="flapline" data-flap="11 JAN" data-w="6" aria-label="segunda, 11 de janeiro de 2027">11 JAN</span><a class="flapline b-event" href="eventos/knicks-vs-nuggets-2027-01-11/" data-flap="KNICKS X NUGGETS" data-w="22" aria-label="New York Knicks x Denver Nuggets">KNICKS X NUGGETS</a><span class="flapline b-city" data-flap="NOVA YORK" data-w="10">NOVA YORK</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/401302?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: New York Knicks x Denver Nuggets">EMBARQUE</a></div><div class="b-row" role="listitem"><span class="flapline" data-flap="31 JAN" data-w="6" aria-label="domingo, 31 de janeiro de 2027">31 JAN</span><a class="flapline b-event" href="eventos/final-australian-open-2027-01-31/" data-flap="FINAL AUSTRALIAN OPEN" data-w="22" aria-label="Final masculina do Australian Open">FINAL AUSTRALIAN OPEN</a><span class="flapline b-city" data-flap="MELBOURNE" data-w="10">MELBOURNE</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/390886?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: Final masculina do Australian Open">EMBARQUE</a></div><div class="b-row" role="listitem"><span class="flapline" data-flap="14 MAI" data-w="6" aria-label="sexta, 14 de maio de 2027">14 MAI</span><a class="flapline b-event" href="eventos/celine-dion-paris-2027-05-14/" data-flap="CELINE DION · PARIS" data-w="22" aria-label="Celine Dion em Paris">CELINE DION · PARIS</a><span class="flapline b-city" data-flap="PARIS" data-w="10">PARIS</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/391312?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: Celine Dion em Paris">EMBARQUE</a></div><div class="b-row" role="listitem"><span class="flapline" data-flap="05 JUN" data-w="6" aria-label="sábado, 5 de junho de 2027">05 JUN</span><a class="flapline b-event" href="eventos/final-champions-league-2027-06-05/" data-flap="FINAL DA CHAMPIONS" data-w="22" aria-label="Final da Champions League 2027">FINAL DA CHAMPIONS</a><span class="flapline b-city" data-flap="MADRI" data-w="10">MADRI</span><a class="flapline b-status blink" href="https://365tickets.com.br/event/399236?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic data-flap="EMBARQUE" data-w="8" aria-label="EMBARQUE: Final da Champions League 2027">EMBARQUE</a></div>
+      </div></div>
+      <div class="board-foot"><span>Datas do catálogo do parceiro. Confira data, horário, setor e preço final antes de pagar.</span><span>Hora local <span class="clock" id="clock">--:--</span></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="destaques" aria-labelledby="feat-h" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">Em destaque</p><h2 id="feat-h" data-scramble>Os próximos embarques</h2></div><p>As três datas mais próximas, com guia completo.</p></div>
+    <div class="cards"><a class="card" href="eventos/barcelona-vs-real-madrid-2026-10-25/">
+  <div class="card-img photo" style="background-image:url('https://images.unsplash.com/photo-1551958219-acbc608c6377?w=800&q=70&auto=format&fit=crop');"><span class="card-date">25 OUT 2026</span></div>
+  <div class="card-body"><h3>FC Barcelona x Real Madrid</h3><p>Camp Nou · Barcelona</p></div>
+</a><a class="card" href="eventos/milan-vs-inter-2026-10-31/">
+  <div class="card-img photo" style="background-image:url('https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=800&q=70&auto=format&fit=crop');"><span class="card-date">31 OUT 2026</span></div>
+  <div class="card-body"><h3>AC Milan x Inter</h3><p>San Siro (Giuseppe Meazza) · Milão</p></div>
+</a><a class="card" href="eventos/italia-vs-franca-2026-11-12/">
+  <div class="card-img photo" style="background-image:url('https://images.unsplash.com/photo-1556056504-5c7696c4c28d?w=800&q=70&auto=format&fit=crop');"><span class="card-date">12 NOV 2026</span></div>
+  <div class="card-body"><h3>Itália x França</h3><p>San Siro (Giuseppe Meazza) · Milão</p></div>
+</a></div>
+  </div>
+</section>
+
+<section class="band" id="explorar" aria-labelledby="exp-h" style="padding-top:0">
+  <div class="wrap explore">
+    <div class="sec-head" style="margin:0"><div><p class="kicker">Explorar</p><h2 id="exp-h" data-scramble>Por esporte, cidade e artista</h2></div><p>Cada nome abre a página certa no catálogo do parceiro.</p></div>
+    <div class="tiles-photo"><a class="ptile" href="https://365tickets.com.br/events/type/1000?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="photo" style="background-image:url('assets/img/10-brazil.jpg');background-position:right center;"></span><span>Futebol</span></a><a class="ptile" href="https://365tickets.com.br/events/type/1001?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="photo" style="background-image:url('https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=600&q=70&auto=format&fit=crop');"></span><span>Tênis</span></a><a class="ptile" href="https://365tickets.com.br/events/type/1002?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="photo" style="background-image:url('https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=70&auto=format&fit=crop');"></span><span>Basquete</span></a><a class="ptile" href="https://365tickets.com.br/events/type/1003?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="photo" style="background-image:url('assets/img/01-formula-1.jpg');background-position:right center;"></span><span>Automobilismo</span></a><a class="ptile" href="https://365tickets.com.br/events/type/1020?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="photo" style="background-image:url('assets/img/08-six-nations.jpg');background-position:right center;"></span><span>Rúgbi</span></a><a class="ptile" href="https://365tickets.com.br/events/type/1005?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="photo" style="background-image:url('https://images.unsplash.com/photo-1508344928928-7165b67de128?w=600&q=70&auto=format&fit=crop');"></span><span>Beisebol</span></a><a class="ptile" href="https://365tickets.com.br/events/type/1010?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="photo" style="background-image:url('https://images.unsplash.com/photo-1515703407324-5f753afd8be8?w=600&q=70&auto=format&fit=crop');"></span><span>Hóquei no gelo</span></a><a class="ptile" href="https://365tickets.com.br/concerts?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener"><span class="photo" style="background-image:url('assets/img/11-concerts.jpg');background-position:right center;"></span><span>Shows</span></a></div>
+    <div class="chips-group"><h3>Ligas e campeonatos</h3><div class="chips"><a class="chip" href="https://365tickets.com.br/dock/competition/premier-league?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Premier League</a><a class="chip" href="https://365tickets.com.br/dock/competition/la-liga?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">La Liga</a><a class="chip" href="https://365tickets.com.br/dock/competition/serie-a?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Serie A</a><a class="chip" href="https://365tickets.com.br/dock/competition/nba?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">NBA</a><a class="chip" href="https://365tickets.com.br/dock/competition/nhl?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">NHL</a><a class="chip" href="https://365tickets.com.br/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">MLB</a><a class="chip" href="https://365tickets.com.br/dock/competition/formula-1?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Fórmula 1</a></div></div>
+    <div class="chips-group"><h3>Times</h3><div class="chips"><a class="chip" href="https://365tickets.com.br/dock/team/barcelona-fc?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">FC Barcelona</a><a class="chip" href="https://365tickets.com.br/dock/team/ac-milan?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">AC Milan</a><a class="chip" href="https://365tickets.com.br/dock/team/inter?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Inter</a><a class="chip" href="https://365tickets.com.br/dock/team/as-roma?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">AS Roma</a></div></div>
+    <div class="chips-group"><h3>Cidades</h3><div class="chips"><a class="chip" href="https://365tickets.com.br/dock/cities/barcelona?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Barcelona</a><a class="chip" href="https://365tickets.com.br/dock/cities/madrid?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Madri</a><a class="chip" href="https://365tickets.com.br/dock/cities/rome?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Roma</a><a class="chip" href="https://365tickets.com.br/dock/cities/milano?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Milão</a><a class="chip" href="https://365tickets.com.br/dock/cities/london?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Londres</a><a class="chip" href="https://365tickets.com.br/dock/cities/paris?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Paris</a><a class="chip" href="https://365tickets.com.br/dock/cities/amsterdam?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Amsterdã</a><a class="chip" href="https://365tickets.com.br/dock/cities/berlin?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Berlim</a></div></div>
+    <div class="chips-group"><h3>Shows e artistas</h3><div class="chips"><a class="chip" href="https://365tickets.com.br/dock/music/oasis?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Oasis</a><a class="chip" href="https://365tickets.com.br/dock/music/steviewonder?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Stevie Wonder</a><a class="chip" href="https://365tickets.com.br/dock/music/andrea-bocelli?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Andrea Bocelli</a><a class="chip" href="https://365tickets.com.br/dock/music/shakira?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Shakira</a><a class="chip" href="https://365tickets.com.br/dock/music/bts?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">BTS</a><a class="chip" href="https://365tickets.com.br/dock/music/celine-dion?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Celine Dion</a><a class="chip" href="https://365tickets.com.br/dock/music/dua-lipa?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Dua Lipa</a><a class="chip" href="https://365tickets.com.br/dock/music/backstreet-boys?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">Backstreet Boys</a></div></div>
+  </div>
+</section>
+
+<!-- ============ BANNER 3D (sistema solar esportivo, original do portal) ============ -->
 <section id="banner3d" aria-label="Banner: sistema solar em 3D com bolas de esportes no lugar dos planetas">
   <canvas id="cena3d"></canvas>
   <div id="rotulos3d"></div>
-  <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none" style="padding-left:max(16px,env(safe-area-inset-left,0px))">
-    <div class="pointer-events-auto max-w-[340px] rounded-xl border border-[rgba(150,170,255,.18)] bg-[rgba(14,16,30,.72)] backdrop-blur-md p-4 sm:p-5 text-[#e6e9ff]">
-      <p class="text-[10.5px] uppercase tracking-[.14em] text-[#8b91b8]" style="font-family:'IBM Plex Mono',monospace">Universo MyTickets</p>
-      <h2 class="mt-1 text-[22px] sm:text-[26px] font-semibold leading-tight" style="font-family:'Chakra Petch',sans-serif;text-wrap:balance">Todo esporte gira em torno de um <span class="text-[#ffb547]">grande evento</span></h2>
-      <a href="#" data-aff="ingressos" class="mt-4 inline-flex items-center gap-2 h-10 px-5 rounded-full bg-[#ffb547] text-[#1a1206] text-[14px] font-bold hover:brightness-110">Ver ingressos <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+  <div class="solar-card">
+    <div class="solar-box">
+      <p>Universo MyTickets</p>
+      <h2>Todo esporte gira em torno de um <span>grande evento</span></h2>
+      <a href="https://365tickets.com.br/?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener" data-magnetic><span class="mag-inner">Ver ingressos →</span></a>
     </div>
   </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-<script>
-(function () {
-  /* ---------- Utilidades de textura ---------- */
-  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
-  function hash(x, y, z) {
-    let h = Math.sin(x * 127.1 + y * 311.7 + z * 74.7) * 43758.5453;
-    return h - Math.floor(h);
-  }
-  function ruido(x, y, z) {
-    const xi = Math.floor(x), yi = Math.floor(y), zi = Math.floor(z);
-    const xf = x - xi, yf = y - yi, zf = z - zi;
-    const s = t => t * t * (3 - 2 * t);
-    const u = s(xf), v = s(yf), w = s(zf);
-    const L = (a, b, t) => a + (b - a) * t;
-    return L(
-      L(L(hash(xi, yi, zi), hash(xi+1, yi, zi), u), L(hash(xi, yi+1, zi), hash(xi+1, yi+1, zi), u), v),
-      L(L(hash(xi, yi, zi+1), hash(xi+1, yi, zi+1), u), L(hash(xi, yi+1, zi+1), hash(xi+1, yi+1, zi+1), u), v),
-      w);
-  }
-  // Gera textura equiretangular a partir de uma função da direção (x,y,z) na esfera
-  function texturaEsfera(W, H, fn) {
-    const c = document.createElement('canvas'); c.width = W; c.height = H;
-    const ctx = c.getContext('2d');
-    const img = ctx.createImageData(W, H), d = img.data;
-    for (let j = 0; j < H; j++) {
-      const th = (j + 0.5) / H * Math.PI, st = Math.sin(th), ct = Math.cos(th);
-      for (let i = 0; i < W; i++) {
-        const ph = (i + 0.5) / W * Math.PI * 2;
-        const x = -Math.cos(ph) * st, y = ct, z = Math.sin(ph) * st;
-        const col = fn(x, y, z);
-        const k = (j * W + i) * 4;
-        d[k] = clamp(col[0], 0, 1) * 255; d[k+1] = clamp(col[1], 0, 1) * 255; d[k+2] = clamp(col[2], 0, 1) * 255; d[k+3] = 255;
-      }
-    }
-    ctx.putImageData(img, 0, 0);
-    const t = new THREE.CanvasTexture(c);
-    t.encoding = THREE.sRGBEncoding;
-    t.anisotropy = 4;
-    return t;
-  }
-  const hex = h => [(h >> 16 & 255) / 255, (h >> 8 & 255) / 255, (h & 255) / 255];
-  const mix = (a, b, t) => [a[0] + (b[0]-a[0])*t, a[1] + (b[1]-a[1])*t, a[2] + (b[2]-a[2])*t];
-  const mul = (a, k) => [a[0]*k, a[1]*k, a[2]*k];
+<script src="assets/solar.js"></script>
 
-  // Curva de costura de tênis/beisebol: latitude alvo em função da longitude
-  function costura(x, y, z, amp) {
-    const lon = Math.atan2(z, x), lat = Math.asin(clamp(y, -1, 1));
-    return { d: lat - amp * Math.sin(2 * lon), lon };
-  }
-
-  /* ---------- Bolas ---------- */
-  const PHI = (1 + Math.sqrt(5)) / 2;
-  const normal = v => { const l = Math.hypot(v[0], v[1], v[2]); return [v[0]/l, v[1]/l, v[2]/l]; };
-  const pent = [], hexa = [];
-  [[0,1,PHI],[1,PHI,0],[PHI,0,1]].forEach(([a,b,c]) => {
-    for (const s1 of [-1,1]) for (const s2 of [-1,1]) {
-      const v = [a, b*s1, c*s2]; if (a === 0) { v[1] = s1; v[2] = PHI*s2; }
-      pent.push(normal(v));
-    }
-  });
-  // 12 vértices do icosaedro (corrigidos para todas as permutações cíclicas)
-  pent.length = 0;
-  for (const s1 of [-1,1]) for (const s2 of [-1,1]) {
-    pent.push(normal([0, s1, s2*PHI]), normal([s1, s2*PHI, 0]), normal([s2*PHI, 0, s1]));
-  }
-  // 20 centros de face (vértices do dodecaedro)
-  const iP = 1 / PHI;
-  for (const a of [-1,1]) for (const b of [-1,1]) for (const c of [-1,1]) hexa.push(normal([a,b,c]));
-  for (const s1 of [-1,1]) for (const s2 of [-1,1]) {
-    hexa.push(normal([0, s1*iP, s2*PHI]), normal([s1*iP, s2*PHI, 0]), normal([s2*PHI, 0, s1*iP]));
-  }
-  const centrosFutebol = pent.map(p => ({ p, preto: true })).concat(hexa.map(p => ({ p, preto: false })));
-
-  const bolas = {
-    golfe() {
-      // Pontos de Fibonacci como covinhas
-      const N = 330, pts = [];
-      for (let i = 0; i < N; i++) {
-        const y = 1 - (i + 0.5) / N * 2, r = Math.sqrt(1 - y*y), t = i * Math.PI * (3 - Math.sqrt(5));
-        pts.push([Math.cos(t) * r, y, Math.sin(t) * r]);
-      }
-      return texturaEsfera(512, 256, (x, y, z) => {
-        let b1 = -2, b2 = -2;
-        for (const p of pts) {
-          const d = p[0]*x + p[1]*y + p[2]*z;
-          if (d > b1) { b2 = b1; b1 = d; } else if (d > b2) b2 = d;
-        }
-        const k = 0.8 + 0.2 * clamp((b1 - b2) * 60, 0, 1);
-        return mul([0.97, 0.97, 0.95], k);
-      });
-    },
-    tenis() {
-      return texturaEsfera(1024, 512, (x, y, z) => {
-        const n = ruido(x*40, y*40, z*40);
-        const base = mix(hex(0xc9dc2a), hex(0xe2f05a), n);
-        const { d } = costura(x, y, z, 0.85);
-        const a = Math.abs(d);
-        if (a < 0.035) return mix([0.97, 0.97, 0.92], base, clamp((a - 0.025) / 0.01, 0, 1));
-        return base;
-      });
-    },
-    futebol() {
-      return texturaEsfera(1024, 512, (x, y, z) => {
-        let b1 = -2, b2 = -2, preto = false;
-        for (const c of centrosFutebol) {
-          const d = c.p[0]*x + c.p[1]*y + c.p[2]*z + (c.preto ? -0.012 : 0);
-          if (d > b1) { b2 = b1; b1 = d; preto = c.preto; } else if (d > b2) b2 = d;
-        }
-        if (b1 - b2 < 0.006) return [0.35, 0.35, 0.36];
-        return preto ? [0.08, 0.08, 0.09] : [0.96, 0.96, 0.95];
-      });
-    },
-    basquete() {
-      return texturaEsfera(1024, 512, (x, y, z) => {
-        const n = ruido(x*90, y*90, z*90);
-        const base = mul(hex(0xd8661e), 0.86 + 0.14 * n);
-        const w = 0.016;
-        if (Math.abs(x) < w || Math.abs(y) < w || Math.abs(Math.abs(z) - 0.7) < w) return [0.07, 0.05, 0.04];
-        return base;
-      });
-    },
-    volei() {
-      const cores = [hex(0xf2c230), hex(0x1d4fa8), hex(0xf3f1ea)];
-      return texturaEsfera(1024, 512, (x, y, z) => {
-        const ax = Math.abs(x), ay = Math.abs(y), az = Math.abs(z);
-        let face, s, m, seg;
-        if (ax >= ay && ax >= az) { face = 0; m = ax; s = y / ax; seg = Math.max(ay, az); }
-        else if (ay >= az) { face = 1; m = ay; s = z / ay; seg = Math.max(ax, az); }
-        else { face = 2; m = az; s = x / az; seg = Math.max(ax, ay); }
-        if (m - seg < 0.012) return [0.25, 0.25, 0.28];
-        if (Math.abs(Math.abs(s) - 1/3) < 0.02) return [0.25, 0.25, 0.28];
-        const faixa = clamp(Math.floor((s + 1) / 2 * 3), 0, 2);
-        const n = ruido(x*50, y*50, z*50);
-        return mul(cores[(face + faixa) % 3], 0.92 + 0.08 * n);
-      });
-    },
-    beisebol() {
-      return texturaEsfera(1024, 512, (x, y, z) => {
-        const n = ruido(x*60, y*60, z*60);
-        const base = mul([0.96, 0.94, 0.88], 0.93 + 0.07 * n);
-        const { d, lon } = costura(x, y, z, 0.85);
-        const a = Math.abs(d);
-        const vermelho = [0.8, 0.12, 0.12];
-        if (a < 0.006) return mul(base, 0.8);
-        if (a > 0.014 && a < 0.05) {
-          const f = (lon * 34 / Math.PI + Math.sign(d) * d * 18) % 1;
-          if ((f + 1) % 1 < 0.28) return vermelho;
-        }
-        return base;
-      });
-    },
-    boliche() {
-      const furos = [normal([0.12, 0.3, 1]), normal([-0.12, 0.3, 1]), normal([0, -0.05, 1])];
-      return texturaEsfera(1024, 512, (x, y, z) => {
-        for (const f of furos) {
-          const d = f[0]*x + f[1]*y + f[2]*z;
-          if (d > 0.9935) return [0.02, 0.02, 0.03];
-          if (d > 0.992) return [0.55, 0.6, 0.7];
-        }
-        const n = ruido(x*2.5 + 3, y*2.5, z*2.5) * 2 + ruido(x*7, y*7, z*7) * 0.6;
-        const v = 0.5 + 0.5 * Math.sin(8 * (x + y * 0.4) + n * 5);
-        return mix(hex(0x0d1e6b), hex(0x37b4d8), Math.pow(v, 3));
-      });
-    },
-    americano() {
-      // Direção antes de achatar: as pontas ficam no eixo x
-      return texturaEsfera(1024, 512, (x, y, z) => {
-        const n = ruido(x*80, y*80, z*80);
-        const base = mul(hex(0x7a3a17), 0.82 + 0.18 * n);
-        const branco = [0.95, 0.94, 0.9];
-        if (Math.abs(Math.abs(x) - 0.62) < 0.035 && y < 0.85) return branco;
-        if (y > 0 && Math.abs(x) < 0.33) {
-          if (Math.abs(z) < 0.02) return branco;
-          if (Math.abs(z) < 0.085 && ((x + 0.33) / 0.066) % 1 < 0.35) return branco;
-        }
-        if (Math.abs(y) < 0.008 || Math.abs(z) < 0.008) return mul(base, 0.55);
-        return base;
-      });
-    },
-    pingue() {
-      return texturaEsfera(256, 128, (x, y, z) => mul([1, 0.98, 0.95], 0.95 + 0.05 * ruido(x*20, y*20, z*20)));
-    }
-  };
-
-  /* ---------- Cena ---------- */
-  const canvas = document.getElementById('cena3d');
-  const caixa = document.getElementById('banner3d');
-  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-  renderer.setClearColor(0x05060d, 1);
-  renderer.outputEncoding = THREE.sRGBEncoding;
-
-  const scene = new THREE.Scene();
-  scene.fog = new THREE.FogExp2(0x05060d, 0.0025);
-  const camera = new THREE.PerspectiveCamera(55, 1, 0.1, 3000);
-  camera.position.set(0, 46, 112);
-
-  const controls = new THREE.OrbitControls(camera, canvas);
-  controls.enableDamping = true;
-  controls.dampingFactor = 0.06;
-  controls.enableRotate = matchMedia('(pointer: fine)').matches;
-  controls.minDistance = 10;
-  controls.maxDistance = 380;
-  controls.autoRotate = true;
-  controls.autoRotateSpeed = 0.3;
-  controls.enableZoom = false; // não rouba a rolagem da página
-
-  (function estrelas() {
-    const n = 3000, pos = new Float32Array(n * 3), cor = new Float32Array(n * 3);
-    for (let i = 0; i < n; i++) {
-      const r = 600 + Math.random() * 600;
-      const t = Math.random() * Math.PI * 2, p = Math.acos(2 * Math.random() - 1);
-      pos[i*3] = r * Math.sin(p) * Math.cos(t); pos[i*3+1] = r * Math.cos(p); pos[i*3+2] = r * Math.sin(p) * Math.sin(t);
-      const k = 0.55 + Math.random() * 0.45, q = Math.random() < 0.2;
-      cor[i*3] = k; cor[i*3+1] = k * (q ? 0.85 : 0.95); cor[i*3+2] = k * (q ? 0.7 : 1);
-    }
-    const g = new THREE.BufferGeometry();
-    g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
-    g.setAttribute('color', new THREE.BufferAttribute(cor, 3));
-    scene.add(new THREE.Points(g, new THREE.PointsMaterial({ size: 2, vertexColors: true, fog: false })));
-  })();
-
-  function texturaBrilho(r, g, b) {
-    const c = document.createElement('canvas'); c.width = c.height = 128;
-    const x = c.getContext('2d');
-    const gr = x.createRadialGradient(64, 64, 0, 64, 64, 64);
-    gr.addColorStop(0, `rgba(${r},${g},${b},1)`); gr.addColorStop(0.25, `rgba(${r},${g},${b},0.45)`); gr.addColorStop(1, 'rgba(0,0,0,0)');
-    x.fillStyle = gr; x.fillRect(0, 0, 128, 128);
-    return new THREE.CanvasTexture(c);
-  }
-
-  // Sol com superfície turbulenta
-  const texSol = texturaEsfera(512, 256, (x, y, z) => {
-    const n = ruido(x*6, y*6, z*6) * 0.6 + ruido(x*18, y*18, z*18) * 0.4;
-    return mix(hex(0xff8a1f), hex(0xfff0a8), n);
-  });
-  const sol = new THREE.Mesh(new THREE.SphereGeometry(5, 64, 64), new THREE.MeshBasicMaterial({ map: texSol }));
-  scene.add(sol);
-  const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: texturaBrilho(255, 170, 70), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true }));
-  halo.scale.set(32, 32, 1);
-  sol.add(halo);
-
-  scene.add(new THREE.PointLight(0xfff2dc, 1.9));
-  scene.add(new THREE.AmbientLight(0x3a4070, 0.6));
-
-  const defs = [
-    { nome: 'Mercúrio', bola: 'Golfe',            tex: 'golfe',     a: 10, r: 0.6,  periodo: 88,    e: 0.205, rug: 0.5, lento: 0.125 },
-    { nome: 'Vênus',    bola: 'Tênis',            tex: 'tenis',     a: 15, r: 0.95, periodo: 225,   e: 0.007, rug: 1, lento: 0.25 },
-    { nome: 'Terra',    bola: 'Boliche',          tex: 'boliche',   a: 21, r: 1.7,  periodo: 365,   e: 0.017, rug: 0.15, met: 0.2, lento: 0.5 },
-    { nome: 'Marte',    bola: 'Vôlei',            tex: 'volei',     a: 28, r: 1.3,  periodo: 687,   e: 0.093, rug: 0.6, lento: 0.5 },
-    { nome: 'Júpiter',  bola: 'Basquete',         tex: 'basquete',  a: 41, r: 2.7, periodo: 4333,  e: 0.049, rug: 0.8 },
-    { nome: 'Saturno',  bola: 'Beisebol',         tex: 'beisebol',  a: 55, r: 2.2,  periodo: 10759, e: 0.057, rug: 0.75, aneis: true },
-    { nome: 'Urano',    bola: 'Futebol',          tex: 'futebol',   a: 68, r: 1.8,  periodo: 30687, e: 0.046, rug: 0.45, lento: 20 },
-    { nome: 'Netuno',   bola: 'Futebol americano',tex: 'americano', a: 80, r: 1.6,  periodo: 60190, e: 0.010, rug: 0.7, oval: true, lento: 25 }
-  ];
-
-  const camadaRotulos = document.getElementById('rotulos3d');
-  const planetas = defs.map((d, i) => {
-    d.e = 0; // órbitas circulares e concêntricas, todas centradas no Sol
-    const plano = new THREE.Group();
-    plano.rotation.y = 0;
-    scene.add(plano);
-
-    const b = d.a * Math.sqrt(1 - d.e * d.e), c = d.a * d.e;
-    const pts = [];
-    for (let k = 0; k <= 256; k++) { const t = k / 256 * Math.PI * 2; pts.push(new THREE.Vector3(d.a * Math.cos(t) - c, 0, b * Math.sin(t))); }
-    const linha = new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),
-      new THREE.LineBasicMaterial({ color: 0x8c9cff, transparent: true, opacity: 0.2 }));
-    plano.add(linha);
-
-    const mat = new THREE.MeshStandardMaterial({ map: bolas[d.tex](), roughness: d.rug, metalness: d.met || 0 });
-    if (d.tex === 'golfe') { mat.bumpMap = mat.map; mat.bumpScale = 0.04; }
-    const corpo = new THREE.Mesh(new THREE.SphereGeometry(d.r, 64, 48), mat);
-    if (d.oval) corpo.scale.set(1.55, 0.95, 0.95);
-    // Eixo de giro com leve inclinação
-    const pivo = new THREE.Group();
-    pivo.rotation.z = 0.35;
-    pivo.add(corpo);
-    plano.add(pivo);
-
-    if (d.aneis) {
-      const anel = new THREE.Mesh(new THREE.RingGeometry(d.r * 1.4, d.r * 2.4, 96),
-        new THREE.MeshBasicMaterial({ color: 0xcdb98a, side: THREE.DoubleSide, transparent: true, opacity: 0.5 }));
-      anel.rotation.x = Math.PI / 2;
-      pivo.add(anel);
-    }
-
-    let lua = null;
-    if (d.lua) {
-      lua = new THREE.Mesh(new THREE.SphereGeometry(0.3, 32, 24),
-        new THREE.MeshStandardMaterial({ map: bolas.pingue(), roughness: 0.35 }));
-      plano.add(lua);
-    }
-
-    const N = 110;
-    const rPos = new Float32Array(N * 3), rCor = new Float32Array(N * 3);
-    const rGeo = new THREE.BufferGeometry();
-    rGeo.setAttribute('position', new THREE.BufferAttribute(rPos, 3));
-    rGeo.setAttribute('color', new THREE.BufferAttribute(rCor, 3));
-    for (let k = 0; k < N; k++) { const f = 0.7 * (1 - k / N); rCor[k*3] = f; rCor[k*3+1] = f * 0.8; rCor[k*3+2] = f * 0.5; }
-    const rastro = new THREE.Line(rGeo, new THREE.LineBasicMaterial({ vertexColors: true, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false }));
-    rastro.frustumCulled = false;
-    plano.add(rastro);
-
-    const rot = document.createElement('div');
-    rot.className = 'rotulo';
-    rot.innerHTML = `${d.nome}<small>${d.bola.toLowerCase()}</small>`;
-    camadaRotulos.appendChild(rot);
-
-    return { d, plano, pivo, corpo, lua, linha, rastro, rPos, N, b, c, rot, M0: Math.random() * Math.PI * 2, iniciado: false };
-  });
-
-  const fatores = [0.9, 0.4, 0, 0.3, 0.2, 0.35, 0.15, 0.25];
-  function aplicarInclinacao(graus) {
-    planetas.forEach((p, i) => {
-      p.plano.rotation.x = THREE.MathUtils.degToRad(graus * fatores[i]);
-      p.plano.rotation.z = THREE.MathUtils.degToRad(graus * fatores[i] * 0.4 * (i % 2 ? 1 : -1));
-    });
-  }
-  function posicaoKepler(p, dias) {
-    const M = p.M0 + 2 * Math.PI / p.d.periodo * dias * (p.d.lento || 1);
-    let E = M;
-    for (let k = 0; k < 6; k++) E -= (E - p.d.e * Math.sin(E) - M) / (1 - p.d.e * Math.cos(E));
-    return [p.d.a * Math.cos(E) - p.c, p.b * Math.sin(E)];
-  }
-
-  /* ---------- Interface ---------- */
-  let velocidade = 1, pausado = false, mostrarRastro = true, mostrarNomes = true, dias = 0;
-  const DIAS_POR_SEGUNDO = 45;
-  velocidade = 1;
-  controls.autoRotateSpeed = 0.4;
-  aplicarInclinacao(0);
-
-  let W = 1, H = 1;
-  function redimensionar() {
-    W = caixa.clientWidth; H = caixa.clientHeight;
-    renderer.setSize(W, H, false);
-    camera.aspect = W / H;
-    camera.fov = W < 600 ? 62 : (W/H > 4 ? 30 : 40);
-    camera.updateProjectionMatrix();
-  }
-  window.addEventListener('resize', redimensionar);
-  let visivelBanner = true;
-  if ('IntersectionObserver' in window) new IntersectionObserver(es => { visivelBanner = es[0].isIntersecting; }).observe(caixa);
-  redimensionar();
-
-  /* ---------- Animação ---------- */
-  const relogio = new THREE.Clock();
-  const tmp = new THREE.Vector3();
-  let ultimoTexto = 0;
-  function animar() {
-    requestAnimationFrame(animar);
-    if (!visivelBanner) { relogio.getDelta(); return; }
-    const dt = Math.min(relogio.getDelta(), 0.05);
-    const passo = pausado ? 0 : dt * DIAS_POR_SEGUNDO * velocidade;
-    dias += passo;
-    sol.rotation.y += dt * 0.06;
-
-    planetas.forEach(p => {
-      const [x, z] = posicaoKepler(p, dias);
-      p.pivo.position.set(x, 0, z);
-      p.corpo.rotation.y += passo * 0.0125 + dt * 0.15;
-      if (p.d.oval) p.corpo.rotation.x += dt * 2.5; // espiral do futebol americano
-      if (p.lua) {
-        const t = dias / 27.3 * Math.PI * 2;
-        p.lua.position.set(x + Math.cos(t) * 2.3, Math.sin(t) * 0.4, z + Math.sin(t) * 2.3);
-      }
-      if (!p.iniciado) { for (let k = 0; k < p.N; k++) { p.rPos[k*3] = x; p.rPos[k*3+1] = 0; p.rPos[k*3+2] = z; } p.iniciado = true; }
-      if (passo > 0 && mostrarRastro) {
-        p.rPos.copyWithin(3, 0, (p.N - 1) * 3);
-        p.rPos[0] = x; p.rPos[1] = 0; p.rPos[2] = z;
-        p.rastro.geometry.attributes.position.needsUpdate = true;
-      }
-    });
-
-    controls.update();
-    renderer.render(scene, camera);
-
-    if (mostrarNomes) {
-      planetas.forEach(p => {
-        p.pivo.getWorldPosition(tmp);
-        tmp.y += p.d.r + 0.6;
-        tmp.project(camera);
-        const visivel = tmp.z < 1 && Math.abs(tmp.x) < 1.1 && Math.abs(tmp.y) < 1.1;
-        p.rot.hidden = !visivel;
-        if (visivel) p.rot.style.transform = `translate(${(tmp.x * 0.5 + 0.5) * W}px, ${(-tmp.y * 0.5 + 0.5) * H}px) translate(-50%, -100%)`;
-      });
-    }
-  }
-  animar();
-})();
-</script>
-
-<!-- ============ PROXIMOS EVENTOS ============ -->
-<div class="bg-[#0a1726]">
-  <div class="flex items-stretch gap-4 py-3" style="padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))">
-    <div class="w-[96px] sm:w-[120px] shrink-0 flex flex-col justify-center">
-      <span class="text-white font-bold text-[12px] sm:text-[13px] tracking-[.08em] leading-tight uppercase">Próximos<br>eventos</span>
-      <span class="text-[#8fa3b8] text-[10px] mt-1.5 leading-snug">Fonte automática ainda não conectada</span>
-    </div>
-    <div class="relative flex-1 min-w-0 rounded-lg border border-[#3c4f63] overflow-hidden ph min-h-[120px]" style="background-image:url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1600&q=60'),linear-gradient(100deg,#13314f,#1d5a2e)">
-      <div class="absolute inset-0 bg-[#0a1726]/55"></div>
-      <div class="relative h-full min-h-[120px] flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 px-4 py-4 text-center">
-        <p class="text-white font-bold text-[16px] sm:text-[19px] leading-snug" style="text-wrap:balance">Confira os eventos e a disponibilidade diretamente no catálogo do fornecedor.</p>
-        <a href="#" data-aff="ingressos" class="shrink-0 inline-flex items-center gap-1.5 h-11 px-6 rounded-lg bg-[#ed7513] text-white font-bold text-[15px] border border-[#ffd9b8]/60 hover:brightness-110 whitespace-nowrap">Explorar ingressos <i data-lucide="arrow-up-right" class="w-4 h-4"></i></a>
+<section class="sv" id="video" aria-labelledby="sv-h">
+  <div class="sv-stick">
+    <div class="wrap">
+      <div class="sv-copy on-night">
+        <p class="kicker">Como funciona</p>
+        <h2 id="sv-h" data-scramble>Do vídeo à arquibancada</h2>
+        <ol class="steps"><li class="step on"><span class="step-n">1</span><div><h3>Assista</h3><p>Vídeos curtos sobre um evento específico, no Shorts, Reels e TikTok, em português, inglês e espanhol.</p></div></li><li class="step"><span class="step-n">2</span><div><h3>Entenda</h3><p>Cada vídeo leva à página do evento: data, estádio, como chegar e dicas de setor.</p></div></li><li class="step"><span class="step-n">3</span><div><h3>Garanta</h3><p>O ingresso é vendido e entregue pela SportsEvents365. Você vê setor e preço antes de pagar.</p></div></li></ol>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- ============ NAV ============ -->
-<nav class="bg-[var(--nav)] text-white">
-  <div class="flex items-center h-[44px] pr-4">
-    <a href="#" class="h-full flex items-center pl-4 pr-8 bg-[var(--brand)] shrink-0" style="clip-path:polygon(0 0,100% 0,88% 100%,0 100%)" aria-label="MyTickets início">
-      <span class="cond font-bold italic text-[24px] tracking-tight leading-none">MYTICKETS</span>
-    </a>
-    <ul class="flex items-center gap-6 pl-3 text-[13px] font-bold overflow-x-auto no-scrollbar whitespace-nowrap flex-1">
-      <li><a href="#" class="hover:text-[#ffb3bd]">Mundial 2026</a></li>
-      <li><a href="#" class="hover:text-[#ffb3bd]">Futebol</a></li>
-      <li><a href="#" class="hover:text-[#ffb3bd]">NFL</a></li>
-      <li><a href="#" class="hover:text-[#ffb3bd]">NBA</a></li>
-      <li><a href="#" class="hover:text-[#ffb3bd]">KnockOut</a></li>
-      <li><a href="#" class="hover:text-[#ffb3bd]">Tênis</a></li>
-      <li><a href="#" class="hover:text-[#ffb3bd]">F1</a></li>
-      <li><a href="#" class="hover:text-[#ffb3bd]">Mais Esportes</a></li>
-    </ul>
-    <div class="hidden md:flex items-center gap-6 text-[13px] font-bold pl-4">
-      <span class="italic font-black tracking-tight text-[13px] opacity-90">Play<span class="text-[var(--sky)]">+</span></span>
-      <a href="#" class="hover:text-[#ffb3bd]">Podcasts</a>
-      <a href="#" class="hover:text-[#ffb3bd]">Programação</a>
-      <i data-lucide="search" class="w-[18px] h-[18px]"></i>
-      <i data-lucide="circle-user-round" class="w-[20px] h-[20px]"></i>
-    </div>
-  </div>
-</nav>
-
-<main class="gutter py-[10px]">
-<div class="max-w-[1250px] mx-auto">
-
-  <!-- ============ BANNER AFILIADO TOPO ============ -->
-  <a href="#" data-aff="ofertas" class="block relative overflow-hidden h-[100px] sm:h-[100px] rounded-none group" style="background:var(--promo)">
-    <div class="absolute inset-0 opacity-[.12]" style="background-image:repeating-linear-gradient(90deg,#fff 0 2px,transparent 2px 160px),radial-gradient(circle at 60% 50%,transparent 38px,#fff 39px,#fff 41px,transparent 42px)"></div>
-    <div class="relative h-full flex items-center justify-between gap-4 px-4 sm:px-10">
-      <div class="flex items-center gap-3 text-white shrink-0">
-        <i data-lucide="shopping-bag" class="w-12 h-12 sm:w-14 sm:h-14" stroke-width="1.6"></i>
-        <span class="hidden sm:block text-[40px] font-medium tracking-tight">Loja Parceira</span>
-      </div>
-      <div class="hidden lg:block w-[230px] h-[86px] ph rounded" style="background-image:url('https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=500&q=70'),linear-gradient(135deg,#ffb199,#c4361c)"></div>
-      <p class="hidden md:block text-white text-center font-bold text-[28px] leading-[1.05]">Na Loja Parceira<br>compensa mais</p>
-      <span class="bg-white text-[var(--promo)] font-bold text-[18px] sm:text-[30px] rounded-full px-5 sm:px-8 h-12 sm:h-[60px] flex items-center whitespace-nowrap group-hover:shadow-lg transition-shadow">Ofertas em Esportes</span>
-    </div>
-  </a>
-
-  <!-- ============ 3 COLUNAS ============ -->
-  <div class="grid grid-cols-1 lg:grid-cols-[220px_minmax(0,1fr)_300px] gap-5 mt-[10px] items-start">
-
-    <!-- Coluna esquerda -->
-    <aside class="order-2 lg:order-1 flex flex-col gap-3">
-      <div class="bg-white rounded-xl p-3 shadow-[0_1px_2px_rgba(0,0,0,.08)]">
-        <div class="flex items-end gap-1 h-10 pb-2 border-b border-[var(--line)]">
-          <span class="slab italic font-bold text-[22px] text-[#0d1b3e] leading-none">Play</span><span class="text-[var(--sky)] font-black text-[22px] leading-none">+</span>
-        </div>
-        <a href="#" data-aff="assinatura" class="mt-3 flex items-center justify-center h-8 rounded-full bg-[var(--teal)] text-white font-bold text-[13px] hover:brightness-110">Assinar</a>
-        <ul id="ligas" class="mt-3 text-[13px] text-[#2a2b2e]"></ul>
-        <a href="#" data-aff="assinatura" class="block text-center mt-2 text-[12px] font-bold text-[#2f6fb0] hover:underline">Não tem Play+?</a>
-      </div>
-    </aside>
-
-    <!-- Coluna central -->
-    <section class="order-1 lg:order-2 min-w-0 flex flex-col gap-4">
-      <div class="bg-white rounded-t-lg overflow-hidden shadow-[0_1px_2px_rgba(0,0,0,.08)]">
-        <div class="h-5 flex items-center justify-center text-[11px] font-bold tracking-[.06em] text-white" style="background:linear-gradient(90deg,var(--gold),#7b5b06 55%,#111)">2026 CONMEBOL Sudamericana, Ida</div>
-        <div class="flex items-center justify-between px-4 sm:px-24 h-[66px] border-b border-[var(--line)] tnum">
-          <div class="flex items-center gap-3"><span class="text-[17px] font-medium text-[#6a6c70]">Boca</span><span class="crest" data-c="#16357a,#f6c400" data-t="CABJ"></span><span class="text-[32px] font-bold text-[#6a6c70] ml-3 sm:ml-6">0</span></div>
-          <div class="flex items-center gap-6 text-[12px] text-[#444]"><span>F</span><i data-lucide="play" class="w-3 h-3 fill-current hidden sm:block"></i></div>
-          <div class="flex items-center gap-3"><span class="text-[32px] font-bold mr-3 sm:mr-6">1</span><span class="crest" data-c="#111,#fff" data-t="VG"></span><span class="text-[17px] font-bold">Vasco</span></div>
-        </div>
-        <!-- Vídeo principal -->
-        <div class="p-4 pt-0">
-          <div id="video-principal" class="mt-0"></div>
+      <div class="phone" role="img" aria-label="Barça x Real Madrid no Camp Nou: como conseguir ingresso">
+        <div class="screen" id="screen">
+          <canvas id="sv-canvas"></canvas>
+          <div class="reel-bar"><i id="reel-prog"></i></div>
+          <div class="reel-ui"><span class="reel-handle">@mytickets.tours</span><span class="reel-cap">Barça x Real Madrid no Camp Nou: como conseguir ingresso</span><a class="reel-link" href="eventos/barcelona-vs-real-madrid-2026-10-25/">LINK NA BIO → PÁGINA DO EVENTO</a></div>
         </div>
       </div>
-
-      <!-- Galeria de vídeos -->
-      <div class="bg-white rounded-lg p-4 shadow-[0_1px_2px_rgba(0,0,0,.08)]">
-        <div class="flex items-center justify-between gap-3 mb-3">
-          <h2 class="text-[15px] font-bold uppercase tracking-[.04em] flex items-center gap-2"><i data-lucide="youtube" class="w-5 h-5 text-[var(--brand)]"></i>Vídeos do blog</h2>
-          <button id="btn-add" class="flex items-center gap-1.5 text-[12px] font-bold text-white bg-[var(--nav)] rounded-full h-8 px-4 hover:bg-[var(--brand)]"><i data-lucide="plus" class="w-4 h-4"></i>Adicionar vídeo</button>
-        </div>
-        <form id="form-add" hidden class="mb-4 grid gap-2 sm:grid-cols-[1fr_1fr_auto] bg-[#f6f7f8] border border-[var(--line)] rounded-lg p-3">
-          <input id="in-url" required placeholder="Link do YouTube (youtube.com/watch?v=… ou youtu.be/…)" class="h-10 px-3 rounded border border-[#cfd2d6] text-[13px] min-w-0">
-          <input id="in-title" placeholder="Título do vídeo" class="h-10 px-3 rounded border border-[#cfd2d6] text-[13px] min-w-0">
-          <button class="h-10 px-5 rounded bg-[var(--brand)] text-white text-[13px] font-bold hover:brightness-110">Publicar</button>
-          <p id="form-msg" class="sm:col-span-3 text-[12px] text-[var(--muted)]">O vídeo entra na galeria com o menu de afiliado logo abaixo.</p>
-        </form>
-        <div id="galeria" class="grid sm:grid-cols-2 gap-5"></div>
-      </div>
-    </section>
-
-    <!-- Coluna direita -->
-    <aside class="order-3 flex flex-col gap-3">
-      <div class="bg-white rounded-xl shadow-[0_1px_2px_rgba(0,0,0,.08)] px-3 pt-3 pb-2">
-        <h3 class="flex items-center gap-2 text-[13px] font-bold tracking-[.03em] pb-3 border-b border-[var(--line)]"><i data-lucide="align-left" class="w-4 h-4"></i>PRINCIPAIS DESTAQUES</h3>
-        <ul id="destaques" class="text-[12.5px] text-[#1c1d1f]"></ul>
-      </div>
-      <a href="#" data-aff="ofertas" class="block rounded-sm text-white text-center p-5 hover:brightness-105" style="background:var(--promo)">
-        <div class="flex items-center justify-center gap-2"><i data-lucide="shopping-bag" class="w-9 h-9" stroke-width="1.6"></i><span class="text-[26px] font-medium">Parceira</span></div>
-        <p class="font-bold text-[21px] mt-1 leading-tight">Na Loja Parceira compensa mais</p>
-        <div class="ph h-[150px] mt-4 rounded" style="background-image:url('https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&q=70'),linear-gradient(160deg,#ffb199,#8f2312)"></div>
-        <span class="inline-flex mt-4 bg-white text-[var(--promo)] font-bold rounded-full px-6 h-10 items-center">Ver ofertas</span>
-      </a>
-    </aside>
-  </div>
-</div>
-</main>
-
-<!-- ============ VITRINE DE INGRESSOS ============ -->
-<section class="bg-white mt-6 border-t border-[var(--line)]">
-  <header class="gutter border-b border-[var(--line)]">
-    <div class="max-w-[1400px] mx-auto flex flex-wrap items-center gap-x-10 gap-y-3 py-4">
-      <a href="#" class="leading-none shrink-0">
-        <span class="slab italic font-bold text-[24px] text-[var(--navy)] tracking-tight">MyTickets</span><span class="slab italic font-bold text-[24px] text-[var(--cta)]">.tours</span>
-        <span class="block text-[9px] italic text-[var(--navy)] mt-0.5 tracking-wide">Encontre • Reserve • Assista</span>
-      </a>
-      <ul class="hidden lg:flex items-center gap-12 text-[16px] text-[var(--navy)] font-medium leading-tight">
-        <li class="flex items-center gap-3">Melhores<br>Esportes<i data-lucide="chevron-down" class="w-4 h-4"></i></li>
-        <li class="flex items-center gap-3">Música e<br>espetáculos<i data-lucide="chevron-down" class="w-4 h-4"></i></li>
-        <li class="flex items-center gap-3">Principais<br>cidades<i data-lucide="chevron-down" class="w-4 h-4"></i></li>
-      </ul>
-      <form class="flex flex-1 min-w-[260px] max-w-[520px] ml-auto border border-[var(--navy)] rounded-md h-[42px] overflow-hidden" onsubmit="event.preventDefault()">
-        <button type="button" class="hidden sm:flex items-center gap-3 px-4 text-[14px] text-[var(--navy)] border-r border-[var(--navy)] whitespace-nowrap">Todas as dat… <i data-lucide="chevron-down" class="w-4 h-4"></i></button>
-        <label class="flex items-center gap-2 flex-1 px-3 min-w-0"><i data-lucide="search" class="w-4 h-4 text-[#6a7a8c] shrink-0"></i><input id="busca" class="w-full min-w-0 text-[14px] outline-none placeholder:text-[#8695a6]" placeholder="Equipe/Esporte/Local/Artista"></label>
-        <button class="m-1 px-4 rounded bg-[var(--navy)] text-white text-[13px] font-bold hover:bg-[#0e5299]">Procurar</button>
-      </form>
-    </div>
-  </header>
-
-  <div class="gutter pt-2">
-    <div class="max-w-[1400px] mx-auto">
-      <!-- Carrossel -->
-      <div id="hero" class="relative h-[320px] sm:h-[600px] rounded-lg overflow-hidden ph" style="background-image:linear-gradient(180deg,#5e7fa8,#1d6b2c)">
-        <div id="slides"></div>
-        <button id="prev" aria-label="Anterior" class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/30 hover:bg-white/50 flex items-center justify-center text-white"><i data-lucide="chevron-left" class="w-6 h-6"></i></button>
-        <button id="next" aria-label="Próximo" class="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/30 hover:bg-white/50 flex items-center justify-center text-white"><i data-lucide="chevron-right" class="w-6 h-6"></i></button>
-        <div id="dots" class="absolute bottom-5 left-0 right-0 flex justify-center gap-2.5 px-4 flex-wrap"></div>
-      </div>
-
-      <!-- Por que comprar -->
-      <div class="mt-8 bg-[#eef0f5] rounded-lg px-6 py-4 flex flex-col lg:flex-row lg:items-center gap-5">
-        <div class="lg:w-[340px] shrink-0">
-          <h3 class="slab font-semibold text-[21px] leading-tight text-[var(--navy)]">Por que comprar ingressos conosco?</h3>
-          <a href="#" class="text-[16px] text-[var(--sky)] hover:underline">Sobre nós</a>
-        </div>
-        <ul id="motivos" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 flex-1"></ul>
-      </div>
-
-      <!-- Principais eventos -->
-      <div class="mt-14 flex items-center justify-between">
-        <h2 class="slab font-semibold text-[30px] sm:text-[40px] text-[var(--navy)]">Principais eventos</h2>
-        <button class="w-9 h-9 rounded-full border border-[#c9d1dc] flex items-center justify-center text-[var(--navy)] hover:bg-[#eef0f5]" aria-label="Ver mais"><i data-lucide="chevron-right" class="w-5 h-5"></i></button>
-      </div>
-      <div id="eventos" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
-
-      <!-- Mais vendidos -->
-      <div class="mt-16 flex items-center justify-between">
-        <h2 class="slab font-semibold text-[30px] sm:text-[40px] text-[var(--navy)]">Mais vendidos</h2>
-        <button class="w-9 h-9 rounded-full border border-[#c9d1dc] flex items-center justify-center text-[var(--navy)] hover:bg-[#eef0f5]" aria-label="Ver mais"><i data-lucide="chevron-right" class="w-5 h-5"></i></button>
-      </div>
-      <div id="vendidos" class="mt-8 pb-20 grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
     </div>
   </div>
 </section>
-
-<!-- ============ RODAPÉ ============ -->
-<footer class="bg-[var(--foot)] gutter">
-  <div class="max-w-[1300px] mx-auto pt-20 pb-6">
-    <div class="grid grid-cols-2 md:grid-cols-[240px_auto_auto_1fr_auto] gap-x-8 gap-y-10">
-      <a href="#" class="col-span-2 md:col-span-1 leading-none">
-        <span class="slab italic font-bold text-[24px] text-[var(--navy)]">MyTickets</span><span class="slab italic font-bold text-[24px] text-[var(--cta)]">.tours</span>
-        <span class="block text-[9px] italic text-[var(--navy)] mt-0.5">Encontre • Reserve • Assista</span>
-      </a>
-      <div id="foot-cols" class="contents"></div>
+<section class="band" id="noticias" aria-labelledby="news-h" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">Notícias</p><h2 id="news-h" data-scramble>Últimas do esporte</h2></div><p>Manchetes do ge, UOL, Gazeta Esportiva e ESPN, atualizadas a cada hora.</p></div>
+    <ul class="news" id="news" data-src="dados.json"><li><a href="https://ge.globo.com/go/futebol/times/vila-nova/noticia/2026/10/14/vila-nova-lidera-chances-de-acesso-direto-para-a-serie-a-e-tem-vaga-encaminhada-no-g-6.ghtml" target="_blank" rel="noopener">Vila Nova lidera chances de acesso direto para a Série A e tem vaga encaminhada no G-6<small>ge</small></a></li><li><a href="https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/pulgar-mattheus-montenegro-denunciados-stjd/" target="_blank" rel="noopener">Pulgar e presidente do Fluminense são denunciados pelo STJD após polêmica do Fla-Flu<small>Gazeta Esportiva</small></a></li><li><a href="https://ge.globo.com/sc/futebol/times/avai/noticia/2026/10/14/ingressos-de-avai-x-athletic-pela-34a-rodada-da-serie-b-serao-gratuitos.ghtml" target="_blank" rel="noopener">Ingressos de Avaí x Athletic, pela 34ª rodada da Série B, serão gratuitos<small>ge</small></a></li><li><a href="https://www.gazetaesportiva.com/motor/formula-1/gp-de-sao-paulo-de-f1-abre-venda-extra-de-ingressos-nesta-quarta-feira/" target="_blank" rel="noopener">GP de São Paulo de F1 abre venda extra de ingressos nesta quarta-feira<small>Gazeta Esportiva</small></a></li><li><a href="https://ge.globo.com/pr/futebol/brasileirao-serie-b/jogo/20-10-2026/londrina-cuiaba.ghtml" target="_blank" rel="noopener">Londrina x Cuiabá - Campeonato Brasileiro Série B 2026 - globoesporte.com<small>ge</small></a></li><li><a href="https://www.gazetaesportiva.com/times/vasco/pedro-emanuel-mostra-confianca-apos-vitoria-do-vasco-na-bombonera-pode-ser-o-nosso-trofeu/" target="_blank" rel="noopener">Pedro Emanuel mostra confiança após vitória do Vasco na Bombonera: “Pode ser o nosso troféu”<small>Gazeta Esportiva</small></a></li><li><a href="https://ge.globo.com/sc/olimpiadas/noticia/2026/10/14/douglas-brose-e-eleito-presidente-da-comissao-mundial-de-atletas-de-karate.ghtml" target="_blank" rel="noopener">Douglas Brose é eleito presidente da Comissão Mundial de Atletas de Karatê<small>ge</small></a></li><li><a href="https://www.gazetaesportiva.com/times/santos/a-historia-por-tras-do-design-da-camisa-de-pele/" target="_blank" rel="noopener">A história por trás do design da camisa de Pelé<small>Gazeta Esportiva</small></a></li><li><a href="https://ge.globo.com/pr/futebol/taca-fpf/jogo/18-10-2026/londrina-atletico-pr.ghtml" target="_blank" rel="noopener">Londrina x Athletico-PR - Copa Paraná 2026 - globoesporte.com<small>ge</small></a></li><li><a href="https://www.gazetaesportiva.com/times/corinthians/raniele-lesao-menisco-joelho-corinthians/" target="_blank" rel="noopener">Raniele sofre lesão no menisco e vira desfalque no Corinthians<small>Gazeta Esportiva</small></a></li></ul>
+  </div>
+</section>
+<section class="band alerts" id="alertas" aria-labelledby="alerts-h">
+  <div class="wrap alerts-grid">
+    <div>
+      <p class="kicker">Alertas de venda</p>
+      <h2 id="alerts-h" data-scramble>Avise-me quando abrir</h2>
+      <p style="color:var(--mut);margin-top:14px;max-width:48ch">Um e-mail quando a venda do seu evento abrir. Sem spam, e você cancela com um clique.</p>
+      <form class="form" id="alert-form" novalidate data-done="O cadastro de alertas abre em breve. Nada foi enviado ainda." data-err="Digite um e-mail válido e marque o consentimento.">
+        <div class="field"><label for="a-email">Seu e-mail</label><input id="a-email" type="email" autocomplete="email" inputmode="email" placeholder="voce@email.com"></div>
+        <div class="row2">
+          <div class="field"><label for="a-event">Evento</label><select id="a-event"><option value="barcelona-vs-real-madrid-2026-10-25">FC Barcelona x Real Madrid</option><option value="milan-vs-inter-2026-10-31">AC Milan x Inter</option><option value="italia-vs-franca-2026-11-12">Itália x França</option><option value="franca-vs-africa-do-sul-2026-11-13">França x África do Sul</option><option value="gp-abu-dhabi-f1-2026-12-06">GP de Abu Dhabi de Fórmula 1</option><option value="barcelona-vs-manchester-city-2026-12-08">FC Barcelona x Manchester City</option><option value="knicks-vs-nuggets-2027-01-11">New York Knicks x Denver Nuggets</option><option value="final-australian-open-2027-01-31">Final masculina do Australian Open</option><option value="celine-dion-paris-2027-05-14">Celine Dion em Paris</option><option value="final-champions-league-2027-06-05">Final da Champions League 2027</option></select></div>
+          <div class="field"><label for="a-lang">Idioma dos alertas</label><select id="a-lang"><option value="pt" selected>Português</option><option value="en">English</option><option value="es">Español</option></select></div>
+        </div>
+        <label class="consent" for="a-consent"><input id="a-consent" type="checkbox"><span>Aceito receber e-mails do MyTickets sobre este evento. Posso cancelar quando quiser.</span></label>
+        <div><button class="btn btn-signal" data-magnetic type="submit"><span class="mag-inner">Quero o alerta</span></button></div>
+        <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+      </form>
     </div>
-    <hr class="mt-16 border-[#aab6d3]">
-    <p class="mt-10 text-[22px] font-light text-[var(--navy)]">Aceitamos estas opções de pagamento e muito mais:</p>
-    <div id="pagamentos" class="mt-4 bg-[#f8f9fb] border border-[#e1e5ee] rounded-xl px-5 py-4 flex flex-wrap items-center gap-x-5 gap-y-3"></div>
+    <div>
+      <p class="kicker">WhatsApp</p>
+      <h2 data-scramble>Canais oficiais</h2>
+      <p style="color:var(--mut);margin-top:14px;max-width:44ch">Novidades de venda num canal só nosso, no seu idioma. Nunca pedimos pagamento ou dados por mensagem.</p>
+      <div class="channels"><div class="channel"><div><strong>MyTickets · Português</strong><span>BR · PT · US</span></div><span class="btn btn-sm btn-soon" aria-disabled="true">Em breve</span></div><div class="channel"><div><strong>MyTickets · English</strong><span>US · UK · CA · AU</span></div><span class="btn btn-sm btn-soon" aria-disabled="true">Em breve</span></div><div class="channel"><div><strong>MyTickets · Español</strong><span>MX · AR · ES · CO</span></div><span class="btn btn-sm btn-soon" aria-disabled="true">Em breve</span></div></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <a class="brand" href="">MY<b>TICKETS</b>.TOURS</a>
+    <p class="foot-disc">Divulgação: o MyTickets Tours é um site afiliado. Quando você compra pelos nossos links, podemos receber comissão da SportsEvents365, sem custo extra para você. Ingressos, preços e entrega são de responsabilidade do parceiro.</p>
+    <div class="foot-links"><a href="" hreflang="pt-BR">PORTUGUÊS</a><a href="en/" hreflang="en">ENGLISH</a><a href="es/" hreflang="es">ESPAÑOL</a><a href="https://365tickets.com.br/?a_aid=6821d72fcdbe3" target="_blank" rel="sponsored noopener">SPORTSEVENTS365</a></div>
+    <p>© 2026 MyTickets Tours</p>
   </div>
 </footer>
-
-<!-- Contraste / chat flutuantes -->
-<a href="#" data-aff="ingressos" aria-label="Fale conosco" class="fixed w-14 h-14 rounded-full bg-[var(--cta)] text-white flex items-center justify-center shadow-lg hover:brightness-110 z-20" style="right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px))"><i data-lucide="message-circle-more" class="w-7 h-7"></i></a>
-
-<script>
-/* =========================================================
-   CONFIGURAÇÃO — troque aqui pelos seus links de afiliado
-   ========================================================= */
-const AFILIADO = {
-  ingressos:  "https://mytickets.tours/tickets",
-  camisas:    "https://seu-link-de-afiliado.com/camisas",
-  equipamentos:"https://seu-link-de-afiliado.com/equipamentos",
-  ofertas:    "https://seu-link-de-afiliado.com/ofertas",
-  assinatura: "https://seu-link-de-afiliado.com/streaming"
-};
-/* Menu que aparece logo abaixo de CADA vídeo */
-const MENU_AFILIADO = [
-  {rotulo:"Comprar ingressos", chave:"ingressos",   icone:"ticket"},
-  {rotulo:"Camisas oficiais",  chave:"camisas",     icone:"shirt"},
-  {rotulo:"Equipamentos",      chave:"equipamentos",icone:"dumbbell"},
-  {rotulo:"Ofertas do dia",    chave:"ofertas",     icone:"tag"}
-];
-/* Vídeos: cole o link ou o ID do YouTube. Os abaixo são exemplos. */
-const VIDEO_PRINCIPAL = {url:"https://www.youtube.com/watch?v=aqz-KE-bpKQ", titulo:"Exemplo: melhores momentos da rodada"};
-const VIDEOS_PADRAO = [
-  {url:"https://youtu.be/aqz-KE-bpKQ", titulo:"Exemplo: Vasco vence Boca na Bombonera"},
-  {url:"https://youtu.be/aqz-KE-bpKQ", titulo:"Exemplo: Barcelona atropela Galatasaray"}
-];
-
-/* ========================================================= */
-const $ = s => document.querySelector(s);
-function ytId(v){
-  if(!v) return null; v=v.trim();
-  if(/^[\w-]{11}$/.test(v)) return v;
-  const m = v.match(/(?:youtu\.be\/|v=|embed\/|shorts\/|live\/)([\w-]{11})/);
-  return m ? m[1] : null;
-}
-function link(k){ return AFILIADO[k] || "#"; }
-function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
-
-function videoBloco(v, grande){
-  const id = ytId(v.url); if(!id) return "";
-  const thumb = `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
-  const menu = MENU_AFILIADO.map(m=>`<a href="${esc(link(m.chave))}" target="_blank" rel="sponsored noopener" class="aff-link flex items-center justify-center gap-1.5 h-9 px-3 rounded-md border border-[var(--line)] text-[12px] font-bold text-[#2a2b2e] hover:bg-[var(--brand)] hover:text-white hover:border-[var(--brand)]"><i data-lucide="${m.icone}" class="w-4 h-4"></i>${esc(m.rotulo)}</a>`).join("");
-  return `<article class="flex flex-col gap-2 min-w-0">
-    <div class="facade relative ${grande?'rounded-xl':'rounded-lg'} overflow-hidden aspect-video w-full max-w-full cursor-pointer ph" data-yt="${id}" role="button" tabindex="0" aria-label="Reproduzir: ${esc(v.titulo)}"
-      style="background-image:url('${thumb}'),linear-gradient(135deg,#1e2a3a,#0d1117)">
-      <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-black/30"></div>
-      <span class="playbtn absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ${grande?'w-[74px] h-[52px]':'w-14 h-10'} rounded-xl bg-black/70 flex items-center justify-center"><i data-lucide="play" class="w-6 h-6 text-white fill-white"></i></span>
-      <div class="absolute left-0 right-0 bottom-0 p-3 ${grande?'sm:p-4':''}">
-        <p class="text-white font-bold ${grande?'text-[16px] sm:text-[18px]':'text-[14px]'} leading-snug" style="text-wrap:balance">${esc(v.titulo)}</p>
-        ${grande?`<div class="mt-3 flex items-center gap-3 text-white"><div class="h-[3px] flex-1 bg-white/30 rounded"><div class="h-full w-[10%] bg-white rounded relative"><span class="absolute -right-1.5 -top-[5px] w-3 h-3 rounded-full bg-white"></span></div></div><span class="text-[12px] tnum">2:20</span></div>`:''}
-      </div>
-    </div>
-    <nav aria-label="Links de afiliado" class="grid grid-cols-2 ${grande?'sm:grid-cols-4':''} gap-2">${menu}</nav>
-    <a href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener" class="self-start text-[12px] text-[var(--muted)] hover:text-[var(--brand)] flex items-center gap-1"><i data-lucide="external-link" class="w-3.5 h-3.5"></i>Assistir no YouTube</a>
-  </article>`;
-}
-function tocar(el){
-  const id=el.dataset.yt;
-  const f=document.createElement('iframe');
-  f.src=`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
-  f.title="Vídeo do YouTube"; f.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-  f.allowFullscreen=true; f.className="absolute inset-0 w-full h-full";
-  el.innerHTML=""; el.appendChild(f); el.classList.remove('cursor-pointer');
-}
-document.addEventListener('click',e=>{const f=e.target.closest('.facade'); if(f && !f.querySelector('iframe')) tocar(f);});
-document.addEventListener('keydown',e=>{const f=e.target.closest&&e.target.closest('.facade'); if(f&&(e.key==='Enter'||e.key===' ')){e.preventDefault(); if(!f.querySelector('iframe')) tocar(f);}});
-
-/* Galeria (vídeos adicionados ficam salvos neste navegador) */
-let extras=[]; try{ extras=JSON.parse(localStorage.getItem('mytickets_videos')||'[]'); }catch(e){}
-function renderGaleria(){
-  $('#galeria').innerHTML=[...extras,...VIDEOS_PADRAO].map(v=>videoBloco(v,false)).join("");
-  lucide.createIcons();
-}
-$('#btn-add').onclick=()=>{ const f=$('#form-add'); f.hidden=!f.hidden; if(!f.hidden) $('#in-url').focus(); };
-$('#form-add').addEventListener('submit',e=>{
-  e.preventDefault();
-  const url=$('#in-url').value, id=ytId(url), msg=$('#form-msg');
-  if(!id){ msg.textContent="Link não reconhecido. Use um link do YouTube como youtube.com/watch?v=… ou youtu.be/…"; msg.style.color="var(--brand)"; return; }
-  extras.unshift({url:id, titulo:$('#in-title').value.trim()||"Novo vídeo"});
-  try{ localStorage.setItem('mytickets_videos',JSON.stringify(extras)); }catch(e){}
-  $('#in-url').value=""; $('#in-title').value="";
-  msg.textContent="Vídeo publicado na galeria."; msg.style.color="#1a7f37";
-  renderGaleria();
-});
-
-/* Escudos genéricos */
-document.querySelectorAll('.crest').forEach(el=>{
-  const [c1,c2]=el.dataset.c.split(','), t=el.dataset.t;
-  el.outerHTML=`<svg width="38" height="42" viewBox="0 0 38 42" aria-hidden="true"><path d="M19 1 36 6v14c0 10-8 17-17 21C10 37 2 30 2 20V6z" fill="${c1}" stroke="${c2}" stroke-width="2"/><rect x="2" y="17" width="34" height="7" fill="${c2}"/><text x="19" y="23" text-anchor="middle" font-family="Roboto Condensed,Arial" font-weight="700" font-size="7" fill="${c1}">${t}</text></svg>`;
-});
-
-/* Sidebar */
-const ligas=[["Libertadores","trophy"],["Série B","shield"],["Sul-Americana","award"],["Premier League","crown"],["Tênis","circle-dot"],["NBA","dribbble"],["NFL","shield-half"]];
-$('#ligas').innerHTML=ligas.map(([n,i])=>`<li class="border-t border-[var(--line)] first:border-t-0"><a href="#" data-aff="assinatura" class="flex items-center gap-3 h-9 px-1 hover:bg-[#f4f5f6]"><i data-lucide="${i}" class="w-4 h-4 text-[#7a7d82]"></i><span class="flex-1">${n}</span><i data-lucide="external-link" class="w-3.5 h-3.5 text-[#9a9ca0]"></i></a></li>`).join("");
-
-const destaquesPadrao=["O que assistir nesta quarta-feira no Play+","Vasco vence Boca Juniors na Bombonera","Pedrinho desabafa por impasse com Maracanã","Palmeiras perde Vitor Roque contra o Flu","Barcelona atropela Galatasaray na Champions","Seedorf tinha conversas com Fluminense","Justiça define Vasco x Boca no Maracanã","Jogadores do Cruzeiro são alvo de protesto"].map(t=>({t}));
-function renderDestaques(ls){
-  $('#destaques').innerHTML=ls.map(d=>`<li class="border-b border-[var(--line)] last:border-b-0"><a href="${d.u?esc(d.u):'#'}"${d.u?' target="_blank" rel="noopener"':''} class="block py-2 leading-snug hover:underline">${esc(d.t)}${d.f?` <span class="text-[10px] text-[var(--muted)]">· ${esc(d.f)}</span>`:''}</a></li>`).join("");
-}
-renderDestaques(destaquesPadrao);
-/* Notícias atualizadas pelo robô (.github/workflows/noticias.yml) */
-fetch('dados.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(j=>{ if(j&&Array.isArray(j.destaques)&&j.destaques.length) renderDestaques(j.destaques); }).catch(()=>{});
-
-/* Carrossel */
-const slides=[
-  ["Premier League","photo-1522778119026-d647f0596c20","#3d4f7a,#1e5e2a"],["La Liga","photo-1508098682722-e99c43a406b2","#7a4b2a,#2a5e1e"],
-  ["NBA","photo-1546519638-68e109498ffc","#3a2a1e,#7a3d1e"],["Champions League","photo-1574629810360-7efbbe195018","#1b2550,#1e4f5e"],
-  ["Série A italiana","photo-1489944440615-453fc2b6a9a9","#5e7fa8,#1d6b2c"],["Tênis","photo-1554068865-24cecd4e34b8","#2a6e8a,#5a8a2a"],
-  ["Fórmula 1","photo-1541773367336-d3f7e6a6ab6e","#4a1e1e,#1e1e1e"],["NFL","photo-1566577739112-5180d4bf9390","#1e3a2a,#3a2a1e"],
-  ["Copa do Mundo","photo-1431324155629-1a6deb1dec8d","#1e5e3a,#c8a21e"],["Rúgbi","photo-1544298621-77b3b8f4f9f0","#2a4a1e,#1e2a1e"],
-  ["NHL","photo-1515703407324-5f753afd8be8","#9ab4c8,#1e3a5e"],["MLB","photo-1508344928928-7165b67de128","#3a5e2a,#a87a3a"],
-  ["Shows e espetáculos","photo-1501386761578-eac5c94b800a","#3a1e5e,#5e1e3a"]
-];
-$('#slides').innerHTML=slides.map(([t,img,g],i)=>`<div class="slide absolute inset-0 ph ${i===4?'':'opacity-0 pointer-events-none'}" style="background-image:url('https://images.unsplash.com/${img}?w=1600&q=70'),linear-gradient(180deg,${g})">
-  <div class="absolute inset-0 bg-gradient-to-r from-black/45 via-black/10 to-transparent"></div>
-  <div class="absolute left-6 sm:left-12 top-1/2 -translate-y-1/2 sm:translate-y-[-30%]">
-    <h3 class="slab text-white font-bold text-[30px] sm:text-[42px] drop-shadow" style="text-wrap:balance">${t}</h3>
-    <a href="#" data-aff="ingressos" class="mt-5 inline-flex items-center h-[52px] px-10 rounded-xl bg-[var(--cta)] text-white text-[18px] hover:brightness-110 shadow-md">Compre ingressos</a>
-  </div></div>`).join("");
-$('#dots').innerHTML=slides.map((_,i)=>`<button aria-label="Slide ${i+1}" class="dot h-2 rounded-full transition-all ${i===4?'w-16 bg-[var(--sky)]':'w-9 bg-white'}"></button>`).join("");
-let atual=4;
-function ir(n){
-  atual=(n+slides.length)%slides.length;
-  document.querySelectorAll('.slide').forEach((s,i)=>{s.classList.toggle('opacity-0',i!==atual);s.classList.toggle('pointer-events-none',i!==atual);});
-  document.querySelectorAll('.dot').forEach((d,i)=>{d.className=`dot h-2 rounded-full transition-all ${i===atual?'w-16 bg-[var(--sky)]':'w-9 bg-white'}`;});
-}
-$('#prev').onclick=()=>ir(atual-1); $('#next').onclick=()=>ir(atual+1);
-document.querySelectorAll('.dot').forEach((d,i)=>d.onclick=()=>ir(i));
-if(!matchMedia('(prefers-reduced-motion: reduce)').matches) setInterval(()=>ir(atual+1),6000);
-
-/* Motivos */
-const motivos=[["badge-check","Credibilidade verificada"],["receipt","Preços competitivos"],["clock-3","Disponível 7 dias por semana."],["shield-check","Garantia de 100% de satisfação do comprador"],["headset","Contato pessoal e direto"]];
-$('#motivos').innerHTML=motivos.map(([i,t])=>`<li class="flex items-center gap-3"><span class="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center shrink-0"><i data-lucide="${i}" class="w-7 h-7 text-[#3d5170]" stroke-width="1.3"></i></span><span class="text-[13px] leading-snug text-[#1e2b3c]">${t}</span></li>`).join("");
-
-/* Cards */
-function card(e){
-  return `<a href="#" data-aff="ingressos" class="group bg-white rounded-2xl border border-[#e3e8f0] p-4 shadow-[0_4px_14px_rgba(11,61,110,.08)] hover:shadow-[0_8px_24px_rgba(11,61,110,.16)] transition-shadow flex flex-col">
-    <div class="relative aspect-[4/3] rounded-lg overflow-hidden ph max-w-full" style="background-image:url('https://images.unsplash.com/${e.img}?w=600&q=70'),linear-gradient(140deg,${e.g})">
-      <span class="absolute left-1.5 top-1.5 bg-white rounded-full px-2 py-0.5 text-[11px] text-[var(--sky)]">${e.cat}</span></div>
-    <div class="flex items-start justify-between gap-3 mt-5"><h4 class="text-[18px] font-medium text-[var(--navy)] leading-snug group-hover:underline">${e.t}</h4><i data-lucide="arrow-up-right" class="w-6 h-6 shrink-0 text-[#111]"></i></div>
-    <p class="mt-3 text-[15px] leading-[1.6] text-[#4a5463]">${e.l.join('<br>')}</p>
-    <p class="mt-auto pt-5 text-[15px] font-bold text-[var(--navy)]">${e.d}</p></a>`;
-}
-const eventos=[
-  {cat:"Futebol (Soccer)",t:"Final: Inter x Lazio Roma",l:["Supercopa Italiana","Estádio San Siro (Giuseppe Meazza)","Milão, Itália"],d:"Terça-feira, 22 de dezembro de 2026",img:"photo-1459865264687-595d652de67e",g:"#2a5e8a,#0d2a44"},
-  {cat:"Tênis",t:"Aberto da Austrália | Sessão 27 - Final Masculina",l:["Aberto da Austrália (Grand Slam)","Arena Rod Laver (Quadra Principal)","Melbourne, Austrália"],d:"Domingo, 31 de janeiro de 2027",img:"photo-1595435934249-5df7ed86e1c0",g:"#2a6e8a,#5a8a2a"},
-  {cat:"Futebol (Soccer)",t:"Semifinal: FC Barcelona x Atlético de Madrid",l:["Supercopa da Espanha","Estádio Fenerbahçe Sukru Saracoglu","Istambul, Turquia"],d:"Terça-feira, 02 de fevereiro de 2027",img:"photo-1517927033932-b3d18e61fb3a",g:"#7a1e3a,#1e2a5e"},
-  {cat:"Futebol (Soccer)",t:"Semifinal: Real Madrid x Real Sociedad",l:["Supercopa da Espanha","Estádio Tupras (Estádio do Besiktas)","Istambul, Turquia"],d:"Quarta-feira, 03 de fevereiro de 2027",img:"photo-1487466365202-1afdb86c764e",g:"#5e7a9a,#1e4a2a"}
-];
-const vendidos=[
-  {cat:"Futebol (Soccer)",t:"Itália x França",l:["Liga das Nações da UEFA","Estádio San Siro (Giuseppe Meazza)","Milão, Itália"],d:"Qui, 12 de nov de 2026",img:"photo-1556056504-5c7696c4c28d",g:"#1e5ea8,#0d2a5e"},
-  {cat:"Futebol (Soccer)",t:"FC Barcelona x Real Madrid",l:["La Liga espanhola","Camp Nou","Barcelona, Espanha"],d:"Domingo, 25 de outubro de 2026",img:"photo-1551958219-acbc608c6377",g:"#7a1e3a,#1e2a7a"},
-  {cat:"Futebol (Soccer)",t:"Barcelona x Manchester City",l:["Liga dos Campeões da UEFA","Camp Nou","Barcelona, Espanha"],d:"Terça-feira, 08 de dezembro de 2026",img:"photo-1560272564-c83b66b1ad12",g:"#a83a1e,#1e3a7a"},
-  {cat:"Futebol (Soccer)",t:"Paris SG x FC Barcelona",l:["Liga dos Campeões da UEFA","Parque dos Príncipes","Paris, França"],d:"Terça-feira, 20 de outubro de 2026",img:"photo-1606925797300-0b35e9d1794e",g:"#c81e2a,#1e2a7a"}
-];
-$('#eventos').innerHTML=eventos.map(card).join("");
-$('#vendidos').innerHTML=vendidos.map(card).join("");
-
-/* Rodapé */
-const cols=[
-  ["Empresa",["Sobre nós","Perguntas frequentes","Contate-nos","Conecte-se","Corretores de ingressos","Programa de afiliados","Profissionais de viagens","Declaração de Acessibilidade"]],
-  ["Escolha do Editor",["Futebol (Soccer)","Tênis","Basquetebol","Rúgbi","FC Barcelona","AC Milan","Inter","AS Roma"]],
-  ["Principais ligas",["Copa do Mundo (não disponível para compra na França ou na Suíça)","Premier League","Série A","La Liga","NBA","NHL","MLB"]],
-  ["Conectar",["Facebook","Instagram","YouTube","Twitter"]]
-];
-$('#foot-cols').outerHTML=cols.map(([h,ls])=>`<div class="min-w-0"><h4 class="slab font-semibold text-[21px] text-[var(--navy)]">${h}</h4><ul class="mt-5 flex flex-col gap-[13px] text-[16px] font-light text-[#1f4e86]">${ls.map(l=>`<li><a href="#" ${l==='Programa de afiliados'?'data-aff="ingressos"':''} class="hover:text-[var(--sky)] hover:underline">${l}</a></li>`).join("")}</ul></div>`).join("");
-const pags=[["VISA","font-black italic text-[28px] text-[#1a1f71]"],["Diners Club","slab text-[16px] text-[#004a97]"],["Mastercard","font-bold text-[14px] text-[#eb001b]"],["Amex","font-black text-[14px] text-white bg-[#2e77bc] px-2 py-1 rounded"],["JCB","font-black text-[16px] text-[#0b4ea2]"],["Apple Pay","font-medium text-[22px] text-[#111]"],["Google Pay","font-medium text-[22px] text-[#5f6368]"],["Revolut","font-bold text-[26px] text-[#111]"],["Alipay","font-bold text-[18px] text-[#1677ff]"],["WeChat Pay","font-medium text-[16px] text-[#1aad19]"],["pix","font-light text-[26px] text-[#32bcad]"]];
-$('#pagamentos').innerHTML=pags.map(([n,c],i)=>`${i?'<span class="hidden sm:block w-px h-7 bg-[#d6dbe4]"></span>':''}<span class="${c}">${n}</span>`).join("");
-
-/* Vídeo principal */
-$('#video-principal').innerHTML=videoBloco(VIDEO_PRINCIPAL,true);
-renderGaleria();
-
-/* Aplica links de afiliado em banners/CTAs */
-document.querySelectorAll('[data-aff]').forEach(a=>{ a.href=link(a.dataset.aff)+(link(a.dataset.aff).includes('mytickets.tours/tickets')?location.search:''); a.target="_blank"; a.rel="sponsored noopener"; });
-lucide.createIcons();
-</script>
-
+<div class="cur off" id="cur-blob" aria-hidden="true"><em>VER</em></div>
+<div class="cur off" id="cur-dot" aria-hidden="true"></div>
+<script src="assets/site.js" defer></script>
 </body>
 </html>
