@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-14T22:46:38+00:00",
+ "atualizado": "2026-10-14T22:49:09+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -10,12 +10,6 @@
     "es": "Brasil"
    },
    "noticias": [
-    {
-     "t": "Endrick 'voando' em remontada do Real Madrid, shows de Barcelona e PSG e mais: o melhor da 2ª rodada da Champions",
-     "u": "https://www.espn.com.br/futebol/champions-league/artigo/_/id/17381182/endrick-voando-remontada-real-madrid-shows-barcelona-psg-melhor-segunda-rodada-champions-league",
-     "f": "ESPN Brasil",
-     "alta": false
-    },
     {
      "t": "▶️ River-PI intensifica preparação para final contra Flamengo-PI; veja entrevistas",
      "u": "https://ge.globo.com/pi/futebol/times/river-pi/playlist/-river-pi-intensifica-preparacao-para-final-contra-flamengo-pi-veja-entrevistas.ghtml",
@@ -29,9 +23,15 @@
      "alta": false
     },
     {
-     "t": "Endrick 'muda' jogo e marca, Real Madrid faz três gols em sete minutos e consegue virada histórica contra a Roma na Champions",
-     "u": "https://www.espn.com.br/futebol/champions-league/artigo/_/id/17381356/endrick-muda-jogo-marca-real-madrid-faz-tres-gols-sete-minutos-consegue-virada-historica-contra-roma-champions",
-     "f": "ESPN Brasil",
+     "t": "Manchester City x PSG: veja fotos do jogo pela Champions",
+     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/manchester-city-x-psg-veja-fotos-do-jogo-pela-champions/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "PSG goleia Manchester City e assume a liderança da Liga dos Campeões",
+     "u": "https://www.gazetaesportiva.com/times/paris-saint-germain/psg-goleia-manchester-city-e-assume-a-lideranca-da-liga-dos-campeoes/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -57,15 +57,15 @@
      "alta": false
     },
     {
-     "t": "Man City can't compete with PSG, the Champions League's gold standard",
-     "u": "https://www.espn.com/soccer/story/_/id/50184341/man-city-compete-psg-champions-league-gold-standard",
-     "f": "ESPN",
+     "t": "Why a new $35 million basketball and volleyball training center is a 'game-changer' for UTSA",
+     "u": "https://sports.yahoo.com/articles/why-35-million-basketball-volleyball-224103329.html",
+     "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Real Madrid's late rally stuns Roma in 7-goal thriller",
-     "u": "https://www.espn.com/soccer/report/_/gameId/401915414",
-     "f": "ESPN",
+     "t": "Football Notebook | How many area teams are fighting for playoff spots?",
+     "u": "https://sports.yahoo.com/articles/football-notebook-many-area-teams-223740156.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -85,20 +85,20 @@
      "alta": false
     },
     {
-     "t": "Portugal goleia Itália no Mundial",
-     "u": "https://www.abola.pt/noticias/portugal-goleia-italia-no-mundial-2026101422175115834",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
      "t": "Portugal goleia a Itália e fica em 2.º do grupo A no Mundial de hóquei em patins",
      "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/20261014-195005-italia-portugal-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Se o Sporting é um Mercedes, o Benfica é... Marco Silva responde",
-     "u": "https://www.abola.pt/video/se-o-sporting-e-um-mercedes-o-benfica-e-marco-silva-responde-2026101415043840556",
+     "t": "Rúben Dias revela reunião do plantel do Manchester City após acusações financeiras",
+     "u": "https://www.abola.pt/noticias/ruben-dias-revela-reuniao-do-plantel-do-manchester-city-apos-acusacoes-financeiras-2026101313272351157",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Atlético Madrid expôs (outra vez) as fragilidades do Man. United (crónica)",
+     "u": "https://www.abola.pt/noticias/atletico-madrid-expos-outra-vez-as-fragilidades-do-man-united-cronica-2026101321194291064",
      "f": "A Bola",
      "alta": false
     }
@@ -265,8 +265,8 @@
      "alta": false
     },
     {
-     "t": "Les notes de Manchester City-PSG",
-     "u": "https://www.lequipe.fr/Football/Article/Les-notes-de-manchester-city-psg-la-lumiere-doue-le-phare-haaland/1735839#at_medium=RSS_feeds",
+     "t": "Luis Enrique, entraîneur du PSG, après la victoire sur la pelouse de Manchester City : « Si tu as de la malchance, tu perds ce match »",
+     "u": "https://www.lequipe.fr/Football/Actualites/Luis-enrique-entraineur-du-psg-apres-la-victoire-sur-la-pelouse-de-manchester-city-si-tu-as-de-la-malchance-tu-perds-ce-match/1735847#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,10 +275,10 @@
  ],
  "destaques": [
   {
-   "t": "Endrick 'voando' em remontada do Real Madrid, shows de Barcelona e PSG e mais: o melhor da 2ª rodada da Champions",
-   "u": "https://www.espn.com.br/futebol/champions-league/artigo/_/id/17381182/endrick-voando-remontada-real-madrid-shows-barcelona-psg-melhor-segunda-rodada-champions-league",
-   "f": "ESPN Brasil",
-   "alta": false,
+   "t": "▶️ River-PI intensifica preparação para final contra Flamengo-PI; veja entrevistas",
+   "u": "https://ge.globo.com/pi/futebol/times/river-pi/playlist/-river-pi-intensifica-preparacao-para-final-contra-flamengo-pi-veja-entrevistas.ghtml",
+   "f": "ge",
+   "alta": true,
    "pais": "BR"
   },
   {
