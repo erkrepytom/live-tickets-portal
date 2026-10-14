@@ -460,15 +460,20 @@
 })();
 </script>
 
-<!-- ============ PLACAR (ticker) ============ -->
-<div class="bg-white border-b border-[var(--line)]">
-  <div class="flex items-stretch h-[66px]">
-    <div class="hidden sm:flex items-center px-5 border-r border-[var(--line)] shrink-0">
-      <button id="filtro" class="flex items-center gap-3 border border-[#cfd2d6] rounded-full px-3.5 h-9 text-[13px] text-[#3b3d40] hover:border-[#9aa0a6]">O Melhor <i data-lucide="chevron-down" class="w-4 h-4 text-[#2f6fb0]"></i></button>
+<!-- ============ PROXIMOS EVENTOS ============ -->
+<div class="bg-[#0a1726]">
+  <div class="flex items-stretch gap-4 py-3" style="padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))">
+    <div class="w-[96px] sm:w-[120px] shrink-0 flex flex-col justify-center">
+      <span class="text-white font-bold text-[12px] sm:text-[13px] tracking-[.08em] leading-tight uppercase">Próximos<br>eventos</span>
+      <span class="text-[#8fa3b8] text-[10px] mt-1.5 leading-snug">Fonte automática ainda não conectada</span>
     </div>
-    <div class="hidden md:flex items-center px-3 bg-[#f6f6f7] border-r border-[var(--line)] text-[12px] font-bold shrink-0">Champions League</div>
-    <div id="ticker" class="flex flex-1 overflow-x-auto no-scrollbar"></div>
-    <button class="w-12 shrink-0 flex items-center justify-center border-l border-[var(--line)] hover:bg-[#f6f6f7]" aria-label="Mais jogos"><i data-lucide="chevron-right" class="w-6 h-6 text-[#555]"></i></button>
+    <div class="relative flex-1 min-w-0 rounded-lg border border-[#3c4f63] overflow-hidden ph min-h-[120px]" style="background-image:url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1600&q=60'),linear-gradient(100deg,#13314f,#1d5a2e)">
+      <div class="absolute inset-0 bg-[#0a1726]/55"></div>
+      <div class="relative h-full min-h-[120px] flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 px-4 py-4 text-center">
+        <p class="text-white font-bold text-[16px] sm:text-[19px] leading-snug" style="text-wrap:balance">Confira os eventos e a disponibilidade diretamente no catálogo do fornecedor.</p>
+        <a href="#" data-aff="ingressos" class="shrink-0 inline-flex items-center gap-1.5 h-11 px-6 rounded-lg bg-[#ed7513] text-white font-bold text-[15px] border border-[#ffd9b8]/60 hover:brightness-110 whitespace-nowrap">Explorar ingressos <i data-lucide="arrow-up-right" class="w-4 h-4"></i></a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -736,18 +741,6 @@ $('#form-add').addEventListener('submit',e=>{
   msg.textContent="Vídeo publicado na galeria."; msg.style.color="#1a7f37";
   renderGaleria();
 });
-
-/* Placar */
-const jogos=[
-  ["LNS",0,"#e1251b","SCP",2,"#0a7a3a"],["SAB",2,"#7a1f3d","SLP",0,"#d81e5b"],["VLR",3,"#f2b705","NAP",1,"#1b9bd7"],
-  ["VIK",3,"#e8501e","BMU",3,"#dc052d"],["ATL",2,"#c8102e","MUN",0,"#da291c"],["INT",3,"#0068a8","CLUB BRUGGE",4,"#1a1a1a"],
-  ["ARS",3,"#db0007","LILL",0,"#c8102e"],["RBL",1,"#dd0741","PSV",0,"#e30613"],["GAL",1,"#f39200","BAR",4,"#a50044"]
-];
-$('#ticker').innerHTML=jogos.map(([a,ga,ca,b,gb,cb])=>{
-  const row=(t,g,c,win)=>`<div class="flex items-center justify-between gap-2 ${win?'text-[#111] font-bold':'text-[#9a9ca0] font-medium'}"><span class="flex items-center gap-2 min-w-0"><span class="w-3.5 h-3.5 rounded-full shrink-0" style="background:${c}"></span><span class="truncate">${t}</span></span><span class="tnum">${g}</span></div>`;
-  return `<a href="#" class="w-[124px] ${a==='INT'?'w-[146px]':''} shrink-0 px-2.5 py-1.5 border-r border-[var(--line)] text-[11.5px] cond hover:bg-[#f6f6f7] flex flex-col justify-center gap-0.5">
-    <span class="font-bold text-[10px] text-[#111]">F</span>${row(a,ga,ca,ga>=gb)}${row(b,gb,cb,gb>=ga)}</a>`;
-}).join("");
 
 /* Escudos genéricos */
 document.querySelectorAll('.crest').forEach(el=>{
