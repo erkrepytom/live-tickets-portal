@@ -81,14 +81,26 @@ if (news){
   }).catch(() => {});
 }
 
-/* ---------- Formulário de alertas (ainda sem provedor de e-mail) ---------- */
+/* ---------- Formulário de alertas (FormSubmit → caixa de e-mail do Titan) ---------- */
 const form = document.getElementById("alert-form");
 if (form){
   form.addEventListener("submit", e => {
     e.preventDefault();
     const m = document.getElementById("form-msg"), em = document.getElementById("a-email").value.trim(), ok = document.getElementById("a-consent").checked;
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em) || !ok){ m.className = "form-msg err"; m.textContent = form.dataset.err; return; }
-    m.className = "form-msg ok"; m.textContent = form.dataset.done;
+    const url = form.dataset.endpoint;
+    if (!url){ m.className = "form-msg"; m.textContent = form.dataset.soon; return; }
+    if (document.getElementById("a-honey").value) return;
+    const sel = document.getElementById("a-event"), btn = form.querySelector("button[type=submit]");
+    btn.disabled = true; m.className = "form-msg"; m.textContent = form.dataset.sending;
+    fetch(url, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify({
+      email: em, evento: sel.options[sel.selectedIndex].text, evento_slug: sel.value,
+      idioma_alertas: document.getElementById("a-lang").value, pagina: location.href, consentimento: "sim",
+      _subject: "Alerta de venda: " + sel.options[sel.selectedIndex].text, _template: "table", _captcha: "false"
+    }) }).then(r => r.ok ? r.json() : Promise.reject()).then(j => {
+      if (j && (j.success === true || j.success === "true")){ m.className = "form-msg ok"; m.textContent = form.dataset.done; form.reset(); }
+      else return Promise.reject();
+    }).catch(() => { m.className = "form-msg err"; m.textContent = form.dataset.fail; }).finally(() => { btn.disabled = false; });
   });
 }
 

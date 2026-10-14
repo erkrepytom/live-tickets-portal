@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@500;700&family=Chakra+Petch:wght@600&family=IBM+Plex+Mono:wght@400&display=swap">
-<link rel="stylesheet" href="../../assets/site.css">
+<link rel="stylesheet" href="../../assets/site.css?v=64ae505d">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsEvent", "name": "FC Barcelona x Manchester City", "startDate": "2026-12-08", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Camp Nou", "address": {"@type": "PostalAddress", "addressLocality": "Barcelona", "addressCountry": "Espanha"}}, "image": ["https://erkrepytom.github.io/live-tickets-portal/assets/img/06-champions.jpg"], "description": "Noite de Champions League no Camp Nou: o Barcelona recebe o Manchester City.", "offers": {"@type": "Offer", "url": "https://365tickets.com.br/event/402363?a_aid=6821d72fcdbe3", "availability": "https://schema.org/InStock"}}</script>
 </head>
 <body>
@@ -34,7 +34,7 @@
 </header>
 <main>
 <section class="ev-hero" data-parallax aria-labelledby="ev-h">
-  <div class="layer l-photo photo" data-depth="0.15" style="background-image:url('../../assets/img/06-champions.jpg');background-position:right center;opacity:.55"></div>
+  <div class="layer l-photo photo" data-depth="0.15" style="background-image:url('../../assets/img/06-champions.jpg?v=203c8ea7');background-position:right center;opacity:.55"></div>
   <div class="layer l-shade"></div>
   <div class="wrap on-night">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="../../">Início</a><span aria-hidden="true">›</span><a href="../../#partidas">Partidas</a><span aria-hidden="true">›</span><span>FC Barcelona x Manchester City</span></nav>
@@ -87,7 +87,7 @@
   <div class="card-img photo" style="background-image:url('https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=800&q=70&auto=format&fit=crop');"><span class="card-date">31 JAN 2027</span></div>
   <div class="card-body"><h3>Final masculina do Australian Open</h3><p>Rod Laver Arena · Melbourne</p></div>
 </a><a class="card" href="../../eventos/celine-dion-paris-2027-05-14/">
-  <div class="card-img photo" style="background-image:url('../../assets/img/sports.jpg');"><span class="card-date">14 MAI 2027</span></div>
+  <div class="card-img photo" style="background-image:url('../../assets/img/sports.jpg?v=c4aae31a');"><span class="card-date">14 MAI 2027</span></div>
   <div class="card-body"><h3>Celine Dion em Paris</h3><p>Paris La Défense Arena · Paris</p></div>
 </a></div>
   </div>
@@ -98,7 +98,8 @@
       <p class="kicker">Alertas de venda</p>
       <h2 id="alerts-h" data-scramble>Avise-me quando abrir</h2>
       <p style="color:var(--mut);margin-top:14px;max-width:48ch">Um e-mail quando a venda do seu evento abrir. Sem spam, e você cancela com um clique.</p>
-      <form class="form" id="alert-form" novalidate data-done="O cadastro de alertas abre em breve. Nada foi enviado ainda." data-err="Digite um e-mail válido e marque o consentimento.">
+      <form class="form" id="alert-form" novalidate data-endpoint="" data-done="Pronto. Você vai receber um e-mail quando a venda abrir." data-soon="O cadastro de alertas abre em breve. Nada foi enviado ainda." data-fail="Não deu para enviar agora. Tente de novo em alguns minutos." data-sending="Enviando…" data-err="Digite um e-mail válido e marque o consentimento.">
+        <input type="text" name="_honey" id="a-honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
         <div class="field"><label for="a-email">Seu e-mail</label><input id="a-email" type="email" autocomplete="email" inputmode="email" placeholder="voce@email.com"></div>
         <div class="row2">
           <div class="field"><label for="a-event">Evento</label><select id="a-event"><option value="barcelona-vs-real-madrid-2026-10-25">FC Barcelona x Real Madrid</option><option value="milan-vs-inter-2026-10-31">AC Milan x Inter</option><option value="italia-vs-franca-2026-11-12">Itália x França</option><option value="franca-vs-africa-do-sul-2026-11-13">França x África do Sul</option><option value="gp-abu-dhabi-f1-2026-12-06">GP de Abu Dhabi de Fórmula 1</option><option value="barcelona-vs-manchester-city-2026-12-08" selected>FC Barcelona x Manchester City</option><option value="knicks-vs-nuggets-2027-01-11">New York Knicks x Denver Nuggets</option><option value="final-australian-open-2027-01-31">Final masculina do Australian Open</option><option value="celine-dion-paris-2027-05-14">Celine Dion em Paris</option><option value="final-champions-league-2027-06-05">Final da Champions League 2027</option></select></div>
@@ -107,6 +108,7 @@
         <label class="consent" for="a-consent"><input id="a-consent" type="checkbox"><span>Aceito receber e-mails do MyTickets sobre este evento. Posso cancelar quando quiser.</span></label>
         <div><button class="btn btn-signal" data-magnetic type="submit"><span class="mag-inner">Quero o alerta</span></button></div>
         <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+        
       </form>
     </div>
     <div>
@@ -128,6 +130,6 @@
 </footer>
 <div class="cur off" id="cur-blob" aria-hidden="true"><em>VER</em></div>
 <div class="cur off" id="cur-dot" aria-hidden="true"></div>
-<script src="../../assets/site.js" defer></script>
+<script src="../../assets/site.js?v=e95d1d80" defer></script>
 </body>
 </html>

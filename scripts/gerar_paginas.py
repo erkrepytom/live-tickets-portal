@@ -6,6 +6,7 @@ sitemap.xml e robots.txt. Os links de ingresso apontam direto para o evento ou a
 categoria no site do parceiro, sempre com o código de afiliado.
 """
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -20,6 +21,10 @@ AFILIADO = "6821d72fcdbe3"
 # O parceiro tem um site por idioma; o mesmo caminho e o mesmo a_aid funcionam nos três.
 PARCEIRO = {"pt": "https://365tickets.com.br", "en": "https://sportsevents365.com", "es": "https://sportsevents365.es"}
 IDIOMAS = ["pt", "en", "es"]
+# Formulário de alertas: o FormSubmit entrega cada cadastro como e-mail na caixa do Titan.
+# Coloque aqui https://formsubmit.co/ajax/<seu-email-titan> (ou o código aleatório que o
+# FormSubmit envia depois da ativação). Vazio = formulário mostra "em breve".
+FORM_ENDPOINT = ""
 HREFLANG = {"pt": "pt-BR", "en": "en", "es": "es"}
 FOTO_TOPO = "hero.jpg"  # imagens locais ficam em assets/img (banners do portal anterior)
 
@@ -49,7 +54,9 @@ T = {
   "alerts_sub": "Um e-mail quando a venda do seu evento abrir. Sem spam, e você cancela com um clique.",
   "f_email": "Seu e-mail", "f_event": "Evento", "f_lang": "Idioma dos alertas", "ph_email": "voce@email.com",
   "f_consent": "Aceito receber e-mails do MyTickets sobre este evento. Posso cancelar quando quiser.", "f_submit": "Quero o alerta",
-  "f_done": "O cadastro de alertas abre em breve. Nada foi enviado ainda.", "f_err": "Digite um e-mail válido e marque o consentimento.",
+  "f_soon": "O cadastro de alertas abre em breve. Nada foi enviado ainda.", "f_err": "Digite um e-mail válido e marque o consentimento.",
+  "f_done": "Pronto. Você vai receber um e-mail quando a venda abrir.", "f_fail": "Não deu para enviar agora. Tente de novo em alguns minutos.",
+  "f_sending": "Enviando…", "f_privacy": "Usamos o FormSubmit só para entregar seu cadastro na caixa de e-mail do MyTickets. Seu e-mail serve apenas para este alerta.",
   "wa_kicker": "WhatsApp", "wa_h": "Canais oficiais", "wa_sub": "Novidades de venda num canal só nosso, no seu idioma. Nunca pedimos pagamento ou dados por mensagem.", "soon": "Em breve",
   "foot_disc": "Divulgação: o MyTickets Tours é um site afiliado. Quando você compra pelos nossos links, podemos receber comissão da SportsEvents365, sem custo extra para você. Ingressos, preços e entrega são de responsabilidade do parceiro.",
   "aff_note": "Link de afiliado: o MyTickets pode receber comissão, sem custo extra para você.",
@@ -85,7 +92,9 @@ T = {
   "alerts_sub": "One email when sales for your event open. No spam, and you can unsubscribe in one click.",
   "f_email": "Your email", "f_event": "Event", "f_lang": "Alert language", "ph_email": "you@email.com",
   "f_consent": "I agree to receive MyTickets emails about this event. I can unsubscribe at any time.", "f_submit": "Get the alert",
-  "f_done": "Alert sign-up opens soon. Nothing was sent yet.", "f_err": "Enter a valid email and tick the consent box.",
+  "f_soon": "Alert sign-up opens soon. Nothing was sent yet.", "f_err": "Enter a valid email and tick the consent box.",
+  "f_done": "Done. You will get an email when sales open.", "f_fail": "We couldn't send it right now. Try again in a few minutes.",
+  "f_sending": "Sending…", "f_privacy": "We use FormSubmit only to deliver your sign-up to the MyTickets inbox. Your email is used for this alert only.",
   "wa_kicker": "WhatsApp", "wa_h": "Official channels", "wa_sub": "Sale news in a channel that is ours alone, in your language. We never ask for payment or personal data by message.", "soon": "Coming soon",
   "foot_disc": "Disclosure: MyTickets Tours is an affiliate site. When you buy through our links we may earn a commission from SportsEvents365 at no extra cost to you. Tickets, prices and delivery are the partner's responsibility.",
   "aff_note": "Affiliate link: MyTickets may earn a commission at no extra cost to you.",
@@ -121,7 +130,9 @@ T = {
   "alerts_sub": "Un correo cuando abra la venta de tu evento. Sin spam, y te das de baja con un clic.",
   "f_email": "Tu correo", "f_event": "Evento", "f_lang": "Idioma de las alertas", "ph_email": "tu@correo.com",
   "f_consent": "Acepto recibir correos de MyTickets sobre este evento. Puedo darme de baja cuando quiera.", "f_submit": "Quiero la alerta",
-  "f_done": "El registro de alertas abre pronto. Todavía no se envió nada.", "f_err": "Escribe un correo válido y marca el consentimiento.",
+  "f_soon": "El registro de alertas abre pronto. Todavía no se envió nada.", "f_err": "Escribe un correo válido y marca el consentimiento.",
+  "f_done": "Listo. Recibirás un correo cuando abra la venta.", "f_fail": "No se pudo enviar ahora. Inténtalo de nuevo en unos minutos.",
+  "f_sending": "Enviando…", "f_privacy": "Usamos FormSubmit solo para entregar tu registro en el correo de MyTickets. Tu correo se usa solo para esta alerta.",
   "wa_kicker": "WhatsApp", "wa_h": "Canales oficiales", "wa_sub": "Novedades de venta en un canal solo nuestro, en tu idioma. Nunca pedimos pagos ni datos por mensaje.", "soon": "Próximamente",
   "foot_disc": "Aviso: MyTickets Tours es un sitio afiliado. Cuando compras con nuestros enlaces podemos recibir una comisión de SportsEvents365 sin costo extra para ti. Entradas, precios y entrega son responsabilidad del socio.",
   "aff_note": "Enlace de afiliado: MyTickets puede recibir una comisión sin costo extra para ti.",
@@ -220,7 +231,7 @@ def foto(img, w=1200, pagina=""):
     """Foto do Unsplash (id photo-...) ou imagem local do portal anterior em assets/img."""
     if img.startswith("photo-"):
         return f"https://images.unsplash.com/{img}?w={w}&q=70&auto=format&fit=crop"
-    return rel(pagina, f"assets/img/{img}")
+    return rel(pagina, f"assets/img/{img}") + versao(f"assets/img/{img}")
 
 
 def foto_abs(img):
@@ -239,6 +250,14 @@ def caminho_home(lang):
 
 def caminho_evento(lang, slug):
     return {"pt": f"eventos/{slug}/", "en": f"en/events/{slug}/", "es": f"es/eventos/{slug}/"}[lang]
+
+
+def versao(arquivo):
+    """Sufixo ?v=<hash> para o navegador baixar de novo só quando o arquivo mudar."""
+    try:
+        return "?v=" + hashlib.md5((RAIZ / arquivo).read_bytes()).hexdigest()[:8]
+    except OSError:
+        return ""
 
 
 def rel(de, para):
@@ -272,7 +291,7 @@ def cabeca(lang, pagina, titulo, desc, alternos, extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@500;700&family=Chakra+Petch:wght@600&family=IBM+Plex+Mono:wght@400&display=swap">
-<link rel="stylesheet" href="{rel(pagina, 'assets/site.css')}">
+<link rel="stylesheet" href="{rel(pagina, 'assets/site.css')}{versao('assets/site.css')}">
 {extra}
 </head>"""
 
@@ -307,7 +326,8 @@ def alertas(lang, eventos, escolhido=None):
       <p class="kicker">{e(t['alerts_kicker'])}</p>
       <h2 id="alerts-h" data-scramble>{e(t['alerts_h'])}</h2>
       <p style="color:var(--mut);margin-top:14px;max-width:48ch">{e(t['alerts_sub'])}</p>
-      <form class="form" id="alert-form" novalidate data-done="{e(t['f_done'])}" data-err="{e(t['f_err'])}">
+      <form class="form" id="alert-form" novalidate data-endpoint="{e(FORM_ENDPOINT)}" data-done="{e(t['f_done'])}" data-soon="{e(t['f_soon'])}" data-fail="{e(t['f_fail'])}" data-sending="{e(t['f_sending'])}" data-err="{e(t['f_err'])}">
+        <input type="text" name="_honey" id="a-honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
         <div class="field"><label for="a-email">{e(t['f_email'])}</label><input id="a-email" type="email" autocomplete="email" inputmode="email" placeholder="{e(t['ph_email'])}"></div>
         <div class="row2">
           <div class="field"><label for="a-event">{e(t['f_event'])}</label><select id="a-event">{ops}</select></div>
@@ -316,6 +336,7 @@ def alertas(lang, eventos, escolhido=None):
         <label class="consent" for="a-consent"><input id="a-consent" type="checkbox"><span>{e(t['f_consent'])}</span></label>
         <div><button class="btn btn-signal" data-magnetic type="submit"><span class="mag-inner">{e(t['f_submit'])}</span></button></div>
         <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+        {'<p class="disclose">' + e(t['f_privacy']) + '</p>' if FORM_ENDPOINT else ''}
       </form>
     </div>
     <div>
@@ -341,7 +362,7 @@ def rodape(lang, pagina, alternos):
 </footer>
 <div class="cur off" id="cur-blob" aria-hidden="true"><em>{'VER' if lang != 'en' else 'VIEW'}</em></div>
 <div class="cur off" id="cur-dot" aria-hidden="true"></div>
-<script src="{rel(pagina, 'assets/site.js')}" defer></script>
+<script src="{rel(pagina, 'assets/site.js')}{versao('assets/site.js')}" defer></script>
 </body>
 </html>
 """
@@ -465,7 +486,7 @@ def home(lang, eventos, noticias):
 </section>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-<script src="{rel(pagina, 'assets/solar.js')}"></script>
+<script src="{rel(pagina, 'assets/solar.js')}{versao('assets/solar.js')}"></script>
 
 <section class="sv" id="video" aria-labelledby="sv-h">
   <div class="sv-stick">
