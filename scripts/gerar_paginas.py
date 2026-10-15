@@ -576,6 +576,13 @@ def alertas(lang, eventos, escolhido=None):
 </section>"""
 
 
+# Link de indicação de subafiliados (painel de afiliado → Advanced tools → Signup Subaffiliates).
+SUBAFILIADO = f"https://aff.sportsevents365.com/affiliates/signup.php?a_aid={AFILIADO}"
+SUB_TXT = {"pt": ("Tem um site ou canal de viagem? Seja afiliado da SportsEvents365", "link de indicação"),
+           "en": ("Run a travel site or channel? Become a SportsEvents365 affiliate", "referral link"),
+           "es": ("¿Tienes una web o canal de viajes? Hazte afiliado de SportsEvents365", "enlace de referido")}
+
+
 def rodape(lang, pagina, alternos):
     t = T[lang]
     langs = "".join(f'<a href="{rel(pagina, alternos[l])}" hreflang="{HREFLANG[l]}">{n}</a>' for l, n in [("en", "ENGLISH"), ("es", "ESPAÑOL"), ("pt", "PORTUGUÊS")])
@@ -584,6 +591,7 @@ def rodape(lang, pagina, alternos):
     <a class="brand" href="{rel(pagina, caminho_home(lang))}">MY<b>TICKETS</b>.TOURS</a>
     <p class="foot-disc">{e(t['foot_disc'])}</p>
     <div class="foot-links">{langs}<a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(C.ROT[lang]['como_h'].upper())}</a><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'].upper())}</a><a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a><a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored noopener">SPORTSEVENTS365</a></div>
+    <p class="foot-aff"><a href="{SUBAFILIADO}" target="_blank" rel="sponsored noopener">{e(SUB_TXT[lang][0])}</a> <span>({e(SUB_TXT[lang][1])})</span></p>
     <p>{e(RESPONSAVEL)} · {CONTATO_EMAIL}</p>
     <p>© {dt.date.today().year} MyTickets Tours</p>
   </div>

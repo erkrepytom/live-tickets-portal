@@ -94,7 +94,7 @@ function partnerLink(a){
   let u; try { u = new URL(a.href); } catch (e) { return null; }
   const ir = u.host === location.host && u.pathname.match(/\/ir\/(\d+)\/?$/);
   if (ir) return { type: "event", id: ir[1], path: u.pathname, url: u, cloaked: true };
-  if (!/sportsevents365\.com$/.test(u.hostname)) return null;
+  if (!/sportsevents365\.com$/.test(u.hostname) || /^aff\./.test(u.hostname)) return null;  // aff.: indicação de afiliados, não é venda
   const p = u.pathname, m = p.match(/^\/event\/(\d+)/);
   const type = m ? "event" : /\/dock\/competition\//.test(p) ? "competition" : /\/dock\/team\//.test(p) ? "team"
     : /\/dock\/cities\//.test(p) ? "city" : /\/dock\/music\//.test(p) ? "artist" : /\/concerts/.test(p) ? "sport" : "home";
