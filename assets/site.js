@@ -83,6 +83,54 @@ if (news){
   }).catch(() => {});
 }
 
+/* ---------- Medição (dataLayer → GTM ou GA4; só envia algo ao Google se o visitante aceitar cookies) ---------- */
+window.dataLayer = window.dataLayer || [];
+function track(o){ try { window.dataLayer.push(o); } catch (e) {} }
+function gtagSafe(){ if (typeof window.gtag === "function") window.gtag.apply(null, arguments); }
+
+/* Tipo do link do parceiro a partir do caminho: /event/123, /dock/competition/x, /dock/team/x ... */
+function partnerLink(a){
+  let u; try { u = new URL(a.href); } catch (e) { return null; }
+  if (!/sportsevents365\.com$/.test(u.hostname)) return null;
+  const p = u.pathname, m = p.match(/^\/event\/(\d+)/);
+  const type = m ? "event" : /\/dock\/competition\//.test(p) ? "competition" : /\/dock\/team\//.test(p) ? "team"
+    : /\/dock\/cities\//.test(p) ? "city" : /\/dock\/music\//.test(p) ? "artist" : /\/events\/type\/|\/concerts/.test(p) ? "sport" : "home";
+  return { type, id: m ? m[1] : "", path: p };
+}
+document.addEventListener("click", ev => {
+  const a = ev.target.closest && ev.target.closest("a[href]");
+  if (!a) return;
+  const l = partnerLink(a);
+  if (!l) return;
+  const where = a.closest("#partidas") ? "board" : a.closest(".ev-cta") ? "event_cta" : a.closest("#explorar") ? "explore"
+    : a.closest(".top") ? "header" : a.closest(".foot") ? "footer" : a.closest("#banner3d") ? "banner" : "content";
+  // Conversão principal do site afiliado: marque "affiliate_click" como evento-chave no GA4 e importe no Google Ads.
+  track({ event: "affiliate_click", link_type: l.type, link_url: a.href, partner_event_id: l.id, click_location: where });
+  if (l.type === "event"){
+    const it = (window.MT_ITEM && window.MT_ITEM.item_id === l.id) ? window.MT_ITEM
+      : { item_id: l.id, item_name: (a.getAttribute("aria-label") || a.textContent || "").replace(/^[^:]*:\s*/, "").trim(), item_brand: "SportsEvents365" };
+    track({ ecommerce: null });
+    track({ event: "begin_checkout", click_location: where, ecommerce: { items: [it] } });
+  }
+}, true);
+
+/* Banner de cookies (Consent Mode v2). Só existe quando o GTM ou o GA4 está configurado no gerador. */
+const bar = document.getElementById("cookie-bar");
+if (bar){
+  let saved = null;
+  try { saved = localStorage.getItem("mt_consent"); } catch (e) {}
+  if (!saved) bar.hidden = false;
+  bar.addEventListener("click", ev => {
+    const b = ev.target.closest("[data-consent]");
+    if (!b) return;
+    const v = b.dataset.consent === "granted" ? "granted" : "denied";
+    try { localStorage.setItem("mt_consent", v); } catch (e) {}
+    gtagSafe("consent", "update", { ad_storage: v, ad_user_data: v, ad_personalization: v, analytics_storage: v });
+    track({ event: "consent_" + v });
+    bar.hidden = true;
+  });
+}
+
 /* ---------- Formulário de alertas (FormSubmit → caixa de e-mail do Titan) ---------- */
 const form = document.getElementById("alert-form");
 if (form){
@@ -100,7 +148,11 @@ if (form){
       idioma_alertas: document.getElementById("a-lang").value, pagina: location.href, consentimento: "sim",
       _subject: "Alerta de venda: " + sel.options[sel.selectedIndex].text, _template: "table", _captcha: "false"
     }) }).then(r => r.ok ? r.json() : Promise.reject()).then(j => {
-      if (j && (j.success === true || j.success === "true")){ m.className = "form-msg ok"; m.textContent = form.dataset.done; form.reset(); }
+      if (j && (j.success === true || j.success === "true")){
+        m.className = "form-msg ok"; m.textContent = form.dataset.done;
+        track({ event: "generate_lead", lead_type: "sale_alert", event_slug: sel.value, alert_language: document.getElementById("a-lang").value });
+        form.reset();
+      }
       else return Promise.reject();
     }).catch(() => { m.className = "form-msg err"; m.textContent = form.dataset.fail; }).finally(() => { btn.disabled = false; });
   });

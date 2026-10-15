@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # o IndexNow compara os sitemaps com o commit anterior
       - name: Publicar em mytickets.tours (Azure Static Web Apps)
         uses: Azure/static-web-apps-deploy@v1
         with:
@@ -26,6 +28,9 @@ jobs:
           app_location: "."
           skip_app_build: true
           skip_api_build: true
+      - name: Avisar buscadores (IndexNow) das páginas que mudaram
+        continue-on-error: true
+        run: python3 scripts/indexnow.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

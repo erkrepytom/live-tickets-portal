@@ -27,7 +27,35 @@ IDIOMAS = ["pt", "en", "es"]
 FORM_ENDPOINT = "https://formsubmit.co/ajax/email@mytickets.tours"
 # ID de medição do Google Analytics 4 (G-XXXXXXX). Vazio = sem Analytics no site.
 GA_MEASUREMENT_ID = ""
+# Contêiner do Google Tag Manager (GTM-XXXXXXX). Se preenchido, substitui o gtag direto:
+# o GA4 e o Google Ads passam a ser configurados dentro do GTM. Os eventos do site
+# (view_item, begin_checkout, affiliate_click, generate_lead) vão para o dataLayer nos dois casos.
+GTM_ID = ""
+# Código da meta tag de verificação do Google Search Console (só o valor de content="...").
+# Vazio = verificação feita por DNS (recomendado para a propriedade de domínio).
+GSC_VERIFICATION = ""
+# Chave pública do IndexNow (Bing, Yandex, Seznam, Naver). O arquivo <chave>.txt fica na raiz.
+INDEXNOW_KEY = "3fd2b7b8fea97fff39010e15706a1aff"
+# Uma página-hub (esporte, cidade, competição) só é gerada com pelo menos este número de eventos,
+# para não criar páginas finas. Quando o catálogo crescer, os hubs aparecem sozinhos.
+MIN_HUB = 2
 HREFLANG = {"pt": "pt-BR", "en": "en", "es": "es"}
+
+# Endereço e coordenadas de cada local, para o JSON-LD de Event (Google Eventos).
+# A chave é o campo "local" de data/eventos.json. Local sem cadastro aqui usa só cidade e país.
+LOCAIS = {
+ "Camp Nou": {"rua": "C. d'Arístides Maillol, 12", "cep": "08028", "cidade": "Barcelona", "regiao": "Catalunya", "geo": (41.3809, 2.1228)},
+ "San Siro (Giuseppe Meazza)": {"rua": "Piazzale Angelo Moratti", "cep": "20151", "cidade": "Milano", "regiao": "Lombardia", "geo": (45.4781, 9.1240)},
+ "Stade de France": {"rua": "ZAC du Cornillon Nord", "cep": "93200", "cidade": "Saint-Denis", "regiao": "Île-de-France", "geo": (48.9245, 2.3602)},
+ "Yas Marina Circuit": {"rua": "Yas Island", "cep": "", "cidade": "Abu Dhabi", "regiao": "Abu Dhabi", "geo": (24.4672, 54.6031)},
+ "Madison Square Garden": {"rua": "4 Pennsylvania Plaza", "cep": "10001", "cidade": "New York", "regiao": "NY", "geo": (40.7505, -73.9934)},
+ "Rod Laver Arena": {"rua": "Olympic Blvd, Melbourne Park", "cep": "3001", "cidade": "Melbourne", "regiao": "VIC", "geo": (-37.8216, 144.9785)},
+ "Paris La Défense Arena": {"rua": "99 Jardin de l'Arche", "cep": "92000", "cidade": "Nanterre", "regiao": "Île-de-France", "geo": (48.8957, 2.2297)},
+ "Estadio Metropolitano": {"rua": "Av. de Luis Aragonés, 4", "cep": "28022", "cidade": "Madrid", "regiao": "Comunidad de Madrid", "geo": (40.4362, -3.5995)},
+}
+# País (nome em inglês do campo "pais") → código ISO 3166-1, o formato que o Google prefere.
+PAIS_ISO = {"Spain": "ES", "Italy": "IT", "France": "FR", "United Arab Emirates": "AE", "USA": "US", "United States": "US",
+            "Australia": "AU", "United Kingdom": "GB", "Germany": "DE", "Netherlands": "NL", "Portugal": "PT", "Brazil": "BR"}
 FOTO_TOPO = "hero.jpg"  # imagens locais ficam em assets/img (banners do portal anterior)
 
 T = {
@@ -172,6 +200,84 @@ TIPO_NOME = {"football": {"pt": "Futebol", "en": "Football", "es": "Fútbol"}, "
              "f1": {"pt": "Automobilismo", "en": "Motor racing", "es": "Automovilismo"}, "nba": {"pt": "Basquete", "en": "Basketball", "es": "Baloncesto"},
              "tennis": {"pt": "Tênis", "en": "Tennis", "es": "Tenis"}, "concert": {"pt": "Show", "en": "Concert", "es": "Concierto"}}
 
+# ---------- Páginas-hub (esporte, cidade, competição) ----------
+HUB_PASTA = {"esporte": {"pt": "", "en": "", "es": ""},
+             "cidade": {"pt": "cidades/", "en": "cities/", "es": "ciudades/"},
+             "competicao": {"pt": "competicoes/", "en": "competitions/", "es": "competiciones/"}}
+# Nome do esporte como aparece no título do hub e no slug da URL.
+HUB_ESPORTE = {
+ "football": {"pt": ("futebol", "futebol"), "en": ("football", "football"), "es": ("fútbol", "futbol")},
+ "rugby": {"pt": ("rúgbi", "rugbi"), "en": ("rugby", "rugby"), "es": ("rugby", "rugby")},
+ "f1": {"pt": ("Fórmula 1", "formula-1"), "en": ("Formula 1", "formula-1"), "es": ("Fórmula 1", "formula-1")},
+ "nba": {"pt": ("NBA e basquete", "basquete"), "en": ("NBA and basketball", "basketball"), "es": ("NBA y baloncesto", "baloncesto")},
+ "tennis": {"pt": ("tênis", "tenis"), "en": ("tennis", "tennis"), "es": ("tenis", "tenis")},
+ "concert": {"pt": ("shows internacionais", "shows"), "en": ("international concerts", "concerts"), "es": ("conciertos internacionales", "conciertos")},
+}
+HT = {
+ "pt": {"h_esporte": "Ingressos de {x}", "h_cidade": "Ingressos em {x}", "h_competicao": "Ingressos {x}",
+        "desc": "{n} eventos com guia completo, como {lista}. Datas, locais, como chegar e compra no parceiro oficial.",
+        "lead": "{n} eventos com página própria no MyTickets: data, local, como chegar e dicas de setor. A compra acontece na SportsEvents365, com setor e preço visíveis antes do pagamento.",
+        "list_h": "Próximas datas", "partner": "Ver todo o catálogo no parceiro", "guides": "Guias no site", "kicker": "Guia de ingressos",
+        "c_text": "Usamos cookies do Google Analytics para medir visitas e cliques, só com a sua permissão.", "c_yes": "Aceitar", "c_no": "Recusar", "c_more": "Privacidade"},
+ "en": {"h_esporte": "{X} tickets", "h_cidade": "Tickets in {x}", "h_competicao": "{x} tickets",
+        "desc": "{n} events with a full guide, including {lista}. Dates, venues, getting there and booking with the official partner.",
+        "lead": "{n} events with their own page on MyTickets: date, venue, getting there and seating tips. Booking happens at SportsEvents365, where you see the section and price before paying.",
+        "list_h": "Upcoming dates", "partner": "See the full partner catalogue", "guides": "Guides on the site", "kicker": "Ticket guide",
+        "c_text": "We use Google Analytics cookies to measure visits and clicks, only with your permission.", "c_yes": "Accept", "c_no": "Decline", "c_more": "Privacy"},
+ "es": {"h_esporte": "Entradas de {x}", "h_cidade": "Entradas en {x}", "h_competicao": "Entradas {x}",
+        "desc": "{n} eventos con guía completa, como {lista}. Fechas, recintos, cómo llegar y compra en el socio oficial.",
+        "lead": "{n} eventos con página propia en MyTickets: fecha, recinto, cómo llegar y consejos de sector. La compra se hace en SportsEvents365, con sector y precio visibles antes de pagar.",
+        "list_h": "Próximas fechas", "partner": "Ver todo el catálogo del socio", "guides": "Guías en el sitio", "kicker": "Guía de entradas",
+        "c_text": "Usamos cookies de Google Analytics para medir visitas y clics, solo con tu permiso.", "c_yes": "Aceptar", "c_no": "Rechazar", "c_more": "Privacidad"},
+}
+
+
+def slugify(s):
+    import unicodedata
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def montar_hubs(eventos):
+    """Agrupa os eventos por esporte, cidade e competição e devolve só os grupos com MIN_HUB eventos ou mais.
+    Cada hub: {tipo, chave, nome{lang}, slug{lang}, dock (página do parceiro), eventos}."""
+    grupos = {}
+    for ev in eventos:
+        chaves = [("esporte", ev["tipo"])]
+        chaves.append(("cidade", L(ev["cidade"], "en")))
+        if ev["tipo"] != "concert":
+            chaves.append(("competicao", L(ev["competicao"]["nome"], "en")))
+        for tipo, chave in chaves:
+            g = grupos.setdefault((tipo, chave), {"tipo": tipo, "chave": chave, "eventos": [], "nome": {}, "slug": {}, "dock": None})
+            g["eventos"].append(ev)
+            for lang in IDIOMAS:
+                if tipo == "esporte":
+                    g["nome"][lang], g["slug"][lang] = HUB_ESPORTE[ev["tipo"]][lang]
+                    g["dock"] = f"/events/type/{ev['esporte_tipo']}" if ev["esporte_tipo"] else "/concerts"
+                elif tipo == "cidade":
+                    g["nome"][lang] = L(ev["cidade"], lang)
+                    g["slug"][lang] = slugify(L(ev["cidade"], lang))
+                    g["dock"] = g["dock"] or ev["cidade"].get("dock")
+                else:
+                    g["nome"][lang] = L(ev["competicao"]["nome"], lang)
+                    g["slug"][lang] = slugify(L(ev["competicao"]["nome"], "en"))
+                    g["dock"] = g["dock"] or ev["competicao"].get("dock")
+    return {k: g for k, g in grupos.items() if len(g["eventos"]) >= MIN_HUB}
+
+
+def caminho_hub(lang, hub):
+    return caminho_home(lang) + HUB_PASTA[hub["tipo"]][lang] + hub["slug"][lang] + "/"
+
+
+def titulo_hub(lang, hub):
+    nome = hub["nome"][lang]
+    return HT[lang]["h_" + hub["tipo"]].format(x=nome, X=nome[:1].upper() + nome[1:])
+
+
+def hub_de(hubs, tipo, chave):
+    return hubs.get((tipo, chave))
+
+
 ESPORTES = [  # (nome por idioma, caminho no parceiro, foto do site anterior)
  ({"pt": "Futebol", "en": "Football", "es": "Fútbol"}, "/events/type/1000", "10-brazil.jpg"),
  ({"pt": "Tênis", "en": "Tennis", "es": "Tenis"}, "/events/type/1001", "photo-1554068865-24cecd4e34b8"),
@@ -273,12 +379,43 @@ def mag(href, texto, cls="btn btn-signal", ext=True, seta=True):
     return f'<a class="{cls}" data-magnetic href="{e(href)}"{alvo}><span class="mag-inner">{texto}{s}</span></a>'
 
 
+def rastreio_ativo():
+    return bool(GTM_ID or GA_MEASUREMENT_ID)
+
+
 def ga_tag():
-    if not GA_MEASUREMENT_ID:
-        return ""
+    """Consent Mode v2: tudo começa negado; o banner de cookies libera. Depois carrega o GTM ou o gtag."""
+    base = "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+    if not rastreio_ativo():
+        return base + "</script>"  # o dataLayer existe mesmo sem Analytics, para os eventos não darem erro
+    base += ("gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});"
+             "try{if(localStorage.getItem('mt_consent')==='granted')gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}catch(e){}")
+    if GTM_ID:
+        return base + ("(function(w,d,s,l,i){w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],"
+                       "j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);"
+                       f"}})(window,document,'script','dataLayer','{GTM_ID}');</script>")
     g = GA_MEASUREMENT_ID
-    return (f'<script async src="https://www.googletagmanager.com/gtag/js?id={g}"></script>'
-            f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{g}');</script>")
+    return base + f"gtag('js',new Date());gtag('config','{g}');</script><script async src=\"https://www.googletagmanager.com/gtag/js?id={g}\"></script>"
+
+
+def banner_cookies(lang, pagina):
+    if not rastreio_ativo():
+        return ""
+    h = HT[lang]
+    return (f'<div class="cookie-bar" id="cookie-bar" role="region" aria-label="Cookies" hidden><div class="wrap">'
+            f'<p>{e(h["c_text"])} <a href="{rel(pagina, PRIV[lang]["path"])}">{e(h["c_more"])}</a></p>'
+            f'<div class="cookie-btns"><button class="btn btn-sm btn-ghost" type="button" data-consent="denied">{e(h["c_no"])}</button>'
+            f'<button class="btn btn-sm btn-signal" type="button" data-consent="granted">{e(h["c_yes"])}</button></div></div></div>')
+
+
+def ld_script(*objs):
+    return "".join(f'<script type="application/ld+json">{json.dumps(o, ensure_ascii=False)}</script>' for o in objs)
+
+
+def ld_breadcrumb(itens):
+    """itens: [(nome, caminho relativo à raiz do site)]."""
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": f"{BASE_URL}/{p}"} for i, (n, p) in enumerate(itens)]}
 
 
 def cabeca(lang, pagina, titulo, desc, alternos, extra=""):
@@ -298,6 +435,7 @@ def cabeca(lang, pagina, titulo, desc, alternos, extra=""):
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{BASE_URL}/{pagina}">
 <meta property="og:locale" content="{HREFLANG[lang].replace('-', '_')}">
+{f'<meta name="google-site-verification" content="{e(GSC_VERIFICATION)}">' if GSC_VERIFICATION else ''}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@500;700&family=Chakra+Petch:wght@600&family=IBM+Plex+Mono:wght@400&display=swap">
@@ -374,6 +512,7 @@ def rodape(lang, pagina, alternos):
 </footer>
 <div class="cur off" id="cur-blob" aria-hidden="true"><em>{'VER' if lang != 'en' else 'VIEW'}</em></div>
 <div class="cur off" id="cur-dot" aria-hidden="true"></div>
+{banner_cookies(lang, pagina)}
 <script src="{rel(pagina, 'assets/site.js')}{versao('assets/site.js')}" defer></script>
 </body>
 </html>
@@ -388,12 +527,16 @@ def cartao(lang, pagina, ev):
 </a>"""
 
 
-def home(lang, eventos, noticias):
+def home(lang, eventos, noticias, hubs):
     t = T[lang]
     pagina = caminho_home(lang)
     alternos = {l: caminho_home(l) for l in IDIOMAS}
     solar_css = (RAIZ / "assets" / "solar-banner.css").read_text(encoding="utf-8")
-    h = cabeca(lang, pagina, t["brand_title"], t["home_desc"], alternos, f"<style>\n{solar_css}</style>")
+    org = {"@context": "https://schema.org", "@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "MyTickets Tours",
+           "url": f"{BASE_URL}/", "email": CONTATO_EMAIL}
+    site = {"@context": "https://schema.org", "@type": "WebSite", "@id": f"{BASE_URL}/#site", "name": "MyTickets Tours",
+            "url": f"{BASE_URL}/{pagina}", "inLanguage": HREFLANG[lang], "publisher": {"@id": f"{BASE_URL}/#org"}}
+    h = cabeca(lang, pagina, t["brand_title"], t["home_desc"], alternos, f"<style>\n{solar_css}</style>" + ld_script(org, site))
     clas = eventos[0]
     passes = [("GRU → BCN", eventos[0], 0.9, -6, "left:0;top:2%"), ("MEX → JFK", next(x for x in eventos if x["tipo"] == "nba"), 1.4, 5, "left:44%;top:40%"),
               ("EZE → MEL", next(x for x in eventos if x["tipo"] == "tennis"), 0.6, 3, "left:4%;top:60%"), ("LIS → MAD", eventos[-1], 1.1, -3, "left:50%;top:-4%")]
@@ -416,6 +559,11 @@ def home(lang, eventos, noticias):
     tiles = "".join(f'<a class="ptile" href="{e(parceiro(lang, p))}" target="_blank" rel="sponsored noopener"><span class="photo" style="{bg(img, 600, pagina)}"></span><span>{e(L(n, lang))}</span></a>' for n, p, img in ESPORTES)
     def chips(itens, base):
         return "".join(f'<a class="chip" href="{e(parceiro(lang, base + s))}" target="_blank" rel="sponsored noopener">{e(L(n, lang))}</a>' for n, s in itens)
+    lista_hubs = sorted(hubs.values(), key=lambda g: (["esporte", "competicao", "cidade"].index(g["tipo"]), -len(g["eventos"])))
+    guias = ""
+    if lista_hubs:
+        links_guias = "".join(f'<a class="chip chip-own" href="{rel(pagina, caminho_hub(lang, g))}">{e(titulo_hub(lang, g))}</a>' for g in lista_hubs)
+        guias = f'<div class="chips-group"><h3>{e(HT[lang]["guides"])}</h3><div class="chips">{links_guias}</div></div>'
     passos = "".join(f'<li class="step{" on" if i == 0 else ""}"><span class="step-n">{i + 1}</span><div><h3>{e(a)}</h3><p>{e(b)}</p></div></li>' for i, (a, b) in enumerate(t["steps"]))
     def bloco_pais(p):
         itens = "".join(f'<li><a href="{e(n["u"])}" target="_blank" rel="noopener">{e(n["t"])}<small>{e(n["f"])}{" · " + t["hot"] if n.get("alta") else ""}</small></a></li>' for n in p["noticias"])
@@ -480,6 +628,7 @@ def home(lang, eventos, noticias):
   <div class="wrap explore">
     <div class="sec-head" style="margin:0"><div><p class="kicker">{e(t['exp_kicker'])}</p><h2 id="exp-h" data-scramble>{e(t['exp_h'])}</h2></div><p>{e(t['exp_sub'])}</p></div>
     <div class="tiles-photo">{tiles}</div>
+    {guias}
     <div class="chips-group"><h3>{e(t['g_comp'])}</h3><div class="chips">{chips(COMPETICOES, '/dock/competition/')}</div></div>
     <div class="chips-group"><h3>{e(t['g_teams'])}</h3><div class="chips">{chips(TIMES, '/dock/team/')}</div></div>
     <div class="chips-group"><h3>{e(t['g_cities'])}</h3><div class="chips">{chips(CIDADES, '/dock/cities/')}</div></div>
@@ -528,35 +677,80 @@ def home(lang, eventos, noticias):
     return h + corpo + rodape(lang, pagina, alternos)
 
 
-def evento(lang, ev, eventos):
+def ld_evento(lang, ev, pagina):
+    """JSON-LD de Event no formato que o Google Eventos lê: local com endereço e geo, país ISO,
+    participantes, organizador e oferta apontando para o checkout do parceiro (sem preço inventado)."""
+    titulo, cidade = L(ev["titulo"], lang), L(ev["cidade"], lang)
+    loc = LOCAIS.get(ev["local"], {})
+    endereco = {"@type": "PostalAddress", "addressLocality": loc.get("cidade", cidade),
+                "addressCountry": PAIS_ISO.get(L(ev["pais"], "en"), L(ev["pais"], lang))}
+    if loc.get("rua"):
+        endereco["streetAddress"] = loc["rua"]
+    if loc.get("cep"):
+        endereco["postalCode"] = loc["cep"]
+    if loc.get("regiao"):
+        endereco["addressRegion"] = loc["regiao"]
+    lugar = {"@type": "Place", "name": ev["local"], "address": endereco}
+    if loc.get("geo"):
+        lugar["geo"] = {"@type": "GeoCoordinates", "latitude": loc["geo"][0], "longitude": loc["geo"][1]}
+    ld = {"@context": "https://schema.org", "@type": "MusicEvent" if ev["tipo"] == "concert" else "SportsEvent",
+          "name": titulo, "url": f"{BASE_URL}/{pagina}", "startDate": ev["data"], "inLanguage": HREFLANG[lang],
+          "eventStatus": "https://schema.org/" + ev.get("status", "EventScheduled"),
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": lugar, "image": [foto_abs(ev.get("banner", ev["img"]))], "description": L(ev["intro"], lang),
+          "offers": {"@type": "Offer", "url": parceiro(lang, f"/event/{ev['id']}"), "availability": "https://schema.org/InStock",
+                     "seller": {"@type": "Organization", "name": "SportsEvents365", "url": "https://sportsevents365.com/"}}}
+    if ev.get("artista"):
+        ld["performer"] = {"@type": "MusicGroup", "name": ev["artista"]["nome"]}
+    elif ev.get("times"):
+        times = [{"@type": "SportsTeam", "name": L(tm["nome"], lang)} for tm in ev["times"]]
+        ld["performer"] = times
+        ld["competitor"] = times
+        if len(times) == 2:
+            ld["homeTeam"], ld["awayTeam"] = times
+    if ev["tipo"] != "concert":
+        ld["organizer"] = {"@type": "SportsOrganization", "name": L(ev["competicao"]["nome"], lang)}
+    return ld
+
+
+def evento(lang, ev, eventos, hubs):
     t = T[lang]
     pagina = caminho_evento(lang, ev["slug"])
     alternos = {l: caminho_evento(l, ev["slug"]) for l in IDIOMAS}
     titulo = L(ev["titulo"], lang)
     cidade = L(ev["cidade"], lang)
     dlonga = data_longa(ev["data"], lang)
-    tipo = "MusicEvent" if ev["tipo"] == "concert" else "SportsEvent"
-    ld = {"@context": "https://schema.org", "@type": tipo, "name": titulo, "startDate": ev["data"],
-          "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-          "location": {"@type": "Place", "name": ev["local"], "address": {"@type": "PostalAddress", "addressLocality": cidade, "addressCountry": L(ev["pais"], lang)}},
-          "image": [foto_abs(ev.get("banner", ev["img"]))], "description": L(ev["intro"], lang),
-          "offers": {"@type": "Offer", "url": parceiro(lang, f"/event/{ev['id']}"), "availability": "https://schema.org/InStock"}}
-    if ev.get("artista"):
-        ld["performer"] = {"@type": "MusicGroup", "name": ev["artista"]["nome"]}
-    extra = f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>'
+    hub_esp = hub_de(hubs, "esporte", ev["tipo"])
+    hub_cid = hub_de(hubs, "cidade", L(ev["cidade"], "en"))
+    hub_comp = hub_de(hubs, "competicao", L(ev["competicao"]["nome"], "en")) if ev["tipo"] != "concert" else None
+    trilha = [(t["home"], caminho_home(lang))]
+    if hub_esp:
+        trilha.append((titulo_hub(lang, hub_esp), caminho_hub(lang, hub_esp)))
+    trilha.append((titulo, pagina))
+    # Funil de e-commerce do GA4: a página do evento é o "produto"; o clique no parceiro vira begin_checkout (assets/site.js).
+    item = {"item_id": str(ev["id"]), "item_name": L(ev["titulo"], "en"), "item_brand": "SportsEvents365",
+            "item_category": ev["tipo"], "item_category2": L(ev["competicao"]["nome"], "en"), "item_variant": L(ev["cidade"], "en"),
+            "location_id": ev["local"]}
+    view = ("<script>window.MT_ITEM=" + json.dumps(item, ensure_ascii=False) + ";dataLayer.push({ecommerce:null});dataLayer.push(" +
+            json.dumps({"event": "view_item", "page_type": "event", "ecommerce": {"items": [item]}}, ensure_ascii=False) + ");</script>")
+    extra = ld_script(ld_evento(lang, ev, pagina), ld_breadcrumb(trilha)) + view
     h = cabeca(lang, pagina, t["ev_title"].format(t=titulo), t["ev_desc"].format(t=titulo, d=dlonga, v=ev["local"], c=cidade), alternos, extra)
 
     def link_parceiro(nome, dock):
         return f'<a href="{e(parceiro(lang, dock))}" target="_blank" rel="sponsored noopener">{e(nome)}</a>' if dock else e(nome)
+
+    def link_hub(nome, hub, dock):
+        """Prefere o guia no próprio site (link interno conta para o SEO); sem hub, vai ao parceiro."""
+        return f'<a href="{rel(pagina, caminho_hub(lang, hub))}">{e(nome)}</a>' if hub else link_parceiro(nome, dock)
     comp = ev["competicao"]
     comp_nome = L(comp["nome"], lang)
-    cidade_html = link_parceiro(cidade, ev["cidade"].get("dock"))
+    cidade_html = link_hub(cidade, hub_cid, ev["cidade"].get("dock"))
     if ev.get("artista"):
         quarto = (t["f_artist"], link_parceiro(ev["artista"]["nome"], ev["artista"]["dock"]))
     else:
-        quarto = (t["f_comp"], link_parceiro(comp_nome, comp.get("dock")))
+        quarto = (t["f_comp"], link_hub(comp_nome, hub_comp, comp.get("dock")))
     tipo_nome = TIPO_NOME[ev["tipo"]][lang]
-    kicker_tipo = link_parceiro(tipo_nome, f"/events/type/{ev['esporte_tipo']}" if ev["esporte_tipo"] else "/concerts")
+    kicker_tipo = link_hub(tipo_nome, hub_esp, f"/events/type/{ev['esporte_tipo']}" if ev["esporte_tipo"] else "/concerts")
     tambem = []
     for tm in ev.get("times", []):
         if tm.get("dock"):
@@ -584,8 +778,8 @@ def evento(lang, ev, eventos):
   <div class="layer l-photo photo" data-depth="0.15" style="{bg(ev.get('banner', ev['img']), 1800, pagina, 'opacity:.55')}"></div>
   <div class="layer l-shade"></div>
   <div class="wrap on-night">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(t['home'])}</a><span aria-hidden="true">›</span><a href="{rel(pagina, caminho_home(lang))}#partidas">{e(t['events'])}</a><span aria-hidden="true">›</span><span>{e(titulo)}</span></nav>
-    <p class="kicker">{kicker_tipo} · {link_parceiro(comp_nome, comp.get('dock'))}</p>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(t['home'])}</a><span aria-hidden="true">›</span>{f'<a href="{rel(pagina, caminho_hub(lang, hub_esp))}">{e(titulo_hub(lang, hub_esp))}</a>' if hub_esp else f'<a href="{rel(pagina, caminho_home(lang))}#partidas">{e(t["events"])}</a>'}<span aria-hidden="true">›</span><span>{e(titulo)}</span></nav>
+    <p class="kicker">{kicker_tipo} · {link_hub(comp_nome, hub_comp, comp.get('dock'))}</p>
     <h1 id="ev-h">{e(titulo)}</h1>
     <span class="flapline" data-flap="{e(L(ev['painel'], lang))}" data-w="22" aria-hidden="true">{e(L(ev['painel'], lang))}</span>
     <dl class="facts">
@@ -634,6 +828,61 @@ def evento(lang, ev, eventos):
 </main>
 """
     return h + corpo + rodape(lang, pagina, alternos)
+
+
+def hub(lang, g, eventos, hubs):
+    """Página-guia de um esporte, cidade ou competição: ranqueia termos amplos como
+    "ingressos La Liga" ou "ingressos em Barcelona" e distribui links internos para os eventos."""
+    t, h = T[lang], HT[lang]
+    pagina = caminho_hub(lang, g)
+    alternos = {l: caminho_hub(l, g) for l in IDIOMAS}
+    titulo = titulo_hub(lang, g)
+    evs = sorted(g["eventos"], key=lambda x: x["data"])
+    nomes = [L(x["titulo"], lang) for x in evs[:3]]
+    lista = ", ".join(nomes)
+    desc = h["desc"].format(n=len(evs), lista=lista)
+    itens = {"@context": "https://schema.org", "@type": "ItemList", "name": titulo, "numberOfItems": len(evs),
+             "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{BASE_URL}/{caminho_evento(lang, x['slug'])}",
+                                  "name": L(x["titulo"], lang)} for i, x in enumerate(evs)]}
+    trilha = [(t["home"], caminho_home(lang)), (titulo, pagina)]
+    cab = cabeca(lang, pagina, f"{titulo} | MyTickets Tours", desc, alternos,
+                 ld_script(itens, ld_breadcrumb(trilha)) + '<script>dataLayer.push({page_type:"hub"});</script>')
+    cards = "".join(cartao(lang, pagina, x) for x in evs)
+    outros = [x for x in sorted(hubs.values(), key=lambda x: (x["tipo"], x["slug"][lang])) if x is not g]
+    outros_html = ""
+    if outros:
+        outros_html = ('<div class="chips-group" style="margin-top:40px"><h3>' + e(h["guides"]) + '</h3><div class="chips">' +
+                       "".join(f'<a class="chip chip-own" href="{rel(pagina, caminho_hub(lang, x))}">{e(titulo_hub(lang, x))}</a>' for x in outros) +
+                       "</div></div>")
+    cta = mag(parceiro(lang, g["dock"]), e(h["partner"])) if g["dock"] else ""
+    foto_topo = evs[0].get("banner", evs[0]["img"])
+    corpo = f"""
+<body>
+{topo(lang, pagina, alternos)}
+<main>
+<section class="ev-hero" data-parallax aria-labelledby="hub-h">
+  <div class="layer l-photo photo" data-depth="0.15" style="{bg(foto_topo, 1800, pagina, 'opacity:.45')}"></div>
+  <div class="layer l-shade"></div>
+  <div class="wrap on-night">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(t['home'])}</a><span aria-hidden="true">›</span><span>{e(titulo)}</span></nav>
+    <p class="kicker">{e(h['kicker'])}</p>
+    <h1 id="hub-h">{e(titulo)}</h1>
+    <p class="hero-sub" style="max-width:60ch">{e(h['lead'].format(n=len(evs)))}</p>
+    <div class="ev-cta">{cta}</div>
+    <p class="disclose">{e(t['aff_note'])}</p>
+  </div>
+</section>
+<section class="band" aria-labelledby="list-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">{e(titulo)}</p><h2 id="list-h" data-scramble>{e(h['list_h'])}</h2></div></div>
+    <div class="cards">{cards}</div>
+    {outros_html}
+  </div>
+</section>
+{alertas(lang, eventos, evs[0]['slug'])}
+</main>
+"""
+    return cab + corpo + rodape(lang, pagina, alternos)
 
 
 PRIV = {
@@ -772,6 +1021,24 @@ def gerar_catalogo(eventos):
     (RAIZ / "atendimento" / "catalogo.json").write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+def escrever(caminho, conteudo, manifesto, hoje):
+    """Grava a página e atualiza o lastmod só quando o conteúdo muda de verdade.
+    O Google ignora lastmod que muda a cada build; com o hash, a data passa a ser confiável."""
+    (RAIZ / caminho).mkdir(parents=True, exist_ok=True)
+    (RAIZ / caminho / "index.html").write_text(conteudo, encoding="utf-8")
+    hsh = hashlib.sha256(conteudo.encode("utf-8")).hexdigest()[:16]
+    anterior = manifesto.get(caminho)
+    if not anterior or anterior["h"] != hsh:
+        manifesto[caminho] = {"h": hsh, "d": hoje}
+    return caminho
+
+
+def sitemap(nome, caminhos, manifesto):
+    linhas = "\n".join(f"  <url><loc>{BASE_URL}/{u}</loc><lastmod>{manifesto[u]['d']}</lastmod></url>" for u in caminhos)
+    (RAIZ / nome).write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{linhas}\n</urlset>\n', encoding="utf-8")
+    return max(manifesto[u]["d"] for u in caminhos)
+
+
 def main():
     dados = json.loads((RAIZ / "data" / "eventos.json").read_text(encoding="utf-8"))
     hoje = dt.date.today().isoformat()
@@ -780,27 +1047,43 @@ def main():
         noticias = json.loads((RAIZ / "dados.json").read_text(encoding="utf-8")).get("paises", [])
     except (OSError, ValueError):
         noticias = []
-    urls = []
+    arq_manifesto = RAIZ / "data" / "lastmod.json"
+    try:
+        manifesto = json.loads(arq_manifesto.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        manifesto = {}
+    hubs = montar_hubs(eventos)
+    grupos = {"paginas": [], "esportes": [], "shows": [], "guias": []}
     for lang in IDIOMAS:
-        p = caminho_home(lang)
-        (RAIZ / p).mkdir(parents=True, exist_ok=True)
-        (RAIZ / p / "index.html").write_text(home(lang, eventos, noticias), encoding="utf-8")
-        urls.append(p)
+        grupos["paginas"].append(escrever(caminho_home(lang), home(lang, eventos, noticias, hubs), manifesto, hoje))
         for ev in eventos:
-            p = caminho_evento(lang, ev["slug"])
-            (RAIZ / p).mkdir(parents=True, exist_ok=True)
-            (RAIZ / p / "index.html").write_text(evento(lang, ev, eventos), encoding="utf-8")
-            urls.append(p)
+            grupo = "shows" if ev["tipo"] == "concert" else "esportes"
+            grupos[grupo].append(escrever(caminho_evento(lang, ev["slug"]), evento(lang, ev, eventos, hubs), manifesto, hoje))
+        for g in hubs.values():
+            grupos["guias"].append(escrever(caminho_hub(lang, g), hub(lang, g, eventos, hubs), manifesto, hoje))
     for lang in IDIOMAS:
-        p = PRIV[lang]["path"]
-        (RAIZ / p).mkdir(parents=True, exist_ok=True)
-        (RAIZ / p / "index.html").write_text(privacidade(lang), encoding="utf-8")
-        urls.append(p)
+        grupos["paginas"].append(escrever(PRIV[lang]["path"], privacidade(lang), manifesto, hoje))
     gerar_catalogo(eventos)
-    mapa ="\n".join(f"  <url><loc>{BASE_URL}/{u}</loc><lastmod>{hoje}</lastmod></url>" for u in urls)
-    (RAIZ / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{mapa}\n</urlset>\n', encoding="utf-8")
+    # Um sitemap por tipo de página, reunidos num índice. Separar facilita ver no Search Console
+    # quantas páginas de evento, de show e de guia foram indexadas.
+    nomes = {"paginas": "sitemap-paginas.xml", "esportes": "sitemap-esportes.xml", "shows": "sitemap-shows.xml", "guias": "sitemap-guias.xml"}
+    indice = []
+    for grupo, caminhos in grupos.items():
+        alvo = RAIZ / nomes[grupo]
+        if caminhos:
+            indice.append((nomes[grupo], sitemap(nomes[grupo], caminhos, manifesto)))
+        elif alvo.exists():
+            alvo.unlink()
+    entradas = "\n".join(f"  <sitemap><loc>{BASE_URL}/{n}</loc><lastmod>{d}</lastmod></sitemap>" for n, d in indice)
+    (RAIZ / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{entradas}\n</sitemapindex>\n', encoding="utf-8")
     (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
-    print(f"{len(urls)} páginas geradas ({len(eventos)} eventos x {len(IDIOMAS)} idiomas + 3 iniciais).")
+    if INDEXNOW_KEY:
+        (RAIZ / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+    vivos = {u for cs in grupos.values() for u in cs}
+    manifesto = {k: v for k, v in sorted(manifesto.items()) if k in vivos}
+    arq_manifesto.write_text(json.dumps(manifesto, indent=1) + "\n", encoding="utf-8")
+    n = sum(len(c) for c in grupos.values())
+    print(f"{n} páginas geradas: {len(eventos)} eventos e {len(hubs)} guias, em {len(IDIOMAS)} idiomas.")
 
 
 if __name__ == "__main__":

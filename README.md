@@ -8,7 +8,9 @@ Affiliate portal for international sports and show tickets, in Portuguese, Engli
 |---|---|
 | `index.html`, `en/`, `es/` | Home pages: departures board, featured events, explore by sport, city and artist, the 3D "Universo MyTickets" banner, the scroll-driven video and sale alerts |
 | `eventos/<slug>/`, `en/events/<slug>/`, `es/eventos/<slug>/` | One guide page per event and language |
-| `sitemap.xml`, `robots.txt` | For search engines |
+| `futebol/`, `cidades/<city>/`, `competicoes/<competition>/` (and `en/`, `es/` equivalents) | Hub pages per sport, city and competition. Generated automatically when a group has at least `MIN_HUB` (2) events |
+| `sitemap.xml` | Sitemap index pointing to `sitemap-paginas.xml`, `sitemap-esportes.xml`, `sitemap-shows.xml` and `sitemap-guias.xml` |
+| `robots.txt`, `<key>.txt` | For search engines; the `.txt` file is the public IndexNow key |
 
 All pages are generated. Do not edit them by hand.
 
@@ -19,6 +21,14 @@ All pages are generated. Do not edit them by hand.
 3. Commit and push. Every push to `main` publishes to mytickets.tours (Azure) and to the GitHub Pages mirror.
 
 Past events are dropped automatically the next time the script runs.
+
+## SEO and measurement
+
+- Every event page carries `SportsEvent`/`MusicEvent` JSON-LD (venue address and coordinates from `LOCAIS` in the generator, ISO country code, teams or artist, organizer, partner checkout as the offer) plus `BreadcrumbList`. Hubs carry `ItemList`; home pages carry `Organization` and `WebSite`. New venues need an entry in `LOCAIS`.
+- `lastmod` in the sitemaps only changes when a page's content changes (hashes kept in `data/lastmod.json`).
+- On every push to `main`, `scripts/indexnow.py` sends the changed URLs to IndexNow (Bing, Yandex and others). Google reads the sitemap submitted once in Search Console.
+- Measurement: set `GTM_ID` (or `GA_MEASUREMENT_ID`) in the generator. A Consent Mode v2 cookie banner appears automatically. The site pushes `view_item`, `begin_checkout`, `affiliate_click` and `generate_lead` to the `dataLayer`. Mark `affiliate_click` as the key event.
+- Search Console: verify the domain by DNS, or set `GSC_VERIFICATION` for the meta tag.
 
 ## Affiliate links
 
@@ -42,7 +52,7 @@ The official site is https://mytickets.tours, served by the Azure Static Web App
 ## Still to do
 
 - Add the WhatsApp channel links. The alert form posts to FormSubmit and lands in email@mytickets.tours.
-- Add `GA_MEASUREMENT_ID` and the GA4 secrets, with a cookie consent banner.
+- Add `GTM_ID` or `GA_MEASUREMENT_ID` (the consent banner is already built in) and the GA4 secrets.
 
 ## Affiliate disclosure
 

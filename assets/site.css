@@ -279,3 +279,14 @@ p{margin:0}
 .cur.off{opacity:0}
 html.has-cursor,html.has-cursor a,html.has-cursor button,html.has-cursor label{cursor:none}
 html.has-cursor input,html.has-cursor select,html.has-cursor #banner3d{cursor:auto}
+
+/* Guias próprios (links internos) destacados entre os chips do parceiro */
+.chip-own{box-shadow:inset 0 0 0 1.5px var(--signal-text)}
+.chip-own:hover{background:var(--signal);color:var(--on-signal);box-shadow:none}
+
+/* Banner de cookies (só aparece com GTM/GA4 configurado) */
+.cookie-bar{position:fixed;inset:auto 0 0 0;z-index:60;background:var(--surface);color:var(--ink);box-shadow:0 -1px 0 var(--line),0 -12px 32px rgba(0,0,0,.12);padding-block:14px calc(14px + env(safe-area-inset-bottom,0px))}
+.cookie-bar .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px}
+.cookie-bar p{margin:0;font-size:15px;color:var(--mut);max-width:70ch}
+.cookie-bar a{color:var(--ink)}
+.cookie-btns{display:flex;gap:10px}
