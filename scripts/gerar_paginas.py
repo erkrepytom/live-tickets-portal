@@ -474,7 +474,22 @@ def topo(lang, pagina, alternos):
       {mag(parceiro(lang, '/'), e(t['cta']), 'btn btn-signal btn-sm', seta=False)}
     </div>
   </div>
+  {barra_voltar(lang, pagina)}
 </header>"""
+
+
+VOLTAR = {"pt": ("Voltar", "Página inicial"), "en": ("Back", "Home"), "es": ("Volver", "Inicio")}
+
+
+def barra_voltar(lang, pagina):
+    """Nas páginas internas: voltar à página anterior (ou ao início, se o visitante chegou de fora) e ir à página inicial."""
+    if pagina == caminho_home(lang):
+        return ""
+    voltar, inicio = VOLTAR[lang]
+    home = rel(pagina, caminho_home(lang))
+    return (f'<nav class="backbar" aria-label="{e(voltar)} / {e(inicio)}"><div class="wrap">'
+            f'<a class="back-btn" href="{home}" data-back><span aria-hidden="true">←</span> {e(voltar)}</a>'
+            f'<a class="home-btn" href="{home}"><span aria-hidden="true">⌂</span> {e(inicio)}</a></div></nav>')
 
 
 def alertas(lang, eventos, escolhido=None):

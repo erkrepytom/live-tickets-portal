@@ -131,6 +131,15 @@ if (bar){
   });
 }
 
+/* Botão "Voltar": volta à página anterior quando ela é deste site; se o visitante chegou de fora
+   (Google, rede social, link direto), o link leva à página inicial, que é o href do botão. */
+document.querySelectorAll("[data-back]").forEach(a => {
+  let interno = false;
+  try { interno = !!document.referrer && new URL(document.referrer).host === location.host; } catch (e) {}
+  if (!interno) return;
+  a.addEventListener("click", ev => { ev.preventDefault(); history.back(); });
+});
+
 /* ---------- Formulário de alertas (FormSubmit → caixa de e-mail do Titan) ---------- */
 const form = document.getElementById("alert-form");
 if (form){
