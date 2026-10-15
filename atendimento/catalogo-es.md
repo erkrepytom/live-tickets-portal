@@ -125,11 +125,11 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 
 ## Deportes
 
-- Fútbol: https://sportsevents365.com/events/type/1000?a_aid=6821d72fcdbe3
-- Tenis: https://sportsevents365.com/events/type/1001?a_aid=6821d72fcdbe3
-- Baloncesto: https://sportsevents365.com/events/type/1002?a_aid=6821d72fcdbe3
-- Automovilismo: https://sportsevents365.com/events/type/1003?a_aid=6821d72fcdbe3
-- Rugby: https://sportsevents365.com/events/type/1020?a_aid=6821d72fcdbe3
-- Béisbol: https://sportsevents365.com/events/type/1005?a_aid=6821d72fcdbe3
-- Hockey sobre hielo: https://sportsevents365.com/events/type/1010?a_aid=6821d72fcdbe3
+- Fútbol: https://sportsevents365.com/dock/competition/premier-league?a_aid=6821d72fcdbe3
+- Tenis: https://sportsevents365.com/dock/competition/australian-open?a_aid=6821d72fcdbe3
+- Baloncesto: https://sportsevents365.com/dock/competition/nba?a_aid=6821d72fcdbe3
+- Automovilismo: https://sportsevents365.com/dock/competition/formula-1?a_aid=6821d72fcdbe3
+- Rugby: https://sportsevents365.com/dock/competition/world-rugby-nations-championship?a_aid=6821d72fcdbe3
+- Béisbol: https://sportsevents365.com/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3
+- Hockey sobre hielo: https://sportsevents365.com/dock/competition/nhl?a_aid=6821d72fcdbe3
 - Conciertos: https://sportsevents365.com/concerts?a_aid=6821d72fcdbe3

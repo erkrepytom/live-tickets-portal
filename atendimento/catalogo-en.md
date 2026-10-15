@@ -125,11 +125,11 @@ Full partner catalogue: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 
 ## Sports
 
-- Football: https://sportsevents365.com/events/type/1000?a_aid=6821d72fcdbe3
-- Tennis: https://sportsevents365.com/events/type/1001?a_aid=6821d72fcdbe3
-- Basketball: https://sportsevents365.com/events/type/1002?a_aid=6821d72fcdbe3
-- Motor racing: https://sportsevents365.com/events/type/1003?a_aid=6821d72fcdbe3
-- Rugby: https://sportsevents365.com/events/type/1020?a_aid=6821d72fcdbe3
-- Baseball: https://sportsevents365.com/events/type/1005?a_aid=6821d72fcdbe3
-- Ice hockey: https://sportsevents365.com/events/type/1010?a_aid=6821d72fcdbe3
+- Football: https://sportsevents365.com/dock/competition/premier-league?a_aid=6821d72fcdbe3
+- Tennis: https://sportsevents365.com/dock/competition/australian-open?a_aid=6821d72fcdbe3
+- Basketball: https://sportsevents365.com/dock/competition/nba?a_aid=6821d72fcdbe3
+- Motor racing: https://sportsevents365.com/dock/competition/formula-1?a_aid=6821d72fcdbe3
+- Rugby: https://sportsevents365.com/dock/competition/world-rugby-nations-championship?a_aid=6821d72fcdbe3
+- Baseball: https://sportsevents365.com/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3
+- Ice hockey: https://sportsevents365.com/dock/competition/nhl?a_aid=6821d72fcdbe3
 - Concerts: https://sportsevents365.com/concerts?a_aid=6821d72fcdbe3

@@ -259,7 +259,7 @@ def montar_hubs(eventos):
             for lang in IDIOMAS:
                 if tipo == "esporte":
                     g["nome"][lang], g["slug"][lang] = HUB_ESPORTE[ev["tipo"]][lang]
-                    g["dock"] = f"/events/type/{ev['esporte_tipo']}" if ev["esporte_tipo"] else "/concerts"
+                    g["dock"] = dock_esporte(ev["esporte_tipo"])
                 elif tipo == "cidade":
                     g["nome"][lang] = L(ev["cidade"], lang)
                     g["slug"][lang] = slugify(L(ev["cidade"], lang))
@@ -284,15 +284,29 @@ def hub_de(hubs, tipo, chave):
     return hubs.get((tipo, chave))
 
 
-ESPORTES = [  # (nome por idioma, caminho no parceiro, foto do site anterior)
- ({"pt": "Futebol", "en": "Football", "es": "Fútbol"}, "/events/type/1000", "10-brazil.jpg"),
- ({"pt": "Tênis", "en": "Tennis", "es": "Tenis"}, "/events/type/1001", "photo-1554068865-24cecd4e34b8"),
- ({"pt": "Basquete", "en": "Basketball", "es": "Baloncesto"}, "/events/type/1002", "photo-1546519638-68e109498ffc"),
- ({"pt": "Automobilismo", "en": "Motor racing", "es": "Automovilismo"}, "/events/type/1003", "01-formula-1.jpg"),
- ({"pt": "Rúgbi", "en": "Rugby", "es": "Rugby"}, "/events/type/1020", "08-six-nations.jpg"),
- ({"pt": "Beisebol", "en": "Baseball", "es": "Béisbol"}, "/events/type/1005", "photo-1508344928928-7165b67de128"),
- ({"pt": "Hóquei no gelo", "en": "Ice hockey", "es": "Hockey sobre hielo"}, "/events/type/1010", "photo-1515703407324-5f753afd8be8"),
- ({"pt": "Shows", "en": "Concerts", "es": "Conciertos"}, "/concerts", "11-concerts.jpg"),
+# As páginas de esporte do parceiro (/events/type/<código>) carregam a lista e logo a apagam
+# ("We couldn't find any matching events"), conferido em 15/10/2026 inclusive no menu do próprio parceiro.
+# Por isso cada esporte aponta para a página de competição que funciona. Shows (/concerts) funciona.
+DOCK_ESPORTE = {1000: "/dock/competition/premier-league", 1001: "/dock/competition/australian-open", 1002: "/dock/competition/nba",
+                1003: "/dock/competition/formula-1", 1020: "/dock/competition/world-rugby-nations-championship",
+                1005: "/dock/competition/major-league-baseball", 1010: "/dock/competition/nhl", 0: "/concerts"}
+# Esporte do botão da home -> tipo dos eventos do site, para usar o guia próprio quando ele existir.
+TIPO_DO_CODIGO = {1000: "football", 1001: "tennis", 1002: "nba", 1003: "f1", 1020: "rugby", 0: "concert"}
+
+
+def dock_esporte(codigo):
+    return DOCK_ESPORTE.get(codigo or 0, "/")
+
+
+ESPORTES = [  # (nome por idioma, código do esporte no parceiro, foto do site anterior)
+ ({"pt": "Futebol", "en": "Football", "es": "Fútbol"}, 1000, "10-brazil.jpg"),
+ ({"pt": "Tênis", "en": "Tennis", "es": "Tenis"}, 1001, "photo-1554068865-24cecd4e34b8"),
+ ({"pt": "Basquete", "en": "Basketball", "es": "Baloncesto"}, 1002, "photo-1546519638-68e109498ffc"),
+ ({"pt": "Automobilismo", "en": "Motor racing", "es": "Automovilismo"}, 1003, "01-formula-1.jpg"),
+ ({"pt": "Rúgbi", "en": "Rugby", "es": "Rugby"}, 1020, "08-six-nations.jpg"),
+ ({"pt": "Beisebol", "en": "Baseball", "es": "Béisbol"}, 1005, "photo-1508344928928-7165b67de128"),
+ ({"pt": "Hóquei no gelo", "en": "Ice hockey", "es": "Hockey sobre hielo"}, 1010, "photo-1515703407324-5f753afd8be8"),
+ ({"pt": "Shows", "en": "Concerts", "es": "Conciertos"}, 0, "11-concerts.jpg"),
 ]
 COMPETICOES = [("Premier League", "premier-league"), ("La Liga", "la-liga"), ("Serie A", "serie-a"), ("NBA", "nba"),
                ("NHL", "nhl"), ("MLB", "major-league-baseball"), ("Fórmula 1|Formula 1|Fórmula 1", "formula-1")]
@@ -585,7 +599,14 @@ def home(lang, eventos, noticias, hubs):
     atributos = ["", "", ' class="b-city"', ' style="justify-self:end"']
     head_row = "".join(f"<span{a}>{c}</span>" for a, c in zip(atributos, t["cols"]))
     cards = "".join(cartao(lang, pagina, ev) for ev in eventos[:3])
-    tiles = "".join(f'<a class="ptile" href="{e(parceiro(lang, p))}" target="_blank" rel="sponsored noopener"><span class="photo" style="{bg(img, 600, pagina)}"></span><span>{e(L(n, lang))}</span></a>' for n, p, img in ESPORTES)
+    def tile(n, cod, img):
+        g = hubs.get(("esporte", TIPO_DO_CODIGO.get(cod)))
+        if g:  # guia próprio: mostra os jogos do site antes de mandar ao parceiro
+            alvo = f'href="{rel(pagina, caminho_hub(lang, g))}"'
+        else:
+            alvo = f'href="{e(parceiro(lang, dock_esporte(cod)))}" target="_blank" rel="sponsored noopener"'
+        return f'<a class="ptile" {alvo}><span class="photo" style="{bg(img, 600, pagina)}"></span><span>{e(L(n, lang))}</span></a>'
+    tiles = "".join(tile(n, cod, img) for n, cod, img in ESPORTES)
     def chips(itens, base):
         return "".join(f'<a class="chip" href="{e(parceiro(lang, base + s))}" target="_blank" rel="sponsored noopener">{e(L(n, lang))}</a>' for n, s in itens)
     lista_hubs = sorted(hubs.values(), key=lambda g: (["esporte", "competicao", "cidade"].index(g["tipo"]), -len(g["eventos"])))
@@ -818,7 +839,7 @@ def evento(lang, ev, eventos, hubs):
     else:
         quarto = (t["f_comp"], link_hub(comp_nome, hub_comp, comp.get("dock")))
     tipo_nome = TIPO_NOME[ev["tipo"]][lang]
-    kicker_tipo = link_hub(tipo_nome, hub_esp, f"/events/type/{ev['esporte_tipo']}" if ev["esporte_tipo"] else "/concerts")
+    kicker_tipo = link_hub(tipo_nome, hub_esp, dock_esporte(ev["esporte_tipo"]))
     tambem = []
     for tm in ev.get("times", []):
         if tm.get("dock"):
@@ -829,7 +850,7 @@ def evento(lang, ev, eventos, hubs):
         tambem.append(link_parceiro(comp_nome, comp["dock"]))
     if ev["cidade"].get("dock"):
         tambem.append(link_parceiro(cidade, ev["cidade"]["dock"]))
-    tambem.append(link_parceiro(tipo_nome, f"/events/type/{ev['esporte_tipo']}" if ev["esporte_tipo"] else "/concerts"))
+    tambem.append(link_parceiro(tipo_nome, dock_esporte(ev["esporte_tipo"])))
     chegar = "".join(f"<li>{e(x)}</li>" for x in ev["chegar"][lang])
     dicas = "".join(f"<li>{e(x)}</li>" for x in DICAS[ev["tipo"]][lang])
     tambem_html = "".join(f"<li>{x}</li>" for x in tambem)
@@ -1151,7 +1172,7 @@ def gerar_catalogo(eventos):
             "times": [{"nome": L(n, lang), "link": parceiro(lang, "/dock/team/" + s)} for n, s in TIMES],
             "cidades": [{"nome": L(n, lang), "link": parceiro(lang, "/dock/cities/" + s)} for n, s in CIDADES],
             "artistas": [{"nome": L(n, lang), "link": parceiro(lang, "/dock/music/" + s)} for n, s in ARTISTAS],
-            "esportes": [{"nome": L(n, lang), "link": parceiro(lang, p)} for n, p, _ in ESPORTES],
+            "esportes": [{"nome": L(n, lang), "link": parceiro(lang, dock_esporte(cod))} for n, cod, _ in ESPORTES],
         }
         cat["idiomas"][lang] = c
         r = ROTULOS_CAT[lang]
