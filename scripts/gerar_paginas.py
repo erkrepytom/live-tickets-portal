@@ -23,8 +23,11 @@ RAIZ = pathlib.Path(__file__).resolve().parent.parent
 BASE_URL = "https://mytickets.tours"
 AFILIADO = "6821d72fcdbe3"
 # Todos os idiomas usam o site principal do parceiro, onde o a_aid é contabilizado.
-# Mesmo domínio (com www) que o gerador de deeplink do painel de afiliado produz.
-PARCEIRO = {"pt": "https://www.sportsevents365.com", "en": "https://www.sportsevents365.com", "es": "https://www.sportsevents365.com"}
+# Site do parceiro no idioma de cada página. São os domínios oficiais que o próprio parceiro indica
+# (hreflang) e que repassam o a_aid; o clique pelo 365tickets.com.br apareceu no relatório "Raw Clicks"
+# do painel em 15/10/2026. Usar o idioma certo evita a tradução automática do Chrome, que quebra o
+# site do parceiro ("não conseguimos encontrar esse evento" alguns segundos depois de abrir).
+PARCEIRO = {"pt": "https://365tickets.com.br", "en": "https://www.sportsevents365.com", "es": "https://sportsevents365.es"}
 IDIOMAS = ["pt", "en", "es"]
 # Formulário de alertas: o FormSubmit entrega cada cadastro como e-mail na caixa do Titan.
 # Coloque aqui https://formsubmit.co/ajax/<seu-email-titan> (ou o código aleatório que o
@@ -316,7 +319,7 @@ CIDADES = [("Barcelona|Barcelona|Barcelona", "barcelona"), ("Madri|Madrid|Madrid
            ("Milão|Milan|Milán", "milano"), ("Londres|London|Londres", "london"), ("Paris|Paris|París", "paris"),
            ("Amsterdã|Amsterdam|Ámsterdam", "amsterdam"), ("Berlim|Berlin|Berlín", "berlin")]
 ARTISTAS = [("Oasis", "oasis"), ("Stevie Wonder", "steviewonder"), ("Andrea Bocelli", "andrea-bocelli"), ("Shakira", "shakira"),
-            ("BTS", "bts"), ("Celine Dion", "celine-dion"), ("Dua Lipa", "dua-lipa"), ("Backstreet Boys", "backstreet-boys")]
+            ("BTS", "bts"), ("Celine Dion", "celine-dion"), ("Backstreet Boys", "backstreet-boys")]  # Dua Lipa saiu: sem shows à venda no parceiro (15/10/2026)
 
 MESES = {"pt": ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"],
          "en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -363,19 +366,20 @@ def parceiro(lang, caminho, data1=None, data2=None):
     return url
 
 
-def caminho_ir(ev):
-    return f"ir/{ev['id']}/"
+def caminho_ir(ev, lang="en"):
+    return f"ir/{lang}/{ev['id']}/"
 
 
 def link_ingresso(pagina, ev):
     """Link protegido (cloaker) do botão de ingresso: /ir/<id>/ redireciona ao parceiro com o código de afiliado."""
-    return rel(pagina, caminho_ir(ev))
+    lang = "en" if pagina.startswith("en/") else "es" if pagina.startswith("es/") else "pt"
+    return rel(pagina, caminho_ir(ev, lang))
 
 
-def pagina_ir(ev):
+def pagina_ir(ev, lang="en"):
     """Página de redirecionamento, no lugar do arquivo que o 'Affiliate link protector' do painel gera.
     Repassa o SubID (?d1=&d2=) que o site.js coloca no link; sem JavaScript, o meta refresh leva ao parceiro."""
-    destino = parceiro("en", f"/event/{ev['id']}")
+    destino = parceiro(lang, f"/event/{ev['id']}")
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer-when-downgrade">
@@ -435,7 +439,7 @@ def rel(de, para):
 
 def mag(href, texto, cls="btn btn-signal", ext=True, seta=True):
     alvo = ' target="_blank" rel="sponsored noopener"' if ext else ""
-    m = re.search(r"(?:^|/)ir/(\d+)/$", href)
+    m = re.search(r"(?:^|/)ir/(?:[a-z]{2}/)?(\d+)/$", href)
     if m:
         alvo = f' target="_blank" rel="sponsored nofollow" data-aff-event="{m.group(1)}"'
     s = ' <span class="arrow" aria-hidden="true">→</span>' if seta else ""
@@ -1288,9 +1292,10 @@ def main():
     entradas = "\n".join(f"  <sitemap><loc>{BASE_URL}/{n}</loc><lastmod>{d}</lastmod></sitemap>" for n, d in indice)
     (RAIZ / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{entradas}\n</sitemapindex>\n', encoding="utf-8")
     (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /ir/\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
-    for ev in eventos:  # páginas do link protegido; não entram no sitemap
-        (RAIZ / caminho_ir(ev)).mkdir(parents=True, exist_ok=True)
-        (RAIZ / caminho_ir(ev) / "index.html").write_text(pagina_ir(ev), encoding="utf-8")
+    for ev in eventos:  # páginas do link protegido, uma por idioma; não entram no sitemap
+        for lang in IDIOMAS:
+            (RAIZ / caminho_ir(ev, lang)).mkdir(parents=True, exist_ok=True)
+            (RAIZ / caminho_ir(ev, lang) / "index.html").write_text(pagina_ir(ev, lang), encoding="utf-8")
     if INDEXNOW_KEY:
         (RAIZ / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
     vivos = {u for cs in grupos.values() for u in cs}

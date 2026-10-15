@@ -120,7 +120,6 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 - Shakira: https://www.sportsevents365.com/dock/music/shakira?a_aid=6821d72fcdbe3
 - BTS: https://www.sportsevents365.com/dock/music/bts?a_aid=6821d72fcdbe3
 - Celine Dion: https://www.sportsevents365.com/dock/music/celine-dion?a_aid=6821d72fcdbe3
-- Dua Lipa: https://www.sportsevents365.com/dock/music/dua-lipa?a_aid=6821d72fcdbe3
 - Backstreet Boys: https://www.sportsevents365.com/dock/music/backstreet-boys?a_aid=6821d72fcdbe3
 
 ## Sports

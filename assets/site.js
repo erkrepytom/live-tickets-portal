@@ -92,9 +92,10 @@ function gtagSafe(){ if (typeof window.gtag === "function") window.gtag.apply(nu
    Links protegidos do próprio site (/ir/123/) contam como link de evento. */
 function partnerLink(a){
   let u; try { u = new URL(a.href); } catch (e) { return null; }
-  const ir = u.host === location.host && u.pathname.match(/\/ir\/(\d+)\/?$/);
+  const ir = u.host === location.host && u.pathname.match(/\/ir\/(?:[a-z]{2}\/)?(\d+)\/?$/);
   if (ir) return { type: "event", id: ir[1], path: u.pathname, url: u, cloaked: true };
-  if (!/sportsevents365\.com$/.test(u.hostname) || /^aff\./.test(u.hostname)) return null;  // aff.: indicação de afiliados, não é venda
+  // Sites do parceiro: .com (inglês), 365tickets.com.br (português), .es (espanhol). aff.: indicação de afiliados, não é venda.
+  if (!/(^|\.)(sportsevents365\.com|sportsevents365\.es|365tickets\.com\.br)$/.test(u.hostname) || /^aff\./.test(u.hostname)) return null;
   const p = u.pathname, m = p.match(/^\/event\/(\d+)/);
   const type = m ? "event" : /\/dock\/competition\//.test(p) ? "competition" : /\/dock\/team\//.test(p) ? "team"
     : /\/dock\/cities\//.test(p) ? "city" : /\/dock\/music\//.test(p) ? "artist" : /\/concerts/.test(p) ? "sport" : "home";
