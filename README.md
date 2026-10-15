@@ -52,7 +52,7 @@ The official site is https://mytickets.tours, served by the Azure Static Web App
 ## Still to do
 
 - Add the WhatsApp channel links. The alert form posts to FormSubmit and lands in email@mytickets.tours.
-- Add `GTM_ID` or `GA_MEASUREMENT_ID` (the consent banner is already built in) and the GA4 secrets.
+- Add the GA4 secrets (`GA4_PROPERTY_ID`: 559145785) for the news ranking. The site measures with GA4 `G-FCTZZX96NW` behind a Consent Mode v2 banner.
 
 ## Affiliate disclosure
 

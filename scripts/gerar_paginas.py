@@ -26,7 +26,7 @@ IDIOMAS = ["pt", "en", "es"]
 # FormSubmit envia depois da ativação). Vazio = formulário mostra "em breve".
 FORM_ENDPOINT = "https://formsubmit.co/ajax/email@mytickets.tours"
 # ID de medição do Google Analytics 4 (G-XXXXXXX). Vazio = sem Analytics no site.
-GA_MEASUREMENT_ID = ""
+GA_MEASUREMENT_ID = "G-FCTZZX96NW"
 # Contêiner do Google Tag Manager (GTM-XXXXXXX). Se preenchido, substitui o gtag direto:
 # o GA4 e o Google Ads passam a ser configurados dentro do GTM. Os eventos do site
 # (view_item, begin_checkout, affiliate_click, generate_lead) vão para o dataLayer nos dois casos.
@@ -888,19 +888,19 @@ def hub(lang, g, eventos, hubs):
 PRIV = {
  "pt": {"path": "privacidade/", "link": "PRIVACIDADE E CONTATO", "title": "Política de privacidade | MyTickets Tours",
   "desc": "Como o MyTickets Tours trata seus dados, e como falar conosco.", "h1": "Política de privacidade",
-  "updated": "Atualizada em 14 de outubro de 2026.",
+  "updated": "Atualizada em 15 de outubro de 2026.",
   "sections": [
    ("Quem somos", ["O MyTickets Tours (mytickets.tours) é um site afiliado de ingressos para eventos esportivos e shows, mantido por Everton Bras.",
                    "Não vendemos ingressos. A compra acontece no site da SportsEvents365, que é responsável pela venda, pelo pagamento e pela entrega."]),
    ("Que dados tratamos", ["Navegação: os serviços que hospedam o site (Microsoft Azure e GitHub) registram dados técnicos, como endereço IP e tipo de navegador, para manter o site no ar e protegido.",
                            "Alertas de venda: se você pedir um alerta, guardamos seu e-mail, o evento escolhido e o idioma, com o seu consentimento. O cadastro chega à nossa caixa de e-mail pelo serviço FormSubmit.",
                            "Atendimento no WhatsApp: se você falar conosco, tratamos seu número e suas mensagens para responder, pela plataforma da Meta.",
-                           "Cookies: hoje o site não usa cookies de estatística nem de publicidade. Se passarmos a usar o Google Analytics, vamos pedir seu consentimento antes.",
+                           "Cookies: usamos o Google Analytics para medir visitas e cliques, e ele só grava cookies depois que você clica em Aceitar no aviso de cookies. Se recusar, nenhum cookie de estatística ou publicidade é gravado. Para mudar a escolha, apague os dados deste site no seu navegador e o aviso aparece de novo.",
                            "Links de afiliado: quando você clica num link para a SportsEvents365, o parceiro registra que você veio do MyTickets (código a_aid) para calcular nossa comissão. A partir daí vale a política de privacidade da SportsEvents365."]),
    ("Para que usamos", ["Enviar o alerta que você pediu, responder suas mensagens e manter o site funcionando e seguro. Não vendemos nem alugamos seus dados."]),
    ("Base legal", ["Consentimento para alertas, atendimento e estatísticas (LGPD, art. 7º, I; GDPR, art. 6(1)(a)). Interesse legítimo para a segurança e o funcionamento do site (LGPD, art. 7º, IX; GDPR, art. 6(1)(f))."]),
    ("Por quanto tempo", ["E-mails de alerta: até o evento acontecer ou até você pedir para sair, o que vier primeiro. Conversas do WhatsApp: até 12 meses."]),
-   ("Compartilhamento e transferência internacional", ["Seus dados passam apenas pelos fornecedores citados acima (Microsoft, GitHub, FormSubmit, Meta e, se ativado, Google). Eles podem tratar os dados fora do seu país, sob as garantias contratuais de cada um."]),
+   ("Compartilhamento e transferência internacional", ["Seus dados passam apenas pelos fornecedores citados acima (Microsoft, GitHub, FormSubmit, Meta e Google). Eles podem tratar os dados fora do seu país, sob as garantias contratuais de cada um."]),
    ("Seus direitos", ["Você pode pedir acesso, correção, exclusão e portabilidade dos seus dados, e retirar o consentimento a qualquer momento. Escreva para email@mytickets.tours e respondemos em até 15 dias.",
                       "Você também pode reclamar à ANPD, no Brasil, ou à autoridade de proteção de dados do seu país."]),
    ("Menores de idade", ["O site não é voltado para menores de 18 anos. Compras de ingressos devem ser feitas por adultos."]),
@@ -909,19 +909,19 @@ PRIV = {
   "contact_h": "Contato", "resp": "Responsável"},
  "en": {"path": "en/privacy/", "link": "PRIVACY AND CONTACT", "title": "Privacy policy | MyTickets Tours",
   "desc": "How MyTickets Tours handles your data, and how to reach us.", "h1": "Privacy policy",
-  "updated": "Last updated October 14, 2026.",
+  "updated": "Last updated October 15, 2026.",
   "sections": [
    ("Who we are", ["MyTickets Tours (mytickets.tours) is an affiliate site for sports and concert tickets, run by Everton Bras.",
                    "We do not sell tickets. Purchases happen on the SportsEvents365 site, which is responsible for the sale, payment and delivery."]),
    ("What data we handle", ["Browsing: the services that host the site (Microsoft Azure and GitHub) log technical data, such as IP address and browser type, to keep the site running and secure.",
                             "Sale alerts: if you ask for an alert, we keep your email, the event you chose and your language, with your consent. The sign-up reaches our inbox through the FormSubmit service.",
                             "WhatsApp support: if you message us, we handle your number and messages to reply, through Meta's platform.",
-                            "Cookies: the site currently uses no analytics or advertising cookies. If we start using Google Analytics, we will ask for your consent first.",
+                            "Cookies: we use Google Analytics to measure visits and clicks, and it only sets cookies after you click Accept in the cookie notice. If you decline, no analytics or advertising cookies are set. To change your choice, clear this site's data in your browser and the notice will show again.",
                             "Affiliate links: when you click a link to SportsEvents365, the partner records that you came from MyTickets (code a_aid) to calculate our commission. From then on, the SportsEvents365 privacy policy applies."]),
    ("Why we use it", ["To send the alert you asked for, reply to your messages and keep the site running and secure. We never sell or rent your data."]),
    ("Legal basis", ["Consent for alerts, support and analytics (GDPR Art. 6(1)(a); LGPD Art. 7, I). Legitimate interest for security and operation of the site (GDPR Art. 6(1)(f); LGPD Art. 7, IX)."]),
    ("How long we keep it", ["Alert emails: until the event takes place or until you unsubscribe, whichever comes first. WhatsApp conversations: up to 12 months."]),
-   ("Sharing and international transfers", ["Your data only goes through the providers named above (Microsoft, GitHub, FormSubmit, Meta and, if enabled, Google). They may process data outside your country under their own contractual safeguards."]),
+   ("Sharing and international transfers", ["Your data only goes through the providers named above (Microsoft, GitHub, FormSubmit, Meta and Google). They may process data outside your country under their own contractual safeguards."]),
    ("Your rights", ["You can ask to access, correct, delete or port your data, and withdraw consent at any time. Write to email@mytickets.tours and we will reply within 15 days.",
                     "You can also complain to the data protection authority in your country."]),
    ("Minors", ["The site is not aimed at people under 18. Ticket purchases must be made by adults."]),
@@ -930,19 +930,19 @@ PRIV = {
   "contact_h": "Contact", "resp": "Responsible person"},
  "es": {"path": "es/privacidad/", "link": "PRIVACIDAD Y CONTACTO", "title": "Política de privacidad | MyTickets Tours",
   "desc": "Cómo MyTickets Tours trata tus datos y cómo contactarnos.", "h1": "Política de privacidad",
-  "updated": "Actualizada el 14 de octubre de 2026.",
+  "updated": "Actualizada el 15 de octubre de 2026.",
   "sections": [
    ("Quiénes somos", ["MyTickets Tours (mytickets.tours) es un sitio afiliado de entradas para eventos deportivos y conciertos, gestionado por Everton Bras.",
                       "No vendemos entradas. La compra se hace en el sitio de SportsEvents365, responsable de la venta, el pago y la entrega."]),
    ("Qué datos tratamos", ["Navegación: los servicios que alojan el sitio (Microsoft Azure y GitHub) registran datos técnicos, como la dirección IP y el navegador, para mantener el sitio activo y seguro.",
                            "Alertas de venta: si pides una alerta, guardamos tu correo, el evento elegido y el idioma, con tu consentimiento. El registro llega a nuestro correo mediante el servicio FormSubmit.",
                            "Atención por WhatsApp: si nos escribes, tratamos tu número y tus mensajes para responderte, a través de la plataforma de Meta.",
-                           "Cookies: hoy el sitio no usa cookies de estadística ni de publicidad. Si empezamos a usar Google Analytics, te pediremos el consentimiento antes.",
+                           "Cookies: usamos Google Analytics para medir visitas y clics, y solo guarda cookies después de que haces clic en Aceptar en el aviso de cookies. Si lo rechazas, no se guarda ninguna cookie de estadística ni de publicidad. Para cambiar tu elección, borra los datos de este sitio en tu navegador y el aviso volverá a aparecer.",
                            "Enlaces de afiliado: al hacer clic en un enlace a SportsEvents365, el socio registra que llegaste desde MyTickets (código a_aid) para calcular nuestra comisión. Desde ese momento rige la política de privacidad de SportsEvents365."]),
    ("Para qué los usamos", ["Enviar la alerta que pediste, responder tus mensajes y mantener el sitio funcionando y seguro. Nunca vendemos ni alquilamos tus datos."]),
    ("Base legal", ["Consentimiento para alertas, atención y estadísticas (RGPD, art. 6.1.a; LGPD, art. 7, I). Interés legítimo para la seguridad y el funcionamiento del sitio (RGPD, art. 6.1.f; LGPD, art. 7, IX)."]),
    ("Cuánto tiempo", ["Correos de alerta: hasta que se celebre el evento o hasta que te des de baja, lo que ocurra primero. Conversaciones de WhatsApp: hasta 12 meses."]),
-   ("Cesión y transferencias internacionales", ["Tus datos solo pasan por los proveedores citados (Microsoft, GitHub, FormSubmit, Meta y, si se activa, Google). Pueden tratarlos fuera de tu país bajo sus propias garantías contractuales."]),
+   ("Cesión y transferencias internacionales", ["Tus datos solo pasan por los proveedores citados (Microsoft, GitHub, FormSubmit, Meta y Google). Pueden tratarlos fuera de tu país bajo sus propias garantías contractuales."]),
    ("Tus derechos", ["Puedes pedir acceso, rectificación, supresión y portabilidad de tus datos, y retirar el consentimiento en cualquier momento. Escribe a email@mytickets.tours y respondemos en un plazo de 15 días.",
                      "También puedes reclamar ante la autoridad de protección de datos de tu país."]),
    ("Menores", ["El sitio no está dirigido a menores de 18 años. Las compras de entradas deben hacerlas adultos."]),
