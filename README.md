@@ -30,6 +30,13 @@ Past events are dropped automatically the next time the script runs.
 - Measurement: set `GTM_ID` (or `GA_MEASUREMENT_ID`) in the generator. A Consent Mode v2 cookie banner appears automatically. The site pushes `view_item`, `begin_checkout`, `affiliate_click` and `generate_lead` to the `dataLayer`. Mark `affiliate_click` as the key event.
 - Search Console: verify the domain by DNS, or set `GSC_VERIFICATION` for the meta tag.
 
+## Editorial content and E-E-A-T
+
+- `scripts/conteudo.py` holds the editorial text in PT/EN/ES: what to bring, best sections for families vs loud support, "how to buy from abroad" steps, the event FAQ, the "How it works and guarantees" page and the linkable guide "Buying tickets in Europe safely". Partner facts (delivery, guarantee, cancellation, emergency line) come from the SportsEvents365 terms, checked 2026-10-15; update `PARCEIRO` there if the terms change.
+- Each event in `data/eventos.json` can carry `hora`, `inicio` (ISO with timezone), `conferido` (date the date/time was checked at the partner) and `status`. The page shows "checked on …" and the Event JSON-LD uses the full start time.
+- Event pages carry `FAQPage` JSON-LD. Google currently shows FAQ rich results only for government and health sites, so the gain is in content and long-tail matching, not in the rich result itself.
+- "More events" on each event page favours the same city and competition first (internal silo), so authority reaching a big match flows to smaller ones on the same topic.
+
 ## Affiliate links
 
 Every ticket link goes straight to the matching event, competition, team, city or artist page on sportsevents365.com, with `a_aid=6821d72fcdbe3`.
