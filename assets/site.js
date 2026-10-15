@@ -111,7 +111,7 @@ document.addEventListener("click", ev => {
   if (!a) return;
   const l = partnerLink(a);
   if (!l) return;
-  const where = a.closest("#partidas") ? "board" : a.closest(".ev-hero .ev-cta") ? "event_cta_top" : a.closest(".ev-cta") ? "event_cta"
+  const where = a.closest(".buybar") ? "buybar" : a.closest("#partidas") ? "board" : a.closest(".ev-hero .ev-cta") ? "event_cta_top" : a.closest(".ev-cta") ? "event_cta"
     : a.closest(".ev-hero") ? "event_facts" : a.closest("#explorar") ? "explore" : a.closest(".top") ? "header" : a.closest(".foot") ? "footer"
     : a.closest("#banner3d") ? "banner" : a.closest(".hero") ? "hero" : a.closest(".tips") ? "event_also" : "content";
   // Escreve o SubID no próprio link antes de o navegador seguir (o evento roda na fase de captura).
@@ -128,6 +128,17 @@ document.addEventListener("click", ev => {
     track({ event: "begin_checkout", click_location: where, ecommerce: { items: [it] } });
   }
 }, true);
+
+/* Barra fixa "Ver ingressos" no celular: aparece quando o botão do topo sai da tela. */
+const buy = document.getElementById("buybar"), ctaTopo = document.querySelector(".ev-hero .ev-cta");
+if (buy) buy.inert = true;
+if (buy && ctaTopo && "IntersectionObserver" in window){
+  new IntersectionObserver(es => {
+    const cookie = document.getElementById("cookie-bar");
+    const mostrar = !es[0].isIntersecting && es[0].boundingClientRect.top < 0 && !(cookie && !cookie.hidden);
+    buy.classList.toggle("on", mostrar); buy.setAttribute("aria-hidden", String(!mostrar)); buy.inert = !mostrar;
+  }).observe(ctaTopo);
+}
 
 /* Banner de cookies (Consent Mode v2). Só existe quando o GTM ou o GA4 está configurado no gerador. */
 const bar = document.getElementById("cookie-bar");

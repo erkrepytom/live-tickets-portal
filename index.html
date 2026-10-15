@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@500;700&family=Chakra+Petch:wght@600&family=IBM+Plex+Mono:wght@400&display=swap">
-<link rel="stylesheet" href="assets/site.css?v=e6f24213">
+<link rel="stylesheet" href="assets/site.css?v=e690e531">
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});try{if(localStorage.getItem('mt_consent')==='granted')gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}catch(e){}gtag('js',new Date());gtag('config','G-FCTZZX96NW');</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-FCTZZX96NW"></script>
 <link rel="preload" as="image" href="assets/img/hero.webp?v=dc505861" fetchpriority="high"><style>
 /* Estilos originais do banner 3D "Universo MyTickets". */
@@ -27,7 +27,12 @@
   #cena3d{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:pan-y}
   #rotulos3d .rotulo{position:absolute;left:0;top:0;pointer-events:none;font:10.5px 'IBM Plex Mono',ui-monospace,Menlo,monospace;color:#e6e9ff;white-space:nowrap;text-shadow:0 0 4px #000,0 0 2px #000}
   #rotulos3d .rotulo small{display:block;color:#8b91b8;font-size:9.5px;text-align:center}
-  @media (max-width:640px){#banner3d{height:240px}#rotulos3d{display:none}}
+  /* Celular: banner quase da altura da tela, com os nomes dos planetas visíveis e menores */
+  @media (max-width:640px){
+    #banner3d{height:min(86svh,680px);min-height:520px}
+    #rotulos3d .rotulo{font-size:9.5px}
+    #rotulos3d .rotulo small{font-size:8.5px}
+  }
 </style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://mytickets.tours/#org", "name": "MyTickets Tours", "url": "https://mytickets.tours/", "email": "email@mytickets.tours"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://mytickets.tours/#site", "name": "MyTickets Tours", "url": "https://mytickets.tours/", "inLanguage": "pt-BR", "publisher": {"@id": "https://mytickets.tours/#org"}}</script>
 </head>
 <body data-gate="PORTÃO" data-admit="ENTRADA · 1" data-ticket="FC BARCELONA X REAL MADRID" data-venue="CAMP NOU · BARCELONA">
@@ -82,7 +87,8 @@
 <section class="band" id="destaques" aria-labelledby="feat-h" style="padding-top:0">
   <div class="wrap">
     <div class="sec-head"><div><p class="kicker">Em destaque</p><h2 id="feat-h" data-scramble>Os próximos embarques</h2></div><p>As três datas mais próximas, com guia completo.</p></div>
-    <div class="cards"><a class="card" href="eventos/barcelona-vs-real-madrid-2026-10-25/">
+    <p class="swipe-hint">Deslize para ver mais</p>
+    <div class="cards cards-swipe"><a class="card" href="eventos/barcelona-vs-real-madrid-2026-10-25/">
   <div class="card-img photo" style="background-image:url('https://images.unsplash.com/photo-1551958219-acbc608c6377?w=800&q=70&auto=format&fit=crop');"><span class="card-date">25 OUT 2026</span></div>
   <div class="card-body"><h3>FC Barcelona x Real Madrid</h3><p>Camp Nou · Barcelona</p></div>
 </a><a class="card" href="eventos/milan-vs-inter-2026-10-31/">
@@ -120,7 +126,7 @@
   </div>
 </section>
 <!-- O three.js (~600 KB) só baixa quando o banner 3D chega perto da tela: o celular abre a página sem esperar por ele. -->
-<script>(function(){var b=document.getElementById("banner3d"),s=["https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js","https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js","assets/solar.js?v=7cd12b14"];
+<script>(function(){var b=document.getElementById("banner3d"),s=["https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js","https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js","assets/solar.js?v=09d09866"];
 function go(i){if(i>=s.length)return;var x=document.createElement("script");x.src=s[i];x.onload=function(){go(i+1)};document.body.appendChild(x)}
 if(!b||!("IntersectionObserver" in window)){go(0);return}var io=new IntersectionObserver(function(es){for(var k=0;k<es.length;k++)if(es[k].isIntersecting){io.disconnect();go(0);return}},{rootMargin:"600px 0px"});io.observe(b)})();</script>
 
@@ -189,6 +195,6 @@ if(!b||!("IntersectionObserver" in window)){go(0);return}var io=new Intersection
 <div class="cur off" id="cur-blob" aria-hidden="true"><em>VER</em></div>
 <div class="cur off" id="cur-dot" aria-hidden="true"></div>
 <div class="cookie-bar" id="cookie-bar" role="region" aria-label="Cookies" hidden><div class="wrap"><p>Usamos cookies do Google Analytics para medir visitas e cliques, só com a sua permissão. <a href="privacidade/">Privacidade</a></p><div class="cookie-btns"><button class="btn btn-sm btn-ghost" type="button" data-consent="denied">Recusar</button><button class="btn btn-sm btn-signal" type="button" data-consent="granted">Aceitar</button></div></div></div>
-<script src="assets/site.js?v=0a4dcc01" defer></script>
+<script src="assets/site.js?v=cd10ec16" defer></script>
 </body>
 </html>

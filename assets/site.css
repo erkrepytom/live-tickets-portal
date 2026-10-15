@@ -155,7 +155,13 @@ p{margin:0}
 .solar-box h2{margin-top:4px;font:600 26px/1.15 'Chakra Petch',var(--f-body);text-transform:none;letter-spacing:0}
 .solar-box h2 span{color:#ffb547}
 .solar-box a{margin-top:16px;display:inline-flex;align-items:center;gap:8px;height:40px;padding-inline:20px;border-radius:999px;background:#ffb547;color:#1a1206;font:700 14px/1 var(--f-body);text-decoration:none}
-@media (max-width:640px){.solar-box{padding:16px}.solar-box h2{font-size:22px}}
+@media (max-width:640px){
+  .solar-card{inset:auto 0 0 0;align-items:flex-end;isolation:isolate;padding:0 max(16px,env(safe-area-inset-left,0px)) 16px}
+  .solar-card::before{content:"";position:absolute;inset:-60px 0 0;z-index:-1;background:linear-gradient(0deg,rgba(5,6,13,.92),rgba(5,6,13,0));pointer-events:none}
+  .solar-box{max-width:none;width:100%;padding:16px;background:rgba(14,16,30,.6)}
+  .solar-box h2{font-size:21px}
+  .solar-box a{height:46px;width:100%;justify-content:center;font-size:15px}
+}
 
 /* Vídeo guiado pelo scroll */
 .sv{position:relative;height:340vh;background:var(--night);color:var(--on-night)}
@@ -321,3 +327,45 @@ html{scroll-padding-top:120px}
 .foot-aff a{color:var(--on-night);text-underline-offset:3px}
 .foot-aff a:hover{color:var(--signal)}
 .foot-aff span{font-size:13px}
+
+/* ================= Celular ================= */
+@media (max-width:640px){
+  /* Painel de partidas: cada jogo em duas linhas, com o EMBARQUE sempre visível */
+  .b-head{display:none}
+  .board{padding:14px 14px 12px}
+  .board-grid{grid-template-columns:minmax(0,1fr);row-gap:0;--fs:13px}
+  .b-row{grid-template-columns:auto 1fr;grid-template-areas:"d s" "e e";row-gap:8px;column-gap:10px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+  .b-row:last-child{border-bottom:0}
+  .b-row>:first-child{grid-area:d}
+  .b-row .b-event{grid-area:e;min-width:0;overflow:hidden}
+  .b-row .b-status{grid-area:s;justify-self:end;padding:6px 0 6px 12px}
+  /* Nomes de esporte cabem no azulejo */
+  .ptile span{font-size:clamp(16px,4.8vw,22px);overflow-wrap:anywhere}
+  /* Notícias: um país por vez, deslizando para o lado */
+  .countries{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin-inline:-16px;padding:2px 16px 10px;scroll-padding-inline:16px;scrollbar-width:none}
+  .countries::-webkit-scrollbar{display:none}
+  .country{flex:0 0 86%;scroll-snap-align:start}
+}
+@media (max-width:900px){
+  /* Próximos embarques e "Outros embarques": carrossel com o próximo cartão aparecendo na borda */
+  .cards-swipe{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin-inline:-16px;padding:2px 16px 12px;scroll-padding-inline:16px;scrollbar-width:none}
+  .cards-swipe::-webkit-scrollbar{display:none}
+  .cards-swipe .card{flex:0 0 min(84%,360px);scroll-snap-align:start}
+  .cards-swipe .card:hover{transform:none}
+  /* "Como funciona" mais curto no celular */
+  .sv{height:230vh}
+}
+.swipe-hint{display:none}
+@media (max-width:900px){.swipe-hint{display:block;margin:-4px 0 14px;font:500 13px/1.3 var(--f-body);color:var(--mut)}}
+
+/* Barra fixa de compra na página do jogo (celular) */
+.buybar{position:fixed;inset:auto 0 0 0;z-index:50;background:rgba(11,23,38,.96);backdrop-filter:blur(10px);color:var(--on-night);box-shadow:0 -1px 0 rgba(255,255,255,.08);padding-block:10px calc(10px + env(safe-area-inset-bottom,0px));transform:translateY(110%);transition:transform .25s ease}
+.buybar.on{transform:none}
+.buybar .wrap{display:flex;align-items:center;gap:12px}
+.buybar-info{min-width:0;display:grid;gap:2px}
+.buybar-info strong{font:800 17px/1.05 var(--f-display);text-transform:uppercase;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.buybar-info span{font:500 12px/1.2 var(--f-body);color:var(--on-night-mut)}
+.buybar .btn{margin-left:auto;flex:none;height:46px}
+@media (min-width:901px){.buybar{display:none}}
+@media (prefers-reduced-motion:reduce){.buybar{transition:none}}
+@media (max-width:900px){.buybar ~ .foot{padding-bottom:120px}}

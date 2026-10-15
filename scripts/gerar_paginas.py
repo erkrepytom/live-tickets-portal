@@ -531,6 +531,7 @@ def topo(lang, pagina, alternos):
 </header>"""
 
 
+DESLIZE = {"pt": "Deslize para ver mais", "en": "Swipe to see more", "es": "Desliza para ver más"}
 VOLTAR = {"pt": ("Voltar", "Página inicial"), "en": ("Back", "Home"), "es": ("Volver", "Inicio")}
 
 
@@ -717,7 +718,8 @@ def home(lang, eventos, noticias, hubs):
 <section class="band" id="destaques" aria-labelledby="feat-h" style="padding-top:0">
   <div class="wrap">
     <div class="sec-head"><div><p class="kicker">{e(t['feat_kicker'])}</p><h2 id="feat-h" data-scramble>{e(t['feat_h'])}</h2></div><p>{e(t['feat_sub'])}</p></div>
-    <div class="cards">{cards}</div>
+    <p class="swipe-hint">{e(DESLIZE[lang])}</p>
+    <div class="cards cards-swipe">{cards}</div>
   </div>
 </section>
 
@@ -977,11 +979,16 @@ def evento(lang, ev, eventos, hubs):
 <section class="band" aria-labelledby="more-h" style="padding-top:0">
   <div class="wrap">
     <div class="sec-head"><div><p class="kicker">{e(t['more_k'])}</p><h2 id="more-h" data-scramble>{e(t['more_h'])}</h2></div></div>
-    <div class="cards">{mais}</div>
+    <p class="swipe-hint">{e(DESLIZE[lang])}</p>
+    <div class="cards cards-swipe">{mais}</div>
   </div>
 </section>
 {alertas(lang, eventos, ev['slug'])}
 </main>
+<div class="buybar" id="buybar" aria-hidden="true"><div class="wrap">
+  <div class="buybar-info"><strong>{e(titulo)}</strong><span>{e(data_curta(ev['data'], lang))}{(' · ' + e(ev['hora'])) if ev.get('hora') else ''} · {e(C.local_curto(ev['local']))}</span></div>
+  {mag(ingresso, e(t['cta']), 'btn btn-signal btn-sm', seta=False)}
+</div></div>
 """
     return h + corpo + rodape(lang, pagina, alternos)
 

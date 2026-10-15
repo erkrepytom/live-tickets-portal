@@ -332,11 +332,34 @@
   aplicarInclinacao(0);
 
   let W = 1, H = 1;
+  /* Celular (tela em pé): planetas maiores, câmera mais alta e afastada na medida certa para
+     as órbitas caberem na largura, e a cena empurrada para cima da caixa de texto do rodapé. */
+  const DIR_DESKTOP = new THREE.Vector3(0, 46, 112), DIR_CELULAR = new THREE.Vector3(0, 0.8, 0.6).normalize();
+  let modoCelular = null;
   function redimensionar() {
     W = caixa.clientWidth; H = caixa.clientHeight;
     renderer.setSize(W, H, false);
     camera.aspect = W / H;
-    camera.fov = W < 600 ? 62 : (W/H > 4 ? 30 : 40);
+    const celular = W < 640;
+    if (celular) {
+      camera.fov = 50;
+      const meiaH = Math.atan(Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.aspect);
+      const dist = THREE.MathUtils.clamp(60 / Math.tan(meiaH), 90, 260);  // órbita de Saturno inteira na largura
+      if (modoCelular !== true) { camera.position.copy(DIR_CELULAR).multiplyScalar(dist); }
+      else { camera.position.setLength(dist); }
+      const caixaTexto = document.querySelector('#banner3d .solar-box');
+      const deslocar = caixaTexto ? Math.round(caixaTexto.offsetHeight * 0.45) : 0;
+      camera.setViewOffset(W, H, 0, deslocar, W, H);
+    } else {
+      camera.fov = W/H > 4 ? 30 : 40;
+      if (modoCelular === true) camera.position.copy(DIR_DESKTOP);
+      camera.clearViewOffset();
+    }
+    if (celular !== modoCelular) {
+      planetas.forEach(p => p.pivo.scale.setScalar(celular ? 2.1 : 1));
+      sol.scale.setScalar(celular ? 1.35 : 1);
+      modoCelular = celular;
+    }
     camera.updateProjectionMatrix();
   }
   window.addEventListener('resize', redimensionar);
