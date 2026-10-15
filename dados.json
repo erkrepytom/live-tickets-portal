@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-15T10:03:03+00:00",
+ "atualizado": "2026-10-15T15:07:37+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Veja os melhores momentos de Fluminense 1 x 2 Palmeiras pela ida da semi da Libertadores",
-     "u": "https://www.gazetaesportiva.com/times/fluminense/veja-os-melhores-momentos-de-fluminense-1-x-2-palmeiras-pela-ida-da-semi-da-libertadores/",
+     "t": "Haas anuncia Rafael Câmara, e Brasil terá dois pilotos na F1 em 2027",
+     "u": "https://www.gazetaesportiva.com/motor/formula-1/haas-anuncia-rafael-camara-formula-1-2027/",
      "f": "Gazeta Esportiva",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Fluminense x Palmeiras: veja fotos do jogo de ida da semifinal da Libertadores",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/fluminense-x-palmeiras-veja-fotos-do-jogo-de-ida-da-semifinal-da-libertadores/",
-     "f": "Gazeta Esportiva",
-     "alta": false
+     "t": "Rafael Câmara é anunciado pela Haas, e Brasil terá dois pilotos no grid da F1 em 2027",
+     "u": "https://ge.globo.com/motor/formula-1/noticia/2026/10/15/rafael-camara-e-anunciado-pela-haas-e-brasil-tera-dois-pilotos-no-grid-da-f1-em-2027.ghtml",
+     "f": "ge",
+     "alta": true
     },
     {
-     "t": "Projeto Libertadores: o que o Santos precisa fazer (e torcer) para voltar ao torneio em 2027",
-     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/15/projeto-libertadores-o-que-o-santos-precisa-fazer-e-torcer-para-voltar-ao-torneio-em-2027.ghtml",
+     "t": "Cruzeiro x Atlético-MG: STJD nega recurso para aumentar pena de Kaio Jorge por falta em Tressoldi",
+     "u": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/15/cruzeiro-x-atletico-mg-stjd-julga-recurso-e-mantem-kaio-jorge-sem-suspensao-por-falta-em-tressoldi.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Elogiado por Mourinho, Endrick só havia jogado 10 minutos na temporada até mudar Roma x Real Madrid",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/15/elogiado-por-mourinho-endrick-so-havia-jogado-10-minutos-na-temporada-ate-mudar-roma-x-real-madrid.ghtml",
-     "f": "ge",
+     "t": "Paulinho assume como executivo de futebol do Cruzeiro; veja bastidores",
+     "u": "https://www.gazetaesportiva.com/times/cruzeiro/paulinho-assume-como-executivo-de-futebol-do-cruzeiro-veja-bastidores/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "UEFA Champions League scores, schedule: Manchester City vs. PSG highlights Matchday 2",
-     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-2/",
+     "t": "NBA Eastern Conference tiers: Knicks on top, but new-look contenders emerge after eventful offseason",
+     "u": "https://www.cbssports.com/nba/news/nba-eastern-conference-knicks-on-top-contenders-emerge/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "While Manchester City are forced to defend their past, PSG show why they own the present in Champions League",
-     "u": "https://www.cbssports.com/soccer/news/manchester-city-destroyed-by-psg-uefa-champions-league-md-2/",
+     "t": "Broncos vs. Seahawks odds, picks, prediction: Best bets, player props for Thursday Night Football NFL Week 6",
+     "u": "https://www.cbssports.com/betting/news/broncos-vs-seahawks-odds-picks-prediction-best-bets-player-props-for-thursday-night-football-nfl-week-6/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Barcelona handed Raphinha boost ahead of key fixtures against Real Betis, PSG and Real Madrid",
-     "u": "https://sports.yahoo.com/articles/barcelona-handed-raphinha-boost-ahead-094802547.html",
+     "t": "ATP Tour proposes rule changes designed to reduce overplaying after injuries to Alcaraz and Sinner",
+     "u": "https://sports.yahoo.com/articles/atp-tour-proposes-rule-changes-145458562.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Endrick vows to fight for his place after inspiring Real Madrid comeback against Roma",
-     "u": "https://sports.yahoo.com/articles/endrick-vows-fight-place-inspiring-094000578.html",
+     "t": "Newcastle Joins Premier League Rivals in Race for Argentina International",
+     "u": "https://sports.yahoo.com/articles/newcastle-joins-premier-league-rivals-150000487.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Luis Enrique após vitória do PSG sobre o Man. City: «Tivemos sorte...»",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/luis-enrique-apos-vitoria-do-psg-sobre-o-man-city-tivemos-sorte",
+     "t": "Oficial: Vasco Matos sai do comando técnico do Estoril",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/estoril/detalhe/oficial-vasco-matos-sai-do-comando-tecnico-do-estoril",
      "f": "Record",
      "alta": true
     },
     {
-     "t": "Inter arrasado \"nem sai da linha de partida\": «Dominante em Itália, desastroso na Europa»",
-     "u": "https://www.record.pt/internacional/paises/italia/inter-milao/detalhe/inter-arrasado-nem-sai-da-linha-de-partida-dominante-em-italia-desastroso-na-europa",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Suárez para a história! É o melhor marcador do Sporting na Champions (vídeo)",
-     "u": "https://www.abola.pt/noticias/suarez-para-a-historia-e-o-melhor-marcador-do-sporting-na-champions-video-2026101317245097243",
+     "t": "Champions: Arsenal liga o turbo na segunda parte e despacha Lille",
+     "u": "https://www.abola.pt/noticias/champions-arsenal-liga-o-turbo-na-segunda-parte-e-despacha-lille-2026101319191765842",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "«Geny Catamo é importante no Sporting»",
-     "u": "https://www.abola.pt/video/geny-catamo-e-importante-no-sporting-2026100923051916933",
+     "t": "FC Porto em campo no Man. City-PSG... nas caneleiras de Vitinha",
+     "u": "https://www.record.pt/internacional/paises/franca/psg/detalhe/fc-porto-em-campo-no-man-city-psg-nas-caneleiras-de-vitinha",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Lenda do Manchester United arrasa Bruno Fernandes: «Está ocupado a gravar 'podcasts'»",
+     "u": "https://www.abola.pt/noticias/manchester-united-parece-um-circo-reina-o-caos-2026101514060607327",
      "f": "A Bola",
      "alta": false
     }
@@ -113,20 +113,14 @@
    },
    "noticias": [
     {
-     "t": "Así queda la clasificación de la Champions League tras la jornada 2: lideran Barça y PSG",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238776/asi-queda-clasificacion.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
      "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "Italia no es lo que era",
-     "u": "https://www.mundodeportivo.com/opinion/20261014/1004238879/italia-no.html",
+     "t": "El Tottenham pediría un pastón al Barça por Porro",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261015/1004239117/cantidad-pide-tottenham-pedro-porro.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -134,6 +128,12 @@
      "t": "¡Netflix se queda el Mundial de España!",
      "u": "https://www.marca.com/futbol/mundial/2026/10/13/netflix-adquiere-derechos-audiovisuales-espana-mundial-2030.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Álvaro Valles lanza un aviso al Barça",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261015/1004238984/alvaro-valles-lanza-aviso-barca-arrasa-esto-betis-estaremos-casa.html",
+     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
+     "t": "Nation-swappers show Rugby League World Cup is up for grabs in fiery opener",
+     "u": "https://www.theguardian.com/sport/2026/oct/15/nation-swappers-show-rugby-league-world-cup-is-up-for-grabs-in-fiery-opener",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
      "t": "Man City show fight but fall short of fightback against slick PSG",
      "u": "https://www.bbc.co.uk/sport/football/videos/cqp8gn9x801po?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Real Madrid stun Roma after dramatic late comeback",
-     "u": "https://www.bbc.co.uk/sport/football/videos/cmx239x97ddvo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Australia v New Zealand: men’s Rugby League World Cup – live",
-     "u": "https://www.theguardian.com/sport/live/2026/oct/15/australia-vs-new-zealand-mens-rugby-league-world-cup-live-updates",
+     "t": "Champions League: Mourinho’s Real Madrid stage wild comeback on Roma return",
+     "u": "https://www.theguardian.com/football/2026/oct/14/champions-league-mourinhos-real-madrid-stage-crazy-comeback-on-roma-return",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Real Madrid produce incredible late comeback to beat Roma",
-     "u": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-     "f": "Sky Sports",
+     "t": "Real Madrid stun Roma after dramatic late comeback",
+     "u": "https://www.bbc.co.uk/sport/football/videos/cmx239x97ddvo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "Error imperdonable en Pumas Vs Atlante generó alineación indebida y el adiós de Mejía Barón",
-     "u": "https://www.excelsior.com.mx/deportes/pumas-vs-atlante-antecedentes-alineacion-indebida-invierno-2001",
+     "t": "Haas confirma la llegada de Rafael Camara a la F1 en 2027; el brasileño sensación de Ferrari",
+     "u": "https://www.excelsior.com.mx/deportes/haas-confirma-llegada-rafael-camara-f1-2027-brasileno-sensacion-ferrari",
      "f": "Excélsior",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Paciencia en Chivas no la hay, menos con los jóvenes, considera Omar Arellano",
-     "u": "https://www.excelsior.com.mx/deportes/paciencia-chivas-no-hay-menos-con-jovenes-considera-omar-arellano",
+     "t": "Céline Dion se convierte en una Barbie; directo de la alfombra roja",
+     "u": "https://www.excelsior.com.mx/espectaculos/celine-dion-convierte-barbie-directo-alfombra-roja",
      "f": "Excélsior",
      "alta": false
     }
@@ -215,14 +215,14 @@
      "alta": false
     },
     {
-     "t": "Video: el gol del Flaco López para poner en ventaja a Palmeiras frente a Fluminense",
-     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flacolopez-gol-palmeiras-fluminense-copalibertadores-semifinales_0_9An7HhWVDA.html",
+     "t": "Estudiantes vs. Flamengo, hoy EN VIVO por la Copa Libertadores: posibles formaciones, horario y por dónde ver",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/estudiantes-vs-flamengo-partido-copa-libertadores-2026-semifinal-ida-plata-vivo_0_k1dy3eCZsl.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "El Inter Miami de Messi ya está en los playoffs de la MLS: cómo sigue el certamen",
-     "u": "https://www.ole.com.ar/futbol-internacional/mls-inter-miami-playoffs-aseguro-2026_0_GyiP8cTGGf.html",
+     "t": "Qué Talleres llega a la Bombonera para enfrentar a Boca",
+     "u": "https://www.ole.com.ar/talleres/juega-talleres-boca-bombonera_0_gQkQ2u2aNv.html",
      "f": "Olé",
      "alta": false
     }
@@ -259,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "« Le PSG est-il en train de bâtir la plus grande dynastie européenne ? » : la presse étrangère ébahie par la victoire de Paris contre Manchester City ",
-     "u": "https://www.lequipe.fr/Football/Actualites/-le-psg-est-il-en-train-de-batir-la-plus-grande-dynastie-europeenne-la-presse-etrangere-ebahie-par-la-victoire-de-paris-contre-manchester-city-en-ligue-des-champions/1735913#at_medium=RSS_feeds",
+     "t": "Bradley Barcola élu joueur de la semaine en Ligue des champions après son triplé avec Liverpool",
+     "u": "https://www.lequipe.fr/Football/Actualites/Bradley-barcola-elu-joueur-de-la-semaine-en-ligue-des-champions-apres-son-triple-avec-liverpool/1735969#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Fébrile sur penalty, invincible aux tirs au but : les stats insolites et paradoxales du PSG depuis sa victoire à Liverpool en 2025",
-     "u": "https://www.lequipe.fr/Football/Actualites/Febrile-sur-penalty-invincible-aux-tirs-au-but-les-stats-insolites-et-paradoxales-du-psg-depuis-sa-victoire-a-liverpool-en-2025/1735916#at_medium=RSS_feeds",
+     "t": "Des flocages flous sur les maillots de Ligue 1 et de Ligue 2 ce week-end : la nouvelle campagne de sensibilisation de la LFP pour la santé visuelle",
+     "u": "https://www.lequipe.fr/Football/Actualites/Des-flocages-flous-sur-les-maillots-de-ligue-1-et-de-ligue-2-ce-week-end-la-nouvelle-campagne-de-sensibilisation-de-la-lfp-pour-la-sante-visuelle/1735980#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,45 +275,45 @@
  ],
  "destaques": [
   {
-   "t": "Veja os melhores momentos de Fluminense 1 x 2 Palmeiras pela ida da semi da Libertadores",
-   "u": "https://www.gazetaesportiva.com/times/fluminense/veja-os-melhores-momentos-de-fluminense-1-x-2-palmeiras-pela-ida-da-semi-da-libertadores/",
+   "t": "Haas anuncia Rafael Câmara, e Brasil terá dois pilotos na F1 em 2027",
+   "u": "https://www.gazetaesportiva.com/motor/formula-1/haas-anuncia-rafael-camara-formula-1-2027/",
    "f": "Gazeta Esportiva",
-   "alta": false,
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "UEFA Champions League scores, schedule: Manchester City vs. PSG highlights Matchday 2",
-   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-2/",
+   "t": "NBA Eastern Conference tiers: Knicks on top, but new-look contenders emerge after eventful offseason",
+   "u": "https://www.cbssports.com/nba/news/nba-eastern-conference-knicks-on-top-contenders-emerge/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Luis Enrique após vitória do PSG sobre o Man. City: «Tivemos sorte...»",
-   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/luis-enrique-apos-vitoria-do-psg-sobre-o-man-city-tivemos-sorte",
+   "t": "Oficial: Vasco Matos sai do comando técnico do Estoril",
+   "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/estoril/detalhe/oficial-vasco-matos-sai-do-comando-tecnico-do-estoril",
    "f": "Record",
    "alta": true,
    "pais": "PT"
   },
   {
-   "t": "Así queda la clasificación de la Champions League tras la jornada 2: lideran Barça y PSG",
-   "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238776/asi-queda-clasificacion.html",
-   "f": "Mundo Deportivo",
+   "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
+   "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
+   "f": "Marca",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Man City show fight but fall short of fightback against slick PSG",
-   "u": "https://www.bbc.co.uk/sport/football/videos/cqp8gn9x801po?at_medium=RSS&at_campaign=rss",
-   "f": "BBC Sport",
+   "t": "Nation-swappers show Rugby League World Cup is up for grabs in fiery opener",
+   "u": "https://www.theguardian.com/sport/2026/oct/15/nation-swappers-show-rugby-league-world-cup-is-up-for-grabs-in-fiery-opener",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Error imperdonable en Pumas Vs Atlante generó alineación indebida y el adiós de Mejía Barón",
-   "u": "https://www.excelsior.com.mx/deportes/pumas-vs-atlante-antecedentes-alineacion-indebida-invierno-2001",
+   "t": "Haas confirma la llegada de Rafael Camara a la F1 en 2027; el brasileño sensación de Ferrari",
+   "u": "https://www.excelsior.com.mx/deportes/haas-confirma-llegada-rafael-camara-f1-2027-brasileno-sensacion-ferrari",
    "f": "Excélsior",
-   "alta": false,
+   "alta": true,
    "pais": "MX"
   },
   {
@@ -331,8 +331,8 @@
    "pais": "IT"
   },
   {
-   "t": "« Le PSG est-il en train de bâtir la plus grande dynastie européenne ? » : la presse étrangère ébahie par la victoire de Paris contre Manchester City ",
-   "u": "https://www.lequipe.fr/Football/Actualites/-le-psg-est-il-en-train-de-batir-la-plus-grande-dynastie-europeenne-la-presse-etrangere-ebahie-par-la-victoire-de-paris-contre-manchester-city-en-ligue-des-champions/1735913#at_medium=RSS_feeds",
+   "t": "Bradley Barcola élu joueur de la semaine en Ligue des champions après son triplé avec Liverpool",
+   "u": "https://www.lequipe.fr/Football/Actualites/Bradley-barcola-elu-joueur-de-la-semaine-en-ligue-des-champions-apres-son-triple-avec-liverpool/1735969#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
