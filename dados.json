@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-15T04:51:51+00:00",
+ "atualizado": "2026-10-15T10:03:03+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Inter e Atlético-MG empatam no jogo de ida quartas de final da Copa do Brasil",
-     "u": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/14-10-2026/internacional-atletico-mg.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
      "t": "Veja os melhores momentos de Fluminense 1 x 2 Palmeiras pela ida da semi da Libertadores",
      "u": "https://www.gazetaesportiva.com/times/fluminense/veja-os-melhores-momentos-de-fluminense-1-x-2-palmeiras-pela-ida-da-semi-da-libertadores/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Palmeiras vence Fluminense e sai em vantagem por vaga na final da Libertadores",
-     "u": "https://ge.globo.com/rj/futebol/libertadores/jogo/14-10-2026/fluminense-palmeiras.ghtml",
+     "t": "Fluminense x Palmeiras: veja fotos do jogo de ida da semifinal da Libertadores",
+     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/fluminense-x-palmeiras-veja-fotos-do-jogo-de-ida-da-semifinal-da-libertadores/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Projeto Libertadores: o que o Santos precisa fazer (e torcer) para voltar ao torneio em 2027",
+     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/15/projeto-libertadores-o-que-o-santos-precisa-fazer-e-torcer-para-voltar-ao-torneio-em-2027.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Fluminense x Palmeiras: veja fotos do jogo de ida da semifinal da Libertadores",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/fluminense-x-palmeiras-veja-fotos-do-jogo-de-ida-da-semifinal-da-libertadores/",
-     "f": "Gazeta Esportiva",
+     "t": "Elogiado por Mourinho, Endrick só havia jogado 10 minutos na temporada até mudar Roma x Real Madrid",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/15/elogiado-por-mourinho-endrick-so-havia-jogado-10-minutos-na-temporada-ate-mudar-roma-x-real-madrid.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -57,14 +57,14 @@
      "alta": false
     },
     {
-     "t": "How might Man City Women be affected by the Premier League’s case against the club?",
-     "u": "https://sports.yahoo.com/articles/might-man-city-women-affected-043105674.html",
+     "t": "Barcelona handed Raphinha boost ahead of key fixtures against Real Betis, PSG and Real Madrid",
+     "u": "https://sports.yahoo.com/articles/barcelona-handed-raphinha-boost-ahead-094802547.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Has there ever been a 3-0 comeback in MLB? Dodgers have to rally now to reach World Series",
-     "u": "https://sports.yahoo.com/articles/ever-3-0-comeback-mlb-043904584.html",
+     "t": "Endrick vows to fight for his place after inspiring Real Madrid comeback against Roma",
+     "u": "https://sports.yahoo.com/articles/endrick-vows-fight-place-inspiring-094000578.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Portugal goleia Itália no Mundial",
-     "u": "https://www.abola.pt/noticias/portugal-goleia-italia-no-mundial-2026101422175115834",
-     "f": "A Bola",
-     "alta": false
+     "t": "Luis Enrique após vitória do PSG sobre o Man. City: «Tivemos sorte...»",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/luis-enrique-apos-vitoria-do-psg-sobre-o-man-city-tivemos-sorte",
+     "f": "Record",
+     "alta": true
     },
     {
-     "t": "Se o Sporting é um Mercedes, o Benfica é... Marco Silva responde",
-     "u": "https://www.abola.pt/video/se-o-sporting-e-um-mercedes-o-benfica-e-marco-silva-responde-2026101415043840556",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Mercedes do leão novinho em folha: Sporting teve o onze mais jovem da 2.ª ronda da Champions",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/mercedes-do-leao-novinho-em-folha-sporting-teve-o-onze-mais-jovem-da-2-ronda-da-champions",
+     "t": "Inter arrasado \"nem sai da linha de partida\": «Dominante em Itália, desastroso na Europa»",
+     "u": "https://www.record.pt/internacional/paises/italia/inter-milao/detalhe/inter-arrasado-nem-sai-da-linha-de-partida-dominante-em-italia-desastroso-na-europa",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Portugal defronta Angola nos quartos de final do Mundial de hóquei em patins: veja o quadro completo",
-     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/portugal-defronta-angola-nos-quartos-de-final-do-mundial-de-hoquei-em-patins-veja-o-quadro-completo",
-     "f": "Record",
+     "t": "Suárez para a história! É o melhor marcador do Sporting na Champions (vídeo)",
+     "u": "https://www.abola.pt/noticias/suarez-para-a-historia-e-o-melhor-marcador-do-sporting-na-champions-video-2026101317245097243",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "«Geny Catamo é importante no Sporting»",
+     "u": "https://www.abola.pt/video/geny-catamo-e-importante-no-sporting-2026100923051916933",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,14 +113,8 @@
    },
    "noticias": [
     {
-     "t": "El Real Madrid de las remontadas en Champions volvió en Roma",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238861/real-madrid-remontadas-champions-volvio-roma.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "El 1X1 del Real Madrid ante la Roma",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238843/1x1-real-madrid-roma.html",
+     "t": "Así queda la clasificación de la Champions League tras la jornada 2: lideran Barça y PSG",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238776/asi-queda-clasificacion.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -128,6 +122,12 @@
      "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
      "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Italia no es lo que era",
+     "u": "https://www.mundodeportivo.com/opinion/20261014/1004238879/italia-no.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -153,14 +153,14 @@
      "alta": false
     },
     {
-     "t": "Hollywood star Bettany reflects on Arsenal's title win on Premier League show",
-     "u": "https://www.skysports.com/football/live-blog/12040/13455133/premier-league-show-live-latest-team-news-exclusive-interviews-and-analysis",
-     "f": "Sky Sports",
+     "t": "Real Madrid stun Roma after dramatic late comeback",
+     "u": "https://www.bbc.co.uk/sport/football/videos/cmx239x97ddvo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Quickfire Doué and Dembélé inspire PSG to thrilling win at Manchester City",
-     "u": "https://www.theguardian.com/football/2026/oct/14/manchester-city-psg-champions-league-league-stage-match-report",
+     "t": "Australia v New Zealand: men’s Rugby League World Cup – live",
+     "u": "https://www.theguardian.com/sport/live/2026/oct/15/australia-vs-new-zealand-mens-rugby-league-world-cup-live-updates",
      "f": "The Guardian",
      "alta": false
     },
@@ -187,8 +187,8 @@
      "alta": false
     },
     {
-     "t": "¿Bofo Bautista como DT de Chivas? La leyenda rojiblanca confiesa su gran sueño",
-     "u": "https://www.excelsior.com.mx/deportes/bofo-bautista-como-dt-chivas-leyenda-rojiblanca-confiesa-gran-sueno",
+     "t": "Paciencia en Chivas no la hay, menos con los jóvenes, considera Omar Arellano",
+     "u": "https://www.excelsior.com.mx/deportes/paciencia-chivas-no-hay-menos-con-jovenes-considera-omar-arellano",
      "f": "Excélsior",
      "alta": false
     }
@@ -259,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "Face à Manchester City, le trio du PSG Doué - Dembélé - Akliouche a connu 100% de réussite sur ses frappes",
-     "u": "https://www.lequipe.fr/Football/Actualites/Face-a-manchester-city-le-trio-du-psg-doue-dembele-akliouche-a-connu-100-de-reussite-sur-ses-frappes/1735850#at_medium=RSS_feeds",
+     "t": "« Le PSG est-il en train de bâtir la plus grande dynastie européenne ? » : la presse étrangère ébahie par la victoire de Paris contre Manchester City ",
+     "u": "https://www.lequipe.fr/Football/Actualites/-le-psg-est-il-en-train-de-batir-la-plus-grande-dynastie-europeenne-la-presse-etrangere-ebahie-par-la-victoire-de-paris-contre-manchester-city-en-ligue-des-champions/1735913#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Les notes de Manchester City-PSG",
-     "u": "https://www.lequipe.fr/Football/Article/Les-notes-de-manchester-city-psg-la-lumiere-doue-le-phare-haaland/1735839#at_medium=RSS_feeds",
+     "t": "Fébrile sur penalty, invincible aux tirs au but : les stats insolites et paradoxales du PSG depuis sa victoire à Liverpool en 2025",
+     "u": "https://www.lequipe.fr/Football/Actualites/Febrile-sur-penalty-invincible-aux-tirs-au-but-les-stats-insolites-et-paradoxales-du-psg-depuis-sa-victoire-a-liverpool-en-2025/1735916#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,9 +275,9 @@
  ],
  "destaques": [
   {
-   "t": "Inter e Atlético-MG empatam no jogo de ida quartas de final da Copa do Brasil",
-   "u": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/14-10-2026/internacional-atletico-mg.ghtml",
-   "f": "ge",
+   "t": "Veja os melhores momentos de Fluminense 1 x 2 Palmeiras pela ida da semi da Libertadores",
+   "u": "https://www.gazetaesportiva.com/times/fluminense/veja-os-melhores-momentos-de-fluminense-1-x-2-palmeiras-pela-ida-da-semi-da-libertadores/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
@@ -289,15 +289,15 @@
    "pais": "US"
   },
   {
-   "t": "Portugal goleia Itália no Mundial",
-   "u": "https://www.abola.pt/noticias/portugal-goleia-italia-no-mundial-2026101422175115834",
-   "f": "A Bola",
-   "alta": false,
+   "t": "Luis Enrique após vitória do PSG sobre o Man. City: «Tivemos sorte...»",
+   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/luis-enrique-apos-vitoria-do-psg-sobre-o-man-city-tivemos-sorte",
+   "f": "Record",
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "El Real Madrid de las remontadas en Champions volvió en Roma",
-   "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238861/real-madrid-remontadas-champions-volvio-roma.html",
+   "t": "Así queda la clasificación de la Champions League tras la jornada 2: lideran Barça y PSG",
+   "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261014/1004238776/asi-queda-clasificacion.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
@@ -331,8 +331,8 @@
    "pais": "IT"
   },
   {
-   "t": "Face à Manchester City, le trio du PSG Doué - Dembélé - Akliouche a connu 100% de réussite sur ses frappes",
-   "u": "https://www.lequipe.fr/Football/Actualites/Face-a-manchester-city-le-trio-du-psg-doue-dembele-akliouche-a-connu-100-de-reussite-sur-ses-frappes/1735850#at_medium=RSS_feeds",
+   "t": "« Le PSG est-il en train de bâtir la plus grande dynastie européenne ? » : la presse étrangère ébahie par la victoire de Paris contre Manchester City ",
+   "u": "https://www.lequipe.fr/Football/Actualites/-le-psg-est-il-en-train-de-batir-la-plus-grande-dynastie-europeenne-la-presse-etrangere-ebahie-par-la-victoire-de-paris-contre-manchester-city-en-ligue-des-champions/1735913#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
