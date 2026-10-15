@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-14T23:18:09+00:00",
+ "atualizado": "2026-10-15T04:51:51+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "▶️ River-PI intensifica preparação para final contra Flamengo-PI; veja entrevistas",
-     "u": "https://ge.globo.com/pi/futebol/times/river-pi/playlist/-river-pi-intensifica-preparacao-para-final-contra-flamengo-pi-veja-entrevistas.ghtml",
-     "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Semifinal do Brasileiro Sub-17: datas e horários de Bragantino x Corinthians e Atlético-MG x Cruzeiro",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/noticia/2026/10/14/semifinal-do-brasileiro-sub-17-datas-e-horarios-de-bragantino-x-corinthians-e-atletico-mg-x-cruzeiro.ghtml",
+     "t": "Inter e Atlético-MG empatam no jogo de ida quartas de final da Copa do Brasil",
+     "u": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/14-10-2026/internacional-atletico-mg.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Manchester City x PSG: veja fotos do jogo pela Champions",
-     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/manchester-city-x-psg-veja-fotos-do-jogo-pela-champions/",
+     "t": "Veja os melhores momentos de Fluminense 1 x 2 Palmeiras pela ida da semi da Libertadores",
+     "u": "https://www.gazetaesportiva.com/times/fluminense/veja-os-melhores-momentos-de-fluminense-1-x-2-palmeiras-pela-ida-da-semi-da-libertadores/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Estudiantes x Flamengo: veja prováveis escalações e onde assistir ao duelo pela Libertadores",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/estudiantes-x-flamengo-veja-provaveis-escalacoes-e-onde-assistir-ao-duelo-pela-libertadores/",
+     "t": "Palmeiras vence Fluminense e sai em vantagem por vaga na final da Libertadores",
+     "u": "https://ge.globo.com/rj/futebol/libertadores/jogo/14-10-2026/fluminense-palmeiras.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Fluminense x Palmeiras: veja fotos do jogo de ida da semifinal da Libertadores",
+     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/fluminense-x-palmeiras-veja-fotos-do-jogo-de-ida-da-semifinal-da-libertadores/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -57,14 +57,14 @@
      "alta": false
     },
     {
-     "t": "Maresca felt Man City deserved something from PSG defeat",
-     "u": "https://sports.yahoo.com/articles/maresca-felt-man-city-deserved-230326448.html",
+     "t": "How might Man City Women be affected by the Premier League’s case against the club?",
+     "u": "https://sports.yahoo.com/articles/might-man-city-women-affected-043105674.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Guardiola's return, Man City's defiance - and a game of glorious chaos",
-     "u": "https://sports.yahoo.com/articles/guardiolas-return-man-citys-defiance-225729693.html",
+     "t": "Has there ever been a 3-0 comeback in MLB? Dodgers have to rally now to reach World Series",
+     "u": "https://sports.yahoo.com/articles/ever-3-0-comeback-mlb-043904584.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "A crónica do Roma-Real Madrid, 3-4: O filão de ouro está ali ao canto",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/a-cronica-do-roma-real-madrid-3-4-o-filao-de-ouro-esta-ali-ao-canto",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "A crónica do Manchester City-PSG, 2-4: Recital parisiense no Etihad",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/a-cronica-do-manchester-city-psg-2-4-recital-parisiense-no-etihad",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Épico! 'Remontada' incrível do Real Madrid em Roma chegou nos minutos finais (resumo)",
-     "u": "https://www.abola.pt/video/epico-remontada-incrivel-do-real-madrid-em-roma-chegou-nos-minutos-finais-resumo-2026101421403793332",
+     "t": "Portugal goleia Itália no Mundial",
+     "u": "https://www.abola.pt/noticias/portugal-goleia-italia-no-mundial-2026101422175115834",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Nove golos e Barcola em grande no LASK-Liverpool (resumo)",
-     "u": "https://www.abola.pt/video/nove-golos-e-barcola-em-grande-no-lask-liverpool-2026101419122767216",
+     "t": "Se o Sporting é um Mercedes, o Benfica é... Marco Silva responde",
+     "u": "https://www.abola.pt/video/se-o-sporting-e-um-mercedes-o-benfica-e-marco-silva-responde-2026101415043840556",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Mercedes do leão novinho em folha: Sporting teve o onze mais jovem da 2.ª ronda da Champions",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/mercedes-do-leao-novinho-em-folha-sporting-teve-o-onze-mais-jovem-da-2-ronda-da-champions",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Portugal defronta Angola nos quartos de final do Mundial de hóquei em patins: veja o quadro completo",
+     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/portugal-defronta-angola-nos-quartos-de-final-do-mundial-de-hoquei-em-patins-veja-o-quadro-completo",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "Duelazo: Betis se impone 3-2 al Porto en Champions League",
-     "u": "https://www.excelsior.com.mx/deportes/duelazo-betis-impone-3-2-porto-champions-league",
+     "t": "Error imperdonable en Pumas Vs Atlante generó alineación indebida y el adiós de Mejía Barón",
+     "u": "https://www.excelsior.com.mx/deportes/pumas-vs-atlante-antecedentes-alineacion-indebida-invierno-2001",
      "f": "Excélsior",
      "alta": false
     },
     {
-     "t": "Matías Almeyda y Rayados de Monterrey reciben la visita de Rafa Márquez",
-     "u": "https://www.excelsior.com.mx/deportes/matias-almeyda-y-rayados-monterrey-reciben-visita-rafa-marquez",
+     "t": "¿Bofo Bautista como DT de Chivas? La leyenda rojiblanca confiesa su gran sueño",
+     "u": "https://www.excelsior.com.mx/deportes/bofo-bautista-como-dt-chivas-leyenda-rojiblanca-confiesa-gran-sueno",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,26 +203,26 @@
    },
    "noticias": [
     {
-     "t": "River Plate pierde contra Sarmiento por el partido pendiente de la fecha 11 del Torneo Clausura",
-     "u": "https://www.infobae.com/deportes/2026/10/14/river-plate-visitara-a-sarmiento-en-busca-de-un-triunfo-que-lo-situe-en-zona-de-clasificacion-a-los-playoffs-del-clausura-hora-tv-y-formaciones/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
      "t": "El empujón de Enzo Fernández al árbitro en la derrota del Manchester City frente al PSG por la Champions League",
      "u": "https://www.infobae.com/deportes/2026/10/14/el-empujon-de-enzo-fernandez-al-arbitro-en-la-derrota-del-manchester-city-frente-al-psg-por-la-champions-league/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Boca y Vasco: mañana, el día clave por el escenario de la revancha",
-     "u": "https://www.ole.com.ar/boca-juniors/maracana-vascodagama-boca-revancha-copasudamericana-justiciaderiodejaneiro-xeneize-fla-flu-stj-entradas-semifinales_0_tOWHklCH9J.html",
+     "t": "Las dos asistencias de Matías Soulé en la increíble derrota de la Roma ante el Real Madrid por la Champions League",
+     "u": "https://www.infobae.com/deportes/2026/10/14/las-dos-asistencias-de-matias-soule-en-la-increible-derrota-de-la-roma-ante-el-real-madrid-por-la-champions-league/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Video: el gol del Flaco López para poner en ventaja a Palmeiras frente a Fluminense",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flacolopez-gol-palmeiras-fluminense-copalibertadores-semifinales_0_9An7HhWVDA.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Lionel Messi en Inter Miami vs. New York City, hoy en VIVO, por la MLS: el 10 será titular",
-     "u": "https://www.ole.com.ar/mls/inter-miami/lionel-messi-inter-miami-new-york-city-mls_0_xzxPwH8Ff9.html",
+     "t": "El Inter Miami de Messi ya está en los playoffs de la MLS: cómo sigue el certamen",
+     "u": "https://www.ole.com.ar/futbol-internacional/mls-inter-miami-playoffs-aseguro-2026_0_GyiP8cTGGf.html",
      "f": "Olé",
      "alta": false
     }
@@ -275,10 +275,10 @@
  ],
  "destaques": [
   {
-   "t": "▶️ River-PI intensifica preparação para final contra Flamengo-PI; veja entrevistas",
-   "u": "https://ge.globo.com/pi/futebol/times/river-pi/playlist/-river-pi-intensifica-preparacao-para-final-contra-flamengo-pi-veja-entrevistas.ghtml",
+   "t": "Inter e Atlético-MG empatam no jogo de ida quartas de final da Copa do Brasil",
+   "u": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/14-10-2026/internacional-atletico-mg.ghtml",
    "f": "ge",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
@@ -289,9 +289,9 @@
    "pais": "US"
   },
   {
-   "t": "A crónica do Roma-Real Madrid, 3-4: O filão de ouro está ali ao canto",
-   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/a-cronica-do-roma-real-madrid-3-4-o-filao-de-ouro-esta-ali-ao-canto",
-   "f": "Record",
+   "t": "Portugal goleia Itália no Mundial",
+   "u": "https://www.abola.pt/noticias/portugal-goleia-italia-no-mundial-2026101422175115834",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
@@ -310,17 +310,17 @@
    "pais": "GB"
   },
   {
-   "t": "Duelazo: Betis se impone 3-2 al Porto en Champions League",
-   "u": "https://www.excelsior.com.mx/deportes/duelazo-betis-impone-3-2-porto-champions-league",
+   "t": "Error imperdonable en Pumas Vs Atlante generó alineación indebida y el adiós de Mejía Barón",
+   "u": "https://www.excelsior.com.mx/deportes/pumas-vs-atlante-antecedentes-alineacion-indebida-invierno-2001",
    "f": "Excélsior",
    "alta": false,
    "pais": "MX"
   },
   {
-   "t": "River Plate pierde contra Sarmiento por el partido pendiente de la fecha 11 del Torneo Clausura",
-   "u": "https://www.infobae.com/deportes/2026/10/14/river-plate-visitara-a-sarmiento-en-busca-de-un-triunfo-que-lo-situe-en-zona-de-clasificacion-a-los-playoffs-del-clausura-hora-tv-y-formaciones/",
+   "t": "El empujón de Enzo Fernández al árbitro en la derrota del Manchester City frente al PSG por la Champions League",
+   "u": "https://www.infobae.com/deportes/2026/10/14/el-empujon-de-enzo-fernandez-al-arbitro-en-la-derrota-del-manchester-city-frente-al-psg-por-la-champions-league/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
