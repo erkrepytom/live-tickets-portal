@@ -41,7 +41,7 @@ The official site is https://mytickets.tours, served by the Azure Static Web App
 
 ## Still to do
 
-- Connect the alert form (`FORM_ENDPOINT`) and add the WhatsApp channel links.
+- Add the WhatsApp channel links. The alert form posts to FormSubmit and lands in email@mytickets.tours.
 - Add `GA_MEASUREMENT_ID` and the GA4 secrets, with a cookie consent banner.
 
 ## Affiliate disclosure

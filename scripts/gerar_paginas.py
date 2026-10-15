@@ -24,7 +24,7 @@ IDIOMAS = ["pt", "en", "es"]
 # Formulário de alertas: o FormSubmit entrega cada cadastro como e-mail na caixa do Titan.
 # Coloque aqui https://formsubmit.co/ajax/<seu-email-titan> (ou o código aleatório que o
 # FormSubmit envia depois da ativação). Vazio = formulário mostra "em breve".
-FORM_ENDPOINT = ""
+FORM_ENDPOINT = "https://formsubmit.co/ajax/email@mytickets.tours"
 # ID de medição do Google Analytics 4 (G-XXXXXXX). Vazio = sem Analytics no site.
 GA_MEASUREMENT_ID = ""
 HREFLANG = {"pt": "pt-BR", "en": "en", "es": "es"}
