@@ -1,6 +1,13 @@
 {
   "routes": [
     {
+      "route": "/ir/*",
+      "headers": {
+        "X-Robots-Tag": "noindex, nofollow",
+        "Cache-Control": "public, max-age=300"
+      }
+    },
+    {
       "route": "/tickets",
       "redirect": "https://sportsevents365.com/?a_aid=6821d72fcdbe3",
       "statusCode": 302

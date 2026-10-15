@@ -23,7 +23,8 @@ RAIZ = pathlib.Path(__file__).resolve().parent.parent
 BASE_URL = "https://mytickets.tours"
 AFILIADO = "6821d72fcdbe3"
 # Todos os idiomas usam o site principal do parceiro, onde o a_aid é contabilizado.
-PARCEIRO = {"pt": "https://sportsevents365.com", "en": "https://sportsevents365.com", "es": "https://sportsevents365.com"}
+# Mesmo domínio (com www) que o gerador de deeplink do painel de afiliado produz.
+PARCEIRO = {"pt": "https://www.sportsevents365.com", "en": "https://www.sportsevents365.com", "es": "https://www.sportsevents365.com"}
 IDIOMAS = ["pt", "en", "es"]
 # Formulário de alertas: o FormSubmit entrega cada cadastro como e-mail na caixa do Titan.
 # Coloque aqui https://formsubmit.co/ajax/<seu-email-titan> (ou o código aleatório que o
@@ -351,8 +352,39 @@ def data_curta(iso, lang):
     return f"{d.day:02d} {MES_CURTO[lang][d.month - 1]}"
 
 
-def parceiro(lang, caminho):
-    return f"{PARCEIRO[lang]}{caminho}?a_aid={AFILIADO}"
+def parceiro(lang, caminho, data1=None, data2=None):
+    """Deeplink de afiliado. data1/data2 são o SubID do painel: aparecem no relatório de comissões.
+    No site, o assets/site.js preenche data1 (onde foi o clique) e data2 (qual página) na hora do clique."""
+    url = f"{PARCEIRO[lang]}{caminho}?a_aid={AFILIADO}"
+    if data1:
+        url += f"&data1={data1}"
+    if data2:
+        url += f"&data2={data2}"
+    return url
+
+
+def caminho_ir(ev):
+    return f"ir/{ev['id']}/"
+
+
+def link_ingresso(pagina, ev):
+    """Link protegido (cloaker) do botão de ingresso: /ir/<id>/ redireciona ao parceiro com o código de afiliado."""
+    return rel(pagina, caminho_ir(ev))
+
+
+def pagina_ir(ev):
+    """Página de redirecionamento, no lugar do arquivo que o 'Affiliate link protector' do painel gera.
+    Repassa o SubID (?d1=&d2=) que o site.js coloca no link; sem JavaScript, o meta refresh leva ao parceiro."""
+    destino = parceiro("en", f"/event/{ev['id']}")
+    return f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>{e(L(ev['titulo'], 'en'))} | MyTickets Tours</title>
+<meta http-equiv="refresh" content="1;url={e(destino)}">
+<script>(function(){{var q=new URLSearchParams(location.search),u={json.dumps(destino)};
+["d1","d2"].forEach(function(k,i){{var v=q.get(k);if(v)u+="&data"+(i+1)+"="+encodeURIComponent(v.slice(0,100))}});location.replace(u)}})();</script>
+</head><body style="font-family:system-ui,sans-serif;padding:24px"><p><a href="{e(destino)}" rel="sponsored nofollow">SportsEvents365 →</a></p></body></html>
+"""
 
 
 def foto(img, w=1200, pagina=""):
@@ -403,6 +435,9 @@ def rel(de, para):
 
 def mag(href, texto, cls="btn btn-signal", ext=True, seta=True):
     alvo = ' target="_blank" rel="sponsored noopener"' if ext else ""
+    m = re.search(r"(?:^|/)ir/(\d+)/$", href)
+    if m:
+        alvo = f' target="_blank" rel="sponsored nofollow" data-aff-event="{m.group(1)}"'
     s = ' <span class="arrow" aria-hidden="true">→</span>' if seta else ""
     return f'<a class="{cls}" data-magnetic href="{e(href)}"{alvo}><span class="mag-inner">{texto}{s}</span></a>'
 
@@ -594,7 +629,7 @@ def home(lang, eventos, noticias, hubs):
         f'<span class="flapline" data-flap="{e(data_curta(ev["data"], lang))}" data-w="6" aria-label="{e(data_longa(ev["data"], lang))}">{e(data_curta(ev["data"], lang))}</span>'
         f'<a class="flapline b-event" href="{rel(pagina, caminho_evento(lang, ev["slug"]))}" data-flap="{e(L(ev["painel"], lang))}" data-w="22" aria-label="{e(L(ev["titulo"], lang))}">{e(L(ev["painel"], lang))}</a>'
         f'<span class="flapline b-city" data-flap="{e(L(ev["cidade"], lang).upper())}" data-w="10">{e(L(ev["cidade"], lang).upper())}</span>'
-        f'<a class="flapline b-status blink" href="{e(parceiro(lang, "/event/" + str(ev["id"])))}" target="_blank" rel="sponsored noopener" data-magnetic data-flap="{t["go"]}" data-w="8" aria-label="{e(t["go"])}: {e(L(ev["titulo"], lang))}">{t["go"]}</a>'
+        f'<a class="flapline b-status blink" href="{e(link_ingresso(pagina, ev))}" data-aff-event="{ev["id"]}" target="_blank" rel="sponsored nofollow" data-magnetic data-flap="{t["go"]}" data-w="8" aria-label="{e(t["go"])}: {e(L(ev["titulo"], lang))}">{t["go"]}</a>'
         f'</div>' for ev in eventos)
     atributos = ["", "", ' class="b-city"', ' style="justify-self:end"']
     head_row = "".join(f"<span{a}>{c}</span>" for a, c in zip(atributos, t["cols"]))
@@ -864,7 +899,7 @@ def evento(lang, ev, eventos, hubs):
     conferido = rt["conferido"].format(conf=data_num(ev["conferido"], lang)) if ev.get("conferido") else t["date_note"]
     crumbs_mid = "".join(f'<a href="{rel(pagina, cam)}">{e(nome)}</a><span aria-hidden="true">›</span>' for nome, cam in trilha[1:-1]) \
         or f'<a href="{rel(pagina, caminho_home(lang))}#partidas">{e(t["events"])}</a><span aria-hidden="true">›</span>'
-    ingresso = parceiro(lang, f"/event/{ev['id']}")
+    ingresso = link_ingresso(pagina, ev)
     corpo = f"""
 <body>
 {topo(lang, pagina, alternos)}
@@ -1164,7 +1199,7 @@ def gerar_catalogo(eventos):
                 "local": ev["local"], "cidade": L(ev["cidade"], lang), "pais": L(ev["pais"], lang),
                 "competicao": L(ev["competicao"]["nome"], lang),
                 "times": [L(t["nome"], lang) for t in ev.get("times", [])] + ([ev["artista"]["nome"]] if ev.get("artista") else []),
-                "ingressos": parceiro(lang, f"/event/{ev['id']}"),
+                "ingressos": parceiro(lang, f"/event/{ev['id']}", "whatsapp", lang),
                 "guia": f"{BASE_URL}/{caminho_evento(lang, ev['slug'])}",
                 "como_chegar": ev["chegar"][lang], "dicas": DICAS[ev["tipo"]][lang],
             } for ev in eventos],
@@ -1244,7 +1279,10 @@ def main():
             alvo.unlink()
     entradas = "\n".join(f"  <sitemap><loc>{BASE_URL}/{n}</loc><lastmod>{d}</lastmod></sitemap>" for n, d in indice)
     (RAIZ / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{entradas}\n</sitemapindex>\n', encoding="utf-8")
-    (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
+    (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /ir/\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
+    for ev in eventos:  # páginas do link protegido; não entram no sitemap
+        (RAIZ / caminho_ir(ev)).mkdir(parents=True, exist_ok=True)
+        (RAIZ / caminho_ir(ev) / "index.html").write_text(pagina_ir(ev), encoding="utf-8")
     if INDEXNOW_KEY:
         (RAIZ / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
     vivos = {u for cs in grupos.values() for u in cs}

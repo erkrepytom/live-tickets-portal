@@ -88,22 +88,36 @@ window.dataLayer = window.dataLayer || [];
 function track(o){ try { window.dataLayer.push(o); } catch (e) {} }
 function gtagSafe(){ if (typeof window.gtag === "function") window.gtag.apply(null, arguments); }
 
-/* Tipo do link do parceiro a partir do caminho: /event/123, /dock/competition/x, /dock/team/x ... */
+/* Tipo do link do parceiro a partir do caminho: /event/123, /dock/competition/x, /dock/team/x ...
+   Links protegidos do próprio site (/ir/123/) contam como link de evento. */
 function partnerLink(a){
   let u; try { u = new URL(a.href); } catch (e) { return null; }
+  const ir = u.host === location.host && u.pathname.match(/\/ir\/(\d+)\/?$/);
+  if (ir) return { type: "event", id: ir[1], path: u.pathname, url: u, cloaked: true };
   if (!/sportsevents365\.com$/.test(u.hostname)) return null;
   const p = u.pathname, m = p.match(/^\/event\/(\d+)/);
   const type = m ? "event" : /\/dock\/competition\//.test(p) ? "competition" : /\/dock\/team\//.test(p) ? "team"
-    : /\/dock\/cities\//.test(p) ? "city" : /\/dock\/music\//.test(p) ? "artist" : /\/events\/type\/|\/concerts/.test(p) ? "sport" : "home";
-  return { type, id: m ? m[1] : "", path: p };
+    : /\/dock\/cities\//.test(p) ? "city" : /\/dock\/music\//.test(p) ? "artist" : /\/concerts/.test(p) ? "sport" : "home";
+  return { type, id: m ? m[1] : "", path: p, url: u, cloaked: false };
+}
+/* SubID do painel de afiliado: data1 = onde foi o clique, data2 = em qual página (aparecem no relatório de comissões). */
+function subId(){
+  const pg = location.pathname.replace(/^\/|\/$/g, "").replace(/\//g, "_") || "home";
+  return pg.slice(0, 90);
 }
 document.addEventListener("click", ev => {
   const a = ev.target.closest && ev.target.closest("a[href]");
   if (!a) return;
   const l = partnerLink(a);
   if (!l) return;
-  const where = a.closest("#partidas") ? "board" : a.closest(".ev-cta") ? "event_cta" : a.closest("#explorar") ? "explore"
-    : a.closest(".top") ? "header" : a.closest(".foot") ? "footer" : a.closest("#banner3d") ? "banner" : "content";
+  const where = a.closest("#partidas") ? "board" : a.closest(".ev-hero .ev-cta") ? "event_cta_top" : a.closest(".ev-cta") ? "event_cta"
+    : a.closest(".ev-hero") ? "event_facts" : a.closest("#explorar") ? "explore" : a.closest(".top") ? "header" : a.closest(".foot") ? "footer"
+    : a.closest("#banner3d") ? "banner" : a.closest(".hero") ? "hero" : a.closest(".tips") ? "event_also" : "content";
+  // Escreve o SubID no próprio link antes de o navegador seguir (o evento roda na fase de captura).
+  const u = l.url;
+  if (l.cloaked){ u.searchParams.set("d1", where); u.searchParams.set("d2", subId()); }
+  else { u.searchParams.set("data1", where); u.searchParams.set("data2", subId()); }
+  a.href = u.toString();
   // Conversão principal do site afiliado: marque "affiliate_click" como evento-chave no GA4 e importe no Google Ads.
   track({ event: "affiliate_click", link_type: l.type, link_url: a.href, partner_event_id: l.id, click_location: where });
   if (l.type === "event"){

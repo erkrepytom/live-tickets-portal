@@ -1,13 +1,13 @@
 # MyTickets Tours (ES)
 
-Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
+Catálogo completo del socio: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 
 ## Eventos con página
 
 ### FC Barcelona vs Real Madrid
 - Fecha: domingo, 25 de octubre de 2026
 - Recinto: Camp Nou, Barcelona, España (La Liga)
-- Entradas: https://sportsevents365.com/event/395343?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/395343?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/barcelona-vs-real-madrid-2026-10-25/
 - Metro L3, estaciones Les Corts y Palau Reial, o L5, estaciones Collblanc y Badal.
 - En clásicos, llega 90 minutos antes. El control de acceso es lento.
@@ -15,7 +15,7 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 ### AC Milan vs Inter
 - Fecha: sábado, 31 de octubre de 2026
 - Recinto: San Siro (Giuseppe Meazza), Milán, Italia (Serie A)
-- Entradas: https://sportsevents365.com/event/391609?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/391609?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/
 - Metro M5 hasta la estación San Siro Stadio, junto al estadio.
 - El tranvía 16 también llega a la plaza frente al estadio.
@@ -23,7 +23,7 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 ### Italia vs Francia
 - Fecha: jueves, 12 de noviembre de 2026
 - Recinto: San Siro (Giuseppe Meazza), Milán, Italia (UEFA Nations League)
-- Entradas: https://sportsevents365.com/event/387682?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/387682?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/
 - Metro M5 hasta la estación San Siro Stadio, junto al estadio.
 - Los partidos de selección de noche llenan el metro al final. Conviene esperar 20 minutos.
@@ -31,7 +31,7 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 ### Francia vs Sudáfrica
 - Fecha: viernes, 13 de noviembre de 2026
 - Recinto: Stade de France, París, Francia (World Rugby Nations Championship)
-- Entradas: https://sportsevents365.com/event/383977?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/383977?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/
 - RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.
 - Metro línea 13, estación Saint-Denis–Porte de Paris, a pocos minutos a pie.
@@ -39,7 +39,7 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 ### GP de Abu Dabi de Fórmula 1
 - Fecha: domingo, 6 de diciembre de 2026
 - Recinto: Yas Marina Circuit, Abu Dabi, Emiratos Árabes Unidos (Formula 1)
-- Entradas: https://sportsevents365.com/event/387903?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/387903?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/
 - El circuito está en la isla Yas, a unos 30 minutos en coche del centro de Abu Dabi.
 - El fin de semana de carrera la organización suele ofrecer autobuses. Consulta la web oficial del GP.
@@ -47,7 +47,7 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 ### FC Barcelona vs Manchester City
 - Fecha: martes, 8 de diciembre de 2026
 - Recinto: Camp Nou, Barcelona, España (UEFA Champions League)
-- Entradas: https://sportsevents365.com/event/402363?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/402363?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/
 - Metro L3, estaciones Les Corts y Palau Reial, o L5, estaciones Collblanc y Badal.
 - La Champions se juega entre semana por la noche. Reserva el hotel cerca de una línea de metro.
@@ -55,7 +55,7 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 ### New York Knicks vs Denver Nuggets
 - Fecha: lunes, 11 de enero de 2027
 - Recinto: Madison Square Garden, Nueva York, EE. UU. (NBA)
-- Entradas: https://sportsevents365.com/event/401302?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/401302?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/knicks-vs-nuggets-2027-01-11/
 - La arena está sobre Penn Station: metro líneas 1, 2, 3, A, C y E hasta 34 St–Penn Station.
 - Las puertas suelen abrir una hora antes del partido.
@@ -63,7 +63,7 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 ### Final masculina del Open de Australia
 - Fecha: domingo, 31 de enero de 2027
 - Recinto: Rod Laver Arena, Melbourne, Australia (Australian Open (Grand Slam))
-- Entradas: https://sportsevents365.com/event/390886?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/390886?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/final-australian-open-2027-01-31/
 - La Rod Laver Arena está en el Melbourne Park, a unos 15 minutos a pie de la estación Flinders Street.
 - Durante el torneo hay tranvías extra hasta el Melbourne Park. Consulta los horarios en la web del torneo.
@@ -71,7 +71,7 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 ### Celine Dion en París
 - Fecha: viernes, 14 de mayo de 2027
 - Recinto: Paris La Défense Arena, París, Francia (Conciertos)
-- Entradas: https://sportsevents365.com/event/391312?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/391312?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/
 - RER A, metro línea 1 o tranvía T2 hasta La Défense–Grande Arche.
 - La arena está a unos 10 minutos a pie de la estación.
@@ -79,57 +79,57 @@ Catálogo completo del socio: https://sportsevents365.com/?a_aid=6821d72fcdbe3
 ### Final de la Champions League 2027
 - Fecha: sábado, 5 de junio de 2027
 - Recinto: Estadio Metropolitano, Madrid, España (UEFA Champions League)
-- Entradas: https://sportsevents365.com/event/399236?a_aid=6821d72fcdbe3
+- Entradas: https://www.sportsevents365.com/event/399236?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
 - Guía en el sitio: https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/
 - Metro línea 7 hasta la estación Estadio Metropolitano, frente al estadio.
 - En una final, llega dos horas antes. Los controles y las colas son largos.
 
 ## Ligas y competiciones
 
-- Premier League: https://sportsevents365.com/dock/competition/premier-league?a_aid=6821d72fcdbe3
-- La Liga: https://sportsevents365.com/dock/competition/la-liga?a_aid=6821d72fcdbe3
-- Serie A: https://sportsevents365.com/dock/competition/serie-a?a_aid=6821d72fcdbe3
-- NBA: https://sportsevents365.com/dock/competition/nba?a_aid=6821d72fcdbe3
-- NHL: https://sportsevents365.com/dock/competition/nhl?a_aid=6821d72fcdbe3
-- MLB: https://sportsevents365.com/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3
-- Fórmula 1: https://sportsevents365.com/dock/competition/formula-1?a_aid=6821d72fcdbe3
+- Premier League: https://www.sportsevents365.com/dock/competition/premier-league?a_aid=6821d72fcdbe3
+- La Liga: https://www.sportsevents365.com/dock/competition/la-liga?a_aid=6821d72fcdbe3
+- Serie A: https://www.sportsevents365.com/dock/competition/serie-a?a_aid=6821d72fcdbe3
+- NBA: https://www.sportsevents365.com/dock/competition/nba?a_aid=6821d72fcdbe3
+- NHL: https://www.sportsevents365.com/dock/competition/nhl?a_aid=6821d72fcdbe3
+- MLB: https://www.sportsevents365.com/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3
+- Fórmula 1: https://www.sportsevents365.com/dock/competition/formula-1?a_aid=6821d72fcdbe3
 
 ## Equipos
 
-- FC Barcelona: https://sportsevents365.com/dock/team/barcelona-fc?a_aid=6821d72fcdbe3
-- AC Milan: https://sportsevents365.com/dock/team/ac-milan?a_aid=6821d72fcdbe3
-- Inter: https://sportsevents365.com/dock/team/inter?a_aid=6821d72fcdbe3
-- AS Roma: https://sportsevents365.com/dock/team/as-roma?a_aid=6821d72fcdbe3
+- FC Barcelona: https://www.sportsevents365.com/dock/team/barcelona-fc?a_aid=6821d72fcdbe3
+- AC Milan: https://www.sportsevents365.com/dock/team/ac-milan?a_aid=6821d72fcdbe3
+- Inter: https://www.sportsevents365.com/dock/team/inter?a_aid=6821d72fcdbe3
+- AS Roma: https://www.sportsevents365.com/dock/team/as-roma?a_aid=6821d72fcdbe3
 
 ## Ciudades
 
-- Barcelona: https://sportsevents365.com/dock/cities/barcelona?a_aid=6821d72fcdbe3
-- Madrid: https://sportsevents365.com/dock/cities/madrid?a_aid=6821d72fcdbe3
-- Roma: https://sportsevents365.com/dock/cities/rome?a_aid=6821d72fcdbe3
-- Milán: https://sportsevents365.com/dock/cities/milano?a_aid=6821d72fcdbe3
-- Londres: https://sportsevents365.com/dock/cities/london?a_aid=6821d72fcdbe3
-- París: https://sportsevents365.com/dock/cities/paris?a_aid=6821d72fcdbe3
-- Ámsterdam: https://sportsevents365.com/dock/cities/amsterdam?a_aid=6821d72fcdbe3
-- Berlín: https://sportsevents365.com/dock/cities/berlin?a_aid=6821d72fcdbe3
+- Barcelona: https://www.sportsevents365.com/dock/cities/barcelona?a_aid=6821d72fcdbe3
+- Madrid: https://www.sportsevents365.com/dock/cities/madrid?a_aid=6821d72fcdbe3
+- Roma: https://www.sportsevents365.com/dock/cities/rome?a_aid=6821d72fcdbe3
+- Milán: https://www.sportsevents365.com/dock/cities/milano?a_aid=6821d72fcdbe3
+- Londres: https://www.sportsevents365.com/dock/cities/london?a_aid=6821d72fcdbe3
+- París: https://www.sportsevents365.com/dock/cities/paris?a_aid=6821d72fcdbe3
+- Ámsterdam: https://www.sportsevents365.com/dock/cities/amsterdam?a_aid=6821d72fcdbe3
+- Berlín: https://www.sportsevents365.com/dock/cities/berlin?a_aid=6821d72fcdbe3
 
 ## Artistas
 
-- Oasis: https://sportsevents365.com/dock/music/oasis?a_aid=6821d72fcdbe3
-- Stevie Wonder: https://sportsevents365.com/dock/music/steviewonder?a_aid=6821d72fcdbe3
-- Andrea Bocelli: https://sportsevents365.com/dock/music/andrea-bocelli?a_aid=6821d72fcdbe3
-- Shakira: https://sportsevents365.com/dock/music/shakira?a_aid=6821d72fcdbe3
-- BTS: https://sportsevents365.com/dock/music/bts?a_aid=6821d72fcdbe3
-- Celine Dion: https://sportsevents365.com/dock/music/celine-dion?a_aid=6821d72fcdbe3
-- Dua Lipa: https://sportsevents365.com/dock/music/dua-lipa?a_aid=6821d72fcdbe3
-- Backstreet Boys: https://sportsevents365.com/dock/music/backstreet-boys?a_aid=6821d72fcdbe3
+- Oasis: https://www.sportsevents365.com/dock/music/oasis?a_aid=6821d72fcdbe3
+- Stevie Wonder: https://www.sportsevents365.com/dock/music/steviewonder?a_aid=6821d72fcdbe3
+- Andrea Bocelli: https://www.sportsevents365.com/dock/music/andrea-bocelli?a_aid=6821d72fcdbe3
+- Shakira: https://www.sportsevents365.com/dock/music/shakira?a_aid=6821d72fcdbe3
+- BTS: https://www.sportsevents365.com/dock/music/bts?a_aid=6821d72fcdbe3
+- Celine Dion: https://www.sportsevents365.com/dock/music/celine-dion?a_aid=6821d72fcdbe3
+- Dua Lipa: https://www.sportsevents365.com/dock/music/dua-lipa?a_aid=6821d72fcdbe3
+- Backstreet Boys: https://www.sportsevents365.com/dock/music/backstreet-boys?a_aid=6821d72fcdbe3
 
 ## Deportes
 
-- Fútbol: https://sportsevents365.com/dock/competition/premier-league?a_aid=6821d72fcdbe3
-- Tenis: https://sportsevents365.com/dock/competition/australian-open?a_aid=6821d72fcdbe3
-- Baloncesto: https://sportsevents365.com/dock/competition/nba?a_aid=6821d72fcdbe3
-- Automovilismo: https://sportsevents365.com/dock/competition/formula-1?a_aid=6821d72fcdbe3
-- Rugby: https://sportsevents365.com/dock/competition/world-rugby-nations-championship?a_aid=6821d72fcdbe3
-- Béisbol: https://sportsevents365.com/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3
-- Hockey sobre hielo: https://sportsevents365.com/dock/competition/nhl?a_aid=6821d72fcdbe3
-- Conciertos: https://sportsevents365.com/concerts?a_aid=6821d72fcdbe3
+- Fútbol: https://www.sportsevents365.com/dock/competition/premier-league?a_aid=6821d72fcdbe3
+- Tenis: https://www.sportsevents365.com/dock/competition/australian-open?a_aid=6821d72fcdbe3
+- Baloncesto: https://www.sportsevents365.com/dock/competition/nba?a_aid=6821d72fcdbe3
+- Automovilismo: https://www.sportsevents365.com/dock/competition/formula-1?a_aid=6821d72fcdbe3
+- Rugby: https://www.sportsevents365.com/dock/competition/world-rugby-nations-championship?a_aid=6821d72fcdbe3
+- Béisbol: https://www.sportsevents365.com/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3
+- Hockey sobre hielo: https://www.sportsevents365.com/dock/competition/nhl?a_aid=6821d72fcdbe3
+- Conciertos: https://www.sportsevents365.com/concerts?a_aid=6821d72fcdbe3
