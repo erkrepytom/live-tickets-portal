@@ -44,6 +44,8 @@ INDEXNOW_KEY = "3fd2b7b8fea97fff39010e15706a1aff"
 # para não criar páginas finas. Quando o catálogo crescer, os hubs aparecem sozinhos.
 MIN_HUB = 2
 HREFLANG = {"pt": "pt-BR", "en": "en", "es": "es"}
+# Ordem em que os idiomas aparecem para o visitante (seletor do topo, rodapé e formulário de alertas).
+ORDEM_MENU = ["en", "es", "pt"]
 
 # Endereço e coordenadas de cada local, para o JSON-LD de Event (Google Eventos).
 # A chave é o campo "local" de data/eventos.json. Local sem cadastro aqui usa só cidade e país.
@@ -462,7 +464,7 @@ def topo(lang, pagina, alternos):
     home = rel(pagina, caminho_home(lang))
     ancoras = ["partidas", "explorar", "video", "alertas"]
     nav = "".join(f'<a href="{home}#{a}">{e(n)}</a>' for n, a in zip(t["nav"], ancoras))
-    langs = "".join(f'<a href="{rel(pagina, alternos[l])}" hreflang="{HREFLANG[l]}" aria-current="{str(l == lang).lower()}">{l.upper()}</a>' for l in IDIOMAS)
+    langs = "".join(f'<a href="{rel(pagina, alternos[l])}" hreflang="{HREFLANG[l]}" aria-current="{str(l == lang).lower()}">{l.upper()}</a>' for l in ORDEM_MENU)
     return f"""<header class="top">
   <div class="wrap">
     <a class="brand" href="{home}" aria-label="MyTickets Tours">MY<b>TICKETS</b>.TOURS</a>
@@ -478,7 +480,7 @@ def topo(lang, pagina, alternos):
 def alertas(lang, eventos, escolhido=None):
     t = T[lang]
     ops = "".join(f'<option value="{ev["slug"]}"{" selected" if ev["slug"] == escolhido else ""}>{e(L(ev["titulo"], lang))}</option>' for ev in eventos)
-    lops = "".join(f'<option value="{l}"{" selected" if l == lang else ""}>{n}</option>' for l, n in [("pt", "Português"), ("en", "English"), ("es", "Español")])
+    lops = "".join(f'<option value="{l}"{" selected" if l == lang else ""}>{n}</option>' for l, n in [("en", "English"), ("es", "Español"), ("pt", "Português")])
     canais = "".join(f'<div class="channel"><div><strong>MyTickets · {n}</strong><span>{p}</span></div><span class="btn btn-sm btn-soon" aria-disabled="true">{e(t["soon"])}</span></div>'
                      for n, p in [("Português", "BR · PT · US"), ("English", "US · UK · CA · AU"), ("Español", "MX · AR · ES · CO")])
     return f"""<section class="band alerts" id="alertas" aria-labelledby="alerts-h">
@@ -512,7 +514,7 @@ def alertas(lang, eventos, escolhido=None):
 
 def rodape(lang, pagina, alternos):
     t = T[lang]
-    langs = "".join(f'<a href="{rel(pagina, alternos[l])}" hreflang="{HREFLANG[l]}">{n}</a>' for l, n in [("pt", "PORTUGUÊS"), ("en", "ENGLISH"), ("es", "ESPAÑOL")])
+    langs = "".join(f'<a href="{rel(pagina, alternos[l])}" hreflang="{HREFLANG[l]}">{n}</a>' for l, n in [("en", "ENGLISH"), ("es", "ESPAÑOL"), ("pt", "PORTUGUÊS")])
     return f"""<footer class="foot">
   <div class="wrap">
     <a class="brand" href="{rel(pagina, caminho_home(lang))}">MY<b>TICKETS</b>.TOURS</a>
