@@ -750,7 +750,7 @@ def home(lang, eventos, noticias, hubs):
 <!-- O three.js (~600 KB) só baixa quando o banner 3D chega perto da tela: o celular abre a página sem esperar por ele. -->
 <script>(function(){{var b=document.getElementById("banner3d"),s=["https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js","https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js","{rel(pagina, 'assets/solar.js')}{versao('assets/solar.js')}"];
 function go(i){{if(i>=s.length)return;var x=document.createElement("script");x.src=s[i];x.onload=function(){{go(i+1)}};document.body.appendChild(x)}}
-if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new IntersectionObserver(function(es){{for(var k=0;k<es.length;k++)if(es[k].isIntersecting){{io.disconnect();go(0);return}}}},{{rootMargin:"600px 0px"}});io.observe(b)}})();</script>
+if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new IntersectionObserver(function(es){{for(var k=0;k<es.length;k++)if(es[k].isIntersecting){{io.disconnect();go(0);return}}}},{{rootMargin:"1500px 0px"}});io.observe(b)}})();</script>
 
 <section class="sv" id="video" aria-labelledby="sv-h">
   <div class="sv-stick">
