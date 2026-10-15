@@ -12,6 +12,10 @@ import json
 import os
 import pathlib
 import re
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import conteudo as C  # noqa: E402
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 
@@ -339,7 +343,15 @@ def foto(img, w=1200, pagina=""):
     """Foto do Unsplash (id photo-...) ou imagem local do portal anterior em assets/img."""
     if img.startswith("photo-"):
         return f"https://images.unsplash.com/{img}?w={w}&q=70&auto=format&fit=crop"
+    webp = re.sub(r"\.jpe?g$", ".webp", img)  # versão WebP (bem menor) gerada ao lado do JPEG
+    if webp != img and (RAIZ / "assets" / "img" / webp).exists():
+        img = webp
     return rel(pagina, f"assets/img/{img}") + versao(f"assets/img/{img}")
+
+
+def preload(img, w, pagina):
+    """Pré-carrega a imagem de topo (normalmente o maior elemento visível, o LCP)."""
+    return f'<link rel="preload" as="image" href="{foto(img, w, pagina)}" fetchpriority="high">'
 
 
 def foto_abs(img):
@@ -505,7 +517,7 @@ def rodape(lang, pagina, alternos):
   <div class="wrap">
     <a class="brand" href="{rel(pagina, caminho_home(lang))}">MY<b>TICKETS</b>.TOURS</a>
     <p class="foot-disc">{e(t['foot_disc'])}</p>
-    <div class="foot-links">{langs}<a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a><a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored noopener">SPORTSEVENTS365</a></div>
+    <div class="foot-links">{langs}<a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(C.ROT[lang]['como_h'].upper())}</a><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'].upper())}</a><a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a><a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored noopener">SPORTSEVENTS365</a></div>
     <p>{e(RESPONSAVEL)} · {CONTATO_EMAIL}</p>
     <p>© {dt.date.today().year} MyTickets Tours</p>
   </div>
@@ -536,7 +548,7 @@ def home(lang, eventos, noticias, hubs):
            "url": f"{BASE_URL}/", "email": CONTATO_EMAIL}
     site = {"@context": "https://schema.org", "@type": "WebSite", "@id": f"{BASE_URL}/#site", "name": "MyTickets Tours",
             "url": f"{BASE_URL}/{pagina}", "inLanguage": HREFLANG[lang], "publisher": {"@id": f"{BASE_URL}/#org"}}
-    h = cabeca(lang, pagina, t["brand_title"], t["home_desc"], alternos, f"<style>\n{solar_css}</style>" + ld_script(org, site))
+    h = cabeca(lang, pagina, t["brand_title"], t["home_desc"], alternos, preload(FOTO_TOPO, 1800, pagina) + f"<style>\n{solar_css}</style>" + ld_script(org, site))
     clas = eventos[0]
     passes = [("GRU → BCN", eventos[0], 0.9, -6, "left:0;top:2%"), ("MEX → JFK", next(x for x in eventos if x["tipo"] == "nba"), 1.4, 5, "left:44%;top:40%"),
               ("EZE → MEL", next(x for x in eventos if x["tipo"] == "tennis"), 0.6, 3, "left:4%;top:60%"), ("LIS → MAD", eventos[-1], 1.1, -3, "left:50%;top:-4%")]
@@ -648,9 +660,10 @@ def home(lang, eventos, noticias, hubs):
     </div>
   </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-<script src="{rel(pagina, 'assets/solar.js')}{versao('assets/solar.js')}"></script>
+<!-- O three.js (~600 KB) só baixa quando o banner 3D chega perto da tela: o celular abre a página sem esperar por ele. -->
+<script>(function(){{var b=document.getElementById("banner3d"),s=["https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js","https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js","{rel(pagina, 'assets/solar.js')}{versao('assets/solar.js')}"];
+function go(i){{if(i>=s.length)return;var x=document.createElement("script");x.src=s[i];x.onload=function(){{go(i+1)}};document.body.appendChild(x)}}
+if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new IntersectionObserver(function(es){{for(var k=0;k<es.length;k++)if(es[k].isIntersecting){{io.disconnect();go(0);return}}}},{{rootMargin:"600px 0px"}});io.observe(b)}})();</script>
 
 <section class="sv" id="video" aria-labelledby="sv-h">
   <div class="sv-stick">
@@ -694,7 +707,7 @@ def ld_evento(lang, ev, pagina):
     if loc.get("geo"):
         lugar["geo"] = {"@type": "GeoCoordinates", "latitude": loc["geo"][0], "longitude": loc["geo"][1]}
     ld = {"@context": "https://schema.org", "@type": "MusicEvent" if ev["tipo"] == "concert" else "SportsEvent",
-          "name": titulo, "url": f"{BASE_URL}/{pagina}", "startDate": ev["data"], "inLanguage": HREFLANG[lang],
+          "name": titulo, "url": f"{BASE_URL}/{pagina}", "startDate": ev.get("inicio", ev["data"]), "inLanguage": HREFLANG[lang],
           "eventStatus": "https://schema.org/" + ev.get("status", "EventScheduled"),
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
           "location": lugar, "image": [foto_abs(ev.get("banner", ev["img"]))], "description": L(ev["intro"], lang),
@@ -713,6 +726,35 @@ def ld_evento(lang, ev, pagina):
     return ld
 
 
+def data_num(iso, lang):
+    d = dt.date.fromisoformat(iso)
+    return f"{MESES['en'][d.month - 1]} {d.day}, {d.year}" if lang == "en" else f"{d.day:02d}/{d.month:02d}/{d.year}"
+
+
+def relacionados(ev, eventos, n=3):
+    """Silo interno: primeiro jogos da mesma cidade e competição, depois do mesmo esporte, depois por data.
+    Assim a autoridade que chega a um clássico escorre para os jogos menores do mesmo tema."""
+    def nota(x):
+        return ((L(x["cidade"], "en") == L(ev["cidade"], "en")) * 2 + (L(x["competicao"]["nome"], "en") == L(ev["competicao"]["nome"], "en")) * 2
+                + (x["tipo"] == ev["tipo"]) * 1)
+    outros = [x for x in eventos if x["slug"] != ev["slug"]]
+    return sorted(outros, key=lambda x: (-nota(x), x["data"]))[:n]
+
+
+def faq_evento(lang, ev):
+    titulo, cidade = L(ev["titulo"], lang), L(ev["cidade"], lang)
+    v = {"t": titulo, "d": data_longa(ev["data"], lang), "h": ev.get("hora", ""), "c": cidade,
+         "conf": data_num(ev.get("conferido", C.PARCEIRO["conferido"]), lang), "tel": C.PARCEIRO["emergencia"]}
+    itens = [(q.format(**v), a.format(**v)) for q, a in C.FAQ[lang]]
+    if not ev.get("hora"):
+        itens = itens[1:]
+    chegar = " ".join(ev["chegar"][lang])
+    perg = {"pt": f"Como chegar {C.artigo(ev['local'], 'pt').replace('do', 'ao').replace('da', 'à')} {C.local_curto(ev['local'])}?",
+            "en": f"How do I get to {C.local_curto(ev['local'])}?", "es": f"¿Cómo llegar {'al' if C.artigo(ev['local'], 'es') == 'del' else 'a la'} {C.local_curto(ev['local'])}?"}[lang]
+    itens.insert(1, (perg, chegar))
+    return itens
+
+
 def evento(lang, ev, eventos, hubs):
     t = T[lang]
     pagina = caminho_evento(lang, ev["slug"])
@@ -726,15 +768,24 @@ def evento(lang, ev, eventos, hubs):
     trilha = [(t["home"], caminho_home(lang))]
     if hub_esp:
         trilha.append((titulo_hub(lang, hub_esp), caminho_hub(lang, hub_esp)))
+    if hub_comp:
+        trilha.append((titulo_hub(lang, hub_comp), caminho_hub(lang, hub_comp)))
     trilha.append((titulo, pagina))
+    faq = faq_evento(lang, ev)
+    ld_faq = {"@context": "https://schema.org", "@type": "FAQPage",
+              "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}
     # Funil de e-commerce do GA4: a página do evento é o "produto"; o clique no parceiro vira begin_checkout (assets/site.js).
     item = {"item_id": str(ev["id"]), "item_name": L(ev["titulo"], "en"), "item_brand": "SportsEvents365",
             "item_category": ev["tipo"], "item_category2": L(ev["competicao"]["nome"], "en"), "item_variant": L(ev["cidade"], "en"),
             "location_id": ev["local"]}
     view = ("<script>window.MT_ITEM=" + json.dumps(item, ensure_ascii=False) + ";dataLayer.push({ecommerce:null});dataLayer.push(" +
             json.dumps({"event": "view_item", "page_type": "event", "ecommerce": {"items": [item]}}, ensure_ascii=False) + ");</script>")
-    extra = ld_script(ld_evento(lang, ev, pagina), ld_breadcrumb(trilha)) + view
-    h = cabeca(lang, pagina, t["ev_title"].format(t=titulo), t["ev_desc"].format(t=titulo, d=dlonga, v=ev["local"], c=cidade), alternos, extra)
+    extra = ld_script(ld_evento(lang, ev, pagina), ld_breadcrumb(trilha), ld_faq) + view
+    rt = C.ROT[lang]
+    hora_txt = ev.get("hora") or "--:--"
+    titulo_pg = C.titulo_evento(lang, titulo, ev["data"][:4], ev["local"])
+    desc_pg = rt["desc"].format(t=titulo, d=dlonga, h=hora_txt, loc=f'{C.local_curto(ev["local"])}, {cidade}')
+    h = cabeca(lang, pagina, titulo_pg, desc_pg, alternos, preload(ev.get("banner", ev["img"]), 1800, pagina) + extra)
 
     def link_parceiro(nome, dock):
         return f'<a href="{e(parceiro(lang, dock))}" target="_blank" rel="sponsored noopener">{e(nome)}</a>' if dock else e(nome)
@@ -765,10 +816,16 @@ def evento(lang, ev, eventos, hubs):
     chegar = "".join(f"<li>{e(x)}</li>" for x in ev["chegar"][lang])
     dicas = "".join(f"<li>{e(x)}</li>" for x in DICAS[ev["tipo"]][lang])
     tambem_html = "".join(f"<li>{x}</li>" for x in tambem)
-    outros = [x for x in eventos if x["slug"] != ev["slug"]]
-    idx = eventos.index(ev)
-    outros = (eventos[idx + 1:] + eventos[:idx])[:3]
-    mais = "".join(cartao(lang, pagina, x) for x in outros)
+    mais = "".join(cartao(lang, pagina, x) for x in relacionados(ev, eventos))
+    entrada = "".join(f"<li>{e(x)}</li>" for x in C.ENTRADA[ev["tipo"]][lang])
+    perfis = list(C.PUBLICO[ev["tipo"]][lang]) + ([C.LOCAL_PUBLICO[ev["local"]][lang]] if ev["local"] in C.LOCAL_PUBLICO else [])
+    publico = "".join(f"<li><strong>{e(a)}.</strong> {e(b)}</li>" for a, b in perfis)
+    cp = C.COMPRAR[lang]
+    passos = "".join(f"<li>{e(x.format(d=dlonga, h=hora_txt, tel=C.PARCEIRO['emergencia']))}</li>" for x in cp["passos"])
+    faq_html = "".join(f"<details class=\"faq-item\"><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
+    conferido = rt["conferido"].format(conf=data_num(ev["conferido"], lang)) if ev.get("conferido") else t["date_note"]
+    crumbs_mid = "".join(f'<a href="{rel(pagina, cam)}">{e(nome)}</a><span aria-hidden="true">›</span>' for nome, cam in trilha[1:-1]) \
+        or f'<a href="{rel(pagina, caminho_home(lang))}#partidas">{e(t["events"])}</a><span aria-hidden="true">›</span>'
     ingresso = parceiro(lang, f"/event/{ev['id']}")
     corpo = f"""
 <body>
@@ -778,12 +835,13 @@ def evento(lang, ev, eventos, hubs):
   <div class="layer l-photo photo" data-depth="0.15" style="{bg(ev.get('banner', ev['img']), 1800, pagina, 'opacity:.55')}"></div>
   <div class="layer l-shade"></div>
   <div class="wrap on-night">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(t['home'])}</a><span aria-hidden="true">›</span>{f'<a href="{rel(pagina, caminho_hub(lang, hub_esp))}">{e(titulo_hub(lang, hub_esp))}</a>' if hub_esp else f'<a href="{rel(pagina, caminho_home(lang))}#partidas">{e(t["events"])}</a>'}<span aria-hidden="true">›</span><span>{e(titulo)}</span></nav>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(t['home'])}</a><span aria-hidden="true">›</span>{crumbs_mid}<span>{e(titulo)}</span></nav>
     <p class="kicker">{kicker_tipo} · {link_hub(comp_nome, hub_comp, comp.get('dock'))}</p>
     <h1 id="ev-h">{e(titulo)}</h1>
     <span class="flapline" data-flap="{e(L(ev['painel'], lang))}" data-w="22" aria-hidden="true">{e(L(ev['painel'], lang))}</span>
     <dl class="facts">
       <div class="fact"><dt>{e(t['f_date'])}</dt><dd>{e(dlonga)}</dd></div>
+      {f'<div class="fact"><dt>{e(rt["f_time"])}</dt><dd>{e(rt["hora_local"].format(h=ev["hora"]))}</dd></div>' if ev.get("hora") else ''}
       <div class="fact"><dt>{e(t['f_venue'])}</dt><dd>{e(ev['local'])}</dd></div>
       <div class="fact"><dt>{e(t['f_city'])}</dt><dd>{cidade_html}, {e(L(ev['pais'], lang))}</dd></div>
       <div class="fact"><dt>{e(quarto[0])}</dt><dd>{quarto[1]}</dd></div>
@@ -792,7 +850,7 @@ def evento(lang, ev, eventos, hubs):
       {mag(ingresso, e(t['ev_cta']))}
       {mag('#alertas', e(t['ev_alert']), 'btn btn-ghost', ext=False, seta=False)}
     </div>
-    <p class="disclose">{e(t['aff_note'])} {e(t['date_note'])}</p>
+    <p class="disclose">{e(t['aff_note'])} {e(conferido)} <a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(rt['como_h'])}</a></p>
   </div>
 </section>
 
@@ -809,6 +867,19 @@ def evento(lang, ev, eventos, hubs):
       <div class="tips">
         <div><h2>{e(t['get_h'])}</h2><ul>{chegar}</ul></div>
         <div><h2>{e(t['tips_h'])}</h2><ul>{dicas}</ul></div>
+      </div>
+      <div class="tips">
+        <div><h2>{e(rt['entrada_h'])}</h2><ul>{entrada}</ul></div>
+        <div><h2>{e(rt['publico_h'])}</h2><ul>{publico}</ul></div>
+      </div>
+      <div class="howto">
+        <h2>{e(cp['h'].format(t=titulo))}</h2>
+        <ol>{passos}</ol>
+        <p class="disclose"><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(rt['guia_h'])}</a> · <a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(rt['como_h'])}</a></p>
+      </div>
+      <div class="faq">
+        <h2>{e(rt['faq_h'])}</h2>
+        {faq_html}
       </div>
       <div class="tips">
         <div><h2>{e(t['also'])}</h2><ul>{tambem_html}</ul></div>
@@ -883,6 +954,63 @@ def hub(lang, g, eventos, hubs):
 </main>
 """
     return cab + corpo + rodape(lang, pagina, alternos)
+
+
+def pagina_texto(lang, pg, pagina, alternos, ld, extra_html=""):
+    """Página editorial simples (guia ou institucional) no estilo da política de privacidade."""
+    v = {"empresa": C.PARCEIRO["empresa"], "endereco": C.PARCEIRO[{"pt": "endereco", "en": "endereco_en", "es": "endereco_es"}[lang]],
+         "tel": C.PARCEIRO["emergencia"], "email": CONTATO_EMAIL}
+    secoes = "".join(f"<h2>{e(tit)}</h2>" + "".join(f"<p>{e(x.format(**v))}</p>" for x in pars) for tit, pars in pg["secoes"])
+    trilha = [(T[lang]["home"], caminho_home(lang)), (pg["h1"], pagina)]
+    cab = cabeca(lang, pagina, pg["title"], pg["desc"], alternos, ld_script(ld, ld_breadcrumb(trilha)))
+    corpo = f"""
+<body>
+{topo(lang, pagina, alternos)}
+<main class="band">
+  <article class="wrap legal">
+    <nav class="crumbs crumbs-light" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(T[lang]['home'])}</a><span aria-hidden="true">›</span><span>{e(pg['h1'])}</span></nav>
+    <p class="kicker">MyTickets Tours</p>
+    <h1>{e(pg['h1'])}</h1>
+    <p class="lead">{e(pg['lead'])}</p>
+    {secoes}
+    {extra_html}
+  </article>
+</main>
+"""
+    return cab + corpo + rodape(lang, pagina, alternos)
+
+
+def como_funciona(lang):
+    pg = C.COMO_FUNCIONA[lang]
+    pagina = pg["path"]
+    alternos = {l: C.COMO_FUNCIONA[l]["path"] for l in IDIOMAS}
+    ld = {"@context": "https://schema.org", "@type": "AboutPage", "name": pg["title"], "url": f"{BASE_URL}/{pagina}", "inLanguage": HREFLANG[lang],
+          "about": {"@id": f"{BASE_URL}/#org"},
+          "mainEntity": {"@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "MyTickets Tours", "url": f"{BASE_URL}/", "email": CONTATO_EMAIL,
+                         "founder": {"@type": "Person", "name": RESPONSAVEL}}}
+    links = (f'<h2>{e(pg["links_h"])}</h2><p><a href="{C.PARCEIRO["termos"]}" target="_blank" rel="noopener">{e(pg["termos"])}</a><br>'
+             f'<a href="{C.PARCEIRO["faq"]}" target="_blank" rel="noopener">{e(pg["faq"])}</a></p>'
+             f'<p>{e(PRIV[lang]["resp"])}: {e(RESPONSAVEL)} · <a href="mailto:{CONTATO_EMAIL}">{CONTATO_EMAIL}</a></p>')
+    return pagina_texto(lang, pg, pagina, alternos, ld, links)
+
+
+def guia(lang, eventos, hubs):
+    pg = C.GUIA[lang]
+    pagina = pg["path"]
+    alternos = {l: C.GUIA[l]["path"] for l in IDIOMAS}
+    hoje = dt.date.today().isoformat()
+    ld = {"@context": "https://schema.org", "@type": "Article", "headline": pg["title"], "description": pg["desc"], "inLanguage": HREFLANG[lang],
+          "url": f"{BASE_URL}/{pagina}", "mainEntityOfPage": f"{BASE_URL}/{pagina}", "datePublished": "2026-10-15", "dateModified": C.PARCEIRO["conferido"],
+          "author": {"@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "MyTickets Tours"},
+          "publisher": {"@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "MyTickets Tours"}}
+    url = f"{BASE_URL}/{pagina}"
+    snippet = f'<a href="{url}">{pg["h1"]}</a> (MyTickets Tours)'
+    cards = "".join(cartao(lang, pagina, x) for x in eventos[:3])
+    guias = "".join(f'<a class="chip chip-own" href="{rel(pagina, caminho_hub(lang, g))}">{e(titulo_hub(lang, g))}</a>' for g in hubs.values())
+    extra = (f'<div class="cite"><h2>{e(pg["cite_h"])}</h2><p>{e(pg["cite_p"])}</p>'
+             f'<pre class="cite-code" tabindex="0"><code>{e(snippet)}</code></pre></div>'
+             f'<h2>{e(pg["eventos_h"])}</h2><div class="cards">{cards}</div><div class="chips" style="margin-top:16px">{guias}</div>')
+    return pagina_texto(lang, pg, pagina, alternos, ld, extra)
 
 
 PRIV = {
@@ -1063,6 +1191,8 @@ def main():
             grupos["guias"].append(escrever(caminho_hub(lang, g), hub(lang, g, eventos, hubs), manifesto, hoje))
     for lang in IDIOMAS:
         grupos["paginas"].append(escrever(PRIV[lang]["path"], privacidade(lang), manifesto, hoje))
+        grupos["paginas"].append(escrever(C.COMO_FUNCIONA[lang]["path"], como_funciona(lang), manifesto, hoje))
+        grupos["guias"].append(escrever(C.GUIA[lang]["path"], guia(lang, eventos, hubs), manifesto, hoje))
     gerar_catalogo(eventos)
     # Um sitemap por tipo de página, reunidos num índice. Separar facilita ver no Search Console
     # quantas páginas de evento, de show e de guia foram indexadas.

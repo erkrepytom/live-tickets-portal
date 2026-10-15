@@ -290,3 +290,21 @@ html.has-cursor input,html.has-cursor select,html.has-cursor #banner3d{cursor:au
 .cookie-bar p{margin:0;font-size:15px;color:var(--mut);max-width:70ch}
 .cookie-bar a{color:var(--ink)}
 .cookie-btns{display:flex;gap:10px}
+
+/* Guia do evento: passo a passo, FAQ e páginas editoriais */
+.howto,.faq{display:grid;gap:12px;margin-top:36px}
+.howto ol{margin:0;padding-left:22px;display:grid;gap:8px;color:var(--mut)}
+.faq-item{border-top:1px solid var(--line);padding:14px 0}
+.faq-item:last-child{border-bottom:1px solid var(--line)}
+.faq-item summary{cursor:pointer;font-weight:600;font-size:18px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";font:700 22px/1 var(--f-mono);color:var(--signal-text)}
+.faq-item[open] summary::after{content:"–"}
+.faq-item p{margin:10px 0 0;color:var(--mut);max-width:70ch}
+.tips li strong{color:var(--ink)}
+.legal .lead{font-size:20px;color:var(--ink);max-width:62ch}
+.crumbs-light{color:var(--mut)}
+.crumbs-light a{color:var(--ink)}
+.cite{margin-top:28px;padding:20px;border-radius:14px;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line)}
+.cite h2{margin-top:0}
+.cite-code{white-space:pre-wrap;word-break:break-all;font:500 14px/1.5 var(--f-mono);background:var(--paper);padding:12px;border-radius:8px;margin:0}
