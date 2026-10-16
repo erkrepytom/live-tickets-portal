@@ -703,3 +703,10 @@ ORGANIZADOR = {
  "celine-dion-paris": ("Person", "Celine Dion", "https://www.celinedion.com/"),
  "final-champions-league": ("SportsOrganization", "UEFA", "https://www.uefa.com/"),
 }
+
+# Participantes já definidos de eventos sem "times" (dados estruturados "performer").
+# Finais com finalistas ainda indefinidos (Australian Open, Champions) ficam sem: preencha quando sair o confronto.
+PARTICIPANTES = {
+ "gp-abu-dhabi-f1": ["McLaren", "Ferrari", "Mercedes", "Red Bull Racing", "Aston Martin", "Alpine", "Williams",
+                     "Racing Bulls", "Haas", "Audi", "Cadillac"],
+}

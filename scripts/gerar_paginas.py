@@ -915,6 +915,8 @@ def ld_evento(lang, ev, pagina):
         ld["competitor"] = times
         if len(times) == 2:
             ld["homeTeam"], ld["awayTeam"] = times
+    elif C.PARTICIPANTES.get(C.chave_evento(ev["slug"])):
+        ld["performer"] = [{"@type": "SportsTeam", "name": n} for n in C.PARTICIPANTES[C.chave_evento(ev["slug"])]]
     org = C.ORGANIZADOR.get(C.chave_evento(ev["slug"]))
     if org:
         ld["organizer"] = {"@type": org[0], "name": org[1], "url": org[2]}
