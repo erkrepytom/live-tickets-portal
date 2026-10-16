@@ -1431,6 +1431,10 @@ def main():
         grupos["guias"].append(escrever(C.GUIA[lang]["path"], guia(lang, eventos, hubs), manifesto, hoje))
         grupos["guias"].append(escrever(C.GUIA_BARCA[lang]["path"], guia_barca(lang, eventos), manifesto, hoje))
     gerar_catalogo(eventos)
+    import pins  # arte vertical dos pins do Pinterest (assets/pins/), redesenhada só quando muda
+    feitas = pins.gerar_imagens(eventos)
+    if feitas:
+        print(f"{feitas} arte(s) de pin do Pinterest gerada(s).")
     # Um sitemap por tipo de página, reunidos num índice. Separar facilita ver no Search Console
     # quantas páginas de evento, de show e de guia foram indexadas.
     nomes = {"paginas": "sitemap-paginas.xml", "esportes": "sitemap-esportes.xml", "shows": "sitemap-shows.xml", "guias": "sitemap-guias.xml"}

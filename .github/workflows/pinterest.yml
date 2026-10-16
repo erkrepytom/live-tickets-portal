@@ -1,0 +1,40 @@
+name: Publicar no Pinterest
+# Depois de cada publicação do site (e uma vez por dia), cria os pins dos eventos e guias novos e
+# atualiza os pins que mudaram. Sem credenciais ou com "ativo": false em data/pinterest.json, só ensaia.
+on:
+  workflow_run:
+    workflows: ["Publish Live Tickets"]
+    types: [completed]
+  schedule:
+    - cron: "41 13 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pinterest
+  cancel-in-progress: false
+jobs:
+  pins:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Criar e atualizar pins
+        env:
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python3 scripts/pins.py publicar
+      - name: Guardar quais pins já existem (data/pins.json)
+        run: |
+          if [ -n "$(git status --porcelain data/pins.json)" ]; then
+            git config user.name "mytickets-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/pins.json
+            git commit -m "Pinterest: registra pins publicados"
+            git pull --rebase -X ours origin main && git push origin HEAD:main
+          fi

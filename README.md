@@ -95,3 +95,15 @@ MIT. Third-party trademarks and linked supplier content keep their respective ri
 - Cliques no botão viram o evento `share` (method `pinterest`) no GA4.
 - Para ligar o botão Seguir: preencha `PINTEREST_PERFIL` (o nome em pinterest.com/<perfil>/).
 - Para reivindicar o site no Pinterest: preencha `PINTEREST_VERIFY` com o código da meta tag `p:domain_verify`.
+
+### Pins automáticos (site → Pinterest)
+
+- O gerador desenha a arte vertical (1000×1500) de cada evento e guia, nos 3 idiomas, em `assets/pins/` (`scripts/pins.py`).
+- `.github/workflows/pinterest.yml` roda depois de cada publicação do site e uma vez por dia: cria até 3 pins novos
+  por execução e atualiza o título, a descrição e o link dos pins que mudaram. `data/pins.json` guarda o que já foi publicado.
+- O pin leva à página do evento no site (com `utm_source=pinterest`), não direto ao link de afiliado.
+- Para ligar: crie os quadros, rode `python scripts/pins.py quadros` (com um token) para ver os IDs, preencha
+  `data/pinterest.json` (`ativo: true` e o quadro de cada idioma) e cadastre os segredos `PINTEREST_APP_ID`,
+  `PINTEREST_APP_SECRET`, `PINTEREST_REFRESH_TOKEN` e, de preferência, `GH_PAT` (grava o refresh token renovado).
+- Enquanto o app estiver em "Trial access", o Pinterest cria os pins só como rascunho de teste, visíveis só para você.
+  Pins públicos exigem "Standard access" (pedido no painel de apps, com um vídeo do fluxo de login).

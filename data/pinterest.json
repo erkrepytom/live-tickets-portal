@@ -1,0 +1,6 @@
+{
+ "_leia": "Liga o site ao Pinterest (scripts/pins.py). Para publicar: crie os quadros no Pinterest, cole o ID de cada um em 'quadros', troque 'ativo' para true e cadastre os segredos PINTEREST_APP_ID, PINTEREST_APP_SECRET e PINTEREST_REFRESH_TOKEN no GitHub. O ID do quadro sai da API (GET /v5/boards) ou do robô em modo de ensaio.",
+ "ativo": false,
+ "quadros": {"pt": "", "en": "", "es": ""},
+ "max_novos_por_execucao": 3
+}
