@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-16T18:09:38+00:00",
+ "atualizado": "2026-10-16T21:21:26+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
+     "t": "Escalação do Atlético-MG: Domínguez tem desfalque e esboça mudanças contra o Coritiba",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/16/escalacao-do-atletico-mg-dominguez-tem-desfalque-e-esboca-mudancas-contra-o-coritiba.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
      "t": "Jogador de rúgbi sul-africano morre antes de jogo na França",
      "u": "https://www.gazetaesportiva.com/mais-esportes/jogador-de-rugbi-sul-africano-morre-antes-de-jogo-na-franca/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Cruzeiro treina focado para desafiar o Grêmio em Porto Alegre",
-     "u": "https://www.gazetaesportiva.com/times/cruzeiro/cruzeiro-treina-focado-para-desafiar-o-gremio-em-porto-alegre/",
+     "t": "Manchester City x Ipswich Town na Premier League: onde assistir ao vivo e horário",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/10/16/manchester-city-x-ipswich-town-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Com preocupação na lateral, Santos avança em preparação para enfrentar o Fluminense",
+     "u": "https://www.gazetaesportiva.com/times/santos/santos-escobar-duvida-treino-fluminense/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro sub-17 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/jogo/21-10-2026/atletico-mg-cruzeiro.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Grêmio x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Real Madrid demand LaLiga boss Javier Tebas resign after comparing club to Nazi propagandist Joseph Goebbels",
-     "u": "https://www.cbssports.com/soccer/news/real-madrid-laliga-javier-tebas-resign-nazi-joseph-goebbels/",
+     "t": "Serie A Matchweek 7: Can Inter, AS Roma, Como and Napoli recover after disastrous Champions League week?",
+     "u": "https://www.cbssports.com/soccer/news/serie-a-inter-as-roma-como-napoli-disastrous-champions-league-week/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Fantasy basketball rankings 2026-27: Sleepers, breakouts and busts from proven NBA computer model",
-     "u": "https://www.cbssports.com/fantasy/basketball/news/fantasy-basketball-rankings-2026-27-sleepers-breakouts-and-busts-from-proven-nba-computer-model/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Josh Allen Could Be the Key to Winning NFL Week 6 Fantasy Football DFS GPP Tournaments",
-     "u": "https://sports.yahoo.com/articles/josh-allen-could-key-winning-175400242.html",
+     "t": "DeVonta Smith Is Set To Return From Injury, But Is He A Fantasy Football Start With Jalen Hurts OUT",
+     "u": "https://sports.yahoo.com/articles/devonta-smith-set-return-injury-210240473.html",
      "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
+     "t": "Use DraftKings promo code to get $200 bonus bets, free NBA League Pass for Purdue-Washington, college football",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-purdue-washington-college-football-friday/",
+     "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Gattuso to Make One Change to Lazio Starting Lineup Against Juventus",
-     "u": "https://sports.yahoo.com/articles/gattuso-one-change-lazio-starting-175400209.html",
+     "t": "Charlotte Hornets waive former NBA champion to trim roster",
+     "u": "https://sports.yahoo.com/articles/charlotte-hornets-waive-former-nba-211024595.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
+     "t": "Sem Abel, Palmeiras vence Fluminense e tem pé na final da Libertadores",
+     "u": "https://www.abola.pt/noticias/sem-abel-palmeiras-vence-fluminense-e-tem-pe-na-final-da-libertadores-2026101506085455949",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
      "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
      "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Sporting e Benfica em mais um tira-teimas entre rivais na Supertaça",
-     "u": "https://www.record.pt/modalidades/voleibol/detalhe/sporting-e-benfica-em-mais-um-tira-teimas-entre-rivais-na-supertaca",
+     "t": "Meia-final do Mundial de hóquei entre França e Portugal com... 181 pessoas nas bancadas",
+     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/meia-final-do-mundial-de-hoquei-entre-franca-e-portugal-com-181-pessoas-nas-bancadas",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Benfica-Sporting: já estão à venda os bilhetes para o dérbi",
-     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/benfica-sporting-ja-estao-a-venda-os-bilhetes-para-o-derbi",
+     "t": "Irmãs Jorge eliminadas nas meias-finais de pares do WTA Lisboa Belém Open em ténis",
+     "u": "https://www.record.pt/modalidades/tenis/detalhe/irmas-jorge-eliminadas-nas-meias-finais-de-pares-do-wta-lisboa-belem-open-em-tenis",
      "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Enzo empurra árbitro no Manchester City-PSG",
-     "u": "https://www.abola.pt/video/enzo-empurra-arbitro-no-manchester-city-psg-2026101509263748741",
-     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,12 +113,6 @@
    },
    "noticias": [
     {
-     "t": "Barça - Olympiacos, en directo",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261016/1004239151/barca-olympiacos-directo-euroliga-baloncesto.html",
-     "f": "Mundo Deportivo",
-     "alta": true
-    },
-    {
      "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
      "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
      "f": "Marca",
@@ -127,6 +121,12 @@
     {
      "t": "El Real Madrid responde a Tebas y \"exige\" su dimisión",
      "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261016/1004239524/real-madrid-responde-tebas.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Tebas compara la política de comunicación del Real Madrid con la del nazismo",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261016/1004239346/tebas-direccion-real-madrid-dirige-orquesta-portacoces-real-madrid-tv-lleva-voz-cantante.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -153,21 +153,21 @@
      "alta": false
     },
     {
+     "t": "Real Madrid demand La Liga president resign over Goebbels comparison",
+     "u": "https://www.theguardian.com/football/2026/oct/16/real-madrid-demand-resignation-la-liga-president-javier-tebas-goebbels-comparison",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
      "t": "The All Blacks' Haka explained - plus rugby's other rituals",
      "u": "https://www.skysports.com/rugby-union/news/12040/13597698/new-zealands-haka-explained-meaning-and-origin-of-all-blacks-rugby-war-dance-plus-cibi-siva-tau-sipi-tau-rituals",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Premier League news: go bananas: Maresca loving fans’ show of defiance; James injury blow for Blues",
-     "u": "https://www.theguardian.com/football/2026/oct/16/premier-league-news-go-bananas-maresca-loving-fans-show-of-defiance-james-injury-blow-for-blues",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Rugby League World Cup 2026: Australia thrash Samoa in women’s opener",
-     "u": "https://www.skysports.com/rugby-league/live-blog/12040/13599564/rugby-league-world-cup-2026-reports-news-scores-fixtures-from-across-the-mens-womens-and-wheelchair-tournaments",
-     "f": "Sky Sports",
+     "t": "Do Manchester City have any grounds to win their appeal?",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c6je5lwxk5l0o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -203,10 +203,16 @@
    },
    "noticias": [
     {
-     "t": "El Colchonero se expande: el equipo del Atlético Madrid en Ecuador ascendió a la Serie A",
-     "u": "https://www.ole.com.ar/futbol-internacional/america/colchonero-expande-proyecto-atletico-madrid-ecuador-fc-ascenso-ligapro-seriea_0_pJbgM0owQ0.html",
+     "t": "Serie A: el insólito blooper de Sassuolo que Frosinone transformó en gol",
+     "u": "https://www.ole.com.ar/futbol-internacional/italia/insolito-error-defensivo-sassuolo-gol-frosinone-seriea-italia-video_0_41NPjprSw6.html",
      "f": "Olé",
-     "alta": false
+     "alta": true
+    },
+    {
+     "t": "Kily González confirmó que Lionel Messi viajará a Europa para recibir un premio después del próximo partido del Inter Miami",
+     "u": "https://www.infobae.com/deportes/2026/10/16/el-kily-gonzalez-confirmo-que-lionel-messi-viajara-a-europa-para-recibir-un-premio-despues-del-proximo-partido-con-inter-miami/",
+     "f": "Infobae",
+     "alta": true
     },
     {
      "t": "Conmoción en Francia por la muerte de una figura del rugby sudafricano tras sufrir un “trágico accidente” en el hotel antes de un partido",
@@ -215,14 +221,8 @@
      "alta": false
     },
     {
-     "t": "Leandro Paredes pretende jugar la revancha con Vasco da Gama: la postura de Boca y qué otro jugador volvería a estar disponible",
-     "u": "https://www.infobae.com/deportes/2026/10/16/leandro-paredes-pretende-jugar-la-revancha-con-vasco-da-gama-la-postura-de-boca-y-que-otro-jugador-volveria-a-estar-disponible/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Atlético Tucumán vs. Rosario Central, por el Torneo Clausura 2026: día, horario y por dónde ver",
-     "u": "https://www.ole.com.ar/futbol-primera/atletico-tucuman-vs-rosario-central-partido-torneo-clausura-2026-dia-horario-tv_0_cBFIrIN2qW.html",
+     "t": "El 11 de Boca confirmado y las pruebas de Arruabarrena pensando en Vasco",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-vasco-cambios-sorpresas-once-equipo_0_mOmqIyv1Bg.html",
      "f": "Olé",
      "alta": false
     }
@@ -259,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "Une famille très modeste, inspiré par Paul Pogba... Alphadjo Cisse, l'espoir de l'AC Milan qui pourrait relancer la sélection italienne",
-     "u": "https://www.lequipe.fr/Football/Actualites/Une-famille-tres-modeste-inspire-par-paul-pogba-alphadjo-cisse-l-espoir-de-l-ac-milan-qui-pourrait-relancer-la-selection-italienne/1736274#at_medium=RSS_feeds",
+     "t": "Composez votre parcours rêvé du Tour de France 2027",
+     "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Composez-votre-parcours-reve-du-tour-de-france-2027/1736344#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Show de Ronisia, fanzone au bord du terrain : le Parc des Princes en fête pour PSG-OL Lyonnes",
-     "u": "https://www.lequipe.fr/Football/Actualites/Show-de-ronisia-fanzone-au-bord-du-terrain-le-parc-des-princes-en-fete-pour-psg-ol-lyonnes/1736330#at_medium=RSS_feeds",
+     "t": "Coupe des champions : Bordeaux-Bègles, double champion en titre, tenu en échec à Gloucester en ouverture de la compétition après un match spectaculair",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Coupe-des-champions-bordeaux-begles-double-champion-en-titre-tenu-en-echec-a-gloucester-en-ouverture-de-la-competition-apres-un-match-spectaculaire/1736371#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,31 +275,31 @@
  ],
  "destaques": [
   {
-   "t": "Jogador de rúgbi sul-africano morre antes de jogo na França",
-   "u": "https://www.gazetaesportiva.com/mais-esportes/jogador-de-rugbi-sul-africano-morre-antes-de-jogo-na-franca/",
-   "f": "Gazeta Esportiva",
+   "t": "Escalação do Atlético-MG: Domínguez tem desfalque e esboça mudanças contra o Coritiba",
+   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/16/escalacao-do-atletico-mg-dominguez-tem-desfalque-e-esboca-mudancas-contra-o-coritiba.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Real Madrid demand LaLiga boss Javier Tebas resign after comparing club to Nazi propagandist Joseph Goebbels",
-   "u": "https://www.cbssports.com/soccer/news/real-madrid-laliga-javier-tebas-resign-nazi-joseph-goebbels/",
+   "t": "Serie A Matchweek 7: Can Inter, AS Roma, Como and Napoli recover after disastrous Champions League week?",
+   "u": "https://www.cbssports.com/soccer/news/serie-a-inter-as-roma-como-napoli-disastrous-champions-league-week/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
-   "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
+   "t": "Sem Abel, Palmeiras vence Fluminense e tem pé na final da Libertadores",
+   "u": "https://www.abola.pt/noticias/sem-abel-palmeiras-vence-fluminense-e-tem-pe-na-final-da-libertadores-2026101506085455949",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Barça - Olympiacos, en directo",
-   "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261016/1004239151/barca-olympiacos-directo-euroliga-baloncesto.html",
-   "f": "Mundo Deportivo",
-   "alta": true,
+   "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
+   "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
+   "f": "Marca",
+   "alta": false,
    "pais": "ES"
   },
   {
@@ -317,10 +317,10 @@
    "pais": "MX"
   },
   {
-   "t": "El Colchonero se expande: el equipo del Atlético Madrid en Ecuador ascendió a la Serie A",
-   "u": "https://www.ole.com.ar/futbol-internacional/america/colchonero-expande-proyecto-atletico-madrid-ecuador-fc-ascenso-ligapro-seriea_0_pJbgM0owQ0.html",
+   "t": "Serie A: el insólito blooper de Sassuolo que Frosinone transformó en gol",
+   "u": "https://www.ole.com.ar/futbol-internacional/italia/insolito-error-defensivo-sassuolo-gol-frosinone-seriea-italia-video_0_41NPjprSw6.html",
    "f": "Olé",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -331,8 +331,8 @@
    "pais": "IT"
   },
   {
-   "t": "Une famille très modeste, inspiré par Paul Pogba... Alphadjo Cisse, l'espoir de l'AC Milan qui pourrait relancer la sélection italienne",
-   "u": "https://www.lequipe.fr/Football/Actualites/Une-famille-tres-modeste-inspire-par-paul-pogba-alphadjo-cisse-l-espoir-de-l-ac-milan-qui-pourrait-relancer-la-selection-italienne/1736274#at_medium=RSS_feeds",
+   "t": "Composez votre parcours rêvé du Tour de France 2027",
+   "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Composez-votre-parcours-reve-du-tour-de-france-2027/1736344#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
