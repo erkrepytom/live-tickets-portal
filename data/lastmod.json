@@ -1,230 +1,242 @@
 {
  "": {
-  "h": "2cf053bfc57d2eca",
-  "d": "2026-10-15"
+  "h": "e078b88f5a3becca",
+  "d": "2026-10-16"
+ },
+ "afiliados-e-aviso-legal/": {
+  "h": "e2cff7eeea3cb027",
+  "d": "2026-10-16"
  },
  "cidades/barcelona/": {
-  "h": "e2f6d7911dc2dbd1",
-  "d": "2026-10-15"
+  "h": "c2046d5155dc481b",
+  "d": "2026-10-16"
  },
  "cidades/milao/": {
-  "h": "6d162f19bd46e134",
-  "d": "2026-10-15"
+  "h": "10b10184e46a8963",
+  "d": "2026-10-16"
  },
  "cidades/paris/": {
-  "h": "d48bff1c536a3f58",
-  "d": "2026-10-15"
+  "h": "b843a9cb7df6c1a6",
+  "d": "2026-10-16"
  },
  "como-funciona/": {
-  "h": "2a9175110a6b63fe",
-  "d": "2026-10-15"
+  "h": "577f24d72041ad0a",
+  "d": "2026-10-16"
  },
  "competicoes/uefa-champions-league/": {
-  "h": "9f66a0378420949a",
-  "d": "2026-10-15"
+  "h": "9c1886e50cd11ae1",
+  "d": "2026-10-16"
  },
  "en/": {
-  "h": "f44f22f58e3e9a47",
-  "d": "2026-10-15"
+  "h": "626e7ce59c046a50",
+  "d": "2026-10-16"
+ },
+ "en/affiliate-disclosure/": {
+  "h": "5b25c9c060a5081c",
+  "d": "2026-10-16"
  },
  "en/cities/barcelona/": {
-  "h": "f9a6d293101096f6",
-  "d": "2026-10-15"
+  "h": "3083b5328c259ed4",
+  "d": "2026-10-16"
  },
  "en/cities/milan/": {
-  "h": "89aa7d1802d88d32",
-  "d": "2026-10-15"
+  "h": "e7e8628f05b4b17d",
+  "d": "2026-10-16"
  },
  "en/cities/paris/": {
-  "h": "41d02081b1a06dc0",
-  "d": "2026-10-15"
+  "h": "7c66d849ec1e6a3b",
+  "d": "2026-10-16"
  },
  "en/competitions/uefa-champions-league/": {
-  "h": "d2ee00084e6532a2",
-  "d": "2026-10-15"
+  "h": "a4e5a58ddc738ecc",
+  "d": "2026-10-16"
  },
  "en/events/barcelona-vs-manchester-city-2026-12-08/": {
-  "h": "7f9de8f621a23c94",
-  "d": "2026-10-15"
+  "h": "6fd1796e2aacfdd3",
+  "d": "2026-10-16"
  },
  "en/events/barcelona-vs-real-madrid-2026-10-25/": {
-  "h": "8f6e1b962a5f146a",
-  "d": "2026-10-15"
+  "h": "57969ce4d4ac9563",
+  "d": "2026-10-16"
  },
  "en/events/celine-dion-paris-2027-05-14/": {
-  "h": "813a58fb0cd4afa7",
-  "d": "2026-10-15"
+  "h": "4885a78a117e04de",
+  "d": "2026-10-16"
  },
  "en/events/final-australian-open-2027-01-31/": {
-  "h": "56d28118058f7cbc",
-  "d": "2026-10-15"
+  "h": "fde9a1a2aa4f4cde",
+  "d": "2026-10-16"
  },
  "en/events/final-champions-league-2027-06-05/": {
-  "h": "338158a2e31b72ee",
-  "d": "2026-10-15"
+  "h": "512c4dd930d879ed",
+  "d": "2026-10-16"
  },
  "en/events/franca-vs-africa-do-sul-2026-11-13/": {
-  "h": "95738e58b4628f9a",
-  "d": "2026-10-15"
+  "h": "e7b5b85e8b567c66",
+  "d": "2026-10-16"
  },
  "en/events/gp-abu-dhabi-f1-2026-12-06/": {
-  "h": "e3407cb6b4cc1674",
-  "d": "2026-10-15"
+  "h": "713423d01923648b",
+  "d": "2026-10-16"
  },
  "en/events/italia-vs-franca-2026-11-12/": {
-  "h": "58d6d28cbae05d72",
-  "d": "2026-10-15"
+  "h": "1ec0b491259bed8a",
+  "d": "2026-10-16"
  },
  "en/events/knicks-vs-nuggets-2027-01-11/": {
-  "h": "f1d6853f95f31410",
-  "d": "2026-10-15"
+  "h": "06f30d536e7a8cbd",
+  "d": "2026-10-16"
  },
  "en/events/milan-vs-inter-2026-10-31/": {
-  "h": "2c62ff646671ddaf",
-  "d": "2026-10-15"
+  "h": "0387dd64b8ea930d",
+  "d": "2026-10-16"
  },
  "en/football/": {
-  "h": "011ccdff4b318584",
-  "d": "2026-10-15"
+  "h": "d21b4f9590712862",
+  "d": "2026-10-16"
  },
  "en/guides/buy-tickets-europe-safely/": {
-  "h": "746d8f9c92650a88",
-  "d": "2026-10-15"
+  "h": "d097400f5b61921a",
+  "d": "2026-10-16"
  },
  "en/how-it-works/": {
-  "h": "c9c8209049ebf6f2",
-  "d": "2026-10-15"
+  "h": "73d51844c6ec8d74",
+  "d": "2026-10-16"
  },
  "en/privacy/": {
-  "h": "2c95cdc73e8329f0",
-  "d": "2026-10-15"
+  "h": "ba702a3d6fe83913",
+  "d": "2026-10-16"
  },
  "es/": {
-  "h": "79ed2733328bbcda",
-  "d": "2026-10-15"
+  "h": "d0c3c83c139ad98c",
+  "d": "2026-10-16"
+ },
+ "es/afiliados-y-aviso-legal/": {
+  "h": "da9a969b08f84edf",
+  "d": "2026-10-16"
  },
  "es/ciudades/barcelona/": {
-  "h": "4be1051b314c9444",
-  "d": "2026-10-15"
+  "h": "b954b4b499f980c8",
+  "d": "2026-10-16"
  },
  "es/ciudades/milan/": {
-  "h": "ffa882486d59d8a1",
-  "d": "2026-10-15"
+  "h": "5e946b9423873daa",
+  "d": "2026-10-16"
  },
  "es/ciudades/paris/": {
-  "h": "30c7c4ac6ce58b2f",
-  "d": "2026-10-15"
+  "h": "703141b1b9623714",
+  "d": "2026-10-16"
  },
  "es/como-funciona/": {
-  "h": "5cd0563528605a01",
-  "d": "2026-10-15"
+  "h": "a09088eb16d18bed",
+  "d": "2026-10-16"
  },
  "es/competiciones/uefa-champions-league/": {
-  "h": "98f2289e6131e25c",
-  "d": "2026-10-15"
+  "h": "ec8053d4f6036371",
+  "d": "2026-10-16"
  },
  "es/eventos/barcelona-vs-manchester-city-2026-12-08/": {
-  "h": "26443b163ad62faf",
-  "d": "2026-10-15"
+  "h": "01d12ccdf8095981",
+  "d": "2026-10-16"
  },
  "es/eventos/barcelona-vs-real-madrid-2026-10-25/": {
-  "h": "a94074d569b21425",
-  "d": "2026-10-15"
+  "h": "0e0c9b08116d0512",
+  "d": "2026-10-16"
  },
  "es/eventos/celine-dion-paris-2027-05-14/": {
-  "h": "29aad5c517a06e5e",
-  "d": "2026-10-15"
+  "h": "e2841145e64e305f",
+  "d": "2026-10-16"
  },
  "es/eventos/final-australian-open-2027-01-31/": {
-  "h": "cb67de153e52e41d",
-  "d": "2026-10-15"
+  "h": "70d527a6f5a25a0c",
+  "d": "2026-10-16"
  },
  "es/eventos/final-champions-league-2027-06-05/": {
-  "h": "18c220e6df9e52a9",
-  "d": "2026-10-15"
+  "h": "424ff64e3f4c1dbb",
+  "d": "2026-10-16"
  },
  "es/eventos/franca-vs-africa-do-sul-2026-11-13/": {
-  "h": "cbeb4cff1df78e91",
-  "d": "2026-10-15"
+  "h": "30d97d1a821b08ce",
+  "d": "2026-10-16"
  },
  "es/eventos/gp-abu-dhabi-f1-2026-12-06/": {
-  "h": "bacb9084a507a55d",
-  "d": "2026-10-15"
+  "h": "2b2857eff4184a73",
+  "d": "2026-10-16"
  },
  "es/eventos/italia-vs-franca-2026-11-12/": {
-  "h": "3aa773d666802df0",
-  "d": "2026-10-15"
+  "h": "11ebcb542603355d",
+  "d": "2026-10-16"
  },
  "es/eventos/knicks-vs-nuggets-2027-01-11/": {
-  "h": "640855bec94265f1",
-  "d": "2026-10-15"
+  "h": "440d1221a96e28e6",
+  "d": "2026-10-16"
  },
  "es/eventos/milan-vs-inter-2026-10-31/": {
-  "h": "bc3fc0c7ebbddc7e",
-  "d": "2026-10-15"
+  "h": "154ec755cb44eb13",
+  "d": "2026-10-16"
  },
  "es/futbol/": {
-  "h": "da601f849e1cecd3",
-  "d": "2026-10-15"
+  "h": "9532811bb2c1c32c",
+  "d": "2026-10-16"
  },
  "es/guias/comprar-entradas-europa-sin-riesgo/": {
-  "h": "8c1519677a37db2f",
-  "d": "2026-10-15"
+  "h": "f712c7168ccd88e4",
+  "d": "2026-10-16"
  },
  "es/privacidad/": {
-  "h": "a6e921a25f90fd86",
-  "d": "2026-10-15"
+  "h": "3bfe6a7adb55ae99",
+  "d": "2026-10-16"
  },
  "eventos/barcelona-vs-manchester-city-2026-12-08/": {
-  "h": "ba893e362ed6b38c",
-  "d": "2026-10-15"
+  "h": "9be340371d868c3e",
+  "d": "2026-10-16"
  },
  "eventos/barcelona-vs-real-madrid-2026-10-25/": {
-  "h": "d45d0e6ef5d1c424",
-  "d": "2026-10-15"
+  "h": "ce28ac12e0dd49a2",
+  "d": "2026-10-16"
  },
  "eventos/celine-dion-paris-2027-05-14/": {
-  "h": "c4fd0ea095df4aee",
-  "d": "2026-10-15"
+  "h": "17ea7b39c88b3e3d",
+  "d": "2026-10-16"
  },
  "eventos/final-australian-open-2027-01-31/": {
-  "h": "3aad6041ae463748",
-  "d": "2026-10-15"
+  "h": "06d46ad3e70bcdd5",
+  "d": "2026-10-16"
  },
  "eventos/final-champions-league-2027-06-05/": {
-  "h": "f53d8e6aab5e82eb",
-  "d": "2026-10-15"
+  "h": "80071abd0b2f168b",
+  "d": "2026-10-16"
  },
  "eventos/franca-vs-africa-do-sul-2026-11-13/": {
-  "h": "a805480b9dbd91b6",
-  "d": "2026-10-15"
+  "h": "bc67ad5660b93c41",
+  "d": "2026-10-16"
  },
  "eventos/gp-abu-dhabi-f1-2026-12-06/": {
-  "h": "ad2d0f3eed0df31e",
-  "d": "2026-10-15"
+  "h": "afdfea7dd522f94d",
+  "d": "2026-10-16"
  },
  "eventos/italia-vs-franca-2026-11-12/": {
-  "h": "f6fd91d65d7c4590",
-  "d": "2026-10-15"
+  "h": "7d1035fd6fa0f261",
+  "d": "2026-10-16"
  },
  "eventos/knicks-vs-nuggets-2027-01-11/": {
-  "h": "60f85233f03a78b5",
-  "d": "2026-10-15"
+  "h": "d8bc4ff472d3cf2e",
+  "d": "2026-10-16"
  },
  "eventos/milan-vs-inter-2026-10-31/": {
-  "h": "076dcd6f561771c7",
-  "d": "2026-10-15"
+  "h": "5bf66f13d7a73d31",
+  "d": "2026-10-16"
  },
  "futebol/": {
-  "h": "57f18f017cc82764",
-  "d": "2026-10-15"
+  "h": "2c2b1e7d63fb0740",
+  "d": "2026-10-16"
  },
  "guias/comprar-ingressos-europa-sem-risco/": {
-  "h": "3a1d727fe3c3b766",
-  "d": "2026-10-15"
+  "h": "e034db17a40fc829",
+  "d": "2026-10-16"
  },
  "privacidade/": {
-  "h": "fb6a99c69cd3e50f",
-  "d": "2026-10-15"
+  "h": "ba4c897112f930ce",
+  "d": "2026-10-16"
  }
 }

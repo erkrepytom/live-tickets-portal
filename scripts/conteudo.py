@@ -398,3 +398,127 @@ GUIA = {
   "cite_h": "Usa esta guía en tu web", "cite_p": "Los blogs de viajes y de fútbol pueden enlazar esta guía libremente. Copia el código:",
   "eventos_h": "Guías de eventos con estos consejos aplicados"},
 }
+
+
+# ---------- Parceiros de venda (modelo agregador) ----------
+# Cada parceiro aparece no site só com "ativo": True E com um link de afiliado real. Para ligar um parceiro novo
+# depois da aprovação no programa (Partnerize, Awin, Tiqets...): preencha "url" com o deeplink do painel,
+# troque "ativo" para True e rode o gerador. O botão passa pelo gateway /go/<parceiro>/<idioma>/<evento>/,
+# então trocar o link depois exige mudar só esta linha.
+#
+# Situação em 16/10/2026: Sports Events 365 aprovada. StubHub e viagogo (Partnerize) apenas "elegíveis",
+# Awin sem anunciantes aprovados, GetYourGuide e Tiqets sem conta ativa.
+PARCEIROS = {
+ "se365": {
+  "ativo": True, "nome": "Sports Events 365", "tipo": "evento",
+  "selo": {"pt": "Garantia de entrega e lugares em par", "en": "Delivery guarantee and seats in pairs",
+           "es": "Garantía de entrega y asientos en pareja"},
+  "fatos": {
+   "pt": ["Revenda com garantia de entrega: se a entrega falhar por culpa do parceiro, ele devolve até 100% do valor dos ingressos.",
+          "Lugares em par, salvo lotes marcados como 'Single seats'.",
+          "Pedido confirmado em até 1 dia útil; central de emergência no dia do evento."],
+   "en": ["Resale with a delivery guarantee: if delivery fails on the partner's side, it refunds up to 100% of the ticket price.",
+          "Seats in pairs unless a listing says 'Single seats'.",
+          "Order confirmed within 1 business day; emergency line on event day."],
+   "es": ["Reventa con garantía de entrega: si la entrega falla por causa del socio, devuelve hasta el 100% del valor de las entradas.",
+          "Asientos en pareja, salvo lotes marcados como 'Single seats'.",
+          "Pedido confirmado en un plazo de 1 día hábil; línea de emergencia el día del evento."]},
+  "termos": "https://sportsevents365.com/terms-and-conditions",
+ },
+ # Os parceiros abaixo ficam desligados até haver aprovação e link de afiliado.
+ "viagogo": {"ativo": False, "nome": "viagogo", "tipo": "evento", "url": "",
+  "selo": {"pt": "Marketplace de revenda", "en": "Resale marketplace", "es": "Marketplace de reventa"}, "fatos": {}, "termos": ""},
+ "stubhub": {"ativo": False, "nome": "StubHub", "tipo": "evento", "url": "",
+  "selo": {"pt": "Marketplace de revenda", "en": "Resale marketplace", "es": "Marketplace de reventa"}, "fatos": {}, "termos": ""},
+ "tiqets": {"ativo": False, "nome": "Tiqets", "tipo": "tour", "url": "",
+  "selo": {"pt": "Tour do estádio e museu", "en": "Stadium tour and museum", "es": "Tour del estadio y museo"}, "fatos": {}, "termos": ""},
+}
+
+
+def parceiros_ativos(tipo=None):
+    return [(k, p) for k, p in PARCEIROS.items() if p["ativo"] and (tipo is None or p["tipo"] == tipo)]
+
+
+def nomes_parceiros():
+    return ", ".join(p["nome"] for _, p in parceiros_ativos())
+
+
+# Textos legais do modelo agregador. {parceiros} = nomes dos parceiros ativos (nunca cite quem não é parceiro).
+LEGAL = {
+ "pt": {
+  "foot": "O MyTickets Tours é um guia independente de ingressos para esporte e shows. Não somos bilheteria oficial, organizador nem administrador dos locais. Os ingressos são vendidos e emitidos pelos parceiros indicados em cada página ({parceiros}), que atuam na revenda; o contrato de compra é feito diretamente com o parceiro escolhido. Os preços são definidos pelos vendedores e podem ficar acima ou abaixo do valor impresso no ingresso. Quando você compra pelos nossos links, podemos receber comissão, sem custo extra para você. Nomes de clubes, ligas e eventos são usados só para identificação; não temos vínculo oficial com eles.",
+  "face": "Preços no parceiro podem ser maiores ou menores que o valor impresso no ingresso. Taxas de serviço e entrega podem ser somadas no checkout do parceiro: confira o total antes de pagar.",
+  "onde_h": "Onde comprar", "onde_sub": "Compare e escolha. A compra, o pagamento e a entrega acontecem no site do parceiro.",
+  "vendedor": "Vendedor", "ver_termos": "Termos do parceiro", "cta": "Ver ingressos na {nome}",
+  "pagina_link": "AFILIADOS E AVISO LEGAL",
+ },
+ "en": {
+  "foot": "MyTickets Tours is an independent ticket guide for sports and shows. We are not an official box office, event organizer or venue operator. Tickets are sold and issued by the partners shown on each page ({parceiros}), which operate in resale; the purchase contract is made directly with the partner you choose. Prices are set by sellers and may be above or below the face value printed on the ticket. When you buy through our links we may earn a commission at no extra cost to you. Club, league and event names are used for identification only; we have no official connection with them.",
+  "face": "Prices at the partner may be higher or lower than the face value printed on the ticket. Service and delivery fees may be added at the partner's checkout: check the total before you pay.",
+  "onde_h": "Where to buy", "onde_sub": "Compare and choose. Purchase, payment and delivery happen on the partner's site.",
+  "vendedor": "Seller", "ver_termos": "Partner terms", "cta": "See tickets at {nome}",
+  "pagina_link": "AFFILIATES AND LEGAL",
+ },
+ "es": {
+  "foot": "MyTickets Tours es una guía independiente de entradas para deportes y conciertos. No somos taquilla oficial, organizador ni operador de los recintos. Las entradas las venden y emiten los socios indicados en cada página ({parceiros}), que operan en la reventa; el contrato de compra se celebra directamente con el socio elegido. Los precios los fijan los vendedores y pueden estar por encima o por debajo del valor nominal impreso en la entrada. Cuando compras con nuestros enlaces podemos recibir una comisión sin costo extra para ti. Los nombres de clubes, ligas y eventos se usan solo para identificarlos; no tenemos vínculo oficial con ellos.",
+  "face": "Los precios en el socio pueden ser mayores o menores que el valor nominal impreso en la entrada. El socio puede sumar cargos de servicio y entrega en su checkout: revisa el total antes de pagar.",
+  "onde_h": "Dónde comprar", "onde_sub": "Compara y elige. La compra, el pago y la entrega se hacen en el sitio del socio.",
+  "vendedor": "Vendedor", "ver_termos": "Términos del socio", "cta": "Ver entradas en {nome}",
+  "pagina_link": "AFILIADOS Y AVISO LEGAL",
+ },
+}
+
+# Página "Afiliados e aviso legal" (divulgação de afiliados + termos de uso).
+DIVULGACAO = {
+ "pt": {"path": "afiliados-e-aviso-legal/", "title": "Afiliados e aviso legal | MyTickets Tours",
+  "desc": "Como o MyTickets Tours funciona como guia e agregador de ingressos, como ganhamos dinheiro, quem vende, preços acima do valor de face e uso de marcas.",
+  "h1": "Afiliados e aviso legal",
+  "lead": "O MyTickets Tours é um guia editorial e comparativo de ingressos. Esta página explica o que fazemos, o que não fazemos e quem responde pela sua compra.",
+  "secoes": [
+   ("O que é o MyTickets", ["Publicamos guias de eventos (data, local, como chegar, setores) e indicamos onde comprar. Não temos estoque de ingressos, não processamos pagamentos e não emitimos ingressos físicos ou digitais.",
+                            "Parceiros de venda hoje: {parceiros}. Cada página de evento mostra o nome do vendedor antes do clique."]),
+   ("Quem vende e quem responde pela compra", ["O contrato de compra é feito diretamente entre você e o parceiro escolhido. Pagamento, emissão, entrega, troca, cancelamento, reembolso e atendimento depois do checkout seguem os termos desse parceiro.",
+                                              "Garantias (entrada válida, lugares juntos, reposição ou reembolso) são dadas exclusivamente pela política do parceiro onde a compra for concluída. Leia os termos no checkout antes de pagar."]),
+   ("Preço, valor de face e taxas", ["Os parceiros atuam na revenda. O preço é definido pelo vendedor e pode ficar acima ou abaixo do valor impresso no ingresso.",
+                                     "Taxas de serviço, de entrega e impostos podem ser somados no checkout do parceiro. Confira o valor total antes de pagar."]),
+   ("Como ganhamos dinheiro", ["O site participa de programas de afiliados. Quando você clica num link de compra e conclui um pedido, o parceiro pode nos pagar uma comissão. O preço para você é o mesmo.",
+                               "Os links de compra são marcados como patrocinados (rel=\"sponsored\") e passam por endereços /go/ do nosso domínio, que só redirecionam ao parceiro."]),
+   ("Marcas e nomes de eventos", ["Nomes de clubes, ligas, competições, artistas e locais (como UEFA, La Liga, Premier League, FC Barcelona ou Real Madrid) aparecem só para identificar o evento. O MyTickets não tem vínculo oficial, patrocínio ou autorização de clubes, ligas, organizadores ou locais.",
+                                  "Revenda de ingressos tem regras próprias em alguns países e competições. Verifique as regras do evento e do país antes de comprar."]),
+   ("Correções e contato", ["Conferimos datas e horários no catálogo do parceiro e mostramos na página quando foi a última conferência. Encontrou algo errado? Escreva para {email}."]),
+  ]},
+ "en": {"path": "en/affiliate-disclosure/", "title": "Affiliate disclosure and legal notice | MyTickets Tours",
+  "desc": "How MyTickets Tours works as a ticket guide and aggregator, how we make money, who sells, prices above face value and use of trademarks.",
+  "h1": "Affiliate disclosure and legal notice",
+  "lead": "MyTickets Tours is an editorial and comparison guide to tickets. This page explains what we do, what we don't do, and who is responsible for your purchase.",
+  "secoes": [
+   ("What MyTickets is", ["We publish event guides (date, venue, getting there, sections) and show where to buy. We hold no ticket inventory, process no payments and issue no physical or digital tickets.",
+                          "Current sales partners: {parceiros}. Each event page names the seller before you click."]),
+   ("Who sells and who is responsible", ["The purchase contract is made directly between you and the partner you choose. Payment, issuing, delivery, exchanges, cancellations, refunds and after-checkout support follow that partner's terms.",
+                                         "Guarantees (valid entry, seats together, replacement or refund) are given only under the policy of the partner where you complete the purchase. Read the terms at checkout before paying."]),
+   ("Price, face value and fees", ["Partners operate in resale. The price is set by the seller and may be above or below the face value printed on the ticket.",
+                                   "Service fees, delivery fees and taxes may be added at the partner's checkout. Check the total before you pay."]),
+   ("How we make money", ["This site takes part in affiliate programs. If you click a booking link and complete an order, the partner may pay us a commission. Your price is the same.",
+                          "Booking links are marked as sponsored (rel=\"sponsored\") and go through /go/ addresses on our domain, which only redirect to the partner."]),
+   ("Trademarks and event names", ["Club, league, competition, artist and venue names (such as UEFA, La Liga, the Premier League, FC Barcelona or Real Madrid) are used only to identify the event. MyTickets has no official connection with, sponsorship from or authorization by any club, league, organizer or venue.",
+                                   "Ticket resale has its own rules in some countries and competitions. Check the event's and the country's rules before you buy."]),
+   ("Corrections and contact", ["We check dates and times in the partner's catalogue and show on the page when they were last checked. Spotted a mistake? Write to {email}."]),
+  ]},
+ "es": {"path": "es/afiliados-y-aviso-legal/", "title": "Afiliados y aviso legal | MyTickets Tours",
+  "desc": "Cómo funciona MyTickets Tours como guía y agregador de entradas, cómo ganamos dinero, quién vende, precios por encima del valor nominal y uso de marcas.",
+  "h1": "Afiliados y aviso legal",
+  "lead": "MyTickets Tours es una guía editorial y comparativa de entradas. Esta página explica qué hacemos, qué no hacemos y quién responde por tu compra.",
+  "secoes": [
+   ("Qué es MyTickets", ["Publicamos guías de eventos (fecha, recinto, cómo llegar, sectores) e indicamos dónde comprar. No tenemos stock de entradas, no procesamos pagos y no emitimos entradas físicas ni digitales.",
+                         "Socios de venta actuales: {parceiros}. Cada página de evento muestra el nombre del vendedor antes del clic."]),
+   ("Quién vende y quién responde por la compra", ["El contrato de compra se celebra directamente entre tú y el socio elegido. Pago, emisión, entrega, cambios, cancelaciones, reembolsos y atención posterior al checkout siguen los términos de ese socio.",
+                                                  "Las garantías (acceso válido, asientos juntos, reposición o reembolso) las da exclusivamente la política del socio donde completes la compra. Lee los términos en el checkout antes de pagar."]),
+   ("Precio, valor nominal y cargos", ["Los socios operan en la reventa. El precio lo fija el vendedor y puede estar por encima o por debajo del valor nominal impreso en la entrada.",
+                                       "El socio puede sumar cargos de servicio, de entrega e impuestos en su checkout. Revisa el total antes de pagar."]),
+   ("Cómo ganamos dinero", ["El sitio participa en programas de afiliados. Si haces clic en un enlace de compra y completas un pedido, el socio puede pagarnos una comisión. Tu precio es el mismo.",
+                            "Los enlaces de compra están marcados como patrocinados (rel=\"sponsored\") y pasan por direcciones /go/ de nuestro dominio, que solo redirigen al socio."]),
+   ("Marcas y nombres de eventos", ["Los nombres de clubes, ligas, competiciones, artistas y recintos (como UEFA, La Liga, Premier League, FC Barcelona o Real Madrid) se usan solo para identificar el evento. MyTickets no tiene vínculo oficial, patrocinio ni autorización de clubes, ligas, organizadores o recintos.",
+                                    "La reventa de entradas tiene reglas propias en algunos países y competiciones. Revisa las reglas del evento y del país antes de comprar."]),
+   ("Correcciones y contacto", ["Revisamos fechas y horarios en el catálogo del socio y mostramos en la página cuándo fue la última revisión. ¿Ves un error? Escribe a {email}."]),
+  ]},
+}

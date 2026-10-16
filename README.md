@@ -37,6 +37,17 @@ Past events are dropped automatically the next time the script runs.
 - Event pages carry `FAQPage` JSON-LD. Google currently shows FAQ rich results only for government and health sites, so the gain is in content and long-tail matching, not in the rich result itself.
 - "More events" on each event page favours the same city and competition first (internal silo), so authority reaching a big match flows to smaller ones on the same topic.
 
+## Partners (aggregator model)
+
+`PARCEIROS` in `scripts/conteudo.py` lists every sales partner. A partner shows on the site only when `"ativo": True` and it has a real affiliate link for the event. Today only Sports Events 365 is active; viagogo, StubHub and Tiqets are listed but switched off until their programs approve the account.
+
+To switch on a new partner after approval:
+1. In `data/eventos.json`, add the partner's deeplink to each event it sells: `"links": {"viagogo": "https://..."}` (Sports Events 365 links are built automatically).
+2. In `PARCEIROS`, set `"ativo": True` and fill in `selo`, `fatos` (only facts taken from the partner's terms) and `termos`.
+3. Run the generator. The event page gets a new card under "Where to buy", the footer and the legal page list the new name, and the button goes through `/go/<partner>/<lang>/<event>/`.
+
+Outbound clicks send `outbound_ticket_click` to GA4 (`partner`, `event_name`, `target_lang`, `click_location`) as well as `affiliate_click`.
+
 ## Affiliate links
 
 - Deeplinks follow the panel's Deeplink generator format, on the partner's site in the page's language: `365tickets.com.br` (PT), `www.sportsevents365.com` (EN), `sportsevents365.es` (ES). The localized domains are the partner's own (hreflang) and the 365tickets.com.br click showed up in the panel's Raw Clicks report. Sending each visitor to a site already in their language stops Chrome's automatic translation, which breaks the partner's pages a few seconds after they load.

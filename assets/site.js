@@ -92,14 +92,17 @@ function gtagSafe(){ if (typeof window.gtag === "function") window.gtag.apply(nu
    Links protegidos do próprio site (/ir/123/) contam como link de evento. */
 function partnerLink(a){
   let u; try { u = new URL(a.href); } catch (e) { return null; }
+  // Gateway do próprio site: /go/<parceiro>/<idioma>/<evento>/ (e o antigo /ir/<idioma>/<id>/)
+  const go = u.host === location.host && u.pathname.match(/\/go\/([a-z0-9]+)\/([a-z]{2})\/([a-z0-9-]+)\/?$/);
+  if (go) return { type: "event", id: (window.MT_ITEM && window.MT_ITEM.item_id) || "", slug: go[3], partner: go[1], lang: go[2], path: u.pathname, url: u, cloaked: true };
   const ir = u.host === location.host && u.pathname.match(/\/ir\/(?:[a-z]{2}\/)?(\d+)\/?$/);
-  if (ir) return { type: "event", id: ir[1], path: u.pathname, url: u, cloaked: true };
+  if (ir) return { type: "event", id: ir[1], partner: "se365", path: u.pathname, url: u, cloaked: true };
   // Sites do parceiro: .com (inglês), 365tickets.com.br (português), .es (espanhol). aff.: indicação de afiliados, não é venda.
   if (!/(^|\.)(sportsevents365\.com|sportsevents365\.es|365tickets\.com\.br)$/.test(u.hostname) || /^aff\./.test(u.hostname)) return null;
   const p = u.pathname, m = p.match(/^\/event\/(\d+)/);
   const type = m ? "event" : /\/dock\/competition\//.test(p) ? "competition" : /\/dock\/team\//.test(p) ? "team"
     : /\/dock\/cities\//.test(p) ? "city" : /\/dock\/music\//.test(p) ? "artist" : /\/concerts/.test(p) ? "sport" : "home";
-  return { type, id: m ? m[1] : "", path: p, url: u, cloaked: false };
+  return { type, id: m ? m[1] : "", partner: "se365", path: p, url: u, cloaked: false };
 }
 /* SubID do painel de afiliado: data1 = onde foi o clique, data2 = em qual página (aparecem no relatório de comissões). */
 function subId(){
@@ -111,7 +114,7 @@ document.addEventListener("click", ev => {
   if (!a) return;
   const l = partnerLink(a);
   if (!l) return;
-  const where = a.closest(".buybar") ? "buybar" : a.closest("#partidas") ? "board" : a.closest(".ev-hero .ev-cta") ? "event_cta_top" : a.closest(".ev-cta") ? "event_cta"
+  const where = a.closest(".buybar") ? "buybar" : a.closest(".buy") ? "buy_options" : a.closest("#partidas") ? "board" : a.closest(".ev-hero .ev-cta") ? "event_cta_top" : a.closest(".ev-cta") ? "event_cta"
     : a.closest(".ev-hero") ? "event_facts" : a.closest("#explorar") ? "explore" : a.closest(".top") ? "header" : a.closest(".foot") ? "footer"
     : a.closest("#banner3d") ? "banner" : a.closest(".hero") ? "hero" : a.closest(".tips") ? "event_also" : "content";
   // Escreve o SubID no próprio link antes de o navegador seguir (o evento roda na fase de captura).
@@ -120,7 +123,10 @@ document.addEventListener("click", ev => {
   else { u.searchParams.set("data1", where); u.searchParams.set("data2", subId()); }
   a.href = u.toString();
   // Conversão principal do site afiliado: marque "affiliate_click" como evento-chave no GA4 e importe no Google Ads.
-  track({ event: "affiliate_click", link_type: l.type, link_url: a.href, partner_event_id: l.id, click_location: where });
+  track({ event: "affiliate_click", link_type: l.type, link_url: a.href, partner_event_id: l.id, click_location: where, partner: l.partner });
+  // Comparação entre parceiros: qual vendedor o público escolhe em cada evento e idioma.
+  track({ event: "outbound_ticket_click", partner: l.partner, event_name: l.slug || (window.MT_ITEM && window.MT_ITEM.item_name) || l.path,
+          target_lang: l.lang || document.documentElement.lang.slice(0, 2), link_type: l.type, click_location: where });
   if (l.type === "event"){
     const it = (window.MT_ITEM && window.MT_ITEM.item_id === l.id) ? window.MT_ITEM
       : { item_id: l.id, item_name: (a.getAttribute("aria-label") || a.textContent || "").replace(/^[^:]*:\s*/, "").trim(), item_brand: "SportsEvents365" };

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /ir/
+Disallow: /go/
 Sitemap: https://mytickets.tours/sitemap.xml

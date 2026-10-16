@@ -74,8 +74,8 @@ T = {
   "home_desc": "Ingressos para La Liga, Serie A, Champions League, NBA, Fórmula 1, tênis e shows internacionais, com o guia de cada evento. Venda e entrega pela SportsEvents365.",
   "nav": ["Partidas", "Explorar", "Como funciona", "Alertas"], "cta": "Ver ingressos",
   "hero_kicker": "Ingressos para esporte e shows no mundo todo", "hero_l1": "PARTIDAS PARA", "hero_l2": "O JOGO", "hero_h1": "Partidas para o jogo",
-  "hero_sub": "Escolha o evento, entenda a viagem e compre no parceiro oficial. Em português, inglês e espanhol.",
-  "hero_cta2": "Receber alertas", "hero_note": "Ingressos vendidos e entregues pela SportsEvents365.", "gate": "PORTÃO",
+  "hero_sub": "Escolha o evento, entenda a viagem e compre num parceiro com garantia de entrega. Em português, inglês e espanhol.",
+  "hero_cta2": "Receber alertas", "hero_note": "Guia independente de ingressos. Você compra no site do parceiro: {parceiros}.", "gate": "PORTÃO",
   "board_kicker": "Painel de partidas", "board_h": "Próximas partidas",
   "board_sub": "Toque no nome para ver o guia do evento, ou em embarque para ir direto aos ingressos.",
   "cols": ["QUANDO", "EVENTO", "CIDADE", "STATUS"], "go": "EMBARQUE",
@@ -104,7 +104,7 @@ T = {
   "ev_cta": "Ver ingressos no parceiro", "ev_alert": "Avisar quando abrir a venda", "get_h": "Como chegar", "tips_h": "Dicas de setor",
   "also": "Veja também no parceiro", "more_k": "Mais partidas", "more_h": "Outros embarques",
   "short_tag": "SHORT · PT · EM BREVE", "short_t": "Como ver {t} saindo do Brasil",
-  "ev_title": "{t}: ingressos e guia | MyTickets Tours", "ev_desc": "Ingressos para {t} em {d}, {v}, {c}. Como chegar, dicas de setor e compra no parceiro oficial.",
+  "ev_title": "{t}: ingressos e guia | MyTickets Tours", "ev_desc": "Ingressos para {t} em {d}, {v}, {c}. Como chegar, dicas de setor e compra em parceiro com garantia de entrega.",
   "date_note": "Data do catálogo do parceiro. O horário é confirmado pelo organizador.",
  },
  "en": {
@@ -112,8 +112,8 @@ T = {
   "home_desc": "Tickets for La Liga, Serie A, the Champions League, NBA, Formula 1, tennis and concerts worldwide, with a guide to every event. Sold and delivered by SportsEvents365.",
   "nav": ["Departures", "Explore", "How it works", "Alerts"], "cta": "See tickets",
   "hero_kicker": "Tickets for sports and shows worldwide", "hero_l1": "DEPARTURES TO", "hero_l2": "THE GAME", "hero_h1": "Departures to the game",
-  "hero_sub": "Pick the event, plan the trip and buy from the official partner. In Portuguese, English and Spanish.",
-  "hero_cta2": "Get alerts", "hero_note": "Tickets sold and delivered by SportsEvents365.", "gate": "GATE",
+  "hero_sub": "Pick the event, plan the trip and buy from a partner with a delivery guarantee. In Portuguese, English and Spanish.",
+  "hero_cta2": "Get alerts", "hero_note": "Independent ticket guide. You buy on the partner's site: {parceiros}.", "gate": "GATE",
   "board_kicker": "Departures board", "board_h": "Next departures",
   "board_sub": "Tap a name for the event guide, or tap boarding to go straight to tickets.",
   "cols": ["WHEN", "EVENT", "CITY", "STATUS"], "go": "BOARDING",
@@ -142,7 +142,7 @@ T = {
   "ev_cta": "See tickets at the partner", "ev_alert": "Tell me when sales open", "get_h": "Getting there", "tips_h": "Seating tips",
   "also": "Also at the partner", "more_k": "More departures", "more_h": "Other events",
   "short_tag": "SHORT · EN · COMING SOON", "short_t": "How to see {t} from abroad",
-  "ev_title": "{t}: tickets and guide | MyTickets Tours", "ev_desc": "Tickets for {t} on {d} at {v}, {c}. Getting there, seating tips and booking with the official partner.",
+  "ev_title": "{t}: tickets and guide | MyTickets Tours", "ev_desc": "Tickets for {t} on {d} at {v}, {c}. Getting there, seating tips and booking with a partner that guarantees delivery.",
   "date_note": "Date from the partner's catalogue. Start time is confirmed by the organizer.",
  },
  "es": {
@@ -150,8 +150,8 @@ T = {
   "home_desc": "Entradas para La Liga, Serie A, Champions League, NBA, Fórmula 1, tenis y conciertos internacionales, con la guía de cada evento. Venta y entrega por SportsEvents365.",
   "nav": ["Salidas", "Explorar", "Cómo funciona", "Alertas"], "cta": "Ver entradas",
   "hero_kicker": "Entradas para deportes y shows en todo el mundo", "hero_l1": "SALIDAS HACIA", "hero_l2": "EL PARTIDO", "hero_h1": "Salidas hacia el partido",
-  "hero_sub": "Elige el evento, planea el viaje y compra en el socio oficial. En portugués, inglés y español.",
-  "hero_cta2": "Recibir alertas", "hero_note": "Entradas vendidas y entregadas por SportsEvents365.", "gate": "PUERTA",
+  "hero_sub": "Elige el evento, planea el viaje y compra en un socio con garantía de entrega. En portugués, inglés y español.",
+  "hero_cta2": "Recibir alertas", "hero_note": "Guía independiente de entradas. Compras en el sitio del socio: {parceiros}.", "gate": "PUERTA",
   "board_kicker": "Panel de salidas", "board_h": "Próximas salidas",
   "board_sub": "Toca el nombre para ver la guía del evento, o embarque para ir directo a las entradas.",
   "cols": ["CUÁNDO", "EVENTO", "CIUDAD", "ESTADO"], "go": "EMBARQUE",
@@ -180,7 +180,7 @@ T = {
   "ev_cta": "Ver entradas en el socio", "ev_alert": "Avisarme cuando abra la venta", "get_h": "Cómo llegar", "tips_h": "Consejos de sector",
   "also": "También en el socio", "more_k": "Más salidas", "more_h": "Otros eventos",
   "short_tag": "SHORT · ES · PRÓXIMAMENTE", "short_t": "Cómo ver {t} desde otro país",
-  "ev_title": "{t}: entradas y guía | MyTickets Tours", "ev_desc": "Entradas para {t} el {d} en {v}, {c}. Cómo llegar, consejos de sector y compra en el socio oficial.",
+  "ev_title": "{t}: entradas y guía | MyTickets Tours", "ev_desc": "Entradas para {t} el {d} en {v}, {c}. Cómo llegar, consejos de sector y compra en un socio con garantía de entrega.",
   "date_note": "Fecha del catálogo del socio. La hora la confirma el organizador.",
  },
 }
@@ -225,17 +225,17 @@ HUB_ESPORTE = {
 }
 HT = {
  "pt": {"h_esporte": "Ingressos de {x}", "h_cidade": "Ingressos em {x}", "h_competicao": "Ingressos {x}",
-        "desc": "{n} eventos com guia completo, como {lista}. Datas, locais, como chegar e compra no parceiro oficial.",
+        "desc": "{n} eventos com guia completo, como {lista}. Datas, locais, como chegar e compra em parceiro com garantia de entrega.",
         "lead": "{n} eventos com página própria no MyTickets: data, local, como chegar e dicas de setor. A compra acontece na SportsEvents365, com setor e preço visíveis antes do pagamento.",
         "list_h": "Próximas datas", "partner": "Ver todo o catálogo no parceiro", "guides": "Guias no site", "kicker": "Guia de ingressos",
         "c_text": "Usamos cookies do Google Analytics para medir visitas e cliques, só com a sua permissão.", "c_yes": "Aceitar", "c_no": "Recusar", "c_more": "Privacidade"},
  "en": {"h_esporte": "{X} tickets", "h_cidade": "Tickets in {x}", "h_competicao": "{x} tickets",
-        "desc": "{n} events with a full guide, including {lista}. Dates, venues, getting there and booking with the official partner.",
+        "desc": "{n} events with a full guide, including {lista}. Dates, venues, getting there and booking with a partner that guarantees delivery.",
         "lead": "{n} events with their own page on MyTickets: date, venue, getting there and seating tips. Booking happens at SportsEvents365, where you see the section and price before paying.",
         "list_h": "Upcoming dates", "partner": "See the full partner catalogue", "guides": "Guides on the site", "kicker": "Ticket guide",
         "c_text": "We use Google Analytics cookies to measure visits and clicks, only with your permission.", "c_yes": "Accept", "c_no": "Decline", "c_more": "Privacy"},
  "es": {"h_esporte": "Entradas de {x}", "h_cidade": "Entradas en {x}", "h_competicao": "Entradas {x}",
-        "desc": "{n} eventos con guía completa, como {lista}. Fechas, recintos, cómo llegar y compra en el socio oficial.",
+        "desc": "{n} eventos con guía completa, como {lista}. Fechas, recintos, cómo llegar y compra en un socio con garantía de entrega.",
         "lead": "{n} eventos con página propia en MyTickets: fecha, recinto, cómo llegar y consejos de sector. La compra se hace en SportsEvents365, con sector y precio visibles antes de pagar.",
         "list_h": "Próximas fechas", "partner": "Ver todo el catálogo del socio", "guides": "Guías en el sitio", "kicker": "Guía de entradas",
         "c_text": "Usamos cookies de Google Analytics para medir visitas y clics, solo con tu permiso.", "c_yes": "Aceptar", "c_no": "Rechazar", "c_more": "Privacidad"},
@@ -366,6 +366,36 @@ def parceiro(lang, caminho, data1=None, data2=None):
     return url
 
 
+def caminho_go(pk, lang, ev):
+    """Gateway de saída: /go/<parceiro>/<idioma>/<evento>/ (trocar o link do parceiro não mexe nas páginas)."""
+    return f"go/{pk}/{lang}/{ev['slug']}/"
+
+
+def destino_parceiro(pk, lang, ev):
+    """URL de afiliado do parceiro para o evento, ou None se o parceiro não vende esse evento."""
+    if pk == "se365":
+        return parceiro(lang, f"/event/{ev['id']}")
+    return (ev.get("links") or {}).get(pk) or None
+
+
+def opcoes_compra(lang, ev):
+    return [(pk, p, destino_parceiro(pk, lang, ev)) for pk, p in C.parceiros_ativos("evento") if destino_parceiro(pk, lang, ev)]
+
+
+def pagina_go(pk, lang, ev, destino):
+    """Redireciona ao parceiro repassando o SubID (?d1=&d2=). Sem JavaScript, o meta refresh resolve."""
+    sub = "data" if pk == "se365" else ""
+    return f"""<!DOCTYPE html>
+<html lang="{HREFLANG[lang]}"><head><meta charset="UTF-8"><meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>{e(L(ev['titulo'], lang))} · {e(C.PARCEIROS[pk]['nome'])} | MyTickets Tours</title>
+<meta http-equiv="refresh" content="1;url={e(destino)}">
+<script>(function(){{var q=new URLSearchParams(location.search),u={json.dumps(destino)},s={json.dumps(sub)};
+if(s){{["d1","d2"].forEach(function(k,i){{var v=q.get(k);if(v)u+=(u.indexOf("?")<0?"?":"&")+s+(i+1)+"="+encodeURIComponent(v.slice(0,100))}})}}location.replace(u)}})();</script>
+</head><body style="font-family:system-ui,sans-serif;padding:24px"><p><a href="{e(destino)}" rel="sponsored nofollow">{e(C.PARCEIROS[pk]['nome'])} →</a></p></body></html>
+"""
+
+
 def caminho_ir(ev, lang="en"):
     return f"ir/{lang}/{ev['id']}/"
 
@@ -373,7 +403,7 @@ def caminho_ir(ev, lang="en"):
 def link_ingresso(pagina, ev):
     """Link protegido (cloaker) do botão de ingresso: /ir/<id>/ redireciona ao parceiro com o código de afiliado."""
     lang = "en" if pagina.startswith("en/") else "es" if pagina.startswith("es/") else "pt"
-    return rel(pagina, caminho_ir(ev, lang))
+    return rel(pagina, caminho_go("se365", lang, ev))
 
 
 def pagina_ir(ev, lang="en"):
@@ -438,10 +468,10 @@ def rel(de, para):
 
 
 def mag(href, texto, cls="btn btn-signal", ext=True, seta=True):
-    alvo = ' target="_blank" rel="sponsored noopener"' if ext else ""
-    m = re.search(r"(?:^|/)ir/(?:[a-z]{2}/)?(\d+)/$", href)
+    alvo = ' target="_blank" rel="sponsored nofollow noopener"' if ext else ""
+    m = re.search(r"(?:^|/)go/([a-z0-9]+)/[a-z]{2}/[a-z0-9-]+/$", href)
     if m:
-        alvo = f' target="_blank" rel="sponsored nofollow" data-aff-event="{m.group(1)}"'
+        alvo = f' target="_blank" rel="sponsored nofollow noopener" data-partner="{m.group(1)}"'
     s = ' <span class="arrow" aria-hidden="true">→</span>' if seta else ""
     return f'<a class="{cls}" data-magnetic href="{e(href)}"{alvo}><span class="mag-inner">{texto}{s}</span></a>'
 
@@ -594,9 +624,9 @@ def rodape(lang, pagina, alternos):
     return f"""<footer class="foot">
   <div class="wrap">
     <a class="brand" href="{rel(pagina, caminho_home(lang))}">MY<b>TICKETS</b>.TOURS</a>
-    <p class="foot-disc">{e(t['foot_disc'])}</p>
-    <div class="foot-links">{langs}<a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(C.ROT[lang]['como_h'].upper())}</a><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'].upper())}</a><a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a><a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored noopener">SPORTSEVENTS365</a></div>
-    <p class="foot-aff"><a href="{SUBAFILIADO}" target="_blank" rel="sponsored noopener">{e(SUB_TXT[lang][0])}</a> <span>({e(SUB_TXT[lang][1])})</span></p>
+    <p class="foot-disc">{e(C.LEGAL[lang]['foot'].format(parceiros=C.nomes_parceiros()))}</p>
+    <div class="foot-links">{langs}<a href="{rel(pagina, C.DIVULGACAO[lang]['path'])}">{e(C.LEGAL[lang]['pagina_link'])}</a><a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(C.ROT[lang]['como_h'].upper())}</a><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'].upper())}</a><a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a><a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored nofollow noopener">SPORTSEVENTS365</a></div>
+    <p class="foot-aff"><a href="{SUBAFILIADO}" target="_blank" rel="sponsored nofollow noopener">{e(SUB_TXT[lang][0])}</a> <span>({e(SUB_TXT[lang][1])})</span></p>
     <p>{e(RESPONSAVEL)} · {CONTATO_EMAIL}</p>
     <p>© {dt.date.today().year} MyTickets Tours</p>
   </div>
@@ -642,7 +672,7 @@ def home(lang, eventos, noticias, hubs):
         f'<span class="flapline" data-flap="{e(data_curta(ev["data"], lang))}" data-w="6" aria-label="{e(data_longa(ev["data"], lang))}">{e(data_curta(ev["data"], lang))}</span>'
         f'<a class="flapline b-event" href="{rel(pagina, caminho_evento(lang, ev["slug"]))}" data-flap="{e(L(ev["painel"], lang))}" data-w="22" aria-label="{e(L(ev["titulo"], lang))}">{e(L(ev["painel"], lang))}</a>'
         f'<span class="flapline b-city" data-flap="{e(L(ev["cidade"], lang).upper())}" data-w="10">{e(L(ev["cidade"], lang).upper())}</span>'
-        f'<a class="flapline b-status blink" href="{e(link_ingresso(pagina, ev))}" data-aff-event="{ev["id"]}" target="_blank" rel="sponsored nofollow" data-magnetic data-flap="{t["go"]}" data-w="8" aria-label="{e(t["go"])}: {e(L(ev["titulo"], lang))}">{t["go"]}</a>'
+        f'<a class="flapline b-status blink" href="{e(link_ingresso(pagina, ev))}" data-partner="se365" target="_blank" rel="sponsored nofollow noopener" data-magnetic data-flap="{t["go"]}" data-w="8" aria-label="{e(t["go"])}: {e(L(ev["titulo"], lang))}">{t["go"]}</a>'
         f'</div>' for ev in eventos)
     atributos = ["", "", ' class="b-city"', ' style="justify-self:end"']
     head_row = "".join(f"<span{a}>{c}</span>" for a, c in zip(atributos, t["cols"]))
@@ -652,11 +682,11 @@ def home(lang, eventos, noticias, hubs):
         if g:  # guia próprio: mostra os jogos do site antes de mandar ao parceiro
             alvo = f'href="{rel(pagina, caminho_hub(lang, g))}"'
         else:
-            alvo = f'href="{e(parceiro(lang, dock_esporte(cod)))}" target="_blank" rel="sponsored noopener"'
+            alvo = f'href="{e(parceiro(lang, dock_esporte(cod)))}" target="_blank" rel="sponsored nofollow noopener"'
         return f'<a class="ptile" {alvo}><span class="photo" style="{bg(img, 600, pagina)}"></span><span>{e(L(n, lang))}</span></a>'
     tiles = "".join(tile(n, cod, img) for n, cod, img in ESPORTES)
     def chips(itens, base):
-        return "".join(f'<a class="chip" href="{e(parceiro(lang, base + s))}" target="_blank" rel="sponsored noopener">{e(L(n, lang))}</a>' for n, s in itens)
+        return "".join(f'<a class="chip" href="{e(parceiro(lang, base + s))}" target="_blank" rel="sponsored nofollow noopener">{e(L(n, lang))}</a>' for n, s in itens)
     lista_hubs = sorted(hubs.values(), key=lambda g: (["esporte", "competicao", "cidade"].index(g["tipo"]), -len(g["eventos"])))
     guias = ""
     if lista_hubs:
@@ -696,7 +726,7 @@ def home(lang, eventos, noticias, hubs):
         {mag(parceiro(lang, '/'), e(t['cta']))}
         {mag('#alertas', e(t['hero_cta2']), 'btn btn-ghost', ext=False, seta=False)}
       </div>
-      <p class="hero-note">{e(t['hero_note'])}</p>
+      <p class="hero-note">{e(t['hero_note'].format(parceiros=C.nomes_parceiros()))} {e(C.LEGAL[lang]['face'].split('.')[0])}.</p>
     </div>
     <div class="passes" aria-hidden="true">{passes_html}</div>
   </div>
@@ -743,7 +773,7 @@ def home(lang, eventos, noticias, hubs):
     <div class="solar-box">
       <p>{e(t['solar_k'])}</p>
       <h2>{t['solar_h']}</h2>
-      <a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored noopener" data-magnetic><span class="mag-inner">{e(t['cta'])} →</span></a>
+      <a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored nofollow noopener" data-magnetic><span class="mag-inner">{e(t['cta'])} →</span></a>
     </div>
   </div>
 </section>
@@ -875,7 +905,7 @@ def evento(lang, ev, eventos, hubs):
     h = cabeca(lang, pagina, titulo_pg, desc_pg, alternos, preload(ev.get("banner", ev["img"]), 1800, pagina) + extra)
 
     def link_parceiro(nome, dock):
-        return f'<a href="{e(parceiro(lang, dock))}" target="_blank" rel="sponsored noopener">{e(nome)}</a>' if dock else e(nome)
+        return f'<a href="{e(parceiro(lang, dock))}" target="_blank" rel="sponsored nofollow noopener">{e(nome)}</a>' if dock else e(nome)
 
     def link_hub(nome, hub, dock):
         """Prefere o guia no próprio site (link interno conta para o SEO); sem hub, vai ao parceiro."""
@@ -904,6 +934,16 @@ def evento(lang, ev, eventos, hubs):
     dicas = "".join(f"<li>{e(x)}</li>" for x in DICAS[ev["tipo"]][lang])
     tambem_html = "".join(f"<li>{x}</li>" for x in tambem)
     mais = "".join(cartao(lang, pagina, x) for x in relacionados(ev, eventos))
+    lg = C.LEGAL[lang]
+    cards_compra = "".join(
+        f'<article class="buy-opt"><div class="buy-head"><span class="buy-seller">{e(lg["vendedor"])}</span><h3>{e(pp["nome"])}</h3>'
+        f'<p class="buy-badge">{e(pp["selo"][lang])}</p></div>'
+        + (f'<ul>' + "".join(f"<li>{e(x)}</li>" for x in pp["fatos"].get(lang, [])) + '</ul>' if pp["fatos"].get(lang) else "")
+        + f'<div class="buy-actions">{mag(rel(pagina, caminho_go(pk, lang, ev)), e(lg["cta"].format(nome=pp["nome"])), "btn btn-signal")}'
+        + (f'<a class="buy-terms" href="{e(pp["termos"])}" target="_blank" rel="nofollow noopener">{e(lg["ver_termos"])}</a>' if pp.get("termos") else "")
+        + '</div></article>' for pk, pp, _d in opcoes_compra(lang, ev))
+    onde_comprar = (f'<section class="buy" aria-labelledby="buy-h"><h2 id="buy-h">{e(lg["onde_h"])}</h2><p class="buy-sub">{e(lg["onde_sub"])}</p>'
+                    f'<div class="buy-list">{cards_compra}</div><p class="disclose buy-face">{e(lg["face"])}</p></section>') if cards_compra else ""
     entrada = "".join(f"<li>{e(x)}</li>" for x in C.ENTRADA[ev["tipo"]][lang])
     perfis = list(C.PUBLICO[ev["tipo"]][lang]) + ([C.LOCAL_PUBLICO[ev["local"]][lang]] if ev["local"] in C.LOCAL_PUBLICO else [])
     publico = "".join(f"<li><strong>{e(a)}.</strong> {e(b)}</li>" for a, b in perfis)
@@ -937,7 +977,7 @@ def evento(lang, ev, eventos, hubs):
       {mag(ingresso, e(t['ev_cta']))}
       {mag('#alertas', e(t['ev_alert']), 'btn btn-ghost', ext=False, seta=False)}
     </div>
-    <p class="disclose">{e(t['aff_note'])} {e(conferido)} <a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(rt['como_h'])}</a></p>
+    <p class="disclose">{e(C.LEGAL[lang]['face'])} {e(t['aff_note'])} {e(conferido)} <a href="{rel(pagina, C.DIVULGACAO[lang]['path'])}">{e(C.LEGAL[lang]['pagina_link'].capitalize())}</a></p>
   </div>
 </section>
 
@@ -959,6 +999,7 @@ def evento(lang, ev, eventos, hubs):
         <div><h2>{e(rt['entrada_h'])}</h2><ul>{entrada}</ul></div>
         <div><h2>{e(rt['publico_h'])}</h2><ul>{publico}</ul></div>
       </div>
+      {onde_comprar}
       <div class="howto">
         <h2>{e(cp['h'].format(t=titulo))}</h2>
         <ol>{passos}</ol>
@@ -1070,6 +1111,16 @@ def pagina_texto(lang, pg, pagina, alternos, ld, extra_html=""):
 </main>
 """
     return cab + corpo + rodape(lang, pagina, alternos)
+
+
+def divulgacao(lang):
+    pg = dict(C.DIVULGACAO[lang])
+    pg["secoes"] = [(t, [x.replace("{parceiros}", C.nomes_parceiros()) for x in pars]) for t, pars in pg["secoes"]]
+    pagina = pg["path"]
+    alternos = {l: C.DIVULGACAO[l]["path"] for l in IDIOMAS}
+    ld = {"@context": "https://schema.org", "@type": "WebPage", "name": pg["title"], "url": f"{BASE_URL}/{pagina}", "inLanguage": HREFLANG[lang],
+          "publisher": {"@id": f"{BASE_URL}/#org"}}
+    return pagina_texto(lang, pg, pagina, alternos, ld)
 
 
 def como_funciona(lang):
@@ -1284,6 +1335,7 @@ def main():
     for lang in IDIOMAS:
         grupos["paginas"].append(escrever(PRIV[lang]["path"], privacidade(lang), manifesto, hoje))
         grupos["paginas"].append(escrever(C.COMO_FUNCIONA[lang]["path"], como_funciona(lang), manifesto, hoje))
+        grupos["paginas"].append(escrever(C.DIVULGACAO[lang]["path"], divulgacao(lang), manifesto, hoje))
         grupos["guias"].append(escrever(C.GUIA[lang]["path"], guia(lang, eventos, hubs), manifesto, hoje))
     gerar_catalogo(eventos)
     # Um sitemap por tipo de página, reunidos num índice. Separar facilita ver no Search Console
@@ -1298,8 +1350,13 @@ def main():
             alvo.unlink()
     entradas = "\n".join(f"  <sitemap><loc>{BASE_URL}/{n}</loc><lastmod>{d}</lastmod></sitemap>" for n, d in indice)
     (RAIZ / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{entradas}\n</sitemapindex>\n', encoding="utf-8")
-    (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /ir/\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
-    for ev in eventos:  # páginas do link protegido, uma por idioma; não entram no sitemap
+    (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /ir/\nDisallow: /go/\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
+    for ev in eventos:  # gateway /go/ de cada parceiro ativo; não entra no sitemap
+        for lang in IDIOMAS:
+            for pk, _p, destino in opcoes_compra(lang, ev):
+                (RAIZ / caminho_go(pk, lang, ev)).mkdir(parents=True, exist_ok=True)
+                (RAIZ / caminho_go(pk, lang, ev) / "index.html").write_text(pagina_go(pk, lang, ev, destino), encoding="utf-8")
+    for ev in eventos:  # endereços antigos /ir/ continuam funcionando (links já compartilhados)
         for lang in IDIOMAS:
             (RAIZ / caminho_ir(ev, lang)).mkdir(parents=True, exist_ok=True)
             (RAIZ / caminho_ir(ev, lang) / "index.html").write_text(pagina_ir(ev, lang), encoding="utf-8")

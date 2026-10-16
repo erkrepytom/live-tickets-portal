@@ -369,3 +369,21 @@ html{scroll-padding-top:120px}
 @media (min-width:901px){.buybar{display:none}}
 @media (prefers-reduced-motion:reduce){.buybar{transition:none}}
 @media (max-width:900px){.buybar ~ .foot{padding-bottom:120px}}
+
+/* "Onde comprar": um cartão por parceiro ativo, com o vendedor nomeado antes do clique */
+.buy{display:grid;gap:12px;margin-top:36px}
+.buy-sub{margin:0;color:var(--mut)}
+.buy-list{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.buy-opt{display:grid;gap:12px;align-content:start;padding:18px 20px;border-radius:16px;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line),inset 4px 0 0 var(--signal)}
+.buy-head{display:grid;gap:4px}
+.buy-seller{font:600 13px/1 var(--f-body);color:var(--mut)}
+.buy-opt h3{margin:0;font:800 26px/1 var(--f-display);text-transform:uppercase;letter-spacing:.02em}
+.buy-badge{margin:2px 0 0;font:600 15px/1.3 var(--f-body);color:var(--signal-text)}
+.buy-opt ul{margin:0;padding-left:18px;display:grid;gap:6px;color:var(--mut);font-size:15px}
+.buy-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.buy-terms{font-size:14px;color:var(--mut)}
+.buy-face{margin:0}
+@media (max-width:640px){.buy-actions .btn{width:100%;justify-content:center}}
+.buy,.buy-list,.buy-opt,.buy-opt>*{min-width:0}
+.buy-opt{grid-template-columns:minmax(0,1fr)}
+@media (max-width:640px){.buy-list{grid-template-columns:minmax(0,1fr)}.buy-actions .btn{max-width:100%}}

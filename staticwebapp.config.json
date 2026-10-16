@@ -1,6 +1,13 @@
 {
   "routes": [
     {
+      "route": "/go/*",
+      "headers": {
+        "X-Robots-Tag": "noindex, nofollow",
+        "Cache-Control": "public, max-age=300"
+      }
+    },
+    {
       "route": "/ir/*",
       "headers": {
         "X-Robots-Tag": "noindex, nofollow",
