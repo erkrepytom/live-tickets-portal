@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-16T13:20:34+00:00",
+ "atualizado": "2026-10-16T18:09:38+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
+     "t": "Jogador de rúgbi sul-africano morre antes de jogo na França",
+     "u": "https://www.gazetaesportiva.com/mais-esportes/jogador-de-rugbi-sul-africano-morre-antes-de-jogo-na-franca/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
      "t": "Cruzeiro treina focado para desafiar o Grêmio em Porto Alegre",
      "u": "https://www.gazetaesportiva.com/times/cruzeiro/cruzeiro-treina-focado-para-desafiar-o-gremio-em-porto-alegre/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Filho de Hulk assina contrato profissional com Atlético-MG",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/16/filho-de-hulk-assina-contrato-profissional-com-atletico-mg.ghtml",
+     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro sub-17 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/jogo/21-10-2026/atletico-mg-cruzeiro.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Em temporada cercada por lesões, Cruzeiro inicia história na Libertadores Feminina",
-     "u": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/16/em-temporada-cercada-por-lesoes-cruzeiro-inicia-historia-na-libertadores-feminina.ghtml",
+     "t": "Grêmio x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
      "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "São Paulo x Vasco: saiba onde assistir ao jogo pela 31ª rodada do Brasileirão",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-x-vasco-saiba-onde-assistir-ao-jogo-pela-31a-rodada-do-brasileirao/",
-     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Barcelona face staff strike ahead of El Clasico as Camp Nou workers demand pay rise and more employees",
-     "u": "https://sports.yahoo.com/articles/barcelona-face-staff-strike-ahead-130500575.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Enzo Maresca reveals Pep Guardiola meeting after Man City defeat to PSG: ‘It’ll always be his house’",
-     "u": "https://sports.yahoo.com/articles/enzo-maresca-reveals-pep-guardiola-130534187.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Alabama vs. Tennessee prediction, odds, time: Week 7 college football picks from proven model",
-     "u": "https://www.cbssports.com/betting/news/alabama-tennessee-prediction-odds-time-2026-week-7-college-football-picks/",
+     "t": "Real Madrid demand LaLiga boss Javier Tebas resign after comparing club to Nazi propagandist Joseph Goebbels",
+     "u": "https://www.cbssports.com/soccer/news/real-madrid-laliga-javier-tebas-resign-nazi-joseph-goebbels/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Ranking NFL's best and worst divisions: New leader emerges entering Week 6",
-     "u": "https://www.cbssports.com/nfl/news/nfl-division-power-rankings-afc-north-nfc-west/",
+     "t": "Fantasy basketball rankings 2026-27: Sleepers, breakouts and busts from proven NBA computer model",
+     "u": "https://www.cbssports.com/fantasy/basketball/news/fantasy-basketball-rankings-2026-27-sleepers-breakouts-and-busts-from-proven-nba-computer-model/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Josh Allen Could Be the Key to Winning NFL Week 6 Fantasy Football DFS GPP Tournaments",
+     "u": "https://sports.yahoo.com/articles/josh-allen-could-key-winning-175400242.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Gattuso to Make One Change to Lazio Starting Lineup Against Juventus",
+     "u": "https://sports.yahoo.com/articles/gattuso-one-change-lazio-starting-175400209.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Van Gaal culpa Manchester City por ter sido trocado por José Mourinho no Manchester United",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/van-gaal-culpa-manchester-city-por-ter-sido-trocado-por-jose-mourinho-no-manchester-united",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Benfica: Marco Silva confirma um titular para o Celtic",
-     "u": "https://www.abola.pt/noticias/benfica-marco-silva-confirma-um-titular-para-o-celtic-2026101413480259132",
+     "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
+     "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Estrela argentina anuncia fim de relação com piloto da Fórmula 1 (fotos)",
-     "u": "https://www.abola.pt/noticias/estrela-argentina-anuncia-fim-de-relacao-com-piloto-da-formula-1-fotos-2026101415024328413",
-     "f": "A Bola",
+     "t": "Sporting e Benfica em mais um tira-teimas entre rivais na Supertaça",
+     "u": "https://www.record.pt/modalidades/voleibol/detalhe/sporting-e-benfica-em-mais-um-tira-teimas-entre-rivais-na-supertaca",
+     "f": "Record",
      "alta": false
     },
     {
-     "t": "Richarlison jogou (e marcou) pela primeira vez em quase dois meses... nos sub-21 do Tottenham",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/tottenham/detalhe/richarlison-jogou-e-marcou-pela-primeira-vez-em-quase-dois-meses-nos-sub-21-do-tottenham",
+     "t": "Benfica-Sporting: já estão à venda os bilhetes para o dérbi",
+     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/benfica-sporting-ja-estao-a-venda-os-bilhetes-para-o-derbi",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Enzo empurra árbitro no Manchester City-PSG",
+     "u": "https://www.abola.pt/video/enzo-empurra-arbitro-no-manchester-city-psg-2026101509263748741",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,21 +113,21 @@
    },
    "noticias": [
     {
-     "t": "Álvaro Benito y el juego del Real Madrid: \"Es la crónica de una muerte anunciada\"",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261016/1004239387/alvaro-benito-juego-real-madrid-cronica-muerte-anunciada.html",
+     "t": "Barça - Olympiacos, en directo",
+     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261016/1004239151/barca-olympiacos-directo-euroliga-baloncesto.html",
      "f": "Mundo Deportivo",
      "alta": true
-    },
-    {
-     "t": "Sorpresón en el recorrido del Tour de Francia de 2027",
-     "u": "https://www.mundodeportivo.com/ciclismo/tour-francia/20261016/1004239227/sorpreson-recorrido-tour-francia-2027.html",
-     "f": "Mundo Deportivo",
-     "alta": false
     },
     {
      "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
      "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "El Real Madrid responde a Tebas y \"exige\" su dimisión",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261016/1004239524/real-madrid-responde-tebas.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Rugby League World Cup 2026: Samoa rout France in men's competition",
-     "u": "https://www.skysports.com/rugby-league/live-blog/12040/13599564/rugby-league-world-cup-2026-reports-news-scores-fixtures-from-across-the-mens-womens-and-wheelchair-tournaments",
+     "t": "England’s World Cup test against Tonga will show where power really lies in rugby league",
+     "u": "https://www.theguardian.com/sport/2026/oct/16/england-rugby-league-world-cup-tonga",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "The All Blacks' Haka explained - plus rugby's other rituals",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13597698/new-zealands-haka-explained-meaning-and-origin-of-all-blacks-rugby-war-dance-plus-cibi-siva-tau-sipi-tau-rituals",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Rugby player found dead at Lions team hotel before Champions Cup game against La Rochelle",
-     "u": "https://www.theguardian.com/sport/2026/oct/16/player-found-dead-lions-champions-cup-la-rochelle",
+     "t": "Premier League news: go bananas: Maresca loving fans’ show of defiance; James injury blow for Blues",
+     "u": "https://www.theguardian.com/football/2026/oct/16/premier-league-news-go-bananas-maresca-loving-fans-show-of-defiance-james-injury-blow-for-blues",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Super Bowl champions slump again as Darnold’s picks cost Seahawks against Broncos",
-     "u": "https://www.theguardian.com/sport/2026/oct/16/seahawks-broncos-nfl-thursday-night-football",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "NRL gap a factor in France's heavy defeat by Samoa, says boss",
-     "u": "https://www.bbc.co.uk/sport/rugby-league/articles/c50me81r74n7o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Rugby League World Cup 2026: Australia thrash Samoa in women’s opener",
+     "u": "https://www.skysports.com/rugby-league/live-blog/12040/13599564/rugby-league-world-cup-2026-reports-news-scores-fixtures-from-across-the-mens-womens-and-wheelchair-tournaments",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "Denver Broncos silencia al campeón Seattle Seahawks con una defensa de hierro en la NFL",
-     "u": "https://www.excelsior.com.mx/deportes/denver-broncos-seattle-seahawks-resultado-semana-6-nfl",
+     "t": "Real Madrid exige renuncia a Javier Tebas, presidente de LaLiga, por compararlos con propaganda nazi",
+     "u": "https://www.excelsior.com.mx/deportes/real-madrid-exige-renuncia-javier-tebas-presidente-laliga",
      "f": "Excélsior",
      "alta": false
     },
     {
-     "t": "Cruz Azul despide a su técnico: la cronología de la ‘traición’ celeste",
-     "u": "https://www.excelsior.com.mx/deportes/cruz-azul-femenil-potro-gutierrez-despido-america-mafer-femenil",
+     "t": "NBA contempla a Ciudad de México para tener nueva franquicia de expansión por problemas en Seattle",
+     "u": "https://www.excelsior.com.mx/deportes/nba-contempla-ciudad-mexico-para-tener-nueva-franquicia-expansion-por-problemas-seattle",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,26 +203,26 @@
    },
    "noticias": [
     {
-     "t": "El choque de Verstappen al argentino Pérez Companc en el GT World Challenge: el gesto de Max desde el auto y la sanción que sufrió el piloto de F1",
-     "u": "https://www.infobae.com/deportes/2026/10/16/el-choque-de-verstappen-al-argentino-perez-companc-en-el-gt-world-challenge-el-gesto-desde-el-auto-y-la-sancion-que-podria-sufrir-el-neerlandes/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Estudiantes igualó 0-0 con Flamengo en La Plata por la ida de las semifinales de la Copa Libertadores",
-     "u": "https://www.infobae.com/deportes/2026/10/15/estudiantes-abre-su-llave-de-semifinales-de-copa-libertadores-ante-flamengo-en-la-plata-hora-tv-y-probables-formaciones/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Facundo Farías con Olé: el fútbol como \"salvación\" y su ambicioso sueño en San Lorenzo",
-     "u": "https://www.ole.com.ar/futbol-primera/entrevista-facundo-farias-san-lorenzo-insua-leo-messi-inter-miami-estudiantes_0_KfAL9g4eBO.html",
+     "t": "El Colchonero se expande: el equipo del Atlético Madrid en Ecuador ascendió a la Serie A",
+     "u": "https://www.ole.com.ar/futbol-internacional/america/colchonero-expande-proyecto-atletico-madrid-ecuador-fc-ascenso-ligapro-seriea_0_pJbgM0owQ0.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Con Boca y Estudiantes definiendo sus series en el Maracaná: ¿cuáles fueron los últimos triunfos de argentinos en este estadio?",
-     "u": "https://www.ole.com.ar/futbol-internacional/america/boca-estudiantes-historial-victorias-triunfos-argentinos-maracana-copa-libertadores-sudamericana_0_DDUOnGlJb8.html",
+     "t": "Conmoción en Francia por la muerte de una figura del rugby sudafricano tras sufrir un “trágico accidente” en el hotel antes de un partido",
+     "u": "https://www.infobae.com/deportes/2026/10/16/conmocion-en-francia-por-la-muerte-de-una-figura-del-rugby-sudafricano-tras-sufrir-un-tragico-accidente-en-el-hotel-antes-de-un-partido/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Leandro Paredes pretende jugar la revancha con Vasco da Gama: la postura de Boca y qué otro jugador volvería a estar disponible",
+     "u": "https://www.infobae.com/deportes/2026/10/16/leandro-paredes-pretende-jugar-la-revancha-con-vasco-da-gama-la-postura-de-boca-y-que-otro-jugador-volveria-a-estar-disponible/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Atlético Tucumán vs. Rosario Central, por el Torneo Clausura 2026: día, horario y por dónde ver",
+     "u": "https://www.ole.com.ar/futbol-primera/atletico-tucuman-vs-rosario-central-partido-torneo-clausura-2026-dia-horario-tv_0_cBFIrIN2qW.html",
      "f": "Olé",
      "alta": false
     }
@@ -259,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "Javier Tebas, le président de la Liga, compare « la méthode » de Real Madrid TV à la propagande nazie de Goebbels",
-     "u": "https://www.lequipe.fr/Football/Actualites/Javier-tebas-le-president-de-la-liga-compare-la-methode-de-real-madrid-tv-a-la-propagande-nazie-de-goebbels/1736209#at_medium=RSS_feeds",
+     "t": "Une famille très modeste, inspiré par Paul Pogba... Alphadjo Cisse, l'espoir de l'AC Milan qui pourrait relancer la sélection italienne",
+     "u": "https://www.lequipe.fr/Football/Actualites/Une-famille-tres-modeste-inspire-par-paul-pogba-alphadjo-cisse-l-espoir-de-l-ac-milan-qui-pourrait-relancer-la-selection-italienne/1736274#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Luis Enrique répond aux critiques d'Enzo Maresca sur la faiblesse de la Ligue 1 qui avantagerait le PSG : « Du bruit, du bruit... »",
-     "u": "https://www.lequipe.fr/Football/Actualites/Luis-enrique-repond-aux-critiques-d-enzo-maresca-sur-la-faiblesse-de-la-ligue-1-qui-avantagerait-le-psg-du-bruit-du-bruit/1736204#at_medium=RSS_feeds",
+     "t": "Show de Ronisia, fanzone au bord du terrain : le Parc des Princes en fête pour PSG-OL Lyonnes",
+     "u": "https://www.lequipe.fr/Football/Actualites/Show-de-ronisia-fanzone-au-bord-du-terrain-le-parc-des-princes-en-fete-pour-psg-ol-lyonnes/1736330#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,51 +275,51 @@
  ],
  "destaques": [
   {
-   "t": "Cruzeiro treina focado para desafiar o Grêmio em Porto Alegre",
-   "u": "https://www.gazetaesportiva.com/times/cruzeiro/cruzeiro-treina-focado-para-desafiar-o-gremio-em-porto-alegre/",
+   "t": "Jogador de rúgbi sul-africano morre antes de jogo na França",
+   "u": "https://www.gazetaesportiva.com/mais-esportes/jogador-de-rugbi-sul-africano-morre-antes-de-jogo-na-franca/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Barcelona face staff strike ahead of El Clasico as Camp Nou workers demand pay rise and more employees",
-   "u": "https://sports.yahoo.com/articles/barcelona-face-staff-strike-ahead-130500575.html",
-   "f": "Yahoo Sports",
+   "t": "Real Madrid demand LaLiga boss Javier Tebas resign after comparing club to Nazi propagandist Joseph Goebbels",
+   "u": "https://www.cbssports.com/soccer/news/real-madrid-laliga-javier-tebas-resign-nazi-joseph-goebbels/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Van Gaal culpa Manchester City por ter sido trocado por José Mourinho no Manchester United",
-   "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/van-gaal-culpa-manchester-city-por-ter-sido-trocado-por-jose-mourinho-no-manchester-united",
-   "f": "Record",
+   "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
+   "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Álvaro Benito y el juego del Real Madrid: \"Es la crónica de una muerte anunciada\"",
-   "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261016/1004239387/alvaro-benito-juego-real-madrid-cronica-muerte-anunciada.html",
+   "t": "Barça - Olympiacos, en directo",
+   "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261016/1004239151/barca-olympiacos-directo-euroliga-baloncesto.html",
    "f": "Mundo Deportivo",
    "alta": true,
    "pais": "ES"
   },
   {
-   "t": "Rugby League World Cup 2026: Samoa rout France in men's competition",
-   "u": "https://www.skysports.com/rugby-league/live-blog/12040/13599564/rugby-league-world-cup-2026-reports-news-scores-fixtures-from-across-the-mens-womens-and-wheelchair-tournaments",
-   "f": "Sky Sports",
+   "t": "England’s World Cup test against Tonga will show where power really lies in rugby league",
+   "u": "https://www.theguardian.com/sport/2026/oct/16/england-rugby-league-world-cup-tonga",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Denver Broncos silencia al campeón Seattle Seahawks con una defensa de hierro en la NFL",
-   "u": "https://www.excelsior.com.mx/deportes/denver-broncos-seattle-seahawks-resultado-semana-6-nfl",
+   "t": "Real Madrid exige renuncia a Javier Tebas, presidente de LaLiga, por compararlos con propaganda nazi",
+   "u": "https://www.excelsior.com.mx/deportes/real-madrid-exige-renuncia-javier-tebas-presidente-laliga",
    "f": "Excélsior",
    "alta": false,
    "pais": "MX"
   },
   {
-   "t": "El choque de Verstappen al argentino Pérez Companc en el GT World Challenge: el gesto de Max desde el auto y la sanción que sufrió el piloto de F1",
-   "u": "https://www.infobae.com/deportes/2026/10/16/el-choque-de-verstappen-al-argentino-perez-companc-en-el-gt-world-challenge-el-gesto-desde-el-auto-y-la-sancion-que-podria-sufrir-el-neerlandes/",
-   "f": "Infobae",
+   "t": "El Colchonero se expande: el equipo del Atlético Madrid en Ecuador ascendió a la Serie A",
+   "u": "https://www.ole.com.ar/futbol-internacional/america/colchonero-expande-proyecto-atletico-madrid-ecuador-fc-ascenso-ligapro-seriea_0_pJbgM0owQ0.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -331,8 +331,8 @@
    "pais": "IT"
   },
   {
-   "t": "Javier Tebas, le président de la Liga, compare « la méthode » de Real Madrid TV à la propagande nazie de Goebbels",
-   "u": "https://www.lequipe.fr/Football/Actualites/Javier-tebas-le-president-de-la-liga-compare-la-methode-de-real-madrid-tv-a-la-propagande-nazie-de-goebbels/1736209#at_medium=RSS_feeds",
+   "t": "Une famille très modeste, inspiré par Paul Pogba... Alphadjo Cisse, l'espoir de l'AC Milan qui pourrait relancer la sélection italienne",
+   "u": "https://www.lequipe.fr/Football/Actualites/Une-famille-tres-modeste-inspire-par-paul-pogba-alphadjo-cisse-l-espoir-de-l-ac-milan-qui-pourrait-relancer-la-selection-italienne/1736274#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
