@@ -45,7 +45,7 @@ GTM_ID = ""
 GSC_VERIFICATION = ""
 # Pinterest. PINTEREST_PERFIL = nome do perfil (pinterest.com/<perfil>/) liga o botão Seguir.
 # PINTEREST_VERIFY = código da meta tag p:domain_verify, para reivindicar o site no Pinterest.
-PINTEREST_PERFIL = ""
+PINTEREST_PERFIL = "Sportseventstickets"
 PINTEREST_VERIFY = ""
 OG_PADRAO = "06-champions.jpg"
 PIN_TXT = {"pt": ("Salvar no Pinterest", "Seguir no Pinterest"), "en": ("Save to Pinterest", "Follow on Pinterest"),
@@ -682,6 +682,8 @@ def home(lang, eventos, noticias, hubs):
     solar_css = (RAIZ / "assets" / "solar-banner.css").read_text(encoding="utf-8")
     org = {"@context": "https://schema.org", "@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "MyTickets Tours",
            "url": f"{BASE_URL}/", "email": CONTATO_EMAIL}
+    if PINTEREST_PERFIL:
+        org["sameAs"] = [f"https://www.pinterest.com/{PINTEREST_PERFIL}/"]
     site = {"@context": "https://schema.org", "@type": "WebSite", "@id": f"{BASE_URL}/#site", "name": "MyTickets Tours",
             "url": f"{BASE_URL}/{pagina}", "inLanguage": HREFLANG[lang], "publisher": {"@id": f"{BASE_URL}/#org"}}
     h = cabeca(lang, pagina, t["brand_title"], t["home_desc"], alternos, preload(FOTO_TOPO, 1800, pagina) + f"<style>\n{solar_css}</style>" + ld_script(org, site))
