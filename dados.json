@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-16T01:28:58+00:00",
+ "atualizado": "2026-10-16T06:56:22+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Final do Carioca de basquete: Flamengo x Fluminense",
-     "u": "https://ge.globo.com/basquete/ao-vivo/final-do-carioca-de-basquete-flamengo-x-fluminense.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Flamengo bate Fluminense e conquista 19º título seguido do Campeonato Carioca de basquete",
-     "u": "https://ge.globo.com/basquete/noticia/2026/10/15/flamengo-bate-fluminense-e-conquista-19o-titulo-seguido-do-campeonato-carioca-de-basquete.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Veja fotos do duelo entre Estudiantes e Flamengo pelas semis da Libertadores",
-     "u": "https://www.gazetaesportiva.com/times/flamengo/veja-fotos-do-duelo-entre-estudiantes-e-flamengo-pelas-semis-da-libertadores/",
+     "t": "Assista aos melhores momentos de Estudiantes 0 x 0 Flamengo pela Libertadores",
+     "u": "https://www.gazetaesportiva.com/times/flamengo/assista-aos-melhores-momentos-de-estudiantes-0-x-0-flamengo-pela-libertadores/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Grêmio faz jogo-treino em meio à preparação para enfrentar o Cruzeiro",
-     "u": "https://www.gazetaesportiva.com/times/gremio/gremio-faz-jogo-treino-em-meio-a-preparacao-para-enfrentar-o-cruzeiro/",
+     "t": "Palmeiras vence Universitario e larga na liderança do grupo na Libertadores feminina",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-vence-universitario-e-larga-na-lideranca-do-grupo-na-libertadores-feminina/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Palmeiras vence o Universitario na estreia da Libertadores Feminina",
+     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/15-10-2026/universitario-palmeiras.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Corinthians vence Colo-Colo na estreia da Libertadores Feminina",
+     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/15-10-2026/corinthians-colo-colo.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,12 +45,6 @@
    },
    "noticias": [
     {
-     "t": "Kenneth Walker reveals if he cares about breaking NFL rushing record",
-     "u": "https://sports.yahoo.com/articles/kenneth-walker-reveals-cares-breaking-010531590.html",
-     "f": "Yahoo Sports",
-     "alta": true
-    },
-    {
      "t": "Broncos vs. Seahawks odds, picks, NFL Week 6 prediction: Best bets, player props for Thursday Night Football",
      "u": "https://www.cbssports.com/betting/news/broncos-vs-seahawks-odds-picks-nfl-week-6-prediction-best-bets-player-props-for-thursday-night-football/",
      "f": "CBS Sports",
@@ -63,8 +57,14 @@
      "alta": false
     },
     {
-     "t": "Man Utd teetering towards crisis as Man City cloud hangs over Premier League",
-     "u": "https://sports.yahoo.com/articles/man-utd-teetering-towards-crisis-010640319.html",
+     "t": "Patriots’ Pop Douglas reveals Super Bowl foe who talks the most trash in the NFL",
+     "u": "https://sports.yahoo.com/articles/patriots-pop-douglas-reveals-super-062753635.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "1.FC Union Berlin vs. Borussia Dortmund preview: Kovač sets out to make amends",
+     "u": "https://sports.yahoo.com/articles/1-fc-union-berlin-vs-064500232.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Champions: melhor golo de quarta-feira foi do FC Porto",
-     "u": "https://www.abola.pt/noticias/champions-melhor-golo-de-quarta-feira-foi-do-fc-porto-2026101516434177836",
+     "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
+     "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Quem destrona Ronaldo? Há uma novidade no top-5 de melhores marcadores de sempre na Champions (fotos)",
-     "u": "https://www.abola.pt/noticias/quem-destrona-ronaldo-ha-uma-novidade-no-top-5-de-melhores-marcadores-de-sempre-na-champions-fotos-2026101516060705259",
+     "t": "Enzo empurra árbitro no Manchester City-PSG",
+     "u": "https://www.abola.pt/video/enzo-empurra-arbitro-no-manchester-city-psg-2026101509263748741",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Vasco Botelho da Costa procura redenção na Taça de Portugal",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/moreirense/detalhe/vasco-botelho-da-costa-procura-redencao-na-taca-de-portugal",
+     "t": "«Os melhores em campo? Prestianni, Prestianni, Prestianni»: as reações à goleada do Benfica frente ao Celtic",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/os-melhores-em-campo-prestianni-prestianni-prestianni-as-reacoes-a-goleada-do-benfica-frente-ao-celtic",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Atraso no duelo com o Felgueiras: “Necessidade fisiológica” custa 500 euros ao Benfica",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/necessidade-fisiologica-custa-500-euros-ao-benfica",
+     "t": "Hevertton: «Sporting? Nem sempre temos a maturidade tão cedo na carreira»",
+     "u": "https://www.record.pt/internacional/detalhe/hevertton-sporting-nem-sempre-temos-a-maturidade-tao-cedo-na-carreira",
      "f": "Record",
      "alta": false
     }
@@ -113,8 +113,14 @@
    },
    "noticias": [
     {
-     "t": "22-36: Destrozo del Barça con un gran Sergey para pasar a la segunda fase de la Champions",
-     "u": "https://www.mundodeportivo.com/balonmano/20261015/1004239224/22-36-destrozo-barca-gran-sergey-pasar-segunda-fase-champions.html",
+     "t": "Lamine Yamal y Barcola lideran un once ideal de la Champions con varias sorpresas",
+     "u": "https://www.mundodeportivo.com/futbol/champions-league/20261015/1004239174/lamine-yamal-barcola-lideran-once-ideal-champions-sorpresas.html",
+     "f": "Mundo Deportivo",
+     "alta": true
+    },
+    {
+     "t": "Sorpresón en el recorrido del Tour de Francia de 2027",
+     "u": "https://www.mundodeportivo.com/ciclismo/tour-francia/20261016/1004239227/sorpreson-recorrido-tour-francia-2027.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -122,12 +128,6 @@
      "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
      "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "El Tottenham pediría un pastón al Barça por Porro",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261015/1004239117/cantidad-pide-tottenham-pedro-porro.html",
-     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -159,8 +159,8 @@
      "alta": false
     },
     {
-     "t": "Spain bids for Rugby World Cup with Nou Camp final",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cqdjv9872xg3o?at_medium=RSS&at_campaign=rss",
+     "t": "Does the Premier League 'Big Six' still exist?",
+     "u": "https://www.bbc.co.uk/sport/football/articles/ckj0lrjzjgqno?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "'Potro' Gutiérrez tambalea en Cruz Azul Femenil tras asistir al aniversario del América",
-     "u": "https://www.excelsior.com.mx/deportes/potro-gutierrez-cruz-azul-femenil-posible-despido-america-aniversario",
+     "t": "Denver Broncos silencia al campeón Seattle Seahawks con una defensa de hierro en la NFL",
+     "u": "https://www.excelsior.com.mx/deportes/denver-broncos-seattle-seahawks-resultado-semana-6-nfl",
      "f": "Excélsior",
      "alta": false
     },
     {
-     "t": "Millonaria demanda de David Bell: El exreceptor de la NFL acusa negligencia que arruinó su vida",
-     "u": "https://www.excelsior.com.mx/deportes/david-bell-nfl-demanda-jefferson-health-system",
+     "t": "Cruz Azul despide a su técnico: la cronología de la ‘traición’ celeste",
+     "u": "https://www.excelsior.com.mx/deportes/cruz-azul-femenil-potro-gutierrez-despido-america-mafer-femenil",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,7 +203,19 @@
    },
    "noticias": [
     {
-     "t": "Estudiantes iguala con Flamengo en La Plata por la ida de las semifinales de Copa Libertadores",
+     "t": "El uno por uno de Estudiantes en el empate frente a Flamengo por Copa Libertadores",
+     "u": "https://www.ole.com.ar/estudiantes/estudiantes-plata-semifinales-copa-libertadores-flamengo-puntajes-video_0_AFGd6pZKjU.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Copa Libertadores: la llave y cuándo es la revancha entre Estudiantes y Flamengo",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flamengo-vs-estudiantes-partido-vuelta-semifinal-copa-libertadores-2026-dia-fecha-horario-sede-resultado-necesita_0_3NntPJABtg.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Estudiantes igualó 0-0 con Flamengo en La Plata por la ida de las semifinales de la Copa Libertadores",
      "u": "https://www.infobae.com/deportes/2026/10/15/estudiantes-abre-su-llave-de-semifinales-de-copa-libertadores-ante-flamengo-en-la-plata-hora-tv-y-probables-formaciones/",
      "f": "Infobae",
      "alta": false
@@ -212,12 +224,6 @@
      "t": "Sorpresa en Boca: los once que eligió Arruabarrena para recibir a Talleres en la antesala de la revancha con Vasco da Gama",
      "u": "https://www.infobae.com/deportes/2026/10/15/sorpresa-en-boca-los-once-que-eligio-arruabarrena-para-recibir-a-talleres-en-la-antesala-de-la-revancha-con-vasco-da-gama/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Riestra, con la calculadora en la mano: el camino que le queda para seguir en la Liga",
-     "u": "https://www.ole.com.ar/deportivo-riestra/deportivoriestra-torneoclausura-descenso-aldosivi_0_QxAXnsiY7J.html",
-     "f": "Olé",
      "alta": false
     }
    ]
@@ -253,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "Déjà trois médailles assurées, de belles promesses semées : sous l'impulsion des frères Lebrun, la réussite est contagieuse pour l'équipe de France au",
-     "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Sous-l-impulsion-des-freres-lebrun-la-reussite-est-contagieuse-en-equipe-de-france/1736117#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": false
-    },
-    {
      "t": "Le programme des Français du vendredi 16 octobre aux Championnats d'Europe de tennis de table",
      "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-programme-des-francais-du-vendredi-16-octobre-aux-championnats-d-europe-du-tennis-de-table/1736133#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": true
+    },
+    {
+     "t": "Sanofi nouveau sponsor du maillot blanc du Tour de France",
+     "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Sanofi-nouveau-sponsor-du-maillot-blanc-du-tour-de-france/1725712#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -269,31 +275,31 @@
  ],
  "destaques": [
   {
-   "t": "Final do Carioca de basquete: Flamengo x Fluminense",
-   "u": "https://ge.globo.com/basquete/ao-vivo/final-do-carioca-de-basquete-flamengo-x-fluminense.ghtml",
-   "f": "ge",
+   "t": "Assista aos melhores momentos de Estudiantes 0 x 0 Flamengo pela Libertadores",
+   "u": "https://www.gazetaesportiva.com/times/flamengo/assista-aos-melhores-momentos-de-estudiantes-0-x-0-flamengo-pela-libertadores/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Kenneth Walker reveals if he cares about breaking NFL rushing record",
-   "u": "https://sports.yahoo.com/articles/kenneth-walker-reveals-cares-breaking-010531590.html",
-   "f": "Yahoo Sports",
-   "alta": true,
+   "t": "Broncos vs. Seahawks odds, picks, NFL Week 6 prediction: Best bets, player props for Thursday Night Football",
+   "u": "https://www.cbssports.com/betting/news/broncos-vs-seahawks-odds-picks-nfl-week-6-prediction-best-bets-player-props-for-thursday-night-football/",
+   "f": "CBS Sports",
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "Champions: melhor golo de quarta-feira foi do FC Porto",
-   "u": "https://www.abola.pt/noticias/champions-melhor-golo-de-quarta-feira-foi-do-fc-porto-2026101516434177836",
+   "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
+   "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "22-36: Destrozo del Barça con un gran Sergey para pasar a la segunda fase de la Champions",
-   "u": "https://www.mundodeportivo.com/balonmano/20261015/1004239224/22-36-destrozo-barca-gran-sergey-pasar-segunda-fase-champions.html",
+   "t": "Lamine Yamal y Barcola lideran un once ideal de la Champions con varias sorpresas",
+   "u": "https://www.mundodeportivo.com/futbol/champions-league/20261015/1004239174/lamine-yamal-barcola-lideran-once-ideal-champions-sorpresas.html",
    "f": "Mundo Deportivo",
-   "alta": false,
+   "alta": true,
    "pais": "ES"
   },
   {
@@ -304,16 +310,16 @@
    "pais": "GB"
   },
   {
-   "t": "'Potro' Gutiérrez tambalea en Cruz Azul Femenil tras asistir al aniversario del América",
-   "u": "https://www.excelsior.com.mx/deportes/potro-gutierrez-cruz-azul-femenil-posible-despido-america-aniversario",
+   "t": "Denver Broncos silencia al campeón Seattle Seahawks con una defensa de hierro en la NFL",
+   "u": "https://www.excelsior.com.mx/deportes/denver-broncos-seattle-seahawks-resultado-semana-6-nfl",
    "f": "Excélsior",
    "alta": false,
    "pais": "MX"
   },
   {
-   "t": "Estudiantes iguala con Flamengo en La Plata por la ida de las semifinales de Copa Libertadores",
-   "u": "https://www.infobae.com/deportes/2026/10/15/estudiantes-abre-su-llave-de-semifinales-de-copa-libertadores-ante-flamengo-en-la-plata-hora-tv-y-probables-formaciones/",
-   "f": "Infobae",
+   "t": "El uno por uno de Estudiantes en el empate frente a Flamengo por Copa Libertadores",
+   "u": "https://www.ole.com.ar/estudiantes/estudiantes-plata-semifinales-copa-libertadores-flamengo-puntajes-video_0_AFGd6pZKjU.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -325,10 +331,10 @@
    "pais": "IT"
   },
   {
-   "t": "Déjà trois médailles assurées, de belles promesses semées : sous l'impulsion des frères Lebrun, la réussite est contagieuse pour l'équipe de France au",
-   "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Sous-l-impulsion-des-freres-lebrun-la-reussite-est-contagieuse-en-equipe-de-france/1736117#at_medium=RSS_feeds",
+   "t": "Le programme des Français du vendredi 16 octobre aux Championnats d'Europe de tennis de table",
+   "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-programme-des-francais-du-vendredi-16-octobre-aux-championnats-d-europe-du-tennis-de-table/1736133#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": false,
+   "alta": true,
    "pais": "FR"
   }
  ],
