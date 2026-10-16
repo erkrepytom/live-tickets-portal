@@ -46,7 +46,7 @@ GSC_VERIFICATION = ""
 # Pinterest. PINTEREST_PERFIL = nome do perfil (pinterest.com/<perfil>/) liga o botão Seguir.
 # PINTEREST_VERIFY = código da meta tag p:domain_verify, para reivindicar o site no Pinterest.
 PINTEREST_PERFIL = "Sportseventstickets"
-PINTEREST_VERIFY = ""
+PINTEREST_VERIFY = "a2825b6bb5c90286d6b83597d08596fc"
 OG_PADRAO = "06-champions.jpg"
 PIN_TXT = {"pt": ("Salvar no Pinterest", "Seguir no Pinterest"), "en": ("Save to Pinterest", "Follow on Pinterest"),
            "es": ("Guardar en Pinterest", "Seguir en Pinterest")}
