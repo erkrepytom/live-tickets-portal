@@ -858,18 +858,55 @@ def relacionados(ev, eventos, n=3):
     return sorted(outros, key=lambda x: (-nota(x), x["data"]))[:n]
 
 
-def faq_evento(lang, ev):
+def faq_link(lang, ev, pagina, chave):
+    """Link que acompanha cada resposta do FAQ (C.FAQ_LINK): canal oficial, mapa, guia, parceiro ou garantias."""
+    rot = C.FAQ_LINK[lang]
+    of = C.OFICIAL.get(C.chave_evento(ev["slug"]))
+    if chave == "oficial":
+        return f'<a href="{e(of[1])}" target="_blank" rel="noopener">{e(rot["oficial"].format(of=of[0]))}</a>' if of else ""
+    if chave == "mapa":
+        geo = LOCAIS.get(ev["local"], {}).get("geo")
+        dest = f"{geo[0]},{geo[1]}" if geo else ev["local"].replace(" ", "+")
+        return f'<a href="https://www.google.com/maps/dir/?api=1&amp;destination={e(dest)}" target="_blank" rel="noopener">{e(rot["mapa"])}</a>'
+    if chave in C.FAQ_GUIA_SECAO:
+        return f'<a href="{rel(pagina, C.GUIA[lang]["path"])}#s{C.FAQ_GUIA_SECAO[chave]}">{e(rot[chave])}</a>'
+    if chave == "como":
+        return f'<a href="{rel(pagina, C.COMO_FUNCIONA[lang]["path"])}">{e(rot["como"])}</a>'
+    if chave in ("parceiro_faq", "termos"):
+        url = C.PARCEIRO["faq" if chave == "parceiro_faq" else "termos"]
+        return f'<a href="{e(url)}" target="_blank" rel="nofollow noopener">{e(rot[chave])}</a>'
+    if chave == "comprar":
+        return f'<a href="{link_ingresso(pagina, ev)}" target="_blank" rel="sponsored nofollow noopener">{e(rot["comprar"])}</a>'
+    return ""
+
+
+def faq_evento(lang, ev, pagina=None):
+    """Perguntas do evento: lista de (pergunta, resposta, html do link)."""
+    pagina = pagina or caminho_evento(lang, ev["slug"])
     titulo, cidade = L(ev["titulo"], lang), L(ev["cidade"], lang)
-    v = {"t": titulo, "d": data_longa(ev["data"], lang), "h": ev.get("hora", ""), "c": cidade,
-         "conf": data_num(ev.get("conferido", C.PARCEIRO["conferido"]), lang), "tel": C.PARCEIRO["emergencia"]}
-    itens = [(q.format(**v), a.format(**v)) for q, a in C.FAQ[lang]]
+    of = C.OFICIAL.get(C.chave_evento(ev["slug"]))
+    v = {"t": titulo, "d": data_longa(ev["data"], lang), "h": ev.get("hora", ""), "c": cidade, "empresa": C.PARCEIRO["empresa"],
+         "of": of[0] if of else "", "conf": data_num(ev.get("conferido", C.PARCEIRO["conferido"]), lang), "tel": C.PARCEIRO["emergencia"]}
+    itens = [(q.format(**v), a.format(**v), faq_link(lang, ev, pagina, k)) for q, a, k in C.FAQ[lang]
+             if not ("{of}" in a and not of)]
     if not ev.get("hora"):
         itens = itens[1:]
     chegar = " ".join(ev["chegar"][lang])
     perg = {"pt": f"Como chegar {C.artigo(ev['local'], 'pt').replace('do', 'ao').replace('da', 'à')} {C.local_curto(ev['local'])}?",
             "en": f"How do I get to {C.local_curto(ev['local'])}?", "es": f"¿Cómo llegar {'al' if C.artigo(ev['local'], 'es') == 'del' else 'a la'} {C.local_curto(ev['local'])}?"}[lang]
-    itens.insert(1, (perg, chegar))
+    itens.insert(1, (perg, chegar, faq_link(lang, ev, pagina, "mapa")))
     return itens
+
+
+def aviso_evento(lang, ev, pagina):
+    """Caixa 'Antes de comprar' com o fato (e a fonte) que muda a decisão de compra deste evento."""
+    av = C.AVISO.get(C.chave_evento(ev["slug"]))
+    if not av:
+        return ""
+    fonte = f'{e(C.AVISO_FONTE[lang])}: <a href="{e(av["fonte"][1])}" target="_blank" rel="noopener">{e(av["fonte"][0])}</a>'
+    barca = (f' · <a href="{rel(pagina, C.GUIA_BARCA[lang]["path"])}">{e(C.GUIA_BARCA[lang]["h1"])}</a>' if av.get("barca") else "")
+    return (f'<aside class="notice" aria-labelledby="notice-h"><h2 id="notice-h">{e(C.AVISO_H[lang])}</h2>'
+            f'<p>{e(av[lang])}</p><p class="disclose">{fonte}{barca}</p></aside>')
 
 
 def evento(lang, ev, eventos, hubs):
@@ -888,9 +925,9 @@ def evento(lang, ev, eventos, hubs):
     if hub_comp:
         trilha.append((titulo_hub(lang, hub_comp), caminho_hub(lang, hub_comp)))
     trilha.append((titulo, pagina))
-    faq = faq_evento(lang, ev)
+    faq = faq_evento(lang, ev, pagina)
     ld_faq = {"@context": "https://schema.org", "@type": "FAQPage",
-              "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}
+              "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a, _l in faq]}
     # Funil de e-commerce do GA4: a página do evento é o "produto"; o clique no parceiro vira begin_checkout (assets/site.js).
     item = {"item_id": str(ev["id"]), "item_name": L(ev["titulo"], "en"), "item_brand": "SportsEvents365",
             "item_category": ev["tipo"], "item_category2": L(ev["competicao"]["nome"], "en"), "item_variant": L(ev["cidade"], "en"),
@@ -949,7 +986,8 @@ def evento(lang, ev, eventos, hubs):
     publico = "".join(f"<li><strong>{e(a)}.</strong> {e(b)}</li>" for a, b in perfis)
     cp = C.COMPRAR[lang]
     passos = "".join(f"<li>{e(x.format(d=dlonga, h=hora_txt, tel=C.PARCEIRO['emergencia']))}</li>" for x in cp["passos"])
-    faq_html = "".join(f"<details class=\"faq-item\"><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
+    faq_html = "".join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(a)}</p>'
+                       + (f'<p class="faq-link">{lk} <span aria-hidden="true">→</span></p>' if lk else "") + '</details>' for q, a, lk in faq)
     conferido = rt["conferido"].format(conf=data_num(ev["conferido"], lang)) if ev.get("conferido") else t["date_note"]
     crumbs_mid = "".join(f'<a href="{rel(pagina, cam)}">{e(nome)}</a><span aria-hidden="true">›</span>' for nome, cam in trilha[1:-1]) \
         or f'<a href="{rel(pagina, caminho_home(lang))}#partidas">{e(t["events"])}</a><span aria-hidden="true">›</span>'
@@ -999,6 +1037,7 @@ def evento(lang, ev, eventos, hubs):
         <div><h2>{e(rt['entrada_h'])}</h2><ul>{entrada}</ul></div>
         <div><h2>{e(rt['publico_h'])}</h2><ul>{publico}</ul></div>
       </div>
+      {aviso_evento(lang, ev, pagina)}
       {onde_comprar}
       <div class="howto">
         <h2>{e(cp['h'].format(t=titulo))}</h2>
@@ -1093,7 +1132,8 @@ def pagina_texto(lang, pg, pagina, alternos, ld, extra_html=""):
     """Página editorial simples (guia ou institucional) no estilo da política de privacidade."""
     v = {"empresa": C.PARCEIRO["empresa"], "endereco": C.PARCEIRO[{"pt": "endereco", "en": "endereco_en", "es": "endereco_es"}[lang]],
          "tel": C.PARCEIRO["emergencia"], "email": CONTATO_EMAIL}
-    secoes = "".join(f"<h2>{e(tit)}</h2>" + "".join(f"<p>{e(x.format(**v))}</p>" for x in pars) for tit, pars in pg["secoes"])
+    secoes = "".join(f'<h2 id="s{i}">{e(tit)}</h2>' + "".join(f"<p>{e(x.format(**v))}</p>" for x in pars)
+                     for i, (tit, pars) in enumerate(pg["secoes"], 1))
     trilha = [(T[lang]["home"], caminho_home(lang)), (pg["h1"], pagina)]
     cab = cabeca(lang, pagina, pg["title"], pg["desc"], alternos, ld_script(ld, ld_breadcrumb(trilha)))
     corpo = f"""
@@ -1152,7 +1192,26 @@ def guia(lang, eventos, hubs):
     guias = "".join(f'<a class="chip chip-own" href="{rel(pagina, caminho_hub(lang, g))}">{e(titulo_hub(lang, g))}</a>' for g in hubs.values())
     extra = (f'<div class="cite"><h2>{e(pg["cite_h"])}</h2><p>{e(pg["cite_p"])}</p>'
              f'<pre class="cite-code" tabindex="0"><code>{e(snippet)}</code></pre></div>'
-             f'<h2>{e(pg["eventos_h"])}</h2><div class="cards">{cards}</div><div class="chips" style="margin-top:16px">{guias}</div>')
+             f'<h2>{e(pg["eventos_h"])}</h2><div class="cards">{cards}</div><div class="chips" style="margin-top:16px">{guias}'
+             f'<a class="chip chip-own" href="{rel(pagina, C.GUIA_BARCA[lang]["path"])}">{e(C.GUIA_BARCA[lang]["h1"])}</a></div>')
+    return pagina_texto(lang, pg, pagina, alternos, ld, extra)
+
+
+def guia_barca(lang, eventos):
+    pg = C.GUIA_BARCA[lang]
+    pagina = pg["path"]
+    alternos = {l: C.GUIA_BARCA[l]["path"] for l in IDIOMAS}
+    ld = {"@context": "https://schema.org", "@type": "Article", "headline": pg["title"], "description": pg["desc"], "inLanguage": HREFLANG[lang],
+          "url": f"{BASE_URL}/{pagina}", "mainEntityOfPage": f"{BASE_URL}/{pagina}", "datePublished": "2026-10-16", "dateModified": "2026-10-16",
+          "about": {"@type": "SportsTeam", "name": "FC Barcelona"},
+          "author": {"@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "MyTickets Tours"},
+          "publisher": {"@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "MyTickets Tours"}}
+    jogos = [x for x in eventos if x["local"] == "Camp Nou"]
+    cards = "".join(cartao(lang, pagina, x) for x in jogos)
+    fontes = "".join(f'<li><a href="{e(u)}" target="_blank" rel="noopener">{e(n)}</a></li>' for n, u in C.GUIA_BARCA_FONTES)
+    extra = ((f'<h2>{e(pg["eventos_h"])}</h2><div class="cards">{cards}</div>' if cards else "")
+             + f'<p><a href="{rel(pagina, C.GUIA[lang]["path"])}">{e(pg["guia_geral"])} →</a></p>'
+             + f'<h2>{e(pg["fontes_h"])}</h2><ul>{fontes}</ul>')
     return pagina_texto(lang, pg, pagina, alternos, ld, extra)
 
 
@@ -1337,6 +1396,7 @@ def main():
         grupos["paginas"].append(escrever(C.COMO_FUNCIONA[lang]["path"], como_funciona(lang), manifesto, hoje))
         grupos["paginas"].append(escrever(C.DIVULGACAO[lang]["path"], divulgacao(lang), manifesto, hoje))
         grupos["guias"].append(escrever(C.GUIA[lang]["path"], guia(lang, eventos, hubs), manifesto, hoje))
+        grupos["guias"].append(escrever(C.GUIA_BARCA[lang]["path"], guia_barca(lang, eventos), manifesto, hoje))
     gerar_catalogo(eventos)
     # Um sitemap por tipo de página, reunidos num índice. Separar facilita ver no Search Console
     # quantas páginas de evento, de show e de guia foram indexadas.

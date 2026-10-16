@@ -8,6 +8,8 @@ Regras para editar:
   e mandam o leitor conferir o e-mail do parceiro. Não escreva regra específica sem fonte.
 """
 
+import re
+
 PARCEIRO = {
     "nome": "SportsEvents365",
     "empresa": "Sports Events 365 Ltd.",
@@ -190,42 +192,125 @@ COMPRAR = {
 }
 
 # Perguntas frequentes de cada evento. As respostas seguem os termos do parceiro.
+# Terceiro item = qual link acompanha a resposta (ver FAQ_LINK). {of} = canal oficial do evento (OFICIAL).
 FAQ = {
  "pt": [
-  ("Que horas começa {t}?", "{d}, às {h} no horário local de {c}, segundo o catálogo do parceiro conferido em {conf}. O organizador ainda pode mudar o horário."),
-  ("O ingresso é digital?", "Depende do lote. A SportsEvents365 entrega por e-ticket, ingresso no celular, entrega no hotel ou ponto de retirada, e mostra a forma de entrega antes do pagamento. O parceiro pode trocar a forma de entrega se precisar, avisando antes."),
-  ("Como funciona a entrega e quando recebo?", "O pedido é confirmado em até 1 dia útil. Os ingressos chegam perto da data, como é comum na revenda. Informe o hotel até uma semana antes do evento. Se a entrega for no hotel, confira até as 9h do dia do evento se os ingressos chegaram."),
-  ("O ingresso é garantido?", "A SportsEvents365 oferece garantia de entrega: se não entregar os ingressos confirmados por falha dela, devolve até 100% do valor dos ingressos. Qualquer problema no dia deve ser avisado na hora pela central de emergência: {tel}."),
-  ("Por que o preço é maior que o valor impresso no ingresso?", "A SportsEvents365 atua na revenda (mercado secundário), onde o preço segue a procura. Em jogos e shows muito disputados, o preço costuma passar do valor de face."),
-  ("Posso cancelar? E se o evento mudar de data?", "O pedido confirmado não pode ser cancelado sem aprovação do parceiro, e o cancelamento pode ter taxa. Se o evento for adiado, o ingresso costuma valer para a nova data; se você não puder ir, o parceiro tenta reembolso ou revenda, sem garantia."),
-  ("Vamos sentar juntos?", "Sim, os lugares saem em pares, a menos que o lote diga 'Single seats'. Para grupos de 9 ou mais, o parceiro tem um pedido de grupo."),
+  ("Que horas começa {t}?", "{d}, às {h} no horário local de {c}, segundo o catálogo do parceiro conferido em {conf}. O organizador ainda pode mudar o horário.", "oficial"),
+  ("Existe venda oficial para {t}?", "Sim, pelo canal oficial: {of}. Lá o preço é o de face, mas a venda costuma priorizar sócios e esgota rápido em jogos e shows disputados. A SportsEvents365 é revenda: tem lugares quando a venda oficial acaba, com preço que segue a procura.", "oficial"),
+  ("Comprar em revenda é seguro? Como não cair em golpe?", "Compre só de empresa identificada, com termos publicados e garantia por escrito. A SportsEvents365 é a {empresa} e tem central de emergência. Desconfie de Pix ou transferência para pessoa física, de preço muito abaixo do mercado e de print do ingresso como prova: o mesmo QR code pode ser vendido várias vezes.", "golpe"),
+  ("Meu cartão brasileiro pode ser recusado? Dá para parcelar?", "Pode ser recusado: o antifraude do banco às vezes barra compra internacional. Avise o banco antes e tenha um segundo cartão, como o de uma conta global em dólar ou euro. O preço sai em moeda estrangeira, com IOF cobrado pelo banco; o parcelamento depende do seu cartão e da tela de pagamento do parceiro.", "pagamento"),
+  ("O ingresso é nominal? Preciso levar documento?", "Alguns clubes e competições emitem ingresso em nome do comprador e conferem documento na entrada. Na revenda, o ingresso pode estar no nome de outra pessoa, e o parceiro explica antes o que apresentar. Leve o passaporte: os termos da SportsEvents365 permitem pedir cópia dele para emitir o pedido.", "nominal"),
+  ("O ingresso é digital?", "Depende do lote. A SportsEvents365 entrega por e-ticket, ingresso no celular, entrega no hotel ou ponto de retirada, e mostra a forma de entrega antes do pagamento. O parceiro pode trocar a forma de entrega se precisar, avisando antes.", "parceiro_faq"),
+  ("Como funciona a entrega e quando recebo?", "O pedido é confirmado em até 1 dia útil. Os ingressos chegam perto da data, como é comum na revenda. Informe o hotel até uma semana antes do evento. Se a entrega for no hotel, confira até as 9h do dia do evento se os ingressos chegaram.", "parceiro_faq"),
+  ("O ingresso é garantido?", "A SportsEvents365 oferece garantia de entrega: se não entregar os ingressos confirmados por falha dela, devolve até 100% do valor dos ingressos. Qualquer problema no dia deve ser avisado na hora pela central de emergência: {tel}.", "como"),
+  ("Por que o preço é maior que o valor impresso no ingresso?", "A SportsEvents365 atua na revenda (mercado secundário), onde o preço segue a procura. Em jogos e shows muito disputados, o preço costuma passar do valor de face.", "comprar"),
+  ("Posso cancelar? E se o evento mudar de data?", "O pedido confirmado não pode ser cancelado sem aprovação do parceiro, e o cancelamento pode ter taxa. Se o evento for adiado, o ingresso costuma valer para a nova data; se você não puder ir, o parceiro tenta reembolso ou revenda, sem garantia.", "termos"),
+  ("Vamos sentar juntos?", "Sim, os lugares saem em pares, a menos que o lote diga 'Single seats'. Para grupos de 9 ou mais, o parceiro tem um pedido de grupo.", "comprar"),
  ],
  "en": [
-  ("What time does {t} start?", "{d}, at {h} local time in {c}, according to the partner's catalogue checked on {conf}. The organizer can still change the time."),
-  ("Is the ticket digital?", "It depends on the listing. SportsEvents365 delivers by e-ticket, mobile ticket, hotel delivery or pickup point, and shows the delivery method before you pay. The partner may change the method if needed, with notice."),
-  ("How does delivery work and when do I get the tickets?", "The order is confirmed within 1 business day. Tickets arrive close to the date, as is usual for resale. Give your hotel details at least a week before the event. For hotel delivery, check by 9 am on the day that the tickets have arrived."),
-  ("Are the tickets guaranteed?", "SportsEvents365 offers a delivery guarantee: if it fails to deliver confirmed tickets for reasons on its side, it refunds up to 100% of the ticket price. Report any problem on the day straight away to the emergency line: {tel}."),
-  ("Why is the price above face value?", "SportsEvents365 works in the resale (secondary) market, where prices follow demand. For high-demand games and shows, prices are often above face value."),
-  ("Can I cancel? What if the date changes?", "A confirmed order cannot be cancelled without the partner's approval, and a fee may apply. If the event is postponed, tickets are usually valid for the new date; if you cannot attend, the partner will try to get a refund or resell them, without a guarantee."),
-  ("Will we sit together?", "Yes, seats come in pairs unless the listing says 'Single seats'. For groups of 9 or more, the partner offers group orders."),
+  ("What time does {t} start?", "{d}, at {h} local time in {c}, according to the partner's catalogue checked on {conf}. The organizer can still change the time.", "oficial"),
+  ("Is there an official sale for {t}?", "Yes, through the official channel: {of}. Prices there are face value, but sales usually favour members and sell out fast for high-demand games and shows. SportsEvents365 is a resale marketplace: it has seats when the official sale runs out, at prices that follow demand.", "oficial"),
+  ("Is buying resale safe? How do I avoid scams?", "Buy only from an identified company with published terms and a written guarantee. SportsEvents365 is {empresa} and runs an emergency line. Be wary of bank transfers or payment apps to a private person, prices far below the market, and screenshots of a ticket as 'proof': the same QR code can be sold many times.", "golpe"),
+  ("Will my card work? Are there extra fees?", "Your bank's fraud checks sometimes block foreign purchases. Tell your bank before you buy and keep a second card handy. Prices are in dollars or euros, so your card may add a foreign transaction fee and use its own exchange rate.", "pagamento"),
+  ("Are tickets in my name? Do I need ID?", "Some clubs and competitions issue tickets in the buyer's name and check ID at the gate. On resale, the ticket may carry someone else's name, and the partner explains in advance what to show. Bring your passport: SportsEvents365's terms allow it to ask for a copy to process the order.", "nominal"),
+  ("Is the ticket digital?", "It depends on the listing. SportsEvents365 delivers by e-ticket, mobile ticket, hotel delivery or pickup point, and shows the delivery method before you pay. The partner may change the method if needed, with notice.", "parceiro_faq"),
+  ("How does delivery work and when do I get the tickets?", "The order is confirmed within 1 business day. Tickets arrive close to the date, as is usual for resale. Give your hotel details at least a week before the event. For hotel delivery, check by 9 am on the day that the tickets have arrived.", "parceiro_faq"),
+  ("Are the tickets guaranteed?", "SportsEvents365 offers a delivery guarantee: if it fails to deliver confirmed tickets for reasons on its side, it refunds up to 100% of the ticket price. Report any problem on the day straight away to the emergency line: {tel}.", "como"),
+  ("Why is the price above face value?", "SportsEvents365 works in the resale (secondary) market, where prices follow demand. For high-demand games and shows, prices are often above face value.", "comprar"),
+  ("Can I cancel? What if the date changes?", "A confirmed order cannot be cancelled without the partner's approval, and a fee may apply. If the event is postponed, tickets are usually valid for the new date; if you cannot attend, the partner will try to get a refund or resell them, without a guarantee.", "termos"),
+  ("Will we sit together?", "Yes, seats come in pairs unless the listing says 'Single seats'. For groups of 9 or more, the partner offers group orders.", "comprar"),
  ],
  "es": [
-  ("¿A qué hora empieza {t}?", "{d}, a las {h} hora local de {c}, según el catálogo del socio revisado el {conf}. El organizador todavía puede cambiar el horario."),
-  ("¿La entrada es digital?", "Depende del lote. SportsEvents365 entrega por e-ticket, entrada en el móvil, entrega en el hotel o punto de recogida, y muestra la forma de entrega antes del pago. El socio puede cambiar la forma de entrega si hace falta, avisando antes."),
-  ("¿Cómo funciona la entrega y cuándo la recibo?", "El pedido se confirma en un plazo de 1 día hábil. Las entradas llegan cerca de la fecha, como es habitual en la reventa. Indica tu hotel al menos una semana antes del evento. Si la entrega es en el hotel, comprueba antes de las 9:00 del día del evento que hayan llegado."),
-  ("¿La entrada está garantizada?", "SportsEvents365 ofrece garantía de entrega: si no entrega las entradas confirmadas por causas propias, devuelve hasta el 100% del valor de las entradas. Avisa cualquier problema el mismo día a la línea de emergencia: {tel}."),
-  ("¿Por qué el precio es mayor que el valor impreso?", "SportsEvents365 opera en la reventa (mercado secundario), donde el precio sigue a la demanda. En partidos y conciertos muy buscados, el precio suele superar el valor nominal."),
-  ("¿Puedo cancelar? ¿Y si cambia la fecha?", "Un pedido confirmado no se puede cancelar sin aprobación del socio, y puede tener un cargo. Si el evento se aplaza, la entrada suele valer para la nueva fecha; si no puedes ir, el socio intenta el reembolso o la reventa, sin garantía."),
-  ("¿Nos sentaremos juntos?", "Sí, los asientos van en pares, salvo que el lote diga 'Single seats'. Para grupos de 9 o más, el socio tiene pedidos de grupo."),
+  ("¿A qué hora empieza {t}?", "{d}, a las {h} hora local de {c}, según el catálogo del socio revisado el {conf}. El organizador todavía puede cambiar el horario.", "oficial"),
+  ("¿Hay venta oficial para {t}?", "Sí, por el canal oficial: {of}. Allí el precio es el nominal, pero la venta suele priorizar a los socios y se agota rápido en partidos y conciertos muy buscados. SportsEvents365 es reventa: tiene asientos cuando la venta oficial se acaba, con precios que siguen la demanda.", "oficial"),
+  ("¿Es seguro comprar en reventa? ¿Cómo evito estafas?", "Compra solo a una empresa identificada, con términos publicados y garantía por escrito. SportsEvents365 es {empresa} y tiene línea de emergencia. Desconfía de transferencias o apps de pago a una persona física, de precios muy por debajo del mercado y de capturas de la entrada como 'prueba': el mismo código QR puede venderse varias veces.", "golpe"),
+  ("¿Mi tarjeta puede ser rechazada? ¿Hay comisiones?", "El antifraude del banco a veces bloquea compras en el extranjero. Avisa a tu banco antes y ten una segunda tarjeta a mano. El precio sale en dólares o euros, así que tu tarjeta puede sumar una comisión por compra internacional y aplicar su propio tipo de cambio.", "pagamento"),
+  ("¿La entrada es nominal? ¿Necesito documento?", "Algunos clubes y competiciones emiten entradas a nombre del comprador y piden documento en el acceso. En la reventa, la entrada puede ir a nombre de otra persona, y el socio explica antes qué presentar. Lleva el pasaporte: los términos de SportsEvents365 permiten pedir una copia para tramitar el pedido.", "nominal"),
+  ("¿La entrada es digital?", "Depende del lote. SportsEvents365 entrega por e-ticket, entrada en el móvil, entrega en el hotel o punto de recogida, y muestra la forma de entrega antes del pago. El socio puede cambiar la forma de entrega si hace falta, avisando antes.", "parceiro_faq"),
+  ("¿Cómo funciona la entrega y cuándo la recibo?", "El pedido se confirma en un plazo de 1 día hábil. Las entradas llegan cerca de la fecha, como es habitual en la reventa. Indica tu hotel al menos una semana antes del evento. Si la entrega es en el hotel, comprueba antes de las 9:00 del día del evento que hayan llegado.", "parceiro_faq"),
+  ("¿La entrada está garantizada?", "SportsEvents365 ofrece garantía de entrega: si no entrega las entradas confirmadas por causas propias, devuelve hasta el 100% del valor de las entradas. Avisa cualquier problema el mismo día a la línea de emergencia: {tel}.", "como"),
+  ("¿Por qué el precio es mayor que el valor impreso?", "SportsEvents365 opera en la reventa (mercado secundario), donde el precio sigue a la demanda. En partidos y conciertos muy buscados, el precio suele superar el valor nominal.", "comprar"),
+  ("¿Puedo cancelar? ¿Y si cambia la fecha?", "Un pedido confirmado no se puede cancelar sin aprobación del socio, y puede tener un cargo. Si el evento se aplaza, la entrada suele valer para la nueva fecha; si no puedes ir, el socio intenta el reembolso o la reventa, sin garantía.", "termos"),
+  ("¿Nos sentaremos juntos?", "Sí, los asientos van en pares, salvo que el lote diga 'Single seats'. Para grupos de 9 o más, el socio tiene pedidos de grupo.", "comprar"),
  ],
 }
+
+# Texto do link que acompanha cada resposta do FAQ. "guia#sN" aponta para a seção N do guia de compra segura.
+FAQ_LINK = {
+ "pt": {"oficial": "Abrir o canal oficial: {of}", "mapa": "Ver a rota no Google Maps", "golpe": "Guia: sinais de golpe",
+        "pagamento": "Guia: preço final, câmbio e IOF", "nominal": "Guia: ingresso nominal e documento",
+        "parceiro_faq": "Ler o FAQ da SportsEvents365", "como": "Como funcionam as garantias",
+        "comprar": "Ver preços e setores na SportsEvents365", "termos": "Ler os termos da SportsEvents365"},
+ "en": {"oficial": "Open the official channel: {of}", "mapa": "Get directions on Google Maps", "golpe": "Guide: scam warning signs",
+        "pagamento": "Guide: final price, currency and fees", "nominal": "Guide: named tickets and ID",
+        "parceiro_faq": "Read the SportsEvents365 FAQ", "como": "How the guarantees work",
+        "comprar": "See prices and sections at SportsEvents365", "termos": "Read the SportsEvents365 terms"},
+ "es": {"oficial": "Abrir el canal oficial: {of}", "mapa": "Ver la ruta en Google Maps", "golpe": "Guía: señales de estafa",
+        "pagamento": "Guía: precio final, cambio y comisiones", "nominal": "Guía: entradas nominales y documento",
+        "parceiro_faq": "Leer el FAQ de SportsEvents365", "como": "Cómo funcionan las garantías",
+        "comprar": "Ver precios y sectores en SportsEvents365", "termos": "Leer los términos de SportsEvents365"},
+}
+# Seção do guia de compra segura (GUIA) para cada link "guia".
+FAQ_GUIA_SECAO = {"golpe": 2, "pagamento": 4, "nominal": 3}
+
+# Canal oficial de venda de cada evento (slug sem a data). Só domínios oficiais conhecidos.
+OFICIAL = {
+ "barcelona-vs-real-madrid": ("FC Barcelona (fcbarcelona.com)", "https://www.fcbarcelona.com/"),
+ "barcelona-vs-manchester-city": ("FC Barcelona (fcbarcelona.com)", "https://www.fcbarcelona.com/"),
+ "milan-vs-inter": ("AC Milan (acmilan.com)", "https://www.acmilan.com/"),
+ "italia-vs-franca": ("FIGC (figc.it)", "https://www.figc.it/"),
+ "franca-vs-africa-do-sul": ("Stade de France (stadefrance.com)", "https://www.stadefrance.com/"),
+ "gp-abu-dhabi-f1": ("Yas Marina Circuit (yasmarinacircuit.com)", "https://www.yasmarinacircuit.com/"),
+ "knicks-vs-nuggets": ("Madison Square Garden (msg.com)", "https://www.msg.com/"),
+ "final-australian-open": ("Australian Open (ausopen.com)", "https://ausopen.com/"),
+ "celine-dion-paris": ("Celine Dion (celinedion.com)", "https://www.celinedion.com/"),
+ "final-champions-league": ("UEFA (uefa.com)", "https://www.uefa.com/"),
+}
+
+
+def chave_evento(slug):
+    """'barcelona-vs-real-madrid-2026-10-25' -> 'barcelona-vs-real-madrid'."""
+    return re.sub(r"-\d{4}-\d{2}-\d{2}$", "", slug)
+
+
+# Aviso "Antes de comprar" de cada evento: fatos com fonte que mudam a decisão de compra.
+# (texto, rótulo da fonte, url da fonte). "barca" liga ao guia do Barça.
+AVISO = {
+ "barcelona-vs-real-madrid": {
+  "pt": "Os ingressos do Barça são nominais: o clube pede os dados de cada pessoa dias antes e confere o documento na entrada. Em clássicos, a venda oficial é curta e prioriza sócios.",
+  "en": "Barça tickets are issued by name: the club asks for each fan's details a few days before and checks ID at the gate. For El Clásico, the official sale is short and favours members.",
+  "es": "Las entradas del Barça son nominales: el club pide los datos de cada persona días antes y revisa el documento en el acceso. En el Clásico, la venta oficial es corta y prioriza a los socios.",
+  "fonte": ("r/Barca", "https://www.reddit.com/r/Barca/comments/1lgri7m/"), "barca": True},
+ "barcelona-vs-manchester-city": {
+  "pt": "Os ingressos do Barça são nominais e o documento é conferido na entrada. Na Champions, a regra da UEFA limita a compra de lugares do setor da casa por torcedores do time visitante, e cartão do país do visitante pode dar problema.",
+  "en": "Barça tickets are issued by name and ID is checked at the gate. In the Champions League, UEFA rules limit away fans from buying home-section seats, and a card from the away team's country may cause problems.",
+  "es": "Las entradas del Barça son nominales y se revisa el documento en el acceso. En la Champions, la norma de la UEFA limita la compra de asientos del sector local por aficionados del equipo visitante, y una tarjeta del país visitante puede dar problemas.",
+  "fonte": ("r/Barca", "https://www.reddit.com/r/Barca/comments/1lgri7m/"), "barca": True},
+ "final-champions-league": {
+  "pt": "A UEFA vende os ingressos da final só pelo UEFA.com e os entrega pelo app da UEFA. Ela avisa que ingresso comprado de terceiros pode ser cancelado e a entrada, negada. Pese esse risco antes de comprar na revenda.",
+  "en": "UEFA sells final tickets only on UEFA.com and delivers them in the UEFA app. It warns that tickets bought from third parties can be cancelled and entry refused. Weigh that risk before buying resale.",
+  "es": "La UEFA vende las entradas de la final solo en UEFA.com y las entrega en su app. Avisa de que las entradas compradas a terceros pueden anularse y negarse el acceso. Valora ese riesgo antes de comprar en reventa.",
+  "fonte": ("The Ticketing Business", "https://www.theticketingbusiness.com/2024/05/uefa-issues-resale-threat-ahead-of-champions-league-final/")},
+ "final-australian-open": {
+  "pt": "No estado de Victoria, a lei limita a revenda de ingressos de grandes eventos a 10% acima do valor de face, salvo vendedor autorizado. Compare com o preço oficial no ausopen.com antes de comprar.",
+  "en": "In Victoria, the law caps resale of major-event tickets at 10% above face value unless the seller is authorised. Compare with the official price on ausopen.com before you buy.",
+  "es": "En el estado de Victoria, la ley limita la reventa de entradas de grandes eventos al 10% por encima del valor nominal, salvo vendedor autorizado. Compara con el precio oficial en ausopen.com antes de comprar.",
+  "fonte": ("Governo de Victoria", "https://djsir.vic.gov.au/ticket-scalping/about")},
+ "celine-dion-paris": {
+  "pt": "Os shows da Celine Dion em Paris atraíram muitos golpes com ingresso falso. Não pague por transferência a pessoa física e não compre por print ou foto do ingresso.",
+  "en": "Celine Dion's Paris shows have drawn many fake-ticket scams. Do not pay a private person by transfer, and do not buy from a screenshot or photo of a ticket.",
+  "es": "Los conciertos de Celine Dion en París han atraído muchas estafas con entradas falsas. No pagues por transferencia a una persona física ni compres a partir de una captura o foto de la entrada.",
+  "fonte": ("ABC News", "https://abcnews.com/amp/Entertainment/wireStory/tech-tip-avoid-celine-dion-ticket-scams-makes-136236734")},
+}
+AVISO_H = {"pt": "Antes de comprar", "en": "Before you buy", "es": "Antes de comprar"}
+AVISO_FONTE = {"pt": "Fonte", "en": "Source", "es": "Fuente"}
 
 ROT = {
  "pt": {"entrada_h": "O que levar e o que é barrado", "publico_h": "Melhor setor para cada perfil", "faq_h": "Perguntas frequentes",
         "conferido": "Data e horário conferidos no parceiro em {conf}.", "hora_local": "{h} (horário local)",
         "titulos": ["{t}{ano}: ingressos com garantia + guia {art} {loc}", "{t}{ano}: ingressos com garantia de entrega",
                     "{t}{ano}: ingressos com garantia", "{t}: ingressos com garantia"],
-        "desc": "Ingressos para {t}: {d} às {h}, {loc}. Garantia de entrega do parceiro, como chegar, melhor setor para família ou torcida e o que levar.",
+        "desc": "Ingressos (bilhetes) para {t}: {d} às {h}, {loc}. Garantia de entrega do parceiro, como chegar, melhor setor para família ou torcida e o que levar.",
         "f_time": "Horário", "como_h": "Como funciona e garantias", "guia_h": "Comprar ingressos na Europa sem risco"},
  "en": {"entrada_h": "What to bring and what gets refused", "publico_h": "Best section for each fan", "faq_h": "Frequently asked questions",
         "conferido": "Date and time checked with the partner on {conf}.", "hora_local": "{h} (local time)",
@@ -322,6 +407,7 @@ GUIA = {
                                         "Leve passaporte no dia. Os termos da SportsEvents365 preveem que o parceiro pode pedir cópia do passaporte para emitir o pedido."]),
    ("4. Preço final: câmbio, IOF e taxas", ["Compare o preço final, com taxas de serviço e entrega, e não o preço anunciado.",
                                             "No cartão brasileiro, compras em moeda estrangeira pagam IOF, e a conversão do câmbio segue a regra do seu banco. Confira antes de fechar.",
+                                            "Cartão brasileiro é recusado com frequência em sites estrangeiros. Avise o banco antes e tenha um segundo cartão, como o de uma conta global em dólar ou euro.",
                                             "Ingresso de revenda para jogo grande custa mais que o valor impresso. Isso é normal no mercado secundário, não é golpe, desde que o vendedor deixe claro."]),
    ("5. A data ainda pode mudar", ["Nas ligas europeias, dia e horário dos jogos costumam ser confirmados poucas semanas antes, por causa da TV.",
                                    "Reserve voo e hotel com uma noite de folga antes e depois, ou com tarifa remarcável.",
@@ -521,4 +607,83 @@ DIVULGACAO = {
                                     "La reventa de entradas tiene reglas propias en algunos países y competiciones. Revisa las reglas del evento y del país antes de comprar."]),
    ("Correcciones y contacto", ["Revisamos fechas y horarios en el catálogo del socio y mostramos en la página cuándo fue la última revisión. ¿Ves un error? Escribe a {email}."]),
   ]},
+}
+
+
+# ---------- Guia do Barça (busca "como comprar ingresso jogo do Barcelona") ----------
+# Fatos conferidos em 16/10/2026 no guia do r/Barca e no Guia Melhores Destinos (links em "fontes").
+GUIA_BARCA_FONTES = [
+ ("r/Barca: Visiting Camp Nou Guide 2025", "https://www.reddit.com/r/Barca/comments/1lgri7m/"),
+ ("Guia Melhores Destinos: Camp Nou", "https://guia.melhoresdestinos.com.br/camp-nou-estadio-barcelona.html"),
+]
+GUIA_BARCA = {
+ "pt": {"path": "guias/ingresso-barcelona-camp-nou/", "title": "Ingresso do Barcelona no Camp Nou: como comprar com segurança",
+  "desc": "Venda oficial, quando os ingressos saem, ingresso nominal, cartão brasileiro recusado, regra da UEFA na Champions e revenda com garantia. Guia para quem sai do Brasil.",
+  "h1": "Ingresso do Barça: como comprar com segurança", "lead": "Tudo o que um torcedor que sai do Brasil precisa saber para ver o Barcelona no Camp Nou, do canal oficial à revenda com garantia.",
+  "secoes": [
+   ("1. Comece pelo canal oficial", ["O Barça vende pelo site oficial (fcbarcelona.com), nas bilheterias do Camp Nou e nas lojas oficiais do clube em Barcelona. É o preço de face e o caminho mais seguro.",
+                                    "Os ingressos vão sendo liberados aos poucos, conforme os sócios devolvem os lugares que não vão usar. Escolher a cadeira exata muitas vezes só é possível de 1 a 2 semanas antes do jogo.",
+                                    "Em clássicos e jogos grandes de Champions, a venda oficial é curta e esgota rápido. Esperar é arriscado."]),
+   ("2. A data só fecha perto do jogo", ["Na La Liga, dia e horário são confirmados de 10 a 15 dias antes; até lá a data é provisória.",
+                                         "Na Champions, a data e o horário saem no sorteio. Reserve voo e hotel com uma noite de folga, ou com tarifa remarcável."]),
+   ("3. O ingresso é nominal", ["Os ingressos do Barça são nominais e os lugares, marcados. Dias antes do jogo, o clube pede por e-mail os dados de cada pessoa.",
+                                "O documento é conferido na entrada: leve o passaporte. O ingresso no celular é aceito, mas o clube recomenda imprimir."]),
+   ("4. Cartão brasileiro e pagamento", ["Cartão brasileiro é recusado com frequência no site do clube. Avise o banco antes e tenha um segundo cartão, como o de uma conta global em euro ou dólar.",
+                                         "A compra sai em euro, com IOF cobrado pelo banco. Compare o preço final, com todas as taxas."]),
+   ("5. Champions: a regra da UEFA", ["A UEFA limita a compra de lugares do setor da casa por torcedores do time visitante. Pagar com cartão do país do visitante pode bloquear a compra.",
+                                      "O setor visitante é vendido pelo clube visitante, para os sócios dele."]),
+   ("6. Quando a venda oficial acaba: revenda com garantia", ["Revendedoras têm lugares depois que a venda oficial esgota, com preço que segue a procura e costuma passar do valor de face.",
+                                                              "Compre só de empresa identificada, com termos publicados, garantia de entrega e central de emergência. É o caso da SportsEvents365, nossa parceira ({empresa}).",
+                                                              "Na revenda, o ingresso pode estar no nome de outra pessoa. O vendedor sério explica antes o que apresentar na entrada."]),
+   ("7. No dia do jogo", ["Metrô L3 (Palau Reial ou Les Corts) ou L5 (Collblanc ou Badal). Compre a volta antes do jogo para fugir da fila.",
+                          "Os portões abrem cerca de 1h30 antes. Em clássicos, chegue com 2 horas de folga: a revista é lenta.",
+                          "Leve bolsa pequena. Garrafas com tampa e bebida alcoólica são barradas."]),
+  ],
+  "eventos_h": "Próximos jogos do Barça", "fontes_h": "Fontes", "guia_geral": "Guia completo: comprar ingressos na Europa sem risco"},
+ "en": {"path": "en/guides/barcelona-tickets-camp-nou/", "title": "FC Barcelona tickets at Camp Nou: how to buy safely as a tourist",
+  "desc": "Official sale, when tickets are released, named tickets and ID, card problems, UEFA's Champions League rule and resale with a guarantee. A guide for visiting fans.",
+  "h1": "Barcelona tickets: how to buy safely as a tourist", "lead": "What a visiting fan needs to know to see Barça at Camp Nou, from the official sale to resale with a guarantee.",
+  "secoes": [
+   ("1. Start with the official sale", ["Barça sells through its official site (fcbarcelona.com), the Camp Nou ticket offices and the club's official stores in Barcelona. That is face value and the safest route.",
+                                       "Tickets are released gradually as members give back seats they will not use. Picking an exact seat is often only possible 1 to 2 weeks before the game.",
+                                       "For El Clásico and big Champions League nights, the official sale is short and sells out fast. Waiting is risky."]),
+   ("2. The date is set late", ["In La Liga, match day and kick-off are confirmed 10 to 15 days ahead; until then the date is provisional.",
+                                "In the Champions League, date and time come with the draw. Book flights and hotels with a spare night, or with changeable fares."]),
+   ("3. Tickets are issued by name", ["Barça tickets are named and seats are allocated. A few days before the game, the club emails asking for each fan's details.",
+                                      "ID is checked at the gate: bring your passport. Mobile tickets are accepted, but the club advises printing them."]),
+   ("4. Cards and payment", ["Foreign cards are sometimes declined on the club's site. Tell your bank before you buy and keep a second card handy.",
+                             "You pay in euros, and your card may add a foreign transaction fee. Compare the final price with all fees."]),
+   ("5. Champions League: UEFA's rule", ["UEFA limits away fans from buying home-section seats. Paying with a card from the away team's country can block the purchase, which matters for English fans at Barça vs Manchester City.",
+                                         "The away section is sold by the visiting club to its own members."]),
+   ("6. When the official sale is over: resale with a guarantee", ["Resale marketplaces have seats after the official sale sells out, at prices that follow demand and often exceed face value.",
+                                                                   "Buy only from an identified company with published terms, a delivery guarantee and an emergency line. SportsEvents365, our partner ({empresa}), is one.",
+                                                                   "On resale, the ticket may carry someone else's name. A serious seller explains in advance what to show at the gate."]),
+   ("7. On match day", ["Metro L3 (Palau Reial or Les Corts) or L5 (Collblanc or Badal). Buy your return ticket before the game to skip the queue.",
+                        "Gates open about 1h30 before kick-off. For El Clásico, allow 2 hours: security is slow.",
+                        "Carry a small bag. Bottles with caps and alcohol are refused."]),
+  ],
+  "eventos_h": "Upcoming Barça games", "fontes_h": "Sources", "guia_geral": "Full guide: buying tickets in Europe safely"},
+ "es": {"path": "es/guias/entradas-barcelona-camp-nou/", "title": "Entradas del Barça en el Camp Nou: cómo comprar con seguridad",
+  "desc": "Venta oficial, cuándo salen las entradas, entradas nominales, tarjetas rechazadas, la norma de la UEFA en Champions y reventa con garantía. Guía para quien viaja.",
+  "h1": "Entradas del Barça: cómo comprar con seguridad", "lead": "Lo que necesita saber un aficionado que viaja para ver al Barça en el Camp Nou, desde la venta oficial hasta la reventa con garantía.",
+  "secoes": [
+   ("1. Empieza por la venta oficial", ["El Barça vende en su web oficial (fcbarcelona.com), en las taquillas del Camp Nou y en las tiendas oficiales del club en Barcelona. Es el precio nominal y la vía más segura.",
+                                        "Las entradas salen poco a poco, a medida que los socios liberan los asientos que no usarán. Elegir el asiento exacto a menudo solo es posible de 1 a 2 semanas antes.",
+                                        "En el Clásico y en las grandes noches de Champions, la venta oficial es corta y se agota rápido. Esperar es arriesgado."]),
+   ("2. La fecha se fija tarde", ["En La Liga, el día y la hora se confirman de 10 a 15 días antes; hasta entonces la fecha es provisional.",
+                                  "En la Champions, la fecha y la hora salen con el sorteo. Reserva vuelo y hotel con una noche de margen, o con tarifa modificable."]),
+   ("3. La entrada es nominal", ["Las entradas del Barça son nominales y con asiento asignado. Días antes del partido, el club pide por correo los datos de cada persona.",
+                                 "El documento se revisa en el acceso: lleva el pasaporte. La entrada en el móvil se acepta, pero el club recomienda imprimirla."]),
+   ("4. Tarjeta y pago", ["Las tarjetas extranjeras a veces se rechazan en la web del club. Avisa a tu banco antes y ten una segunda tarjeta a mano.",
+                          "Pagas en euros, y tu tarjeta puede sumar una comisión por compra internacional. Compara el precio final con todas las comisiones."]),
+   ("5. Champions: la norma de la UEFA", ["La UEFA limita la compra de asientos del sector local por aficionados del equipo visitante. Pagar con una tarjeta del país visitante puede bloquear la compra.",
+                                          "El sector visitante lo vende el club visitante a sus propios socios."]),
+   ("6. Cuando se acaba la venta oficial: reventa con garantía", ["Las reventas tienen asientos cuando la venta oficial se agota, con precios que siguen la demanda y suelen superar el valor nominal.",
+                                                                  "Compra solo a una empresa identificada, con términos publicados, garantía de entrega y línea de emergencia. SportsEvents365, nuestro socio ({empresa}), es una.",
+                                                                  "En la reventa, la entrada puede ir a nombre de otra persona. Un vendedor serio explica antes qué presentar en el acceso."]),
+   ("7. El día del partido", ["Metro L3 (Palau Reial o Les Corts) o L5 (Collblanc o Badal). Compra la vuelta antes del partido para evitar la cola.",
+                              "Las puertas abren 1h30 antes. En el Clásico, llega con 2 horas de margen: el control es lento.",
+                              "Lleva un bolso pequeño. Se rechazan botellas con tapón y alcohol."]),
+  ],
+  "eventos_h": "Próximos partidos del Barça", "fontes_h": "Fuentes", "guia_geral": "Guía completa: comprar entradas en Europa sin riesgo"},
 }
