@@ -1,0 +1,63 @@
+name: Atualizar preços
+# A cada 6 horas lê o menor preço de cada evento no parceiro (scripts/precos.py), regenera as páginas
+# (preço visível + JSON-LD do Google Eventos) e publica se algo mudou.
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  precos:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pillow
+      - name: Ler preços no parceiro
+        run: python scripts/precos.py
+      - name: Regenerar páginas
+        run: python scripts/gerar_paginas.py
+      - name: Publicar se houver mudança
+        id: pub
+        run: |
+          git config user.name "precos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "mudou=nao" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Atualiza preços do parceiro"
+            git pull --rebase -X ours origin main
+            git push
+            echo "mudou=sim" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Publicar em mytickets.tours (Azure Static Web Apps)
+        if: steps.pub.outputs.mudou == 'sim'
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: "."
+          skip_app_build: true
+          skip_api_build: true
+      - uses: actions/configure-pages@v5
+        if: steps.pub.outputs.mudou == 'sim'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.pub.outputs.mudou == 'sim'
+        with:
+          path: .
+      - name: Deploy
+        id: deployment
+        if: steps.pub.outputs.mudou == 'sim'
+        uses: actions/deploy-pages@v4

@@ -48,6 +48,48 @@ GSC_VERIFICATION = ""
 PINTEREST_PERFIL = "Sportseventstickets"
 PINTEREST_VERIFY = "a2825b6bb5c90286d6b83597d08596fc"
 OG_PADRAO = "06-champions.jpg"
+# Preço "a partir de" lido do parceiro por scripts/precos.py (data/precos.json). Só aparece no site e no
+# JSON-LD enquanto for recente; depois disso some, para nunca mostrar preço velho.
+PRECO_VALIDADE_H = 36
+# Duração típica de cada tipo de evento, para o "endDate" dos dados estruturados.
+DURACAO_H = {"football": 2, "rugby": 2, "f1": 2, "nba": 2.5, "tennis": 4, "concert": 3}
+SIMBOLO = {"BRL": "R$", "USD": "US$", "EUR": "€", "GBP": "£", "AUD": "A$", "CAD": "C$", "CHF": "CHF", "MXN": "MX$", "ARS": "AR$"}
+PRECO_TXT = {
+ "pt": "A partir de {p} no parceiro (conferido em {d} às {h} UTC). O preço muda conforme a procura.",
+ "en": "From {p} at the partner (checked {d} at {h} UTC). Prices change with demand.",
+ "es": "Desde {p} en el socio (revisado el {d} a las {h} UTC). El precio cambia según la demanda.",
+}
+_PRECOS = None
+
+
+def preco_atual(ev, lang):
+    """Preço mínimo recente do evento no idioma (moeda do domínio do parceiro), ou None."""
+    global _PRECOS
+    if _PRECOS is None:
+        try:
+            _PRECOS = json.loads((RAIZ / "data" / "precos.json").read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _PRECOS = {}
+    pr = _PRECOS.get(str(ev["id"]), {}).get(lang)
+    if not pr:
+        return None
+    idade = dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(pr["conferido"])
+    return pr if idade <= dt.timedelta(hours=PRECO_VALIDADE_H) else None
+
+
+def fmt_preco(valor, moeda, lang):
+    n = f"{valor:,.0f}"
+    if lang != "en":
+        n = n.replace(",", ".")
+    return f"{SIMBOLO.get(moeda, moeda)} {n}"
+
+
+def fim_evento(ev):
+    """endDate: início + duração típica do tipo de evento (ou só a data, sem horário de início)."""
+    if not ev.get("inicio"):
+        return ev["data"]
+    ini = dt.datetime.fromisoformat(ev["inicio"])
+    return (ini + dt.timedelta(hours=DURACAO_H.get(ev["tipo"], 2))).isoformat()
 PIN_TXT = {"pt": ("Salvar no Pinterest", "Seguir no Pinterest"), "en": ("Save to Pinterest", "Follow on Pinterest"),
            "es": ("Guardar en Pinterest", "Seguir en Pinterest")}
 # Chave pública do IndexNow (Bing, Yandex, Seznam, Naver). O arquivo <chave>.txt fica na raiz.
@@ -857,8 +899,14 @@ def ld_evento(lang, ev, pagina):
           "eventStatus": "https://schema.org/" + ev.get("status", "EventScheduled"),
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
           "location": lugar, "image": [foto_abs(ev.get("banner", ev["img"]))], "description": L(ev["intro"], lang),
+          "endDate": fim_evento(ev),
           "offers": {"@type": "Offer", "url": parceiro(lang, f"/event/{ev['id']}"), "availability": "https://schema.org/InStock",
+                     "validFrom": ev.get("conferido", C.PARCEIRO["conferido"]),
                      "seller": {"@type": "Organization", "name": "SportsEvents365", "url": "https://sportsevents365.com/"}}}
+    pr = preco_atual(ev, lang)
+    if pr:  # preço real do parceiro, o mesmo que aparece visível na página
+        ld["offers"]["price"] = f"{pr['min']:.2f}"
+        ld["offers"]["priceCurrency"] = pr["moeda"]
     if ev.get("artista"):
         ld["performer"] = {"@type": "MusicGroup", "name": ev["artista"]["nome"]}
     elif ev.get("times"):
@@ -867,8 +915,13 @@ def ld_evento(lang, ev, pagina):
         ld["competitor"] = times
         if len(times) == 2:
             ld["homeTeam"], ld["awayTeam"] = times
-    if ev["tipo"] != "concert":
+    org = C.ORGANIZADOR.get(C.chave_evento(ev["slug"]))
+    if org:
+        ld["organizer"] = {"@type": org[0], "name": org[1], "url": org[2]}
+    elif ev["tipo"] != "concert":
         ld["organizer"] = {"@type": "SportsOrganization", "name": L(ev["competicao"]["nome"], lang)}
+    elif ev.get("artista"):
+        ld["organizer"] = {"@type": "Person", "name": ev["artista"]["nome"]}
     return ld
 
 
@@ -1001,6 +1054,12 @@ def evento(lang, ev, eventos, hubs):
     tambem_html = "".join(f"<li>{x}</li>" for x in tambem)
     mais = "".join(cartao(lang, pagina, x) for x in relacionados(ev, eventos))
     lg = C.LEGAL[lang]
+    pr = preco_atual(ev, lang)
+    linha_preco = ""
+    if pr:
+        quando = dt.datetime.fromisoformat(pr["conferido"]).astimezone(dt.timezone.utc)
+        linha_preco = '<p class="buy-price">' + e(PRECO_TXT[lang].format(
+            p=fmt_preco(pr["min"], pr["moeda"], lang), n=pr["lotes"], d=data_num(quando.date().isoformat(), lang), h=quando.strftime("%H:%M"))) + "</p>"
     cards_compra = "".join(
         f'<article class="buy-opt"><div class="buy-head"><span class="buy-seller">{e(lg["vendedor"])}</span><h3>{e(pp["nome"])}</h3>'
         f'<p class="buy-badge">{e(pp["selo"][lang])}</p></div>'
@@ -1008,7 +1067,7 @@ def evento(lang, ev, eventos, hubs):
         + f'<div class="buy-actions">{mag(rel(pagina, caminho_go(pk, lang, ev)), e(lg["cta"].format(nome=pp["nome"])), "btn btn-signal")}'
         + (f'<a class="buy-terms" href="{e(pp["termos"])}" target="_blank" rel="nofollow noopener">{e(lg["ver_termos"])}</a>' if pp.get("termos") else "")
         + '</div></article>' for pk, pp, _d in opcoes_compra(lang, ev))
-    onde_comprar = (f'<section class="buy" aria-labelledby="buy-h"><h2 id="buy-h">{e(lg["onde_h"])}</h2><p class="buy-sub">{e(lg["onde_sub"])}</p>'
+    onde_comprar = (f'<section class="buy" aria-labelledby="buy-h"><h2 id="buy-h">{e(lg["onde_h"])}</h2><p class="buy-sub">{e(lg["onde_sub"])}</p>{linha_preco}'
                     f'<div class="buy-list">{cards_compra}</div><p class="disclose buy-face">{e(lg["face"])}</p></section>') if cards_compra else ""
     entrada = "".join(f"<li>{e(x)}</li>" for x in C.ENTRADA[ev["tipo"]][lang])
     perfis = list(C.PUBLICO[ev["tipo"]][lang]) + ([C.LOCAL_PUBLICO[ev["local"]][lang]] if ev["local"] in C.LOCAL_PUBLICO else [])

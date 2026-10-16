@@ -687,3 +687,19 @@ GUIA_BARCA = {
   ],
   "eventos_h": "Próximos partidos del Barça", "fontes_h": "Fuentes", "guia_geral": "Guía completa: comprar entradas en Europa sin riesgo"},
 }
+
+
+# Organizador de cada evento (dados estruturados "organizer"): quem promove o jogo ou o show.
+# Jogos de clube: o mandante. Seleções: a federação da casa. Final da Champions: a UEFA.
+ORGANIZADOR = {
+ "barcelona-vs-real-madrid": ("SportsOrganization", "FC Barcelona", "https://www.fcbarcelona.com/"),
+ "barcelona-vs-manchester-city": ("SportsOrganization", "FC Barcelona", "https://www.fcbarcelona.com/"),
+ "milan-vs-inter": ("SportsOrganization", "AC Milan", "https://www.acmilan.com/"),
+ "italia-vs-franca": ("SportsOrganization", "Federazione Italiana Giuoco Calcio (FIGC)", "https://www.figc.it/"),
+ "franca-vs-africa-do-sul": ("SportsOrganization", "Fédération Française de Rugby", "https://www.ffr.fr/"),
+ "gp-abu-dhabi-f1": ("SportsOrganization", "Formula 1", "https://www.formula1.com/"),
+ "knicks-vs-nuggets": ("SportsOrganization", "New York Knicks", "https://www.nba.com/knicks"),
+ "final-australian-open": ("SportsOrganization", "Tennis Australia", "https://ausopen.com/"),
+ "celine-dion-paris": ("Person", "Celine Dion", "https://www.celinedion.com/"),
+ "final-champions-league": ("SportsOrganization", "UEFA", "https://www.uefa.com/"),
+}

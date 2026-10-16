@@ -400,3 +400,5 @@ html{scroll-padding-top:120px}
   color:var(--ink, inherit);background:var(--surface);box-shadow:inset 0 0 0 1px var(--line);text-decoration:none}
 .btn-pin:hover,.btn-pin:focus-visible{box-shadow:inset 0 0 0 2px var(--signal)}
 .btn-pin svg{color:#E60023}
+/* Preço "a partir de" lido do parceiro (o mesmo valor vai para o JSON-LD) */
+.buy-price{margin:0 0 4px;font-weight:600;color:var(--ink)}
