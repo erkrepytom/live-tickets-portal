@@ -146,8 +146,27 @@ if (buy && ctaTopo && "IntersectionObserver" in window){
   }).observe(ctaTopo);
 }
 
+/* Pinterest: carrega pinit.js uma vez, só em páginas com botão do Pinterest e só com consentimento.
+   Sem o script, o botão continua funcionando como link comum para o Pinterest. */
+function loadPinterest(){
+  if (window.__mtPin || !document.querySelector("[data-pin-do]")) return;
+  window.__mtPin = true;
+  const s = document.createElement("script");
+  s.async = true; s.defer = true; s.src = "https://assets.pinterest.com/js/pinit.js";
+  document.body.appendChild(s);
+}
+document.addEventListener("click", ev => {
+  const a = ev.target.closest("[data-pin-do]");
+  if (a) track({ event: "share", method: "pinterest", content_type: a.dataset.pinDo === "buttonFollow" ? "follow" : "save", item_id: location.pathname });
+}, true);
+
 /* Banner de cookies (Consent Mode v2). Só existe quando o GTM ou o GA4 está configurado no gerador. */
 const bar = document.getElementById("cookie-bar");
+{
+  let consent = null;
+  try { consent = localStorage.getItem("mt_consent"); } catch (e) {}
+  if (consent === "granted") loadPinterest();
+}
 if (bar){
   let saved = null;
   try { saved = localStorage.getItem("mt_consent"); } catch (e) {}
@@ -159,6 +178,7 @@ if (bar){
     try { localStorage.setItem("mt_consent", v); } catch (e) {}
     gtagSafe("consent", "update", { ad_storage: v, ad_user_data: v, ad_personalization: v, analytics_storage: v });
     track({ event: "consent_" + v });
+    if (v === "granted") loadPinterest();
     bar.hidden = true;
   });
 }

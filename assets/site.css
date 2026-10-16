@@ -394,3 +394,9 @@ html{scroll-padding-top:120px}
 .faq-item p.faq-link{margin-top:8px;font-weight:600}
 .faq-link a{color:var(--signal-text)}
 .legal h2[id]{scroll-margin-top:90px}
+/* Pinterest: botão próprio (data-pin-custom), funciona como link mesmo sem o script do Pinterest */
+.pin-row{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 0}
+.btn-pin{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border-radius:999px;font:600 14px/1 var(--f-body, inherit);
+  color:var(--ink, inherit);background:var(--surface);box-shadow:inset 0 0 0 1px var(--line);text-decoration:none}
+.btn-pin:hover,.btn-pin:focus-visible{box-shadow:inset 0 0 0 2px var(--signal)}
+.btn-pin svg{color:#E60023}

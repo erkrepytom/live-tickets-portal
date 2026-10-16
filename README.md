@@ -84,3 +84,14 @@ Purchases through affiliate links may earn the operator a commission at no extra
 ## License
 
 MIT. Third-party trademarks and linked supplier content keep their respective rights.
+
+## Pinterest
+
+- Páginas de evento e de guia têm o botão "Salvar no Pinterest" (`botoes_pinterest` em `scripts/gerar_paginas.py`).
+  Sem o script do Pinterest ele é um link comum para `pinterest.com/pin/create/button/`.
+- `assets/site.js` só carrega `pinit.js` (uma vez) quando a página tem botão do Pinterest **e** o visitante aceitou os cookies.
+  A home e as páginas institucionais não carregam o script.
+- Toda página tem `og:image` (imagem do evento ou `OG_PADRAO`), que o Pinterest usa ao salvar.
+- Cliques no botão viram o evento `share` (method `pinterest`) no GA4.
+- Para ligar o botão Seguir: preencha `PINTEREST_PERFIL` (o nome em pinterest.com/<perfil>/).
+- Para reivindicar o site no Pinterest: preencha `PINTEREST_VERIFY` com o código da meta tag `p:domain_verify`.
