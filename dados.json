@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-16T06:56:22+00:00",
+ "atualizado": "2026-10-16T07:19:16+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -10,6 +10,12 @@
     "es": "Brasil"
    },
    "noticias": [
+    {
+     "t": "Reinier dá volta por cima no Atlético-MG e supera números de passagem pelo futebol europeu",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/16/reinier-da-volta-por-cima-no-atletico-mg-e-supera-numeros-de-passagem-pelo-futebol-europeu.ghtml",
+     "f": "ge",
+     "alta": false
+    },
     {
      "t": "Assista aos melhores momentos de Estudiantes 0 x 0 Flamengo pela Libertadores",
      "u": "https://www.gazetaesportiva.com/times/flamengo/assista-aos-melhores-momentos-de-estudiantes-0-x-0-flamengo-pela-libertadores/",
@@ -23,14 +29,8 @@
      "alta": false
     },
     {
-     "t": "Palmeiras vence o Universitario na estreia da Libertadores Feminina",
-     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/15-10-2026/universitario-palmeiras.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Corinthians vence Colo-Colo na estreia da Libertadores Feminina",
-     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/15-10-2026/corinthians-colo-colo.ghtml",
+     "t": "Cruzeiro x LDU pela Libertadores Feminina: onde assistir ao vivo e horário",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/libertadores-feminina/noticia/2026/10/16/cruzeiro-x-ldu-pela-libertadores-feminina-onde-assistir-ao-vivo-e-horario.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -57,14 +57,14 @@
      "alta": false
     },
     {
-     "t": "Patriots’ Pop Douglas reveals Super Bowl foe who talks the most trash in the NFL",
-     "u": "https://sports.yahoo.com/articles/patriots-pop-douglas-reveals-super-062753635.html",
+     "t": "Where to watch Timberwolves vs. Bulls today: Channel, live stream, time, TV schedule for NBA preseason game",
+     "u": "https://sports.yahoo.com/articles/where-watch-timberwolves-vs-bulls-070001034.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "1.FC Union Berlin vs. Borussia Dortmund preview: Kovač sets out to make amends",
-     "u": "https://sports.yahoo.com/articles/1-fc-union-berlin-vs-064500232.html",
+     "t": "Benfica 4-1 Celtic – Martin O’Neill remains hopeful of qualification",
+     "u": "https://sports.yahoo.com/articles/benfica-4-1-celtic-martin-070800567.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,14 +79,8 @@
    },
    "noticias": [
     {
-     "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
-     "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Enzo empurra árbitro no Manchester City-PSG",
-     "u": "https://www.abola.pt/video/enzo-empurra-arbitro-no-manchester-city-psg-2026101509263748741",
+     "t": "Jardim aponta dedo à arbitragem após nulo do Flamengo: «Não deixou jogar»",
+     "u": "https://www.abola.pt/noticias/jardim-aponta-dedo-a-arbitragem-apos-nulo-do-flamengo-nao-deixou-jogar-2026101606184482144",
      "f": "A Bola",
      "alta": false
     },
@@ -94,6 +88,12 @@
      "t": "«Os melhores em campo? Prestianni, Prestianni, Prestianni»: as reações à goleada do Benfica frente ao Celtic",
      "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/os-melhores-em-campo-prestianni-prestianni-prestianni-as-reacoes-a-goleada-do-benfica-frente-ao-celtic",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Liga Portugal e ANCAF firmam parceria para modernizar o futebol angolano",
+     "u": "https://www.abola.pt/noticias/liga-portugal-e-ancaf-firmam-parceria-para-modernizar-o-futebol-angolano-2026101413515210530",
+     "f": "A Bola",
      "alta": false
     },
     {
@@ -113,14 +113,14 @@
    },
    "noticias": [
     {
-     "t": "Lamine Yamal y Barcola lideran un once ideal de la Champions con varias sorpresas",
-     "u": "https://www.mundodeportivo.com/futbol/champions-league/20261015/1004239174/lamine-yamal-barcola-lideran-once-ideal-champions-sorpresas.html",
-     "f": "Mundo Deportivo",
-     "alta": true
-    },
-    {
      "t": "Sorpresón en el recorrido del Tour de Francia de 2027",
      "u": "https://www.mundodeportivo.com/ciclismo/tour-francia/20261016/1004239227/sorpreson-recorrido-tour-francia-2027.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "En la NBA lo tienen claro: “El Barça es candidato a la Euroliga, sin duda. Evbuomwan es especial”",
+     "u": "https://www.mundodeportivo.com/baloncesto/nba/20261016/1004239333/nba-claro-barca-candidato-euroliga-duda-evbuomwan-especial.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -259,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "Le programme des Français du vendredi 16 octobre aux Championnats d'Europe de tennis de table",
-     "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-programme-des-francais-du-vendredi-16-octobre-aux-championnats-d-europe-du-tennis-de-table/1736133#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": true
-    },
-    {
      "t": "Sanofi nouveau sponsor du maillot blanc du Tour de France",
      "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Sanofi-nouveau-sponsor-du-maillot-blanc-du-tour-de-france/1725712#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    },
+    {
+     "t": "Taille, profils, carences : sur coups de pied arrêtés, le PSG a recommencé à subir face à Manchester City",
+     "u": "https://www.lequipe.fr/Football/Article/Taille-profils-carences-sur-coups-de-pied-arretes-le-psg-a-recommence-a-subir-face-a-manchester-city/1736064#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,9 +275,9 @@
  ],
  "destaques": [
   {
-   "t": "Assista aos melhores momentos de Estudiantes 0 x 0 Flamengo pela Libertadores",
-   "u": "https://www.gazetaesportiva.com/times/flamengo/assista-aos-melhores-momentos-de-estudiantes-0-x-0-flamengo-pela-libertadores/",
-   "f": "Gazeta Esportiva",
+   "t": "Reinier dá volta por cima no Atlético-MG e supera números de passagem pelo futebol europeu",
+   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/16/reinier-da-volta-por-cima-no-atletico-mg-e-supera-numeros-de-passagem-pelo-futebol-europeu.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
@@ -289,17 +289,17 @@
    "pais": "US"
   },
   {
-   "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
-   "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
+   "t": "Jardim aponta dedo à arbitragem após nulo do Flamengo: «Não deixou jogar»",
+   "u": "https://www.abola.pt/noticias/jardim-aponta-dedo-a-arbitragem-apos-nulo-do-flamengo-nao-deixou-jogar-2026101606184482144",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Lamine Yamal y Barcola lideran un once ideal de la Champions con varias sorpresas",
-   "u": "https://www.mundodeportivo.com/futbol/champions-league/20261015/1004239174/lamine-yamal-barcola-lideran-once-ideal-champions-sorpresas.html",
+   "t": "Sorpresón en el recorrido del Tour de Francia de 2027",
+   "u": "https://www.mundodeportivo.com/ciclismo/tour-francia/20261016/1004239227/sorpreson-recorrido-tour-francia-2027.html",
    "f": "Mundo Deportivo",
-   "alta": true,
+   "alta": false,
    "pais": "ES"
   },
   {
@@ -331,10 +331,10 @@
    "pais": "IT"
   },
   {
-   "t": "Le programme des Français du vendredi 16 octobre aux Championnats d'Europe de tennis de table",
-   "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-programme-des-francais-du-vendredi-16-octobre-aux-championnats-d-europe-du-tennis-de-table/1736133#at_medium=RSS_feeds",
+   "t": "Sanofi nouveau sponsor du maillot blanc du Tour de France",
+   "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Sanofi-nouveau-sponsor-du-maillot-blanc-du-tour-de-france/1725712#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": true,
+   "alta": false,
    "pais": "FR"
   }
  ],
