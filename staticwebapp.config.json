@@ -44,6 +44,7 @@
     "Referrer-Policy": "strict-origin-when-cross-origin"
   },
   "mimeTypes": {
-    ".json": "application/json"
+    ".json": "application/json",
+    ".mp4": "video/mp4"
   }
 }
