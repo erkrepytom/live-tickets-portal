@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-17T05:41:07+00:00",
+ "atualizado": "2026-10-17T10:56:05+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Saiba como croata do Grêmio virou anjo e construiu amizade com Matheus Pereira, do Cruzeiro",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/17/saiba-como-croata-do-gremio-virou-anjo-e-construiu-amizade-com-matheus-pereira-do-cruzeiro.ghtml",
+     "t": "Everton x Chelsea: veja as prováveis escalações e onde assistir ao jogo pelo Campeonato Inglês",
+     "u": "https://www.gazetaesportiva.com/times/chelsea/everton-x-chelsea-veja-as-provaveis-escalacoes-e-onde-assistir-ao-jogo-pelo-campeonato-ingles/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "Veja como Marcão planeja a lateral esquerda do Fluminense contra Santos e Palmeiras",
+     "u": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/17/veja-como-marcao-planeja-a-lateral-esquerda-do-fluminense-contra-santos-e-palmeiras.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Newton projeta São Paulo ofensivo contra o Vasco: “Pressionar o tempo todo”",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/newton-projeta-sao-paulo-ofensivo-contra-o-vasco-pressionar-o-tempo-todo/",
+     "t": "Fluminense x Santos: saiba onde assistir ao jogo pela 31ª rodada do Brasileirão",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/fluminense-x-santos-onde-assistir-brasileirao-2026/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Cruzeiro segura pressão e bate LDU na estreia da Libertadores Feminina",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/libertadores-feminina/jogo/16-10-2026/cruzeiro-ldu-quito.ghtml",
+     "t": "Meia do Atlético-MG comenta futuro em reta final de contrato",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/17/meia-do-atletico-mg-comenta-futuro-em-reta-final-de-contrato.ghtml",
      "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Inter perde confronto direto para o Mirassol e segue no Z4 do Brasileirão",
-     "u": "https://www.gazetaesportiva.com/times/internacional/mirassol-x-internacional-brasileirao-2026/",
-     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -57,14 +57,14 @@
      "alta": false
     },
     {
-     "t": "Hopefully, a Manchester City favourite can make his mark against Ipswich Town today",
-     "u": "https://sports.yahoo.com/articles/hopefully-manchester-city-favourite-mark-053300260.html",
+     "t": "Roma ultras thanked Mourinho before Real Madrid clash: ‘You gave us back the ability to dream’",
+     "u": "https://sports.yahoo.com/articles/roma-ultras-thanked-mourinho-real-103500093.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Stephen A. Smith convinced MLB salary cap is imminent even after Dodgers lost NLCS to Brewers",
-     "u": "https://sports.yahoo.com/articles/stephen-smith-convinced-mlb-salary-053336854.html",
+     "t": "Real Madrid talisman has missed most big chances in Europe’s top five leagues",
+     "u": "https://sports.yahoo.com/articles/real-madrid-talisman-missed-most-103900463.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Jesualdo Ferreira: «Quando cheguei ao FC Porto toda a gente dizia que eu era do Benfica. E eu nunca disse que não era»",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/jesualdo-ferreira-quando-cheguei-ao-fc-porto-toda-a-gente-dizia-que-eu-era-do-benfica-e-eu-nunca-disse-que-nao-era",
+     "t": "João Neves a perder espaço no PSG? Internacional português dá que falar em França",
+     "u": "https://www.record.pt/internacional/paises/franca/psg/detalhe/joao-neves-a-perder-espaco-no-psg-internacional-portugues-da-que-falar-em-franca",
      "f": "Record",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "FC Porto: uma estreia na Champions para bloquear caminhos da baliza",
-     "u": "https://www.abola.pt/noticias/fc-porto-uma-estreia-na-champions-para-bloquear-caminhos-da-baliza-2026101616294597516",
+     "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
+     "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Toque de Bola: o apanha bolas que fez golo num FC Porto-Sporting",
-     "u": "https://www.abola.pt/video/toque-de-bola-o-apanha-bolas-que-fez-golo-num-fc-porto-sporting-2026101414592055970",
-     "f": "A Bola",
+     "t": "Mourinho e a polémica do Real Madrid com Tebas: «Só tem desculpa se for um caso clínico»",
+     "u": "https://www.record.pt/internacional/paises/espanha/real-madrid/detalhe/mourinho-e-a-polemica-do-real-madrid-com-tebas-so-tem-desculpa-se-for-um-caso-clinico",
+     "f": "Record",
      "alta": false
     },
     {
-     "t": "João Rodrigues atira-se à arbitragem do França-Portugal: «Tornou-se uma anarquia... Os árbitros não tiveram mão»",
-     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/joao-rodrigues-atira-se-a-arbitragem-do-franca-portugal-tornou-se-uma-anarquia-os-arbitros-nao-tiveram-mao",
-     "f": "Record",
+     "t": "Toque de Bola: a bola dentro da baliza do Sporting e o auxiliar a coçar o olho",
+     "u": "https://www.abola.pt/video/toque-de-bola-a-bola-dentro-da-baliza-do-sporting-e-o-auxiliar-a-cocar-o-olho-2026101413052424783",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -119,15 +119,15 @@
      "alta": false
     },
     {
-     "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
-     "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
-     "f": "Marca",
+     "t": "Esta es la joya del Sporting de Portugal que ha atraído al Real Madrid",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261017/1004239705/joya-sporting-portugal-seducido-real-madrid.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "El Real Madrid responde a Tebas y \"exige\" su dimisión",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261016/1004239524/real-madrid-responde-tebas.html",
-     "f": "Mundo Deportivo",
+     "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
+     "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
+     "f": "Marca",
      "alta": false
     },
     {
@@ -147,14 +147,14 @@
    },
    "noticias": [
     {
-     "t": "England’s World Cup test against Tonga will show where power really lies in rugby league",
-     "u": "https://www.theguardian.com/sport/2026/oct/16/england-rugby-league-world-cup-tonga",
+     "t": "Everton v Chelsea: Premier League – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/17/everton-v-chelsea-premier-league-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "The All Blacks' Haka explained - plus rugby's other rituals",
-     "u": "https://www.skysports.com/rugby-union/news/12040/13597698/new-zealands-haka-explained-meaning-and-origin-of-all-blacks-rugby-war-dance-plus-cibi-siva-tau-sipi-tau-rituals",
+     "t": "Rugby League World Cup LIVE! Young try gives England hope vs Tonga",
+     "u": "https://www.skysports.com/rugby-league/live-blog/12040/13600058/rugby-league-world-cup-2026-live-updates-from-england-men-vs-tonga-and-women-vs-wales-in-opening-games-of-the-tournament",
      "f": "Sky Sports",
      "alta": false
     },
@@ -165,9 +165,9 @@
      "alta": false
     },
     {
-     "t": "Do Manchester City have any grounds to win their appeal?",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c6je5lwxk5l0o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "The All Blacks' Haka explained - plus rugby's other rituals",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13597698/new-zealands-haka-explained-meaning-and-origin-of-all-blacks-rugby-war-dance-plus-cibi-siva-tau-sipi-tau-rituals",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -215,14 +215,14 @@
      "alta": false
     },
     {
-     "t": "De Felippe, caliente tras la derrota con Boca: \"¿A quién querés que ponga, a mi vieja?",
-     "u": "https://www.ole.com.ar/talleres/felippe-caliente-derrota-boca-queres-ponga-vieja-talleres_0_0vOlc8MaZE.html",
+     "t": "No le pierden pisada: qué necesitan los perseguidores de Boca en la anual",
+     "u": "https://www.ole.com.ar/futbol-primera/torneo-clausura-independiente-rivadavia-rosario-central-argentinos-juniors-velez-sarsfield-tabla-anual-guillermo-barros-schelotto-alfredo-berti-jorge-almiron-nicolas_0_peEZseaIH9.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Calificá a los jugadores de Boca tras el triunfo ante Talleres",
-     "u": "https://www.ole.com.ar/boca-juniors/califica-jugadores-boca-triunfo-talleres_0_CjuDonAdZm.html",
+     "t": "Partidos de HOY, sábado 17 de octubre: horario y por dónde ver fútbol EN VIVO",
+     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-sabado-17-octubre-2026-agenda-ole-horario-ver-futbol-vivo-online_0_wgdeMQ5bBg.html",
      "f": "Olé",
      "alta": false
     }
@@ -259,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "« C'est un super ambassadeur » : de Poitiers à Tourcoing, le retour d'Earvin Ngapeth en France emballe tout le Championnat",
-     "u": "https://www.lequipe.fr/Volley-ball/Article/-c-est-un-super-ambassadeur-de-poitiers-a-tourcoing-le-retour-d-earvin-ngapeth-en-france-emballe-tout-le-championnat/1736323#at_medium=RSS_feeds",
+     "t": "« La Premier League, c'est moins tactique » : Bradley Barcola évoque son adaptation à Liverpool et les différences avec le PSG",
+     "u": "https://www.lequipe.fr/Football/Actualites/-la-premier-league-c-est-moins-tactique-bradley-barcola-evoque-son-adaptation-a-liverpool-et-les-differences-avec-le-psg/1736413#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Après des débuts timides, Pathé Mboup est en train de franchir un cap avec Brest en Ligue 1",
-     "u": "https://www.lequipe.fr/Football/Article/Apres-des-debuts-timides-pathe-mboup-est-en-train-de-franchir-un-cap-avec-brest-en-ligue-1/1736270#at_medium=RSS_feeds",
+     "t": "La France séchée par la Papouasie-Nouvelle-Guinée pour son entrée en lice dans la Coupe du monde de rugby à XIII",
+     "u": "https://www.lequipe.fr/Rugby-a-xiii/Actualites/La-france-sechee-par-la-papouasie-nouvelle-guinee-pour-son-entree-en-lice-dans-la-coupe-du-monde-de-rugby-a-xiii/1736421#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,10 +275,10 @@
  ],
  "destaques": [
   {
-   "t": "Saiba como croata do Grêmio virou anjo e construiu amizade com Matheus Pereira, do Cruzeiro",
-   "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/17/saiba-como-croata-do-gremio-virou-anjo-e-construiu-amizade-com-matheus-pereira-do-cruzeiro.ghtml",
-   "f": "ge",
-   "alta": false,
+   "t": "Everton x Chelsea: veja as prováveis escalações e onde assistir ao jogo pelo Campeonato Inglês",
+   "u": "https://www.gazetaesportiva.com/times/chelsea/everton-x-chelsea-veja-as-provaveis-escalacoes-e-onde-assistir-ao-jogo-pelo-campeonato-ingles/",
+   "f": "Gazeta Esportiva",
+   "alta": true,
    "pais": "BR"
   },
   {
@@ -289,10 +289,10 @@
    "pais": "US"
   },
   {
-   "t": "Jesualdo Ferreira: «Quando cheguei ao FC Porto toda a gente dizia que eu era do Benfica. E eu nunca disse que não era»",
-   "u": "https://www.record.pt/multimedia/videos/detalhe/jesualdo-ferreira-quando-cheguei-ao-fc-porto-toda-a-gente-dizia-que-eu-era-do-benfica-e-eu-nunca-disse-que-nao-era",
+   "t": "João Neves a perder espaço no PSG? Internacional português dá que falar em França",
+   "u": "https://www.record.pt/internacional/paises/franca/psg/detalhe/joao-neves-a-perder-espaco-no-psg-internacional-portugues-da-que-falar-em-franca",
    "f": "Record",
-   "alta": false,
+   "alta": true,
    "pais": "PT"
   },
   {
@@ -303,8 +303,8 @@
    "pais": "ES"
   },
   {
-   "t": "England’s World Cup test against Tonga will show where power really lies in rugby league",
-   "u": "https://www.theguardian.com/sport/2026/oct/16/england-rugby-league-world-cup-tonga",
+   "t": "Everton v Chelsea: Premier League – live",
+   "u": "https://www.theguardian.com/football/live/2026/oct/17/everton-v-chelsea-premier-league-live",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
@@ -331,8 +331,8 @@
    "pais": "IT"
   },
   {
-   "t": "« C'est un super ambassadeur » : de Poitiers à Tourcoing, le retour d'Earvin Ngapeth en France emballe tout le Championnat",
-   "u": "https://www.lequipe.fr/Volley-ball/Article/-c-est-un-super-ambassadeur-de-poitiers-a-tourcoing-le-retour-d-earvin-ngapeth-en-france-emballe-tout-le-championnat/1736323#at_medium=RSS_feeds",
+   "t": "« La Premier League, c'est moins tactique » : Bradley Barcola évoque son adaptation à Liverpool et les différences avec le PSG",
+   "u": "https://www.lequipe.fr/Football/Actualites/-la-premier-league-c-est-moins-tactique-bradley-barcola-evoque-son-adaptation-a-liverpool-et-les-differences-avec-le-psg/1736413#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
