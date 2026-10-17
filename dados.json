@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-16T21:21:26+00:00",
+ "atualizado": "2026-10-17T00:35:11+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Escalação do Atlético-MG: Domínguez tem desfalque e esboça mudanças contra o Coritiba",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/16/escalacao-do-atletico-mg-dominguez-tem-desfalque-e-esboca-mudancas-contra-o-coritiba.ghtml",
+     "t": "Athletico x Palmeiras pode ser crucial na briga por título da Série A e vaga na Libertadores; assista",
+     "u": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/10/16/por-que-athletico-x-palmeiras-pode-ser-crucial-na-briga-por-titulo-da-serie-a-e-vaga-na-libertadores.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Jogador de rúgbi sul-africano morre antes de jogo na França",
-     "u": "https://www.gazetaesportiva.com/mais-esportes/jogador-de-rugbi-sul-africano-morre-antes-de-jogo-na-franca/",
+     "t": "Cruzeiro x LDU - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/libertadores-feminina/jogo/16-10-2026/cruzeiro-ldu-quito.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Newton projeta São Paulo ofensivo contra o Vasco: “Pressionar o tempo todo”",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/newton-projeta-sao-paulo-ofensivo-contra-o-vasco-pressionar-o-tempo-todo/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Manchester City x Ipswich Town na Premier League: onde assistir ao vivo e horário",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/10/16/manchester-city-x-ipswich-town-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Com preocupação na lateral, Santos avança em preparação para enfrentar o Fluminense",
-     "u": "https://www.gazetaesportiva.com/times/santos/santos-escobar-duvida-treino-fluminense/",
+     "t": "São Paulo x Vasco: onde assistir ao vivo, estatísticas, histórico e escalações",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/sao-paulo-x-vasco-campeonato-brasileiro-17-10-2026/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -51,20 +51,20 @@
      "alta": false
     },
     {
-     "t": "DeVonta Smith Is Set To Return From Injury, But Is He A Fantasy Football Start With Jalen Hurts OUT",
-     "u": "https://sports.yahoo.com/articles/devonta-smith-set-return-injury-210240473.html",
-     "f": "Yahoo Sports",
-     "alta": true
-    },
-    {
-     "t": "Use DraftKings promo code to get $200 bonus bets, free NBA League Pass for Purdue-Washington, college football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-purdue-washington-college-football-friday/",
+     "t": "NBA over/under predictions for every Western Conference team: Lakers undervalued, Warriors in for a long year",
+     "u": "https://www.cbssports.com/nba/news/nba-western-conference-over-under-win-total-predictions-thunder-spurs-lakers-warriors/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Charlotte Hornets waive former NBA champion to trim roster",
-     "u": "https://sports.yahoo.com/articles/charlotte-hornets-waive-former-nba-211024595.html",
+     "t": "Guardians-Rays MLB playoff game start delayed by rain",
+     "u": "https://sports.yahoo.com/articles/guardians-rays-mlb-playoff-game-001605858.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Alabama football offensive line starter ruled out for Tennessee",
+     "u": "https://sports.yahoo.com/articles/alabama-football-offensive-line-starter-001223345.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Sem Abel, Palmeiras vence Fluminense e tem pé na final da Libertadores",
-     "u": "https://www.abola.pt/noticias/sem-abel-palmeiras-vence-fluminense-e-tem-pe-na-final-da-libertadores-2026101506085455949",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
-     "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Meia-final do Mundial de hóquei entre França e Portugal com... 181 pessoas nas bancadas",
-     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/meia-final-do-mundial-de-hoquei-entre-franca-e-portugal-com-181-pessoas-nas-bancadas",
+     "t": "Real Madrid estuda contratação de jovem promessa do Sporting",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/real-madrid-estuda-contratacao-de-jovem-promessa-do-sporting",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Irmãs Jorge eliminadas nas meias-finais de pares do WTA Lisboa Belém Open em ténis",
-     "u": "https://www.record.pt/modalidades/tenis/detalhe/irmas-jorge-eliminadas-nas-meias-finais-de-pares-do-wta-lisboa-belem-open-em-tenis",
+     "t": "Portugal perde com a França no prolongamento e falha final do Mundial",
+     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/20261016-183355-franca-portugal-em-direto",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "FC Porto: uma estreia na Champions para bloquear caminhos da baliza",
+     "u": "https://www.abola.pt/noticias/fc-porto-uma-estreia-na-champions-para-bloquear-caminhos-da-baliza-2026101616294597516",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Toque de Bola: o apanha bolas que fez golo num FC Porto-Sporting",
+     "u": "https://www.abola.pt/video/toque-de-bola-o-apanha-bolas-que-fez-golo-num-fc-porto-sporting-2026101414592055970",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "Tebas compara la política de comunicación del Real Madrid con la del nazismo",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261016/1004239346/tebas-direccion-real-madrid-dirige-orquesta-portacoces-real-madrid-tv-lleva-voz-cantante.html",
+     "t": "Raphinha y De Jong regresan a la convocatoria del Barça",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261016/1004239593/raphinha-jong-regresan-convocatoria-barca-medirse-betis.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -153,8 +153,8 @@
      "alta": false
     },
     {
-     "t": "Real Madrid demand La Liga president resign over Goebbels comparison",
-     "u": "https://www.theguardian.com/football/2026/oct/16/real-madrid-demand-resignation-la-liga-president-javier-tebas-goebbels-comparison",
+     "t": "Premier League news: go bananas: Maresca loving fans’ show of defiance; Alonso backs his defence",
+     "u": "https://www.theguardian.com/football/2026/oct/16/premier-league-news-go-bananas-maresca-loving-fans-show-of-defiance-james-injury-blow-for-blues",
      "f": "The Guardian",
      "alta": false
     },
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "Real Madrid exige renuncia a Javier Tebas, presidente de LaLiga, por compararlos con propaganda nazi",
-     "u": "https://www.excelsior.com.mx/deportes/real-madrid-exige-renuncia-javier-tebas-presidente-laliga",
+     "t": "Yareli Acevedo se mantiene entre las mejores del Mundial de Ciclismo",
+     "u": "https://www.excelsior.com.mx/deportes/yareli-acevedo-mundial-ciclismo-shaghai-2026",
      "f": "Excélsior",
      "alta": false
     },
     {
-     "t": "NBA contempla a Ciudad de México para tener nueva franquicia de expansión por problemas en Seattle",
-     "u": "https://www.excelsior.com.mx/deportes/nba-contempla-ciudad-mexico-para-tener-nueva-franquicia-expansion-por-problemas-seattle",
+     "t": "Santos vs. Querétaro: ¿por qué es el partido más atractivo de la jornada 12 de Liga MX?",
+     "u": "https://www.excelsior.com.mx/deportes/santos-vs-queretaro-por-que-es-partido-mas-atractivo-jornada-12-liga-mx",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,26 +203,26 @@
    },
    "noticias": [
     {
-     "t": "Serie A: el insólito blooper de Sassuolo que Frosinone transformó en gol",
-     "u": "https://www.ole.com.ar/futbol-internacional/italia/insolito-error-defensivo-sassuolo-gol-frosinone-seriea-italia-video_0_41NPjprSw6.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
-     "t": "Kily González confirmó que Lionel Messi viajará a Europa para recibir un premio después del próximo partido del Inter Miami",
-     "u": "https://www.infobae.com/deportes/2026/10/16/el-kily-gonzalez-confirmo-que-lionel-messi-viajara-a-europa-para-recibir-un-premio-despues-del-proximo-partido-con-inter-miami/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
      "t": "Conmoción en Francia por la muerte de una figura del rugby sudafricano tras sufrir un “trágico accidente” en el hotel antes de un partido",
      "u": "https://www.infobae.com/deportes/2026/10/16/conmocion-en-francia-por-la-muerte-de-una-figura-del-rugby-sudafricano-tras-sufrir-un-tragico-accidente-en-el-hotel-antes-de-un-partido/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El 11 de Boca confirmado y las pruebas de Arruabarrena pensando en Vasco",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-vasco-cambios-sorpresas-once-equipo_0_mOmqIyv1Bg.html",
+     "t": "Los dos antecedentes polémicos del árbitro de Boca-Vasco da Gama en Brasil por las semifinales de la Copa Sudamericana",
+     "u": "https://www.infobae.com/deportes/2026/10/16/los-dos-antecedentes-polemicos-del-arbitro-de-boca-vasco-da-gama-en-brasil-por-las-semifinales-de-la-copa-sudamericana/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Estudiantes: se anunció el árbitro para la vuelta contra Flamengo en la Libertadores",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/estudiantes-anuncio-arbitro-vuelta-flamengo-libertadores_0_2aqanlWHXI.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Boca vs. Talleres, EN VIVO por el Torneo Clausura: el Xeneize va por un triunfo clave ante la T",
+     "u": "https://www.ole.com.ar/futbol-primera/boca-vs-talleres-partido-torneo-clausura-2026-horario-tv-vivo-minuto-minuto_0_ZRlcYSWJ8q.html",
      "f": "Olé",
      "alta": false
     }
@@ -259,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "Composez votre parcours rêvé du Tour de France 2027",
-     "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Composez-votre-parcours-reve-du-tour-de-france-2027/1736344#at_medium=RSS_feeds",
+     "t": "Le Real Madrid ou le mirage permanent",
+     "u": "https://www.lequipe.fr/collection/podcasts/serie/big-5/#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Coupe des champions : Bordeaux-Bègles, double champion en titre, tenu en échec à Gloucester en ouverture de la compétition après un match spectaculair",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Coupe-des-champions-bordeaux-begles-double-champion-en-titre-tenu-en-echec-a-gloucester-en-ouverture-de-la-competition-apres-un-match-spectaculaire/1736371#at_medium=RSS_feeds",
+     "t": "Jude Law incarnera Bill Shankly, l'entraîneur culte de Liverpool, dans une série",
+     "u": "https://www.lequipe.fr/Football/Actualites/Jude-law-incarnera-bill-shankly-l-entraineur-culte-de-liverpool-dans-une-serie/1736401#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,8 +275,8 @@
  ],
  "destaques": [
   {
-   "t": "Escalação do Atlético-MG: Domínguez tem desfalque e esboça mudanças contra o Coritiba",
-   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/16/escalacao-do-atletico-mg-dominguez-tem-desfalque-e-esboca-mudancas-contra-o-coritiba.ghtml",
+   "t": "Athletico x Palmeiras pode ser crucial na briga por título da Série A e vaga na Libertadores; assista",
+   "u": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/10/16/por-que-athletico-x-palmeiras-pode-ser-crucial-na-briga-por-titulo-da-serie-a-e-vaga-na-libertadores.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
@@ -289,9 +289,9 @@
    "pais": "US"
   },
   {
-   "t": "Sem Abel, Palmeiras vence Fluminense e tem pé na final da Libertadores",
-   "u": "https://www.abola.pt/noticias/sem-abel-palmeiras-vence-fluminense-e-tem-pe-na-final-da-libertadores-2026101506085455949",
-   "f": "A Bola",
+   "t": "Real Madrid estuda contratação de jovem promessa do Sporting",
+   "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/real-madrid-estuda-contratacao-de-jovem-promessa-do-sporting",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
@@ -310,17 +310,17 @@
    "pais": "GB"
   },
   {
-   "t": "Real Madrid exige renuncia a Javier Tebas, presidente de LaLiga, por compararlos con propaganda nazi",
-   "u": "https://www.excelsior.com.mx/deportes/real-madrid-exige-renuncia-javier-tebas-presidente-laliga",
+   "t": "Yareli Acevedo se mantiene entre las mejores del Mundial de Ciclismo",
+   "u": "https://www.excelsior.com.mx/deportes/yareli-acevedo-mundial-ciclismo-shaghai-2026",
    "f": "Excélsior",
    "alta": false,
    "pais": "MX"
   },
   {
-   "t": "Serie A: el insólito blooper de Sassuolo que Frosinone transformó en gol",
-   "u": "https://www.ole.com.ar/futbol-internacional/italia/insolito-error-defensivo-sassuolo-gol-frosinone-seriea-italia-video_0_41NPjprSw6.html",
-   "f": "Olé",
-   "alta": true,
+   "t": "Conmoción en Francia por la muerte de una figura del rugby sudafricano tras sufrir un “trágico accidente” en el hotel antes de un partido",
+   "u": "https://www.infobae.com/deportes/2026/10/16/conmocion-en-francia-por-la-muerte-de-una-figura-del-rugby-sudafricano-tras-sufrir-un-tragico-accidente-en-el-hotel-antes-de-un-partido/",
+   "f": "Infobae",
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -331,8 +331,8 @@
    "pais": "IT"
   },
   {
-   "t": "Composez votre parcours rêvé du Tour de France 2027",
-   "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Composez-votre-parcours-reve-du-tour-de-france-2027/1736344#at_medium=RSS_feeds",
+   "t": "Le Real Madrid ou le mirage permanent",
+   "u": "https://www.lequipe.fr/collection/podcasts/serie/big-5/#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
