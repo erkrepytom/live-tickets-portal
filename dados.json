@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-17T14:16:33+00:00",
+ "atualizado": "2026-10-17T17:21:01+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Fluminense x Santos: saiba onde assistir ao jogo pela 31ª rodada do Brasileirão",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/fluminense-x-santos-onde-assistir-brasileirao-2026/",
+     "t": "Bastidores da vitória espetacular do PSG sobre o Manchester City",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/bastidores-da-vitoria-espetacular-do-psg-sobre-o-manchester-city/",
      "f": "Gazeta Esportiva",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Manchester City x Ipswich - Campeonato Inglês 2026/27 - Ao vivo - globoesporte.com",
+     "t": "De virada, PSG vence o Strasbourg e assume vice-liderança do Francês",
+     "u": "https://www.gazetaesportiva.com/times/paris-saint-germain/de-virada-psg-vence-o-strasbourg-e-assume-vice-lideranca-do-frances/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "Haaland faz dois, Manchester City vence Ipswich Town e mantém 100% na Premier League",
      "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/17-10-2026/Manchestercity-ipswich-town.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Newton projeta São Paulo ofensivo contra o Vasco: “Pressionar o tempo todo”",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/newton-projeta-sao-paulo-ofensivo-contra-o-vasco-pressionar-o-tempo-todo/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Cruzeiro x Bolívar - Taça Libertadores Feminina 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/libertadores-feminina/jogo/19-10-2026/cruzeiro-bolivar.ghtml",
+     "t": "Recuperado, Brenner projeta duelo do Vasco com São Paulo, clube onde foi revelado: “Decisão”",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/17/recuperado-brenner-projeta-duelo-do-vasco-com-sao-paulo-clube-onde-foi-revelado-decisao.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for Notre Dame-BYU, college football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-notre-dame-byu-college-football-saturday/",
+     "t": "Bayern Munich vs. RB Leipzig: Gamethread",
+     "u": "https://sports.yahoo.com/articles/bayern-munich-vs-rb-leipzig-133000636.html",
+     "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
+     "t": "Fantasy basketball rankings 2026-27: Sleepers, breakouts and busts from proven NBA simulation",
+     "u": "https://www.cbssports.com/fantasy/basketball/news/fantasy-basketball-rankings-2026-27-sleepers-breakouts-and-busts-from-proven-nba-simulation/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NFL Draft prospects to watch: Week 7 college football preview",
-     "u": "https://sports.yahoo.com/articles/nfl-draft-prospects-watch-week-140424309.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "‘Playing a Video Game,’ ‘Unbelievable’ — NBA World Goes Wild As Victor Wembanyama’s ‘Unreal’ Self Alley-Oop Goes Viral",
-     "u": "https://sports.yahoo.com/articles/playing-video-game-unbelievable-nba-140245013.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Use BetMGM bonus code CBSSPORTS to get $1500 bonus bets for Notre Dame-BYU, Alabama-Tennessee college football",
-     "u": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-notre-dame-byu-alabama-tennessee-college-football/",
+     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for BYU-Notre Dame, college football",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-get-200-bonus-bets-free-nba-league-pass-byu-notre-dame-college-football-saturday/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Bouaddi elated after victory in first Premier League start",
+     "u": "https://sports.yahoo.com/articles/bouaddi-elated-victory-first-premier-171600560.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
-     "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Fosso entre Sporting e FC Porto: supercomputador prevê tabela da Champions",
-     "u": "https://www.abola.pt/noticias/fosso-entre-sporting-e-fc-porto-supercomputador-preve-tabela-da-champions-2026101516011151448",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Benfica-Sporting, 1-0 (1.ª parte)",
-     "u": "https://www.record.pt/futebol/futebol-nacional/juniores/detalhe/20261017-112220-benfica-sporting-em-direto",
+     "t": "PSG vence em Estrasburgo e assume liderança da Ligue 1 à condição",
+     "u": "https://www.record.pt/internacional/paises/franca/detalhe/20261017-104516-estrasburgo-psg-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Sporting-Benfica, em direto",
+     "t": "Sporting não dá hipóteses ao Benfica e conquista a Supertaça de voleibol",
      "u": "https://www.record.pt/modalidades/voleibol/detalhe/20261017-113712-sporting-benfica-em-direto",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Agente de Gimenez fala sobre o FC Porto e lança farpa ao Milan de Amorim",
+     "u": "https://www.abola.pt/noticias/agente-de-gimenez-fala-sobre-o-fc-porto-e-lanca-farpa-ao-milan-de-amorim-2026101519054273281",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Cobiçado por Juventus e Newcastle, Doumbia brilha no Sporting e atrai tubarões",
+     "u": "https://www.abola.pt/noticias/cobicado-por-juventus-e-newcastle-doumbia-brilha-no-sporting-e-atrai-tubaroes-2026101610243556160",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -119,8 +119,8 @@
      "alta": false
     },
     {
-     "t": "Esta es la joya del Sporting de Portugal que ha seducido al Real Madrid",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261017/1004239705/joya-sporting-portugal-seducido-real-madrid.html",
+     "t": "El Barça de Pere Romeu vuelve a la Liga con la novedad de Kika, pero sin Claudia Pina",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261017/1004239827/pere-romeu-heroina-clasico-real-sociedad-pina-no-viajara.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,14 +147,14 @@
    },
    "noticias": [
     {
-     "t": "Minnie Hauk wins Fillies and Mares to land trainers’ championship blow for O’Brien on Champions Day – live",
-     "u": "https://www.theguardian.com/sport/live/2026/oct/17/british-champions-day-at-ascot-champion-stakes-queen-elizabeth-ii-stakes-and-more-live",
+     "t": "European football: Baena late strike for Atlético puts pressure on Barcelona",
+     "u": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter",
      "f": "The Guardian",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Manchester City v Ipswich, Brentford v Liverpool, and more: Football clockwatch - live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/17/manchester-city-v-ipswich-brentford-v-liverpool-and-more-football-clockwatch-live",
+     "t": "England stunned as Tonga tonking leaves Rugby League World Cup hopes in shreds",
+     "u": "https://www.theguardian.com/sport/2026/oct/17/england-tonga-rugby-league-world-cup-match-report",
      "f": "The Guardian",
      "alta": false
     },
@@ -165,9 +165,9 @@
      "alta": false
     },
     {
-     "t": "South Africa look to re-establish Test credentials after Australia mauling",
-     "u": "https://www.skysports.com/cricket/news/12040/13600114/south-africa-vs-australia-hosts-welcome-8203back-paceman-kagiso-rabada-for-his-first-outing-since-ipl",
-     "f": "Sky Sports",
+     "t": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c6rryqq00yp4o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -187,8 +187,8 @@
      "alta": false
     },
     {
-     "t": "Pumas C.U. vs. Águilas Blancas: horario y dónde ver el clásico estudiantil",
-     "u": "https://www.excelsior.com.mx/deportes/pumas-c-u-vs-aguilas-blancas-horario-y-donde-ver-clasico-estudiantil",
+     "t": "Alarma en Chelsea y la Selección Argentina: Dibu Martínez sufrió un fuerte golpe en la cabeza",
+     "u": "https://www.excelsior.com.mx/deportes/alarma-chelsea-y-seleccion-argentina-dibu-martinez-sufrio-fuerte-golpe-cabeza",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,27 +203,21 @@
    },
    "noticias": [
     {
-     "t": "El entrenador del Chelsea confirmó que Emiliano Dibu Martínez fue trasladado al hospital tras chocar la cabeza con un rival",
-     "u": "https://www.infobae.com/deportes/2026/10/17/el-entrenador-del-chelsea-confirmo-que-emiliano-dibu-martinez-fue-trasladado-al-hospital-tras-su-choque-de-cabezas/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
-     "t": "Show de LeBron James en su estreno en casa con los 76ers: alley-oop tremendo y cuándo será su debut oficial en la NBA",
-     "u": "https://www.ole.com.ar/basquet/lebron-james-philadelphia-76ers-debut-oficial-nba_0_dwrz0G0N4y.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Brentford vs. Liverpool, EN VIVO, por la Premier League: ¡Arrancó el partido!",
-     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/brentford-liverpool-premierleague-envivo-alexismacallister-minuto-minuto-resumen_0_dgGtmb2ZPp.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
      "t": "El penal a los 23 segundos del partido entre Quilmes y Atlético Rafaela que es uno de los más rápidos del fútbol argentino",
      "u": "https://www.infobae.com/deportes/2026/10/17/el-penal-a-los-23-segundos-del-partido-entre-quilmes-y-atletico-rafaela-que-es-uno-de-los-mas-rapidos-del-futbol-argentino/",
      "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "12 frases de Arruabarrena tras la victoria de Boca: de la posible titularidad de Paredes ante Vasco a un pedido de perdón a un periodista",
+     "u": "https://www.infobae.com/deportes/2026/10/17/12-frases-de-arruabarrena-tras-la-victoria-de-boca-de-la-posible-titularidad-de-paredes-ante-vasco-a-un-pedido-de-perdon-a-un-periodista/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "El \"Haaland sudamericano\" que quiso Boca y buscará darle otro golpe a River",
+     "u": "https://www.ole.com.ar/river-plate/river-plate-lucas-passerini-belgrano-goles-asistencias_0_yV99AhiGnw.html",
+     "f": "Olé",
      "alta": false
     }
    ]
@@ -240,13 +234,13 @@
      "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
      "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
      "f": "La Gazzetta dello Sport",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
+     "t": "Thuram e la storia dell'Inter: tutte le esultanze copiate dai grandi bomber",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Inter/storie/08-12-2023/inter-thuram-e-le-esultanze-come-adriano-icardi-dimarco-e/",
      "f": "La Gazzetta dello Sport",
-     "alta": false
+     "alta": true
     }
    ]
   },
@@ -259,14 +253,14 @@
    },
    "noticias": [
     {
-     "t": "Chelsea s'impose à Everton et grimpe provisoirement à la 4e place de Premier League",
-     "u": "https://www.lequipe.fr/Football/Actualites/Chelsea-s-impose-a-everton-et-grimpe-provisoirement-a-la-4e-place-de-premier-league/1736472#at_medium=RSS_feeds",
+     "t": "Freiné par l'Union Berlin, Dortmund prend provisoirement la tête de la Bundesliga mais est sous la menace de Fribourg et du Bayern Munich",
+     "u": "https://www.lequipe.fr/Football/Actualites/Freine-par-l-union-berlin-dortmund-prend-provisoirement-la-tete-de-la-bundesliga-mais-est-sous-la-menace-de-fribourg-et-du-bayern-munich/1736515#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Ce qu'il faut retenir de l'avant-dernière journée : un deuxième titre mondial sur l'omnium pour Leitao, une troisième médaille pour la France",
-     "u": "https://www.lequipe.fr/Cyclisme-sur-piste/Actualites/Ce-qu-il-faut-retenir-de-l-avant-derniere-journee-un-deuxieme-titre-mondial-sur-l-omnium-pour-leitao-une-troisieme-medaille-pour-la-france/1736471#at_medium=RSS_feeds",
+     "t": "Un doublé d'Erling Haaland contre Ipswich Town permet à Manchester City de poursuivre son sans-faute en Premier League",
+     "u": "https://www.lequipe.fr/Football/Actualites/Un-double-d-erling-haaland-contre-ipswich-town-permet-a-manchester-city-de-poursuivre-son-sans-faute-en-premier-league/1736514#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,23 +269,23 @@
  ],
  "destaques": [
   {
-   "t": "Fluminense x Santos: saiba onde assistir ao jogo pela 31ª rodada do Brasileirão",
-   "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/fluminense-x-santos-onde-assistir-brasileirao-2026/",
+   "t": "Bastidores da vitória espetacular do PSG sobre o Manchester City",
+   "u": "https://www.gazetaesportiva.com/todas-as-noticias/bastidores-da-vitoria-espetacular-do-psg-sobre-o-manchester-city/",
    "f": "Gazeta Esportiva",
-   "alta": false,
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for Notre Dame-BYU, college football",
-   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-notre-dame-byu-college-football-saturday/",
-   "f": "CBS Sports",
-   "alta": false,
+   "t": "Bayern Munich vs. RB Leipzig: Gamethread",
+   "u": "https://sports.yahoo.com/articles/bayern-munich-vs-rb-leipzig-133000636.html",
+   "f": "Yahoo Sports",
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Champions: jogador do Sporting e internacional português na equipa da semana",
-   "u": "https://www.abola.pt/noticias/champions-jogador-do-sporting-e-internacional-portugues-na-equipa-da-semana-2026101515194507898",
-   "f": "A Bola",
+   "t": "PSG vence em Estrasburgo e assume liderança da Ligue 1 à condição",
+   "u": "https://www.record.pt/internacional/paises/franca/detalhe/20261017-104516-estrasburgo-psg-em-direto",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
@@ -303,10 +297,10 @@
    "pais": "ES"
   },
   {
-   "t": "Minnie Hauk wins Fillies and Mares to land trainers’ championship blow for O’Brien on Champions Day – live",
-   "u": "https://www.theguardian.com/sport/live/2026/oct/17/british-champions-day-at-ascot-champion-stakes-queen-elizabeth-ii-stakes-and-more-live",
+   "t": "European football: Baena late strike for Atlético puts pressure on Barcelona",
+   "u": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter",
    "f": "The Guardian",
-   "alta": true,
+   "alta": false,
    "pais": "GB"
   },
   {
@@ -317,22 +311,22 @@
    "pais": "MX"
   },
   {
-   "t": "El entrenador del Chelsea confirmó que Emiliano Dibu Martínez fue trasladado al hospital tras chocar la cabeza con un rival",
-   "u": "https://www.infobae.com/deportes/2026/10/17/el-entrenador-del-chelsea-confirmo-que-emiliano-dibu-martinez-fue-trasladado-al-hospital-tras-su-choque-de-cabezas/",
+   "t": "El penal a los 23 segundos del partido entre Quilmes y Atlético Rafaela que es uno de los más rápidos del fútbol argentino",
+   "u": "https://www.infobae.com/deportes/2026/10/17/el-penal-a-los-23-segundos-del-partido-entre-quilmes-y-atletico-rafaela-que-es-uno-de-los-mas-rapidos-del-futbol-argentino/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
    "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
    "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": false,
+   "alta": true,
    "pais": "IT"
   },
   {
-   "t": "Chelsea s'impose à Everton et grimpe provisoirement à la 4e place de Premier League",
-   "u": "https://www.lequipe.fr/Football/Actualites/Chelsea-s-impose-a-everton-et-grimpe-provisoirement-a-la-4e-place-de-premier-league/1736472#at_medium=RSS_feeds",
+   "t": "Freiné par l'Union Berlin, Dortmund prend provisoirement la tête de la Bundesliga mais est sous la menace de Fribourg et du Bayern Munich",
+   "u": "https://www.lequipe.fr/Football/Actualites/Freine-par-l-union-berlin-dortmund-prend-provisoirement-la-tete-de-la-bundesliga-mais-est-sous-la-menace-de-fribourg-et-du-bayern-munich/1736515#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
