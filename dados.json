@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-17T17:21:01+00:00",
+ "atualizado": "2026-10-17T20:43:54+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Bastidores da vitória espetacular do PSG sobre o Manchester City",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/bastidores-da-vitoria-espetacular-do-psg-sobre-o-manchester-city/",
-     "f": "Gazeta Esportiva",
-     "alta": true
-    },
-    {
-     "t": "De virada, PSG vence o Strasbourg e assume vice-liderança do Francês",
-     "u": "https://www.gazetaesportiva.com/times/paris-saint-germain/de-virada-psg-vence-o-strasbourg-e-assume-vice-lideranca-do-frances/",
-     "f": "Gazeta Esportiva",
-     "alta": true
-    },
-    {
-     "t": "Haaland faz dois, Manchester City vence Ipswich Town e mantém 100% na Premier League",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/17-10-2026/Manchestercity-ipswich-town.ghtml",
+     "t": "Escalação: Cuca monta Santos ofensivo para enfrentar o Fluminense",
+     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/17/escalacao-cuca-monta-santos-ofensivo-para-enfrentar-o-fluminense.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Recuperado, Brenner projeta duelo do Vasco com São Paulo, clube onde foi revelado: “Decisão”",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/17/recuperado-brenner-projeta-duelo-do-vasco-com-sao-paulo-clube-onde-foi-revelado-decisao.ghtml",
+     "t": "Real Madrid x Sevilla em LaLiga: onde assistir ao vivo e horário",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/17/real-madrid-x-sevilla-em-laliga-onde-assistir-ao-vivo-e-horario.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Bastidores da vitória espetacular do PSG sobre o Manchester City",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/bastidores-da-vitoria-espetacular-do-psg-sobre-o-manchester-city/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Brasileiro brilha, Inter de Milão vira sobre o Bologna e abre vantagem na ponta do Italiano",
+     "u": "https://www.gazetaesportiva.com/times/internazionale/brasileiro-brilha-inter-de-milao-vira-sobre-o-bologna-e-abre-vantagem-na-ponta-do-italiano/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Bayern Munich vs. RB Leipzig: Gamethread",
-     "u": "https://sports.yahoo.com/articles/bayern-munich-vs-rb-leipzig-133000636.html",
-     "f": "Yahoo Sports",
+     "t": "NFL Week 6 injury report: Lamar Jackson, Jalen Hurts sidelined; Caleb Williams could return",
+     "u": "https://www.cbssports.com/nfl/news/nfl-week-6-injury-report-lamar-jackson-jalen-hurts-caleb-williams/",
+     "f": "CBS Sports",
      "alta": true
     },
     {
-     "t": "Fantasy basketball rankings 2026-27: Sleepers, breakouts and busts from proven NBA simulation",
-     "u": "https://www.cbssports.com/fantasy/basketball/news/fantasy-basketball-rankings-2026-27-sleepers-breakouts-and-busts-from-proven-nba-simulation/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
      "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for BYU-Notre Dame, college football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-get-200-bonus-bets-free-nba-league-pass-byu-notre-dame-college-football-saturday/",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-get-200-bonus-bets-free-nba-league-pass-for-byu-notre-dame-college-football-saturday/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Bouaddi elated after victory in first Premier League start",
-     "u": "https://sports.yahoo.com/articles/bouaddi-elated-victory-first-premier-171600560.html",
+     "t": "'There's an aura': South Africa call on KG to bring the heat against Australia",
+     "u": "https://sports.yahoo.com/articles/theres-aura-south-africa-call-203200181.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Liverpool ready to cancel Lamine Camara move, would sign £80m star instead",
+     "u": "https://sports.yahoo.com/articles/liverpool-ready-cancel-lamine-camara-203500441.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "PSG vence em Estrasburgo e assume liderança da Ligue 1 à condição",
-     "u": "https://www.record.pt/internacional/paises/franca/detalhe/20261017-104516-estrasburgo-psg-em-direto",
+     "t": "Prestianni e Maxi Araújo seguros; defesa preocupa Farioli: tudo sobre Benfica, Sporting e FC Porto",
+     "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/prestianni-e-maxi-araujo-seguros-defesa-preocupa-farioli-tudo-sobre-benfica-sporting-e-fc-porto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Sporting não dá hipóteses ao Benfica e conquista a Supertaça de voleibol",
-     "u": "https://www.record.pt/modalidades/voleibol/detalhe/20261017-113712-sporting-benfica-em-direto",
+     "t": "Luis Suárez tenta dançar ao ritmo do tango: pode igualar na Champions série a marcar de Yazalde",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/luis-suarez-tenta-dancar-ao-ritmo-do-tango-pode-igualar-na-champions-serie-a-marcar-de-yazalde",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Agente de Gimenez fala sobre o FC Porto e lança farpa ao Milan de Amorim",
-     "u": "https://www.abola.pt/noticias/agente-de-gimenez-fala-sobre-o-fc-porto-e-lanca-farpa-ao-milan-de-amorim-2026101519054273281",
+     "t": "FC Porto derrotado em casa na Champions",
+     "u": "https://www.abola.pt/noticias/fc-porto-derrotado-em-casa-na-champions-2026101520520231962",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Cobiçado por Juventus e Newcastle, Doumbia brilha no Sporting e atrai tubarões",
-     "u": "https://www.abola.pt/noticias/cobicado-por-juventus-e-newcastle-doumbia-brilha-no-sporting-e-atrai-tubaroes-2026101610243556160",
+     "t": "«O Benfica é um clube habituado a estar na Champions, mas a realidade é esta»",
+     "u": "https://www.abola.pt/video/o-benfica-e-um-clube-habituado-a-estar-na-champions-mas-a-realidade-e-esta-2026101522161424186",
      "f": "A Bola",
      "alta": false
     }
@@ -113,21 +113,21 @@
    },
    "noticias": [
     {
-     "t": "Horario, canal y dónde ver por TV el Betis - FC Barcelona de LaLiga EA Sports",
-     "u": "https://www.mundodeportivo.com/horarios/futbol/20261015/1004239001/horario-canal-ver-tv-real-betis-fc-barcelona-laliga-ea-sports-primera-division-futbol.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "El Barça de Pere Romeu vuelve a la Liga con la novedad de Kika, pero sin Claudia Pina",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261017/1004239827/pere-romeu-heroina-clasico-real-sociedad-pina-no-viajara.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
      "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "1-3: Dembélé salva a Luis Enrique y al PSG antes del Barça",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261017/1004239928/1-3-dembele-salva-luis-enrique-psg-barca.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "\"No tengo ninguna duda de que Marcos Fis triunfará en el Barça y será una estrella mundial\"",
+     "u": "https://www.mundodeportivo.com/balonmano/20261017/1004239918/antonio-garcia.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,9 +147,9 @@
    },
    "noticias": [
     {
-     "t": "European football: Baena late strike for Atlético puts pressure on Barcelona",
-     "u": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter",
-     "f": "The Guardian",
+     "t": "Hits & Misses: Liverpool clicking and Chelsea get serious",
+     "u": "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
+     "f": "Sky Sports",
      "alta": false
     },
     {
@@ -159,14 +159,14 @@
      "alta": false
     },
     {
-     "t": "Broncos beat Super Bowl champions Seahawks in overtime",
-     "u": "https://www.bbc.co.uk/sport/american-football/videos/cm87z38014p1o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
+     "u": "https://www.theguardian.com/football/2026/oct/17/manchester-city-ipswich-premier-league-match-report",
+     "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c6rryqq00yp4o?at_medium=RSS&at_campaign=rss",
+     "t": "Liverpool come from behind to beat nine-man Brentford",
+     "u": "https://www.bbc.co.uk/sport/football/videos/c65yn28p859wo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "Sin Gil Mora, Xolos empata con Puebla y se aprieta la tabla de la Liga MX",
-     "u": "https://www.excelsior.com.mx/deportes/sin-gil-mora-xolos-empata-con-puebla-y-aprieta-tabla-liga-mx",
+     "t": "Barcelona iguala récord histórico del Real Madrid 58 años después",
+     "u": "https://www.excelsior.com.mx/deportes/barcelona-iguala-record-historico-real-madrid-58-anos-despues",
      "f": "Excélsior",
      "alta": false
     },
     {
-     "t": "Alarma en Chelsea y la Selección Argentina: Dibu Martínez sufrió un fuerte golpe en la cabeza",
-     "u": "https://www.excelsior.com.mx/deportes/alarma-chelsea-y-seleccion-argentina-dibu-martinez-sufrio-fuerte-golpe-cabeza",
+     "t": "Joan Laporta arremete contra Real Madrid y defiende a Javier Tebas como presidente de LaLiga",
+     "u": "https://www.excelsior.com.mx/deportes/joan-laporta-responde-real-madrid-javier-tebas",
      "f": "Excélsior",
      "alta": false
     }
@@ -215,8 +215,14 @@
      "alta": false
     },
     {
-     "t": "El \"Haaland sudamericano\" que quiso Boca y buscará darle otro golpe a River",
-     "u": "https://www.ole.com.ar/river-plate/river-plate-lucas-passerini-belgrano-goles-asistencias_0_yV99AhiGnw.html",
+     "t": "Definición top: el golazo de Santiago Castro en Roma vs Geona",
+     "u": "https://www.ole.com.ar/futbol-internacional/video-golazo-santiago-castro-roma-genoa_0_aBuw4nftqL.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "La señal de Paredes sobre su presencia en Brasil: \"Me levanté\" y pelota en Boca Predio",
+     "u": "https://www.ole.com.ar/boca-juniors/senal-optimista-paredes-presencia-semifinal-vuelta-brasil_0_FDUZfW6mGw.html",
      "f": "Olé",
      "alta": false
     }
@@ -234,13 +240,13 @@
      "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
      "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
      "f": "La Gazzetta dello Sport",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Thuram e la storia dell'Inter: tutte le esultanze copiate dai grandi bomber",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/Inter/storie/08-12-2023/inter-thuram-e-le-esultanze-come-adriano-icardi-dimarco-e/",
+     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
      "f": "La Gazzetta dello Sport",
-     "alta": true
+     "alta": false
     }
    ]
   },
@@ -253,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "Freiné par l'Union Berlin, Dortmund prend provisoirement la tête de la Bundesliga mais est sous la menace de Fribourg et du Bayern Munich",
-     "u": "https://www.lequipe.fr/Football/Actualites/Freine-par-l-union-berlin-dortmund-prend-provisoirement-la-tete-de-la-bundesliga-mais-est-sous-la-menace-de-fribourg-et-du-bayern-munich/1736515#at_medium=RSS_feeds",
+     "t": "Le Bayern Munich écrase le RB Leipzig en Bundesliga avant d'affronter Arsenal en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Le-bayern-munich-ecrase-le-rb-leipzig-en-bundesliga-avant-d-affronter-arsenal-en-ligue-des-champions/1736564#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Un doublé d'Erling Haaland contre Ipswich Town permet à Manchester City de poursuivre son sans-faute en Premier League",
-     "u": "https://www.lequipe.fr/Football/Actualites/Un-double-d-erling-haaland-contre-ipswich-town-permet-a-manchester-city-de-poursuivre-son-sans-faute-en-premier-league/1736514#at_medium=RSS_feeds",
+     "t": "Javier Tebas, président de la Liga, et Florentino Perez, président du Real Madrid : un conflit sans fin qui dure depuis plus de dix ans",
+     "u": "https://www.lequipe.fr/Football/Actualites/Javier-tebas-le-president-de-la-liga-et-florentino-perez-le-president-du-real-madrid-un-conflit-sans-fin-qui-dure-depuis-plus-de-dix-ans/1736573#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -269,43 +275,43 @@
  ],
  "destaques": [
   {
-   "t": "Bastidores da vitória espetacular do PSG sobre o Manchester City",
-   "u": "https://www.gazetaesportiva.com/todas-as-noticias/bastidores-da-vitoria-espetacular-do-psg-sobre-o-manchester-city/",
-   "f": "Gazeta Esportiva",
-   "alta": true,
+   "t": "Escalação: Cuca monta Santos ofensivo para enfrentar o Fluminense",
+   "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/17/escalacao-cuca-monta-santos-ofensivo-para-enfrentar-o-fluminense.ghtml",
+   "f": "ge",
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Bayern Munich vs. RB Leipzig: Gamethread",
-   "u": "https://sports.yahoo.com/articles/bayern-munich-vs-rb-leipzig-133000636.html",
-   "f": "Yahoo Sports",
+   "t": "NFL Week 6 injury report: Lamar Jackson, Jalen Hurts sidelined; Caleb Williams could return",
+   "u": "https://www.cbssports.com/nfl/news/nfl-week-6-injury-report-lamar-jackson-jalen-hurts-caleb-williams/",
+   "f": "CBS Sports",
    "alta": true,
    "pais": "US"
   },
   {
-   "t": "PSG vence em Estrasburgo e assume liderança da Ligue 1 à condição",
-   "u": "https://www.record.pt/internacional/paises/franca/detalhe/20261017-104516-estrasburgo-psg-em-direto",
+   "t": "Prestianni e Maxi Araújo seguros; defesa preocupa Farioli: tudo sobre Benfica, Sporting e FC Porto",
+   "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/prestianni-e-maxi-araujo-seguros-defesa-preocupa-farioli-tudo-sobre-benfica-sporting-e-fc-porto",
    "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Horario, canal y dónde ver por TV el Betis - FC Barcelona de LaLiga EA Sports",
-   "u": "https://www.mundodeportivo.com/horarios/futbol/20261015/1004239001/horario-canal-ver-tv-real-betis-fc-barcelona-laliga-ea-sports-primera-division-futbol.html",
-   "f": "Mundo Deportivo",
+   "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
+   "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
+   "f": "Marca",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "European football: Baena late strike for Atlético puts pressure on Barcelona",
-   "u": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter",
-   "f": "The Guardian",
+   "t": "Hits & Misses: Liverpool clicking and Chelsea get serious",
+   "u": "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Sin Gil Mora, Xolos empata con Puebla y se aprieta la tabla de la Liga MX",
-   "u": "https://www.excelsior.com.mx/deportes/sin-gil-mora-xolos-empata-con-puebla-y-aprieta-tabla-liga-mx",
+   "t": "Barcelona iguala récord histórico del Real Madrid 58 años después",
+   "u": "https://www.excelsior.com.mx/deportes/barcelona-iguala-record-historico-real-madrid-58-anos-despues",
    "f": "Excélsior",
    "alta": false,
    "pais": "MX"
@@ -321,12 +327,12 @@
    "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
    "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": true,
+   "alta": false,
    "pais": "IT"
   },
   {
-   "t": "Freiné par l'Union Berlin, Dortmund prend provisoirement la tête de la Bundesliga mais est sous la menace de Fribourg et du Bayern Munich",
-   "u": "https://www.lequipe.fr/Football/Actualites/Freine-par-l-union-berlin-dortmund-prend-provisoirement-la-tete-de-la-bundesliga-mais-est-sous-la-menace-de-fribourg-et-du-bayern-munich/1736515#at_medium=RSS_feeds",
+   "t": "Le Bayern Munich écrase le RB Leipzig en Bundesliga avant d'affronter Arsenal en Ligue des champions",
+   "u": "https://www.lequipe.fr/Football/Actualites/Le-bayern-munich-ecrase-le-rb-leipzig-en-bundesliga-avant-d-affronter-arsenal-en-ligue-des-champions/1736564#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
