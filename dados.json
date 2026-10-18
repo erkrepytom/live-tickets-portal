@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-18T15:58:28+00:00",
+ "atualizado": "2026-10-18T18:42:08+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Palmeiras vence Botafogo-SP e avança às quartas de final do Paulista Sub-20",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-vence-botafogo-sp-e-avanca-as-quartas-de-final-do-paulista-sub-20/",
+     "t": "Treino do Palmeiras: Abel prepara mudanças na escalação contra o Fluminense na Libertadores",
+     "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/18/treino-do-palmeiras-abel-prepara-mudancas-na-escalacao-contra-o-fluminense-na-libertadores.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Santos tem Neymar e Coutinho titulares para pegar o Fluminense; veja escalações",
+     "u": "https://www.gazetaesportiva.com/times/santos/fluminense-santos-escalacoes-neymar-coutinho/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "LOUD vence Valorant Champions 2026 e se torna única bicampeã mundial",
-     "u": "https://ge.globo.com/esports/blogs/por-dentro-dos-esports/post/2026/10/18/loud-vence-valorant-champions-2026-e-se-torna-unica-bicampea-mundial.ghtml",
+     "t": "Grêmio x Cruzeiro - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Jogadores do Vasco admitem cansaço em sequência, mas viram chave para duelo contra o Boca",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/18/jogadores-do-vasco-admitem-cansaco-em-sequencia-mas-viram-chave-para-duelo-contra-o-boca.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Melhores momentos: Atlanta United 1 x 3 Inter Miami CF pela MLS",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/melhores-momentos-atlanta-united-1-x-3-inter-miami-cf-pela-mls/",
+     "t": "Palmeiras vence Botafogo-SP e avança às quartas de final do Paulista Sub-20",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-vence-botafogo-sp-e-avanca-as-quartas-de-final-do-paulista-sub-20/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Premier League: Arsenal visit Nottingham Forest looking to keep pace at top",
-     "u": "https://sports.yahoo.com/articles/premier-league-three-games-coming-115709631.html",
+     "t": "NFL, Saints address plans for Paris game during Week 6 as protests escalate in France",
+     "u": "https://www.cbssports.com/nfl/news/nfl-saints-address-paris-game-plans-week-6-protests/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "NFL addresses safety concerns for Steelers-Saints game in France as protests in Paris continue",
+     "u": "https://www.cbssports.com/nfl/news/nfl-addresses-safety-concerns-steelers-saints-france-protests-paris/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "First Bundesliga loss for Freiburg, Monaco no longer unbeaten in France and Madrid without Vinícius",
+     "u": "https://sports.yahoo.com/articles/first-bundesliga-loss-freiburg-monaco-182851451.html",
      "f": "Yahoo Sports",
-     "alta": true
-    },
-    {
-     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for Chiefs-Chargers, NFL betting",
-     "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-chiefs-chargers-nfl-betting/",
-     "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Jets vs. Patriots odds, picks, prediction, spread, line: Start time, NFL Week 6 betting preview, best bets",
-     "u": "https://www.cbssports.com/betting/news/jets-vs-patriots-odds-picks-prediction-spread-line-start-time-nfl-week-6-betting-preview-best-bets/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "How to watch Steelers vs Buccaneers: NFL, live stream, TV channel, start time",
-     "u": "https://sports.yahoo.com/articles/watch-steelers-vs-buccaneers-nfl-155500863.html",
+     "t": "FanDuel Promo Code: Bet $5, Get Up to $350 in Bonus Bets for Sunday's NFL Games",
+     "u": "https://sports.yahoo.com/betting/promos/article/fanduel-promo-code-bet-5-get-up-to-350-in-bonus-bets-for-sundays-nfl-games-183000219.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Bateu recorde com mais de duas décadas na Champions e faz o Liverpool sonhar",
-     "u": "https://www.abola.pt/noticias/bateu-recorde-com-mais-de-duas-decadas-na-champions-e-faz-o-liverpool-sonhar-2026101617572230778",
+     "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
+     "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Benfica: nunca é tarde para ir ao futebol e voltar de lá feliz",
-     "u": "https://www.abola.pt/noticias/benfica-nunca-e-tarde-para-ir-ao-futebol-e-voltar-de-la-feliz-2026101617144016495",
+     "t": "Não é só no PSG: baixas de peso também no Barcelona",
+     "u": "https://www.abola.pt/noticias/nao-e-so-no-psg-baixas-de-peso-tambem-no-barcelona-2026101816494102231",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "«Quando se tem craques como Prestianni e Schjelderup a ganhar pouco, o Benfica tem de reconhecer a nível financeiro o estatuto desportivo»",
-     "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/quando-se-tem-craques-como-prestianni-e-schjelderup-a-ganhar-pouco-o-benfica-tem-de-reconhecer-a-nivel-financeiro-o-estatuto-desportivo",
+     "t": "Juventus-Lazio, em direto",
+     "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261018-124618-juventus-lazio-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Nottingham Forest-Arsenal, em direto",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261018-122947-nottingham-forest-arsenal-em-direto",
+     "t": "Real Madrid-Sevilha, em direto",
+     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/20261018-123456-real-madrid-sevilha-em-direto",
      "f": "Record",
      "alta": false
     }
@@ -113,8 +113,14 @@
    },
    "noticias": [
     {
-     "t": "Así queda la clasificación de la Liga Endesa tras la victoria del Real Madrid",
-     "u": "https://www.mundodeportivo.com/baloncesto/acb/20261018/1004240188/asi-queda-clasificacion-liga-endesa-victorias-real-madrid-fiatc-girona-casademont-zaragoza.html",
+     "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
+     "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Este es el once titular del Real Madrid ante el Sevilla: muchas sorpresas",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261018/1004240250/once-titular-real-madrid-sevilla-muchas-sorpresas.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -122,12 +128,6 @@
      "t": "El PSG descarta a Nuno Mendes ante el Barça y Digne deberá frenar a Lamine Yamal",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261018/1004240208/dan-descartado-nuno-mendes-barca-digne-debera-frenar-lamine-yamal.html",
      "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
-     "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
-     "f": "Marca",
      "alta": false
     },
     {
@@ -147,8 +147,14 @@
    },
    "noticias": [
     {
-     "t": "Nottingham Forest v Arsenal: Premier League – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
+     "t": "Man City maintain perfect WSL record as Chelsea, Man Utd, London City win",
+     "u": "https://www.skysports.com/football/news/12040/13600686/man-city-maintain-perfect-record-as-chelsea-man-utd-and-london-city-lionesses-all-win-womens-super-league-round-up",
+     "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Australia’s Boland damages South Africa in brief respite from rain",
+     "u": "https://www.theguardian.com/sport/2026/oct/18/australias-boland-damages-south-africa-in-brief-respite-from-rain",
      "f": "The Guardian",
      "alta": false
     },
@@ -159,14 +165,8 @@
      "alta": false
     },
     {
-     "t": "Manchester United held as Calvert-Lewin’s Leeds leveller keeps pressure on Carrick",
-     "u": "https://www.theguardian.com/football/2026/oct/18/leeds-manchester-united-premier-league-match-report",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "South Africa 20-2 after rain spoils day one v Australia - scorecard",
-     "u": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
+     "t": "Madueke strikes late but who missed his big chance? - Forest v Arsenal ratings",
+     "u": "https://www.bbc.co.uk/sport/football/articles/ck5yn33jgx84o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "Francia está en llamas y destrozado por la inmigración: Donald Trump",
-     "u": "https://www.excelsior.com.mx/internacional/francia-llamas-y-destrozado-por-inmigracion-trump-debe-endurecer-normas",
+     "t": "L’Étape by Tour de France celebra 10 años en México con fiesta deportiva en Hermosillo",
+     "u": "https://www.excelsior.com.mx/deportes/l-etape-by-tour-france-celebra-10-anos-mexico-con-fiesta-deportiva-hermosillo",
      "f": "Excélsior",
      "alta": false
     },
     {
-     "t": "Ganan, gustan y golean. Cruz Azul ‘arrolló’ a Juárez",
-     "u": "https://www.excelsior.com.mx/deportes/ganan-gustan-y-golean-cruz-azul-arrollo-juarez",
+     "t": "Wembley disfruta de un final de alarido en la NFL: Texans vence a Jaguars con gol de campo agónico",
+     "u": "https://www.excelsior.com.mx/deportes/houston-texans-vence-jacksonville-jaguars-serie-londres-nfl",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,21 +203,21 @@
    },
    "noticias": [
     {
-     "t": "Excursionistas o Arsenal: el ascenso directo a la Primera Nacional no sale de ahí",
-     "u": "https://www.ole.com.ar/futbol-ascenso/primera-b/definicion-primera-b-ascenso-excursionistas-arsenal_0_efyuie9hBV.html",
+     "t": "De jugar con Messi en el Inter Miami a meter un golazo de mitad de cancha en la Premier League",
+     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/intermiami-diegogomez-premierleague-lionelmessi-brighton_0_axcsRDCMsq.html",
      "f": "Olé",
-     "alta": true
+     "alta": false
+    },
+    {
+     "t": "Todos juntos: Boca viaja a Río con Paredes y hasta los lesionados para buscar la final ante Vasco",
+     "u": "https://www.ole.com.ar/boca-juniors/juntos-boca-viaja-rio-paredes-lesionados-buscar-final-vasco-convocados_0_xR6UlQnotb.html",
+     "f": "Olé",
+     "alta": false
     },
     {
      "t": "El gesto de Messi contra un ex Boca tras uno de sus goles y su reacción junto a la de Rodrigo De Paul en un festejo en el triunfo del Inter Miami",
      "u": "https://www.infobae.com/deportes/2026/10/18/el-gesto-de-messi-contra-un-ex-boca-tras-uno-de-sus-goles-y-su-reaccion-junto-a-la-de-rodrigo-de-paul-en-un-festejo-en-el-triunfo-del-inter-miami/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Tras la práctica, Boca viaja a Río: la decisión del Vasco que alimenta la ilusión",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-viaje-rio-janeiro-semifinal-copa-sudamericana_0_tP4TkgEdUa.html",
-     "f": "Olé",
      "alta": false
     },
     {
@@ -259,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "Crystal Palace et Pierre Sage giflés par Brighton, Manchester United lâche encore des points en Premier League",
-     "u": "https://www.lequipe.fr/Football/Actualites/Crystal-palace-et-pierre-sage-gifles-par-brighton-manchester-united-lache-encore-des-points-en-premier-league/1736731#at_medium=RSS_feeds",
+     "t": "L'AC Milan se fait peur mais s'impose face à l'Atalanta, Rabiot décisif",
+     "u": "https://www.lequipe.fr/Football/Actualites/L-ac-milan-se-fait-peur-mais-s-impose-face-a-l-atalanta-rabiot-decisif/1736795#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Coup dur pour le PSG : Nuno Mendes forfait pour le choc contre le FC Barcelone en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Coup-dur-pour-le-psg-nuno-mendes-forfait-pour-le-choc-contre-le-fc-barcelone-en-ligue-des-champions/1736712#at_medium=RSS_feeds",
+     "t": "Arsenal s'en sort bien et s'impose à Nottingham en Premier League",
+     "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-s-en-sort-bien-et-s-impose-a-nottingham-en-premier-league/1736769#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,52 +275,52 @@
  ],
  "destaques": [
   {
-   "t": "Palmeiras vence Botafogo-SP e avança às quartas de final do Paulista Sub-20",
-   "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-vence-botafogo-sp-e-avanca-as-quartas-de-final-do-paulista-sub-20/",
-   "f": "Gazeta Esportiva",
+   "t": "Treino do Palmeiras: Abel prepara mudanças na escalação contra o Fluminense na Libertadores",
+   "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/18/treino-do-palmeiras-abel-prepara-mudancas-na-escalacao-contra-o-fluminense-na-libertadores.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Premier League: Arsenal visit Nottingham Forest looking to keep pace at top",
-   "u": "https://sports.yahoo.com/articles/premier-league-three-games-coming-115709631.html",
-   "f": "Yahoo Sports",
-   "alta": true,
+   "t": "NFL, Saints address plans for Paris game during Week 6 as protests escalate in France",
+   "u": "https://www.cbssports.com/nfl/news/nfl-saints-address-paris-game-plans-week-6-protests/",
+   "f": "CBS Sports",
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "Bateu recorde com mais de duas décadas na Champions e faz o Liverpool sonhar",
-   "u": "https://www.abola.pt/noticias/bateu-recorde-com-mais-de-duas-decadas-na-champions-e-faz-o-liverpool-sonhar-2026101617572230778",
+   "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
+   "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Así queda la clasificación de la Liga Endesa tras la victoria del Real Madrid",
-   "u": "https://www.mundodeportivo.com/baloncesto/acb/20261018/1004240188/asi-queda-clasificacion-liga-endesa-victorias-real-madrid-fiatc-girona-casademont-zaragoza.html",
-   "f": "Mundo Deportivo",
+   "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
+   "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
+   "f": "Marca",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Nottingham Forest v Arsenal: Premier League – live",
-   "u": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
-   "f": "The Guardian",
+   "t": "Man City maintain perfect WSL record as Chelsea, Man Utd, London City win",
+   "u": "https://www.skysports.com/football/news/12040/13600686/man-city-maintain-perfect-record-as-chelsea-man-utd-and-london-city-lionesses-all-win-womens-super-league-round-up",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Francia está en llamas y destrozado por la inmigración: Donald Trump",
-   "u": "https://www.excelsior.com.mx/internacional/francia-llamas-y-destrozado-por-inmigracion-trump-debe-endurecer-normas",
+   "t": "L’Étape by Tour de France celebra 10 años en México con fiesta deportiva en Hermosillo",
+   "u": "https://www.excelsior.com.mx/deportes/l-etape-by-tour-france-celebra-10-anos-mexico-con-fiesta-deportiva-hermosillo",
    "f": "Excélsior",
    "alta": false,
    "pais": "MX"
   },
   {
-   "t": "Excursionistas o Arsenal: el ascenso directo a la Primera Nacional no sale de ahí",
-   "u": "https://www.ole.com.ar/futbol-ascenso/primera-b/definicion-primera-b-ascenso-excursionistas-arsenal_0_efyuie9hBV.html",
+   "t": "De jugar con Messi en el Inter Miami a meter un golazo de mitad de cancha en la Premier League",
+   "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/intermiami-diegogomez-premierleague-lionelmessi-brighton_0_axcsRDCMsq.html",
    "f": "Olé",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -331,8 +331,8 @@
    "pais": "IT"
   },
   {
-   "t": "Crystal Palace et Pierre Sage giflés par Brighton, Manchester United lâche encore des points en Premier League",
-   "u": "https://www.lequipe.fr/Football/Actualites/Crystal-palace-et-pierre-sage-gifles-par-brighton-manchester-united-lache-encore-des-points-en-premier-league/1736731#at_medium=RSS_feeds",
+   "t": "L'AC Milan se fait peur mais s'impose face à l'Atalanta, Rabiot décisif",
+   "u": "https://www.lequipe.fr/Football/Actualites/L-ac-milan-se-fait-peur-mais-s-impose-face-a-l-atalanta-rabiot-decisif/1736795#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
