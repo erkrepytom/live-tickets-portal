@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-18T01:11:02+00:00",
+ "atualizado": "2026-10-18T06:02:12+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
+     "t": "Barcelona iguala recorde do Real Madrid de vitórias seguidas em LaLiga e inicia semana decisiva",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/18/barcelona-iguala-recorde-do-real-madrid-de-vitorias-seguidas-em-laliga-e-inicia-semana-decisiva.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Messi deixa ex-Atlético-MG sem rumo, provoca e marca duas vezes pelo Inter Miami",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/18/messi-deixa-ex-atletico-mg-sem-rumo-provoca-e-marca-duas-vezes-pelo-inter-miami.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
      "t": "São Paulo se junta a Flamengo e Fluminense em protesto contra MP das bets",
      "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-protesto-contra-mp-bets/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Atlético-MG vence o Coritiba, chega a oito jogos de invencibilidade e dorme na zona da Libertadores",
-     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/17-10-2026/atletico-mg-coritiba.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "São Paulo x Vasco - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/17-10-2026/sao-paulo-vasco.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "São Paulo x Vasco: veja fotos da partida pela 31ª rodada do Brasileirão",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/sao-paulo-x-vasco-veja-fotos-da-partida-pela-31a-rodada-do-brasileirao/",
+     "t": "Veja os melhores momentos da vitória do São Paulo sobre o Vasco",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-1-x-0-vasco-melhores-momentos-brasileirao-2026/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for BYU-Notre Dame, college football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-get-200-in-bonus-bets-free-nba-league-pass-for-byu-notre-dame-college-football-saturday/",
+     "t": "Real Madrid vs Sevilla, 2026 live stream: Time, TV channels and how to watch La Liga online",
+     "u": "https://sports.yahoo.com/articles/real-madrid-vs-sevilla-2026-053417144.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "College football bowl projections: Slotting all 46 games after Week 7's historic run of upsets",
+     "u": "https://www.cbssports.com/college-football/news/college-football-bowl-projections-cfp-upsets/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "With ten changes, Atlético win and show their squad depth",
-     "u": "https://sports.yahoo.com/articles/ten-changes-atl-tico-win-005500057.html",
+     "t": "Where to watch Eagles vs. Panthers today: Channel, live stream, time, TV schedule for Week 6 NFL game",
+     "u": "https://sports.yahoo.com/articles/where-watch-eagles-vs-panthers-055001309.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Valkyries star Gabby Williams takes over in WNBA Finals Game 1 win, shows why 'she's one of the best players in the world'",
-     "u": "https://sports.yahoo.com/wnba/article/valkyries-star-gabby-williams-takes-over-in-wnba-finals-game-1-win-shows-why-shes-one-of-the-best-players-in-the-world-005935122.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Knicks finalize roster as James Wiseman gets last spot over Bruce Brown",
-     "u": "https://www.cbssports.com/nba/news/knicks-finalize-roster-james-wiseman-bruce-brown/",
+     "t": "2026 MLB playoff bracket: Schedule and scores as Rays even ALCS vs. Guardians with Game 4 win",
+     "u": "https://www.cbssports.com/mlb/news/2026-mlb-playoff-bracket-schedule-scores-results-how-to-watch/",
      "f": "CBS Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Lille cede empate caseiro frente ao Brest e falha liderança isolada em França",
-     "u": "https://www.record.pt/internacional/paises/franca/detalhe/lille-cede-empate-caseiro-frente-ao-brest-e-falha-lideranca-isolada-em-franca",
-     "f": "Record",
-     "alta": true
-    },
-    {
      "t": "Cobiçado por Juventus e Newcastle, Doumbia brilha no Sporting e atrai tubarões",
      "u": "https://www.abola.pt/noticias/cobicado-por-juventus-e-newcastle-doumbia-brilha-no-sporting-e-atrai-tubaroes-2026101610243556160",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Sporting perde na visita ao CAB Madeira enquanto Benfica vence na receção à Oliveirense",
-     "u": "https://www.record.pt/modalidades/basquetebol/basquetebol-portugal/detalhe/sporting-perde-na-visita-ao-cab-madeira-enquanto-benfica-vence-na-rececao-a-oliveirense",
+     "t": "Pérola moldada por ex-Sporting encanta Amorim e bate recorde com mais de 30 anos",
+     "u": "https://www.abola.pt/noticias/perola-moldada-por-ex-sporting-encanta-amorim-e-bate-recorde-com-mais-de-30-anos-2026082418044867694",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Esquerda da defesa do FC Porto exige revolução",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/esquerda-da-defesa-do-fc-porto-exige-revolucao",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Pérola moldada por ex-Sporting encanta Amorim e bate recorde com mais de 30 anos",
-     "u": "https://www.abola.pt/noticias/perola-moldada-por-ex-sporting-encanta-amorim-e-bate-recorde-com-mais-de-30-anos-2026082418044867694",
-     "f": "A Bola",
+     "t": "Lille cede empate caseiro frente ao Brest e falha liderança isolada em França",
+     "u": "https://www.record.pt/internacional/paises/franca/detalhe/lille-cede-empate-caseiro-frente-ao-brest-e-falha-lideranca-isolada-em-franca",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -116,18 +116,18 @@
      "t": "Las lluvias en Barcelona dificultan la salida del Barça de Sevilla",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261018/1004240070/lluvias-barcelona-dificultan-salida-barca-sevilla.html",
      "f": "Mundo Deportivo",
+     "alta": true
+    },
+    {
+     "t": "El Barça, un arsenal de goles y de goleadores",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261018/1004239992/barca-arsenal-goles-goleadores.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
      "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
      "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Xavi Espart: \"De niño sueñas con partidos ante el PSG o el Real Madrid\"",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261017/1004239966/xavi-espart-nino-suenas-partidos-psg-real-madrid.html",
-     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,6 +147,12 @@
    },
    "noticias": [
     {
+     "t": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c6rryqq00yp4o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": true
+    },
+    {
      "t": "Hits & Misses: Liverpool clicking and Chelsea get serious",
      "u": "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
      "f": "Sky Sports",
@@ -163,12 +169,6 @@
      "u": "https://www.theguardian.com/sport/2026/oct/16/premier-league-action-champions-day-and-dubois-v-wardley-ii-follow-with-us",
      "f": "The Guardian",
      "alta": false
-    },
-    {
-     "t": "Villa's Manzambi shows Newcastle what they missed out on",
-     "u": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
     }
    ]
   },
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "EN VIVO Chivas vs Tigres HOY | Liga MX Jornada 12 Apertura 2026 | Transmisión Completa",
-     "u": "https://www.excelsior.com.mx/deportes/vivo-chivas-vs-tigres-hoy-liga-mx-jornada-12-apertura-2026-transmision-completa",
+     "t": "Jordan Carrillo evita la derrota ante Tigres, pero Chivas suma 4 partidos sin victoria",
+     "u": "https://www.excelsior.com.mx/deportes/jordan-carrillo-evita-derrota-tigres-chivas-suma-4-partidos-sin-victoria",
      "f": "Excélsior",
      "alta": false
     },
     {
-     "t": "León Vs América EN VIVO: Jornada 12, Apertura 2026 - Liga MX",
-     "u": "https://www.excelsior.com.mx/deportes/leon-vs-america-vivo-jornada-12-apertura-2026-liga-mx",
+     "t": "Polémica y goleada del América sobre el León; el español Carlos Álvarez se luce con partidazo",
+     "u": "https://www.excelsior.com.mx/deportes/polemica-y-goleada-america-sobre-leon-espanol-carlos-alvarez-luce-con-partidazo",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,13 +203,19 @@
    },
    "noticias": [
     {
-     "t": "El plan del Boca puntero para conquistar (Sud)América",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-riodejaneiro-copasudamericana-vascodagama-bombonera-bocapredio-copalibertadores_0_8iWx1NrwLZ.html",
+     "t": "Fue mamá, dejó el fútbol profesional durante 7 años y volvió para firmar una página histórica en la Copa Libertadores femenina",
+     "u": "https://www.infobae.com/deportes/2026/10/18/fue-mama-dejo-el-futbol-profesional-durante-7-anos-y-volvio-para-firmar-una-pagina-historica-en-la-copa-libertadores-femenina/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Dos perlas del show de Messi: el gesto y la bronca con un ex Boca y cambio de camiseta con un ex River",
+     "u": "https://www.ole.com.ar/mls/inter-miami/perlas-show-messi-gesto-boca-cambio-camiseta-river_0_xtuC825pSQ.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Atento, Boca: Vasco da Gama, con mayoría de titulares, empata sin goles ante San Pablo",
+     "t": "Atento, Boca: Vasco da Gama, con mayoría de titulares, perdió ante San Pablo",
      "u": "https://www.ole.com.ar/futbol-internacional/america/vasco-da-gama-san-pablo-boca-sudamericana_0_iLvSUhxk3V.html",
      "f": "Olé",
      "alta": false
@@ -217,12 +223,6 @@
     {
      "t": "Boca Juniors publicó un video de Leandro Paredes que ilusionó a los hinchas de cara a la revancha con Vasco da Gama",
      "u": "https://www.infobae.com/deportes/2026/10/17/boca-juniors-publico-un-video-de-leandro-paredes-que-ilusiono-a-los-hinchas-de-cara-a-la-revancha-con-vasco-da-gama/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Una informe internacional reveló las brechas salariales y el costo psicológico detrás del crecimiento del fútbol femenino",
-     "u": "https://www.infobae.com/deportes/2026/10/17/una-informe-internacional-revelo-las-brechas-salariales-y-el-costo-psicologico-detras-del-crecimiento-del-futbol-femenino/",
      "f": "Infobae",
      "alta": false
     }
@@ -265,8 +265,8 @@
      "alta": false
     },
     {
-     "t": "Le programme des Français pour la dernière journée des Championnats d'Europe de tennis de table",
-     "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Le-programme-des-francais-pour-la-derniere-journee-des-championnats-d-europe-de-tennis-de-table/1736634#at_medium=RSS_feeds",
+     "t": "PSG, Lamine Yamal, Bayern Munich : nos combats sans conséquence",
+     "u": "https://www.lequipe.fr/Football/Article/Psg-lamine-yamal-bayern-munich-nos-combats-sans-consequence/1736612#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -275,51 +275,51 @@
  ],
  "destaques": [
   {
-   "t": "São Paulo se junta a Flamengo e Fluminense em protesto contra MP das bets",
-   "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-protesto-contra-mp-bets/",
-   "f": "Gazeta Esportiva",
+   "t": "Barcelona iguala recorde do Real Madrid de vitórias seguidas em LaLiga e inicia semana decisiva",
+   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/18/barcelona-iguala-recorde-do-real-madrid-de-vitorias-seguidas-em-laliga-e-inicia-semana-decisiva.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for BYU-Notre Dame, college football",
-   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-get-200-in-bonus-bets-free-nba-league-pass-for-byu-notre-dame-college-football-saturday/",
-   "f": "CBS Sports",
+   "t": "Real Madrid vs Sevilla, 2026 live stream: Time, TV channels and how to watch La Liga online",
+   "u": "https://sports.yahoo.com/articles/real-madrid-vs-sevilla-2026-053417144.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Lille cede empate caseiro frente ao Brest e falha liderança isolada em França",
-   "u": "https://www.record.pt/internacional/paises/franca/detalhe/lille-cede-empate-caseiro-frente-ao-brest-e-falha-lideranca-isolada-em-franca",
-   "f": "Record",
-   "alta": true,
+   "t": "Cobiçado por Juventus e Newcastle, Doumbia brilha no Sporting e atrai tubarões",
+   "u": "https://www.abola.pt/noticias/cobicado-por-juventus-e-newcastle-doumbia-brilha-no-sporting-e-atrai-tubaroes-2026101610243556160",
+   "f": "A Bola",
+   "alta": false,
    "pais": "PT"
   },
   {
    "t": "Las lluvias en Barcelona dificultan la salida del Barça de Sevilla",
    "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261018/1004240070/lluvias-barcelona-dificultan-salida-barca-sevilla.html",
    "f": "Mundo Deportivo",
-   "alta": false,
+   "alta": true,
    "pais": "ES"
   },
   {
-   "t": "Hits & Misses: Liverpool clicking and Chelsea get serious",
-   "u": "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
-   "f": "Sky Sports",
-   "alta": false,
+   "t": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
+   "u": "https://www.bbc.co.uk/sport/football/articles/c6rryqq00yp4o?at_medium=RSS&at_campaign=rss",
+   "f": "BBC Sport",
+   "alta": true,
    "pais": "GB"
   },
   {
-   "t": "EN VIVO Chivas vs Tigres HOY | Liga MX Jornada 12 Apertura 2026 | Transmisión Completa",
-   "u": "https://www.excelsior.com.mx/deportes/vivo-chivas-vs-tigres-hoy-liga-mx-jornada-12-apertura-2026-transmision-completa",
+   "t": "Jordan Carrillo evita la derrota ante Tigres, pero Chivas suma 4 partidos sin victoria",
+   "u": "https://www.excelsior.com.mx/deportes/jordan-carrillo-evita-derrota-tigres-chivas-suma-4-partidos-sin-victoria",
    "f": "Excélsior",
    "alta": false,
    "pais": "MX"
   },
   {
-   "t": "El plan del Boca puntero para conquistar (Sud)América",
-   "u": "https://www.ole.com.ar/boca-juniors/boca-riodejaneiro-copasudamericana-vascodagama-bombonera-bocapredio-copalibertadores_0_8iWx1NrwLZ.html",
-   "f": "Olé",
+   "t": "Fue mamá, dejó el fútbol profesional durante 7 años y volvió para firmar una página histórica en la Copa Libertadores femenina",
+   "u": "https://www.infobae.com/deportes/2026/10/18/fue-mama-dejo-el-futbol-profesional-durante-7-anos-y-volvio-para-firmar-una-pagina-historica-en-la-copa-libertadores-femenina/",
+   "f": "Infobae",
    "alta": false,
    "pais": "AR"
   },
