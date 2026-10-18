@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-18T11:21:36+00:00",
+ "atualizado": "2026-10-18T15:58:28+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "São Paulo se junta a Flamengo e Fluminense em protesto contra MP das bets",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-protesto-contra-mp-bets/",
+     "t": "Palmeiras vence Botafogo-SP e avança às quartas de final do Paulista Sub-20",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-vence-botafogo-sp-e-avanca-as-quartas-de-final-do-paulista-sub-20/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Vitória encara maior jejum contra times da Série A diante do Corinthians",
-     "u": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/18/vitoria-encara-maior-jejum-contra-times-da-serie-a-diante-do-corinthians.ghtml",
+     "t": "LOUD vence Valorant Champions 2026 e se torna única bicampeã mundial",
+     "u": "https://ge.globo.com/esports/blogs/por-dentro-dos-esports/post/2026/10/18/loud-vence-valorant-champions-2026-e-se-torna-unica-bicampea-mundial.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "\"Olhar para cima\": São Paulo se afasta do Z-4 e começa a fazer contas de olho na Libertadores",
-     "u": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/18/olhar-para-cima-sao-paulo-se-afasta-do-z-4-e-comeca-a-fazer-contas-de-olho-na-libertadores.ghtml",
+     "t": "Jogadores do Vasco admitem cansaço em sequência, mas viram chave para duelo contra o Boca",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/18/jogadores-do-vasco-admitem-cansaco-em-sequencia-mas-viram-chave-para-duelo-contra-o-boca.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Atuações do São Paulo: Lucas muda o jogo, e Rafael e Artur decidem contra o Vasco",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/atuacoes-do-sao-paulo-lucas-muda-o-jogo-e-rafael-e-artur-decidem-contra-o-vasco/",
+     "t": "Melhores momentos: Atlanta United 1 x 3 Inter Miami CF pela MLS",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/melhores-momentos-atlanta-united-1-x-3-inter-miami-cf-pela-mls/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "NFL Week 6 odds, predictions, expert picks: Cowboys roll into Lambeau Field to face Packers",
-     "u": "https://www.cbssports.com/nfl/news/nfl-week-6-picks-and-predictions-spread-odds-best-bets/",
-     "f": "CBS Sports",
-     "alta": true
-    },
-    {
-     "t": "NFL Week 6 picks, odds: Our experts face off on Ravens at Browns, Packers vs. Cowboys and more",
-     "u": "https://www.cbssports.com/nfl/news/nfl-week-6-picks-experts-on-seahawks-broncos-ravens-browns/",
-     "f": "CBS Sports",
-     "alta": true
-    },
-    {
-     "t": "Juventus wants to sign Tottenham midfielder in January",
-     "u": "https://sports.yahoo.com/articles/juventus-wants-sign-tottenham-midfielder-110500807.html",
+     "t": "Premier League: Arsenal visit Nottingham Forest looking to keep pace at top",
+     "u": "https://sports.yahoo.com/articles/premier-league-three-games-coming-115709631.html",
      "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
+     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for Chiefs-Chargers, NFL betting",
+     "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-chiefs-chargers-nfl-betting/",
+     "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Houston Rockets 2026-27 Prediction: First-Time All-NBA",
-     "u": "https://sports.yahoo.com/articles/houston-rockets-2026-27-prediction-111136564.html",
+     "t": "Jets vs. Patriots odds, picks, prediction, spread, line: Start time, NFL Week 6 betting preview, best bets",
+     "u": "https://www.cbssports.com/betting/news/jets-vs-patriots-odds-picks-prediction-spread-line-start-time-nfl-week-6-betting-preview-best-bets/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "How to watch Steelers vs Buccaneers: NFL, live stream, TV channel, start time",
+     "u": "https://sports.yahoo.com/articles/watch-steelers-vs-buccaneers-nfl-155500863.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,14 +79,8 @@
    },
    "noticias": [
     {
-     "t": "Marcel Matz responde após o 3-0 do Sporting ao Benfica na Supertaça: «Fugir? Nem perto disso...»",
-     "u": "https://www.record.pt/modalidades/voleibol/detalhe/marcel-matz-responde-a-seguidor-apos-o-3-0-do-sporting-ao-benfica-na-supertaca-fugir-nem-perto-disso",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "FC Porto: uma estreia na Champions para bloquear caminhos da baliza",
-     "u": "https://www.abola.pt/noticias/fc-porto-uma-estreia-na-champions-para-bloquear-caminhos-da-baliza-2026101616294597516",
+     "t": "Bateu recorde com mais de duas décadas na Champions e faz o Liverpool sonhar",
+     "u": "https://www.abola.pt/noticias/bateu-recorde-com-mais-de-duas-decadas-na-champions-e-faz-o-liverpool-sonhar-2026101617572230778",
      "f": "A Bola",
      "alta": false
     },
@@ -97,8 +91,14 @@
      "alta": false
     },
     {
-     "t": "Como nos tempos áureos: Messi bisa pelo Inter Miami após duas... arrancadas do meio-campo",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/como-nos-tempos-aureos-messi-bisa-pelo-inter-miami-apos-duas-arrancadas-do-meio-campo",
+     "t": "«Quando se tem craques como Prestianni e Schjelderup a ganhar pouco, o Benfica tem de reconhecer a nível financeiro o estatuto desportivo»",
+     "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/quando-se-tem-craques-como-prestianni-e-schjelderup-a-ganhar-pouco-o-benfica-tem-de-reconhecer-a-nivel-financeiro-o-estatuto-desportivo",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Nottingham Forest-Arsenal, em direto",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261018-122947-nottingham-forest-arsenal-em-direto",
      "f": "Record",
      "alta": false
     }
@@ -112,6 +112,18 @@
     "es": "España"
    },
    "noticias": [
+    {
+     "t": "Así queda la clasificación de la Liga Endesa tras la victoria del Real Madrid",
+     "u": "https://www.mundodeportivo.com/baloncesto/acb/20261018/1004240188/asi-queda-clasificacion-liga-endesa-victorias-real-madrid-fiatc-girona-casademont-zaragoza.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "El PSG descarta a Nuno Mendes ante el Barça y Digne deberá frenar a Lamine Yamal",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261018/1004240208/dan-descartado-nuno-mendes-barca-digne-debera-frenar-lamine-yamal.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
     {
      "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
      "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
@@ -135,25 +147,25 @@
    },
    "noticias": [
     {
-     "t": "Chelsea v Tottenham: Women’s Super League – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
+     "t": "Nottingham Forest v Arsenal: Premier League – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Hits & Misses: Liverpool clicking and Chelsea get serious",
-     "u": "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
+     "t": "South Africa stutter on rain-hit day one against Australia",
+     "u": "https://www.skysports.com/cricket/news/12040/13600672/south-africa-stutter-on-rain-wrecked-day-against-australia-in-second-test-as-scott-boland-takes-two-wickets-in-two-balls",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "South Africa v Australia: second men’s cricket Test, day one – live",
-     "u": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
+     "t": "Manchester United held as Calvert-Lewin’s Leeds leveller keeps pressure on Carrick",
+     "u": "https://www.theguardian.com/football/2026/oct/18/leeds-manchester-united-premier-league-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Rain returns as South Africa bat against Australia - second Test scorecard",
+     "t": "South Africa 20-2 after rain spoils day one v Australia - scorecard",
      "u": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
@@ -169,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "Alan Pulido revela malos tratos de Chivas previo a su salida del club",
-     "u": "https://www.excelsior.com.mx/deportes/alan-pulido-revela-malos-tratos-chivas-previo-salida-club",
+     "t": "Francia está en llamas y destrozado por la inmigración: Donald Trump",
+     "u": "https://www.excelsior.com.mx/internacional/francia-llamas-y-destrozado-por-inmigracion-trump-debe-endurecer-normas",
      "f": "Excélsior",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Jordan Carrillo evita la derrota ante Tigres, pero Chivas suma 4 partidos sin victoria",
-     "u": "https://www.excelsior.com.mx/deportes/jordan-carrillo-evita-derrota-tigres-chivas-suma-4-partidos-sin-victoria",
+     "t": "Ganan, gustan y golean. Cruz Azul ‘arrolló’ a Juárez",
+     "u": "https://www.excelsior.com.mx/deportes/ganan-gustan-y-golean-cruz-azul-arrollo-juarez",
      "f": "Excélsior",
      "alta": false
     }
@@ -191,27 +203,27 @@
    },
    "noticias": [
     {
+     "t": "Excursionistas o Arsenal: el ascenso directo a la Primera Nacional no sale de ahí",
+     "u": "https://www.ole.com.ar/futbol-ascenso/primera-b/definicion-primera-b-ascenso-excursionistas-arsenal_0_efyuie9hBV.html",
+     "f": "Olé",
+     "alta": true
+    },
+    {
      "t": "El gesto de Messi contra un ex Boca tras uno de sus goles y su reacción junto a la de Rodrigo De Paul en un festejo en el triunfo del Inter Miami",
      "u": "https://www.infobae.com/deportes/2026/10/18/el-gesto-de-messi-contra-un-ex-boca-tras-uno-de-sus-goles-y-su-reaccion-junto-a-la-de-rodrigo-de-paul-en-un-festejo-en-el-triunfo-del-inter-miami/",
      "f": "Infobae",
      "alta": false
     },
     {
+     "t": "Tras la práctica, Boca viaja a Río: la decisión del Vasco que alimenta la ilusión",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-viaje-rio-janeiro-semifinal-copa-sudamericana_0_tP4TkgEdUa.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Fue mamá, dejó el fútbol profesional durante 7 años y volvió para firmar una página histórica en la Copa Libertadores femenina",
      "u": "https://www.infobae.com/deportes/2026/10/18/fue-mama-dejo-el-futbol-profesional-durante-7-anos-y-volvio-para-firmar-una-pagina-historica-en-la-copa-libertadores-femenina/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Dos perlas del show de Messi: el gesto y la bronca con un ex Boca y cambio de camiseta con un ex River",
-     "u": "https://www.ole.com.ar/mls/inter-miami/perlas-show-messi-gesto-boca-cambio-camiseta-river_0_xtuC825pSQ.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Atento, Boca: Vasco da Gama, con mayoría de titulares, perdió ante San Pablo",
-     "u": "https://www.ole.com.ar/futbol-internacional/america/vasco-da-gama-san-pablo-boca-sudamericana_0_iLvSUhxk3V.html",
-     "f": "Olé",
      "alta": false
     }
    ]
@@ -247,14 +259,14 @@
    },
    "noticias": [
     {
-     "t": "L'Anglais Michael Oliver arbitre de PSG-Barça en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/L-anglais-michael-oliver-arbitre-de-psg-barca-en-ligue-des-champions/1736673#at_medium=RSS_feeds",
+     "t": "Crystal Palace et Pierre Sage giflés par Brighton, Manchester United lâche encore des points en Premier League",
+     "u": "https://www.lequipe.fr/Football/Actualites/Crystal-palace-et-pierre-sage-gifles-par-brighton-manchester-united-lache-encore-des-points-en-premier-league/1736731#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Un nouveau but à 40 ans : où situer Olivier Giroud parmi les plus vieux buteurs de l'histoire du Championnat de France ?",
-     "u": "https://www.lequipe.fr/Football/Actualites/Un-nouveau-but-a-40-ans-ou-situer-olivier-giroud-parmi-les-plus-vieux-buteurs-de-l-histoire-du-championnat-de-france/1736674#at_medium=RSS_feeds",
+     "t": "Coup dur pour le PSG : Nuno Mendes forfait pour le choc contre le FC Barcelone en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Coup-dur-pour-le-psg-nuno-mendes-forfait-pour-le-choc-contre-le-fc-barcelone-en-ligue-des-champions/1736712#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -263,52 +275,52 @@
  ],
  "destaques": [
   {
-   "t": "São Paulo se junta a Flamengo e Fluminense em protesto contra MP das bets",
-   "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-protesto-contra-mp-bets/",
+   "t": "Palmeiras vence Botafogo-SP e avança às quartas de final do Paulista Sub-20",
+   "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-vence-botafogo-sp-e-avanca-as-quartas-de-final-do-paulista-sub-20/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "NFL Week 6 odds, predictions, expert picks: Cowboys roll into Lambeau Field to face Packers",
-   "u": "https://www.cbssports.com/nfl/news/nfl-week-6-picks-and-predictions-spread-odds-best-bets/",
-   "f": "CBS Sports",
+   "t": "Premier League: Arsenal visit Nottingham Forest looking to keep pace at top",
+   "u": "https://sports.yahoo.com/articles/premier-league-three-games-coming-115709631.html",
+   "f": "Yahoo Sports",
    "alta": true,
    "pais": "US"
   },
   {
-   "t": "Marcel Matz responde após o 3-0 do Sporting ao Benfica na Supertaça: «Fugir? Nem perto disso...»",
-   "u": "https://www.record.pt/modalidades/voleibol/detalhe/marcel-matz-responde-a-seguidor-apos-o-3-0-do-sporting-ao-benfica-na-supertaca-fugir-nem-perto-disso",
-   "f": "Record",
+   "t": "Bateu recorde com mais de duas décadas na Champions e faz o Liverpool sonhar",
+   "u": "https://www.abola.pt/noticias/bateu-recorde-com-mais-de-duas-decadas-na-champions-e-faz-o-liverpool-sonhar-2026101617572230778",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
-   "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
-   "f": "Marca",
+   "t": "Así queda la clasificación de la Liga Endesa tras la victoria del Real Madrid",
+   "u": "https://www.mundodeportivo.com/baloncesto/acb/20261018/1004240188/asi-queda-clasificacion-liga-endesa-victorias-real-madrid-fiatc-girona-casademont-zaragoza.html",
+   "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Chelsea v Tottenham: Women’s Super League – live",
-   "u": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
+   "t": "Nottingham Forest v Arsenal: Premier League – live",
+   "u": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Alan Pulido revela malos tratos de Chivas previo a su salida del club",
-   "u": "https://www.excelsior.com.mx/deportes/alan-pulido-revela-malos-tratos-chivas-previo-salida-club",
+   "t": "Francia está en llamas y destrozado por la inmigración: Donald Trump",
+   "u": "https://www.excelsior.com.mx/internacional/francia-llamas-y-destrozado-por-inmigracion-trump-debe-endurecer-normas",
    "f": "Excélsior",
-   "alta": true,
+   "alta": false,
    "pais": "MX"
   },
   {
-   "t": "El gesto de Messi contra un ex Boca tras uno de sus goles y su reacción junto a la de Rodrigo De Paul en un festejo en el triunfo del Inter Miami",
-   "u": "https://www.infobae.com/deportes/2026/10/18/el-gesto-de-messi-contra-un-ex-boca-tras-uno-de-sus-goles-y-su-reaccion-junto-a-la-de-rodrigo-de-paul-en-un-festejo-en-el-triunfo-del-inter-miami/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Excursionistas o Arsenal: el ascenso directo a la Primera Nacional no sale de ahí",
+   "u": "https://www.ole.com.ar/futbol-ascenso/primera-b/definicion-primera-b-ascenso-excursionistas-arsenal_0_efyuie9hBV.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -319,8 +331,8 @@
    "pais": "IT"
   },
   {
-   "t": "L'Anglais Michael Oliver arbitre de PSG-Barça en Ligue des champions",
-   "u": "https://www.lequipe.fr/Football/Actualites/L-anglais-michael-oliver-arbitre-de-psg-barca-en-ligue-des-champions/1736673#at_medium=RSS_feeds",
+   "t": "Crystal Palace et Pierre Sage giflés par Brighton, Manchester United lâche encore des points en Premier League",
+   "u": "https://www.lequipe.fr/Football/Actualites/Crystal-palace-et-pierre-sage-gifles-par-brighton-manchester-united-lache-encore-des-points-en-premier-league/1736731#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
