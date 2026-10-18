@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-17T23:12:36+00:00",
+ "atualizado": "2026-10-18T01:11:02+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,15 +11,15 @@
    },
    "noticias": [
     {
-     "t": "Atlético-MG x Coritiba - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/17-10-2026/atletico-mg-coritiba.ghtml",
-     "f": "ge",
+     "t": "São Paulo se junta a Flamengo e Fluminense em protesto contra MP das bets",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-protesto-contra-mp-bets/",
+     "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "São Paulo terá Luciano titular e mais três mudanças contra o Vasco; veja escalações",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/escalacoes-sao-paulo-vasco-brasileirao-17-10-2026/",
-     "f": "Gazeta Esportiva",
+     "t": "Atlético-MG vence o Coritiba, chega a oito jogos de invencibilidade e dorme na zona da Libertadores",
+     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/17-10-2026/atletico-mg-coritiba.ghtml",
+     "f": "ge",
      "alta": false
     },
     {
@@ -29,8 +29,8 @@
      "alta": false
     },
     {
-     "t": "Palmeiras x Botafogo-SP: saiba onde assistir ao jogo de volta das oitavas do Paulista sub-20",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-x-botafogo-sp-saiba-onde-assistir-volta-oitavas-paulista-sub-20/",
+     "t": "São Paulo x Vasco: veja fotos da partida pela 31ª rodada do Brasileirão",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/sao-paulo-x-vasco-veja-fotos-da-partida-pela-31a-rodada-do-brasileirao/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -51,21 +51,21 @@
      "alta": false
     },
     {
+     "t": "With ten changes, Atlético win and show their squad depth",
+     "u": "https://sports.yahoo.com/articles/ten-changes-atl-tico-win-005500057.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Valkyries star Gabby Williams takes over in WNBA Finals Game 1 win, shows why 'she's one of the best players in the world'",
+     "u": "https://sports.yahoo.com/wnba/article/valkyries-star-gabby-williams-takes-over-in-wnba-finals-game-1-win-shows-why-shes-one-of-the-best-players-in-the-world-005935122.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Knicks finalize roster as James Wiseman gets last spot over Bruce Brown",
      "u": "https://www.cbssports.com/nba/news/knicks-finalize-roster-james-wiseman-bruce-brown/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "No. 1 Castle boys soccer tops Bloomington South in PKs for regional title",
-     "u": "https://sports.yahoo.com/articles/no-1-castle-boys-soccer-230241741.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Notre Dame football injury report | Leonard Moore in, Flanagan out vs BYU",
-     "u": "https://sports.yahoo.com/articles/notre-dame-football-injury-report-225830456.html",
-     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -85,21 +85,21 @@
      "alta": true
     },
     {
-     "t": "Jogador sul-africano encontrado morto em hotel antes de jogo em França",
-     "u": "https://www.abola.pt/noticias/jogador-sul-africano-encontrado-morto-em-hotel-antes-de-jogo-em-franca-2026101613232882667",
-     "f": "A Bola",
-     "alta": true
-    },
-    {
-     "t": "Serie A: Roma e Mora voltam às vitórias e mantêm pressão sobre o Inter",
-     "u": "https://www.abola.pt/noticias/serie-a-roma-e-mora-voltam-as-vitorias-e-mantem-pressao-sobre-o-inter-2026101720420615570",
+     "t": "Cobiçado por Juventus e Newcastle, Doumbia brilha no Sporting e atrai tubarões",
+     "u": "https://www.abola.pt/noticias/cobicado-por-juventus-e-newcastle-doumbia-brilha-no-sporting-e-atrai-tubaroes-2026101610243556160",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Prestianni e Maxi Araújo seguros; defesa preocupa Farioli: tudo sobre Benfica, Sporting e FC Porto",
-     "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/prestianni-e-maxi-araujo-seguros-defesa-preocupa-farioli-tudo-sobre-benfica-sporting-e-fc-porto",
+     "t": "Sporting perde na visita ao CAB Madeira enquanto Benfica vence na receção à Oliveirense",
+     "u": "https://www.record.pt/modalidades/basquetebol/basquetebol-portugal/detalhe/sporting-perde-na-visita-ao-cab-madeira-enquanto-benfica-vence-na-rececao-a-oliveirense",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Pérola moldada por ex-Sporting encanta Amorim e bate recorde com mais de 30 anos",
+     "u": "https://www.abola.pt/noticias/perola-moldada-por-ex-sporting-encanta-amorim-e-bate-recorde-com-mais-de-30-anos-2026082418044867694",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -187,8 +187,8 @@
      "alta": false
     },
     {
-     "t": "Chivas estrena jersey ante Tigres; así es el nuevo diseño",
-     "u": "https://www.excelsior.com.mx/deportes/chivas-estrena-jersey-tigres-es-nuevo-diseno",
+     "t": "León Vs América EN VIVO: Jornada 12, Apertura 2026 - Liga MX",
+     "u": "https://www.excelsior.com.mx/deportes/leon-vs-america-vivo-jornada-12-apertura-2026-liga-mx",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,8 +203,14 @@
    },
    "noticias": [
     {
-     "t": "Boca le ganó a San José y quedó a un paso de los cuartos de la Liga Sudamericana",
-     "u": "https://www.ole.com.ar/basquet/boca-deportivosanjose-ligasudamericanadebasquet-brasiliabasquete_0_KYsb48X8nN.html",
+     "t": "El plan del Boca puntero para conquistar (Sud)América",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-riodejaneiro-copasudamericana-vascodagama-bombonera-bocapredio-copalibertadores_0_8iWx1NrwLZ.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Atento, Boca: Vasco da Gama, con mayoría de titulares, empata sin goles ante San Pablo",
+     "u": "https://www.ole.com.ar/futbol-internacional/america/vasco-da-gama-san-pablo-boca-sudamericana_0_iLvSUhxk3V.html",
      "f": "Olé",
      "alta": false
     },
@@ -218,12 +224,6 @@
      "t": "Una informe internacional reveló las brechas salariales y el costo psicológico detrás del crecimiento del fútbol femenino",
      "u": "https://www.infobae.com/deportes/2026/10/17/una-informe-internacional-revelo-las-brechas-salariales-y-el-costo-psicologico-detras-del-crecimiento-del-futbol-femenino/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Lionel Messi en Atlanta United vs. Inter Miami, hoy en VIVO, por la MLS: el 10 será titular",
-     "u": "https://www.ole.com.ar/mls/inter-miami/lionel-messi-inter-miami-atlanta-united-tata-martino-mls_0_mQJBZobW92.html",
-     "f": "Olé",
      "alta": false
     }
    ]
@@ -275,9 +275,9 @@
  ],
  "destaques": [
   {
-   "t": "Atlético-MG x Coritiba - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/17-10-2026/atletico-mg-coritiba.ghtml",
-   "f": "ge",
+   "t": "São Paulo se junta a Flamengo e Fluminense em protesto contra MP das bets",
+   "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-protesto-contra-mp-bets/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
@@ -317,8 +317,8 @@
    "pais": "MX"
   },
   {
-   "t": "Boca le ganó a San José y quedó a un paso de los cuartos de la Liga Sudamericana",
-   "u": "https://www.ole.com.ar/basquet/boca-deportivosanjose-ligasudamericanadebasquet-brasiliabasquete_0_KYsb48X8nN.html",
+   "t": "El plan del Boca puntero para conquistar (Sud)América",
+   "u": "https://www.ole.com.ar/boca-juniors/boca-riodejaneiro-copasudamericana-vascodagama-bombonera-bocapredio-copalibertadores_0_8iWx1NrwLZ.html",
    "f": "Olé",
    "alta": false,
    "pais": "AR"
