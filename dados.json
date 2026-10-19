@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-18T21:34:56+00:00",
+ "atualizado": "2026-10-19T00:15:18+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Lazio vence Juventus e segue na cola da líder Inter no Italiano",
-     "u": "https://www.gazetaesportiva.com/times/lazio/lazio-goleia-juventus-3-a-0-campeonato-italiano/",
+     "t": "Palmeiras inicia preparação para decisão contra o Fluminense pela Libertadores",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-inicia-preparacao-para-decisao-contra-o-fluminense-pela-libertadores/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Kaio Jorge faz três, Cruzeiro goleia Grêmio e salva Corinthians do Z4",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/gremio-x-cruzeiro-brasileirao-18-10-2026/",
+     "t": "Renê lamenta derrota do Fluminense para o Santos e mira reação na Libertadores",
+     "u": "https://www.gazetaesportiva.com/times/fluminense/rene-lamenta-derrota-fluminense-santos-libertadores/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Gabigol, do Santos, provoca torcida do Fluminense e mostra tatuagens das taças da Libertadores",
-     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/18/gabigol-do-santos-provoca-torcida-do-fluminense-e-mostra-tatuagens-das-tacas-da-libertadores.ghtml",
+     "t": "Corinthians x Caracas - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/18-10-2026/corinthians-caracas.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Santos aposta em \"quadrado mágico\" e vence o Fluminense de virada com brilho de Gabigol e Coutinho",
-     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/18-10-2026/fluminense-santos.ghtml",
+     "t": "Com hat-trick de Kaio Jorge, Cruzeiro vira e afunda o Grêmio no Z-4",
+     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for NFL betting, Chiefs-Chargers",
-     "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-nfl-betting-chiefs-chargers/",
+     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for NFL betting, Cowboys-Packers",
+     "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-for-nfl-betting-cowboys-packers/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Fantasy basketball rankings 2026-27: Sleepers, breakouts and busts via proven NBA simulation",
-     "u": "https://www.cbssports.com/fantasy/basketball/news/fantasy-basketball-rankings-2026-27-sleepers-breakouts-and-busts-via-proven-nba-simulation/",
+     "t": "NFL DFS, Cowboys vs. Packers: Top daily Fantasy picks, lineups, advice for 'Sunday Night Football'",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-cowboys-packers-daily-fantasy-picks-lineups-stacks-advice-sunday-night-football/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "MLB payrolls 2026: AL finalist Cleveland Guardians have lowest in baseball",
-     "u": "https://sports.yahoo.com/articles/mlb-payrolls-2026-al-finalist-212052196.html",
+     "t": "Manuel Neuer an injury doubt for Bayern Munich’s Arsenal clash",
+     "u": "https://sports.yahoo.com/articles/manuel-neuer-injury-doubt-bayern-143000664.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "What channel is Cowboys vs Packers on tonight? NFL Sunday Night Football time, TV schedule",
-     "u": "https://sports.yahoo.com/articles/channel-cowboys-vs-packers-tonight-212028808.html",
+     "t": "MLB Postseason Glance",
+     "u": "https://sports.yahoo.com/articles/mlb-postseason-glance-000022464.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Lazio arrasa Juventus em Turim e continua colada ao líder Inter",
-     "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261018-124618-juventus-lazio-em-direto",
+     "t": "Nuno Tavares assiste na vitória da Lazio em casa da Juventus",
+     "u": "https://www.abola.pt/noticias/nuno-tavares-assiste-na-vitoria-da-lazio-em-casa-da-juventus-2026101820252414057",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Não é só no PSG: baixas de peso também no Barcelona",
+     "u": "https://www.abola.pt/noticias/nao-e-so-no-psg-baixas-de-peso-tambem-no-barcelona-2026101816494102231",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Sevilha arrasa arbitragem na derrota com o Real Madrid: «Não queriam mais pontos de distância no clássico...»",
+     "u": "https://www.record.pt/internacional/paises/espanha/real-madrid/detalhe/sevilha-arrasa-arbitragem-na-derrota-com-o-real-madrid-nao-queriam-mais-pontos-de-distancia-no-classico",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
-     "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Portugal cai perante a França após prolongamento e falha final do Mundial",
-     "u": "https://www.abola.pt/noticias/portugal-cai-perante-a-franca-apos-prolongamento-e-falha-final-do-mundial-2026101622263807172",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Real Madrid passeia em noite de grandes golos e embala antes do 'El Clásico'",
-     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/20261018-123456-real-madrid-sevilha-em-direto",
+     "t": "Flamengo não vacila contra o Bahia e Leonardo Jardim volta à liderança do Brasileirão",
+     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/flamengo-nao-vacila-contra-o-bahia-e-leonardo-jardim-volta-a-lideranca-do-brasileirao",
      "f": "Record",
      "alta": false
     }
@@ -131,8 +131,8 @@
      "alta": false
     },
     {
-     "t": "113-89: Una Penya sublime pasa por encima del Barça",
-     "u": "https://www.mundodeportivo.com/baloncesto/acb/20261018/1004240272/penya-barca.html",
+     "t": "Así queda la clasificación de LaLiga EA Sports tras la polémica victoria del Madrid ante el Sevilla",
+     "u": "https://www.mundodeportivo.com/futbol/laliga/20261018/1004240364/asi-queda-clasificacion-laliga-ea-sports-polemica-victoria-madrid-sevilla.html",
      "f": "Mundo Deportivo",
      "alta": false
     }
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
+     "t": "Another unremarkable win shows Arsenal’s strength is in depth rather than creativity | Jonathan Wilson",
+     "u": "https://www.theguardian.com/football/2026/oct/18/arsenal-strength-in-depth-nottingham-forest-premier-league",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Madueke's 'anger and conviction' shows he's more than a 'finisher'",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c3qjnyw8qe4do?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
      "t": "Ramos could make La Liga return - Monday's gossip",
      "u": "https://www.bbc.co.uk/sport/football/articles/ckjrw11dv5xjo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Man City maintain perfect WSL record as Chelsea, Man Utd, London City win",
-     "u": "https://www.skysports.com/football/news/12040/13600686/man-city-maintain-perfect-record-as-chelsea-man-utd-and-london-city-lionesses-all-win-womens-super-league-round-up",
-     "f": "Sky Sports",
-     "alta": true
-    },
-    {
-     "t": "NFL London as it happened: Last-second field goal AGAIN as Texans beat Jags",
-     "u": "https://www.skysports.com/nfl/live-blog/12040/13600279/nfl-london-games-2026-live-updates-result-highlights-from-jacksonville-jaguars-against-houston-texans-at-wembley-stadium",
-     "f": "Sky Sports",
-     "alta": true
-    },
-    {
-     "t": "Another unremarkable win shows Arsenal’s strength is in depth rather than creativity | Jonathan Wilson",
-     "u": "https://www.theguardian.com/football/2026/oct/18/arsenal-strength-in-depth-nottingham-forest-premier-league",
+     "t": "European football: 10-man Lyon hold off Nice to move top of Ligue 1",
+     "u": "https://www.theguardian.com/football/2026/oct/18/european-football-monaco-rennes-ligue-1-bayer-leverkusen-freiburg-bundesliga-como-fiorentina-seria-a-real-madrid-sevilla-la-liga",
      "f": "The Guardian",
      "alta": false
     }
@@ -187,8 +187,8 @@
      "alta": false
     },
     {
-     "t": "ÚLTIMA HORA: NFL mantiene el partido de Saints y Steelers en París pese a disturbios sociales",
-     "u": "https://www.excelsior.com.mx/deportes/nfl-mantiene-partido-saints-steelers-paris-disturbios",
+     "t": "Afición del Real Madrid muestra pancarta contra Javier Tebas; el presidente de LaLiga responde",
+     "u": "https://www.excelsior.com.mx/deportes/real-madrid-pancarta-contra-javier-tebas",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,9 +203,9 @@
    },
    "noticias": [
     {
-     "t": "Lazio goleó a la Juventus de Nico González y comparte la punta de la Serie A con Inter",
-     "u": "https://www.ole.com.ar/futbol-internacional/italia/lazio-goles-juventus-septima-fecha-italia-puntero_0_povP1NcOv3.html",
-     "f": "Olé",
+     "t": "Belgrano cayó 3-1 ante Palmeiras y se jugará el pase a cuartos de la Libertadores Femenina en la última fecha",
+     "u": "https://www.infobae.com/deportes/2026/10/18/belgrano-cayo-3-1-ante-palmeiras-en-su-segunda-presentacion-y-se-jugara-el-pase-a-cuartos-de-la-libertadores-femenina-en-la-ultima-fecha/",
+     "f": "Infobae",
      "alta": false
     },
     {
@@ -215,14 +215,14 @@
      "alta": false
     },
     {
-     "t": "El gesto de Messi contra un ex Boca tras uno de sus goles y su reacción junto a la de Rodrigo De Paul en un festejo en el triunfo del Inter Miami",
-     "u": "https://www.infobae.com/deportes/2026/10/18/el-gesto-de-messi-contra-un-ex-boca-tras-uno-de-sus-goles-y-su-reaccion-junto-a-la-de-rodrigo-de-paul-en-un-festejo-en-el-triunfo-del-inter-miami/",
-     "f": "Infobae",
+     "t": "La NBA en modo videojuego: Prime Video usará IA para reconstruir las jugadas desde ángulos imposibles",
+     "u": "https://www.ole.com.ar/basquet/nba-prime-video-vivo_0_ZuF3T808FZ.html",
+     "f": "Olé",
      "alta": false
     },
     {
-     "t": "El Real Madrid ganó con un penal picado por Mbappé y tres golazos a puro lujo de sus figuras",
-     "u": "https://www.ole.com.ar/futbol-internacional/espana/kylian-mbappe-real-madrid-gol-penal-picado-bellingham-liga-espana-resultado-sevilla_0_E5BRz2M11b.html",
+     "t": "Antes de la revancha de Estudiantes, Flamengo goleó y recuperó la punta en el Brasileirao",
+     "u": "https://www.ole.com.ar/futbol-internacional/flamengo-bahia-brasileirao-victoria_0_Twb13gOaed.html",
      "f": "Olé",
      "alta": false
     }
@@ -265,7 +265,7 @@
      "alta": false
     },
     {
-     "t": "Victoire spectaculaire du Real Madrid face à Séville, doublé de Kylian Mbappé",
+     "t": "Victoire spectaculaire du Real Madrid face à Séville, avec un doublé de Kylian Mbappé",
      "u": "https://www.lequipe.fr/Football/Actualites/Victoire-spectaculaire-du-real-madrid-face-a-seville-double-de-kylian-mbappe/1736855#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
@@ -275,23 +275,23 @@
  ],
  "destaques": [
   {
-   "t": "Lazio vence Juventus e segue na cola da líder Inter no Italiano",
-   "u": "https://www.gazetaesportiva.com/times/lazio/lazio-goleia-juventus-3-a-0-campeonato-italiano/",
+   "t": "Palmeiras inicia preparação para decisão contra o Fluminense pela Libertadores",
+   "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-inicia-preparacao-para-decisao-contra-o-fluminense-pela-libertadores/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for NFL betting, Chiefs-Chargers",
-   "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-nfl-betting-chiefs-chargers/",
+   "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for NFL betting, Cowboys-Packers",
+   "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-for-nfl-betting-cowboys-packers/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Lazio arrasa Juventus em Turim e continua colada ao líder Inter",
-   "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261018-124618-juventus-lazio-em-direto",
-   "f": "Record",
+   "t": "Nuno Tavares assiste na vitória da Lazio em casa da Juventus",
+   "u": "https://www.abola.pt/noticias/nuno-tavares-assiste-na-vitoria-da-lazio-em-casa-da-juventus-2026101820252414057",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
@@ -303,10 +303,10 @@
    "pais": "ES"
   },
   {
-   "t": "Ramos could make La Liga return - Monday's gossip",
-   "u": "https://www.bbc.co.uk/sport/football/articles/ckjrw11dv5xjo?at_medium=RSS&at_campaign=rss",
-   "f": "BBC Sport",
-   "alta": true,
+   "t": "Another unremarkable win shows Arsenal’s strength is in depth rather than creativity | Jonathan Wilson",
+   "u": "https://www.theguardian.com/football/2026/oct/18/arsenal-strength-in-depth-nottingham-forest-premier-league",
+   "f": "The Guardian",
+   "alta": false,
    "pais": "GB"
   },
   {
@@ -317,9 +317,9 @@
    "pais": "MX"
   },
   {
-   "t": "Lazio goleó a la Juventus de Nico González y comparte la punta de la Serie A con Inter",
-   "u": "https://www.ole.com.ar/futbol-internacional/italia/lazio-goles-juventus-septima-fecha-italia-puntero_0_povP1NcOv3.html",
-   "f": "Olé",
+   "t": "Belgrano cayó 3-1 ante Palmeiras y se jugará el pase a cuartos de la Libertadores Femenina en la última fecha",
+   "u": "https://www.infobae.com/deportes/2026/10/18/belgrano-cayo-3-1-ante-palmeiras-en-su-segunda-presentacion-y-se-jugara-el-pase-a-cuartos-de-la-libertadores-femenina-en-la-ultima-fecha/",
+   "f": "Infobae",
    "alta": false,
    "pais": "AR"
   },
