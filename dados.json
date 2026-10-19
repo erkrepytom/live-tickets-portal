@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-19T17:34:37+00:00",
+ "atualizado": "2026-10-19T22:28:41+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,28 +11,28 @@
    },
    "noticias": [
     {
-     "t": "Atlético-MG x Internacional - Copa do Brasil Feminina 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
+     "t": "Escalação do Vasco: Paulo Henrique treina, mas é dúvida para começar o jogo contra o Boca Juniors",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/19/escalacao-do-vasco-paulo-henrique-treina-mas-e-duvida-para-comecar-o-jogo-contra-o-boca-juniors.ghtml",
      "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Grêmio e Inter ganham prazo da Anresf para pagar dívidas sob pena de transfer ban",
-     "u": "https://ge.globo.com/rs/futebol/noticia/2026/10/19/gremio-e-inter-ganham-prazo-da-anresf-para-pagar-dividas-sob-pena-de-transfer-ban.ghtml",
-     "f": "ge",
-     "alta": false
+     "alta": true
     },
     {
      "t": "Palmeiras treina sem Vitor Roque para semi da Libertadores, e titulares são liberados mais cedo",
      "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-treina-sem-vitor-roque-semi-libertadores/",
      "f": "Gazeta Esportiva",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Luis Enrique exalta identidade do PSG antes de duelo contra o Barça",
-     "u": "https://www.gazetaesportiva.com/futebol/futebol-internacional/luis-enrique-exalta-identidade-do-psg-antes-de-duelo-contra-o-barca/",
+     "t": "Com várias mudanças, Corinthians está escalado para enfrentar o Vitória; veja times",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/corinthians-vitoria-escalacoes-brasileirao-2026/",
      "f": "Gazeta Esportiva",
-     "alta": false
+     "alta": true
+    },
+    {
+     "t": "Com Diego Tarzia de volta, veja relacionados do Vitória para enfrentar o Corinthians",
+     "u": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/19/com-diego-tarzia-de-volta-veja-relacionados-do-vitoria-para-enfrentar-o-corinthians.ghtml",
+     "f": "ge",
+     "alta": true
     }
    ]
   },
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "UEFA Champions League scores, schedule: Barcelona vs. PSG highlights Matchday 3",
-     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
+     "t": "Serie A hot takes: It's time for Juventus and Napoli to find new coaches after rough starts",
+     "u": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-its-time-for-juventus-and-napoli-coaches/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Footy Fix: PSG vs. Barcelona showdown headlines Champions League league phase's Matchday 3",
-     "u": "https://www.cbssports.com/soccer/news/footy-fix-psg-vs-barcelona-showdown-headlines-champions-league-league-phases-matchday-3/",
+     "t": "Champions League expert picks, predictions, best bets: PSG vs. Barca to bring goals but is there a favorite?",
+     "u": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-psg-vs-barca-arsenal-bayern-munich/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "UEFA Champions League: Live Updates on the Trip to Baku",
-     "u": "https://sports.yahoo.com/articles/uefa-champions-league-live-updates-172000461.html",
+     "t": "Is Chet Holmgren playing for Thunder vs Spurs? Injury update for NBA season opener",
+     "u": "https://sports.yahoo.com/articles/chet-holmgren-playing-thunder-vs-221217430.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Brackets: Fields set for 2026 Section 2 boys' soccer tournament",
-     "u": "https://sports.yahoo.com/articles/brackets-fields-set-2026-section-172734475.html",
+     "t": "Bunnell football's versatile star Rody Ricketts commits to Sacred Heart University",
+     "u": "https://sports.yahoo.com/articles/bunnell-footballs-versatile-star-rody-222528085.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Estação televisiva do Real Madrid acusa presidente da LaLiga de censura",
-     "u": "https://www.abola.pt/noticias/estacao-televisiva-do-real-madrid-acusa-presidente-da-laliga-de-censura-2026101911333786828",
+     "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
+     "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Governo francês sobre o PSG-Barcelona: «Realização do jogo não está em risco»",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/governo-frances-sobre-o-psg-barcelona-realizacao-do-jogo-nao-esta-em-risco",
+     "t": "Não era preciso sofrer tanto: Ramos marca e Milan volta a vencer na Serie A (crónica)",
+     "u": "https://www.abola.pt/noticias/nao-era-preciso-sofrer-tanto-ramos-marca-e-milan-volta-a-vencer-na-serie-a-cronica-2026101818283972903",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "À sétima foi de vez: Tottenham soma primeira vitória e sai do fundo da Premier League",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/tottenham/detalhe/a-setima-foi-de-vez-tottenham-soma-primeira-vitoria-e-sai-do-fundo-da-premier-league",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Champions: árbitro escocês apita receção do Sporting ao LASK Linz",
-     "u": "https://www.abola.pt/noticias/champions-arbitro-escoces-apita-rececao-do-sporting-ao-lask-linz-2026101909080632047",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Guia para a época 2026/27 da NBA",
-     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/guia-para-a-epoca-2026-27-da-nba",
+     "t": "Laporta arrasador com o Real Madrid: «Já não há relação. Só mesmo confronto»",
+     "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/laporta-arrasador-com-o-real-madrid-ja-nao-ha-relacao-so-mesmo-confronto",
      "f": "Record",
      "alta": false
     }
@@ -119,7 +119,7 @@
      "alta": false
     },
     {
-     "t": "Los fichajes del Barça 2026-27 ya se cargaron al PSG",
+     "t": "Los fichajes del Barça 2026-27 ya vencieron al PSG",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261019/1004240274/fichajes-barca-2026-27-cargarse-psg.html",
      "f": "Mundo Deportivo",
      "alta": false
@@ -159,14 +159,14 @@
      "alta": false
     },
     {
-     "t": "Another unremarkable win shows Arsenal’s strength is in depth rather than creativity | Jonathan Wilson",
-     "u": "https://www.theguardian.com/football/2026/oct/18/arsenal-strength-in-depth-nottingham-forest-premier-league",
+     "t": "Scott Boland shines against South Africa but rain dominates again",
+     "u": "https://www.theguardian.com/sport/2026/oct/19/scott-boland-shines-against-south-africa-but-rain-dominates-again",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Merson: Brighton defeat scared Arsenal – they won't beat Bayern",
-     "u": "https://www.skysports.com/football/news/12040/13600922/arsenal-were-spooked-by-brighton-defeat-and-have-reverted-to-type-they-wont-beat-bayern-munich-says-paul-merson",
+     "t": "Mbappe shines in Real Madrid's win over Sevilla",
+     "u": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
      "f": "Sky Sports",
      "alta": false
     }
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "El posteo de Flamengo dedicado a Boca antes de las semifinales de Sudamericana y Libertadores",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-juniors-flamengo-posteo-vasco-da-gama-sudamericana-libertadores-mensaje-publicacion_0_idKdhcAMow.html",
+     "t": "Un poco de aire: el Tottenham de Senesi ganó y salió de la zona de descenso en la Premier League",
+     "u": "https://www.ole.com.ar/futbol-internacional/tottenham-senesi-gano-conventry-salio-descenso-premier-league_0_t9Im7ZOf68.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Qué necesita River Plate para clasificarse a la Copa Libertadores 2027: cómo lo podría ayudar Boca Juniors",
-     "u": "https://www.infobae.com/deportes/2026/10/19/que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027-como-lo-podria-ayudar-boca-juniors/",
+     "t": "Una figura del fútbol y la hija de una leyenda de la NBA participaron del desfile de una reconocida marca de lencería",
+     "u": "https://www.infobae.com/deportes/2026/10/19/una-figura-del-futbol-y-la-hija-de-una-leyenda-de-la-nba-participaron-del-desfile-de-una-reconocida-marca-de-lenceria/",
      "f": "Infobae",
      "alta": false
     },
@@ -199,8 +199,8 @@
      "alta": false
     },
     {
-     "t": "¿Cómo le está yendo a Zeballos desde su salida de Boca a Italia?",
-     "u": "https://www.ole.com.ar/futbol-internacional/italia/zeballos-presente-cagliari-ex-boca_0_uKmMFHO5Rd.html",
+     "t": "Arranca la NBA con una incógnita: ¿LeBron está para campeón en su primer año en Philadelphia?",
+     "u": "https://www.ole.com.ar/basquet/arranca-nba-incognita-lebron-james-philadelphia-primer-ano-campeon_0_MwrVLS1y5I.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "PSG - Barça en Ligue des champions : aurez-vous le même onze idéal que notre consultant Bixente Lizarazu ?",
-     "u": "https://www.lequipe.fr/Football/Article/Psg-barca-en-ligue-des-champions-aurez-vous-le-meme-onze-ideal-que-notre-consultant-bixente-lizarazu/1737032#at_medium=RSS_feeds",
+     "t": "Gerard Martin incertain pour le choc entre le PSG et le Barça en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Gerard-martin-incertain-pour-le-choc-entre-le-psg-et-le-barca-en-ligue-des-champions/1737085#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Ancien MVP du Super Bowl, Jalen Hurts forfait jusqu'à la fin de la saison en NFL après la découverte de caillots sanguins dans ses poumons",
-     "u": "https://www.lequipe.fr/Football-americain/Actualites/Ancien-mvp-du-super-bowl-jalen-hurts-forfait-jusqu-a-la-fin-de-la-saison-en-nfl-apres-la-decouverte-de-caillots-sanguins-dans-ses-poumons/1737024#at_medium=RSS_feeds",
+     "t": "Buteur pour son retour comme titulaire, James Maddison offre à Tottenham sa première victoire de la saison en Premier League",
+     "u": "https://www.lequipe.fr/Football/Actualites/Buteur-pour-son-retour-comme-titulaire-james-maddison-offre-a-tottenham-sa-premiere-victoire-de-la-saison-en-premier-league/1737127#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,22 +253,22 @@
  ],
  "destaques": [
   {
-   "t": "Atlético-MG x Internacional - Copa do Brasil Feminina 2026 - globoesporte.com",
-   "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
+   "t": "Escalação do Vasco: Paulo Henrique treina, mas é dúvida para começar o jogo contra o Boca Juniors",
+   "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/19/escalacao-do-vasco-paulo-henrique-treina-mas-e-duvida-para-comecar-o-jogo-contra-o-boca-juniors.ghtml",
    "f": "ge",
-   "alta": false,
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "UEFA Champions League scores, schedule: Barcelona vs. PSG highlights Matchday 3",
-   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
+   "t": "Serie A hot takes: It's time for Juventus and Napoli to find new coaches after rough starts",
+   "u": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-its-time-for-juventus-and-napoli-coaches/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Estação televisiva do Real Madrid acusa presidente da LaLiga de censura",
-   "u": "https://www.abola.pt/noticias/estacao-televisiva-do-real-madrid-acusa-presidente-da-laliga-de-censura-2026101911333786828",
+   "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
+   "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -288,8 +288,8 @@
    "pais": "GB"
   },
   {
-   "t": "El posteo de Flamengo dedicado a Boca antes de las semifinales de Sudamericana y Libertadores",
-   "u": "https://www.ole.com.ar/boca-juniors/boca-juniors-flamengo-posteo-vasco-da-gama-sudamericana-libertadores-mensaje-publicacion_0_idKdhcAMow.html",
+   "t": "Un poco de aire: el Tottenham de Senesi ganó y salió de la zona de descenso en la Premier League",
+   "u": "https://www.ole.com.ar/futbol-internacional/tottenham-senesi-gano-conventry-salio-descenso-premier-league_0_t9Im7ZOf68.html",
    "f": "Olé",
    "alta": false,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "PSG - Barça en Ligue des champions : aurez-vous le même onze idéal que notre consultant Bixente Lizarazu ?",
-   "u": "https://www.lequipe.fr/Football/Article/Psg-barca-en-ligue-des-champions-aurez-vous-le-meme-onze-ideal-que-notre-consultant-bixente-lizarazu/1737032#at_medium=RSS_feeds",
+   "t": "Gerard Martin incertain pour le choc entre le PSG et le Barça en Ligue des champions",
+   "u": "https://www.lequipe.fr/Football/Actualites/Gerard-martin-incertain-pour-le-choc-entre-le-psg-et-le-barca-en-ligue-des-champions/1737085#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
