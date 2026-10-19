@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-19T10:54:22+00:00",
+ "atualizado": "2026-10-19T17:34:37+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,15 +11,27 @@
    },
    "noticias": [
     {
-     "t": "São José Basketball estreia no NBB em partida contra Franca",
-     "u": "https://ge.globo.com/sp/vale-do-paraiba-regiao/basquete/nbb/noticia/2026/10/19/sao-jose-basketball-estreia-no-nbb-em-partida-contra-franca.ghtml",
+     "t": "Atlético-MG x Internacional - Copa do Brasil Feminina 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Melhor do ano? Inter abre semana com missão de remontar o time e secar o Corinthians",
-     "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/19/melhor-do-ano-inter-abre-semana-com-missao-de-remontar-o-time-e-secar-o-corinthians.ghtml",
+     "t": "Grêmio e Inter ganham prazo da Anresf para pagar dívidas sob pena de transfer ban",
+     "u": "https://ge.globo.com/rs/futebol/noticia/2026/10/19/gremio-e-inter-ganham-prazo-da-anresf-para-pagar-dividas-sob-pena-de-transfer-ban.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Palmeiras treina sem Vitor Roque para semi da Libertadores, e titulares são liberados mais cedo",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-treina-sem-vitor-roque-semi-libertadores/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Luis Enrique exalta identidade do PSG antes de duelo contra o Barça",
+     "u": "https://www.gazetaesportiva.com/futebol/futebol-internacional/luis-enrique-exalta-identidade-do-psg-antes-de-duelo-contra-o-barca/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -33,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Champions League Vibe Check: Barcelona, Bayern Munich impress; Manchester United in trouble",
-     "u": "https://www.cbssports.com/soccer/news/champions-league-vibe-check-barcelona-bayern-munich-man-united/",
+     "t": "UEFA Champions League scores, schedule: Barcelona vs. PSG highlights Matchday 3",
+     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for NFL betting, Cowboys-Packers",
-     "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-for-nfl-betting-cowboys-packers/",
+     "t": "Footy Fix: PSG vs. Barcelona showdown headlines Champions League league phase's Matchday 3",
+     "u": "https://www.cbssports.com/soccer/news/footy-fix-psg-vs-barcelona-showdown-headlines-champions-league-league-phases-matchday-3/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Spalletti responds to Bremer after Juventus 0-3 Lazio: ‘Have to look at ourselves’",
-     "u": "https://sports.yahoo.com/articles/spalletti-responds-bremer-juventus-0-104000312.html",
+     "t": "UEFA Champions League: Live Updates on the Trip to Baku",
+     "u": "https://sports.yahoo.com/articles/uefa-champions-league-live-updates-172000461.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Carlos Baleba Could Change Manchester United’s Season",
-     "u": "https://sports.yahoo.com/articles/carlos-baleba-could-change-manchester-104237169.html",
+     "t": "Brackets: Fields set for 2026 Section 2 boys' soccer tournament",
+     "u": "https://sports.yahoo.com/articles/brackets-fields-set-2026-section-172734475.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -67,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
-     "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
+     "t": "Estação televisiva do Real Madrid acusa presidente da LaLiga de censura",
+     "u": "https://www.abola.pt/noticias/estacao-televisiva-do-real-madrid-acusa-presidente-da-laliga-de-censura-2026101911333786828",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Não era preciso sofrer tanto: Ramos marca e Milan volta a vencer na Serie A (crónica)",
-     "u": "https://www.abola.pt/noticias/nao-era-preciso-sofrer-tanto-ramos-marca-e-milan-volta-a-vencer-na-serie-a-cronica-2026101818283972903",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Jaime Faria sobe a 56.º do ranking mundial de ténis",
-     "u": "https://www.record.pt/modalidades/tenis/detalhe/jaime-faria-sobe-a-56-do-ranking-mundial-de-tenis",
+     "t": "Governo francês sobre o PSG-Barcelona: «Realização do jogo não está em risco»",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/governo-frances-sobre-o-psg-barcelona-realizacao-do-jogo-nao-esta-em-risco",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Florentino Pérez já tem treinador escolhido caso José Mourinho falhe no Real Madrid, avança o 'Sport'",
-     "u": "https://www.record.pt/internacional/paises/espanha/real-madrid/detalhe/florentino-perez-ja-sabe-quem-sera-o-eventual-substituto-de-mourinho-no-real-madrid-avanca-o-sport",
+     "t": "Champions: árbitro escocês apita receção do Sporting ao LASK Linz",
+     "u": "https://www.abola.pt/noticias/champions-arbitro-escoces-apita-rececao-do-sporting-ao-lask-linz-2026101909080632047",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Guia para a época 2026/27 da NBA",
+     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/guia-para-a-epoca-2026-27-da-nba",
      "f": "Record",
      "alta": false
     }
@@ -107,15 +119,15 @@
      "alta": false
     },
     {
-     "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
-     "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
      "t": "Los fichajes del Barça 2026-27 ya se cargaron al PSG",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261019/1004240274/fichajes-barca-2026-27-cargarse-psg.html",
      "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
+     "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
+     "f": "Marca",
      "alta": false
     },
     {
@@ -135,49 +147,27 @@
    },
    "noticias": [
     {
+     "t": "Arsenal vs Man Utd, NLD and Man City vs Chelsea live on Sky in December",
+     "u": "https://www.skysports.com/football/news/12040/13600880/premier-league-fixtures-on-sky-sports-arsenal-vs-man-utd-north-london-derby-and-man-city-vs-chelsea-live-in-december",
+     "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Konsa bullish about Arsenal’s Champions League hopes as Bayern clash looms",
+     "u": "https://www.theguardian.com/football/2026/oct/19/ezri-konsa-arsenal-champions-league-bayern-munich",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
      "t": "Another unremarkable win shows Arsenal’s strength is in depth rather than creativity | Jonathan Wilson",
      "u": "https://www.theguardian.com/football/2026/oct/18/arsenal-strength-in-depth-nottingham-forest-premier-league",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "US GP talking points: How will Hamilton, Norris move on from woes?",
-     "u": "https://www.skysports.com/f1/news/12040/13599548/united-states-gp-lewis-hamilton-and-lando-norris-moving-on-from-singapore-woes-among-talking-points-for-austin-race",
+     "t": "Merson: Brighton defeat scared Arsenal – they won't beat Bayern",
+     "u": "https://www.skysports.com/football/news/12040/13600922/arsenal-were-spooked-by-brighton-defeat-and-have-reverted-to-type-they-wont-beat-bayern-munich-says-paul-merson",
      "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "Verstappen takes on Leclerc's brother in epic GT duel!",
-     "u": "https://www.skysports.com/watch/video/13600693/max-verstappen-takes-on-leclercs-brother-in-epic-gt-duel",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "South Africa v Australia: second men’s cricket Test, day two – live",
-     "u": "https://www.theguardian.com/sport/live/2026/oct/19/south-africa-v-australia-second-test-day-two-cricket-st-georges-park-gqeberha-live-updates",
-     "f": "The Guardian",
-     "alta": false
-    }
-   ]
-  },
-  {
-   "pais": "MX",
-   "nome": {
-    "pt": "México",
-    "en": "Mexico",
-    "es": "México"
-   },
-   "noticias": [
-    {
-     "t": "América es líder: así quedó la tabla de la Liga MX tras la Jornada 12 del Apertura 2026",
-     "u": "https://www.excelsior.com.mx/deportes/america-es-lider-quedo-tabla-liga-mx-tras-jornada-12-apertura-2026",
-     "f": "Excélsior",
-     "alta": false
-    },
-    {
-     "t": "Paul Aguilar, exjugador del América, sufre accidente automovilístico; los detalles",
-     "u": "https://www.excelsior.com.mx/deportes/paul-aguilar-accidente-auto-exjugador-america-michoacan",
-     "f": "Excélsior",
      "alta": false
     }
    ]
@@ -191,26 +181,26 @@
    },
    "noticias": [
     {
+     "t": "El posteo de Flamengo dedicado a Boca antes de las semifinales de Sudamericana y Libertadores",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-juniors-flamengo-posteo-vasco-da-gama-sudamericana-libertadores-mensaje-publicacion_0_idKdhcAMow.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Qué necesita River Plate para clasificarse a la Copa Libertadores 2027: cómo lo podría ayudar Boca Juniors",
      "u": "https://www.infobae.com/deportes/2026/10/19/que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027-como-lo-podria-ayudar-boca-juniors/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Boca venció a Brasilia y cerró su grupo con puntaje ideal en la Liga Sudamericana",
-     "u": "https://www.ole.com.ar/basquet/cuartos-boca-vencio-brasilia-cerro-lider-zona-liga-sudamericana-basquet_0_FGtNBmQBhG.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Belgrano cayó 3-1 ante Palmeiras y se jugará el pase a cuartos de la Libertadores Femenina en la última fecha",
-     "u": "https://www.infobae.com/deportes/2026/10/18/belgrano-cayo-3-1-ante-palmeiras-en-su-segunda-presentacion-y-se-jugara-el-pase-a-cuartos-de-la-libertadores-femenina-en-la-ultima-fecha/",
+     "t": "Impacto en la Premier League: Manchester City podría sufrir una “enorme” quita de puntos que provocaría su descenso",
+     "u": "https://www.infobae.com/deportes/2026/10/19/impacto-en-la-premier-league-manchester-city-podria-sufrir-una-enorme-quita-de-puntos-que-provocaria-su-descenso/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Viajó más de 48 horas para salvar a un equipo del descenso, convivió con la magia negra y dirige en la liga con más altitud del mundo",
-     "u": "https://www.ole.com.ar/futbol-internacional/rodolfo-zapata-salvar-equipo-descenso-magia-negra-liga-altitud-butan_0_VoKuM1WvlE.html",
+     "t": "¿Cómo le está yendo a Zeballos desde su salida de Boca a Italia?",
+     "u": "https://www.ole.com.ar/futbol-internacional/italia/zeballos-presente-cagliari-ex-boca_0_uKmMFHO5Rd.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,26 +227,48 @@
      "alta": false
     }
    ]
+  },
+  {
+   "pais": "FR",
+   "nome": {
+    "pt": "França",
+    "en": "France",
+    "es": "Francia"
+   },
+   "noticias": [
+    {
+     "t": "PSG - Barça en Ligue des champions : aurez-vous le même onze idéal que notre consultant Bixente Lizarazu ?",
+     "u": "https://www.lequipe.fr/Football/Article/Psg-barca-en-ligue-des-champions-aurez-vous-le-meme-onze-ideal-que-notre-consultant-bixente-lizarazu/1737032#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    },
+    {
+     "t": "Ancien MVP du Super Bowl, Jalen Hurts forfait jusqu'à la fin de la saison en NFL après la découverte de caillots sanguins dans ses poumons",
+     "u": "https://www.lequipe.fr/Football-americain/Actualites/Ancien-mvp-du-super-bowl-jalen-hurts-forfait-jusqu-a-la-fin-de-la-saison-en-nfl-apres-la-decouverte-de-caillots-sanguins-dans-ses-poumons/1737024#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    }
+   ]
   }
  ],
  "destaques": [
   {
-   "t": "São José Basketball estreia no NBB em partida contra Franca",
-   "u": "https://ge.globo.com/sp/vale-do-paraiba-regiao/basquete/nbb/noticia/2026/10/19/sao-jose-basketball-estreia-no-nbb-em-partida-contra-franca.ghtml",
+   "t": "Atlético-MG x Internacional - Copa do Brasil Feminina 2026 - globoesporte.com",
+   "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Champions League Vibe Check: Barcelona, Bayern Munich impress; Manchester United in trouble",
-   "u": "https://www.cbssports.com/soccer/news/champions-league-vibe-check-barcelona-bayern-munich-man-united/",
+   "t": "UEFA Champions League scores, schedule: Barcelona vs. PSG highlights Matchday 3",
+   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
-   "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
+   "t": "Estação televisiva do Real Madrid acusa presidente da LaLiga de censura",
+   "u": "https://www.abola.pt/noticias/estacao-televisiva-do-real-madrid-acusa-presidente-da-laliga-de-censura-2026101911333786828",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -269,23 +281,16 @@
    "pais": "ES"
   },
   {
-   "t": "Another unremarkable win shows Arsenal’s strength is in depth rather than creativity | Jonathan Wilson",
-   "u": "https://www.theguardian.com/football/2026/oct/18/arsenal-strength-in-depth-nottingham-forest-premier-league",
-   "f": "The Guardian",
+   "t": "Arsenal vs Man Utd, NLD and Man City vs Chelsea live on Sky in December",
+   "u": "https://www.skysports.com/football/news/12040/13600880/premier-league-fixtures-on-sky-sports-arsenal-vs-man-utd-north-london-derby-and-man-city-vs-chelsea-live-in-december",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "América es líder: así quedó la tabla de la Liga MX tras la Jornada 12 del Apertura 2026",
-   "u": "https://www.excelsior.com.mx/deportes/america-es-lider-quedo-tabla-liga-mx-tras-jornada-12-apertura-2026",
-   "f": "Excélsior",
-   "alta": false,
-   "pais": "MX"
-  },
-  {
-   "t": "Qué necesita River Plate para clasificarse a la Copa Libertadores 2027: cómo lo podría ayudar Boca Juniors",
-   "u": "https://www.infobae.com/deportes/2026/10/19/que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027-como-lo-podria-ayudar-boca-juniors/",
-   "f": "Infobae",
+   "t": "El posteo de Flamengo dedicado a Boca antes de las semifinales de Sudamericana y Libertadores",
+   "u": "https://www.ole.com.ar/boca-juniors/boca-juniors-flamengo-posteo-vasco-da-gama-sudamericana-libertadores-mensaje-publicacion_0_idKdhcAMow.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -295,6 +300,13 @@
    "f": "La Gazzetta dello Sport",
    "alta": false,
    "pais": "IT"
+  },
+  {
+   "t": "PSG - Barça en Ligue des champions : aurez-vous le même onze idéal que notre consultant Bixente Lizarazu ?",
+   "u": "https://www.lequipe.fr/Football/Article/Psg-barca-en-ligue-des-champions-aurez-vous-le-meme-onze-ideal-que-notre-consultant-bixente-lizarazu/1737032#at_medium=RSS_feeds",
+   "f": "L'Équipe",
+   "alta": false,
+   "pais": "FR"
   }
  ],
  "jogos": []
