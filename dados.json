@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-19T00:15:18+00:00",
+ "atualizado": "2026-10-19T04:56:02+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -17,20 +17,20 @@
      "alta": false
     },
     {
-     "t": "Renê lamenta derrota do Fluminense para o Santos e mira reação na Libertadores",
-     "u": "https://www.gazetaesportiva.com/times/fluminense/rene-lamenta-derrota-fluminense-santos-libertadores/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Corinthians x Caracas - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/18-10-2026/corinthians-caracas.ghtml",
+     "t": "Com time reserva, Estudiantes perde para o San Lorenzo antes de semifinal da Libertadores contra o Flamengo",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/19/com-time-reserva-estudiantes-perde-para-o-san-lorenzo-antes-de-semifinal-da-libertadores-contra-o-flamengo.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Com hat-trick de Kaio Jorge, Cruzeiro vira e afunda o Grêmio no Z-4",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
+     "t": "Confira as fotos de Corinthians x Caracas pela Libertadores feminina",
+     "u": "https://www.gazetaesportiva.com/times/corinthians/confira-as-fotos-de-corinthians-x-caracas-pela-libertadores-feminina/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Chances do Brasileirão: potencial de título do Flamengo é de 69% e Palmeiras tem 31%",
+     "u": "https://ge.globo.com/gato-mestre/noticia/2026/10/19/chances-do-brasileirao-potencial-de-titulo-do-flamengo-e-de-69percent-e-palmeiras-tem-31percent.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
+     "t": "Champions League Vibe Check: Barcelona, Bayern Munich impress; Manchester United in trouble",
+     "u": "https://www.cbssports.com/soccer/news/champions-league-vibe-check-barcelona-bayern-munich-man-united/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
      "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for NFL betting, Cowboys-Packers",
      "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-for-nfl-betting-cowboys-packers/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NFL DFS, Cowboys vs. Packers: Top daily Fantasy picks, lineups, advice for 'Sunday Night Football'",
-     "u": "https://www.cbssports.com/betting/news/nfl-dfs-cowboys-packers-daily-fantasy-picks-lineups-stacks-advice-sunday-night-football/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Manuel Neuer an injury doubt for Bayern Munich’s Arsenal clash",
-     "u": "https://sports.yahoo.com/articles/manuel-neuer-injury-doubt-bayern-143000664.html",
+     "t": "New Jersey homeowner recreates unforgettable Knicks NBA Finals moment in Halloween display",
+     "u": "https://sports.yahoo.com/articles/jersey-homeowner-recreates-unforgettable-knicks-040516451.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "MLB Postseason Glance",
-     "u": "https://sports.yahoo.com/articles/mlb-postseason-glance-000022464.html",
+     "t": "Chiefs’ Kenneth Walker sets new NFL record that highlights his unreal effort",
+     "u": "https://sports.yahoo.com/articles/chiefs-kenneth-walker-sets-nfl-044535371.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,6 +79,12 @@
    },
    "noticias": [
     {
+     "t": "França de Nuno Lopes bate a Argentina e é campeã mundial de hóquei em patins pela 1.ª vez na história",
+     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/franca-de-nuno-lopes-bate-a-argentina-e-e-campea-mundial-de-hoquei-em-patins-pela-1-vez-na-historia",
+     "f": "Record",
+     "alta": false
+    },
+    {
      "t": "Nuno Tavares assiste na vitória da Lazio em casa da Juventus",
      "u": "https://www.abola.pt/noticias/nuno-tavares-assiste-na-vitoria-da-lazio-em-casa-da-juventus-2026101820252414057",
      "f": "A Bola",
@@ -91,14 +97,8 @@
      "alta": false
     },
     {
-     "t": "Sevilha arrasa arbitragem na derrota com o Real Madrid: «Não queriam mais pontos de distância no clássico...»",
-     "u": "https://www.record.pt/internacional/paises/espanha/real-madrid/detalhe/sevilha-arrasa-arbitragem-na-derrota-com-o-real-madrid-nao-queriam-mais-pontos-de-distancia-no-classico",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Flamengo não vacila contra o Bahia e Leonardo Jardim volta à liderança do Brasileirão",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/flamengo-nao-vacila-contra-o-bahia-e-leonardo-jardim-volta-a-lideranca-do-brasileirao",
+     "t": "Ivo Pinto dá a receita ao FC Porto para bater o PSV: «Tirar-lhes a bola é deixá-los desconfortáveis»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/ivo-pinto-da-a-receita-ao-fc-porto-para-bater-o-psv-tirar-lhes-a-bola-e-deixa-los-desconfortaveis",
      "f": "Record",
      "alta": false
     }
@@ -147,6 +147,12 @@
    },
    "noticias": [
     {
+     "t": "European football: 10-man Lyon hold off Nice to move top of Ligue 1",
+     "u": "https://www.theguardian.com/football/2026/oct/18/european-football-monaco-rennes-ligue-1-bayer-leverkusen-freiburg-bundesliga-como-fiorentina-seria-a-real-madrid-sevilla-la-liga",
+     "f": "The Guardian",
+     "alta": true
+    },
+    {
      "t": "Another unremarkable win shows Arsenal’s strength is in depth rather than creativity | Jonathan Wilson",
      "u": "https://www.theguardian.com/football/2026/oct/18/arsenal-strength-in-depth-nottingham-forest-premier-league",
      "f": "The Guardian",
@@ -163,12 +169,6 @@
      "u": "https://www.bbc.co.uk/sport/football/articles/ckjrw11dv5xjo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
-    },
-    {
-     "t": "European football: 10-man Lyon hold off Nice to move top of Ligue 1",
-     "u": "https://www.theguardian.com/football/2026/oct/18/european-football-monaco-rennes-ligue-1-bayer-leverkusen-freiburg-bundesliga-como-fiorentina-seria-a-real-madrid-sevilla-la-liga",
-     "f": "The Guardian",
-     "alta": false
     }
    ]
   },
@@ -181,14 +181,14 @@
    },
    "noticias": [
     {
-     "t": "Barcelona pierde a Koundé y Eric García antes de enfrentar al PSG y Real Madrid",
-     "u": "https://www.excelsior.com.mx/deportes/barcelona-pierde-kounde-y-eric-garcia-antes-enfrentar-psg-y-real-madrid",
+     "t": "Paul Aguilar, exjugador del América, sufre accidente automovilístico; los detalles",
+     "u": "https://www.excelsior.com.mx/deportes/paul-aguilar-accidente-auto-exjugador-america-michoacan",
      "f": "Excélsior",
      "alta": false
     },
     {
-     "t": "Afición del Real Madrid muestra pancarta contra Javier Tebas; el presidente de LaLiga responde",
-     "u": "https://www.excelsior.com.mx/deportes/real-madrid-pancarta-contra-javier-tebas",
+     "t": "Kenia Os y Danna Paola acaparan miradas en el Victoria’s Secret Fashion Show 2026",
+     "u": "https://www.excelsior.com.mx/espectaculos/kenia-y-danna-paola-acaparan-miradas-victoria-s-secret-fashion-show-2026",
      "f": "Excélsior",
      "alta": false
     }
@@ -203,27 +203,21 @@
    },
    "noticias": [
     {
+     "t": "Qué necesita River Plate para clasificarse a la Copa Libertadores 2027: cómo lo podría ayudar Boca Juniors",
+     "u": "https://www.infobae.com/deportes/2026/10/19/que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027-como-lo-podria-ayudar-boca-juniors/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Boca venció a Brasilia y cerró su grupo con puntaje ideal en la Liga Sudamericana",
+     "u": "https://www.ole.com.ar/basquet/cuartos-boca-vencio-brasilia-cerro-lider-zona-liga-sudamericana-basquet_0_FGtNBmQBhG.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Belgrano cayó 3-1 ante Palmeiras y se jugará el pase a cuartos de la Libertadores Femenina en la última fecha",
      "u": "https://www.infobae.com/deportes/2026/10/18/belgrano-cayo-3-1-ante-palmeiras-en-su-segunda-presentacion-y-se-jugara-el-pase-a-cuartos-de-la-libertadores-femenina-en-la-ultima-fecha/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "11 días después de su desgarro, Leandro Paredes integra la convocatoria de Boca para la revancha ante Vasco da Gama por la Sudamericana",
-     "u": "https://www.infobae.com/deportes/2026/10/18/11-dias-despues-de-su-desgarro-leandro-paredes-integra-la-convocatoria-de-boca-para-la-revancha-ante-vasco-da-gama-por-la-sudamericana/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "La NBA en modo videojuego: Prime Video usará IA para reconstruir las jugadas desde ángulos imposibles",
-     "u": "https://www.ole.com.ar/basquet/nba-prime-video-vivo_0_ZuF3T808FZ.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Antes de la revancha de Estudiantes, Flamengo goleó y recuperó la punta en el Brasileirao",
-     "u": "https://www.ole.com.ar/futbol-internacional/flamengo-bahia-brasileirao-victoria_0_Twb13gOaed.html",
-     "f": "Olé",
      "alta": false
     }
    ]
@@ -265,8 +259,8 @@
      "alta": false
     },
     {
-     "t": "Victoire spectaculaire du Real Madrid face à Séville, avec un doublé de Kylian Mbappé",
-     "u": "https://www.lequipe.fr/Football/Actualites/Victoire-spectaculaire-du-real-madrid-face-a-seville-double-de-kylian-mbappe/1736855#at_medium=RSS_feeds",
+     "t": "Lucas Hernandez, Zaïre-Emery, Digne : sans Nuno Mendes, qui sera aligné face à Lamine Yamal lors de PSG-Barça en Ligue des champions ?",
+     "u": "https://www.lequipe.fr/Football/Article/Lucas-hernandez-zaire-emery-digne-sans-nuno-mendes-qui-sera-aligne-face-a-lamine-yamal-lors-de-psg-barca-en-ligue-des-champions/1736773#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -282,16 +276,16 @@
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for NFL betting, Cowboys-Packers",
-   "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-for-nfl-betting-cowboys-packers/",
+   "t": "Champions League Vibe Check: Barcelona, Bayern Munich impress; Manchester United in trouble",
+   "u": "https://www.cbssports.com/soccer/news/champions-league-vibe-check-barcelona-bayern-munich-man-united/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Nuno Tavares assiste na vitória da Lazio em casa da Juventus",
-   "u": "https://www.abola.pt/noticias/nuno-tavares-assiste-na-vitoria-da-lazio-em-casa-da-juventus-2026101820252414057",
-   "f": "A Bola",
+   "t": "França de Nuno Lopes bate a Argentina e é campeã mundial de hóquei em patins pela 1.ª vez na história",
+   "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/franca-de-nuno-lopes-bate-a-argentina-e-e-campea-mundial-de-hoquei-em-patins-pela-1-vez-na-historia",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
@@ -303,22 +297,22 @@
    "pais": "ES"
   },
   {
-   "t": "Another unremarkable win shows Arsenal’s strength is in depth rather than creativity | Jonathan Wilson",
-   "u": "https://www.theguardian.com/football/2026/oct/18/arsenal-strength-in-depth-nottingham-forest-premier-league",
+   "t": "European football: 10-man Lyon hold off Nice to move top of Ligue 1",
+   "u": "https://www.theguardian.com/football/2026/oct/18/european-football-monaco-rennes-ligue-1-bayer-leverkusen-freiburg-bundesliga-como-fiorentina-seria-a-real-madrid-sevilla-la-liga",
    "f": "The Guardian",
-   "alta": false,
+   "alta": true,
    "pais": "GB"
   },
   {
-   "t": "Barcelona pierde a Koundé y Eric García antes de enfrentar al PSG y Real Madrid",
-   "u": "https://www.excelsior.com.mx/deportes/barcelona-pierde-kounde-y-eric-garcia-antes-enfrentar-psg-y-real-madrid",
+   "t": "Paul Aguilar, exjugador del América, sufre accidente automovilístico; los detalles",
+   "u": "https://www.excelsior.com.mx/deportes/paul-aguilar-accidente-auto-exjugador-america-michoacan",
    "f": "Excélsior",
    "alta": false,
    "pais": "MX"
   },
   {
-   "t": "Belgrano cayó 3-1 ante Palmeiras y se jugará el pase a cuartos de la Libertadores Femenina en la última fecha",
-   "u": "https://www.infobae.com/deportes/2026/10/18/belgrano-cayo-3-1-ante-palmeiras-en-su-segunda-presentacion-y-se-jugara-el-pase-a-cuartos-de-la-libertadores-femenina-en-la-ultima-fecha/",
+   "t": "Qué necesita River Plate para clasificarse a la Copa Libertadores 2027: cómo lo podría ayudar Boca Juniors",
+   "u": "https://www.infobae.com/deportes/2026/10/19/que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027-como-lo-podria-ayudar-boca-juniors/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
