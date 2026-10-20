@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-20T01:55:07+00:00",
+ "atualizado": "2026-10-20T07:43:36+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,8 +11,14 @@
    },
    "noticias": [
     {
-     "t": "NBB: Franca entrega anéis à la NBA em homenagem ao penta inédito",
-     "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/19/nbb-franca-entrega-aneis-a-la-nba-em-homenagem-ao-penta-inedito.ghtml",
+     "t": "Como o Atlético-MG superou anos traumáticos e fez do Brasileirão caminho para Libertadores",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/20/como-o-atletico-mg-superou-anos-traumaticos-e-fez-do-brasileirao-caminho-para-libertadores.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Contra o Estudiantes, Flamengo pode repetir feito de Boca e Peñarol na Libertadores; veja",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/20/contra-o-estudiantes-flamengo-pode-repetir-feito-de-boca-e-penarol-na-libertadores-veja.ghtml",
      "f": "ge",
      "alta": false
     },
@@ -27,12 +33,6 @@
      "u": "https://www.gazetaesportiva.com/campeonatos/copa-sulamericana/vasco-x-boca-juniors-onde-assistir-semifinal-sul-americana/",
      "f": "Gazeta Esportiva",
      "alta": false
-    },
-    {
-     "t": "Libertad x Universidad de Chile - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/futebol/libertadores-feminina/jogo/19-10-2026/libertad-universidad-de-chile.ghtml",
-     "f": "ge",
-     "alta": false
     }
    ]
   },
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
+     "t": "Real Madrid manager Jose Mourinho to keenly study Barcelona vs PSG ahead of El Clasico",
+     "u": "https://sports.yahoo.com/articles/real-madrid-manager-jose-mourinho-071200735.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "5️⃣ today's news: Barça, Atlético and Villarreal away in Champions League",
+     "u": "https://sports.yahoo.com/articles/5-todays-news-bar-atl-073000104.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Why Paris Saint-Germain's clash with Barcelona could be peak Champions League drama",
      "u": "https://www.cbssports.com/soccer/news/why-paris-saint-germain-barcelona-could-be-epic-champions-league-match/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Serie A hot takes: It's time for Juventus and Napoli to find new coaches after rough starts",
-     "u": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-its-time-for-juventus-and-napoli-coaches/",
+     "t": "NFL DFS, 49ers vs. Commanders: Top daily Fantasy picks, lineups, advice for 'Monday Night Football'",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-49ers-commanders-daily-fantasy-picks-draftkings-fanduel-lineups-advice-strategy-monday-night-football/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Monday Night Football: 49ers lead 20-3 at halftime, but Mike Evans leaves early",
-     "u": "https://sports.yahoo.com/articles/monday-night-football-49ers-lead-014626371.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Derrick White opens up about Boston Celtics Jaylen Brown trade to Philadelphia 76ers",
-     "u": "https://sports.yahoo.com/articles/derrick-white-opens-boston-celtics-014420732.html",
-     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "À sétima foi de vez: Tottenham soma primeira vitória e sai do fundo da Premier League",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/tottenham/detalhe/a-setima-foi-de-vez-tottenham-soma-primeira-vitoria-e-sai-do-fundo-da-premier-league",
+     "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
+     "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Não era preciso sofrer tanto: Ramos marca e Milan volta a vencer na Serie A (crónica)",
+     "u": "https://www.abola.pt/noticias/nao-era-preciso-sofrer-tanto-ramos-marca-e-milan-volta-a-vencer-na-serie-a-cronica-2026101818283972903",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "A espera acabou: Kulusevski regressa à competição pelo Tottenham 526 dias depois",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/tottenham/detalhe/a-espera-acabou-kulusevski-regressa-a-competicao-pelo-tottenham-526-dias-depois",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Sporting quer dar embalo competitivo a Ibrahima Ba… e já na Champions",
-     "u": "https://www.abola.pt/noticias/sporting-quer-dar-embalo-competitivo-a-ibrahima-ba-e-ja-na-champions-2026101916412170826",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "«Foi complicado... foi uma situação difícil para o Sporting»",
-     "u": "https://www.abola.pt/video/foi-complicado-foi-uma-situacao-dificil-para-o-sporting-2026101721564578934",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "João Pinheiro desmente denúncia de Carlos Vicens sobre penálti contra o Sporting",
-     "u": "https://www.record.pt/futebol/arbitragem/detalhe/joao-pinheiro-desmente-denuncia-de-carlos-vicens",
+     "t": "«Estamos a ficar cada vez mais fortes»: manifestante relata momentos vividos no Porto após ameaça de intervenção da PSP",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/estamos-a-ficar-cada-vez-mais-fortes-manifestante-relata-momentos-vividos-no-porto-apos-ameaca-de-intervencao-da-psp",
      "f": "Record",
      "alta": false
     }
@@ -113,14 +113,14 @@
    },
    "noticias": [
     {
-     "t": "El plan del Barça y el PSG para el partidazo de Champions League",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261019/1004240424/plan-barca-psg-partidazo-champions-league.html",
+     "t": "PSG-Barça, el \"rien ne va plus\" del fútbol moderno",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004240794/psg-barca-rien-ne-plus-futbol-moderno.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Los fichajes del Barça 2026-27 ya vencieron al PSG",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261019/1004240274/fichajes-barca-2026-27-cargarse-psg.html",
+     "t": "Horario y canal del PSG - Barcelona: dónde ver por TV el partido",
+     "u": "https://www.mundodeportivo.com/horarios/futbol/20261018/1004240320/horario-canal-ver-tv-psg-barcelona-uefa-champions-league.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,8 +147,8 @@
    },
    "noticias": [
     {
-     "t": "Arsenal vs Man Utd, NLD and Man City vs Chelsea live on Sky in December",
-     "u": "https://www.skysports.com/football/news/12040/13600880/premier-league-fixtures-on-sky-sports-arsenal-vs-man-utd-north-london-derby-and-man-city-vs-chelsea-live-in-december",
+     "t": "England unchanged for World Cup clash vs France with Lewis absent again",
+     "u": "https://www.skysports.com/rugby-league/news/12040/13601200/rugby-league-world-cup-mikey-lewis-absent-again-as-england-unchanged-for-clash-vs-france-despite-opening-defeat",
      "f": "Sky Sports",
      "alta": false
     },
@@ -159,15 +159,15 @@
      "alta": false
     },
     {
-     "t": "Scott Boland shines against South Africa but rain dominates again",
-     "u": "https://www.theguardian.com/sport/2026/oct/19/scott-boland-shines-against-south-africa-but-rain-dominates-again",
-     "f": "The Guardian",
+     "t": "The 7ft British star chasing an NBA dream with the Boston Celtics",
+     "u": "https://www.skysports.com/basketball/news/12040/13598251/amari-williams-boston-celtics-british-big-man-ready-for-detroit-reunion-after-career-defining-moment",
+     "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Mbappe shines in Real Madrid's win over Sevilla",
-     "u": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-     "f": "Sky Sports",
+     "t": "South Africa v Australia: second men’s cricket Test, day three – live",
+     "u": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,26 +181,20 @@
    },
    "noticias": [
     {
+     "t": "“En todas partes”: así fue el banderazo de los hinchas de Boca en Río de Janeiro antes del duelo con Vasco Da Gama por la Sudamericana",
+     "u": "https://www.infobae.com/deportes/2026/10/20/en-todas-partes-asi-fue-el-banderazo-de-los-hinchas-de-boca-en-rio-de-janeiro-antes-del-duelo-con-vasco-da-gama-por-la-sudamericana/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
      "t": "Pateó una pelota de rugby desde una terraza y lo busca la Policía: la insólita secuencia que involucra a un club de Premier League",
      "u": "https://www.infobae.com/deportes/2026/10/20/pateo-una-pelota-de-rugby-desde-una-terraza-y-lo-busca-la-policia-la-insolita-secuencia-que-involucra-a-un-club-de-premier-league/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Liverpool vs. Villarreal, por la Champions League: hora, cómo ver y probables formaciones",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/liverpool-vs-villarreal-champions-league-dia-hora-ver-tv-online-formaciones-aelxis-mac-alliser_0_jYcEQWz182.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Una figura del fútbol y la hija de una leyenda de la NBA participaron del desfile de una reconocida marca de lencería",
-     "u": "https://www.infobae.com/deportes/2026/10/19/una-figura-del-futbol-y-la-hija-de-una-leyenda-de-la-nba-participaron-del-desfile-de-una-reconocida-marca-de-lenceria/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Stuttgart vs. Atlético de Madrid, por la Champions League: hora, cómo ver y probables formaciones",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/stuttgart-vs-atletico-madrid-champions-league-hora-ver-tv-online-formaciones-simeone-alvarez-romero_0_IHs06wNGyK.html",
+     "t": "Las razones de Boca para creer en la remontada y de ir por la otra Copa",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-sudamericana-vascodagama-riodejaneiro-juanromanriquelme-vascoarruabarrena-bombonera-maracana_0_WusMZNJ9RP.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Buteur pour son retour comme titulaire, James Maddison offre à Tottenham sa première victoire de la saison en Premier League",
-     "u": "https://www.lequipe.fr/Football/Actualites/Buteur-pour-son-retour-comme-titulaire-james-maddison-offre-a-tottenham-sa-premiere-victoire-de-la-saison-en-premier-league/1737127#at_medium=RSS_feeds",
+     "t": "Le choc des magiciens : les attaques du PSG et du Barça prêtes à enchanter la planète football mardi au Parc des Princes",
+     "u": "https://www.lequipe.fr/Football/Article/Le-choc-des-magiciens-les-attaques-du-psg-et-du-barca-pretes-a-enchanter-la-planete-football-mardi-au-parc-des-princes/1737109#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Moïse Kouame après sa première victoire sur le circuit principal depuis Roland Garros : « La France me réussit »",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/Moise-kouame-apres-sa-premiere-victoire-sur-le-circuit-principal-depuis-roland-garros-la-france-me-reussit/1737096#at_medium=RSS_feeds",
+     "t": "Que peut-il nous arriver de mieux que ce PSG-Barça ?",
+     "u": "https://www.lequipe.fr/Football/Article/On-ne-sait-pas-ce-qu-il-pourrait-nous-arriver-de-mieux-en-ce-moment-que-ce-choc-entre-le-psg-et-le-fc-barcelone/1737065#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,43 +247,43 @@
  ],
  "destaques": [
   {
-   "t": "NBB: Franca entrega anéis à la NBA em homenagem ao penta inédito",
-   "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/19/nbb-franca-entrega-aneis-a-la-nba-em-homenagem-ao-penta-inedito.ghtml",
+   "t": "Como o Atlético-MG superou anos traumáticos e fez do Brasileirão caminho para Libertadores",
+   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/20/como-o-atletico-mg-superou-anos-traumaticos-e-fez-do-brasileirao-caminho-para-libertadores.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Why Paris Saint-Germain's clash with Barcelona could be peak Champions League drama",
-   "u": "https://www.cbssports.com/soccer/news/why-paris-saint-germain-barcelona-could-be-epic-champions-league-match/",
-   "f": "CBS Sports",
+   "t": "Real Madrid manager Jose Mourinho to keenly study Barcelona vs PSG ahead of El Clasico",
+   "u": "https://sports.yahoo.com/articles/real-madrid-manager-jose-mourinho-071200735.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "À sétima foi de vez: Tottenham soma primeira vitória e sai do fundo da Premier League",
-   "u": "https://www.record.pt/internacional/paises/inglaterra/tottenham/detalhe/a-setima-foi-de-vez-tottenham-soma-primeira-vitoria-e-sai-do-fundo-da-premier-league",
-   "f": "Record",
+   "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
+   "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "El plan del Barça y el PSG para el partidazo de Champions League",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261019/1004240424/plan-barca-psg-partidazo-champions-league.html",
+   "t": "PSG-Barça, el \"rien ne va plus\" del fútbol moderno",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004240794/psg-barca-rien-ne-plus-futbol-moderno.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Arsenal vs Man Utd, NLD and Man City vs Chelsea live on Sky in December",
-   "u": "https://www.skysports.com/football/news/12040/13600880/premier-league-fixtures-on-sky-sports-arsenal-vs-man-utd-north-london-derby-and-man-city-vs-chelsea-live-in-december",
+   "t": "England unchanged for World Cup clash vs France with Lewis absent again",
+   "u": "https://www.skysports.com/rugby-league/news/12040/13601200/rugby-league-world-cup-mikey-lewis-absent-again-as-england-unchanged-for-clash-vs-france-despite-opening-defeat",
    "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Pateó una pelota de rugby desde una terraza y lo busca la Policía: la insólita secuencia que involucra a un club de Premier League",
-   "u": "https://www.infobae.com/deportes/2026/10/20/pateo-una-pelota-de-rugby-desde-una-terraza-y-lo-busca-la-policia-la-insolita-secuencia-que-involucra-a-un-club-de-premier-league/",
+   "t": "“En todas partes”: así fue el banderazo de los hinchas de Boca en Río de Janeiro antes del duelo con Vasco Da Gama por la Sudamericana",
+   "u": "https://www.infobae.com/deportes/2026/10/20/en-todas-partes-asi-fue-el-banderazo-de-los-hinchas-de-boca-en-rio-de-janeiro-antes-del-duelo-con-vasco-da-gama-por-la-sudamericana/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -302,8 +296,8 @@
    "pais": "IT"
   },
   {
-   "t": "Buteur pour son retour comme titulaire, James Maddison offre à Tottenham sa première victoire de la saison en Premier League",
-   "u": "https://www.lequipe.fr/Football/Actualites/Buteur-pour-son-retour-comme-titulaire-james-maddison-offre-a-tottenham-sa-premiere-victoire-de-la-saison-en-premier-league/1737127#at_medium=RSS_feeds",
+   "t": "Le choc des magiciens : les attaques du PSG et du Barça prêtes à enchanter la planète football mardi au Parc des Princes",
+   "u": "https://www.lequipe.fr/Football/Article/Le-choc-des-magiciens-les-attaques-du-psg-et-du-barca-pretes-a-enchanter-la-planete-football-mardi-au-parc-des-princes/1737109#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
