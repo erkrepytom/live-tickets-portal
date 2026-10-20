@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-20T18:32:37+00:00",
+ "atualizado": "2026-10-20T22:23:50+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
+     "t": "Atlético-MG x Internacional - Copa do Brasil Feminina 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Torcedores do Vasco provocam Flamengo e Fluminense em volta ao Maracanã: \"Síndico não é dono\"",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/20/torcedores-do-vasco-provocam-flamengo-e-fluminense-em-volta-ao-maracana-sindico-nao-e-dono.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
      "t": "Gnabry elogia ex-companheiro Arteta antes de Bayern x Arsenal na Champions",
      "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/gnabry-elogia-ex-companheiro-arteta-antes-de-bayern-x-arsenal-na-champions/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
      "t": "Kompany pode não comandar Bayern contra o Arsenal na Champions devido a virose",
      "u": "https://www.gazetaesportiva.com/times/bayern/kompany-pode-nao-comandar-bayern-contra-o-arsenal-na-champions-devido-a-virose/",
      "f": "Gazeta Esportiva",
-     "alta": true
-    },
-    {
-     "t": "Manchester City x AEK Atenas - Liga dos Campeões 2026/2027 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/20-10-2026/Manchestercity-aek.ghtml",
-     "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Classificação do segundo turno: Flamengo lidera; Botafogo deixa o Z-4, que agora tem o Grêmio",
-     "u": "https://ge.globo.com/gato-mestre/noticia/2026/10/20/classificacao-do-segundo-turno-flamengo-lidera-botafogo-deixa-o-z-4-que-agora-tem-o-gremio.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "A totally unbiased Rip Hamilton made the least surprising 2027 NBA Finals prediction",
-     "u": "https://sports.yahoo.com/articles/totally-unbiased-rip-hamilton-made-182438711.html",
+     "t": "UEFA Champions League scores, schedule: Arsenal at Bayern Munich next on Matchday 3",
+     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for 76ers-Knicks, Thunder-Spurs",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-76ers-knicks-thunder-spurs/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "How Pistons' 22-point comeback vs. Celtics made NBA history",
+     "u": "https://sports.yahoo.com/articles/pistons-22-point-comeback-vs-221330426.html",
      "f": "Yahoo Sports",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "76ers vs. Knicks NBA odds: LeBron James and Co. open as biggest title liability, aim to ruin NY's banner night",
-     "u": "https://www.cbssports.com/betting/news/76ers-vs-knicks-nba-odds-lebron-james-biggest-title-liability-aim-to-ruin-nys-banner-night/",
-     "f": "CBS Sports",
-     "alta": true
-    },
-    {
-     "t": "Celtics vs. Pistons prediction, odds, betting preview, start time: NBA picks, best bets on Tuesday, Oct. 20",
-     "u": "https://www.cbssports.com/betting/news/celtics-vs-pistons-prediction-odds-betting-preview-start-time-nba-picks-best-bets-on-tuesday-oct-20/",
-     "f": "CBS Sports",
-     "alta": true
-    },
-    {
-     "t": "Allegri: ‘Napoli avoid anxiety and haste, need patience in Champions League’",
-     "u": "https://sports.yahoo.com/articles/allegri-napoli-avoid-anxiety-haste-182000379.html",
+     "t": "PSG star hailed as ‘most underrated player of all time’ after Barcelona win",
+     "u": "https://sports.yahoo.com/articles/psg-star-hailed-most-underrated-221426227.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Não era preciso sofrer tanto: Ramos marca e Milan volta a vencer na Serie A (crónica)",
-     "u": "https://www.abola.pt/noticias/nao-era-preciso-sofrer-tanto-ramos-marca-e-milan-volta-a-vencer-na-serie-a-cronica-2026101818283972903",
+     "t": "Neemias volta a marcar Portugal e a Europa entre os 125 estrangeiros na NBA",
+     "u": "https://www.abola.pt/noticias/neemias-volta-a-marcar-portugal-e-a-europa-entre-os-125-estrangeiros-na-nba-2026102014583331503",
      "f": "A Bola",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "PSG-Barcelona, em direto",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/20261020-164531-psg-barcelona-em-direto",
+     "t": "A crónica do PSG-Barcelona; 4-2: Parisienses derrubam o fantástico Barça",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/a-cronica-do-psg-barcelona-4-2-parisienses-derrubam-o-fantastico-barca",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Nuno Tavares assiste na vitória da Lazio em casa da Juventus",
-     "u": "https://www.abola.pt/noticias/nuno-tavares-assiste-na-vitoria-da-lazio-em-casa-da-juventus-2026101820252414057",
+     "t": "Nem pediu licença: o golaço que desatou o nulo no PSG-Barcelona",
+     "u": "https://www.abola.pt/video/nem-pediu-licenca-o-golaco-que-desatou-o-nulo-no-psg-barcelona-2026102020585553468",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Manchester City-AEK, em direto",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/manchester-city-aek-em-direto",
+     "t": "O grande golo de Vitinha no PSG-Barcelona com uma celebração à medida",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/o-grande-golo-de-vitinha-no-psg-barcelona-com-uma-celebracao-a-medida",
      "f": "Record",
      "alta": false
     }
@@ -113,20 +113,20 @@
    },
    "noticias": [
     {
-     "t": "PSG - Barcelona, en directo",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004239303/psg-barcelona-directo-champions-league-futbol-jornada-3.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "El Barça salva un punto ante el PSG antes del gran duelo de París",
      "u": "https://www.marca.com/futbol/youth-league/2026/10/20/barca-salva-punto-psg-gran-duelo-paris.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "Once del Barça ante el PSG: Gerard Martín, titular y Rodri al banquillo",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004241173/desvelada-incognita-gerard-martin-sera-titular-paris.html",
+     "t": "El 1x1 del Barça ante el PSG",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004241221/1x1-barca-psg.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "La alta factura que ha pagado el PSG ante el Barça",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004241232/alta-factura-pagado-psg-barca.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "PSG v Barcelona, Manchester City v AEK Athens, and more: Champions League – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/20/psg-v-barcelona-manchester-city-v-aek-athens-and-more-champions-league-live",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "David Squires on … Manchester City sailing into unknown Premier League waters",
-     "u": "https://www.theguardian.com/football/picture/2026/oct/20/david-squires-on-manchester-city-sailing-into-unknown-premier-league-waters",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "PSG vs Barcelona LIVE!",
-     "u": "https://www.skysports.com/football/paris-saint-germain-vs-barcelona/live/577638",
+     "t": "NBA season tips off as Detroit stage epic 22-point comeback to defeat Celtics",
+     "u": "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Bavuma's Test-best ton has South Africa in dominant position vs Australia",
-     "u": "https://www.skysports.com/cricket/news/12040/13601427/temba-bavuma-hits-test-best-179-as-south-africa-dominate-australia-on-day-three-of-second-test-in-gqeberha",
+     "t": "NBA 2026-27 season predictions: A Knicks repeat and LeBron’s villain arc",
+     "u": "https://www.theguardian.com/sport/2026/oct/20/nba-2026-27-season-predictions-a-knicks-repeat-and-lebrons-villain-arc",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Doué and Vitinha burn bright as brittle Barcelona come unstuck against PSG",
+     "u": "https://www.theguardian.com/football/2026/oct/20/paris-saint-germain-psg-barcelona-champions-league-match-report",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Barcelona handed first defeat of season by PSG in classic",
+     "u": "https://www.skysports.com/football/paris-saint-germain-vs-barcelona/report/577638",
      "f": "Sky Sports",
      "alta": false
     }
@@ -181,21 +181,21 @@
    },
    "noticias": [
     {
-     "t": "Manchester City, Atlético de Madrid y Roma salen a la cancha en el inicio de la fecha 3 de la Champions League: la agenda completa",
+     "t": "Bayern Munich vs. Arsenal, por la Champions League: hora, cómo ver y probables formaciones",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/bayern-munich-vs-arsenal-champions-league-dia-hora-ver-tv-online-formaciones_0_fad9pC5Kzo.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Video: el jugador más alto de la NBA conoció a uno de los pilotos más bajos de la F1",
+     "u": "https://www.ole.com.ar/poli/video-jugador-alto-nba-formula-1-f1-victor-wembanyama-kimi-antonelli_0_pUXClQ8pjF.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "El Manchester City de Enzo Fernández goleó 5-1 a AEK Atenas por la Champions League: todos los goles del día",
      "u": "https://www.infobae.com/deportes/2026/10/20/manchester-city-atletico-de-madrid-y-roma-salen-a-la-cancha-en-el-inicio-de-la-fecha-3-de-la-champions-league-la-agenda-completa/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "PSG vs. Barcelona, por la Champions League, hoy EN VIVO: formaciones confirmadas y cómo ver por TV",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/psg-vs-barcelona-fecha-3-fase-liga-champions-league-hora-ver-tv-posibles-formaciones-resultado-video-goles_0_TmX4yURwmB.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "El enojo del técnico del Inter antes de un partido clave en la Champions League: “Es el único equipo del que se espera que gane”",
-     "u": "https://www.ole.com.ar/futbol-internacional/italia/cristian-chivu-inter-milan-champions-league_0_qu9KRsNnHU.html",
-     "f": "Olé",
      "alta": false
     },
     {
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Les frères Popov éliminent la sixième paire mondiale au premier tour des Internationaux de France de badminton",
-     "u": "https://www.lequipe.fr/Badminton/Actualites/Les-freres-popov-eliminent-la-sixieme-paire-mondiale-au-premier-tour-des-internationaux-de-france-de-badminton/1737296#at_medium=RSS_feeds",
+     "t": "Les Detroit Pistons lancent la saison de NBA par une victoire renversante contre les Boston Celtics",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Les-detroit-pistons-lancent-la-saison-de-nba-par-une-victoire-renversante-contre-les-boston-celtics/1737373#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Mbappé de justesse, Messi en patron, Dembélé absent : vos onze de légende du PSG et de Barcelone avant le choc en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Mbappe-de-justesse-messi-en-patron-dembele-absent-vos-onze-de-legende-du-psg-et-de-barcelone-avant-le-choc-en-ligue-des-champions/1737294#at_medium=RSS_feeds",
+     "t": "Sans Erling Haaland mais avec des flamboyants Rayan Cherki et Phil Foden, Manchester City se régale face à l'AEK Athènes en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Sans-erling-haaland-mais-avec-des-flamboyants-rayan-cherki-et-phil-foden-manchester-city-se-regale-face-a-l-aek-athenes-en-ligue-des-champions/1737356#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,44 +253,44 @@
  ],
  "destaques": [
   {
-   "t": "Gnabry elogia ex-companheiro Arteta antes de Bayern x Arsenal na Champions",
-   "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/gnabry-elogia-ex-companheiro-arteta-antes-de-bayern-x-arsenal-na-champions/",
-   "f": "Gazeta Esportiva",
+   "t": "Atlético-MG x Internacional - Copa do Brasil Feminina 2026 - Ao vivo - globoesporte.com",
+   "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
+   "f": "ge",
    "alta": true,
    "pais": "BR"
   },
   {
-   "t": "A totally unbiased Rip Hamilton made the least surprising 2027 NBA Finals prediction",
-   "u": "https://sports.yahoo.com/articles/totally-unbiased-rip-hamilton-made-182438711.html",
-   "f": "Yahoo Sports",
-   "alta": true,
+   "t": "UEFA Champions League scores, schedule: Arsenal at Bayern Munich next on Matchday 3",
+   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
+   "f": "CBS Sports",
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "Não era preciso sofrer tanto: Ramos marca e Milan volta a vencer na Serie A (crónica)",
-   "u": "https://www.abola.pt/noticias/nao-era-preciso-sofrer-tanto-ramos-marca-e-milan-volta-a-vencer-na-serie-a-cronica-2026101818283972903",
+   "t": "Neemias volta a marcar Portugal e a Europa entre os 125 estrangeiros na NBA",
+   "u": "https://www.abola.pt/noticias/neemias-volta-a-marcar-portugal-e-a-europa-entre-os-125-estrangeiros-na-nba-2026102014583331503",
    "f": "A Bola",
-   "alta": false,
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "PSG - Barcelona, en directo",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004239303/psg-barcelona-directo-champions-league-futbol-jornada-3.html",
-   "f": "Mundo Deportivo",
+   "t": "El Barça salva un punto ante el PSG antes del gran duelo de París",
+   "u": "https://www.marca.com/futbol/youth-league/2026/10/20/barca-salva-punto-psg-gran-duelo-paris.html",
+   "f": "Marca",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "PSG v Barcelona, Manchester City v AEK Athens, and more: Champions League – live",
-   "u": "https://www.theguardian.com/football/live/2026/oct/20/psg-v-barcelona-manchester-city-v-aek-athens-and-more-champions-league-live",
-   "f": "The Guardian",
+   "t": "NBA season tips off as Detroit stage epic 22-point comeback to defeat Celtics",
+   "u": "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Manchester City, Atlético de Madrid y Roma salen a la cancha en el inicio de la fecha 3 de la Champions League: la agenda completa",
-   "u": "https://www.infobae.com/deportes/2026/10/20/manchester-city-atletico-de-madrid-y-roma-salen-a-la-cancha-en-el-inicio-de-la-fecha-3-de-la-champions-league-la-agenda-completa/",
-   "f": "Infobae",
+   "t": "Bayern Munich vs. Arsenal, por la Champions League: hora, cómo ver y probables formaciones",
+   "u": "https://www.ole.com.ar/futbol-internacional/champions/bayern-munich-vs-arsenal-champions-league-dia-hora-ver-tv-online-formaciones_0_fad9pC5Kzo.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Les frères Popov éliminent la sixième paire mondiale au premier tour des Internationaux de France de badminton",
-   "u": "https://www.lequipe.fr/Badminton/Actualites/Les-freres-popov-eliminent-la-sixieme-paire-mondiale-au-premier-tour-des-internationaux-de-france-de-badminton/1737296#at_medium=RSS_feeds",
+   "t": "Les Detroit Pistons lancent la saison de NBA par une victoire renversante contre les Boston Celtics",
+   "u": "https://www.lequipe.fr/Basket/Actualites/Les-detroit-pistons-lancent-la-saison-de-nba-par-une-victoire-renversante-contre-les-boston-celtics/1737373#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
