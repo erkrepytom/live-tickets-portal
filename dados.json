@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-19T22:28:41+00:00",
+ "atualizado": "2026-10-20T01:55:07+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,28 +11,28 @@
    },
    "noticias": [
     {
-     "t": "Escalação do Vasco: Paulo Henrique treina, mas é dúvida para começar o jogo contra o Boca Juniors",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/19/escalacao-do-vasco-paulo-henrique-treina-mas-e-duvida-para-comecar-o-jogo-contra-o-boca-juniors.ghtml",
+     "t": "NBB: Franca entrega anéis à la NBA em homenagem ao penta inédito",
+     "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/19/nbb-franca-entrega-aneis-a-la-nba-em-homenagem-ao-penta-inedito.ghtml",
      "f": "ge",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Palmeiras treina sem Vitor Roque para semi da Libertadores, e titulares são liberados mais cedo",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-treina-sem-vitor-roque-semi-libertadores/",
+     "t": "Vasco encerra preparação para enfrentar o Boca Juniors por vaga na final da Sul-Americana",
+     "u": "https://www.gazetaesportiva.com/times/vasco/vasco-encerra-preparacao-para-enfrentar-o-boca-juniors-por-vaga-na-final-da-sul-americana/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Com várias mudanças, Corinthians está escalado para enfrentar o Vitória; veja times",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/corinthians-vitoria-escalacoes-brasileirao-2026/",
+     "t": "Vasco x Boca Juniors pela Sul-Americana: veja prováveis escalações e onde assistir",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-sulamericana/vasco-x-boca-juniors-onde-assistir-semifinal-sul-americana/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Com Diego Tarzia de volta, veja relacionados do Vitória para enfrentar o Corinthians",
-     "u": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/19/com-diego-tarzia-de-volta-veja-relacionados-do-vitoria-para-enfrentar-o-corinthians.ghtml",
+     "t": "Libertad x Universidad de Chile - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/futebol/libertadores-feminina/jogo/19-10-2026/libertad-universidad-de-chile.ghtml",
      "f": "ge",
-     "alta": true
+     "alta": false
     }
    ]
   },
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
+     "t": "Why Paris Saint-Germain's clash with Barcelona could be peak Champions League drama",
+     "u": "https://www.cbssports.com/soccer/news/why-paris-saint-germain-barcelona-could-be-epic-champions-league-match/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
      "t": "Serie A hot takes: It's time for Juventus and Napoli to find new coaches after rough starts",
      "u": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-its-time-for-juventus-and-napoli-coaches/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Champions League expert picks, predictions, best bets: PSG vs. Barca to bring goals but is there a favorite?",
-     "u": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-psg-vs-barca-arsenal-bayern-munich/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Is Chet Holmgren playing for Thunder vs Spurs? Injury update for NBA season opener",
-     "u": "https://sports.yahoo.com/articles/chet-holmgren-playing-thunder-vs-221217430.html",
+     "t": "Monday Night Football: 49ers lead 20-3 at halftime, but Mike Evans leaves early",
+     "u": "https://sports.yahoo.com/articles/monday-night-football-49ers-lead-014626371.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Bunnell football's versatile star Rody Ricketts commits to Sacred Heart University",
-     "u": "https://sports.yahoo.com/articles/bunnell-footballs-versatile-star-rody-222528085.html",
+     "t": "Derrick White opens up about Boston Celtics Jaylen Brown trade to Philadelphia 76ers",
+     "u": "https://sports.yahoo.com/articles/derrick-white-opens-boston-celtics-014420732.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
-     "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Não era preciso sofrer tanto: Ramos marca e Milan volta a vencer na Serie A (crónica)",
-     "u": "https://www.abola.pt/noticias/nao-era-preciso-sofrer-tanto-ramos-marca-e-milan-volta-a-vencer-na-serie-a-cronica-2026101818283972903",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
      "t": "À sétima foi de vez: Tottenham soma primeira vitória e sai do fundo da Premier League",
      "u": "https://www.record.pt/internacional/paises/inglaterra/tottenham/detalhe/a-setima-foi-de-vez-tottenham-soma-primeira-vitoria-e-sai-do-fundo-da-premier-league",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Laporta arrasador com o Real Madrid: «Já não há relação. Só mesmo confronto»",
-     "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/laporta-arrasador-com-o-real-madrid-ja-nao-ha-relacao-so-mesmo-confronto",
+     "t": "Sporting quer dar embalo competitivo a Ibrahima Ba… e já na Champions",
+     "u": "https://www.abola.pt/noticias/sporting-quer-dar-embalo-competitivo-a-ibrahima-ba-e-ja-na-champions-2026101916412170826",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "«Foi complicado... foi uma situação difícil para o Sporting»",
+     "u": "https://www.abola.pt/video/foi-complicado-foi-uma-situacao-dificil-para-o-sporting-2026101721564578934",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "João Pinheiro desmente denúncia de Carlos Vicens sobre penálti contra o Sporting",
+     "u": "https://www.record.pt/futebol/arbitragem/detalhe/joao-pinheiro-desmente-denuncia-de-carlos-vicens",
      "f": "Record",
      "alta": false
     }
@@ -181,8 +181,14 @@
    },
    "noticias": [
     {
-     "t": "Un poco de aire: el Tottenham de Senesi ganó y salió de la zona de descenso en la Premier League",
-     "u": "https://www.ole.com.ar/futbol-internacional/tottenham-senesi-gano-conventry-salio-descenso-premier-league_0_t9Im7ZOf68.html",
+     "t": "Pateó una pelota de rugby desde una terraza y lo busca la Policía: la insólita secuencia que involucra a un club de Premier League",
+     "u": "https://www.infobae.com/deportes/2026/10/20/pateo-una-pelota-de-rugby-desde-una-terraza-y-lo-busca-la-policia-la-insolita-secuencia-que-involucra-a-un-club-de-premier-league/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Liverpool vs. Villarreal, por la Champions League: hora, cómo ver y probables formaciones",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/liverpool-vs-villarreal-champions-league-dia-hora-ver-tv-online-formaciones-aelxis-mac-alliser_0_jYcEQWz182.html",
      "f": "Olé",
      "alta": false
     },
@@ -193,14 +199,8 @@
      "alta": false
     },
     {
-     "t": "Impacto en la Premier League: Manchester City podría sufrir una “enorme” quita de puntos que provocaría su descenso",
-     "u": "https://www.infobae.com/deportes/2026/10/19/impacto-en-la-premier-league-manchester-city-podria-sufrir-una-enorme-quita-de-puntos-que-provocaria-su-descenso/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Arranca la NBA con una incógnita: ¿LeBron está para campeón en su primer año en Philadelphia?",
-     "u": "https://www.ole.com.ar/basquet/arranca-nba-incognita-lebron-james-philadelphia-primer-ano-campeon_0_MwrVLS1y5I.html",
+     "t": "Stuttgart vs. Atlético de Madrid, por la Champions League: hora, cómo ver y probables formaciones",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/stuttgart-vs-atletico-madrid-champions-league-hora-ver-tv-online-formaciones-simeone-alvarez-romero_0_IHs06wNGyK.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Gerard Martin incertain pour le choc entre le PSG et le Barça en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Gerard-martin-incertain-pour-le-choc-entre-le-psg-et-le-barca-en-ligue-des-champions/1737085#at_medium=RSS_feeds",
+     "t": "Buteur pour son retour comme titulaire, James Maddison offre à Tottenham sa première victoire de la saison en Premier League",
+     "u": "https://www.lequipe.fr/Football/Actualites/Buteur-pour-son-retour-comme-titulaire-james-maddison-offre-a-tottenham-sa-premiere-victoire-de-la-saison-en-premier-league/1737127#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Buteur pour son retour comme titulaire, James Maddison offre à Tottenham sa première victoire de la saison en Premier League",
-     "u": "https://www.lequipe.fr/Football/Actualites/Buteur-pour-son-retour-comme-titulaire-james-maddison-offre-a-tottenham-sa-premiere-victoire-de-la-saison-en-premier-league/1737127#at_medium=RSS_feeds",
+     "t": "Moïse Kouame après sa première victoire sur le circuit principal depuis Roland Garros : « La France me réussit »",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Moise-kouame-apres-sa-premiere-victoire-sur-le-circuit-principal-depuis-roland-garros-la-france-me-reussit/1737096#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,23 +253,23 @@
  ],
  "destaques": [
   {
-   "t": "Escalação do Vasco: Paulo Henrique treina, mas é dúvida para começar o jogo contra o Boca Juniors",
-   "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/19/escalacao-do-vasco-paulo-henrique-treina-mas-e-duvida-para-comecar-o-jogo-contra-o-boca-juniors.ghtml",
+   "t": "NBB: Franca entrega anéis à la NBA em homenagem ao penta inédito",
+   "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/19/nbb-franca-entrega-aneis-a-la-nba-em-homenagem-ao-penta-inedito.ghtml",
    "f": "ge",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Serie A hot takes: It's time for Juventus and Napoli to find new coaches after rough starts",
-   "u": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-its-time-for-juventus-and-napoli-coaches/",
+   "t": "Why Paris Saint-Germain's clash with Barcelona could be peak Champions League drama",
+   "u": "https://www.cbssports.com/soccer/news/why-paris-saint-germain-barcelona-could-be-epic-champions-league-match/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Duro golpe para o PSG: Nuno Mendes é baixa para embate com Barcelona na Champions",
-   "u": "https://www.abola.pt/noticias/duro-golpe-para-o-psg-nuno-mendes-e-baixa-para-embate-com-barcelona-na-champions-2026101814203557320",
-   "f": "A Bola",
+   "t": "À sétima foi de vez: Tottenham soma primeira vitória e sai do fundo da Premier League",
+   "u": "https://www.record.pt/internacional/paises/inglaterra/tottenham/detalhe/a-setima-foi-de-vez-tottenham-soma-primeira-vitoria-e-sai-do-fundo-da-premier-league",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
@@ -288,9 +288,9 @@
    "pais": "GB"
   },
   {
-   "t": "Un poco de aire: el Tottenham de Senesi ganó y salió de la zona de descenso en la Premier League",
-   "u": "https://www.ole.com.ar/futbol-internacional/tottenham-senesi-gano-conventry-salio-descenso-premier-league_0_t9Im7ZOf68.html",
-   "f": "Olé",
+   "t": "Pateó una pelota de rugby desde una terraza y lo busca la Policía: la insólita secuencia que involucra a un club de Premier League",
+   "u": "https://www.infobae.com/deportes/2026/10/20/pateo-una-pelota-de-rugby-desde-una-terraza-y-lo-busca-la-policia-la-insolita-secuencia-que-involucra-a-un-club-de-premier-league/",
+   "f": "Infobae",
    "alta": false,
    "pais": "AR"
   },
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Gerard Martin incertain pour le choc entre le PSG et le Barça en Ligue des champions",
-   "u": "https://www.lequipe.fr/Football/Actualites/Gerard-martin-incertain-pour-le-choc-entre-le-psg-et-le-barca-en-ligue-des-champions/1737085#at_medium=RSS_feeds",
+   "t": "Buteur pour son retour comme titulaire, James Maddison offre à Tottenham sa première victoire de la saison en Premier League",
+   "u": "https://www.lequipe.fr/Football/Actualites/Buteur-pour-son-retour-comme-titulaire-james-maddison-offre-a-tottenham-sa-premiere-victoire-de-la-saison-en-premier-league/1737127#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
