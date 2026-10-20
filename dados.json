@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-20T13:40:07+00:00",
+ "atualizado": "2026-10-20T18:32:37+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Por que uma virada do River Plate em mata-mata anima torcedores do Fluminense na Libertadores? Entenda",
-     "u": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/20/por-que-uma-virada-do-river-plate-em-mata-mata-anima-torcedores-do-fluminense-na-libertadores-entenda.ghtml",
+     "t": "Gnabry elogia ex-companheiro Arteta antes de Bayern x Arsenal na Champions",
+     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/gnabry-elogia-ex-companheiro-arteta-antes-de-bayern-x-arsenal-na-champions/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "Kompany pode não comandar Bayern contra o Arsenal na Champions devido a virose",
+     "u": "https://www.gazetaesportiva.com/times/bayern/kompany-pode-nao-comandar-bayern-contra-o-arsenal-na-champions-devido-a-virose/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "Manchester City x AEK Atenas - Liga dos Campeões 2026/2027 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/20-10-2026/Manchestercity-aek.ghtml",
      "f": "ge",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Palmeiras x Fluminense: saiba onde assistir ao jogo de volta da semi da Libertadores",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/palmeiras-x-fluminense-saiba-onde-assistir-ao-jogo-de-volta-da-semi-da-libertadores/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "PSG e Barcelona colocam estilos ofensivos à prova em duelo pelo topo da Champions",
-     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/psg-e-barcelona-colocam-filosofias-ofensivas-a-prova-em-duelo-de-lider-e-vice-lider-da-champions/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Torcedores do Vasco fazem foguetório de madrugada em hotel do Boca Juniors no Rio",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/20/torcedores-do-vasco-fazem-foguetorio-de-madrugada-em-hotel-do-boca-juniors-no-rio.ghtml",
+     "t": "Classificação do segundo turno: Flamengo lidera; Botafogo deixa o Z-4, que agora tem o Grêmio",
+     "u": "https://ge.globo.com/gato-mestre/noticia/2026/10/20/classificacao-do-segundo-turno-flamengo-lidera-botafogo-deixa-o-z-4-que-agora-tem-o-gremio.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "What to watch in UEFA Champions League: PSG vs. Barcelona could be a classic, Serie A need to recover, more",
-     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-psg-barcelona-serie-a/",
-     "f": "CBS Sports",
-     "alta": false
+     "t": "A totally unbiased Rip Hamilton made the least surprising 2027 NBA Finals prediction",
+     "u": "https://sports.yahoo.com/articles/totally-unbiased-rip-hamilton-made-182438711.html",
+     "f": "Yahoo Sports",
+     "alta": true
     },
     {
      "t": "76ers vs. Knicks NBA odds: LeBron James and Co. open as biggest title liability, aim to ruin NY's banner night",
-     "u": "https://www.cbssports.com/betting/news/76ers-vs-knicks-nba-odds-lebron-james-and-co-open-as-biggest-title-liability-aim-to-ruin-nys-banner-night/",
+     "u": "https://www.cbssports.com/betting/news/76ers-vs-knicks-nba-odds-lebron-james-biggest-title-liability-aim-to-ruin-nys-banner-night/",
      "f": "CBS Sports",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Real Madrid TV takes shot at Barcelona players ahead of El Clasico: ‘They are the referees’",
-     "u": "https://sports.yahoo.com/articles/real-madrid-tv-takes-shot-132500653.html",
-     "f": "Yahoo Sports",
-     "alta": false
+     "t": "Celtics vs. Pistons prediction, odds, betting preview, start time: NBA picks, best bets on Tuesday, Oct. 20",
+     "u": "https://www.cbssports.com/betting/news/celtics-vs-pistons-prediction-odds-betting-preview-start-time-nba-picks-best-bets-on-tuesday-oct-20/",
+     "f": "CBS Sports",
+     "alta": true
     },
     {
-     "t": "Injury means big break comes at last for Chelsea academy starlet who could face Liverpool",
-     "u": "https://sports.yahoo.com/articles/injury-means-big-break-comes-132000357.html",
+     "t": "Allegri: ‘Napoli avoid anxiety and haste, need patience in Champions League’",
+     "u": "https://sports.yahoo.com/articles/allegri-napoli-avoid-anxiety-haste-182000379.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Pedro Sousa e o regresso de Gustavo Varela ao Benfica: «Que ninguém se ria. Começou no Sporting e deixaram-no ir»",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/pedro-sousa-e-o-regresso-de-gustavo-varela-ao-benfica-que-ninguem-se-ria-comecou-no-sporting-e-deixaram-no-ir",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Benfica avança para a recompra de Gustavo Varela: venda foi há 2 meses e regresso vai custar... quase 4 vezes mais",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/benfica-avanca-para-a-recompra-de-gustavo-varela-venda-foi-ha-2-meses-e-regresso-vai-custar-quase-4-vezes-mais",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Mundial de Superbike: a classificação final de Miguel Oliveira na época de estreia",
-     "u": "https://www.abola.pt/noticias/mundial-de-superbike-a-classificacao-final-de-miguel-oliveira-na-epoca-de-estreia-2026101816545034613",
+     "t": "Não era preciso sofrer tanto: Ramos marca e Milan volta a vencer na Serie A (crónica)",
+     "u": "https://www.abola.pt/noticias/nao-era-preciso-sofrer-tanto-ramos-marca-e-milan-volta-a-vencer-na-serie-a-cronica-2026101818283972903",
      "f": "A Bola",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Nega à Roma e renovação até 2031: como Rui Borges lapidou Fresneda e o fez líder no Sporting",
-     "u": "https://www.abola.pt/noticias/nega-a-roma-e-renovacao-ate-2031-como-rui-borges-lapidou-fresneda-e-o-fez-lider-no-sporting-2026101812590929738",
+     "t": "PSG-Barcelona, em direto",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/20261020-164531-psg-barcelona-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Nuno Tavares assiste na vitória da Lazio em casa da Juventus",
+     "u": "https://www.abola.pt/noticias/nuno-tavares-assiste-na-vitoria-da-lazio-em-casa-da-juventus-2026101820252414057",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Manchester City-AEK, em direto",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/manchester-city-aek-em-direto",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -113,26 +113,26 @@
    },
    "noticias": [
     {
-     "t": "Real Madrid TV: \"Los jugadores del Barça son los nuevos árbitros\"",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261020/1004240974/rmtv-jugadores-barca-son-nuevos-arbitros.html",
+     "t": "PSG - Barcelona, en directo",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004239303/psg-barcelona-directo-champions-league-futbol-jornada-3.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "El posible once del Barça ante el PSG",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004240860/posible-once-barca-psg.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Laporta pasa del Madrid y presume del fútbol de Barça: \"Es el equipo que mejor juega de Europa\"<br>",
-     "u": "https://www.marca.com/futbol/barcelona/2026/10/13/laporta-barca-equipo-mejor-futbol-juega-europa.html",
+     "t": "El Barça salva un punto ante el PSG antes del gran duelo de París",
+     "u": "https://www.marca.com/futbol/youth-league/2026/10/20/barca-salva-punto-psg-gran-duelo-paris.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "¡Netflix se queda el Mundial de España!",
-     "u": "https://www.marca.com/futbol/mundial/2026/10/13/netflix-adquiere-derechos-audiovisuales-espana-mundial-2030.html",
+     "t": "Once del Barça ante el PSG: Gerard Martín, titular y Rodri al banquillo",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004241173/desvelada-incognita-gerard-martin-sera-titular-paris.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Los Sixers sacuden el juego de tronos de la NBA",
+     "u": "https://www.marca.com/baloncesto/nba/2026/10/20/sixers-sacuden-juego-tronos-nba.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
+     "t": "PSG v Barcelona, Manchester City v AEK Athens, and more: Champions League – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/20/psg-v-barcelona-manchester-city-v-aek-athens-and-more-champions-league-live",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
      "t": "David Squires on … Manchester City sailing into unknown Premier League waters",
      "u": "https://www.theguardian.com/football/picture/2026/oct/20/david-squires-on-manchester-city-sailing-into-unknown-premier-league-waters",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "NBA 2026-27 season predictions: A Knicks repeat and LeBron’s villain arc",
-     "u": "https://www.theguardian.com/sport/2026/oct/20/nba-2026-27-season-predictions-a-knicks-repeat-and-lebrons-villain-arc",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "England unchanged for World Cup clash vs France with Lewis absent again",
-     "u": "https://www.skysports.com/rugby-league/news/12040/13601200/rugby-league-world-cup-mikey-lewis-absent-again-as-england-unchanged-for-clash-vs-france-despite-opening-defeat",
+     "t": "PSG vs Barcelona LIVE!",
+     "u": "https://www.skysports.com/football/paris-saint-germain-vs-barcelona/live/577638",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "PSG v Barcelona - Europe's most exciting match-up?",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c820vw7velvro?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Bavuma's Test-best ton has South Africa in dominant position vs Australia",
+     "u": "https://www.skysports.com/cricket/news/12040/13601427/temba-bavuma-hits-test-best-179-as-south-africa-dominate-australia-on-day-three-of-second-test-in-gqeberha",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Cómo se vivió en el hotel de Boca la explosión de bombas de estruendo de los hinchas de Vasco",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-vasco-semifinales-copa-sudamericana-bombas-estruendos-hotel-xeneize_0_vtzHWdoddu.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
      "t": "Manchester City, Atlético de Madrid y Roma salen a la cancha en el inicio de la fecha 3 de la Champions League: la agenda completa",
      "u": "https://www.infobae.com/deportes/2026/10/20/manchester-city-atletico-de-madrid-y-roma-salen-a-la-cancha-en-el-inicio-de-la-fecha-3-de-la-champions-league-la-agenda-completa/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "A qué hora se juega Vasco da Gama vs. Boca y cómo ver hoy EN VIVO la Copa Sudamericana",
-     "u": "https://www.ole.com.ar/futbol-internacional/sudamericana/vasco-da-gama-vs-boca-copa-sudamericana-vivo-hora-ver-tv-online-formaciones_0_bK5QRH1dK3.html",
+     "t": "PSG vs. Barcelona, por la Champions League, hoy EN VIVO: formaciones confirmadas y cómo ver por TV",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/psg-vs-barcelona-fecha-3-fase-liga-champions-league-hora-ver-tv-posibles-formaciones-resultado-video-goles_0_TmX4yURwmB.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Boca Juniors buscará dar vuelta la serie contra Vasco da Gama para avanzar a la final de la Copa Sudamericana: hora, TV y formaciones",
-     "u": "https://www.infobae.com/deportes/2026/10/20/boca-juniors-buscara-dar-vuelta-la-serie-contra-vasco-da-gama-para-avanzar-a-la-final-de-la-copa-sudamericana-hora-tv-y-formaciones/",
+     "t": "El enojo del técnico del Inter antes de un partido clave en la Champions League: “Es el único equipo del que se espera que gane”",
+     "u": "https://www.ole.com.ar/futbol-internacional/italia/cristian-chivu-inter-milan-champions-league_0_qu9KRsNnHU.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "El descenso de categorías sin fin que podría ser “el peor escenario posible” para el Manchester City si lo declaran culpable de las infracciones en la",
+     "u": "https://www.infobae.com/deportes/2026/10/20/el-descenso-de-categorias-sin-fin-que-podria-tener-el-manchester-city-si-se-confirma-el-peor-escenario-posible-tras-ser-declarado-culpable-de-irregularidades-financieras/",
      "f": "Infobae",
      "alta": false
     }
@@ -227,49 +227,71 @@
      "alta": false
     }
    ]
+  },
+  {
+   "pais": "FR",
+   "nome": {
+    "pt": "França",
+    "en": "France",
+    "es": "Francia"
+   },
+   "noticias": [
+    {
+     "t": "Les frères Popov éliminent la sixième paire mondiale au premier tour des Internationaux de France de badminton",
+     "u": "https://www.lequipe.fr/Badminton/Actualites/Les-freres-popov-eliminent-la-sixieme-paire-mondiale-au-premier-tour-des-internationaux-de-france-de-badminton/1737296#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    },
+    {
+     "t": "Mbappé de justesse, Messi en patron, Dembélé absent : vos onze de légende du PSG et de Barcelone avant le choc en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Mbappe-de-justesse-messi-en-patron-dembele-absent-vos-onze-de-legende-du-psg-et-de-barcelone-avant-le-choc-en-ligue-des-champions/1737294#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    }
+   ]
   }
  ],
  "destaques": [
   {
-   "t": "Por que uma virada do River Plate em mata-mata anima torcedores do Fluminense na Libertadores? Entenda",
-   "u": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/20/por-que-uma-virada-do-river-plate-em-mata-mata-anima-torcedores-do-fluminense-na-libertadores-entenda.ghtml",
-   "f": "ge",
-   "alta": false,
+   "t": "Gnabry elogia ex-companheiro Arteta antes de Bayern x Arsenal na Champions",
+   "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/gnabry-elogia-ex-companheiro-arteta-antes-de-bayern-x-arsenal-na-champions/",
+   "f": "Gazeta Esportiva",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "What to watch in UEFA Champions League: PSG vs. Barcelona could be a classic, Serie A need to recover, more",
-   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-psg-barcelona-serie-a/",
-   "f": "CBS Sports",
-   "alta": false,
+   "t": "A totally unbiased Rip Hamilton made the least surprising 2027 NBA Finals prediction",
+   "u": "https://sports.yahoo.com/articles/totally-unbiased-rip-hamilton-made-182438711.html",
+   "f": "Yahoo Sports",
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Pedro Sousa e o regresso de Gustavo Varela ao Benfica: «Que ninguém se ria. Começou no Sporting e deixaram-no ir»",
-   "u": "https://www.record.pt/multimedia/videos/detalhe/pedro-sousa-e-o-regresso-de-gustavo-varela-ao-benfica-que-ninguem-se-ria-comecou-no-sporting-e-deixaram-no-ir",
-   "f": "Record",
-   "alta": true,
+   "t": "Não era preciso sofrer tanto: Ramos marca e Milan volta a vencer na Serie A (crónica)",
+   "u": "https://www.abola.pt/noticias/nao-era-preciso-sofrer-tanto-ramos-marca-e-milan-volta-a-vencer-na-serie-a-cronica-2026101818283972903",
+   "f": "A Bola",
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Real Madrid TV: \"Los jugadores del Barça son los nuevos árbitros\"",
-   "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261020/1004240974/rmtv-jugadores-barca-son-nuevos-arbitros.html",
+   "t": "PSG - Barcelona, en directo",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004239303/psg-barcelona-directo-champions-league-futbol-jornada-3.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "David Squires on … Manchester City sailing into unknown Premier League waters",
-   "u": "https://www.theguardian.com/football/picture/2026/oct/20/david-squires-on-manchester-city-sailing-into-unknown-premier-league-waters",
+   "t": "PSG v Barcelona, Manchester City v AEK Athens, and more: Champions League – live",
+   "u": "https://www.theguardian.com/football/live/2026/oct/20/psg-v-barcelona-manchester-city-v-aek-athens-and-more-champions-league-live",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Cómo se vivió en el hotel de Boca la explosión de bombas de estruendo de los hinchas de Vasco",
-   "u": "https://www.ole.com.ar/boca-juniors/boca-vasco-semifinales-copa-sudamericana-bombas-estruendos-hotel-xeneize_0_vtzHWdoddu.html",
-   "f": "Olé",
-   "alta": true,
+   "t": "Manchester City, Atlético de Madrid y Roma salen a la cancha en el inicio de la fecha 3 de la Champions League: la agenda completa",
+   "u": "https://www.infobae.com/deportes/2026/10/20/manchester-city-atletico-de-madrid-y-roma-salen-a-la-cancha-en-el-inicio-de-la-fecha-3-de-la-champions-league-la-agenda-completa/",
+   "f": "Infobae",
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -278,6 +300,13 @@
    "f": "La Gazzetta dello Sport",
    "alta": false,
    "pais": "IT"
+  },
+  {
+   "t": "Les frères Popov éliminent la sixième paire mondiale au premier tour des Internationaux de France de badminton",
+   "u": "https://www.lequipe.fr/Badminton/Actualites/Les-freres-popov-eliminent-la-sixieme-paire-mondiale-au-premier-tour-des-internationaux-de-france-de-badminton/1737296#at_medium=RSS_feeds",
+   "f": "L'Équipe",
+   "alta": false,
+   "pais": "FR"
   }
  ],
  "jogos": []
