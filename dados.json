@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-21T13:56:13+00:00",
+ "atualizado": "2026-10-21T18:45:25+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Pedro Lima supera concorrência e se firma na lateral do São Paulo",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/pedro-lima-supera-concorrencia-e-se-firma-na-lateral-do-sao-paulo/",
+     "t": "Como goleia Manchester United na Champions com assistência de ex-Cruzeiro",
+     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/como-goleia-manchester-united-na-champions-com-assistencia-de-ex-cruzeiro/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "PSG vence o Barcelona em jogão de seis gols na Champions League",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/20-10-2026/parissaintgermain-barcelona.ghtml",
+     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro sub-17 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/jogo/21-10-2026/atletico-mg-cruzeiro.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Com hat-trick de Foden, Manchester City goleia AEK na Champions",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/20-10-2026/Manchestercity-aek.ghtml",
+     "t": "Luka Doncic assume protagonismo no Los Angeles Lakers sem LeBron e sonha com 1º título da NBA",
+     "u": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/luka-doncic-assume-protagonismo-no-los-angeles-lakers-sem-lebron-e-sonha-com-1o-titulo-da-nba.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Conheça Gui Santos e Tiago Splitter, representantes brasileiros na NBA de 2026/27",
-     "u": "https://www.gazetaesportiva.com/campeonatos/nba/conheca-gui-santos-e-tiago-splitter-representantes-brasileiros-na-nba-de-2026-27/",
+     "t": "Dani Olmo ficará um mês afastado por lesão e vira desfalque no Barça contra Real Madrid",
+     "u": "https://www.gazetaesportiva.com/times/barcelona/dani-olmo-ficara-um-mes-afastado-por-lesao-e-vira-desfalque-no-barca-contra-real-madrid/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "What to watch in UEFA Champions League: Arsenal to test Bayern Munich's depth",
-     "u": "https://www.cbssports.com/soccer/news/what-to-watch-in-uefa-champions-league-arsenal-to-test-bayern-munichs-depth/",
+     "t": "Arsenal vs. Bayern Munich prediction, time, odds: 2026-27 UEFA Champions League picks from top expert",
+     "u": "https://www.cbssports.com/betting/news/arsenal-bayern-munich-prediction-time-odds-2026-27-uefa-champions-league-picks/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Five things we learned from Champions League: PSG's depth too much for Barca; Rio Ngumoha key for Liverpool?",
-     "u": "https://www.cbssports.com/soccer/news/five-things-we-learned-from-champions-league-psgs-barca-liverpool/",
+     "t": "Footy Fix: How to watch Arsenal vs. Bayern Munich, Real Madrid vs. RB Leipzig in UCL",
+     "u": "https://www.cbssports.com/soccer/news/footy-fix-how-to-watch-arsenal-vs-bayern-munich/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Rose salutes Bournemouth's past heroes ahead of AC Milan clash",
-     "u": "https://sports.yahoo.com/articles/rose-salutes-bournemouths-past-heroes-134637719.html",
+     "t": "Michael Carrick's Manchester United clobbered at Como: Where do they go from here?",
+     "u": "https://sports.yahoo.com/articles/michael-carricks-manchester-united-clobbered-183857313.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Where Jayson Tatum, Paul George Landed in Sporting News' NBA Opening Night Winners And Losers",
-     "u": "https://sports.yahoo.com/articles/where-jayson-tatum-paul-george-134256643.html",
+     "t": "MLB took over Brewers broadcasts this year. The ratings went way up",
+     "u": "https://sports.yahoo.com/articles/mlb-took-over-brewers-broadcasts-183531614.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "90+3 T4 EP 01 RUI PATRICIO: «Fernando Santos fez-nos acreditar no Euro»",
-     "u": "https://www.abola.pt/video/903-t4-ep-01-rui-patricio-fernando-santos-fez-nos-acreditar-no-euro-2026101915363454671",
+     "t": "Caos em França: Galatasaray exige garantias de segurança antes da Champions",
+     "u": "https://www.abola.pt/noticias/caos-em-franca-galatasaray-exige-garantias-de-seguranca-antes-da-champions-2026102014562207902",
      "f": "A Bola",
      "alta": true
     },
     {
-     "t": "NBA: LeBron James, em estreia nos 76ers, estraga festa de campeão dos Knicks",
-     "u": "https://www.abola.pt/noticias/nba-lebron-james-em-estreia-nos-76ers-estraga-festa-de-campeao-dos-knicks-2026102108024403920",
+     "t": "Como-Manchester United, em direto",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/como-manchester-united-em-direto",
+     "f": "Record",
+     "alta": true
+    },
+    {
+     "t": "Bayern Munique-Arsenal, em direto",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/20261021-161222-bayern-munique-arsenal-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Golos, penáltis e emoção até ao fim: Sporting ganha na Youth League",
+     "u": "https://www.abola.pt/noticias/golos-penaltis-e-emocao-ate-ao-fim-sporting-ganha-na-youth-league-2026102111025578100",
      "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Rui Costa \"muito confiante\" antes do jogo com o Omonia: as imagens da partida do Benfica para o Chipre",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/rui-costa-muito-confiante-antes-do-jogo-com-o-omonia-as-imagens-da-partida-do-benfica-para-o-chipre",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Dani Olmo desfalca Barcelona durante um mês",
-     "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/dani-olmo-desfalca-barcelona-durante-um-mes",
-     "f": "Record",
      "alta": false
     }
    ]
@@ -113,14 +113,8 @@
    },
    "noticias": [
     {
-     "t": "La exclusiva normativa de Francia que permitiría fichar al PSG sin esperar a enero",
-     "u": "https://www.mundodeportivo.com/futbol/ligue-1/20261021/1004241414/exclusiva-normativa-francia-permitiria-fichar-psg-esperar-enero-comodin-joker.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "El violento tifo de los ultras del PSG que el Barça ha denunciado a la UEFA",
-     "u": "https://www.marca.com/futbol/champions-league/2026/10/21/violento-tifo-ultras-psg-denuncia-barcelona-masacre-jason-viernes-13-video.html",
+     "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
+     "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
      "f": "Marca",
      "alta": false
     },
@@ -131,8 +125,14 @@
      "alta": false
     },
     {
-     "t": "Este Fórmula 1 que Brad Pitt puso a 317 km/h está ahora a la venta por un precio de escándalo",
-     "u": "https://www.marca.com/coches-y-motos/coches/2026/10/21/formula-1-brad-pitt-puso-317-km-h-esta-venta-precio-escandalo.html",
+     "t": "Habrá sanción de la UEFA al PSG por el tifo contra el Barça",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261021/1004241350/habra-sancion-uefa-psg-tifo-barca.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "María Herrera, la reina de las motos: \"Quiero llevar el Mundial Femenino a MotoGP\"",
+     "u": "https://www.marca.com/motor/mas-motor/2026/10/21/maria-herrera-reina-motos-quiero-llevar-mundial-femenino-motogp.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,8 +147,20 @@
    },
    "noticias": [
     {
-     "t": "NBA season tips off as Detroit stage epic 22-point comeback to defeat Celtics",
-     "u": "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
+     "t": "Bayern Munich v Arsenal: Champions League – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Ex-tennis pro Megan Rose appointed to lead 2031 men’s Rugby World Cup in US",
+     "u": "https://www.theguardian.com/sport/2026/oct/21/ex-tennis-pro-megan-rose-appointed-to-lead-2031-mens-rugby-world-cup-in-us",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Bayern Munich vs Arsenal LIVE!",
+     "u": "https://www.skysports.com/football/bayern-munich-vs-arsenal/live/577643",
      "f": "Sky Sports",
      "alta": false
     },
@@ -156,18 +168,6 @@
      "t": "LeBron James' 76ers beat Knicks on NBA opening night",
      "u": "https://www.bbc.co.uk/sport/basketball/articles/c6vgj4g913wyo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "LeBron James and Sixers spoil Knicks’ title party as Thunder and Pistons win NBA openers",
-     "u": "https://www.theguardian.com/sport/2026/oct/20/nba-opening-night-2026-results-pistons-celtics-sixers-knicks-spurs-thunder",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "LeBron stars on debut as Sixers defeat champions Knicks in opening game",
-     "u": "https://www.skysports.com/watch/video/13601769/philadelphia-76ers-new-york-knicks-nba-highlights",
-     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Impacto en el fútbol: un candidato a ganar el Balón de Oro sufrió una dura lesión en el duelo entre PSG y Barcelona",
-     "u": "https://www.infobae.com/deportes/2026/10/21/impacto-en-el-futbol-un-candidato-a-ganar-el-balon-de-oro-sufrio-una-dura-lesion-en-el-duelo-entre-psg-y-barcelona/",
+     "t": "El gigante europeo que sigue de cerca a Lisandro Martínez tras su conflicto con el Manchester United",
+     "u": "https://www.infobae.com/deportes/2026/10/21/el-gigante-europeo-que-sigue-de-cerca-a-lisandro-martinez-tras-su-conflicto-con-el-manchester-united/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Show de Nico Paz en la goleada histórica del Como a Manchester United en Champions League: doblete con un zurdazo al ángulo al minuto y asistencia cla",
+     "u": "https://www.infobae.com/deportes/2026/10/21/el-golazo-bajo-la-lluvia-de-nico-paz-ante-el-manchester-united-al-minuto-del-partido-por-champions-league/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "La baja inesperada del Bayern en la Champions por una tragedia familiar",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/baja-inesperada-bayern-munich-tragedia-familiar-champions-league_0_u4BaJ5be4h.html",
+     "t": "Flamengo denunció destrozos en el Maracaná tras Vasco-Boca a horas de recibir a Estudiantes",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flamengo-denuncio-danos-maracana-estudiantes-vascodagama-boca_0_VxDlWMdH6v.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Lo que no se vio de la emocionante clasificación de Boca Juniors ante Vasco da Gama: el minuto a minuto en el infierno del Maracaná",
-     "u": "https://www.infobae.com/deportes/2026/10/21/lo-que-no-se-vio-de-la-emocionante-clasificacion-de-boca-juniors-ante-vasco-da-gama-el-minuto-a-minuto-en-el-infierno-del-maracana/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Qué dijo el DT de Vasco tras la eliminación ante Boca: \"Tenemos que felicitar al rival, que supo aprovechar lo que nosotros no pudimos\"",
-     "u": "https://www.ole.com.ar/futbol-internacional/sudamericana/vascodagama-pedroemanuel-copasudamericana-boca_0_3FKCFnqdph.html",
+     "t": "De tal palo, tal astilla: el hijo de Marcelo convirtió un gol para el Real Madrid por la Champions League juvenil",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/gol-marcelo-vieira-hijo-enzo-alves-real-madrid-goleada-leipzig-champions-league-juvenil-youth-league_0_L43zdW7Sxy.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Face au risque de légionellose, le Borussia Dortmund a demandé à ses joueurs de se doucher à l'hôtel plutôt qu'au stade du Sabah FC",
-     "u": "https://www.lequipe.fr/Football/Actualites/Face-au-risque-de-legionellose-le-borussia-dortmund-a-demande-a-ses-joueurs-de-se-doucher-a-l-hotel-plutot-qu-au-stade-du-sabah-fc/1737445#at_medium=RSS_feeds",
+     "t": "Où voir Bayern-Arsenal ?",
+     "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-bayern-arsenal-en-ligue-des-champions/1737240#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Le FC Séville dépose une plainte à la Liga après sa lourde défaite face au Real Madrid",
-     "u": "https://www.lequipe.fr/Football/Actualites/Le-fc-seville-depose-une-plainte-a-la-liga-apres-sa-lourde-defaite-face-au-real-madrid/1737467#at_medium=RSS_feeds",
+     "t": "L'AC Milan soutient le boycott de ses supporters pour la rencontre face à l'Udinese en raison des prix des billets jugés trop élevés",
+     "u": "https://www.lequipe.fr/Football/Actualites/L-ac-milan-soutient-le-boycott-de-ses-supporters-pour-la-rencontre-face-a-l-udinese-en-raison-des-prix-des-billets-juges-trop-eleves/1737548#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "Pedro Lima supera concorrência e se firma na lateral do São Paulo",
-   "u": "https://www.gazetaesportiva.com/times/sao-paulo/pedro-lima-supera-concorrencia-e-se-firma-na-lateral-do-sao-paulo/",
+   "t": "Como goleia Manchester United na Champions com assistência de ex-Cruzeiro",
+   "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/como-goleia-manchester-united-na-champions-com-assistencia-de-ex-cruzeiro/",
    "f": "Gazeta Esportiva",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "What to watch in UEFA Champions League: Arsenal to test Bayern Munich's depth",
-   "u": "https://www.cbssports.com/soccer/news/what-to-watch-in-uefa-champions-league-arsenal-to-test-bayern-munichs-depth/",
+   "t": "Arsenal vs. Bayern Munich prediction, time, odds: 2026-27 UEFA Champions League picks from top expert",
+   "u": "https://www.cbssports.com/betting/news/arsenal-bayern-munich-prediction-time-odds-2026-27-uefa-champions-league-picks/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "90+3 T4 EP 01 RUI PATRICIO: «Fernando Santos fez-nos acreditar no Euro»",
-   "u": "https://www.abola.pt/video/903-t4-ep-01-rui-patricio-fernando-santos-fez-nos-acreditar-no-euro-2026101915363454671",
+   "t": "Caos em França: Galatasaray exige garantias de segurança antes da Champions",
+   "u": "https://www.abola.pt/noticias/caos-em-franca-galatasaray-exige-garantias-de-seguranca-antes-da-champions-2026102014562207902",
    "f": "A Bola",
    "alta": true,
    "pais": "PT"
   },
   {
-   "t": "La exclusiva normativa de Francia que permitiría fichar al PSG sin esperar a enero",
-   "u": "https://www.mundodeportivo.com/futbol/ligue-1/20261021/1004241414/exclusiva-normativa-francia-permitiria-fichar-psg-esperar-enero-comodin-joker.html",
-   "f": "Mundo Deportivo",
+   "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
+   "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
+   "f": "Marca",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "NBA season tips off as Detroit stage epic 22-point comeback to defeat Celtics",
-   "u": "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
-   "f": "Sky Sports",
+   "t": "Bayern Munich v Arsenal: Champions League – live",
+   "u": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Impacto en el fútbol: un candidato a ganar el Balón de Oro sufrió una dura lesión en el duelo entre PSG y Barcelona",
-   "u": "https://www.infobae.com/deportes/2026/10/21/impacto-en-el-futbol-un-candidato-a-ganar-el-balon-de-oro-sufrio-una-dura-lesion-en-el-duelo-entre-psg-y-barcelona/",
+   "t": "El gigante europeo que sigue de cerca a Lisandro Martínez tras su conflicto con el Manchester United",
+   "u": "https://www.infobae.com/deportes/2026/10/21/el-gigante-europeo-que-sigue-de-cerca-a-lisandro-martinez-tras-su-conflicto-con-el-manchester-united/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,10 +302,10 @@
    "pais": "IT"
   },
   {
-   "t": "Face au risque de légionellose, le Borussia Dortmund a demandé à ses joueurs de se doucher à l'hôtel plutôt qu'au stade du Sabah FC",
-   "u": "https://www.lequipe.fr/Football/Actualites/Face-au-risque-de-legionellose-le-borussia-dortmund-a-demande-a-ses-joueurs-de-se-doucher-a-l-hotel-plutot-qu-au-stade-du-sabah-fc/1737445#at_medium=RSS_feeds",
+   "t": "Où voir Bayern-Arsenal ?",
+   "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-bayern-arsenal-en-ligue-des-champions/1737240#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": true,
+   "alta": false,
    "pais": "FR"
   }
  ],
