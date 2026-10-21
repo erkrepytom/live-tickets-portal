@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-20T22:23:50+00:00",
+ "atualizado": "2026-10-21T01:41:51+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Atlético-MG x Internacional - Copa do Brasil Feminina 2026 - Ao vivo - globoesporte.com",
+     "t": "Internacional bate Atlético-MG nos pênaltis e vai à semifinal da Copa do Brasil Feminina",
      "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
-     "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Torcedores do Vasco provocam Flamengo e Fluminense em volta ao Maracanã: \"Síndico não é dono\"",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/20/torcedores-do-vasco-provocam-flamengo-e-fluminense-em-volta-ao-maracana-sindico-nao-e-dono.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Gnabry elogia ex-companheiro Arteta antes de Bayern x Arsenal na Champions",
-     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/gnabry-elogia-ex-companheiro-arteta-antes-de-bayern-x-arsenal-na-champions/",
+     "t": "Pistons buscam virada sobre os Celtics e vencem na abertura da temporada da NBA",
+     "u": "https://www.gazetaesportiva.com/campeonatos/nba/pistons-buscam-virada-sobre-os-celtics-e-vencem-na-abertura-da-temporada-da-nba/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Kompany pode não comandar Bayern contra o Arsenal na Champions devido a virose",
-     "u": "https://www.gazetaesportiva.com/times/bayern/kompany-pode-nao-comandar-bayern-contra-o-arsenal-na-champions-devido-a-virose/",
+     "t": "PSG vence o Barcelona em jogão de seis gols na Champions League",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/20-10-2026/parissaintgermain-barcelona.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Palmeiras x Fluminense pela Libertadores: onde assistir, estatísticas, histórico e prováveis escalações",
+     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/palmeiras-x-fluminense-tudo-sobre-semifinal-libertadores-21-10-2026/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
+     "t": "76ers vs. Knicks NBA odds: LeBron James and Philly open as biggest title liability, look to ruin banner night",
+     "u": "https://www.cbssports.com/betting/news/76ers-vs-knicks-nba-odds-lebron-james-and-philly-open-as-biggest-title-liability-look-to-ruin-banner-night/",
+     "f": "CBS Sports",
+     "alta": true
+    },
+    {
      "t": "UEFA Champions League scores, schedule: Arsenal at Bayern Munich next on Matchday 3",
      "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for 76ers-Knicks, Thunder-Spurs",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-76ers-knicks-thunder-spurs/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "How Pistons' 22-point comeback vs. Celtics made NBA history",
-     "u": "https://sports.yahoo.com/articles/pistons-22-point-comeback-vs-221330426.html",
+     "t": "New York Knicks Announce Starting Lineup vs. Philadelphia 76ers After Josh Hart News",
+     "u": "https://sports.yahoo.com/articles/york-knicks-announce-starting-lineup-011609218.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "PSG star hailed as ‘most underrated player of all time’ after Barcelona win",
-     "u": "https://sports.yahoo.com/articles/psg-star-hailed-most-underrated-221426227.html",
+     "t": "Top available NBA free agents as 2026-27 season tips off",
+     "u": "https://sports.yahoo.com/articles/top-available-nba-free-agents-012557446.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Neemias volta a marcar Portugal e a Europa entre os 125 estrangeiros na NBA",
-     "u": "https://www.abola.pt/noticias/neemias-volta-a-marcar-portugal-e-a-europa-entre-os-125-estrangeiros-na-nba-2026102014583331503",
+     "t": "Caos em França: Galatasaray exige garantias de segurança antes da Champions",
+     "u": "https://www.abola.pt/noticias/caos-em-franca-galatasaray-exige-garantias-de-seguranca-antes-da-champions-2026102014562207902",
      "f": "A Bola",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "A crónica do PSG-Barcelona; 4-2: Parisienses derrubam o fantástico Barça",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/a-cronica-do-psg-barcelona-4-2-parisienses-derrubam-o-fantastico-barca",
+     "t": "«Há 15 meses, o FC Porto regressava dos EUA após perder contra o Inter Miami...»",
+     "u": "https://www.abola.pt/video/ha-15-meses-o-fc-porto-regressava-dos-eua-apos-perder-contra-o-inter-miami-2026102022315852099",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Com Dinis Pinto incerto, Leandro Santos espreita continuidade no onze",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/moreirense/detalhe/com-dinis-pinto-incerto-leandro-santos-espreita-continuidade-no-onze",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Nem pediu licença: o golaço que desatou o nulo no PSG-Barcelona",
-     "u": "https://www.abola.pt/video/nem-pediu-licenca-o-golaco-que-desatou-o-nulo-no-psg-barcelona-2026102020585553468",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "O grande golo de Vitinha no PSG-Barcelona com uma celebração à medida",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/o-grande-golo-de-vitinha-no-psg-barcelona-com-uma-celebracao-a-medida",
+     "t": "Farioli: o Inter Miami... há 15 meses, adversários do pote 1 e 2 e a crise numa equipa \"líder do campeonato\"",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/farioli-o-inter-miami-ha-15-meses-adversarios-do-pote-1-e-2-e-a-crise-numa-equipa-lider-do-campeonato",
      "f": "Record",
      "alta": false
     }
@@ -153,14 +153,14 @@
      "alta": false
     },
     {
-     "t": "NBA 2026-27 season predictions: A Knicks repeat and LeBron’s villain arc",
-     "u": "https://www.theguardian.com/sport/2026/oct/20/nba-2026-27-season-predictions-a-knicks-repeat-and-lebrons-villain-arc",
+     "t": "Football regulator has ‘absolute power’ to force Manchester City sale if verdict upheld",
+     "u": "https://www.theguardian.com/football/2026/oct/21/manchester-city-david-kogan-independent-football-regulator",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Doué and Vitinha burn bright as brittle Barcelona come unstuck against PSG",
-     "u": "https://www.theguardian.com/football/2026/oct/20/paris-saint-germain-psg-barcelona-champions-league-match-report",
+     "t": "Robinson sparks 23-0 run as Pistons stun Celtics in NBA season opener",
+     "u": "https://www.theguardian.com/sport/2026/oct/20/nba-opening-night-2026-results-pistons-celtics-sixers-knicks-spurs-thunder",
      "f": "The Guardian",
      "alta": false
     },
@@ -181,16 +181,16 @@
    },
    "noticias": [
     {
-     "t": "Bayern Munich vs. Arsenal, por la Champions League: hora, cómo ver y probables formaciones",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/bayern-munich-vs-arsenal-champions-league-dia-hora-ver-tv-online-formaciones_0_fad9pC5Kzo.html",
+     "t": "Siempre Merentiel: ante Vasco da Gama, otro gol clave para Boca",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-copa-sudamericana-vasco-da-gama-merentiel-gol_0_vc9ZFxmJ69.html",
      "f": "Olé",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Video: el jugador más alto de la NBA conoció a uno de los pilotos más bajos de la F1",
-     "u": "https://www.ole.com.ar/poli/video-jugador-alto-nba-formula-1-f1-victor-wembanyama-kimi-antonelli_0_pUXClQ8pjF.html",
+     "t": "Video: el alocado festejo del Vasco Arruabarrena en el Maracaná",
+     "u": "https://www.ole.com.ar/futbol-internacional/sudamericana/video-alocado-festejo-vasco-arruabarrena-boca_0_NGAl1cDDC7.html",
      "f": "Olé",
-     "alta": false
+     "alta": true
     },
     {
      "t": "El Manchester City de Enzo Fernández goleó 5-1 a AEK Atenas por la Champions League: todos los goles del día",
@@ -199,8 +199,8 @@
      "alta": false
     },
     {
-     "t": "El descenso de categorías sin fin que podría ser “el peor escenario posible” para el Manchester City si lo declaran culpable de las infracciones en la",
-     "u": "https://www.infobae.com/deportes/2026/10/20/el-descenso-de-categorias-sin-fin-que-podria-tener-el-manchester-city-si-se-confirma-el-peor-escenario-posible-tras-ser-declarado-culpable-de-irregularidades-financieras/",
+     "t": "Boca Juniors remonta la serie en Brasil y le gana a Vasco da Gama por las semifinales de la Copa Sudamericana",
+     "u": "https://www.infobae.com/deportes/2026/10/20/boca-juniors-buscara-dar-vuelta-la-serie-contra-vasco-da-gama-para-avanzar-a-la-final-de-la-copa-sudamericana-hora-tv-y-formaciones/",
      "f": "Infobae",
      "alta": false
     }
@@ -243,8 +243,8 @@
      "alta": false
     },
     {
-     "t": "Sans Erling Haaland mais avec des flamboyants Rayan Cherki et Phil Foden, Manchester City se régale face à l'AEK Athènes en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Sans-erling-haaland-mais-avec-des-flamboyants-rayan-cherki-et-phil-foden-manchester-city-se-regale-face-a-l-aek-athenes-en-ligue-des-champions/1737356#at_medium=RSS_feeds",
+     "t": "5 tirs et 1 but : Fabian Ruiz, des stats d'attaquant face au Barça en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/5-tirs-et-1-but-fabian-ruiz-des-stats-d-attaquant-face-au-barca-en-ligue-des-champions/1737380#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,24 +253,24 @@
  ],
  "destaques": [
   {
-   "t": "Atlético-MG x Internacional - Copa do Brasil Feminina 2026 - Ao vivo - globoesporte.com",
+   "t": "Internacional bate Atlético-MG nos pênaltis e vai à semifinal da Copa do Brasil Feminina",
    "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
    "f": "ge",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "UEFA Champions League scores, schedule: Arsenal at Bayern Munich next on Matchday 3",
-   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
+   "t": "76ers vs. Knicks NBA odds: LeBron James and Philly open as biggest title liability, look to ruin banner night",
+   "u": "https://www.cbssports.com/betting/news/76ers-vs-knicks-nba-odds-lebron-james-and-philly-open-as-biggest-title-liability-look-to-ruin-banner-night/",
    "f": "CBS Sports",
-   "alta": false,
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Neemias volta a marcar Portugal e a Europa entre os 125 estrangeiros na NBA",
-   "u": "https://www.abola.pt/noticias/neemias-volta-a-marcar-portugal-e-a-europa-entre-os-125-estrangeiros-na-nba-2026102014583331503",
+   "t": "Caos em França: Galatasaray exige garantias de segurança antes da Champions",
+   "u": "https://www.abola.pt/noticias/caos-em-franca-galatasaray-exige-garantias-de-seguranca-antes-da-champions-2026102014562207902",
    "f": "A Bola",
-   "alta": true,
+   "alta": false,
    "pais": "PT"
   },
   {
@@ -288,10 +288,10 @@
    "pais": "GB"
   },
   {
-   "t": "Bayern Munich vs. Arsenal, por la Champions League: hora, cómo ver y probables formaciones",
-   "u": "https://www.ole.com.ar/futbol-internacional/champions/bayern-munich-vs-arsenal-champions-league-dia-hora-ver-tv-online-formaciones_0_fad9pC5Kzo.html",
+   "t": "Siempre Merentiel: ante Vasco da Gama, otro gol clave para Boca",
+   "u": "https://www.ole.com.ar/boca-juniors/boca-copa-sudamericana-vasco-da-gama-merentiel-gol_0_vc9ZFxmJ69.html",
    "f": "Olé",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
