@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-21T01:41:51+00:00",
+ "atualizado": "2026-10-21T07:48:16+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Internacional bate Atlético-MG nos pênaltis e vai à semifinal da Copa do Brasil Feminina",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
+     "t": "Pato Basquete estreia no NBB contra o Paulistano: veja como chega o time paranaense",
+     "u": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/10/21/pato-basquete-estreia-no-nbb-contra-o-paulistano-veja-como-chega-o-time-paranaense.ghtml",
      "f": "ge",
-     "alta": false
+     "alta": true
+    },
+    {
+     "t": "Como foi primeiro mergulho de Paulinho nos bastidores do Cruzeiro e os próximos passos",
+     "u": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/21/como-foi-primeiro-mergulho-de-paulinho-nos-bastidores-do-cruzeiro-e-os-proximos-passos.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Como x Manchester United: veja prováveis escalações e onde assistir ao duelo pela Liga dos Campeões",
+     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/como-x-manchester-united-veja-provaveis-escalacoes-e-onde-assistir-ao-duelo-pela-liga-dos-campeoes/",
+     "f": "Gazeta Esportiva",
+     "alta": true
     },
     {
      "t": "Pistons buscam virada sobre os Celtics e vencem na abertura da temporada da NBA",
      "u": "https://www.gazetaesportiva.com/campeonatos/nba/pistons-buscam-virada-sobre-os-celtics-e-vencem-na-abertura-da-temporada-da-nba/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "PSG vence o Barcelona em jogão de seis gols na Champions League",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/20-10-2026/parissaintgermain-barcelona.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Palmeiras x Fluminense pela Libertadores: onde assistir, estatísticas, histórico e prováveis escalações",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/palmeiras-x-fluminense-tudo-sobre-semifinal-libertadores-21-10-2026/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "76ers vs. Knicks NBA odds: LeBron James and Philly open as biggest title liability, look to ruin banner night",
-     "u": "https://www.cbssports.com/betting/news/76ers-vs-knicks-nba-odds-lebron-james-and-philly-open-as-biggest-title-liability-look-to-ruin-banner-night/",
-     "f": "CBS Sports",
-     "alta": true
-    },
-    {
      "t": "UEFA Champions League scores, schedule: Arsenal at Bayern Munich next on Matchday 3",
      "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "New York Knicks Announce Starting Lineup vs. Philadelphia 76ers After Josh Hart News",
-     "u": "https://sports.yahoo.com/articles/york-knicks-announce-starting-lineup-011609218.html",
+     "t": "Five things we learned from Champions League: PSG's depth too much for Barca; Rio Ngumoha key for Liverpool?",
+     "u": "https://www.cbssports.com/soccer/news/five-things-we-learned-from-champions-league-psgs-barca-liverpool/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Raphinha sends defiant message after Barcelona defeat to PSG ahead of El Clasico: ‘It was a good test and shows we can compete’",
+     "u": "https://sports.yahoo.com/articles/raphinha-sends-defiant-message-barcelona-072000313.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Top available NBA free agents as 2026-27 season tips off",
-     "u": "https://sports.yahoo.com/articles/top-available-nba-free-agents-012557446.html",
+     "t": "The major flaw in Arsenal’s Champions League blueprint and how Bayern can expose it",
+     "u": "https://sports.yahoo.com/articles/arsenal-champions-league-blueprint-major-155954607.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Caos em França: Galatasaray exige garantias de segurança antes da Champions",
-     "u": "https://www.abola.pt/noticias/caos-em-franca-galatasaray-exige-garantias-de-seguranca-antes-da-champions-2026102014562207902",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "«Há 15 meses, o FC Porto regressava dos EUA após perder contra o Inter Miami...»",
-     "u": "https://www.abola.pt/video/ha-15-meses-o-fc-porto-regressava-dos-eua-apos-perder-contra-o-inter-miami-2026102022315852099",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Com Dinis Pinto incerto, Leandro Santos espreita continuidade no onze",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/moreirense/detalhe/com-dinis-pinto-incerto-leandro-santos-espreita-continuidade-no-onze",
+     "t": "O incrível anel de campeões dos New York Knicks: pormenores são de ficar com o queixo caído",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/o-incrivel-anel-de-campeoes-dos-new-york-knicks-pormenores-sao-de-ficar-com-o-queixo-caido",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Farioli: o Inter Miami... há 15 meses, adversários do pote 1 e 2 e a crise numa equipa \"líder do campeonato\"",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/farioli-o-inter-miami-ha-15-meses-adversarios-do-pote-1-e-2-e-a-crise-numa-equipa-lider-do-campeonato",
+     "t": "Reforçados Sixers estragam a festa dos campeões da NBA Knicks",
+     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/reforcados-sixers-estragam-a-festa-dos-campeoes-da-nba-knicks",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "«Massacre à parisiense»: Barcelona faz queixa à UEFA por tifo do PSG",
+     "u": "https://www.abola.pt/noticias/massacre-a-parisiense-barcelona-faz-queixa-a-uefa-por-tifo-do-psg-2026102106502154218",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Oficial: PSG anuncia jogador do Sporting",
+     "u": "https://www.abola.pt/noticias/oficial-psg-anuncia-jogador-do-sporting-2026101912425344792",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,21 +113,21 @@
    },
    "noticias": [
     {
+     "t": "El Barça denuncia al PSG ante la UEFA por el tifo que tuvo el OK del club francés",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261021/1004241337/barca-denuncia-psg-uefa-tifo-parque-principes.html",
+     "f": "Mundo Deportivo",
+     "alta": true
+    },
+    {
+     "t": "Habrá sanción de la UEFA al PSG por el tifo contra el Barça",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261021/1004241350/habra-sancion-uefa-psg-tifo-barca.html",
+     "f": "Mundo Deportivo",
+     "alta": true
+    },
+    {
      "t": "El Barça salva un punto ante el PSG antes del gran duelo de París",
      "u": "https://www.marca.com/futbol/youth-league/2026/10/20/barca-salva-punto-psg-gran-duelo-paris.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "El 1x1 del Barça ante el PSG",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004241221/1x1-barca-psg.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "La alta factura que ha pagado el PSG ante el Barça",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261020/1004241232/alta-factura-pagado-psg-barca.html",
-     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "NBA season tips off as Detroit stage epic 22-point comeback to defeat Celtics",
-     "u": "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
      "t": "Football regulator has ‘absolute power’ to force Manchester City sale if verdict upheld",
      "u": "https://www.theguardian.com/football/2026/oct/21/manchester-city-david-kogan-independent-football-regulator",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Robinson sparks 23-0 run as Pistons stun Celtics in NBA season opener",
-     "u": "https://www.theguardian.com/sport/2026/oct/20/nba-opening-night-2026-results-pistons-celtics-sixers-knicks-spurs-thunder",
-     "f": "The Guardian",
+     "t": "NBA season tips off as Detroit stage epic 22-point comeback to defeat Celtics",
+     "u": "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
+     "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Barcelona handed first defeat of season by PSG in classic",
-     "u": "https://www.skysports.com/football/paris-saint-germain-vs-barcelona/report/577638",
-     "f": "Sky Sports",
+     "t": "LeBron James' 76ers beat Knicks on NBA opening night",
+     "u": "https://www.bbc.co.uk/sport/basketball/articles/c6vgj4g913wyo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "LeBron James and Sixers spoil Knicks’ title party as Thunder and Pistons win NBA openers",
+     "u": "https://www.theguardian.com/sport/2026/oct/20/nba-opening-night-2026-results-pistons-celtics-sixers-knicks-spurs-thunder",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,16 +181,16 @@
    },
    "noticias": [
     {
-     "t": "Siempre Merentiel: ante Vasco da Gama, otro gol clave para Boca",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-copa-sudamericana-vasco-da-gama-merentiel-gol_0_vc9ZFxmJ69.html",
+     "t": "¿Qué dijeron en Brasil del gran triunfo de Boca en el Maracaná ante Vasco?",
+     "u": "https://www.ole.com.ar/futbol-internacional/sudamericana/sudamericana-boca-vasco-triunfo-tapas-brasil_0_FVWL1qv8ug.html",
      "f": "Olé",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Video: el alocado festejo del Vasco Arruabarrena en el Maracaná",
-     "u": "https://www.ole.com.ar/futbol-internacional/sudamericana/video-alocado-festejo-vasco-arruabarrena-boca_0_NGAl1cDDC7.html",
-     "f": "Olé",
-     "alta": true
+     "t": "Los mejores memes que dejó la clasificación de Boca a la final de la Sudamericana: del “verdadero” Vasco al “lamento” de River",
+     "u": "https://www.infobae.com/deportes/2026/10/21/los-mejores-memes-que-dejo-la-clasificacion-de-boca-a-la-final-de-la-sudamericana-del-verdadero-vasco-al-lamento-de-river/",
+     "f": "Infobae",
+     "alta": false
     },
     {
      "t": "El Manchester City de Enzo Fernández goleó 5-1 a AEK Atenas por la Champions League: todos los goles del día",
@@ -199,9 +199,9 @@
      "alta": false
     },
     {
-     "t": "Boca Juniors remonta la serie en Brasil y le gana a Vasco da Gama por las semifinales de la Copa Sudamericana",
-     "u": "https://www.infobae.com/deportes/2026/10/20/boca-juniors-buscara-dar-vuelta-la-serie-contra-vasco-da-gama-para-avanzar-a-la-final-de-la-copa-sudamericana-hora-tv-y-formaciones/",
-     "f": "Infobae",
+     "t": "Arruabarrena, tras el pase a la final de Boca: \"Si no ganamos nada me tendré que ir a la mierda\"",
+     "u": "https://www.ole.com.ar/boca-juniors/arruabarrena-semi-sudamericana-boca-vasco-da-gama-maracana-paredes_0_mizCHKAfVm.html",
+     "f": "Olé",
      "alta": false
     }
    ]
@@ -227,71 +227,49 @@
      "alta": false
     }
    ]
-  },
-  {
-   "pais": "FR",
-   "nome": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
-   },
-   "noticias": [
-    {
-     "t": "Les Detroit Pistons lancent la saison de NBA par une victoire renversante contre les Boston Celtics",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Les-detroit-pistons-lancent-la-saison-de-nba-par-une-victoire-renversante-contre-les-boston-celtics/1737373#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": false
-    },
-    {
-     "t": "5 tirs et 1 but : Fabian Ruiz, des stats d'attaquant face au Barça en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/5-tirs-et-1-but-fabian-ruiz-des-stats-d-attaquant-face-au-barca-en-ligue-des-champions/1737380#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": false
-    }
-   ]
   }
  ],
  "destaques": [
   {
-   "t": "Internacional bate Atlético-MG nos pênaltis e vai à semifinal da Copa do Brasil Feminina",
-   "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/20-10-2026/atletico-mg-internacional.ghtml",
+   "t": "Pato Basquete estreia no NBB contra o Paulistano: veja como chega o time paranaense",
+   "u": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/10/21/pato-basquete-estreia-no-nbb-contra-o-paulistano-veja-como-chega-o-time-paranaense.ghtml",
    "f": "ge",
-   "alta": false,
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "76ers vs. Knicks NBA odds: LeBron James and Philly open as biggest title liability, look to ruin banner night",
-   "u": "https://www.cbssports.com/betting/news/76ers-vs-knicks-nba-odds-lebron-james-and-philly-open-as-biggest-title-liability-look-to-ruin-banner-night/",
+   "t": "UEFA Champions League scores, schedule: Arsenal at Bayern Munich next on Matchday 3",
+   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-3/",
    "f": "CBS Sports",
-   "alta": true,
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "Caos em França: Galatasaray exige garantias de segurança antes da Champions",
-   "u": "https://www.abola.pt/noticias/caos-em-franca-galatasaray-exige-garantias-de-seguranca-antes-da-champions-2026102014562207902",
-   "f": "A Bola",
+   "t": "O incrível anel de campeões dos New York Knicks: pormenores são de ficar com o queixo caído",
+   "u": "https://www.record.pt/multimedia/videos/detalhe/o-incrivel-anel-de-campeoes-dos-new-york-knicks-pormenores-sao-de-ficar-com-o-queixo-caido",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "El Barça salva un punto ante el PSG antes del gran duelo de París",
-   "u": "https://www.marca.com/futbol/youth-league/2026/10/20/barca-salva-punto-psg-gran-duelo-paris.html",
-   "f": "Marca",
-   "alta": false,
+   "t": "El Barça denuncia al PSG ante la UEFA por el tifo que tuvo el OK del club francés",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261021/1004241337/barca-denuncia-psg-uefa-tifo-parque-principes.html",
+   "f": "Mundo Deportivo",
+   "alta": true,
    "pais": "ES"
   },
   {
-   "t": "NBA season tips off as Detroit stage epic 22-point comeback to defeat Celtics",
-   "u": "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
-   "f": "Sky Sports",
+   "t": "Football regulator has ‘absolute power’ to force Manchester City sale if verdict upheld",
+   "u": "https://www.theguardian.com/football/2026/oct/21/manchester-city-david-kogan-independent-football-regulator",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Siempre Merentiel: ante Vasco da Gama, otro gol clave para Boca",
-   "u": "https://www.ole.com.ar/boca-juniors/boca-copa-sudamericana-vasco-da-gama-merentiel-gol_0_vc9ZFxmJ69.html",
+   "t": "¿Qué dijeron en Brasil del gran triunfo de Boca en el Maracaná ante Vasco?",
+   "u": "https://www.ole.com.ar/futbol-internacional/sudamericana/sudamericana-boca-vasco-triunfo-tapas-brasil_0_FVWL1qv8ug.html",
    "f": "Olé",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -300,13 +278,6 @@
    "f": "La Gazzetta dello Sport",
    "alta": false,
    "pais": "IT"
-  },
-  {
-   "t": "Les Detroit Pistons lancent la saison de NBA par une victoire renversante contre les Boston Celtics",
-   "u": "https://www.lequipe.fr/Basket/Actualites/Les-detroit-pistons-lancent-la-saison-de-nba-par-une-victoire-renversante-contre-les-boston-celtics/1737373#at_medium=RSS_feeds",
-   "f": "L'Équipe",
-   "alta": false,
-   "pais": "FR"
   }
  ],
  "jogos": []
