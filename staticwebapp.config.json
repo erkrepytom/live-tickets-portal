@@ -15,6 +15,24 @@
       }
     },
     {
+      "route": "/assets/*",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "route": "/sitemap*.xml",
+      "headers": {
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
+      "route": "/*.webmanifest",
+      "headers": {
+        "Cache-Control": "public, max-age=86400"
+      }
+    },
+    {
       "route": "/tickets",
       "redirect": "https://sportsevents365.com/?a_aid=6821d72fcdbe3",
       "statusCode": 302
@@ -26,6 +44,10 @@
     },
     {
       "route": "/scripts/*",
+      "statusCode": 404
+    },
+    {
+      "route": "/data/*",
       "statusCode": 404
     },
     {
@@ -41,10 +63,17 @@
   },
   "globalHeaders": {
     "X-Content-Type-Options": "nosniff",
-    "Referrer-Policy": "strict-origin-when-cross-origin"
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "X-Frame-Options": "DENY",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()",
+    "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+    "Content-Security-Policy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://formsubmit.co; upgrade-insecure-requests; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.jsdelivr.net https://assets.pinterest.com https://*.pinterest.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://images.unsplash.com https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com https://*.doubleclick.net https://*.pinimg.com https://*.pinterest.com; media-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.google.com https://*.doubleclick.net https://formsubmit.co https://cdn.jsdelivr.net https://*.pinterest.com; frame-src https://www.googletagmanager.com https://*.doubleclick.net https://*.pinterest.com; worker-src 'self' blob:; manifest-src 'self'"
   },
   "mimeTypes": {
     ".json": "application/json",
-    ".mp4": "video/mp4"
+    ".mp4": "video/mp4",
+    ".webmanifest": "application/manifest+json",
+    ".txt": "text/plain; charset=utf-8"
   }
 }

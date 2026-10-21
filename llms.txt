@@ -1,0 +1,39 @@
+# MyTickets Tours
+
+> Independent guide to international sports and concert tickets, in Portuguese, English and Spanish. Tickets are sold and delivered by the partner SportsEvents365; MyTickets Tours is an affiliate and earns a commission at no extra cost to the buyer.
+
+## Home pages
+
+- [pt-BR](https://mytickets.tours/)
+- [en](https://mytickets.tours/en/)
+- [es](https://mytickets.tours/es/)
+
+## Event guides (English)
+
+- [FC Barcelona vs Real Madrid — Sunday, October 25, 2026, Camp Nou, Barcelona](https://mytickets.tours/en/events/barcelona-vs-real-madrid-2026-10-25/)
+- [AC Milan vs Inter — Saturday, October 31, 2026, San Siro (Giuseppe Meazza), Milan](https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/)
+- [Italy vs France — Thursday, November 12, 2026, San Siro (Giuseppe Meazza), Milan](https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/)
+- [France vs South Africa — Friday, November 13, 2026, Stade de France, Paris](https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/)
+- [Formula 1 Abu Dhabi Grand Prix — Sunday, December 6, 2026, Yas Marina Circuit, Abu Dhabi](https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/)
+- [FC Barcelona vs Manchester City — Tuesday, December 8, 2026, Camp Nou, Barcelona](https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/)
+- [New York Knicks vs Denver Nuggets — Monday, January 11, 2027, Madison Square Garden, New York](https://mytickets.tours/en/events/knicks-vs-nuggets-2027-01-11/)
+- [Australian Open Men's Final — Sunday, January 31, 2027, Rod Laver Arena, Melbourne](https://mytickets.tours/en/events/final-australian-open-2027-01-31/)
+- [Celine Dion in Paris — Friday, May 14, 2027, Paris La Défense Arena, Paris](https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/)
+- [2027 Champions League Final — Saturday, June 5, 2027, Estadio Metropolitano, Madrid](https://mytickets.tours/en/events/final-champions-league-2027-06-05/)
+
+## Guides
+
+- [Football tickets](https://mytickets.tours/en/football/)
+- [Tickets in Barcelona](https://mytickets.tours/en/cities/barcelona/)
+- [Tickets in Milan](https://mytickets.tours/en/cities/milan/)
+- [Tickets in Paris](https://mytickets.tours/en/cities/paris/)
+- [UEFA Champions League tickets](https://mytickets.tours/en/competitions/uefa-champions-league/)
+- [How to buy tickets for games in Europe without getting scammed (2026 guide)](https://mytickets.tours/en/guides/buy-tickets-europe-safely/)
+- [FC Barcelona tickets at Camp Nou: how to buy safely as a tourist](https://mytickets.tours/en/guides/barcelona-tickets-camp-nou/)
+- [How MyTickets works and what is guaranteed](https://mytickets.tours/en/how-it-works/)
+- [Affiliate disclosure and legal notice | MyTickets Tours](https://mytickets.tours/en/affiliate-disclosure/)
+
+## Feeds and sitemaps
+
+- Atom: https://mytickets.tours/en/feed.xml
+- Sitemap: https://mytickets.tours/sitemap.xml

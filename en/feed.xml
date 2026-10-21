@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>MyTickets Tours · upcoming events</title>
+  <link rel="alternate" type="text/html" href="https://mytickets.tours/en/"/>
+  <link rel="self" type="application/atom+xml" href="https://mytickets.tours/en/feed.xml"/>
+  <id>https://mytickets.tours/en/feed.xml</id>
+  <updated>2026-10-21T00:00:00Z</updated>
+  <author><name>MyTickets Tours</name><email>email@mytickets.tours</email></author>
+  <icon>https://mytickets.tours/assets/icons/icon-192.png</icon>
+  <entry>
+    <title>FC Barcelona vs Real Madrid 2026 tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/barcelona-vs-real-madrid-2026-10-25/"/>
+    <id>https://mytickets.tours/en/events/barcelona-vs-real-madrid-2026-10-25/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>El Clásico at Camp Nou in La Liga. It is the most wanted game of the Spanish season, and tickets go fast.</summary>
+    <category term="football"/>
+  </entry>
+  <entry>
+    <title>AC Milan vs Inter 2026 tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/"/>
+    <id>https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>The Milan derby (Derby della Madonnina) in Serie A. Both clubs share San Siro, and the city stops on match day.</summary>
+    <category term="football"/>
+  </entry>
+  <entry>
+    <title>Italy vs France 2026 tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/"/>
+    <id>https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>Two World Cup-winning nations meet at San Siro in the UEFA Nations League.</summary>
+    <category term="football"/>
+  </entry>
+  <entry>
+    <title>France vs South Africa 2026 tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/"/>
+    <id>https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>Test rugby at the Stade de France: France host South Africa in the World Rugby Nations Championship.</summary>
+    <category term="rugby"/>
+  </entry>
+  <entry>
+    <title>Formula 1 Abu Dhabi Grand Prix 2026 tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/"/>
+    <id>https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>The final round of the Formula 1 season, a race that starts at dusk and finishes under the Yas Marina floodlights.</summary>
+    <category term="f1"/>
+  </entry>
+  <entry>
+    <title>FC Barcelona vs Manchester City 2026 tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/"/>
+    <id>https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>Champions League night at Camp Nou: Barcelona host Manchester City.</summary>
+    <category term="football"/>
+  </entry>
+  <entry>
+    <title>New York Knicks vs Denver Nuggets tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/knicks-vs-nuggets-2027-01-11/"/>
+    <id>https://mytickets.tours/en/events/knicks-vs-nuggets-2027-01-11/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>NBA at Madison Square Garden, basketball&#x27;s most famous arena, with the Knicks hosting the Nuggets.</summary>
+    <category term="nba"/>
+  </entry>
+  <entry>
+    <title>Australian Open Men&#x27;s Final 2027 tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/final-australian-open-2027-01-31/"/>
+    <id>https://mytickets.tours/en/events/final-australian-open-2027-01-31/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>The men&#x27;s final of the year&#x27;s first Grand Slam, on the main court at Melbourne Park.</summary>
+    <category term="tennis"/>
+  </entry>
+  <entry>
+    <title>Celine Dion in Paris 2027 tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/"/>
+    <id>https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>Celine Dion performs at Paris La Défense Arena. The partner also lists a second date the next day, May 15.</summary>
+    <category term="concert"/>
+  </entry>
+  <entry>
+    <title>2027 Champions League Final tickets: guaranteed delivery</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/en/events/final-champions-league-2027-06-05/"/>
+    <id>https://mytickets.tours/en/events/final-champions-league-2027-06-05/</id>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>The 2027 Champions League final is at the Estadio Metropolitano in Madrid. The finalists are not decided yet.</summary>
+    <category term="football"/>
+  </entry>
+</feed>

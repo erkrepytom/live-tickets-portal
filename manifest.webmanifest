@@ -1,0 +1,29 @@
+{
+ "name": "MyTickets Tours",
+ "short_name": "MyTickets",
+ "description": "Tickets for La Liga, Serie A, the Champions League, NBA, Formula 1, tennis and concerts worldwide, with a guide to every event. Sold and delivered by SportsEvents365.",
+ "start_url": "/?utm_source=pwa",
+ "scope": "/",
+ "display": "standalone",
+ "lang": "en",
+ "background_color": "#0B1726",
+ "theme_color": "#0B1726",
+ "icons": [
+  {
+   "src": "/assets/icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/assets/icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "/assets/icons/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}

@@ -506,6 +506,27 @@ def foto_abs(img):
     return foto(img, 1200) if img.startswith("photo-") else f"{BASE_URL}/assets/img/{img}"
 
 
+def imagem(img, alt, pagina, w=800, larguras=(400, 800, 1200), sizes="(max-width: 640px) 90vw, 400px", cls="photo"):
+    """<img> de verdade (em vez de background-image): entra no Google Imagens, tem texto alternativo,
+    carrega só quando se aproxima da tela (loading=lazy) e, no Unsplash, em vários tamanhos (srcset)."""
+    pos = "object-position:right center" if re.match(r"\d\d-", img) else ""
+    attrs = f'class="{cls}" alt="{e(alt)}" loading="lazy" decoding="async"'
+    if pos:
+        attrs += f' style="{pos}"'
+    if img.startswith("photo-"):
+        srcset = ", ".join(f"{e(foto(img, x))} {x}w" for x in larguras)
+        return f'<img src="{e(foto(img, w))}" srcset="{srcset}" sizes="{sizes}" width="{w}" height="{w * 5 // 8}" {attrs}>'
+    dims = ""
+    try:
+        from PIL import Image
+        arq = RAIZ / "assets" / "img" / re.sub(r"\.jpe?g$", ".webp", img)
+        with Image.open(arq if arq.exists() else RAIZ / "assets" / "img" / img) as im:
+            dims = f'width="{im.width}" height="{im.height}" '
+    except Exception:
+        pass
+    return f'<img src="{e(foto(img, w, pagina))}" {dims}{attrs}>'
+
+
 def bg(img, w, pagina, extra=""):
     """style de fundo; os banners antigos têm o degradê à esquerda, então mostramos o lado direito."""
     pos = "background-position:right center;" if re.match(r"\d\d-", img) else ""
@@ -581,8 +602,27 @@ def ld_breadcrumb(itens):
             "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": f"{BASE_URL}/{p}"} for i, (n, p) in enumerate(itens)]}
 
 
+COR_TEMA = "#0B1726"
+# Nome do feed Atom de cada idioma (lista dos próximos eventos; leitores de RSS, agregadores e buscadores).
+FEED = {"pt": "feed.xml", "en": "en/feed.xml", "es": "es/feed.xml"}
+FEED_TITULO = {"pt": "MyTickets Tours · próximos eventos", "en": "MyTickets Tours · upcoming events", "es": "MyTickets Tours · próximos eventos"}
+
+
+def regras_especulacao(pagina):
+    """Speculation Rules (Chrome 121+): pré-busca as páginas internas quando o visitante passa o mouse ou
+    toca no link, então a próxima página abre quase instantânea. Só HTML do próprio site; os gateways
+    /go/ e /ir/ (que registram o clique de afiliado) e os links externos ficam de fora.
+    Navegadores que não conhecem a regra ignoram o script."""
+    regras = {"prefetch": [{"where": {"and": [{"href_matches": "/*"},
+                                                 {"not": {"href_matches": "/go/*"}}, {"not": {"href_matches": "/ir/*"}},
+                                                 {"not": {"href_matches": "/assets/*"}}, {"not": {"selector_matches": "[rel~=sponsored]"}}]},
+                            "eagerness": "moderate"}]}
+    return f'<script type="speculationrules">{json.dumps(regras)}</script>'
+
+
 def cabeca(lang, pagina, titulo, desc, alternos, extra="", imagem=None):
     alt = "\n".join(f'<link rel="alternate" hreflang="{HREFLANG[l]}" href="{BASE_URL}/{p}">' for l, p in alternos.items())
+    og_img = foto_abs(imagem or OG_PADRAO)
     return f"""<!DOCTYPE html>
 <html lang="{HREFLANG[lang]}">
 <head>
@@ -590,24 +630,37 @@ def cabeca(lang, pagina, titulo, desc, alternos, extra="", imagem=None):
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>{e(titulo)}</title>
 <meta name="description" content="{e(desc)}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="{COR_TEMA}">
 <link rel="canonical" href="{BASE_URL}/{pagina}">
 {alt}
 <link rel="alternate" hreflang="x-default" href="{BASE_URL}/{alternos['en']}">
+<link rel="alternate" type="application/atom+xml" title="{e(FEED_TITULO[lang])}" href="{rel(pagina, FEED[lang])}">
+<link rel="icon" href="{rel(pagina, 'favicon.ico')}" sizes="48x48">
+<link rel="icon" href="{rel(pagina, 'favicon.svg')}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{rel(pagina, 'apple-touch-icon.png')}">
+<link rel="manifest" href="{rel(pagina, 'manifest.webmanifest')}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{e(titulo)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{BASE_URL}/{pagina}">
 <meta property="og:locale" content="{HREFLANG[lang].replace('-', '_')}">
 <meta property="og:site_name" content="MyTickets Tours">
-<meta property="og:image" content="{e(foto_abs(imagem or OG_PADRAO))}">
+<meta property="og:image" content="{e(og_img)}">
+<meta property="og:image:alt" content="{e(titulo)}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{e(titulo)}">
+<meta name="twitter:description" content="{e(desc)}">
+<meta name="twitter:image" content="{e(og_img)}">
 {f'<meta name="p:domain_verify" content="{e(PINTEREST_VERIFY)}">' if PINTEREST_VERIFY else ''}
 {f'<meta name="google-site-verification" content="{e(GSC_VERIFICATION)}">' if GSC_VERIFICATION else ''}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://images.unsplash.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800;900&family=JetBrains+Mono:wght@500;700&family=Chakra+Petch:wght@600&family=IBM+Plex+Mono:wght@400&display=swap">
 <link rel="stylesheet" href="{rel(pagina, 'assets/site.css')}{versao('assets/site.css')}">
 {ga_tag()}
+{regras_especulacao(pagina)}
 {extra}
 </head>"""
 
@@ -713,7 +766,7 @@ def rodape(lang, pagina, alternos):
 def cartao(lang, pagina, ev):
     t = T[lang]
     return f"""<a class="card" href="{rel(pagina, caminho_evento(lang, ev['slug']))}">
-  <div class="card-img photo" style="{bg(ev['img'], 800, pagina)}"><span class="card-date">{e(data_curta(ev['data'], lang))} {ev['data'][:4]}</span></div>
+  <div class="card-img">{imagem(ev['img'], f"{L(ev['titulo'], lang)} · {ev['local']}", pagina)}<span class="card-date">{e(data_curta(ev['data'], lang))} {ev['data'][:4]}</span></div>
   <div class="card-body"><h3>{e(L(ev['titulo'], lang))}</h3><p>{e(ev['local'])} · {e(L(ev['cidade'], lang))}</p></div>
 </a>"""
 
@@ -724,7 +777,8 @@ def home(lang, eventos, noticias, hubs):
     alternos = {l: caminho_home(l) for l in IDIOMAS}
     solar_css = (RAIZ / "assets" / "solar-banner.css").read_text(encoding="utf-8")
     org = {"@context": "https://schema.org", "@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "MyTickets Tours",
-           "url": f"{BASE_URL}/", "email": CONTATO_EMAIL}
+           "url": f"{BASE_URL}/", "email": CONTATO_EMAIL,
+           "logo": {"@type": "ImageObject", "url": f"{BASE_URL}/assets/img/logo-512.png", "width": 512, "height": 512}}
     org["sameAs"] = [u for u in (f"https://www.pinterest.com/{PINTEREST_PERFIL}/" if PINTEREST_PERFIL else "", YOUTUBE_CANAL) if u]
     site = {"@context": "https://schema.org", "@type": "WebSite", "@id": f"{BASE_URL}/#site", "name": "MyTickets Tours",
             "url": f"{BASE_URL}/{pagina}", "inLanguage": HREFLANG[lang], "publisher": {"@id": f"{BASE_URL}/#org"}}
@@ -754,7 +808,7 @@ def home(lang, eventos, noticias, hubs):
             alvo = f'href="{rel(pagina, caminho_hub(lang, g))}"'
         else:
             alvo = f'href="{e(parceiro(lang, dock_esporte(cod)))}" target="_blank" rel="sponsored nofollow noopener"'
-        return f'<a class="ptile" {alvo}><span class="photo" style="{bg(img, 600, pagina)}"></span><span>{e(L(n, lang))}</span></a>'
+        return f'<a class="ptile" {alvo}>{imagem(img, L(n, lang), pagina, w=600, larguras=(400, 600, 900))}<span>{e(L(n, lang))}</span></a>'
     tiles = "".join(tile(n, cod, img) for n, cod, img in ESPORTES)
     def chips(itens, base):
         return "".join(f'<a class="chip" href="{e(parceiro(lang, base + s))}" target="_blank" rel="sponsored nofollow noopener">{e(L(n, lang))}</a>' for n, s in itens)
@@ -1459,10 +1513,82 @@ def escrever(caminho, conteudo, manifesto, hoje):
     return caminho
 
 
-def sitemap(nome, caminhos, manifesto):
-    linhas = "\n".join(f"  <url><loc>{BASE_URL}/{u}</loc><lastmod>{manifesto[u]['d']}</lastmod></url>" for u in caminhos)
-    (RAIZ / nome).write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{linhas}\n</urlset>\n', encoding="utf-8")
+def sitemap(nome, caminhos, manifesto, meta):
+    """Sitemap com as versões de idioma de cada URL (xhtml:link, o formato que o Google pede para sites
+    multilíngues) e a imagem principal da página (sitemap de imagens, para o Google Imagens).
+    meta[caminho] = {"alt": {lang: caminho}, "img": url absoluta ou None}."""
+    def url(u):
+        m = meta.get(u, {})
+        alts = "".join(f'<xhtml:link rel="alternate" hreflang="{HREFLANG[l]}" href="{BASE_URL}/{p}"/>' for l, p in m.get("alt", {}).items())
+        if m.get("alt"):
+            alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{BASE_URL}/{m["alt"]["en"]}"/>'
+        img = f'<image:image><image:loc>{e(m["img"])}</image:loc></image:image>' if m.get("img") else ""
+        return f"  <url><loc>{BASE_URL}/{u}</loc><lastmod>{manifesto[u]['d']}</lastmod>{alts}{img}</url>"
+    linhas = "\n".join(url(u) for u in caminhos)
+    (RAIZ / nome).write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+                             'xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+                             f'{linhas}\n</urlset>\n', encoding="utf-8")
     return max(manifesto[u]["d"] for u in caminhos)
+
+
+def feed_atom(lang, eventos, manifesto):
+    """Feed Atom dos próximos eventos no idioma: um item por evento, apontando para a página-guia."""
+    pagina = caminho_home(lang)
+    atual = max((manifesto.get(caminho_evento(lang, ev["slug"]), {}).get("d", "") for ev in eventos), default=dt.date.today().isoformat())
+    itens = []
+    for ev in eventos:
+        cam = caminho_evento(lang, ev["slug"])
+        upd = manifesto.get(cam, {}).get("d", atual)
+        itens.append(f"""  <entry>
+    <title>{e(C.titulo_evento(lang, L(ev['titulo'], lang), ev['data'][:4], ev['local']))}</title>
+    <link rel="alternate" type="text/html" href="{BASE_URL}/{cam}"/>
+    <id>{BASE_URL}/{cam}</id>
+    <updated>{upd}T00:00:00Z</updated>
+    <summary>{e(L(ev['intro'], lang))}</summary>
+    <category term="{e(ev['tipo'])}"/>
+  </entry>""")
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{HREFLANG[lang]}">
+  <title>{e(FEED_TITULO[lang])}</title>
+  <link rel="alternate" type="text/html" href="{BASE_URL}/{pagina}"/>
+  <link rel="self" type="application/atom+xml" href="{BASE_URL}/{FEED[lang]}"/>
+  <id>{BASE_URL}/{FEED[lang]}</id>
+  <updated>{atual}T00:00:00Z</updated>
+  <author><name>MyTickets Tours</name><email>{CONTATO_EMAIL}</email></author>
+  <icon>{BASE_URL}/assets/icons/icon-192.png</icon>
+{chr(10).join(itens)}
+</feed>
+"""
+    (RAIZ / FEED[lang]).parent.mkdir(parents=True, exist_ok=True)
+    (RAIZ / FEED[lang]).write_text(xml, encoding="utf-8")
+
+
+def manifesto_pwa():
+    """Web App Manifest: nome, ícones e cor do site ao ser adicionado à tela inicial do celular."""
+    m = {"name": "MyTickets Tours", "short_name": "MyTickets", "description": T["en"]["home_desc"],
+         "start_url": "/?utm_source=pwa", "scope": "/", "display": "standalone", "lang": "en",
+         "background_color": COR_TEMA, "theme_color": COR_TEMA,
+         "icons": [{"src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                   {"src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+                   {"src": "/assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}
+    (RAIZ / "manifest.webmanifest").write_text(json.dumps(m, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+def llms_txt(eventos, hubs):
+    """llms.txt: resumo do site em texto simples para assistentes e buscadores com IA (proposta llmstxt.org)."""
+    linhas = ["# MyTickets Tours", "",
+              "> Independent guide to international sports and concert tickets, in Portuguese, English and Spanish. "
+              "Tickets are sold and delivered by the partner SportsEvents365; MyTickets Tours is an affiliate and earns a commission at no extra cost to the buyer.",
+              "", "## Home pages", ""] + [f"- [{HREFLANG[l]}]({BASE_URL}/{caminho_home(l)})" for l in IDIOMAS] + ["", "## Event guides (English)", ""]
+    for ev in eventos:
+        linhas.append(f"- [{L(ev['titulo'], 'en')} — {data_longa(ev['data'], 'en')}, {ev['local']}, {L(ev['cidade'], 'en')}]({BASE_URL}/{caminho_evento('en', ev['slug'])})")
+    linhas += ["", "## Guides", ""]
+    for g in hubs.values():
+        linhas.append(f"- [{titulo_hub('en', g)}]({BASE_URL}/{caminho_hub('en', g)})")
+    for pg in (C.GUIA, C.GUIA_BARCA, C.COMO_FUNCIONA, C.DIVULGACAO):
+        linhas.append(f"- [{pg['en']['title']}]({BASE_URL}/{pg['en']['path']})")
+    linhas += ["", "## Feeds and sitemaps", "", f"- Atom: {BASE_URL}/en/feed.xml", f"- Sitemap: {BASE_URL}/sitemap.xml", ""]
+    (RAIZ / "llms.txt").write_text("\n".join(linhas), encoding="utf-8")
 
 
 def main():
@@ -1479,21 +1605,35 @@ def main():
     except (OSError, ValueError):
         manifesto = {}
     hubs = montar_hubs(eventos)
+    import icones  # favicon, ícones do manifest e logo da Organization
+    icones.gerar()
     grupos = {"paginas": [], "esportes": [], "shows": [], "guias": []}
+    meta = {}  # caminho -> versões de idioma e imagem principal, para o sitemap
+
+    def anotar(caminho, alternos, img=None):
+        meta[caminho] = {"alt": alternos, "img": img}
+        return caminho
     for lang in IDIOMAS:
-        grupos["paginas"].append(escrever(caminho_home(lang), home(lang, eventos, noticias, hubs), manifesto, hoje))
+        grupos["paginas"].append(anotar(escrever(caminho_home(lang), home(lang, eventos, noticias, hubs), manifesto, hoje),
+                                        {l: caminho_home(l) for l in IDIOMAS}, foto_abs(OG_PADRAO)))
         for ev in eventos:
             grupo = "shows" if ev["tipo"] == "concert" else "esportes"
-            grupos[grupo].append(escrever(caminho_evento(lang, ev["slug"]), evento(lang, ev, eventos, hubs), manifesto, hoje))
+            grupos[grupo].append(anotar(escrever(caminho_evento(lang, ev["slug"]), evento(lang, ev, eventos, hubs), manifesto, hoje),
+                                        {l: caminho_evento(l, ev["slug"]) for l in IDIOMAS}, foto_abs(ev.get("banner", ev["img"]))))
         for g in hubs.values():
-            grupos["guias"].append(escrever(caminho_hub(lang, g), hub(lang, g, eventos, hubs), manifesto, hoje))
+            grupos["guias"].append(anotar(escrever(caminho_hub(lang, g), hub(lang, g, eventos, hubs), manifesto, hoje),
+                                          {l: caminho_hub(l, g) for l in IDIOMAS}))
     for lang in IDIOMAS:
-        grupos["paginas"].append(escrever(PRIV[lang]["path"], privacidade(lang), manifesto, hoje))
-        grupos["paginas"].append(escrever(C.COMO_FUNCIONA[lang]["path"], como_funciona(lang), manifesto, hoje))
-        grupos["paginas"].append(escrever(C.DIVULGACAO[lang]["path"], divulgacao(lang), manifesto, hoje))
-        grupos["guias"].append(escrever(C.GUIA[lang]["path"], guia(lang, eventos, hubs), manifesto, hoje))
-        grupos["guias"].append(escrever(C.GUIA_BARCA[lang]["path"], guia_barca(lang, eventos), manifesto, hoje))
+        grupos["paginas"].append(anotar(escrever(PRIV[lang]["path"], privacidade(lang), manifesto, hoje), {l: PRIV[l]["path"] for l in IDIOMAS}))
+        grupos["paginas"].append(anotar(escrever(C.COMO_FUNCIONA[lang]["path"], como_funciona(lang), manifesto, hoje), {l: C.COMO_FUNCIONA[l]["path"] for l in IDIOMAS}))
+        grupos["paginas"].append(anotar(escrever(C.DIVULGACAO[lang]["path"], divulgacao(lang), manifesto, hoje), {l: C.DIVULGACAO[l]["path"] for l in IDIOMAS}))
+        grupos["guias"].append(anotar(escrever(C.GUIA[lang]["path"], guia(lang, eventos, hubs), manifesto, hoje), {l: C.GUIA[l]["path"] for l in IDIOMAS}))
+        grupos["guias"].append(anotar(escrever(C.GUIA_BARCA[lang]["path"], guia_barca(lang, eventos), manifesto, hoje), {l: C.GUIA_BARCA[l]["path"] for l in IDIOMAS}))
     gerar_catalogo(eventos)
+    for lang in IDIOMAS:
+        feed_atom(lang, eventos, manifesto)
+    manifesto_pwa()
+    llms_txt(eventos, hubs)
     import pins  # arte vertical dos pins do Pinterest (assets/pins/), redesenhada só quando muda
     feitas = pins.gerar_imagens(eventos)
     if feitas:
@@ -1505,7 +1645,7 @@ def main():
     for grupo, caminhos in grupos.items():
         alvo = RAIZ / nomes[grupo]
         if caminhos:
-            indice.append((nomes[grupo], sitemap(nomes[grupo], caminhos, manifesto)))
+            indice.append((nomes[grupo], sitemap(nomes[grupo], caminhos, manifesto, meta)))
         elif alvo.exists():
             alvo.unlink()
     entradas = "\n".join(f"  <sitemap><loc>{BASE_URL}/{n}</loc><lastmod>{d}</lastmod></sitemap>" for n, d in indice)

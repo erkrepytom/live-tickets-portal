@@ -68,6 +68,10 @@ Every ticket link goes straight to the matching event, competition, team, city o
 
 `.github/workflows/noticias.yml` updates `dados.json` every hour and republishes the site. The home pages show one news block per country, ordered by GA4 visitors when configured.
 
+## Headers and security
+
+`staticwebapp.config.json` sets the security headers served by Azure (HSTS, Content-Security-Policy, Permissions-Policy, X-Frame-Options, COOP) and long caching for `/assets/*` (asset URLs are versioned with `?v=<hash>`, so a changed file is always re-fetched). When a new third-party script or host is added to the pages, add it to the CSP too, or the browser will block it.
+
 ## Hosting
 
 The official site is https://mytickets.tours, served by the Azure Static Web App `app-mytickets-tours` (Free plan). Both workflows deploy there on every push and every hourly news update, using the `AZURE_STATIC_WEB_APPS_API_TOKEN` secret. `/tickets` redirects to the partner for old links (see `staticwebapp.config.json`). GitHub Pages keeps a mirror; canonical URLs point to mytickets.tours.
