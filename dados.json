@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-21T18:45:25+00:00",
+ "atualizado": "2026-10-21T22:27:35+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Como goleia Manchester United na Champions com assistência de ex-Cruzeiro",
-     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/como-goleia-manchester-united-na-champions-com-assistencia-de-ex-cruzeiro/",
+     "t": "Kane marca, mas Bayern cede empate ao Arsenal pela Champions",
+     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/arsenal-cede-empate-ao-bayern-e-perde-os-100-na-champions-league/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro sub-17 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/jogo/21-10-2026/atletico-mg-cruzeiro.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Luka Doncic assume protagonismo no Los Angeles Lakers sem LeBron e sonha com 1º título da NBA",
-     "u": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/luka-doncic-assume-protagonismo-no-los-angeles-lakers-sem-lebron-e-sonha-com-1o-titulo-da-nba.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Dani Olmo ficará um mês afastado por lesão e vira desfalque no Barça contra Real Madrid",
-     "u": "https://www.gazetaesportiva.com/times/barcelona/dani-olmo-ficara-um-mes-afastado-por-lesao-e-vira-desfalque-no-barca-contra-real-madrid/",
+     "t": "Flamengo relata depredações no Maracanã após Vasco x Boca Juniors",
+     "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-relata-depredacoes-no-maracana-apos-vasco-x-boca-juniors/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Bayern e Arsenal empatam em Munique pela terceira rodada da Champions",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/21-10-2026/bayerndemunique-Arsenal.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Montevideo City Torque x Atlético-MG - Copa Sul-Americana 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/mg/futebol/copa-sul-americana/jogo/21-10-2026/montevideo-city-torque-atletico-mg.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Arsenal vs. Bayern Munich prediction, time, odds: 2026-27 UEFA Champions League picks from top expert",
-     "u": "https://www.cbssports.com/betting/news/arsenal-bayern-munich-prediction-time-odds-2026-27-uefa-champions-league-picks/",
+     "t": "Harry Kane shows Arsenal what they're missing at striker as Bayern hold Arsenal in Champions League draw",
+     "u": "https://www.cbssports.com/soccer/news/harry-kane-shows-arsenal-what-theyre-missing-at-striker-bayern-arsenal-champions-league/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Footy Fix: How to watch Arsenal vs. Bayern Munich, Real Madrid vs. RB Leipzig in UCL",
-     "u": "https://www.cbssports.com/soccer/news/footy-fix-how-to-watch-arsenal-vs-bayern-munich/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Michael Carrick's Manchester United clobbered at Como: Where do they go from here?",
-     "u": "https://sports.yahoo.com/articles/michael-carricks-manchester-united-clobbered-183857313.html",
+     "t": "Man Utd humiliated as Arsenal deny Bayern in Champions League",
+     "u": "https://sports.yahoo.com/articles/man-utd-humiliated-arsenal-deny-220815573.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "MLB took over Brewers broadcasts this year. The ratings went way up",
-     "u": "https://sports.yahoo.com/articles/mlb-took-over-brewers-broadcasts-183531614.html",
+     "t": "Use DraftKings promo code to get $200 bonus bets, free NBA League Pass for Timberwolves-Heat, Lakers-Warriors",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-timberwolves-heat-lakers-warriors/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Luis Díaz forced off in Bayern Munich vs. Arsenal with ‘muscular problems’",
+     "u": "https://sports.yahoo.com/articles/luis-d-az-forced-off-221021964.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Caos em França: Galatasaray exige garantias de segurança antes da Champions",
-     "u": "https://www.abola.pt/noticias/caos-em-franca-galatasaray-exige-garantias-de-seguranca-antes-da-champions-2026102014562207902",
-     "f": "A Bola",
-     "alta": true
-    },
-    {
-     "t": "Como-Manchester United, em direto",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/como-manchester-united-em-direto",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Bayern Munique-Arsenal, em direto",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/20261021-161222-bayern-munique-arsenal-em-direto",
+     "t": "Sporting já apurado para a Main-Round não quer facilitar em mais um jogo Champions",
+     "u": "https://www.record.pt/modalidades/andebol/detalhe/sporting-ja-apurado-para-a-main-round-nao-quer-facilitar-em-mais-um-jogo-champions",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Golos, penáltis e emoção até ao fim: Sporting ganha na Youth League",
-     "u": "https://www.abola.pt/noticias/golos-penaltis-e-emocao-ate-ao-fim-sporting-ganha-na-youth-league-2026102111025578100",
+     "t": "Champions: Liverpool vence com reviravolta num festival de golos em Anfield",
+     "u": "https://www.abola.pt/noticias/liverpool-villarreal-2026102020424426908",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Análise à derrota do Sporting com o LASK: «Custa a entender como Rui Borges demora tanto tempo a mexer na equipa»",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/analise-a-derrota-do-sporting-com-o-lask-custa-a-entender-como-rui-borges-demora-tanto-tempo-a-mexer-na-equipa",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Benfica de olho em talento da liga norueguesa",
+     "u": "https://www.abola.pt/noticias/benfica-de-olho-em-talento-da-liga-norueguesa-2026102009421966663",
      "f": "A Bola",
      "alta": false
     }
@@ -119,14 +119,14 @@
      "alta": false
     },
     {
-     "t": "La extraña confesión de Anthony Gordon tras el PSG-Barça",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261021/1004241470/extrana-confesion-anthony-gordon-psg-barca.html",
+     "t": "Habrá sanción de la UEFA al PSG por el tifo contra el Barça",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261021/1004241350/habra-sancion-uefa-psg-tifo-barca.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Habrá sanción de la UEFA al PSG por el tifo contra el Barça",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261021/1004241350/habra-sancion-uefa-psg-tifo-barca.html",
+     "t": "El Barça vuelve al trabajo tras el PSG y ya piensa en el Clásico",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261021/1004241481/barca-vuelve-trabajo-psg-piensa-clasico.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Bayern Munich v Arsenal: Champions League – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
      "t": "Ex-tennis pro Megan Rose appointed to lead 2031 men’s Rugby World Cup in US",
      "u": "https://www.theguardian.com/sport/2026/oct/21/ex-tennis-pro-megan-rose-appointed-to-lead-2031-mens-rugby-world-cup-in-us",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Bayern Munich vs Arsenal LIVE!",
-     "u": "https://www.skysports.com/football/bayern-munich-vs-arsenal/live/577643",
-     "f": "Sky Sports",
+     "t": "Arsenal’s Declan Rice strikes late to deny Bayern Munich after Harry Kane penalty",
+     "u": "https://www.theguardian.com/football/2026/oct/21/bayern-munich-arsenal-champions-league-match-report",
+     "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "LeBron James' 76ers beat Knicks on NBA opening night",
-     "u": "https://www.bbc.co.uk/sport/basketball/articles/c6vgj4g913wyo?at_medium=RSS&at_campaign=rss",
+     "t": "Rice strikes to earn Arsenal draw at Bayern",
+     "u": "https://www.bbc.co.uk/sport/football/videos/crx23nx0vp8jo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Arsenal fight back to draw against Bayern Munich",
+     "u": "https://www.skysports.com/football/bayern-munich-vs-arsenal/report/577643",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "El gigante europeo que sigue de cerca a Lisandro Martínez tras su conflicto con el Manchester United",
-     "u": "https://www.infobae.com/deportes/2026/10/21/el-gigante-europeo-que-sigue-de-cerca-a-lisandro-martinez-tras-su-conflicto-con-el-manchester-united/",
-     "f": "Infobae",
-     "alta": true
+     "t": "El fútbol a los pies de Paredes, del Mundo Boca al DT de Vasco da Gama",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-leandroparedes-maracana-vascodagama-copasudamericana-rodolfoarruabarrena-alvaromontero-miguelmerentiel-facundoherrera-brasil_0_MQDZmeGcpg.html",
+     "f": "Olé",
+     "alta": false
     },
     {
-     "t": "Show de Nico Paz en la goleada histórica del Como a Manchester United en Champions League: doblete con un zurdazo al ángulo al minuto y asistencia cla",
+     "t": "Bayern Múnich y Arsenal igualaron 2-2 en un choque de favoritos en la Champions League: todos los goles del día",
+     "u": "https://www.infobae.com/deportes/2026/10/21/el-como-de-nico-paz-jugara-ante-manchester-united-y-el-leipzig-de-demichelis-contra-real-madrid-la-agenda-del-cierre-de-la-fecha-3-de-la-champions-league/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Show de Nico Paz en la goleada del Como a Manchester United en Champions League: doblete con un zurdazo al ángulo y asistencia clave",
      "u": "https://www.infobae.com/deportes/2026/10/21/el-golazo-bajo-la-lluvia-de-nico-paz-ante-el-manchester-united-al-minuto-del-partido-por-champions-league/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Flamengo denunció destrozos en el Maracaná tras Vasco-Boca a horas de recibir a Estudiantes",
-     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flamengo-denuncio-danos-maracana-estudiantes-vascodagama-boca_0_VxDlWMdH6v.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "De tal palo, tal astilla: el hijo de Marcelo convirtió un gol para el Real Madrid por la Champions League juvenil",
-     "u": "https://www.ole.com.ar/futbol-internacional/espana/gol-marcelo-vieira-hijo-enzo-alves-real-madrid-goleada-leipzig-champions-league-juvenil-youth-league_0_L43zdW7Sxy.html",
+     "t": "Otro partido negativo para Vinicius en el Real Madrid: silbado contra Leipzig, su disconformismo y la banca de Mbappé",
+     "u": "https://www.ole.com.ar/futbol-internacional/vinicius-real-madrid-champions-league-liepzig-mala-actuacion_0_U2pMi2dabl.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Où voir Bayern-Arsenal ?",
-     "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-bayern-arsenal-en-ligue-des-champions/1737240#at_medium=RSS_feeds",
+     "t": "Côme, Manchester City, Liverpool... la suite compliquée du programme de Lens en Ligue des champions après la lourde défaite à Bruges",
+     "u": "https://www.lequipe.fr/Football/Actualites/Come-manchester-city-liverpool-la-suite-compliquee-du-programme-de-lens-en-ligue-des-champions-apres-la-lourde-defaite-a-bruges/1737648#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "L'AC Milan soutient le boycott de ses supporters pour la rencontre face à l'Udinese en raison des prix des billets jugés trop élevés",
-     "u": "https://www.lequipe.fr/Football/Actualites/L-ac-milan-soutient-le-boycott-de-ses-supporters-pour-la-rencontre-face-a-l-udinese-en-raison-des-prix-des-billets-juges-trop-eleves/1737548#at_medium=RSS_feeds",
+     "t": "Ligue des champions : l'Inter Milan s'impose in extremis face au Chakhtar Donetsk, le Betis Séville enchaîne une troisième victoire",
+     "u": "https://www.lequipe.fr/Football/Actualites/Ligue-des-champions-l-inter-milan-s-impose-in-extremis-face-au-chakhtar-donetsk-le-betis-seville-enchaine-une-troisieme-victoire/1737635#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,24 +253,24 @@
  ],
  "destaques": [
   {
-   "t": "Como goleia Manchester United na Champions com assistência de ex-Cruzeiro",
-   "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/como-goleia-manchester-united-na-champions-com-assistencia-de-ex-cruzeiro/",
+   "t": "Kane marca, mas Bayern cede empate ao Arsenal pela Champions",
+   "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/arsenal-cede-empate-ao-bayern-e-perde-os-100-na-champions-league/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Arsenal vs. Bayern Munich prediction, time, odds: 2026-27 UEFA Champions League picks from top expert",
-   "u": "https://www.cbssports.com/betting/news/arsenal-bayern-munich-prediction-time-odds-2026-27-uefa-champions-league-picks/",
+   "t": "Harry Kane shows Arsenal what they're missing at striker as Bayern hold Arsenal in Champions League draw",
+   "u": "https://www.cbssports.com/soccer/news/harry-kane-shows-arsenal-what-theyre-missing-at-striker-bayern-arsenal-champions-league/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Caos em França: Galatasaray exige garantias de segurança antes da Champions",
-   "u": "https://www.abola.pt/noticias/caos-em-franca-galatasaray-exige-garantias-de-seguranca-antes-da-champions-2026102014562207902",
-   "f": "A Bola",
-   "alta": true,
+   "t": "Sporting já apurado para a Main-Round não quer facilitar em mais um jogo Champions",
+   "u": "https://www.record.pt/modalidades/andebol/detalhe/sporting-ja-apurado-para-a-main-round-nao-quer-facilitar-em-mais-um-jogo-champions",
+   "f": "Record",
+   "alta": false,
    "pais": "PT"
   },
   {
@@ -281,17 +281,17 @@
    "pais": "ES"
   },
   {
-   "t": "Bayern Munich v Arsenal: Champions League – live",
-   "u": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
+   "t": "Ex-tennis pro Megan Rose appointed to lead 2031 men’s Rugby World Cup in US",
+   "u": "https://www.theguardian.com/sport/2026/oct/21/ex-tennis-pro-megan-rose-appointed-to-lead-2031-mens-rugby-world-cup-in-us",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "El gigante europeo que sigue de cerca a Lisandro Martínez tras su conflicto con el Manchester United",
-   "u": "https://www.infobae.com/deportes/2026/10/21/el-gigante-europeo-que-sigue-de-cerca-a-lisandro-martinez-tras-su-conflicto-con-el-manchester-united/",
-   "f": "Infobae",
-   "alta": true,
+   "t": "El fútbol a los pies de Paredes, del Mundo Boca al DT de Vasco da Gama",
+   "u": "https://www.ole.com.ar/boca-juniors/boca-leandroparedes-maracana-vascodagama-copasudamericana-rodolfoarruabarrena-alvaromontero-miguelmerentiel-facundoherrera-brasil_0_MQDZmeGcpg.html",
+   "f": "Olé",
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Où voir Bayern-Arsenal ?",
-   "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-bayern-arsenal-en-ligue-des-champions/1737240#at_medium=RSS_feeds",
+   "t": "Côme, Manchester City, Liverpool... la suite compliquée du programme de Lens en Ligue des champions après la lourde défaite à Bruges",
+   "u": "https://www.lequipe.fr/Football/Actualites/Come-manchester-city-liverpool-la-suite-compliquee-du-programme-de-lens-en-ligue-des-champions-apres-la-lourde-defaite-a-bruges/1737648#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
