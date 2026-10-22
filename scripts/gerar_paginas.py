@@ -551,9 +551,7 @@ def videos_do_evento(ev, lang):
     """Vídeos ligados ao evento: YouTube primeiro (no idioma da página, depois os outros), depois os shorts locais
     cujo idioma ainda não tem versão no YouTube."""
     yt = [v for v in videos_todos() if v.get("evento") == ev["slug"]]
-    idiomas_yt = {v.get("idioma") for v in yt}
-    locais = [v for v in videos_locais(_EVENTOS) if v["evento"] == ev["slug"] and v["idioma"] not in idiomas_yt]
-    return sorted(yt + locais, key=lambda v: (v.get("idioma") != lang, "mp4" in v))
+    return sorted(yt, key=lambda v: (v.get("idioma") != lang, ))
 
 
 _EVENTOS = []
@@ -564,7 +562,7 @@ def titulo_video(v, lang):
     return L(t, lang) if isinstance(t, dict) else t
 
 
-def facade_video(v, lang, pagina, vertical=True):
+def facade_video(v, lang, pagina, vertical=False):
     """Vídeo em ação: a miniatura é estática até o bloco entrar na tela; aí o assets/site.js troca pelo player
     tocando sem som (YouTube via youtube-nocookie, ou o MP4 local) e pausa quando sai da tela. Um toque liga o som.
     Nada do YouTube é baixado antes de o vídeo chegar perto da tela: bom para Core Web Vitals e para privacidade."""
@@ -609,11 +607,16 @@ def cta_video(v, lang, pagina, eventos):
     return "".join(botoes)
 
 
-def cartao_video(v, lang, pagina, eventos, vertical=True):
+def credito_video(v):
+    """Crédito do canal dono do vídeo (vídeos de ESPN, LaLiga, Serie A etc. são incorporados do YouTube, nunca copiados)."""
+    return f'<span class="vcredit">YouTube · {e(v["canal"])}</span>' if v.get("canal") else ""
+
+
+def cartao_video(v, lang, pagina, eventos, vertical=False):
     ev = next((x for x in eventos if x["slug"] == v.get("evento")), None)
     meta = (f'{e(data_curta(ev["data"], lang))} {ev["data"][:4]} · {e(L(ev["cidade"], lang))}' if ev else e(v.get("publicado", "")))
     return (f'<article class="vcard">{facade_video(v, lang, pagina, vertical)}<div class="vcard-body"><h3>{e(titulo_video(v, lang))}</h3>'
-            f'<p>{meta}</p><div class="vcard-actions">{cta_video(v, lang, pagina, eventos)}</div></div></article>')
+            f'<p>{meta} {credito_video(v)}</p><div class="vcard-actions">{cta_video(v, lang, pagina, eventos)}</div></div></article>')
 
 
 def ld_video(v, lang, ev=None):
@@ -635,10 +638,7 @@ def ld_video(v, lang, ev=None):
 
 def todos_videos(eventos):
     """YouTube + shorts locais (sem repetir idioma de um mesmo evento), mais novos primeiro."""
-    yt = videos_todos()
-    pares = {(v.get("evento"), v.get("idioma")) for v in yt}
-    locais = [v for v in videos_locais(eventos) if (v["evento"], v["idioma"]) not in pares]
-    return sorted(yt + locais, key=lambda v: v.get("publicado", ""), reverse=True)
+    return sorted(videos_todos(), key=lambda v: v.get("publicado", ""), reverse=True)
 
 
 # ---------- Status de venda (data/vendas.json, escrito por scripts/vendas.py) ----------
@@ -1476,13 +1476,13 @@ def evento(lang, ev, eventos, hubs):
     lds = [ld_evento(lang, ev, pagina), ld_breadcrumb(trilha), ld_faq] + [ld_video(vids[0], lang, ev)] if vids else [ld_evento(lang, ev, pagina), ld_breadcrumb(trilha), ld_faq]
     extra = ld_script(*lds) + view
     vx = C.VIDEOS_TXT[lang]
-    if vids:
-        slot_video = (f'<div class="short-slot short-live">{facade_video(vids[0], lang, pagina)}'
-                      f'<span class="short-title">{e(titulo_video(vids[0], lang))}</span><div class="vcard-actions">{cta_video(vids[0], lang, pagina, eventos)}</div></div>')
-    else:
-        slot_video = (f'<div class="short-slot"><span class="photo" style="{bg(ev["img"], 600, pagina)}"></span>'
-                      f'<span class="short-tag">{e(t["short_tag"])}</span><span class="short-title">{e(t["short_t"].format(t=titulo))}</span>'
-                      f'<div class="platforms"><span>SHORTS</span><span>REELS</span><span>TIKTOK</span></div></div>')
+    slot_video = (f'<div class="short-slot"><span class="photo" style="{bg(ev["img"], 600, pagina)}"></span>'
+                  f'<span class="short-tag">{e(t["short_tag"])}</span><span class="short-title">{e(t["short_t"].format(t=titulo))}</span>'
+                  f'<div class="platforms"><span>SHORTS</span><span>REELS</span><span>TIKTOK</span></div></div>')
+    bloco_video = ""
+    if vids:  # player do YouTube em largura total, como num post do Blogger, logo abaixo da introdução
+        bloco_video = (f'<figure class="vpost">{facade_video(vids[0], lang, pagina)}<figcaption><strong>{e(titulo_video(vids[0], lang))}</strong>{credito_video(vids[0])}'
+                       f'<div class="vcard-actions">{cta_video(vids[0], lang, pagina, eventos)}</div></figcaption></figure>')
     mais_videos = ""
     if len(vids) > 1:
         mais_videos = (f'<div class="vmore"><h2>{e(vx["ev_h"])}</h2><div class="vgrid vgrid-swipe">'
@@ -1583,6 +1583,7 @@ def evento(lang, ev, eventos, hubs):
     {slot_video}
     <div class="event-main">
       <p class="lead">{e(L(ev['intro'], lang))}</p>
+      {bloco_video}
       {botoes_pinterest(lang, pagina, ev.get("banner", ev["img"]), f"{titulo_pg}. {L(ev['intro'], lang)}")}
       <div class="tips">
         <div><h2>{e(t['get_h'])}</h2><ul>{chegar}</ul></div>

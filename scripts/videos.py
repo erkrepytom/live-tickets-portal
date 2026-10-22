@@ -113,7 +113,7 @@ def main():
         if it["yt"] in existentes:
             continue
         slug = casar_evento(it["titulo"], it["descricao"], eventos)
-        v = {"yt": it["yt"], "titulo": it["titulo"], "idioma": idioma(it["titulo"], it["descricao"]), "publicado": it["publicado"],
+        v = {"yt": it["yt"], "titulo": it["titulo"], "canal": "Tickets Sports & Events", "idioma": idioma(it["titulo"], it["descricao"]), "publicado": it["publicado"],
              "evento": slug, "cta": {"tipo": "evento"} if slug else {}, "ativo": True}
         if it["descricao"]:
             v["descricao"] = it["descricao"][:300]

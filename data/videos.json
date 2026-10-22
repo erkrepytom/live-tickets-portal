@@ -1,5 +1,5 @@
 {
- "_leia": "Vídeos do YouTube mostrados no site (página do evento, /videos/ e a faixa 'Em vídeo' da home). Edite aqui e rode: python scripts/gerar_paginas.py. O robô .github/workflows/videos.yml também adiciona sozinho os vídeos novos do canal (python scripts/videos.py). Campos: yt (ID de 11 caracteres do YouTube), titulo (texto ou {pt,en,es}), idioma (pt|en|es), publicado (AAAA-MM-DD), evento (slug de data/eventos.json; liga o vídeo à página do evento e ao botão de ingressos), cta (opcional: {\"tipo\":\"evento\"} = ingressos do evento; {\"tipo\":\"viagem\",\"parceiro\":\"booking|omio|getyourguide\"} = reserva de viagem; {\"tipo\":\"url\",\"url\":\"https://...\",\"rotulo\":{\"pt\":\"...\",\"en\":\"...\",\"es\":\"...\"},\"afiliado\":true}), descricao (opcional), ativo (false esconde sem apagar).",
+ "_leia": "Vídeos do YouTube mostrados no site (página do evento, /videos/ e a faixa 'Em vídeo' da home). Edite aqui e rode: python scripts/gerar_paginas.py. O robô .github/workflows/videos.yml também adiciona sozinho os vídeos novos do canal (python scripts/videos.py). Campos: yt (ID de 11 caracteres do YouTube), titulo (texto ou {pt,en,es}), idioma (pt|en|es), publicado (AAAA-MM-DD), evento (slug de data/eventos.json; liga o vídeo à página do evento e ao botão de ingressos), cta (opcional: {\"tipo\":\"evento\"} = ingressos do evento; {\"tipo\":\"viagem\",\"parceiro\":\"booking|omio|getyourguide\"} = reserva de viagem; {\"tipo\":\"url\",\"url\":\"https://...\",\"rotulo\":{\"pt\":\"...\",\"en\":\"...\",\"es\":\"...\"},\"afiliado\":true}), descricao (opcional), ativo (false esconde sem apagar). Campo canal: nome do canal do YouTube dono do vídeo (aparece como crédito). Vale usar vídeos públicos de outros canais (ESPN, LaLiga, Serie A, NBA, F1) desde que o canal permita incorporação; o YouTube bloqueia sozinho os que não permitem.",
  "_exemplo": {
   "yt": "dQw4w9WgXcQ",
   "titulo": {
@@ -15,5 +15,54 @@
   },
   "ativo": true
  },
- "videos": []
+ "videos": [
+  {
+   "yt": "YDpzVHIVuE8",
+   "titulo": {
+    "pt": "É campeão! Golaços de Rashford e Ferrán Torres: Barcelona x Real Madrid, melhores momentos",
+    "en": "Barcelona vs Real Madrid: Rashford and Ferrán Torres goals, highlights (ESPN Brasil)",
+    "es": "Barcelona vs Real Madrid: golazos de Rashford y Ferrán Torres, mejores momentos (ESPN Brasil)"
+   },
+   "canal": "ESPN Brasil",
+   "idioma": "pt",
+   "publicado": "2026-05-11",
+   "evento": "barcelona-vs-real-madrid-2026-10-25",
+   "cta": {
+    "tipo": "evento"
+   },
+   "ativo": true
+  },
+  {
+   "yt": "0c8RD3fd9hc",
+   "titulo": {
+    "pt": "FC Barcelona 4 x 3 Real Madrid: resumo oficial da LALIGA",
+    "en": "FC Barcelona 4-3 Real Madrid: official LALIGA highlights",
+    "es": "FC Barcelona 4-3 Real Madrid: resumen oficial de LALIGA EA SPORTS"
+   },
+   "canal": "LALIGA EA SPORTS",
+   "idioma": "es",
+   "publicado": "2025-05-11",
+   "evento": "barcelona-vs-real-madrid-2026-10-25",
+   "cta": {
+    "tipo": "evento"
+   },
+   "ativo": true
+  },
+  {
+   "yt": "7YyOTvPR950",
+   "titulo": {
+    "pt": "Milan x Inter: melhores momentos do Derby della Madonnina (Serie A)",
+    "en": "Milan-Inter highlights: tight clash in the Milan derby (Serie A 2025/26)",
+    "es": "Milan-Inter: resumen del derbi de Milán (Serie A 2025/26)"
+   },
+   "canal": "Serie A",
+   "idioma": "en",
+   "publicado": "2026-03-22",
+   "evento": "milan-vs-inter-2026-10-31",
+   "cta": {
+    "tipo": "evento"
+   },
+   "ativo": true
+  }
+ ]
 }

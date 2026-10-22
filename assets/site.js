@@ -417,12 +417,12 @@ function startBox(box, withSound){
     v.play().catch(() => { v.muted = true; v.play().catch(() => {}); });
   } else if (/^[A-Za-z0-9_-]{11}$/.test(id)){
     const f = document.createElement("iframe");
-    const q = "autoplay=1&mute=" + (withSound ? 0 : 1) + "&loop=1&playlist=" + id + "&controls=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1&origin=" + encodeURIComponent(location.origin);
+    const q = "autoplay=1&mute=" + (withSound ? 0 : 1) + "&loop=1&playlist=" + id + "&controls=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1&origin=" + encodeURIComponent(location.origin);
     f.src = YT_ORIGIN + "/embed/" + id + "?" + q;
     f.title = box.getAttribute("data-title") || "YouTube";
     f.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     f.setAttribute("allowfullscreen", ""); f.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
-    box.appendChild(f); box.__frame = f;
+    box.appendChild(f); box.__frame = f; box.classList.add("yt-ctl"); // controles do YouTube: o som liga pelo próprio player
   }
   box.classList.toggle("sound", !!withSound);
   track({ event: "video_start", video_provider: mp4 ? "self" : "youtube", video_id: id || mp4, video_title: box.getAttribute("data-title") || "", muted: !withSound });
@@ -444,15 +444,18 @@ const boxes = document.querySelectorAll(".yt[data-yt], .yt[data-mp4]");
 if (boxes.length){
   const saveData = navigator.connection && navigator.connection.saveData;
   const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if ("IntersectionObserver" in window && !saveData && !reduce){
-    const io = new IntersectionObserver(es => {
-      es.forEach(en => {
-        const b = en.target;
-        if (en.isIntersecting && en.intersectionRatio >= 0.5){ b.classList.contains("on") ? resumeBox(b, false) : startBox(b, false); }
-        else if (b.classList.contains("on")) pauseBox(b);
-      });
-    }, { threshold: [0, 0.5] });
-    boxes.forEach(b => io.observe(b));
+  if (!saveData && !reduce){
+    // Metade do bloco visível = toca; saiu = pausa. Checagem por posição (scroll/resize/load) e, quando existe,
+    // também pelo IntersectionObserver; a dupla garante o autoplay mesmo onde o observer demora a disparar.
+    let agendado = false;
+    const visivel = b => { const r = b.getBoundingClientRect(), h = innerHeight || document.documentElement.clientHeight; const vis = Math.min(r.bottom, h) - Math.max(r.top, 0); return r.height > 0 && vis / r.height >= 0.5; };
+    const aplicar = b => { if (visivel(b)){ b.classList.contains("on") ? (b.__pausedByView && resumeBox(b, false)) : startBox(b, false); b.__pausedByView = false; } else if (b.classList.contains("on") && !b.__pausedByView){ pauseBox(b); b.__pausedByView = true; } };
+    const checar = () => { agendado = false; boxes.forEach(aplicar); };
+    const pedir = () => { if (!agendado){ agendado = true; requestAnimationFrame(checar); } };
+    addEventListener("scroll", pedir, { passive: true }); addEventListener("resize", pedir); addEventListener("load", pedir);
+    document.addEventListener("visibilitychange", () => { if (document.hidden) boxes.forEach(b => b.classList.contains("on") && pauseBox(b)); else pedir(); });
+    if ("IntersectionObserver" in window){ const io = new IntersectionObserver(pedir, { threshold: [0, 0.5, 1] }); boxes.forEach(b => io.observe(b)); }
+    setTimeout(pedir, 300);
   }
   document.addEventListener("click", ev => {
     const box = ev.target.closest && ev.target.closest(".yt[data-yt], .yt[data-mp4]");

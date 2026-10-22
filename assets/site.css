@@ -428,6 +428,7 @@ html{scroll-padding-top:120px}
 .yt iframe,.yt video{position:absolute;inset:0;width:100%;height:100%;border:0;object-fit:cover;background:#000}
 .yt-sound{position:absolute;right:10px;bottom:10px;font:700 11px/1 var(--f-mono,monospace);letter-spacing:.1em;padding:7px 9px;border-radius:999px;background:rgba(4,8,15,.72);color:#fff;display:none}
 .yt.on .yt-sound{display:block}
+.yt.on.yt-ctl .yt-sound{display:none}
 .yt.on.sound .yt-sound{display:none}
 .short-slot.short-live{padding:0;display:grid;gap:10px;align-content:start;overflow:visible;aspect-ratio:auto}
 .short-slot.short-live::before{display:none}
@@ -469,3 +470,14 @@ html{scroll-padding-top:120px}
 .prose p{margin:0;color:var(--ink)}
 .fontes{margin:0 0 20px;padding-left:18px;color:var(--mut)}
 #report-form textarea{width:100%;font:inherit;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);resize:vertical}
+
+
+/* ---------- Vídeo no corpo da página, como no Blogger: player 16:9 em largura total ---------- */
+.vpost{margin:22px 0 8px;display:grid;gap:10px}
+.vpost .yt{border-radius:14px;aspect-ratio:16/9;max-width:100%}
+.vpost figcaption{display:grid;gap:8px;color:var(--ink)}
+.vpost figcaption strong{font-size:16px;line-height:1.3}
+.vgrid .yt{aspect-ratio:16/9}
+.vgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:900px){.vgrid{grid-template-columns:minmax(0,1fr)}}
+.vcredit{color:var(--mut);font-size:12px;font-weight:600;letter-spacing:.02em}
