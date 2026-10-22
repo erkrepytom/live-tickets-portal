@@ -6,8 +6,8 @@
    "nome": "FC Barcelona",
    "status": "desconhecido",
    "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "erro": "HTTPError: HTTP Error 404: Not Found",
+   "tentado": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -23,9 +23,12 @@
   "oficial": {
    "nome": "AC Milan",
    "status": "desconhecido",
+   "confianca": 0.0,
+   "trecho": "",
    "fonte": "https://www.acmilan.com/en/tickets/serie-a",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "http": 200,
+   "motor": "urllib",
+   "conferido": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -42,8 +45,8 @@
    "nome": "FIGC",
    "status": "desconhecido",
    "fonte": "https://www.figc.it/en/national-teams/tickets/",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "erro": "HTTPError: HTTP Error 404: Not Found",
+   "tentado": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -55,13 +58,23 @@
   }
  },
  "franca-vs-africa-do-sul-2026-11-13": {
-  "mudancas": [],
+  "mudancas": [
+   {
+    "canal": "oficial",
+    "de": "desconhecido",
+    "para": "a_venda",
+    "em": "2026-10-22T00:33:30+00:00"
+   }
+  ],
   "oficial": {
    "nome": "FFR",
-   "status": "desconhecido",
+   "status": "a_venda",
+   "confianca": 0.8,
+   "trecho": "masculin samedi 07 novembre 2026 - 21h10 groupama stadium, lyon-decines des 30 acheter xv de france masculin france vs afrique du sud france / afrique du sud - champi",
    "fonte": "https://billetterie.ffr.fr/",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "http": 200,
+   "motor": "urllib",
+   "conferido": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -78,8 +91,8 @@
    "nome": "Yas Marina Circuit",
    "status": "desconhecido",
    "fonte": "https://www.yasmarinacircuit.com/en/formula-1",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "erro": "HTTPError: HTTP Error 404: Not Found",
+   "tentado": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -96,8 +109,8 @@
    "nome": "FC Barcelona",
    "status": "desconhecido",
    "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "erro": "HTTPError: HTTP Error 404: Not Found",
+   "tentado": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -113,9 +126,12 @@
   "oficial": {
    "nome": "New York Knicks",
    "status": "desconhecido",
+   "confianca": 0.0,
+   "trecho": "",
    "fonte": "https://www.nba.com/knicks/tickets",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "http": 200,
+   "motor": "urllib",
+   "conferido": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -132,8 +148,8 @@
    "nome": "Australian Open",
    "status": "desconhecido",
    "fonte": "https://ausopen.com/tickets",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "erro": "HTTPError: HTTP Error 403: Forbidden",
+   "tentado": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -149,9 +165,12 @@
   "oficial": {
    "nome": "Celine Dion",
    "status": "desconhecido",
+   "confianca": 0.0,
+   "trecho": "",
    "fonte": "https://www.celinedion.com/tour/",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "http": 200,
+   "motor": "urllib",
+   "conferido": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -168,8 +187,8 @@
    "nome": "UEFA",
    "status": "desconhecido",
    "fonte": "https://www.uefa.com/uefachampionsleague/tickets/",
-   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
-   "tentado": "2026-10-22T00:27:32+00:00"
+   "erro": "TimeoutError: The read operation timed out",
+   "tentado": "2026-10-22T00:33:30+00:00"
   },
   "parceiro": {
    "status": "a_venda",
