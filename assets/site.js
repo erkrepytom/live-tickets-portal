@@ -94,7 +94,9 @@ function partnerLink(a){
   let u; try { u = new URL(a.href); } catch (e) { return null; }
   // Gateway do próprio site: /go/<parceiro>/<idioma>/<evento>/ (e o antigo /ir/<idioma>/<id>/)
   const go = u.host === location.host && u.pathname.match(/\/go\/([a-z0-9]+)\/([a-z]{2})\/([a-z0-9-]+)\/?$/);
-  if (go) return { type: "event", id: (window.MT_ITEM && window.MT_ITEM.item_id) || "", slug: go[3], partner: go[1], lang: go[2], path: u.pathname, url: u, cloaked: true };
+  if (go) return { type: a.getAttribute("data-kind") === "travel" ? "travel" : "event", id: (window.MT_ITEM && window.MT_ITEM.item_id) || "", slug: go[3], partner: go[1], lang: go[2], path: u.pathname, url: u, cloaked: true };
+  // Parceiros de viagem sem código de afiliado ainda: link externo comum, mas medimos o clique do mesmo jeito.
+  if (a.getAttribute("data-kind") === "travel") return { type: "travel", id: "", partner: (u.hostname.match(/(booking|omio|getyourguide|tiqets)/) || ["", "travel"])[1], path: u.pathname, url: u, cloaked: false, plain: true };
   const ir = u.host === location.host && u.pathname.match(/\/ir\/(?:[a-z]{2}\/)?(\d+)\/?$/);
   if (ir) return { type: "event", id: ir[1], partner: "se365", path: u.pathname, url: u, cloaked: true };
   // Sites do parceiro: .com (inglês), 365tickets.com.br (português), .es (espanhol). aff.: indicação de afiliados, não é venda.
@@ -116,17 +118,18 @@ document.addEventListener("click", ev => {
   if (!l) return;
   const where = a.closest(".buybar") ? "buybar" : a.closest(".buy") ? "buy_options" : a.closest("#partidas") ? "board" : a.closest(".ev-hero .ev-cta") ? "event_cta_top" : a.closest(".ev-cta") ? "event_cta"
     : a.closest(".ev-hero") ? "event_facts" : a.closest("#explorar") ? "explore" : a.closest(".top") ? "header" : a.closest(".foot") ? "footer"
-    : a.closest("#banner3d") ? "banner" : a.closest(".hero") ? "hero" : a.closest(".tips") ? "event_also" : "content";
+    : a.closest("#banner3d") ? "banner" : a.closest(".hero") ? "hero" : a.closest(".tips") ? "event_also"
+    : a.closest(".trip") ? "travel" : a.closest(".vcard, .short-live") ? "video" : "content";
   // Escreve o SubID no próprio link antes de o navegador seguir (o evento roda na fase de captura).
   const u = l.url;
-  if (l.cloaked){ u.searchParams.set("d1", where); u.searchParams.set("d2", subId()); }
-  else { u.searchParams.set("data1", where); u.searchParams.set("data2", subId()); }
-  a.href = u.toString();
+  if (l.cloaked){ u.searchParams.set("d1", where); u.searchParams.set("d2", subId()); a.href = u.toString(); }
+  else if (!l.plain){ u.searchParams.set("data1", where); u.searchParams.set("data2", subId()); a.href = u.toString(); }
   // Conversão principal do site afiliado: marque "affiliate_click" como evento-chave no GA4 e importe no Google Ads.
   track({ event: "affiliate_click", link_type: l.type, link_url: a.href, partner_event_id: l.id, click_location: where, partner: l.partner });
   // Comparação entre parceiros: qual vendedor o público escolhe em cada evento e idioma.
   track({ event: "outbound_ticket_click", partner: l.partner, event_name: l.slug || (window.MT_ITEM && window.MT_ITEM.item_name) || l.path,
           target_lang: l.lang || document.documentElement.lang.slice(0, 2), link_type: l.type, click_location: where });
+  if (l.type === "travel"){ track({ event: "travel_click", partner: l.partner, click_location: where, event_name: (window.MT_ITEM && window.MT_ITEM.item_name) || l.slug || "" }); return; }
   if (l.type === "event"){
     const it = (window.MT_ITEM && window.MT_ITEM.item_id === l.id) ? window.MT_ITEM
       : { item_id: l.id, item_name: (a.getAttribute("aria-label") || a.textContent || "").replace(/^[^:]*:\s*/, "").trim(), item_brand: "SportsEvents365" };
@@ -395,3 +398,21 @@ function loop(){ parallax(); updateVideo(); cursorLoop(); requestAnimationFrame(
 document.querySelectorAll(".hero [data-flap]").forEach(flap);
 requestAnimationFrame(loop);
 })();
+
+
+/* ---------- Vídeos do YouTube: a miniatura é estática; o iframe (youtube-nocookie) só nasce no clique ---------- */
+document.addEventListener("click", ev => {
+  const box = ev.target.closest && ev.target.closest(".yt[data-yt]");
+  if (!box || box.classList.contains("on")) return;
+  const id = box.getAttribute("data-yt");
+  if (!/^[A-Za-z0-9_-]{11}$/.test(id)) return;
+  const f = document.createElement("iframe");
+  f.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&rel=0&modestbranding=1&playsinline=1";
+  f.title = box.getAttribute("data-title") || "YouTube";
+  f.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+  f.setAttribute("allowfullscreen", "");
+  f.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+  box.classList.add("on");
+  box.appendChild(f);
+  track({ event: "video_start", video_provider: "youtube", video_id: id, video_title: f.title, page_type: (window.MT_ITEM ? "event" : "page") });
+});

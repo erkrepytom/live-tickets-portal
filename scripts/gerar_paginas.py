@@ -433,18 +433,215 @@ def opcoes_compra(lang, ev):
     return [(pk, p, destino_parceiro(pk, lang, ev)) for pk, p in C.parceiros_ativos("evento") if destino_parceiro(pk, lang, ev)]
 
 
+def nome_parceiro(pk):
+    return (C.PARCEIROS.get(pk) or C.VIAGEM.get(pk))["nome"]
+
+
 def pagina_go(pk, lang, ev, destino):
     """Redireciona ao parceiro repassando o SubID (?d1=&d2=). Sem JavaScript, o meta refresh resolve."""
     sub = "data" if pk == "se365" else ""
     return f"""<!DOCTYPE html>
 <html lang="{HREFLANG[lang]}"><head><meta charset="UTF-8"><meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer-when-downgrade">
-<title>{e(L(ev['titulo'], lang))} · {e(C.PARCEIROS[pk]['nome'])} | MyTickets Tours</title>
+<title>{e(L(ev['titulo'], lang))} · {e(nome_parceiro(pk))} | MyTickets Tours</title>
 <meta http-equiv="refresh" content="1;url={e(destino)}">
 <script>(function(){{var q=new URLSearchParams(location.search),u={json.dumps(destino)},s={json.dumps(sub)};
 if(s){{["d1","d2"].forEach(function(k,i){{var v=q.get(k);if(v)u+=(u.indexOf("?")<0?"?":"&")+s+(i+1)+"="+encodeURIComponent(v.slice(0,100))}})}}location.replace(u)}})();</script>
-</head><body style="font-family:system-ui,sans-serif;padding:24px"><p><a href="{e(destino)}" rel="sponsored nofollow">{e(C.PARCEIROS[pk]['nome'])} →</a></p></body></html>
+</head><body style="font-family:system-ui,sans-serif;padding:24px"><p><a href="{e(destino)}" rel="sponsored nofollow">{e(nome_parceiro(pk))} →</a></p></body></html>
 """
+
+
+# ---------- Camada de viagem (hotel, transporte, tours) ----------
+BOOKING_LANG = {"pt": "pt-br", "en": "en-gb", "es": "es"}
+OMIO_HOME = {"pt": "https://www.omio.com.br/", "en": "https://www.omio.com/", "es": "https://www.omio.es/"}
+GYG_HOME = {"pt": "https://www.getyourguide.com.br/", "en": "https://www.getyourguide.com/", "es": "https://www.getyourguide.es/"}
+EUROPA = {"ES", "IT", "FR", "GB", "DE", "NL", "PT", "BE", "CH", "AT", "IE", "DK", "SE", "NO", "FI", "PL", "CZ", "HU", "GR", "TR", "HR", "SI", "SK", "RO", "BG", "LU", "MC"}
+
+
+def destino_viagem(pk, lang, ev):
+    """Link do parceiro de viagem para a cidade e as datas do evento. Com "id" preenchido em C.VIAGEM vira link de afiliado."""
+    v = C.VIAGEM[pk]
+    cidade = LOCAIS.get(ev["local"], {}).get("cidade") or L(ev["cidade"], "en")
+    d = dt.date.fromisoformat(ev["data"])
+    q = urllib.parse.quote_plus
+    if pk == "booking":
+        url = (f"https://www.booking.com/searchresults.html?ss={q(cidade)}&checkin={d - dt.timedelta(days=1)}&checkout={d + dt.timedelta(days=1)}"
+               f"&group_adults=2&no_rooms=1&lang={BOOKING_LANG[lang]}")
+    elif pk == "omio":  # Omio cobre a Europa: fora dela o cartão não aparece
+        if PAIS_ISO.get(L(ev["pais"], "en")) not in EUROPA:
+            return None
+        url = OMIO_HOME[lang]
+    elif pk == "getyourguide":
+        url = f"{GYG_HOME[lang]}s/?q={q(cidade + ' ' + C.local_curto(ev['local']))}"
+    else:
+        return None
+    if v["id"]:
+        url += ("&" if "?" in url else "?") + f"{v['param']}={urllib.parse.quote(v['id'])}"
+    return url
+
+
+def viagem_afiliado(pk):
+    return bool(C.VIAGEM[pk]["id"])
+
+
+def secao_viagem(lang, ev, pagina):
+    """'Planeje a viagem': três cartões (hotel, transporte, tours) com as datas e a cidade do evento já preenchidas.
+    Sem código de afiliado o link é externo comum (útil para o leitor desde já); com código passa pelo /go/ e é sponsored."""
+    vt = C.VIAGEM_TXT[lang]
+    titulo = L(ev["titulo"], lang)
+    cidade = L(ev["cidade"], lang)
+    v = {"cidade": cidade, "loc": C.local_curto(ev["local"]), "art": C.artigo(ev["local"], lang).replace("the", "").strip(), "t": titulo}
+    cards = []
+    for pk, p in C.VIAGEM.items():
+        destino = destino_viagem(pk, lang, ev)
+        if not destino:
+            continue
+        if viagem_afiliado(pk):
+            href, extra = rel(pagina, caminho_go(pk, lang, ev)), f' target="_blank" rel="sponsored nofollow noopener" data-partner="{pk}" data-kind="travel"'
+        else:
+            href, extra = destino, ' target="_blank" rel="nofollow noopener" data-kind="travel"'
+        h2 = " ".join(p["h"][lang].format(**v).split())
+        cards.append(f'<article class="trip-opt"><span class="trip-brand">{e(p["nome"])}</span><h3>{e(h2)}</h3><p>{e(p["p"][lang].format(**v))}</p>'
+                     f'<a class="btn btn-ghost btn-sm" data-magnetic href="{e(href)}"{extra}><span class="mag-inner">{e(p["cta"][lang].format(**v))} <span class="arrow" aria-hidden="true">→</span></span></a></article>')
+    if not cards:
+        return ""
+    disc = vt["disc"] if any(viagem_afiliado(pk) for pk in C.VIAGEM) else vt["sem_aff"]
+    return (f'<section class="trip" id="viagem" aria-labelledby="trip-h"><p class="kicker">{e(vt["k"])}</p><h2 id="trip-h">{e(vt["h"])}</h2>'
+            f'<p class="trip-sub">{e(vt["sub"].format(t=titulo))}</p><div class="trip-list">{"".join(cards)}</div><p class="disclose">{e(disc)}</p></section>')
+
+
+# ---------- Vídeos do YouTube (data/videos.json) ----------
+_VIDEOS = None
+
+
+def videos_todos():
+    """Lista de vídeos ativos, mais novos primeiro. Cada item: yt (ID do YouTube), titulo (str ou por idioma), idioma,
+    publicado, evento (slug, opcional), cta ({"tipo": "evento"|"viagem"|"url", ...}, opcional)."""
+    global _VIDEOS
+    if _VIDEOS is None:
+        try:
+            dados = json.loads((RAIZ / "data" / "videos.json").read_text(encoding="utf-8"))
+            _VIDEOS = [x for x in dados.get("videos", []) if x.get("ativo", True) and re.fullmatch(r"[A-Za-z0-9_-]{11}", x.get("yt", ""))]
+        except (OSError, ValueError):
+            _VIDEOS = []
+        _VIDEOS.sort(key=lambda x: x.get("publicado", ""), reverse=True)
+    return _VIDEOS
+
+
+def videos_do_evento(ev, lang):
+    """Vídeos ligados ao evento: primeiro no idioma da página, depois os outros idiomas."""
+    vs = [v for v in videos_todos() if v.get("evento") == ev["slug"]]
+    return sorted(vs, key=lambda v: (v.get("idioma") != lang, ))
+
+
+def titulo_video(v, lang):
+    t = v.get("titulo", "")
+    return L(t, lang) if isinstance(t, dict) else t
+
+
+def facade_video(v, lang, pagina, vertical=True):
+    """Miniatura do YouTube com botão de play. O iframe (youtube-nocookie) só é criado no clique (assets/site.js),
+    então a página não carrega nada do YouTube até o visitante querer: bom para Core Web Vitals e para privacidade."""
+    vx = C.VIDEOS_TXT[lang]
+    yt = v["yt"]
+    titulo = titulo_video(v, lang)
+    thumb = f"https://i.ytimg.com/vi/{yt}/{'hqdefault' if vertical else 'hqdefault'}.jpg"
+    lang_tag = vx["idioma"].get(v.get("idioma", ""), "")
+    return (f'<div class="yt{" yt-v" if vertical else ""}" data-yt="{yt}" data-title="{e(titulo)}">'
+            f'<img src="{thumb}" alt="{e(titulo)}" loading="lazy" decoding="async" width="480" height="360">'
+            f'<button type="button" class="yt-play" aria-label="{e(vx["play"])}: {e(titulo)}"><svg viewBox="0 0 68 48" width="68" height="48" aria-hidden="true"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.4 0 34 0 34 0S12.6 0 7.4 1.7c-2.9.8-5.1 3.1-5.9 6C0 13 0 24 0 24s0 11 1.5 16.3c.8 2.9 3 5.2 5.9 6C12.6 48 34 48 34 48s21.4 0 26.6-1.7c2.9-.8 5.1-3.1 5.9-6C68 35 68 24 68 24s0-11-1.5-16.3z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg></button>'
+            + (f'<span class="yt-lang">{e(lang_tag)}</span>' if lang_tag else "") + '</div>')
+
+
+def cta_video(v, lang, pagina, eventos):
+    """Botão de ação do vídeo: ingressos do evento ligado, reserva num parceiro de viagem, ou um link indicado no JSON."""
+    vx = C.VIDEOS_TXT[lang]
+    cta = v.get("cta") or {}
+    ev = next((x for x in eventos if x["slug"] == v.get("evento")), None)
+    tipo = cta.get("tipo") or ("evento" if ev else "")
+    botoes = []
+    if tipo == "evento" and ev:
+        botoes.append(mag(rel(pagina, caminho_go("se365", lang, ev)), e(vx["ingressos"]), "btn btn-signal btn-sm"))
+    elif tipo == "viagem" and ev and cta.get("parceiro") in C.VIAGEM:
+        pk = cta["parceiro"]
+        destino = rel(pagina, caminho_go(pk, lang, ev)) if viagem_afiliado(pk) else destino_viagem(pk, lang, ev)
+        botoes.append(f'<a class="btn btn-signal btn-sm" data-magnetic data-kind="travel" href="{e(destino)}" target="_blank" rel="{"sponsored " if viagem_afiliado(pk) else ""}nofollow noopener"><span class="mag-inner">{e(vx["reservar"])}: {e(C.VIAGEM[pk]["nome"])} →</span></a>')
+    elif tipo == "url" and cta.get("url"):
+        rot = cta.get("rotulo", {})
+        rot = L(rot, lang) if isinstance(rot, dict) else (rot or vx["reservar"])
+        rel_attr = "sponsored nofollow noopener" if cta.get("afiliado", True) else "noopener"
+        botoes.append(f'<a class="btn btn-signal btn-sm" data-magnetic href="{e(cta["url"])}" target="_blank" rel="{rel_attr}"><span class="mag-inner">{e(rot)} →</span></a>')
+    if ev:
+        botoes.append(f'<a class="btn btn-ghost btn-sm" href="{rel(pagina, caminho_evento(lang, ev["slug"]))}">{e(vx["ver_guia"])}</a>')
+    return "".join(botoes)
+
+
+def cartao_video(v, lang, pagina, eventos, vertical=True):
+    ev = next((x for x in eventos if x["slug"] == v.get("evento")), None)
+    meta = (f'{e(data_curta(ev["data"], lang))} {ev["data"][:4]} · {e(L(ev["cidade"], lang))}' if ev else e(v.get("publicado", "")))
+    return (f'<article class="vcard">{facade_video(v, lang, pagina, vertical)}<div class="vcard-body"><h3>{e(titulo_video(v, lang))}</h3>'
+            f'<p>{meta}</p><div class="vcard-actions">{cta_video(v, lang, pagina, eventos)}</div></div></article>')
+
+
+def ld_video(v, lang, ev=None):
+    yt = v["yt"]
+    ld = {"@type": "VideoObject", "name": titulo_video(v, lang), "thumbnailUrl": [f"https://i.ytimg.com/vi/{yt}/hqdefault.jpg"],
+          "embedUrl": f"https://www.youtube-nocookie.com/embed/{yt}", "contentUrl": f"https://www.youtube.com/watch?v={yt}",
+          "uploadDate": v.get("publicado", ""), "inLanguage": HREFLANG.get(v.get("idioma", lang), HREFLANG[lang])}
+    desc = v.get("descricao")
+    if desc:
+        ld["description"] = L(desc, lang) if isinstance(desc, dict) else desc
+    elif ev:
+        ld["description"] = L(ev["intro"], lang)
+    return ld
+
+
+def pagina_videos(lang, eventos):
+    """/videos/: todos os vídeos, mais novos primeiro, cada um com o botão de ingressos ou reserva."""
+    vx = C.VIDEOS_TXT[lang]
+    pagina = vx["path"]
+    alternos = {l: C.VIDEOS_TXT[l]["path"] for l in IDIOMAS}
+    vs = videos_todos()
+    trilha = [(T[lang]["home"], caminho_home(lang)), (vx["h1"], pagina)]
+    lista = {"@context": "https://schema.org", "@type": "ItemList",
+             "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {**ld_video(v, lang, next((x for x in eventos if x["slug"] == v.get("evento")), None)), "@context": "https://schema.org"}} for i, v in enumerate(vs[:50])]}
+    extra = ld_script(ld_breadcrumb(trilha), lista) if vs else ld_script(ld_breadcrumb(trilha))
+    h = cabeca(lang, pagina, vx["title"], vx["desc"], alternos, extra)
+    cards = "".join(cartao_video(v, lang, pagina, eventos) for v in vs)
+    corpo_lista = f'<div class="vgrid">{cards}</div>' if cards else f'<p class="lead">{e(vx["vazio"])}</p>'
+    canal = f'<a class="btn btn-ghost btn-sm" href="{YOUTUBE_CANAL}" target="_blank" rel="noopener me">{e(vx["canal"])}</a>' if YOUTUBE_CANAL else ""
+    corpo = f"""
+<body>
+{topo(lang, pagina, alternos)}
+<main>
+<section class="band" aria-labelledby="v-h">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(T[lang]['home'])}</a><span aria-hidden="true">›</span><span>{e(vx['h1'])}</span></nav>
+    <div class="sec-head"><div><p class="kicker">{e(vx['k'])}</p><h1 id="v-h" data-scramble>{e(vx['h'])}</h1><p class="trip-sub">{e(vx['sub'])}</p></div>{canal}</div>
+    {corpo_lista}
+    <p class="disclose">{e(vx['disc'])} {e(C.LEGAL[lang]['face'])}</p>
+  </div>
+</section>
+{alertas(lang, eventos)}
+</main>
+"""
+    return h + corpo + rodape(lang, pagina, alternos)
+
+
+def faixa_videos_home(lang, pagina, eventos, n=3):
+    """Faixa 'Em vídeo' da página inicial: os últimos vídeos, com o botão de ingressos/reserva e o link para todos."""
+    vs = videos_todos()[:n]
+    if not vs:
+        return ""
+    vx = C.VIDEOS_TXT[lang]
+    cards = "".join(cartao_video(v, lang, pagina, eventos) for v in vs)
+    return f"""<section class="band" id="videos" aria-labelledby="vh-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">{e(vx['k'])}</p><h2 id="vh-h" data-scramble>{e(vx['h'])}</h2></div><a class="btn btn-ghost btn-sm" href="{rel(pagina, vx['path'])}">{e(vx['todos'])} →</a></div>
+    <p class="swipe-hint">{e(DESLIZE[lang])}</p>
+    <div class="vgrid vgrid-swipe">{cards}</div>
+  </div>
+</section>"""
 
 
 def caminho_ir(ev, lang="en"):
@@ -748,7 +945,7 @@ def rodape(lang, pagina, alternos):
   <div class="wrap">
     <a class="brand" href="{rel(pagina, caminho_home(lang))}">MY<b>TICKETS</b>.TOURS</a>
     <p class="foot-disc">{e(C.LEGAL[lang]['foot'].format(parceiros=C.nomes_parceiros()))}</p>
-    <div class="foot-links">{langs}<a href="{rel(pagina, C.DIVULGACAO[lang]['path'])}">{e(C.LEGAL[lang]['pagina_link'])}</a><a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(C.ROT[lang]['como_h'].upper())}</a><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'].upper())}</a><a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a><a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored nofollow noopener">SPORTSEVENTS365</a>{f'<a href="{YOUTUBE_CANAL}" target="_blank" rel="noopener me">YOUTUBE</a>' if YOUTUBE_CANAL else ''}{f'<a href="https://www.pinterest.com/{PINTEREST_PERFIL}/" target="_blank" rel="noopener me">PINTEREST</a>' if PINTEREST_PERFIL else ''}</div>
+    <div class="foot-links">{langs}<a href="{rel(pagina, C.DIVULGACAO[lang]['path'])}">{e(C.LEGAL[lang]['pagina_link'])}</a><a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(C.ROT[lang]['como_h'].upper())}</a><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'].upper())}</a><a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a>{f'<a href="{rel(pagina, C.VIDEOS_TXT[lang]["path"])}">{e(C.VIDEOS_TXT[lang]["h1"].upper())}</a>' if videos_todos() else ''}<a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored nofollow noopener">SPORTSEVENTS365</a>{f'<a href="{YOUTUBE_CANAL}" target="_blank" rel="noopener me">YOUTUBE</a>' if YOUTUBE_CANAL else ''}{f'<a href="https://www.pinterest.com/{PINTEREST_PERFIL}/" target="_blank" rel="noopener me">PINTEREST</a>' if PINTEREST_PERFIL else ''}</div>
     <p class="foot-aff"><a href="{SUBAFILIADO}" target="_blank" rel="sponsored nofollow noopener">{e(SUB_TXT[lang][0])}</a> <span>({e(SUB_TXT[lang][1])})</span></p>
     <p>{e(RESPONSAVEL)} · {CONTATO_EMAIL}</p>
     <p>© {dt.date.today().year} MyTickets Tours</p>
@@ -925,6 +1122,7 @@ if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new Intersecti
     </div>
   </div>
 </section>
+{faixa_videos_home(lang, pagina, eventos)}
 {noticias_html}
 {alertas(lang, eventos)}
 </main>
@@ -1072,7 +1270,21 @@ def evento(lang, ev, eventos, hubs):
             "location_id": ev["local"]}
     view = ("<script>window.MT_ITEM=" + json.dumps(item, ensure_ascii=False) + ";dataLayer.push({ecommerce:null});dataLayer.push(" +
             json.dumps({"event": "view_item", "page_type": "event", "ecommerce": {"items": [item]}}, ensure_ascii=False) + ");</script>")
-    extra = ld_script(ld_evento(lang, ev, pagina), ld_breadcrumb(trilha), ld_faq) + view
+    vids = videos_do_evento(ev, lang)
+    lds = [ld_evento(lang, ev, pagina), ld_breadcrumb(trilha), ld_faq] + [ld_video(vids[0], lang, ev)] if vids else [ld_evento(lang, ev, pagina), ld_breadcrumb(trilha), ld_faq]
+    extra = ld_script(*lds) + view
+    vx = C.VIDEOS_TXT[lang]
+    if vids:
+        slot_video = (f'<div class="short-slot short-live">{facade_video(vids[0], lang, pagina)}'
+                      f'<span class="short-title">{e(titulo_video(vids[0], lang))}</span><div class="vcard-actions">{cta_video(vids[0], lang, pagina, eventos)}</div></div>')
+    else:
+        slot_video = (f'<div class="short-slot"><span class="photo" style="{bg(ev["img"], 600, pagina)}"></span>'
+                      f'<span class="short-tag">{e(t["short_tag"])}</span><span class="short-title">{e(t["short_t"].format(t=titulo))}</span>'
+                      f'<div class="platforms"><span>SHORTS</span><span>REELS</span><span>TIKTOK</span></div></div>')
+    mais_videos = ""
+    if len(vids) > 1:
+        mais_videos = (f'<div class="vmore"><h2>{e(vx["ev_h"])}</h2><div class="vgrid vgrid-swipe">'
+                       + "".join(cartao_video(v, lang, pagina, eventos) for v in vids[1:4]) + f'</div><p class="disclose"><a href="{rel(pagina, vx["path"])}">{e(vx["todos"])} →</a></p></div>')
     rt = C.ROT[lang]
     hora_txt = ev.get("hora") or "--:--"
     titulo_pg = C.titulo_evento(lang, titulo, ev["data"][:4], ev["local"])
@@ -1165,12 +1377,7 @@ def evento(lang, ev, eventos, hubs):
 
 <section class="band" aria-label="{e(titulo)}">
   <div class="wrap event">
-    <div class="short-slot">
-      <span class="photo" style="{bg(ev['img'], 600, pagina)}"></span>
-      <span class="short-tag">{e(t['short_tag'])}</span>
-      <span class="short-title">{e(t['short_t'].format(t=titulo))}</span>
-      <div class="platforms"><span>SHORTS</span><span>REELS</span><span>TIKTOK</span></div>
-    </div>
+    {slot_video}
     <div class="event-main">
       <p class="lead">{e(L(ev['intro'], lang))}</p>
       {botoes_pinterest(lang, pagina, ev.get("banner", ev["img"]), f"{titulo_pg}. {L(ev['intro'], lang)}")}
@@ -1184,6 +1391,8 @@ def evento(lang, ev, eventos, hubs):
       </div>
       {aviso_evento(lang, ev, pagina)}
       {onde_comprar}
+      {secao_viagem(lang, ev, pagina)}
+      {mais_videos}
       <div class="howto">
         <h2>{e(cp['h'].format(t=titulo))}</h2>
         <ol>{passos}</ol>
@@ -1629,6 +1838,11 @@ def main():
         grupos["paginas"].append(anotar(escrever(C.DIVULGACAO[lang]["path"], divulgacao(lang), manifesto, hoje), {l: C.DIVULGACAO[l]["path"] for l in IDIOMAS}))
         grupos["guias"].append(anotar(escrever(C.GUIA[lang]["path"], guia(lang, eventos, hubs), manifesto, hoje), {l: C.GUIA[l]["path"] for l in IDIOMAS}))
         grupos["guias"].append(anotar(escrever(C.GUIA_BARCA[lang]["path"], guia_barca(lang, eventos), manifesto, hoje), {l: C.GUIA_BARCA[l]["path"] for l in IDIOMAS}))
+        if videos_todos():  # a página /videos/ só existe quando há vídeo (nada de página vazia no índice)
+            grupos["paginas"].append(anotar(escrever(C.VIDEOS_TXT[lang]["path"], pagina_videos(lang, eventos), manifesto, hoje), {l: C.VIDEOS_TXT[l]["path"] for l in IDIOMAS}))
+        else:
+            for f in (RAIZ / C.VIDEOS_TXT[lang]["path"]).glob("index.html"):
+                f.unlink()
     gerar_catalogo(eventos)
     for lang in IDIOMAS:
         feed_atom(lang, eventos, manifesto)
@@ -1656,6 +1870,10 @@ def main():
             for pk, _p, destino in opcoes_compra(lang, ev):
                 (RAIZ / caminho_go(pk, lang, ev)).mkdir(parents=True, exist_ok=True)
                 (RAIZ / caminho_go(pk, lang, ev) / "index.html").write_text(pagina_go(pk, lang, ev, destino), encoding="utf-8")
+            for pk in C.VIAGEM:  # parceiros de viagem só ganham /go/ quando têm código de afiliado
+                if viagem_afiliado(pk) and destino_viagem(pk, lang, ev):
+                    (RAIZ / caminho_go(pk, lang, ev)).mkdir(parents=True, exist_ok=True)
+                    (RAIZ / caminho_go(pk, lang, ev) / "index.html").write_text(pagina_go(pk, lang, ev, destino_viagem(pk, lang, ev)), encoding="utf-8")
     for ev in eventos:  # endereços antigos /ir/ continuam funcionando (links já compartilhados)
         for lang in IDIOMAS:
             (RAIZ / caminho_ir(ev, lang)).mkdir(parents=True, exist_ok=True)

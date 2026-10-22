@@ -1,0 +1,19 @@
+{
+ "_leia": "Vídeos do YouTube mostrados no site (página do evento, /videos/ e a faixa 'Em vídeo' da home). Edite aqui e rode: python scripts/gerar_paginas.py. O robô .github/workflows/videos.yml também adiciona sozinho os vídeos novos do canal (python scripts/videos.py). Campos: yt (ID de 11 caracteres do YouTube), titulo (texto ou {pt,en,es}), idioma (pt|en|es), publicado (AAAA-MM-DD), evento (slug de data/eventos.json; liga o vídeo à página do evento e ao botão de ingressos), cta (opcional: {\"tipo\":\"evento\"} = ingressos do evento; {\"tipo\":\"viagem\",\"parceiro\":\"booking|omio|getyourguide\"} = reserva de viagem; {\"tipo\":\"url\",\"url\":\"https://...\",\"rotulo\":{\"pt\":\"...\",\"en\":\"...\",\"es\":\"...\"},\"afiliado\":true}), descricao (opcional), ativo (false esconde sem apagar).",
+ "_exemplo": {
+  "yt": "dQw4w9WgXcQ",
+  "titulo": {
+   "pt": "Barcelona x Real Madrid: como ver o Clásico saindo do Brasil",
+   "en": "Barcelona vs Real Madrid: how to see El Clásico from abroad",
+   "es": "Barcelona vs Real Madrid: cómo ver el Clásico desde otro país"
+  },
+  "idioma": "pt",
+  "publicado": "2026-10-20",
+  "evento": "barcelona-vs-real-madrid-2026-10-25",
+  "cta": {
+   "tipo": "evento"
+  },
+  "ativo": true
+ },
+ "videos": []
+}

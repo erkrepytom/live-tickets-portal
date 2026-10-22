@@ -518,6 +518,15 @@ PARCEIROS = {
   "selo": {"pt": "Marketplace de revenda", "en": "Resale marketplace", "es": "Marketplace de reventa"}, "fatos": {}, "termos": ""},
  "tiqets": {"ativo": False, "nome": "Tiqets", "tipo": "tour", "url": "",
   "selo": {"pt": "Tour do estádio e museu", "en": "Stadium tour and museum", "es": "Tour del estadio y museo"}, "fatos": {}, "termos": ""},
+ # P1 Travel (Partnerize): ingresso avulso e pacote ingresso + hotel para futebol europeu, F1, MotoGP, Roland-Garros e shows.
+ # Depois da aprovação: ligue "ativo", preencha "termos" e, em data/eventos.json, "links": {"p1travel": "<deeplink do feed>"}.
+ "p1travel": {"ativo": False, "nome": "P1 Travel", "tipo": "evento", "url": "https://www.p1travel.com/",
+  "selo": {"pt": "Ingresso avulso ou pacote com hotel", "en": "Single ticket or ticket + hotel package", "es": "Entrada suelta o paquete con hotel"},
+  "fatos": {}, "termos": ""},
+ # SuperIngressos (CJ / Awin / Webgains): vendedor brasileiro para NBA, NFL, MLB, NHL, MLS, shows e Broadway nos EUA.
+ "superingressos": {"ativo": False, "nome": "SuperIngressos", "tipo": "evento", "url": "https://www.superingressos.com/",
+  "selo": {"pt": "Atendimento em português para eventos nos EUA", "en": "Portuguese-speaking seller for US events", "es": "Atención en portugués para eventos en EE. UU."},
+  "fatos": {}, "termos": ""},
 }
 
 
@@ -709,4 +718,64 @@ ORGANIZADOR = {
 PARTICIPANTES = {
  "gp-abu-dhabi-f1": ["McLaren", "Ferrari", "Mercedes", "Red Bull Racing", "Aston Martin", "Alpine", "Williams",
                      "Racing Bulls", "Haas", "Audi", "Cadillac"],
+}
+
+
+# ---------- Camada de viagem: "Planeje a viagem" na página de cada evento ----------
+# Cada parceiro mostra um link útil mesmo sem comissão (busca na cidade, nas datas do evento). Quando o campo "id"
+# for preenchido (Booking: aid; Omio e GetYourGuide: marker/partner_id, que vêm do painel do Travelpayouts ou do
+# programa direto), o link vira link de afiliado, passa pelo /go/ do site e ganha rel="sponsored".
+VIAGEM = {
+ "booking": {"nome": "Booking.com", "id": "", "param": "aid",
+  "h": {"pt": "Hospedagem perto {art} {loc}", "en": "Hotels near {loc}", "es": "Alojamiento cerca {art} {loc}"},
+  "p": {"pt": "Busca em {cidade} já com as datas do evento (véspera e dia seguinte). Cancelamento grátis na maioria dos hotéis até perto da data.",
+        "en": "Search in {cidade} with the event dates filled in (the night before and the night after). Most hotels allow free cancellation until close to the date.",
+        "es": "Búsqueda en {cidade} con las fechas del evento (víspera y día siguiente). La mayoría de los hoteles permite cancelar gratis hasta cerca de la fecha."},
+  "cta": {"pt": "Ver hotéis em {cidade}", "en": "See hotels in {cidade}", "es": "Ver hoteles en {cidade}"}},
+ "omio": {"nome": "Omio", "id": "", "param": "marker",
+  "h": {"pt": "Como chegar a {cidade}", "en": "Getting to {cidade}", "es": "Cómo llegar a {cidade}"},
+  "p": {"pt": "Trens, ônibus e voos dentro da Europa num só lugar, com bilhete no celular. Compare antes de fechar o voo internacional.",
+        "en": "Trains, buses and flights within Europe in one place, with mobile tickets. Compare before you lock in the long-haul flight.",
+        "es": "Trenes, autobuses y vuelos dentro de Europa en un solo lugar, con billete en el móvil. Compara antes de cerrar el vuelo internacional."},
+  "cta": {"pt": "Comparar trens, ônibus e voos", "en": "Compare trains, buses and flights", "es": "Comparar trenes, autobuses y vuelos"}},
+ "getyourguide": {"nome": "GetYourGuide", "id": "", "param": "partner_id",
+  "h": {"pt": "Tour {art} {loc} e passeios em {cidade}", "en": "{loc} tour and things to do in {cidade}", "es": "Tour {art} {loc} y planes en {cidade}"},
+  "p": {"pt": "Visita ao estádio e museu na véspera do jogo, e o que fazer na cidade nos outros dias. Cancelamento grátis até 24 h antes na maioria das atividades.",
+        "en": "Stadium and museum tour the day before the game, plus things to do in the city on the other days. Most activities can be cancelled free up to 24 h before.",
+        "es": "Visita al estadio y al museo la víspera del partido, y qué hacer en la ciudad los demás días. La mayoría de las actividades se cancela gratis hasta 24 h antes."},
+  "cta": {"pt": "Ver tours e passeios", "en": "See tours and activities", "es": "Ver tours y actividades"}},
+}
+
+VIAGEM_TXT = {
+ "pt": {"k": "Planeje a viagem", "h": "Do aeroporto à arquibancada", "sub": "O ingresso é só uma parte. Hotel perto do estádio, como se deslocar e o que fazer nos outros dias, já nas datas de {t}.",
+        "disc": "Links de parceiros de viagem: se você reservar por eles, podemos receber comissão, sem custo extra. Preços e condições são dos parceiros.",
+        "sem_aff": "Links externos, sem comissão para o site por enquanto."},
+ "en": {"k": "Plan the trip", "h": "From the airport to the stands", "sub": "The ticket is only part of it. A hotel near the stadium, how to get around and things to do on the other days, already on the dates of {t}.",
+        "disc": "Travel partner links: if you book through them we may earn a commission at no extra cost to you. Prices and terms are the partners'.",
+        "sem_aff": "External links; the site earns no commission on them for now."},
+ "es": {"k": "Planifica el viaje", "h": "Del aeropuerto a la grada", "sub": "La entrada es solo una parte. Hotel cerca del estadio, cómo moverte y qué hacer los demás días, ya en las fechas de {t}.",
+        "disc": "Enlaces de socios de viaje: si reservas con ellos podemos recibir una comisión, sin costo extra. Precios y condiciones son de los socios.",
+        "sem_aff": "Enlaces externos; el sitio no recibe comisión por ellos por ahora."},
+}
+
+# ---------- Vídeos do YouTube (data/videos.json) ----------
+VIDEOS_TXT = {
+ "pt": {"path": "videos/", "title": "Vídeos: jogos, shows e viagens | MyTickets Tours", "h1": "Vídeos",
+        "desc": "Vídeos curtos sobre jogos, shows e viagens, cada um com o link para ver ingressos ou reservar o que aparece no vídeo.",
+        "k": "Em vídeo", "h": "Veja antes de ir", "sub": "Cada vídeo leva ao guia do evento e ao link para ver ingressos ou reservar o que aparece nele.",
+        "todos": "Todos os vídeos", "ver_guia": "Ver guia do evento", "ingressos": "Ver ingressos", "reservar": "Reservar", "assistir": "Assistir ao vídeo",
+        "play": "Reproduzir", "canal": "Canal no YouTube", "vazio": "Os primeiros vídeos estão sendo preparados. Inscreva-se no canal para receber.",
+        "ev_h": "Em vídeo", "disc": "O vídeo carrega do YouTube só quando você aperta o play (modo sem cookies).", "idioma": {"pt": "PT", "en": "EN", "es": "ES"}},
+ "en": {"path": "en/videos/", "title": "Videos: games, concerts and trips | MyTickets Tours", "h1": "Videos",
+        "desc": "Short videos about games, concerts and trips, each with the link to see tickets or book what appears in the video.",
+        "k": "On video", "h": "Watch before you go", "sub": "Every video leads to the event guide and to the link to see tickets or book what appears in it.",
+        "todos": "All videos", "ver_guia": "See event guide", "ingressos": "See tickets", "reservar": "Book", "assistir": "Watch the video",
+        "play": "Play", "canal": "YouTube channel", "vazio": "The first videos are being prepared. Subscribe to the channel to get them.",
+        "ev_h": "On video", "disc": "The video loads from YouTube only when you press play (no-cookie mode).", "idioma": {"pt": "PT", "en": "EN", "es": "ES"}},
+ "es": {"path": "es/videos/", "title": "Videos: partidos, conciertos y viajes | MyTickets Tours", "h1": "Videos",
+        "desc": "Videos cortos sobre partidos, conciertos y viajes, cada uno con el enlace para ver entradas o reservar lo que aparece en el video.",
+        "k": "En video", "h": "Míralo antes de ir", "sub": "Cada video lleva a la guía del evento y al enlace para ver entradas o reservar lo que aparece en él.",
+        "todos": "Todos los videos", "ver_guia": "Ver guía del evento", "ingressos": "Ver entradas", "reservar": "Reservar", "assistir": "Ver el video",
+        "play": "Reproducir", "canal": "Canal de YouTube", "vazio": "Los primeros videos están en preparación. Suscríbete al canal para recibirlos.",
+        "ev_h": "En video", "disc": "El video se carga desde YouTube solo cuando pulsas play (modo sin cookies).", "idioma": {"pt": "PT", "en": "EN", "es": "ES"}},
 }

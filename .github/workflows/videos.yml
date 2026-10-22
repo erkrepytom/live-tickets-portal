@@ -1,0 +1,67 @@
+name: Vídeos do YouTube no site
+on:
+  schedule:
+    - cron: "41 */6 * * *"   # a cada 6 horas, fora do minuto 0
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["data/videos.json", "scripts/videos.py"]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  videos:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependências do gerador (arte dos pins)
+        run: pip install --quiet pillow
+      - name: Buscar vídeos novos do canal
+        env:
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
+        run: python scripts/videos.py
+      - name: Regerar o site
+        run: python scripts/gerar_paginas.py
+      - name: Publicar se houver mudança
+        id: pub
+        run: |
+          git config user.name "videos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "mudou=nao" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Atualiza vídeos do YouTube"
+            git push
+            echo "mudou=sim" >> "$GITHUB_OUTPUT"
+          fi
+      # O push com o token do Actions não dispara o pages.yml, então o deploy é feito aqui.
+      - name: Publicar em mytickets.tours (Azure Static Web Apps)
+        if: steps.pub.outputs.mudou == 'sim'
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: "."
+          skip_app_build: true
+          skip_api_build: true
+      - uses: actions/configure-pages@v5
+        if: steps.pub.outputs.mudou == 'sim'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.pub.outputs.mudou == 'sim'
+        with:
+          path: .
+      - name: Deploy
+        id: deployment
+        if: steps.pub.outputs.mudou == 'sim'
+        uses: actions/deploy-pages@v4

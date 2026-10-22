@@ -403,3 +403,42 @@ html{scroll-padding-top:120px}
 .btn-pin svg{color:#E60023}
 /* Preço "a partir de" lido do parceiro (o mesmo valor vai para o JSON-LD) */
 .buy-price{margin:0 0 4px;font-weight:600;color:var(--ink)}
+
+
+/* ---------- Planeje a viagem (hotel, transporte, tours) ---------- */
+.trip{display:grid;gap:12px;margin-top:36px}
+.trip h2{font-size:30px;margin:0}
+.trip-sub{color:var(--mut);max-width:60ch;margin:0}
+.trip-list{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:8px}
+.trip-opt{display:grid;gap:10px;align-content:start;padding:18px 20px;border-radius:16px;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line)}
+.trip-opt .trip-brand{font:700 11px/1 var(--f-mono,monospace);letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.trip-opt h3{margin:0;font-size:20px;line-height:1.15}
+.trip-opt p{margin:0;color:var(--mut);font-size:15px}
+.trip-opt .btn{justify-self:start;margin-top:4px}
+
+/* ---------- Vídeos do YouTube (facade: miniatura + play; iframe só no clique) ---------- */
+.yt{position:relative;overflow:hidden;border-radius:18px;background:#000;aspect-ratio:16/9;cursor:pointer;isolation:isolate}
+.yt.yt-v{aspect-ratio:9/16}
+.yt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s ease,opacity .3s}
+.yt:hover img{transform:scale(1.04)}
+.yt-play{position:absolute;inset:0;margin:auto;width:68px;height:48px;border:0;background:transparent;padding:0;cursor:pointer;filter:drop-shadow(0 4px 14px rgba(0,0,0,.45))}
+.yt-play svg{width:100%;height:100%}
+.yt-lang{position:absolute;top:10px;left:10px;font:700 11px/1 var(--f-mono,monospace);letter-spacing:.12em;padding:6px 8px;border-radius:999px;background:rgba(4,8,15,.7);color:#fff}
+.yt.on img,.yt.on .yt-play,.yt.on .yt-lang{display:none}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.short-slot.short-live{padding:0;display:grid;gap:10px;align-content:start;overflow:visible;aspect-ratio:auto}
+.short-slot.short-live::before{display:none}
+.short-slot.short-live .short-title{font:700 16px/1.3 var(--f-body,inherit);text-transform:none;letter-spacing:0;color:var(--ink)}
+.vcard{display:grid;gap:12px;align-content:start;padding:12px;border-radius:20px;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line)}
+.vcard-body{display:grid;gap:6px;padding:0 6px 6px}
+.vcard-body h3{margin:0;font-size:18px;line-height:1.2}
+.vcard-body p{margin:0;color:var(--mut);font-size:14px}
+.vcard-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.vgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:18px}
+.vmore{display:grid;gap:10px;margin-top:36px}
+.vmore h2{font-size:26px;margin:0}
+@media (max-width:900px){.vgrid{grid-template-columns:minmax(0,1fr)}
+  .vgrid-swipe{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin-inline:-16px;padding:2px 16px 12px;scroll-padding-inline:16px;scrollbar-width:none}
+  .vgrid-swipe::-webkit-scrollbar{display:none}
+  .vgrid-swipe .vcard{flex:0 0 min(78%,320px);scroll-snap-align:start}}
+@media (min-width:600px) and (max-width:900px){.vgrid:not(.vgrid-swipe){grid-template-columns:repeat(2,minmax(0,1fr))}}

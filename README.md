@@ -48,6 +48,31 @@ To switch on a new partner after approval:
 
 Outbound clicks send `outbound_ticket_click` to GA4 (`partner`, `event_name`, `target_lang`, `click_location`) as well as `affiliate_click`.
 
+## Travel layer ("Plan the trip")
+
+Every event page ends with three cards, in the page's language and already filled with the event's city and dates: hotels (Booking.com, check-in the day before and check-out the day after), transport within Europe (Omio; the card is skipped for events outside Europe) and tours/activities (GetYourGuide, stadium tour + city). `VIAGEM` in `scripts/conteudo.py` holds the texts and the affiliate field of each partner.
+
+- With `"id": ""` (today) the links are plain external links (`rel="nofollow noopener"`) and the section says the site earns nothing on them. They are still useful to the reader, which is the point for SEO.
+- After joining Travelpayouts (Booking, Omio, GetYourGuide in one account) or each program directly, paste the affiliate id (Booking `aid`, Travelpayouts `marker`, GetYourGuide `partner_id`) into `"id"`. The generator then routes the card through `/go/<partner>/<lang>/<event>/`, marks it `rel="sponsored"` and switches the disclosure line. Clicks are measured as `travel_click` in GA4 (`partner`, `click_location`).
+
+## Ticket partners waiting for approval
+
+`PARCEIROS` now also lists P1 Travel (Partnerize; single tickets and ticket + hotel packages for European football, F1, MotoGP, Roland-Garros and concerts) and SuperIngressos (CJ/Awin/Webgains; Portuguese-speaking seller for NBA, NFL, MLB, NHL, MLS and US concerts). Both are `"ativo": False`. The switch-on steps are the same as above: deeplink per event in `data/eventos.json` under `"links"`, then `ativo`, `fatos` and `termos`.
+
+## YouTube videos (works like a blog)
+
+`data/videos.json` lists the videos shown on the site. Each one carries `yt` (the 11-character YouTube id), `titulo`, `idioma`, `publicado`, an optional `evento` (slug) and an optional `cta`. Where they appear:
+
+- Event page: the first video linked to the event replaces the "coming soon" short slot (vertical, with the "See tickets" button under it); further videos appear in an "On video" strip. The page gets `VideoObject` JSON-LD.
+- `/videos/`, `/en/videos/`, `/es/videos/`: all videos, newest first, each with its button. The page and the footer link only exist when there is at least one video.
+- Home: an "On video" strip with the last three.
+
+The player is a facade: a static thumbnail from `i.ytimg.com` and a play button; the `youtube-nocookie.com` iframe is created only on click (`assets/site.js`), so pages load nothing from YouTube until the visitor asks. Plays are measured as `video_start`.
+
+Buttons per `cta.tipo`: `evento` → tickets for the linked event (`/go/se365/…`); `viagem` + `parceiro` (`booking`, `omio`, `getyourguide`) → the travel link for the event; `url` → any link you give (`rotulo` per language; `afiliado: false` drops `rel="sponsored"`). Videos linked to an event also get a "See event guide" button.
+
+`.github/workflows/videos.yml` runs every 6 hours: `scripts/videos.py` reads the channel's public RSS feed (channel id `UCIUejr6o9Rdvsg_07x6kziA`, override with the repository variable `YOUTUBE_CHANNEL_ID`), appends new videos with the language guessed from the title and the event matched by team/artist/city names, regenerates the site and publishes. It never rewrites entries already in the JSON, so edit `evento`, `cta` or `ativo` freely.
+
 ## Affiliate links
 
 - Deeplinks follow the panel's Deeplink generator format, on the partner's site in the page's language: `365tickets.com.br` (PT), `www.sportsevents365.com` (EN), `sportsevents365.es` (ES). The localized domains are the partner's own (hreflang) and the 365tickets.com.br click showed up in the panel's Raw Clicks report. Sending each visitor to a site already in their language stops Chrome's automatic translation, which breaks the partner's pages a few seconds after they load.
