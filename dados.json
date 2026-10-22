@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-22T01:37:04+00:00",
+ "atualizado": "2026-10-22T07:43:45+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,9 +11,9 @@
    },
    "noticias": [
     {
-     "t": "Palmeiras x Fluminense - Taça Conmebol Libertadores 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/sp/futebol/libertadores/jogo/21-10-2026/palmeiras-fluminense.ghtml",
-     "f": "ge",
+     "t": "Palmeiras bate Fluminense nos pênaltis e vai à oitava final de Libertadores",
+     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/palmeiras-x-fluminense-semifinal-volta-libertadores-21-10-2026/",
+     "f": "Gazeta Esportiva",
      "alta": false
     },
     {
@@ -23,14 +23,14 @@
      "alta": false
     },
     {
-     "t": "Com Atlético-MG e Boca, veja data e local da final da Sul-Americana",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-sulamericana/atletico-mg-x-boca-juniors-final-copa-sul-americana-2026/",
-     "f": "Gazeta Esportiva",
+     "t": "Mourinho vê suspensão longa como chance para Vini Jr. recuperar futebol no Real Madrid",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2026/10/22/mourinho-ve-suspensao-longa-como-chance-para-vini-jr-recuperar-futebol-no-real-madrid.ghtml",
+     "f": "ge",
      "alta": false
     },
     {
-     "t": "Como põe Manchester United na roda e goleia na Champions com show de Nico Paz",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/21-10-2026/como-Manchesterunited.ghtml",
+     "t": "Cruzeiro x Olimpia pela Libertadores Feminina: onde assistir ao vivo e horário",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/libertadores-feminina/noticia/2026/10/22/cruzeiro-x-olimpia-pela-libertadores-feminina-onde-assistir-ao-vivo-e-horario.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -51,20 +51,20 @@
      "alta": false
     },
     {
+     "t": "Courtois sends warning to Barcelona as Real Madrid prepare for El Clasico",
+     "u": "https://sports.yahoo.com/articles/courtois-sends-warning-barcelona-real-072500788.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Warriors vs. Lakers odds, prediction, time: 2026 NBA picks for Wednesday, Oct. 21 by proven model",
      "u": "https://www.cbssports.com/betting/news/warriors-lakers-odds-prediction-time-2026-nba-picks-best-bets-wednesday-october-21/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Why is Kristaps Porziņģis considering retirement from NBA?",
-     "u": "https://sports.yahoo.com/articles/why-kristaps-porzi-considering-retirement-011519616.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Lakers say forward Adou Thiero out with swelling in …",
-     "u": "https://sports.yahoo.com/articles/lakers-forward-adou-thiero-swelling-012555854.html",
+     "t": "Arda Guler jokes about stealing Mbappe’s goal after Real Madrid beat Leipzig: ‘I knew he’d score another’",
+     "u": "https://sports.yahoo.com/articles/arda-guler-jokes-stealing-mbappe-072000935.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Do retiro espiritual ao brilho na Champions: a nova vida de central do Liverpool",
-     "u": "https://www.abola.pt/noticias/do-retiro-espiritual-ao-brilho-na-champions-a-nova-vida-de-central-do-liverpool-2026102117115247241",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Bernardo Silva e o papel no Real Madrid: «Jogar 10 ou 90 minutos é igual, estou pronto para o que o míster quiser»",
-     "u": "https://www.record.pt/internacional/paises/espanha/real-madrid/detalhe/bernardo-silva-e-o-papel-no-real-madrid-jogar-10-ou-90-minutos-e-igual-estou-pronto-para-o-que-o-mister-quiser",
+     "t": "Sporting bem colocado para o playoff e FC Porto a sofrer: as novas previsões da Champions",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/sporting-bem-colocado-para-o-playoff-e-fc-porto-a-sofrer-as-novas-previsoes-da-champions",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Hecatombe em Alvalade: as melhores imagens do Sporting-LASK",
-     "u": "https://www.abola.pt/galeria/hecatombe-em-alvalade-as-melhores-imagens-do-sporting-lask-2026102120145152380",
+     "t": "Atenção, Sporting: Shakhtar perde em San Siro contra 10 jogadores",
+     "u": "https://www.abola.pt/noticias/atencao-sporting-shakhtar-perde-em-san-siro-contra-10-jogadores-2026102120372847279",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "O interrogatório do Sporting-LASK Linz: construção reduzida a cinzas",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/o-interrogatorio-do-sporting-lask-linz-construcao-reduzida-a-cinzas",
+     "t": "Gráfico interativo: os milhões que Sporting e FC Porto já arrecadaram na Liga dos Campeões esta época",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/grafico-interativo-os-milhoes-que-sporting-e-fc-porto-ja-arrecadaram-na-liga-dos-campeoes-esta-epoca",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Diomande assinou o melhor momento da goleada do Real Madrid",
+     "u": "https://www.abola.pt/video/diomande-assinou-o-melhor-momento-da-goleada-do-real-madrid-2026102120594047005",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "El Barça vuelve al trabajo tras el PSG y ya piensa en el Clásico",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261021/1004241481/barca-vuelve-trabajo-psg-piensa-clasico.html",
+     "t": "4-1: Dosis de confianza para el Real Madrid antes del Clásico",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261021/1004241656/dosis-moral-real-madrid-clasico.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -153,9 +153,9 @@
      "alta": false
     },
     {
-     "t": "Ex-tennis pro Megan Rose appointed to lead 2031 men’s Rugby World Cup in US",
-     "u": "https://www.theguardian.com/sport/2026/oct/21/ex-tennis-pro-megan-rose-appointed-to-lead-2031-mens-rugby-world-cup-in-us",
-     "f": "The Guardian",
+     "t": "From Bury to AC Milan: Bournemouth's journey to 'dreamland'",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c6x2v8x7ry17o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
@@ -165,8 +165,8 @@
      "alta": false
     },
     {
-     "t": "Arsenal fight back to draw against Bayern Munich",
-     "u": "https://www.skysports.com/football/bayern-munich-vs-arsenal/report/577643",
+     "t": "Edwards makes NBA HISTORY as Giannis shines on Heat debut!",
+     "u": "https://www.skysports.com/watch/video/13602124/minnesota-timberwolves-miami-heat-nba-highlights",
      "f": "Sky Sports",
      "alta": false
     }
@@ -181,9 +181,9 @@
    },
    "noticias": [
     {
-     "t": "Palmeiras y Fluminense EN VIVO: se define el primer finalista de la Libertadores",
-     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/palmeiras-fluminense-revancha-semifinal-libertadores-2026_0_1GPMwq4aE7.html",
-     "f": "Olé",
+     "t": "Atento Estudiantes: Palmeiras eliminó a Fluminense por penales y se convirtió en el primer finalista de la Copa Libertadores",
+     "u": "https://www.infobae.com/deportes/2026/10/22/atento-estudiantes-palmeiras-elimino-a-fluminense-por-penales-y-se-convirtio-en-el-primer-finalista-de-la-copa-libertadores/",
+     "f": "Infobae",
      "alta": false
     },
     {
@@ -193,14 +193,14 @@
      "alta": false
     },
     {
-     "t": "Show de Nico Paz en la goleada del Como a Manchester United en Champions League: doblete con un zurdazo al ángulo y asistencia clave",
-     "u": "https://www.infobae.com/deportes/2026/10/21/el-golazo-bajo-la-lluvia-de-nico-paz-ante-el-manchester-united-al-minuto-del-partido-por-champions-league/",
-     "f": "Infobae",
+     "t": "Video: la tanda de penales con la que Palmeiras se metió a la final de la Libertadores",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/video-tanda-penales-palmeiras-metio-final-libertadores_0_9JC74d05sg.html",
+     "f": "Olé",
      "alta": false
     },
     {
-     "t": "Radiografía de Atlético Mineiro, el rival de Boca en la final de la Sudamericana",
-     "u": "https://www.ole.com.ar/boca-juniors/radiografia-atletico-mineiro-camino-copa-amenazas-dt-conocido-recuerdo-ultima-vez_0_hIV0l2dU6D.html",
+     "t": "Atención Estudiantes: con Palmeiras clasificado, qué día y dónde se juega la final de la Copa Libertadores",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/final-copa-libertadores-palmeiras-vs-flamengo-estudiantes-dia-hora-ver-tv-online_0_mkakAiczz7.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Côme, Manchester City, Liverpool... la suite compliquée du programme de Lens en Ligue des champions après la lourde défaite à Bruges",
-     "u": "https://www.lequipe.fr/Football/Actualites/Come-manchester-city-liverpool-la-suite-compliquee-du-programme-de-lens-en-ligue-des-champions-apres-la-lourde-defaite-a-bruges/1737648#at_medium=RSS_feeds",
+     "t": "4 300 mètres de dénivelé, grand canyon et descente vertigineuse : l'étape aussi inédite que spectaculaire qui attend les coureurs du Tour de France 20",
+     "u": "https://www.lequipe.fr/Cyclisme-sur-route/Article/4-300-metres-de-denivele-grand-canyon-et-descente-vertigineuse-l-etape-aussi-inedite-que-spectaculaire-qui-attend-les-coureurs-du-tour-de-france-2027-dans-les-cevennes/1737543#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Quand Harry Kane frappe un 6 mètres... et crée une grosse occasion de but pour le Bayern Munich contre Arsenal en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Quand-harry-kane-frappe-un-6-metres-et-cree-une-grosse-occasion-de-but-pour-le-bayern-munich-contre-arsenal-en-ligue-des-champions/1737654#at_medium=RSS_feeds",
+     "t": "« Ça n'a pas l'air bon du tout » : Mikel Arteta très inquiet de la nouvelle blessure de Bukayo Saka, sorti prématurément face au Bayern en Ligue des c",
+     "u": "https://www.lequipe.fr/Football/Actualites/-ca-n-a-pas-l-air-bon-du-tout-mikel-arteta-tres-inquiet-de-la-nouvelle-blessure-de-bukayo-saka-sorti-prematurement-face-au-bayern-en-ligue-des-champions/1737670#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,9 +253,9 @@
  ],
  "destaques": [
   {
-   "t": "Palmeiras x Fluminense - Taça Conmebol Libertadores 2026 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/sp/futebol/libertadores/jogo/21-10-2026/palmeiras-fluminense.ghtml",
-   "f": "ge",
+   "t": "Palmeiras bate Fluminense nos pênaltis e vai à oitava final de Libertadores",
+   "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/palmeiras-x-fluminense-semifinal-volta-libertadores-21-10-2026/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
@@ -267,9 +267,9 @@
    "pais": "US"
   },
   {
-   "t": "Do retiro espiritual ao brilho na Champions: a nova vida de central do Liverpool",
-   "u": "https://www.abola.pt/noticias/do-retiro-espiritual-ao-brilho-na-champions-a-nova-vida-de-central-do-liverpool-2026102117115247241",
-   "f": "A Bola",
+   "t": "Sporting bem colocado para o playoff e FC Porto a sofrer: as novas previsões da Champions",
+   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/sporting-bem-colocado-para-o-playoff-e-fc-porto-a-sofrer-as-novas-previsoes-da-champions",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
@@ -288,9 +288,9 @@
    "pais": "GB"
   },
   {
-   "t": "Palmeiras y Fluminense EN VIVO: se define el primer finalista de la Libertadores",
-   "u": "https://www.ole.com.ar/futbol-internacional/libertadores/palmeiras-fluminense-revancha-semifinal-libertadores-2026_0_1GPMwq4aE7.html",
-   "f": "Olé",
+   "t": "Atento Estudiantes: Palmeiras eliminó a Fluminense por penales y se convirtió en el primer finalista de la Copa Libertadores",
+   "u": "https://www.infobae.com/deportes/2026/10/22/atento-estudiantes-palmeiras-elimino-a-fluminense-por-penales-y-se-convirtio-en-el-primer-finalista-de-la-copa-libertadores/",
+   "f": "Infobae",
    "alta": false,
    "pais": "AR"
   },
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Côme, Manchester City, Liverpool... la suite compliquée du programme de Lens en Ligue des champions après la lourde défaite à Bruges",
-   "u": "https://www.lequipe.fr/Football/Actualites/Come-manchester-city-liverpool-la-suite-compliquee-du-programme-de-lens-en-ligue-des-champions-apres-la-lourde-defaite-a-bruges/1737648#at_medium=RSS_feeds",
+   "t": "4 300 mètres de dénivelé, grand canyon et descente vertigineuse : l'étape aussi inédite que spectaculaire qui attend les coureurs du Tour de France 20",
+   "u": "https://www.lequipe.fr/Cyclisme-sur-route/Article/4-300-metres-de-denivele-grand-canyon-et-descente-vertigineuse-l-etape-aussi-inedite-que-spectaculaire-qui-attend-les-coureurs-du-tour-de-france-2027-dans-les-cevennes/1737543#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
