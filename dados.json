@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-22T18:38:18+00:00",
+ "atualizado": "2026-10-22T22:27:04+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,15 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Dirigente da NBA cita falta de arenas de classe mundial como razão para Brasil não receber jogos",
-     "u": "https://ge.globo.com/basquete/nba/noticia/2026/10/22/dirigente-da-nba-cita-falta-de-arenas-de-classe-mundial-como-razao-para-brasil-nao-receber-jogos.ghtml",
+     "t": "Palmeiras, Corinthians e Santos têm jogadores convocados para a Copa do Mundo sub-17; veja lista",
+     "u": "https://www.gazetaesportiva.com/times/brasil/palmeiras-corinthians-e-santos-tem-jogadores-convocados-para-a-copa-do-mundo-sub-17-veja-lista/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Fluminense x Flamengo - Copa do Brasil Feminina 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/pi/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/22-10-2026/fluminense-flamengo.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Consórcio Fla-Flu estima prejuízo de R$ 300 mil com danos ao Maracanã em Vasco x Boca",
-     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/22/consorcio-fla-flu-estima-prejuizo-de-r-300-mil-com-danos-no-maracana-em-vasco-x-boca.ghtml",
+     "t": "Atlético-MG x Amazonas - Copa do Brasil Sub-20 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/am/futebol/copa-do-brasil-sub-20/jogo/22-10-2026/atletico-mg-amazonas-fc.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Palmeiras volta a vencer o Botafogo e enfrenta o Paysandu nas quartas da Copa do Brasil sub-20",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-vence-botafogo-avanca-quartas-copa-do-brasil-sub-20/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -33,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "NBA DFS: Top DraftKings, FanDuel daily Fantasy basketball picks for Thursday, Oct. 22 include Jalen Williams",
-     "u": "https://www.cbssports.com/betting/news/nba-dfs-draftkings-fanduel-daily-fantasy-basketball-picks-thursday-october-22/",
+     "t": "Nuggets vs. Thunder odds, prediction, time: 2026 NBA picks for Thursday, Oct. 22 by advanced model",
+     "u": "https://www.cbssports.com/betting/news/nuggets-thunder-odds-prediction-time-2026-nba-picks-october-22/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "‘You step in the game’ – Barcelona star hits back at fans after PSG criticism",
-     "u": "https://sports.yahoo.com/articles/step-game-barcelona-star-hits-182500794.html",
+     "t": "Former UNC basketball players in the NBA for 2026-27 season",
+     "u": "https://sports.yahoo.com/articles/former-unc-basketball-players-nba-221106610.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Max Verstappen, Red Bull Finding Championship Form As F1 Season Winds Down",
-     "u": "https://sports.yahoo.com/articles/max-verstappen-red-bull-finding-182347729.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Patriots vs. Bears odds, picks, NFL Week 7 prediction: Best bets, player props for Thursday Night Football",
-     "u": "https://www.cbssports.com/betting/news/patriots-vs-bears-odds-picks-nfl-week-7-prediction-best-bets-player-props-for-thursday-night-football/",
+     "t": "Champions League Power Rankings: How low can struggling Manchester United go?",
+     "u": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-manchester-united-psg-real-madrid-arsenal-bayern/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Bears vs. Patriots live score, results, highlights from NFL 'Thursday Night Football'",
+     "u": "https://sports.yahoo.com/articles/bears-vs-patriots-live-score-210001039.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -67,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Atenção, Sporting: Shakhtar perde em San Siro contra 10 jogadores",
-     "u": "https://www.abola.pt/noticias/atencao-sporting-shakhtar-perde-em-san-siro-contra-10-jogadores-2026102120372847279",
+     "t": "Champions: derrotas pioram previsões de Sporting e FC Porto (fotos)",
+     "u": "https://www.abola.pt/noticias/champions-derrotas-pioram-previsoes-de-sporting-e-fc-porto-fotos-2026102120243943662",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Roma goleia na Champions com Rodrigo Mora a titular",
-     "u": "https://www.abola.pt/noticias/roma-goleia-na-champions-com-rodrigo-mora-a-titular-2026102021113331159",
+     "t": "Ricardo Costa após mais uma vitória do Sporting na Champions: «O que temos feito já é histórico»",
+     "u": "https://www.record.pt/modalidades/andebol/detalhe/ricardo-costa-apos-mais-uma-vitoria-do-sporting-na-champions-o-que-temos-feito-ja-e-historico",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "FC Porto vence 1.ª mão da segunda ronda de qualificação da Champions feminina de voleibol",
+     "u": "https://www.record.pt/modalidades/voleibol/detalhe/fc-porto-vence-1-mao-da-segunda-ronda-de-qualificacao-da-champions-feminina-de-voleibol",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Liga dos Campeões: Sporting vence Kristianstad e reforça liderança",
+     "u": "https://www.abola.pt/noticias/liga-dos-campeoes-sporting-vence-kristianstad-e-reforca-lideranca-2026102220384252281",
      "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Omonia-Benfica, em direto",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/omonia-benfica-em-direto",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Bournemouth-Milan, em direto",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/bournemouth-milan-em-direto",
-     "f": "Record",
      "alta": false
     }
    ]
@@ -101,13 +113,13 @@
    },
    "noticias": [
     {
-     "t": "Armani Milán - Barça, en directo",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261022/1004241258/armani-milan-barca-directo-euroliga-baloncesto-vivo.html",
+     "t": "81-89: El Barça mejora su imagen y gana en Milán",
+     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261022/1004242049/81-89-barca-mejora-imagen-gana-milan.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Exjugadores de Real Madrid y Barça, calientan el Clásico jugando al pádel",
+     "t": "Exjugadores de Real Madrid y Barça calientan el Clásico jugando al pádel",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261022/1004241878/mejores-imagenes-desafio-nacex-previo-clasico.html",
      "f": "Mundo Deportivo",
      "alta": false
@@ -147,8 +159,8 @@
      "alta": false
     },
     {
-     "t": "Tour de France UK stages in detail - where can you watch?",
-     "u": "https://www.bbc.co.uk/sport/cycling/articles/cq1kd0z33r8ro?at_medium=RSS&at_campaign=rss",
+     "t": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
@@ -169,8 +181,20 @@
    },
    "noticias": [
     {
-     "t": "Atento Estudiantes: Palmeiras eliminó a Fluminense por penales y se convirtió en el primer finalista de la Copa Libertadores",
-     "u": "https://www.infobae.com/deportes/2026/10/22/atento-estudiantes-palmeiras-elimino-a-fluminense-por-penales-y-se-convirtio-en-el-primer-finalista-de-la-copa-libertadores/",
+     "t": "France Football aclaró la polémica por el BOAT y confirmó la verdad detrás del Súper Balón de Oro",
+     "u": "https://www.ole.com.ar/futbol-internacional/france-football-aclaro-polemica-boat-confirmo-verdad-detras-mitico-super-balon-oro_0_s5olaeVgtf.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Flamengo vs. Estudiantes, hoy EN VIVO por la Copa Libertadores: formaciones, horario y por dónde ver",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flamengo-vs-estudiantes-vivo-semis-copa-libertadores-dia-hora-ver-tv-online-formaciones_0_54cgvQCdxf.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Estudiantes de La Plata va por el golpe ante Flamengo en el Maracaná para clasificarse a la final de la Copa Libertadores: hora, TV y formaciones",
+     "u": "https://www.infobae.com/deportes/2026/10/22/estudiantes-de-la-plata-va-por-el-golpe-ante-flamengo-en-el-maracana-para-clasificarse-a-la-final-de-la-copa-libertadores-hora-tv-y-formaciones/",
      "f": "Infobae",
      "alta": false
     },
@@ -178,18 +202,6 @@
      "t": "Conmoción en el rugby por la trágica muerte de una jugadora de 17 años durante un partido en Francia",
      "u": "https://www.infobae.com/deportes/2026/10/22/conmocion-en-el-rugby-por-la-tragica-muerte-de-una-jugadora-de-17-anos-durante-un-partido-en-francia/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "La sana competencia en River que genera tranquilidad pensando en Racing y Boca",
-     "u": "https://www.ole.com.ar/river-plate/river-plate-nivel-francisco-ortega-marcos-acuna_0_Ip4KqcZhWs.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "A pura aceleración: Franco Colapinto llegó al Gran Premio de Estados Unidos... ¡en moto!",
-     "u": "https://www.ole.com.ar/autos/pura-aceleracion-llegada-franco-colapinto-moto-paddock-gran-premio-estados-unidos-austin_0_YqQ2CqH3DD.html",
-     "f": "Olé",
      "alta": false
     }
    ]
@@ -225,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Les dispositifs de beIN Sports, France 2 et la chaîne L'Équipe pour le NFL Paris Game entre les Saints et les Steelers",
-     "u": "https://www.lequipe.fr/Medias/Actualites/Les-dispositifs-de-bein-sports-france-2-et-la-chaine-l-equipe-pour-le-nfl-paris-game-entre-les-saints-et-les-steelers/1737535#at_medium=RSS_feeds",
+     "t": "Ligue Europa : Mike Maignan plombe l'AC Milan, Jean-Philippe Mateta de retour, la Real Sociedad à la fête",
+     "u": "https://www.lequipe.fr/Football/Actualites/Ligue-europa-mike-maignan-plombe-l-ac-milan-jean-philippe-mateta-de-retour-la-real-sociedad-a-la-fete/1737926#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Battu par Taylor Fritz, Pierre-Hugues Herbert s'arrête au deuxième tour de l'ATP 250 de Lyon",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/Battu-par-taylor-fritz-pierre-hugues-herbert-s-arrete-au-deuxieme-tour-de-l-atp-250-de-lyon/1737835#at_medium=RSS_feeds",
+     "t": "Tourmalet, Montmartre, Bretagne : le parcours du Tour de France de vos rêves",
+     "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Tourmalet-montmartre-bretagne-le-parcours-du-tour-de-france-de-vos-reves/1737901#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -241,29 +253,29 @@
  ],
  "destaques": [
   {
-   "t": "Dirigente da NBA cita falta de arenas de classe mundial como razão para Brasil não receber jogos",
-   "u": "https://ge.globo.com/basquete/nba/noticia/2026/10/22/dirigente-da-nba-cita-falta-de-arenas-de-classe-mundial-como-razao-para-brasil-nao-receber-jogos.ghtml",
-   "f": "ge",
+   "t": "Palmeiras, Corinthians e Santos têm jogadores convocados para a Copa do Mundo sub-17; veja lista",
+   "u": "https://www.gazetaesportiva.com/times/brasil/palmeiras-corinthians-e-santos-tem-jogadores-convocados-para-a-copa-do-mundo-sub-17-veja-lista/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "NBA DFS: Top DraftKings, FanDuel daily Fantasy basketball picks for Thursday, Oct. 22 include Jalen Williams",
-   "u": "https://www.cbssports.com/betting/news/nba-dfs-draftkings-fanduel-daily-fantasy-basketball-picks-thursday-october-22/",
+   "t": "Nuggets vs. Thunder odds, prediction, time: 2026 NBA picks for Thursday, Oct. 22 by advanced model",
+   "u": "https://www.cbssports.com/betting/news/nuggets-thunder-odds-prediction-time-2026-nba-picks-october-22/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Atenção, Sporting: Shakhtar perde em San Siro contra 10 jogadores",
-   "u": "https://www.abola.pt/noticias/atencao-sporting-shakhtar-perde-em-san-siro-contra-10-jogadores-2026102120372847279",
+   "t": "Champions: derrotas pioram previsões de Sporting e FC Porto (fotos)",
+   "u": "https://www.abola.pt/noticias/champions-derrotas-pioram-previsoes-de-sporting-e-fc-porto-fotos-2026102120243943662",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Armani Milán - Barça, en directo",
-   "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261022/1004241258/armani-milan-barca-directo-euroliga-baloncesto-vivo.html",
+   "t": "81-89: El Barça mejora su imagen y gana en Milán",
+   "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261022/1004242049/81-89-barca-mejora-imagen-gana-milan.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
@@ -276,9 +288,9 @@
    "pais": "GB"
   },
   {
-   "t": "Atento Estudiantes: Palmeiras eliminó a Fluminense por penales y se convirtió en el primer finalista de la Copa Libertadores",
-   "u": "https://www.infobae.com/deportes/2026/10/22/atento-estudiantes-palmeiras-elimino-a-fluminense-por-penales-y-se-convirtio-en-el-primer-finalista-de-la-copa-libertadores/",
-   "f": "Infobae",
+   "t": "France Football aclaró la polémica por el BOAT y confirmó la verdad detrás del Súper Balón de Oro",
+   "u": "https://www.ole.com.ar/futbol-internacional/france-football-aclaro-polemica-boat-confirmo-verdad-detras-mitico-super-balon-oro_0_s5olaeVgtf.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -290,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Les dispositifs de beIN Sports, France 2 et la chaîne L'Équipe pour le NFL Paris Game entre les Saints et les Steelers",
-   "u": "https://www.lequipe.fr/Medias/Actualites/Les-dispositifs-de-bein-sports-france-2-et-la-chaine-l-equipe-pour-le-nfl-paris-game-entre-les-saints-et-les-steelers/1737535#at_medium=RSS_feeds",
+   "t": "Ligue Europa : Mike Maignan plombe l'AC Milan, Jean-Philippe Mateta de retour, la Real Sociedad à la fête",
+   "u": "https://www.lequipe.fr/Football/Actualites/Ligue-europa-mike-maignan-plombe-l-ac-milan-jean-philippe-mateta-de-retour-la-real-sociedad-a-la-fete/1737926#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
