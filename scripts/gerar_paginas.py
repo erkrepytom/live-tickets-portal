@@ -528,10 +528,35 @@ def videos_todos():
     return _VIDEOS
 
 
+_LOCAIS = None
+
+
+def videos_locais(eventos):
+    """Shorts hospedados no próprio site: assets/videos/short-<chave>.mp4 (PT), -en.mp4 e -es.mp4.
+    Entram como vídeos do evento quando não há (ainda) o mesmo vídeo no YouTube."""
+    global _LOCAIS
+    if _LOCAIS is None:
+        _LOCAIS = []
+        for ev in eventos:
+            chave = C.chave_evento(ev["slug"])
+            for lang, suf in (("pt", ""), ("en", "-en"), ("es", "-es")):
+                arq = RAIZ / "assets" / "videos" / f"short-{chave}{suf}.mp4"
+                if arq.exists():
+                    _LOCAIS.append({"mp4": f"assets/videos/{arq.name}", "idioma": lang, "evento": ev["slug"], "publicado": ev.get("conferido", ev["data"]),
+                                    "titulo": {l: T[l]["short_t"].format(t=L(ev["titulo"], l)) for l in IDIOMAS}, "cta": {"tipo": "evento"}, "ativo": True, "poster": ev["img"]})
+    return _LOCAIS
+
+
 def videos_do_evento(ev, lang):
-    """Vídeos ligados ao evento: primeiro no idioma da página, depois os outros idiomas."""
-    vs = [v for v in videos_todos() if v.get("evento") == ev["slug"]]
-    return sorted(vs, key=lambda v: (v.get("idioma") != lang, ))
+    """Vídeos ligados ao evento: YouTube primeiro (no idioma da página, depois os outros), depois os shorts locais
+    cujo idioma ainda não tem versão no YouTube."""
+    yt = [v for v in videos_todos() if v.get("evento") == ev["slug"]]
+    idiomas_yt = {v.get("idioma") for v in yt}
+    locais = [v for v in videos_locais(_EVENTOS) if v["evento"] == ev["slug"] and v["idioma"] not in idiomas_yt]
+    return sorted(yt + locais, key=lambda v: (v.get("idioma") != lang, "mp4" in v))
+
+
+_EVENTOS = []
 
 
 def titulo_video(v, lang):
@@ -540,17 +565,25 @@ def titulo_video(v, lang):
 
 
 def facade_video(v, lang, pagina, vertical=True):
-    """Miniatura do YouTube com botão de play. O iframe (youtube-nocookie) só é criado no clique (assets/site.js),
-    então a página não carrega nada do YouTube até o visitante querer: bom para Core Web Vitals e para privacidade."""
+    """Vídeo em ação: a miniatura é estática até o bloco entrar na tela; aí o assets/site.js troca pelo player
+    tocando sem som (YouTube via youtube-nocookie, ou o MP4 local) e pausa quando sai da tela. Um toque liga o som.
+    Nada do YouTube é baixado antes de o vídeo chegar perto da tela: bom para Core Web Vitals e para privacidade."""
     vx = C.VIDEOS_TXT[lang]
-    yt = v["yt"]
     titulo = titulo_video(v, lang)
-    thumb = f"https://i.ytimg.com/vi/{yt}/{'hqdefault' if vertical else 'hqdefault'}.jpg"
     lang_tag = vx["idioma"].get(v.get("idioma", ""), "")
+    if v.get("mp4"):
+        src = rel(pagina, v["mp4"]) + versao(v["mp4"])
+        poster = foto(v.get("poster", OG_PADRAO), 600, pagina)
+        return (f'<div class="yt{" yt-v" if vertical else ""} yt-local" data-mp4="{e(src)}" data-title="{e(titulo)}">'
+                f'<img src="{e(poster)}" alt="{e(titulo)}" loading="lazy" decoding="async" width="480" height="854">'
+                f'<button type="button" class="yt-play" aria-label="{e(vx["play"])}: {e(titulo)}"><svg viewBox="0 0 68 48" width="68" height="48" aria-hidden="true"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.4 0 34 0 34 0S12.6 0 7.4 1.7c-2.9.8-5.1 3.1-5.9 6C0 13 0 24 0 24s0 11 1.5 16.3c.8 2.9 3 5.2 5.9 6C12.6 48 34 48 34 48s21.4 0 26.6-1.7c2.9-.8 5.1-3.1 5.9-6C68 35 68 24 68 24s0-11-1.5-16.3z" fill="#1d2b3a"/><path d="M45 24 27 14v20" fill="#fff"/></svg></button>'
+                + (f'<span class="yt-lang">{e(lang_tag)}</span>' if lang_tag else "") + f'<span class="yt-sound" aria-hidden="true">{e(vx["som"])}</span></div>')
+    yt = v["yt"]
+    thumb = f"https://i.ytimg.com/vi/{yt}/hqdefault.jpg"
     return (f'<div class="yt{" yt-v" if vertical else ""}" data-yt="{yt}" data-title="{e(titulo)}">'
             f'<img src="{thumb}" alt="{e(titulo)}" loading="lazy" decoding="async" width="480" height="360">'
             f'<button type="button" class="yt-play" aria-label="{e(vx["play"])}: {e(titulo)}"><svg viewBox="0 0 68 48" width="68" height="48" aria-hidden="true"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.4 0 34 0 34 0S12.6 0 7.4 1.7c-2.9.8-5.1 3.1-5.9 6C0 13 0 24 0 24s0 11 1.5 16.3c.8 2.9 3 5.2 5.9 6C12.6 48 34 48 34 48s21.4 0 26.6-1.7c2.9-.8 5.1-3.1 5.9-6C68 35 68 24 68 24s0-11-1.5-16.3z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg></button>'
-            + (f'<span class="yt-lang">{e(lang_tag)}</span>' if lang_tag else "") + '</div>')
+            + (f'<span class="yt-lang">{e(lang_tag)}</span>' if lang_tag else "") + f'<span class="yt-sound" aria-hidden="true">{e(vx["som"])}</span></div>')
 
 
 def cta_video(v, lang, pagina, eventos):
@@ -584,10 +617,14 @@ def cartao_video(v, lang, pagina, eventos, vertical=True):
 
 
 def ld_video(v, lang, ev=None):
-    yt = v["yt"]
-    ld = {"@type": "VideoObject", "name": titulo_video(v, lang), "thumbnailUrl": [f"https://i.ytimg.com/vi/{yt}/hqdefault.jpg"],
-          "embedUrl": f"https://www.youtube-nocookie.com/embed/{yt}", "contentUrl": f"https://www.youtube.com/watch?v={yt}",
-          "uploadDate": v.get("publicado", ""), "inLanguage": HREFLANG.get(v.get("idioma", lang), HREFLANG[lang])}
+    if v.get("mp4"):
+        ld = {"@type": "VideoObject", "name": titulo_video(v, lang), "thumbnailUrl": [foto_abs(v.get("poster", OG_PADRAO))],
+              "contentUrl": f"{BASE_URL}/{v['mp4']}", "uploadDate": v.get("publicado", ""), "inLanguage": HREFLANG.get(v.get("idioma", lang), HREFLANG[lang])}
+    else:
+        yt = v["yt"]
+        ld = {"@type": "VideoObject", "name": titulo_video(v, lang), "thumbnailUrl": [f"https://i.ytimg.com/vi/{yt}/hqdefault.jpg"],
+              "embedUrl": f"https://www.youtube-nocookie.com/embed/{yt}", "contentUrl": f"https://www.youtube.com/watch?v={yt}",
+              "uploadDate": v.get("publicado", ""), "inLanguage": HREFLANG.get(v.get("idioma", lang), HREFLANG[lang])}
     desc = v.get("descricao")
     if desc:
         ld["description"] = L(desc, lang) if isinstance(desc, dict) else desc
@@ -596,12 +633,177 @@ def ld_video(v, lang, ev=None):
     return ld
 
 
+def todos_videos(eventos):
+    """YouTube + shorts locais (sem repetir idioma de um mesmo evento), mais novos primeiro."""
+    yt = videos_todos()
+    pares = {(v.get("evento"), v.get("idioma")) for v in yt}
+    locais = [v for v in videos_locais(eventos) if (v["evento"], v["idioma"]) not in pares]
+    return sorted(yt + locais, key=lambda v: v.get("publicado", ""), reverse=True)
+
+
+# ---------- Status de venda (data/vendas.json, escrito por scripts/vendas.py) ----------
+_VENDAS = None
+
+
+def venda_de(ev):
+    global _VENDAS
+    if _VENDAS is None:
+        try:
+            _VENDAS = json.loads((RAIZ / "data" / "vendas.json").read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _VENDAS = {}
+    return _VENDAS.get(ev["slug"]) or {}
+
+
+def fato_venda(lang, ev):
+    """Linha 'Venda' nos fatos do evento: canal oficial (lido pelo robô) e parceiro (lotes e menor preço)."""
+    vd = venda_de(ev)
+    if not vd:
+        return ""
+    vt = C.VENDA_TXT[lang]
+    partes = []
+    of = vd.get("oficial") or {}
+    if of.get("status") and of["status"] != "desconhecido" and of.get("confianca", 0) >= 0.5:
+        partes.append(f'<a href="{e(of["fonte"])}" target="_blank" rel="nofollow noopener">{e(of.get("nome", vt["oficial"]))}</a>: <b class="st st-{of["status"]}">{e(vt[of["status"]])}</b>')
+    pa = vd.get("parceiro") or {}
+    if pa.get("status") == "a_venda" and pa.get("lotes"):
+        partes.append(f'{e(vt["parceiro"])}: <b class="st st-a_venda">{e(vt["a_venda"])}</b> · {e(vt["parceiro_lotes"].format(n=pa["lotes"], p=fmt_preco(pa["min"], pa["moeda"], lang)))}')
+    elif pa.get("status") in ("esgotado", "em_breve"):
+        partes.append(f'{e(vt["parceiro"])}: <b class="st st-{pa["status"]}">{e(vt[pa["status"]])}</b>')
+    if not partes:
+        return ""
+    quando = (of.get("conferido") or pa.get("conferido") or "")[:10]
+    conf = f' <span class="st-when">({e(vt["conferido"].format(d=data_num(quando, lang)))})</span>' if quando else ""
+    return f'<div class="fact fact-sale"><dt>{e(vt["f"])}</dt><dd>{" · ".join(partes)}{conf}</dd></div>'
+
+
+# ---------- Alertas de golpe (data/artigos.json) ----------
+_ARTIGOS = None
+
+
+def artigos_todos():
+    global _ARTIGOS
+    if _ARTIGOS is None:
+        try:
+            dados = json.loads((RAIZ / "data" / "artigos.json").read_text(encoding="utf-8"))
+            _ARTIGOS = [a for a in dados.get("artigos", []) if a.get("ativo", True)]
+        except (OSError, ValueError):
+            _ARTIGOS = []
+        _ARTIGOS.sort(key=lambda a: a.get("publicado", ""), reverse=True)
+    return _ARTIGOS
+
+
+def caminho_artigo(lang, art):
+    return C.ARTIGOS_TXT[lang]["path"] + L(art["slug"], lang) + "/"
+
+
+def form_denuncia(lang, pagina, eventos, escolhido=None):
+    """Formulário 'Denuncie uma página suspeita': vai para o e-mail do site (FormSubmit, o mesmo dos alertas) e nada é publicado sozinho."""
+    ax = C.ARTIGOS_TXT[lang]
+    ops = '<option value="">—</option>' + "".join(f'<option value="{ev["slug"]}"{" selected" if ev["slug"] == escolhido else ""}>{e(L(ev["titulo"], lang))}</option>' for ev in eventos)
+    return f"""<section class="band alerts" id="denuncia" aria-labelledby="den-h">
+  <div class="wrap">
+    <p class="kicker">{e(ax['den_k'])}</p>
+    <h2 id="den-h" data-scramble>{e(ax['den_h'])}</h2>
+    <p style="color:var(--mut);margin-top:14px;max-width:56ch">{e(ax['den_sub'])}</p>
+    <form class="form" id="report-form" novalidate data-endpoint="{e(FORM_ENDPOINT)}" data-done="{e(ax['den_ok'])}" data-fail="{e(ax['den_fail'])}" data-err="{e(ax['den_err'])}" data-sending="{e(T[lang]['f_sending'])}">
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+      <div class="field"><label for="r-url">{e(ax['den_url'])}</label><input id="r-url" type="url" inputmode="url" placeholder="https://" required></div>
+      <div class="row2">
+        <div class="field"><label for="r-event">{e(ax['den_evento'])}</label><select id="r-event">{ops}</select></div>
+        <div class="field"><label for="r-email">{e(ax['den_email'])}</label><input id="r-email" type="email" autocomplete="email" inputmode="email"></div>
+      </div>
+      <div class="field"><label for="r-text">{e(ax['den_relato'])}</label><textarea id="r-text" rows="5" required></textarea></div>
+      <div><button class="btn btn-signal" data-magnetic type="submit"><span class="mag-inner">{e(ax['den_enviar'])}</span></button></div>
+      <p class="form-msg" id="report-msg" role="status" aria-live="polite"></p>
+      <p class="disclose">{e(ax['den_priv'])}</p>
+    </form>
+  </div>
+</section>"""
+
+
+def cartao_artigo(lang, pagina, art):
+    ax = C.ARTIGOS_TXT[lang]
+    return (f'<a class="card card-art" href="{rel(pagina, caminho_artigo(lang, art))}"><div class="card-body"><p class="kicker">{e(ax["k"])} · {e(data_num(art["publicado"], lang))}</p>'
+            f'<h3>{e(L(art["titulo"], lang))}</h3><p>{e(L(art["resumo"], lang))}</p><p class="card-more">{e(ax["ler"])} →</p></div></a>')
+
+
+def ld_artigo(lang, art, pagina):
+    return {"@context": "https://schema.org", "@type": "Article", "headline": L(art["titulo"], lang), "description": L(art["resumo"], lang),
+            "inLanguage": HREFLANG[lang], "datePublished": art["publicado"], "dateModified": art.get("atualizado", art["publicado"]),
+            "mainEntityOfPage": f"{BASE_URL}/{pagina}", "image": [foto_abs(OG_PADRAO)],
+            "author": {"@type": "Person", "name": RESPONSAVEL, "url": f"{BASE_URL}/{C.DIVULGACAO[lang]['path']}"},
+            "publisher": {"@type": "Organization", "name": "MyTickets Tours", "url": BASE_URL, "logo": {"@type": "ImageObject", "url": f"{BASE_URL}/favicon.svg"}}}
+
+
+def pagina_artigo(lang, art, eventos):
+    ax = C.ARTIGOS_TXT[lang]
+    pagina = caminho_artigo(lang, art)
+    alternos = {l: caminho_artigo(l, art) for l in IDIOMAS}
+    titulo = L(art["titulo"], lang)
+    trilha = [(T[lang]["home"], caminho_home(lang)), (ax["h1"], ax["path"]), (titulo, pagina)]
+    h = cabeca(lang, pagina, f"{titulo} | MyTickets Tours"[:70], L(art["resumo"], lang), alternos, ld_script(ld_artigo(lang, art, pagina), ld_breadcrumb(trilha)))
+    corpo_html = "".join(f'<h2>{e(b["h"])}</h2>' + "".join(f"<p>{e(x)}</p>" for x in b["p"]) for b in art["corpo"][lang])
+    citados = [ev for ev in eventos if ev["slug"] in art.get("eventos", [])]
+    cards = "".join(cartao(lang, pagina, ev) for ev in citados)
+    fontes = "".join(f'<li><a href="{e(u if u.startswith("http") else rel(pagina, u.lstrip("/")))}"{" target=_blank rel=noopener" if u.startswith("http") else ""}>{e(n)}</a></li>' for n, u in art.get("fontes", []))
+    atual = f' · {e(ax["atualizado"])} {e(data_num(art["atualizado"], lang))}' if art.get("atualizado") and art["atualizado"] != art["publicado"] else ""
+    corpo = f"""
+<body>
+{topo(lang, pagina, alternos)}
+<main>
+<article class="band">
+  <div class="wrap article">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(T[lang]['home'])}</a><span aria-hidden="true">›</span><a href="{rel(pagina, ax['path'])}">{e(ax['h1'])}</a><span aria-hidden="true">›</span><span>{e(titulo)}</span></nav>
+    <p class="kicker">{e(ax['k'])}</p>
+    <h1>{e(titulo)}</h1>
+    <p class="lead">{e(L(art['resumo'], lang))}</p>
+    <p class="byline">{e(ax['autor'])} {e(RESPONSAVEL)} · {e(ax['publicado'])} {e(data_num(art['publicado'], lang))}{atual}</p>
+    <div class="prose">{corpo_html}</div>
+    {f'<h2>{e(ax["eventos_h"])}</h2><div class="cards cards-swipe">{cards}</div>' if cards else ''}
+    {f'<p class="disclose">{e(T[lang].get("sources", "Fontes" if lang == "pt" else "Fuentes" if lang == "es" else "Sources"))}: </p><ul class="fontes">{fontes}</ul>' if fontes else ''}
+    <p class="disclose"><a href="{rel(pagina, ax['path'])}">← {e(ax['voltar'])}</a> · <a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'])}</a></p>
+  </div>
+</article>
+{form_denuncia(lang, pagina, eventos, (art.get("eventos") or [None])[0])}
+</main>
+"""
+    return h + corpo + rodape(lang, pagina, alternos)
+
+
+def pagina_artigos(lang, eventos):
+    ax = C.ARTIGOS_TXT[lang]
+    pagina = ax["path"]
+    alternos = {l: C.ARTIGOS_TXT[l]["path"] for l in IDIOMAS}
+    arts = artigos_todos()
+    trilha = [(T[lang]["home"], caminho_home(lang)), (ax["h1"], pagina)]
+    lista = {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{BASE_URL}/{caminho_artigo(lang, a)}", "name": L(a["titulo"], lang)} for i, a in enumerate(arts)]}
+    h = cabeca(lang, pagina, ax["title"], ax["desc"], alternos, ld_script(ld_breadcrumb(trilha), lista))
+    cards = "".join(cartao_artigo(lang, pagina, a) for a in arts)
+    corpo = f"""
+<body>
+{topo(lang, pagina, alternos)}
+<main>
+<section class="band" aria-labelledby="art-h">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(T[lang]['home'])}</a><span aria-hidden="true">›</span><span>{e(ax['h1'])}</span></nav>
+    <div class="sec-head"><div><p class="kicker">{e(ax['k'])}</p><h1 id="art-h" data-scramble>{e(ax['h'])}</h1><p class="trip-sub">{e(ax['sub'])}</p></div></div>
+    <div class="cards art-grid">{cards}</div>
+    <p class="disclose">{e(ax['ugc'])} <a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'])}</a> · <a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(C.ROT[lang]['como_h'])}</a></p>
+  </div>
+</section>
+{form_denuncia(lang, pagina, eventos)}
+</main>
+"""
+    return h + corpo + rodape(lang, pagina, alternos)
+
+
 def pagina_videos(lang, eventos):
     """/videos/: todos os vídeos, mais novos primeiro, cada um com o botão de ingressos ou reserva."""
     vx = C.VIDEOS_TXT[lang]
     pagina = vx["path"]
     alternos = {l: C.VIDEOS_TXT[l]["path"] for l in IDIOMAS}
-    vs = videos_todos()
+    vs = todos_videos(eventos)
     trilha = [(T[lang]["home"], caminho_home(lang)), (vx["h1"], pagina)]
     lista = {"@context": "https://schema.org", "@type": "ItemList",
              "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {**ld_video(v, lang, next((x for x in eventos if x["slug"] == v.get("evento")), None)), "@context": "https://schema.org"}} for i, v in enumerate(vs[:50])]}
@@ -630,7 +832,7 @@ def pagina_videos(lang, eventos):
 
 def faixa_videos_home(lang, pagina, eventos, n=3):
     """Faixa 'Em vídeo' da página inicial: os últimos vídeos, com o botão de ingressos/reserva e o link para todos."""
-    vs = videos_todos()[:n]
+    vs = todos_videos(eventos)[:n]
     if not vs:
         return ""
     vx = C.VIDEOS_TXT[lang]
@@ -945,7 +1147,7 @@ def rodape(lang, pagina, alternos):
   <div class="wrap">
     <a class="brand" href="{rel(pagina, caminho_home(lang))}">MY<b>TICKETS</b>.TOURS</a>
     <p class="foot-disc">{e(C.LEGAL[lang]['foot'].format(parceiros=C.nomes_parceiros()))}</p>
-    <div class="foot-links">{langs}<a href="{rel(pagina, C.DIVULGACAO[lang]['path'])}">{e(C.LEGAL[lang]['pagina_link'])}</a><a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(C.ROT[lang]['como_h'].upper())}</a><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'].upper())}</a><a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a>{f'<a href="{rel(pagina, C.VIDEOS_TXT[lang]["path"])}">{e(C.VIDEOS_TXT[lang]["h1"].upper())}</a>' if videos_todos() else ''}<a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored nofollow noopener">SPORTSEVENTS365</a>{f'<a href="{YOUTUBE_CANAL}" target="_blank" rel="noopener me">YOUTUBE</a>' if YOUTUBE_CANAL else ''}{f'<a href="https://www.pinterest.com/{PINTEREST_PERFIL}/" target="_blank" rel="noopener me">PINTEREST</a>' if PINTEREST_PERFIL else ''}</div>
+    <div class="foot-links">{langs}<a href="{rel(pagina, C.DIVULGACAO[lang]['path'])}">{e(C.LEGAL[lang]['pagina_link'])}</a><a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(C.ROT[lang]['como_h'].upper())}</a><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(C.ROT[lang]['guia_h'].upper())}</a><a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a>{f'<a href="{rel(pagina, C.VIDEOS_TXT[lang]["path"])}">{e(C.VIDEOS_TXT[lang]["h1"].upper())}</a>' if todos_videos(_EVENTOS) else ''}<a href="{rel(pagina, C.ARTIGOS_TXT[lang]['path'])}">{e(C.ARTIGOS_TXT[lang]['h1'].upper())}</a><a href="{e(parceiro(lang, '/'))}" target="_blank" rel="sponsored nofollow noopener">SPORTSEVENTS365</a>{f'<a href="{YOUTUBE_CANAL}" target="_blank" rel="noopener me">YOUTUBE</a>' if YOUTUBE_CANAL else ''}{f'<a href="https://www.pinterest.com/{PINTEREST_PERFIL}/" target="_blank" rel="noopener me">PINTEREST</a>' if PINTEREST_PERFIL else ''}</div>
     <p class="foot-aff"><a href="{SUBAFILIADO}" target="_blank" rel="sponsored nofollow noopener">{e(SUB_TXT[lang][0])}</a> <span>({e(SUB_TXT[lang][1])})</span></p>
     <p>{e(RESPONSAVEL)} · {CONTATO_EMAIL}</p>
     <p>© {dt.date.today().year} MyTickets Tours</p>
@@ -1366,6 +1568,7 @@ def evento(lang, ev, eventos, hubs):
       <div class="fact"><dt>{e(t['f_venue'])}</dt><dd>{e(ev['local'])}</dd></div>
       <div class="fact"><dt>{e(t['f_city'])}</dt><dd>{cidade_html}, {e(L(ev['pais'], lang))}</dd></div>
       <div class="fact"><dt>{e(quarto[0])}</dt><dd>{quarto[1]}</dd></div>
+      {fato_venda(lang, ev)}
     </dl>
     <div class="ev-cta">
       {mag(ingresso, e(t['ev_cta']))}
@@ -1396,7 +1599,7 @@ def evento(lang, ev, eventos, hubs):
       <div class="howto">
         <h2>{e(cp['h'].format(t=titulo))}</h2>
         <ol>{passos}</ol>
-        <p class="disclose"><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(rt['guia_h'])}</a> · <a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(rt['como_h'])}</a></p>
+        <p class="disclose"><a href="{rel(pagina, C.GUIA[lang]['path'])}">{e(rt['guia_h'])}</a> · <a href="{rel(pagina, C.COMO_FUNCIONA[lang]['path'])}">{e(rt['como_h'])}</a> · <a href="{rel(pagina, C.ARTIGOS_TXT[lang]['path'])}">{e(C.ARTIGOS_TXT[lang]['h1'])}</a>{(' · ' + e(C.VENDA_TXT[lang]['aviso'])) if fato_venda(lang, ev) else ''}</p>
       </div>
       <div class="faq">
         <h2>{e(rt['faq_h'])}</h2>
@@ -1838,7 +2041,11 @@ def main():
         grupos["paginas"].append(anotar(escrever(C.DIVULGACAO[lang]["path"], divulgacao(lang), manifesto, hoje), {l: C.DIVULGACAO[l]["path"] for l in IDIOMAS}))
         grupos["guias"].append(anotar(escrever(C.GUIA[lang]["path"], guia(lang, eventos, hubs), manifesto, hoje), {l: C.GUIA[l]["path"] for l in IDIOMAS}))
         grupos["guias"].append(anotar(escrever(C.GUIA_BARCA[lang]["path"], guia_barca(lang, eventos), manifesto, hoje), {l: C.GUIA_BARCA[l]["path"] for l in IDIOMAS}))
-        if videos_todos():  # a página /videos/ só existe quando há vídeo (nada de página vazia no índice)
+        if artigos_todos():
+            grupos["guias"].append(anotar(escrever(C.ARTIGOS_TXT[lang]["path"], pagina_artigos(lang, eventos), manifesto, hoje), {l: C.ARTIGOS_TXT[l]["path"] for l in IDIOMAS}))
+            for art in artigos_todos():
+                grupos["guias"].append(anotar(escrever(caminho_artigo(lang, art), pagina_artigo(lang, art, eventos), manifesto, hoje), {l: caminho_artigo(l, art) for l in IDIOMAS}))
+        if todos_videos(eventos):  # a página /videos/ só existe quando há vídeo (nada de página vazia no índice)
             grupos["paginas"].append(anotar(escrever(C.VIDEOS_TXT[lang]["path"], pagina_videos(lang, eventos), manifesto, hoje), {l: C.VIDEOS_TXT[l]["path"] for l in IDIOMAS}))
         else:
             for f in (RAIZ / C.VIDEOS_TXT[lang]["path"]).glob("index.html"):

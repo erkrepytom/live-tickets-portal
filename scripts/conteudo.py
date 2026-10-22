@@ -764,18 +764,78 @@ VIDEOS_TXT = {
         "desc": "Vídeos curtos sobre jogos, shows e viagens, cada um com o link para ver ingressos ou reservar o que aparece no vídeo.",
         "k": "Em vídeo", "h": "Veja antes de ir", "sub": "Cada vídeo leva ao guia do evento e ao link para ver ingressos ou reservar o que aparece nele.",
         "todos": "Todos os vídeos", "ver_guia": "Ver guia do evento", "ingressos": "Ver ingressos", "reservar": "Reservar", "assistir": "Assistir ao vídeo",
-        "play": "Reproduzir", "canal": "Canal no YouTube", "vazio": "Os primeiros vídeos estão sendo preparados. Inscreva-se no canal para receber.",
+        "play": "Reproduzir", "som": "Toque para ouvir", "canal": "Canal no YouTube", "vazio": "Os primeiros vídeos estão sendo preparados. Inscreva-se no canal para receber.",
         "ev_h": "Em vídeo", "disc": "O vídeo carrega do YouTube só quando você aperta o play (modo sem cookies).", "idioma": {"pt": "PT", "en": "EN", "es": "ES"}},
  "en": {"path": "en/videos/", "title": "Videos: games, concerts and trips | MyTickets Tours", "h1": "Videos",
         "desc": "Short videos about games, concerts and trips, each with the link to see tickets or book what appears in the video.",
         "k": "On video", "h": "Watch before you go", "sub": "Every video leads to the event guide and to the link to see tickets or book what appears in it.",
         "todos": "All videos", "ver_guia": "See event guide", "ingressos": "See tickets", "reservar": "Book", "assistir": "Watch the video",
-        "play": "Play", "canal": "YouTube channel", "vazio": "The first videos are being prepared. Subscribe to the channel to get them.",
+        "play": "Play", "som": "Tap for sound", "canal": "YouTube channel", "vazio": "The first videos are being prepared. Subscribe to the channel to get them.",
         "ev_h": "On video", "disc": "The video loads from YouTube only when you press play (no-cookie mode).", "idioma": {"pt": "PT", "en": "EN", "es": "ES"}},
  "es": {"path": "es/videos/", "title": "Videos: partidos, conciertos y viajes | MyTickets Tours", "h1": "Videos",
         "desc": "Videos cortos sobre partidos, conciertos y viajes, cada uno con el enlace para ver entradas o reservar lo que aparece en el video.",
         "k": "En video", "h": "Míralo antes de ir", "sub": "Cada video lleva a la guía del evento y al enlace para ver entradas o reservar lo que aparece en él.",
         "todos": "Todos los videos", "ver_guia": "Ver guía del evento", "ingressos": "Ver entradas", "reservar": "Reservar", "assistir": "Ver el video",
-        "play": "Reproducir", "canal": "Canal de YouTube", "vazio": "Los primeros videos están en preparación. Suscríbete al canal para recibirlos.",
+        "play": "Reproducir", "som": "Toca para oír", "canal": "Canal de YouTube", "vazio": "Los primeros videos están en preparación. Suscríbete al canal para recibirlos.",
         "ev_h": "En video", "disc": "El video se carga desde YouTube solo cuando pulsas play (modo sin cookies).", "idioma": {"pt": "PT", "en": "EN", "es": "ES"}},
+}
+
+
+# ---------- Monitor de venda (scripts/vendas.py): página oficial de ingressos de cada evento ----------
+# chave_evento(slug) -> (nome do canal oficial, URL da página de ingressos, palavras que identificam o evento nessa página).
+# O robô lê a página, procura trechos perto dessas palavras e classifica: a_venda, em_breve, esgotado ou desconhecido.
+VENDA_OFICIAL = {
+ "barcelona-vs-real-madrid": ("FC Barcelona", "https://www.fcbarcelona.com/en/tickets/football/first-team", ["real madrid", "clásico", "clasico"]),
+ "barcelona-vs-manchester-city": ("FC Barcelona", "https://www.fcbarcelona.com/en/tickets/football/first-team", ["manchester city", "man city"]),
+ "milan-vs-inter": ("AC Milan", "https://www.acmilan.com/en/tickets/serie-a", ["inter", "derby"]),
+ "italia-vs-franca": ("FIGC", "https://www.figc.it/en/national-teams/tickets/", ["france", "francia"]),
+ "franca-vs-africa-do-sul": ("FFR", "https://billetterie.ffr.fr/", ["afrique du sud", "south africa", "springboks"]),
+ "gp-abu-dhabi-f1": ("Yas Marina Circuit", "https://www.yasmarinacircuit.com/en/formula-1", ["grand prix", "f1", "formula 1"]),
+ "knicks-vs-nuggets": ("New York Knicks", "https://www.nba.com/knicks/tickets", ["nuggets", "single game", "single-game"]),
+ "final-australian-open": ("Australian Open", "https://ausopen.com/tickets", ["final", "2027"]),
+ "celine-dion-paris": ("Celine Dion", "https://www.celinedion.com/tour/", ["paris", "la défense", "defense"]),
+ "final-champions-league": ("UEFA", "https://www.uefa.com/uefachampionsleague/tickets/", ["final", "2027"]),
+}
+
+VENDA_TXT = {
+ "pt": {"f": "Venda", "oficial": "Canal oficial", "parceiro": "Parceiro", "a_venda": "à venda", "em_breve": "em breve", "esgotado": "esgotado",
+        "desconhecido": "sem informação", "parceiro_lotes": "{n} lotes a partir de {p}", "conferido": "conferido {d}",
+        "aviso": "Status lido automaticamente nas páginas oficiais e do parceiro; confirme no site antes de comprar."},
+ "en": {"f": "Sales", "oficial": "Official channel", "parceiro": "Partner", "a_venda": "on sale", "em_breve": "coming soon", "esgotado": "sold out",
+        "desconhecido": "no information", "parceiro_lotes": "{n} listings from {p}", "conferido": "checked {d}",
+        "aviso": "Status read automatically from the official and partner pages; confirm on the site before you buy."},
+ "es": {"f": "Venta", "oficial": "Canal oficial", "parceiro": "Socio", "a_venda": "a la venta", "em_breve": "próximamente", "esgotado": "agotado",
+        "desconhecido": "sin información", "parceiro_lotes": "{n} lotes desde {p}", "conferido": "revisado {d}",
+        "aviso": "Estado leído automáticamente en las páginas oficiales y del socio; confírmalo en el sitio antes de comprar."},
+}
+
+# ---------- Alertas de golpe: artigos (data/artigos.json) e formulário de denúncia ----------
+ARTIGOS_TXT = {
+ "pt": {"path": "alertas-de-golpe/", "title": "Alertas de golpe com ingressos | MyTickets Tours", "h1": "Alertas de golpe",
+        "desc": "Como reconhecer sites falsos de ingressos, golpes comuns em jogos e shows, e um canal para denunciar páginas suspeitas.",
+        "k": "Segurança", "h": "Antes de pagar, leia isto", "sub": "Relatos apurados, sinais de alerta e um canal para denunciar páginas suspeitas. Não publicamos acusações sem evidência.",
+        "ler": "Ler", "publicado": "Publicado em", "atualizado": "atualizado em", "autor": "Por", "eventos_h": "Eventos citados",
+        "den_k": "Denuncie", "den_h": "Viu uma página suspeita?", "den_sub": "Mande o endereço e o que aconteceu. Apuramos antes de publicar; nada vai ao ar automaticamente.",
+        "den_url": "Endereço da página suspeita", "den_evento": "Evento (opcional)", "den_relato": "O que aconteceu", "den_email": "Seu e-mail (opcional, para retorno)",
+        "den_enviar": "Enviar denúncia", "den_ok": "Recebido. Obrigado: vamos apurar.", "den_err": "Preencha o endereço e o relato.", "den_fail": "Não deu para enviar agora. Tente de novo em alguns minutos.",
+        "den_priv": "Usamos o relato só para apurar e, se publicarmos, sem o seu nome. Sem spam.", "ugc": "Relatos de leitores são moderados e publicados sem identificação.",
+        "todos": "Todos os alertas", "voltar": "Todos os alertas de golpe"},
+ "en": {"path": "en/scam-alerts/", "title": "Ticket scam alerts | MyTickets Tours", "h1": "Scam alerts",
+        "desc": "How to spot fake ticket sites, common scams around games and concerts, and a channel to report suspicious pages.",
+        "k": "Safety", "h": "Read this before you pay", "sub": "Verified reports, warning signs and a channel to report suspicious pages. We publish no accusation without evidence.",
+        "ler": "Read", "publicado": "Published", "atualizado": "updated", "autor": "By", "eventos_h": "Events mentioned",
+        "den_k": "Report", "den_h": "Seen a suspicious page?", "den_sub": "Send the address and what happened. We check before publishing; nothing goes live automatically.",
+        "den_url": "Address of the suspicious page", "den_evento": "Event (optional)", "den_relato": "What happened", "den_email": "Your email (optional, for a reply)",
+        "den_enviar": "Send report", "den_ok": "Received. Thank you: we will look into it.", "den_err": "Fill in the address and what happened.", "den_fail": "We couldn't send it right now. Try again in a few minutes.",
+        "den_priv": "We use the report only to investigate and, if published, without your name. No spam.", "ugc": "Reader reports are moderated and published without identification.",
+        "todos": "All alerts", "voltar": "All scam alerts"},
+ "es": {"path": "es/alertas-de-estafas/", "title": "Alertas de estafas con entradas | MyTickets Tours", "h1": "Alertas de estafas",
+        "desc": "Cómo reconocer sitios falsos de entradas, estafas comunes en partidos y conciertos, y un canal para denunciar páginas sospechosas.",
+        "k": "Seguridad", "h": "Antes de pagar, lee esto", "sub": "Relatos verificados, señales de alerta y un canal para denunciar páginas sospechosas. No publicamos acusaciones sin pruebas.",
+        "ler": "Leer", "publicado": "Publicado el", "atualizado": "actualizado el", "autor": "Por", "eventos_h": "Eventos citados",
+        "den_k": "Denuncia", "den_h": "¿Viste una página sospechosa?", "den_sub": "Envía la dirección y qué pasó. Verificamos antes de publicar; nada se publica automáticamente.",
+        "den_url": "Dirección de la página sospechosa", "den_evento": "Evento (opcional)", "den_relato": "Qué pasó", "den_email": "Tu correo (opcional, para responderte)",
+        "den_enviar": "Enviar denuncia", "den_ok": "Recibido. Gracias: lo vamos a verificar.", "den_err": "Completa la dirección y el relato.", "den_fail": "No se pudo enviar ahora. Inténtalo de nuevo en unos minutos.",
+        "den_priv": "Usamos el relato solo para verificar y, si lo publicamos, sin tu nombre. Sin spam.", "ugc": "Los relatos de lectores se moderan y se publican sin identificación.",
+        "todos": "Todas las alertas", "voltar": "Todas las alertas de estafas"},
 }

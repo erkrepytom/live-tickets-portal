@@ -73,6 +73,22 @@ Buttons per `cta.tipo`: `evento` → tickets for the linked event (`/go/se365/�
 
 `.github/workflows/videos.yml` runs every 6 hours: `scripts/videos.py` reads the channel's public RSS feed (channel id `UCIUejr6o9Rdvsg_07x6kziA`, override with the repository variable `YOUTUBE_CHANNEL_ID`), appends new videos with the language guessed from the title and the event matched by team/artist/city names, regenerates the site and publishes. It never rewrites entries already in the JSON, so edit `evento`, `cta` or `ativo` freely.
 
+## Sale monitor (Scrapling) and sale alerts
+
+`scripts/vendas.py` reads, every 3 hours (`.github/workflows/vendas.yml`), the official ticket page of each event (`VENDA_OFICIAL` in `scripts/conteudo.py`: FC Barcelona, AC Milan, FIGC, FFR, Yas Marina, Knicks, Australian Open, Celine Dion, UEFA) plus the partner's stock from `data/precos.json`, and writes `data/vendas.json`: per event, `oficial` (status `a_venda` / `em_breve` / `esgotado` / `desconhecido`, confidence, the snippet that decided it, HTTP code, engine) and `parceiro` (listings and lowest price), plus `mudancas`, the last status transitions. The event page shows a "Sales" fact line only when the official status has confidence ≥ 0.5 or the partner has stock.
+
+Pages are fetched with Scrapling's `Fetcher` (browser-like headers and TLS, no browser). Set the repository variable `SCRAPLING_STEALTH=1` and add `scrapling install` to the workflow to use the `StealthyFetcher` (headless browser) for pages that block plain HTTP clients. Without Scrapling the script falls back to `urllib`. Classification looks for status words in several languages inside ~400-character windows around the event's keywords; without such a window it uses the whole page with low confidence, and without any signal it stays `desconhecido`.
+
+The scheduled task "Alertas de venda" (Claude, daily) reads `mudancas`, and when an event turned `a_venda` it matches the sale-alert sign-ups that FormSubmit delivers to the site inbox (subject "Alerta de venda: …", fields `email`, `evento_slug`, `idioma_alertas`) and leaves one Gmail draft per subscriber, in their language, for the owner to approve. Nothing is sent automatically.
+
+## Scam alerts and reports
+
+`data/artigos.json` holds the articles of `/alertas-de-golpe/` (`/en/scam-alerts/`, `/es/alertas-de-estafas/`): one page per article and language with `Article` JSON-LD (author = `RESPONSAVEL`), the events it mentions and sources. Rules written in the file: facts only; a site or company named as a scam needs evidence (screenshot, URL, date) and factual wording; reader reports are published anonymised. Every article page and the hub carry the "Report a suspicious page" form, which posts to the same FormSubmit endpoint (subject "Denúncia de página suspeita: …", fields `url_suspeita`, `relato`, `evento_slug`, `email`) and lands in the site inbox; nothing is published automatically. Event pages link to the hub next to the guide links.
+
+## Videos: autoplay in view
+
+Video blocks (`.yt`) start muted when at least half of the block is visible, pause when it leaves, and one tap turns the sound on (other playing videos are muted). YouTube videos load through `youtube-nocookie.com` only at that moment; local shorts in `assets/videos/short-<event>[-en|-es].mp4` are used when the event has no YouTube video in that language. Users with `prefers-reduced-motion` or Data Saver get the thumbnail and play on tap.
+
 ## Affiliate links
 
 - Deeplinks follow the panel's Deeplink generator format, on the partner's site in the page's language: `365tickets.com.br` (PT), `www.sportsevents365.com` (EN), `sportsevents365.es` (ES). The localized domains are the partner's own (hreflang) and the 365tickets.com.br click showed up in the panel's Raw Clicks report. Sending each visitor to a site already in their language stops Chrome's automatic translation, which breaks the partner's pages a few seconds after they load.

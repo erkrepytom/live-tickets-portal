@@ -397,22 +397,93 @@ function cursorLoop(){
 function loop(){ parallax(); updateVideo(); cursorLoop(); requestAnimationFrame(loop); }
 document.querySelectorAll(".hero [data-flap]").forEach(flap);
 requestAnimationFrame(loop);
-})();
 
 
-/* ---------- Vídeos do YouTube: a miniatura é estática; o iframe (youtube-nocookie) só nasce no clique ---------- */
-document.addEventListener("click", ev => {
-  const box = ev.target.closest && ev.target.closest(".yt[data-yt]");
-  if (!box || box.classList.contains("on")) return;
-  const id = box.getAttribute("data-yt");
-  if (!/^[A-Za-z0-9_-]{11}$/.test(id)) return;
-  const f = document.createElement("iframe");
-  f.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&rel=0&modestbranding=1&playsinline=1";
-  f.title = box.getAttribute("data-title") || "YouTube";
-  f.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-  f.setAttribute("allowfullscreen", "");
-  f.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+/* ---------- Vídeos em ação: tocam sem som quando entram na tela (YouTube via youtube-nocookie ou MP4 local),
+   pausam ao sair, e um toque liga o som. Nada do YouTube é baixado antes de o bloco chegar perto da tela. ---------- */
+const YT_ORIGIN = "https://www.youtube-nocookie.com";
+let ytApiReady = false, ytQueue = [];
+function ytPlayerOf(box){ return box.__yt; }
+function startBox(box, withSound){
+  if (box.classList.contains("on")){ resumeBox(box, withSound); return; }
+  const id = box.getAttribute("data-yt"), mp4 = box.getAttribute("data-mp4");
   box.classList.add("on");
-  box.appendChild(f);
-  track({ event: "video_start", video_provider: "youtube", video_id: id, video_title: f.title, page_type: (window.MT_ITEM ? "event" : "page") });
-});
+  if (mp4){
+    const v = document.createElement("video");
+    v.src = mp4; v.muted = !withSound; v.loop = true; v.playsInline = true; v.autoplay = true; v.preload = "auto";
+    v.setAttribute("playsinline", ""); v.setAttribute("muted", ""); v.controls = false;
+    const img = box.querySelector("img"); if (img && img.src) v.poster = img.src;
+    box.appendChild(v); box.__video = v;
+    v.play().catch(() => { v.muted = true; v.play().catch(() => {}); });
+  } else if (/^[A-Za-z0-9_-]{11}$/.test(id)){
+    const f = document.createElement("iframe");
+    const q = "autoplay=1&mute=" + (withSound ? 0 : 1) + "&loop=1&playlist=" + id + "&controls=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1&origin=" + encodeURIComponent(location.origin);
+    f.src = YT_ORIGIN + "/embed/" + id + "?" + q;
+    f.title = box.getAttribute("data-title") || "YouTube";
+    f.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    f.setAttribute("allowfullscreen", ""); f.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+    box.appendChild(f); box.__frame = f;
+  }
+  box.classList.toggle("sound", !!withSound);
+  track({ event: "video_start", video_provider: mp4 ? "self" : "youtube", video_id: id || mp4, video_title: box.getAttribute("data-title") || "", muted: !withSound });
+}
+function ytCmd(box, func, args){ try { box.__frame && box.__frame.contentWindow.postMessage(JSON.stringify({ event: "command", func, args: args || [] }), "*"); } catch (e) {} }
+function resumeBox(box, withSound){
+  if (box.__video){ if (withSound){ box.__video.muted = false; } box.__video.play().catch(() => {}); }
+  if (box.__frame){ if (withSound){ ytCmd(box, "unMute"); ytCmd(box, "setVolume", [100]); } ytCmd(box, "playVideo"); }
+  if (withSound) box.classList.add("sound");
+}
+function pauseBox(box){
+  if (box.__video) box.__video.pause();
+  if (box.__frame) ytCmd(box, "pauseVideo");
+}
+function muteOthers(except){
+  document.querySelectorAll(".yt.sound").forEach(b => { if (b !== except){ b.classList.remove("sound"); if (b.__video) b.__video.muted = true; if (b.__frame) ytCmd(b, "mute"); } });
+}
+const boxes = document.querySelectorAll(".yt[data-yt], .yt[data-mp4]");
+if (boxes.length){
+  const saveData = navigator.connection && navigator.connection.saveData;
+  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if ("IntersectionObserver" in window && !saveData && !reduce){
+    const io = new IntersectionObserver(es => {
+      es.forEach(en => {
+        const b = en.target;
+        if (en.isIntersecting && en.intersectionRatio >= 0.5){ b.classList.contains("on") ? resumeBox(b, false) : startBox(b, false); }
+        else if (b.classList.contains("on")) pauseBox(b);
+      });
+    }, { threshold: [0, 0.5] });
+    boxes.forEach(b => io.observe(b));
+  }
+  document.addEventListener("click", ev => {
+    const box = ev.target.closest && ev.target.closest(".yt[data-yt], .yt[data-mp4]");
+    if (!box) return;
+    ev.preventDefault();
+    muteOthers(box);
+    if (!box.classList.contains("on")) startBox(box, true);
+    else if (box.classList.contains("sound")){ // já com som: pausa/retoma
+      if (box.__video){ box.__video.paused ? box.__video.play() : box.__video.pause(); }
+      if (box.__frame){ box.classList.toggle("paused"); ytCmd(box, box.classList.contains("paused") ? "pauseVideo" : "playVideo"); }
+    } else resumeBox(box, true);
+  });
+}
+
+/* ---------- Denúncia de página suspeita (FormSubmit → e-mail do site; nada é publicado sozinho) ---------- */
+const rform = document.getElementById("report-form");
+if (rform){
+  rform.addEventListener("submit", e => {
+    e.preventDefault();
+    const m = document.getElementById("report-msg"), url = document.getElementById("r-url").value.trim(), txt = document.getElementById("r-text").value.trim();
+    if (!/^https?:\/\/\S+/.test(url) || txt.length < 10){ m.textContent = rform.dataset.err; return; }
+    const sel = document.getElementById("r-event"), btn = rform.querySelector("button[type=submit]"), endpoint = rform.dataset.endpoint;
+    btn.disabled = true; m.textContent = rform.dataset.sending;
+    fetch(endpoint, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify({
+      tipo: "denuncia", url_suspeita: url, relato: txt.slice(0, 4000), evento_slug: sel.value, evento: sel.value ? sel.options[sel.selectedIndex].text : "",
+      email: document.getElementById("r-email").value.trim(), pagina: location.href, idioma: document.documentElement.lang.slice(0, 2),
+      _subject: "Denúncia de página suspeita: " + url.replace(/^https?:\/\//, "").slice(0, 60), _template: "table", _captcha: "false"
+    }) }).then(r => r.ok ? r.json() : Promise.reject(r)).then(() => {
+      m.textContent = rform.dataset.done; rform.reset();
+      track({ event: "generate_lead", lead_type: "scam_report", event_slug: sel.value });
+    }).catch(() => { m.textContent = rform.dataset.fail; }).finally(() => { btn.disabled = false; });
+  });
+}
+})();

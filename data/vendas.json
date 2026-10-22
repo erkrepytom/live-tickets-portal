@@ -1,0 +1,183 @@
+{
+ "_leia": "Gerado por scripts/vendas.py. status: a_venda | em_breve | esgotado | desconhecido. 'mudancas' guarda as últimas transições (a tarefa de alertas usa 'para' == 'a_venda').",
+ "barcelona-vs-real-madrid-2026-10-25": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "FC Barcelona",
+   "status": "desconhecido",
+   "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 1320.0,
+   "moeda": "USD",
+   "lotes": 10,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/395343"
+  }
+ },
+ "milan-vs-inter-2026-10-31": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "AC Milan",
+   "status": "desconhecido",
+   "fonte": "https://www.acmilan.com/en/tickets/serie-a",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 240.0,
+   "moeda": "USD",
+   "lotes": 10,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/391609"
+  }
+ },
+ "italia-vs-franca-2026-11-12": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "FIGC",
+   "status": "desconhecido",
+   "fonte": "https://www.figc.it/en/national-teams/tickets/",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 55.0,
+   "moeda": "USD",
+   "lotes": 10,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/387682"
+  }
+ },
+ "franca-vs-africa-do-sul-2026-11-13": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "FFR",
+   "status": "desconhecido",
+   "fonte": "https://billetterie.ffr.fr/",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 55.0,
+   "moeda": "USD",
+   "lotes": 10,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/383977"
+  }
+ },
+ "gp-abu-dhabi-f1-2026-12-06": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "Yas Marina Circuit",
+   "status": "desconhecido",
+   "fonte": "https://www.yasmarinacircuit.com/en/formula-1",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 386.0,
+   "moeda": "USD",
+   "lotes": 10,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/387903"
+  }
+ },
+ "barcelona-vs-manchester-city-2026-12-08": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "FC Barcelona",
+   "status": "desconhecido",
+   "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 485.0,
+   "moeda": "USD",
+   "lotes": 10,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/402363"
+  }
+ },
+ "knicks-vs-nuggets-2027-01-11": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "New York Knicks",
+   "status": "desconhecido",
+   "fonte": "https://www.nba.com/knicks/tickets",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 211.0,
+   "moeda": "USD",
+   "lotes": 10,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/401302"
+  }
+ },
+ "final-australian-open-2027-01-31": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "Australian Open",
+   "status": "desconhecido",
+   "fonte": "https://ausopen.com/tickets",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 1286.0,
+   "moeda": "USD",
+   "lotes": 4,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/390886"
+  }
+ },
+ "celine-dion-paris-2027-05-14": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "Celine Dion",
+   "status": "desconhecido",
+   "fonte": "https://www.celinedion.com/tour/",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 370.0,
+   "moeda": "USD",
+   "lotes": 10,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/391312"
+  }
+ },
+ "final-champions-league-2027-06-05": {
+  "mudancas": [],
+  "oficial": {
+   "nome": "UEFA",
+   "status": "desconhecido",
+   "fonte": "https://www.uefa.com/uefachampionsleague/tickets/",
+   "erro": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+   "tentado": "2026-10-22T00:27:32+00:00"
+  },
+  "parceiro": {
+   "status": "a_venda",
+   "min": 6664.0,
+   "moeda": "USD",
+   "lotes": 10,
+   "conferido": "2026-10-21T21:51:01+00:00",
+   "fonte": "https://www.sportsevents365.com/event/399236"
+  }
+ }
+}
