@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-22T13:54:38+00:00",
+ "atualizado": "2026-10-22T18:38:18+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,14 @@
    },
    "noticias": [
     {
-     "t": "Veja a disputa de pênaltis entre Palmeiras x Fluminense pela Libertadores",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/veja-a-disputa-de-penaltis-entre-palmeiras-x-fluminense-pela-libertadores/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "No Nilton Santos, Vasco tem apenas duas vitórias e retrospecto ruim contra o Flamengo",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/22/no-nilton-santos-vasco-tem-apenas-duas-vitorias-e-retrospecto-ruim-contra-o-flamengo.ghtml",
+     "t": "Dirigente da NBA cita falta de arenas de classe mundial como razão para Brasil não receber jogos",
+     "u": "https://ge.globo.com/basquete/nba/noticia/2026/10/22/dirigente-da-nba-cita-falta-de-arenas-de-classe-mundial-como-razao-para-brasil-nao-receber-jogos.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "NBA: Lakers atropelam Warriors, e Timberwolves frustram estreia de Giannis pelo Heat",
-     "u": "https://www.gazetaesportiva.com/campeonatos/nba/nba-lakers-atropelam-warriors-e-timberwolves-frustram-estreia-de-giannis-pelo-heat/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Olímpia acerta com meia Bismarck, primeiro reforço para a Série A do Maranhense",
-     "u": "https://ge.globo.com/ma/futebol/campeonato-maranhense/noticia/2026/10/22/olimpia-acerta-com-meia-bismarck-primeiro-reforco-para-a-serie-a-do-maranhense.ghtml",
+     "t": "Consórcio Fla-Flu estima prejuízo de R$ 300 mil com danos ao Maracanã em Vasco x Boca",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/22/consorcio-fla-flu-estima-prejuizo-de-r-300-mil-com-danos-no-maracana-em-vasco-x-boca.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,26 +33,26 @@
    },
    "noticias": [
     {
-     "t": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
-     "u": "https://sports.yahoo.com/articles/champions-league-review-psg-hit-134243014.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Thuram deal, 3️⃣ Milan names, Roma-Bakola, ADL won't sell: today's news 🔥",
-     "u": "https://sports.yahoo.com/articles/thuram-deal-3-milan-names-133800865.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "NBA one-game overreactions: The Warriors need to trade Stephen Curry, Ja Morant is a perfect fit in Portland",
-     "u": "https://www.cbssports.com/nba/news/nba-one-game-overreactions-warriors-trade-stephen-curry-ja-morant-perfect-fit/",
+     "t": "NBA DFS: Top DraftKings, FanDuel daily Fantasy basketball picks for Thursday, Oct. 22 include Jalen Williams",
+     "u": "https://www.cbssports.com/betting/news/nba-dfs-draftkings-fanduel-daily-fantasy-basketball-picks-thursday-october-22/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "76ers vs. Cavaliers odds, prediction, time: 2026 NBA picks for Thursday, Oct. 22 from advanced model",
-     "u": "https://www.cbssports.com/betting/news/76ers-cavaliers-odds-prediction-time-2026-nba-picks-thursday-october-22/",
+     "t": "‘You step in the game’ – Barcelona star hits back at fans after PSG criticism",
+     "u": "https://sports.yahoo.com/articles/step-game-barcelona-star-hits-182500794.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Max Verstappen, Red Bull Finding Championship Form As F1 Season Winds Down",
+     "u": "https://sports.yahoo.com/articles/max-verstappen-red-bull-finding-182347729.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Patriots vs. Bears odds, picks, NFL Week 7 prediction: Best bets, player props for Thursday Night Football",
+     "u": "https://www.cbssports.com/betting/news/patriots-vs-bears-odds-picks-nfl-week-7-prediction-best-bets-player-props-for-thursday-night-football/",
      "f": "CBS Sports",
      "alta": false
     }
@@ -79,26 +67,26 @@
    },
    "noticias": [
     {
-     "t": "«O Sporting começa a ter um problema igual ao do Benfica na baliza»",
-     "u": "https://www.abola.pt/video/o-sporting-comeca-a-ter-um-problema-igual-ao-do-benfica-na-baliza-2026102117594372902",
+     "t": "Atenção, Sporting: Shakhtar perde em San Siro contra 10 jogadores",
+     "u": "https://www.abola.pt/noticias/atencao-sporting-shakhtar-perde-em-san-siro-contra-10-jogadores-2026102120372847279",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Saiu do Real Madrid, foi criticado após dois jogos e lesionou-se",
-     "u": "https://www.abola.pt/noticias/saiu-do-real-madrid-foi-criticado-apos-dois-jogos-e-lesionou-se-2026102018433014134",
+     "t": "Roma goleia na Champions com Rodrigo Mora a titular",
+     "u": "https://www.abola.pt/noticias/roma-goleia-na-champions-com-rodrigo-mora-a-titular-2026102021113331159",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Van Gaal arrasa formato da Champions: «UEFA só pensa no dinheiro. É um mundo corrupto»",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/van-gaal-arrasa-formato-da-champions-uefa-so-pensa-no-dinheiro-e-um-mundo-corrupto",
+     "t": "Omonia-Benfica, em direto",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/omonia-benfica-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Renato Paiva lidera Santos Laguna a inédita sexta vitória seguida",
-     "u": "https://www.record.pt/internacional/detalhe/renato-paiva-lidera-santos-laguna-a-inedita-sexta-vitoria-seguida",
+     "t": "Bournemouth-Milan, em direto",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/bournemouth-milan-em-direto",
      "f": "Record",
      "alta": false
     }
@@ -113,8 +101,14 @@
    },
    "noticias": [
     {
-     "t": "Lo que Mourinho no dice: más agravios horarios al Barça en los Clásicos post-Champions",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261022/1004241777/mourinho-no-dice-agravios-horarios-barca-clasicos-post-champions.html",
+     "t": "Armani Milán - Barça, en directo",
+     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261022/1004241258/armani-milan-barca-directo-euroliga-baloncesto-vivo.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Exjugadores de Real Madrid y Barça, calientan el Clásico jugando al pádel",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261022/1004241878/mejores-imagenes-desafio-nacex-previo-clasico.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -122,12 +116,6 @@
      "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
      "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Así será el Tour de Francia 2027: mucha contrarreloj, puertos míticos y todo un desafío para el pentacampeón Pogacar",
-     "u": "https://www.mundodeportivo.com/ciclismo/tour-francia/20261022/1004241864/asi-sera-tour-francia-2027-contrarreloj-puertos-miticos-desafio-pentacampeon-pogacar.html",
-     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,19 +135,13 @@
    },
    "noticias": [
     {
-     "t": "French teenage rugby player dies after on-field injury",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/crly0lpgd659o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": true
-    },
-    {
-     "t": "Champions League: Silva sparks Real Madrid’s demolition of Leipzig as Lask stun Sporting",
-     "u": "https://www.theguardian.com/football/2026/oct/21/champions-league-roundup-real-madrid-leipzig-inter-shakhtar-sporting-lask-brugge-lens-betis-feyenoord",
+     "t": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
+     "u": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Tour de France 2027 routes revealed with British stages, time-trials and a volcano",
+     "t": "Tour de France 2027 routes revealed with British stages, time trials and a volcano",
      "u": "https://www.theguardian.com/sport/2026/oct/22/tour-de-france-2027-routes-revealed",
      "f": "The Guardian",
      "alta": false
@@ -167,6 +149,12 @@
     {
      "t": "Tour de France UK stages in detail - where can you watch?",
      "u": "https://www.bbc.co.uk/sport/cycling/articles/cq1kd0z33r8ro?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "The rising French star whose dad won Rugby World Cup with England",
+     "u": "https://www.bbc.co.uk/sport/tennis/articles/cqe9ldmdpxzzo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,26 +169,26 @@
    },
    "noticias": [
     {
-     "t": "La histórica marca de Boca que Palmeiras quedó al borde de alcanzar luego de vencer a Fluminense en la Libertadores",
-     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/palmeiras-historica-marca-boca-penales-copalibertadores_0_UGweEIhtl9.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
      "t": "Atento Estudiantes: Palmeiras eliminó a Fluminense por penales y se convirtió en el primer finalista de la Copa Libertadores",
      "u": "https://www.infobae.com/deportes/2026/10/22/atento-estudiantes-palmeiras-elimino-a-fluminense-por-penales-y-se-convirtio-en-el-primer-finalista-de-la-copa-libertadores/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Crece la incertidumbre en la Premier League: la drástica decisión que podrían tomar con el Manchester City si se ratifica que rompió más de 100 reglas",
-     "u": "https://www.infobae.com/deportes/2026/10/22/crece-la-incertidumbre-en-la-premier-league-la-drastica-decision-que-podrian-tomar-con-el-manchester-city-si-se-ratifica-que-rompio-mas-de-100-reglas/",
+     "t": "Conmoción en el rugby por la trágica muerte de una jugadora de 17 años durante un partido en Francia",
+     "u": "https://www.infobae.com/deportes/2026/10/22/conmocion-en-el-rugby-por-la-tragica-muerte-de-una-jugadora-de-17-anos-durante-un-partido-en-francia/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El gran elogio de un ex arquero de River para Santiago Beltrán y la anécdota con un jovencito Messi cuando llegó a Barcelona",
-     "u": "https://www.ole.com.ar/river-plate/bonano-barcelona-messi-elogio-beltran-recuerdo_0_CWlg9gLLDY.html",
+     "t": "La sana competencia en River que genera tranquilidad pensando en Racing y Boca",
+     "u": "https://www.ole.com.ar/river-plate/river-plate-nivel-francisco-ortega-marcos-acuna_0_Ip4KqcZhWs.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "A pura aceleración: Franco Colapinto llegó al Gran Premio de Estados Unidos... ¡en moto!",
+     "u": "https://www.ole.com.ar/autos/pura-aceleracion-llegada-franco-colapinto-moto-paddock-gran-premio-estados-unidos-austin_0_YqQ2CqH3DD.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +225,14 @@
    },
    "noticias": [
     {
-     "t": "Toma Junior Popov qualifié à son tour pour les quarts de finale du simple aux Internationaux de France",
-     "u": "https://www.lequipe.fr/Badminton/Actualites/Toma-junior-popov-qualifie-a-son-tour-pour-les-quarts-de-finale-du-simple-aux-internationaux-de-france/1737742#at_medium=RSS_feeds",
+     "t": "Les dispositifs de beIN Sports, France 2 et la chaîne L'Équipe pour le NFL Paris Game entre les Saints et les Steelers",
+     "u": "https://www.lequipe.fr/Medias/Actualites/Les-dispositifs-de-bein-sports-france-2-et-la-chaine-l-equipe-pour-le-nfl-paris-game-entre-les-saints-et-les-steelers/1737535#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "« Un parcours où les surprises sont possibles » : Christian Prudhomme explique le parcours du Tour de France 2027",
-     "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/-un-parcours-ou-les-surprises-sont-possibles-christian-prudhomme-explique-le-parcours-du-tour-de-france-2027/1737720#at_medium=RSS_feeds",
+     "t": "Battu par Taylor Fritz, Pierre-Hugues Herbert s'arrête au deuxième tour de l'ATP 250 de Lyon",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Battu-par-taylor-fritz-pierre-hugues-herbert-s-arrete-au-deuxieme-tour-de-l-atp-250-de-lyon/1737835#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,44 +241,44 @@
  ],
  "destaques": [
   {
-   "t": "Veja a disputa de pênaltis entre Palmeiras x Fluminense pela Libertadores",
-   "u": "https://www.gazetaesportiva.com/todas-as-noticias/veja-a-disputa-de-penaltis-entre-palmeiras-x-fluminense-pela-libertadores/",
-   "f": "Gazeta Esportiva",
+   "t": "Dirigente da NBA cita falta de arenas de classe mundial como razão para Brasil não receber jogos",
+   "u": "https://ge.globo.com/basquete/nba/noticia/2026/10/22/dirigente-da-nba-cita-falta-de-arenas-de-classe-mundial-como-razao-para-brasil-nao-receber-jogos.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
-   "u": "https://sports.yahoo.com/articles/champions-league-review-psg-hit-134243014.html",
-   "f": "Yahoo Sports",
+   "t": "NBA DFS: Top DraftKings, FanDuel daily Fantasy basketball picks for Thursday, Oct. 22 include Jalen Williams",
+   "u": "https://www.cbssports.com/betting/news/nba-dfs-draftkings-fanduel-daily-fantasy-basketball-picks-thursday-october-22/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "«O Sporting começa a ter um problema igual ao do Benfica na baliza»",
-   "u": "https://www.abola.pt/video/o-sporting-comeca-a-ter-um-problema-igual-ao-do-benfica-na-baliza-2026102117594372902",
+   "t": "Atenção, Sporting: Shakhtar perde em San Siro contra 10 jogadores",
+   "u": "https://www.abola.pt/noticias/atencao-sporting-shakhtar-perde-em-san-siro-contra-10-jogadores-2026102120372847279",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Lo que Mourinho no dice: más agravios horarios al Barça en los Clásicos post-Champions",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261022/1004241777/mourinho-no-dice-agravios-horarios-barca-clasicos-post-champions.html",
+   "t": "Armani Milán - Barça, en directo",
+   "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261022/1004241258/armani-milan-barca-directo-euroliga-baloncesto-vivo.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "French teenage rugby player dies after on-field injury",
-   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/crly0lpgd659o?at_medium=RSS&at_campaign=rss",
-   "f": "BBC Sport",
-   "alta": true,
+   "t": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
+   "u": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool",
+   "f": "The Guardian",
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "La histórica marca de Boca que Palmeiras quedó al borde de alcanzar luego de vencer a Fluminense en la Libertadores",
-   "u": "https://www.ole.com.ar/futbol-internacional/libertadores/palmeiras-historica-marca-boca-penales-copalibertadores_0_UGweEIhtl9.html",
-   "f": "Olé",
+   "t": "Atento Estudiantes: Palmeiras eliminó a Fluminense por penales y se convirtió en el primer finalista de la Copa Libertadores",
+   "u": "https://www.infobae.com/deportes/2026/10/22/atento-estudiantes-palmeiras-elimino-a-fluminense-por-penales-y-se-convirtio-en-el-primer-finalista-de-la-copa-libertadores/",
+   "f": "Infobae",
    "alta": false,
    "pais": "AR"
   },
@@ -302,8 +290,8 @@
    "pais": "IT"
   },
   {
-   "t": "Toma Junior Popov qualifié à son tour pour les quarts de finale du simple aux Internationaux de France",
-   "u": "https://www.lequipe.fr/Badminton/Actualites/Toma-junior-popov-qualifie-a-son-tour-pour-les-quarts-de-finale-du-simple-aux-internationaux-de-france/1737742#at_medium=RSS_feeds",
+   "t": "Les dispositifs de beIN Sports, France 2 et la chaîne L'Équipe pour le NFL Paris Game entre les Saints et les Steelers",
+   "u": "https://www.lequipe.fr/Medias/Actualites/Les-dispositifs-de-bein-sports-france-2-et-la-chaine-l-equipe-pour-le-nfl-paris-game-entre-les-saints-et-les-steelers/1737535#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
