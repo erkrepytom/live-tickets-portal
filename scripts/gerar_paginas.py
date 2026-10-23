@@ -843,7 +843,7 @@ def faixa_aovivo(lang, pagina, slug=""):
     return (f'<section class="band band-vivo" id="aovivo" aria-labelledby="vivo-h" hidden'
             f' data-slug="{e(slug)}" data-url="/data/aovivo.json"'
             f' data-play="{e(vx["play"])}" data-ingressos="{e(vx["ingressos"])}" data-guia="{e(vx["guia"])}"'
-            f' data-regiao="{e(vx["regiao"])}">\n'
+            f' data-regiao="{e(vx["regiao"])}" data-contador="{e(vx["contador"])}">\n'
             f'  <div class="wrap">\n'
             f'    <div class="sec-head"><div><p class="kicker kicker-vivo"><i aria-hidden="true"></i>{e(vx["k"])}</p>'
             f'<h2 id="vivo-h">{e(vx["h"])}</h2></div><p>{e(vx["sub"])}</p></div>\n'

@@ -786,7 +786,8 @@ AOVIVO_TXT = {
  "pt": {"k": "Ao vivo agora", "h": "Assista enquanto a bola rola",
         "sub": "Transmissão aberta do canal que tem os direitos, no player do YouTube. Carrega só quando você aperta o play.",
         "play": "Assistir ao vivo", "ingressos": "Ver ingressos", "guia": "Ver guia do evento",
-        "regiao": "Transmissão liberada para o Brasil pelo canal detentor dos direitos."},
+        "regiao": "Transmissão liberada para o Brasil pelo canal detentor dos direitos.",
+        "contador": "· {n} ao mesmo tempo"},
 }
 
 

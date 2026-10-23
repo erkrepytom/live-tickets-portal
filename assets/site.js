@@ -492,41 +492,54 @@ if (rform){
 
 /* ---------- Faixa AO VIVO: o scripts/aovivo.py escreve data/aovivo.json; aqui a faixa só aparece se
    houver transmissão liberada para o evento desta página (ou para qualquer evento, na home).
+   Vários eventos ao mesmo tempo viram uma grade; um só vira destaque com o player grande.
    O player é o mesmo dos outros vídeos: nada do YouTube carrega antes do toque. ---------- */
 const vivo = document.getElementById("aovivo");
 if (vivo){
   const alvo = vivo.dataset.slug || "";
   const esc = v => String(v == null ? "" : v).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  const PLAY_SVG = '<svg viewBox="0 0 68 48" width="68" height="48" aria-hidden="true"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.4 0 34 0 34 0S12.6 0 7.4 1.7c-2.9.8-5.1 3.1-5.9 6C0 13 0 24 0 24s0 11 1.5 16.3c.8 2.9 3 5.2 5.9 6C12.6 48 34 48 34 48s21.4 0 26.6-1.7c2.9-.8 5.1-3.1 5.9-6C68 35 68 24 68 24s0-11-1.5-16.3z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>';
+  const player = t => {
+    const yt = esc(t.yt), tit = esc(t.titulo), play = esc(vivo.dataset.play);
+    return '<div class="yt" data-yt="' + yt + '" data-title="' + tit + '">' +
+      '<img src="https://i.ytimg.com/vi/' + yt + '/hqdefault.jpg" alt="' + tit + '" loading="lazy" decoding="async" width="480" height="360">' +
+      '<button type="button" class="yt-play" aria-label="' + play + '">' + PLAY_SVG + '</button>' +
+      '<span class="yt-sound" aria-hidden="true">' + play + '</span></div>';
+  };
+  const acoes = t =>
+    '<div class="vcard-actions">' +
+      '<a class="btn btn-signal btn-sm" data-magnetic data-partner="se365" target="_blank" rel="sponsored nofollow noopener" href="/go/se365/pt/' + esc(t.evento) + '/"><span class="mag-inner">' + esc(vivo.dataset.ingressos) + ' <span class="arrow" aria-hidden="true">→</span></span></a>' +
+      '<a class="btn btn-ghost btn-sm" href="/eventos/' + esc(t.evento) + '/">' + esc(vivo.dataset.guia) + '</a>' +
+    '</div>';
+  const credito = t => t.canal ? '<p class="vivo-cred">YouTube · ' + esc(t.canal) + '</p>' : "";
+  const aviso = t => t.checado === "geo" ? '<p class="vivo-aviso">' + esc(vivo.dataset.regiao) + '</p>' : "";
   fetch(vivo.dataset.url + "?t=" + Math.floor(Date.now() / 120000), { cache: "no-store" })
     .then(r => r.ok ? r.json() : null)
     .then(d => {
       if (!d || !d.transmissoes || !d.transmissoes.length) return;
       const idade = Date.now() - Date.parse(d.atualizado || "");
       if (!(idade >= 0) || idade > 30 * 60000) return;   // arquivo parado: melhor não anunciar jogo que já acabou
-      const t = d.transmissoes.filter(v => v && /^[A-Za-z0-9_-]{11}$/.test(v.yt || "") &&
-                                           /^[a-z0-9-]{3,80}$/.test(v.evento || "") &&
-                                           (!alvo || v.evento === alvo))[0];
-      if (!t) return;
-      const play = esc(vivo.dataset.play), yt = esc(t.yt), tit = esc(t.titulo);
-      vivo.querySelector(".vivo-slot").innerHTML =
-        '<div class="yt" data-yt="' + yt + '" data-title="' + tit + '">' +
-          '<img src="https://i.ytimg.com/vi/' + yt + '/hqdefault.jpg" alt="' + tit + '" loading="lazy" decoding="async" width="480" height="360">' +
-          '<button type="button" class="yt-play" aria-label="' + play + '"><svg viewBox="0 0 68 48" width="68" height="48" aria-hidden="true"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.4 0 34 0 34 0S12.6 0 7.4 1.7c-2.9.8-5.1 3.1-5.9 6C0 13 0 24 0 24s0 11 1.5 16.3c.8 2.9 3 5.2 5.9 6C12.6 48 34 48 34 48s21.4 0 26.6-1.7c2.9-.8 5.1-3.1 5.9-6C68 35 68 24 68 24s0-11-1.5-16.3z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg></button>' +
-          '<span class="yt-sound" aria-hidden="true">' + play + '</span>' +
-        '</div>' +
-        '<div class="vivo-info">' +
-          '<h3>' + tit + '</h3>' +
-          (t.canal ? '<p class="vivo-cred">YouTube · ' + esc(t.canal) + '</p>' : '') +
-          '<div class="vcard-actions">' +
-            '<a class="btn btn-signal btn-sm" data-magnetic data-partner="se365" target="_blank" rel="sponsored nofollow noopener" href="/go/se365/pt/' + esc(t.evento) + '/"><span class="mag-inner">' + esc(vivo.dataset.ingressos) + ' <span class="arrow" aria-hidden="true">→</span></span></a>' +
-            '<a class="btn btn-ghost btn-sm" href="/eventos/' + esc(t.evento) + '/">' + esc(vivo.dataset.guia) + '</a>' +
-          '</div>' +
-          (t.checado === "geo" ? '<p class="vivo-aviso">' + esc(vivo.dataset.regiao) + '</p>' : '') +
-        '</div>';
+      const lista = d.transmissoes.filter(v => v && /^[A-Za-z0-9_-]{11}$/.test(v.yt || "") &&
+                                                /^[a-z0-9-]{3,80}$/.test(v.evento || "") &&
+                                                (!alvo || v.evento === alvo)).slice(0, 4);
+      if (!lista.length) return;
+      const slot = vivo.querySelector(".vivo-slot");
+      if (lista.length === 1){
+        const t = lista[0];
+        slot.innerHTML = player(t) + '<div class="vivo-info"><h3>' + esc(t.titulo) + '</h3>' + credito(t) + acoes(t) + aviso(t) + '</div>';
+      } else {
+        slot.classList.add("vivo-varios");
+        slot.innerHTML = lista.map(t =>
+          '<article class="vcard">' + player(t) +
+            '<div class="vcard-body"><h3>' + esc(t.titulo) + '</h3>' + credito(t) + acoes(t) + aviso(t) + '</div>' +
+          '</article>').join("");
+        const cont = vivo.dataset.contador;
+        const k = vivo.querySelector(".kicker-vivo");
+        if (cont && k) k.insertAdjacentHTML("beforeend", '<span class="vivo-n">' + esc(cont.replace("{n}", lista.length)) + '</span>');
+      }
       vivo.hidden = false;
-      track({ event: "live_shown", video_id: t.yt, event_slug: t.evento, channel: t.canal || "" });
+      lista.forEach(t => track({ event: "live_shown", video_id: t.yt, event_slug: t.evento, channel: t.canal || "" }));
     })
     .catch(() => {});
 }
-
 })();

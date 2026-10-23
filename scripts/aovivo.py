@@ -28,14 +28,19 @@ ANTES = datetime.timedelta(hours=4)    # a janela é larga porque o eventos.json
 DEPOIS = datetime.timedelta(hours=5)
 
 
+def quando_do_evento(ev):
+    """Horário do evento em UTC aproximado (o eventos.json guarda a hora local, sem fuso)."""
+    h, m = (ev.get("hora") or "20:00").split(":")[:2]
+    return datetime.datetime.fromisoformat(ev["data"]).replace(
+        hour=int(h), minute=int(m), tzinfo=datetime.timezone.utc)
+
+
 def eventos_na_janela(eventos, agora):
     """Eventos cujo horário está por acontecer ou acabou de passar."""
     dentro = []
     for ev in eventos:
         try:
-            h, m = (ev.get("hora") or "20:00").split(":")[:2]
-            quando = datetime.datetime.fromisoformat(ev["data"]).replace(
-                hour=int(h), minute=int(m), tzinfo=datetime.timezone.utc)
+            quando = quando_do_evento(ev)
         except Exception:
             continue
         if quando - ANTES <= agora <= quando + DEPOIS:
@@ -141,6 +146,10 @@ def procurar(dados_videos, eventos, agora):
         if not cid:
             print(f"  ! canal de reserva sem channel_id: {r.get('canal','?')}")
             continue
+        tipos = r.get("tipos") or []            # vazio = o canal serve para qualquer tipo de evento
+        alvos = [ev for ev in eventos if not tipos or ev.get("tipo") in tipos]
+        if not alvos:
+            continue
         try:
             lives = transmissoes_do_canal(cid)
         except Exception as exc:
@@ -148,7 +157,7 @@ def procurar(dados_videos, eventos, agora):
             continue
         print(f"· {r.get('canal','?')}: {len(lives)} transmissão(ões) recentes para conferir")
         for live in lives:
-            ev = max(eventos, key=lambda x: V.nota_evento(live["titulo"], "", x), default=None)
+            ev = max(alvos, key=lambda x: V.nota_evento(live["titulo"], "", x), default=None)
             if ev is None or V.nota_evento(live["titulo"], "", ev) < 2:
                 continue
             situacao, confirmado_vivo = estado(live["yt"])
@@ -166,11 +175,17 @@ def procurar(dados_videos, eventos, agora):
             if situacao in ("indisponivel", "erro"):
                 print(f"  - {live['yt']}: {situacao}; fora.")
                 continue
+            if any(a["evento"] == ev["slug"] for a in achados):
+                continue        # um evento, uma transmissão: a primeira que passou na conferência
             achados.append({"yt": live["yt"], "titulo": live["titulo"], "canal": r.get("canal", ""),
                             "idioma": r.get("idioma", "pt"), "evento": ev["slug"],
                             "regiao": r.get("regiao", ""), "checado": situacao,
                             "desde": agora.isoformat(timespec="seconds")})
             print(f"+ {live['yt']} ({r.get('canal','?')}) ao vivo em {ev['slug']} [{situacao}]")
+    # vários jogos ao mesmo tempo é o caso normal de fim de semana: o site mostra todos,
+    # e quem começou primeiro aparece primeiro.
+    ordem = {ev["slug"]: quando_do_evento(ev) for ev in eventos}
+    achados.sort(key=lambda a: ordem.get(a["evento"], datetime.datetime.max.replace(tzinfo=datetime.timezone.utc)))
     return achados
 
 

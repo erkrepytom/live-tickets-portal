@@ -485,7 +485,7 @@ html{scroll-padding-top:120px}
 /* ---------- Faixa AO VIVO: aparece só quando scripts/aovivo.py acha transmissão liberada ---------- */
 .band-vivo{padding-block:56px;background:linear-gradient(180deg,rgba(255,196,0,.08),transparent 70%)}
 .band-vivo[hidden]{display:none}
-.kicker-vivo{display:flex;align-items:center;gap:8px;color:#e0162b}
+.kicker-vivo{display:flex;align-items:center;flex-wrap:wrap;gap:4px 8px;color:#e0162b}
 .kicker-vivo i{width:9px;height:9px;border-radius:50%;background:#e0162b;animation:vivo-pulso 1.6s ease-in-out infinite}
 @keyframes vivo-pulso{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
 @media (prefers-reduced-motion:reduce){.kicker-vivo i{animation:none}}
@@ -497,3 +497,10 @@ html{scroll-padding-top:120px}
 .vivo-info .vcard-actions{display:flex;flex-wrap:wrap;gap:10px}
 .vivo-aviso{font-size:13px;opacity:.7;margin-top:12px}
 @media (max-width:760px){.vivo-slot{grid-template-columns:1fr}}
+.vivo-slot.vivo-varios{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.vivo-varios .vcard-body h3{font-size:16px;line-height:1.3}
+.vivo-varios .vivo-cred,.vivo-varios .vivo-aviso{margin:6px 0 10px}
+.vivo-n{font-weight:600;opacity:.8;white-space:nowrap}
+.vivo-varios .vcard{height:100%;display:flex;flex-direction:column}
+.vivo-varios .vcard-body{display:flex;flex-direction:column;flex:1}
+.vivo-varios .vivo-aviso{margin-top:auto}
