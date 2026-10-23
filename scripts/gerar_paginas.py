@@ -844,29 +844,47 @@ def vitrines():
     return _VITRINES
 
 
-def faixa_vitrine(lang, pagina, v):
-    """Uma faixa de vitrine: os vídeos recentes do canal oficial, com crédito e o botão de ingressos
-    do catálogo do parceiro. Some sozinha quando o robô não encontra vídeo que permita exibição."""
-    vids = [x for x in v.get("videos", []) if re.fullmatch(r"[A-Za-z0-9_-]{11}", x.get("yt", ""))]
-    if not vids:
-        return ""
+def vitrine(id_):
+    """Uma vitrine de data/vitrines.json pelo id (nba, beisebol, shows)."""
+    return next((v for v in vitrines() if v.get("id") == id_), None)
+
+
+def cartoes_vitrine(lang, pagina, v):
     vx = C.VIDEOS_TXT[lang]
-    cartoes = "".join(
+    vids = [x for x in v.get("videos", []) if re.fullmatch(r"[A-Za-z0-9_-]{11}", x.get("yt", ""))]
+    return vids, "".join(
         f'<article class="vcard">{facade_video(x, lang, pagina)}<div class="vcard-body">'
         f'<h3>{e(titulo_video(x, lang))}</h3><p>{credito_video(x)}</p>'
         f'<div class="vcard-actions">{mag(parceiro(lang, v["dock"]), e(vx["ingressos"]), "btn btn-signal btn-sm")}</div>'
         f'</div></article>' for x in vids)
-    return f"""<section class="band band-vitrine" id="vit-{e(v['id'])}" aria-labelledby="vit-{e(v['id'])}-h">
+
+
+def faixa_vitrine(lang, pagina, id_, estilo="", dentro=False):
+    """Os vídeos recentes do canal oficial daquela vitrine, com crédito e o botão de ingressos do
+    catálogo do parceiro. Some sozinha quando o robô não acha vídeo que permita exibição.
+
+    dentro=True devolve só o bloco, sem <section> nem wrap, para encaixar numa seção que já existe.
+    """
+    v = vitrine(id_)
+    if not v:
+        return ""
+    vids, cartoes = cartoes_vitrine(lang, pagina, v)
+    if not vids:
+        return ""
+    vx = C.VIDEOS_TXT[lang]
+    cabeca_ = (f'<div class="sec-head"><div><p class="kicker">{e(vx["k"])}</p>'
+               f'<h2 id="vit-{e(v["id"])}-h" data-scramble>{e(L(v["titulo"], lang))}</h2></div>'
+               f'<p>{e(L(v["sub"], lang))}</p></div>')
+    if dentro:
+        return (f'<div class="vitrine-dentro" id="vit-{e(v["id"])}" aria-labelledby="vit-{e(v["id"])}-h">'
+                f'{cabeca_}<div class="vgrid vgrid-dupla">{cartoes}</div></div>\n')
+    return f"""<section class="band band-vitrine" id="vit-{e(v['id'])}" aria-labelledby="vit-{e(v['id'])}-h"{f' style="{estilo}"' if estilo else ''}>
   <div class="wrap">
-    <div class="sec-head"><div><p class="kicker">{e(vx['k'])}</p><h2 id="vit-{e(v['id'])}-h" data-scramble>{e(L(v['titulo'], lang))}</h2></div><p>{e(L(v['sub'], lang))}</p></div>
+    {cabeca_}
     <div class="vgrid vgrid-dupla">{cartoes}</div>
   </div>
 </section>
 """
-
-
-def faixas_vitrines(lang, pagina):
-    return "".join(faixa_vitrine(lang, pagina, v) for v in vitrines())
 
 
 def faixa_aovivo(lang, pagina, slug=""):
@@ -1340,11 +1358,13 @@ def home(lang, eventos, noticias, hubs):
   </div>
 </section>
 
+{faixa_vitrine(lang, pagina, "nba", "padding-top:0")}
 <section class="band" id="explorar" aria-labelledby="exp-h" style="padding-top:0">
   <div class="wrap explore">
     <div class="sec-head" style="margin:0"><div><p class="kicker">{e(t['exp_kicker'])}</p><h2 id="exp-h" data-scramble>{e(t['exp_h'])}</h2></div><p>{e(t['exp_sub'])}</p></div>
     <div class="tiles-photo">{tiles}</div>
     {guias}
+    {faixa_vitrine(lang, pagina, "beisebol", dentro=True)}
     <div class="chips-group"><h3>{e(t['g_comp'])}</h3><div class="chips">{chips(COMPETICOES, '/dock/competition/')}</div></div>
     <div class="chips-group"><h3>{e(t['g_teams'])}</h3><div class="chips">{chips(TIMES, '/dock/team/')}</div></div>
     <div class="chips-group"><h3>{e(t['g_cities'])}</h3><div class="chips">{chips(CIDADES, '/dock/cities/')}</div></div>
@@ -1369,6 +1389,7 @@ def home(lang, eventos, noticias, hubs):
 function go(i){{if(i>=s.length)return;var x=document.createElement("script");x.src=s[i];x.onload=function(){{go(i+1)}};document.body.appendChild(x)}}
 if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new IntersectionObserver(function(es){{for(var k=0;k<es.length;k++)if(es[k].isIntersecting){{io.disconnect();go(0);return}}}},{{rootMargin:"1500px 0px"}});io.observe(b)}})();</script>
 
+{faixa_vitrine(lang, pagina, "shows")}
 <section class="sv" id="video" aria-labelledby="sv-h">
   <div class="sv-stick">
     <div class="wrap">
@@ -1389,7 +1410,6 @@ if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new Intersecti
 </section>
 {noticias_html}
 {alertas(lang, eventos)}
-{faixas_vitrines(lang, pagina)}
 </main>
 """
     return h + corpo + rodape(lang, pagina, alternos)

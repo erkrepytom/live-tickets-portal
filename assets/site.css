@@ -513,3 +513,5 @@ html{scroll-padding-top:120px}
 .vgrid-dupla .vcard-body{display:flex;flex-direction:column;flex:1;gap:8px}
 .vgrid-dupla .vcard-body h3{font-size:17px;line-height:1.3}
 .vgrid-dupla .vcard-actions{margin-top:auto}
+.vitrine-dentro{margin:28px 0}
+.vitrine-dentro .sec-head{margin-bottom:18px}
