@@ -287,7 +287,18 @@ def conferir_reservas(dados):
         try:
             itens = ler_feed(cid)
         except Exception as exc:
-            aviso(f"{nome}: feed indisponível ({exc}).", True)
+            aviso(f"{nome}: feed de {cid} indisponível ({exc}).", True)
+            try:  # diz de quem é o ID, para saber se o erro é do ID ou do feed
+                req = urllib.request.Request(f"https://www.youtube.com/channel/{cid}",
+                                             headers={"User-Agent": UA, "Accept-Language": "pt-BR"})
+                with urllib.request.urlopen(req, timeout=20) as r:
+                    html = r.read().decode("utf-8", "replace")
+                m = re.search(r'<meta property="og:title" content="([^"]{1,80})"', html)
+                c = re.search(r'"canonicalBaseUrl":"/(@[A-Za-z0-9._-]{3,30})"', html)
+                aviso(f"{nome}: a página /channel/{cid} responde como \"{m.group(1) if m else '?'}\""
+                      f"{' (' + c.group(1) + ')' if c else ''}.")
+            except Exception as exc2:
+                aviso(f"{nome}: a página /channel/{cid} também não abriu ({exc2}).")
             erros += 1
             continue
         feed = TITULO_CANAL.get(cid, "")
