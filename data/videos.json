@@ -21,8 +21,9 @@
    "handle": "@cazetv",
    "channel_id": "UCZiYbVptd3PVPf4f6eR6UaQ",
    "idioma": "pt",
-   "nota": "Transmite a LALIGA no Brasil com direitos; entra quando o canal oficial da liga bloqueia o embed. A CazeTV nao serve feed RSS, entao o robo le a aba /videos do canal. Conferido em 22/10/2026 com: python scripts/videos.py --conferir",
-   "tipos": []
+   "nota": "Transmite a LALIGA no Brasil com direitos; entra quando o canal oficial da liga bloqueia o embed. A CazeTV nao serve feed RSS, entao o robo le a aba /videos do canal. Conferido em 22/10/2026 com: python scripts/videos.py --conferir confiar_quando_geo ligado em 22/10/2026 pelo dono do site: a transmissao e legitima no Brasil, e o servidor do robo (EUA) a ve bloqueada por pais.",
+   "tipos": [],
+   "confiar_quando_geo": true
   }
  ],
  "videos": [
