@@ -161,7 +161,98 @@ def do_bluesky(consulta, desde):
     return achados
 
 
-FONTES = (("Reddit", do_reddit), ("Bluesky", do_bluesky))
+# --- Reddit pela API oficial (app grátis do tipo "script"): os endpoints públicos .json respondem
+# 403 para servidor, então a varredura automática precisa do app. Sem as chaves, cai no público. ---
+_TOKEN = {}
+
+
+def _token_reddit():
+    cid, seg = os.environ.get("REDDIT_ID", ""), os.environ.get("REDDIT_SECRET", "")
+    if not (cid and seg):
+        return ""
+    if _TOKEN.get("valor") and _TOKEN.get("ate", 0) > datetime.datetime.now().timestamp():
+        return _TOKEN["valor"]
+    import base64
+    cab = {"Authorization": "Basic " + base64.b64encode(f"{cid}:{seg}".encode()).decode(),
+           "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded"}
+    req = urllib.request.Request("https://www.reddit.com/api/v1/access_token",
+                                 data=b"grant_type=client_credentials", headers=cab)
+    with urllib.request.urlopen(req, timeout=20) as r:
+        d = json.loads(r.read().decode())
+    _TOKEN["valor"] = d.get("access_token", "")
+    _TOKEN["ate"] = datetime.datetime.now().timestamp() + int(d.get("expires_in", 3600)) - 60
+    return _TOKEN["valor"]
+
+
+def do_reddit_api(consulta, desde):
+    tk = _token_reddit()
+    if not tk:
+        raise RuntimeError("sem REDDIT_ID/REDDIT_SECRET")
+    url = ("https://oauth.reddit.com/search?" +
+           urllib.parse.urlencode({"q": consulta, "sort": "new", "t": "month", "limit": 25, "raw_json": 1}))
+    dados = baixar(url, {"Authorization": f"bearer {tk}"})
+    achados = []
+    for filho in dados.get("data", {}).get("children", []):
+        d = filho.get("data", {})
+        quando = datetime.datetime.fromtimestamp(d.get("created_utc", 0), datetime.timezone.utc)
+        if quando < desde:
+            continue
+        achados.append({"fonte": "Reddit", "onde": "r/" + d.get("subreddit", ""), "autor": d.get("author", ""),
+                        "titulo": html.unescape(d.get("title", ""))[:200],
+                        "texto": html.unescape(d.get("selftext", ""))[:600],
+                        "url": "https://www.reddit.com" + d.get("permalink", ""),
+                        "quando": quando.date().isoformat()})
+    return achados
+
+
+def do_youtube(consulta, desde):
+    """Comentários sob os vídeos do jogo: é onde o torcedor pergunta de ingresso sem rodeio."""
+    chave = os.environ.get("YOUTUBE_API_KEY", "")
+    if not chave:
+        raise RuntimeError("sem YOUTUBE_API_KEY")
+    busca = ("https://www.googleapis.com/youtube/v3/search?" + urllib.parse.urlencode(
+        {"part": "snippet", "q": consulta, "type": "video", "maxResults": 3, "order": "relevance",
+         "publishedAfter": desde.replace(microsecond=0).isoformat().replace("+00:00", "Z"), "key": chave}))
+    videos = [i["id"]["videoId"] for i in baixar(busca).get("items", []) if i.get("id", {}).get("videoId")]
+    achados = []
+    for vid in videos:
+        try:
+            com = baixar("https://www.googleapis.com/youtube/v3/commentThreads?" + urllib.parse.urlencode(
+                {"part": "snippet", "videoId": vid, "maxResults": 50, "order": "relevance",
+                 "textFormat": "plainText", "key": chave}))
+        except Exception:
+            continue
+        for it in com.get("items", []):
+            t = it["snippet"]["topLevelComment"]["snippet"]
+            try:
+                quando = datetime.datetime.fromisoformat(t["publishedAt"].replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            if quando < desde:
+                continue
+            achados.append({"fonte": "YouTube", "onde": "comentários do vídeo", "autor": t.get("authorDisplayName", ""),
+                            "titulo": (t.get("textDisplay", "") or "")[:140],
+                            "texto": (t.get("textDisplay", "") or "")[:600],
+                            "url": f"https://www.youtube.com/watch?v={vid}&lc={it.get('id','')}",
+                            "quando": quando.date().isoformat()})
+    return achados
+
+
+def fontes_ativas():
+    """Usa o que há de chave no ambiente; sem chave nenhuma, tenta os endpoints públicos
+    (que funcionam do seu computador, mas servidores levam 403)."""
+    fs = []
+    if os.environ.get("REDDIT_ID") and os.environ.get("REDDIT_SECRET"):
+        fs.append(("Reddit", do_reddit_api))
+    else:
+        fs.append(("Reddit", do_reddit))
+    if os.environ.get("YOUTUBE_API_KEY"):
+        fs.append(("YouTube", do_youtube))
+    fs.append(("Bluesky", do_bluesky))
+    return tuple(fs)
+
+
+FONTES = fontes_ativas()
 
 
 # ---------------- Rascunhos ----------------
