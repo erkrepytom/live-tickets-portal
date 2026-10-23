@@ -491,26 +491,30 @@ if (rform){
 }
 
 /* ---------- Faixa AO VIVO: o scripts/aovivo.py escreve data/aovivo.json; aqui a faixa só aparece se
-   houver transmissão liberada para o evento desta página (ou para qualquer evento, na home).
-   Vários eventos ao mesmo tempo viram uma grade; um só vira destaque com o player grande.
-   O player é o mesmo dos outros vídeos: nada do YouTube carrega antes do toque. ---------- */
+   houver transmissão liberada. Um evento vira destaque; vários viram carrossel, e cada opção leva ao
+   ingresso certo: o do evento, quando a transmissão é dele, ou o catálogo daquela modalidade. ---------- */
 const vivo = document.getElementById("aovivo");
 if (vivo){
   const alvo = vivo.dataset.slug || "";
+  let docks = {};
+  try { docks = JSON.parse(vivo.dataset.docks || "{}"); } catch (e) {}
   const esc = v => String(v == null ? "" : v).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
   const PLAY_SVG = '<svg viewBox="0 0 68 48" width="68" height="48" aria-hidden="true"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.4 0 34 0 34 0S12.6 0 7.4 1.7c-2.9.8-5.1 3.1-5.9 6C0 13 0 24 0 24s0 11 1.5 16.3c.8 2.9 3 5.2 5.9 6C12.6 48 34 48 34 48s21.4 0 26.6-1.7c2.9-.8 5.1-3.1 5.9-6C68 35 68 24 68 24s0-11-1.5-16.3z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>';
-  const player = t => {
+  const player = (t, auto) => {
     const yt = esc(t.yt), tit = esc(t.titulo), play = esc(vivo.dataset.play);
-    return '<div class="yt" data-yt="' + yt + '" data-title="' + tit + '">' +
+    return '<div class="yt"' + (auto ? '' : ' data-noauto') + ' data-yt="' + yt + '" data-title="' + tit + '">' +
       '<img src="https://i.ytimg.com/vi/' + yt + '/hqdefault.jpg" alt="' + tit + '" loading="lazy" decoding="async" width="480" height="360">' +
       '<button type="button" class="yt-play" aria-label="' + play + '">' + PLAY_SVG + '</button>' +
       '<span class="yt-sound" aria-hidden="true">' + play + '</span></div>';
   };
-  const acoes = t =>
-    '<div class="vcard-actions">' +
-      '<a class="btn btn-signal btn-sm" data-magnetic data-partner="se365" target="_blank" rel="sponsored nofollow noopener" href="/go/se365/pt/' + esc(t.evento) + '/"><span class="mag-inner">' + esc(vivo.dataset.ingressos) + ' <span class="arrow" aria-hidden="true">→</span></span></a>' +
-      '<a class="btn btn-ghost btn-sm" href="/eventos/' + esc(t.evento) + '/">' + esc(vivo.dataset.guia) + '</a>' +
+  const ingresso = t => t.evento ? '/go/se365/pt/' + esc(t.evento) + '/' : (docks[t.categoria] || "");
+  const acoes = t => {
+    const href = ingresso(t);
+    return '<div class="vcard-actions">' +
+      (href ? '<a class="btn btn-signal btn-sm" data-magnetic data-partner="se365" target="_blank" rel="sponsored nofollow noopener" href="' + esc(href) + '"><span class="mag-inner">' + esc(vivo.dataset.ingressos) + ' <span class="arrow" aria-hidden="true">→</span></span></a>' : '') +
+      (t.evento ? '<a class="btn btn-ghost btn-sm" href="/eventos/' + esc(t.evento) + '/">' + esc(vivo.dataset.guia) + '</a>' : '') +
     '</div>';
+  };
   const credito = t => t.canal ? '<p class="vivo-cred">YouTube · ' + esc(t.canal) + '</p>' : "";
   const aviso = t => t.checado === "geo" ? '<p class="vivo-aviso">' + esc(vivo.dataset.regiao) + '</p>' : "";
   fetch(vivo.dataset.url + "?t=" + Math.floor(Date.now() / 120000), { cache: "no-store" })
@@ -520,34 +524,43 @@ if (vivo){
       const idade = Date.now() - Date.parse(d.atualizado || "");
       if (!(idade >= 0) || idade > 30 * 60000) return;   // arquivo parado: melhor não anunciar jogo que já acabou
       const lista = d.transmissoes.filter(v => v && /^[A-Za-z0-9_-]{11}$/.test(v.yt || "") &&
-                                                /^[a-z0-9-]{3,80}$/.test(v.evento || "") &&
-                                                (!alvo || v.evento === alvo)).slice(0, 4);
+                                                (!v.evento || /^[a-z0-9-]{3,80}$/.test(v.evento)) &&
+                                                (!alvo || v.evento === alvo || !v.evento)).slice(0, 6);
       if (!lista.length) return;
       const slot = vivo.querySelector(".vivo-slot");
       if (lista.length === 1){
         const t = lista[0];
-        slot.innerHTML = player(t) + '<div class="vivo-info"><h3>' + esc(t.titulo) + '</h3>' + credito(t) + acoes(t) + aviso(t) + '</div>';
+        slot.innerHTML = player(t, true) + '<div class="vivo-info"><h3>' + esc(t.titulo) + '</h3>' + credito(t) + acoes(t) + aviso(t) + '</div>';
       } else {
-        slot.classList.add("vivo-varios");
-        slot.innerHTML = lista.map(t =>
-          '<article class="vcard">' + player(t) +
+        const cartoes = lista.map((t, i) =>
+          '<article class="vcard">' + player(t, i === 0) +
             '<div class="vcard-body"><h3>' + esc(t.titulo) + '</h3>' + credito(t) + acoes(t) + aviso(t) + '</div>' +
           '</article>').join("");
-        const cont = vivo.dataset.contador;
-        const k = vivo.querySelector(".kicker-vivo");
+        if (lista.length > 2){
+          slot.classList.add("vivo-carr");
+          slot.innerHTML = '<div class="vcarr"><button type="button" class="vcarr-nav vcarr-ant" aria-label="‹">‹</button>' +
+            '<div class="vgrid vcarr-trilho">' + cartoes + '</div>' +
+            '<button type="button" class="vcarr-nav vcarr-prox" aria-label="›">›</button></div>';
+          slot.querySelectorAll(".vcarr").forEach(ligarCarrossel);
+        } else {
+          slot.classList.add("vivo-varios");
+          slot.innerHTML = cartoes;
+        }
+        const cont = vivo.dataset.contador, k = vivo.querySelector(".kicker-vivo");
         if (cont && k) k.insertAdjacentHTML("beforeend", '<span class="vivo-n">' + esc(cont.replace("{n}", lista.length)) + '</span>');
       }
       vivo.hidden = false;
-      lista.forEach(t => track({ event: "live_shown", video_id: t.yt, event_slug: t.evento, channel: t.canal || "" }));
+      lista.forEach(t => track({ event: "live_shown", video_id: t.yt, event_slug: t.evento || t.categoria || "", channel: t.canal || "" }));
     })
     .catch(() => {});
 }
 
 /* ---------- Setas do carrossel de vídeos: rola um "tela cheia" de cartões por clique e some nas pontas ---------- */
-document.querySelectorAll(".vcarr").forEach(carr => {
+function ligarCarrossel(carr){
   const trilho = carr.querySelector(".vcarr-trilho");
   const ant = carr.querySelector(".vcarr-ant"), prox = carr.querySelector(".vcarr-prox");
-  if (!trilho || !ant || !prox) return;
+  if (!trilho || !ant || !prox || carr.__ligado) return;
+  carr.__ligado = true;
   const passo = () => Math.max(240, trilho.clientWidth * 0.8);
   const pontas = () => {
     const fim = trilho.scrollWidth - trilho.clientWidth - 4;
@@ -559,6 +572,7 @@ document.querySelectorAll(".vcarr").forEach(carr => {
   trilho.addEventListener("scroll", pontas, { passive: true });
   addEventListener("resize", pontas);
   pontas();
-});
+}
+document.querySelectorAll(".vcarr").forEach(ligarCarrossel);
 
 })();

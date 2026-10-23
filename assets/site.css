@@ -534,3 +534,5 @@ html{scroll-padding-top:120px}
 .vcarr-nav[hidden]{display:none!important}
 @media (min-width:901px){.vcarr-nav{display:flex}.vcarr-trilho .vcard{flex-basis:min(42%,340px)}}
 @media (min-width:1200px){.vcarr-trilho .vcard{flex-basis:min(31%,330px)}}
+.vivo-slot.vivo-carr{display:block}
+.vivo-slot.vivo-carr .vcard-body{gap:8px}

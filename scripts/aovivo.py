@@ -229,6 +229,8 @@ def rodada(agora, eventos, dados_videos):
     else:
         print("Na janela: " + ", ".join(ev["slug"] for ev in na_janela))
         achados = procurar(dados_videos, na_janela, agora)
+        # havendo jogo na janela, o que mais estiver no ar vira opção extra na faixa
+        achados += transmissoes_das_vitrines(agora, {t["yt"] for t in achados})
 
     # mantém o "desde" de quem já estava no ar, para o site mostrar há quanto tempo começou
     antes = {t["yt"]: t for t in antigo.get("transmissoes", [])}
@@ -316,6 +318,36 @@ def vigiar(minutos, eventos, dados_videos):
         r = subprocess.run(["gh", "workflow", "run", "aovivo-vigia.yml"], cwd=RAIZ, capture_output=True, text=True)
         print(f"Próximo turno do vigia pedido: {(r.stdout + r.stderr).strip()[:160]}")
     return 0
+
+
+def transmissoes_das_vitrines(agora, ja_vistos):
+    """Além dos eventos do site, o que os canais das vitrines (NBA, beisebol, shows) estiverem
+    transmitindo agora. Serve para a faixa AO VIVO ter mais opções quando há jogo: o visitante
+    escolhe o que assistir e cada opção leva ao ingresso daquela categoria."""
+    try:
+        with open(os.path.join(RAIZ, "data", "vitrines.json"), encoding="utf-8") as f:
+            vitrines = json.load(f).get("vitrines", [])
+    except (OSError, ValueError):
+        return []
+    achados = []
+    for v in vitrines:
+        for canal in v.get("canais", []):
+            cid = V.canal_id_da_reserva({"handle": canal} if canal.startswith("@") else {"channel_id": canal})
+            if not cid:
+                continue
+            for live in ao_vivo_agora(cid):
+                if live["yt"] in ja_vistos:
+                    continue
+                situacao, confirmado = estado(live["yt"])
+                if situacao != "ok" or not confirmado:
+                    continue
+                ja_vistos.add(live["yt"])
+                achados.append({"yt": live["yt"], "titulo": live["titulo"], "canal": V.TITULO_CANAL.get(cid, canal.lstrip("@")),
+                                "idioma": "pt", "evento": "", "categoria": v["id"], "regiao": "",
+                                "checado": situacao, "desde": agora.isoformat(timespec="seconds")})
+                print(f"+ {live['yt']} ({canal}) ao vivo na vitrine {v['id']}")
+                break
+    return achados
 
 
 def main():
