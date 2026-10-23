@@ -847,7 +847,8 @@ def vitrines():
 def bola3d(tipo):
     """Bola que gira ao lado do título. É desenho e sombra em CSS, sem três.js e sem imagem:
     pesa alguns bytes e para de girar sozinha para quem pede menos movimento no sistema."""
-    return f'<span class="bola3d bola-{tipo}" aria-hidden="true"></span>' if tipo in ("futebol", "basquete", "beisebol") else ""
+    return (f'<span class="bola3d bola-{tipo}" aria-hidden="true"><i></i></span>'
+            if tipo in ("futebol", "basquete", "beisebol") else "")
 
 
 def vitrine(id_):
