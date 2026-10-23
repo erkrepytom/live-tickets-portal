@@ -66,19 +66,47 @@ def _colher_ao_vivo(no, achados, vistos):
             _colher_ao_vivo(v, achados, vistos)
 
 
-def transmissoes_do_canal(canal_id):
-    """As transmissões mais recentes da aba /streams. O selo "AO VIVO" da página é só um indício:
-    quem confirma é a página de incorporação do vídeo, em estado()."""
-    req = urllib.request.Request(f"https://www.youtube.com/channel/{canal_id}/streams",
-                                 headers={"User-Agent": V.UA, "Accept-Language": "pt-BR,pt;q=0.9"})
+def _pagina(url):
+    req = urllib.request.Request(url, headers={"User-Agent": V.UA, "Accept-Language": "pt-BR,pt;q=0.9"})
     with urllib.request.urlopen(req, timeout=25) as r:
-        html = r.read().decode("utf-8", "replace")
-    dados = V._json_depois(html, "ytInitialData")
-    if dados is None:
+        return r.read().decode("utf-8", "replace")
+
+
+def ao_vivo_agora(canal_id):
+    """O atalho /channel/<id>/live: quando o canal está transmitindo, essa página É o vídeo ao vivo
+    (o canonical aponta para watch?v=...). Quando não está, cai na página do canal e não devolve nada."""
+    try:
+        html = _pagina(f"https://www.youtube.com/channel/{canal_id}/live")
+    except Exception as exc:
+        print(f"  ! /live de {canal_id} indisponível: {exc}")
         return []
+    m = re.search(r'<link rel="canonical" href="https://www\.youtube\.com/watch\?v=([A-Za-z0-9_-]{11})"', html)
+    if not m:
+        return []
+    t = re.search(r'<meta property="og:title" content="([^"]{1,120})"', html)
+    return [{"yt": m.group(1), "titulo": (t.group(1) if t else ""), "selo_vivo": True}]
+
+
+def transmissoes_do_canal(canal_id):
+    """Candidatos a transmissão ao vivo: primeiro o atalho /live, depois as abas /streams e /videos.
+    O selo da aba é só um indício; quem confirma é a página de incorporação, em estado()."""
     achados, vistos = [], set()
-    _colher_ao_vivo(dados, achados, vistos)
-    achados.sort(key=lambda a: not a["selo_vivo"])   # os marcados como ao vivo primeiro
+    for item in ao_vivo_agora(canal_id):
+        vistos.add(item["yt"])
+        achados.append(item)
+    for aba in ("streams", "videos"):
+        try:
+            html = _pagina(f"https://www.youtube.com/channel/{canal_id}/{aba}")
+        except Exception as exc:
+            print(f"  ! aba /{aba} de {canal_id} indisponível: {exc}")
+            continue
+        dados = V._json_depois(html, "ytInitialData")
+        if dados is None:
+            continue
+        parciais = []
+        _colher_ao_vivo(dados, parciais, vistos)
+        parciais.sort(key=lambda a: not a["selo_vivo"])
+        achados += parciais[:4]
     return achados[:8]
 
 
