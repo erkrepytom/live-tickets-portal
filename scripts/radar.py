@@ -65,8 +65,17 @@ def norm(s):
 
 def baixar(url, cabecalhos=None):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json", **(cabecalhos or {})})
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return json.loads(r.read().decode("utf-8", "replace"))
+    try:
+        with urllib.request.urlopen(req, timeout=25) as r:
+            return json.loads(r.read().decode("utf-8", "replace"))
+    except urllib.error.HTTPError as exc:
+        # o motivo vem no corpo da resposta; sem ele, "403" não diz nada e o conserto vira adivinhação
+        try:
+            corpo = exc.read().decode("utf-8", "replace")
+            motivo = (json.loads(corpo).get("error", {}).get("message", "") or corpo)[:200]
+        except Exception:
+            motivo = ""
+        raise RuntimeError(f"HTTP {exc.code}: {motivo or exc.reason}") from None
 
 
 def nomes_do_evento(ev):
