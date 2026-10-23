@@ -24,6 +24,7 @@ import xml.etree.ElementTree as ET
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CANAL_ID = os.environ.get("YOUTUBE_CHANNEL_ID", "UCIUejr6o9Rdvsg_07x6kziA")  # @Tickets.Sports.Events
 FEED = f"https://www.youtube.com/feeds/videos.xml?channel_id={CANAL_ID}"
+UA = "Mozilla/5.0 (compatible; MyTicketsToursBot/1.0; +https://mytickets.tours/)"
 NS = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015", "media": "http://search.yahoo.com/mrss/"}
 
 PALAVRAS = {
@@ -96,6 +97,45 @@ def ler_feed():
     return itens
 
 
+
+def permite_embed(yt):
+    """True se o vídeo pode ser exibido fora do YouTube.
+
+    Alguns donos de canal (LALIGA, ligas e emissoras) bloqueiam a exibição em sites de terceiros.
+    O player então mostra "Vídeo indisponível" no lugar do vídeo, o que fica péssimo na página.
+    A página /embed/ traz "playableInEmbed": false nesses casos.
+    Em caso de erro de rede devolve None, e aí o chamador não mexe no que já está publicado.
+    """
+    req = urllib.request.Request(f"https://www.youtube.com/embed/{yt}",
+                                headers={"User-Agent": UA, "Accept-Language": "en"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            html = r.read().decode("utf-8", "replace")
+    except Exception as exc:
+        print(f"  ! não deu para checar o embed de {yt}: {exc}")
+        return None
+    if '"playableInEmbed":false' in html.replace(" ", ""):
+        return False
+    if '"status":"UNPLAYABLE"' in html.replace(" ", ""):
+        return False
+    return True
+
+
+def revisar_embeds(dados):
+    """Desativa os vídeos que o dono do canal bloqueou para exibição fora do YouTube."""
+    mudou = 0
+    for v in dados.get("videos", []):
+        if not v.get("ativo", True):
+            continue
+        ok = permite_embed(v["yt"])
+        if ok is False:
+            v["ativo"] = False
+            v["nota_embed"] = "O canal bloqueia a exibição fora do YouTube; desativado automaticamente."
+            print(f"- {v['yt']} ({v.get('canal','?')}): bloqueado para embed, desativado.")
+            mudou += 1
+    return mudou
+
+
 def main():
     arq = os.path.join(RAIZ, "data", "videos.json")
     with open(arq, encoding="utf-8") as f:
@@ -120,12 +160,14 @@ def main():
         dados.setdefault("videos", []).append(v)
         novos += 1
         print(f"+ {it['yt']} [{v['idioma']}] {it['titulo'][:60]} → {slug or '(sem evento)'}")
-    if novos:
+    bloqueados = revisar_embeds(dados)
+    if novos or bloqueados:
         dados["videos"].sort(key=lambda v: v.get("publicado", ""), reverse=True)
         with open(arq, "w", encoding="utf-8") as f:
             json.dump(dados, f, ensure_ascii=False, indent=1)
             f.write("\n")
-    print(f"{novos} vídeo(s) novo(s); {len(dados.get('videos', []))} no total.")
+    print(f"{novos} vídeo(s) novo(s); {bloqueados} desativado(s) por bloqueio de embed; "
+          f"{len(dados.get('videos', []))} no total.")
     return 0
 
 

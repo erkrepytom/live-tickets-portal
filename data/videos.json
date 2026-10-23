@@ -46,7 +46,8 @@
    "cta": {
     "tipo": "evento"
    },
-   "ativo": true
+   "ativo": false,
+   "nota_embed": "A LALIGA bloqueia a exibicao fora do YouTube (playableInEmbed=false). Desativado em 22/10/2026."
   },
   {
    "yt": "7YyOTvPR950",
