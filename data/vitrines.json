@@ -1,5 +1,5 @@
 {
- "_leia": "Vitrines de vídeo do fim da página inicial. scripts/vitrines.py busca os vídeos recentes de cada canal oficial, confere se o dono permite a exibição fora do YouTube e guarda os dois primeiros em 'videos'. Campos: id, titulo/sub por idioma, canais (@handle ou channel_id dos canais detentores), dock (caminho do catálogo do parceiro para o botão de ingressos), n (quantos vídeos mostrar), prefira (palavras que o título deveria ter: entram antes das outras). Nada é copiado: o que aparece é o player do YouTube com o crédito do canal.",
+ "_leia": "Vitrines de vídeo do fim da página inicial. scripts/vitrines.py busca os vídeos recentes de cada canal oficial, confere se o dono permite a exibição fora do YouTube e guarda os dois primeiros em 'videos'. Campos: id, titulo/sub por idioma, canais (@handle ou channel_id dos canais detentores), dock (caminho do catálogo do parceiro para o botão de ingressos), n (quantos vídeos entram no carrossel; só a miniatura é baixada, o player só carrega no toque), prefira (palavras que o título deveria ter: entram antes das outras). Nada é copiado: o que aparece é o player do YouTube com o crédito do canal. Campo tipos: os tipos de evento do site que esta vitrine acompanha (nba, concert, football...). O robô usa os nomes desses eventos (times, artistas, competição) como preferência, para o carrossel mostrar primeiro o que tem ingresso à venda no site.",
  "vitrines": [
   {
    "id": "nba",
@@ -17,7 +17,7 @@
     "@NBA"
    ],
    "dock": "/dock/competition/nba",
-   "n": 2,
+   "n": 8,
    "videos": [
     {
      "yt": "aEAJfS_6J0g",
@@ -36,6 +36,9 @@
     "highlights",
     "full game highlights",
     "melhores momentos"
+   ],
+   "tipos": [
+    "nba"
    ]
   },
   {
@@ -54,7 +57,7 @@
     "@MLB"
    ],
    "dock": "/dock/competition/major-league-baseball",
-   "n": 2,
+   "n": 8,
    "videos": [
     {
      "yt": "YNUc_Neq6wA",
@@ -74,7 +77,8 @@
     "condensed game",
     "melhores momentos",
     "walk-off"
-   ]
+   ],
+   "tipos": []
   },
   {
    "id": "shows",
@@ -93,7 +97,7 @@
     "@celinedion"
    ],
    "dock": "/dock/music/celine-dion",
-   "n": 2,
+   "n": 8,
    "videos": [
     {
      "yt": "mR9F1TShszg",
@@ -115,6 +119,9 @@
     "ao vivo",
     "live set",
     "full performance"
+   ],
+   "tipos": [
+    "concert"
    ]
   }
  ]

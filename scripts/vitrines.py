@@ -31,6 +31,32 @@ def recentes(canal):
     return V.TITULO_CANAL.get(cid, canal.lstrip("@")), itens
 
 
+def nomes_dos_eventos(tipos):
+    """Como o site chama o que ele vende: times, artistas e competições dos eventos desses tipos.
+    É o que faz o carrossel abrir com o jogo de quem tem ingresso à venda aqui."""
+    if not tipos:
+        return []
+    try:
+        with open(os.path.join(RAIZ, "data", "eventos.json"), encoding="utf-8") as f:
+            eventos = json.load(f)["eventos"]
+    except (OSError, ValueError, KeyError):
+        return []
+    nomes = []
+    for ev in eventos:
+        if ev.get("tipo") not in tipos:
+            continue
+        for tm in ev.get("times", []):
+            n = tm["nome"] if isinstance(tm["nome"], str) else tm["nome"].get("en", "")
+            if n:
+                nomes.append(n)
+        if ev.get("artista"):
+            nomes.append(ev["artista"]["nome"])
+        comp = ev.get("competicao", {}).get("nome")
+        if comp:
+            nomes.append(comp if isinstance(comp, str) else comp.get("en", ""))
+    return [n for n in dict.fromkeys(nomes) if len(n) > 2]
+
+
 def ordenar(itens, prefira):
     """Põe na frente os vídeos cujo título tem as palavras da vitrine (melhores momentos, show ao vivo),
     para a faixa não abrir com uma entrevista quando o que se quer é o jogo."""
@@ -50,7 +76,9 @@ def encher(vitrine):
         if len(escolhidos) >= quantos:
             break
         nome, itens = recentes(canal)
-        for it in ordenar(itens, vitrine.get("prefira", [])):
+        # primeiro o que o site vende, depois o tipo de vídeo que a vitrine quer
+        preferencia = nomes_dos_eventos(vitrine.get("tipos", [])) + list(vitrine.get("prefira", []))
+        for it in ordenar(itens, preferencia):
             if len(escolhidos) >= quantos:
                 break
             if any(e["yt"] == it["yt"] for e in escolhidos):

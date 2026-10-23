@@ -440,7 +440,7 @@ function pauseBox(box){
 function muteOthers(except){
   document.querySelectorAll(".yt.sound").forEach(b => { if (b !== except){ b.classList.remove("sound"); if (b.__video) b.__video.muted = true; if (b.__frame) ytCmd(b, "mute"); } });
 }
-const boxes = document.querySelectorAll(".yt[data-yt], .yt[data-mp4]");
+const boxes = document.querySelectorAll(".yt[data-yt]:not([data-noauto]), .yt[data-mp4]:not([data-noauto])");
 if (boxes.length){
   const saveData = navigator.connection && navigator.connection.saveData;
   const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -542,4 +542,23 @@ if (vivo){
     })
     .catch(() => {});
 }
+
+/* ---------- Setas do carrossel de vídeos: rola um "tela cheia" de cartões por clique e some nas pontas ---------- */
+document.querySelectorAll(".vcarr").forEach(carr => {
+  const trilho = carr.querySelector(".vcarr-trilho");
+  const ant = carr.querySelector(".vcarr-ant"), prox = carr.querySelector(".vcarr-prox");
+  if (!trilho || !ant || !prox) return;
+  const passo = () => Math.max(240, trilho.clientWidth * 0.8);
+  const pontas = () => {
+    const fim = trilho.scrollWidth - trilho.clientWidth - 4;
+    ant.hidden = trilho.scrollLeft <= 4;
+    prox.hidden = trilho.scrollLeft >= fim;
+  };
+  ant.addEventListener("click", () => trilho.scrollBy({ left: -passo(), behavior: "smooth" }));
+  prox.addEventListener("click", () => trilho.scrollBy({ left: passo(), behavior: "smooth" }));
+  trilho.addEventListener("scroll", pontas, { passive: true });
+  addEventListener("resize", pontas);
+  pontas();
+});
+
 })();

@@ -852,11 +852,28 @@ def vitrine(id_):
 def cartoes_vitrine(lang, pagina, v):
     vx = C.VIDEOS_TXT[lang]
     vids = [x for x in v.get("videos", []) if re.fullmatch(r"[A-Za-z0-9_-]{11}", x.get("yt", ""))]
-    return vids, "".join(
-        f'<article class="vcard">{facade_video(x, lang, pagina)}<div class="vcard-body">'
-        f'<h3>{e(titulo_video(x, lang))}</h3><p>{credito_video(x)}</p>'
-        f'<div class="vcard-actions">{mag(parceiro(lang, v["dock"]), e(vx["ingressos"]), "btn btn-signal btn-sm")}</div>'
-        f'</div></article>' for x in vids)
+    partes = []
+    for i, x in enumerate(vids):
+        # só o primeiro cartão toca sozinho ao entrar na tela; os outros esperam o toque,
+        # senão um carrossel com oito vídeos abriria oito players de uma vez
+        tela = facade_video(x, lang, pagina)
+        if i:
+            tela = tela.replace('<div class="yt"', '<div class="yt" data-noauto', 1)
+        partes.append(f'<article class="vcard">{tela}<div class="vcard-body">'
+                      f'<h3>{e(titulo_video(x, lang))}</h3><p>{credito_video(x)}</p>'
+                      f'<div class="vcard-actions">{mag(parceiro(lang, v["dock"]), e(vx["ingressos"]), "btn btn-signal btn-sm")}</div>'
+                      f'</div></article>')
+    return vids, "".join(partes)
+
+
+def carrossel(cartoes, lang, rotulo):
+    """Trilho que rola de lado, com setas no computador e deslize no celular. Os vídeos ficam todos
+    no HTML, mas só a miniatura é baixada: o player do YouTube só entra quando alguém toca."""
+    return (f'<div class="vcarr" role="group" aria-label="{e(rotulo)}">'
+            f'<button type="button" class="vcarr-nav vcarr-ant" aria-label="{e(ANTERIOR[lang])}">‹</button>'
+            f'<div class="vgrid vcarr-trilho">{cartoes}</div>'
+            f'<button type="button" class="vcarr-nav vcarr-prox" aria-label="{e(PROXIMO[lang])}">›</button>'
+            f'</div>')
 
 
 def faixa_vitrine(lang, pagina, id_, estilo="", dentro=False):
@@ -875,13 +892,16 @@ def faixa_vitrine(lang, pagina, id_, estilo="", dentro=False):
     cabeca_ = (f'<div class="sec-head"><div><p class="kicker">{e(vx["k"])}</p>'
                f'<h2 id="vit-{e(v["id"])}-h" data-scramble>{e(L(v["titulo"], lang))}</h2></div>'
                f'<p>{e(L(v["sub"], lang))}</p></div>')
+    trilho = carrossel(cartoes, lang, L(v["titulo"], lang)) if len(vids) > 2 else f'<div class="vgrid vgrid-dupla">{cartoes}</div>'
+    dica = f'<p class="swipe-hint">{e(DESLIZE[lang])}</p>' if len(vids) > 2 else ""
     if dentro:
         return (f'<div class="vitrine-dentro" id="vit-{e(v["id"])}" aria-labelledby="vit-{e(v["id"])}-h">'
-                f'{cabeca_}<div class="vgrid vgrid-dupla">{cartoes}</div></div>\n')
+                f'{cabeca_}{dica}{trilho}</div>\n')
     return f"""<section class="band band-vitrine" id="vit-{e(v['id'])}" aria-labelledby="vit-{e(v['id'])}-h"{f' style="{estilo}"' if estilo else ''}>
   <div class="wrap">
     {cabeca_}
-    <div class="vgrid vgrid-dupla">{cartoes}</div>
+    {dica}
+    {trilho}
   </div>
 </section>
 """
@@ -909,18 +929,19 @@ def faixa_aovivo(lang, pagina, slug=""):
             f'</section>\n')
 
 
-def faixa_videos_home(lang, pagina, eventos, n=3):
+def faixa_videos_home(lang, pagina, eventos, n=8):
     """Faixa 'Em vídeo' da página inicial: os últimos vídeos, com o botão de ingressos/reserva e o link para todos."""
     vs = todos_videos(eventos)[:n]
     if not vs:
         return ""
     vx = C.VIDEOS_TXT[lang]
-    cards = "".join(cartao_video(v, lang, pagina, eventos) for v in vs)
+    cards = "".join((c if i == 0 else c.replace('<div class="yt"', '<div class="yt" data-noauto', 1))
+                    for i, c in enumerate(cartao_video(v, lang, pagina, eventos) for v in vs))
     return f"""<section class="band" id="videos" aria-labelledby="vh-h">
   <div class="wrap">
     <div class="sec-head"><div><p class="kicker">{e(vx['k'])}</p><h2 id="vh-h" data-scramble>{e(vx['h'])}</h2></div><a class="btn btn-ghost btn-sm" href="{rel(pagina, vx['path'])}">{e(vx['todos'])} →</a></div>
     <p class="swipe-hint">{e(DESLIZE[lang])}</p>
-    <div class="vgrid vgrid-swipe">{cards}</div>
+    {carrossel(cards, lang, vx['h']) if len(vs) > 3 else f'<div class="vgrid vgrid-swipe">{cards}</div>'}
   </div>
 </section>"""
 
@@ -1163,6 +1184,8 @@ def topo(lang, pagina, alternos):
 
 
 DESLIZE = {"pt": "Deslize para ver mais", "en": "Swipe to see more", "es": "Desliza para ver más"}
+ANTERIOR = {"pt": "Ver anteriores", "en": "See previous", "es": "Ver anteriores"}
+PROXIMO = {"pt": "Ver mais", "en": "See more", "es": "Ver más"}
 VOLTAR = {"pt": ("Voltar", "Página inicial"), "en": ("Back", "Home"), "es": ("Volver", "Inicio")}
 
 
