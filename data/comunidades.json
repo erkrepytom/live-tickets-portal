@@ -24,7 +24,7 @@
   {
    "id": "futebol",
    "rede": "telegram",
-   "link": "",
+   "link": "https://t.me/+b1u4ujs-mQpjZDgx",
    "nome": {
     "pt": "Futebol",
     "en": "Football",
@@ -34,12 +34,13 @@
     "pt": "Jogos, lances e ingressos",
     "en": "Matches, highlights and tickets",
     "es": "Partidos, jugadas y entradas"
-   }
+   },
+   "grupo_no_telegram": "Replay.⚽"
   },
   {
    "id": "basquete",
    "rede": "telegram",
-   "link": "",
+   "link": "https://t.me/+rEB1mDsVRpQwMjQx",
    "nome": {
     "pt": "Basquete",
     "en": "Basketball",
@@ -49,12 +50,13 @@
     "pt": "NBA e os jogos da temporada",
     "en": "NBA and the season's games",
     "es": "NBA y los partidos de la temporada"
-   }
+   },
+   "grupo_no_telegram": "Replay.🏀"
   },
   {
    "id": "beisebol",
    "rede": "telegram",
-   "link": "",
+   "link": "https://t.me/+9iz7SCyt_1dlYzlh",
    "nome": {
     "pt": "Beisebol",
     "en": "Baseball",
@@ -64,12 +66,13 @@
     "pt": "MLB, playoffs e World Series",
     "en": "MLB, playoffs and the World Series",
     "es": "MLB, playoffs y Serie Mundial"
-   }
+   },
+   "grupo_no_telegram": "Replay.🏈"
   },
   {
    "id": "sports",
    "rede": "telegram",
-   "link": "",
+   "link": "https://t.me/+RHqKT_jo2vRlYWMx",
    "nome": {
     "pt": "Sports",
     "en": "Sports",
@@ -79,7 +82,8 @@
     "pt": "Tudo junto: esporte, shows e viagem",
     "en": "All together: sport, concerts and travel",
     "es": "Todo junto: deporte, conciertos y viaje"
-   }
+   },
+   "grupo_no_telegram": "Replay.Sports"
   }
  ]
 }
