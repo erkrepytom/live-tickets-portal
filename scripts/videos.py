@@ -96,13 +96,28 @@ def casar_evento(titulo, descricao, eventos):
     return melhor["slug"] if melhor and nota >= 2 else ""
 
 
-def ler_feed(canal_id=None):
-    url = FEED if not canal_id else f"https://www.youtube.com/feeds/videos.xml?channel_id={canal_id}"
+def _baixar_feed(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (mytickets.tours videos bot)"})
     with urllib.request.urlopen(req, timeout=30) as r:
-        raiz = ET.fromstring(r.read())
+        return r.read()
+
+
+def ler_feed(canal_id=None):
+    if not canal_id:
+        dados = _baixar_feed(FEED)
+    else:
+        try:
+            dados = _baixar_feed(f"https://www.youtube.com/feeds/videos.xml?channel_id={canal_id}")
+        except urllib.error.HTTPError as exc:
+            # Alguns canais não servem o feed por channel_id; o da playlist de uploads (UC... → UU...) responde.
+            if exc.code != 404:
+                raise
+            dados = _baixar_feed(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UU{canal_id[2:]}")
+    raiz = ET.fromstring(dados)
     if canal_id:  # guarda o nome do canal para o chamador conferir de quem é o feed
-        TITULO_CANAL[canal_id] = (raiz.findtext("a:title", default="", namespaces=NS) or "").strip()
+        autor = raiz.find("a:author/a:name", NS)
+        TITULO_CANAL[canal_id] = ((autor.text if autor is not None and autor.text else "")
+                                  or (raiz.findtext("a:title", default="", namespaces=NS) or "")).strip()
     itens = []
     for en in raiz.findall("a:entry", NS):
         vid = en.findtext("yt:videoId", default="", namespaces=NS)
