@@ -136,8 +136,8 @@ p{margin:0}
 
 /* Explorar */
 .explore{display:grid;gap:40px}
-.tiles-photo{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
-.ptile{position:relative;aspect-ratio:4/3;border-radius:14px;overflow:hidden;text-decoration:none;color:#fff;display:flex;align-items:flex-end;padding:14px;isolation:isolate}
+.tiles-photo{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.ptile{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;text-decoration:none;color:#fff;display:flex;align-items:flex-end;padding:14px;isolation:isolate}
 .ptile::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(11,23,38,.85),rgba(11,23,38,.1) 60%)}
 .ptile .photo{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
 .ptile:hover .photo{transform:scale(1.06)}
