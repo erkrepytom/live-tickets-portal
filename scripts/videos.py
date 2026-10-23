@@ -13,11 +13,13 @@ Como cada vídeo novo é preenchido:
 
 O script nunca apaga nem reescreve o que já está no JSON: só acrescenta IDs novos e reordena por data.
 """
+import datetime
 import json
 import os
 import re
 import sys
 import unicodedata
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -102,6 +104,86 @@ def _baixar_feed(url):
         return r.read()
 
 
+def _json_depois(html, marca):
+    """Pega o objeto JSON que vem depois de uma marca no HTML, contando as chaves."""
+    i = html.find(marca)
+    if i < 0:
+        return None
+    i = html.find("{", i)
+    if i < 0:
+        return None
+    nivel, dentro, escapa = 0, False, False
+    for j in range(i, len(html)):
+        c = html[j]
+        if escapa:
+            escapa = False
+            continue
+        if c == "\\" and dentro:
+            escapa = True
+        elif c == '"':
+            dentro = not dentro
+        elif not dentro and c == "{":
+            nivel += 1
+        elif not dentro and c == "}":
+            nivel -= 1
+            if nivel == 0:
+                try:
+                    return json.loads(html[i:j + 1])
+                except Exception:
+                    return None
+    return None
+
+
+def _colher_videos(no, achados, vistos):
+    """Anda pelo ytInitialData juntando (videoId, título, 'há 3 dias')."""
+    if isinstance(no, dict):
+        vid = no.get("videoId")
+        tit = no.get("title")
+        if isinstance(vid, str) and re.fullmatch(r"[A-Za-z0-9_-]{11}", vid) and isinstance(tit, dict) and vid not in vistos:
+            texto = tit.get("simpleText") or "".join(r.get("text", "") for r in tit.get("runs", []) if isinstance(r, dict))
+            if texto.strip():
+                quando = (no.get("publishedTimeText") or {}).get("simpleText", "") if isinstance(no.get("publishedTimeText"), dict) else ""
+                vistos.add(vid)
+                achados.append({"yt": vid, "titulo": texto.strip(), "quando": quando})
+        for v in no.values():
+            _colher_videos(v, achados, vistos)
+    elif isinstance(no, list):
+        for v in no:
+            _colher_videos(v, achados, vistos)
+
+
+def _data_aproximada(quando):
+    """"há 3 dias" / "3 days ago" → data aproximada, só para ordenar a faixa."""
+    m = re.search(r"(\d+)\s*(hora|hour|dia|day|semana|week|m[eê]s|month|ano|year)", quando or "", re.I)
+    hoje = datetime.date.today()
+    if not m:
+        return hoje.isoformat()
+    n, u = int(m.group(1)), m.group(2).lower()
+    dias = {"hora": 0, "hour": 0, "dia": 1, "day": 1, "semana": 7, "week": 7}.get(u, 30 if u.startswith(("m", "mê")) else 365)
+    return (hoje - datetime.timedelta(days=n * dias)).isoformat()
+
+
+def videos_da_pagina(canal_id):
+    """Plano C: alguns canais não servem feed RSS (a CazéTV é um deles). Aí os vídeos recentes
+    saem da própria aba /videos do canal, lendo o ytInitialData da página."""
+    req = urllib.request.Request(f"https://www.youtube.com/channel/{canal_id}/videos",
+                                 headers={"User-Agent": UA, "Accept-Language": "pt-BR,pt;q=0.9"})
+    with urllib.request.urlopen(req, timeout=25) as r:
+        html = r.read().decode("utf-8", "replace")
+    dados = _json_depois(html, "ytInitialData")
+    if dados is None:
+        return "", []
+    achados, vistos = [], set()
+    _colher_videos(dados, achados, vistos)
+    nome = ""
+    meta = re.search(r'<meta property="og:title" content="([^"]{1,80})"', html)
+    if meta:
+        nome = meta.group(1)
+    itens = [{"yt": a["yt"], "titulo": a["titulo"], "publicado": _data_aproximada(a["quando"]), "descricao": ""}
+             for a in achados[:30]]
+    return nome, itens
+
+
 def ler_feed(canal_id=None):
     if not canal_id:
         dados = _baixar_feed(FEED)
@@ -112,7 +194,15 @@ def ler_feed(canal_id=None):
             # Alguns canais não servem o feed por channel_id; o da playlist de uploads (UC... → UU...) responde.
             if exc.code != 404:
                 raise
-            dados = _baixar_feed(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UU{canal_id[2:]}")
+            try:
+                dados = _baixar_feed(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UU{canal_id[2:]}")
+            except urllib.error.HTTPError as exc2:
+                if exc2.code != 404:
+                    raise
+                nome, itens = videos_da_pagina(canal_id)   # plano C: a aba /videos do canal
+                if nome:
+                    TITULO_CANAL[canal_id] = nome
+                return itens
     raiz = ET.fromstring(dados)
     if canal_id:  # guarda o nome do canal para o chamador conferir de quem é o feed
         autor = raiz.find("a:author/a:name", NS)
