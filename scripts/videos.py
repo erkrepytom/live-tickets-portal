@@ -34,6 +34,9 @@ PALAVRAS = {
 }
 
 
+TITULO_CANAL = {}
+
+
 def norm(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9 ]+", " ", s)
@@ -65,6 +68,18 @@ def nomes_evento(ev):
     return {n.strip() for n in nomes if len(n.strip()) >= 3}
 
 
+def nota_evento(titulo, descricao, ev):
+    """Quanto o título/descrição falam deste evento (mesmos pesos de casar_evento)."""
+    texto = " " + norm(titulo + " " + descricao[:300]) + " "
+    n = 0
+    for nome in nomes_evento(ev):
+        if f" {nome} " in texto:
+            n += 3 if len(nome) > 8 else 2
+    if ev["data"][:4] in titulo:
+        n += 1
+    return n
+
+
 def casar_evento(titulo, descricao, eventos):
     texto = " " + norm(titulo + " " + descricao[:300]) + " "
     melhor, nota = None, 0
@@ -81,10 +96,13 @@ def casar_evento(titulo, descricao, eventos):
     return melhor["slug"] if melhor and nota >= 2 else ""
 
 
-def ler_feed():
-    req = urllib.request.Request(FEED, headers={"User-Agent": "Mozilla/5.0 (mytickets.tours videos bot)"})
+def ler_feed(canal_id=None):
+    url = FEED if not canal_id else f"https://www.youtube.com/feeds/videos.xml?channel_id={canal_id}"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (mytickets.tours videos bot)"})
     with urllib.request.urlopen(req, timeout=30) as r:
         raiz = ET.fromstring(r.read())
+    if canal_id:  # guarda o nome do canal para o chamador conferir de quem é o feed
+        TITULO_CANAL[canal_id] = (raiz.findtext("a:title", default="", namespaces=NS) or "").strip()
     itens = []
     for en in raiz.findall("a:entry", NS):
         vid = en.findtext("yt:videoId", default="", namespaces=NS)
@@ -122,8 +140,9 @@ def permite_embed(yt):
 
 
 def revisar_embeds(dados):
-    """Desativa os vídeos que o dono do canal bloqueou para exibição fora do YouTube."""
-    mudou = 0
+    """Desativa os vídeos que o dono do canal bloqueou para exibição fora do YouTube.
+    Devolve a lista dos que saíram do ar, para o canal de reserva repor o jogo."""
+    mudou = []
     for v in dados.get("videos", []):
         if not v.get("ativo", True):
             continue
@@ -132,8 +151,67 @@ def revisar_embeds(dados):
             v["ativo"] = False
             v["nota_embed"] = "O canal bloqueia a exibição fora do YouTube; desativado automaticamente."
             print(f"- {v['yt']} ({v.get('canal','?')}): bloqueado para embed, desativado.")
-            mudou += 1
+            mudou.append(v)
     return mudou
+
+
+def repor_bloqueados(dados, eventos, desativados):
+    """Quando o canal da liga bloqueia a exibição fora do YouTube, procura o mesmo jogo
+    nos canais de reserva de data/videos.json (campo canais_reserva) — emissoras e canais
+    que transmitem a competição com direitos, não recortes de terceiros.
+
+    Só entra vídeo que (1) fala do mesmo evento, (2) é do canal de reserva e (3) permite embed.
+    """
+    reservas = dados.get("canais_reserva", [])
+    if not reservas or not desativados:
+        return 0
+    por_slug = {ev["slug"]: ev for ev in eventos}
+    ja = {v["yt"] for v in dados.get("videos", [])}
+    ativos = {v.get("evento") for v in dados.get("videos", []) if v.get("ativo", True)}
+    postos = 0
+    for v in desativados:
+        slug = v.get("evento")
+        ev = por_slug.get(slug)
+        if not ev or slug in ativos:   # o evento já tem outro vídeo no ar
+            continue
+        for r in reservas:
+            cid = r.get("channel_id", "")
+            if not re.fullmatch(r"UC[A-Za-z0-9_-]{22}", cid):
+                print(f"  ! canal de reserva sem channel_id válido: {r.get('canal','?')}")
+                continue
+            try:
+                itens = ler_feed(cid)
+            except Exception as exc:
+                print(f"  ! feed do canal de reserva {r.get('canal','?')} indisponível: {exc}")
+                continue
+            nome_feed = TITULO_CANAL.get(cid, "")
+            if nome_feed and norm(r.get("canal", "")).strip() not in norm(nome_feed):
+                print(f"  ! o channel_id de {r.get('canal','?')} aponta para \"{nome_feed}\"; "
+                      f"confira o ID em data/videos.json. Nada foi reposto por ele.")
+                continue
+            candidatos = sorted(((nota_evento(i["titulo"], i["descricao"], ev), i) for i in itens),
+                                key=lambda x: x[0], reverse=True)
+            for nota, it in candidatos:
+                if nota < 2 or it["yt"] in ja:
+                    continue
+                if permite_embed(it["yt"]) is not True:
+                    continue
+                novo = {"yt": it["yt"], "titulo": it["titulo"], "canal": r.get("canal", ""),
+                        "idioma": r.get("idioma") or idioma(it["titulo"], it["descricao"]),
+                        "publicado": it["publicado"], "evento": slug,
+                        "cta": {"tipo": "evento"}, "ativo": True,
+                        "nota_embed": f"Entrou no lugar de {v['yt']} ({v.get('canal','?')}), que bloqueia a exibição fora do YouTube."}
+                if it["descricao"]:
+                    novo["descricao"] = it["descricao"][:300]
+                dados["videos"].append(novo)
+                ja.add(it["yt"])
+                ativos.add(slug)
+                postos += 1
+                print(f"+ {it['yt']} ({novo['canal']}) repõe {v['yt']} em {slug}")
+                break
+            if slug in ativos:
+                break
+    return postos
 
 
 def main():
@@ -160,14 +238,21 @@ def main():
         dados.setdefault("videos", []).append(v)
         novos += 1
         print(f"+ {it['yt']} [{v['idioma']}] {it['titulo'][:60]} → {slug or '(sem evento)'}")
-    bloqueados = revisar_embeds(dados)
-    if novos or bloqueados:
+    desativados = revisar_embeds(dados)
+    bloqueados = len(desativados)
+    # os que já estavam desativados por bloqueio também entram na fila: se o evento ficou sem vídeo,
+    # o canal de reserva repõe o jogo na próxima rodada.
+    antigos = [v for v in dados.get("videos", [])
+               if not v.get("ativo", True) and "bloquei" in v.get("nota_embed", "").lower()
+               and v not in desativados]
+    repostos = repor_bloqueados(dados, eventos, desativados + antigos)
+    if novos or bloqueados or repostos:
         dados["videos"].sort(key=lambda v: v.get("publicado", ""), reverse=True)
         with open(arq, "w", encoding="utf-8") as f:
             json.dump(dados, f, ensure_ascii=False, indent=1)
             f.write("\n")
     print(f"{novos} vídeo(s) novo(s); {bloqueados} desativado(s) por bloqueio de embed; "
-          f"{len(dados.get('videos', []))} no total.")
+          f"{repostos} reposto(s) por canal de reserva; {len(dados.get('videos', []))} no total.")
     return 0
 
 
