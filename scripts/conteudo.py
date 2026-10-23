@@ -781,6 +781,23 @@ VIDEOS_TXT = {
 }
 
 
+# ---------- Cartões de próximo evento nos vãos da home ----------
+PROMO_TXT = {
+ "pt": {"k": "Próximo jogo", "k_show": "Próximo show", "ingressos": "Ver ingressos", "guia": "Ver guia",
+        "tours": "Passeios em {cidade}", "plan_k": "Planeje a viagem",
+        "plan_h": "Quem vai ao jogo também precisa dormir, chegar e passear",
+        "plan_sub": "As datas de {t} já entram na busca.", "hotel": "Hotel em {cidade}", "transporte": "Como chegar"},
+ "en": {"k": "Next match", "k_show": "Next concert", "ingressos": "See tickets", "guia": "See guide",
+        "tours": "Things to do in {cidade}", "plan_k": "Plan the trip",
+        "plan_h": "Whoever goes to the game also has to sleep, arrive and explore",
+        "plan_sub": "The dates of {t} are already in the search.", "hotel": "Hotel in {cidade}", "transporte": "Getting there"},
+ "es": {"k": "Próximo partido", "k_show": "Próximo concierto", "ingressos": "Ver entradas", "guia": "Ver guía",
+        "tours": "Planes en {cidade}", "plan_k": "Planifica el viaje",
+        "plan_h": "Quien va al partido también necesita dormir, llegar y pasear",
+        "plan_sub": "Las fechas de {t} ya entran en la búsqueda.", "hotel": "Hotel en {cidade}", "transporte": "Cómo llegar"},
+}
+
+
 # ---------- Faixa AO VIVO (scripts/aovivo.py escreve data/aovivo.json; a faixa só existe em português) ----------
 AOVIVO_TXT = {
  "pt": {"k": "Ao vivo agora", "h": "Assista enquanto a bola rola",

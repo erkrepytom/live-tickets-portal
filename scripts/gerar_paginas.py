@@ -881,7 +881,18 @@ def carrossel(cartoes, lang, rotulo):
             f'</div>')
 
 
-def faixa_vitrine(lang, pagina, id_, estilo="", dentro=False):
+def promo_da_vitrine(lang, pagina, id_, eventos):
+    """NBA e beisebol levam o cartão do próximo evento nos Estados Unidos; no beisebol o passeio
+    vem primeiro, porque o jogo já aparece ao lado, na faixa da NBA."""
+    if id_ not in ("nba", "beisebol"):
+        return ""
+    ev = proximo_evento(eventos, tipos=("nba",)) if id_ == "nba" else proximo_evento(eventos, paises=("USA",))
+    if not ev:
+        return ""
+    return promo_evento(lang, pagina, ev, rota_evento(ev), tours=True, tours_primeiro=(id_ == "beisebol"))
+
+
+def faixa_vitrine(lang, pagina, id_, estilo="", dentro=False, eventos=()):
     """Os vídeos recentes do canal oficial daquela vitrine, com crédito e o botão de ingressos do
     catálogo do parceiro. Some sozinha quando o robô não acha vídeo que permita exibição.
 
@@ -900,17 +911,111 @@ def faixa_vitrine(lang, pagina, id_, estilo="", dentro=False):
                f'<p>{e(L(v["sub"], lang))}</p></div>')
     trilho = carrossel(cartoes, lang, L(v["titulo"], lang)) if len(vids) > 2 else f'<div class="vgrid vgrid-dupla">{cartoes}</div>'
     dica = f'<p class="swipe-hint">{e(DESLIZE[lang])}</p>' if len(vids) > 2 else ""
+    promo = promo_da_vitrine(lang, pagina, v["id"], eventos)
     if dentro:
         return (f'<div class="vitrine-dentro" id="vit-{e(v["id"])}" aria-labelledby="vit-{e(v["id"])}-h">'
-                f'{cabeca_}{dica}{trilho}</div>\n')
+                f'{promo}{cabeca_}{dica}{trilho}</div>\n')
     return f"""<section class="band band-vitrine" id="vit-{e(v['id'])}" aria-labelledby="vit-{e(v['id'])}-h"{f' style="{estilo}"' if estilo else ''}>
   <div class="wrap">
+    {promo}
     {cabeca_}
     {dica}
     {trilho}
   </div>
 </section>
 """
+
+
+IATA = {"Barcelona": "BCN", "Milan": "MXP", "Paris": "CDG", "Madrid": "MAD", "New York": "JFK",
+        "Melbourne": "MEL", "Abu Dhabi": "AUH", "London": "LHR", "Rome": "FCO"}
+
+
+def rota_evento(ev, origem="GRU"):
+    """Rota do cartão de embarque: do Brasil para o aeroporto da cidade do evento."""
+    return f"{origem} → {IATA.get(L(ev['cidade'], 'en'), L(ev['cidade'], 'en')[:3].upper())}"
+
+
+def proximo_evento(eventos, tipos=None, paises=None):
+    """O evento mais próximo que atende ao filtro, para os cartões dos vãos da home."""
+    hoje = dt.date.today().isoformat()
+    for ev in sorted(eventos, key=lambda x: x["data"]):
+        if ev["data"] < hoje:
+            continue
+        if tipos and ev.get("tipo") not in tipos:
+            continue
+        if paises and L(ev["pais"], "en") not in paises:
+            continue
+        return ev
+    return None
+
+
+def link_tours(lang, pagina, ev):
+    """Link de passeios na cidade do evento: passa pelo /go/ quando há código de afiliado."""
+    destino = destino_viagem("getyourguide", lang, ev)
+    if not destino:
+        return ""
+    px = C.PROMO_TXT[lang]
+    rotulo = px["tours"].format(cidade=L(ev["cidade"], lang))
+    if viagem_afiliado("getyourguide"):
+        href = rel(pagina, caminho_go("getyourguide", lang, ev))
+    else:
+        href = destino
+    return (f'<a class="btn btn-ghost btn-sm" data-magnetic href="{e(href)}" target="_blank" '
+            f'rel="sponsored nofollow noopener" data-partner="getyourguide" data-kind="travel">{e(rotulo)}</a>')
+
+
+def promo_evento(lang, pagina, ev, rota, tours=False, tours_primeiro=False):
+    """Cartão de embarque do próximo evento, no vão acima do título da faixa de vídeos.
+    Mesmo desenho dos cartões do topo da página: nada de imagem nova, só CSS."""
+    if not ev:
+        return ""
+    px, t = C.PROMO_TXT[lang], T[lang]
+    kicker = px["k_show"] if ev.get("tipo") == "concert" else px["k"]
+    ingressos = mag(rel(pagina, caminho_go("se365", lang, ev)), e(px["ingressos"]), "btn btn-signal btn-sm")
+    tour = link_tours(lang, pagina, ev) if tours else ""
+    botoes = (tour + ingressos) if tours_primeiro else (ingressos + tour)
+    return f"""<div class="promo-linha">
+  <a class="pass pass-promo" href="{rel(pagina, caminho_evento(lang, ev['slug']))}" tabindex="-1" aria-hidden="true">
+    <span class="pass-top"><span>{e(rota[:3])}</span><span>{t['gate']} {ev['data'][-2:]}</span></span>
+    <span class="pass-body"><span class="pass-route">{e(rota)}</span><span class="pass-venue">{e(ev['local'])} · {e(L(ev['cidade'], lang))}</span></span>
+    <span class="pass-stub"><span>{e(data_curta(ev['data'], lang))}</span><span class="bars"></span></span>
+  </a>
+  <div class="promo-txt">
+    <p class="kicker">{e(kicker)}</p>
+    <h3>{e(L(ev['titulo'], lang))}</h3>
+    <p>{e(data_longa(ev['data'], lang))} · {e(ev['local'])}, {e(L(ev['cidade'], lang))}</p>
+    <div class="vcard-actions">{botoes}</div>
+  </div>
+</div>
+"""
+
+
+def bloco_viagem_home(lang, pagina, eventos):
+    """'Planeje a viagem' no espaço vazio ao lado das fileiras de nomes: hotel, transporte e passeios
+    do próximo evento, com as datas dele já na busca."""
+    ev = proximo_evento(eventos)
+    if not ev:
+        return ""
+    px = C.PROMO_TXT[lang]
+    cidade = L(ev["cidade"], lang)
+    itens = []
+    for pk, rotulo in (("booking", px["hotel"].format(cidade=cidade)), ("omio", px["transporte"]),
+                       ("getyourguide", px["tours"].format(cidade=cidade))):
+        destino = destino_viagem(pk, lang, ev)
+        if not destino:
+            continue
+        if viagem_afiliado(pk):
+            href, extra = rel(pagina, caminho_go(pk, lang, ev)), f' rel="sponsored nofollow noopener" data-partner="{pk}"'
+        else:
+            href, extra = destino, ' rel="nofollow noopener"'
+        itens.append(f'<li><a href="{e(href)}" target="_blank"{extra} data-kind="travel">'
+                     f'<strong>{e(C.VIAGEM[pk]["nome"])}</strong><span>{e(rotulo)}</span></a></li>')
+    if not itens:
+        return ""
+    return (f'<aside class="plan-card" aria-labelledby="plan-h">'
+            f'<p class="kicker">{e(px["plan_k"])}</p><h3 id="plan-h">{e(px["plan_h"])}</h3>'
+            f'<p class="plan-sub">{e(px["plan_sub"].format(t=L(ev["titulo"], lang)))}</p>'
+            f'<ul class="plan-list">{"".join(itens)}</ul></aside>')
 
 
 def faixa_aovivo(lang, pagina, slug=""):
@@ -943,8 +1048,11 @@ def faixa_videos_home(lang, pagina, eventos, n=8):
         return ""
     vx = C.VIDEOS_TXT[lang]
     cards = "".join(cartao_video(v, lang, pagina, eventos) for v in vs)
+    ev_promo = proximo_evento(eventos, tipos=("football",))
+    promo = promo_evento(lang, pagina, ev_promo, rota_evento(ev_promo), tours=True) if ev_promo else ""
     return f"""<section class="band" id="videos" aria-labelledby="vh-h">
   <div class="wrap">
+    {promo}
     <div class="sec-head"><div><p class="kicker">{e(vx['k'])}</p><h2 id="vh-h" data-scramble>{e(vx['h'])}</h2></div>{bola3d('futebol')}<a class="btn btn-ghost btn-sm" href="{rel(pagina, vx['path'])}">{e(vx['todos'])} →</a></div>
     <p class="swipe-hint">{e(DESLIZE[lang])}</p>
     {carrossel(cards, lang, vx['h']) if len(vs) > 3 else f'<div class="vgrid vgrid-swipe">{cards}</div>'}
@@ -1387,17 +1495,22 @@ def home(lang, eventos, noticias, hubs):
   </div>
 </section>
 
-{faixa_vitrine(lang, pagina, "nba", "padding-top:0")}
+{faixa_vitrine(lang, pagina, "nba", "padding-top:0", eventos=eventos)}
 <section class="band" id="explorar" aria-labelledby="exp-h" style="padding-top:0">
   <div class="wrap explore">
     <div class="sec-head" style="margin:0"><div><p class="kicker">{e(t['exp_kicker'])}</p><h2 id="exp-h" data-scramble>{e(t['exp_h'])}</h2></div><p>{e(t['exp_sub'])}</p></div>
     <div class="tiles-photo">{tiles}</div>
     {guias}
-    {faixa_vitrine(lang, pagina, "beisebol", dentro=True)}
+    {faixa_vitrine(lang, pagina, "beisebol", dentro=True, eventos=eventos)}
+    <div class="chips-zona">
+    <div class="chips-cols">
     <div class="chips-group"><h3>{e(t['g_comp'])}</h3><div class="chips">{chips(COMPETICOES, '/dock/competition/')}</div></div>
     <div class="chips-group"><h3>{e(t['g_teams'])}</h3><div class="chips">{chips(TIMES, '/dock/team/')}</div></div>
     <div class="chips-group"><h3>{e(t['g_cities'])}</h3><div class="chips">{chips(CIDADES, '/dock/cities/')}</div></div>
     <div class="chips-group"><h3>{e(t['g_music'])}</h3><div class="chips">{chips(ARTISTAS, '/dock/music/')}</div></div>
+    </div>
+    {bloco_viagem_home(lang, pagina, eventos)}
+    </div>
   </div>
 </section>
 
@@ -1418,7 +1531,7 @@ def home(lang, eventos, noticias, hubs):
 function go(i){{if(i>=s.length)return;var x=document.createElement("script");x.src=s[i];x.onload=function(){{go(i+1)}};document.body.appendChild(x)}}
 if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new IntersectionObserver(function(es){{for(var k=0;k<es.length;k++)if(es[k].isIntersecting){{io.disconnect();go(0);return}}}},{{rootMargin:"1500px 0px"}});io.observe(b)}})();</script>
 
-{faixa_vitrine(lang, pagina, "shows")}
+{faixa_vitrine(lang, pagina, "shows", eventos=eventos)}
 <section class="sv" id="video" aria-labelledby="sv-h">
   <div class="sv-stick">
     <div class="wrap">
