@@ -39,7 +39,10 @@ PAISES = {
     "US": {"nome": {"pt": "Estados Unidos", "en": "United States", "es": "Estados Unidos"}, "feeds": [
         ("CBS Sports", "https://www.cbssports.com/rss/headlines/"),
         ("Yahoo Sports", "https://sports.yahoo.com/rss/"),
-        ("ESPN", "https://www.espn.com/espn/rss/news")]},
+        ("ESPN", "https://www.espn.com/espn/rss/news"),
+        ("ESPN NBA", "https://www.espn.com/espn/rss/nba/news"),
+        ("ESPN MLB", "https://www.espn.com/espn/rss/mlb/news"),
+        ("NBA", "https://www.nba.com/rss/nba_rss.xml")]},
     "PT": {"nome": {"pt": "Portugal", "en": "Portugal", "es": "Portugal"}, "feeds": [
         ("Record", "https://www.record.pt/rss"),
         ("A Bola", "https://www.abola.pt/rss-articles.xml")]},
