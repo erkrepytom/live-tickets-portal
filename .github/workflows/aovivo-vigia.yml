@@ -1,0 +1,27 @@
+name: Vigia da faixa AO VIVO
+# Uma rodada por hora que fica olhando por dentro, de 3 em 3 minutos, enquanto houver jogo na janela.
+# Existe porque o agendamento de poucos minutos do GitHub atrasa ou simplesmente não dispara; assim a
+# faixa acompanha o jogo mesmo quando o cron de 10 minutos falha. Sem evento pela frente, encerra na hora.
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: aovivo
+  cancel-in-progress: false
+jobs:
+  vigia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Vigiar as transmissões e publicar a cada mudança
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/aovivo.py --vigiar 52

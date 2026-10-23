@@ -16,7 +16,9 @@ import datetime
 import json
 import os
 import re
+import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 
@@ -211,20 +213,14 @@ def diagnostico(dados_videos):
     return 0
 
 
-def main():
-    agora = datetime.datetime.now(datetime.timezone.utc)
+def rodada(agora, eventos, dados_videos):
+    """Uma passada: procura, grava data/aovivo.json e diz se a lista mudou."""
     arq = os.path.join(RAIZ, "data", "aovivo.json")
     try:
         with open(arq, encoding="utf-8") as f:
             antigo = json.load(f)
     except (OSError, ValueError):
         antigo = {}
-    with open(os.path.join(RAIZ, "data", "eventos.json"), encoding="utf-8") as f:
-        eventos = json.load(f)["eventos"]
-    with open(os.path.join(RAIZ, "data", "videos.json"), encoding="utf-8") as f:
-        dados_videos = json.load(f)
-    if "--agora" in sys.argv:
-        return diagnostico(dados_videos)
 
     na_janela = eventos_na_janela(eventos, agora)
     if not na_janela:
@@ -254,6 +250,69 @@ def main():
         print(f"data/aovivo.json atualizado: {len(achados)} transmissão(ões).")
     else:
         print(f"Sem mudança ({len(achados)} transmissão(ões)); arquivo mantido.")
+    return mudou
+
+
+def _git(*args, falha_ok=False):
+    r = subprocess.run(("git",) + args, cwd=RAIZ, capture_output=True, text=True)
+    saida = (r.stdout + r.stderr).strip()
+    if saida:
+        print(f"  git {' '.join(args)}: {saida[:300]}")
+    if r.returncode and not falha_ok:
+        raise RuntimeError(f"git {' '.join(args)} falhou")
+    return r.returncode
+
+
+def publicar():
+    """Dentro do vigia: manda a mudança para o repositório e pede o deploy, sem esperar a rodada acabar."""
+    _git("config", "user.name", "aovivo-bot")
+    _git("config", "user.email", "actions@users.noreply.github.com")
+    _git("add", "data/aovivo.json")
+    if _git("diff", "--cached", "--quiet", falha_ok=True) == 0:
+        return
+    _git("commit", "-m", "Faixa AO VIVO: atualiza as transmissões no ar")
+    _git("pull", "--rebase", "-q", falha_ok=True)
+    if _git("push", "-q", falha_ok=True):
+        print("  ! não deu para enviar agora; a próxima volta tenta de novo.")
+        return
+    r = subprocess.run(["gh", "workflow", "run", "pages.yml"], cwd=RAIZ, capture_output=True, text=True)
+    print(f"  deploy pedido: {(r.stdout + r.stderr).strip()[:200]}")
+
+
+def vigiar(minutos, eventos, dados_videos):
+    """O agendamento do GitHub engasga em frequência alta, então uma rodada por hora fica aqui dentro
+    olhando de 3 em 3 minutos: a faixa acompanha o jogo mesmo quando o cron de 10 minutos atrasa."""
+    fim = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=minutos)
+    while True:
+        agora = datetime.datetime.now(datetime.timezone.utc)
+        if rodada(agora, eventos, dados_videos):
+            publicar()
+        sobra = (fim - datetime.datetime.now(datetime.timezone.utc)).total_seconds()
+        if sobra < 180:
+            break
+        # sem jogo nenhum pela frente nesta hora, não vale segurar o runner
+        proximos = [ev for ev in eventos
+                    if quando_do_evento(ev) - ANTES <= fim and agora <= quando_do_evento(ev) + DEPOIS]
+        if not proximos:
+            print("Nada por vir nesta hora; o vigia encerra.")
+            break
+        time.sleep(min(180, sobra))
+    return 0
+
+
+def main():
+    agora = datetime.datetime.now(datetime.timezone.utc)
+    with open(os.path.join(RAIZ, "data", "eventos.json"), encoding="utf-8") as f:
+        eventos = json.load(f)["eventos"]
+    with open(os.path.join(RAIZ, "data", "videos.json"), encoding="utf-8") as f:
+        dados_videos = json.load(f)
+    if "--agora" in sys.argv:
+        return diagnostico(dados_videos)
+    if "--vigiar" in sys.argv:
+        i = sys.argv.index("--vigiar")
+        minutos = int(sys.argv[i + 1]) if len(sys.argv) > i + 1 else 55
+        return vigiar(minutos, eventos, dados_videos)
+    rodada(agora, eventos, dados_videos)
     return 0
 
 
