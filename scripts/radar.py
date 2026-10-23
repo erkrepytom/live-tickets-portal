@@ -43,6 +43,7 @@ _CONTATO = _contato()
 WHATSAPP = (os.environ.get("WHATSAPP_CONTATO") or _CONTATO.get("whatsapp", "")).strip()
 DIAS = 30
 LIMITE_FILA = 40
+LIMITE_GOOGLE = 60   # a cota grátis da busca do Google é de 100 consultas por dia; sobra folga para um teste à mão
 
 # Palavras que separam "quem está comprando" de "quem está só comentando o jogo".
 INTENCAO = {
@@ -511,9 +512,17 @@ def main():
         eventos = json.load(f)["eventos"]
 
     vistos, itens, falhas = set(), [], []
+    gastas = {"google": 0}
+    # o evento mais próximo primeiro: é onde a procura está acontecendo agora
+    hoje = datetime.date.today().isoformat()
+    eventos = sorted(eventos, key=lambda e: abs((datetime.date.fromisoformat(e["data"]) - datetime.date.fromisoformat(hoje)).days))
     for ev in eventos:
         for consulta in consultas(ev):
             for nome_fonte, fonte in FONTES:
+                if nome_fonte == "Google":
+                    if gastas["google"] >= LIMITE_GOOGLE:
+                        continue
+                    gastas["google"] += 1
                 try:
                     achados = fonte(consulta, desde)
                 except Exception as exc:
@@ -570,7 +579,8 @@ def main():
         print(f"  ! {linha}")
         if os.environ.get("GITHUB_ACTIONS"):
             print(f"::warning::radar: {linha}")
-    msg = f"{len(itens)} conversa(s) na fila; {len(falhas)} falha(s) de fonte."
+    msg = (f"{len(itens)} conversa(s) na fila; {len(falhas)} falha(s) de fonte; "
+           f"{gastas['google']} consulta(s) de {LIMITE_GOOGLE} no Google.")
     print(msg)
     if os.environ.get("GITHUB_ACTIONS"):
         print(f"::notice::radar: {msg}")
