@@ -1,0 +1,6 @@
+{
+ "_leia": "Dados públicos de contato e de configuração do radar. O que é segredo (chave de API) não entra aqui: fica em Settings → Secrets and variables → Actions do repositório.",
+ "whatsapp": "447451254588",
+ "google_cse_cx": "",
+ "_cx": "ID do mecanismo de Pesquisa Programável (programmablesearchengine.google.com). Não é segredo: aparece no código de qualquer site que use a busca."
+}

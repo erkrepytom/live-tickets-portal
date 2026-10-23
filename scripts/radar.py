@@ -27,7 +27,20 @@ import urllib.request
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "Mozilla/5.0 (compatible; MyTicketsToursRadar/1.0; +https://mytickets.tours/)"
 SITE = "MyTickets Tours"
-WHATSAPP = os.environ.get("WHATSAPP_CONTATO", "").strip()
+
+
+def _contato():
+    """data/contato.json guarda o que é público (WhatsApp, ID do mecanismo de busca);
+    a variável de ambiente, quando existe, manda."""
+    try:
+        with open(os.path.join(RAIZ, "data", "contato.json"), encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+_CONTATO = _contato()
+WHATSAPP = (os.environ.get("WHATSAPP_CONTATO") or _CONTATO.get("whatsapp", "")).strip()
 DIAS = 30
 LIMITE_FILA = 40
 
@@ -246,7 +259,8 @@ def do_youtube(consulta, desde):
 def do_google(consulta, desde):
     """Os rastros que ficam na busca: o Google guarda o pedaço do comentário, do tópico de fórum e da
     pergunta mesmo quando a página inteira não abre. O trecho já é sinal; o resto você lê no link."""
-    chave, cx = os.environ.get("GOOGLE_CSE_KEY", ""), os.environ.get("GOOGLE_CSE_CX", "")
+    chave = os.environ.get("GOOGLE_CSE_KEY", "")
+    cx = (os.environ.get("GOOGLE_CSE_CX") or _CONTATO.get("google_cse_cx", "")).strip()
     if not (chave and cx):
         raise RuntimeError("sem GOOGLE_CSE_KEY/GOOGLE_CSE_CX")
     meses = max(1, min(12, round(DIAS / 30) or 1))
@@ -268,7 +282,7 @@ def fontes_ativas():
     """Usa o que há de chave no ambiente; sem chave nenhuma, tenta os endpoints públicos
     (que funcionam do seu computador, mas servidores levam 403)."""
     fs = []
-    if os.environ.get("GOOGLE_CSE_KEY") and os.environ.get("GOOGLE_CSE_CX"):
+    if os.environ.get("GOOGLE_CSE_KEY") and (os.environ.get("GOOGLE_CSE_CX") or _CONTATO.get("google_cse_cx")):
         fs.append(("Google", do_google))
     if os.environ.get("REDDIT_ID") and os.environ.get("REDDIT_SECRET"):
         fs.append(("Reddit", do_reddit_api))
@@ -303,7 +317,7 @@ RASCUNHO = {
 
 def rascunho(item, ev, lang):
     titulo = ev["titulo"].get(lang) or ev["titulo"].get("en", "")
-    zap = WHATSAPP or "(coloque o número em WHATSAPP_CONTATO)"
+    zap = f"+{WHATSAPP}" if WHATSAPP.isdigit() else (WHATSAPP or "(coloque o número em data/contato.json)")
     return RASCUNHO[lang].format(site=SITE, evento=titulo, zap=zap)
 
 
@@ -324,8 +338,7 @@ def montar_fila(itens, eventos):
               "",
               "O que esses sinais dizem em conjunto está em `radar/inteligencia.md`.", ""]
     if not WHATSAPP:
-        linhas += ["> **Falta o WhatsApp.** Defina a variável `WHATSAPP_CONTATO` no repositório "
-                   "(Settings → Secrets and variables → Actions → Variables) e os rascunhos saem com o número.", ""]
+        linhas += ["> **Falta o WhatsApp.** Escreva o número em `data/contato.json` e os rascunhos saem com ele.", ""]
     for ev in eventos:
         lista = sorted(por_evento.get(ev["slug"], []), key=lambda x: -x["nota"])
         if not lista:
