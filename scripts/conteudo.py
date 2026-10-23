@@ -738,7 +738,7 @@ VIAGEM = {
         "en": "Trains, buses and flights within Europe in one place, with mobile tickets. Compare before you lock in the long-haul flight.",
         "es": "Trenes, autobuses y vuelos dentro de Europa en un solo lugar, con billete en el móvil. Compara antes de cerrar el vuelo internacional."},
   "cta": {"pt": "Comparar trens, ônibus e voos", "en": "Compare trains, buses and flights", "es": "Comparar trenes, autobuses y vuelos"}},
- "getyourguide": {"nome": "GetYourGuide", "id": "", "param": "partner_id",
+ "getyourguide": {"nome": "GetYourGuide", "id": "ROXVLTV", "param": "partner_id",
   "h": {"pt": "Tour {art} {loc} e passeios em {cidade}", "en": "{loc} tour and things to do in {cidade}", "es": "Tour {art} {loc} y planes en {cidade}"},
   "p": {"pt": "Visita ao estádio e museu na véspera do jogo, e o que fazer na cidade nos outros dias. Cancelamento grátis até 24 h antes na maioria das atividades.",
         "en": "Stadium and museum tour the day before the game, plus things to do in the city on the other days. Most activities can be cancelled free up to 24 h before.",
