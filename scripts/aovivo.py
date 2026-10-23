@@ -56,9 +56,9 @@ def _colher_ao_vivo(no, achados, vistos):
         vid = no.get("videoId") or no.get("contentId")
         if isinstance(vid, str) and re.fullmatch(r"[A-Za-z0-9_-]{11}", vid) and vid not in vistos:
             titulo = V._texto_de(no)
-            if titulo and _marcado_ao_vivo(no):
+            if titulo:
                 vistos.add(vid)
-                achados.append({"yt": vid, "titulo": titulo})
+                achados.append({"yt": vid, "titulo": titulo, "selo_vivo": _marcado_ao_vivo(no)})
         for v in no.values():
             _colher_ao_vivo(v, achados, vistos)
     elif isinstance(no, list):
@@ -67,7 +67,8 @@ def _colher_ao_vivo(no, achados, vistos):
 
 
 def transmissoes_do_canal(canal_id):
-    """O que o canal está exibindo ao vivo agora, pela aba /streams."""
+    """As transmissões mais recentes da aba /streams. O selo "AO VIVO" da página é só um indício:
+    quem confirma é a página de incorporação do vídeo, em estado()."""
     req = urllib.request.Request(f"https://www.youtube.com/channel/{canal_id}/streams",
                                  headers={"User-Agent": V.UA, "Accept-Language": "pt-BR,pt;q=0.9"})
     with urllib.request.urlopen(req, timeout=25) as r:
@@ -77,7 +78,8 @@ def transmissoes_do_canal(canal_id):
         return []
     achados, vistos = [], set()
     _colher_ao_vivo(dados, achados, vistos)
-    return achados[:10]
+    achados.sort(key=lambda a: not a["selo_vivo"])   # os marcados como ao vivo primeiro
+    return achados[:8]
 
 
 def estado(yt):
@@ -116,12 +118,16 @@ def procurar(dados_videos, eventos, agora):
         except Exception as exc:
             print(f"  ! aba /streams de {r.get('canal','?')} indisponível: {exc}")
             continue
-        print(f"· {r.get('canal','?')}: {len(lives)} transmissão(ões) ao vivo no canal")
+        print(f"· {r.get('canal','?')}: {len(lives)} transmissão(ões) recentes para conferir")
         for live in lives:
             ev = max(eventos, key=lambda x: V.nota_evento(live["titulo"], "", x), default=None)
             if ev is None or V.nota_evento(live["titulo"], "", ev) < 2:
                 continue
             situacao, confirmado_vivo = estado(live["yt"])
+            if situacao == "ok" and not confirmado_vivo:
+                continue        # transmissão encerrada: vira vídeo comum, não é faixa AO VIVO
+            if situacao == "geo" and not (confirmado_vivo or live["selo_vivo"]):
+                continue        # bloqueado por país e sem nenhum sinal de que está no ar
             if situacao == "embed":
                 print(f"  - {live['yt']}: o canal desligou a incorporação; fora.")
                 continue
@@ -154,10 +160,11 @@ def diagnostico(dados_videos):
         except Exception as exc:
             V.aviso(f"{nome}: aba /streams indisponível ({exc}).", True)
             continue
-        V.aviso(f"{nome}: {len(lives)} transmissão(ões) ao vivo agora.")
+        V.aviso(f"{nome}: {len(lives)} transmissão(ões) recentes na aba /streams.")
         for live in lives[:5]:
             situacao, vivo = estado(live["yt"])
-            V.aviso(f"   {live['yt']} [{situacao}{', ao vivo' if vivo else ''}] {live['titulo'][:70]}")
+            V.aviso(f"   {live['yt']} [{situacao}{', AO VIVO' if vivo else ''}"
+                    f"{', selo' if live['selo_vivo'] else ''}] {live['titulo'][:70]}")
     return 0
 
 
