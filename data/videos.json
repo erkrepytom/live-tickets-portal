@@ -1,5 +1,5 @@
 {
- "_leia": "Vídeos do YouTube mostrados no site (página do evento, /videos/ e a faixa 'Em vídeo' da home). Edite aqui e rode: python scripts/gerar_paginas.py. O robô .github/workflows/videos.yml também adiciona sozinho os vídeos novos do canal (python scripts/videos.py). Campos: yt (ID de 11 caracteres do YouTube), titulo (texto ou {pt,en,es}), idioma (pt|en|es), publicado (AAAA-MM-DD), evento (slug de data/eventos.json; liga o vídeo à página do evento e ao botão de ingressos), cta (opcional: {\"tipo\":\"evento\"} = ingressos do evento; {\"tipo\":\"viagem\",\"parceiro\":\"booking|omio|getyourguide\"} = reserva de viagem; {\"tipo\":\"url\",\"url\":\"https://...\",\"rotulo\":{\"pt\":\"...\",\"en\":\"...\",\"es\":\"...\"},\"afiliado\":true}), descricao (opcional), ativo (false esconde sem apagar). Campo canal: nome do canal do YouTube dono do vídeo (aparece como crédito). Vale usar vídeos públicos de outros canais (ESPN, LaLiga, Serie A, NBA, F1) desde que o canal permita incorporação; o YouTube bloqueia sozinho os que não permitem. Campo canais_reserva: canais que transmitem a competição com direitos (ex.: CazéTV na LALIGA no Brasil). Quando o canal oficial da liga bloqueia a exibição fora do YouTube, o robô procura o mesmo jogo nesses canais, confere se permite incorporação e põe no lugar. Não use recortes de terceiros sem direitos: saem do ar por reclamação e levam a página junto.",
+ "_leia": "Vídeos do YouTube mostrados no site (página do evento, /videos/ e a faixa 'Em vídeo' da home). Edite aqui e rode: python scripts/gerar_paginas.py. O robô .github/workflows/videos.yml também adiciona sozinho os vídeos novos do canal (python scripts/videos.py). Campos: yt (ID de 11 caracteres do YouTube), titulo (texto ou {pt,en,es}), idioma (pt|en|es), publicado (AAAA-MM-DD), evento (slug de data/eventos.json; liga o vídeo à página do evento e ao botão de ingressos), cta (opcional: {\"tipo\":\"evento\"} = ingressos do evento; {\"tipo\":\"viagem\",\"parceiro\":\"booking|omio|getyourguide\"} = reserva de viagem; {\"tipo\":\"url\",\"url\":\"https://...\",\"rotulo\":{\"pt\":\"...\",\"en\":\"...\",\"es\":\"...\"},\"afiliado\":true}), descricao (opcional), ativo (false esconde sem apagar). Campo canal: nome do canal do YouTube dono do vídeo (aparece como crédito). Vale usar vídeos públicos de outros canais (ESPN, LaLiga, Serie A, NBA, F1) desde que o canal permita incorporação; o YouTube bloqueia sozinho os que não permitem. Campo canais_reserva (canal, handle ou channel_id, idioma): canais que transmitem a competição com direitos (ex.: CazéTV na LALIGA no Brasil). Quando o canal oficial da liga bloqueia a exibição fora do YouTube, o robô procura o mesmo jogo nesses canais, confere se permite incorporação e põe no lugar. Não use recortes de terceiros sem direitos: saem do ar por reclamação e levam a página junto.",
  "_exemplo": {
   "yt": "dQw4w9WgXcQ",
   "titulo": {
@@ -18,9 +18,10 @@
  "canais_reserva": [
   {
    "canal": "CazéTV",
-   "channel_id": "UCZiYbVptd3PVPf4f6eR6UaQ",
+   "handle": "@cazetv",
+   "channel_id": "",
    "idioma": "pt",
-   "nota": "Transmite a LALIGA no Brasil com direitos; entra quando o canal oficial da liga bloqueia o embed."
+   "nota": "Transmite a LALIGA no Brasil com direitos; entra quando o canal oficial da liga bloqueia o embed. Deixe channel_id vazio e o robô resolve pelo handle."
   }
  ],
  "videos": [

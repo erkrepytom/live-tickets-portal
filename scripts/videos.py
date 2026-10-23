@@ -175,9 +175,9 @@ def repor_bloqueados(dados, eventos, desativados):
         if not ev or slug in ativos:   # o evento já tem outro vídeo no ar
             continue
         for r in reservas:
-            cid = r.get("channel_id", "")
-            if not re.fullmatch(r"UC[A-Za-z0-9_-]{22}", cid):
-                print(f"  ! canal de reserva sem channel_id válido: {r.get('canal','?')}")
+            cid = canal_id_da_reserva(r)
+            if not cid:
+                print(f"  ! canal de reserva sem channel_id nem @handle que resolva: {r.get('canal','?')}")
                 continue
             try:
                 itens = ler_feed(cid)
@@ -214,6 +214,37 @@ def repor_bloqueados(dados, eventos, desativados):
     return postos
 
 
+def resolver_canal(handle):
+    """Descobre o channel_id (UC...) a partir do @handle do canal, porque o feed RSS do YouTube
+    só aceita channel_id. Devolve "" quando não achar."""
+    handle = (handle or "").strip().lstrip("@")
+    if not re.fullmatch(r"[A-Za-z0-9._-]{3,30}", handle):
+        return ""
+    req = urllib.request.Request(f"https://www.youtube.com/@{handle}",
+                                 headers={"User-Agent": UA, "Accept-Language": "pt-BR,pt;q=0.9"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            html = r.read().decode("utf-8", "replace")
+    except Exception as exc:
+        print(f"  ! não deu para abrir o canal @{handle}: {exc}")
+        return ""
+    for padrao in (r'"(?:channelId|externalId)":"(UC[A-Za-z0-9_-]{22})"',
+                   r'itemprop="identifier"\s+content="(UC[A-Za-z0-9_-]{22})"',
+                   r'/channel/(UC[A-Za-z0-9_-]{22})'):
+        m = re.search(padrao, html)
+        if m:
+            return m.group(1)
+    return ""
+
+
+def canal_id_da_reserva(r):
+    """O channel_id escrito em data/videos.json; sem ele, resolve pelo @handle."""
+    cid = (r.get("channel_id") or "").strip()
+    if re.fullmatch(r"UC[A-Za-z0-9_-]{22}", cid):
+        return cid
+    return resolver_canal(r.get("handle", ""))
+
+
 def aviso(texto, erro=False):
     """No GitHub Actions também deixa o texto como anotação da execução, que aparece no resumo."""
     print(texto)
@@ -230,11 +261,14 @@ def conferir_reservas(dados):
         return 0
     erros = 0
     for r in reservas:
-        nome, cid = r.get("canal", "?"), r.get("channel_id", "")
-        if not re.fullmatch(r"UC[A-Za-z0-9_-]{22}", cid):
-            aviso(f"{nome}: channel_id inválido ({cid!r}).", True)
+        nome = r.get("canal", "?")
+        cid = canal_id_da_reserva(r)
+        if not cid:
+            aviso(f"{nome}: sem channel_id válido e o @handle {r.get('handle','(vazio)')} não resolveu.", True)
             erros += 1
             continue
+        if cid != (r.get("channel_id") or ""):
+            aviso(f"{nome}: channel_id resolvido pelo handle → {cid} (vale escrever em data/videos.json).")
         try:
             itens = ler_feed(cid)
         except Exception as exc:
