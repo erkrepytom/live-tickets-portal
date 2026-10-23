@@ -586,3 +586,18 @@ html{scroll-padding-top:120px}
 .plan-list span{font-size:14px;color:#52637A}
 .plan-list a:hover span{color:#0F2236}
 @media (max-width:1079px){.plan-card{position:static}}
+
+/* ---------- Grupos do site no Telegram e no WhatsApp ---------- */
+.band-grupos{padding-block:56px 64px}
+.grupos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.grupo{display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:16px;background:#fff;
+  border:1px solid rgba(15,34,54,.08);text-decoration:none;color:#0F2236;
+  box-shadow:0 20px 40px -32px rgba(15,34,54,.6);transition:transform .25s,box-shadow .25s,border-color .25s}
+.grupo:hover{transform:translateY(-3px);border-color:#FFC400;box-shadow:0 26px 46px -28px rgba(15,34,54,.6)}
+.grupo-ic{flex:0 0 auto;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;
+  background:#0F2236;color:#FFC400}
+.grupo-txt{display:grid;gap:2px;min-width:0}
+.grupo-txt strong{font:800 16px/1.1 var(--f-display)}
+.grupo-txt span{font-size:13px;color:var(--mut)}
+.grupo-cta{margin-left:auto;font:700 12px/1 var(--f-mono);letter-spacing:.1em;color:#52637A;white-space:nowrap}
+.grupo:hover .grupo-cta{color:#0F2236}

@@ -1018,6 +1018,61 @@ def bloco_viagem_home(lang, pagina, eventos):
             f'<ul class="plan-list">{"".join(itens)}</ul></aside>')
 
 
+_COMUNIDADES = None
+
+
+def comunidades():
+    global _COMUNIDADES
+    if _COMUNIDADES is None:
+        try:
+            _COMUNIDADES = json.loads((RAIZ / "data" / "comunidades.json").read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _COMUNIDADES = {}
+    return _COMUNIDADES
+
+
+def link_de_grupo(g):
+    """Só entra link que funciona para quem não é você: convite do Telegram ou do WhatsApp.
+    O endereço web.telegram.org/a/#-123... é da sua sessão e levaria o visitante a lugar nenhum."""
+    link = (g.get("link") or "").strip()
+    if g.get("rede") == "telegram" and re.fullmatch(r"https://t\.me/(\+[\w-]+|[A-Za-z]\w{3,31})", link):
+        return link
+    if g.get("rede") == "whatsapp" and re.fullmatch(r"https://chat\.whatsapp\.com/[\w-]{10,40}", link):
+        return link
+    return ""
+
+
+ICONE_REDE = {
+    # desenhos simples na paleta do site: avião de papel para mensagem, balão para conversa
+    "telegram": "<svg viewBox='0 0 24 24' width='22' height='22' aria-hidden='true'><path d='M21.5 3.3 2.9 10.6c-.9.3-.9 1.6.1 1.9l4.6 1.4 1.8 5.3c.3.8 1.3 1 1.9.4l2.5-2.4 4.6 3.4c.7.5 1.7.1 1.9-.7l3-15c.2-1-.8-1.9-1.8-1.6zM9.6 14.2l8.1-6.6-6.5 7.6-.3 3-1.3-4z' fill='currentColor'/></svg>",
+    "whatsapp": "<svg viewBox='0 0 24 24' width='22' height='22' aria-hidden='true'><path d='M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.4-.2-2.6.7.7-2.5-.2-.4A8 8 0 0 1 12 4zm-3 4.6c-.2 0-.5.1-.7.4-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.6-.1 1.8-.7 2-1.5.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3l-2-1c-.3-.1-.5-.1-.7.1l-.8 1c-.1.2-.3.2-.6.1-1.3-.6-2.3-1.6-2.9-2.8-.1-.3 0-.4.1-.6l.5-.7c.1-.2.1-.4 0-.6l-.8-2c-.2-.5-.4-.4-.6-.4z' fill='currentColor'/></svg>",
+}
+
+
+def bloco_comunidades(lang, pagina):
+    """Grupos do site no Telegram e no WhatsApp, no fim do 'Explorar'. Grupo sem link válido
+    simplesmente não aparece, em vez de virar botão que não leva a lugar nenhum."""
+    c = comunidades()
+    cartoes = []
+    for g in c.get("grupos", []):
+        href = link_de_grupo(g)
+        if not href:
+            continue
+        cartoes.append(
+            f'<a class="grupo" href="{e(href)}" target="_blank" rel="noopener me">'
+            f'<span class="grupo-ic">{ICONE_REDE.get(g.get("rede"), "")}</span>'
+            f'<span class="grupo-txt"><strong>{e(L(g["nome"], lang))}</strong>'
+            f'<span>{e(L(g["desc"], lang))}</span></span>'
+            f'<span class="grupo-cta">{e(L(c["cta"], lang))} →</span></a>')
+    if not cartoes:
+        return ""
+    return (f'<section class="band band-grupos" id="grupos" aria-labelledby="grupos-h"><div class="wrap">'
+            f'<div class="sec-head"><div><p class="kicker">{e(L(c["titulo"], lang))}</p>'
+            f'<h2 id="grupos-h" data-scramble>{e(L(c["titulo"], lang))}</h2></div>'
+            f'<p>{e(L(c["sub"], lang))}</p></div>'
+            f'<div class="grupos">{"".join(cartoes)}</div></div></section>\n')
+
+
 def faixa_aovivo(lang, pagina, slug=""):
     """Faixa AO VIVO: nasce escondida e só aparece quando data/aovivo.json tem transmissão liberada
     (o assets/site.js lê o arquivo e monta o player). Some sozinha quando o jogo acaba, sem gerar o site de novo.
@@ -1513,6 +1568,7 @@ def home(lang, eventos, noticias, hubs):
     </div>
   </div>
 </section>
+{bloco_comunidades(lang, pagina)}
 
 <!-- ============ BANNER 3D (sistema solar esportivo, original do portal) ============ -->
 <section id="banner3d" aria-label="Banner: sistema solar em 3D com bolas de esportes no lugar dos planetas">

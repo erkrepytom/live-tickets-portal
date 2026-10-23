@@ -1,0 +1,85 @@
+{
+ "_leia": "Grupos do site nas redes de mensagem, mostrados no fim da seção Explorar da página inicial. Só aparece o grupo com link válido: Telegram precisa ser t.me/nome ou t.me/+convite (o endereço web.telegram.org/a/#-123... é da sua sessão e não funciona para visitante); WhatsApp precisa ser chat.whatsapp.com/CODIGO. Campos: id, nome por idioma, rede (telegram|whatsapp), link, desc por idioma.",
+ "kicker": {
+  "pt": "Comunidade",
+  "en": "Community",
+  "es": "Comunidad"
+ },
+ "titulo": {
+  "pt": "Entre nos grupos",
+  "en": "Join the groups",
+  "es": "Entra en los grupos"
+ },
+ "sub": {
+  "pt": "Lances, informação de ingresso e aviso de venda, direto no seu celular.",
+  "en": "Highlights, ticket news and on-sale alerts, straight to your phone.",
+  "es": "Jugadas, información de entradas y avisos de venta, directo a tu móvil."
+ },
+ "cta": {
+  "pt": "Entrar",
+  "en": "Join",
+  "es": "Entrar"
+ },
+ "grupos": [
+  {
+   "id": "futebol",
+   "rede": "telegram",
+   "link": "",
+   "nome": {
+    "pt": "Futebol",
+    "en": "Football",
+    "es": "Fútbol"
+   },
+   "desc": {
+    "pt": "Jogos, lances e ingressos",
+    "en": "Matches, highlights and tickets",
+    "es": "Partidos, jugadas y entradas"
+   }
+  },
+  {
+   "id": "basquete",
+   "rede": "telegram",
+   "link": "",
+   "nome": {
+    "pt": "Basquete",
+    "en": "Basketball",
+    "es": "Baloncesto"
+   },
+   "desc": {
+    "pt": "NBA e os jogos da temporada",
+    "en": "NBA and the season's games",
+    "es": "NBA y los partidos de la temporada"
+   }
+  },
+  {
+   "id": "beisebol",
+   "rede": "telegram",
+   "link": "",
+   "nome": {
+    "pt": "Beisebol",
+    "en": "Baseball",
+    "es": "Béisbol"
+   },
+   "desc": {
+    "pt": "MLB, playoffs e World Series",
+    "en": "MLB, playoffs and the World Series",
+    "es": "MLB, playoffs y Serie Mundial"
+   }
+  },
+  {
+   "id": "sports",
+   "rede": "telegram",
+   "link": "",
+   "nome": {
+    "pt": "Sports",
+    "en": "Sports",
+    "es": "Sports"
+   },
+   "desc": {
+    "pt": "Tudo junto: esporte, shows e viagem",
+    "en": "All together: sport, concerts and travel",
+    "es": "Todo junto: deporte, conciertos y viaje"
+   }
+  }
+ ]
+}
