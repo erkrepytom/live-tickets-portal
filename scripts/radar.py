@@ -511,7 +511,7 @@ def main():
     with open(os.path.join(RAIZ, "data", "eventos.json"), encoding="utf-8") as f:
         eventos = json.load(f)["eventos"]
 
-    vistos, itens, falhas = set(), [], []
+    vistos, itens, falhas, desistir = set(), [], [], set()
     gastas = {"google": 0}
     # o evento mais próximo primeiro: é onde a procura está acontecendo agora
     hoje = datetime.date.today().isoformat()
@@ -519,6 +519,8 @@ def main():
     for ev in eventos:
         for consulta in consultas(ev):
             for nome_fonte, fonte in FONTES:
+                if nome_fonte in desistir:        # fonte que já disse não: não insiste e não gasta cota
+                    continue
                 if nome_fonte == "Google":
                     if gastas["google"] >= LIMITE_GOOGLE:
                         continue
@@ -527,6 +529,11 @@ def main():
                     achados = fonte(consulta, desde)
                 except Exception as exc:
                     falhas.append(f"{nome_fonte} ({consulta[:40]}): {exc}")
+                    texto_erro = str(exc)
+                    # erro de configuração ou de cota não melhora na consulta seguinte: desliga a fonte
+                    if any(m in texto_erro for m in ("HTTP 403", "HTTP 429", "HTTP 401")):
+                        desistir.add(nome_fonte)
+                        print(f"  ! {nome_fonte} desligada nesta rodada: {texto_erro[:120]}")
                     time.sleep(1.0)
                     continue
                 time.sleep(0.8)   # educação com quem serve de graça: uma consulta por vez, sem rajada
@@ -575,6 +582,14 @@ def main():
                    "falhas": falhas, "itens": itens, "historico": historico}, f, ensure_ascii=False, indent=1)
         f.write("\n")
 
+    unicas, vistas_falhas = [], set()
+    for linha in falhas:
+        chave = linha.split("(")[0] + linha.split("): ")[-1][:60]
+        if chave in vistas_falhas:
+            continue
+        vistas_falhas.add(chave)
+        unicas.append(linha)
+    falhas = unicas
     for linha in falhas[:6]:
         print(f"  ! {linha}")
         if os.environ.get("GITHUB_ACTIONS"):
