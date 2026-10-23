@@ -536,3 +536,19 @@ html{scroll-padding-top:120px}
 @media (min-width:1200px){.vcarr-trilho .vcard{flex-basis:min(31%,330px)}}
 .vivo-slot.vivo-carr{display:block}
 .vivo-slot.vivo-carr .vcard-body{gap:8px}
+
+/* ---------- Bolas 3D que giram ao lado dos títulos: textura rolando dentro de uma esfera
+   sombreada em CSS. Sem three.js, sem imagem baixada: alguns bytes e nenhuma requisição. ---------- */
+.bola3d{--d:clamp(64px,8vw,104px);flex:0 0 auto;align-self:center;width:var(--d);height:var(--d);border-radius:50%;
+  position:relative;overflow:hidden;background-repeat:repeat-x;background-size:200% 100%;
+  box-shadow:0 18px 30px -16px rgba(15,34,54,.6);animation:bola-gira 11s linear infinite}
+.bola3d::after{content:"";position:absolute;inset:0;border-radius:50%;
+  background:radial-gradient(circle at 32% 28%,rgba(255,255,255,.55),rgba(255,255,255,0) 42%),
+             radial-gradient(circle at 70% 76%,rgba(0,0,0,.45),rgba(0,0,0,0) 58%),
+             radial-gradient(circle at 50% 50%,rgba(0,0,0,0) 58%,rgba(0,0,0,.35) 100%)}
+@keyframes bola-gira{to{background-position-x:-200%}}
+@media (prefers-reduced-motion:reduce){.bola3d{animation:none}}
+.bola-futebol{background-color:#f3f3f0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='120'%3E%3Crect width='240' height='120' fill='%23f3f3f0'/%3E%3Cg fill='%231b2430'%3E%3Cpolygon points='40,42 62,30 84,42 76,68 48,68'/%3E%3Cpolygon points='160,42 182,30 204,42 196,68 168,68'/%3E%3Cpolygon points='0,96 14,86 30,96 24,118 6,118'/%3E%3Cpolygon points='112,96 126,86 142,96 136,118 118,118'/%3E%3Cpolygon points='228,96 242,86 258,96 252,118 234,118'/%3E%3Cpolygon points='106,0 120,8 114,26 96,26 92,8'/%3E%3Cpolygon points='226,0 240,8 234,26 216,26 212,8'/%3E%3C/g%3E%3C/svg%3E")}
+.bola-basquete{background-color:#d1702c;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='120'%3E%3Crect width='240' height='120' fill='%23d1702c'/%3E%3Cg stroke='%231b1b1b' stroke-width='5' fill='none' stroke-linecap='round'%3E%3Cpath d='M0 60 H240'/%3E%3Cpath d='M60 0 C 34 30, 34 90, 60 120'/%3E%3Cpath d='M180 0 C 206 30, 206 90, 180 120'/%3E%3Cpath d='M120 0 V120'/%3E%3Cpath d='M0 0 V120'/%3E%3C/g%3E%3C/svg%3E")}
+.bola-beisebol{background-color:#f7f5ef;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='120'%3E%3Crect width='240' height='120' fill='%23f7f5ef'/%3E%3Cg stroke='%23c8102e' stroke-width='4' fill='none' stroke-linecap='round' stroke-dasharray='7 11'%3E%3Cpath d='M54 0 C 92 30, 92 90, 54 120'/%3E%3Cpath d='M174 0 C 212 30, 212 90, 174 120'/%3E%3C/g%3E%3Cg stroke='%23d8d4c9' stroke-width='2' fill='none'%3E%3Cpath d='M48 0 C 86 30, 86 90, 48 120'/%3E%3Cpath d='M168 0 C 206 30, 206 90, 168 120'/%3E%3C/g%3E%3C/svg%3E")}
+@media (max-width:620px){.bola3d{--d:58px}}
