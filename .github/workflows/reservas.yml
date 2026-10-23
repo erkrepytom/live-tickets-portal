@@ -14,3 +14,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/videos.py --conferir
+      - name: O que os canais de reserva estão transmitindo agora
+        if: always()
+        run: python scripts/aovivo.py --agora

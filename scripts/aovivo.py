@@ -140,6 +140,27 @@ def procurar(dados_videos, eventos, agora):
     return achados
 
 
+def diagnostico(dados_videos):
+    """python scripts/aovivo.py --agora: mostra o que os canais de reserva estão transmitindo
+    agora e se cada transmissão poderia entrar no site. Não escreve nada."""
+    for r in dados_videos.get("canais_reserva", []):
+        nome = r.get("canal", "?")
+        cid = V.canal_id_da_reserva(r)
+        if not cid:
+            V.aviso(f"{nome}: sem channel_id.", True)
+            continue
+        try:
+            lives = transmissoes_do_canal(cid)
+        except Exception as exc:
+            V.aviso(f"{nome}: aba /streams indisponível ({exc}).", True)
+            continue
+        V.aviso(f"{nome}: {len(lives)} transmissão(ões) ao vivo agora.")
+        for live in lives[:5]:
+            situacao, vivo = estado(live["yt"])
+            V.aviso(f"   {live['yt']} [{situacao}{', ao vivo' if vivo else ''}] {live['titulo'][:70]}")
+    return 0
+
+
 def main():
     agora = datetime.datetime.now(datetime.timezone.utc)
     arq = os.path.join(RAIZ, "data", "aovivo.json")
@@ -152,6 +173,8 @@ def main():
         eventos = json.load(f)["eventos"]
     with open(os.path.join(RAIZ, "data", "videos.json"), encoding="utf-8") as f:
         dados_videos = json.load(f)
+    if "--agora" in sys.argv:
+        return diagnostico(dados_videos)
 
     na_janela = eventos_na_janela(eventos, agora)
     if not na_janela:
