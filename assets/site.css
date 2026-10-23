@@ -481,3 +481,19 @@ html{scroll-padding-top:120px}
 .vgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media (max-width:900px){.vgrid{grid-template-columns:minmax(0,1fr)}}
 .vcredit{color:var(--mut);font-size:12px;font-weight:600;letter-spacing:.02em}
+
+/* ---------- Faixa AO VIVO: aparece só quando scripts/aovivo.py acha transmissão liberada ---------- */
+.band-vivo{padding-block:56px;background:linear-gradient(180deg,rgba(255,196,0,.08),transparent 70%)}
+.band-vivo[hidden]{display:none}
+.kicker-vivo{display:flex;align-items:center;gap:8px;color:#e0162b}
+.kicker-vivo i{width:9px;height:9px;border-radius:50%;background:#e0162b;animation:vivo-pulso 1.6s ease-in-out infinite}
+@keyframes vivo-pulso{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
+@media (prefers-reduced-motion:reduce){.kicker-vivo i{animation:none}}
+.vivo-slot{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:24px;align-items:start}
+.vivo-slot .yt{border-radius:16px;overflow:hidden}
+.vivo-info h3{margin:0 0 8px;font-size:clamp(18px,2.2vw,24px);line-height:1.25}
+.vivo-info p{margin:0 0 14px}
+.vivo-info .vivo-cred{font-size:14px;opacity:.75}
+.vivo-info .vcard-actions{display:flex;flex-wrap:wrap;gap:10px}
+.vivo-aviso{font-size:13px;opacity:.7;margin-top:12px}
+@media (max-width:760px){.vivo-slot{grid-template-columns:1fr}}

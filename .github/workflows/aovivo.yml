@@ -1,0 +1,45 @@
+name: Transmissão ao vivo (faixa AO VIVO)
+# De 5 em 5 minutos: procura transmissão ao vivo liberada para os eventos do site e escreve
+# data/aovivo.json. Nos dias sem jogo o script sai em segundos, sem tocar na rede.
+# Só publica (e só sobe para o site) quando a lista muda: jogo começou ou jogo acabou.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: aovivo
+  cancel-in-progress: true
+jobs:
+  aovivo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Procurar transmissão ao vivo
+        run: python scripts/aovivo.py
+      - name: Publicar se a lista mudou
+        id: pub
+        run: |
+          git config user.name "aovivo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/aovivo.json
+          if git diff --cached --quiet; then
+            echo "mudou=nao" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Faixa AO VIVO: atualiza as transmissões no ar"
+            git push
+            echo "mudou=sim" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Subir para mytickets.tours (Azure Static Web Apps)
+        if: steps.pub.outputs.mudou == 'sim'
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: "."
+          skip_app_build: true
+          skip_api_build: true

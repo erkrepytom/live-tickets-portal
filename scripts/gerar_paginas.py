@@ -830,6 +830,28 @@ def pagina_videos(lang, eventos):
     return h + corpo + rodape(lang, pagina, alternos)
 
 
+def faixa_aovivo(lang, pagina, slug=""):
+    """Faixa AO VIVO: nasce escondida e só aparece quando data/aovivo.json tem transmissão liberada
+    (o assets/site.js lê o arquivo e monta o player). Some sozinha quando o jogo acaba, sem gerar o site de novo.
+
+    Só em português: as transmissões abertas que usamos têm direito para o Brasil, e um player
+    bloqueado por país na página em inglês ou espanhol seria pior do que faixa nenhuma.
+    """
+    if lang != "pt":
+        return ""
+    vx = C.AOVIVO_TXT["pt"]
+    return (f'<section class="band band-vivo" id="aovivo" aria-labelledby="vivo-h" hidden'
+            f' data-slug="{e(slug)}" data-url="/data/aovivo.json"'
+            f' data-play="{e(vx["play"])}" data-ingressos="{e(vx["ingressos"])}" data-guia="{e(vx["guia"])}"'
+            f' data-regiao="{e(vx["regiao"])}">\n'
+            f'  <div class="wrap">\n'
+            f'    <div class="sec-head"><div><p class="kicker kicker-vivo"><i aria-hidden="true"></i>{e(vx["k"])}</p>'
+            f'<h2 id="vivo-h">{e(vx["h"])}</h2></div><p>{e(vx["sub"])}</p></div>\n'
+            f'    <div class="vivo-slot"></div>\n'
+            f'  </div>\n'
+            f'</section>\n')
+
+
 def faixa_videos_home(lang, pagina, eventos, n=3):
     """Faixa 'Em vídeo' da página inicial: os últimos vídeos, com o botão de ingressos/reserva e o link para todos."""
     vs = todos_videos(eventos)[:n]
@@ -1256,7 +1278,7 @@ def home(lang, eventos, noticias, hubs):
   </div>
 </section>
 
-{faixa_videos_home(lang, pagina, eventos)}
+{faixa_aovivo(lang, pagina)}{faixa_videos_home(lang, pagina, eventos)}
 
 <section class="band" id="partidas" aria-labelledby="board-h" style="padding-top:0">
   <div class="wrap">
@@ -1579,6 +1601,7 @@ def evento(lang, ev, eventos, hubs):
   </div>
 </section>
 
+{faixa_aovivo(lang, pagina, ev['slug'])}
 <section class="band" aria-label="{e(titulo)}">
   <div class="wrap event">
     {slot_video}

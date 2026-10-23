@@ -47,6 +47,13 @@
       "statusCode": 404
     },
     {
+      "route": "/data/aovivo.json",
+      "headers": {
+        "Cache-Control": "public, max-age=60",
+        "X-Robots-Tag": "noindex"
+      }
+    },
+    {
       "route": "/data/*",
       "statusCode": 404
     },

@@ -781,6 +781,15 @@ VIDEOS_TXT = {
 }
 
 
+# ---------- Faixa AO VIVO (scripts/aovivo.py escreve data/aovivo.json; a faixa só existe em português) ----------
+AOVIVO_TXT = {
+ "pt": {"k": "Ao vivo agora", "h": "Assista enquanto a bola rola",
+        "sub": "Transmissão aberta do canal que tem os direitos, no player do YouTube. Carrega só quando você aperta o play.",
+        "play": "Assistir ao vivo", "ingressos": "Ver ingressos", "guia": "Ver guia do evento",
+        "regiao": "Transmissão liberada para o Brasil pelo canal detentor dos direitos."},
+}
+
+
 # ---------- Monitor de venda (scripts/vendas.py): página oficial de ingressos de cada evento ----------
 # chave_evento(slug) -> (nome do canal oficial, URL da página de ingressos, palavras que identificam o evento nessa página).
 # O robô lê a página, procura trechos perto dessas palavras e classifica: a_venda, em_breve, esgotado ou desconhecido.
