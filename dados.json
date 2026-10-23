@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-23T22:19:46+00:00",
+ "atualizado": "2026-10-23T23:34:43+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Protestos na França adiam duelo entre PSG e Lyon",
-     "u": "https://www.gazetaesportiva.com/times/paris-saint-germain/protestos-na-franca-adiam-duelo-entre-psg-e-lyon/",
+     "t": "Palpites e dicas para Flamengo x Atlético-MG pelo Brasileirão",
+     "u": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/23/palpites-e-dicas-para-flamengo-x-atletico-mg-pelo-brasileirao.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Internacional x Botafogo - Campeonato Brasileiro 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/24-10-2026/internacional-botafogo.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Vasco x Corinthians pelo Brasileirão: onde assistir, estatísticas, histórico e escalações",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/vasco-corinthians-brasileirao-24-10-2026/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Com retorno de Edenilson, Botafogo desembarca em Porto Alegre para enfrentar o Internacional",
-     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/23/com-retornos-de-monzon-e-edenilson-botafogo-desembarca-em-porto-alegre-para-enfrentar-o-internacional.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Palpites e dicas para Internacional x Botafogo pelo Brasileirão",
-     "u": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/23/palpites-e-dicas-para-internacional-x-botafogo-pelo-brasileirao.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Atlético-MG se torna o segundo brasileiro com mais finais continentais no século XXI",
-     "u": "https://www.gazetaesportiva.com/times/atletico-mg/atletico-mg-se-torna-o-segundo-brasileiro-com-mais-finais-continentais-no-seculo-xxi/",
+     "t": "Chelsea x Tottenham pelo Inglês: onde assistir, prováveis escalações e horário",
+     "u": "https://www.gazetaesportiva.com/times/chelsea/chelsea-x-tottenham-onde-assistir-provaveis-escalacoes-e-horario/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Brewers-Rays World Series Game 1, Knicks-Celtics",
-     "u": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-brewers-rays-world-series-game-1-knicks-celtics/",
+     "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
+     "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-best-bets-for-friday-oct-23/",
      "f": "CBS Sports",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Today's top games to watch, best bets, odds: Brewers vs. Rays World Series Game 1, Knicks at Celtics and more",
-     "u": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-brewers-vs-rays-world-series-game-1-knicks-at-celtics-and-more/",
+     "t": "Knicks vs. Celtics prediction, odds, betting preview, start time: NBA picks, best bets on Friday, Oct. 23",
+     "u": "https://www.cbssports.com/betting/news/knicks-vs-celtics-prediction-odds-betting-preview-start-time-nba-picks-best-bets-on-friday-oct-23/",
      "f": "CBS Sports",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Gladbach ends winless start in Bundesliga and Torino wins third straight in Serie A",
-     "u": "https://sports.yahoo.com/articles/gladbach-ends-winless-start-bundesliga-221045811.html",
+     "t": "Dave Portnoy saw potential of UConn football after strong turnout for Barstool show: ‘Sleeping giant’",
+     "u": "https://sports.yahoo.com/articles/dave-portnoy-saw-potential-uconn-232000923.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Knicks’ fatal flaw that will doom 2027 NBA championship chances",
-     "u": "https://sports.yahoo.com/articles/knicks-fatal-flaw-doom-2027-220901448.html",
+     "t": "Best things Dave Portnoy said at Barstool’s UConn football pregame show",
+     "u": "https://sports.yahoo.com/articles/best-things-dave-portnoy-said-231820441.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,6 +79,12 @@
    },
    "noticias": [
     {
+     "t": "Charles Leclerc domina primeiro dia do Grande Prémio dos Estados Unidos de F1",
+     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/charles-leclerc-domina-primeiro-dia-do-grande-premio-dos-estados-unidos-de-f1",
+     "f": "Record",
+     "alta": false
+    },
+    {
      "t": "João Cancelo lança o Barcelona-Real Madrid: «Espero que consigamos sacar a vitória»",
      "u": "https://www.record.pt/internacional/paises/espanha/detalhe/joao-cancelo-lanca-o-barcelona-real-madrid-espero-que-consigamos-sacar-a-vitoria",
      "f": "Record",
@@ -91,14 +97,8 @@
      "alta": false
     },
     {
-     "t": "Sete golos em sete jogos na Serie A: Gustavo Varela voltou a marcar mas não evitou derrota do Monza",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/sete-golos-em-sete-jogos-na-serie-a-gustavo-varela-voltou-a-marcar-mas-nao-evitou-derrota-do-monza",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "NBA: Anthony Edwards estraga estreia de Giannis nos Heat",
-     "u": "https://www.abola.pt/noticias/nba-anthony-edwards-estraga-estreia-de-giannis-nos-heat-2026102207433409506",
+     "t": "Lutador de MMA é a vítima mortal de atentado em França",
+     "u": "https://www.abola.pt/noticias/lutador-de-mma-e-a-vitima-mortal-de-atentado-em-franca-2026102319500082109",
      "f": "A Bola",
      "alta": false
     }
@@ -193,8 +193,14 @@
      "alta": false
     },
     {
-     "t": "La especial dedicatoria de Tiago Palacios a un ex compañero tras clasificar a la final de la Libertadores: \"Estamos acá gracias a vos\"",
-     "u": "https://www.ole.com.ar/estudiantes/especial-dedicatoria-tiago-palacios-estudiantes-final-copa-libertadores-excompanero-mikel-amondarain-dijo_0_dabBFrdOIx.html",
+     "t": "La lucha por el Campeón de Liga: Boca puntero y qué le queda a cada uno",
+     "u": "https://www.ole.com.ar/futbol-primera/tablaanual-posiciones-campeondeliga-torneoclausura-boca_0_t1ihRlOuro.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Independiente ante Boca: por qué podría ser el último clásico de Marcone y Rey",
+     "u": "https://www.ole.com.ar/independiente/ivanmarcone-rodrigorey-independiente-boca_0_qfiXAHOpPn.html",
      "f": "Olé",
      "alta": false
     }
@@ -231,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Rencontre avec les Soul Rebels, qui vont jouer l'hymne américain au Stade de France",
-     "u": "https://www.lequipe.fr/Football-americain/Article/Ils-ont-les-new-orleans-saints-dans-la-peau-et-vont-jouer-l-hymne-americain-avant-le-nfl-paris-game-rencontre-avec-les-soul-rebels/1737513#at_medium=RSS_feeds",
+     "t": "Charles Leclerc à nouveau le plus rapide lors des EL2 du Grand Prix des États-Unis mais Kimi Antonelli se rapproche",
+     "u": "https://www.lequipe.fr/Formule-1/Actualites/Charles-leclerc-a-nouveau-le-plus-rapide-lors-des-el2-du-grand-prix-des-etats-unis-mais-kimi-antonelli-se-rapproche/1738220#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Guillaume Cizeron, qui démarre la saison avec Laurence Fournier Beaudry au Grand Prix de France : « Le trac sera toujours là »",
-     "u": "https://www.lequipe.fr/Patinage-artistique/Actualites/Guillaume-cizeron-qui-demarre-la-saison-avec-laurence-fournier-beaudry-au-grand-prix-de-france-le-trac-sera-toujours-la/1738175#at_medium=RSS_feeds",
+     "t": "Yéhvann Diouf, gardien de Nice, après la victoire épique à Brest en Ligue 1 : « Le penalty arrêté, ça compense mon erreur »",
+     "u": "https://www.lequipe.fr/Football/Actualites/Yehvann-diouf-gardien-de-nice-apres-la-victoire-epique-a-brest-en-ligue-1-le-penalty-arrete-ca-compense-mon-erreur/1738210#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,22 +253,22 @@
  ],
  "destaques": [
   {
-   "t": "Protestos na França adiam duelo entre PSG e Lyon",
-   "u": "https://www.gazetaesportiva.com/times/paris-saint-germain/protestos-na-franca-adiam-duelo-entre-psg-e-lyon/",
-   "f": "Gazeta Esportiva",
+   "t": "Palpites e dicas para Flamengo x Atlético-MG pelo Brasileirão",
+   "u": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/23/palpites-e-dicas-para-flamengo-x-atletico-mg-pelo-brasileirao.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Brewers-Rays World Series Game 1, Knicks-Celtics",
-   "u": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-brewers-rays-world-series-game-1-knicks-celtics/",
+   "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
+   "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-best-bets-for-friday-oct-23/",
    "f": "CBS Sports",
-   "alta": true,
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "João Cancelo lança o Barcelona-Real Madrid: «Espero que consigamos sacar a vitória»",
-   "u": "https://www.record.pt/internacional/paises/espanha/detalhe/joao-cancelo-lanca-o-barcelona-real-madrid-espero-que-consigamos-sacar-a-vitoria",
+   "t": "Charles Leclerc domina primeiro dia do Grande Prémio dos Estados Unidos de F1",
+   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/charles-leclerc-domina-primeiro-dia-do-grande-premio-dos-estados-unidos-de-f1",
    "f": "Record",
    "alta": false,
    "pais": "PT"
@@ -296,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Rencontre avec les Soul Rebels, qui vont jouer l'hymne américain au Stade de France",
-   "u": "https://www.lequipe.fr/Football-americain/Article/Ils-ont-les-new-orleans-saints-dans-la-peau-et-vont-jouer-l-hymne-americain-avant-le-nfl-paris-game-rencontre-avec-les-soul-rebels/1737513#at_medium=RSS_feeds",
+   "t": "Charles Leclerc à nouveau le plus rapide lors des EL2 du Grand Prix des États-Unis mais Kimi Antonelli se rapproche",
+   "u": "https://www.lequipe.fr/Formule-1/Actualites/Charles-leclerc-a-nouveau-le-plus-rapide-lors-des-el2-du-grand-prix-des-etats-unis-mais-kimi-antonelli-se-rapproche/1738220#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
