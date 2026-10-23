@@ -3,36 +3,100 @@
  "vitrines": [
   {
    "id": "nba",
-   "titulo": {"pt": "NBA: os últimos jogos", "en": "NBA: the latest games", "es": "NBA: los últimos partidos"},
-   "sub": {"pt": "Melhores momentos direto do canal oficial da NBA.",
-           "en": "Highlights straight from the NBA's official channel.",
-           "es": "Lo mejor directo del canal oficial de la NBA."},
-   "canais": ["@NBA"],
+   "titulo": {
+    "pt": "NBA: os últimos jogos",
+    "en": "NBA: the latest games",
+    "es": "NBA: los últimos partidos"
+   },
+   "sub": {
+    "pt": "Melhores momentos direto do canal oficial da NBA.",
+    "en": "Highlights straight from the NBA's official channel.",
+    "es": "Lo mejor directo del canal oficial de la NBA."
+   },
+   "canais": [
+    "@NBA"
+   ],
    "dock": "/dock/competition/nba",
    "n": 2,
-   "videos": []
+   "videos": [
+    {
+     "yt": "aEAJfS_6J0g",
+     "titulo": "NUGGETS at THUNDER | FULL GAME HIGHLIGHTS | October 22, 2026",
+     "canal": "NBA",
+     "publicado": "2026-10-23"
+    },
+    {
+     "yt": "S8TV-xuDQMQ",
+     "titulo": "LeBron James domina as estatísticas em vitória de virada contra os Cavaliers | 22 de outubro de 2026",
+     "canal": "NBA",
+     "publicado": "2026-10-23"
+    }
+   ]
   },
   {
    "id": "beisebol",
-   "titulo": {"pt": "Beisebol: os últimos jogos", "en": "Baseball: the latest games", "es": "Béisbol: los últimos partidos"},
-   "sub": {"pt": "Melhores momentos direto do canal oficial da MLB.",
-           "en": "Highlights straight from MLB's official channel.",
-           "es": "Lo mejor directo del canal oficial de la MLB."},
-   "canais": ["@MLB"],
+   "titulo": {
+    "pt": "Beisebol: os últimos jogos",
+    "en": "Baseball: the latest games",
+    "es": "Béisbol: los últimos partidos"
+   },
+   "sub": {
+    "pt": "Melhores momentos direto do canal oficial da MLB.",
+    "en": "Highlights straight from MLB's official channel.",
+    "es": "Lo mejor directo del canal oficial de la MLB."
+   },
+   "canais": [
+    "@MLB"
+   ],
    "dock": "/dock/competition/major-league-baseball",
    "n": 2,
-   "videos": []
+   "videos": [
+    {
+     "yt": "7UszeZoH-ss",
+     "titulo": "Drew Rasmussen, Willy Adames, Carlos Gómez e MAIS JOGADORES que atuaram tanto pelos Rays quanto p...",
+     "canal": "MLB",
+     "publicado": "2026-10-23"
+    },
+    {
+     "yt": "YNUc_Neq6wA",
+     "titulo": "FULL GAME (9/18/2009): Ichiro walk-off home run vs. Mo | イチローハイライト",
+     "canal": "MLB",
+     "publicado": "2026-10-23"
+    }
+   ]
   },
   {
    "id": "shows",
-   "titulo": {"pt": "Shows: o palco de perto", "en": "Concerts: the stage up close", "es": "Conciertos: el escenario de cerca"},
-   "sub": {"pt": "Apresentações ao vivo publicadas pelos próprios canais oficiais.",
-           "en": "Live performances published by the official channels themselves.",
-           "es": "Actuaciones en vivo publicadas por los propios canales oficiales."},
-   "canais": ["@coachella", "@celinedion"],
+   "titulo": {
+    "pt": "Shows: o palco de perto",
+    "en": "Concerts: the stage up close",
+    "es": "Conciertos: el escenario de cerca"
+   },
+   "sub": {
+    "pt": "Apresentações ao vivo publicadas pelos próprios canais oficiais.",
+    "en": "Live performances published by the official channels themselves.",
+    "es": "Actuaciones en vivo publicadas por los propios canales oficiales."
+   },
+   "canais": [
+    "@coachella",
+    "@celinedion"
+   ],
    "dock": "/dock/music/celine-dion",
    "n": 2,
-   "videos": []
+   "videos": [
+    {
+     "yt": "Px4aEVO-OMw",
+     "titulo": "Levity reflect on the journey to Coachella | ARRIVAL 2026",
+     "canal": "Coachella",
+     "publicado": "2026-10-23"
+    },
+    {
+     "yt": "4tgTL93V6Z4",
+     "titulo": "Holly Humberstone embraces a new era with Cruel World at Coachella | ARRIVAL 2026",
+     "canal": "Coachella",
+     "publicado": "2026-10-23"
+    }
+   ]
   }
  ]
 }
