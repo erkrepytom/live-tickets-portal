@@ -830,6 +830,45 @@ def pagina_videos(lang, eventos):
     return h + corpo + rodape(lang, pagina, alternos)
 
 
+_VITRINES = None
+
+
+def vitrines():
+    """data/vitrines.json: as faixas de vídeo do fim da home (NBA, beisebol, shows), enchidas por scripts/vitrines.py."""
+    global _VITRINES
+    if _VITRINES is None:
+        try:
+            _VITRINES = json.loads((RAIZ / "data" / "vitrines.json").read_text(encoding="utf-8")).get("vitrines", [])
+        except (OSError, ValueError):
+            _VITRINES = []
+    return _VITRINES
+
+
+def faixa_vitrine(lang, pagina, v):
+    """Uma faixa de vitrine: os vídeos recentes do canal oficial, com crédito e o botão de ingressos
+    do catálogo do parceiro. Some sozinha quando o robô não encontra vídeo que permita exibição."""
+    vids = [x for x in v.get("videos", []) if re.fullmatch(r"[A-Za-z0-9_-]{11}", x.get("yt", ""))]
+    if not vids:
+        return ""
+    vx = C.VIDEOS_TXT[lang]
+    cartoes = "".join(
+        f'<article class="vcard">{facade_video(x, lang, pagina)}<div class="vcard-body">'
+        f'<h3>{e(titulo_video(x, lang))}</h3><p>{credito_video(x)}</p>'
+        f'<div class="vcard-actions">{mag(parceiro(lang, v["dock"]), e(vx["ingressos"]), "btn btn-signal btn-sm")}</div>'
+        f'</div></article>' for x in vids)
+    return f"""<section class="band band-vitrine" id="vit-{e(v['id'])}" aria-labelledby="vit-{e(v['id'])}-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">{e(vx['k'])}</p><h2 id="vit-{e(v['id'])}-h" data-scramble>{e(L(v['titulo'], lang))}</h2></div><p>{e(L(v['sub'], lang))}</p></div>
+    <div class="vgrid vgrid-dupla">{cartoes}</div>
+  </div>
+</section>
+"""
+
+
+def faixas_vitrines(lang, pagina):
+    return "".join(faixa_vitrine(lang, pagina, v) for v in vitrines())
+
+
 def faixa_aovivo(lang, pagina, slug=""):
     """Faixa AO VIVO: nasce escondida e só aparece quando data/aovivo.json tem transmissão liberada
     (o assets/site.js lê o arquivo e monta o player). Some sozinha quando o jogo acaba, sem gerar o site de novo.
@@ -1350,6 +1389,7 @@ if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new Intersecti
 </section>
 {noticias_html}
 {alertas(lang, eventos)}
+{faixas_vitrines(lang, pagina)}
 </main>
 """
     return h + corpo + rodape(lang, pagina, alternos)

@@ -504,3 +504,12 @@ html{scroll-padding-top:120px}
 .vivo-varios .vcard{height:100%;display:flex;flex-direction:column}
 .vivo-varios .vcard-body{display:flex;flex-direction:column;flex:1}
 .vivo-varios .vivo-aviso{margin-top:auto}
+
+/* ---------- Vitrines do fim da home (NBA, beisebol, shows): dois vídeos lado a lado ---------- */
+.band-vitrine{padding-block:56px}
+.band-vitrine+.band-vitrine{padding-top:0}
+.vgrid-dupla{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.vgrid-dupla .vcard{height:100%;display:flex;flex-direction:column}
+.vgrid-dupla .vcard-body{display:flex;flex-direction:column;flex:1;gap:8px}
+.vgrid-dupla .vcard-body h3{font-size:17px;line-height:1.3}
+.vgrid-dupla .vcard-actions{margin-top:auto}

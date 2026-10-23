@@ -30,6 +30,8 @@ jobs:
         env:
           YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
         run: python scripts/videos.py
+      - name: Encher as vitrines do fim da home (NBA, beisebol, shows)
+        run: python scripts/vitrines.py
       - name: Regerar o site
         run: python scripts/gerar_paginas.py
       - name: Publicar se houver mudança
