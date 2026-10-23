@@ -71,20 +71,25 @@ def nomes_do_evento(ev):
     return [n for n in nomes if len(n) > 2]
 
 
+# Onde mora conversa de gente de verdade. A busca vai atrás destes lugares em vez de página de loja.
+LUGARES = ("reddit.com", "quora.com", "tripadvisor.com", "forum", "community")
+
+
 def consultas(ev):
-    """Buscas por evento: o confronto, e cada nome com palavra de ingresso."""
+    """Buscas por evento. Metade procura a conversa (fórum, pergunta, comentário) e metade procura
+    o rastro na busca, com o site: dos lugares onde as pessoas conversam."""
     nomes = nomes_do_evento(ev)
-    qs = []
-    if len(nomes) >= 2:
-        qs.append(f"{nomes[0]} {nomes[1]} tickets")
-        qs.append(f"{nomes[0]} {nomes[1]} ingressos")
-    for n in nomes[:2]:
-        qs.append(f"{n} tickets how to buy")
-        qs.append(f"{n} entradas comprar")
+    dupla = f"{nomes[0]} {nomes[1]}" if len(nomes) >= 2 else (nomes[0] if nomes else "")
     cidade = ev.get("cidade", {}).get("en") or ""
+    qs = []
+    if dupla:
+        qs += [f"{dupla} tickets", f"{dupla} ingressos",
+               f'site:reddit.com {dupla} tickets', f'"{dupla}" entradas comprar foro']
+    for n in nomes[:2]:
+        qs += [f"{n} tickets how to buy", f'site:quora.com {n} tickets']
     if cidade:
-        qs.append(f"{cidade} {ev.get('tipo','')} tickets travel")
-    return list(dict.fromkeys(q.strip() for q in qs if q.strip()))[:5]
+        qs.append(f"{cidade} {ev.get('tipo','')} tickets travel forum")
+    return list(dict.fromkeys(q.strip() for q in qs if q.strip()))[:7]
 
 
 def nota_intencao(texto):
@@ -238,10 +243,33 @@ def do_youtube(consulta, desde):
     return achados
 
 
+def do_google(consulta, desde):
+    """Os rastros que ficam na busca: o Google guarda o pedaço do comentário, do tópico de fórum e da
+    pergunta mesmo quando a página inteira não abre. O trecho já é sinal; o resto você lê no link."""
+    chave, cx = os.environ.get("GOOGLE_CSE_KEY", ""), os.environ.get("GOOGLE_CSE_CX", "")
+    if not (chave and cx):
+        raise RuntimeError("sem GOOGLE_CSE_KEY/GOOGLE_CSE_CX")
+    meses = max(1, min(12, round(DIAS / 30) or 1))
+    url = "https://www.googleapis.com/customsearch/v1?" + urllib.parse.urlencode(
+        {"key": chave, "cx": cx, "q": consulta, "num": 10, "dateRestrict": f"m{meses}", "safe": "active"})
+    dados = baixar(url)
+    achados = []
+    for it in dados.get("items", []):
+        link = it.get("link", "")
+        dominio = urllib.parse.urlparse(link).netloc.replace("www.", "")
+        achados.append({"fonte": "Google", "onde": dominio, "autor": "",
+                        "titulo": (it.get("title", "") or "")[:200],
+                        "texto": (it.get("snippet", "") or "")[:600],
+                        "url": link, "quando": datetime.date.today().isoformat(), "trecho": True})
+    return achados
+
+
 def fontes_ativas():
     """Usa o que há de chave no ambiente; sem chave nenhuma, tenta os endpoints públicos
     (que funcionam do seu computador, mas servidores levam 403)."""
     fs = []
+    if os.environ.get("GOOGLE_CSE_KEY") and os.environ.get("GOOGLE_CSE_CX"):
+        fs.append(("Google", do_google))
     if os.environ.get("REDDIT_ID") and os.environ.get("REDDIT_SECRET"):
         fs.append(("Reddit", do_reddit_api))
     else:
@@ -292,7 +320,9 @@ def montar_fila(itens, eventos):
               "texto pronto para colar em série — resposta repetida é spam, e spam derruba a conta e a marca.",
               "Cite o nome do site, não o link: quem se interessa procura, e link solto em fórum vira denúncia.",
               "Diga que o site é seu e que há comissão. Em comunidade com regra contra divulgação, não poste:",
-              "responda no privado se a pessoa abrir espaço.", ""]
+              "responda no privado se a pessoa abrir espaço.",
+              "",
+              "O que esses sinais dizem em conjunto está em `radar/inteligencia.md`.", ""]
     if not WHATSAPP:
         linhas += ["> **Falta o WhatsApp.** Defina a variável `WHATSAPP_CONTATO` no repositório "
                    "(Settings → Secrets and variables → Actions → Variables) e os rascunhos saem com o número.", ""]
@@ -314,6 +344,140 @@ def montar_fila(itens, eventos):
                        "```",
                        ""]
     return "\n".join(linhas) + "\n"
+
+
+
+# ---------------- Inteligência: o que os sinais dizem, e o que fazer com isso ----------------
+
+PARADAS = set("""a o as os um uma de do da dos das no na nos nas em para por com que e ou se ao aos
+sem sobre como onde quando qual quais eu voce vocês ele ela isso esse essa este esta tem ter vai ir
+the a an of for to in on at and or if is are was were be been this that these those with from how
+what where when which who you your my it its el la los las un una de del y o si es son estar como
+donde cuando cual quien por para con sin sobre mas más muito muy very just can get got nao não sim""".split())
+
+# Cada padrão vira uma ação concreta quando aparece de verdade nos sinais. Nada de conselho genérico:
+# a regra só entra no relatório com a contagem e um exemplo ao lado.
+REGRAS = [
+    (("golpe", "scam", "estafa", "fake", "falso", "fraude", "legit"),
+     "Alerta de golpe", "Artigo e FAQ sobre como reconhecer vendedor confiável, no idioma em que a dúvida apareceu, "
+     "e um short de 30s com os três sinais de golpe. É o assunto que mais converte para um site que se vende como o seguro."),
+    (("revenda", "resale", "reventa", "secondary", "cambista", "tout"),
+     "Revenda", "Página explicando o que o clube aceita de revenda e o que anula o ingresso. Quem pergunta isso está "
+     "a um passo de comprar no lugar errado."),
+    (("nominal", "name change", "titular", "personalizado", "id check", "passaporte", "passport"),
+     "Ingresso nominal", "Guia do ingresso nominal por evento (já há vídeo pronto): o que fazer quando o nome não é o seu."),
+    (("setor", "section", "away", "visitante", "curva", "seats", "asiento"),
+     "Setores", "Mapa simples de setores do estádio com a visão de cada um, e onde fica a torcida visitante."),
+    (("hotel", "hospedagem", "stay", "alojamiento", "airbnb", "hostel"),
+     "Onde ficar", "Bloco de hospedagem na página do evento, com o parceiro de viagem; é a pergunta que vem logo depois do ingresso."),
+    (("quanto custa", "how much", "cuanto cuesta", "price", "preco", "preço", "precio", "caro"),
+     "Preço", "Faixa de preço atualizada na página do evento (o monitor de preços já guarda o mínimo) e um post curto comparando lotes."),
+    (("visto", "visa", "documento", "document"),
+     "Documentos", "Artigo sobre documentos e entrada no país para quem viaja só pelo jogo."),
+    (("metro", "chegar", "get there", "transport", "airport", "aeroporto"),
+     "Como chegar", "Transformar a seção 'como chegar' que já existe em short vertical: é conteúdo pronto virando vídeo."),
+    (("stream", "assistir", "watch", "transmissao", "transmissão", "tv"),
+     "Onde assistir", "A faixa AO VIVO e um post sobre onde assistir legalmente: atrai quem não vai ao estádio e "
+     "ainda assim vira público do site."),
+]
+
+
+def termos(itens, nomes_fora):
+    """Palavras e duplas que se repetem nos sinais, tirando nome de evento e palavra de ligação."""
+    conta = {}
+    for it in itens:
+        t = norm(f"{it.get('titulo','')} {it.get('texto','')}")
+        for nome in nomes_fora:
+            t = t.replace(nome, " ")
+        palavras = [p for p in t.split() if len(p) > 2 and p not in PARADAS and not p.isdigit()]
+        vistos = set()
+        for i, p in enumerate(palavras):
+            for g in (p, " ".join(palavras[i:i + 2])):
+                if g in vistos or len(g.split()) > 2:
+                    continue
+                vistos.add(g)
+                d = conta.setdefault(g, {"n": 0, "ex": it.get("url", "")})
+                d["n"] += 1
+    return sorted(conta.items(), key=lambda kv: -kv[1]["n"])
+
+
+def perguntas(itens):
+    saida = []
+    for it in itens:
+        texto = re.sub(r"\s+", " ", f"{it.get('titulo','')} {it.get('texto','')}").strip()
+        if "?" in texto or re.match(r"(?i)^(como|onde|quando|qual|how|where|when|which|d[oó]nde|cu[aá]l)\b", texto):
+            saida.append((texto[:150], it.get("url", ""), it.get("fonte", "")))
+    return saida[:12]
+
+
+def inteligencia(itens, historico, eventos):
+    """Relatório que vira plano: o que as pessoas perguntam, onde elas perguntam, e o que produzir por causa disso."""
+    base = historico + itens
+    hoje = datetime.date.today().isoformat()
+    nomes_fora = [norm(n) for ev in eventos for n in nomes_do_evento(ev)] + ["ingresso", "ingressos", "ticket", "tickets", "entradas"]
+    l = [f"# Inteligência de divulgação — {hoje}", "",
+         f"Base: {len(base)} sinal(is) guardados ({len(itens)} desta rodada). Um sinal é um pedaço de conversa",
+         "pública sobre um evento do site — às vezes só o trecho que sobrou na busca, e isso já basta para",
+         "saber o que a pessoa queria.", ""]
+    if not base:
+        l += ["Ainda não há sinal guardado. Assim que uma fonte estiver com chave, este relatório se enche sozinho",
+              "e passa a mandar no calendário de conteúdo.", ""]
+        return "\n".join(l) + "\n"
+
+    todos = termos(base, nomes_fora)
+    repetidos = [(t, d) for t, d in todos if d["n"] >= 2]
+    l += ["## O que as pessoas perguntam", ""]
+    if len(repetidos) < 5:
+        l += ["(Ainda com pouca repetição: a lista abaixo é o que apareceu, não um padrão.)", ""]
+        repetidos = todos[:10]
+    for termo, d in repetidos[:15]:
+        l.append(f"- **{termo}** — {d['n']} vez(es) · exemplo: {d['ex']}")
+    l += ["", "## Onde a conversa acontece", ""]
+    onde = {}
+    for it in base:
+        chave = f"{it.get('fonte','')} · {it.get('onde','')}".strip(" ·")
+        onde[chave] = onde.get(chave, 0) + 1
+    for chave, n in sorted(onde.items(), key=lambda kv: -kv[1])[:12]:
+        l.append(f"- {chave} — {n} sinal(is)")
+    l += ["", "Estar nesses lugares vale mais do que anunciar: entre como leitor, responda o que sabe e só cite o",
+          "site quando ele for mesmo a resposta. Comunidade percebe vendedor disfarçado em uma frase.", ""]
+
+    l += ["## Perguntas em estado bruto", "", "Use como título de artigo e de vídeo: é a dúvida com as palavras de quem tem a dúvida.", ""]
+    for texto, url, fonte in perguntas(base):
+        l.append(f"- \"{texto}\" — {fonte}: {url}")
+
+    l += ["", "## Procura por evento", ""]
+    por_ev = {}
+    for it in base:
+        por_ev[it.get("evento", "")] = por_ev.get(it.get("evento", ""), 0) + 1
+    for ev in eventos:
+        n = por_ev.get(ev["slug"], 0)
+        l.append(f"- {ev['titulo'].get('pt', ev['slug'])} — {n} sinal(is)")
+    l += ["", "Evento com muito sinal e pouca página merece conteúdo novo; evento com sinal nenhum talvez não",
+          "mereça o mesmo esforço de divulgação, por melhor que seja o jogo.", ""]
+
+    l += ["## O que produzir por causa disso", ""]
+    texto_todo = " ".join(norm(f"{i.get('titulo','')} {i.get('texto','')}") for i in base)
+    alguma = False
+    for gatilhos, nome, acao in REGRAS:
+        achados = [g for g in gatilhos if norm(g) in texto_todo]
+        if not achados:
+            continue
+        alguma = True
+        n = sum(texto_todo.count(norm(g)) for g in achados)
+        l.append(f"- **{nome}** ({n} menção(ões): {', '.join(achados[:4])}) — {acao}")
+    if not alguma:
+        l.append("- Nenhum padrão forte ainda. Com mais rodadas, as regras acima acendem sozinhas.")
+    l += ["", "## Formas de divulgar que saem daqui", "",
+          "1. **Responder perguntas reais** (radar/fila.md), uma a uma, dizendo que o site é seu.",
+          "2. **Transformar a pergunta repetida em página**: título com as palavras da pessoa, resposta completa, "
+          "e o botão de ingressos no fim. É o que o Google premia e o que a comunidade aceita como link.",
+          "3. **Short vertical por dúvida**: cada regra acima vira um vídeo de 30s com a resposta e a chamada.",
+          "4. **Pin e post sazonal**: o pico de procura começa semanas antes do jogo; o calendário sai da seção "
+          "'Procura por evento'.",
+          "5. **Parceria com quem já tem a audiência**: os domínios da seção 'Onde a conversa acontece' mostram "
+          "quem publica sobre o assunto antes de você.", ""]
+    return "\n".join(l) + "\n"
 
 
 def main():
@@ -342,7 +506,8 @@ def main():
                     if fala_do_evento(texto, ev) < 1:
                         continue
                     nota = nota_intencao(texto)
-                    if nota < 4:
+                    # o trecho do Google é curto por natureza: duas palavras de intenção já são sinal
+                    if nota < (3 if a.get("trecho") else 4):
                         continue
                     vistos.add(a["url"])
                     lang = idioma_do_texto(texto)
@@ -353,13 +518,30 @@ def main():
     itens.sort(key=lambda x: (-x["nota"], x["quando"]), reverse=False)
     itens = sorted(itens, key=lambda x: -x["nota"])[:LIMITE_FILA]
 
+    # histórico: o relatório fica melhor a cada rodada, então o que foi visto não se perde
+    try:
+        with open(os.path.join(RAIZ, "data", "mencoes.json"), encoding="utf-8") as f:
+            antes = json.load(f)
+    except (OSError, ValueError):
+        antes = {}
+    corte = (datetime.date.today() - datetime.timedelta(days=120)).isoformat()
+    historico, urls = [], {i["url"] for i in itens}
+    for i in antes.get("historico", []) + antes.get("itens", []):
+        if i.get("url") in urls or i.get("quando", "") < corte:
+            continue
+        urls.add(i["url"])
+        historico.append({k: i.get(k, "") for k in ("fonte", "onde", "titulo", "texto", "url", "quando", "evento", "nota")})
+
     os.makedirs(os.path.join(RAIZ, "radar"), exist_ok=True)
+    with open(os.path.join(RAIZ, "radar", "inteligencia.md"), "w", encoding="utf-8") as f:
+        f.write(inteligencia(itens, historico, eventos))
     with open(os.path.join(RAIZ, "radar", "fila.md"), "w", encoding="utf-8") as f:
         f.write(montar_fila(itens, eventos))
     with open(os.path.join(RAIZ, "data", "mencoes.json"), "w", encoding="utf-8") as f:
-        json.dump({"_leia": "Escrito por scripts/radar.py. Fila de conversas públicas sobre os eventos do site.",
+        json.dump({"_leia": "Escrito por scripts/radar.py. Fila de conversas públicas sobre os eventos do site "
+                            "e o histórico de 120 dias que alimenta radar/inteligencia.md.",
                    "atualizado": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-                   "falhas": falhas, "itens": itens}, f, ensure_ascii=False, indent=1)
+                   "falhas": falhas, "itens": itens, "historico": historico}, f, ensure_ascii=False, indent=1)
         f.write("\n")
 
     for linha in falhas[:6]:
