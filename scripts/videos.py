@@ -134,17 +134,42 @@ def _json_depois(html, marca):
     return None
 
 
-def _colher_videos(no, achados, vistos):
-    """Anda pelo ytInitialData juntando (videoId, título, 'há 3 dias')."""
+def _texto_de(no, limite=3):
+    """Primeiro texto com cara de título dentro de um nó (aguenta os dois formatos do YouTube:
+    title.runs/simpleText nos renderers antigos e title.content no lockupViewModel novo)."""
+    if limite < 0:
+        return ""
     if isinstance(no, dict):
-        vid = no.get("videoId")
-        tit = no.get("title")
-        if isinstance(vid, str) and re.fullmatch(r"[A-Za-z0-9_-]{11}", vid) and isinstance(tit, dict) and vid not in vistos:
-            texto = tit.get("simpleText") or "".join(r.get("text", "") for r in tit.get("runs", []) if isinstance(r, dict))
-            if texto.strip():
-                quando = (no.get("publishedTimeText") or {}).get("simpleText", "") if isinstance(no.get("publishedTimeText"), dict) else ""
+        for chave in ("simpleText", "content"):
+            v = no.get(chave)
+            if isinstance(v, str) and len(v.strip()) > 8:
+                return v.strip()
+        runs = no.get("runs")
+        if isinstance(runs, list):
+            t = "".join(r.get("text", "") for r in runs if isinstance(r, dict)).strip()
+            if len(t) > 8:
+                return t
+        for chave in ("title", "headline", "metadata", "lockupMetadataViewModel", "accessibility"):
+            if chave in no:
+                t = _texto_de(no[chave], limite - 1)
+                if t:
+                    return t
+    return ""
+
+
+def _colher_videos(no, achados, vistos):
+    """Anda pelo ytInitialData juntando (videoId, título, "há 3 dias")."""
+    if isinstance(no, dict):
+        vid = no.get("videoId") or no.get("contentId")
+        if isinstance(vid, str) and re.fullmatch(r"[A-Za-z0-9_-]{11}", vid) and vid not in vistos:
+            texto = _texto_de(no)
+            if texto:
+                quando = no.get("publishedTimeText")
+                quando = quando.get("simpleText", "") if isinstance(quando, dict) else (quando if isinstance(quando, str) else "")
+                if not quando:
+                    quando = _texto_de(no.get("metadata", {}), 2) if isinstance(no.get("metadata"), dict) else ""
                 vistos.add(vid)
-                achados.append({"yt": vid, "titulo": texto.strip(), "quando": quando})
+                achados.append({"yt": vid, "titulo": texto, "quando": quando})
         for v in no.values():
             _colher_videos(v, achados, vistos)
     elif isinstance(no, list):
@@ -172,6 +197,7 @@ def videos_da_pagina(canal_id):
         html = r.read().decode("utf-8", "replace")
     dados = _json_depois(html, "ytInitialData")
     if dados is None:
+        print(f"  ! não achei o ytInitialData na aba /videos de {canal_id} ({len(html)} bytes)")
         return "", []
     achados, vistos = [], set()
     _colher_videos(dados, achados, vistos)
@@ -179,6 +205,7 @@ def videos_da_pagina(canal_id):
     meta = re.search(r'<meta property="og:title" content="([^"]{1,80})"', html)
     if meta:
         nome = meta.group(1)
+    print(f"  · aba /videos de {canal_id}: {len(achados)} vídeo(s) lidos da página")
     itens = [{"yt": a["yt"], "titulo": a["titulo"], "publicado": _data_aproximada(a["quando"]), "descricao": ""}
              for a in achados[:30]]
     return nome, itens
