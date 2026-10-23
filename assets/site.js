@@ -440,7 +440,7 @@ function pauseBox(box){
 function muteOthers(except){
   document.querySelectorAll(".yt.sound").forEach(b => { if (b !== except){ b.classList.remove("sound"); if (b.__video) b.__video.muted = true; if (b.__frame) ytCmd(b, "mute"); } });
 }
-const boxes = document.querySelectorAll(".yt[data-yt]:not([data-noauto]), .yt[data-mp4]:not([data-noauto])");
+const boxes = document.querySelectorAll(".yt[data-yt], .yt[data-mp4]");
 if (boxes.length){
   const saveData = navigator.connection && navigator.connection.saveData;
   const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -448,9 +448,41 @@ if (boxes.length){
     // Metade do bloco visível = toca; saiu = pausa. Checagem por posição (scroll/resize/load) e, quando existe,
     // também pelo IntersectionObserver; a dupla garante o autoplay mesmo onde o observer demora a disparar.
     let agendado = false;
-    const visivel = b => { const r = b.getBoundingClientRect(), h = innerHeight || document.documentElement.clientHeight; const vis = Math.min(r.bottom, h) - Math.max(r.top, 0); return r.height > 0 && vis / r.height >= 0.5; };
-    const aplicar = b => { if (visivel(b)){ b.classList.contains("on") ? (b.__pausedByView && resumeBox(b, false)) : startBox(b, false); b.__pausedByView = false; } else if (b.classList.contains("on") && !b.__pausedByView){ pauseBox(b); b.__pausedByView = true; } };
-    const checar = () => { agendado = false; boxes.forEach(aplicar); };
+    // Quantos podem tocar ao mesmo tempo. O vídeo que aparece corre sozinho, sem som; o que sai da tela
+    // pausa, e quem fica muito tempo fora devolve o player para a memória não encher com os carrosséis.
+    const MAX = navigator.connection && /2g|3g/.test(navigator.connection.effectiveType || "") ? 1
+              : (innerWidth < 900 ? 2 : 3);
+    const visivel = b => { const r = b.getBoundingClientRect(), h = innerHeight || document.documentElement.clientHeight; const vis = Math.min(r.bottom, h) - Math.max(r.top, 0); const lv = Math.min(r.right, innerWidth) - Math.max(r.left, 0); return r.height > 0 && vis / r.height >= 0.5 && lv / r.width >= 0.5; };
+    const soltar = b => {
+      if (b.__frame){ b.__frame.remove(); b.__frame = null; }
+      if (b.__video){ b.__video.pause(); b.__video.remove(); b.__video = null; }
+      b.classList.remove("on", "sound", "yt-ctl", "paused");
+      b.__pausedByView = false;
+    };
+    const aplicar = b => {
+      if (visivel(b)){
+        clearTimeout(b.__solta);
+        if (b.classList.contains("on")){ if (b.__pausedByView) resumeBox(b, false); b.__pausedByView = false; return true; }
+        return false;   // candidato a começar, se houver vaga
+      }
+      if (b.classList.contains("on") && !b.__pausedByView){
+        pauseBox(b); b.__pausedByView = true;
+        clearTimeout(b.__solta);
+        b.__solta = setTimeout(() => { if (!visivel(b)) soltar(b); }, 10000);
+      }
+      return true;
+    };
+    const checar = () => {
+      agendado = false;
+      const candidatos = [];
+      boxes.forEach(b => { if (!aplicar(b)) candidatos.push(b); });
+      let tocando = 0;
+      boxes.forEach(b => { if (b.classList.contains("on") && !b.__pausedByView) tocando++; });
+      for (const b of candidatos){
+        if (tocando >= MAX) break;
+        startBox(b, false); b.__pausedByView = false; tocando++;
+      }
+    };
     const pedir = () => { if (!agendado){ agendado = true; requestAnimationFrame(checar); } };
     addEventListener("scroll", pedir, { passive: true }); addEventListener("resize", pedir); addEventListener("load", pedir);
     document.addEventListener("visibilitychange", () => { if (document.hidden) boxes.forEach(b => b.classList.contains("on") && pauseBox(b)); else pedir(); });
@@ -500,9 +532,9 @@ if (vivo){
   try { docks = JSON.parse(vivo.dataset.docks || "{}"); } catch (e) {}
   const esc = v => String(v == null ? "" : v).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
   const PLAY_SVG = '<svg viewBox="0 0 68 48" width="68" height="48" aria-hidden="true"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.4 0 34 0 34 0S12.6 0 7.4 1.7c-2.9.8-5.1 3.1-5.9 6C0 13 0 24 0 24s0 11 1.5 16.3c.8 2.9 3 5.2 5.9 6C12.6 48 34 48 34 48s21.4 0 26.6-1.7c2.9-.8 5.1-3.1 5.9-6C68 35 68 24 68 24s0-11-1.5-16.3z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>';
-  const player = (t, auto) => {
+  const player = t => {
     const yt = esc(t.yt), tit = esc(t.titulo), play = esc(vivo.dataset.play);
-    return '<div class="yt"' + (auto ? '' : ' data-noauto') + ' data-yt="' + yt + '" data-title="' + tit + '">' +
+    return '<div class="yt" data-yt="' + yt + '" data-title="' + tit + '">' +
       '<img src="https://i.ytimg.com/vi/' + yt + '/hqdefault.jpg" alt="' + tit + '" loading="lazy" decoding="async" width="480" height="360">' +
       '<button type="button" class="yt-play" aria-label="' + play + '">' + PLAY_SVG + '</button>' +
       '<span class="yt-sound" aria-hidden="true">' + play + '</span></div>';
@@ -530,10 +562,10 @@ if (vivo){
       const slot = vivo.querySelector(".vivo-slot");
       if (lista.length === 1){
         const t = lista[0];
-        slot.innerHTML = player(t, true) + '<div class="vivo-info"><h3>' + esc(t.titulo) + '</h3>' + credito(t) + acoes(t) + aviso(t) + '</div>';
+        slot.innerHTML = player(t) + '<div class="vivo-info"><h3>' + esc(t.titulo) + '</h3>' + credito(t) + acoes(t) + aviso(t) + '</div>';
       } else {
         const cartoes = lista.map((t, i) =>
-          '<article class="vcard">' + player(t, i === 0) +
+          '<article class="vcard">' + player(t) +
             '<div class="vcard-body"><h3>' + esc(t.titulo) + '</h3>' + credito(t) + acoes(t) + aviso(t) + '</div>' +
           '</article>').join("");
         if (lista.length > 2){

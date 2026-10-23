@@ -861,11 +861,9 @@ def cartoes_vitrine(lang, pagina, v):
     vids = [x for x in v.get("videos", []) if re.fullmatch(r"[A-Za-z0-9_-]{11}", x.get("yt", ""))]
     partes = []
     for i, x in enumerate(vids):
-        # só o primeiro cartão toca sozinho ao entrar na tela; os outros esperam o toque,
-        # senão um carrossel com oito vídeos abriria oito players de uma vez
+        # o vídeo que aparece toca sozinho e sem som; o assets/site.js limita quantos correm ao
+        # mesmo tempo e devolve o player quando o cartão sai da tela
         tela = facade_video(x, lang, pagina)
-        if i:
-            tela = tela.replace('<div class="yt"', '<div class="yt" data-noauto', 1)
         partes.append(f'<article class="vcard">{tela}<div class="vcard-body">'
                       f'<h3>{e(titulo_video(x, lang))}</h3><p>{credito_video(x)}</p>'
                       f'<div class="vcard-actions">{mag(parceiro(lang, v["dock"]), e(vx["ingressos"]), "btn btn-signal btn-sm")}</div>'
@@ -944,8 +942,7 @@ def faixa_videos_home(lang, pagina, eventos, n=8):
     if not vs:
         return ""
     vx = C.VIDEOS_TXT[lang]
-    cards = "".join((c if i == 0 else c.replace('<div class="yt"', '<div class="yt" data-noauto', 1))
-                    for i, c in enumerate(cartao_video(v, lang, pagina, eventos) for v in vs))
+    cards = "".join(cartao_video(v, lang, pagina, eventos) for v in vs)
     return f"""<section class="band" id="videos" aria-labelledby="vh-h">
   <div class="wrap">
     <div class="sec-head"><div><p class="kicker">{e(vx['k'])}</p><h2 id="vh-h" data-scramble>{e(vx['h'])}</h2></div>{bola3d('futebol')}<a class="btn btn-ghost btn-sm" href="{rel(pagina, vx['path'])}">{e(vx['todos'])} →</a></div>
