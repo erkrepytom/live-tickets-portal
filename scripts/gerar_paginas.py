@@ -1256,7 +1256,9 @@ def home(lang, eventos, noticias, hubs):
   </div>
 </section>
 
-<section class="band" id="partidas" aria-labelledby="board-h">
+{faixa_videos_home(lang, pagina, eventos)}
+
+<section class="band" id="partidas" aria-labelledby="board-h" style="padding-top:0">
   <div class="wrap">
     <div class="sec-head"><div><p class="kicker">{e(t['board_kicker'])}</p><h2 id="board-h" data-scramble>{e(t['board_h'])}</h2></div><p>{e(t['board_sub'])}</p></div>
     <div class="board">
@@ -1324,7 +1326,6 @@ if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new Intersecti
     </div>
   </div>
 </section>
-{faixa_videos_home(lang, pagina, eventos)}
 {noticias_html}
 {alertas(lang, eventos)}
 </main>
