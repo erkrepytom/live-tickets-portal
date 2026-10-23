@@ -8,5 +8,7 @@ Cite o nome do site, não o link: quem se interessa procura, e link solto em fó
 Diga que o site é seu e que há comissão. Em comunidade com regra contra divulgação, não poste:
 responda no privado se a pessoa abrir espaço.
 
+O que esses sinais dizem em conjunto está em `radar/inteligencia.md`.
+
 > **Falta o WhatsApp.** Defina a variável `WHATSAPP_CONTATO` no repositório (Settings → Secrets and variables → Actions → Variables) e os rascunhos saem com o número.
 
