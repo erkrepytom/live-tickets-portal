@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-23T07:41:11+00:00",
+ "atualizado": "2026-10-23T13:35:00+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Palmeiras cita \"bons ventos\" e provoca Flamengo por eliminação na Libertadores: \"Humildade\"",
-     "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/23/palmeiras-cita-bons-ventos-e-provoca-flamengo-apos-eliminacao-na-libertadores-humildade.ghtml",
+     "t": "Palmeiras chega à sua 8ª final da Libertadores; veja bastidores",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-chega-a-sua-8a-final-da-libertadores-veja-bastidores/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Melhores momentos: Flamengo 0 x 0 Estudiantes de La Plata pela Libertadores",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/melhores-momentos-flamengo-0-x-0-estudiantes-de-la-plata-pela-libertadores/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Conheça Richard Wendel e Andrey, joias do Fluminense convocadas pela Seleção para o Mundial sub-17",
+     "u": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/23/conheca-richard-wendel-e-andrey-joias-do-fluminense-convocadas-pela-selecao-para-o-mundial-sub-17.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Veja a galeria de memes da eliminação do Flamengo na Libertadores",
-     "u": "https://www.gazetaesportiva.com/times/flamengo/memes-eliminacao-flamengo-libertadores-2026/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Final da Libertadores 2026: saiba data e local de Palmeiras x Estudiantes",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/final-libertadores-2026-palmeiras-estudiantes-data-local/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Quem volta? Entenda situação do DM do Botafogo antes de jogo contra o Internacional",
-     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/23/quem-volta-entenda-situacao-do-dm-do-botafogo-antes-de-jogo-contra-o-internacional.ghtml",
+     "t": "Flamengo sai da Libertadores invicto, mas decepção e sequência ruim elevam pressão no Brasileiro",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/23/flamengo-sai-da-libertadores-invicto-mas-decepcao-e-sequencia-ruim-elevam-pressao-no-brasileiro.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,8 +45,14 @@
    },
    "noticias": [
     {
-     "t": "AC Milan renew interest in Real Madrid forward but receive clear response from the club – report",
-     "u": "https://sports.yahoo.com/articles/ac-milan-renew-interest-real-072000938.html",
+     "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
+     "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-for-friday-oct-23/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Yahoo Perfect 5: Dan Titus' $15 lineup for Friday's Knicks-Celtics and Spurs-Rockets slate",
+     "u": "https://sports.yahoo.com/fantasy/article/yahoo-perfect-5-dan-titus-15-lineup-for-fridays-knicks-celtics-and-spurs-rockets-slate-132943213.html",
      "f": "Yahoo Sports",
      "alta": false
     },
@@ -57,14 +63,8 @@
      "alta": false
     },
     {
-     "t": "Patriots vs. Bears odds, first touchdown scorer picks, predictions for NFL Week 7 Thursday Night Football",
-     "u": "https://www.cbssports.com/prediction/news/patriots-vs-bears-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-7-thursday-night-football/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Michael Carrick blamed for Bruno Fernandes tactical mutiny after failing to discipline Lisandro Martinez at Manchester United",
-     "u": "https://sports.yahoo.com/articles/michael-carrick-blamed-bruno-fernandes-072743108.html",
+     "t": "Pep Chavarria Injury Status for Chelsea vs Tottenham Confirmed",
+     "u": "https://sports.yahoo.com/articles/pep-chavarria-injury-status-chelsea-132404693.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Estudiantes bate Flamengo de Leonardo Jardim e defronta Palmeiras de Abel na final da Libertadores",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/libertadores/detalhe/estudiantes-bate-flamengo-de-leonardo-jardim-e-defronta-palmeiras-de-abel-na-final-da-libertadores",
+     "t": "De Edimburgo a Paris: revelado o percurso completo da Volta a França 2027",
+     "u": "https://www.abola.pt/noticias/de-edimburgo-a-paris-revelado-o-percurso-completo-da-volta-a-franca-2027-2026102211022153997",
+     "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "Vírus Shamonda, que se pensava ser intransmissível aos humanos, faz vítima mortal em França",
+     "u": "https://www.abola.pt/noticias/virus-shamonda-que-se-pensava-ser-intransmissivel-aos-humanos-faz-vitima-mortal-em-franca-2026102211212591216",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Luís Pinto e o FC Porto: «Ganhar muitas vezes aumenta o sentido de responsabilidade»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/gil-vicente/detalhe/luis-pinto-e-o-fc-porto-ganhar-muitas-vezes-aumenta-o-sentido-de-responsabilidade",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Atenção, Sporting: Shakhtar perde em San Siro contra 10 jogadores",
-     "u": "https://www.abola.pt/noticias/atencao-sporting-shakhtar-perde-em-san-siro-contra-10-jogadores-2026102120372847279",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "«O Sporting começa a ter um problema igual ao do Benfica na baliza»",
-     "u": "https://www.abola.pt/video/o-sporting-comeca-a-ter-um-problema-igual-ao-do-benfica-na-baliza-2026102117594372902",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "FC Porto ataca o melhor arranque no campeonato desde 1939/40",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/fc-porto-ataca-o-melhor-arranque-no-campeonato-desde-1939-40",
+     "t": "PSG-Lyon adiado devido a ordem policial e jogo será... durante a gala da Bola de Ouro",
+     "u": "https://www.record.pt/internacional/paises/franca/detalhe/psg-lyon-adiado-devido-a-ordem-policial-e-jogo-sera-durante-a-gala-da-bola-de-ouro",
      "f": "Record",
      "alta": false
     }
@@ -113,20 +113,20 @@
    },
    "noticias": [
     {
+     "t": "Real Madrid TV ya presiona al árbitro del Clásico",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261023/1004242299/real-madrid-tv-presiona-arbitro-clasico.html",
+     "f": "Mundo Deportivo",
+     "alta": true
+    },
+    {
      "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
      "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "81-89: El Barça mejora su imagen y gana en Milán",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261022/1004242049/81-89-barca-mejora-imagen-gana-milan.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Ronald Araujo encuentra el fútbol y la felicidad en Liverpool",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261023/1004241912/ronald-araujo-encuentra-futbol-felicidad-liverpool.html",
+     "t": "El Barça estará en el primer Mundial de Clubs de 2028",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261023/1004242151/barca-estara-primer-mundial-clubes-2028.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -153,21 +153,21 @@
      "alta": false
     },
     {
-     "t": "Manchester United bin-fire keeps blazing and Arsenal draw at Bayern | Football Weekly Extra – video",
-     "u": "https://www.theguardian.com/football/video/2026/oct/22/manchester-united-bin-fire-keeps-blazing-and-arsenal-draw-at-bayern-football-weekly-extra-video",
+     "t": "Carrick ‘100%’ sure he can lead United forward; Dortmund take on the influencers: football – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "The rising French star whose dad won Rugby World Cup with England",
-     "u": "https://www.bbc.co.uk/sport/tennis/articles/cqe9ldmdpxzzo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Rugby League World Cup 2026: Latest results and schedule",
+     "u": "https://www.skysports.com/rugby-league/news/12040/13598071/rugby-league-world-cup-2026-schedule-dates-format-results-from-mens-womens-and-wheelchair-tournaments",
+     "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Lewis named on England bench as Ashton replaces Eckersley for France",
+     "u": "https://www.skysports.com/rugby-league/news/12040/13601200/rugby-league-world-cup-mikey-lewis-on-bench-as-england-unchanged-for-clash-vs-france-despite-opening-defeat",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
+     "t": "“Atlético Mineiro es mucho más equipo que Boca”: la sentencia de una ex figura del Real Madrid que calentó la final de la Sudamericana",
+     "u": "https://www.infobae.com/deportes/2026/10/23/atletico-mineiro-es-mucho-mas-equipo-que-boca-la-sentencia-de-una-ex-figura-del-real-madrid-que-calento-la-final-de-la-sudamericana/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
      "t": "Con Muslera como héroe, Estudiantes eliminó por penales a Flamengo y enfrentará al Palmeiras en la final de la Copa Libertadores",
      "u": "https://www.infobae.com/deportes/2026/10/22/estudiantes-de-la-plata-va-por-el-golpe-ante-flamengo-en-el-maracana-para-clasificarse-a-la-final-de-la-copa-libertadores-hora-tv-y-formaciones/",
      "f": "Infobae",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Cuándo y dónde se jugará la final de la Copa Libertadores entre Estudiantes y Palmeiras: el histórico estadio que será sede",
-     "u": "https://www.infobae.com/deportes/2026/10/23/cuando-y-donde-se-jugara-la-final-de-la-copa-libertadores-entre-estudiantes-y-palmeiras-el-historico-estadio-que-sera-sede/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
-     "t": "Estudiantes vs. Palmeiras: cuándo y dónde se juega la final de la Copa Libertadores 2026",
-     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/final-copa-libertadores-palmeiras-vs-flamengo-estudiantes-dia-hora-ver-tv-online_0_mkakAiczz7.html",
+     "t": "Qué dijeron los jugadores de Flamengo tras la eliminación ante Estudiantes",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/declaraciones-flamengo-eliminacion-estudiantes-semifinal-copa-libertadores_0_bxrusCCvOo.html",
      "f": "Olé",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Maracanazo: Estudiantes sacó su mística copera, eliminó a Flamengo y va por la Libertadores",
-     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flamengo-vs-estudiantes-vivo-semis-copa-libertadores-dia-hora-ver-tv-online-formaciones_0_54cgvQCdxf.html",
+     "t": "Estudiantes finalista de la Libertadores: la felicitación de Claudio Tapia a “su presidente” y la diferencia con Riquelme",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/estudiantes-finalista-copa-libertadores-maracana-felicitacion-claudio-tapia-afa-presidente-veron-nombrarlo-diferencia-riquelme-boca_0_maTv89oCLC.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Le résumé de Oklahoma City Thunder - Denver Nuggets avec les 21 points de Jalen Williams",
-     "u": "https://www.lequipe.fr/Basket/Video/Nba-le-resume-de-oklahoma-city-thunder-denver-nuggets-avec-les-21-points-de-jalen-williams/20243889#at_medium=RSS_feeds",
+     "t": "Le choc de la Ligue 1 en même temps que le Ballon d'Or : PSG-OL officiellement décalé à lundi",
+     "u": "https://www.lequipe.fr/Football/Actualites/Le-choc-de-la-ligue-1-en-meme-temps-que-le-ballon-d-or-psg-ol-officiellement-decale-a-lundi/1738032#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Oklahoma City domine Denver malgré la soirée difficile de Shai Gilgeous-Alexander en NBA",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Oklahoma-city-domine-denver-malgre-la-soiree-difficile-de-shai-gilgeous-alexander-en-nba/1737961#at_medium=RSS_feeds",
+     "t": "Barça-Real Madrid : DAZN baisse son prix",
+     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Barca-real-madrid-dazn-baisse-son-prix-a-7-99-et-8364-mois-juste-avant-le-clasico/1737271#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,31 +253,31 @@
  ],
  "destaques": [
   {
-   "t": "Palmeiras cita \"bons ventos\" e provoca Flamengo por eliminação na Libertadores: \"Humildade\"",
-   "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/23/palmeiras-cita-bons-ventos-e-provoca-flamengo-apos-eliminacao-na-libertadores-humildade.ghtml",
-   "f": "ge",
+   "t": "Palmeiras chega à sua 8ª final da Libertadores; veja bastidores",
+   "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-chega-a-sua-8a-final-da-libertadores-veja-bastidores/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "AC Milan renew interest in Real Madrid forward but receive clear response from the club – report",
-   "u": "https://sports.yahoo.com/articles/ac-milan-renew-interest-real-072000938.html",
-   "f": "Yahoo Sports",
+   "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
+   "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-for-friday-oct-23/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Estudiantes bate Flamengo de Leonardo Jardim e defronta Palmeiras de Abel na final da Libertadores",
-   "u": "https://www.record.pt/internacional/competicoes-de-clubes/libertadores/detalhe/estudiantes-bate-flamengo-de-leonardo-jardim-e-defronta-palmeiras-de-abel-na-final-da-libertadores",
-   "f": "Record",
-   "alta": false,
+   "t": "De Edimburgo a Paris: revelado o percurso completo da Volta a França 2027",
+   "u": "https://www.abola.pt/noticias/de-edimburgo-a-paris-revelado-o-percurso-completo-da-volta-a-franca-2027-2026102211022153997",
+   "f": "A Bola",
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
-   "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
-   "f": "Marca",
-   "alta": false,
+   "t": "Real Madrid TV ya presiona al árbitro del Clásico",
+   "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261023/1004242299/real-madrid-tv-presiona-arbitro-clasico.html",
+   "f": "Mundo Deportivo",
+   "alta": true,
    "pais": "ES"
   },
   {
@@ -288,10 +288,10 @@
    "pais": "GB"
   },
   {
-   "t": "Con Muslera como héroe, Estudiantes eliminó por penales a Flamengo y enfrentará al Palmeiras en la final de la Copa Libertadores",
-   "u": "https://www.infobae.com/deportes/2026/10/22/estudiantes-de-la-plata-va-por-el-golpe-ante-flamengo-en-el-maracana-para-clasificarse-a-la-final-de-la-copa-libertadores-hora-tv-y-formaciones/",
+   "t": "“Atlético Mineiro es mucho más equipo que Boca”: la sentencia de una ex figura del Real Madrid que calentó la final de la Sudamericana",
+   "u": "https://www.infobae.com/deportes/2026/10/23/atletico-mineiro-es-mucho-mas-equipo-que-boca-la-sentencia-de-una-ex-figura-del-real-madrid-que-calento-la-final-de-la-sudamericana/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Le résumé de Oklahoma City Thunder - Denver Nuggets avec les 21 points de Jalen Williams",
-   "u": "https://www.lequipe.fr/Basket/Video/Nba-le-resume-de-oklahoma-city-thunder-denver-nuggets-avec-les-21-points-de-jalen-williams/20243889#at_medium=RSS_feeds",
+   "t": "Le choc de la Ligue 1 en même temps que le Ballon d'Or : PSG-OL officiellement décalé à lundi",
+   "u": "https://www.lequipe.fr/Football/Actualites/Le-choc-de-la-ligue-1-en-meme-temps-que-le-ballon-d-or-psg-ol-officiellement-decale-a-lundi/1738032#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
