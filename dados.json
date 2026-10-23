@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-23T18:29:21+00:00",
+ "atualizado": "2026-10-23T22:19:46+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Flamengo x Atlético-MG - Campeonato Brasileiro 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/26-10-2026/flamengo-atletico-mg.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Carlos Vinicius garante foco no Grêmio em reta final do contrato; Atlético-MG fez sondagem",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/23/carlos-vinicius-garante-foco-no-gremio-apesar-de-sondagem-do-atletico-mg-e-contrato-no-fim.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Iraola ‘ignora’ jejum do Liverpool em casa na Premier League",
-     "u": "https://www.gazetaesportiva.com/times/liverpool/iraola-ignora-jejum-do-liverpool-em-casa-na-premier-league/",
+     "t": "Protestos na França adiam duelo entre PSG e Lyon",
+     "u": "https://www.gazetaesportiva.com/times/paris-saint-germain/protestos-na-franca-adiam-duelo-entre-psg-e-lyon/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Van de Ven comanda treino de academia do Tottenham antes do clássico com o Chelsea",
-     "u": "https://www.gazetaesportiva.com/times/tottenham/van-de-ven-comanda-treino-de-academia-do-tottenham-antes-do-classico-com-o-chelsea/",
+     "t": "Com retorno de Edenilson, Botafogo desembarca em Porto Alegre para enfrentar o Internacional",
+     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/23/com-retornos-de-monzon-e-edenilson-botafogo-desembarca-em-porto-alegre-para-enfrentar-o-internacional.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Palpites e dicas para Internacional x Botafogo pelo Brasileirão",
+     "u": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/23/palpites-e-dicas-para-internacional-x-botafogo-pelo-brasileirao.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Atlético-MG se torna o segundo brasileiro com mais finais continentais no século XXI",
+     "u": "https://www.gazetaesportiva.com/times/atletico-mg/atletico-mg-se-torna-o-segundo-brasileiro-com-mais-finais-continentais-no-seculo-xxi/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Footy Fix: How to watch, live stream El Clasico as Real Madrid and Barcelona square off",
-     "u": "https://www.cbssports.com/soccer/news/footy-fix-how-to-watch-live-stream-el-clasico-real-madrid-barcelona/",
+     "t": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Brewers-Rays World Series Game 1, Knicks-Celtics",
+     "u": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-brewers-rays-world-series-game-1-knicks-celtics/",
      "f": "CBS Sports",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "NBA DFS: Top DraftKings, FanDuel daily Fantasy basketball picks for Friday, Oct. 23 include Anthony Davis",
-     "u": "https://www.cbssports.com/betting/news/nba-dfs-top-draftkings-fanduel-daily-fantasy-basketball-picks-for-friday-october-23-2026/",
+     "t": "Today's top games to watch, best bets, odds: Brewers vs. Rays World Series Game 1, Knicks at Celtics and more",
+     "u": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-brewers-vs-rays-world-series-game-1-knicks-at-celtics-and-more/",
      "f": "CBS Sports",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Dani Olmo happy at Barcelona as January move to Bayern Munich is ruled out – report",
-     "u": "https://sports.yahoo.com/articles/dani-olmo-happy-barcelona-january-181300150.html",
+     "t": "Gladbach ends winless start in Bundesliga and Torino wins third straight in Serie A",
+     "u": "https://sports.yahoo.com/articles/gladbach-ends-winless-start-bundesliga-221045811.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Discipline of guarding 24 seconds: Scheierman on how Boston Celtics beat Knicks",
-     "u": "https://sports.yahoo.com/articles/discipline-guarding-24-seconds-scheierman-181147208.html",
+     "t": "Knicks’ fatal flaw that will doom 2027 NBA championship chances",
+     "u": "https://sports.yahoo.com/articles/knicks-fatal-flaw-doom-2027-220901448.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Bayern faz esclarecimento sobre Kompany: «Estava a assistir ao treino da equipa B e desmaiou»",
-     "u": "https://www.record.pt/internacional/paises/alemanha/bayern-munique/detalhe/bayern-faz-esclarecimento-sobre-kompany-estava-a-assistir-ao-treino-da-equipa-b-e-desmaiou",
+     "t": "João Cancelo lança o Barcelona-Real Madrid: «Espero que consigamos sacar a vitória»",
+     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/joao-cancelo-lanca-o-barcelona-real-madrid-espero-que-consigamos-sacar-a-vitoria",
      "f": "Record",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Benfica quer «mandar em casa» frente ao Sporting",
-     "u": "https://www.abola.pt/noticias/benfica-quer-mandar-em-casa-frente-ao-sporting-2026102216200783030",
+     "t": "Mais um para a conta: a classe do ex-Benfica que continua em grande em Itália (vídeo)",
+     "u": "https://www.abola.pt/noticias/mais-um-para-a-conta-a-classe-do-ex-benfica-que-continua-em-grande-em-italia-video-2026102320153833933",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Francês Milan Robin de pedra e cal no meio-campo do Estoril",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/estoril/detalhe/frances-milan-robin-de-pedra-e-cal-no-meio-campo-do-estoril",
+     "t": "Sete golos em sete jogos na Serie A: Gustavo Varela voltou a marcar mas não evitou derrota do Monza",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/sete-golos-em-sete-jogos-na-serie-a-gustavo-varela-voltou-a-marcar-mas-nao-evitou-derrota-do-monza",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Bruno Fernandes pode deixar de ser capitão do Manchester United? Carrick não foi claro",
-     "u": "https://www.abola.pt/noticias/bruno-fernandes-pode-deixar-de-ser-capitao-do-manchester-united-carrick-nao-foi-claro-2026102313522269463",
+     "t": "NBA: Anthony Edwards estraga estreia de Giannis nos Heat",
+     "u": "https://www.abola.pt/noticias/nba-anthony-edwards-estraga-estreia-de-giannis-nos-heat-2026102207433409506",
      "f": "A Bola",
      "alta": false
     }
@@ -112,6 +112,12 @@
     "es": "España"
    },
    "noticias": [
+    {
+     "t": "Mensaje de felicitación del FC Barcelona",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261023/1004242416/mensaje-felicitacion-fc-barcelona-leo-messi.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
     {
      "t": "80-84: Dabone se sale del mapa y el Barça tumba al Real Madrid en el primer Clásico",
      "u": "https://www.mundodeportivo.com/baloncesto/liga-u/20261023/1004242382/dabone-sale-mapa-barca-tumba-real-madrid-primer-clasico.html",
@@ -129,12 +135,6 @@
      "u": "https://www.marca.com/motor/mas-motor/2026/10/21/maria-herrera-reina-motos-quiero-llevar-mundial-femenino-motogp.html",
      "f": "Marca",
      "alta": false
-    },
-    {
-     "t": "El Barça cierra la emisión de los restantes 105 millones en bonos",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261023/1004242313/barca-cierra-emision-restantes-105-millones-bonos.html",
-     "f": "Mundo Deportivo",
-     "alta": false
     }
    ]
   },
@@ -147,8 +147,8 @@
    },
    "noticias": [
     {
-     "t": "United States GP: Leclerc leading Verstappen in practice in upgraded Ferrari LIVE!",
-     "u": "https://www.skysports.com/f1/live-blog/12040/13601266/f1-united-states-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-austin",
+     "t": "Leclerc tops first USA practice as upgraded Ferrari shows early promise",
+     "u": "https://www.skysports.com/f1/news/12040/13602755/united-states-gp-charles-leclerc-fastest-in-upgraded-ferrari-in-first-practice-in-austin-as-mercedes-rivals-introduce-updates",
      "f": "Sky Sports",
      "alta": false
     },
@@ -165,9 +165,9 @@
      "alta": false
     },
     {
-     "t": "Arsenal fear Saka could be out for two months",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cmwyql6v5q82o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Hamilton eyes staying in F1 into 2030s to race in African GP",
+     "u": "https://www.skysports.com/f1/news/12040/13602759/lewis-hamilton-ferrari-driver-eyes-continuing-his-f1-career-into-the-2030s-to-race-at-first-african-gp",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,20 @@
    },
    "noticias": [
     {
-     "t": "Preocupación en Alemania: el entrenador del Bayern Múnich Vincent Kompany se desplomó en la práctica y fue trasladado de urgencia al hospital",
-     "u": "https://www.infobae.com/deportes/2026/10/23/preocupacion-en-alemania-el-entrenador-del-bayern-munich-vincent-kompany-se-desplomo-en-la-practica-y-fue-trasladado-de-urgencia-al-hospital/",
+     "t": "Problemas para Franco Colapinto: deberá cumplir una penalización de 10 puestos en el Gran Premio de Estados Unidos de Fórmula 1",
+     "u": "https://www.infobae.com/deportes/2026/10/23/problemas-para-franco-colapinto-debera-cumplir-una-penalizacion-de-10-puestos-en-el-gran-premio-de-estados-unidos/",
      "f": "Infobae",
-     "alta": true
-    },
-    {
-     "t": "“Lo logré, papi”: la conmovedora decisión de Boca con el hijo de Fernando Gayoso, histórico entrenador de arqueros",
-     "u": "https://www.infobae.com/deportes/2026/10/23/lo-logre-papi-la-conmovedora-decision-de-boca-con-el-hijo-de-fernando-gayoso-historico-entrenador-de-arqueros/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
-     "t": "Kily González, sobre el regreso de Messi al Inter Miami: “Tenemos que sentirnos orgullosos”",
-     "u": "https://www.ole.com.ar/mls/inter-miami/lionel-messi-kily-gonzalez-inter-miami-premio-princesa-asturias-espana_0_at1JUCD7ps.html",
-     "f": "Olé",
      "alta": false
     },
     {
-     "t": "Ronaldinho confirmó la fecha en la que volverá a jugar al fútbol profesional con 46 años",
-     "u": "https://www.ole.com.ar/futbol-internacional/ronaldinho-regresa-jugar-46-anos-11-anos-despues-retiro-seriec-italia_0_9RapAa9ha4.html",
+     "t": "La respuesta de Franco Colapinto cuando le preguntaron si el nuevo Gran Premio en África complica el proyecto de traer la Fórmula 1 a la Argentina",
+     "u": "https://www.infobae.com/deportes/2026/10/23/la-respuesta-de-franco-colapinto-cuando-le-preguntaron-si-el-nuevo-gran-premio-en-africa-complica-el-proyecto-de-traer-la-formula-1-a-la-argentina/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "La especial dedicatoria de Tiago Palacios a un ex compañero tras clasificar a la final de la Libertadores: \"Estamos acá gracias a vos\"",
+     "u": "https://www.ole.com.ar/estudiantes/especial-dedicatoria-tiago-palacios-estudiantes-final-copa-libertadores-excompanero-mikel-amondarain-dijo_0_dabBFrdOIx.html",
      "f": "Olé",
      "alta": false
     }
@@ -243,8 +237,8 @@
      "alta": false
     },
     {
-     "t": "Alex Lanier rincé, Christo Popov au lit et Delrue/Gicquel au taquet : le baromètre des demi-finalistes français aux Internationaux de France",
-     "u": "https://www.lequipe.fr/Badminton/Actualites/Alex-lanier-rince-christo-popov-au-lit-et-delrue-gicquel-au-taquet-le-barometre-des-demi-finalistes-francais-aux-internationaux-de-france/1738156#at_medium=RSS_feeds",
+     "t": "Guillaume Cizeron, qui démarre la saison avec Laurence Fournier Beaudry au Grand Prix de France : « Le trac sera toujours là »",
+     "u": "https://www.lequipe.fr/Patinage-artistique/Actualites/Guillaume-cizeron-qui-demarre-la-saison-avec-laurence-fournier-beaudry-au-grand-prix-de-france-le-trac-sera-toujours-la/1738175#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +247,45 @@
  ],
  "destaques": [
   {
-   "t": "Flamengo x Atlético-MG - Campeonato Brasileiro 2026 - globoesporte.com",
-   "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/26-10-2026/flamengo-atletico-mg.ghtml",
-   "f": "ge",
+   "t": "Protestos na França adiam duelo entre PSG e Lyon",
+   "u": "https://www.gazetaesportiva.com/times/paris-saint-germain/protestos-na-franca-adiam-duelo-entre-psg-e-lyon/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Footy Fix: How to watch, live stream El Clasico as Real Madrid and Barcelona square off",
-   "u": "https://www.cbssports.com/soccer/news/footy-fix-how-to-watch-live-stream-el-clasico-real-madrid-barcelona/",
+   "t": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Brewers-Rays World Series Game 1, Knicks-Celtics",
+   "u": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-brewers-rays-world-series-game-1-knicks-celtics/",
    "f": "CBS Sports",
-   "alta": false,
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Bayern faz esclarecimento sobre Kompany: «Estava a assistir ao treino da equipa B e desmaiou»",
-   "u": "https://www.record.pt/internacional/paises/alemanha/bayern-munique/detalhe/bayern-faz-esclarecimento-sobre-kompany-estava-a-assistir-ao-treino-da-equipa-b-e-desmaiou",
+   "t": "João Cancelo lança o Barcelona-Real Madrid: «Espero que consigamos sacar a vitória»",
+   "u": "https://www.record.pt/internacional/paises/espanha/detalhe/joao-cancelo-lanca-o-barcelona-real-madrid-espero-que-consigamos-sacar-a-vitoria",
    "f": "Record",
-   "alta": true,
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "80-84: Dabone se sale del mapa y el Barça tumba al Real Madrid en el primer Clásico",
-   "u": "https://www.mundodeportivo.com/baloncesto/liga-u/20261023/1004242382/dabone-sale-mapa-barca-tumba-real-madrid-primer-clasico.html",
+   "t": "Mensaje de felicitación del FC Barcelona",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261023/1004242416/mensaje-felicitacion-fc-barcelona-leo-messi.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "United States GP: Leclerc leading Verstappen in practice in upgraded Ferrari LIVE!",
-   "u": "https://www.skysports.com/f1/live-blog/12040/13601266/f1-united-states-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-austin",
+   "t": "Leclerc tops first USA practice as upgraded Ferrari shows early promise",
+   "u": "https://www.skysports.com/f1/news/12040/13602755/united-states-gp-charles-leclerc-fastest-in-upgraded-ferrari-in-first-practice-in-austin-as-mercedes-rivals-introduce-updates",
    "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Preocupación en Alemania: el entrenador del Bayern Múnich Vincent Kompany se desplomó en la práctica y fue trasladado de urgencia al hospital",
-   "u": "https://www.infobae.com/deportes/2026/10/23/preocupacion-en-alemania-el-entrenador-del-bayern-munich-vincent-kompany-se-desplomo-en-la-practica-y-fue-trasladado-de-urgencia-al-hospital/",
+   "t": "Problemas para Franco Colapinto: deberá cumplir una penalización de 10 puestos en el Gran Premio de Estados Unidos de Fórmula 1",
+   "u": "https://www.infobae.com/deportes/2026/10/23/problemas-para-franco-colapinto-debera-cumplir-una-penalizacion-de-10-puestos-en-el-gran-premio-de-estados-unidos/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
