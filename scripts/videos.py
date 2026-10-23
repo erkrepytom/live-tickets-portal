@@ -214,6 +214,13 @@ def repor_bloqueados(dados, eventos, desativados):
     return postos
 
 
+def aviso(texto, erro=False):
+    """No GitHub Actions também deixa o texto como anotação da execução, que aparece no resumo."""
+    print(texto)
+    if os.environ.get("GITHUB_ACTIONS"):
+        print(f"::{'error' if erro else 'notice'}::{texto}")
+
+
 def conferir_reservas(dados):
     """python scripts/videos.py --conferir: diz se cada channel_id de canais_reserva é mesmo
     do canal escrito ao lado. Sai com código 1 quando algum não bate, para o Actions acusar."""
@@ -225,20 +232,21 @@ def conferir_reservas(dados):
     for r in reservas:
         nome, cid = r.get("canal", "?"), r.get("channel_id", "")
         if not re.fullmatch(r"UC[A-Za-z0-9_-]{22}", cid):
-            print(f"x {nome}: channel_id inválido ({cid!r}).")
+            aviso(f"{nome}: channel_id inválido ({cid!r}).", True)
             erros += 1
             continue
         try:
             itens = ler_feed(cid)
         except Exception as exc:
-            print(f"x {nome}: feed indisponível ({exc}).")
+            aviso(f"{nome}: feed indisponível ({exc}).", True)
             erros += 1
             continue
         feed = TITULO_CANAL.get(cid, "")
         bate = norm(nome).strip() in norm(feed)
-        print(f"{'ok' if bate else 'x '} {nome} → feed de \"{feed}\", {len(itens)} vídeo(s) recentes.")
+        aviso(f"{nome} → feed de \"{feed}\", {len(itens)} vídeo(s) recentes; "
+              f"{'o ID bate com o nome' if bate else 'O ID NÃO BATE com o nome'}.", not bate)
         for it in itens[:3]:
-            print(f"     · {it['publicado']} {it['titulo'][:70]}")
+            aviso(f"   {nome}: {it['publicado']} {it['titulo'][:70]}")
         erros += 0 if bate else 1
     return 1 if erros else 0
 
