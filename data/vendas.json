@@ -7,14 +7,14 @@
    "status": "desconhecido",
    "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-23T12:11:32+00:00"
+   "tentado": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
-   "min": 1244.0,
+   "min": 1245.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/395343"
   }
  },
@@ -28,14 +28,14 @@
    "fonte": "https://www.acmilan.com/en/tickets/serie-a",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-23T12:11:32+00:00"
+   "conferido": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
-   "min": 240.0,
+   "min": 233.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/391609"
   }
  },
@@ -46,14 +46,14 @@
    "status": "desconhecido",
    "fonte": "https://www.figc.it/en/national-teams/tickets/",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-23T12:11:32+00:00"
+   "tentado": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 53.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/387682"
   }
  },
@@ -86,14 +86,14 @@
    "fonte": "https://billetterie.ffr.fr/",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-23T12:11:32+00:00"
+   "conferido": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 36.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/383977"
   }
  },
@@ -104,14 +104,14 @@
    "status": "desconhecido",
    "fonte": "https://www.yasmarinacircuit.com/en/formula-1",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-23T12:11:32+00:00"
+   "tentado": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
-   "min": 385.0,
+   "min": 386.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/387903"
   }
  },
@@ -122,14 +122,14 @@
    "status": "desconhecido",
    "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-23T12:11:32+00:00"
+   "tentado": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 484.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/402363"
   }
  },
@@ -143,14 +143,14 @@
    "fonte": "https://www.nba.com/knicks/tickets",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-23T12:11:32+00:00"
+   "conferido": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 215.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/401302"
   }
  },
@@ -161,14 +161,14 @@
    "status": "desconhecido",
    "fonte": "https://ausopen.com/tickets",
    "erro": "HTTPError: HTTP Error 403: Forbidden",
-   "tentado": "2026-10-23T12:11:32+00:00"
+   "tentado": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 1286.0,
    "moeda": "USD",
    "lotes": 5,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/390886"
   }
  },
@@ -182,14 +182,14 @@
    "fonte": "https://www.celinedion.com/tour/",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-23T12:11:32+00:00"
+   "conferido": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 352.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/391312"
   }
  },
@@ -200,14 +200,14 @@
    "status": "desconhecido",
    "fonte": "https://www.uefa.com/uefachampionsleague/tickets/",
    "erro": "TimeoutError: The read operation timed out",
-   "tentado": "2026-10-23T12:11:32+00:00"
+   "tentado": "2026-10-23T17:30:23+00:00"
   },
   "parceiro": {
    "status": "a_venda",
-   "min": 6645.0,
+   "min": 6652.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-23T11:51:17+00:00",
+   "conferido": "2026-10-23T17:19:02+00:00",
    "fonte": "https://www.sportsevents365.com/event/399236"
   }
  }
