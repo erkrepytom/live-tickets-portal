@@ -214,10 +214,41 @@ def repor_bloqueados(dados, eventos, desativados):
     return postos
 
 
+def conferir_reservas(dados):
+    """python scripts/videos.py --conferir: diz se cada channel_id de canais_reserva é mesmo
+    do canal escrito ao lado. Sai com código 1 quando algum não bate, para o Actions acusar."""
+    reservas = dados.get("canais_reserva", [])
+    if not reservas:
+        print("Nenhum canal de reserva em data/videos.json.")
+        return 0
+    erros = 0
+    for r in reservas:
+        nome, cid = r.get("canal", "?"), r.get("channel_id", "")
+        if not re.fullmatch(r"UC[A-Za-z0-9_-]{22}", cid):
+            print(f"x {nome}: channel_id inválido ({cid!r}).")
+            erros += 1
+            continue
+        try:
+            itens = ler_feed(cid)
+        except Exception as exc:
+            print(f"x {nome}: feed indisponível ({exc}).")
+            erros += 1
+            continue
+        feed = TITULO_CANAL.get(cid, "")
+        bate = norm(nome).strip() in norm(feed)
+        print(f"{'ok' if bate else 'x '} {nome} → feed de \"{feed}\", {len(itens)} vídeo(s) recentes.")
+        for it in itens[:3]:
+            print(f"     · {it['publicado']} {it['titulo'][:70]}")
+        erros += 0 if bate else 1
+    return 1 if erros else 0
+
+
 def main():
     arq = os.path.join(RAIZ, "data", "videos.json")
     with open(arq, encoding="utf-8") as f:
         dados = json.load(f)
+    if "--conferir" in sys.argv:
+        return conferir_reservas(dados)
     with open(os.path.join(RAIZ, "data", "eventos.json"), encoding="utf-8") as f:
         eventos = json.load(f)["eventos"]
     existentes = {v["yt"] for v in dados.get("videos", [])}

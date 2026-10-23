@@ -1,0 +1,16 @@
+name: Conferir canais de reserva
+# À mão, antes de confiar num channel_id novo: diz se o ID em data/videos.json é mesmo
+# do canal escrito ao lado e lista os vídeos recentes dele. Falha quando algum não bate.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/videos.py --conferir
