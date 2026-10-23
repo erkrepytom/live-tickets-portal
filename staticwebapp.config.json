@@ -58,6 +58,10 @@
       "statusCode": 404
     },
     {
+      "route": "/radar/*",
+      "statusCode": 404
+    },
+    {
       "route": "/.github/*",
       "statusCode": 404
     }
