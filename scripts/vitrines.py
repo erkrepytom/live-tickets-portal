@@ -31,6 +31,15 @@ def recentes(canal):
     return V.TITULO_CANAL.get(cid, canal.lstrip("@")), itens
 
 
+def ordenar(itens, prefira):
+    """Põe na frente os vídeos cujo título tem as palavras da vitrine (melhores momentos, show ao vivo),
+    para a faixa não abrir com uma entrevista quando o que se quer é o jogo."""
+    if not prefira:
+        return itens
+    chaves = [p.lower() for p in prefira]
+    return sorted(itens, key=lambda it: not any(k in (it.get("titulo", "") or "").lower() for k in chaves))
+
+
 def encher(vitrine):
     """Escolhe os vídeos da vitrine. Mantém o que já está no ar quando ainda vale, para a página
     não mudar à toa; só troca quando o canal publica algo novo ou quando um vídeo sai do ar."""
@@ -41,7 +50,7 @@ def encher(vitrine):
         if len(escolhidos) >= quantos:
             break
         nome, itens = recentes(canal)
-        for it in itens:
+        for it in ordenar(itens, vitrine.get("prefira", [])):
             if len(escolhidos) >= quantos:
                 break
             if any(e["yt"] == it["yt"] for e in escolhidos):

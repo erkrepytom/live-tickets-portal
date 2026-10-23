@@ -1,5 +1,5 @@
 {
- "_leia": "Vitrines de vídeo do fim da página inicial. scripts/vitrines.py busca os vídeos recentes de cada canal oficial, confere se o dono permite a exibição fora do YouTube e guarda os dois primeiros em 'videos'. Campos: id, titulo/sub por idioma, canais (@handle ou channel_id dos canais detentores), dock (caminho do catálogo do parceiro para o botão de ingressos), n (quantos vídeos mostrar). Nada é copiado: o que aparece é o player do YouTube com o crédito do canal.",
+ "_leia": "Vitrines de vídeo do fim da página inicial. scripts/vitrines.py busca os vídeos recentes de cada canal oficial, confere se o dono permite a exibição fora do YouTube e guarda os dois primeiros em 'videos'. Campos: id, titulo/sub por idioma, canais (@handle ou channel_id dos canais detentores), dock (caminho do catálogo do parceiro para o botão de ingressos), n (quantos vídeos mostrar), prefira (palavras que o título deveria ter: entram antes das outras). Nada é copiado: o que aparece é o player do YouTube com o crédito do canal.",
  "vitrines": [
   {
    "id": "nba",
@@ -31,6 +31,11 @@
      "canal": "NBA",
      "publicado": "2026-10-23"
     }
+   ],
+   "prefira": [
+    "highlights",
+    "full game highlights",
+    "melhores momentos"
    ]
   },
   {
@@ -63,6 +68,12 @@
      "canal": "MLB",
      "publicado": "2026-10-23"
     }
+   ],
+   "prefira": [
+    "highlights",
+    "condensed game",
+    "melhores momentos",
+    "walk-off"
    ]
   },
   {
@@ -96,6 +107,14 @@
      "canal": "Coachella",
      "publicado": "2026-10-23"
     }
+   ],
+   "prefira": [
+    "live at",
+    "full set",
+    "performance",
+    "ao vivo",
+    "live set",
+    "full performance"
    ]
   }
  ]
