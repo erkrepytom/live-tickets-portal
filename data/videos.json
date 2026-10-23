@@ -19,9 +19,9 @@
   {
    "canal": "CazéTV",
    "handle": "@cazetv",
-   "channel_id": "",
+   "channel_id": "UCZiYbVptd3PVPf4f6eR6UaQ",
    "idioma": "pt",
-   "nota": "Transmite a LALIGA no Brasil com direitos; entra quando o canal oficial da liga bloqueia o embed. Deixe channel_id vazio e o robô resolve pelo handle."
+   "nota": "Transmite a LALIGA no Brasil com direitos; entra quando o canal oficial da liga bloqueia o embed. A CazeTV nao serve feed RSS, entao o robo le a aba /videos do canal. Conferido em 22/10/2026 com: python scripts/videos.py --conferir"
   }
  ],
  "videos": [
