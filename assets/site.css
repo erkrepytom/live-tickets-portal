@@ -143,6 +143,9 @@ p{margin:0}
 .ptile:hover .photo{transform:scale(1.06)}
 .ptile span{font:800 22px/1 var(--f-display);text-transform:uppercase;letter-spacing:.03em}
 @media (max-width:760px){.tiles-photo{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1180px){.tiles-photo{grid-template-columns:repeat(8,minmax(0,1fr));gap:10px}
+  .tiles-photo .ptile{aspect-ratio:3/4;padding:10px}
+  .tiles-photo .ptile span{font:800 12px/1.15 var(--f-display);letter-spacing:.01em}}
 .chips-group{display:grid;gap:12px}
 .chips-group h3{font:700 12px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
@@ -513,12 +516,12 @@ html{scroll-padding-top:120px}
 .vgrid-dupla .vcard-body{display:flex;flex-direction:column;flex:1;gap:8px}
 .vgrid-dupla .vcard-body h3{font-size:17px;line-height:1.3}
 .vgrid-dupla .vcard-actions{margin-top:auto}
-.vitrine-dentro{margin:28px 0}
+.vitrine-dentro{margin:28px 0;min-width:0}
 .vitrine-dentro .sec-head{margin-bottom:18px}
 
 /* ---------- Carrossel de vídeos: o trilho rola de lado; só a miniatura é baixada ---------- */
-.vcarr{position:relative}
-.vcarr-trilho{display:flex;overflow-x:auto;gap:18px;scroll-snap-type:x mandatory;scroll-behavior:smooth;
+.vcarr{position:relative;min-width:0;max-width:100%}
+.vcarr-trilho{display:flex;min-width:0;max-width:100%;overflow-x:auto;gap:18px;scroll-snap-type:x mandatory;scroll-behavior:smooth;
   scrollbar-width:none;padding:2px 2px 10px;margin-inline:-2px}
 .vcarr-trilho::-webkit-scrollbar{display:none}
 .vcarr-trilho .vcard{flex:0 0 min(86%,330px);scroll-snap-align:start;height:auto;display:flex;flex-direction:column}
@@ -569,8 +572,8 @@ html{scroll-padding-top:120px}
 .promo-txt .vcard-actions{display:flex;flex-wrap:wrap;gap:10px}
 
 /* ---------- 'Planeje a viagem' ao lado das fileiras de nomes ---------- */
-.chips-zona{display:grid;gap:28px;align-items:start}
-@media (min-width:1080px){.chips-zona{grid-template-columns:minmax(0,1fr) 330px;gap:40px}}
+.chips-zona{display:grid;gap:28px;align-items:start;min-width:0}
+@media (min-width:1080px){.chips-zona{grid-template-columns:minmax(0,1fr) minmax(0,300px);gap:40px}}
 .plan-card{background:#fff;border:1px solid rgba(15,34,54,.08);border-radius:18px;padding:22px 20px;
   box-shadow:0 30px 60px -40px rgba(15,34,54,.55);align-self:start;position:sticky;top:96px}
 .plan-card h3{margin:4px 0 8px;font:800 19px/1.2 var(--f-display)}
