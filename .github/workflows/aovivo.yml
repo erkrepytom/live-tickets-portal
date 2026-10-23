@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: aovivo
+  group: aovivo-rodada     # separado do vigia: uma rodada avulsa nunca derruba quem está vigiando
   cancel-in-progress: true
 jobs:
   aovivo:
@@ -31,6 +31,7 @@ jobs:
             echo "mudou=nao" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Faixa AO VIVO: atualiza as transmissões no ar"
+            git pull --rebase -q || true
             git push
             echo "mudou=sim" >> "$GITHUB_OUTPUT"
           fi
