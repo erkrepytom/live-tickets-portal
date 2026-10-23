@@ -279,6 +279,19 @@ def publicar():
     print(f"  deploy pedido: {(r.stdout + r.stderr).strip()[:200]}")
 
 
+def ha_evento_ate(eventos, agora, horas):
+    """Tem jogo na janela agora, ou começando dentro das próximas N horas?"""
+    limite = agora + datetime.timedelta(hours=horas)
+    for ev in eventos:
+        try:
+            quando = quando_do_evento(ev)
+        except Exception:
+            continue
+        if quando - ANTES <= limite and agora <= quando + DEPOIS:
+            return True
+    return False
+
+
 def vigiar(minutos, eventos, dados_videos):
     """O agendamento do GitHub engasga em frequência alta, então uma rodada por hora fica aqui dentro
     olhando de 3 em 3 minutos: a faixa acompanha o jogo mesmo quando o cron de 10 minutos atrasa."""
@@ -297,6 +310,11 @@ def vigiar(minutos, eventos, dados_videos):
             print("Nada por vir nesta hora; o vigia encerra.")
             break
         time.sleep(min(180, sobra))
+    # o agendamento de poucos minutos do GitHub não é confiável; se ainda há jogo pela frente,
+    # o próprio vigia chama o próximo turno antes de encerrar.
+    if ha_evento_ate(eventos, datetime.datetime.now(datetime.timezone.utc), 6) and os.environ.get("GITHUB_ACTIONS"):
+        r = subprocess.run(["gh", "workflow", "run", "aovivo-vigia.yml"], cwd=RAIZ, capture_output=True, text=True)
+        print(f"Próximo turno do vigia pedido: {(r.stdout + r.stderr).strip()[:160]}")
     return 0
 
 

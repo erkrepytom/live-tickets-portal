@@ -6,6 +6,7 @@ on:
     - cron: "23 */6 * * *"
   workflow_dispatch:
 permissions:
+  actions: write     # acordar o vigia da faixa AO VIVO
   contents: write
   pages: write
   id-token: write
@@ -61,3 +62,8 @@ jobs:
         id: deployment
         if: steps.pub.outputs.mudou == 'sim'
         uses: actions/deploy-pages@v4
+      - name: Acordar o vigia da faixa AO VIVO
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run aovivo-vigia.yml || true
