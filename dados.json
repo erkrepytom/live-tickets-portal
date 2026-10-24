@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-24T12:46:20+00:00",
+ "atualizado": "2026-10-24T16:42:20+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,14 +11,14 @@
    },
    "noticias": [
     {
-     "t": "Grêmio e Inter podem se salvar? Veja times que escaparam do rebaixamento em cenário similar",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/24/gremio-e-inter-podem-se-salvar-veja-times-que-escaparam-do-rebaixamento-em-cenario-similar.ghtml",
+     "t": "Vice-artilheiro do Atlético-MG vira dúvida para enfrentar o Flamengo; entenda",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/24/vice-artilheiro-do-atletico-mg-vira-duvida-para-enfrentar-o-flamengo-entenda.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Campeão da Libertadores pelo Inter assume clube da segunda divisão do RN",
-     "u": "https://ge.globo.com/rn/blogs/augustox/post/2026/10/24/campeao-da-libertadores-pelo-inter-assume-clube-da-segunda-divisao-do-rn.ghtml",
+     "t": "Flick elogia Mourinho antes de Barcelona x Real Madrid: \"Tenho o maior respeito\"",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/24/flick-elogia-mourinho-antes-de-barcelona-x-real-madrid-tenho-o-maior-respeito.ghtml",
      "f": "ge",
      "alta": false
     },
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
-     "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-best-bets-for-friday-oct-23/",
+     "t": "NBA closing time: Amen Thompson erases Victor Wembanyama, Jayson Tatum daggers Knicks",
+     "u": "https://www.cbssports.com/nba/news/nba-closing-time-amen-thompson-victor-wembanyama-jayson-tatum-knicks/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Knicks vs. Celtics prediction, odds, betting preview, start time: NBA picks, best bets on Friday, Oct. 23",
-     "u": "https://www.cbssports.com/betting/news/knicks-vs-celtics-prediction-odds-betting-preview-start-time-nba-picks-best-bets-on-friday-oct-23/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Paula Moltzan earns long-awaited first Alpine skiing World Cup win to open season",
-     "u": "https://sports.yahoo.com/articles/paula-moltzan-earns-long-awaited-123627424.html",
+     "t": "Man City's winning start ended as Arsenal close gap to the top",
+     "u": "https://sports.yahoo.com/articles/man-citys-winning-start-ended-163330456.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "NFL commissioner Roger Goodell on potential Tokyo game: 'It's coming at some point in the near future'",
-     "u": "https://sports.yahoo.com/nfl/article/nfl-commissioner-roger-goodell-on-potential-tokyo-game-its-coming-at-some-point-in-the-near-future-123100001.html",
+     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Ole Miss-Texas, college football picks",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-ole-miss-texas-college-football-picks/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "F1 LIVE | Follow FP3 of the United States Grand Prix here",
+     "u": "https://sports.yahoo.com/articles/f1-live-fp3-united-states-163100697.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Processo ao presidente da LaLiga por comparar Real Madrid a nazis",
-     "u": "https://www.abola.pt/noticias/processo-ao-presidente-da-laliga-por-comparar-real-madrid-a-nazis-2026102213192202894",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Neemias Queta anota 15 pontos na vitória dos Celtics frente aos campeões Knicks",
-     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/neemias-queta-anota-15-pontos-na-vitoria-dos-celtics-frente-aos-campeoes-knicks",
+     "t": "PSG: o último bastião de França",
+     "u": "https://www.record.pt/opiniao/cronistas/artur-fernandes/detalhe/psg-o-ultimo-bastiao-de-franca",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Mourinho e o Clássico: «Prova do algodão? O Real Madrid comigo ganha títulos»",
-     "u": "https://www.abola.pt/noticias/mourinho-e-o-classico-prova-do-algodao-o-real-madrid-comigo-ganha-titulos-2026102408491361076",
+     "t": "Arsenal ganha no meio do dilúvio e aproveita deslize do Manchester City",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261024-142518-arsenal-everton-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "FC Porto mais perto da Champions",
+     "u": "https://www.abola.pt/noticias/fc-porto-mais-perto-da-champions-2026102300141524003",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Aston Villa-Manchester City, em direto",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261024-112742-aston-villa-manchester-city-em-direto",
-     "f": "Record",
+     "t": "NFL: jogador dispensado após ter recorrido a arma durante discussão com colega",
+     "u": "https://www.abola.pt/noticias/nfl-jogador-dispensado-apos-ter-recorrido-a-arma-durante-discussao-com-colega-2026102217265252981",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "Las imágenes del entrenamiento del FC Barcelona previo al Clásico",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261024/1004242616/imagenes-entrenamiento-fc-barcelona-previo-clasico.html",
+     "t": "2-7: Goleada del Barça en El Ejido antes de la Champions",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261024/1004242643/2-7-goleada-barca-ejido-champions.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
      "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
      "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "England thrash France to keep alive World Cup hopes",
-     "u": "https://www.bbc.co.uk/sport/rugby-league/articles/cr93zwx9pzv9o?at_medium=RSS&at_campaign=rss",
+     "t": "Chelsea v Tottenham: Premier League – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "England crush France 82-0 to stay in World Cup contention",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/c6vg0r05ypyeo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "England crush France to remain in hunt for World Cup semi-final spot",
-     "u": "https://www.skysports.com/rugby-league/england-vs-france/report/64274",
+     "t": "Chelsea vs Tottenham LIVE! & highlights",
+     "u": "https://www.skysports.com/football/chelsea-vs-tottenham-hotspur/live/559516",
      "f": "Sky Sports",
      "alta": false
     }
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Partidos de HOY, sábado 24 de octubre: horario y por dónde ver fútbol EN VIVO",
-     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-sabado-24-octubre-2026-agenda-ole-horirio-tv-futbol_0_alWgyuVfQ0.html",
+     "t": "Arsenal le ganó a Everton y alcanzó al City de Enzo Fernández en la cima de la Premier League",
+     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/arsenal-everton-triunfo-alcanzo-city-premier-league_0_eaEJXwNJHp.html",
      "f": "Olé",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Problemas para Franco Colapinto: deberá cumplir una penalización de 10 puestos en el Gran Premio de Estados Unidos de Fórmula 1",
-     "u": "https://www.infobae.com/deportes/2026/10/23/problemas-para-franco-colapinto-debera-cumplir-una-penalizacion-de-10-puestos-en-el-gran-premio-de-estados-unidos/",
+     "t": "Flamengo hizo un reclamo por la inclusión de Marcos Rojo tras ser eliminado por Estudiantes: el caso en Santos-Independiente que plantean",
+     "u": "https://www.infobae.com/deportes/2026/10/24/flamengo-hizo-un-reclamo-por-la-inclusion-de-marcos-rojo-tras-ser-eliminado-por-estudiantes-en-la-libertadores-el-caso-en-santos-independiente-que-plantean/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "La respuesta de Franco Colapinto cuando le preguntaron si el nuevo Gran Premio en África complica el proyecto de traer la Fórmula 1 a la Argentina",
-     "u": "https://www.infobae.com/deportes/2026/10/23/la-respuesta-de-franco-colapinto-cuando-le-preguntaron-si-el-nuevo-gran-premio-en-africa-complica-el-proyecto-de-traer-la-formula-1-a-la-argentina/",
+     "t": "El Inter Miami de Lionel Messi visitará el New York RB por uno de los últimos partidos de la fase regular de la MLS: hora, TV y formaciones",
+     "u": "https://www.infobae.com/deportes/2026/10/24/el-inter-miami-de-lionel-messi-visitara-el-new-york-rb-por-uno-de-los-ultimos-partidos-de-la-fase-regular-de-la-mls-hora-tv-y-formaciones/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El cruce entre Mourinho y un futbolista del Barcelona en la previa del clásico",
-     "u": "https://www.ole.com.ar/futbol-internacional/espana/jose-mourinho-barcelona-real-madrid-fermin-lopez-clasico_0_7HZJneGjEh.html",
+     "t": "Antes de Racing y de Boca, la deuda pendiente de River en los clásicos",
+     "u": "https://www.ole.com.ar/river-plate/river-plate-racing-clasicos-historial-resultados_0_m7fXJ5MTfY.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Barça-Real Madrid : DAZN baisse son prix",
-     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Barca-real-madrid-dazn-baisse-son-prix-a-7-99-et-8364-mois-juste-avant-le-clasico/1737271#at_medium=RSS_feeds",
+     "t": "Arsenal coleader de Premier League avec Manchester City après son succès tout en maîtrise face à Everton",
+     "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-coleader-de-premier-league-avec-manchester-city-apres-son-succes-tout-en-maitrise-face-a-everton/1738335#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Avant le Clasico, Mourinho trouve « injuste » de comparer le Real Madrid au Barça « qui a le même entraîneur depuis deux ans »",
-     "u": "https://www.lequipe.fr/Football/Actualites/Avant-le-clasico-mourinho-trouve-injuste-de-comparer-le-real-madrid-au-barca-qui-a-le-meme-entraineur-depuis-deux-ans/1738270#at_medium=RSS_feeds",
+     "t": "PSG-OL reporté, Barça-Real, NFL Paris Game : un programme XXL à ne pas manquer",
+     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Psg-ol-reporte-barca-real-nfl-paris-game-un-programme-xxl-a-ne-pas-manquer/1738077#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,23 +253,23 @@
  ],
  "destaques": [
   {
-   "t": "Grêmio e Inter podem se salvar? Veja times que escaparam do rebaixamento em cenário similar",
-   "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/24/gremio-e-inter-podem-se-salvar-veja-times-que-escaparam-do-rebaixamento-em-cenario-similar.ghtml",
+   "t": "Vice-artilheiro do Atlético-MG vira dúvida para enfrentar o Flamengo; entenda",
+   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/24/vice-artilheiro-do-atletico-mg-vira-duvida-para-enfrentar-o-flamengo-entenda.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
-   "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-best-bets-for-friday-oct-23/",
+   "t": "NBA closing time: Amen Thompson erases Victor Wembanyama, Jayson Tatum daggers Knicks",
+   "u": "https://www.cbssports.com/nba/news/nba-closing-time-amen-thompson-victor-wembanyama-jayson-tatum-knicks/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Processo ao presidente da LaLiga por comparar Real Madrid a nazis",
-   "u": "https://www.abola.pt/noticias/processo-ao-presidente-da-laliga-por-comparar-real-madrid-a-nazis-2026102213192202894",
-   "f": "A Bola",
+   "t": "PSG: o último bastião de França",
+   "u": "https://www.record.pt/opiniao/cronistas/artur-fernandes/detalhe/psg-o-ultimo-bastiao-de-franca",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
@@ -281,17 +281,17 @@
    "pais": "ES"
   },
   {
-   "t": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
-   "u": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live",
+   "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
+   "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Partidos de HOY, sábado 24 de octubre: horario y por dónde ver fútbol EN VIVO",
-   "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-sabado-24-octubre-2026-agenda-ole-horirio-tv-futbol_0_alWgyuVfQ0.html",
+   "t": "Arsenal le ganó a Everton y alcanzó al City de Enzo Fernández en la cima de la Premier League",
+   "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/arsenal-everton-triunfo-alcanzo-city-premier-league_0_eaEJXwNJHp.html",
    "f": "Olé",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Barça-Real Madrid : DAZN baisse son prix",
-   "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Barca-real-madrid-dazn-baisse-son-prix-a-7-99-et-8364-mois-juste-avant-le-clasico/1737271#at_medium=RSS_feeds",
+   "t": "Arsenal coleader de Premier League avec Manchester City après son succès tout en maîtrise face à Everton",
+   "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-coleader-de-premier-league-avec-manchester-city-apres-son-succes-tout-en-maitrise-face-a-everton/1738335#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
