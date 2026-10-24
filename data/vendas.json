@@ -7,7 +7,7 @@
    "status": "desconhecido",
    "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-24T21:13:50+00:00"
+   "tentado": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -28,7 +28,7 @@
    "fonte": "https://www.acmilan.com/en/tickets/serie-a",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-24T21:13:50+00:00"
+   "conferido": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -46,7 +46,7 @@
    "status": "desconhecido",
    "fonte": "https://www.figc.it/en/national-teams/tickets/",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-24T21:13:50+00:00"
+   "tentado": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -82,17 +82,23 @@
     "de": "a_venda",
     "para": "desconhecido",
     "em": "2026-10-24T21:13:50+00:00"
+   },
+   {
+    "canal": "oficial",
+    "de": "desconhecido",
+    "para": "a_venda",
+    "em": "2026-10-24T23:46:39+00:00"
    }
   ],
   "oficial": {
    "nome": "FFR",
-   "status": "desconhecido",
-   "confianca": 0.0,
-   "trecho": "",
+   "status": "a_venda",
+   "confianca": 0.8,
+   "trecho": "masculin samedi 07 novembre 2026 - 21h10 groupama stadium, lyon-decines des 30 acheter xv de france masculin france vs afrique du sud france / afrique du sud - champi",
    "fonte": "https://billetterie.ffr.fr/",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-24T21:13:50+00:00"
+   "conferido": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -110,7 +116,7 @@
    "status": "desconhecido",
    "fonte": "https://www.yasmarinacircuit.com/en/formula-1",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-24T21:13:50+00:00"
+   "tentado": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -128,7 +134,7 @@
    "status": "desconhecido",
    "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-24T21:13:50+00:00"
+   "tentado": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -149,7 +155,7 @@
    "fonte": "https://www.nba.com/knicks/tickets",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-24T21:13:50+00:00"
+   "conferido": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -167,7 +173,7 @@
    "status": "desconhecido",
    "fonte": "https://ausopen.com/tickets",
    "erro": "HTTPError: HTTP Error 403: Forbidden",
-   "tentado": "2026-10-24T21:13:50+00:00"
+   "tentado": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -188,7 +194,7 @@
    "fonte": "https://www.celinedion.com/tour/",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-24T21:13:50+00:00"
+   "conferido": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -206,7 +212,7 @@
    "status": "desconhecido",
    "fonte": "https://www.uefa.com/uefachampionsleague/tickets/",
    "erro": "TimeoutError: The read operation timed out",
-   "tentado": "2026-10-24T21:13:50+00:00"
+   "tentado": "2026-10-24T23:46:39+00:00"
   },
   "parceiro": {
    "status": "a_venda",
