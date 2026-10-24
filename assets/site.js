@@ -158,6 +158,17 @@ function loadPinterest(){
   s.async = true; s.defer = true; s.src = "https://assets.pinterest.com/js/pinit.js";
   document.body.appendChild(s);
 }
+/* Microsoft Clarity (mapas de calor e gravações de sessão): só carrega depois do "Aceitar",
+   e avisa o consentimento pela Consent API v2 (exigida na Europa e no Reino Unido). */
+const CLARITY_ID = "z2x3a244s8";
+function loadClarity(){
+  if (window.__mtClarity || !CLARITY_ID) return;
+  window.__mtClarity = true;
+  (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script",CLARITY_ID);
+  window.clarity("consentv2", { ad_Storage: "denied", analytics_Storage: "granted" });
+}
 document.addEventListener("click", ev => {
   const a = ev.target.closest("[data-pin-do]");
   if (a) track({ event: "share", method: "pinterest", content_type: a.dataset.pinDo === "buttonFollow" ? "follow" : "save", item_id: location.pathname });
@@ -168,7 +179,7 @@ const bar = document.getElementById("cookie-bar");
 {
   let consent = null;
   try { consent = localStorage.getItem("mt_consent"); } catch (e) {}
-  if (consent === "granted") loadPinterest();
+  if (consent === "granted") { loadPinterest(); loadClarity(); }
 }
 if (bar){
   let saved = null;
@@ -181,7 +192,7 @@ if (bar){
     try { localStorage.setItem("mt_consent", v); } catch (e) {}
     gtagSafe("consent", "update", { ad_storage: v, ad_user_data: v, ad_personalization: v, analytics_storage: v });
     track({ event: "consent_" + v });
-    if (v === "granted") loadPinterest();
+    if (v === "granted") { loadPinterest(); loadClarity(); }
     bar.hidden = true;
   });
 }
