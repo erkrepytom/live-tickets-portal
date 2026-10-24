@@ -123,17 +123,9 @@ The official site is https://mytickets.tours, served by the Azure Static Web App
 
 `llms.txt` is the short index; `llms-full.txt` is the full reference (P1 Travel does the same): every event with date, local time, venue address, teams, the partner's lowest recent price, how to get there and its pages in the three languages, plus how buying works and the trust guides. Both are regenerated on every build and only use facts already on the pages.
 
-## AI robots (nothing is published automatically)
+## Robots in the private repository
 
-All three use `scripts/ia.py` (Claude API, standard library only) and write reports in `radar/` for a person to review. Without the `ANTHROPIC_API_KEY` secret they exit quietly. Model: repository variable `ANTHROPIC_MODEL` (default `claude-sonnet-5-5`).
-
-| Robot | Workflow | What it does | Output |
-|---|---|---|---|
-| `scripts/geo.py` | `geo.yml`, Mondays | Asks Claude with web search the questions a buyer would ask about each event (12 per run, rotating through events and languages) and records which sites the answer cites: MyTickets vs StubHub, viagogo, SeatPick, Ticombo, P1 Travel and others | `radar/geo.md`, `data/geo.json` |
-| `scripts/ia_ctr.py` | `ia-ctr.yml`, Wednesdays | Reads Search Console, finds pages whose CTR is below the usual CTR for their position and proposes 3 title/description options per page, using only facts already on the page | `radar/ctr.md` |
-| `scripts/ia_rascunhos.py` | `ia-rascunhos.yml`, when `data/eventos-pendentes.json` changes | Drafts title, panel text, intro and "getting there" in PT/EN/ES with sources and a "check this" list for each new event | `radar/rascunhos-ia.md`, `data/rascunhos-ia.json` |
-
-Secrets: `ANTHROPIC_API_KEY`; for `ia_ctr.py` also `GSC_CREDENTIALS` (service-account JSON with read access to the Search Console property) and, if the property is not `sc-domain:mytickets.tours`, the variable `GSC_SITE`. Cost at the defaults: the GEO run uses up to 36 web searches a week (about US$ 0.36 plus tokens).
+The mention radar, the GEO monitor (AI citations), the Search Console title robot and the AI drafts for new events live in the private repository `erkrepytom/mytickets-radar`, so reply queues, mentions and SEO reports stay private. Their workflows check out this public repository read-only (`data/eventos.json` and the generated pages) and write only there. Their secrets (`ANTHROPIC_API_KEY`, `GSC_CREDENTIALS`, `GOOGLE_CSE_KEY`, `REDDIT_ID`, `REDDIT_SECRET`, `YOUTUBE_API_KEY`) belong in that repository.
 
 ## Still to do
 

@@ -1,6 +1,0 @@
-{
- "_leia": "Dados públicos de contato e de configuração do radar. O que é segredo (chave de API) não entra aqui: fica em Settings → Secrets and variables → Actions do repositório.",
- "whatsapp": "447451254588",
- "google_cse_cx": "c435d49552fcc49b6",
- "_cx": "ID do mecanismo de Pesquisa Programavel (MyTickets Tours Radar). Nao e segredo: aparece no codigo de qualquer site que use a busca. O Google desligou a opcao 'Pesquisar em toda a Web' para mecanismos novos (ela sai de vez em 01/01/2027), entao o mecanismo procura nos sites de conversa listados nele: reddit, quora, tripadvisor (.com, .com.br, .es), bsky.app, forocoches e footballgroundguide. Para acrescentar outro, e no painel do mecanismo, em 'Sites para pesquisar'."
-}
