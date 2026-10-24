@@ -29,6 +29,8 @@ Past events are dropped automatically the next time the script runs.
 - On every push to `main`, `scripts/indexnow.py` sends the changed URLs to IndexNow (Bing, Yandex and others). Google reads the sitemap submitted once in Search Console.
 - Measurement: set `GTM_ID` (or `GA_MEASUREMENT_ID`) in the generator. A Consent Mode v2 cookie banner appears automatically. The site pushes `view_item`, `begin_checkout`, `affiliate_click` and `generate_lead` to the `dataLayer`. Mark `affiliate_click` as the key event.
 - Search Console: verify the domain by DNS, or set `GSC_VERIFICATION` for the meta tag.
+- Bing Webmaster Tools: set `BING_VERIFICATION` (the `msvalidate.01` code) or verify by DNS. Bing's index feeds ChatGPT search and Copilot, so it matters for AI answers as much as for Bing itself.
+- Every event page also carries `WebPage` JSON-LD tied to the site (`#site`) and the Organization (`#org`), with `lastReviewed` = the event's `conferido` date and `reviewedBy` = the editor. Video blocks carry their own `@context` so Google reads them.
 
 ## Editorial content and E-E-A-T
 
@@ -116,6 +118,22 @@ Every ticket link goes straight to the matching event, competition, team, city o
 ## Hosting
 
 The official site is https://mytickets.tours, served by the Azure Static Web App `app-mytickets-tours` (Free plan). Both workflows deploy there on every push and every hourly news update, using the `AZURE_STATIC_WEB_APPS_API_TOKEN` secret. `/tickets` redirects to the partner for old links (see `staticwebapp.config.json`). GitHub Pages keeps a mirror; canonical URLs point to mytickets.tours.
+
+## AI assistants and search engines
+
+`llms.txt` is the short index; `llms-full.txt` is the full reference (P1 Travel does the same): every event with date, local time, venue address, teams, the partner's lowest recent price, how to get there and its pages in the three languages, plus how buying works and the trust guides. Both are regenerated on every build and only use facts already on the pages.
+
+## AI robots (nothing is published automatically)
+
+All three use `scripts/ia.py` (Claude API, standard library only) and write reports in `radar/` for a person to review. Without the `ANTHROPIC_API_KEY` secret they exit quietly. Model: repository variable `ANTHROPIC_MODEL` (default `claude-sonnet-5-5`).
+
+| Robot | Workflow | What it does | Output |
+|---|---|---|---|
+| `scripts/geo.py` | `geo.yml`, Mondays | Asks Claude with web search the questions a buyer would ask about each event (12 per run, rotating through events and languages) and records which sites the answer cites: MyTickets vs StubHub, viagogo, SeatPick, Ticombo, P1 Travel and others | `radar/geo.md`, `data/geo.json` |
+| `scripts/ia_ctr.py` | `ia-ctr.yml`, Wednesdays | Reads Search Console, finds pages whose CTR is below the usual CTR for their position and proposes 3 title/description options per page, using only facts already on the page | `radar/ctr.md` |
+| `scripts/ia_rascunhos.py` | `ia-rascunhos.yml`, when `data/eventos-pendentes.json` changes | Drafts title, panel text, intro and "getting there" in PT/EN/ES with sources and a "check this" list for each new event | `radar/rascunhos-ia.md`, `data/rascunhos-ia.json` |
+
+Secrets: `ANTHROPIC_API_KEY`; for `ia_ctr.py` also `GSC_CREDENTIALS` (service-account JSON with read access to the Search Console property) and, if the property is not `sc-domain:mytickets.tours`, the variable `GSC_SITE`. Cost at the defaults: the GEO run uses up to 36 web searches a week (about US$ 0.36 plus tokens).
 
 ## Still to do
 

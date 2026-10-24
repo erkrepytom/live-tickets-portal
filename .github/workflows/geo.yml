@@ -1,0 +1,36 @@
+name: Monitor GEO (respostas de IA)
+# Toda segunda: pergunta a uma IA com busca na web onde comprar ingresso para os eventos do site e registra
+# quem é citado (MyTickets x concorrentes). Gera radar/geo.md. Não publica nada no site.
+on:
+  schedule:
+    - cron: "17 10 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: geo
+  cancel-in-progress: false
+jobs:
+  geo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Perguntar às IAs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          GEO_MAX: ${{ vars.GEO_MAX }}
+        run: python scripts/geo.py
+      - name: Guardar o relatório
+        run: |
+          git config user.name "geo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add radar/geo.md data/geo.json 2>/dev/null || git add radar/geo.md
+          if git diff --cached --quiet; then echo "Sem novidade."; else
+            git commit -m "Monitor GEO: rodada semanal"
+            git pull --rebase -q || true
+            git push
+          fi

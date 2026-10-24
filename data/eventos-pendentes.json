@@ -1,0 +1,4 @@
+{
+ "_leia": "Eventos novos para a IA rascunhar (scripts/ia_rascunhos.py). Cadastre só o mínimo: id (número do evento na SportsEvents365), data, tipo (football, nba, f1, tennis, rugby, concert), local, cidade, competicao e times (ou artista). O rascunho sai em radar/rascunhos-ia.md e data/rascunhos-ia.json; nada entra no site até você copiar a entrada revisada para data/eventos.json.",
+ "eventos": []
+}

@@ -37,3 +37,4 @@
 
 - Atom: https://mytickets.tours/en/feed.xml
 - Sitemap: https://mytickets.tours/sitemap.xml
+- Full reference: https://mytickets.tours/llms-full.txt

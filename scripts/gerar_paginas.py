@@ -43,6 +43,8 @@ GTM_ID = ""
 # Código da meta tag de verificação do Google Search Console (só o valor de content="...").
 # Vazio = verificação feita por DNS (recomendado para a propriedade de domínio).
 GSC_VERIFICATION = ""
+# Bing Webmaster Tools (meta msvalidate.01). O índice do Bing alimenta a busca do ChatGPT e do Copilot.
+BING_VERIFICATION = ""
 # Pinterest. PINTEREST_PERFIL = nome do perfil (pinterest.com/<perfil>/) liga o botão Seguir.
 # PINTEREST_VERIFY = código da meta tag p:domain_verify, para reivindicar o site no Pinterest.
 PINTEREST_PERFIL = "Sportseventstickets"
@@ -621,11 +623,11 @@ def cartao_video(v, lang, pagina, eventos, vertical=False):
 
 def ld_video(v, lang, ev=None):
     if v.get("mp4"):
-        ld = {"@type": "VideoObject", "name": titulo_video(v, lang), "thumbnailUrl": [foto_abs(v.get("poster", OG_PADRAO))],
+        ld = {"@context": "https://schema.org", "@type": "VideoObject", "name": titulo_video(v, lang), "thumbnailUrl": [foto_abs(v.get("poster", OG_PADRAO))],
               "contentUrl": f"{BASE_URL}/{v['mp4']}", "uploadDate": v.get("publicado", ""), "inLanguage": HREFLANG.get(v.get("idioma", lang), HREFLANG[lang])}
     else:
         yt = v["yt"]
-        ld = {"@type": "VideoObject", "name": titulo_video(v, lang), "thumbnailUrl": [f"https://i.ytimg.com/vi/{yt}/hqdefault.jpg"],
+        ld = {"@context": "https://schema.org", "@type": "VideoObject", "name": titulo_video(v, lang), "thumbnailUrl": [f"https://i.ytimg.com/vi/{yt}/hqdefault.jpg"],
               "embedUrl": f"https://www.youtube-nocookie.com/embed/{yt}", "contentUrl": f"https://www.youtube.com/watch?v={yt}",
               "uploadDate": v.get("publicado", ""), "inLanguage": HREFLANG.get(v.get("idioma", lang), HREFLANG[lang])}
     desc = v.get("descricao")
@@ -1321,7 +1323,7 @@ def cabeca(lang, pagina, titulo, desc, alternos, extra="", imagem=None):
 <meta name="twitter:description" content="{e(desc)}">
 <meta name="twitter:image" content="{e(og_img)}">
 {f'<meta name="p:domain_verify" content="{e(PINTEREST_VERIFY)}">' if PINTEREST_VERIFY else ''}
-{f'<meta name="google-site-verification" content="{e(GSC_VERIFICATION)}">' if GSC_VERIFICATION else ''}
+{f'<meta name="google-site-verification" content="{e(GSC_VERIFICATION)}">' if GSC_VERIFICATION else ''}{chr(10) + f'<meta name="msvalidate.01" content="{e(BING_VERIFICATION)}">' if BING_VERIFICATION else ''}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://images.unsplash.com">
@@ -1755,6 +1757,16 @@ def evento(lang, ev, eventos, hubs):
             json.dumps({"event": "view_item", "page_type": "event", "ecommerce": {"items": [item]}}, ensure_ascii=False) + ");</script>")
     vids = videos_do_evento(ev, lang)
     lds = [ld_evento(lang, ev, pagina), ld_breadcrumb(trilha), ld_faq] + [ld_video(vids[0], lang, ev)] if vids else [ld_evento(lang, ev, pagina), ld_breadcrumb(trilha), ld_faq]
+    # WebPage liga a página ao site e à Organization (entidade) e diz quando os fatos foram conferidos:
+    # sinal de atualidade e de autoria que o Google e os assistentes com IA usam para escolher quem citar.
+    url_pg = f"{BASE_URL}/{pagina}"
+    ld_pagina = {"@context": "https://schema.org", "@type": "WebPage", "@id": url_pg, "url": url_pg, "name": titulo,
+                 "inLanguage": HREFLANG[lang], "isPartOf": {"@id": f"{BASE_URL}/#site"}, "publisher": {"@id": f"{BASE_URL}/#org"},
+                 "about": {"@type": "SportsEvent" if ev["tipo"] != "concert" else "MusicEvent", "name": L(ev["titulo"], "en"), "startDate": ev.get("inicio") or ev["data"]},
+                 "reviewedBy": {"@type": "Person", "name": RESPONSAVEL}}
+    if ev.get("conferido"):
+        ld_pagina["lastReviewed"] = ev["conferido"]
+    lds.append(ld_pagina)
     extra = ld_script(*lds) + view
     vx = C.VIDEOS_TXT[lang]
     slot_video = (f'<div class="short-slot"><span class="photo" style="{bg(ev["img"], 600, pagina)}"></span>'
@@ -2282,8 +2294,54 @@ def llms_txt(eventos, hubs):
         linhas.append(f"- [{titulo_hub('en', g)}]({BASE_URL}/{caminho_hub('en', g)})")
     for pg in (C.GUIA, C.GUIA_BARCA, C.COMO_FUNCIONA, C.DIVULGACAO):
         linhas.append(f"- [{pg['en']['title']}]({BASE_URL}/{pg['en']['path']})")
-    linhas += ["", "## Feeds and sitemaps", "", f"- Atom: {BASE_URL}/en/feed.xml", f"- Sitemap: {BASE_URL}/sitemap.xml", ""]
+    linhas += ["", "## Feeds and sitemaps", "", f"- Atom: {BASE_URL}/en/feed.xml", f"- Sitemap: {BASE_URL}/sitemap.xml", f"- Full reference: {BASE_URL}/llms-full.txt", ""]
     (RAIZ / "llms.txt").write_text("\n".join(linhas), encoding="utf-8")
+
+
+def llms_full_txt(eventos, hubs):
+    """llms-full.txt (modelo P1 Travel): versão completa para assistentes com IA, com os fatos de cada evento,
+    como a compra funciona e os guias. Só usa dados que já estão nas páginas, para a IA citar o site com precisão."""
+    P = C.PARCEIRO
+    lin = ["# MyTickets Tours — full reference for AI assistants", "",
+           "> Independent guide to international sports and concert tickets in Portuguese, English and Spanish. "
+           "MyTickets Tours is not a box office, organiser or venue operator. Tickets are sold and delivered by the partner "
+           f"{P['nome']} ({P['empresa']}, {P['endereco_en']}), which works in the resale market; prices can be above or below face value. "
+           "MyTickets Tours earns an affiliate commission at no extra cost to the buyer.", "",
+           "## How buying works", "",
+           "1. Pick the event on MyTickets Tours and read its guide (date, local time, venue, how to get there, seating tips).",
+           f"2. The ticket button opens the same event at {P['nome']}, in the visitor's language; the section and final price are shown before payment.",
+           f"3. Payment, delivery and support are handled by {P['nome']} under its terms: {P['termos']} (checked {P['conferido']}).",
+           f"4. Emergency line of the partner on event day: {P['emergencia']}.", "",
+           "Site languages: Portuguese (https://mytickets.tours/), English (https://mytickets.tours/en/), Spanish (https://mytickets.tours/es/).", "",
+           "## Events", ""]
+    for ev in eventos:
+        loc = LOCAIS.get(ev["local"], {})
+        lin.append(f"### {L(ev['titulo'], 'en')}")
+        lin.append("")
+        lin.append(f"- Date: {data_longa(ev['data'], 'en')}" + (f", {ev['hora']} local time" if ev.get("hora") else ""))
+        lin.append(f"- Venue: {ev['local']}" + (f", {loc['rua']}" if loc.get("rua") else "") + f", {L(ev['cidade'], 'en')}, {L(ev['pais'], 'en')}")
+        if ev["tipo"] != "concert":
+            lin.append(f"- Competition: {L(ev['competicao']['nome'], 'en')}")
+        if ev.get("times"):
+            lin.append("- Teams: " + " vs ".join(L(tm["nome"], "en") for tm in ev["times"]))
+        if ev.get("artista"):
+            lin.append(f"- Artist: {ev['artista']['nome']}")
+        pr = preco_atual(ev, "en")
+        if pr:
+            lin.append(f"- Lowest price seen at the partner: {fmt_preco(pr['min'], pr['moeda'], 'en')} (checked {pr['conferido'][:10]}; prices change)")
+        lin.append(f"- About: {L(ev['intro'], 'en')}")
+        if ev.get("chegar"):
+            lin.append("- Getting there: " + " ".join(ev["chegar"]["en"]))
+        lin.append("- Guide pages: " + ", ".join(f"{HREFLANG[l]} {BASE_URL}/{caminho_evento(l, ev['slug'])}" for l in IDIOMAS))
+        lin.append("")
+    lin += ["## Guides by sport, competition and city", ""]
+    for g in sorted(hubs.values(), key=lambda x: (["esporte", "competicao", "cidade"].index(x["tipo"]), x["slug"]["en"])):
+        lin.append(f"- {titulo_hub('en', g)}: {BASE_URL}/{caminho_hub('en', g)} ({len(g['eventos'])} events)")
+    lin += ["", "## Safety and trust", ""]
+    for pg in (C.GUIA, C.GUIA_BARCA, C.COMO_FUNCIONA, C.DIVULGACAO):
+        lin.append(f"- {pg['en']['title']}: {BASE_URL}/{pg['en']['path']}")
+    lin += ["", f"Contact: {CONTATO_EMAIL}. Editor: {RESPONSAVEL}.", f"Updated: {dt.date.today().isoformat()}", ""]
+    (RAIZ / "llms-full.txt").write_text("\n".join(lin), encoding="utf-8")
 
 
 def main():
@@ -2338,6 +2396,7 @@ def main():
         feed_atom(lang, eventos, manifesto)
     manifesto_pwa()
     llms_txt(eventos, hubs)
+    llms_full_txt(eventos, hubs)
     import pins  # arte vertical dos pins do Pinterest (assets/pins/), redesenhada só quando muda
     feitas = pins.gerar_imagens(eventos)
     if feitas:
