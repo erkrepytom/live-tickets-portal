@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "meta-ads": {
+      "command": "python",
+      "args": ["tools/meta-ads-mcp/servidor.py"],
+      "env": {}
+    }
+  }
+}

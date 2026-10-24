@@ -1,0 +1,44 @@
+name: Meta Ads — relatório diário
+# Lê as métricas das campanhas no Meta e manda o relatório para o grupo do Telegram.
+# Este repositório é PÚBLICO, e no GitHub tanto os arquivos quanto o log de execução de um
+# repositório público são visíveis por qualquer pessoa. Por isso este workflow NÃO commita
+# nada e NÃO imprime número nenhum: ou o relatório sai por Telegram, ou não sai.
+# Enquanto TELEGRAM_BOT_TOKEN não existir, ele avisa e encerra sem fazer nada.
+on:
+  schedule:
+    - cron: "41 10 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: meta-relatorio
+  cancel-in-progress: false
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Conferir se há para onde mandar
+        id: destino
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "::notice::Sem TELEGRAM_BOT_TOKEN ou TELEGRAM_CHAT_ID. Crie o bot, guarde os dois em Settings → Secrets → Actions, e este relatório passa a chegar no grupo todo dia."
+            echo "pronto=nao" >> "$GITHUB_OUTPUT"
+          else
+            echo "pronto=sim" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Montar e enviar o relatório
+        if: steps.destino.outputs.pronto == 'sim'
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_AD_ACCOUNT_ID: ${{ secrets.META_AD_ACCOUNT_ID }}
+          META_API_VERSAO: ${{ vars.META_API_VERSAO }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/meta_relatorio.py --telegram
