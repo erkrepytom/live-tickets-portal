@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-24T16:42:20+00:00",
+ "atualizado": "2026-10-24T19:33:50+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Vice-artilheiro do Atlético-MG vira dúvida para enfrentar o Flamengo; entenda",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/24/vice-artilheiro-do-atletico-mg-vira-duvida-para-enfrentar-o-flamengo-entenda.ghtml",
+     "t": "Atlético-GO x Novorizontino - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/24-10-2026/atletico-go-novorizontino.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Barcelona x Real Madrid coloca dupla de ex-Palmeiras, Gabriel Jesus e Endrick, em lados opostos",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/24/barcelona-x-real-madrid-coloca-ex-palmeiras-gabriel-jesus-e-endrick-em-lados-opostos.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Flick elogia Mourinho antes de Barcelona x Real Madrid: \"Tenho o maior respeito\"",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/24/flick-elogia-mourinho-antes-de-barcelona-x-real-madrid-tenho-o-maior-respeito.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Pressionado, Corinthians se apega a retrospecto favorável contra o Vasco para encerrar jejum",
-     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-vantagem-retrospecto-vasco-brasileirao/",
+     "t": "Botafogo chega em Porto Alegre para duelo com o Internacional",
+     "u": "https://www.gazetaesportiva.com/times/botafogo/botafogo-chega-em-porto-alegre-para-duelo-com-o-internacional/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Santos defende longa invencibilidade em casa contra o Bahia na luta pela Libertadores",
-     "u": "https://www.gazetaesportiva.com/times/santos/santos-bahia-invencibilidade-casa-libertadores/",
+     "t": "Tottenham aproveita falha de goleiro, vence Chelsea e se afasta do Z3 no Inglês",
+     "u": "https://www.gazetaesportiva.com/campeonatos/premier-league/tottenham-vence-chelsea-com-gol-contra-bizarro-e-se-afasta-do-z3-do-ingles/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "NBA closing time: Amen Thompson erases Victor Wembanyama, Jayson Tatum daggers Knicks",
-     "u": "https://www.cbssports.com/nba/news/nba-closing-time-amen-thompson-victor-wembanyama-jayson-tatum-knicks/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Man City's winning start ended as Arsenal close gap to the top",
-     "u": "https://sports.yahoo.com/articles/man-citys-winning-start-ended-163330456.html",
+     "t": "Ami Nakai rallies to win Grand Prix France",
+     "u": "https://sports.yahoo.com/articles/ami-nakai-rallies-win-grand-192350191.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Ole Miss-Texas, college football picks",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-ole-miss-texas-college-football-picks/",
+     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Texas-Ole Miss, college football picks",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-texas-ole-miss-college-football-picks/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "F1 LIVE | Follow FP3 of the United States Grand Prix here",
-     "u": "https://sports.yahoo.com/articles/f1-live-fp3-united-states-163100697.html",
+     "t": "Dortmund go top in Bundesliga with win, Leipzig also bounce back",
+     "u": "https://sports.yahoo.com/articles/dortmund-top-bundesliga-win-leipzig-191830066.html",
      "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Week 7 NFL picks, best bets from proven model: This 5-leg parlay returns nearly 25-1",
+     "u": "https://www.cbssports.com/betting/news/nfl-parlay-picks-betting-predictions-for-week-7-2026/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "PSG: o último bastião de França",
-     "u": "https://www.record.pt/opiniao/cronistas/artur-fernandes/detalhe/psg-o-ultimo-bastiao-de-franca",
+     "t": "Tottenham vence dérbi com o Chelsea e soma segundo triunfo seguido na Premier League",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261024-155436-chelsea-tottenham-em-direto",
      "f": "Record",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Arsenal ganha no meio do dilúvio e aproveita deslize do Manchester City",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261024-142518-arsenal-everton-em-direto",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "FC Porto mais perto da Champions",
-     "u": "https://www.abola.pt/noticias/fc-porto-mais-perto-da-champions-2026102300141524003",
+     "t": "Para FC Porto e Sporting verem: Nápoles e Roma protagonizam jogo de loucos",
+     "u": "https://www.abola.pt/noticias/para-fc-porto-e-sporting-verem-napoles-e-roma-protagonizam-jogo-de-loucos-2026102418062681386",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "NFL: jogador dispensado após ter recorrido a arma durante discussão com colega",
-     "u": "https://www.abola.pt/noticias/nfl-jogador-dispensado-apos-ter-recorrido-a-arma-durante-discussao-com-colega-2026102217265252981",
+     "t": "FC Porto triunfa frente ao Santo Tirso e pressiona Sporting",
+     "u": "https://www.record.pt/modalidades/andebol/detalhe/fc-porto-triunfa-frente-ao-santo-tirso-e-pressiona-sporting",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Bah ficou à procura da bola e Omonia surpreende Benfica (vídeo)",
+     "u": "https://www.abola.pt/noticias/bah-ficou-a-procura-da-bola-e-omonia-surpreende-benfica-video-2026102219495984939",
      "f": "A Bola",
      "alta": false
     }
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "2-7: Goleada del Barça en El Ejido antes de la Champions",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261024/1004242643/2-7-goleada-barca-ejido-champions.html",
+     "t": "Hamilton planta cara a Verstappen y Ferrari va en serio; Alonso se mantiene",
+     "u": "https://www.mundodeportivo.com/motor/f1/20261024/1004242782/hamilton-planta-cara-verstappen-ferrari-serio-alonso-mantiene.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -153,21 +153,21 @@
      "alta": false
     },
     {
-     "t": "Chelsea v Tottenham: Premier League – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
      "t": "England crush France 82-0 to stay in World Cup contention",
      "u": "https://www.bbc.co.uk/sport/rugby-league/videos/c6vg0r05ypyeo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Chelsea vs Tottenham LIVE! & highlights",
-     "u": "https://www.skysports.com/football/chelsea-vs-tottenham-hotspur/live/559516",
+     "t": "Hamilton fastest from Verstappen ahead of US GP Qualifying",
+     "u": "https://www.skysports.com/f1/news/12040/13603143/united-states-gp-lewis-hamilton-fastest-from-max-verstappen-in-final-practice-ahead-of-qualifying-in-austin",
      "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Tottenham stun Chelsea for second league win in a week as Cole Palmer is sent off",
+     "u": "https://www.theguardian.com/football/2026/oct/24/chelsea-tottenham-premier-league-match-report",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,9 +181,15 @@
    },
    "noticias": [
     {
-     "t": "Arsenal le ganó a Everton y alcanzó al City de Enzo Fernández en la cima de la Premier League",
-     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/arsenal-everton-triunfo-alcanzo-city-premier-league_0_eaEJXwNJHp.html",
+     "t": "Atlético de Madrid vs. Deportivo La Coruña, EN VIVO, por La Liga: ¡Arrancó el partido!",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/atleticodemadrid-deportivolacoruna-laliga-fecha10-envivo-minutoadminuto_0_8vgWfqug11.html",
      "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Espectacular remontada de Roma con tres tantos argentinos ante Napoli: el golazo de Soulé y el doblete de Balerdi de cabeza",
+     "u": "https://www.infobae.com/deportes/2026/10/24/espectacular-remontada-de-roma-con-tres-tantos-argentinos-ante-napoli-el-golazo-de-soule-y-el-doblete-de-balerdi-de-cabeza/",
+     "f": "Infobae",
      "alta": false
     },
     {
@@ -193,14 +199,8 @@
      "alta": false
     },
     {
-     "t": "El Inter Miami de Lionel Messi visitará el New York RB por uno de los últimos partidos de la fase regular de la MLS: hora, TV y formaciones",
-     "u": "https://www.infobae.com/deportes/2026/10/24/el-inter-miami-de-lionel-messi-visitara-el-new-york-rb-por-uno-de-los-ultimos-partidos-de-la-fase-regular-de-la-mls-hora-tv-y-formaciones/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Antes de Racing y de Boca, la deuda pendiente de River en los clásicos",
-     "u": "https://www.ole.com.ar/river-plate/river-plate-racing-clasicos-historial-resultados_0_m7fXJ5MTfY.html",
+     "t": "Con presencia argentina, así quedaron los cuadros de los ATP 500 de Basilea y Viena",
+     "u": "https://www.ole.com.ar/tenis/buena-presencia-argentina-sorteo-cuadro-atp-500-basilea-viena-juegan-francisco-cerundolo-tomas-etcheverry-juan-manuel-cerundolo-sebastian-baez_0_0F3HTp1qF2.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Arsenal coleader de Premier League avec Manchester City après son succès tout en maîtrise face à Everton",
-     "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-coleader-de-premier-league-avec-manchester-city-apres-son-succes-tout-en-maitrise-face-a-everton/1738335#at_medium=RSS_feeds",
+     "t": "Comment le Stade de France est devenu un stade NFL",
+     "u": "https://www.lequipe.fr/Football-americain/Actualites/Comment-le-stade-de-france-est-devenu-un-stade-nfl/1738379#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "PSG-OL reporté, Barça-Real, NFL Paris Game : un programme XXL à ne pas manquer",
-     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Psg-ol-reporte-barca-real-nfl-paris-game-un-programme-xxl-a-ne-pas-manquer/1738077#at_medium=RSS_feeds",
+     "t": "Lewis Hamilton signe le meilleur chrono des essais libres 3 devant Max Verstappen et Charles Leclerc",
+     "u": "https://www.lequipe.fr/Formule-1/Actualites/Lewis-hamilton-signe-le-meilleur-chrono-des-essais-libres-3-devant-max-verstappen-et-charles-leclerc/1738398#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,24 +253,24 @@
  ],
  "destaques": [
   {
-   "t": "Vice-artilheiro do Atlético-MG vira dúvida para enfrentar o Flamengo; entenda",
-   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/24/vice-artilheiro-do-atletico-mg-vira-duvida-para-enfrentar-o-flamengo-entenda.ghtml",
+   "t": "Atlético-GO x Novorizontino - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+   "u": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/24-10-2026/atletico-go-novorizontino.ghtml",
    "f": "ge",
-   "alta": false,
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "NBA closing time: Amen Thompson erases Victor Wembanyama, Jayson Tatum daggers Knicks",
-   "u": "https://www.cbssports.com/nba/news/nba-closing-time-amen-thompson-victor-wembanyama-jayson-tatum-knicks/",
-   "f": "CBS Sports",
+   "t": "Ami Nakai rallies to win Grand Prix France",
+   "u": "https://sports.yahoo.com/articles/ami-nakai-rallies-win-grand-192350191.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "PSG: o último bastião de França",
-   "u": "https://www.record.pt/opiniao/cronistas/artur-fernandes/detalhe/psg-o-ultimo-bastiao-de-franca",
+   "t": "Tottenham vence dérbi com o Chelsea e soma segundo triunfo seguido na Premier League",
+   "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261024-155436-chelsea-tottenham-em-direto",
    "f": "Record",
-   "alta": false,
+   "alta": true,
    "pais": "PT"
   },
   {
@@ -288,8 +288,8 @@
    "pais": "GB"
   },
   {
-   "t": "Arsenal le ganó a Everton y alcanzó al City de Enzo Fernández en la cima de la Premier League",
-   "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/arsenal-everton-triunfo-alcanzo-city-premier-league_0_eaEJXwNJHp.html",
+   "t": "Atlético de Madrid vs. Deportivo La Coruña, EN VIVO, por La Liga: ¡Arrancó el partido!",
+   "u": "https://www.ole.com.ar/futbol-internacional/espana/atleticodemadrid-deportivolacoruna-laliga-fecha10-envivo-minutoadminuto_0_8vgWfqug11.html",
    "f": "Olé",
    "alta": false,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Arsenal coleader de Premier League avec Manchester City après son succès tout en maîtrise face à Everton",
-   "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-coleader-de-premier-league-avec-manchester-city-apres-son-succes-tout-en-maitrise-face-a-everton/1738335#at_medium=RSS_feeds",
+   "t": "Comment le Stade de France est devenu un stade NFL",
+   "u": "https://www.lequipe.fr/Football-americain/Actualites/Comment-le-stade-de-france-est-devenu-un-stade-nfl/1738379#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
