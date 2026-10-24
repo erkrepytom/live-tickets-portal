@@ -308,8 +308,9 @@ AVISO_FONTE = {"pt": "Fonte", "en": "Source", "es": "Fuente"}
 ROT = {
  "pt": {"entrada_h": "O que levar e o que é barrado", "publico_h": "Melhor setor para cada perfil", "faq_h": "Perguntas frequentes",
         "conferido": "Data e horário conferidos no parceiro em {conf}.", "hora_local": "{h} (horário local)",
-        "titulos": ["{t}{ano}: ingressos com garantia + guia {art} {loc}", "{t}{ano}: ingressos com garantia de entrega",
-                    "{t}{ano}: ingressos com garantia", "{t}: ingressos com garantia"],
+        # Palavra de busca primeiro ("Ingressos ..."), como SeatPick, Ticombo e P1 Travel (aprovado em 24/10/2026).
+        "titulos": ["Ingressos {t}{ano}: com garantia + guia {art} {loc}", "Ingressos {t}{ano} | {loc}",
+                    "Ingressos {t}{ano}", "Ingressos {t}"],
         "desc": "Ingressos (bilhetes) para {t}: {d} às {h}, {loc}. Garantia de entrega do parceiro, como chegar, melhor setor para família ou torcida e o que levar.",
         "f_time": "Horário", "como_h": "Como funciona e garantias", "guia_h": "Comprar ingressos na Europa sem risco"},
  "en": {"entrada_h": "What to bring and what gets refused", "publico_h": "Best section for each fan", "faq_h": "Frequently asked questions",

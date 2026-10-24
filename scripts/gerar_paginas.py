@@ -332,9 +332,24 @@ def caminho_hub(lang, hub):
     return caminho_home(lang) + HUB_PASTA[hub["tipo"]][lang] + hub["slug"][lang] + "/"
 
 
+def temporada(hub):
+    """Temporada dos eventos do hub, como o SeatPick põe no título ("2026/2027"; aprovado em 24/10/2026).
+    Futebol e rúgbi europeus: ago-jul (2026/2027). Demais: o ano. Vários anos ou temporadas: nada."""
+    if hub["tipo"] not in ("esporte", "competicao"):
+        return ""
+    vistos = set()
+    for ev in hub["eventos"]:
+        a, m = int(ev["data"][:4]), int(ev["data"][5:7])
+        if ev["tipo"] in ("football", "rugby"):
+            vistos.add(f"{a}/{a + 1}" if m >= 7 else f"{a - 1}/{a}")
+        else:
+            vistos.add(str(a))
+    return " " + vistos.pop() if len(vistos) == 1 else ""
+
+
 def titulo_hub(lang, hub):
     nome = hub["nome"][lang]
-    return HT[lang]["h_" + hub["tipo"]].format(x=nome, X=nome[:1].upper() + nome[1:])
+    return HT[lang]["h_" + hub["tipo"]].format(x=nome, X=nome[:1].upper() + nome[1:]) + temporada(hub)
 
 
 def hub_de(hubs, tipo, chave):

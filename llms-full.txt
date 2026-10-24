@@ -121,8 +121,8 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 
 ## Guides by sport, competition and city
 
-- Football tickets: https://mytickets.tours/en/football/ (5 events)
-- UEFA Champions League tickets: https://mytickets.tours/en/competitions/uefa-champions-league/ (2 events)
+- Football tickets 2026/2027: https://mytickets.tours/en/football/ (5 events)
+- UEFA Champions League tickets 2026/2027: https://mytickets.tours/en/competitions/uefa-champions-league/ (2 events)
 - Tickets in Barcelona: https://mytickets.tours/en/cities/barcelona/ (2 events)
 - Tickets in Milan: https://mytickets.tours/en/cities/milan/ (2 events)
 - Tickets in Paris: https://mytickets.tours/en/cities/paris/ (2 events)
