@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-24T01:41:16+00:00",
+ "atualizado": "2026-10-24T07:25:05+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Eleições no Inter: o que disse o candidato à presidência Roberto Melo sobre futebol, finanças, gestão e SAF",
-     "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/23/eleicoes-no-inter-o-que-disse-o-candidato-a-presidencia-roberto-melo-sobre-futebol-financas-gestao-e-saf.ghtml",
+     "t": "Flamengo vai à Conmebol e tenta reverter eliminação na Libertadores por escalação irregular",
+     "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-reclamacao-conmebol-marcos-rojo-estudiantes-libertadores/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Internacional x Botafogo: onde assistir ao vivo, horário e escalações",
+     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/24/internacional-x-botafogo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Flamengo recorre da escalação de Rojo, do Estudiantes, e tenta mudar classificação na Libertadores; entenda",
-     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/23/flamengo-recorre-da-escalacao-de-rojo-do-estudiantes-e-tenta-mudar-classificacao-na-libertadores-entenda.ghtml",
+     "t": "Barcelona x Real Madrid: José Mourinho volta ao El Clasico após 13 anos; veja histórico",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/24/barcelona-x-real-madrid-jose-mourinho-volta-ao-el-clasico-apos-13-anos-veja-historico.ghtml",
      "f": "ge",
      "alta": false
     },
     {
      "t": "Vasco x Corinthians pelo Brasileirão: onde assistir, estatísticas, histórico e escalações",
      "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/vasco-corinthians-brasileirao-24-10-2026/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Chelsea x Tottenham pelo Inglês: onde assistir, prováveis escalações e horário",
-     "u": "https://www.gazetaesportiva.com/times/chelsea/chelsea-x-tottenham-onde-assistir-provaveis-escalacoes-e-horario/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,6 +45,12 @@
    },
    "noticias": [
     {
+     "t": "Barcelona vs Real Madrid preview: Catalan giants look to bounce back from PSG nightmare against Los Blancos",
+     "u": "https://sports.yahoo.com/articles/barcelona-vs-real-madrid-preview-070500348.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
      "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-best-bets-for-friday-oct-23/",
      "f": "CBS Sports",
@@ -57,14 +63,8 @@
      "alta": false
     },
     {
-     "t": "Paramus Catholic football clears major hurdle in race for No. 1 seed",
-     "u": "https://sports.yahoo.com/articles/paramus-catholic-football-clears-major-013511400.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "How to watch NC State vs Stanford: Live stream College Football, TV channel",
-     "u": "https://sports.yahoo.com/articles/watch-nc-state-vs-stanford-013500933.html",
+     "t": "Friday Seacoast Roundup: STA field hockey, Marshwood boys soccer advance, more results",
+     "u": "https://sports.yahoo.com/articles/friday-seacoast-roundup-sta-field-071318268.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Charles Leclerc domina primeiro dia do Grande Prémio dos Estados Unidos de F1",
-     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/charles-leclerc-domina-primeiro-dia-do-grande-premio-dos-estados-unidos-de-f1",
+     "t": "Nuno Lopes levou a França ao título Mundial de hóquei em patins: «Não escondo que procurava isto há muito tempo»",
+     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/nuno-lopes-levou-a-franca-ao-titulo-mundial-de-hoquei-em-patins-nao-escondo-que-procurava-isto-ha-muito-tempo",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Mais um para a conta: a classe do ex-Benfica que continua em grande em Itália (vídeo)",
-     "u": "https://www.abola.pt/noticias/mais-um-para-a-conta-a-classe-do-ex-benfica-que-continua-em-grande-em-italia-video-2026102320153833933",
+     "t": "FC Porto: Gabriel Mec deixa água na boca com o Brasil atento",
+     "u": "https://www.abola.pt/noticias/fc-porto-gabriel-mec-deixa-agua-na-boca-com-o-brasil-atento-2026102218463326602",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "João Cancelo lança o Barcelona-Real Madrid: «Espero que consigamos sacar a vitória»",
-     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/joao-cancelo-lanca-o-barcelona-real-madrid-espero-que-consigamos-sacar-a-vitoria",
+     "t": "Kaique ilibado da derrota na Champions e na frente da luta pela baliza do Sporting",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/kaique-ilibado-da-derrota-na-champions-e-na-frente-da-luta-pela-baliza-do-sporting",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Lutador de MMA é a vítima mortal de atentado em França",
-     "u": "https://www.abola.pt/noticias/lutador-de-mma-e-a-vitima-mortal-de-atentado-em-franca-2026102319500082109",
+     "t": "Max Verstappen revela danos na coluna devido ao desgaste na Fórmula 1",
+     "u": "https://www.abola.pt/noticias/max-verstappen-revela-danos-na-coluna-devido-ao-desgaste-na-formula-1-2026102318444909234",
      "f": "A Bola",
      "alta": false
     }
@@ -119,15 +119,15 @@
      "alta": false
     },
     {
-     "t": "80-84: Dabone se sale del mapa y el Barça tumba al Real Madrid en el primer Clásico",
-     "u": "https://www.mundodeportivo.com/baloncesto/liga-u/20261023/1004242382/dabone-sale-mapa-barca-tumba-real-madrid-primer-clasico.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
      "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Ronaldinho vuelve al fútbol en Italia",
+     "u": "https://www.mundodeportivo.com/futbol/internacional/20261024/1004242522/ronaldinho-vuelve-futbol-italia.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
+     "t": "Aston Villa v Manchester City buildup, Premier League news, WSL, and more – matchday live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-buildup-premier-league-news-wsl-and-more-matchday-live",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
      "t": "Leclerc tops first USA practice as upgraded Ferrari shows early promise",
      "u": "https://www.skysports.com/f1/news/12040/13602755/united-states-gp-charles-leclerc-fastest-in-upgraded-ferrari-in-first-practice-in-austin-as-mercedes-rivals-introduce-updates",
      "f": "Sky Sports",
      "alta": false
     },
     {
+     "t": "Why Tottenham v Arsenal could define their seasons - live on BBC One",
+     "u": "https://www.bbc.co.uk/sport/football/articles/ck240l3n774zo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
      "t": "Premier League, Antonelli goes for F1 title, plus WSL and clásico action – follow with us",
      "u": "https://www.theguardian.com/sport/2026/oct/23/premier-league-antonelli-goes-for-f1-title-plus-wsl-and-clasico-action-follow-with-us",
      "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Is el clásico still the world’s biggest match? Three questions before Barcelona v Real Madrid",
-     "u": "https://www.theguardian.com/football/2026/oct/23/el-clasico-real-madrid-barcelona-lamine-yamal-kylian-mbappe",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Hamilton eyes staying in F1 into 2030s to race in African GP",
-     "u": "https://www.skysports.com/f1/news/12040/13602759/lewis-hamilton-ferrari-driver-eyes-continuing-his-f1-career-into-the-2030s-to-race-at-first-african-gp",
-     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -193,14 +193,8 @@
      "alta": false
     },
     {
-     "t": "Con Estudiantes RC descendido, así está la lucha por no perder la categoría en la Liga Profesional",
-     "u": "https://www.ole.com.ar/futbol-primera/lucha-descenso-ligaprofesional-aldosivi-deportivoriestra-promedios-tablaanual_0_11K9Zs9p3F.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Tigre vs. Atlético Tucumán, por el Torneo Clausura, EN VIVO: el Matador merodea el primero",
-     "u": "https://www.ole.com.ar/tigre/tigre-atletico-tucuman-decano-matador-minuto-minuto-partido-directo-online_0_iuEzhv3bkl.html",
+     "t": "Cómo se armó el rompecabezas del Estudiantes que va por su quinta Libertadores",
+     "u": "https://www.ole.com.ar/estudiantes/estudiantes-libertadores-rompecabezas-proceso-jugadores-historicos-identidad_0_BsBlNWO2Af.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Charles Leclerc à nouveau le plus rapide lors des EL2 du Grand Prix des États-Unis mais Kimi Antonelli se rapproche",
-     "u": "https://www.lequipe.fr/Formule-1/Actualites/Charles-leclerc-a-nouveau-le-plus-rapide-lors-des-el2-du-grand-prix-des-etats-unis-mais-kimi-antonelli-se-rapproche/1738220#at_medium=RSS_feeds",
+     "t": "Rencontre avec les Soul Rebels, qui vont jouer l'hymne américain au Stade de France",
+     "u": "https://www.lequipe.fr/Football-americain/Article/Ils-ont-les-new-orleans-saints-dans-la-peau-et-vont-jouer-l-hymne-americain-avant-le-nfl-paris-game-rencontre-avec-les-soul-rebels/1737513#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Yéhvann Diouf, gardien de Nice, après la victoire épique à Brest en Ligue 1 : « Le penalty arrêté, ça compense mon erreur »",
-     "u": "https://www.lequipe.fr/Football/Actualites/Yehvann-diouf-gardien-de-nice-apres-la-victoire-epique-a-brest-en-ligue-1-le-penalty-arrete-ca-compense-mon-erreur/1738210#at_medium=RSS_feeds",
+     "t": "Ce qu'il faut retenir de la nuit en NBA : Jayson Tatum fait plier les Knicks, Miami s'enfonce malgré Giannis Antetokounmpo",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Ce-qu-il-faut-retenir-de-la-nuit-en-nba-jayson-tatum-fait-plier-les-knicks-miami-s-enfonce-malgre-giannis-antetokounmpo/1738236#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,22 +247,22 @@
  ],
  "destaques": [
   {
-   "t": "Eleições no Inter: o que disse o candidato à presidência Roberto Melo sobre futebol, finanças, gestão e SAF",
-   "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/23/eleicoes-no-inter-o-que-disse-o-candidato-a-presidencia-roberto-melo-sobre-futebol-financas-gestao-e-saf.ghtml",
-   "f": "ge",
+   "t": "Flamengo vai à Conmebol e tenta reverter eliminação na Libertadores por escalação irregular",
+   "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-reclamacao-conmebol-marcos-rojo-estudiantes-libertadores/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
-   "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-best-bets-for-friday-oct-23/",
-   "f": "CBS Sports",
+   "t": "Barcelona vs Real Madrid preview: Catalan giants look to bounce back from PSG nightmare against Los Blancos",
+   "u": "https://sports.yahoo.com/articles/barcelona-vs-real-madrid-preview-070500348.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Charles Leclerc domina primeiro dia do Grande Prémio dos Estados Unidos de F1",
-   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/charles-leclerc-domina-primeiro-dia-do-grande-premio-dos-estados-unidos-de-f1",
+   "t": "Nuno Lopes levou a França ao título Mundial de hóquei em patins: «Não escondo que procurava isto há muito tempo»",
+   "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/nuno-lopes-levou-a-franca-ao-titulo-mundial-de-hoquei-em-patins-nao-escondo-que-procurava-isto-ha-muito-tempo",
    "f": "Record",
    "alta": false,
    "pais": "PT"
@@ -281,9 +275,9 @@
    "pais": "ES"
   },
   {
-   "t": "Leclerc tops first USA practice as upgraded Ferrari shows early promise",
-   "u": "https://www.skysports.com/f1/news/12040/13602755/united-states-gp-charles-leclerc-fastest-in-upgraded-ferrari-in-first-practice-in-austin-as-mercedes-rivals-introduce-updates",
-   "f": "Sky Sports",
+   "t": "Aston Villa v Manchester City buildup, Premier League news, WSL, and more – matchday live",
+   "u": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-buildup-premier-league-news-wsl-and-more-matchday-live",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
@@ -302,8 +296,8 @@
    "pais": "IT"
   },
   {
-   "t": "Charles Leclerc à nouveau le plus rapide lors des EL2 du Grand Prix des États-Unis mais Kimi Antonelli se rapproche",
-   "u": "https://www.lequipe.fr/Formule-1/Actualites/Charles-leclerc-a-nouveau-le-plus-rapide-lors-des-el2-du-grand-prix-des-etats-unis-mais-kimi-antonelli-se-rapproche/1738220#at_medium=RSS_feeds",
+   "t": "Rencontre avec les Soul Rebels, qui vont jouer l'hymne américain au Stade de France",
+   "u": "https://www.lequipe.fr/Football-americain/Article/Ils-ont-les-new-orleans-saints-dans-la-peau-et-vont-jouer-l-hymne-americain-avant-le-nfl-paris-game-rencontre-avec-les-soul-rebels/1737513#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
