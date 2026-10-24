@@ -1,4 +1,4 @@
-# Radar de menções — 2026-10-23
+# Radar de menções — 2026-10-24
 
 0 conversa(s) com cara de quem quer comprar, nos últimos 30 dias.
 
