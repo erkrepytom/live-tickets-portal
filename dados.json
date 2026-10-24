@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-24T19:33:50+00:00",
+ "atualizado": "2026-10-24T22:34:19+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Atlético-GO x Novorizontino - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/24-10-2026/atletico-go-novorizontino.ghtml",
+     "t": "Palmeiras leva empate do Santa Fe e cai nos pênaltis na Libertadores Feminina",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-leva-empate-do-santa-fe-e-cai-nos-penaltis-na-libertadores-feminina/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "Palmeiras abre 2 a 0, cede empate ao Santa Fé e cai na Libertadores Feminina",
+     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/24-10-2026/palmeiras-independiente-santa-fe.ghtml",
      "f": "ge",
      "alta": true
     },
     {
-     "t": "Barcelona x Real Madrid coloca dupla de ex-Palmeiras, Gabriel Jesus e Endrick, em lados opostos",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/24/barcelona-x-real-madrid-coloca-ex-palmeiras-gabriel-jesus-e-endrick-em-lados-opostos.ghtml",
+     "t": "Cruzeiro vence Atlético-MG e está na final do Brasileirão sub-17",
+     "u": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-sub-17/jogo/24-10-2026/cruzeiro-atletico-mg.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Botafogo chega em Porto Alegre para duelo com o Internacional",
-     "u": "https://www.gazetaesportiva.com/times/botafogo/botafogo-chega-em-porto-alegre-para-duelo-com-o-internacional/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Tottenham aproveita falha de goleiro, vence Chelsea e se afasta do Z3 no Inglês",
-     "u": "https://www.gazetaesportiva.com/campeonatos/premier-league/tottenham-vence-chelsea-com-gol-contra-bizarro-e-se-afasta-do-z3-do-ingles/",
+     "t": "Internacional vence Botafogo e ganha fôlego contra o Z4 do Brasileirão",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/internacional-vence-botafogo-e-ganha-folego-contra-o-z4-do-brasileirao/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Ami Nakai rallies to win Grand Prix France",
-     "u": "https://sports.yahoo.com/articles/ami-nakai-rallies-win-grand-192350191.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
      "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Texas-Ole Miss, college football picks",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-texas-ole-miss-college-football-picks/",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-texas-ole-miss-college-football-picks/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Dortmund go top in Bundesliga with win, Leipzig also bounce back",
-     "u": "https://sports.yahoo.com/articles/dortmund-top-bundesliga-win-leipzig-191830066.html",
+     "t": "Chelsea sweat over Joao Pedro injury after missing Tottenham defeat",
+     "u": "https://sports.yahoo.com/articles/joao-pedro-chelsea-team-face-152648630.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Week 7 NFL picks, best bets from proven model: This 5-leg parlay returns nearly 25-1",
-     "u": "https://www.cbssports.com/betting/news/nfl-parlay-picks-betting-predictions-for-week-7-2026/",
+     "t": "Mercedes driver Kimi Antonelli earns surprise pole for the US Grand Prix as he chases the F1 title",
+     "u": "https://sports.yahoo.com/articles/mercedes-driver-kimi-antonelli-earns-222213471.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "NFL levies two fines to 49ers LB Fred Warner for hit on Commanders TE Chig Okonkwo",
+     "u": "https://www.cbssports.com/nfl/news/nfl-levies-two-fines-to-49ers-lb-fred-warner/",
      "f": "CBS Sports",
      "alta": false
     }
@@ -79,28 +79,28 @@
    },
    "noticias": [
     {
-     "t": "Tottenham vence dérbi com o Chelsea e soma segundo triunfo seguido na Premier League",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261024-155436-chelsea-tottenham-em-direto",
+     "t": "FC Porto: Gabriel Mec deixa água na boca com o Brasil atento",
+     "u": "https://www.abola.pt/noticias/fc-porto-gabriel-mec-deixa-agua-na-boca-com-o-brasil-atento-2026102218463326602",
+     "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "Ajudou a despedir Vítor Bruno e recorda jogo com o FC Porto: «Fizemos a vida difícil aos grandes»",
+     "u": "https://www.abola.pt/noticias/ajudou-a-despedir-vitor-bruno-e-recorda-jogo-com-o-fc-porto-fizemos-a-vida-dificil-aos-grandes-2026102213455131025",
+     "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "Elimbi foi bem expulso? Os casos do Gil Vicente-FC Porto",
+     "u": "https://www.record.pt/futebol/arbitragem/detalhe/elimbi-foi-bem-expulso-os-casos-do-gil-vicente-fc-porto",
      "f": "Record",
      "alta": true
     },
     {
-     "t": "Para FC Porto e Sporting verem: Nápoles e Roma protagonizam jogo de loucos",
-     "u": "https://www.abola.pt/noticias/para-fc-porto-e-sporting-verem-napoles-e-roma-protagonizam-jogo-de-loucos-2026102418062681386",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "FC Porto triunfa frente ao Santo Tirso e pressiona Sporting",
-     "u": "https://www.record.pt/modalidades/andebol/detalhe/fc-porto-triunfa-frente-ao-santo-tirso-e-pressiona-sporting",
+     "t": "O lance que motivou a expulsão de Elimbi diante do FC Porto",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/o-lance-que-motivou-a-expulsao-de-elimbi-diante-do-fc-porto",
      "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Bah ficou à procura da bola e Omonia surpreende Benfica (vídeo)",
-     "u": "https://www.abola.pt/noticias/bah-ficou-a-procura-da-bola-e-omonia-surpreende-benfica-video-2026102219495984939",
-     "f": "A Bola",
-     "alta": false
+     "alta": true
     }
    ]
   },
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "Hamilton planta cara a Verstappen y Ferrari va en serio; Alonso se mantiene",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261024/1004242782/hamilton-planta-cara-verstappen-ferrari-serio-alonso-mantiene.html",
+     "t": "Así queda la clasificación de la Liga Endesa tras la victoria del Barça ante el Casademont Zaragoza",
+     "u": "https://www.mundodeportivo.com/baloncesto/acb/20261024/1004242745/asi-queda-clasificacion-liga-endesa-victoria-barca-casademont-zaragoza.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
+     "t": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
+     "u": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
      "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
      "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "England crush France 82-0 to stay in World Cup contention",
-     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/c6vg0r05ypyeo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Hamilton fastest from Verstappen ahead of US GP Qualifying",
-     "u": "https://www.skysports.com/f1/news/12040/13603143/united-states-gp-lewis-hamilton-fastest-from-max-verstappen-in-final-practice-ahead-of-qualifying-in-austin",
+     "t": "Knicks employees to get NBA championship rings after phishing email 'mistake'",
+     "u": "https://www.skysports.com/nba/news/12040/13603315/new-york-knicks-employees-to-get-nba-championship-rings-after-admitting-to-phishing-email-mistake",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Tottenham stun Chelsea for second league win in a week as Cole Palmer is sent off",
-     "u": "https://www.theguardian.com/football/2026/oct/24/chelsea-tottenham-premier-league-match-report",
-     "f": "The Guardian",
+     "t": "Arsenal beat Everton to go level on points with leaders Man City",
+     "u": "https://www.bbc.co.uk/sport/football/videos/cm79pxqdlwelo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,9 +181,9 @@
    },
    "noticias": [
     {
-     "t": "Atlético de Madrid vs. Deportivo La Coruña, EN VIVO, por La Liga: ¡Arrancó el partido!",
-     "u": "https://www.ole.com.ar/futbol-internacional/espana/atleticodemadrid-deportivolacoruna-laliga-fecha10-envivo-minutoadminuto_0_8vgWfqug11.html",
-     "f": "Olé",
+     "t": "Franco Colapinto largará 21° el Gran Premio de Estados Unidos de Fórmula 1 por una penalización",
+     "u": "https://www.infobae.com/deportes/2026/10/24/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-libre-en-el-gran-premio-de-estados-unidos-hora-y-tv/",
+     "f": "Infobae",
      "alta": false
     },
     {
@@ -193,14 +193,14 @@
      "alta": false
     },
     {
-     "t": "Flamengo hizo un reclamo por la inclusión de Marcos Rojo tras ser eliminado por Estudiantes: el caso en Santos-Independiente que plantean",
-     "u": "https://www.infobae.com/deportes/2026/10/24/flamengo-hizo-un-reclamo-por-la-inclusion-de-marcos-rojo-tras-ser-eliminado-por-estudiantes-en-la-libertadores-el-caso-en-santos-independiente-que-plantean/",
-     "f": "Infobae",
+     "t": "Así quedó la parrilla de salida del GP de Estados Unidos de Fórmula 1",
+     "u": "https://www.ole.com.ar/autos/quedo-parrilla-f1-estados-unidos_0_6bUimg7wWk.html",
+     "f": "Olé",
      "alta": false
     },
     {
-     "t": "Con presencia argentina, así quedaron los cuadros de los ATP 500 de Basilea y Viena",
-     "u": "https://www.ole.com.ar/tenis/buena-presencia-argentina-sorteo-cuadro-atp-500-basilea-viena-juegan-francisco-cerundolo-tomas-etcheverry-juan-manuel-cerundolo-sebastian-baez_0_0F3HTp1qF2.html",
+     "t": "Independiente se juega una parada brava ante Boca: la racha que debe cortar de local y el plan de Viera",
+     "u": "https://www.ole.com.ar/independiente/independiente-jadsonviera-maximilianomeza-boca-avellaneda_0_rcQxoVHqzL.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Comment le Stade de France est devenu un stade NFL",
-     "u": "https://www.lequipe.fr/Football-americain/Actualites/Comment-le-stade-de-france-est-devenu-un-stade-nfl/1738379#at_medium=RSS_feeds",
+     "t": "Bastia éliminé de la Coupe de France par Furiani-Agliani sur un but de son ancien capitaine au 6e tour",
+     "u": "https://www.lequipe.fr/Football/Actualites/Bastia-elimine-de-la-coupe-de-france-par-furiani-agliani-sur-un-but-de-son-ancien-capitaine-au-6e-tour/1738449#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Lewis Hamilton signe le meilleur chrono des essais libres 3 devant Max Verstappen et Charles Leclerc",
-     "u": "https://www.lequipe.fr/Formule-1/Actualites/Lewis-hamilton-signe-le-meilleur-chrono-des-essais-libres-3-devant-max-verstappen-et-charles-leclerc/1738398#at_medium=RSS_feeds",
+     "t": "Tombeuse de Parme, la Lazio Rome poursuit son sans-faute et prend la tête de la Serie A",
+     "u": "https://www.lequipe.fr/Football/Actualites/Tombeuse-de-parme-la-lazio-rome-poursuit-son-sans-faute-et-prend-la-tete-de-la-serie-a/1738437#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,23 +253,23 @@
  ],
  "destaques": [
   {
-   "t": "Atlético-GO x Novorizontino - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/24-10-2026/atletico-go-novorizontino.ghtml",
-   "f": "ge",
+   "t": "Palmeiras leva empate do Santa Fe e cai nos pênaltis na Libertadores Feminina",
+   "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-leva-empate-do-santa-fe-e-cai-nos-penaltis-na-libertadores-feminina/",
+   "f": "Gazeta Esportiva",
    "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Ami Nakai rallies to win Grand Prix France",
-   "u": "https://sports.yahoo.com/articles/ami-nakai-rallies-win-grand-192350191.html",
-   "f": "Yahoo Sports",
+   "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Texas-Ole Miss, college football picks",
+   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-texas-ole-miss-college-football-picks/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Tottenham vence dérbi com o Chelsea e soma segundo triunfo seguido na Premier League",
-   "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261024-155436-chelsea-tottenham-em-direto",
-   "f": "Record",
+   "t": "FC Porto: Gabriel Mec deixa água na boca com o Brasil atento",
+   "u": "https://www.abola.pt/noticias/fc-porto-gabriel-mec-deixa-agua-na-boca-com-o-brasil-atento-2026102218463326602",
+   "f": "A Bola",
    "alta": true,
    "pais": "PT"
   },
@@ -281,16 +281,16 @@
    "pais": "ES"
   },
   {
-   "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
-   "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
+   "t": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
+   "u": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Atlético de Madrid vs. Deportivo La Coruña, EN VIVO, por La Liga: ¡Arrancó el partido!",
-   "u": "https://www.ole.com.ar/futbol-internacional/espana/atleticodemadrid-deportivolacoruna-laliga-fecha10-envivo-minutoadminuto_0_8vgWfqug11.html",
-   "f": "Olé",
+   "t": "Franco Colapinto largará 21° el Gran Premio de Estados Unidos de Fórmula 1 por una penalización",
+   "u": "https://www.infobae.com/deportes/2026/10/24/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-libre-en-el-gran-premio-de-estados-unidos-hora-y-tv/",
+   "f": "Infobae",
    "alta": false,
    "pais": "AR"
   },
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Comment le Stade de France est devenu un stade NFL",
-   "u": "https://www.lequipe.fr/Football-americain/Actualites/Comment-le-stade-de-france-est-devenu-un-stade-nfl/1738379#at_medium=RSS_feeds",
+   "t": "Bastia éliminé de la Coupe de France par Furiani-Agliani sur un but de son ancien capitaine au 6e tour",
+   "u": "https://www.lequipe.fr/Football/Actualites/Bastia-elimine-de-la-coupe-de-france-par-furiani-agliani-sur-un-but-de-son-ancien-capitaine-au-6e-tour/1738449#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
