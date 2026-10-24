@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-24T07:25:05+00:00",
+ "atualizado": "2026-10-24T12:46:20+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Flamengo vai à Conmebol e tenta reverter eliminação na Libertadores por escalação irregular",
-     "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-reclamacao-conmebol-marcos-rojo-estudiantes-libertadores/",
+     "t": "Grêmio e Inter podem se salvar? Veja times que escaparam do rebaixamento em cenário similar",
+     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/24/gremio-e-inter-podem-se-salvar-veja-times-que-escaparam-do-rebaixamento-em-cenario-similar.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Campeão da Libertadores pelo Inter assume clube da segunda divisão do RN",
+     "u": "https://ge.globo.com/rn/blogs/augustox/post/2026/10/24/campeao-da-libertadores-pelo-inter-assume-clube-da-segunda-divisao-do-rn.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Pressionado, Corinthians se apega a retrospecto favorável contra o Vasco para encerrar jejum",
+     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-vantagem-retrospecto-vasco-brasileirao/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Internacional x Botafogo: onde assistir ao vivo, horário e escalações",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/24/internacional-x-botafogo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Barcelona x Real Madrid: José Mourinho volta ao El Clasico após 13 anos; veja histórico",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/24/barcelona-x-real-madrid-jose-mourinho-volta-ao-el-clasico-apos-13-anos-veja-historico.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Vasco x Corinthians pelo Brasileirão: onde assistir, estatísticas, histórico e escalações",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/vasco-corinthians-brasileirao-24-10-2026/",
+     "t": "Santos defende longa invencibilidade em casa contra o Bahia na luta pela Libertadores",
+     "u": "https://www.gazetaesportiva.com/times/santos/santos-bahia-invencibilidade-casa-libertadores/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,12 +45,6 @@
    },
    "noticias": [
     {
-     "t": "Barcelona vs Real Madrid preview: Catalan giants look to bounce back from PSG nightmare against Los Blancos",
-     "u": "https://sports.yahoo.com/articles/barcelona-vs-real-madrid-preview-070500348.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
      "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
      "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-best-bets-for-friday-oct-23/",
      "f": "CBS Sports",
@@ -63,8 +57,14 @@
      "alta": false
     },
     {
-     "t": "Friday Seacoast Roundup: STA field hockey, Marshwood boys soccer advance, more results",
-     "u": "https://sports.yahoo.com/articles/friday-seacoast-roundup-sta-field-071318268.html",
+     "t": "Paula Moltzan earns long-awaited first Alpine skiing World Cup win to open season",
+     "u": "https://sports.yahoo.com/articles/paula-moltzan-earns-long-awaited-123627424.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "NFL commissioner Roger Goodell on potential Tokyo game: 'It's coming at some point in the near future'",
+     "u": "https://sports.yahoo.com/nfl/article/nfl-commissioner-roger-goodell-on-potential-tokyo-game-its-coming-at-some-point-in-the-near-future-123100001.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Nuno Lopes levou a França ao título Mundial de hóquei em patins: «Não escondo que procurava isto há muito tempo»",
-     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/nuno-lopes-levou-a-franca-ao-titulo-mundial-de-hoquei-em-patins-nao-escondo-que-procurava-isto-ha-muito-tempo",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "FC Porto: Gabriel Mec deixa água na boca com o Brasil atento",
-     "u": "https://www.abola.pt/noticias/fc-porto-gabriel-mec-deixa-agua-na-boca-com-o-brasil-atento-2026102218463326602",
+     "t": "Processo ao presidente da LaLiga por comparar Real Madrid a nazis",
+     "u": "https://www.abola.pt/noticias/processo-ao-presidente-da-laliga-por-comparar-real-madrid-a-nazis-2026102213192202894",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Kaique ilibado da derrota na Champions e na frente da luta pela baliza do Sporting",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/kaique-ilibado-da-derrota-na-champions-e-na-frente-da-luta-pela-baliza-do-sporting",
+     "t": "Neemias Queta anota 15 pontos na vitória dos Celtics frente aos campeões Knicks",
+     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/neemias-queta-anota-15-pontos-na-vitoria-dos-celtics-frente-aos-campeoes-knicks",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Max Verstappen revela danos na coluna devido ao desgaste na Fórmula 1",
-     "u": "https://www.abola.pt/noticias/max-verstappen-revela-danos-na-coluna-devido-ao-desgaste-na-formula-1-2026102318444909234",
+     "t": "Mourinho e o Clássico: «Prova do algodão? O Real Madrid comigo ganha títulos»",
+     "u": "https://www.abola.pt/noticias/mourinho-e-o-classico-prova-do-algodao-o-real-madrid-comigo-ganha-titulos-2026102408491361076",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Aston Villa-Manchester City, em direto",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261024-112742-aston-villa-manchester-city-em-direto",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "Ronaldinho vuelve al fútbol en Italia",
-     "u": "https://www.mundodeportivo.com/futbol/internacional/20261024/1004242522/ronaldinho-vuelve-futbol-italia.html",
+     "t": "Las imágenes del entrenamiento del FC Barcelona previo al Clásico",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261024/1004242616/imagenes-entrenamiento-fc-barcelona-previo-clasico.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Aston Villa v Manchester City buildup, Premier League news, WSL, and more – matchday live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-buildup-premier-league-news-wsl-and-more-matchday-live",
+     "t": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Leclerc tops first USA practice as upgraded Ferrari shows early promise",
-     "u": "https://www.skysports.com/f1/news/12040/13602755/united-states-gp-charles-leclerc-fastest-in-upgraded-ferrari-in-first-practice-in-austin-as-mercedes-rivals-introduce-updates",
-     "f": "Sky Sports",
+     "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
+     "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
+     "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Why Tottenham v Arsenal could define their seasons - live on BBC One",
-     "u": "https://www.bbc.co.uk/sport/football/articles/ck240l3n774zo?at_medium=RSS&at_campaign=rss",
+     "t": "England thrash France to keep alive World Cup hopes",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/articles/cr93zwx9pzv9o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Premier League, Antonelli goes for F1 title, plus WSL and clásico action – follow with us",
-     "u": "https://www.theguardian.com/sport/2026/oct/23/premier-league-antonelli-goes-for-f1-title-plus-wsl-and-clasico-action-follow-with-us",
-     "f": "The Guardian",
+     "t": "England crush France to remain in hunt for World Cup semi-final spot",
+     "u": "https://www.skysports.com/rugby-league/england-vs-france/report/64274",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,6 +181,12 @@
    },
    "noticias": [
     {
+     "t": "Partidos de HOY, sábado 24 de octubre: horario y por dónde ver fútbol EN VIVO",
+     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-sabado-24-octubre-2026-agenda-ole-horirio-tv-futbol_0_alWgyuVfQ0.html",
+     "f": "Olé",
+     "alta": true
+    },
+    {
      "t": "Problemas para Franco Colapinto: deberá cumplir una penalización de 10 puestos en el Gran Premio de Estados Unidos de Fórmula 1",
      "u": "https://www.infobae.com/deportes/2026/10/23/problemas-para-franco-colapinto-debera-cumplir-una-penalizacion-de-10-puestos-en-el-gran-premio-de-estados-unidos/",
      "f": "Infobae",
@@ -193,8 +199,8 @@
      "alta": false
     },
     {
-     "t": "Cómo se armó el rompecabezas del Estudiantes que va por su quinta Libertadores",
-     "u": "https://www.ole.com.ar/estudiantes/estudiantes-libertadores-rompecabezas-proceso-jugadores-historicos-identidad_0_BsBlNWO2Af.html",
+     "t": "El cruce entre Mourinho y un futbolista del Barcelona en la previa del clásico",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/jose-mourinho-barcelona-real-madrid-fermin-lopez-clasico_0_7HZJneGjEh.html",
      "f": "Olé",
      "alta": false
     }
@@ -231,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Rencontre avec les Soul Rebels, qui vont jouer l'hymne américain au Stade de France",
-     "u": "https://www.lequipe.fr/Football-americain/Article/Ils-ont-les-new-orleans-saints-dans-la-peau-et-vont-jouer-l-hymne-americain-avant-le-nfl-paris-game-rencontre-avec-les-soul-rebels/1737513#at_medium=RSS_feeds",
+     "t": "Barça-Real Madrid : DAZN baisse son prix",
+     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Barca-real-madrid-dazn-baisse-son-prix-a-7-99-et-8364-mois-juste-avant-le-clasico/1737271#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Ce qu'il faut retenir de la nuit en NBA : Jayson Tatum fait plier les Knicks, Miami s'enfonce malgré Giannis Antetokounmpo",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Ce-qu-il-faut-retenir-de-la-nuit-en-nba-jayson-tatum-fait-plier-les-knicks-miami-s-enfonce-malgre-giannis-antetokounmpo/1738236#at_medium=RSS_feeds",
+     "t": "Avant le Clasico, Mourinho trouve « injuste » de comparer le Real Madrid au Barça « qui a le même entraîneur depuis deux ans »",
+     "u": "https://www.lequipe.fr/Football/Actualites/Avant-le-clasico-mourinho-trouve-injuste-de-comparer-le-real-madrid-au-barca-qui-a-le-meme-entraineur-depuis-deux-ans/1738270#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,23 +253,23 @@
  ],
  "destaques": [
   {
-   "t": "Flamengo vai à Conmebol e tenta reverter eliminação na Libertadores por escalação irregular",
-   "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-reclamacao-conmebol-marcos-rojo-estudiantes-libertadores/",
-   "f": "Gazeta Esportiva",
+   "t": "Grêmio e Inter podem se salvar? Veja times que escaparam do rebaixamento em cenário similar",
+   "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/24/gremio-e-inter-podem-se-salvar-veja-times-que-escaparam-do-rebaixamento-em-cenario-similar.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Barcelona vs Real Madrid preview: Catalan giants look to bounce back from PSG nightmare against Los Blancos",
-   "u": "https://sports.yahoo.com/articles/barcelona-vs-real-madrid-preview-070500348.html",
-   "f": "Yahoo Sports",
+   "t": "Knicks vs. Celtics prediction, odds, time: 2026 NBA picks for Friday, Oct. 23",
+   "u": "https://www.cbssports.com/betting/news/knicks-celtics-prediction-odds-time-2026-nba-picks-best-bets-for-friday-oct-23/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Nuno Lopes levou a França ao título Mundial de hóquei em patins: «Não escondo que procurava isto há muito tempo»",
-   "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/nuno-lopes-levou-a-franca-ao-titulo-mundial-de-hoquei-em-patins-nao-escondo-que-procurava-isto-ha-muito-tempo",
-   "f": "Record",
+   "t": "Processo ao presidente da LaLiga por comparar Real Madrid a nazis",
+   "u": "https://www.abola.pt/noticias/processo-ao-presidente-da-laliga-por-comparar-real-madrid-a-nazis-2026102213192202894",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
@@ -275,17 +281,17 @@
    "pais": "ES"
   },
   {
-   "t": "Aston Villa v Manchester City buildup, Premier League news, WSL, and more – matchday live",
-   "u": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-buildup-premier-league-news-wsl-and-more-matchday-live",
+   "t": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
+   "u": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Problemas para Franco Colapinto: deberá cumplir una penalización de 10 puestos en el Gran Premio de Estados Unidos de Fórmula 1",
-   "u": "https://www.infobae.com/deportes/2026/10/23/problemas-para-franco-colapinto-debera-cumplir-una-penalizacion-de-10-puestos-en-el-gran-premio-de-estados-unidos/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Partidos de HOY, sábado 24 de octubre: horario y por dónde ver fútbol EN VIVO",
+   "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-sabado-24-octubre-2026-agenda-ole-horirio-tv-futbol_0_alWgyuVfQ0.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -296,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Rencontre avec les Soul Rebels, qui vont jouer l'hymne américain au Stade de France",
-   "u": "https://www.lequipe.fr/Football-americain/Article/Ils-ont-les-new-orleans-saints-dans-la-peau-et-vont-jouer-l-hymne-americain-avant-le-nfl-paris-game-rencontre-avec-les-soul-rebels/1737513#at_medium=RSS_feeds",
+   "t": "Barça-Real Madrid : DAZN baisse son prix",
+   "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Barca-real-madrid-dazn-baisse-son-prix-a-7-99-et-8364-mois-juste-avant-le-clasico/1737271#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
