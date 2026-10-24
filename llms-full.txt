@@ -19,7 +19,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Venue: Camp Nou, C. d'Arístides Maillol, 12, Barcelona, Spain
 - Competition: La Liga
 - Teams: FC Barcelona vs Real Madrid
-- Lowest price seen at the partner: US$ 1,182 (checked 2026-10-24; prices change)
+- Lowest price seen at the partner: US$ 1,091 (checked 2026-10-24; prices change)
 - About: El Clásico at Camp Nou in La Liga. It is the most wanted game of the Spanish season, and tickets go fast.
 - Getting there: Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal. Arrive 90 minutes early for El Clásico. Security lines are slow.
 - Guide pages: pt-BR https://mytickets.tours/eventos/barcelona-vs-real-madrid-2026-10-25/, en https://mytickets.tours/en/events/barcelona-vs-real-madrid-2026-10-25/, es https://mytickets.tours/es/eventos/barcelona-vs-real-madrid-2026-10-25/
