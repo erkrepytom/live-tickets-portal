@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-23T23:34:43+00:00",
+ "atualizado": "2026-10-24T01:41:16+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,14 +11,14 @@
    },
    "noticias": [
     {
-     "t": "Palpites e dicas para Flamengo x Atlético-MG pelo Brasileirão",
-     "u": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/23/palpites-e-dicas-para-flamengo-x-atletico-mg-pelo-brasileirao.ghtml",
+     "t": "Eleições no Inter: o que disse o candidato à presidência Roberto Melo sobre futebol, finanças, gestão e SAF",
+     "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/23/eleicoes-no-inter-o-que-disse-o-candidato-a-presidencia-roberto-melo-sobre-futebol-financas-gestao-e-saf.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Internacional x Botafogo - Campeonato Brasileiro 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/24-10-2026/internacional-botafogo.ghtml",
+     "t": "Flamengo recorre da escalação de Rojo, do Estudiantes, e tenta mudar classificação na Libertadores; entenda",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/23/flamengo-recorre-da-escalacao-de-rojo-do-estudiantes-e-tenta-mudar-classificacao-na-libertadores-entenda.ghtml",
      "f": "ge",
      "alta": false
     },
@@ -57,14 +57,14 @@
      "alta": false
     },
     {
-     "t": "Dave Portnoy saw potential of UConn football after strong turnout for Barstool show: ‘Sleeping giant’",
-     "u": "https://sports.yahoo.com/articles/dave-portnoy-saw-potential-uconn-232000923.html",
+     "t": "Paramus Catholic football clears major hurdle in race for No. 1 seed",
+     "u": "https://sports.yahoo.com/articles/paramus-catholic-football-clears-major-013511400.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Best things Dave Portnoy said at Barstool’s UConn football pregame show",
-     "u": "https://sports.yahoo.com/articles/best-things-dave-portnoy-said-231820441.html",
+     "t": "How to watch NC State vs Stanford: Live stream College Football, TV channel",
+     "u": "https://sports.yahoo.com/articles/watch-nc-state-vs-stanford-013500933.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -85,15 +85,15 @@
      "alta": false
     },
     {
-     "t": "João Cancelo lança o Barcelona-Real Madrid: «Espero que consigamos sacar a vitória»",
-     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/joao-cancelo-lanca-o-barcelona-real-madrid-espero-que-consigamos-sacar-a-vitoria",
-     "f": "Record",
-     "alta": false
-    },
-    {
      "t": "Mais um para a conta: a classe do ex-Benfica que continua em grande em Itália (vídeo)",
      "u": "https://www.abola.pt/noticias/mais-um-para-a-conta-a-classe-do-ex-benfica-que-continua-em-grande-em-italia-video-2026102320153833933",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "João Cancelo lança o Barcelona-Real Madrid: «Espero que consigamos sacar a vitória»",
+     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/joao-cancelo-lanca-o-barcelona-real-madrid-espero-que-consigamos-sacar-a-vitoria",
+     "f": "Record",
      "alta": false
     },
     {
@@ -193,14 +193,14 @@
      "alta": false
     },
     {
-     "t": "La lucha por el Campeón de Liga: Boca puntero y qué le queda a cada uno",
-     "u": "https://www.ole.com.ar/futbol-primera/tablaanual-posiciones-campeondeliga-torneoclausura-boca_0_t1ihRlOuro.html",
+     "t": "Con Estudiantes RC descendido, así está la lucha por no perder la categoría en la Liga Profesional",
+     "u": "https://www.ole.com.ar/futbol-primera/lucha-descenso-ligaprofesional-aldosivi-deportivoriestra-promedios-tablaanual_0_11K9Zs9p3F.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Independiente ante Boca: por qué podría ser el último clásico de Marcone y Rey",
-     "u": "https://www.ole.com.ar/independiente/ivanmarcone-rodrigorey-independiente-boca_0_qfiXAHOpPn.html",
+     "t": "Tigre vs. Atlético Tucumán, por el Torneo Clausura, EN VIVO: el Matador merodea el primero",
+     "u": "https://www.ole.com.ar/tigre/tigre-atletico-tucuman-decano-matador-minuto-minuto-partido-directo-online_0_iuEzhv3bkl.html",
      "f": "Olé",
      "alta": false
     }
@@ -253,8 +253,8 @@
  ],
  "destaques": [
   {
-   "t": "Palpites e dicas para Flamengo x Atlético-MG pelo Brasileirão",
-   "u": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/23/palpites-e-dicas-para-flamengo-x-atletico-mg-pelo-brasileirao.ghtml",
+   "t": "Eleições no Inter: o que disse o candidato à presidência Roberto Melo sobre futebol, finanças, gestão e SAF",
+   "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/23/eleicoes-no-inter-o-que-disse-o-candidato-a-presidencia-roberto-melo-sobre-futebol-financas-gestao-e-saf.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
