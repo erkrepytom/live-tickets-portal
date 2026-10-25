@@ -246,6 +246,7 @@ p{margin:0}
 
 /* Alertas e canais */
 .alerts{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.channels-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
 .alerts-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:56px}
 .form{display:grid;gap:16px;margin-top:26px}
 .field{display:grid;gap:6px}

@@ -2,8 +2,8 @@
 """Monitor de venda: lê a página oficial de ingressos de cada evento (VENDA_OFICIAL em conteudo.py) e o estoque do
 parceiro (data/precos.json) e grava data/vendas.json com o status: a_venda, em_breve, esgotado ou desconhecido.
 
-A página do evento mostra o status; a tarefa agendada "Alertas de venda" lê as mudanças (campo "mudancas") e,
-quando um evento passa a "a_venda", prepara os e-mails para quem se cadastrou em #alertas.
+A página do evento mostra o status. O campo "mudancas" guarda as últimas transições (os alertas de venda por
+e-mail foram retirados do site em 25/10/2026; o histórico fica para um futuro aviso pelo WhatsApp).
 
 Leitura das páginas: Scrapling (Fetcher, sem navegador; cabeçalhos realistas e TLS de navegador) quando instalado,
 senão urllib. Com SCRAPLING_STEALTH=1 e os navegadores instalados (`scrapling install`), usa o StealthyFetcher

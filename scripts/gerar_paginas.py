@@ -125,7 +125,7 @@ T = {
  "pt": {
   "brand_title": "MyTickets Tours | Ingressos para esporte e shows no mundo todo",
   "home_desc": "Ingressos para La Liga, Serie A, Champions League, NBA, Fórmula 1, tênis e shows internacionais, com o guia de cada evento. Venda e entrega pela SportsEvents365.",
-  "nav": ["Partidas", "Explorar", "Como funciona", "Alertas"], "cta": "Ver ingressos",
+  "nav": ["Partidas", "Explorar", "Como funciona"], "cta": "Ver ingressos",
   "hero_kicker": "Ingressos para esporte e shows no mundo todo", "hero_l1": "PARTIDAS PARA", "hero_l2": "O JOGO", "hero_h1": "Partidas para o jogo",
   "hero_sub": "Escolha o evento, entenda a viagem e compre num parceiro com garantia de entrega. Em português, inglês e espanhol.",
   "hero_cta2": "Receber alertas", "hero_note": "Guia independente de ingressos. Você compra no site do parceiro: {parceiros}.", "gate": "PORTÃO",
@@ -150,7 +150,7 @@ T = {
   "f_soon": "O cadastro de alertas abre em breve. Nada foi enviado ainda.", "f_err": "Digite um e-mail válido e marque o consentimento.",
   "f_done": "Pronto. Você vai receber um e-mail quando a venda abrir.", "f_fail": "Não deu para enviar agora. Tente de novo em alguns minutos.",
   "f_sending": "Enviando…", "f_privacy": "Usamos o FormSubmit só para entregar seu cadastro na caixa de e-mail do MyTickets. Seu e-mail serve apenas para este alerta.",
-  "wa_kicker": "WhatsApp", "wa_h": "Canais oficiais", "wa_sub": "Novidades de venda num canal só nosso, no seu idioma. Nunca pedimos pagamento ou dados por mensagem.", "soon": "Em breve",
+  "wa_kicker": "WhatsApp", "wa_h": "Atendimento no WhatsApp", "wa_sub": "Tire dúvidas sobre ingressos e viagem num canal só nosso, no seu idioma. Nunca pedimos pagamento ou dados por mensagem.", "soon": "Em breve",
   "foot_disc": "Divulgação: o MyTickets Tours é um site afiliado. Quando você compra pelos nossos links, podemos receber comissão da SportsEvents365, sem custo extra para você. Ingressos, preços e entrega são de responsabilidade do parceiro.",
   "aff_note": "Link de afiliado: o MyTickets pode receber comissão, sem custo extra para você.",
   "home": "Início", "events": "Partidas", "f_date": "Data", "f_venue": "Local", "f_city": "Cidade", "f_comp": "Competição", "f_artist": "Artista",
@@ -163,7 +163,7 @@ T = {
  "en": {
   "brand_title": "MyTickets Tours | Tickets for sports and shows worldwide",
   "home_desc": "Tickets for La Liga, Serie A, the Champions League, NBA, Formula 1, tennis and concerts worldwide, with a guide to every event. Sold and delivered by SportsEvents365.",
-  "nav": ["Departures", "Explore", "How it works", "Alerts"], "cta": "See tickets",
+  "nav": ["Departures", "Explore", "How it works"], "cta": "See tickets",
   "hero_kicker": "Tickets for sports and shows worldwide", "hero_l1": "DEPARTURES TO", "hero_l2": "THE GAME", "hero_h1": "Departures to the game",
   "hero_sub": "Pick the event, plan the trip and buy from a partner with a delivery guarantee. In Portuguese, English and Spanish.",
   "hero_cta2": "Get alerts", "hero_note": "Independent ticket guide. You buy on the partner's site: {parceiros}.", "gate": "GATE",
@@ -188,7 +188,7 @@ T = {
   "f_soon": "Alert sign-up opens soon. Nothing was sent yet.", "f_err": "Enter a valid email and tick the consent box.",
   "f_done": "Done. You will get an email when sales open.", "f_fail": "We couldn't send it right now. Try again in a few minutes.",
   "f_sending": "Sending…", "f_privacy": "We use FormSubmit only to deliver your sign-up to the MyTickets inbox. Your email is used for this alert only.",
-  "wa_kicker": "WhatsApp", "wa_h": "Official channels", "wa_sub": "Sale news in a channel that is ours alone, in your language. We never ask for payment or personal data by message.", "soon": "Coming soon",
+  "wa_kicker": "WhatsApp", "wa_h": "WhatsApp support", "wa_sub": "Ask about tickets and travel in a channel that is ours alone, in your language. We never ask for payment or personal data by message.", "soon": "Coming soon",
   "foot_disc": "Disclosure: MyTickets Tours is an affiliate site. When you buy through our links we may earn a commission from SportsEvents365 at no extra cost to you. Tickets, prices and delivery are the partner's responsibility.",
   "aff_note": "Affiliate link: MyTickets may earn a commission at no extra cost to you.",
   "home": "Home", "events": "Departures", "f_date": "Date", "f_venue": "Venue", "f_city": "City", "f_comp": "Competition", "f_artist": "Artist",
@@ -201,7 +201,7 @@ T = {
  "es": {
   "brand_title": "MyTickets Tours | Entradas para deportes y shows en todo el mundo",
   "home_desc": "Entradas para La Liga, Serie A, Champions League, NBA, Fórmula 1, tenis y conciertos internacionales, con la guía de cada evento. Venta y entrega por SportsEvents365.",
-  "nav": ["Salidas", "Explorar", "Cómo funciona", "Alertas"], "cta": "Ver entradas",
+  "nav": ["Salidas", "Explorar", "Cómo funciona"], "cta": "Ver entradas",
   "hero_kicker": "Entradas para deportes y shows en todo el mundo", "hero_l1": "SALIDAS HACIA", "hero_l2": "EL PARTIDO", "hero_h1": "Salidas hacia el partido",
   "hero_sub": "Elige el evento, planea el viaje y compra en un socio con garantía de entrega. En portugués, inglés y español.",
   "hero_cta2": "Recibir alertas", "hero_note": "Guía independiente de entradas. Compras en el sitio del socio: {parceiros}.", "gate": "PUERTA",
@@ -226,7 +226,7 @@ T = {
   "f_soon": "El registro de alertas abre pronto. Todavía no se envió nada.", "f_err": "Escribe un correo válido y marca el consentimiento.",
   "f_done": "Listo. Recibirás un correo cuando abra la venta.", "f_fail": "No se pudo enviar ahora. Inténtalo de nuevo en unos minutos.",
   "f_sending": "Enviando…", "f_privacy": "Usamos FormSubmit solo para entregar tu registro en el correo de MyTickets. Tu correo se usa solo para esta alerta.",
-  "wa_kicker": "WhatsApp", "wa_h": "Canales oficiales", "wa_sub": "Novedades de venta en un canal solo nuestro, en tu idioma. Nunca pedimos pagos ni datos por mensaje.", "soon": "Próximamente",
+  "wa_kicker": "WhatsApp", "wa_h": "Atención por WhatsApp", "wa_sub": "Resuelve dudas sobre entradas y viaje en un canal solo nuestro, en tu idioma. Nunca pedimos pagos ni datos por mensaje.", "soon": "Próximamente",
   "foot_disc": "Aviso: MyTickets Tours es un sitio afiliado. Cuando compras con nuestros enlaces podemos recibir una comisión de SportsEvents365 sin costo extra para ti. Entradas, precios y entrega son responsabilidad del socio.",
   "aff_note": "Enlace de afiliado: MyTickets puede recibir una comisión sin costo extra para ti.",
   "home": "Inicio", "events": "Salidas", "f_date": "Fecha", "f_venue": "Recinto", "f_city": "Ciudad", "f_comp": "Competición", "f_artist": "Artista",
@@ -1385,7 +1385,7 @@ def cabeca(lang, pagina, titulo, desc, alternos, extra="", imagem=None):
 def topo(lang, pagina, alternos):
     t = T[lang]
     home = rel(pagina, caminho_home(lang))
-    ancoras = ["partidas", "explorar", "video", "alertas"]
+    ancoras = ["partidas", "explorar", "video"]
     nav = "".join(f'<a href="{home}#{a}">{e(n)}</a>' for n, a in zip(t["nav"], ancoras))
     langs = "".join(f'<a href="{rel(pagina, alternos[l])}" hreflang="{HREFLANG[l]}" aria-current="{str(l == lang).lower()}">{l.upper()}</a>' for l in ORDEM_MENU)
     return f"""<header class="top">
@@ -1419,36 +1419,15 @@ def barra_voltar(lang, pagina):
 
 
 def alertas(lang, eventos, escolhido=None):
+    """Canais oficiais (WhatsApp). O formulário de alertas de venda por e-mail foi retirado em 25/10/2026;
+    este bloco fica no lugar dele e é onde entra o atendimento automatizado pelo WhatsApp."""
     t = T[lang]
-    ops = "".join(f'<option value="{ev["slug"]}"{" selected" if ev["slug"] == escolhido else ""}>{e(L(ev["titulo"], lang))}</option>' for ev in eventos)
-    lops = "".join(f'<option value="{l}"{" selected" if l == lang else ""}>{n}</option>' for l, n in [("en", "English"), ("es", "Español"), ("pt", "Português")])
-    canais = "".join(f'<div class="channel"><div><strong>MyTickets · {n}</strong><span>{p}</span></div><span class="btn btn-sm btn-soon" aria-disabled="true">{e(t["soon"])}</span></div>'
+    canais = "".join(f'<div class="channel"><div><strong>MyTickets · {n}</strong><span>{p}</span></div><span class="btn btn-sm btn-soon" aria-disabled="true">{e(t['soon'])}</span></div>'
                      for n, p in [("Português", "BR · PT · US"), ("English", "US · UK · CA · AU"), ("Español", "MX · AR · ES · CO")])
-    return f"""<section class="band alerts" id="alertas" aria-labelledby="alerts-h">
-  <div class="wrap alerts-grid">
-    <div>
-      <p class="kicker">{e(t['alerts_kicker'])}</p>
-      <h2 id="alerts-h" data-scramble>{e(t['alerts_h'])}</h2>
-      <p style="color:var(--mut);margin-top:14px;max-width:48ch">{e(t['alerts_sub'])}</p>
-      <form class="form" id="alert-form" novalidate data-endpoint="{e(FORM_ENDPOINT)}" data-done="{e(t['f_done'])}" data-soon="{e(t['f_soon'])}" data-fail="{e(t['f_fail'])}" data-sending="{e(t['f_sending'])}" data-err="{e(t['f_err'])}">
-        <input type="text" name="_honey" id="a-honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
-        <div class="field"><label for="a-email">{e(t['f_email'])}</label><input id="a-email" type="email" autocomplete="email" inputmode="email" placeholder="{e(t['ph_email'])}"></div>
-        <div class="row2">
-          <div class="field"><label for="a-event">{e(t['f_event'])}</label><select id="a-event">{ops}</select></div>
-          <div class="field"><label for="a-lang">{e(t['f_lang'])}</label><select id="a-lang">{lops}</select></div>
-        </div>
-        <label class="consent" for="a-consent"><input id="a-consent" type="checkbox"><span>{e(t['f_consent'])}</span></label>
-        <div><button class="btn btn-signal" data-magnetic type="submit"><span class="mag-inner">{e(t['f_submit'])}</span></button></div>
-        <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
-        {'<p class="disclose">' + e(t['f_privacy']) + '</p>' if FORM_ENDPOINT else ''}
-      </form>
-    </div>
-    <div>
-      <p class="kicker">{e(t['wa_kicker'])}</p>
-      <h2 data-scramble>{e(t['wa_h'])}</h2>
-      <p style="color:var(--mut);margin-top:14px;max-width:44ch">{e(t['wa_sub'])}</p>
-      <div class="channels">{canais}</div>
-    </div>
+    return f"""<section class="band alerts" id="whatsapp" aria-labelledby="wa-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">{e(t['wa_kicker'])}</p><h2 id="wa-h" data-scramble>{e(t['wa_h'])}</h2></div><p>{e(t['wa_sub'])}</p></div>
+    <div class="channels channels-row">{canais}</div>
   </div>
 </section>"""
 
@@ -1568,7 +1547,6 @@ def home(lang, eventos, noticias, hubs):
       <p class="hero-sub">{e(t['hero_sub'])}</p>
       <div class="hero-ctas">
         {mag(parceiro(lang, '/'), e(t['cta']))}
-        {mag('#alertas', e(t['hero_cta2']), 'btn btn-ghost', ext=False, seta=False)}
       </div>
       <p class="hero-note">{e(t['hero_note'].format(parceiros=C.nomes_parceiros()))} {e(C.LEGAL[lang]['face'].split('.')[0])}.</p>
     </div>
@@ -1913,7 +1891,6 @@ def evento(lang, ev, eventos, hubs):
     </dl>
     <div class="ev-cta">
       {mag(ingresso, e(t['ev_cta']))}
-      {mag('#alertas', e(t['ev_alert']), 'btn btn-ghost', ext=False, seta=False)}
     </div>
     <p class="disclose">{e(C.LEGAL[lang]['face'])} {e(t['aff_note'])} {e(conferido)} <a href="{rel(pagina, C.DIVULGACAO[lang]['path'])}">{e(C.LEGAL[lang]['pagina_link'].capitalize())}</a></p>
   </div>
@@ -2120,19 +2097,19 @@ def guia_barca(lang, eventos):
 PRIV = {
  "pt": {"path": "privacidade/", "link": "PRIVACIDADE E CONTATO", "title": "Política de privacidade | MyTickets Tours",
   "desc": "Como o MyTickets Tours trata seus dados, e como falar conosco.", "h1": "Política de privacidade",
-  "updated": "Atualizada em 24 de outubro de 2026.",
+  "updated": "Atualizada em 25 de outubro de 2026.",
   "sections": [
    ("Quem somos", ["O MyTickets Tours (mytickets.tours) é um site afiliado de ingressos para eventos esportivos e shows, mantido por Everton Bras.",
                    "Não vendemos ingressos. A compra acontece no site da SportsEvents365, que é responsável pela venda, pelo pagamento e pela entrega."]),
    ("Que dados tratamos", ["Navegação: os serviços que hospedam o site (Microsoft Azure e GitHub) registram dados técnicos, como endereço IP e tipo de navegador, para manter o site no ar e protegido.",
-                           "Alertas de venda: se você pedir um alerta, guardamos seu e-mail, o evento escolhido e o idioma, com o seu consentimento. O cadastro chega à nossa caixa de e-mail pelo serviço FormSubmit.",
+                           "Denúncia de página suspeita: se você usar o formulário de denúncia, recebemos o endereço denunciado, o seu relato e o e-mail que você informar, pelo serviço FormSubmit, só para apurar o caso e responder.",
                            "Atendimento no WhatsApp: se você falar conosco, tratamos seu número e suas mensagens para responder, pela plataforma da Meta.",
                            "Pinterest: nas páginas de eventos e guias há um botão para salvar a página no Pinterest. O código do Pinterest só é carregado depois que você aceita os cookies; antes disso, o botão é um link comum para o site do Pinterest, e o que você salvar lá segue a política de privacidade do Pinterest.",
                            "Cookies: usamos o Google Analytics para medir visitas e cliques, e o Microsoft Clarity para ver, de forma agregada, como as páginas são usadas (mapas de calor e gravações anônimas de navegação, com campos de formulário mascarados). Os dois só gravam cookies depois que você clica em Aceitar no aviso de cookies. Se recusar, nenhum cookie de estatística ou publicidade é gravado. Para mudar a escolha, apague os dados deste site no seu navegador e o aviso aparece de novo.",
                            "Links de afiliado: quando você clica num link para a SportsEvents365, o parceiro registra que você veio do MyTickets (código a_aid) para calcular nossa comissão. A partir daí vale a política de privacidade da SportsEvents365."]),
-   ("Para que usamos", ["Enviar o alerta que você pediu, responder suas mensagens e manter o site funcionando e seguro. Não vendemos nem alugamos seus dados."]),
-   ("Base legal", ["Consentimento para alertas, atendimento e estatísticas (LGPD, art. 7º, I; GDPR, art. 6(1)(a)). Interesse legítimo para a segurança e o funcionamento do site (LGPD, art. 7º, IX; GDPR, art. 6(1)(f))."]),
-   ("Por quanto tempo", ["E-mails de alerta: até o evento acontecer ou até você pedir para sair, o que vier primeiro. Conversas do WhatsApp: até 12 meses."]),
+   ("Para que usamos", ["Apurar denúncias, responder suas mensagens e manter o site funcionando e seguro. Não vendemos nem alugamos seus dados."]),
+   ("Base legal", ["Consentimento para denúncias, atendimento e estatísticas (LGPD, art. 7º, I; GDPR, art. 6(1)(a)). Interesse legítimo para a segurança e o funcionamento do site (LGPD, art. 7º, IX; GDPR, art. 6(1)(f))."]),
+   ("Por quanto tempo", ["Denúncias: até 12 meses depois de apuradas. Conversas do WhatsApp: até 12 meses."]),
    ("Compartilhamento e transferência internacional", ["Seus dados passam apenas pelos fornecedores citados acima (Microsoft, GitHub, FormSubmit, Meta, Google e Pinterest). Eles podem tratar os dados fora do seu país, sob as garantias contratuais de cada um."]),
    ("Seus direitos", ["Você pode pedir acesso, correção, exclusão e portabilidade dos seus dados, e retirar o consentimento a qualquer momento. Escreva para email@mytickets.tours e respondemos em até 15 dias.",
                       "Você também pode reclamar à ANPD, no Brasil, ou à autoridade de proteção de dados do seu país."]),
@@ -2142,19 +2119,19 @@ PRIV = {
   "contact_h": "Contato", "resp": "Responsável"},
  "en": {"path": "en/privacy/", "link": "PRIVACY AND CONTACT", "title": "Privacy policy | MyTickets Tours",
   "desc": "How MyTickets Tours handles your data, and how to reach us.", "h1": "Privacy policy",
-  "updated": "Last updated October 24, 2026.",
+  "updated": "Last updated October 25, 2026.",
   "sections": [
    ("Who we are", ["MyTickets Tours (mytickets.tours) is an affiliate site for sports and concert tickets, run by Everton Bras.",
                    "We do not sell tickets. Purchases happen on the SportsEvents365 site, which is responsible for the sale, payment and delivery."]),
    ("What data we handle", ["Browsing: the services that host the site (Microsoft Azure and GitHub) log technical data, such as IP address and browser type, to keep the site running and secure.",
-                            "Sale alerts: if you ask for an alert, we keep your email, the event you chose and your language, with your consent. The sign-up reaches our inbox through the FormSubmit service.",
+                            "Suspicious page reports: if you use the report form, we receive the reported address, your account of it and the email you give, through the FormSubmit service, only to look into it and reply.",
                             "WhatsApp support: if you message us, we handle your number and messages to reply, through Meta's platform.",
                             "Pinterest: event and guide pages have a button to save the page to Pinterest. Pinterest's code only loads after you accept cookies; before that, the button is a plain link to Pinterest, and whatever you save there falls under Pinterest's privacy policy.",
                            "Cookies: we use Google Analytics to measure visits and clicks, and Microsoft Clarity to see, in aggregate, how pages are used (heatmaps and anonymous session recordings, with form fields masked). Both only set cookies after you click Accept in the cookie notice. If you decline, no analytics or advertising cookies are set. To change your choice, clear this site's data in your browser and the notice will show again.",
                             "Affiliate links: when you click a link to SportsEvents365, the partner records that you came from MyTickets (code a_aid) to calculate our commission. From then on, the SportsEvents365 privacy policy applies."]),
-   ("Why we use it", ["To send the alert you asked for, reply to your messages and keep the site running and secure. We never sell or rent your data."]),
-   ("Legal basis", ["Consent for alerts, support and analytics (GDPR Art. 6(1)(a); LGPD Art. 7, I). Legitimate interest for security and operation of the site (GDPR Art. 6(1)(f); LGPD Art. 7, IX)."]),
-   ("How long we keep it", ["Alert emails: until the event takes place or until you unsubscribe, whichever comes first. WhatsApp conversations: up to 12 months."]),
+   ("Why we use it", ["To look into reports, reply to your messages and keep the site running and secure. We never sell or rent your data."]),
+   ("Legal basis", ["Consent for reports, support and analytics (GDPR Art. 6(1)(a); LGPD Art. 7, I). Legitimate interest for security and operation of the site (GDPR Art. 6(1)(f); LGPD Art. 7, IX)."]),
+   ("How long we keep it", ["Reports: up to 12 months after they are looked into. WhatsApp conversations: up to 12 months."]),
    ("Sharing and international transfers", ["Your data only goes through the providers named above (Microsoft, GitHub, FormSubmit, Meta, Google and Pinterest). They may process data outside your country under their own contractual safeguards."]),
    ("Your rights", ["You can ask to access, correct, delete or port your data, and withdraw consent at any time. Write to email@mytickets.tours and we will reply within 15 days.",
                     "You can also complain to the data protection authority in your country."]),
@@ -2164,19 +2141,19 @@ PRIV = {
   "contact_h": "Contact", "resp": "Responsible person"},
  "es": {"path": "es/privacidad/", "link": "PRIVACIDAD Y CONTACTO", "title": "Política de privacidad | MyTickets Tours",
   "desc": "Cómo MyTickets Tours trata tus datos y cómo contactarnos.", "h1": "Política de privacidad",
-  "updated": "Actualizada el 24 de octubre de 2026.",
+  "updated": "Actualizada el 25 de octubre de 2026.",
   "sections": [
    ("Quiénes somos", ["MyTickets Tours (mytickets.tours) es un sitio afiliado de entradas para eventos deportivos y conciertos, gestionado por Everton Bras.",
                       "No vendemos entradas. La compra se hace en el sitio de SportsEvents365, responsable de la venta, el pago y la entrega."]),
    ("Qué datos tratamos", ["Navegación: los servicios que alojan el sitio (Microsoft Azure y GitHub) registran datos técnicos, como la dirección IP y el navegador, para mantener el sitio activo y seguro.",
-                           "Alertas de venta: si pides una alerta, guardamos tu correo, el evento elegido y el idioma, con tu consentimiento. El registro llega a nuestro correo mediante el servicio FormSubmit.",
+                           "Denuncia de página sospechosa: si usas el formulario de denuncia, recibimos la dirección denunciada, tu relato y el correo que indiques, mediante el servicio FormSubmit, solo para investigar el caso y responderte.",
                            "Atención por WhatsApp: si nos escribes, tratamos tu número y tus mensajes para responderte, a través de la plataforma de Meta.",
                            "Pinterest: las páginas de eventos y guías tienen un botón para guardar la página en Pinterest. El código de Pinterest solo se carga después de que aceptes las cookies; antes, el botón es un enlace normal a Pinterest, y lo que guardes allí sigue la política de privacidad de Pinterest.",
                            "Cookies: usamos Google Analytics para medir visitas y clics, y Microsoft Clarity para ver, de forma agregada, cómo se usan las páginas (mapas de calor y grabaciones anónimas de navegación, con los campos de formulario ocultos). Los dos solo guardan cookies después de que haces clic en Aceptar en el aviso de cookies. Si lo rechazas, no se guarda ninguna cookie de estadística ni de publicidad. Para cambiar tu elección, borra los datos de este sitio en tu navegador y el aviso volverá a aparecer.",
                            "Enlaces de afiliado: al hacer clic en un enlace a SportsEvents365, el socio registra que llegaste desde MyTickets (código a_aid) para calcular nuestra comisión. Desde ese momento rige la política de privacidad de SportsEvents365."]),
-   ("Para qué los usamos", ["Enviar la alerta que pediste, responder tus mensajes y mantener el sitio funcionando y seguro. Nunca vendemos ni alquilamos tus datos."]),
-   ("Base legal", ["Consentimiento para alertas, atención y estadísticas (RGPD, art. 6.1.a; LGPD, art. 7, I). Interés legítimo para la seguridad y el funcionamiento del sitio (RGPD, art. 6.1.f; LGPD, art. 7, IX)."]),
-   ("Cuánto tiempo", ["Correos de alerta: hasta que se celebre el evento o hasta que te des de baja, lo que ocurra primero. Conversaciones de WhatsApp: hasta 12 meses."]),
+   ("Para qué los usamos", ["Investigar denuncias, responder tus mensajes y mantener el sitio funcionando y seguro. Nunca vendemos ni alquilamos tus datos."]),
+   ("Base legal", ["Consentimiento para denuncias, atención y estadísticas (RGPD, art. 6.1.a; LGPD, art. 7, I). Interés legítimo para la seguridad y el funcionamiento del sitio (RGPD, art. 6.1.f; LGPD, art. 7, IX)."]),
+   ("Cuánto tiempo", ["Denuncias: hasta 12 meses después de investigadas. Conversaciones de WhatsApp: hasta 12 meses."]),
    ("Cesión y transferencias internacionales", ["Tus datos solo pasan por los proveedores citados (Microsoft, GitHub, FormSubmit, Meta, Google y Pinterest). Pueden tratarlos fuera de tu país bajo sus propias garantías contractuales."]),
    ("Tus derechos", ["Puedes pedir acceso, rectificación, supresión y portabilidad de tus datos, y retirar el consentimiento en cualquier momento. Escribe a email@mytickets.tours y respondemos en un plazo de 15 días.",
                      "También puedes reclamar ante la autoridad de protección de datos de tu país."]),

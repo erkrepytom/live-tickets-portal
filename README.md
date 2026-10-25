@@ -6,7 +6,7 @@ Affiliate portal for international sports and show tickets, in Portuguese, Engli
 
 | Path | What it is |
 |---|---|
-| `index.html`, `en/`, `es/` | Home pages: departures board, featured events, explore by sport, city and artist, the 3D "Universo MyTickets" banner, the scroll-driven video and sale alerts |
+| `index.html`, `en/`, `es/` | Home pages: departures board, featured events, explore by sport, city and artist, the 3D "Universo MyTickets" banner, the scroll-driven video, the minigames next to each "Next match" and the WhatsApp support block |
 | `eventos/<slug>/`, `en/events/<slug>/`, `es/eventos/<slug>/` | One guide page per event and language |
 | `futebol/`, `cidades/<city>/`, `competicoes/<competition>/` (and `en/`, `es/` equivalents) | Hub pages per sport, city and competition. Generated automatically when a group has at least `MIN_HUB` (2) events |
 | `sitemap.xml` | Sitemap index pointing to `sitemap-paginas.xml`, `sitemap-esportes.xml`, `sitemap-shows.xml` and `sitemap-guias.xml` |
@@ -75,13 +75,17 @@ Buttons per `cta.tipo`: `evento` → tickets for the linked event (`/go/se365/�
 
 `.github/workflows/videos.yml` runs every 6 hours: `scripts/videos.py` reads the channel's public RSS feed (channel id `UCIUejr6o9Rdvsg_07x6kziA`, override with the repository variable `YOUTUBE_CHANNEL_ID`), appends new videos with the language guessed from the title and the event matched by team/artist/city names, regenerates the site and publishes. It never rewrites entries already in the JSON, so edit `evento`, `cta` or `ativo` freely.
 
-## Sale monitor (Scrapling) and sale alerts
+## Sale monitor (Scrapling)
 
 `scripts/vendas.py` reads, every 3 hours (`.github/workflows/vendas.yml`), the official ticket page of each event (`VENDA_OFICIAL` in `scripts/conteudo.py`: FC Barcelona, AC Milan, FIGC, FFR, Yas Marina, Knicks, Australian Open, Celine Dion, UEFA) plus the partner's stock from `data/precos.json`, and writes `data/vendas.json`: per event, `oficial` (status `a_venda` / `em_breve` / `esgotado` / `desconhecido`, confidence, the snippet that decided it, HTTP code, engine) and `parceiro` (listings and lowest price), plus `mudancas`, the last status transitions. The event page shows a "Sales" fact line only when the official status has confidence ≥ 0.5 or the partner has stock.
 
 Pages are fetched with Scrapling's `Fetcher` (browser-like headers and TLS, no browser). Set the repository variable `SCRAPLING_STEALTH=1` and add `scrapling install` to the workflow to use the `StealthyFetcher` (headless browser) for pages that block plain HTTP clients. Without Scrapling the script falls back to `urllib`. Classification looks for status words in several languages inside ~400-character windows around the event's keywords; without such a window it uses the whole page with low confidence, and without any signal it stays `desconhecido`.
 
-The scheduled task "Alertas de venda" (Claude, daily) reads `mudancas`, and when an event turned `a_venda` it matches the sale-alert sign-ups that FormSubmit delivers to the site inbox (subject "Alerta de venda: …", fields `email`, `evento_slug`, `idioma_alertas`) and leaves one Gmail draft per subscriber, in their language, for the owner to approve. Nothing is sent automatically.
+The email sale alerts ("Tell me when it opens" form) were removed on 2026-10-25, and the scheduled task "Alertas de venda" is paused. In their place each page shows the "WhatsApp support" block (`alertas()` in the generator, `#whatsapp`), still marked "coming soon", where the automated WhatsApp support will go. `mudancas` stays in `data/vendas.json` for a future WhatsApp notice.
+
+## Minigames next to "Next match"
+
+The home pages show a minigame in the free space of each "Next match" block (`quadro_jogo()` and `arena_home()` in the generator): penalties next to the next football match, a basketball shot next to the NBA one and a target game in the baseball strip. `assets/arena.js` and `assets/arena.css` (~70 KB) load only when a game frame gets near the screen; the crowd recordings in `assets/audio/` (~330 KB) load only when someone presses Play. On phones the game opens full screen; the end card links to the tickets of the same event.
 
 ## Scam alerts and reports
 
