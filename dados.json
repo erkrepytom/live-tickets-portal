@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-25T19:45:07+00:00",
+ "atualizado": "2026-10-25T22:39:03+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Escalação do Flamengo: Jardim pode fazer mudanças nas laterais e no ataque contra o Atlético-MG",
-     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/25/escalacao-do-flamengo-jardim-pode-fazer-mudancas-nas-laterais-e-no-ataque-contra-o-atletico-mg.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Barcelona x Real Madrid - Campeonato Espanhol 2026/27 - Ao vivo - globoesporte.com",
+     "t": "Mbappé decide, Real Madrid vence o Barcelona e põe fogo em LaLiga",
      "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/25-10-2026/barcelona-realmadrid.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Inter de Milão consegue virada no fim contra a Fiorentina e mantém liderança no Italiano",
-     "u": "https://www.gazetaesportiva.com/times/internazionale/inter-de-milao-vira-sobre-a-fiorentina-nos-acrescimos-e-assume-a-lideranca/",
+     "t": "Escalação do Atlético-MG: Scarpa volta, mas atacante titular é desfalque contra Flamengo",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/25/escalacao-do-atletico-mg-scarpa-volta-mas-atacante-titular-e-desfalque-contra-flamengo.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Mbappé marca duas vezes, Real Madrid vence o Barcelona e acaba com 100% do rival no Espanhol",
+     "u": "https://www.gazetaesportiva.com/times/real-madrid/mbappe-marca-duas-vezes-real-madrid-vence-o-barcelona-e-acaba-com-100-do-rival-no-espanhol/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Veja fotos do confronto entre Inter de Milão e Fiorentina",
-     "u": "https://www.gazetaesportiva.com/campeonatos/serie-a/veja-fotos-do-confronto-entre-inter-de-milao-e-fiorentina/",
+     "t": "Veja fotos do clássico entre Barcelona e Real Madrid pelo Campeonato Espanhol",
+     "u": "https://www.gazetaesportiva.com/fotos/veja-fotos-do-classico-entre-barcelona-e-real-madrid-pelo-campeonato-espanhol/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Here's why the LaLiga race is probably over if Barcelona beat Real Madrid in El Clasico",
-     "u": "https://www.cbssports.com/soccer/news/laliga-over-barcelona-real-madrid-el-clasico-2026/",
-     "f": "CBS Sports",
+     "t": "Inter rally late to down Fiorentina and regain Serie A lead",
+     "u": "https://sports.yahoo.com/articles/inter-rally-down-fiorentina-regain-222657802.html",
+     "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Boston Celtics exorcised early demons in 107-103 win vs. NBA champion Knicks",
-     "u": "https://sports.yahoo.com/articles/boston-celtics-exorcised-early-demons-192616788.html",
+     "t": "Kylian Mbappé brace sees Real Madrid win at rivals Barcelona",
+     "u": "https://sports.yahoo.com/articles/kylian-mbapp-brace-sees-real-223336719.html",
      "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Chiefs-Seahawks, Sunday Night Football",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-chiefs-seahawks-sunday-night-football/",
+     "f": "CBS Sports",
      "alta": false
     },
     {
      "t": "NFL DFS, Chiefs vs. Seahawks: Top daily Fantasy picks, lineup advice for 'Sunday Night Football'",
      "u": "https://www.cbssports.com/betting/news/nfl-dfs-chiefs-seahawks-daily-fantasy-picks-lineup-advice-sunday-night-football/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "'Best remedy': Bayern win 3-1 in Freiburg after Kompany shock",
-     "u": "https://sports.yahoo.com/articles/best-remedy-bayern-win-3-193329979.html",
-     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Barcelona-Real Madrid, em direto",
+     "t": "Milan de Ruben Amorim vence Udinese e iguala Roma no 3.º lugar da Serie A",
+     "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261025-115919-udinese-milan-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Real Madrid de José Mourinho silencia Camp Nou com bis de Mbappé",
      "u": "https://www.record.pt/internacional/paises/espanha/detalhe/20261025-111201-barcelona-real-madrid-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Bayern Munique vence Friburgo e segue no topo da Bundesliga em igualdade com o Dortmund",
-     "u": "https://www.record.pt/internacional/paises/alemanha/detalhe/20261025-173756-friburgo-bayern-munique-em-direto",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Abel e presidente apontam dedo ao Flamengo: «Palmeiras está na final por mérito, sem asterisco»",
-     "u": "https://www.abola.pt/noticias/abel-e-presidente-apontam-dedo-ao-flamengo-palmeiras-esta-na-final-por-merito-sem-asterisco-2026102509232235840",
+     "t": "Uma jogada excelente e um golo caricato: Real Madrid a vencer em Barcelona!",
+     "u": "https://www.abola.pt/video/uma-jogada-excelente-e-um-golo-caricato-real-madrid-a-vencer-em-barcelona-2026102520511358279",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Golaço de ex-alvo do Benfica deixa todos de boca aberta",
-     "u": "https://www.abola.pt/video/golaco-de-ex-benfica-deixa-todos-de-boca-aberta-2026102515191414709",
+     "t": "Apesar do boicote dos adeptos, Lazio assina melhor arranque de sempre na Serie A",
+     "u": "https://www.abola.pt/noticias/apesar-do-boicote-dos-adeptos-lazio-assina-melhor-arranque-de-sempre-na-serie-a-2026102520511892365",
      "f": "A Bola",
      "alta": false
     }
@@ -113,8 +113,14 @@
    },
    "noticias": [
     {
-     "t": "¡Ya están aquí! Barça y Madrid llegan al Spotify Camp Nou",
-     "u": "https://www.mundodeportivo.com/futbol/el-clasico-barca-real-madrid/20261025/1004243102/barca-madrid-llegan-camp-nou.html",
+     "t": "El 1x1 del Barça ante el Real Madrid",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243141/1x1-barca-real-madrid.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "El 1x1 del Real Madrid ante el Barça",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261025/1004243144/1x1-real-madrid-barca.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -122,12 +128,6 @@
      "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
      "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Este es el once del Real Madrid para el Clásico",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261025/1004243099/once-real-madrid-clasico.html",
-     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Barcelona v Real Madrid: El Clásico – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
+     "t": "Sign up to the Sport in Focus newsletter: the sporting week in photos",
+     "u": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
+     "f": "The Guardian",
+     "alta": true
+    },
+    {
+     "t": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
+     "u": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Barcelona vs Real Madrid team news LIVE!",
-     "u": "https://www.skysports.com/football/barcelona-vs-real-madrid/live/563017",
+     "t": "Smith beats Schindler in Dortmund thriller after Littler's QF exit",
+     "u": "https://www.skysports.com/darts/news/12040/13603670/european-championship-darts-ross-smith-beats-martin-schindler-to-dortmund-title-after-luke-littlers-quarter-final-exit",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Australia survive almighty Fiji scare to stay unbeaten at Rugby League World Cup",
-     "u": "https://www.theguardian.com/sport/2026/oct/25/australia-fiji-mens-rugby-league-world-cup-match-report",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Arsenal fight back to beat Tottenham and ease pressure on Slegers",
-     "u": "https://www.bbc.co.uk/sport/football/videos/cmy0r7epegd4o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "United States Grand Prix | Race highlights",
+     "u": "https://www.skysports.com/watch/video/13603821/united-states-grand-prix-race-highlights",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,9 +181,15 @@
    },
    "noticias": [
     {
-     "t": "Franco Colapinto largará desde el fondo de la grilla el Gran Premio de Estados Unidos de la Fórmula 1: todo lo que hay que saber",
-     "u": "https://www.infobae.com/deportes/2026/10/25/franco-colapinto-largara-desde-el-fondo-de-la-grilla-el-gran-premio-de-estados-unidos-de-la-formula-1-todo-lo-que-hay-que-saber/",
+     "t": "Max Verstappen reveló los dolores que sufre por el circuito del GP de EEUU de Fórmula 1 y lanzó una advertencia: “No podría caminar”",
+     "u": "https://www.infobae.com/deportes/2026/10/25/max-verstappen-revelo-los-dolores-que-sufre-por-el-circuito-del-gp-de-eeuu-de-formula-1-y-lanzo-una-advertencia-no-podria-caminar/",
      "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Video: Mbappé la metió sin patear al arco y el Real Madrid se puso en ventaja contra el Barcelona",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/realmadrid-barcelona-joangarcia_0_ndv12NtXSj.html",
+     "f": "Olé",
      "alta": false
     },
     {
@@ -193,14 +199,8 @@
      "alta": false
     },
     {
-     "t": "Con Lionel como hincha: Mateo Messi metió un gol y la sub 12 de Inter Miami gritó campeón",
-     "u": "https://www.ole.com.ar/messi/mateo-messi-gol-inter-miami-campeon_0_CAxkYVxax8.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Bomba en Independiente: Viera borró a Rey y Mele será titular ante Boca",
-     "u": "https://www.ole.com.ar/independiente/bomba-independiente-viera-saco-rodrigo-rey-arco-independiente_0_9Q37R3dzFT.html",
+     "t": "¿Cuándo vuelve a correr Franco Colapinto en la Fórmula 1? Días y horarios del GP de México",
+     "u": "https://www.ole.com.ar/autos/vuelve-correr-franco-colapinto-formula-dias-horarios-gp-mexico_0_UjARmAfn0t.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Grâce à des buts de Dayot Upamecano et de Michael Olise, le Bayern Munich maîtrise Fribourg et reprend la tête de la Bundesliga",
-     "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-des-buts-de-dayot-upamecano-et-de-michael-olise-le-bayern-munich-maitrise-fribourg-et-reprend-la-tete-de-la-bundesliga/1738612#at_medium=RSS_feeds",
+     "t": "Grâce à un doublé de Kylian Mbappé, le Real Madrid s'impose à Barcelone et relance la Liga",
+     "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-double-de-kylian-mbappe-le-real-madrid-s-impose-a-barcelone-et-relance-la-liga/1738694#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Où voir Barcelone - Real Madrid ?",
-     "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-barcelone-real-de-madrid-en-liga/1738007#at_medium=RSS_feeds",
+     "t": "Toujours invaincu en Championnat, l'AC Milan assure contre l'Udinese",
+     "u": "https://www.lequipe.fr/Football/Actualites/Toujours-invaincu-en-championnat-l-ac-milan-assure-contre-l-udinese/1738689#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "Escalação do Flamengo: Jardim pode fazer mudanças nas laterais e no ataque contra o Atlético-MG",
-   "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/25/escalacao-do-flamengo-jardim-pode-fazer-mudancas-nas-laterais-e-no-ataque-contra-o-atletico-mg.ghtml",
+   "t": "Mbappé decide, Real Madrid vence o Barcelona e põe fogo em LaLiga",
+   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/25-10-2026/barcelona-realmadrid.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Here's why the LaLiga race is probably over if Barcelona beat Real Madrid in El Clasico",
-   "u": "https://www.cbssports.com/soccer/news/laliga-over-barcelona-real-madrid-el-clasico-2026/",
-   "f": "CBS Sports",
+   "t": "Inter rally late to down Fiorentina and regain Serie A lead",
+   "u": "https://sports.yahoo.com/articles/inter-rally-down-fiorentina-regain-222657802.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Barcelona-Real Madrid, em direto",
-   "u": "https://www.record.pt/internacional/paises/espanha/detalhe/20261025-111201-barcelona-real-madrid-em-direto",
+   "t": "Milan de Ruben Amorim vence Udinese e iguala Roma no 3.º lugar da Serie A",
+   "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261025-115919-udinese-milan-em-direto",
    "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "¡Ya están aquí! Barça y Madrid llegan al Spotify Camp Nou",
-   "u": "https://www.mundodeportivo.com/futbol/el-clasico-barca-real-madrid/20261025/1004243102/barca-madrid-llegan-camp-nou.html",
+   "t": "El 1x1 del Barça ante el Real Madrid",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243141/1x1-barca-real-madrid.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Barcelona v Real Madrid: El Clásico – live",
-   "u": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
+   "t": "Sign up to the Sport in Focus newsletter: the sporting week in photos",
+   "u": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
    "f": "The Guardian",
-   "alta": false,
+   "alta": true,
    "pais": "GB"
   },
   {
-   "t": "Franco Colapinto largará desde el fondo de la grilla el Gran Premio de Estados Unidos de la Fórmula 1: todo lo que hay que saber",
-   "u": "https://www.infobae.com/deportes/2026/10/25/franco-colapinto-largara-desde-el-fondo-de-la-grilla-el-gran-premio-de-estados-unidos-de-la-formula-1-todo-lo-que-hay-que-saber/",
+   "t": "Max Verstappen reveló los dolores que sufre por el circuito del GP de EEUU de Fórmula 1 y lanzó una advertencia: “No podría caminar”",
+   "u": "https://www.infobae.com/deportes/2026/10/25/max-verstappen-revelo-los-dolores-que-sufre-por-el-circuito-del-gp-de-eeuu-de-formula-1-y-lanzo-una-advertencia-no-podria-caminar/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Grâce à des buts de Dayot Upamecano et de Michael Olise, le Bayern Munich maîtrise Fribourg et reprend la tête de la Bundesliga",
-   "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-des-buts-de-dayot-upamecano-et-de-michael-olise-le-bayern-munich-maitrise-fribourg-et-reprend-la-tete-de-la-bundesliga/1738612#at_medium=RSS_feeds",
+   "t": "Grâce à un doublé de Kylian Mbappé, le Real Madrid s'impose à Barcelone et relance la Liga",
+   "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-double-de-kylian-mbappe-le-real-madrid-s-impose-a-barcelone-et-relance-la-liga/1738694#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
