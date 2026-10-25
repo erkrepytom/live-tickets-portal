@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-25T17:06:39+00:00",
+ "atualizado": "2026-10-25T19:45:07+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,14 +11,14 @@
    },
    "noticias": [
     {
-     "t": "Steelers abusam do jogo corrido e vencem Saints no primeiro jogo da NFL na França",
-     "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/10/25/steelers-abusam-do-jogo-corrido-e-vencem-saints-no-primeiro-jogo-da-nfl-na-franca.ghtml",
+     "t": "Escalação do Flamengo: Jardim pode fazer mudanças nas laterais e no ataque contra o Atlético-MG",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/25/escalacao-do-flamengo-jardim-pode-fazer-mudancas-nas-laterais-e-no-ataque-contra-o-atletico-mg.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Em jogo de duas viradas, Vasco vence, respira na tabela e afunda o Corinthians",
-     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/24-10-2026/vasco-corinthians.ghtml",
+     "t": "Barcelona x Real Madrid - Campeonato Espanhol 2026/27 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/25-10-2026/barcelona-realmadrid.ghtml",
      "f": "ge",
      "alta": false
     },
@@ -51,20 +51,20 @@
      "alta": false
     },
     {
-     "t": "Inter rally late to down Fiorentina and regain Serie A lead",
-     "u": "https://sports.yahoo.com/articles/inter-rally-down-fiorentina-regain-134630475.html",
+     "t": "Boston Celtics exorcised early demons in 107-103 win vs. NBA champion Knicks",
+     "u": "https://sports.yahoo.com/articles/boston-celtics-exorcised-early-demons-192616788.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Packers-Lions, Seahawks-Chiefs NFL picks",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-packers-lions-seahawks-chiefs-nfl-picks/",
+     "t": "NFL DFS, Chiefs vs. Seahawks: Top daily Fantasy picks, lineup advice for 'Sunday Night Football'",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-chiefs-seahawks-daily-fantasy-picks-lineup-advice-sunday-night-football/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Australia get Cameron Green boost ahead of series-deciding Test against South Africa, set to return as specialist batter",
-     "u": "https://sports.yahoo.com/articles/australia-cameron-green-boost-ahead-165500578.html",
+     "t": "'Best remedy': Bayern win 3-1 in Freiburg after Kompany shock",
+     "u": "https://sports.yahoo.com/articles/best-remedy-bayern-win-3-193329979.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,14 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Mais um para a conta: a classe do ex-Benfica que continua em grande em Itália (vídeo)",
-     "u": "https://www.abola.pt/noticias/mais-um-para-a-conta-a-classe-do-ex-benfica-que-continua-em-grande-em-italia-video-2026102320153833933",
+     "t": "Barcelona-Real Madrid, em direto",
+     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/20261025-111201-barcelona-real-madrid-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Bayern Munique vence Friburgo e segue no topo da Bundesliga em igualdade com o Dortmund",
+     "u": "https://www.record.pt/internacional/paises/alemanha/detalhe/20261025-173756-friburgo-bayern-munique-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Abel e presidente apontam dedo ao Flamengo: «Palmeiras está na final por mérito, sem asterisco»",
+     "u": "https://www.abola.pt/noticias/abel-e-presidente-apontam-dedo-ao-flamengo-palmeiras-esta-na-final-por-merito-sem-asterisco-2026102509232235840",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Ex-Benfica em destaque no regresso do Newcastle às vitórias",
-     "u": "https://www.abola.pt/video/ex-benfica-em-destaque-no-regresso-do-newcastle-as-vitorias-2026102516235116621",
+     "t": "Golaço de ex-alvo do Benfica deixa todos de boca aberta",
+     "u": "https://www.abola.pt/video/golaco-de-ex-benfica-deixa-todos-de-boca-aberta-2026102515191414709",
      "f": "A Bola",
      "alta": false
     }
@@ -101,14 +113,8 @@
    },
    "noticias": [
     {
-     "t": "Toda la previa del Barça-Real Madrid, en directo",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004241278/barcelona-real-madrid-directo-laliga-ea-sports-futbol-clasico-primera-division.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Mensaje de felicitación del FC Barcelona",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261023/1004242416/mensaje-felicitacion-fc-barcelona-leo-messi.html",
+     "t": "¡Ya están aquí! Barça y Madrid llegan al Spotify Camp Nou",
+     "u": "https://www.mundodeportivo.com/futbol/el-clasico-barca-real-madrid/20261025/1004243102/barca-madrid-llegan-camp-nou.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -116,6 +122,12 @@
      "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
      "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Este es el once del Real Madrid para el Clásico",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261025/1004243099/once-real-madrid-clasico.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -135,15 +147,15 @@
    },
    "noticias": [
     {
-     "t": "England crush France 82-0 to stay in World Cup contention",
-     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/c6vg0r05ypyeo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Barcelona v Real Madrid: El Clásico – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
+     "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Premier League, Antonelli goes for F1 title, plus WSL and clásico action – follow with us",
-     "u": "https://www.theguardian.com/sport/2026/oct/23/premier-league-antonelli-goes-for-f1-title-plus-wsl-and-clasico-action-follow-with-us",
-     "f": "The Guardian",
+     "t": "Barcelona vs Real Madrid team news LIVE!",
+     "u": "https://www.skysports.com/football/barcelona-vs-real-madrid/live/563017",
+     "f": "Sky Sports",
      "alta": false
     },
     {
@@ -181,8 +193,14 @@
      "alta": false
     },
     {
-     "t": "Independiente vs. Boca, hoy EN VIVO el Torneo Clausura 2026: formaciones, horario y por dónde ver",
-     "u": "https://www.ole.com.ar/futbol-primera/independiente-vs-boca-partido-torneo-clausura-fecha14-vivo-minuto-minuto_0_Owr3tRrXSr.html",
+     "t": "Con Lionel como hincha: Mateo Messi metió un gol y la sub 12 de Inter Miami gritó campeón",
+     "u": "https://www.ole.com.ar/messi/mateo-messi-gol-inter-miami-campeon_0_CAxkYVxax8.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Bomba en Independiente: Viera borró a Rey y Mele será titular ante Boca",
+     "u": "https://www.ole.com.ar/independiente/bomba-independiente-viera-saco-rodrigo-rey-arco-independiente_0_9Q37R3dzFT.html",
      "f": "Olé",
      "alta": false
     }
@@ -219,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "PSG-OL reporté, Barça-Real, NFL Paris Game : un programme XXL à ne pas manquer",
-     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Psg-ol-reporte-barca-real-nfl-paris-game-un-programme-xxl-a-ne-pas-manquer/1738077#at_medium=RSS_feeds",
+     "t": "Grâce à des buts de Dayot Upamecano et de Michael Olise, le Bayern Munich maîtrise Fribourg et reprend la tête de la Bundesliga",
+     "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-des-buts-de-dayot-upamecano-et-de-michael-olise-le-bayern-munich-maitrise-fribourg-et-reprend-la-tete-de-la-bundesliga/1738612#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Pour le premier match de l'histoire de la NFL en France, les Pittsburgh Steelers maîtrisent les New Orleans Saints",
-     "u": "https://www.lequipe.fr/Football-americain/Actualites/Pour-le-premier-match-de-l-histoire-de-la-nfl-en-france-les-pittsburgh-steelers-maitrisent-les-new-orleans-saints/1738562#at_medium=RSS_feeds",
+     "t": "Où voir Barcelone - Real Madrid ?",
+     "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-barcelone-real-de-madrid-en-liga/1738007#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -235,8 +253,8 @@
  ],
  "destaques": [
   {
-   "t": "Steelers abusam do jogo corrido e vencem Saints no primeiro jogo da NFL na França",
-   "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/10/25/steelers-abusam-do-jogo-corrido-e-vencem-saints-no-primeiro-jogo-da-nfl-na-franca.ghtml",
+   "t": "Escalação do Flamengo: Jardim pode fazer mudanças nas laterais e no ataque contra o Atlético-MG",
+   "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/25/escalacao-do-flamengo-jardim-pode-fazer-mudancas-nas-laterais-e-no-ataque-contra-o-atletico-mg.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
@@ -249,23 +267,23 @@
    "pais": "US"
   },
   {
-   "t": "Mais um para a conta: a classe do ex-Benfica que continua em grande em Itália (vídeo)",
-   "u": "https://www.abola.pt/noticias/mais-um-para-a-conta-a-classe-do-ex-benfica-que-continua-em-grande-em-italia-video-2026102320153833933",
-   "f": "A Bola",
+   "t": "Barcelona-Real Madrid, em direto",
+   "u": "https://www.record.pt/internacional/paises/espanha/detalhe/20261025-111201-barcelona-real-madrid-em-direto",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Toda la previa del Barça-Real Madrid, en directo",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004241278/barcelona-real-madrid-directo-laliga-ea-sports-futbol-clasico-primera-division.html",
+   "t": "¡Ya están aquí! Barça y Madrid llegan al Spotify Camp Nou",
+   "u": "https://www.mundodeportivo.com/futbol/el-clasico-barca-real-madrid/20261025/1004243102/barca-madrid-llegan-camp-nou.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "England crush France 82-0 to stay in World Cup contention",
-   "u": "https://www.bbc.co.uk/sport/rugby-league/videos/c6vg0r05ypyeo?at_medium=RSS&at_campaign=rss",
-   "f": "BBC Sport",
+   "t": "Barcelona v Real Madrid: El Clásico – live",
+   "u": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
@@ -284,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "PSG-OL reporté, Barça-Real, NFL Paris Game : un programme XXL à ne pas manquer",
-   "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Psg-ol-reporte-barca-real-nfl-paris-game-un-programme-xxl-a-ne-pas-manquer/1738077#at_medium=RSS_feeds",
+   "t": "Grâce à des buts de Dayot Upamecano et de Michael Olise, le Bayern Munich maîtrise Fribourg et reprend la tête de la Bundesliga",
+   "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-des-buts-de-dayot-upamecano-et-de-michael-olise-le-bayern-munich-maitrise-fribourg-et-reprend-la-tete-de-la-bundesliga/1738612#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
