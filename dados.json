@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-25T12:38:29+00:00",
+ "atualizado": "2026-10-25T17:06:39+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Real Madrid anuncia desfalque de Courtois para clássico contra o Barcelona",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/25/real-madrid-perde-courtois-de-ultima-hora-para-classico-contra-o-barcelona.ghtml",
+     "t": "Steelers abusam do jogo corrido e vencem Saints no primeiro jogo da NFL na França",
+     "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/10/25/steelers-abusam-do-jogo-corrido-e-vencem-saints-no-primeiro-jogo-da-nfl-na-franca.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Neymar é expulso por cobrir a boca e desfalca Santos contra o Palmeiras",
-     "u": "https://www.gazetaesportiva.com/times/santos/neymar-recebe-terceiro-amarelo-e-desfalca-santos-contra-o-palmeiras/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Abel evita polêmica do Flamengo na Libertadores, mas alfineta: “O Palmeiras está na final, sem asterisco”",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/abel-palmeiras-polemica-flamengo-libertadores-sem-asterisco/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Ex-joia do Santos construiu carreira em quatro países e hoje vive o futebol de várzea",
-     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/noticia/2026/10/25/ex-joia-do-santos-construiu-carreira-em-quatro-paises-e-hoje-vive-o-futebol-de-varzea.ghtml",
+     "t": "Em jogo de duas viradas, Vasco vence, respira na tabela e afunda o Corinthians",
+     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/24-10-2026/vasco-corinthians.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Inter de Milão consegue virada no fim contra a Fiorentina e mantém liderança no Italiano",
+     "u": "https://www.gazetaesportiva.com/times/internazionale/inter-de-milao-vira-sobre-a-fiorentina-nos-acrescimos-e-assume-a-lideranca/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Veja fotos do confronto entre Inter de Milão e Fiorentina",
+     "u": "https://www.gazetaesportiva.com/campeonatos/serie-a/veja-fotos-do-confronto-entre-inter-de-milao-e-fiorentina/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Report – Juventus Join Inter & Napoli in Race to Sign Monza Rising Star",
-     "u": "https://sports.yahoo.com/articles/report-juventus-join-inter-napoli-122500453.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Barcelona predicted lineup vs. Real Madrid: Projected XI, team news",
-     "u": "https://sports.yahoo.com/articles/barcelona-predicted-lineup-vs-real-123112908.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Barcelona vs. Real Madrid: Who has the edge in El Clasico in goal, defense, midfield and attack?",
-     "u": "https://www.cbssports.com/soccer/news/barcelona-vs-real-madrid-who-has-the-edge-in-el-clasico/",
+     "t": "Here's why the LaLiga race is probably over if Barcelona beat Real Madrid in El Clasico",
+     "u": "https://www.cbssports.com/soccer/news/laliga-over-barcelona-real-madrid-el-clasico-2026/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Week 7 NFL odds, picks, predictions: Computer model backs Jets and Broncos",
-     "u": "https://www.cbssports.com/betting/news/nfl-odds-spreads-picks-predictions-best-bets-today-week-7-2026/",
+     "t": "Inter rally late to down Fiorentina and regain Serie A lead",
+     "u": "https://sports.yahoo.com/articles/inter-rally-down-fiorentina-regain-134630475.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Packers-Lions, Seahawks-Chiefs NFL picks",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-packers-lions-seahawks-chiefs-nfl-picks/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Australia get Cameron Green boost ahead of series-deciding Test against South Africa, set to return as specialist batter",
+     "u": "https://sports.yahoo.com/articles/australia-cameron-green-boost-ahead-165500578.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,14 @@
    },
    "noticias": [
     {
-     "t": "Lei Prestianni faz mais uma vítima: Neymar pega-se com adversário, tapa a boca e vê cartão vermelho",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/lei-prestianni-faz-mais-uma-vitima-neymar-pega-se-com-adversario-tapa-a-boca-e-ve-cartao-vermelho",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Camp Nou acolhe luta de gigantes: Real Madrid de Mourinho precisa de ganhar para não deixar fugir o Barcelona",
-     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/camp-nou-acolhe-luta-de-gigantes-real-madrid-de-mourinho-precisa-de-ganhar-para-nao-deixar-fugir-o-barcelona",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Académico quer travar Sporting em Alvalade: «O futebol é rico em surpresas»",
-     "u": "https://www.abola.pt/noticias/academico-quer-travar-sporting-em-alvalade-o-futebol-e-rico-em-surpresas-2026102315110831566",
+     "t": "Mais um para a conta: a classe do ex-Benfica que continua em grande em Itália (vídeo)",
+     "u": "https://www.abola.pt/noticias/mais-um-para-a-conta-a-classe-do-ex-benfica-que-continua-em-grande-em-italia-video-2026102320153833933",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Mais um para a conta: a classe do ex-Benfica que continua em grande em Itália (vídeo)",
-     "u": "https://www.abola.pt/noticias/mais-um-para-a-conta-a-classe-do-ex-benfica-que-continua-em-grande-em-italia-video-2026102320153833933",
+     "t": "Ex-Benfica em destaque no regresso do Newcastle às vitórias",
+     "u": "https://www.abola.pt/video/ex-benfica-em-destaque-no-regresso-do-newcastle-as-vitorias-2026102516235116621",
      "f": "A Bola",
      "alta": false
     }
@@ -147,26 +135,26 @@
    },
    "noticias": [
     {
-     "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
-     "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Manchester United v Bournemouth, Liverpool v Brighton and more: clockwatch – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/25/manchester-united-v-bournemouth-liverpool-v-brighton-and-more-premier-league-live",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Why are Liverpool struggling for Premier League goals?",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c94g1p32gyrro?at_medium=RSS&at_campaign=rss",
+     "t": "England crush France 82-0 to stay in World Cup contention",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/c6vg0r05ypyeo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Arsenal beat Everton to go level on points with leaders Man City",
-     "u": "https://www.bbc.co.uk/sport/football/videos/cm79pxqdlwelo?at_medium=RSS&at_campaign=rss",
+     "t": "Premier League, Antonelli goes for F1 title, plus WSL and clásico action – follow with us",
+     "u": "https://www.theguardian.com/sport/2026/oct/23/premier-league-antonelli-goes-for-f1-title-plus-wsl-and-clasico-action-follow-with-us",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Australia survive almighty Fiji scare to stay unbeaten at Rugby League World Cup",
+     "u": "https://www.theguardian.com/sport/2026/oct/25/australia-fiji-mens-rugby-league-world-cup-match-report",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Arsenal fight back to beat Tottenham and ease pressure on Slegers",
+     "u": "https://www.bbc.co.uk/sport/football/videos/cmy0r7epegd4o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -187,20 +175,14 @@
      "alta": false
     },
     {
-     "t": "Franco Colapinto largará 21° el Gran Premio de Estados Unidos de Fórmula 1 por una penalización",
-     "u": "https://www.infobae.com/deportes/2026/10/24/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-libre-en-el-gran-premio-de-estados-unidos-hora-y-tv/",
+     "t": "La revelación sobre la misteriosa separación de Vinicius en medio de su ausencia del clásico entre Real Madrid y Barcelona",
+     "u": "https://www.infobae.com/deportes/2026/10/25/la-revelacion-sobre-la-misteriosa-separacion-de-vinicius-en-medio-de-su-ausencia-del-clasico-entre-real-madrid-y-barcelona/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Increíble: Neymar se fue expulsado ¡por taparse la boca! en el partido de Santos",
-     "u": "https://www.ole.com.ar/futbol-internacional/neymar-santos-brasil-bahia-pelea-rogerio-ceni-brasileirao_0_SesJnUONGS.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Qué dijo Kily González sobre Lionel Messi tras la derrota de Inter Miami ante New York RB",
-     "u": "https://www.ole.com.ar/mls/inter-miami/lionel-messi-kily-gonzalez-inter-miami-derrota-mls_0_jIrIpE3PMv.html",
+     "t": "Independiente vs. Boca, hoy EN VIVO el Torneo Clausura 2026: formaciones, horario y por dónde ver",
+     "u": "https://www.ole.com.ar/futbol-primera/independiente-vs-boca-partido-torneo-clausura-fecha14-vivo-minuto-minuto_0_Owr3tRrXSr.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +219,14 @@
    },
    "noticias": [
     {
-     "t": "Barça-Real Madrid : DAZN baisse son prix",
-     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Barca-real-madrid-dazn-baisse-son-prix-a-7-99-et-8364-mois-juste-avant-le-clasico/1737271#at_medium=RSS_feeds",
+     "t": "PSG-OL reporté, Barça-Real, NFL Paris Game : un programme XXL à ne pas manquer",
+     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Psg-ol-reporte-barca-real-nfl-paris-game-un-programme-xxl-a-ne-pas-manquer/1738077#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Illia Zabarnyi, le monsieur Ligue 1 du PSG, doit franchir un cap pour suppléer Marquinhos, blessé",
-     "u": "https://www.lequipe.fr/Football/Article/Il-est-l-heure-illia-zabarnyi-le-monsieur-ligue-1-du-psg-doit-franchir-un-cap-pour-suppleer-marquinhos-blesse/1738341#at_medium=RSS_feeds",
+     "t": "Pour le premier match de l'histoire de la NFL en France, les Pittsburgh Steelers maîtrisent les New Orleans Saints",
+     "u": "https://www.lequipe.fr/Football-americain/Actualites/Pour-le-premier-match-de-l-histoire-de-la-nfl-en-france-les-pittsburgh-steelers-maitrisent-les-new-orleans-saints/1738562#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,24 +235,24 @@
  ],
  "destaques": [
   {
-   "t": "Real Madrid anuncia desfalque de Courtois para clássico contra o Barcelona",
-   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/25/real-madrid-perde-courtois-de-ultima-hora-para-classico-contra-o-barcelona.ghtml",
+   "t": "Steelers abusam do jogo corrido e vencem Saints no primeiro jogo da NFL na França",
+   "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/10/25/steelers-abusam-do-jogo-corrido-e-vencem-saints-no-primeiro-jogo-da-nfl-na-franca.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Report – Juventus Join Inter & Napoli in Race to Sign Monza Rising Star",
-   "u": "https://sports.yahoo.com/articles/report-juventus-join-inter-napoli-122500453.html",
-   "f": "Yahoo Sports",
+   "t": "Here's why the LaLiga race is probably over if Barcelona beat Real Madrid in El Clasico",
+   "u": "https://www.cbssports.com/soccer/news/laliga-over-barcelona-real-madrid-el-clasico-2026/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Lei Prestianni faz mais uma vítima: Neymar pega-se com adversário, tapa a boca e vê cartão vermelho",
-   "u": "https://www.record.pt/multimedia/videos/detalhe/lei-prestianni-faz-mais-uma-vitima-neymar-pega-se-com-adversario-tapa-a-boca-e-ve-cartao-vermelho",
-   "f": "Record",
-   "alta": true,
+   "t": "Mais um para a conta: a classe do ex-Benfica que continua em grande em Itália (vídeo)",
+   "u": "https://www.abola.pt/noticias/mais-um-para-a-conta-a-classe-do-ex-benfica-que-continua-em-grande-em-italia-video-2026102320153833933",
+   "f": "A Bola",
+   "alta": false,
    "pais": "PT"
   },
   {
@@ -281,9 +263,9 @@
    "pais": "ES"
   },
   {
-   "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
-   "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
-   "f": "The Guardian",
+   "t": "England crush France 82-0 to stay in World Cup contention",
+   "u": "https://www.bbc.co.uk/sport/rugby-league/videos/c6vg0r05ypyeo?at_medium=RSS&at_campaign=rss",
+   "f": "BBC Sport",
    "alta": false,
    "pais": "GB"
   },
@@ -302,8 +284,8 @@
    "pais": "IT"
   },
   {
-   "t": "Barça-Real Madrid : DAZN baisse son prix",
-   "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Barca-real-madrid-dazn-baisse-son-prix-a-7-99-et-8364-mois-juste-avant-le-clasico/1737271#at_medium=RSS_feeds",
+   "t": "PSG-OL reporté, Barça-Real, NFL Paris Game : un programme XXL à ne pas manquer",
+   "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Psg-ol-reporte-barca-real-nfl-paris-game-un-programme-xxl-a-ne-pas-manquer/1738077#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
