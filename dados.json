@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-25T01:17:28+00:00",
+ "atualizado": "2026-10-25T06:19:10+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
+     "t": "Neymar é expulso por cobrir a boca e desfalca Santos contra o Palmeiras",
+     "u": "https://www.gazetaesportiva.com/times/santos/neymar-recebe-terceiro-amarelo-e-desfalca-santos-contra-o-palmeiras/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
      "t": "Abel evita polêmica do Flamengo na Libertadores, mas alfineta: “O Palmeiras está na final, sem asterisco”",
      "u": "https://www.gazetaesportiva.com/times/palmeiras/abel-palmeiras-polemica-flamengo-libertadores-sem-asterisco/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Inter vence o Botafogo no Beira-Rio e deixa a zona de rebaixamento",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/24-10-2026/internacional-botafogo.ghtml",
+     "t": "\"El Clásico\": Barcelona e Real Madrid rivalizam em faturamento, patrocínios e redes sociais",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/25/el-clasico-barcelona-e-real-madrid-rivalizam-em-faturamento-patrocinios-e-redes-sociais.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Corinthians x Independiente Dragonas - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/24-10-2026/corinthians-independiente-dragonas.ghtml",
+     "t": "Análise: Botafogo sobra em apatia, e falta de combatividade marca derrota para o Internacional",
+     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/25/analise-botafogo-sobra-em-apatia-e-falta-de-combatividade-marca-derrota-para-o-internacional.ghtml",
      "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Neymar recebe terceiro amarelo e desfalca Santos contra o Palmeiras",
-     "u": "https://www.gazetaesportiva.com/times/santos/neymar-recebe-terceiro-amarelo-e-desfalca-santos-contra-o-palmeiras/",
-     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,10 +45,10 @@
    },
    "noticias": [
     {
-     "t": "How to watch Warriors vs Suns: Live stream, NBA, TV channel",
-     "u": "https://sports.yahoo.com/articles/watch-warriors-vs-suns-live-010000353.html",
+     "t": "Official: Real Madrid squad for the La Liga game against Sevilla",
+     "u": "https://sports.yahoo.com/articles/official-real-madrid-squad-la-060500527.html",
      "f": "Yahoo Sports",
-     "alta": true
+     "alta": false
     },
     {
      "t": "Barcelona vs. Real Madrid: Who has the edge in El Clasico in goal, defense, midfield and attack?",
@@ -57,15 +57,15 @@
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Texas-Ole Miss, college football picks",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-texas-ole-miss-college-football-picks/",
-     "f": "CBS Sports",
+     "t": "'It is one to learn for the future' - Xabi Alonso confirms crunch talks with Cole Palmer after Chelsea star’s red card against Tottenham",
+     "u": "https://sports.yahoo.com/articles/one-learn-future-xabi-alonso-055707499.html",
+     "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Iowa football takeaways from Hawkeyes' Minnesota stumble",
-     "u": "https://sports.yahoo.com/articles/iowa-football-takeaways-hawkeyes-minnesota-011035020.html",
-     "f": "Yahoo Sports",
+     "t": "Aaron Ashby on the verge of MLB history as Brewers reliever continues dominant postseason run",
+     "u": "https://www.cbssports.com/mlb/news/2026-world-series-aaron-ashby-brewers-playoff-scoreless-streak/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -85,20 +85,20 @@
      "alta": false
     },
     {
-     "t": "Palmeiras vence na receção ao Bragantino e assume liderança provisória",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/20261024-220830-palmeiras-bragantino-em-direto",
-     "f": "Record",
-     "alta": false
-    },
-    {
      "t": "Benfica saiu da dieta e empanturrou-se em Queluz",
      "u": "https://www.abola.pt/noticias/benfica-saiu-da-dieta-e-empanturrou-se-em-queluz-2026102421550239246",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "As notas dos jogadores do FC Porto diante do Gil Vicente: Borja para a frente que se faz tarde",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/as-notas-dos-jogadores-do-fc-porto-diante-do-gil-vicente-borja-para-a-frente-que-se-faz-tarde",
+     "t": "Desfeita de Bruno Pinheiro ao Sporting abriu caminho a Rui Borges",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/ac--viseu/detalhe/desfeita-de-bruno-pinheiro-ao-sporting-abriu-caminho-a-rui-borges",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Palmeiras vence na receção ao Bragantino e assume liderança provisória",
+     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/20261024-220830-palmeiras-bragantino-em-direto",
      "f": "Record",
      "alta": false
     }
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "Rijkaard, Koeman y Jordi Cruyff, invitados de lujo en el palco del Spotify Camp Nou",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261024/1004242787/rijkaard-koeman-jordi-cruyff-invitados-lujo-palco-spotify-camp-nou.html",
+     "t": "Así queda la clasificación de la Liga Endesa tras la victoria del Barça ante el Casademont Zaragoza",
+     "u": "https://www.mundodeportivo.com/baloncesto/acb/20261024/1004242745/asi-queda-clasificacion-liga-endesa-victoria-barca-casademont-zaragoza.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,14 +147,14 @@
    },
    "noticias": [
     {
-     "t": "‘Like a fairy tale’: USA’s Paula Moltzan becomes oldest first-time World Cup winner by 0.01sec",
-     "u": "https://www.theguardian.com/sport/2026/oct/24/paula-moltzan-first-world-cup-win-solden-giant-slalom",
-     "f": "The Guardian",
-     "alta": true
-    },
-    {
      "t": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
      "u": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
+     "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
      "f": "The Guardian",
      "alta": false
     },
@@ -181,21 +181,21 @@
    },
    "noticias": [
     {
+     "t": "Increíble: Neymar se fue expulsado ¡por taparse la boca! en el partido de Santos",
+     "u": "https://www.ole.com.ar/futbol-internacional/neymar-santos-brasil-bahia-pelea-rogerio-ceni-brasileirao_0_SesJnUONGS.html",
+     "f": "Olé",
+     "alta": true
+    },
+    {
      "t": "Franco Colapinto largará 21° el Gran Premio de Estados Unidos de Fórmula 1 por una penalización",
      "u": "https://www.infobae.com/deportes/2026/10/24/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-libre-en-el-gran-premio-de-estados-unidos-hora-y-tv/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Julián Álvarez le pidió perdón a los fanáticos del Atlético de Madrid por sus declaraciones durante el Mundial: “Fue una equivocación”",
-     "u": "https://www.infobae.com/deportes/2026/10/24/julian-alvarez-le-pidio-perdon-a-los-fanaticos-del-atletico-de-madrid-por-sus-declaraciones-durante-el-mundial-fue-una-equivocacion/",
+     "t": "Fue campeón en Boca e Independiente, jugó en Racing y San Lorenzo y se retiró a los 32 años: “Dejé de ir a la cancha porque no me atrae el fútbol”",
+     "u": "https://www.infobae.com/deportes/2026/10/25/fue-campeon-en-boca-e-independiente-jugo-en-racing-y-san-lorenzo-y-se-retiro-a-los-32-anos-deje-de-ir-a-la-cancha-porque-no-me-atrae-el-futbol/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "La presidenta de Palmeiras liquidó a Flamengo por el reclamo contra Estudiantes: \"Ridículo\"",
-     "u": "https://www.ole.com.ar/futbol-internacional/final-libertadores-palmeiras-estudiantes-flamengo-leila-pereira-presidenta_0_STj4uP3cMy.html",
-     "f": "Olé",
      "alta": false
     },
     {
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Bastia éliminé de la Coupe de France par Furiani-Agliani sur un but de son ancien capitaine au 6e tour",
-     "u": "https://www.lequipe.fr/Football/Actualites/Bastia-elimine-de-la-coupe-de-france-par-furiani-agliani-sur-un-but-de-son-ancien-capitaine-au-6e-tour/1738449#at_medium=RSS_feeds",
+     "t": "Extraordinaire en C1 le mardi et sorti à la mi-temps en Premier League le samedi : avec Rayan Cherki, c'est tout ou rien cette saison à Manchester Cit",
+     "u": "https://www.lequipe.fr/Football/Actualites/Sorti-a-la-mi-temps-lors-d-aston-villa-manchester-city-rayan-cherki-a-une-nouvelle-fois-montre-qu-avec-lui-c-etait-tout-ou-rien-cette-saison/1738448#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Tombeuse de Parme, la Lazio Rome poursuit son sans-faute et prend la tête de la Serie A",
-     "u": "https://www.lequipe.fr/Football/Actualites/Tombeuse-de-parme-la-lazio-rome-poursuit-son-sans-faute-et-prend-la-tete-de-la-serie-a/1738437#at_medium=RSS_feeds",
+     "t": "Bastia éliminé de la Coupe de France par Furiani-Agliani sur un but de son ancien capitaine au 6e tour",
+     "u": "https://www.lequipe.fr/Football/Actualites/Bastia-elimine-de-la-coupe-de-france-par-furiani-agliani-sur-un-but-de-son-ancien-capitaine-au-6e-tour/1738449#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,17 +253,17 @@
  ],
  "destaques": [
   {
-   "t": "Abel evita polêmica do Flamengo na Libertadores, mas alfineta: “O Palmeiras está na final, sem asterisco”",
-   "u": "https://www.gazetaesportiva.com/times/palmeiras/abel-palmeiras-polemica-flamengo-libertadores-sem-asterisco/",
+   "t": "Neymar é expulso por cobrir a boca e desfalca Santos contra o Palmeiras",
+   "u": "https://www.gazetaesportiva.com/times/santos/neymar-recebe-terceiro-amarelo-e-desfalca-santos-contra-o-palmeiras/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "How to watch Warriors vs Suns: Live stream, NBA, TV channel",
-   "u": "https://sports.yahoo.com/articles/watch-warriors-vs-suns-live-010000353.html",
+   "t": "Official: Real Madrid squad for the La Liga game against Sevilla",
+   "u": "https://sports.yahoo.com/articles/official-real-madrid-squad-la-060500527.html",
    "f": "Yahoo Sports",
-   "alta": true,
+   "alta": false,
    "pais": "US"
   },
   {
@@ -281,17 +281,17 @@
    "pais": "ES"
   },
   {
-   "t": "‘Like a fairy tale’: USA’s Paula Moltzan becomes oldest first-time World Cup winner by 0.01sec",
-   "u": "https://www.theguardian.com/sport/2026/oct/24/paula-moltzan-first-world-cup-win-solden-giant-slalom",
+   "t": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
+   "u": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
    "f": "The Guardian",
-   "alta": true,
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Franco Colapinto largará 21° el Gran Premio de Estados Unidos de Fórmula 1 por una penalización",
-   "u": "https://www.infobae.com/deportes/2026/10/24/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-libre-en-el-gran-premio-de-estados-unidos-hora-y-tv/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Increíble: Neymar se fue expulsado ¡por taparse la boca! en el partido de Santos",
+   "u": "https://www.ole.com.ar/futbol-internacional/neymar-santos-brasil-bahia-pelea-rogerio-ceni-brasileirao_0_SesJnUONGS.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Bastia éliminé de la Coupe de France par Furiani-Agliani sur un but de son ancien capitaine au 6e tour",
-   "u": "https://www.lequipe.fr/Football/Actualites/Bastia-elimine-de-la-coupe-de-france-par-furiani-agliani-sur-un-but-de-son-ancien-capitaine-au-6e-tour/1738449#at_medium=RSS_feeds",
+   "t": "Extraordinaire en C1 le mardi et sorti à la mi-temps en Premier League le samedi : avec Rayan Cherki, c'est tout ou rien cette saison à Manchester Cit",
+   "u": "https://www.lequipe.fr/Football/Actualites/Sorti-a-la-mi-temps-lors-d-aston-villa-manchester-city-rayan-cherki-a-une-nouvelle-fois-montre-qu-avec-lui-c-etait-tout-ou-rien-cette-saison/1738448#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
