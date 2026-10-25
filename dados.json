@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-25T06:19:10+00:00",
+ "atualizado": "2026-10-25T12:38:29+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -10,6 +10,12 @@
     "es": "Brasil"
    },
    "noticias": [
+    {
+     "t": "Real Madrid anuncia desfalque de Courtois para clássico contra o Barcelona",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/25/real-madrid-perde-courtois-de-ultima-hora-para-classico-contra-o-barcelona.ghtml",
+     "f": "ge",
+     "alta": false
+    },
     {
      "t": "Neymar é expulso por cobrir a boca e desfalca Santos contra o Palmeiras",
      "u": "https://www.gazetaesportiva.com/times/santos/neymar-recebe-terceiro-amarelo-e-desfalca-santos-contra-o-palmeiras/",
@@ -23,14 +29,8 @@
      "alta": false
     },
     {
-     "t": "\"El Clásico\": Barcelona e Real Madrid rivalizam em faturamento, patrocínios e redes sociais",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/25/el-clasico-barcelona-e-real-madrid-rivalizam-em-faturamento-patrocinios-e-redes-sociais.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Análise: Botafogo sobra em apatia, e falta de combatividade marca derrota para o Internacional",
-     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/25/analise-botafogo-sobra-em-apatia-e-falta-de-combatividade-marca-derrota-para-o-internacional.ghtml",
+     "t": "Ex-joia do Santos construiu carreira em quatro países e hoje vive o futebol de várzea",
+     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/noticia/2026/10/25/ex-joia-do-santos-construiu-carreira-em-quatro-paises-e-hoje-vive-o-futebol-de-varzea.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,8 +45,14 @@
    },
    "noticias": [
     {
-     "t": "Official: Real Madrid squad for the La Liga game against Sevilla",
-     "u": "https://sports.yahoo.com/articles/official-real-madrid-squad-la-060500527.html",
+     "t": "Report – Juventus Join Inter & Napoli in Race to Sign Monza Rising Star",
+     "u": "https://sports.yahoo.com/articles/report-juventus-join-inter-napoli-122500453.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Barcelona predicted lineup vs. Real Madrid: Projected XI, team news",
+     "u": "https://sports.yahoo.com/articles/barcelona-predicted-lineup-vs-real-123112908.html",
      "f": "Yahoo Sports",
      "alta": false
     },
@@ -57,14 +63,8 @@
      "alta": false
     },
     {
-     "t": "'It is one to learn for the future' - Xabi Alonso confirms crunch talks with Cole Palmer after Chelsea star’s red card against Tottenham",
-     "u": "https://sports.yahoo.com/articles/one-learn-future-xabi-alonso-055707499.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Aaron Ashby on the verge of MLB history as Brewers reliever continues dominant postseason run",
-     "u": "https://www.cbssports.com/mlb/news/2026-world-series-aaron-ashby-brewers-playoff-scoreless-streak/",
+     "t": "Week 7 NFL odds, picks, predictions: Computer model backs Jets and Broncos",
+     "u": "https://www.cbssports.com/betting/news/nfl-odds-spreads-picks-predictions-best-bets-today-week-7-2026/",
      "f": "CBS Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
+     "t": "Lei Prestianni faz mais uma vítima: Neymar pega-se com adversário, tapa a boca e vê cartão vermelho",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/lei-prestianni-faz-mais-uma-vitima-neymar-pega-se-com-adversario-tapa-a-boca-e-ve-cartao-vermelho",
+     "f": "Record",
+     "alta": true
+    },
+    {
+     "t": "Camp Nou acolhe luta de gigantes: Real Madrid de Mourinho precisa de ganhar para não deixar fugir o Barcelona",
+     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/camp-nou-acolhe-luta-de-gigantes-real-madrid-de-mourinho-precisa-de-ganhar-para-nao-deixar-fugir-o-barcelona",
+     "f": "Record",
+     "alta": false
+    },
+    {
      "t": "Académico quer travar Sporting em Alvalade: «O futebol é rico em surpresas»",
      "u": "https://www.abola.pt/noticias/academico-quer-travar-sporting-em-alvalade-o-futebol-e-rico-em-surpresas-2026102315110831566",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Benfica saiu da dieta e empanturrou-se em Queluz",
-     "u": "https://www.abola.pt/noticias/benfica-saiu-da-dieta-e-empanturrou-se-em-queluz-2026102421550239246",
+     "t": "Mais um para a conta: a classe do ex-Benfica que continua em grande em Itália (vídeo)",
+     "u": "https://www.abola.pt/noticias/mais-um-para-a-conta-a-classe-do-ex-benfica-que-continua-em-grande-em-italia-video-2026102320153833933",
      "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Desfeita de Bruno Pinheiro ao Sporting abriu caminho a Rui Borges",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/ac--viseu/detalhe/desfeita-de-bruno-pinheiro-ao-sporting-abriu-caminho-a-rui-borges",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Palmeiras vence na receção ao Bragantino e assume liderança provisória",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/20261024-220830-palmeiras-bragantino-em-direto",
-     "f": "Record",
      "alta": false
     }
    ]
@@ -113,6 +113,12 @@
    },
    "noticias": [
     {
+     "t": "Toda la previa del Barça-Real Madrid, en directo",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004241278/barcelona-real-madrid-directo-laliga-ea-sports-futbol-clasico-primera-division.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "Mensaje de felicitación del FC Barcelona",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261023/1004242416/mensaje-felicitacion-fc-barcelona-leo-messi.html",
      "f": "Mundo Deportivo",
@@ -122,12 +128,6 @@
      "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
      "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Así queda la clasificación de la Liga Endesa tras la victoria del Barça ante el Casademont Zaragoza",
-     "u": "https://www.mundodeportivo.com/baloncesto/acb/20261024/1004242745/asi-queda-clasificacion-liga-endesa-victoria-barca-casademont-zaragoza.html",
-     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,21 +147,21 @@
    },
    "noticias": [
     {
-     "t": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
-     "u": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
      "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
      "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Knicks employees to get NBA championship rings after phishing email 'mistake'",
-     "u": "https://www.skysports.com/nba/news/12040/13603315/new-york-knicks-employees-to-get-nba-championship-rings-after-admitting-to-phishing-email-mistake",
-     "f": "Sky Sports",
+     "t": "Manchester United v Bournemouth, Liverpool v Brighton and more: clockwatch – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/25/manchester-united-v-bournemouth-liverpool-v-brighton-and-more-premier-league-live",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Why are Liverpool struggling for Premier League goals?",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c94g1p32gyrro?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
@@ -181,10 +181,10 @@
    },
    "noticias": [
     {
-     "t": "Increíble: Neymar se fue expulsado ¡por taparse la boca! en el partido de Santos",
-     "u": "https://www.ole.com.ar/futbol-internacional/neymar-santos-brasil-bahia-pelea-rogerio-ceni-brasileirao_0_SesJnUONGS.html",
-     "f": "Olé",
-     "alta": true
+     "t": "Franco Colapinto largará desde el fondo de la grilla el Gran Premio de Estados Unidos de la Fórmula 1: todo lo que hay que saber",
+     "u": "https://www.infobae.com/deportes/2026/10/25/franco-colapinto-largara-desde-el-fondo-de-la-grilla-el-gran-premio-de-estados-unidos-de-la-formula-1-todo-lo-que-hay-que-saber/",
+     "f": "Infobae",
+     "alta": false
     },
     {
      "t": "Franco Colapinto largará 21° el Gran Premio de Estados Unidos de Fórmula 1 por una penalización",
@@ -193,14 +193,14 @@
      "alta": false
     },
     {
-     "t": "Fue campeón en Boca e Independiente, jugó en Racing y San Lorenzo y se retiró a los 32 años: “Dejé de ir a la cancha porque no me atrae el fútbol”",
-     "u": "https://www.infobae.com/deportes/2026/10/25/fue-campeon-en-boca-e-independiente-jugo-en-racing-y-san-lorenzo-y-se-retiro-a-los-32-anos-deje-de-ir-a-la-cancha-porque-no-me-atrae-el-futbol/",
-     "f": "Infobae",
+     "t": "Increíble: Neymar se fue expulsado ¡por taparse la boca! en el partido de Santos",
+     "u": "https://www.ole.com.ar/futbol-internacional/neymar-santos-brasil-bahia-pelea-rogerio-ceni-brasileirao_0_SesJnUONGS.html",
+     "f": "Olé",
      "alta": false
     },
     {
-     "t": "Flamengo publicó un comunicado explicando el caso Rojo y para \"garantizar que las normas valgan por igual para todos\"",
-     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flamengo-estudiantes-marcos-rojo-comunicado-conmebol-copa-libertadores-escritorio-comunicado-descargo_0_A4G6j0MZeO.html",
+     "t": "Qué dijo Kily González sobre Lionel Messi tras la derrota de Inter Miami ante New York RB",
+     "u": "https://www.ole.com.ar/mls/inter-miami/lionel-messi-kily-gonzalez-inter-miami-derrota-mls_0_jIrIpE3PMv.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Extraordinaire en C1 le mardi et sorti à la mi-temps en Premier League le samedi : avec Rayan Cherki, c'est tout ou rien cette saison à Manchester Cit",
-     "u": "https://www.lequipe.fr/Football/Actualites/Sorti-a-la-mi-temps-lors-d-aston-villa-manchester-city-rayan-cherki-a-une-nouvelle-fois-montre-qu-avec-lui-c-etait-tout-ou-rien-cette-saison/1738448#at_medium=RSS_feeds",
+     "t": "Barça-Real Madrid : DAZN baisse son prix",
+     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Barca-real-madrid-dazn-baisse-son-prix-a-7-99-et-8364-mois-juste-avant-le-clasico/1737271#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Bastia éliminé de la Coupe de France par Furiani-Agliani sur un but de son ancien capitaine au 6e tour",
-     "u": "https://www.lequipe.fr/Football/Actualites/Bastia-elimine-de-la-coupe-de-france-par-furiani-agliani-sur-un-but-de-son-ancien-capitaine-au-6e-tour/1738449#at_medium=RSS_feeds",
+     "t": "Illia Zabarnyi, le monsieur Ligue 1 du PSG, doit franchir un cap pour suppléer Marquinhos, blessé",
+     "u": "https://www.lequipe.fr/Football/Article/Il-est-l-heure-illia-zabarnyi-le-monsieur-ligue-1-du-psg-doit-franchir-un-cap-pour-suppleer-marquinhos-blesse/1738341#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "Neymar é expulso por cobrir a boca e desfalca Santos contra o Palmeiras",
-   "u": "https://www.gazetaesportiva.com/times/santos/neymar-recebe-terceiro-amarelo-e-desfalca-santos-contra-o-palmeiras/",
-   "f": "Gazeta Esportiva",
+   "t": "Real Madrid anuncia desfalque de Courtois para clássico contra o Barcelona",
+   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/25/real-madrid-perde-courtois-de-ultima-hora-para-classico-contra-o-barcelona.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Official: Real Madrid squad for the La Liga game against Sevilla",
-   "u": "https://sports.yahoo.com/articles/official-real-madrid-squad-la-060500527.html",
+   "t": "Report – Juventus Join Inter & Napoli in Race to Sign Monza Rising Star",
+   "u": "https://sports.yahoo.com/articles/report-juventus-join-inter-napoli-122500453.html",
    "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Académico quer travar Sporting em Alvalade: «O futebol é rico em surpresas»",
-   "u": "https://www.abola.pt/noticias/academico-quer-travar-sporting-em-alvalade-o-futebol-e-rico-em-surpresas-2026102315110831566",
-   "f": "A Bola",
-   "alta": false,
+   "t": "Lei Prestianni faz mais uma vítima: Neymar pega-se com adversário, tapa a boca e vê cartão vermelho",
+   "u": "https://www.record.pt/multimedia/videos/detalhe/lei-prestianni-faz-mais-uma-vitima-neymar-pega-se-com-adversario-tapa-a-boca-e-ve-cartao-vermelho",
+   "f": "Record",
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "Mensaje de felicitación del FC Barcelona",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261023/1004242416/mensaje-felicitacion-fc-barcelona-leo-messi.html",
+   "t": "Toda la previa del Barça-Real Madrid, en directo",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004241278/barcelona-real-madrid-directo-laliga-ea-sports-futbol-clasico-primera-division.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
-   "u": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
+   "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
+   "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Increíble: Neymar se fue expulsado ¡por taparse la boca! en el partido de Santos",
-   "u": "https://www.ole.com.ar/futbol-internacional/neymar-santos-brasil-bahia-pelea-rogerio-ceni-brasileirao_0_SesJnUONGS.html",
-   "f": "Olé",
-   "alta": true,
+   "t": "Franco Colapinto largará desde el fondo de la grilla el Gran Premio de Estados Unidos de la Fórmula 1: todo lo que hay que saber",
+   "u": "https://www.infobae.com/deportes/2026/10/25/franco-colapinto-largara-desde-el-fondo-de-la-grilla-el-gran-premio-de-estados-unidos-de-la-formula-1-todo-lo-que-hay-que-saber/",
+   "f": "Infobae",
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Extraordinaire en C1 le mardi et sorti à la mi-temps en Premier League le samedi : avec Rayan Cherki, c'est tout ou rien cette saison à Manchester Cit",
-   "u": "https://www.lequipe.fr/Football/Actualites/Sorti-a-la-mi-temps-lors-d-aston-villa-manchester-city-rayan-cherki-a-une-nouvelle-fois-montre-qu-avec-lui-c-etait-tout-ou-rien-cette-saison/1738448#at_medium=RSS_feeds",
+   "t": "Barça-Real Madrid : DAZN baisse son prix",
+   "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Barca-real-madrid-dazn-baisse-son-prix-a-7-99-et-8364-mois-juste-avant-le-clasico/1737271#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
