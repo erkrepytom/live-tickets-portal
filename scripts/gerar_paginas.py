@@ -906,7 +906,8 @@ def promo_da_vitrine(lang, pagina, id_, eventos):
     ev = proximo_evento(eventos, tipos=("nba",)) if id_ == "nba" else proximo_evento(eventos, paises=("USA",))
     if not ev:
         return ""
-    return promo_evento(lang, pagina, ev, rota_evento(ev), tours=True, tours_primeiro=(id_ == "beisebol"))
+    return promo_evento(lang, pagina, ev, rota_evento(ev), tours=True, tours_primeiro=(id_ == "beisebol"),
+                        jogo="basket" if id_ == "nba" else "tennis")
 
 
 def faixa_vitrine(lang, pagina, id_, estilo="", dentro=False, eventos=()):
@@ -981,9 +982,21 @@ def link_tours(lang, pagina, ev):
             f'rel="sponsored nofollow noopener" data-partner="getyourguide" data-kind="travel">{e(rotulo)}</a>')
 
 
-def promo_evento(lang, pagina, ev, rota, tours=False, tours_primeiro=False):
+def quadro_jogo(lang, pagina, ev, rota, jogo):
+    """Minijogo no espaço livre à direita do "Próximo jogo" (assets/arena.js). O quadro leva o evento
+    ao lado dele, para o cartão do fim do jogo apontar para o mesmo ingresso. Vazio sem jogo."""
+    if jogo not in ("soccer", "basket", "fg", "tennis"):
+        return ""
+    titulo, local = e(L(ev["titulo"], lang)), f'{e(ev["local"])} · {e(L(ev["cidade"], lang))}'
+    return (f'  <div class="promo-jogo"><div class="mta-slot" data-game="{jogo}" data-slug="{e(ev["slug"])}" '
+            f'data-titulo="{titulo}" data-local="{local}" data-data="{e(ev["data"])}" '
+            f'data-rota="{e(rota)}" data-portao="{e(ev["data"][-2:])}"></div></div>\n')
+
+
+def promo_evento(lang, pagina, ev, rota, tours=False, tours_primeiro=False, jogo=""):
     """Cartão de embarque do próximo evento, no vão acima do título da faixa de vídeos.
-    Mesmo desenho dos cartões do topo da página: nada de imagem nova, só CSS."""
+    Mesmo desenho dos cartões do topo da página: nada de imagem nova, só CSS.
+    jogo: minijogo que entra ao lado (soccer, basket, fg, tennis)."""
     if not ev:
         return ""
     px, t = C.PROMO_TXT[lang], T[lang]
@@ -1003,7 +1016,7 @@ def promo_evento(lang, pagina, ev, rota, tours=False, tours_primeiro=False):
     <p>{e(data_longa(ev['data'], lang))} · {e(ev['local'])}, {e(L(ev['cidade'], lang))}</p>
     <div class="vcard-actions">{botoes}</div>
   </div>
-</div>
+{quadro_jogo(lang, pagina, ev, rota, jogo)}</div>
 """
 
 
@@ -1113,6 +1126,25 @@ def faixa_aovivo(lang, pagina, slug=""):
             f'</section>\n')
 
 
+def arena_home(lang, pagina):
+    """Motor dos minijogos. A seção fica escondida (data-view="slots"): os jogos aparecem só nos quadros
+    ao lado de cada "Próximo jogo". O arena.css/arena.js (~70 KB) só baixa quando um quadro chega perto
+    da tela, e os áudios da torcida (assets/audio, ~330 KB) só quando alguém aperta Jogar."""
+    au = lambda f: rel(pagina, f"assets/audio/{f}")
+    return f"""<section class="mta" id="mt-arena" data-lang="{lang}" data-view="slots" data-audio-crowd="{au('arena-torcida-antes-do-penalti.mp3')}" data-audio-ooh="{au('arena-torcida-quase.mp3')}" data-audio-goal="{au('arena-torcida-gol.mp3')}" aria-labelledby="mta-title">
+  <div class="mta-top"><div><span class="mta-kick"><span data-t="kicker"></span></span><h2 id="mta-title" data-t="title"></h2><p class="mta-sub" data-t="sub"></p><p class="mta-cta"><b data-t="ctaB"></b> <span data-t="cta"></span></p></div>
+    <div class="mta-tools"><button class="mta-fs" type="button">⛶</button><button class="mta-snd" type="button" aria-pressed="true">🔊</button></div></div>
+  <div class="mta-gates" role="tablist"></div>
+  <div class="mta-stage"><canvas width="960" height="540"></canvas><button class="mta-x" type="button">✕</button><div class="mta-hud" aria-hidden="true"><span class="mta-h1"></span><span class="mta-h2"></span></div><div class="mta-ov"></div><div class="mta-live" aria-live="polite"></div></div>
+  <p class="mta-legal" data-t="legal"></p>
+</section>
+<script>(function(){{var q=document.querySelectorAll(".mta-slot");if(!q.length)return;var ok=0;
+function go(){{if(ok)return;ok=1;var l=document.createElement("link");l.rel="stylesheet";l.href="{rel(pagina, 'assets/arena.css')}{versao('assets/arena.css')}";document.head.appendChild(l);
+l.onload=function(){{var s=document.createElement("script");s.src="{rel(pagina, 'assets/arena.js')}{versao('assets/arena.js')}";document.body.appendChild(s)}}}}
+if(!("IntersectionObserver" in window)){{go();return}}var io=new IntersectionObserver(function(es){{for(var k=0;k<es.length;k++)if(es[k].isIntersecting){{io.disconnect();go();return}}}},{{rootMargin:"300px"}});for(var i=0;i<q.length;i++)io.observe(q[i])}})();</script>
+"""
+
+
 def faixa_videos_home(lang, pagina, eventos, n=8):
     """Faixa 'Em vídeo' da página inicial: os últimos vídeos, com o botão de ingressos/reserva e o link para todos."""
     vs = todos_videos(eventos)[:n]
@@ -1121,7 +1153,7 @@ def faixa_videos_home(lang, pagina, eventos, n=8):
     vx = C.VIDEOS_TXT[lang]
     cards = "".join(cartao_video(v, lang, pagina, eventos) for v in vs)
     ev_promo = proximo_evento(eventos, tipos=("football",))
-    promo = promo_evento(lang, pagina, ev_promo, rota_evento(ev_promo), tours=True) if ev_promo else ""
+    promo = promo_evento(lang, pagina, ev_promo, rota_evento(ev_promo), tours=True, jogo="soccer") if ev_promo else ""
     return f"""<section class="band" id="videos" aria-labelledby="vh-h">
   <div class="wrap">
     {promo}
@@ -1586,6 +1618,7 @@ def home(lang, eventos, noticias, hubs):
   </div>
 </section>
 {bloco_comunidades(lang, pagina)}
+{arena_home(lang, pagina)}
 
 <!-- ============ BANNER 3D (sistema solar esportivo, original do portal) ============ -->
 <section id="banner3d" aria-label="Banner: sistema solar em 3D com bolas de esportes no lugar dos planetas">

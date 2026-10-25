@@ -570,6 +570,11 @@ html{scroll-padding-top:120px}
 .promo-txt h3{margin:0;font:800 clamp(19px,2.3vw,26px)/1.15 var(--f-display);letter-spacing:.01em}
 .promo-txt>p:last-of-type{margin:0 0 6px;color:var(--mut);font-size:14px}
 .promo-txt .vcard-actions{display:flex;flex-wrap:wrap;gap:10px}
+/* minijogo no espaço livre à direita do "Próximo jogo": o quadro reserva o lugar já no 16:9, então nada pula quando o assets/arena.js chega */
+.promo-jogo{flex:1 1 340px;max-width:500px;margin-left:auto}
+.promo-jogo .mta-slot{display:block;aspect-ratio:16/9;border-radius:18px;background:#081220}
+.promo-jogo .mta-slot.on,.promo-jogo .mta-slot:has(.mta-prev){background:none;aspect-ratio:auto}
+@media (max-width:760px){.promo-jogo{flex-basis:100%;max-width:none;margin-left:0}}
 
 /* ---------- 'Planeje a viagem' ao lado das fileiras de nomes ---------- */
 .chips-zona{display:grid;gap:28px;align-items:start;min-width:0}
