@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-24T22:34:19+00:00",
+ "atualizado": "2026-10-25T01:17:28+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Palmeiras leva empate do Santa Fe e cai nos pênaltis na Libertadores Feminina",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-leva-empate-do-santa-fe-e-cai-nos-penaltis-na-libertadores-feminina/",
+     "t": "Abel evita polêmica do Flamengo na Libertadores, mas alfineta: “O Palmeiras está na final, sem asterisco”",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/abel-palmeiras-polemica-flamengo-libertadores-sem-asterisco/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Palmeiras abre 2 a 0, cede empate ao Santa Fé e cai na Libertadores Feminina",
-     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/24-10-2026/palmeiras-independiente-santa-fe.ghtml",
-     "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Cruzeiro vence Atlético-MG e está na final do Brasileirão sub-17",
-     "u": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-sub-17/jogo/24-10-2026/cruzeiro-atletico-mg.ghtml",
+     "t": "Inter vence o Botafogo no Beira-Rio e deixa a zona de rebaixamento",
+     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/24-10-2026/internacional-botafogo.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Internacional vence Botafogo e ganha fôlego contra o Z4 do Brasileirão",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/internacional-vence-botafogo-e-ganha-folego-contra-o-z4-do-brasileirao/",
+     "t": "Corinthians x Independiente Dragonas - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/24-10-2026/corinthians-independiente-dragonas.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Neymar recebe terceiro amarelo e desfalca Santos contra o Palmeiras",
+     "u": "https://www.gazetaesportiva.com/times/santos/neymar-recebe-terceiro-amarelo-e-desfalca-santos-contra-o-palmeiras/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
+     "t": "How to watch Warriors vs Suns: Live stream, NBA, TV channel",
+     "u": "https://sports.yahoo.com/articles/watch-warriors-vs-suns-live-010000353.html",
+     "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
+     "t": "Barcelona vs. Real Madrid: Who has the edge in El Clasico in goal, defense, midfield and attack?",
+     "u": "https://www.cbssports.com/soccer/news/barcelona-vs-real-madrid-who-has-the-edge-in-el-clasico/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
      "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Texas-Ole Miss, college football picks",
      "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-texas-ole-miss-college-football-picks/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Chelsea sweat over Joao Pedro injury after missing Tottenham defeat",
-     "u": "https://sports.yahoo.com/articles/joao-pedro-chelsea-team-face-152648630.html",
+     "t": "Iowa football takeaways from Hawkeyes' Minnesota stumble",
+     "u": "https://sports.yahoo.com/articles/iowa-football-takeaways-hawkeyes-minnesota-011035020.html",
      "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Mercedes driver Kimi Antonelli earns surprise pole for the US Grand Prix as he chases the F1 title",
-     "u": "https://sports.yahoo.com/articles/mercedes-driver-kimi-antonelli-earns-222213471.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "NFL levies two fines to 49ers LB Fred Warner for hit on Commanders TE Chig Okonkwo",
-     "u": "https://www.cbssports.com/nfl/news/nfl-levies-two-fines-to-49ers-lb-fred-warner/",
-     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,28 +79,28 @@
    },
    "noticias": [
     {
-     "t": "FC Porto: Gabriel Mec deixa água na boca com o Brasil atento",
-     "u": "https://www.abola.pt/noticias/fc-porto-gabriel-mec-deixa-agua-na-boca-com-o-brasil-atento-2026102218463326602",
+     "t": "Académico quer travar Sporting em Alvalade: «O futebol é rico em surpresas»",
+     "u": "https://www.abola.pt/noticias/academico-quer-travar-sporting-em-alvalade-o-futebol-e-rico-em-surpresas-2026102315110831566",
      "f": "A Bola",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Ajudou a despedir Vítor Bruno e recorda jogo com o FC Porto: «Fizemos a vida difícil aos grandes»",
-     "u": "https://www.abola.pt/noticias/ajudou-a-despedir-vitor-bruno-e-recorda-jogo-com-o-fc-porto-fizemos-a-vida-dificil-aos-grandes-2026102213455131025",
+     "t": "Palmeiras vence na receção ao Bragantino e assume liderança provisória",
+     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/20261024-220830-palmeiras-bragantino-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Benfica saiu da dieta e empanturrou-se em Queluz",
+     "u": "https://www.abola.pt/noticias/benfica-saiu-da-dieta-e-empanturrou-se-em-queluz-2026102421550239246",
      "f": "A Bola",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Elimbi foi bem expulso? Os casos do Gil Vicente-FC Porto",
-     "u": "https://www.record.pt/futebol/arbitragem/detalhe/elimbi-foi-bem-expulso-os-casos-do-gil-vicente-fc-porto",
+     "t": "As notas dos jogadores do FC Porto diante do Gil Vicente: Borja para a frente que se faz tarde",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/as-notas-dos-jogadores-do-fc-porto-diante-do-gil-vicente-borja-para-a-frente-que-se-faz-tarde",
      "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "O lance que motivou a expulsão de Elimbi diante do FC Porto",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/o-lance-que-motivou-a-expulsao-de-elimbi-diante-do-fc-porto",
-     "f": "Record",
-     "alta": true
+     "alta": false
     }
    ]
   },
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "Así queda la clasificación de la Liga Endesa tras la victoria del Barça ante el Casademont Zaragoza",
-     "u": "https://www.mundodeportivo.com/baloncesto/acb/20261024/1004242745/asi-queda-clasificacion-liga-endesa-victoria-barca-casademont-zaragoza.html",
+     "t": "Rijkaard, Koeman y Jordi Cruyff, invitados de lujo en el palco del Spotify Camp Nou",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261024/1004242787/rijkaard-koeman-jordi-cruyff-invitados-lujo-palco-spotify-camp-nou.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,14 +147,14 @@
    },
    "noticias": [
     {
-     "t": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
-     "u": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
+     "t": "‘Like a fairy tale’: USA’s Paula Moltzan becomes oldest first-time World Cup winner by 0.01sec",
+     "u": "https://www.theguardian.com/sport/2026/oct/24/paula-moltzan-first-world-cup-win-solden-giant-slalom",
      "f": "The Guardian",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
-     "u": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
+     "t": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
+     "u": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
      "f": "The Guardian",
      "alta": false
     },
@@ -187,20 +187,20 @@
      "alta": false
     },
     {
-     "t": "Espectacular remontada de Roma con tres tantos argentinos ante Napoli: el golazo de Soulé y el doblete de Balerdi de cabeza",
-     "u": "https://www.infobae.com/deportes/2026/10/24/espectacular-remontada-de-roma-con-tres-tantos-argentinos-ante-napoli-el-golazo-de-soule-y-el-doblete-de-balerdi-de-cabeza/",
+     "t": "Julián Álvarez le pidió perdón a los fanáticos del Atlético de Madrid por sus declaraciones durante el Mundial: “Fue una equivocación”",
+     "u": "https://www.infobae.com/deportes/2026/10/24/julian-alvarez-le-pidio-perdon-a-los-fanaticos-del-atletico-de-madrid-por-sus-declaraciones-durante-el-mundial-fue-una-equivocacion/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Así quedó la parrilla de salida del GP de Estados Unidos de Fórmula 1",
-     "u": "https://www.ole.com.ar/autos/quedo-parrilla-f1-estados-unidos_0_6bUimg7wWk.html",
+     "t": "La presidenta de Palmeiras liquidó a Flamengo por el reclamo contra Estudiantes: \"Ridículo\"",
+     "u": "https://www.ole.com.ar/futbol-internacional/final-libertadores-palmeiras-estudiantes-flamengo-leila-pereira-presidenta_0_STj4uP3cMy.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Independiente se juega una parada brava ante Boca: la racha que debe cortar de local y el plan de Viera",
-     "u": "https://www.ole.com.ar/independiente/independiente-jadsonviera-maximilianomeza-boca-avellaneda_0_rcQxoVHqzL.html",
+     "t": "Flamengo publicó un comunicado explicando el caso Rojo y para \"garantizar que las normas valgan por igual para todos\"",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flamengo-estudiantes-marcos-rojo-comunicado-conmebol-copa-libertadores-escritorio-comunicado-descargo_0_A4G6j0MZeO.html",
      "f": "Olé",
      "alta": false
     }
@@ -253,24 +253,24 @@
  ],
  "destaques": [
   {
-   "t": "Palmeiras leva empate do Santa Fe e cai nos pênaltis na Libertadores Feminina",
-   "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-leva-empate-do-santa-fe-e-cai-nos-penaltis-na-libertadores-feminina/",
+   "t": "Abel evita polêmica do Flamengo na Libertadores, mas alfineta: “O Palmeiras está na final, sem asterisco”",
+   "u": "https://www.gazetaesportiva.com/times/palmeiras/abel-palmeiras-polemica-flamengo-libertadores-sem-asterisco/",
    "f": "Gazeta Esportiva",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Texas-Ole Miss, college football picks",
-   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-texas-ole-miss-college-football-picks/",
-   "f": "CBS Sports",
-   "alta": false,
+   "t": "How to watch Warriors vs Suns: Live stream, NBA, TV channel",
+   "u": "https://sports.yahoo.com/articles/watch-warriors-vs-suns-live-010000353.html",
+   "f": "Yahoo Sports",
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "FC Porto: Gabriel Mec deixa água na boca com o Brasil atento",
-   "u": "https://www.abola.pt/noticias/fc-porto-gabriel-mec-deixa-agua-na-boca-com-o-brasil-atento-2026102218463326602",
+   "t": "Académico quer travar Sporting em Alvalade: «O futebol é rico em surpresas»",
+   "u": "https://www.abola.pt/noticias/academico-quer-travar-sporting-em-alvalade-o-futebol-e-rico-em-surpresas-2026102315110831566",
    "f": "A Bola",
-   "alta": true,
+   "alta": false,
    "pais": "PT"
   },
   {
@@ -281,10 +281,10 @@
    "pais": "ES"
   },
   {
-   "t": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
-   "u": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
+   "t": "‘Like a fairy tale’: USA’s Paula Moltzan becomes oldest first-time World Cup winner by 0.01sec",
+   "u": "https://www.theguardian.com/sport/2026/oct/24/paula-moltzan-first-world-cup-win-solden-giant-slalom",
    "f": "The Guardian",
-   "alta": false,
+   "alta": true,
    "pais": "GB"
   },
   {
