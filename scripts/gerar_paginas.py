@@ -1685,8 +1685,14 @@ def ld_evento(lang, ev, pagina):
                      "seller": {"@type": "Organization", "name": "SportsEvents365", "url": "https://sportsevents365.com/"}}}
     pr = preco_atual(ev, lang)
     if pr:  # preço real do parceiro, o mesmo que aparece visível na página
-        ld["offers"]["price"] = f"{pr['min']:.2f}"
+        # A página diz "a partir de", ou seja um mínimo entre vários lotes — então o tipo
+        # certo é AggregateOffer com lowPrice. Offer.price afirmaria um preço único, que
+        # não é verdade e não bate com o texto visível.
+        ld["offers"]["@type"] = "AggregateOffer"
+        ld["offers"]["lowPrice"] = f"{pr['min']:.2f}"
         ld["offers"]["priceCurrency"] = pr["moeda"]
+        if pr.get("lotes"):
+            ld["offers"]["offerCount"] = pr["lotes"]
     if ev.get("artista"):
         ld["performer"] = {"@type": "MusicGroup", "name": ev["artista"]["nome"]}
     elif ev.get("times"):
