@@ -1,10 +1,6 @@
 {
   "routes": [
     {
-      "route": "/docs/*",
-      "statusCode": 404
-    },
-    {
       "route": "/go/*",
       "headers": {
         "X-Robots-Tag": "noindex, nofollow",

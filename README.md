@@ -166,7 +166,3 @@ MIT. Third-party trademarks and linked supplier content keep their respective ri
   `PINTEREST_APP_SECRET`, `PINTEREST_REFRESH_TOKEN` e, de preferência, `GH_PAT` (grava o refresh token renovado).
 - Enquanto o app estiver em "Trial access", o Pinterest cria os pins só como rascunho de teste, visíveis só para você.
   Pins públicos exigem "Standard access" (pedido no painel de apps, com um vídeo do fluxo de login).
-
-## Marketing plan
-
-`docs/plano-marketing.md` (Portuguese): free strategies copied from the reference sites and the market order (US, then Brazil and Europe, then the rest of the world). `/docs/*` returns 404 on mytickets.tours via `staticwebapp.config.json`.
