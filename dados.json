@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-25T22:39:03+00:00",
+ "atualizado": "2026-10-26T01:18:39+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -17,6 +17,12 @@
      "alta": false
     },
     {
+     "t": "Flamengo x Atlético-MG pelo Brasileirão: onde assistir, estatísticas, histórico e prováveis escalações",
+     "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-x-atletico-mg-pelo-brasileirao-onde-assistir-estatisticas-historico-e-provaveis-escalacoes/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
      "t": "Escalação do Atlético-MG: Scarpa volta, mas atacante titular é desfalque contra Flamengo",
      "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/25/escalacao-do-atletico-mg-scarpa-volta-mas-atacante-titular-e-desfalque-contra-flamengo.ghtml",
      "f": "ge",
@@ -25,12 +31,6 @@
     {
      "t": "Mbappé marca duas vezes, Real Madrid vence o Barcelona e acaba com 100% do rival no Espanhol",
      "u": "https://www.gazetaesportiva.com/times/real-madrid/mbappe-marca-duas-vezes-real-madrid-vence-o-barcelona-e-acaba-com-100-do-rival-no-espanhol/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Veja fotos do clássico entre Barcelona e Real Madrid pelo Campeonato Espanhol",
-     "u": "https://www.gazetaesportiva.com/fotos/veja-fotos-do-classico-entre-barcelona-e-real-madrid-pelo-campeonato-espanhol/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Inter rally late to down Fiorentina and regain Serie A lead",
-     "u": "https://sports.yahoo.com/articles/inter-rally-down-fiorentina-regain-222657802.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Kylian Mbappé brace sees Real Madrid win at rivals Barcelona",
-     "u": "https://sports.yahoo.com/articles/kylian-mbapp-brace-sees-real-223336719.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Chiefs-Seahawks, Sunday Night Football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-chiefs-seahawks-sunday-night-football/",
+     "t": "Real Madrid finally show their potential under Jose Mourinho in convincing El Clasico win over Barcelona",
+     "u": "https://www.cbssports.com/soccer/news/real-madrid-show-their-potential-jose-mourinho-el-clasico/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NFL DFS, Chiefs vs. Seahawks: Top daily Fantasy picks, lineup advice for 'Sunday Night Football'",
-     "u": "https://www.cbssports.com/betting/news/nfl-dfs-chiefs-seahawks-daily-fantasy-picks-lineup-advice-sunday-night-football/",
+     "t": "Chiefs vs. Seahawks picks, prediction, player props: Expert's best bets for Sunday Night Football NFL Week 7",
+     "u": "https://www.cbssports.com/betting/news/chiefs-vs-seahawks-picks-prediction-player-props-experts-best-bets-for-sunday-night-football-nfl-week-7/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Sei Less Is Knocking 11 Percent Off Your Bill If You Wear Knicks Gear",
+     "u": "https://sports.yahoo.com/articles/sei-less-knocking-11-percent-010114742.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Ohio State women's soccer wins Big Ten title | Buckeyes WIre",
+     "u": "https://sports.yahoo.com/articles/ohio-state-womens-soccer-wins-005955004.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,14 +79,8 @@
    },
    "noticias": [
     {
-     "t": "Milan de Ruben Amorim vence Udinese e iguala Roma no 3.º lugar da Serie A",
-     "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261025-115919-udinese-milan-em-direto",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Real Madrid de José Mourinho silencia Camp Nou com bis de Mbappé",
-     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/20261025-111201-barcelona-real-madrid-em-direto",
+     "t": "A crónica do Barcelona-Real Madrid; 1-2: El Clásico torna-se o show de Mbappé",
+     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/a-cronica-do-barcelona-real-madrid-1-2-el-clasico-tornou-se-no-show-de-mbappe",
      "f": "Record",
      "alta": false
     },
@@ -97,8 +91,14 @@
      "alta": false
     },
     {
-     "t": "Apesar do boicote dos adeptos, Lazio assina melhor arranque de sempre na Serie A",
-     "u": "https://www.abola.pt/noticias/apesar-do-boicote-dos-adeptos-lazio-assina-melhor-arranque-de-sempre-na-serie-a-2026102520511892365",
+     "t": "João Cancelo e a derrota no 'El Clásico': «Fomos superiores mas o Real Madrid é isto»",
+     "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/joao-cancelo-e-a-derrota-no-el-clasico-fomos-superiores-mas-o-real-madrid-e-isto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Naomi Osaka admite deixar o ténis caso a filha lho peça, ex-namorado faz rap sobre a separação",
+     "u": "https://www.abola.pt/noticias/naomi-osaka-admite-deixar-o-tenis-caso-a-filha-lho-peca-ex-namorado-faz-rap-sobre-a-separacao-2026102514333168775",
      "f": "A Bola",
      "alta": false
     }
@@ -113,14 +113,14 @@
    },
    "noticias": [
     {
-     "t": "El 1x1 del Barça ante el Real Madrid",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243141/1x1-barca-real-madrid.html",
+     "t": "El Madrid toma el Spotify Camp Nou y aprieta LaLiga",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243128/cronica-classic.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "El 1x1 del Real Madrid ante el Barça",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261025/1004243144/1x1-real-madrid-barca.html",
+     "t": "El 1x1 del Barça ante el Real Madrid",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243141/1x1-barca-real-madrid.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "Sign up to the Sport in Focus newsletter: the sporting week in photos",
-     "u": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
-     "f": "The Guardian",
-     "alta": true
-    },
-    {
      "t": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
      "u": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Smith beats Schindler in Dortmund thriller after Littler's QF exit",
-     "u": "https://www.skysports.com/darts/news/12040/13603670/european-championship-darts-ross-smith-beats-martin-schindler-to-dortmund-title-after-luke-littlers-quarter-final-exit",
-     "f": "Sky Sports",
+     "t": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "United States Grand Prix | Race highlights",
-     "u": "https://www.skysports.com/watch/video/13603821/united-states-grand-prix-race-highlights",
+     "t": "Terland strikes late as United end Manchester City’s winning start in WSL",
+     "u": "https://www.theguardian.com/football/2026/oct/25/manchester-united-manchester-city-wsl-match-report",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Smith beats Schindler in Dortmund thriller after Littler's QF exit",
+     "u": "https://www.skysports.com/darts/news/12040/13603670/european-championship-darts-ross-smith-beats-martin-schindler-to-dortmund-title-after-luke-littlers-quarter-final-exit",
      "f": "Sky Sports",
      "alta": false
     }
@@ -181,15 +181,9 @@
    },
    "noticias": [
     {
-     "t": "Max Verstappen reveló los dolores que sufre por el circuito del GP de EEUU de Fórmula 1 y lanzó una advertencia: “No podría caminar”",
-     "u": "https://www.infobae.com/deportes/2026/10/25/max-verstappen-revelo-los-dolores-que-sufre-por-el-circuito-del-gp-de-eeuu-de-formula-1-y-lanzo-una-advertencia-no-podria-caminar/",
+     "t": "River Plate venció 1 a 0 a Racing y llega en alza al Superclásico ante Boca Juniors",
+     "u": "https://www.infobae.com/deportes/2026/10/25/river-plate-recibira-a-racing-en-el-monumental-en-uno-de-los-clasicos-de-la-fecha-14-del-torneo-clausura-hora-tv-y-formaciones/",
      "f": "Infobae",
-     "alta": true
-    },
-    {
-     "t": "Video: Mbappé la metió sin patear al arco y el Real Madrid se puso en ventaja contra el Barcelona",
-     "u": "https://www.ole.com.ar/futbol-internacional/espana/realmadrid-barcelona-joangarcia_0_ndv12NtXSj.html",
-     "f": "Olé",
      "alta": false
     },
     {
@@ -199,8 +193,14 @@
      "alta": false
     },
     {
-     "t": "¿Cuándo vuelve a correr Franco Colapinto en la Fórmula 1? Días y horarios del GP de México",
-     "u": "https://www.ole.com.ar/autos/vuelve-correr-franco-colapinto-formula-dias-horarios-gp-mexico_0_UjARmAfn0t.html",
+     "t": "Se viene Boca vs. River: día, horario y TV del superclásico del Torneo Clausura",
+     "u": "https://www.ole.com.ar/futbol-primera/boca-vs-river-superclasico-dia-horario-ver-torneo-clausura-2026-proximo-partido_0_vxte3ueGvb.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "River le apuntó a Boca ante Racing: el pedido de los hinchas pensando en el superclásico",
+     "u": "https://www.ole.com.ar/river-plate/mensajes-hinchas-river-superclasico-boca-canticos_0_gR9hQoCmnw.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Grâce à un doublé de Kylian Mbappé, le Real Madrid s'impose à Barcelone et relance la Liga",
-     "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-double-de-kylian-mbappe-le-real-madrid-s-impose-a-barcelone-et-relance-la-liga/1738694#at_medium=RSS_feeds",
+     "t": "Après leur podium au Grand Prix des États-Unis, Charles Leclerc et Max Verstappen rêvent encore de la deuxième place du Championnat",
+     "u": "https://www.lequipe.fr/Formule-1/Actualites/Apres-leur-podium-au-grand-prix-des-etats-unis-charles-leclerc-et-max-verstappen-revent-encore-de-la-deuxieme-place-du-championnat/1738712#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Toujours invaincu en Championnat, l'AC Milan assure contre l'Udinese",
-     "u": "https://www.lequipe.fr/Football/Actualites/Toujours-invaincu-en-championnat-l-ac-milan-assure-contre-l-udinese/1738689#at_medium=RSS_feeds",
+     "t": "Grâce à un doublé de Kylian Mbappé, le Real Madrid s'impose à Barcelone et relance la Liga",
+     "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-double-de-kylian-mbappe-le-real-madrid-s-impose-a-barcelone-et-relance-la-liga/1738694#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -260,38 +260,38 @@
    "pais": "BR"
   },
   {
-   "t": "Inter rally late to down Fiorentina and regain Serie A lead",
-   "u": "https://sports.yahoo.com/articles/inter-rally-down-fiorentina-regain-222657802.html",
-   "f": "Yahoo Sports",
+   "t": "Real Madrid finally show their potential under Jose Mourinho in convincing El Clasico win over Barcelona",
+   "u": "https://www.cbssports.com/soccer/news/real-madrid-show-their-potential-jose-mourinho-el-clasico/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Milan de Ruben Amorim vence Udinese e iguala Roma no 3.º lugar da Serie A",
-   "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261025-115919-udinese-milan-em-direto",
+   "t": "A crónica do Barcelona-Real Madrid; 1-2: El Clásico torna-se o show de Mbappé",
+   "u": "https://www.record.pt/internacional/paises/espanha/detalhe/a-cronica-do-barcelona-real-madrid-1-2-el-clasico-tornou-se-no-show-de-mbappe",
    "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "El 1x1 del Barça ante el Real Madrid",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243141/1x1-barca-real-madrid.html",
+   "t": "El Madrid toma el Spotify Camp Nou y aprieta LaLiga",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243128/cronica-classic.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Sign up to the Sport in Focus newsletter: the sporting week in photos",
-   "u": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
+   "t": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
+   "u": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
    "f": "The Guardian",
-   "alta": true,
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Max Verstappen reveló los dolores que sufre por el circuito del GP de EEUU de Fórmula 1 y lanzó una advertencia: “No podría caminar”",
-   "u": "https://www.infobae.com/deportes/2026/10/25/max-verstappen-revelo-los-dolores-que-sufre-por-el-circuito-del-gp-de-eeuu-de-formula-1-y-lanzo-una-advertencia-no-podria-caminar/",
+   "t": "River Plate venció 1 a 0 a Racing y llega en alza al Superclásico ante Boca Juniors",
+   "u": "https://www.infobae.com/deportes/2026/10/25/river-plate-recibira-a-racing-en-el-monumental-en-uno-de-los-clasicos-de-la-fecha-14-del-torneo-clausura-hora-tv-y-formaciones/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Grâce à un doublé de Kylian Mbappé, le Real Madrid s'impose à Barcelone et relance la Liga",
-   "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-double-de-kylian-mbappe-le-real-madrid-s-impose-a-barcelone-et-relance-la-liga/1738694#at_medium=RSS_feeds",
+   "t": "Après leur podium au Grand Prix des États-Unis, Charles Leclerc et Max Verstappen rêvent encore de la deuxième place du Championnat",
+   "u": "https://www.lequipe.fr/Formule-1/Actualites/Apres-leur-podium-au-grand-prix-des-etats-unis-charles-leclerc-et-max-verstappen-revent-encore-de-la-deuxieme-place-du-championnat/1738712#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
