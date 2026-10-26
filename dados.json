@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-26T07:54:49+00:00",
+ "atualizado": "2026-10-26T15:17:17+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,20 +11,20 @@
    },
    "noticias": [
     {
+     "t": "Autor de gol contra Boca, Adson fica fora de jogo do Vasco contra Corinthians; entenda o motivo",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/26/autor-de-gol-contra-boca-adson-fica-fora-de-jogo-do-vasco-contra-corinthians-entenda-o-motivo.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
      "t": "Flamengo x Atlético-MG pelo Brasileirão: onde assistir, estatísticas, histórico e prováveis escalações",
      "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-x-atletico-mg-pelo-brasileirao-onde-assistir-estatisticas-historico-e-provaveis-escalacoes/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Corinthians x Franca no NBB: veja onde assistir ao vivo e horário",
-     "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/26/corinthians-x-franca-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Flamengo x Atlético-MG: onde assistir ao vivo, horário e escalações",
-     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/noticia/2026/10/26/flamengo-x-atletico-mg-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+     "t": "Atlético-MG busca dar troco no Flamengo por jogo que marcou reviravolta de Hulk",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/26/atletico-mg-busca-dar-troco-no-flamengo-por-jogo-que-marcou-reviravolta-de-hulk.ghtml",
      "f": "ge",
      "alta": false
     },
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Real Madrid finally show their potential under Jose Mourinho in convincing El Clasico win over Barcelona",
-     "u": "https://www.cbssports.com/soccer/news/real-madrid-show-their-potential-jose-mourinho-el-clasico/",
+     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Cowboys-Eagles, Monday Night Football",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-cowboys-eagles-monday-night-football/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "(Video) Two Ronald Araujo moments at Anfield on Sunday show why he’s adored by Liverpool fans",
-     "u": "https://sports.yahoo.com/articles/video-two-ronald-araujo-moments-073900171.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Jose Mourinho talks Silva, Lunin, Camavinga, Cucurella after Barcelona 1-2 Real Madrid",
-     "u": "https://sports.yahoo.com/articles/jose-mourinho-talks-silva-lunin-073000884.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Chiefs vs. Seahawks picks, prediction, player props: Expert's best bets for Sunday Night Football NFL Week 7",
-     "u": "https://www.cbssports.com/betting/news/chiefs-vs-seahawks-picks-prediction-player-props-experts-best-bets-for-sunday-night-football-nfl-week-7/",
+     "t": "Eagles vs. Cowboys odds, picks, player props: Expert's best bets for NFL Week 7 Monday Night Football",
+     "u": "https://www.cbssports.com/betting/news/eagles-vs-cowboys-odds-picks-player-props-experts-best-bets-for-nfl-week-7-monday-night-football/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "3 NBA teams that should already be worried",
+     "u": "https://sports.yahoo.com/articles/3-nba-teams-already-worried-151014587.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Big Ten Football Power Rankings: Is anyone good?",
+     "u": "https://sports.yahoo.com/articles/big-ten-football-power-rankings-150644416.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Mourinho e o Clássico: «Prova do algodão? O Real Madrid comigo ganha títulos»",
-     "u": "https://www.abola.pt/noticias/mourinho-e-o-classico-prova-do-algodao-o-real-madrid-comigo-ganha-titulos-2026102408491361076",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "João Cancelo e a derrota no 'El Clásico': «Fomos superiores mas o Real Madrid é isto»",
-     "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/joao-cancelo-e-a-derrota-no-el-clasico-fomos-superiores-mas-o-real-madrid-e-isto",
+     "t": "Iturralde analisa casos do Sporting-Académico Viseu: penálti por assinalar sobre Maxi e golo bem anulado a Kahraman",
+     "u": "https://www.record.pt/futebol/arbitragem/detalhe/iturralde-analisa-casos-do-sporting-academico-viseu-penalti-por-assinalar-sobre-maxi-e-golo-bem-anulado-a-kahraman",
      "f": "Record",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Benfica estreia-se no campeonato com vitória clara",
-     "u": "https://www.abola.pt/noticias/benfica-estreia-se-no-campeonato-com-vitoria-clara-2026102418115455253",
+     "t": "FC Porto, Benfica e Sporting já conhecem os adversários na Taça de Portugal",
+     "u": "https://www.abola.pt/noticias/fc-porto-benfica-e-sporting-ja-conhecem-os-adversarios-na-taca-de-portugal-2026102611385702956",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Banjaqui dá sinais positivos: regresso à vista no Benfica",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/banjaqui-da-sinais-positivos-regresso-a-vista-no-benfica",
+     "t": "Taça de Portugal: passado sorri a FC Porto e Benfica, Sporting no desconhecido",
+     "u": "https://www.abola.pt/noticias/taca-de-portugal-passado-sorri-a-fc-porto-e-benfica-sporting-no-desconhecido-2026102614005536814",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "O resumo da estreia do Benfica na Messi Cup: águias derrotadas pelo Atlético Madrid",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/o-resumo-da-estreia-do-benfica-na-messi-cup-aguias-derrotadas-pelo-atletico-madrid",
      "f": "Record",
      "alta": false
     }
@@ -113,26 +113,20 @@
    },
    "noticias": [
     {
+     "t": "El Barça-Atlético de la segunda vuelta, en la primera semana de diciembre",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261026/1004243403/barca-atletico-segunda-vuelta-primera-semana-diciembre.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "1-2: El Madrid toma el Spotify Camp Nou y aprieta LaLiga",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243128/cronica-classic.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "El 1x1 del Barça ante el Real Madrid",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243141/1x1-barca-real-madrid.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
-     "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "María Herrera, la reina de las motos: \"Quiero llevar el Mundial Femenino a MotoGP\"",
-     "u": "https://www.marca.com/motor/mas-motor/2026/10/21/maria-herrera-reina-motos-quiero-llevar-mundial-femenino-motogp.html",
+     "t": "Estremecedora lesión de tobillo de Jalen Williams en el duelo español entre Aday Mara y Baba Miller en la NBA",
+     "u": "https://www.marca.com/baloncesto/nba/2026/10/26/estremecedora-lesion-tobillo-jalen-williams-duelo-espanol-aday-mara-baba-miller-nba-video.html",
      "f": "Marca",
      "alta": false
     }
@@ -153,21 +147,21 @@
      "alta": false
     },
     {
-     "t": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Terland strikes late as United end Manchester City’s winning start in WSL",
-     "u": "https://www.theguardian.com/football/2026/oct/25/manchester-united-manchester-city-wsl-match-report",
+     "t": "WSL talking points: Russo to Arsenal’s rescue and Olid makes Manchester United progress",
+     "u": "https://www.theguardian.com/football/2026/oct/26/wsl-talking-points-alessia-russo-arsenal-tottenham-manchester-united-city",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Smith beats Schindler in Dortmund thriller after Littler's QF exit",
-     "u": "https://www.skysports.com/darts/news/12040/13603670/european-championship-darts-ross-smith-beats-martin-schindler-to-dortmund-title-after-luke-littlers-quarter-final-exit",
+     "t": "Careers on the line for Australia in deciding South Africa Test?",
+     "u": "https://www.skysports.com/cricket/news/12040/13603987/south-africa-meet-australia-in-third-test-series-decider-at-cape-town-with-careers-on-the-line-for-tourists",
      "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "A late goal and a knee slide - how Mourinho returned to haunt Barca",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,26 +175,26 @@
    },
    "noticias": [
     {
+     "t": "La gastada del Real Madrid al Barcelona tras ganar el clásico y cortarle el invicto en La Liga",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/gastada-barcelona-real-madrid-clasico-burla-kylian-mbappe_0_FLc6RWnUrM.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "La respuesta de Franco Colapinto tras la burla del presentador británico que invitó Alpine al Gran Premio de EEUU de la F1: \"No tiene nada que ver\"",
+     "u": "https://www.infobae.com/deportes/2026/10/26/la-respuesta-de-franco-colapinto-tras-la-burla-del-presentador-britanico-que-invito-alpine-al-gran-premio-de-eeuu-de-la-f1-no-tiene-nada-que-ver/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
      "t": "River Plate venció 1 a 0 a Racing y llega en alza al Superclásico ante Boca Juniors",
      "u": "https://www.infobae.com/deportes/2026/10/25/river-plate-recibira-a-racing-en-el-monumental-en-uno-de-los-clasicos-de-la-fecha-14-del-torneo-clausura-hora-tv-y-formaciones/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Qué dijo Flavio Briatore sobre el abandono de Colapinto en el GP de los Estados Unidos de Fórmula 1",
-     "u": "https://www.infobae.com/deportes/2026/10/25/que-dijo-flavio-briatore-sobre-el-abandono-de-colapinto-en-el-gp-de-los-estados-unidos-de-formula-1/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Poné tus puntajes para los jugadores de Boca luego de la victoria ante Independiente",
-     "u": "https://www.ole.com.ar/boca-juniors/pone-puntajes-boca-victoria-independiente_0_peZBbRAQLT.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Lula fue reelegido presidente: ¿el fútbol brasileño arriesga su poderío económico?",
-     "u": "https://www.ole.com.ar/futbol-internacional/luizinacioluladasilva-flaviobolsonaro-brasil-apuestasdeportivas-balotaje_0_JQNETczwYf.html",
+     "t": "A Vélez le conviene que River le gane a Boca: qué dijo Guillermo Barros Schelotto",
+     "u": "https://www.ole.com.ar/velez/guillermo-barros-schelotto-boca-velez-river_0_bZtWIgb0KT.html",
      "f": "Olé",
      "alta": false
     }
@@ -215,14 +209,14 @@
    },
    "noticias": [
     {
-     "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
-     "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+     "t": "Fedez denuncia gli haters del figlio dopo Milan-Frosinone. Ma post vergognosi e minacce continuano",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Milan/07-12-2023/fedez-denuncia-haters-del-figlio-leone-minacce-di-morte-dopo-milan-frosinone.shtml",
      "f": "La Gazzetta dello Sport",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
+     "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+     "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
      "f": "La Gazzetta dello Sport",
      "alta": false
     }
@@ -237,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Défaite face au PSG en Ligue des champions, revers contre le Real Madrid lors du Clasico : la semaine noire du Barça",
-     "u": "https://www.lequipe.fr/Football/Actualites/Defaite-face-au-psg-en-ligue-des-champions-revers-contre-le-real-madrid-lors-du-clasico-la-semaine-noire-du-barca/1738716#at_medium=RSS_feeds",
+     "t": "« On est nuls, c'est un fait. Et on est les seuls à pouvoir y remédier » : À 0-3, les New York Knicks, champions en titre, cherchent toujours le décli",
+     "u": "https://www.lequipe.fr/Basket/Actualites/-on-est-nuls-c-est-un-fait-et-on-est-les-seuls-a-pouvoir-y-remedier-a-0-3-les-new-york-knicks-champions-en-titre-cherchent-toujours-le-declic/1738764#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Ce qu'il faut retenir de la nuit en NBA : les Knicks toujours sans victoire, les Sixers tombent pour la première fois",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Ce-qu-il-faut-retenir-de-la-nuit-en-nba-les-knicks-toujours-sans-victoire-les-sixers-tombent-pour-la-premiere-fois/1738739#at_medium=RSS_feeds",
+     "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
+     "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,29 +247,29 @@
  ],
  "destaques": [
   {
-   "t": "Flamengo x Atlético-MG pelo Brasileirão: onde assistir, estatísticas, histórico e prováveis escalações",
-   "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-x-atletico-mg-pelo-brasileirao-onde-assistir-estatisticas-historico-e-provaveis-escalacoes/",
-   "f": "Gazeta Esportiva",
+   "t": "Autor de gol contra Boca, Adson fica fora de jogo do Vasco contra Corinthians; entenda o motivo",
+   "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/26/autor-de-gol-contra-boca-adson-fica-fora-de-jogo-do-vasco-contra-corinthians-entenda-o-motivo.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Real Madrid finally show their potential under Jose Mourinho in convincing El Clasico win over Barcelona",
-   "u": "https://www.cbssports.com/soccer/news/real-madrid-show-their-potential-jose-mourinho-el-clasico/",
+   "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Cowboys-Eagles, Monday Night Football",
+   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-cowboys-eagles-monday-night-football/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Mourinho e o Clássico: «Prova do algodão? O Real Madrid comigo ganha títulos»",
-   "u": "https://www.abola.pt/noticias/mourinho-e-o-classico-prova-do-algodao-o-real-madrid-comigo-ganha-titulos-2026102408491361076",
-   "f": "A Bola",
-   "alta": false,
+   "t": "Iturralde analisa casos do Sporting-Académico Viseu: penálti por assinalar sobre Maxi e golo bem anulado a Kahraman",
+   "u": "https://www.record.pt/futebol/arbitragem/detalhe/iturralde-analisa-casos-do-sporting-academico-viseu-penalti-por-assinalar-sobre-maxi-e-golo-bem-anulado-a-kahraman",
+   "f": "Record",
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "1-2: El Madrid toma el Spotify Camp Nou y aprieta LaLiga",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243128/cronica-classic.html",
+   "t": "El Barça-Atlético de la segunda vuelta, en la primera semana de diciembre",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261026/1004243403/barca-atletico-segunda-vuelta-primera-semana-diciembre.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
@@ -288,22 +282,22 @@
    "pais": "GB"
   },
   {
-   "t": "River Plate venció 1 a 0 a Racing y llega en alza al Superclásico ante Boca Juniors",
-   "u": "https://www.infobae.com/deportes/2026/10/25/river-plate-recibira-a-racing-en-el-monumental-en-uno-de-los-clasicos-de-la-fecha-14-del-torneo-clausura-hora-tv-y-formaciones/",
-   "f": "Infobae",
+   "t": "La gastada del Real Madrid al Barcelona tras ganar el clásico y cortarle el invicto en La Liga",
+   "u": "https://www.ole.com.ar/futbol-internacional/espana/gastada-barcelona-real-madrid-clasico-burla-kylian-mbappe_0_FLc6RWnUrM.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
   {
-   "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
-   "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+   "t": "Fedez denuncia gli haters del figlio dopo Milan-Frosinone. Ma post vergognosi e minacce continuano",
+   "u": "https://www.gazzetta.it/Calcio/Serie-A/Milan/07-12-2023/fedez-denuncia-haters-del-figlio-leone-minacce-di-morte-dopo-milan-frosinone.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": false,
+   "alta": true,
    "pais": "IT"
   },
   {
-   "t": "Défaite face au PSG en Ligue des champions, revers contre le Real Madrid lors du Clasico : la semaine noire du Barça",
-   "u": "https://www.lequipe.fr/Football/Actualites/Defaite-face-au-psg-en-ligue-des-champions-revers-contre-le-real-madrid-lors-du-clasico-la-semaine-noire-du-barca/1738716#at_medium=RSS_feeds",
+   "t": "« On est nuls, c'est un fait. Et on est les seuls à pouvoir y remédier » : À 0-3, les New York Knicks, champions en titre, cherchent toujours le décli",
+   "u": "https://www.lequipe.fr/Basket/Actualites/-on-est-nuls-c-est-un-fait-et-on-est-les-seuls-a-pouvoir-y-remedier-a-0-3-les-new-york-knicks-champions-en-titre-cherchent-toujours-le-declic/1738764#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
