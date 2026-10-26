@@ -24,6 +24,16 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Getting there: Metro M5 to San Siro Stadio station, next to the stadium. Tram 16 also stops at the square in front of the stadium.
 - Guide pages: pt-BR https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/, en https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/, es https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/
 
+### Los Angeles Lakers vs Miami Heat
+
+- Date: Monday, November 2, 2026, 19:00 local time
+- Venue: Crypto.com Arena, 1111 S Figueroa St, Los Angeles, USA
+- Competition: NBA
+- Teams: Los Angeles Lakers vs Miami Heat
+- About: NBA at Crypto.com Arena, the Lakers' home in downtown Los Angeles, with the Miami Heat visiting.
+- Getting there: The arena is in downtown Los Angeles. Metro lines A and E stop at Pico station, a short walk away. Doors usually open one hour before tip-off.
+- Guide pages: pt-BR https://mytickets.tours/eventos/lakers-vs-heat-2026-11-02/, en https://mytickets.tours/en/events/lakers-vs-heat-2026-11-02/, es https://mytickets.tours/es/eventos/lakers-vs-heat-2026-11-02/
+
 ### Italy vs France
 
 - Date: Thursday, November 12, 2026, 20:45 local time
@@ -45,6 +55,26 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - About: Test rugby at the Stade de France: France host South Africa in the World Rugby Nations Championship.
 - Getting there: RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France. Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away.
 - Guide pages: pt-BR https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/, en https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/, es https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/
+
+### Dallas Cowboys vs San Francisco 49ers
+
+- Date: Sunday, November 15, 2026, 15:25 local time
+- Venue: AT&T Stadium, 1 AT&T Way, Dallas, USA
+- Competition: NFL
+- Teams: Dallas Cowboys vs San Francisco 49ers
+- About: NFL at AT&T Stadium, home of the Dallas Cowboys, against the San Francisco 49ers, one of the league's classic rivalries.
+- Getting there: The stadium is in Arlington, between Dallas and Fort Worth, with no rail link: get there by car, taxi or rideshare. Parking lots open hours before kickoff. Arrive early to beat the traffic on the way in.
+- Guide pages: pt-BR https://mytickets.tours/eventos/cowboys-vs-49ers-2026-11-15/, en https://mytickets.tours/en/events/cowboys-vs-49ers-2026-11-15/, es https://mytickets.tours/es/eventos/cowboys-vs-49ers-2026-11-15/
+
+### Dallas Cowboys vs Philadelphia Eagles
+
+- Date: Thursday, November 26, 2026, 15:30 local time
+- Venue: AT&T Stadium, 1 AT&T Way, Dallas, USA
+- Competition: NFL
+- Teams: Dallas Cowboys vs Philadelphia Eagles
+- About: The Dallas Cowboys' Thanksgiving Day game at AT&T Stadium, against division rival Philadelphia Eagles.
+- Getting there: The stadium is in Arlington, between Dallas and Fort Worth, with no rail link: get there by car, taxi or rideshare. Parking lots open hours before kickoff. Arrive early to beat the traffic on the way in.
+- Guide pages: pt-BR https://mytickets.tours/eventos/cowboys-vs-eagles-2026-11-26/, en https://mytickets.tours/en/events/cowboys-vs-eagles-2026-11-26/, es https://mytickets.tours/es/eventos/cowboys-vs-eagles-2026-11-26/
 
 ### Formula 1 Abu Dhabi Grand Prix
 
@@ -110,8 +140,13 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 
 ## Guides by sport, competition and city
 
+- NFL and American football tickets 2026: https://mytickets.tours/en/american-football/ (2 events)
+- NBA and basketball tickets: https://mytickets.tours/en/basketball/ (2 events)
 - Football tickets 2026/2027: https://mytickets.tours/en/football/ (4 events)
+- NBA tickets: https://mytickets.tours/en/competitions/nba/ (2 events)
+- NFL tickets 2026: https://mytickets.tours/en/competitions/nfl/ (2 events)
 - UEFA Champions League tickets 2026/2027: https://mytickets.tours/en/competitions/uefa-champions-league/ (2 events)
+- Tickets in Dallas: https://mytickets.tours/en/cities/dallas/ (2 events)
 - Tickets in Milan: https://mytickets.tours/en/cities/milan/ (2 events)
 - Tickets in Paris: https://mytickets.tours/en/cities/paris/ (2 events)
 
