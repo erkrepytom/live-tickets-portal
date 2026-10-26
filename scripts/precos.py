@@ -53,6 +53,33 @@ def ler(url):
         return r.read().decode("utf-8", "replace")
 
 
+HISTORICO = RAIZ / "data" / "precos-historico.json"
+
+
+def guardar_historico(precos):
+    """Uma foto por dia do menor preço de cada evento, em data/precos-historico.json.
+
+    Sozinha não serve para nada. Em oito semanas vira a resposta de "qual mês é mais
+    barato" e "quais eventos custam menos nesta competição" — perguntas que hoje não
+    dá para responder porque ninguém guardou o ontem. Custa um registro por dia e
+    começa a valer só depois; por isso tem de começar agora."""
+    hoje = dt.date.today().isoformat()
+    try:
+        hist = json.loads(HISTORICO.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        hist = {}
+    dia = hist.setdefault(hoje, {})
+    for evento_id, por_idioma in precos.items():
+        for lang, pr in por_idioma.items():
+            if pr.get("min") is not None:
+                dia.setdefault(evento_id, {})[lang] = {"min": pr["min"], "moeda": pr.get("moeda")}
+    # dois anos de fotos diárias cabem com folga; mais que isso não ajuda a decidir nada
+    for antigo in sorted(hist)[:-730]:
+        hist.pop(antigo, None)
+    HISTORICO.write_text(json.dumps(hist, indent=1, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"histórico: {len(hist)} dia(s) guardados, {len(dia)} evento(s) hoje")
+
+
 def main():
     eventos = json.loads((RAIZ / "data" / "eventos.json").read_text(encoding="utf-8"))["eventos"]
     hoje = dt.date.today().isoformat()
@@ -86,6 +113,7 @@ def main():
             ok += 1
             time.sleep(1.5)
     ARQ.write_text(json.dumps(precos, indent=1, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+    guardar_historico(precos)
     print(f"Pronto: {ok} preço(s) lido(s), {falhas} falha(s).")
     return 0
 
