@@ -20,6 +20,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2   # o IndexNow compara os sitemaps com o commit anterior
+      - name: Conferir o site antes de publicar
+        run: python3 scripts/conferir_site.py
       - name: Publicar em mytickets.tours (Azure Static Web Apps)
         uses: Azure/static-web-apps-deploy@v1
         with:

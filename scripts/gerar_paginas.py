@@ -508,6 +508,10 @@ def viagem_afiliado(pk):
 def secao_viagem(lang, ev, pagina):
     """'Planeje a viagem': três cartões (hotel, transporte, tours) com as datas e a cidade do evento já preenchidas.
     Sem código de afiliado o link é externo comum (útil para o leitor desde já); com código passa pelo /go/ e é sponsored."""
+    # Hotel na véspera e transporte no dia do jogo não servem para um jogo que já
+    # aconteceu: a seção inteira sai, junto com os links de parceiro de viagem.
+    if ev.get("encerrado"):
+        return ""
     vt = C.VIAGEM_TXT[lang]
     titulo = L(ev["titulo"], lang)
     cidade = L(ev["cidade"], lang)
