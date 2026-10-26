@@ -166,3 +166,17 @@ MIT. Third-party trademarks and linked supplier content keep their respective ri
   `PINTEREST_APP_SECRET`, `PINTEREST_REFRESH_TOKEN` e, de preferência, `GH_PAT` (grava o refresh token renovado).
 - Enquanto o app estiver em "Trial access", o Pinterest cria os pins só como rascunho de teste, visíveis só para você.
   Pins públicos exigem "Standard access" (pedido no painel de apps, com um vídeo do fluxo de login).
+
+## Email sign-ups ("Notify me about games")
+
+`avise-me/`, `en/notify-me/` and `es/avisame/` hold a form (email, name, team, city, game) handled by `assets/avise.js`. It posts to `/api/inscrever`, an Azure Static Web Apps function in `api/` (Node 20, no dependencies):
+
+- Portuguese sign-ups go to **Brevo**; English and Spanish go to **MailerLite**.
+- Before saving, the function checks whether the email is already in the *other* tool. If it is, the contact is updated there, so nobody ends up on both lists.
+- If only one tool is configured, everything goes to it. With neither, the form says "opens soon".
+
+Setup, once:
+1. Run `BREVO_API_KEY=... MAILERLITE_API_KEY=... python scripts/email_configurar.py`. It creates the Brevo list and attributes and the MailerLite group and fields, and prints `BREVO_LIST_ID` and `MAILERLITE_GROUP_ID`.
+2. In the Azure portal, open the Static Web App → Settings → Environment variables, and add `BREVO_API_KEY`, `BREVO_LIST_ID`, `MAILERLITE_API_KEY` and `MAILERLITE_GROUP_ID`. Never put the keys in this repository: it is public.
+
+Every deploy step in `.github/workflows/` carries `api_location: "api"`. A deploy without it removes the API. Tests: `cd api && npm test`.
