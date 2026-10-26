@@ -277,17 +277,17 @@ HUB_ESPORTE = {
  "concert": {"pt": ("shows internacionais", "shows"), "en": ("international concerts", "concerts"), "es": ("conciertos internacionales", "conciertos")},
 }
 HT = {
- "pt": {"h_esporte": "Ingressos de {x}", "h_cidade": "Ingressos em {x}", "h_competicao": "Ingressos {x}",
+ "pt": {"resumo": "{n} eventos em {m} locais, de {d1} a {d2}", "resumo_preco": ", a partir de {p}", "faq_h": "Perguntas frequentes", "q_quantos": "Quantos eventos estão listados em {x}?", "q_proximo": "Qual é o próximo evento de {x}?", "q_onde": "Em quais locais acontecem?", "q_preco": "A partir de quanto custa?", "a_proximo": "{t}, em {d}, no {l}, em {c}.", "a_onde": "Em {m} local(is): {lista}.", "a_preco": "O menor preço entre os eventos listados é {p}, conferido em {d} no parceiro.", "h_esporte": "Ingressos de {x}", "h_cidade": "Ingressos em {x}", "h_competicao": "Ingressos {x}",
         "desc": "{n} eventos com guia completo, como {lista}. Datas, locais, como chegar e compra em parceiro com garantia de entrega.",
         "lead": "{n} eventos com página própria no MyTickets: data, local, como chegar e dicas de setor. A compra acontece na SportsEvents365, com setor e preço visíveis antes do pagamento.",
         "list_h": "Próximas datas", "partner": "Ver todo o catálogo no parceiro", "guides": "Guias no site", "kicker": "Guia de ingressos",
         "c_text": "Usamos cookies do Google Analytics e do Microsoft Clarity para medir visitas e cliques e melhorar o site, só com a sua permissão.", "c_yes": "Aceitar", "c_no": "Recusar", "c_more": "Privacidade"},
- "en": {"h_esporte": "{X} tickets", "h_cidade": "Tickets in {x}", "h_competicao": "{x} tickets",
+ "en": {"resumo": "{n} events at {m} venues, from {d1} to {d2}", "resumo_preco": ", starting at {p}", "faq_h": "Frequently asked questions", "q_quantos": "How many events are listed for {x}?", "q_proximo": "Which {x} event is next?", "q_onde": "Which venues do they take place at?", "q_preco": "How much do they start at?", "a_proximo": "{t}, on {d}, at {l}, in {c}.", "a_onde": "At {m} venue(s): {lista}.", "a_preco": "The lowest price among the listed events is {p}, checked on {d} at the partner.", "h_esporte": "{X} tickets", "h_cidade": "Tickets in {x}", "h_competicao": "{x} tickets",
         "desc": "{n} events with a full guide, including {lista}. Dates, venues, getting there and booking with a partner that guarantees delivery.",
         "lead": "{n} events with their own page on MyTickets: date, venue, getting there and seating tips. Booking happens at SportsEvents365, where you see the section and price before paying.",
         "list_h": "Upcoming dates", "partner": "See the full partner catalogue", "guides": "Guides on the site", "kicker": "Ticket guide",
         "c_text": "We use Google Analytics and Microsoft Clarity cookies to measure visits and clicks and improve the site, only with your permission.", "c_yes": "Accept", "c_no": "Decline", "c_more": "Privacy"},
- "es": {"h_esporte": "Entradas de {x}", "h_cidade": "Entradas en {x}", "h_competicao": "Entradas {x}",
+ "es": {"resumo": "{n} eventos en {m} recintos, del {d1} al {d2}", "resumo_preco": ", desde {p}", "faq_h": "Preguntas frecuentes", "q_quantos": "¿Cuántos eventos hay listados en {x}?", "q_proximo": "¿Cuál es el próximo evento de {x}?", "q_onde": "¿En qué recintos se celebran?", "q_preco": "¿Desde cuánto cuestan?", "a_proximo": "{t}, el {d}, en {l}, en {c}.", "a_onde": "En {m} recinto(s): {lista}.", "a_preco": "El precio más bajo entre los eventos listados es {p}, verificado el {d} en el socio.", "h_esporte": "Entradas de {x}", "h_cidade": "Entradas en {x}", "h_competicao": "Entradas {x}",
         "desc": "{n} eventos con guía completa, como {lista}. Fechas, recintos, cómo llegar y compra en un socio con garantía de entrega.",
         "lead": "{n} eventos con página propia en MyTickets: fecha, recinto, cómo llegar y consejos de sector. La compra se hace en SportsEvents365, con sector y precio visibles antes de pagar.",
         "list_h": "Próximas fechas", "partner": "Ver todo el catálogo del socio", "guides": "Guías en el sitio", "kicker": "Guía de entradas",
@@ -2035,6 +2035,57 @@ def evento(lang, ev, eventos, hubs):
     return h + corpo + rodape(lang, pagina, alternos)
 
 
+def resumo_hub(lang, evs):
+    """A frase que um assistente consegue extrair inteira: quantos, onde, quando, a partir de quanto.
+
+    Tudo derivado do eventos.json no build, então nunca descasa do que a página lista."""
+    h = HT[lang]
+    locais = {x["local"] for x in evs}
+    texto = h["resumo"].format(n=len(evs), m=len(locais),
+                               d1=data_curta(evs[0]["data"], lang), d2=data_curta(evs[-1]["data"], lang))
+    menor = menor_preco(lang, evs)
+    if menor:
+        texto += h["resumo_preco"].format(p=menor[0])
+    return texto + "."
+
+
+def menor_preco(lang, evs):
+    """(preço formatado, data da conferência) do evento mais barato com preço válido."""
+    achados = []
+    for x in evs:
+        pr = preco_atual(x, lang)
+        if pr:
+            achados.append((pr["min"], pr["moeda"], pr["conferido"][:10]))
+    if not achados:
+        return None
+    menor = min(achados)
+    return f"{menor[1]} {menor[0]:.0f}", menor[2]
+
+
+def faq_hub(lang, g, evs):
+    """Perguntas derivadas do próprio conteúdo da página, recalculadas a cada build.
+
+    Pergunta cuja resposta muda sozinha só pode existir se for gerada: escrita à mão,
+    ela vira dado estruturado mentindo na primeira semana."""
+    h = HT[lang]
+    nome = titulo_hub(lang, g)
+    locais = {}
+    for x in evs:
+        locais[x["local"]] = locais.get(x["local"], 0) + 1
+    lista = ", ".join(f"{k} ({v})" for k, v in sorted(locais.items(), key=lambda x: -x[1]))
+    prox = evs[0]
+    perguntas = [
+        (h["q_quantos"].format(x=nome), resumo_hub(lang, evs)),
+        (h["q_proximo"].format(x=nome), h["a_proximo"].format(
+            t=L(prox["titulo"], lang), d=data_longa(prox["data"], lang), l=prox["local"], c=L(prox["cidade"], lang))),
+        (h["q_onde"], h["a_onde"].format(m=len(locais), lista=lista)),
+    ]
+    menor = menor_preco(lang, evs)
+    if menor:
+        perguntas.append((h["q_preco"], h["a_preco"].format(p=menor[0], d=menor[1])))
+    return perguntas
+
+
 def hub(lang, g, eventos, hubs):
     """Página-guia de um esporte, cidade ou competição: ranqueia termos amplos como
     "ingressos La Liga" ou "ingressos em Barcelona" e distribui links internos para os eventos."""
@@ -2050,8 +2101,17 @@ def hub(lang, g, eventos, hubs):
              "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{BASE_URL}/{caminho_evento(lang, x['slug'])}",
                                   "name": L(x["titulo"], lang)} for i, x in enumerate(evs)]}
     trilha = [(t["home"], caminho_home(lang)), (titulo, pagina)]
+    perguntas = faq_hub(lang, g, evs)
+    ld_faq = {"@context": "https://schema.org", "@type": "FAQPage",
+              "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+                             for q, a in perguntas]}
     cab = cabeca(lang, pagina, f"{titulo} | MyTickets Tours", desc, alternos,
-                 ld_script(itens, ld_breadcrumb(trilha)) + '<script>dataLayer.push({page_type:"hub"});</script>')
+                 ld_script(itens, ld_breadcrumb(trilha), ld_faq) + '<script>dataLayer.push({page_type:"hub"});</script>')
+    faq_html = ('<section class="band" aria-labelledby="faq-h"><div class="wrap">'
+                f'<div class="sec-head"><div><h2 id="faq-h" data-scramble>{e(h["faq_h"])}</h2></div></div>'
+                + "".join(f'<details class="faq"><summary>{e(q)}</summary><p>{e(a)}</p></details>'
+                          for q, a in perguntas)
+                + '</div></section>')
     cards = "".join(cartao(lang, pagina, x) for x in evs)
     outros = [x for x in sorted(hubs.values(), key=lambda x: (x["tipo"], x["slug"][lang])) if x is not g]
     outros_html = ""
@@ -2072,7 +2132,7 @@ def hub(lang, g, eventos, hubs):
     <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(t['home'])}</a><span aria-hidden="true">›</span><span>{e(titulo)}</span></nav>
     <p class="kicker">{e(h['kicker'])}</p>
     <h1 id="hub-h">{e(titulo)}</h1>
-    <p class="hero-sub" style="max-width:60ch">{e(h['lead'].format(n=len(evs)))}</p>
+    <p class="hero-sub" style="max-width:60ch"><strong>{e(resumo_hub(lang, evs))}</strong> {e(h['lead'].format(n=len(evs)))}</p>
     <div class="ev-cta">{cta}</div>
     <p class="disclose">{e(t['aff_note'])}</p>
   </div>
@@ -2084,6 +2144,7 @@ def hub(lang, g, eventos, hubs):
     {outros_html}
   </div>
 </section>
+{faq_html}
 {alertas(lang, eventos, evs[0]['slug'])}
 </main>
 """
@@ -2318,9 +2379,13 @@ def gerar_catalogo(eventos):
     (RAIZ / "atendimento" / "catalogo.json").write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+ESCRITAS = set()  # todo caminho que este build gerou — o manifesto só lista o que entra no sitemap
+
+
 def escrever(caminho, conteudo, manifesto, hoje):
     """Grava a página e atualiza o lastmod só quando o conteúdo muda de verdade.
     O Google ignora lastmod que muda a cada build; com o hash, a data passa a ser confiável."""
+    ESCRITAS.add(caminho)
     (RAIZ / caminho).mkdir(parents=True, exist_ok=True)
     (RAIZ / caminho / "index.html").write_text(conteudo, encoding="utf-8")
     hsh = hashlib.sha256(conteudo.encode("utf-8")).hexdigest()[:16]
@@ -2454,6 +2519,39 @@ def llms_full_txt(eventos, hubs):
     (RAIZ / "llms-full.txt").write_text("\n".join(lin), encoding="utf-8")
 
 
+def gravar_escritas():
+    """data/paginas.json: tudo que o gerador produziu nesta rodada, e limpeza das órfãs.
+
+    Órfã é a página que um build antigo criou e este não cria mais — o evento passou,
+    o hub ficou abaixo do mínimo. Ela continua publicada afirmando o que era verdade
+    naquele dia. Foi assim que três hubs de cidade seguiram anunciando um jogo que já
+    tinha acontecido.
+
+    A remoção é deliberadamente tímida: só apaga caminho que ESTE gerador escreveu num
+    build anterior (está no paginas.json antigo) e não escreveu agora, e só se o build
+    de agora parecer íntegro. Build pela metade não apaga nada."""
+    destino = RAIZ / "data" / "paginas.json"
+    try:
+        antigas = set(json.loads(destino.read_text(encoding="utf-8")))
+    except (OSError, ValueError):
+        antigas = set()
+    sumidas = sorted(antigas - ESCRITAS)
+    if sumidas and len(ESCRITAS) >= 0.8 * len(antigas):
+        for caminho in sumidas:
+            arq = RAIZ / caminho / "index.html"
+            if arq.exists():
+                arq.unlink()
+            pasta = RAIZ / caminho
+            while pasta != RAIZ and pasta.is_dir() and not any(pasta.iterdir()):
+                pasta.rmdir()
+                pasta = pasta.parent
+            print(f"  órfã removida: {caminho}")
+    elif sumidas:
+        print(f"  {len(sumidas)} órfã(s) NÃO removidas: este build gerou {len(ESCRITAS)} páginas "
+              f"contra {len(antigas)} do anterior, queda grande demais para apagar com segurança")
+    destino.write_text(json.dumps(sorted(ESCRITAS), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
 def main():
     dados = json.loads((RAIZ / "data" / "eventos.json").read_text(encoding="utf-8"))
     hoje = dt.date.today().isoformat()
@@ -2578,6 +2676,7 @@ def main():
     vivos = {u for cs in grupos.values() for u in cs}
     manifesto = {k: v for k, v in sorted(manifesto.items()) if k in vivos}
     arq_manifesto.write_text(json.dumps(manifesto, indent=1) + "\n", encoding="utf-8")
+    gravar_escritas()
     n = sum(len(c) for c in grupos.values())
     print(f"{n} páginas geradas: {len(eventos)} eventos e {len(hubs)} guias, em {len(IDIOMAS)} idiomas.")
 

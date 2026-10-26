@@ -165,8 +165,27 @@ def conferir_robots():
                          f"esse robô passará a ignorar o grupo * inteiro")
 
 
+def conferir_orfas():
+    """Página que ficou no disco de um build antigo.
+
+    O gerador deixa de produzi-la (o evento saiu do ar, o hub ficou sem eventos),
+    mas o arquivo continua publicado afirmando o que era verdade naquele dia. Foi
+    assim que três hubs de cidade continuaram anunciando um jogo que já tinha
+    acontecido."""
+    try:
+        vivas = set(json.loads((RAIZ / "data" / "paginas.json").read_text(encoding="utf-8")))
+    except (OSError, ValueError):
+        avisos.append("data/paginas.json ausente: não dá para achar página órfã")
+        return
+    for pagina, _ in paginas():
+        caminho = pagina[:-len("index.html")]
+        if caminho not in vivas:
+            erro(pagina, "órfã: o gerador não produz mais esta página, mas ela continua no ar")
+
+
 def principal():
     conferir_robots()
+    conferir_orfas()
     total = 0
     for pagina, caminho in paginas():
         total += 1
