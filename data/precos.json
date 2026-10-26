@@ -1,21 +1,21 @@
 {
  "383977": {
   "en": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://www.sportsevents365.com/event/383977",
    "lotes": 10,
    "min": 36.0,
    "moeda": "USD"
   },
   "es": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://sportsevents365.es/event/383977",
    "lotes": 10,
    "min": 36.0,
    "moeda": "USD"
   },
   "pt": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://365tickets.com.br/event/383977",
    "lotes": 10,
    "min": 38.0,
@@ -24,21 +24,21 @@
  },
  "387682": {
   "en": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://www.sportsevents365.com/event/387682",
+   "lotes": 10,
+   "min": 52.0,
+   "moeda": "USD"
+  },
+  "es": {
+   "conferido": "2026-10-26T13:20:11+00:00",
+   "fonte": "https://sportsevents365.es/event/387682",
    "lotes": 10,
    "min": 53.0,
    "moeda": "USD"
   },
-  "es": {
-   "conferido": "2026-10-26T05:01:17+00:00",
-   "fonte": "https://sportsevents365.es/event/387682",
-   "lotes": 10,
-   "min": 54.0,
-   "moeda": "USD"
-  },
   "pt": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://365tickets.com.br/event/387682",
    "lotes": 10,
    "min": 56.0,
@@ -47,44 +47,44 @@
  },
  "387903": {
   "en": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://www.sportsevents365.com/event/387903",
    "lotes": 10,
-   "min": 386.0,
+   "min": 384.0,
    "moeda": "USD"
   },
   "es": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://sportsevents365.es/event/387903",
    "lotes": 10,
-   "min": 390.0,
+   "min": 388.0,
    "moeda": "USD"
   },
   "pt": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://365tickets.com.br/event/387903",
    "lotes": 10,
-   "min": 407.0,
+   "min": 405.0,
    "moeda": "USD"
   }
  },
  "390886": {
   "en": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://www.sportsevents365.com/event/390886",
    "lotes": 5,
    "min": 1286.0,
    "moeda": "USD"
   },
   "es": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://sportsevents365.es/event/390886",
    "lotes": 5,
    "min": 1300.0,
    "moeda": "USD"
   },
   "pt": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://365tickets.com.br/event/390886",
    "lotes": 5,
    "min": 1355.0,
@@ -93,90 +93,90 @@
  },
  "391312": {
   "en": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://www.sportsevents365.com/event/391312",
    "lotes": 10,
    "min": 352.0,
    "moeda": "USD"
   },
   "es": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://sportsevents365.es/event/391312",
    "lotes": 10,
    "min": 356.0,
    "moeda": "USD"
   },
   "pt": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://365tickets.com.br/event/391312",
    "lotes": 10,
-   "min": 372.0,
+   "min": 371.0,
    "moeda": "USD"
   }
  },
  "391609": {
   "en": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://www.sportsevents365.com/event/391609",
    "lotes": 10,
    "min": 252.0,
    "moeda": "USD"
   },
   "es": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://sportsevents365.es/event/391609",
    "lotes": 10,
-   "min": 256.0,
+   "min": 255.0,
    "moeda": "USD"
   },
   "pt": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://365tickets.com.br/event/391609",
    "lotes": 10,
-   "min": 266.0,
+   "min": 265.0,
    "moeda": "USD"
   }
  },
  "399236": {
   "en": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://www.sportsevents365.com/event/399236",
    "lotes": 10,
-   "min": 6663.0,
+   "min": 6654.0,
    "moeda": "USD"
   },
   "es": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://sportsevents365.es/event/399236",
    "lotes": 10,
-   "min": 6730.0,
+   "min": 6721.0,
    "moeda": "USD"
   },
   "pt": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://365tickets.com.br/event/399236",
    "lotes": 10,
-   "min": 7016.0,
+   "min": 7007.0,
    "moeda": "USD"
   }
  },
  "401302": {
   "en": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://www.sportsevents365.com/event/401302",
    "lotes": 10,
    "min": 215.0,
    "moeda": "USD"
   },
   "es": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://sportsevents365.es/event/401302",
    "lotes": 10,
    "min": 217.0,
    "moeda": "USD"
   },
   "pt": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://365tickets.com.br/event/401302",
    "lotes": 10,
    "min": 227.0,
@@ -185,24 +185,24 @@
  },
  "402363": {
   "en": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://www.sportsevents365.com/event/402363",
    "lotes": 10,
-   "min": 485.0,
+   "min": 484.0,
    "moeda": "USD"
   },
   "es": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://sportsevents365.es/event/402363",
    "lotes": 10,
-   "min": 491.0,
+   "min": 490.0,
    "moeda": "USD"
   },
   "pt": {
-   "conferido": "2026-10-26T05:01:17+00:00",
+   "conferido": "2026-10-26T13:20:11+00:00",
    "fonte": "https://365tickets.com.br/event/402363",
    "lotes": 10,
-   "min": 512.0,
+   "min": 511.0,
    "moeda": "USD"
   }
  }
