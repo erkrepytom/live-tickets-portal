@@ -1313,6 +1313,28 @@ def ld_script(*objs):
     return "".join(f'<script type="application/ld+json">{json.dumps(o, ensure_ascii=False)}</script>' for o in objs)
 
 
+def ld_org(lang):
+    """A entidade MyTickets Tours, repetida em toda página.
+
+    Antes ela só existia na home, e as páginas internas referenciavam #org sem
+    defini-lo. Um buscador que rastreia o site inteiro resolve essa referência;
+    um raspador de IA que fatia UMA página em blocos, não — ele via um ponteiro
+    para o vazio. Repetir a entidade em cada página custa 300 bytes e faz cada
+    página se sustentar sozinha como fonte citável."""
+    org = {"@context": "https://schema.org", "@type": "Organization", "@id": f"{BASE_URL}/#org",
+           "name": "MyTickets Tours", "url": f"{BASE_URL}/", "email": CONTATO_EMAIL,
+           "description": T[lang]["home_desc"],
+           "logo": {"@type": "ImageObject", "url": f"{BASE_URL}/assets/img/logo-512.png", "width": 512, "height": 512}}
+    org["sameAs"] = [u for u in (f"https://www.pinterest.com/{PINTEREST_PERFIL}/" if PINTEREST_PERFIL else "", YOUTUBE_CANAL) if u]
+    return org
+
+
+def ld_site(lang):
+    return {"@context": "https://schema.org", "@type": "WebSite", "@id": f"{BASE_URL}/#site",
+            "name": "MyTickets Tours", "url": f"{BASE_URL}/{caminho_home(lang)}",
+            "inLanguage": HREFLANG[lang], "publisher": {"@id": f"{BASE_URL}/#org"}}
+
+
 def ld_breadcrumb(itens):
     """itens: [(nome, caminho relativo à raiz do site)]."""
     return {"@context": "https://schema.org", "@type": "BreadcrumbList",
@@ -1338,6 +1360,7 @@ def regras_especulacao(pagina):
 
 
 def cabeca(lang, pagina, titulo, desc, alternos, extra="", imagem=None):
+    extra = ld_script(ld_org(lang), ld_site(lang)) + extra
     alt = "\n".join(f'<link rel="alternate" hreflang="{HREFLANG[l]}" href="{BASE_URL}/{p}">' for l, p in alternos.items())
     og_img = foto_abs(imagem or OG_PADRAO)
     return f"""<!DOCTYPE html>
@@ -1474,13 +1497,7 @@ def home(lang, eventos, noticias, hubs):
     pagina = caminho_home(lang)
     alternos = {l: caminho_home(l) for l in IDIOMAS}
     solar_css = (RAIZ / "assets" / "solar-banner.css").read_text(encoding="utf-8")
-    org = {"@context": "https://schema.org", "@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "MyTickets Tours",
-           "url": f"{BASE_URL}/", "email": CONTATO_EMAIL,
-           "logo": {"@type": "ImageObject", "url": f"{BASE_URL}/assets/img/logo-512.png", "width": 512, "height": 512}}
-    org["sameAs"] = [u for u in (f"https://www.pinterest.com/{PINTEREST_PERFIL}/" if PINTEREST_PERFIL else "", YOUTUBE_CANAL) if u]
-    site = {"@context": "https://schema.org", "@type": "WebSite", "@id": f"{BASE_URL}/#site", "name": "MyTickets Tours",
-            "url": f"{BASE_URL}/{pagina}", "inLanguage": HREFLANG[lang], "publisher": {"@id": f"{BASE_URL}/#org"}}
-    h = cabeca(lang, pagina, t["brand_title"], t["home_desc"], alternos, preload(FOTO_TOPO, 1800, pagina) + f"<style>\n{solar_css}</style>" + ld_script(org, site))
+    h = cabeca(lang, pagina, t["brand_title"], t["home_desc"], alternos, preload(FOTO_TOPO, 1800, pagina) + f"<style>\n{solar_css}</style>")
     clas = eventos[0]
     passes = [("GRU → BCN", eventos[0], 0.9, -6, "left:0;top:2%"), ("MEX → JFK", next(x for x in eventos if x["tipo"] == "nba"), 1.4, 5, "left:44%;top:40%"),
               ("EZE → MEL", next(x for x in eventos if x["tipo"] == "tennis"), 0.6, 3, "left:4%;top:60%"), ("LIS → MAD", eventos[-1], 1.1, -3, "left:50%;top:-4%")]
@@ -1791,7 +1808,10 @@ def evento(lang, ev, eventos, hubs):
                  "about": {"@type": "SportsEvent" if ev["tipo"] != "concert" else "MusicEvent", "name": L(ev["titulo"], "en"), "startDate": ev.get("inicio") or ev["data"]},
                  "reviewedBy": {"@type": "Person", "name": RESPONSAVEL}}
     if ev.get("conferido"):
+        # lastReviewed diz "alguém conferiu"; dateModified é o campo que buscadores e
+        # assistentes leem como atualidade. Mesma data, porque é a mesma verdade.
         ld_pagina["lastReviewed"] = ev["conferido"]
+        ld_pagina["dateModified"] = ev["conferido"]
     lds.append(ld_pagina)
     extra = ld_script(*lds) + view
     vx = C.VIDEOS_TXT[lang]
