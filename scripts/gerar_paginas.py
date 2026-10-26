@@ -2446,11 +2446,27 @@ def main():
         "Allow: /\n"
         "Disallow: /ir/\n"
         "Disallow: /go/\n"
+        # o site.js busca este arquivo no navegador; liberado para o Googlebot
+        # não registrar "recurso bloqueado pelo robots" no Search Console
+        "Allow: /data/aovivo.json\n"
         "Disallow: /data/\n"
         "Disallow: /radar/\n"
         "Disallow: /scripts/\n"
         "Disallow: /_internal/\n"
         f"Sitemap: {BASE_URL}/sitemap.xml\n",
+        encoding="utf-8")
+
+    # /.well-known/security.txt (RFC 9116): diz a um pesquisador honesto para onde
+    # mandar uma falha encontrada, em vez de divulgá-la em público. Sinal de site
+    # cuidado, não barreira — não bloqueia nem esconde nada de buscador nenhum.
+    validade = (dt.date.today() + dt.timedelta(days=365)).isoformat()
+    (RAIZ / ".well-known").mkdir(parents=True, exist_ok=True)
+    (RAIZ / ".well-known" / "security.txt").write_text(
+        f"Contact: mailto:{CONTATO_EMAIL}\n"
+        f"Contact: {BASE_URL}/atendimento/\n"
+        f"Expires: {validade}T00:00:00.000Z\n"
+        "Preferred-Languages: pt-BR, en, es\n"
+        f"Canonical: {BASE_URL}/.well-known/security.txt\n",
         encoding="utf-8")
     for ev in eventos:  # gateway /go/ de cada parceiro ativo; não entra no sitemap
         for lang in IDIOMAS:

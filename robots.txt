@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /ir/
 Disallow: /go/
+Allow: /data/aovivo.json
 Disallow: /data/
 Disallow: /radar/
 Disallow: /scripts/
