@@ -1,0 +1,27 @@
+name: Escuta EUA (onde estão falando de ingressos)
+# Todo dia varre Reddit (e YouTube, se houver YOUTUBE_API_KEY) atrás de conversas sobre os eventos dos EUA
+# e mostra a lista priorizada no resumo da execução. Não faz commit nem publica nada no site.
+on:
+  schedule:
+    - cron: "17 13 * * *"   # 9h17 em Nova York (horário de verão), antes do pico de conversas
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  escuta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Varrer conversas
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/escuta_eua.py
+      - name: Guardar o relatório
+        uses: actions/upload-artifact@v4
+        with:
+          name: escuta-eua
+          path: relatorios/escuta-eua.*
+          retention-days: 30
