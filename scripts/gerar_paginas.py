@@ -2438,7 +2438,20 @@ def main():
             alvo.unlink()
     entradas = "\n".join(f"  <sitemap><loc>{BASE_URL}/{n}</loc><lastmod>{d}</lastmod></sitemap>" for n, d in indice)
     (RAIZ / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{entradas}\n</sitemapindex>\n', encoding="utf-8")
-    (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /ir/\nDisallow: /go/\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
+    # /_internal/ e a armadilha: nenhum link aponta para la e o robots proibe, entao
+    # quem pedir aquele caminho ignorou o robots de proposito. O site responde 404 e
+    # nao entrega nada; o banimento so existe se um dia houver WAF na frente.
+    (RAIZ / "robots.txt").write_text(
+        "User-agent: *\n"
+        "Allow: /\n"
+        "Disallow: /ir/\n"
+        "Disallow: /go/\n"
+        "Disallow: /data/\n"
+        "Disallow: /radar/\n"
+        "Disallow: /scripts/\n"
+        "Disallow: /_internal/\n"
+        f"Sitemap: {BASE_URL}/sitemap.xml\n",
+        encoding="utf-8")
     for ev in eventos:  # gateway /go/ de cada parceiro ativo; não entra no sitemap
         for lang in IDIOMAS:
             for pk, _p, destino in opcoes_compra(lang, ev):

@@ -2,4 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /ir/
 Disallow: /go/
+Disallow: /data/
+Disallow: /radar/
+Disallow: /scripts/
+Disallow: /_internal/
 Sitemap: https://mytickets.tours/sitemap.xml
