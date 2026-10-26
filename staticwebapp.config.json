@@ -47,6 +47,13 @@
       "statusCode": 404
     },
     {
+      "route": "/catalogo.json",
+      "headers": {
+        "Cache-Control": "public, max-age=3600",
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    {
       "route": "/_internal/*",
       "statusCode": 404,
       "headers": {

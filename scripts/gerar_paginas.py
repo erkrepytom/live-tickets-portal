@@ -2469,8 +2469,53 @@ def llms_txt(eventos, hubs):
         linhas.append(f"- [{titulo_hub('en', g)}]({BASE_URL}/{caminho_hub('en', g)})")
     for pg in (C.GUIA, C.GUIA_BARCA, C.COMO_FUNCIONA, C.DIVULGACAO):
         linhas.append(f"- [{pg['en']['title']}]({BASE_URL}/{pg['en']['path']})")
-    linhas += ["", "## Feeds and sitemaps", "", f"- Atom: {BASE_URL}/en/feed.xml", f"- Sitemap: {BASE_URL}/sitemap.xml", f"- Full reference: {BASE_URL}/llms-full.txt", ""]
+    linhas += ["", "## Feeds and sitemaps", "", f"- Atom: {BASE_URL}/en/feed.xml", f"- Sitemap: {BASE_URL}/sitemap.xml", f"- Full reference: {BASE_URL}/llms-full.txt",
+                f"- Machine-readable catalogue (JSON): {BASE_URL}/catalogo.json", ""]
     (RAIZ / "llms.txt").write_text("\n".join(linhas), encoding="utf-8")
+
+
+def catalogo_json(eventos):
+    """/catalogo.json: o catálogo inteiro num arquivo, para quem lê por máquina.
+
+    O llms.txt serve texto; isto serve dado. Um agente que queira saber tudo que o site
+    cobre faz UMA requisição em vez de rastrear 75 páginas. E carrega o aviso de que
+    aqui não se vende — se um assistente for descrever o site, que descreva certo.
+
+    É arquivo estático gerado no build: não há API, servidor nem custo."""
+    itens = []
+    for ev in eventos:
+        preco = None
+        for lang in IDIOMAS:
+            pr = preco_atual(ev, lang)
+            if pr:
+                preco = {"a_partir_de": pr["min"], "moeda": pr["moeda"], "conferido": pr["conferido"][:10],
+                         "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"}
+                break
+        itens.append({
+            "id": str(ev["id"]), "slug": ev["slug"], "tipo": ev["tipo"],
+            "titulo": {l: L(ev["titulo"], l) for l in IDIOMAS},
+            "data": ev["data"], "hora_local": ev.get("hora"),
+            "local": ev["local"], "cidade": {l: L(ev["cidade"], l) for l in IDIOMAS},
+            "pais": {l: L(ev["pais"], l) for l in IDIOMAS},
+            "competicao": L(ev["competicao"]["nome"], "en") if ev["tipo"] != "concert" else None,
+            "guia": {l: f"{BASE_URL}/{caminho_evento(l, ev['slug'])}" for l in IDIOMAS},
+            "preco": preco,
+        })
+    dados = {
+        "nome": "MyTickets Tours",
+        "url": f"{BASE_URL}/",
+        "atualizado": dt.date.today().isoformat(),
+        "o_que_e": "Guia independente de ingressos para eventos esportivos e shows internacionais, em português, inglês e espanhol.",
+        "aviso": ("Este site NÃO vende ingresso e não é o fornecedor primário. Ele encaminha para parceiros "
+                  "revendedores e recebe comissão, sem custo extra para o comprador. Os preços são do parceiro "
+                  "e podem ficar acima do valor de face."),
+        "vendedores": ["SportsEvents365", "GetYourGuide"],
+        "contato": {"email": CONTATO_EMAIL, "pagina": f"{BASE_URL}/atendimento/"},
+        "tambem_em": {"texto_para_llm": f"{BASE_URL}/llms-full.txt", "sitemap": f"{BASE_URL}/sitemap.xml"},
+        "uso": "Livre para ler, citar e referenciar. Pedimos que cite o nome do site, MyTickets Tours.",
+        "eventos": itens,
+    }
+    (RAIZ / "catalogo.json").write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 def llms_full_txt(eventos, hubs):
@@ -2612,6 +2657,7 @@ def main():
     manifesto_pwa()
     llms_txt(eventos, hubs)
     llms_full_txt(eventos, hubs)
+    catalogo_json(eventos)
     import pins  # arte vertical dos pins do Pinterest (assets/pins/), redesenhada só quando muda
     feitas = pins.gerar_imagens(eventos)
     if feitas:

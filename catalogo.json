@@ -1,0 +1,337 @@
+{
+ "nome": "MyTickets Tours",
+ "url": "https://mytickets.tours/",
+ "atualizado": "2026-10-26",
+ "o_que_e": "Guia independente de ingressos para eventos esportivos e shows internacionais, em português, inglês e espanhol.",
+ "aviso": "Este site NÃO vende ingresso e não é o fornecedor primário. Ele encaminha para parceiros revendedores e recebe comissão, sem custo extra para o comprador. Os preços são do parceiro e podem ficar acima do valor de face.",
+ "vendedores": [
+  "SportsEvents365",
+  "GetYourGuide"
+ ],
+ "contato": {
+  "email": "email@mytickets.tours",
+  "pagina": "https://mytickets.tours/atendimento/"
+ },
+ "tambem_em": {
+  "texto_para_llm": "https://mytickets.tours/llms-full.txt",
+  "sitemap": "https://mytickets.tours/sitemap.xml"
+ },
+ "uso": "Livre para ler, citar e referenciar. Pedimos que cite o nome do site, MyTickets Tours.",
+ "eventos": [
+  {
+   "id": "391609",
+   "slug": "milan-vs-inter-2026-10-31",
+   "tipo": "football",
+   "titulo": {
+    "pt": "AC Milan x Inter",
+    "en": "AC Milan vs Inter",
+    "es": "AC Milan vs Inter"
+   },
+   "data": "2026-10-31",
+   "hora_local": "20:45",
+   "local": "San Siro (Giuseppe Meazza)",
+   "cidade": {
+    "pt": "Milão",
+    "en": "Milan",
+    "es": "Milán"
+   },
+   "pais": {
+    "pt": "Itália",
+    "en": "Italy",
+    "es": "Italia"
+   },
+   "competicao": "Serie A",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/",
+    "en": "https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/",
+    "es": "https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/"
+   },
+   "preco": {
+    "a_partir_de": 266.0,
+    "moeda": "USD",
+    "conferido": "2026-10-26",
+    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
+   }
+  },
+  {
+   "id": "387682",
+   "slug": "italia-vs-franca-2026-11-12",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Itália x França",
+    "en": "Italy vs France",
+    "es": "Italia vs Francia"
+   },
+   "data": "2026-11-12",
+   "hora_local": "20:45",
+   "local": "San Siro (Giuseppe Meazza)",
+   "cidade": {
+    "pt": "Milão",
+    "en": "Milan",
+    "es": "Milán"
+   },
+   "pais": {
+    "pt": "Itália",
+    "en": "Italy",
+    "es": "Italia"
+   },
+   "competicao": "UEFA Nations League",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/italia-vs-franca-2026-11-12/",
+    "en": "https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/",
+    "es": "https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/"
+   },
+   "preco": {
+    "a_partir_de": 56.0,
+    "moeda": "USD",
+    "conferido": "2026-10-26",
+    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
+   }
+  },
+  {
+   "id": "383977",
+   "slug": "franca-vs-africa-do-sul-2026-11-13",
+   "tipo": "rugby",
+   "titulo": {
+    "pt": "França x África do Sul",
+    "en": "France vs South Africa",
+    "es": "Francia vs Sudáfrica"
+   },
+   "data": "2026-11-13",
+   "hora_local": "21:10",
+   "local": "Stade de France",
+   "cidade": {
+    "pt": "Paris",
+    "en": "Paris",
+    "es": "París"
+   },
+   "pais": {
+    "pt": "França",
+    "en": "France",
+    "es": "Francia"
+   },
+   "competicao": "World Rugby Nations Championship",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/",
+    "en": "https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/",
+    "es": "https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/"
+   },
+   "preco": {
+    "a_partir_de": 38.0,
+    "moeda": "USD",
+    "conferido": "2026-10-26",
+    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
+   }
+  },
+  {
+   "id": "387903",
+   "slug": "gp-abu-dhabi-f1-2026-12-06",
+   "tipo": "f1",
+   "titulo": {
+    "pt": "GP de Abu Dhabi de Fórmula 1",
+    "en": "Formula 1 Abu Dhabi Grand Prix",
+    "es": "GP de Abu Dabi de Fórmula 1"
+   },
+   "data": "2026-12-06",
+   "hora_local": "14:00",
+   "local": "Yas Marina Circuit",
+   "cidade": {
+    "pt": "Abu Dhabi",
+    "en": "Abu Dhabi",
+    "es": "Abu Dabi"
+   },
+   "pais": {
+    "pt": "Emirados Árabes Unidos",
+    "en": "United Arab Emirates",
+    "es": "Emiratos Árabes Unidos"
+   },
+   "competicao": "Formula 1",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/gp-abu-dhabi-f1-2026-12-06/",
+    "en": "https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/",
+    "es": "https://mytickets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/"
+   },
+   "preco": {
+    "a_partir_de": 407.0,
+    "moeda": "USD",
+    "conferido": "2026-10-26",
+    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
+   }
+  },
+  {
+   "id": "402363",
+   "slug": "barcelona-vs-manchester-city-2026-12-08",
+   "tipo": "football",
+   "titulo": {
+    "pt": "FC Barcelona x Manchester City",
+    "en": "FC Barcelona vs Manchester City",
+    "es": "FC Barcelona vs Manchester City"
+   },
+   "data": "2026-12-08",
+   "hora_local": "21:00",
+   "local": "Camp Nou",
+   "cidade": {
+    "pt": "Barcelona",
+    "en": "Barcelona",
+    "es": "Barcelona"
+   },
+   "pais": {
+    "pt": "Espanha",
+    "en": "Spain",
+    "es": "España"
+   },
+   "competicao": "UEFA Champions League",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/barcelona-vs-manchester-city-2026-12-08/",
+    "en": "https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/",
+    "es": "https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/"
+   },
+   "preco": {
+    "a_partir_de": 512.0,
+    "moeda": "USD",
+    "conferido": "2026-10-26",
+    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
+   }
+  },
+  {
+   "id": "401302",
+   "slug": "knicks-vs-nuggets-2027-01-11",
+   "tipo": "nba",
+   "titulo": {
+    "pt": "New York Knicks x Denver Nuggets",
+    "en": "New York Knicks vs Denver Nuggets",
+    "es": "New York Knicks vs Denver Nuggets"
+   },
+   "data": "2027-01-11",
+   "hora_local": "19:30",
+   "local": "Madison Square Garden",
+   "cidade": {
+    "pt": "Nova York",
+    "en": "New York",
+    "es": "Nueva York"
+   },
+   "pais": {
+    "pt": "EUA",
+    "en": "USA",
+    "es": "EE. UU."
+   },
+   "competicao": "NBA",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/knicks-vs-nuggets-2027-01-11/",
+    "en": "https://mytickets.tours/en/events/knicks-vs-nuggets-2027-01-11/",
+    "es": "https://mytickets.tours/es/eventos/knicks-vs-nuggets-2027-01-11/"
+   },
+   "preco": {
+    "a_partir_de": 227.0,
+    "moeda": "USD",
+    "conferido": "2026-10-26",
+    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
+   }
+  },
+  {
+   "id": "390886",
+   "slug": "final-australian-open-2027-01-31",
+   "tipo": "tennis",
+   "titulo": {
+    "pt": "Final masculina do Australian Open",
+    "en": "Australian Open Men's Final",
+    "es": "Final masculina del Open de Australia"
+   },
+   "data": "2027-01-31",
+   "hora_local": "19:30",
+   "local": "Rod Laver Arena",
+   "cidade": {
+    "pt": "Melbourne",
+    "en": "Melbourne",
+    "es": "Melbourne"
+   },
+   "pais": {
+    "pt": "Austrália",
+    "en": "Australia",
+    "es": "Australia"
+   },
+   "competicao": "Australian Open (Grand Slam)",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/final-australian-open-2027-01-31/",
+    "en": "https://mytickets.tours/en/events/final-australian-open-2027-01-31/",
+    "es": "https://mytickets.tours/es/eventos/final-australian-open-2027-01-31/"
+   },
+   "preco": {
+    "a_partir_de": 1355.0,
+    "moeda": "USD",
+    "conferido": "2026-10-26",
+    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
+   }
+  },
+  {
+   "id": "391312",
+   "slug": "celine-dion-paris-2027-05-14",
+   "tipo": "concert",
+   "titulo": {
+    "pt": "Celine Dion em Paris",
+    "en": "Celine Dion in Paris",
+    "es": "Celine Dion en París"
+   },
+   "data": "2027-05-14",
+   "hora_local": "19:30",
+   "local": "Paris La Défense Arena",
+   "cidade": {
+    "pt": "Paris",
+    "en": "Paris",
+    "es": "París"
+   },
+   "pais": {
+    "pt": "França",
+    "en": "France",
+    "es": "Francia"
+   },
+   "competicao": null,
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/celine-dion-paris-2027-05-14/",
+    "en": "https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/",
+    "es": "https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/"
+   },
+   "preco": {
+    "a_partir_de": 372.0,
+    "moeda": "USD",
+    "conferido": "2026-10-26",
+    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
+   }
+  },
+  {
+   "id": "399236",
+   "slug": "final-champions-league-2027-06-05",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Final da Champions League 2027",
+    "en": "2027 Champions League Final",
+    "es": "Final de la Champions League 2027"
+   },
+   "data": "2027-06-05",
+   "hora_local": "21:00",
+   "local": "Estadio Metropolitano",
+   "cidade": {
+    "pt": "Madri",
+    "en": "Madrid",
+    "es": "Madrid"
+   },
+   "pais": {
+    "pt": "Espanha",
+    "en": "Spain",
+    "es": "España"
+   },
+   "competicao": "UEFA Champions League",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/final-champions-league-2027-06-05/",
+    "en": "https://mytickets.tours/en/events/final-champions-league-2027-06-05/",
+    "es": "https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/"
+   },
+   "preco": {
+    "a_partir_de": 7016.0,
+    "moeda": "USD",
+    "conferido": "2026-10-26",
+    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
+   }
+  }
+ ]
+}
