@@ -4,14 +4,6 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 
 ## Events with a page
 
-### FC Barcelona vs Real Madrid
-- Date: Sunday, October 25, 2026
-- Venue: Camp Nou, Barcelona, Spain (La Liga)
-- Tickets: https://www.sportsevents365.com/event/395343?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
-- Guide on the site: https://mytickets.tours/en/events/barcelona-vs-real-madrid-2026-10-25/
-- Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal.
-- Arrive 90 minutes early for El Clásico. Security lines are slow.
-
 ### AC Milan vs Inter
 - Date: Saturday, October 31, 2026
 - Venue: San Siro (Giuseppe Meazza), Milan, Italy (Serie A)

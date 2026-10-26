@@ -1,34 +1,10 @@
 {
- "atualizado": "2026-10-25",
+ "atualizado": "2026-10-26",
  "afiliado": "6821d72fcdbe3",
  "idiomas": {
   "pt": {
    "catalogo_parceiro": "https://365tickets.com.br/?a_aid=6821d72fcdbe3",
    "eventos": [
-    {
-     "nome": "FC Barcelona x Real Madrid",
-     "data": "2026-10-25",
-     "data_texto": "domingo, 25 de outubro de 2026",
-     "local": "Camp Nou",
-     "cidade": "Barcelona",
-     "pais": "Espanha",
-     "competicao": "La Liga",
-     "times": [
-      "FC Barcelona",
-      "Real Madrid"
-     ],
-     "ingressos": "https://365tickets.com.br/event/395343?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
-     "guia": "https://mytickets.tours/eventos/barcelona-vs-real-madrid-2026-10-25/",
-     "como_chegar": [
-      "Metrô L3, estações Les Corts e Palau Reial, ou L5, estações Collblanc e Badal.",
-      "Em clássicos, chegue 90 minutos antes. A revista na entrada demora."
-     ],
-     "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
-     ]
-    },
     {
      "nome": "AC Milan x Inter",
      "data": "2026-10-31",
@@ -387,30 +363,6 @@
    "catalogo_parceiro": "https://www.sportsevents365.com/?a_aid=6821d72fcdbe3",
    "eventos": [
     {
-     "nome": "FC Barcelona vs Real Madrid",
-     "data": "2026-10-25",
-     "data_texto": "Sunday, October 25, 2026",
-     "local": "Camp Nou",
-     "cidade": "Barcelona",
-     "pais": "Spain",
-     "competicao": "La Liga",
-     "times": [
-      "FC Barcelona",
-      "Real Madrid"
-     ],
-     "ingressos": "https://www.sportsevents365.com/event/395343?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
-     "guia": "https://mytickets.tours/en/events/barcelona-vs-real-madrid-2026-10-25/",
-     "como_chegar": [
-      "Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal.",
-      "Arrive 90 minutes early for El Clásico. Security lines are slow."
-     ],
-     "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
-     ]
-    },
-    {
      "nome": "AC Milan vs Inter",
      "data": "2026-10-31",
      "data_texto": "Saturday, October 31, 2026",
@@ -767,30 +719,6 @@
   "es": {
    "catalogo_parceiro": "https://sportsevents365.es/?a_aid=6821d72fcdbe3",
    "eventos": [
-    {
-     "nome": "FC Barcelona vs Real Madrid",
-     "data": "2026-10-25",
-     "data_texto": "domingo, 25 de octubre de 2026",
-     "local": "Camp Nou",
-     "cidade": "Barcelona",
-     "pais": "España",
-     "competicao": "La Liga",
-     "times": [
-      "FC Barcelona",
-      "Real Madrid"
-     ],
-     "ingressos": "https://sportsevents365.es/event/395343?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
-     "guia": "https://mytickets.tours/es/eventos/barcelona-vs-real-madrid-2026-10-25/",
-     "como_chegar": [
-      "Metro L3, estaciones Les Corts y Palau Reial, o L5, estaciones Collblanc y Badal.",
-      "En clásicos, llega 90 minutos antes. El control de acceso es lento."
-     ],
-     "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
-     ]
-    },
     {
      "nome": "AC Milan vs Inter",
      "data": "2026-10-31",

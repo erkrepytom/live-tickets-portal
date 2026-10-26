@@ -4,14 +4,6 @@ Catálogo completo do parceiro: https://365tickets.com.br/?a_aid=6821d72fcdbe3
 
 ## Eventos com página
 
-### FC Barcelona x Real Madrid
-- Data: domingo, 25 de outubro de 2026
-- Local: Camp Nou, Barcelona, Espanha (La Liga)
-- Ingressos: https://365tickets.com.br/event/395343?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt
-- Guia no site: https://mytickets.tours/eventos/barcelona-vs-real-madrid-2026-10-25/
-- Metrô L3, estações Les Corts e Palau Reial, ou L5, estações Collblanc e Badal.
-- Em clássicos, chegue 90 minutos antes. A revista na entrada demora.
-
 ### AC Milan x Inter
 - Data: sábado, 31 de outubro de 2026
 - Local: San Siro (Giuseppe Meazza), Milão, Itália (Serie A)

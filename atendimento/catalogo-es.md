@@ -4,14 +4,6 @@ Catálogo completo del socio: https://sportsevents365.es/?a_aid=6821d72fcdbe3
 
 ## Eventos con página
 
-### FC Barcelona vs Real Madrid
-- Fecha: domingo, 25 de octubre de 2026
-- Recinto: Camp Nou, Barcelona, España (La Liga)
-- Entradas: https://sportsevents365.es/event/395343?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
-- Guía en el sitio: https://mytickets.tours/es/eventos/barcelona-vs-real-madrid-2026-10-25/
-- Metro L3, estaciones Les Corts y Palau Reial, o L5, estaciones Collblanc y Badal.
-- En clásicos, llega 90 minutos antes. El control de acceso es lento.
-
 ### AC Milan vs Inter
 - Fecha: sábado, 31 de octubre de 2026
 - Recinto: San Siro (Giuseppe Meazza), Milán, Italia (Serie A)
