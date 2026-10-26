@@ -135,6 +135,70 @@
    "conferido": "2026-10-15"
   },
   {
+   "slug": "lakers-vs-heat-2026-11-02",
+   "id": 400925,
+   "data": "2026-11-02",
+   "tipo": "nba",
+   "esporte_tipo": 1002,
+   "img": "photo-1546519638-68e109498ffc",
+   "titulo": {
+    "pt": "Los Angeles Lakers x Miami Heat",
+    "en": "Los Angeles Lakers vs Miami Heat",
+    "es": "Los Angeles Lakers vs Miami Heat"
+   },
+   "painel": {
+    "pt": "LAKERS X HEAT",
+    "en": "LAKERS VS HEAT",
+    "es": "LAKERS VS HEAT"
+   },
+   "competicao": {
+    "nome": "NBA",
+    "dock": "/dock/competition/nba"
+   },
+   "times": [
+    {
+     "nome": "Los Angeles Lakers",
+     "dock": "/dock/team/los-angeles-lakers"
+    },
+    {
+     "nome": "Miami Heat"
+    }
+   ],
+   "local": "Crypto.com Arena",
+   "cidade": {
+    "pt": "Los Angeles",
+    "en": "Los Angeles",
+    "es": "Los Ángeles"
+   },
+   "pais": {
+    "pt": "EUA",
+    "en": "USA",
+    "es": "EE. UU."
+   },
+   "intro": {
+    "pt": "NBA na Crypto.com Arena, a casa dos Lakers no centro de Los Angeles, com o Miami Heat como visitante.",
+    "en": "NBA at Crypto.com Arena, the Lakers' home in downtown Los Angeles, with the Miami Heat visiting.",
+    "es": "NBA en el Crypto.com Arena, la casa de los Lakers en el centro de Los Ángeles, con el Miami Heat de visitante."
+   },
+   "chegar": {
+    "pt": [
+     "A arena fica no centro de Los Angeles. O metrô (linhas A e E) para na estação Pico, a poucos minutos a pé.",
+     "Os portões costumam abrir uma hora antes do jogo."
+    ],
+    "en": [
+     "The arena is in downtown Los Angeles. Metro lines A and E stop at Pico station, a short walk away.",
+     "Doors usually open one hour before tip-off."
+    ],
+    "es": [
+     "La arena está en el centro de Los Ángeles. El metro (líneas A y E) para en la estación Pico, a pocos minutos a pie.",
+     "Las puertas suelen abrir una hora antes del partido."
+    ]
+   },
+   "hora": "19:00",
+   "inicio": "2026-11-02T19:00:00-08:00",
+   "conferido": "2026-10-26"
+  },
+  {
    "slug": "italia-vs-franca-2026-11-12",
    "id": 387682,
    "data": "2026-11-12",
@@ -277,6 +341,134 @@
    "hora": "21:10",
    "inicio": "2026-11-13T21:10:00+01:00",
    "conferido": "2026-10-15"
+  },
+  {
+   "slug": "cowboys-vs-49ers-2026-11-15",
+   "id": 386855,
+   "data": "2026-11-15",
+   "tipo": "nfl",
+   "esporte_tipo": "nfl",
+   "img": "sports.jpg",
+   "titulo": {
+    "pt": "Dallas Cowboys x San Francisco 49ers",
+    "en": "Dallas Cowboys vs San Francisco 49ers",
+    "es": "Dallas Cowboys vs San Francisco 49ers"
+   },
+   "painel": {
+    "pt": "COWBOYS X 49ERS",
+    "en": "COWBOYS VS 49ERS",
+    "es": "COWBOYS VS 49ERS"
+   },
+   "competicao": {
+    "nome": "NFL",
+    "dock": "/dock/competition/nfl"
+   },
+   "times": [
+    {
+     "nome": "Dallas Cowboys",
+     "dock": "/dock/team/dallas-cowboys"
+    },
+    {
+     "nome": "San Francisco 49ers"
+    }
+   ],
+   "local": "AT&T Stadium",
+   "cidade": {
+    "pt": "Dallas",
+    "en": "Dallas",
+    "es": "Dallas"
+   },
+   "pais": {
+    "pt": "EUA",
+    "en": "USA",
+    "es": "EE. UU."
+   },
+   "intro": {
+    "pt": "NFL no AT&T Stadium, a casa dos Dallas Cowboys, contra o San Francisco 49ers, um dos duelos mais tradicionais da liga.",
+    "en": "NFL at AT&T Stadium, home of the Dallas Cowboys, against the San Francisco 49ers, one of the league's classic rivalries.",
+    "es": "NFL en el AT&T Stadium, la casa de los Dallas Cowboys, contra los San Francisco 49ers, uno de los duelos más tradicionales de la liga."
+   },
+   "chegar": {
+    "pt": [
+     "O estádio fica em Arlington, entre Dallas e Fort Worth, e não tem metrô: o acesso é de carro, táxi ou aplicativo.",
+     "Os estacionamentos abrem horas antes do jogo. Chegue cedo para evitar o trânsito na entrada."
+    ],
+    "en": [
+     "The stadium is in Arlington, between Dallas and Fort Worth, with no rail link: get there by car, taxi or rideshare.",
+     "Parking lots open hours before kickoff. Arrive early to beat the traffic on the way in."
+    ],
+    "es": [
+     "El estadio está en Arlington, entre Dallas y Fort Worth, y no tiene metro: se llega en coche, taxi o aplicación.",
+     "Los estacionamientos abren horas antes del partido. Llega temprano para evitar el tráfico."
+    ]
+   },
+   "hora": "15:25",
+   "inicio": "2026-11-15T15:25:00-06:00",
+   "conferido": "2026-10-26"
+  },
+  {
+   "slug": "cowboys-vs-eagles-2026-11-26",
+   "id": 386762,
+   "data": "2026-11-26",
+   "tipo": "nfl",
+   "esporte_tipo": "nfl",
+   "img": "sports.jpg",
+   "titulo": {
+    "pt": "Dallas Cowboys x Philadelphia Eagles",
+    "en": "Dallas Cowboys vs Philadelphia Eagles",
+    "es": "Dallas Cowboys vs Philadelphia Eagles"
+   },
+   "painel": {
+    "pt": "COWBOYS X EAGLES",
+    "en": "COWBOYS VS EAGLES",
+    "es": "COWBOYS VS EAGLES"
+   },
+   "competicao": {
+    "nome": "NFL",
+    "dock": "/dock/competition/nfl"
+   },
+   "times": [
+    {
+     "nome": "Dallas Cowboys",
+     "dock": "/dock/team/dallas-cowboys"
+    },
+    {
+     "nome": "Philadelphia Eagles"
+    }
+   ],
+   "local": "AT&T Stadium",
+   "cidade": {
+    "pt": "Dallas",
+    "en": "Dallas",
+    "es": "Dallas"
+   },
+   "pais": {
+    "pt": "EUA",
+    "en": "USA",
+    "es": "EE. UU."
+   },
+   "intro": {
+    "pt": "O jogo de Ação de Graças (Thanksgiving) dos Dallas Cowboys no AT&T Stadium, contra o rival de divisão Philadelphia Eagles.",
+    "en": "The Dallas Cowboys' Thanksgiving Day game at AT&T Stadium, against division rival Philadelphia Eagles.",
+    "es": "El partido de Acción de Gracias (Thanksgiving) de los Dallas Cowboys en el AT&T Stadium, contra el rival de división Philadelphia Eagles."
+   },
+   "chegar": {
+    "pt": [
+     "O estádio fica em Arlington, entre Dallas e Fort Worth, e não tem metrô: o acesso é de carro, táxi ou aplicativo.",
+     "Os estacionamentos abrem horas antes do jogo. Chegue cedo para evitar o trânsito na entrada."
+    ],
+    "en": [
+     "The stadium is in Arlington, between Dallas and Fort Worth, with no rail link: get there by car, taxi or rideshare.",
+     "Parking lots open hours before kickoff. Arrive early to beat the traffic on the way in."
+    ],
+    "es": [
+     "El estadio está en Arlington, entre Dallas y Fort Worth, y no tiene metro: se llega en coche, taxi o aplicación.",
+     "Los estacionamientos abren horas antes del partido. Llega temprano para evitar el tráfico."
+    ]
+   },
+   "hora": "15:30",
+   "inicio": "2026-11-26T15:30:00-06:00",
+   "conferido": "2026-10-26"
   },
   {
    "slug": "gp-abu-dhabi-f1-2026-12-06",

@@ -30,6 +30,30 @@
      ]
     },
     {
+     "nome": "Los Angeles Lakers x Miami Heat",
+     "data": "2026-11-02",
+     "data_texto": "segunda, 2 de novembro de 2026",
+     "local": "Crypto.com Arena",
+     "cidade": "Los Angeles",
+     "pais": "EUA",
+     "competicao": "NBA",
+     "times": [
+      "Los Angeles Lakers",
+      "Miami Heat"
+     ],
+     "ingressos": "https://365tickets.com.br/event/400925?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "guia": "https://mytickets.tours/eventos/lakers-vs-heat-2026-11-02/",
+     "como_chegar": [
+      "A arena fica no centro de Los Angeles. O metrô (linhas A e E) para na estação Pico, a poucos minutos a pé.",
+      "Os portões costumam abrir uma hora antes do jogo."
+     ],
+     "dicas": [
+      "Lugares no nível inferior, nas laterais, ficam mais perto da quadra.",
+      "Lugares atrás das cestas costumam ser mais baratos.",
+      "Chegue cedo para ver o aquecimento dos jogadores."
+     ]
+    },
+    {
      "nome": "Itália x França",
      "data": "2026-11-12",
      "data_texto": "quinta, 12 de novembro de 2026",
@@ -75,6 +99,54 @@
       "Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.",
       "Leve casaco: as noites de novembro em Paris são frias.",
       "Em grupo, compre os lugares no mesmo pedido."
+     ]
+    },
+    {
+     "nome": "Dallas Cowboys x San Francisco 49ers",
+     "data": "2026-11-15",
+     "data_texto": "domingo, 15 de novembro de 2026",
+     "local": "AT&T Stadium",
+     "cidade": "Dallas",
+     "pais": "EUA",
+     "competicao": "NFL",
+     "times": [
+      "Dallas Cowboys",
+      "San Francisco 49ers"
+     ],
+     "ingressos": "https://365tickets.com.br/event/386855?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "guia": "https://mytickets.tours/eventos/cowboys-vs-49ers-2026-11-15/",
+     "como_chegar": [
+      "O estádio fica em Arlington, entre Dallas e Fort Worth, e não tem metrô: o acesso é de carro, táxi ou aplicativo.",
+      "Os estacionamentos abrem horas antes do jogo. Chegue cedo para evitar o trânsito na entrada."
+     ],
+     "dicas": [
+      "Lugares nas laterais, entre as linhas de 30 jardas, mostram melhor as jogadas.",
+      "Os níveis superiores e as end zones costumam ser mais baratos.",
+      "Chegue cedo: o tailgate no estacionamento faz parte da experiência."
+     ]
+    },
+    {
+     "nome": "Dallas Cowboys x Philadelphia Eagles",
+     "data": "2026-11-26",
+     "data_texto": "quinta, 26 de novembro de 2026",
+     "local": "AT&T Stadium",
+     "cidade": "Dallas",
+     "pais": "EUA",
+     "competicao": "NFL",
+     "times": [
+      "Dallas Cowboys",
+      "Philadelphia Eagles"
+     ],
+     "ingressos": "https://365tickets.com.br/event/386762?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "guia": "https://mytickets.tours/eventos/cowboys-vs-eagles-2026-11-26/",
+     "como_chegar": [
+      "O estádio fica em Arlington, entre Dallas e Fort Worth, e não tem metrô: o acesso é de carro, táxi ou aplicativo.",
+      "Os estacionamentos abrem horas antes do jogo. Chegue cedo para evitar o trânsito na entrada."
+     ],
+     "dicas": [
+      "Lugares nas laterais, entre as linhas de 30 jardas, mostram melhor as jogadas.",
+      "Os níveis superiores e as end zones costumam ser mais baratos.",
+      "Chegue cedo: o tailgate no estacionamento faz parte da experiência."
      ]
     },
     {
@@ -387,6 +459,30 @@
      ]
     },
     {
+     "nome": "Los Angeles Lakers vs Miami Heat",
+     "data": "2026-11-02",
+     "data_texto": "Monday, November 2, 2026",
+     "local": "Crypto.com Arena",
+     "cidade": "Los Angeles",
+     "pais": "USA",
+     "competicao": "NBA",
+     "times": [
+      "Los Angeles Lakers",
+      "Miami Heat"
+     ],
+     "ingressos": "https://www.sportsevents365.com/event/400925?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "guia": "https://mytickets.tours/en/events/lakers-vs-heat-2026-11-02/",
+     "como_chegar": [
+      "The arena is in downtown Los Angeles. Metro lines A and E stop at Pico station, a short walk away.",
+      "Doors usually open one hour before tip-off."
+     ],
+     "dicas": [
+      "Lower-level sideline seats are closest to the court.",
+      "Seats behind the baskets are usually cheaper.",
+      "Arrive early to watch warm-ups."
+     ]
+    },
+    {
      "nome": "Italy vs France",
      "data": "2026-11-12",
      "data_texto": "Thursday, November 12, 2026",
@@ -432,6 +528,54 @@
       "Side seats near halfway show the play best.",
       "Bring a coat: November nights in Paris are cold.",
       "For a group, buy all seats in one order."
+     ]
+    },
+    {
+     "nome": "Dallas Cowboys vs San Francisco 49ers",
+     "data": "2026-11-15",
+     "data_texto": "Sunday, November 15, 2026",
+     "local": "AT&T Stadium",
+     "cidade": "Dallas",
+     "pais": "USA",
+     "competicao": "NFL",
+     "times": [
+      "Dallas Cowboys",
+      "San Francisco 49ers"
+     ],
+     "ingressos": "https://www.sportsevents365.com/event/386855?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "guia": "https://mytickets.tours/en/events/cowboys-vs-49ers-2026-11-15/",
+     "como_chegar": [
+      "The stadium is in Arlington, between Dallas and Fort Worth, with no rail link: get there by car, taxi or rideshare.",
+      "Parking lots open hours before kickoff. Arrive early to beat the traffic on the way in."
+     ],
+     "dicas": [
+      "Sideline seats between the 30-yard lines show the play best.",
+      "Upper levels and end zones are usually cheaper.",
+      "Arrive early: tailgating in the parking lots is part of the experience."
+     ]
+    },
+    {
+     "nome": "Dallas Cowboys vs Philadelphia Eagles",
+     "data": "2026-11-26",
+     "data_texto": "Thursday, November 26, 2026",
+     "local": "AT&T Stadium",
+     "cidade": "Dallas",
+     "pais": "USA",
+     "competicao": "NFL",
+     "times": [
+      "Dallas Cowboys",
+      "Philadelphia Eagles"
+     ],
+     "ingressos": "https://www.sportsevents365.com/event/386762?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "guia": "https://mytickets.tours/en/events/cowboys-vs-eagles-2026-11-26/",
+     "como_chegar": [
+      "The stadium is in Arlington, between Dallas and Fort Worth, with no rail link: get there by car, taxi or rideshare.",
+      "Parking lots open hours before kickoff. Arrive early to beat the traffic on the way in."
+     ],
+     "dicas": [
+      "Sideline seats between the 30-yard lines show the play best.",
+      "Upper levels and end zones are usually cheaper.",
+      "Arrive early: tailgating in the parking lots is part of the experience."
      ]
     },
     {
@@ -744,6 +888,30 @@
      ]
     },
     {
+     "nome": "Los Angeles Lakers vs Miami Heat",
+     "data": "2026-11-02",
+     "data_texto": "lunes, 2 de noviembre de 2026",
+     "local": "Crypto.com Arena",
+     "cidade": "Los Ángeles",
+     "pais": "EE. UU.",
+     "competicao": "NBA",
+     "times": [
+      "Los Angeles Lakers",
+      "Miami Heat"
+     ],
+     "ingressos": "https://sportsevents365.es/event/400925?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "guia": "https://mytickets.tours/es/eventos/lakers-vs-heat-2026-11-02/",
+     "como_chegar": [
+      "La arena está en el centro de Los Ángeles. El metro (líneas A y E) para en la estación Pico, a pocos minutos a pie.",
+      "Las puertas suelen abrir una hora antes del partido."
+     ],
+     "dicas": [
+      "Los asientos laterales del nivel inferior están más cerca de la pista.",
+      "Los asientos detrás de las canastas suelen ser más baratos.",
+      "Llega temprano para ver el calentamiento."
+     ]
+    },
+    {
      "nome": "Italia vs Francia",
      "data": "2026-11-12",
      "data_texto": "jueves, 12 de noviembre de 2026",
@@ -789,6 +957,54 @@
       "Los asientos laterales cerca de la mitad muestran mejor el juego.",
       "Lleva abrigo: las noches de noviembre en París son frías.",
       "En grupo, compra todos los asientos en el mismo pedido."
+     ]
+    },
+    {
+     "nome": "Dallas Cowboys vs San Francisco 49ers",
+     "data": "2026-11-15",
+     "data_texto": "domingo, 15 de noviembre de 2026",
+     "local": "AT&T Stadium",
+     "cidade": "Dallas",
+     "pais": "EE. UU.",
+     "competicao": "NFL",
+     "times": [
+      "Dallas Cowboys",
+      "San Francisco 49ers"
+     ],
+     "ingressos": "https://sportsevents365.es/event/386855?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "guia": "https://mytickets.tours/es/eventos/cowboys-vs-49ers-2026-11-15/",
+     "como_chegar": [
+      "El estadio está en Arlington, entre Dallas y Fort Worth, y no tiene metro: se llega en coche, taxi o aplicación.",
+      "Los estacionamientos abren horas antes del partido. Llega temprano para evitar el tráfico."
+     ],
+     "dicas": [
+      "Los asientos laterales entre las yardas 30 muestran mejor el juego.",
+      "Los niveles superiores y las end zones suelen ser más baratos.",
+      "Llega temprano: el tailgate en el estacionamiento es parte de la experiencia."
+     ]
+    },
+    {
+     "nome": "Dallas Cowboys vs Philadelphia Eagles",
+     "data": "2026-11-26",
+     "data_texto": "jueves, 26 de noviembre de 2026",
+     "local": "AT&T Stadium",
+     "cidade": "Dallas",
+     "pais": "EE. UU.",
+     "competicao": "NFL",
+     "times": [
+      "Dallas Cowboys",
+      "Philadelphia Eagles"
+     ],
+     "ingressos": "https://sportsevents365.es/event/386762?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "guia": "https://mytickets.tours/es/eventos/cowboys-vs-eagles-2026-11-26/",
+     "como_chegar": [
+      "El estadio está en Arlington, entre Dallas y Fort Worth, y no tiene metro: se llega en coche, taxi o aplicación.",
+      "Los estacionamientos abren horas antes del partido. Llega temprano para evitar el tráfico."
+     ],
+     "dicas": [
+      "Los asientos laterales entre las yardas 30 muestran mejor el juego.",
+      "Los niveles superiores y las end zones suelen ser más baratos.",
+      "Llega temprano: el tailgate en el estacionamiento es parte de la experiencia."
      ]
     },
     {

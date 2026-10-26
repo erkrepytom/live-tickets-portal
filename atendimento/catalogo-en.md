@@ -12,6 +12,14 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 - Metro M5 to San Siro Stadio station, next to the stadium.
 - Tram 16 also stops at the square in front of the stadium.
 
+### Los Angeles Lakers vs Miami Heat
+- Date: Monday, November 2, 2026
+- Venue: Crypto.com Arena, Los Angeles, USA (NBA)
+- Tickets: https://www.sportsevents365.com/event/400925?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/lakers-vs-heat-2026-11-02/
+- The arena is in downtown Los Angeles. Metro lines A and E stop at Pico station, a short walk away.
+- Doors usually open one hour before tip-off.
+
 ### Italy vs France
 - Date: Thursday, November 12, 2026
 - Venue: San Siro (Giuseppe Meazza), Milan, Italy (UEFA Nations League)
@@ -27,6 +35,22 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 - Guide on the site: https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/
 - RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.
 - Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away.
+
+### Dallas Cowboys vs San Francisco 49ers
+- Date: Sunday, November 15, 2026
+- Venue: AT&T Stadium, Dallas, USA (NFL)
+- Tickets: https://www.sportsevents365.com/event/386855?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/cowboys-vs-49ers-2026-11-15/
+- The stadium is in Arlington, between Dallas and Fort Worth, with no rail link: get there by car, taxi or rideshare.
+- Parking lots open hours before kickoff. Arrive early to beat the traffic on the way in.
+
+### Dallas Cowboys vs Philadelphia Eagles
+- Date: Thursday, November 26, 2026
+- Venue: AT&T Stadium, Dallas, USA (NFL)
+- Tickets: https://www.sportsevents365.com/event/386762?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/cowboys-vs-eagles-2026-11-26/
+- The stadium is in Arlington, between Dallas and Fort Worth, with no rail link: get there by car, taxi or rideshare.
+- Parking lots open hours before kickoff. Arrive early to beat the traffic on the way in.
 
 ### Formula 1 Abu Dhabi Grand Prix
 - Date: Sunday, December 6, 2026

@@ -12,6 +12,14 @@ Catálogo completo del socio: https://sportsevents365.es/?a_aid=6821d72fcdbe3
 - Metro M5 hasta la estación San Siro Stadio, junto al estadio.
 - El tranvía 16 también llega a la plaza frente al estadio.
 
+### Los Angeles Lakers vs Miami Heat
+- Fecha: lunes, 2 de noviembre de 2026
+- Recinto: Crypto.com Arena, Los Ángeles, EE. UU. (NBA)
+- Entradas: https://sportsevents365.es/event/400925?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
+- Guía en el sitio: https://mytickets.tours/es/eventos/lakers-vs-heat-2026-11-02/
+- La arena está en el centro de Los Ángeles. El metro (líneas A y E) para en la estación Pico, a pocos minutos a pie.
+- Las puertas suelen abrir una hora antes del partido.
+
 ### Italia vs Francia
 - Fecha: jueves, 12 de noviembre de 2026
 - Recinto: San Siro (Giuseppe Meazza), Milán, Italia (UEFA Nations League)
@@ -27,6 +35,22 @@ Catálogo completo del socio: https://sportsevents365.es/?a_aid=6821d72fcdbe3
 - Guía en el sitio: https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/
 - RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.
 - Metro línea 13, estación Saint-Denis–Porte de Paris, a pocos minutos a pie.
+
+### Dallas Cowboys vs San Francisco 49ers
+- Fecha: domingo, 15 de noviembre de 2026
+- Recinto: AT&T Stadium, Dallas, EE. UU. (NFL)
+- Entradas: https://sportsevents365.es/event/386855?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
+- Guía en el sitio: https://mytickets.tours/es/eventos/cowboys-vs-49ers-2026-11-15/
+- El estadio está en Arlington, entre Dallas y Fort Worth, y no tiene metro: se llega en coche, taxi o aplicación.
+- Los estacionamientos abren horas antes del partido. Llega temprano para evitar el tráfico.
+
+### Dallas Cowboys vs Philadelphia Eagles
+- Fecha: jueves, 26 de noviembre de 2026
+- Recinto: AT&T Stadium, Dallas, EE. UU. (NFL)
+- Entradas: https://sportsevents365.es/event/386762?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es
+- Guía en el sitio: https://mytickets.tours/es/eventos/cowboys-vs-eagles-2026-11-26/
+- El estadio está en Arlington, entre Dallas y Fort Worth, y no tiene metro: se llega en coche, taxi o aplicación.
+- Los estacionamientos abren horas antes del partido. Llega temprano para evitar el tráfico.
 
 ### GP de Abu Dabi de Fórmula 1
 - Fecha: domingo, 6 de diciembre de 2026

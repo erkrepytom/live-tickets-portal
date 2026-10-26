@@ -12,6 +12,14 @@ Catálogo completo do parceiro: https://365tickets.com.br/?a_aid=6821d72fcdbe3
 - Metrô M5 até a estação San Siro Stadio, ao lado do estádio.
 - O bonde 16 também chega à praça em frente ao estádio.
 
+### Los Angeles Lakers x Miami Heat
+- Data: segunda, 2 de novembro de 2026
+- Local: Crypto.com Arena, Los Angeles, EUA (NBA)
+- Ingressos: https://365tickets.com.br/event/400925?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt
+- Guia no site: https://mytickets.tours/eventos/lakers-vs-heat-2026-11-02/
+- A arena fica no centro de Los Angeles. O metrô (linhas A e E) para na estação Pico, a poucos minutos a pé.
+- Os portões costumam abrir uma hora antes do jogo.
+
 ### Itália x França
 - Data: quinta, 12 de novembro de 2026
 - Local: San Siro (Giuseppe Meazza), Milão, Itália (UEFA Nations League)
@@ -27,6 +35,22 @@ Catálogo completo do parceiro: https://365tickets.com.br/?a_aid=6821d72fcdbe3
 - Guia no site: https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/
 - RER D até Stade de France–Saint-Denis ou RER B até La Plaine–Stade de France.
 - Metrô linha 13, estação Saint-Denis–Porte de Paris, a poucos minutos a pé.
+
+### Dallas Cowboys x San Francisco 49ers
+- Data: domingo, 15 de novembro de 2026
+- Local: AT&T Stadium, Dallas, EUA (NFL)
+- Ingressos: https://365tickets.com.br/event/386855?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt
+- Guia no site: https://mytickets.tours/eventos/cowboys-vs-49ers-2026-11-15/
+- O estádio fica em Arlington, entre Dallas e Fort Worth, e não tem metrô: o acesso é de carro, táxi ou aplicativo.
+- Os estacionamentos abrem horas antes do jogo. Chegue cedo para evitar o trânsito na entrada.
+
+### Dallas Cowboys x Philadelphia Eagles
+- Data: quinta, 26 de novembro de 2026
+- Local: AT&T Stadium, Dallas, EUA (NFL)
+- Ingressos: https://365tickets.com.br/event/386762?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt
+- Guia no site: https://mytickets.tours/eventos/cowboys-vs-eagles-2026-11-26/
+- O estádio fica em Arlington, entre Dallas e Fort Worth, e não tem metrô: o acesso é de carro, táxi ou aplicativo.
+- Os estacionamentos abrem horas antes do jogo. Chegue cedo para evitar o trânsito na entrada.
 
 ### GP de Abu Dhabi de Fórmula 1
 - Data: domingo, 6 de dezembro de 2026

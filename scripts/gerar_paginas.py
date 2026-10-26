@@ -55,7 +55,7 @@ OG_PADRAO = "06-champions.jpg"
 # JSON-LD enquanto for recente; depois disso some, para nunca mostrar preço velho.
 PRECO_VALIDADE_H = 36
 # Duração típica de cada tipo de evento, para o "endDate" dos dados estruturados.
-DURACAO_H = {"football": 2, "rugby": 2, "f1": 2, "nba": 2.5, "tennis": 4, "concert": 3}
+DURACAO_H = {"football": 2, "rugby": 2, "f1": 2, "nba": 2.5, "nfl": 3.5, "tennis": 4, "concert": 3}
 SIMBOLO = {"BRL": "R$", "USD": "US$", "EUR": "€", "GBP": "£", "AUD": "A$", "CAD": "C$", "CHF": "CHF", "MXN": "MX$", "ARS": "AR$"}
 PRECO_TXT = {
  "pt": "A partir de {p} no parceiro (conferido em {d} às {h} UTC). O preço muda conforme a procura.",
@@ -114,6 +114,8 @@ LOCAIS = {
  "Madison Square Garden": {"rua": "4 Pennsylvania Plaza", "cep": "10001", "cidade": "New York", "regiao": "NY", "geo": (40.7505, -73.9934)},
  "Rod Laver Arena": {"rua": "Olympic Blvd, Melbourne Park", "cep": "3001", "cidade": "Melbourne", "regiao": "VIC", "geo": (-37.8216, 144.9785)},
  "Paris La Défense Arena": {"rua": "99 Jardin de l'Arche", "cep": "92000", "cidade": "Nanterre", "regiao": "Île-de-France", "geo": (48.8957, 2.2297)},
+ "AT&T Stadium": {"rua": "1 AT&T Way", "cep": "76011", "cidade": "Arlington", "regiao": "TX", "geo": (32.7473, -97.0945)},
+ "Crypto.com Arena": {"rua": "1111 S Figueroa St", "cep": "90015", "cidade": "Los Angeles", "regiao": "CA", "geo": (34.0430, -118.2673)},
  "Estadio Metropolitano": {"rua": "Av. de Luis Aragonés, 4", "cep": "28022", "cidade": "Madrid", "regiao": "Comunidad de Madrid", "geo": (40.4362, -3.5995)},
 }
 # País (nome em inglês do campo "pais") → código ISO 3166-1, o formato que o Google prefere.
@@ -251,6 +253,9 @@ DICAS = {
  "nba": {"pt": ["Lugares no nível inferior, nas laterais, ficam mais perto da quadra.", "Lugares atrás das cestas costumam ser mais baratos.", "Chegue cedo para ver o aquecimento dos jogadores."],
          "en": ["Lower-level sideline seats are closest to the court.", "Seats behind the baskets are usually cheaper.", "Arrive early to watch warm-ups."],
          "es": ["Los asientos laterales del nivel inferior están más cerca de la pista.", "Los asientos detrás de las canastas suelen ser más baratos.", "Llega temprano para ver el calentamiento."]},
+ "nfl": {"pt": ["Lugares nas laterais, entre as linhas de 30 jardas, mostram melhor as jogadas.", "Os níveis superiores e as end zones costumam ser mais baratos.", "Chegue cedo: o tailgate no estacionamento faz parte da experiência."],
+         "en": ["Sideline seats between the 30-yard lines show the play best.", "Upper levels and end zones are usually cheaper.", "Arrive early: tailgating in the parking lots is part of the experience."],
+         "es": ["Los asientos laterales entre las yardas 30 muestran mejor el juego.", "Los niveles superiores y las end zones suelen ser más baratos.", "Llega temprano: el tailgate en el estacionamiento es parte de la experiencia."]},
  "tennis": {"pt": ["Confira a sessão no ingresso: a final masculina tem sessão própria.", "Lugares nas laterais da quadra mostram os dois jogadores.", "Leve protetor solar: janeiro é verão em Melbourne."],
             "en": ["Check the session on the ticket: the men's final has its own session.", "Seats along the sides show both players.", "Bring sunscreen: January is summer in Melbourne."],
             "es": ["Revisa la sesión en la entrada: la final masculina tiene sesión propia.", "Los asientos laterales muestran a los dos jugadores.", "Lleva protector solar: enero es verano en Melbourne."]},
@@ -261,6 +266,7 @@ DICAS = {
 
 TIPO_NOME = {"football": {"pt": "Futebol", "en": "Football", "es": "Fútbol"}, "rugby": {"pt": "Rúgbi", "en": "Rugby", "es": "Rugby"},
              "f1": {"pt": "Automobilismo", "en": "Motor racing", "es": "Automovilismo"}, "nba": {"pt": "Basquete", "en": "Basketball", "es": "Baloncesto"},
+             "nfl": {"pt": "Futebol americano", "en": "American football", "es": "Fútbol americano"},
              "tennis": {"pt": "Tênis", "en": "Tennis", "es": "Tenis"}, "concert": {"pt": "Show", "en": "Concert", "es": "Concierto"}}
 
 # ---------- Páginas-hub (esporte, cidade, competição) ----------
@@ -273,6 +279,7 @@ HUB_ESPORTE = {
  "rugby": {"pt": ("rúgbi", "rugbi"), "en": ("rugby", "rugby"), "es": ("rugby", "rugby")},
  "f1": {"pt": ("Fórmula 1", "formula-1"), "en": ("Formula 1", "formula-1"), "es": ("Fórmula 1", "formula-1")},
  "nba": {"pt": ("NBA e basquete", "basquete"), "en": ("NBA and basketball", "basketball"), "es": ("NBA y baloncesto", "baloncesto")},
+ "nfl": {"pt": ("NFL e futebol americano", "futebol-americano"), "en": ("NFL and American football", "american-football"), "es": ("NFL y fútbol americano", "futbol-americano")},
  "tennis": {"pt": ("tênis", "tenis"), "en": ("tennis", "tennis"), "es": ("tenis", "tenis")},
  "concert": {"pt": ("shows internacionais", "shows"), "en": ("international concerts", "concerts"), "es": ("conciertos internacionales", "conciertos")},
 }
@@ -361,7 +368,9 @@ def hub_de(hubs, tipo, chave):
 # Por isso cada esporte aponta para a página de competição que funciona. Shows (/concerts) funciona.
 DOCK_ESPORTE = {1000: "/dock/competition/premier-league", 1001: "/dock/competition/australian-open", 1002: "/dock/competition/nba",
                 1003: "/dock/competition/formula-1", 1020: "/dock/competition/world-rugby-nations-championship",
-                1005: "/dock/competition/major-league-baseball", 1010: "/dock/competition/nhl", 0: "/concerts"}
+                1005: "/dock/competition/major-league-baseball", 1010: "/dock/competition/nhl", 0: "/concerts",
+                # Código do futebol americano no parceiro ainda não conferido; os eventos usam "nfl" no campo esporte_tipo.
+                "nfl": "/dock/competition/nfl"}
 # Esporte do botão da home -> tipo dos eventos do site, para usar o guia próprio quando ele existir.
 TIPO_DO_CODIGO = {1000: "football", 1001: "tennis", 1002: "nba", 1003: "f1", 1020: "rugby", 0: "concert"}
 
