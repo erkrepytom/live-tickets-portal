@@ -30,6 +30,7 @@ jobs:
           app_location: "."
           skip_app_build: true
           skip_api_build: true
+          api_location: "api"   # /api/inscrever (formulário "Avise-me dos jogos"); sem esta linha o deploy apaga a API
       - name: Avisar buscadores (IndexNow) das páginas que mudaram
         continue-on-error: true
         run: python3 scripts/indexnow.py

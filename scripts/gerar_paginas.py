@@ -2335,6 +2335,55 @@ def privacidade(lang):
     return h + corpo + rodape(lang, pagina, alternos)
 
 
+# Cadastro "Avise-me dos jogos" (api/inscrever). Vazio = formulário mostra "em breve".
+AVISE_ENDPOINT = "/api/inscrever"
+
+
+def avise(lang, eventos):
+    """Página "Avise-me dos jogos": e-mail, time e cidade, enviados para /api/inscrever.
+    O servidor decide a ferramenta (Brevo para português, MailerLite para inglês e espanhol)."""
+    t = C.AVISE[lang]
+    pagina = t["path"]
+    alternos = {l: C.AVISE[l]["path"] for l in IDIOMAS}
+    h = cabeca(lang, pagina, t["title"], t["desc"], alternos, ld_script(ld_breadcrumb([(T[lang]["home"], caminho_home(lang)), (t["h1"], pagina)])))
+    times = sorted({L(x["nome"], lang) for ev in eventos for x in ev.get("times", [])})
+    lista = "".join(f'<option value="{e(n)}"></option>' for n in times)
+    ops = '<option value="">—</option>' + "".join(f'<option value="{ev["slug"]}">{e(L(ev["titulo"], lang))}</option>' for ev in eventos)
+    itens = "".join(f"<li>{e(x)}</li>" for x in t["o_que"])
+    corpo = f"""
+<body>
+{topo(lang, pagina, alternos)}
+<main class="band">
+  <article class="wrap legal">
+    <nav class="crumbs crumbs-light" aria-label="Breadcrumb"><a href="{rel(pagina, caminho_home(lang))}">{e(T[lang]['home'])}</a><span aria-hidden="true">›</span><span>{e(t['h1'])}</span></nav>
+    <p class="kicker">{e(t['k'])}</p>
+    <h1>{e(t['h1'])}</h1>
+    <p class="lead">{e(t['lead'])}</p>
+    <form class="form" id="avise-form" novalidate data-endpoint="{e(AVISE_ENDPOINT)}" data-lang="{lang}" data-done="{e(t['ok'])}" data-soon="{e(t['soon'])}" data-fail="{e(t['fail'])}" data-sending="{e(t['enviando'])}" data-err="{e(t['err'])}">
+      <input type="text" name="site" id="v-honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+      <div class="row2">
+        <div class="field"><label for="v-email">{e(t['email'])}</label><input id="v-email" type="email" autocomplete="email" inputmode="email" placeholder="{e(t['ph_email'])}" required></div>
+        <div class="field"><label for="v-nome">{e(t['nome'])}</label><input id="v-nome" type="text" autocomplete="given-name" maxlength="60"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="v-time">{e(t['time'])}</label><input id="v-time" type="text" list="v-times" maxlength="60" placeholder="{e(t['ph_time'])}"><datalist id="v-times">{lista}</datalist></div>
+        <div class="field"><label for="v-cidade">{e(t['cidade'])}</label><input id="v-cidade" type="text" autocomplete="address-level2" maxlength="60" placeholder="{e(t['ph_cidade'])}"></div>
+      </div>
+      <div class="field"><label for="v-evento">{e(t['evento'])}</label><select id="v-evento">{ops}</select></div>
+      <label class="consent" for="v-consent"><input id="v-consent" type="checkbox"><span>{e(t['consent'])}</span></label>
+      <div><button class="btn btn-signal" data-magnetic type="submit"><span class="mag-inner">{e(t['enviar'])}</span></button></div>
+      <p class="form-msg" id="avise-msg" role="status" aria-live="polite"></p>
+    </form>
+    <h2>{e(t['o_que_h'])}</h2>
+    <ul>{itens}</ul>
+    <p class="disclose">{e(t['priv'])} <a href="{rel(pagina, PRIV[lang]['path'])}">{PRIV[lang]['link']}</a></p>
+  </article>
+</main>
+<script src="{rel(pagina, 'assets/avise.js')}{versao('assets/avise.js')}" defer></script>
+"""
+    return h + corpo + rodape(lang, pagina, alternos)
+
+
 ROTULOS_CAT = {
  "pt": {"ev": "Eventos com página", "comp": "Ligas e campeonatos", "teams": "Times", "cities": "Cidades", "music": "Artistas", "sports": "Esportes",
         "home": "Catálogo completo do parceiro", "date": "Data", "venue": "Local", "guide": "Guia no site", "tickets": "Ingressos"},
@@ -2640,6 +2689,7 @@ def main():
         grupos["paginas"].append(anotar(escrever(PRIV[lang]["path"], privacidade(lang), manifesto, hoje), {l: PRIV[l]["path"] for l in IDIOMAS}))
         grupos["paginas"].append(anotar(escrever(C.COMO_FUNCIONA[lang]["path"], como_funciona(lang), manifesto, hoje), {l: C.COMO_FUNCIONA[l]["path"] for l in IDIOMAS}))
         grupos["paginas"].append(anotar(escrever(C.DIVULGACAO[lang]["path"], divulgacao(lang), manifesto, hoje), {l: C.DIVULGACAO[l]["path"] for l in IDIOMAS}))
+        grupos["paginas"].append(anotar(escrever(C.AVISE[lang]["path"], avise(lang, eventos), manifesto, hoje), {l: C.AVISE[l]["path"] for l in IDIOMAS}))
         grupos["guias"].append(anotar(escrever(C.GUIA[lang]["path"], guia(lang, eventos, hubs), manifesto, hoje), {l: C.GUIA[l]["path"] for l in IDIOMAS}))
         grupos["guias"].append(anotar(escrever(C.GUIA_BARCA[lang]["path"], guia_barca(lang, eventos), manifesto, hoje), {l: C.GUIA_BARCA[l]["path"] for l in IDIOMAS}))
         if artigos_todos():

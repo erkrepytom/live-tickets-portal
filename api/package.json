@@ -1,0 +1,8 @@
+{
+  "name": "mytickets-api",
+  "private": true,
+  "description": "Funções do mytickets.tours (Azure Static Web Apps). Sem dependências: usa o fetch do Node 20.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
