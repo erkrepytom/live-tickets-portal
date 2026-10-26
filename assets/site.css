@@ -607,3 +607,10 @@ html{scroll-padding-top:120px}
 .grupo-txt span{font-size:13px;color:var(--mut)}
 .grupo-cta{margin-left:auto;font:700 12px/1 var(--f-mono);letter-spacing:.1em;color:#52637A;white-space:nowrap}
 .grupo:hover .grupo-cta{color:#0F2236}
+
+/* Aviso de evento já encerrado: a página continua no ar, mas não promete ingresso. */
+.ev-fim{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1rem;margin:1rem 0 0;padding:.85rem 1.1rem;
+  border:1px solid var(--line,#d8d2c6);border-left:4px solid var(--accent,#b4603a);border-radius:10px;
+  background:var(--card,#faf8f4)}
+.ev-fim strong{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.ev-fim p{margin:0;flex:1 1 18rem;font-size:.95rem}

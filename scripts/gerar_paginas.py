@@ -447,6 +447,10 @@ def destino_parceiro(pk, lang, ev):
 
 
 def opcoes_compra(lang, ev):
+    # Evento encerrado não oferece ingresso: manter o botão contradiria o aviso no topo
+    # da própria página, e mandaria a pessoa a um checkout que não serve para nada.
+    if ev.get("encerrado"):
+        return []
     return [(pk, p, destino_parceiro(pk, lang, ev)) for pk, p in C.parceiros_ativos("evento") if destino_parceiro(pk, lang, ev)]
 
 
@@ -1658,6 +1662,47 @@ if(!b||!("IntersectionObserver" in window)){{go(0);return}}var io=new Intersecti
     return h + corpo + rodape(lang, pagina, alternos)
 
 
+ENCERRADO = {
+ "pt": {"tag": "Evento encerrado", "txt": "Este evento aconteceu em {d}. Os ingressos não estão mais à venda.",
+        "cta_comp": "Ver o próximo evento de {c}", "cta_geral": "Ver os próximos eventos"},
+ "en": {"tag": "Event over", "txt": "This event took place on {d}. Tickets are no longer on sale.",
+        "cta_comp": "See the next {c} event", "cta_geral": "See upcoming events"},
+ "es": {"tag": "Evento finalizado", "txt": "Este evento ocurrió el {d}. Las entradas ya no están a la venta.",
+        "cta_comp": "Ver el próximo evento de {c}", "cta_geral": "Ver los próximos eventos"},
+}
+
+
+def proximo_da_competicao(ev, eventos):
+    """Próximo evento por vir e se ele é da MESMA competição.
+
+    Devolve (evento, mesma_competicao). O segundo valor importa: sem ele o rótulo
+    prometia "o próximo de La Liga" apontando para um jogo da Serie A."""
+    mesma = [x for x in eventos if x["tipo"] != "concert" and ev["tipo"] != "concert"
+             and L(x["competicao"]["nome"], "en") == L(ev["competicao"]["nome"], "en")]
+    if mesma:
+        return mesma[0], True
+    resto = [x for x in eventos if x["tipo"] == ev["tipo"]] or list(eventos)
+    return (resto[0] if resto else None), False
+
+
+def bloco_encerrado(lang, ev, eventos, pagina):
+    """Aviso no topo de um evento que já passou.
+
+    A página continua no ar porque costuma ter busca depois do jogo, mas deixa de
+    afirmar que há ingresso à venda — para uma pessoa e para um assistente com IA,
+    que leria o contrário como erro factual da fonte."""
+    if not ev.get("encerrado"):
+        return ""
+    x = ENCERRADO[lang]
+    prox, mesma = proximo_da_competicao(ev, eventos)
+    rotulo = x["cta_comp"].format(c=L(ev["competicao"]["nome"], lang)) if (prox and mesma) else x["cta_geral"]
+    destino = caminho_evento(lang, prox["slug"]) if prox else caminho_home(lang)
+    return (f'<div class="wrap"><aside class="ev-fim" role="note">'
+            f'<strong>{e(x["tag"])}</strong>'
+            f'<p>{e(x["txt"].format(d=data_longa(ev["data"], lang)))}</p>'
+            f'<a class="btn btn-sm" href="{rel(pagina, destino)}">{e(rotulo)}</a></aside></div>')
+
+
 def ld_evento(lang, ev, pagina):
     """JSON-LD de Event no formato que o Google Eventos lê: local com endereço e geo, país ISO,
     participantes, organizador e oferta apontando para o checkout do parceiro (sem preço inventado)."""
@@ -1683,6 +1728,10 @@ def ld_evento(lang, ev, pagina):
           "offers": {"@type": "Offer", "url": parceiro(lang, f"/event/{ev['id']}"), "availability": "https://schema.org/InStock",
                      "validFrom": ev.get("conferido", C.PARCEIRO["conferido"]),
                      "seller": {"@type": "Organization", "name": "SportsEvents365", "url": "https://sportsevents365.com/"}}}
+    if ev.get("encerrado"):
+        # evento passado não tem ingresso à venda: afirmar InStock seria falso
+        ld.pop("offers", None)
+        return ld
     pr = preco_atual(ev, lang)
     if pr:  # preço real do parceiro, o mesmo que aparece visível na página
         # A página diz "a partir de", ou seja um mínimo entre vários lotes — então o tipo
@@ -1890,15 +1939,24 @@ def evento(lang, ev, eventos, hubs):
     cp = C.COMPRAR[lang]
     passos = "".join(f"<li>{e(x.format(d=dlonga, h=hora_txt, tel=C.PARCEIRO['emergencia']))}</li>" for x in cp["passos"])
     faq_html = "".join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(a)}</p>'
-                       + (f'<p class="faq-link">{lk} <span aria-hidden="true">→</span></p>' if lk else "") + '</details>' for q, a, lk in faq)
+                       + (f'<p class="faq-link">{lk} <span aria-hidden="true">→</span></p>' if (lk and not ev.get("encerrado")) else "") + '</details>' for q, a, lk in faq)
     conferido = rt["conferido"].format(conf=data_num(ev["conferido"], lang)) if ev.get("conferido") else t["date_note"]
     crumbs_mid = "".join(f'<a href="{rel(pagina, cam)}">{e(nome)}</a><span aria-hidden="true">›</span>' for nome, cam in trilha[1:-1]) \
         or f'<a href="{rel(pagina, caminho_home(lang))}#partidas">{e(t["events"])}</a><span aria-hidden="true">›</span>'
     ingresso = link_ingresso(pagina, ev)
+    # Um único ponto decide se a página oferece ingresso. Evento encerrado não oferece.
+    botao_ingresso = "" if ev.get("encerrado") else mag(ingresso, e(t["ev_cta"]))
+    barra_compra = "" if ev.get("encerrado") else (
+        '<div class="buybar" id="buybar" aria-hidden="true"><div class="wrap">\n'
+        f'  <div class="buybar-info"><strong>{e(titulo)}</strong><span>{e(data_curta(ev["data"], lang))}'
+        f'{(" · " + e(ev["hora"])) if ev.get("hora") else ""} · {e(C.local_curto(ev["local"]))}</span></div>\n'
+        f'  {mag(ingresso, e(t["cta"]), "btn btn-signal btn-sm", seta=False)}\n'
+        '</div></div>')
     corpo = f"""
 <body>
 {topo(lang, pagina, alternos)}
 <main>
+{bloco_encerrado(lang, ev, eventos, pagina)}
 <section class="ev-hero" data-parallax aria-labelledby="ev-h">
   <div class="layer l-photo photo" data-depth="0.15" style="{bg(ev.get('banner', ev['img']), 1800, pagina, 'opacity:.55')}"></div>
   <div class="layer l-shade"></div>
@@ -1916,7 +1974,7 @@ def evento(lang, ev, eventos, hubs):
       {fato_venda(lang, ev)}
     </dl>
     <div class="ev-cta">
-      {mag(ingresso, e(t['ev_cta']))}
+      {botao_ingresso}
     </div>
     <p class="disclose">{e(C.LEGAL[lang]['face'])} {e(t['aff_note'])} {e(conferido)} <a href="{rel(pagina, C.DIVULGACAO[lang]['path'])}">{e(C.LEGAL[lang]['pagina_link'].capitalize())}</a></p>
   </div>
@@ -1953,7 +2011,7 @@ def evento(lang, ev, eventos, hubs):
       </div>
       <div class="tips">
         <div><h2>{e(t['also'])}</h2><ul>{tambem_html}</ul></div>
-        <div class="ev-cta" style="align-self:end">{mag(ingresso, e(t['ev_cta']))}</div>
+        <div class="ev-cta" style="align-self:end">{botao_ingresso}</div>
       </div>
     </div>
   </div>
@@ -1968,10 +2026,7 @@ def evento(lang, ev, eventos, hubs):
 </section>
 {alertas(lang, eventos, ev['slug'])}
 </main>
-<div class="buybar" id="buybar" aria-hidden="true"><div class="wrap">
-  <div class="buybar-info"><strong>{e(titulo)}</strong><span>{e(data_curta(ev['data'], lang))}{(' · ' + e(ev['hora'])) if ev.get('hora') else ''} · {e(C.local_curto(ev['local']))}</span></div>
-  {mag(ingresso, e(t['cta']), 'btn btn-signal btn-sm', seta=False)}
-</div></div>
+{barra_compra}
 """
     return h + corpo + rodape(lang, pagina, alternos)
 
@@ -2399,6 +2454,11 @@ def main():
     dados = json.loads((RAIZ / "data" / "eventos.json").read_text(encoding="utf-8"))
     hoje = dt.date.today().isoformat()
     eventos = sorted([x for x in dados["eventos"] if x["data"] >= hoje], key=lambda x: x["data"])
+    # Eventos passados continuam ganhando página — com aviso de encerrado e sem oferta.
+    # Ficam fora do sitemap, mas deixam de afirmar que há ingresso para um jogo que já foi.
+    encerrados = sorted([x for x in dados["eventos"] if x["data"] < hoje], key=lambda x: x["data"], reverse=True)
+    for x in encerrados:
+        x["encerrado"] = True
     try:
         noticias = json.loads((RAIZ / "dados.json").read_text(encoding="utf-8")).get("paises", [])
     except (OSError, ValueError):
@@ -2424,6 +2484,8 @@ def main():
             grupo = "shows" if ev["tipo"] == "concert" else "esportes"
             grupos[grupo].append(anotar(escrever(caminho_evento(lang, ev["slug"]), evento(lang, ev, eventos, hubs), manifesto, hoje),
                                         {l: caminho_evento(l, ev["slug"]) for l in IDIOMAS}, foto_abs(ev.get("banner", ev["img"]))))
+        for ev in encerrados:  # reescreve a página do que já passou; fora do sitemap de propósito
+            escrever(caminho_evento(lang, ev["slug"]), evento(lang, ev, eventos, hubs), manifesto, hoje)
         for g in hubs.values():
             grupos["guias"].append(anotar(escrever(caminho_hub(lang, g), hub(lang, g, eventos, hubs), manifesto, hoje),
                                           {l: caminho_hub(l, g) for l in IDIOMAS}))
