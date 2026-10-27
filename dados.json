@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-27T19:29:22+00:00",
+ "atualizado": "2026-10-27T23:50:34+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Chances de Grêmio e Inter se salvarem juntos do rebaixamento aumenta; veja números",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/27/chances-de-gremio-e-inter-se-salvarem-juntos-do-rebaixamento-aumenta-veja-numeros.ghtml",
+     "t": "Grêmio e Inter voltarão a ter o mesmo patrocínio máster até o fim do ano; saiba mais",
+     "u": "https://ge.globo.com/rs/futebol/noticia/2026/10/27/gremio-e-inter-voltarao-a-ter-o-mesmo-patrocinio-master-ate-o-fim-do-ano-saiba-mais.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-10-2026/atletico-mg-cruzeiro.ghtml",
+     "t": "Palmeiras é citado em processo de Flamengo e Estudiantes por final da Libertadores; entenda",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-citado-processo-libertadores-flamengo-estudiantes/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Dirigente do Estudiantes rebate fala de técnico do Flamengo sobre final da Libertadores",
+     "u": "https://www.gazetaesportiva.com/times/flamengo/dirigente-do-estudiantes-rebate-fala-de-tecnico-do-flamengo-sobre-final-da-libertadores/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Atlético Santa Rita x Cruzeiro-PB - Campeonato Paraibano Segunda Divisão 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/pb/futebol/paraibano-segunda-divisao/jogo/27-10-2026/atletico-santa-rita-cruzeiro-pb.ghtml",
      "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Bastidores: a noite memorável do PSG contra o Barcelona na Liga dos Campeões",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/bastidores-a-noite-memoravel-do-psg-contra-o-barcelona-na-liga-dos-campeoes/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Ex-América-MG, lateral Arthur completa 50 jogos na Bundesliga em alta",
-     "u": "https://www.gazetaesportiva.com/times/america-mg/arthur-50-jogos-bundesliga-werder-bremen/",
-     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -51,20 +51,20 @@
      "alta": false
     },
     {
-     "t": "Knicks vs. Pistons prediction, odds, time: 2026 NBA picks for Tuesday, Oct. 27 from advanced model",
-     "u": "https://www.cbssports.com/betting/news/knicks-pistons-prediction-odds-time-2026-nba-picks-bets-tuesday-october-27/",
+     "t": "Pistons vs. Knicks prediction, odds, betting preview, start time: NBA picks, best bets on Tuesday, Oct. 27",
+     "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-prediction-odds-betting-preview-start-time-nba-picks-best-bets-tuesday-oct-27/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NFL trade deadline preview: Seahawks go ALL-IN + 6 trades we want to see feat. Gregg Rosenthal",
-     "u": "https://sports.yahoo.com/nfl/article/nfl-trade-deadline-preview-seahawks-go-all-in--6-trades-we-want-to-see-feat-gregg-rosenthal-192234691.html",
+     "t": "ESPN’s NFL Wild Card game day still undecided, TGL schedule shows",
+     "u": "https://sports.yahoo.com/articles/espn-nfl-wild-card-game-233026556.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "theScore Bet Promo Code YAHOOBONUS: $1,000 Bet Reset for NBA and World Series Game 4",
-     "u": "https://sports.yahoo.com/betting/promos/article/thescore-bet-promo-code-yahoobonus-1000-bet-reset-for-nba-and-world-series-game-4-191800347.html",
+     "t": "2026 NFL trade deadline tracker: Grades, analysis and details from every key deal",
+     "u": "https://sports.yahoo.com/nfl/article/2026-nfl-trade-deadline-tracker-grades-analysis-and-details-from-every-key-deal-233619744.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "FC Porto, Benfica e Sporting já conhecem os adversários na Taça de Portugal",
-     "u": "https://www.abola.pt/noticias/fc-porto-benfica-e-sporting-ja-conhecem-os-adversarios-na-taca-de-portugal-2026102611385702956",
+     "t": "Drone interrompe jogo do Arsenal na Taça da Liga inglesa (vídeo)",
+     "u": "https://www.abola.pt/noticias/drone-interrompe-jogo-do-arsenal-na-taca-da-liga-inglesa-video-2026102720250236817",
      "f": "A Bola",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "A diferença de FC Porto para Benfica e Sporting na Liga está na baliza",
-     "u": "https://www.abola.pt/video/a-diferenca-de-fc-porto-para-benfica-e-sporting-na-liga-esta-na-baliza-2026102519184113555",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "O onze do Sporting para o jogo contra o Marítimo",
-     "u": "https://www.record.pt/futebol/futebol-nacional/allianz-cup/detalhe/o-onze-do-sporting-para-o-jogo-contra-o-maritimo",
+     "t": "Carvajal não esquece Real Madrid: «Há dias em que quase me engano na saída e vou para Valdebebas»",
+     "u": "https://www.record.pt/internacional/paises/espanha/getafe/detalhe/carvajal-nao-esquece-real-madrid-ha-dias-em-que-quase-me-engano-na-saida-e-vou-para-valdebebas",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Atenção, Sporting: Shakhtar Donetsk vence Dínamo Kiev e avança para os 'quartos' da Taça da Ucrânia",
-     "u": "https://www.record.pt/internacional/detalhe/atencao-sporting-shakhtar-donetsk-vence-dinamo-kiev-e-avanca-para-os-quartos-da-taca-da-ucrania",
+     "t": "Greves e manifestações em França antecipam Rennes-Olympiacos",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/greves-e-manifestacoes-em-franca-antecipam-rennes-olympiacos",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Benfica vai iniciar Youth League: Vinha quer «manto sagrado em campo»",
+     "u": "https://www.abola.pt/noticias/benfica-vai-iniciar-youth-league-vinha-quer-manto-sagrado-em-campo-2026102718562207625",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -116,17 +116,17 @@
      "t": "Estremecedora lesión de tobillo de Jalen Williams en el duelo español entre Aday Mara y Baba Miller en la NBA",
      "u": "https://www.marca.com/baloncesto/nba/2026/10/26/estremecedora-lesion-tobillo-jalen-williams-duelo-espanol-aday-mara-baba-miller-nba-video.html",
      "f": "Marca",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Vincent Garcia, redactor jefe de France Football: “Rodri le ha restado votos a Lamine\"",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261027/1004243802/vincent-garcia-rodri-le-restado-votos-lamine-yamal.html",
+     "t": "86-104: El Real Madrid más ofensivo suma y sigue ante el colista Baskonia",
+     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261027/1004243985/cronica-baskonia-real-madrid.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Bayern - Barça, en directo",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261027/1004243956/bayern-barcelona-partido-baloncesto-hoy-en-directo-euroliga-ext-pau.html",
+     "t": "84-88: El Barça sobrevive a los contratiempos para ganar en Múnich",
+     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261027/1004243995/84-88-barca-sobrevive-contratiempos-ganar-munich.html",
      "f": "Mundo Deportivo",
      "alta": false
     }
@@ -141,26 +141,26 @@
    },
    "noticias": [
     {
-     "t": "Carrick given chance to save job as he stays for Manchester United’s game at Chelsea",
-     "u": "https://www.theguardian.com/football/2026/oct/27/manchester-united-eddie-howe-newcastle-compensation-michael-carrick",
+     "t": "Barcelona fined £503 over their approach for Atlético Madrid star Álvarez",
+     "u": "https://www.theguardian.com/football/2026/oct/27/barcelona-fined-503-over-their-approach-for-atletico-madrid-star-alvarez",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
-     "u": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
+     "t": "Australia fight back in rollercoaster start to deciding Test against South Africa",
+     "u": "https://www.theguardian.com/sport/2026/oct/27/australia-fightback-in-rollercoaster-start-to-deciding-test-against-south-africa",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Starc sparks Australia recovery as South Africa stumble after fast start",
-     "u": "https://www.skysports.com/cricket/news/12040/13604459/south-africa-vs-australia-third-test-mitchell-starc-bags-six-wicket-haul-as-visitors-fight-back-in-series-decider",
-     "f": "Sky Sports",
+     "t": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cq62y7yzjdmzo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Arsenal latest: He's starting at Fleetwood, but who is Ceadach O'Neill?",
-     "u": "https://www.skysports.com/football/live-blog/12040/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+     "t": "Arsenal dumped out of Carabao Cup by League Two Fleetwood",
+     "u": "https://www.skysports.com/football/fleetwood-town-vs-arsenal/report/578610",
      "f": "Sky Sports",
      "alta": false
     }
@@ -175,26 +175,26 @@
    },
    "noticias": [
     {
-     "t": "Franco Colapinto no correrá la primera práctica libre del Gran Premio de México de la Fórmula 1: los motivos",
-     "u": "https://www.infobae.com/deportes/2026/10/27/franco-colapinto-no-correra-la-primera-practica-libre-del-gran-premio-de-mexico-de-la-formula-1-los-motivos/",
+     "t": "Oficial: Nicolás Ramírez dirigirá el Superclásico entre Boca y River en La Bombonera",
+     "u": "https://www.infobae.com/deportes/2026/10/27/oficial-nicolas-ramirez-dirigira-el-superclasico-entre-boca-y-river-en-la-bombonera/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Batacazo: Arsenal fue eliminado por un equipo de Cuarta División en los penales y quedó afuera de la Copa de la Liga",
+     "u": "https://www.infobae.com/deportes/2026/10/27/batacazo-arsenal-fue-eliminado-por-un-equipo-de-cuarta-division-en-los-penales-y-quedo-afuera-de-la-copa-de-la-liga/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "La revelación de una joven figura del tenis tras el inesperado encuentro con la ex novia de un piloto de F1: “Empecé a ponerme nervioso”",
-     "u": "https://www.infobae.com/deportes/2026/10/27/la-revelacion-de-una-joven-figura-del-tenis-tras-el-inesperado-encuentro-con-la-ex-novia-de-un-piloto-de-f1-empece-a-ponerme-nervioso/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "El Bayern recibió a Harry Kane tras ganar su primer Balón de Oro y transformó el Allianz Arena con un dorado",
-     "u": "https://www.ole.com.ar/futbol-internacional/harry-kane-recibida-bayern-munich-balon-oro_0_Py8c0ZTvvb.html",
+     "t": "Real Madrid y Facundo Campazzo no paran: quinta victoria al hilo en la Euroliga tras aplastar a Baskonia",
+     "u": "https://www.ole.com.ar/basquet/realmadrid-facundocampazzo-euroliga-baskonia-leandrobolmaro-gonzalocorbalan_0_MI9rseLtPw.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Messi Cup con Boca, River y Newell's: todos los resultados, tablas y cómo sigue el torneo",
-     "u": "https://www.ole.com.ar/messi/messi-cup-partidos-resultados-fixture-river-boca-newells_0_w43w8rlkub.html",
+     "t": "Empieza la venta de entradas para la final: cuándo pueden comprar los hinchas de Boca",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-mineiro-copa-sudamericana-entradas_0_mSHlJ3bHWn.html",
      "f": "Olé",
      "alta": false
     }
@@ -231,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Félix Lebrun s'impose facilement au premier tour du Champions de Montpellier",
-     "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Felix-lebrun-s-impose-facilement-au-premier-tour-du-champions-de-montpellier/1739117#at_medium=RSS_feeds",
+     "t": "Côme punit le Torino en fin de match, l'AS Rome se rapproche de l'Inter Milan en Serie A",
+     "u": "https://www.lequipe.fr/Football/Actualites/Come-punit-le-torino-en-fin-de-match-l-as-rome-se-rapproche-de-l-inter-milan-en-serie-a/1739175#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "ATP 500 de Vienne : Adrian Mannarino renverse Ignacio Buse et Carlos Alcaraz écarte Karen Khachanov après un match disputé au premier tour",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/Atp-500-de-vienne-adrian-mannarino-renverse-ignacio-buse-et-carlos-alcaraz-ecarte-karen-khachanov-apres-un-match-dispute-au-premier-tour/1739114#at_medium=RSS_feeds",
+     "t": "Battu par Jiri Lehecka au premier tour de l'ATP 500 de Bâle, Stan Wawrinka est désormais à la retraite",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Battu-par-jiri-lehecka-au-premier-tour-de-l-atp-500-de-bale-stan-wawrinka-est-desormais-a-la-retraite/1739178#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,8 +247,8 @@
  ],
  "destaques": [
   {
-   "t": "Chances de Grêmio e Inter se salvarem juntos do rebaixamento aumenta; veja números",
-   "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/10/27/chances-de-gremio-e-inter-se-salvarem-juntos-do-rebaixamento-aumenta-veja-numeros.ghtml",
+   "t": "Grêmio e Inter voltarão a ter o mesmo patrocínio máster até o fim do ano; saiba mais",
+   "u": "https://ge.globo.com/rs/futebol/noticia/2026/10/27/gremio-e-inter-voltarao-a-ter-o-mesmo-patrocinio-master-ate-o-fim-do-ano-saiba-mais.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
@@ -261,31 +261,31 @@
    "pais": "US"
   },
   {
-   "t": "FC Porto, Benfica e Sporting já conhecem os adversários na Taça de Portugal",
-   "u": "https://www.abola.pt/noticias/fc-porto-benfica-e-sporting-ja-conhecem-os-adversarios-na-taca-de-portugal-2026102611385702956",
+   "t": "Drone interrompe jogo do Arsenal na Taça da Liga inglesa (vídeo)",
+   "u": "https://www.abola.pt/noticias/drone-interrompe-jogo-do-arsenal-na-taca-da-liga-inglesa-video-2026102720250236817",
    "f": "A Bola",
-   "alta": false,
+   "alta": true,
    "pais": "PT"
   },
   {
    "t": "Estremecedora lesión de tobillo de Jalen Williams en el duelo español entre Aday Mara y Baba Miller en la NBA",
    "u": "https://www.marca.com/baloncesto/nba/2026/10/26/estremecedora-lesion-tobillo-jalen-williams-duelo-espanol-aday-mara-baba-miller-nba-video.html",
    "f": "Marca",
-   "alta": true,
+   "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Carrick given chance to save job as he stays for Manchester United’s game at Chelsea",
-   "u": "https://www.theguardian.com/football/2026/oct/27/manchester-united-eddie-howe-newcastle-compensation-michael-carrick",
+   "t": "Barcelona fined £503 over their approach for Atlético Madrid star Álvarez",
+   "u": "https://www.theguardian.com/football/2026/oct/27/barcelona-fined-503-over-their-approach-for-atletico-madrid-star-alvarez",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Franco Colapinto no correrá la primera práctica libre del Gran Premio de México de la Fórmula 1: los motivos",
-   "u": "https://www.infobae.com/deportes/2026/10/27/franco-colapinto-no-correra-la-primera-practica-libre-del-gran-premio-de-mexico-de-la-formula-1-los-motivos/",
+   "t": "Oficial: Nicolás Ramírez dirigirá el Superclásico entre Boca y River en La Bombonera",
+   "u": "https://www.infobae.com/deportes/2026/10/27/oficial-nicolas-ramirez-dirigira-el-superclasico-entre-boca-y-river-en-la-bombonera/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -296,8 +296,8 @@
    "pais": "IT"
   },
   {
-   "t": "Félix Lebrun s'impose facilement au premier tour du Champions de Montpellier",
-   "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Felix-lebrun-s-impose-facilement-au-premier-tour-du-champions-de-montpellier/1739117#at_medium=RSS_feeds",
+   "t": "Côme punit le Torino en fin de match, l'AS Rome se rapproche de l'Inter Milan en Serie A",
+   "u": "https://www.lequipe.fr/Football/Actualites/Come-punit-le-torino-en-fin-de-match-l-as-rome-se-rapproche-de-l-inter-milan-en-serie-a/1739175#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
