@@ -19,7 +19,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Venue: San Siro (Giuseppe Meazza), Piazzale Angelo Moratti, Milan, Italy
 - Competition: Serie A
 - Teams: AC Milan vs Inter
-- Lowest price seen at the partner: US$ 251 (checked 2026-10-27; prices change)
+- Lowest price seen at the partner: US$ 208 (checked 2026-10-27; prices change)
 - About: The Milan derby (Derby della Madonnina) in Serie A. Both clubs share San Siro, and the city stops on match day.
 - Getting there: Metro M5 to San Siro Stadio station, next to the stadium. Tram 16 also stops at the square in front of the stadium.
 - Guide pages: pt-BR https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/, en https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/, es https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/
@@ -62,7 +62,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Venue: Camp Nou, C. d'Arístides Maillol, 12, Barcelona, Spain
 - Competition: UEFA Champions League
 - Teams: FC Barcelona vs Manchester City
-- Lowest price seen at the partner: US$ 483 (checked 2026-10-27; prices change)
+- Lowest price seen at the partner: US$ 525 (checked 2026-10-27; prices change)
 - About: Champions League night at Camp Nou: Barcelona host Manchester City.
 - Getting there: Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal. Champions League games are on weeknights. Book a hotel near a metro line.
 - Guide pages: pt-BR https://mytickets.tours/eventos/barcelona-vs-manchester-city-2026-12-08/, en https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/, es https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/
