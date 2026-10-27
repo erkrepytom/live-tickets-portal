@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-27T00:33:56+00:00",
+ "atualizado": "2026-10-27T06:24:59+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Cuiabá perde do América-MG e vê chance de acesso à Série A diminuir",
-     "u": "https://www.gazetaesportiva.com/times/cuiaba/cuiaba-perde-do-america-mg-e-ve-chance-de-acesso-a-serie-a-diminuir/",
+     "t": "Flamengo bate Atlético-MG com gol no fim e tira Palmeiras da liderança",
+     "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-bate-atletico-mg-com-gol-no-fim-e-tira-palmeiras-da-lideranca/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "América vence 2ª partida seguida na Série B e complica Cuiabá na Série B",
-     "u": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-serie-b/jogo/26-10-2026/america-mg-cuiaba.ghtml",
-     "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Flamengo x Atlético-MG - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/26-10-2026/flamengo-atletico-mg.ghtml",
+     "t": "Flamengo garante vaga na Libertadores de 2027 após vitória sobre o Atlético-MG",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/26/flamengo-garante-vaga-na-libertadores-de-2027-apos-vitoria-sobre-o-atletico-mg.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Flamengo x Atlético-MG: veja fotos do jogo pelo Brasileirão",
-     "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-x-atletico-mg-veja-fotos-do-jogo-pelo-brasileirao/",
+     "t": "Palmeiras e Flamengo já garantem classificação para a Libertadores de 2027",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-e-flamengo-ja-garantem-classificacao-para-a-libertadores-de-2027/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Flamengo vence Atlético-MG com gol nos acréscimos e mantém liderança do Brasileirão",
+     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/26-10-2026/flamengo-atletico-mg.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,21 +45,21 @@
    },
    "noticias": [
     {
-     "t": "France Football chief hints at small margin between Harry Kane and Kylian Mbappé in Ballon d’Or race",
-     "u": "https://sports.yahoo.com/articles/france-football-chief-hints-small-002300268.html",
+     "t": "Tiny HB Køge faces mighty Barcelona, City hosts PSG in Women's Champions League",
+     "u": "https://sports.yahoo.com/articles/tiny-hb-k-ge-faces-060834142.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Cowboys-Eagles on Monday Night Football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-cowboys-eagles-on-monday-night-football/",
+     "t": "Manchester City owner Sheikh Mansour pumps extra £100m into club despite Premier League guilty verdict",
+     "u": "https://sports.yahoo.com/articles/manchester-city-owner-sheikh-mansour-061902094.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Who will Jay-Z bring out for the 2027 Super Bowl halftime show? Four possible guests",
+     "u": "https://www.cbssports.com/nfl/news/2027-super-bowl-halftime-special-guests-jay-z/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "The Old Lady Speaks Podcast, Episode 361: Juventus get a long-awaited win in Serie A",
-     "u": "https://sports.yahoo.com/articles/old-lady-speaks-podcast-episode-002051568.html",
-     "f": "Yahoo Sports",
      "alta": false
     },
     {
@@ -82,23 +82,23 @@
      "t": "Luís Tralhão reage ao sorteio da Taça de Portugal: «Já foi Sporting e FC Porto, só faltava o Benfica»",
      "u": "https://www.record.pt/futebol/futebol-nacional/2--liga/torreense/detalhe/luis-tralhao-reage-ao-sorteio-da-taca-de-portugal-ja-foi-sporting-e-fc-porto-so-faltava-o-benfica",
      "f": "Record",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Mundial sub-15: Portugal perde com o País de Gales e desce para segundo lugar",
-     "u": "https://www.record.pt/futebol/selecoes/sub15/detalhe/mundial-sub-15-portugal-perde-com-o-pais-de-gales-e-desce-para-segundo-lugar",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Mateus Fernandes na corrida a melhor jogador da jornada da Premier League",
-     "u": "https://www.abola.pt/noticias/mateus-fernandes-na-corrida-a-melhor-jogador-da-jornada-da-premier-league-2026102614461748300",
+     "t": "Taça de Portugal: passado sorri a FC Porto e Benfica, Sporting no desconhecido",
+     "u": "https://www.abola.pt/noticias/taca-de-portugal-passado-sorri-a-fc-porto-e-benfica-sporting-no-desconhecido-2026102614005536814",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Sporting: «Quem decidiu esta razia tem de ser responsabilizado»",
-     "u": "https://www.abola.pt/noticias/sporting-quem-decidiu-esta-razia-tem-de-ser-responsabilizado-2026102615143477871",
+     "t": "Zé Carlos avança frente ao Benfica",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/gil-vicente/detalhe/ze-carlos-avanca-frente-ao-benfica",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Kane não esquece o Tottenham e Mourinho: «Era um sonho meu»",
+     "u": "https://www.abola.pt/noticias/kane-nao-esquece-o-tottenham-e-mourinho-era-um-sonho-meu-2026102623345709518",
      "f": "A Bola",
      "alta": false
     }
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "Así queda la clasificación de LaLiga tras el Clásico",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261025/1004243111/asi-aprieta-clasificacion-laliga-derrota-barca.html",
+     "t": "Hugo González, brutal: resurge como el Real Madrid en medio de una guerra",
+     "u": "https://www.mundodeportivo.com/baloncesto/nba/20261027/1004243662/hugo-gonzalez-brutal-resurge-real-madrid-medio-guerra.html",
      "f": "Mundo Deportivo",
      "alta": false
     }
@@ -141,10 +141,10 @@
    },
    "noticias": [
     {
-     "t": "Ballon d'Or winner Kane's best Bundesliga goals",
-     "u": "https://www.bbc.co.uk/sport/football/videos/cmd93gqn8119o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": true
+     "t": "'Lots to take away' - Hamilton reveals area he's 'lost out' to Leclerc",
+     "u": "https://www.skysports.com/f1/news/12040/13603997/lewis-hamilton-reveals-hes-lost-out-in-recent-f1-races-with-set-up-of-his-ferrari-car-compared-to-charles-leclerc",
+     "f": "Sky Sports",
+     "alta": false
     },
     {
      "t": "WSL talking points: Russo to Arsenal’s rescue and Olid makes Manchester United progress",
@@ -175,6 +175,18 @@
    },
    "noticias": [
     {
+     "t": "Atento Boca: Atlético Mineiro perdió con Flamengo",
+     "u": "https://www.ole.com.ar/futbol-internacional/boca-atleticomineiro-copasudamericana-flamengo-brasileirao-eduardodominguez_0_adNZtTmadC.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "El técnico de Flamengo cree que jugará la final de la Copa Libertadores",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/flamengo-leonardojardim-copalibertadores-conmebol-marcosrojo-estudiantes-recurso_0_QcGlnxvqwe.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Lewis Hamilton reveló detalles de su relación con Kim Kardashian frente a los fanáticos de la F1: el especial regalo para sus hijos",
      "u": "https://www.infobae.com/deportes/2026/10/26/lewis-hamilton-revelo-detalles-de-su-relacion-con-kim-kardashian-frente-a-los-fanaticos-de-la-f1-el-especial-regalo-para-sus-hijos/",
      "f": "Infobae",
@@ -184,18 +196,6 @@
      "t": "La respuesta de Franco Colapinto tras la burla del presentador británico que invitó Alpine al Gran Premio de EEUU de la F1: \"No tiene nada que ver\"",
      "u": "https://www.infobae.com/deportes/2026/10/26/la-respuesta-de-franco-colapinto-tras-la-burla-del-presentador-britanico-que-invito-alpine-al-gran-premio-de-eeuu-de-la-f1-no-tiene-nada-que-ver/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Kane: de la lección de Maradona a cuando Messi lo dejó pagando en el Mundial",
-     "u": "https://www.ole.com.ar/messi/messi-kane-maradona-balondeoro-bayern_0_o5Ace50JuC.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Cueste lo que cueste: todo lo que Boca y River ponen en juego en el Súper del domingo",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-river-superclasico-copalibertadores-torneoclausura-tablaanual-xeneize-vascoarruabarrena-leandroparedes_0_8IHdN2IR94.html",
-     "f": "Olé",
      "alta": false
     }
    ]
@@ -231,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Loin derrière le FC Barcelone et le Real Madrid, où se situe le Bayern Munich parmi les clubs comptant le plus de Ballons d'Or ?",
-     "u": "https://www.lequipe.fr/Football/Actualites/Loin-derriere-le-fc-barcelone-et-le-real-madrid-ou-se-situe-le-bayern-munich-parmi-les-clubs-comptant-le-plus-de-ballons-d-or/1738939#at_medium=RSS_feeds",
+     "t": "Le résumé vidéo de Denver Nuggets - Golden State Warriors",
+     "u": "https://www.lequipe.fr/Basket/Video/Nba-le-resume-video-de-denver-nuggets-golden-state-warriors/20244225#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Les notes de PSG-OL",
-     "u": "https://www.lequipe.fr/Football/Article/Les-notes-de-psg-ol-zabarnyi-serein-merah-depasse/1738911#at_medium=RSS_feeds",
+     "t": "« Ils savent comment l'histoire va finir » : inéluctable et encore poussé par ses entrants, le PSG retrouve sa place au sommet de la Ligue 1",
+     "u": "https://www.lequipe.fr/Football/Article/-ils-savent-comment-l-histoire-va-finir-ineluctable-et-encore-pousse-par-ses-entrants-le-psg-retrouve-sa-place-au-sommet-de-la-ligue-1/1738928#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,15 +247,15 @@
  ],
  "destaques": [
   {
-   "t": "Cuiabá perde do América-MG e vê chance de acesso à Série A diminuir",
-   "u": "https://www.gazetaesportiva.com/times/cuiaba/cuiaba-perde-do-america-mg-e-ve-chance-de-acesso-a-serie-a-diminuir/",
+   "t": "Flamengo bate Atlético-MG com gol no fim e tira Palmeiras da liderança",
+   "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-bate-atletico-mg-com-gol-no-fim-e-tira-palmeiras-da-lideranca/",
    "f": "Gazeta Esportiva",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "France Football chief hints at small margin between Harry Kane and Kylian Mbappé in Ballon d’Or race",
-   "u": "https://sports.yahoo.com/articles/france-football-chief-hints-small-002300268.html",
+   "t": "Tiny HB Køge faces mighty Barcelona, City hosts PSG in Women's Champions League",
+   "u": "https://sports.yahoo.com/articles/tiny-hb-k-ge-faces-060834142.html",
    "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
@@ -264,7 +264,7 @@
    "t": "Luís Tralhão reage ao sorteio da Taça de Portugal: «Já foi Sporting e FC Porto, só faltava o Benfica»",
    "u": "https://www.record.pt/futebol/futebol-nacional/2--liga/torreense/detalhe/luis-tralhao-reage-ao-sorteio-da-taca-de-portugal-ja-foi-sporting-e-fc-porto-so-faltava-o-benfica",
    "f": "Record",
-   "alta": true,
+   "alta": false,
    "pais": "PT"
   },
   {
@@ -275,16 +275,16 @@
    "pais": "ES"
   },
   {
-   "t": "Ballon d'Or winner Kane's best Bundesliga goals",
-   "u": "https://www.bbc.co.uk/sport/football/videos/cmd93gqn8119o?at_medium=RSS&at_campaign=rss",
-   "f": "BBC Sport",
-   "alta": true,
+   "t": "'Lots to take away' - Hamilton reveals area he's 'lost out' to Leclerc",
+   "u": "https://www.skysports.com/f1/news/12040/13603997/lewis-hamilton-reveals-hes-lost-out-in-recent-f1-races-with-set-up-of-his-ferrari-car-compared-to-charles-leclerc",
+   "f": "Sky Sports",
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Lewis Hamilton reveló detalles de su relación con Kim Kardashian frente a los fanáticos de la F1: el especial regalo para sus hijos",
-   "u": "https://www.infobae.com/deportes/2026/10/26/lewis-hamilton-revelo-detalles-de-su-relacion-con-kim-kardashian-frente-a-los-fanaticos-de-la-f1-el-especial-regalo-para-sus-hijos/",
-   "f": "Infobae",
+   "t": "Atento Boca: Atlético Mineiro perdió con Flamengo",
+   "u": "https://www.ole.com.ar/futbol-internacional/boca-atleticomineiro-copasudamericana-flamengo-brasileirao-eduardodominguez_0_adNZtTmadC.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -296,8 +296,8 @@
    "pais": "IT"
   },
   {
-   "t": "Loin derrière le FC Barcelone et le Real Madrid, où se situe le Bayern Munich parmi les clubs comptant le plus de Ballons d'Or ?",
-   "u": "https://www.lequipe.fr/Football/Actualites/Loin-derriere-le-fc-barcelone-et-le-real-madrid-ou-se-situe-le-bayern-munich-parmi-les-clubs-comptant-le-plus-de-ballons-d-or/1738939#at_medium=RSS_feeds",
+   "t": "Le résumé vidéo de Denver Nuggets - Golden State Warriors",
+   "u": "https://www.lequipe.fr/Basket/Video/Nba-le-resume-video-de-denver-nuggets-golden-state-warriors/20244225#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
