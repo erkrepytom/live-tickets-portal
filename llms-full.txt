@@ -19,7 +19,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Venue: San Siro (Giuseppe Meazza), Piazzale Angelo Moratti, Milan, Italy
 - Competition: Serie A
 - Teams: AC Milan vs Inter
-- Lowest price seen at the partner: US$ 208 (checked 2026-10-27; prices change)
+- Lowest price seen at the partner: US$ 232 (checked 2026-10-27; prices change)
 - About: The Milan derby (Derby della Madonnina) in Serie A. Both clubs share San Siro, and the city stops on match day.
 - Getting there: Metro M5 to San Siro Stadio station, next to the stadium. Tram 16 also stops at the square in front of the stadium.
 - Guide pages: pt-BR https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/, en https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/, es https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/
@@ -62,7 +62,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Venue: Camp Nou, C. d'Arístides Maillol, 12, Barcelona, Spain
 - Competition: UEFA Champions League
 - Teams: FC Barcelona vs Manchester City
-- Lowest price seen at the partner: US$ 525 (checked 2026-10-27; prices change)
+- Lowest price seen at the partner: US$ 524 (checked 2026-10-27; prices change)
 - About: Champions League night at Camp Nou: Barcelona host Manchester City.
 - Getting there: Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal. Champions League games are on weeknights. Book a hotel near a metro line.
 - Guide pages: pt-BR https://mytickets.tours/eventos/barcelona-vs-manchester-city-2026-12-08/, en https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/, es https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/
@@ -93,7 +93,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Date: Friday, May 14, 2027, 19:30 local time
 - Venue: Paris La Défense Arena, 99 Jardin de l'Arche, Paris, France
 - Artist: Celine Dion
-- Lowest price seen at the partner: US$ 351 (checked 2026-10-27; prices change)
+- Lowest price seen at the partner: US$ 349 (checked 2026-10-27; prices change)
 - About: Celine Dion performs at Paris La Défense Arena. The partner also lists a second date the next day, May 15.
 - Getting there: RER A, metro line 1 or tram T2 to La Défense–Grande Arche. The arena is about a 10-minute walk from the station.
 - Guide pages: pt-BR https://mytickets.tours/eventos/celine-dion-paris-2027-05-14/, en https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/, es https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/
@@ -103,7 +103,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Date: Saturday, June 5, 2027, 21:00 local time
 - Venue: Estadio Metropolitano, Av. de Luis Aragonés, 4, Madrid, Spain
 - Competition: UEFA Champions League
-- Lowest price seen at the partner: US$ 6,632 (checked 2026-10-27; prices change)
+- Lowest price seen at the partner: US$ 6,605 (checked 2026-10-27; prices change)
 - About: The 2027 Champions League final is at the Estadio Metropolitano in Madrid. The finalists are not decided yet.
 - Getting there: Metro line 7 to Estadio Metropolitano station, right outside the stadium. Arrive two hours early for a final. Security and queues are long.
 - Guide pages: pt-BR https://mytickets.tours/eventos/final-champions-league-2027-06-05/, en https://mytickets.tours/en/events/final-champions-league-2027-06-05/, es https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/
