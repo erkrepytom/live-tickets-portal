@@ -1,5 +1,5 @@
 Contact: mailto:email@mytickets.tours
 Contact: https://mytickets.tours/atendimento/
-Expires: 2027-10-27T00:00:00.000Z
+Expires: 2027-10-28T00:00:00.000Z
 Preferred-Languages: pt-BR, en, es
 Canonical: https://mytickets.tours/.well-known/security.txt

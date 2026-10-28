@@ -10,14 +10,14 @@
    "fonte": "https://www.acmilan.com/en/tickets/serie-a",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-27T20:15:48+00:00"
+   "conferido": "2026-10-28T00:46:37+00:00"
   },
   "parceiro": {
    "status": "a_venda",
-   "min": 208.0,
+   "min": 232.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-27T12:28:04+00:00",
+   "conferido": "2026-10-27T22:25:58+00:00",
    "fonte": "https://www.sportsevents365.com/event/391609"
   }
  },
@@ -28,14 +28,14 @@
    "status": "desconhecido",
    "fonte": "https://www.figc.it/en/national-teams/tickets/",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-27T20:15:48+00:00"
+   "tentado": "2026-10-28T00:46:37+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 52.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-27T12:28:04+00:00",
+   "conferido": "2026-10-27T22:25:58+00:00",
    "fonte": "https://www.sportsevents365.com/event/387682"
   }
  },
@@ -76,24 +76,30 @@
     "de": "a_venda",
     "para": "desconhecido",
     "em": "2026-10-27T20:15:48+00:00"
+   },
+   {
+    "canal": "oficial",
+    "de": "desconhecido",
+    "para": "a_venda",
+    "em": "2026-10-28T00:46:37+00:00"
    }
   ],
   "oficial": {
    "nome": "FFR",
-   "status": "desconhecido",
-   "confianca": 0.0,
-   "trecho": "",
+   "status": "a_venda",
+   "confianca": 0.8,
+   "trecho": "masculin samedi 07 novembre 2026 - 21h10 groupama stadium, lyon-decines des 30 acheter xv de france masculin france vs afrique du sud france / afrique du sud - champi",
    "fonte": "https://billetterie.ffr.fr/",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-27T20:15:48+00:00"
+   "conferido": "2026-10-28T00:46:37+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 36.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-27T12:28:04+00:00",
+   "conferido": "2026-10-27T22:25:58+00:00",
    "fonte": "https://www.sportsevents365.com/event/383977"
   }
  },
@@ -104,14 +110,14 @@
    "status": "desconhecido",
    "fonte": "https://www.yasmarinacircuit.com/en/formula-1",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-27T20:15:48+00:00"
+   "tentado": "2026-10-28T00:46:37+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 384.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-27T12:28:04+00:00",
+   "conferido": "2026-10-27T22:25:58+00:00",
    "fonte": "https://www.sportsevents365.com/event/387903"
   }
  },
@@ -122,14 +128,14 @@
    "status": "desconhecido",
    "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-10-27T20:15:48+00:00"
+   "tentado": "2026-10-28T00:46:37+00:00"
   },
   "parceiro": {
    "status": "a_venda",
-   "min": 525.0,
+   "min": 524.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-27T12:28:04+00:00",
+   "conferido": "2026-10-27T22:25:58+00:00",
    "fonte": "https://www.sportsevents365.com/event/402363"
   }
  },
@@ -143,14 +149,14 @@
    "fonte": "https://www.nba.com/knicks/tickets",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-27T20:15:48+00:00"
+   "conferido": "2026-10-28T00:46:37+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 211.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-27T12:28:04+00:00",
+   "conferido": "2026-10-27T22:25:58+00:00",
    "fonte": "https://www.sportsevents365.com/event/401302"
   }
  },
@@ -161,14 +167,14 @@
    "status": "desconhecido",
    "fonte": "https://ausopen.com/tickets",
    "erro": "HTTPError: HTTP Error 403: Forbidden",
-   "tentado": "2026-10-27T20:15:48+00:00"
+   "tentado": "2026-10-28T00:46:37+00:00"
   },
   "parceiro": {
    "status": "a_venda",
    "min": 1286.0,
    "moeda": "USD",
    "lotes": 5,
-   "conferido": "2026-10-27T12:28:04+00:00",
+   "conferido": "2026-10-27T22:25:58+00:00",
    "fonte": "https://www.sportsevents365.com/event/390886"
   }
  },
@@ -182,14 +188,14 @@
    "fonte": "https://www.celinedion.com/tour/",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-10-27T20:15:48+00:00"
+   "conferido": "2026-10-28T00:46:37+00:00"
   },
   "parceiro": {
    "status": "a_venda",
-   "min": 351.0,
+   "min": 349.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-27T12:28:04+00:00",
+   "conferido": "2026-10-27T22:25:58+00:00",
    "fonte": "https://www.sportsevents365.com/event/391312"
   }
  },
@@ -200,14 +206,14 @@
    "status": "desconhecido",
    "fonte": "https://www.uefa.com/uefachampionsleague/tickets/",
    "erro": "TimeoutError: The read operation timed out",
-   "tentado": "2026-10-27T20:15:48+00:00"
+   "tentado": "2026-10-28T00:46:37+00:00"
   },
   "parceiro": {
    "status": "a_venda",
-   "min": 6632.0,
+   "min": 6605.0,
    "moeda": "USD",
    "lotes": 10,
-   "conferido": "2026-10-27T12:28:04+00:00",
+   "conferido": "2026-10-27T22:25:58+00:00",
    "fonte": "https://www.sportsevents365.com/event/399236"
   }
  }
