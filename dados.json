@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-27T23:50:34+00:00",
+ "atualizado": "2026-10-28T05:54:41+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Grêmio e Inter voltarão a ter o mesmo patrocínio máster até o fim do ano; saiba mais",
-     "u": "https://ge.globo.com/rs/futebol/noticia/2026/10/27/gremio-e-inter-voltarao-a-ter-o-mesmo-patrocinio-master-ate-o-fim-do-ano-saiba-mais.ghtml",
+     "t": "Real Madrid e LaLiga sofrem impacto da crise diplomática de Mbappé com a China",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/28/real-madrid-e-laliga-sofrem-impacto-da-crise-diplomatica-de-mbappe-com-a-china.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Palmeiras é citado em processo de Flamengo e Estudiantes por final da Libertadores; entenda",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-citado-processo-libertadores-flamengo-estudiantes/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Dirigente do Estudiantes rebate fala de técnico do Flamengo sobre final da Libertadores",
-     "u": "https://www.gazetaesportiva.com/times/flamengo/dirigente-do-estudiantes-rebate-fala-de-tecnico-do-flamengo-sobre-final-da-libertadores/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Atlético Santa Rita x Cruzeiro-PB - Campeonato Paraibano Segunda Divisão 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/pb/futebol/paraibano-segunda-divisao/jogo/27-10-2026/atletico-santa-rita-cruzeiro-pb.ghtml",
+     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-10-2026/atletico-mg-cruzeiro.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "“Não corremos risco”, diz presidente do Estudiantes sobre pleito do Flamengo na Libertadores",
+     "u": "https://www.gazetaesportiva.com/times/flamengo/nao-corremos-risco-diz-presidente-do-estudiantes-sobre-pleito-do-flamengo-na-libertadores/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Leandro Pereira, campeão pelo Palmeiras, anuncia aposentadoria do futebol",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/leandro-pereira-campeao-pelo-palmeiras-anuncia-aposentadoria-do-futebol/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
+     "t": "Serie A Preview: Venezia vs Inter – Team News, Lineups & Prediction",
+     "u": "https://sports.yahoo.com/articles/serie-preview-venezia-vs-inter-054000899.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Pistons vs. Knicks NBA parlay picks: Shorthanded Detroit due first loss and New York first win Tuesday",
      "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-nba-parlay-picks-short-handed-detroit-due-first-loss-new-york-first-win-tuesday/",
      "f": "CBS Sports",
      "alta": false
     },
     {
+     "t": "Inter Milan XI vs Venezia – Predicted lineup and team news",
+     "u": "https://sports.yahoo.com/articles/inter-milan-xi-vs-venezia-053600502.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Pistons vs. Knicks prediction, odds, betting preview, start time: NBA picks, best bets on Tuesday, Oct. 27",
      "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-prediction-odds-betting-preview-start-time-nba-picks-best-bets-tuesday-oct-27/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "ESPN’s NFL Wild Card game day still undecided, TGL schedule shows",
-     "u": "https://sports.yahoo.com/articles/espn-nfl-wild-card-game-233026556.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "2026 NFL trade deadline tracker: Grades, analysis and details from every key deal",
-     "u": "https://sports.yahoo.com/nfl/article/2026-nfl-trade-deadline-tracker-grades-analysis-and-details-from-every-key-deal-233619744.html",
-     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Drone interrompe jogo do Arsenal na Taça da Liga inglesa (vídeo)",
-     "u": "https://www.abola.pt/noticias/drone-interrompe-jogo-do-arsenal-na-taca-da-liga-inglesa-video-2026102720250236817",
+     "t": "Mulher de estrela da Roma 'dispara': «Traiu-me durante a gravidez e com prostitutas»",
+     "u": "https://www.abola.pt/noticias/mulher-de-estrela-da-roma-dispara-traiu-me-durante-a-gravidez-e-com-prostitutas-2026102617260217715",
      "f": "A Bola",
      "alta": true
     },
     {
-     "t": "Carvajal não esquece Real Madrid: «Há dias em que quase me engano na saída e vou para Valdebebas»",
-     "u": "https://www.record.pt/internacional/paises/espanha/getafe/detalhe/carvajal-nao-esquece-real-madrid-ha-dias-em-que-quase-me-engano-na-saida-e-vou-para-valdebebas",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Greves e manifestações em França antecipam Rennes-Olympiacos",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/greves-e-manifestacoes-em-franca-antecipam-rennes-olympiacos",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Benfica vai iniciar Youth League: Vinha quer «manto sagrado em campo»",
-     "u": "https://www.abola.pt/noticias/benfica-vai-iniciar-youth-league-vinha-quer-manto-sagrado-em-campo-2026102718562207625",
+     "t": "A diferença de FC Porto para Benfica e Sporting na Liga está na baliza",
+     "u": "https://www.abola.pt/video/a-diferenca-de-fc-porto-para-benfica-e-sporting-na-liga-esta-na-baliza-2026102519184113555",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Geny Catamo fez o 150.º jogo pelo Sporting",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/geny-catamo-fez-o-150-jogo-pelo-sporting",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "«A FIFA falhou em tudo o que prometeu» Líder da Amnistia Internacional - Portugal aponta o dedo",
+     "u": "https://www.record.pt/internacional/detalhe/a-fifa-falhou-em-tudo-o-que-prometeu-lider-da-amnistia-internacional-portugal-aponta-o-dedo",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "84-88: El Barça sobrevive a los contratiempos para ganar en Múnich",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261027/1004243995/84-88-barca-sobrevive-contratiempos-ganar-munich.html",
+     "t": "De Jong, un refuerzo que vuelve a tope para el Barça",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244015/jong-refuerzo-vuelve-tope-barca.html",
      "f": "Mundo Deportivo",
      "alta": false
     }
@@ -147,21 +147,21 @@
      "alta": false
     },
     {
-     "t": "Australia fight back in rollercoaster start to deciding Test against South Africa",
-     "u": "https://www.theguardian.com/sport/2026/oct/27/australia-fightback-in-rollercoaster-start-to-deciding-test-against-south-africa",
+     "t": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
+     "u": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
      "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cq62y7yzjdmzo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
      "alta": false
     },
     {
      "t": "Arsenal dumped out of Carabao Cup by League Two Fleetwood",
      "u": "https://www.skysports.com/football/fleetwood-town-vs-arsenal/report/578610",
      "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Dowman sees red as Arsenal dumped out, but did Arteta go too far?",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cmg47g7dngxlo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -175,26 +175,26 @@
    },
    "noticias": [
     {
-     "t": "Oficial: Nicolás Ramírez dirigirá el Superclásico entre Boca y River en La Bombonera",
-     "u": "https://www.infobae.com/deportes/2026/10/27/oficial-nicolas-ramirez-dirigira-el-superclasico-entre-boca-y-river-en-la-bombonera/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
      "t": "Batacazo: Arsenal fue eliminado por un equipo de Cuarta División en los penales y quedó afuera de la Copa de la Liga",
      "u": "https://www.infobae.com/deportes/2026/10/27/batacazo-arsenal-fue-eliminado-por-un-equipo-de-cuarta-division-en-los-penales-y-quedo-afuera-de-la-copa-de-la-liga/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Real Madrid y Facundo Campazzo no paran: quinta victoria al hilo en la Euroliga tras aplastar a Baskonia",
-     "u": "https://www.ole.com.ar/basquet/realmadrid-facundocampazzo-euroliga-baskonia-leandrobolmaro-gonzalocorbalan_0_MI9rseLtPw.html",
+     "t": "Cabezazo salvador y asistencia: el show de Nico Paz en la remontada del Como sobre Torino en la Serie A",
+     "u": "https://www.infobae.com/deportes/2026/10/27/cabezazo-salvador-y-asistencia-el-show-de-nico-paz-en-la-remontada-del-como-sobre-torino-en-la-serie-a/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Un piloto de F1 jugó al fútbol y le metió un pelotazo en la cara a un arquero mundialista",
+     "u": "https://www.ole.com.ar/autos/piloto-f1-jugo-futbol-pelotazo-cara-arquero-checo-perez-conejo_0_j1bK2NG5p5.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Empieza la venta de entradas para la final: cuándo pueden comprar los hinchas de Boca",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-mineiro-copa-sudamericana-entradas_0_mSHlJ3bHWn.html",
+     "t": "¿Cómo cayó en Boca la designación de Nicolás Ramírez como árbitro del Súper?",
+     "u": "https://www.ole.com.ar/boca-juniors/superclasico-nicolasramirez-bombonera-manuellanzini-miltongimenez-silviotrucco-var-juanromanriquelme-miguelmerentiel-andresgariano-xeneize_0_vsarLxNrK2.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,8 +237,8 @@
      "alta": false
     },
     {
-     "t": "Battu par Jiri Lehecka au premier tour de l'ATP 500 de Bâle, Stan Wawrinka est désormais à la retraite",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/Battu-par-jiri-lehecka-au-premier-tour-de-l-atp-500-de-bale-stan-wawrinka-est-desormais-a-la-retraite/1739178#at_medium=RSS_feeds",
+     "t": "Les San Antonio Spurs écrasent les Sacramento Kings en NBA, avec 29 points de Victor Wembanyama",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Les-san-antonio-spurs-ecrasent-les-sacramento-kings-en-nba-avec-29-points-de-victor-wembanyama/1739199#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,22 +247,22 @@
  ],
  "destaques": [
   {
-   "t": "Grêmio e Inter voltarão a ter o mesmo patrocínio máster até o fim do ano; saiba mais",
-   "u": "https://ge.globo.com/rs/futebol/noticia/2026/10/27/gremio-e-inter-voltarao-a-ter-o-mesmo-patrocinio-master-ate-o-fim-do-ano-saiba-mais.ghtml",
+   "t": "Real Madrid e LaLiga sofrem impacto da crise diplomática de Mbappé com a China",
+   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/28/real-madrid-e-laliga-sofrem-impacto-da-crise-diplomatica-de-mbappe-com-a-china.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Pistons vs. Knicks NBA parlay picks: Shorthanded Detroit due first loss and New York first win Tuesday",
-   "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-nba-parlay-picks-short-handed-detroit-due-first-loss-new-york-first-win-tuesday/",
-   "f": "CBS Sports",
+   "t": "Serie A Preview: Venezia vs Inter – Team News, Lineups & Prediction",
+   "u": "https://sports.yahoo.com/articles/serie-preview-venezia-vs-inter-054000899.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Drone interrompe jogo do Arsenal na Taça da Liga inglesa (vídeo)",
-   "u": "https://www.abola.pt/noticias/drone-interrompe-jogo-do-arsenal-na-taca-da-liga-inglesa-video-2026102720250236817",
+   "t": "Mulher de estrela da Roma 'dispara': «Traiu-me durante a gravidez e com prostitutas»",
+   "u": "https://www.abola.pt/noticias/mulher-de-estrela-da-roma-dispara-traiu-me-durante-a-gravidez-e-com-prostitutas-2026102617260217715",
    "f": "A Bola",
    "alta": true,
    "pais": "PT"
@@ -282,10 +282,10 @@
    "pais": "GB"
   },
   {
-   "t": "Oficial: Nicolás Ramírez dirigirá el Superclásico entre Boca y River en La Bombonera",
-   "u": "https://www.infobae.com/deportes/2026/10/27/oficial-nicolas-ramirez-dirigira-el-superclasico-entre-boca-y-river-en-la-bombonera/",
+   "t": "Batacazo: Arsenal fue eliminado por un equipo de Cuarta División en los penales y quedó afuera de la Copa de la Liga",
+   "u": "https://www.infobae.com/deportes/2026/10/27/batacazo-arsenal-fue-eliminado-por-un-equipo-de-cuarta-division-en-los-penales-y-quedo-afuera-de-la-copa-de-la-liga/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
