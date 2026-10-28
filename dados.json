@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-28T13:11:35+00:00",
+ "atualizado": "2026-10-28T18:56:24+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
+     "t": "Conmebol rejeita ação do Flamengo e mantém Estudiantes na final da Libertadores",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/28/estudiantes-anuncia-que-conmebol-negou-acao-do-flamengo-e-confirmou-argentinos-na-final-da-libertadores.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
      "t": "Vasco treina no Nilton Santos antes de clássico contra o Flamengo",
      "u": "https://www.gazetaesportiva.com/times/vasco/vasco-treina-no-nilton-santos-antes-de-classico-contra-o-flamengo/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Inter finaliza preparação e viaja ao Rio para jogo contra o Fluminense",
-     "u": "https://www.gazetaesportiva.com/times/internacional/inter-finaliza-preparacao-e-viaja-ao-rio-para-jogo-contra-o-fluminense/",
+     "t": "Atletas do Inter conquistam bronze no Mundial de Hóquei",
+     "u": "https://ge.globo.com/sp/santos-e-regiao/noticia/2026/10/28/atletas-do-inter-conquistam-bronze-no-mundial-de-hoquei.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Técnico do Cruzeiro exalta campanha histórica na Libertadores Feminina",
+     "u": "https://www.gazetaesportiva.com/times/cruzeiro/tecnico-do-cruzeiro-exalta-campanha-historica-na-libertadores-feminina/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Libertadores e uma marca inédita: o que o Santos disputa no clássico com o Palmeiras",
-     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/28/libertadores-e-uma-marca-inedita-o-que-o-santos-disputa-no-classico-com-o-palmeiras.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Palmeiras defende temporada sem derrotas em clássicos na \"despedida\" contra o Santos",
-     "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/28/palmeiras-defende-temporada-sem-derrotas-em-classicos-na-despedida-contra-o-santos.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Pistons vs. Knicks NBA parlay picks: Shorthanded Detroit due first loss and New York first win Tuesday",
-     "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-nba-parlay-picks-short-handed-detroit-due-first-loss-new-york-first-win-tuesday/",
+     "t": "Ernie Johnson makes major ‘Inside the NBA’ announcement, 'It's just time'",
+     "u": "https://sports.yahoo.com/articles/ernie-johnson-makes-major-inside-184202878.html",
+     "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
+     "t": "Cristiano Ronaldo named BOAT winner! France Football readers vote Portuguese icon's 2008 triumph ahead of Lionel Messi's 2012 campaign",
+     "u": "https://sports.yahoo.com/articles/cristiano-ronaldo-named-boat-winner-184055738.html",
+     "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
+     "t": "Knicks vs. Bulls odds, prediction, time: 2026 NBA picks for Wednesday, Oct. 28 by proven model",
+     "u": "https://www.cbssports.com/betting/news/knicks-bulls-odds-prediction-time-2026-nba-picks-bets-wednesday-october-28/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Pistons vs. Knicks prediction, odds, betting preview, start time: NBA picks, best bets on Tuesday, Oct. 27",
-     "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-prediction-odds-betting-preview-start-time-nba-picks-best-bets-tuesday-oct-27/",
+     "t": "NBA DFS: Top DraftKings, FanDuel daily Fantasy basketball picks for Wednesday, Oct. 28 include LaMelo Ball",
+     "u": "https://www.cbssports.com/betting/news/nba-dfs-draftkings-fanduel-daily-fantasy-basketball-picks-wednesday-october-28/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Milan Keeping Tabs on Manchester United Star Midfielder",
-     "u": "https://sports.yahoo.com/articles/milan-keeping-tabs-manchester-united-130000173.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "The NBA’s DAZN experiment offers warning for the future of streaming RSNs",
-     "u": "https://sports.yahoo.com/articles/nba-dazn-experiment-offers-warning-130031365.html",
-     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Mobilidade será dos \"maiores desafios\" do Grande Prémio de F1 no Algarve em 2027",
-     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/mobilidade-sera-dos-maiores-desafios-do-grande-premio-de-f1-no-algarve-em-2027",
+     "t": "Liverpool-Chelsea, em direto",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261028-180438-liverpool-chelsea-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Bronca na seleção de Itália na Taça Davis e a 'culpa' é de uma modelo",
-     "u": "https://www.abola.pt/noticias/bronca-na-selecao-de-italia-na-taca-davis-e-a-culpa-e-de-uma-modelo-2026102715351079733",
+     "t": "A classificação da Ligue 1 em 2026/27 atualizada",
+     "u": "https://www.abola.pt/noticias/a-classificacao-da-ligue-1-em-202627-atualizada-2026090912064118642",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Gesto de João Neves para Luis Enrique dá que falar em França... por bons motivos (vídeo)",
-     "u": "https://www.abola.pt/noticias/gesto-de-joao-neves-para-luis-enrique-da-que-falar-em-franca-por-bons-motivos-video-2026102716395851802",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Dupla dos sub-23 do Sporting no radar da federação colombiana: os casos de Osorio e Siza",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/dupla-dos-sub-23-do-sporting-no-radar-da-federacao-colombiana-os-casos-de-osorio-e-siza",
+     "t": "Vasco da Gama tenta Carlos Vinícius",
+     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/vasco-da-gama-tenta-carlos-vinicius",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "«O problema do Sporting é de liderança técnica»",
+     "u": "https://www.abola.pt/video/o-problema-do-sporting-e-de-lideranca-tecnica-2026102619220469465",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,8 +113,8 @@
    },
    "noticias": [
     {
-     "t": "El Barça, entre los clubs interesados en la lateral del Bayern Franziska Kett",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/femenino/20261028/1004244168/barca-clubs-interesados-franzika-kett.html",
+     "t": "6-1: El Barça vuelve a la Champions con una goleada",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244343/barca-vuelve-champions-goleada.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -141,27 +141,27 @@
    },
    "noticias": [
     {
-     "t": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
-     "u": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "South Africa v Australia: third men’s cricket Test, day two – live",
-     "u": "https://www.theguardian.com/sport/live/2026/oct/28/south-africa-v-australia-third-test-day-two-cricket-newlands-cape-town-live-updates",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Anderson set to continue playing career in Italy",
-     "u": "https://www.skysports.com/cricket/news/12040/13604693/james-anderson-set-to-continue-playing-career-in-italy-with-napoli-8204knights-in-the-italia-t10-league",
+     "t": "Norris, Verstappen among 10 F1 drivers to miss Mexico first practice",
+     "u": "https://www.skysports.com/f1/news/12040/13604824/mexico-city-gp-max-verstappen-george-russell-lando-norris-among-nine-f1-drivers-to-miss-first-practice",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Arsenal to appeal against Dowman red card",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c3dxwdnjqj17o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Arsenal v Benfica: Women’s Champions League – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/28/arsenal-v-benfica-womens-champions-league-live",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Liverpool v Chelsea: Carabao Cup fourth round – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Liverpool vs Chelsea team news LIVE!",
+     "u": "https://www.skysports.com/football/liverpool-vs-chelsea/live/578612",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -175,26 +175,26 @@
    },
    "noticias": [
     {
-     "t": "Polémica con Kylian Mbappé: el Real Madrid también pidió disculpas, pero China se mantiene inflexible y no volverá a transmitir LaLiga",
-     "u": "https://www.ole.com.ar/futbol-internacional/espana/kylianmbappe-realmadrid-china-laliga-javiertebas_0_emzaRr7TEb.html",
+     "t": "El Inter Miami de Lionel Messi enfrentará a Cincinnati por la MLS: hora, TV y formaciones",
+     "u": "https://www.infobae.com/deportes/2026/10/28/el-inter-miami-de-lionel-messi-enfrentara-a-cincinnati-por-la-mls-hora-tv-y-formaciones/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Lionel Messi en Inter Miami vs. Cincinnati, hoy EN VIVO, por la MLS: formaciones, horario y cómo ver",
+     "u": "https://www.ole.com.ar/futbol-internacional/mls/lionel-messi-inter-miami-vs-cincinnati-mls-vivo-formaciones-horario-ver_0_dYTI7d0hlW.html",
      "f": "Olé",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Batacazo: Arsenal fue eliminado por un equipo de Cuarta División en los penales y quedó afuera de la Copa de la Liga",
-     "u": "https://www.infobae.com/deportes/2026/10/27/batacazo-arsenal-fue-eliminado-por-un-equipo-de-cuarta-division-en-los-penales-y-quedo-afuera-de-la-copa-de-la-liga/",
+     "t": "La buena noticia que recibió el Vasco Arruabarrena en Boca Juniors antes del Superclásico contra River Plate",
+     "u": "https://www.infobae.com/deportes/2026/10/28/la-buena-noticia-que-recibio-el-vasco-arruabarrena-en-boca-juniors-antes-del-superclasico-contra-river-plate/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Cabezazo salvador y asistencia: el show de Nico Paz en la remontada del Como sobre Torino en la Serie A",
-     "u": "https://www.infobae.com/deportes/2026/10/27/cabezazo-salvador-y-asistencia-el-show-de-nico-paz-en-la-remontada-del-como-sobre-torino-en-la-serie-a/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Boca y la chance de lograr un hito sin batir en más de tres décadas de superclásicos",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-partido-river-superclasico-bombonera-historial-clausura-libertadores_0_D8VQNimuOR.html",
+     "t": "Boca vs. River: cuándo juegan, a qué hora y cómo ver el superclásico 2026 en vivo",
+     "u": "https://www.ole.com.ar/futbol-primera/boca-vs-river-superclasico-torneo-clausura-2026-juegan-hora-ver-vivo_0_qC5W3Muqvz.html",
      "f": "Olé",
      "alta": false
     }
@@ -231,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Les affiches du 7e tour de la Coupe de France : un derby Paris 13 Atletico - Red Star, Nantes face au Stade Castelbourgeois, Montpellier ira en Corse",
-     "u": "https://www.lequipe.fr/Football/Actualites/Les-affiches-du-7e-tour-de-la-coupe-de-france-un-derby-paris-13-atletico-red-star-nantes-face-au-stade-castelbourgeois-montpellier-ira-en-corse/1739251#at_medium=RSS_feeds",
+     "t": "« Il n'y a pas d'âge pour aller en équipe de France » : apprentissage express pour la jeunesse bleue en Nouvelle-Zélande",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/-il-n-y-a-pas-d-age-pour-aller-en-equipe-de-france-apprentissage-express-pour-la-jeunesse-bleue-en-nouvelle-zelande/1739326#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
-     "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
+     "t": "Le premier choix de la draft 2026 AJ Dybantsa va faire ses débuts en NBA cette nuit avec les Washington Wizards",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Le-premier-choix-de-la-draft-2026-aj-dybantsa-va-faire-ses-debuts-en-nba-cette-nuit-avec-les-washington-wizards/1739336#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,45 +247,45 @@
  ],
  "destaques": [
   {
-   "t": "Vasco treina no Nilton Santos antes de clássico contra o Flamengo",
-   "u": "https://www.gazetaesportiva.com/times/vasco/vasco-treina-no-nilton-santos-antes-de-classico-contra-o-flamengo/",
-   "f": "Gazeta Esportiva",
-   "alta": false,
+   "t": "Conmebol rejeita ação do Flamengo e mantém Estudiantes na final da Libertadores",
+   "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/28/estudiantes-anuncia-que-conmebol-negou-acao-do-flamengo-e-confirmou-argentinos-na-final-da-libertadores.ghtml",
+   "f": "ge",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Pistons vs. Knicks NBA parlay picks: Shorthanded Detroit due first loss and New York first win Tuesday",
-   "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-nba-parlay-picks-short-handed-detroit-due-first-loss-new-york-first-win-tuesday/",
-   "f": "CBS Sports",
-   "alta": false,
+   "t": "Ernie Johnson makes major ‘Inside the NBA’ announcement, 'It's just time'",
+   "u": "https://sports.yahoo.com/articles/ernie-johnson-makes-major-inside-184202878.html",
+   "f": "Yahoo Sports",
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Mobilidade será dos \"maiores desafios\" do Grande Prémio de F1 no Algarve em 2027",
-   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/mobilidade-sera-dos-maiores-desafios-do-grande-premio-de-f1-no-algarve-em-2027",
+   "t": "Liverpool-Chelsea, em direto",
+   "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261028-180438-liverpool-chelsea-em-direto",
    "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "El Barça, entre los clubs interesados en la lateral del Bayern Franziska Kett",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/femenino/20261028/1004244168/barca-clubs-interesados-franzika-kett.html",
+   "t": "6-1: El Barça vuelve a la Champions con una goleada",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244343/barca-vuelve-champions-goleada.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
-   "u": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
-   "f": "The Guardian",
+   "t": "Norris, Verstappen among 10 F1 drivers to miss Mexico first practice",
+   "u": "https://www.skysports.com/f1/news/12040/13604824/mexico-city-gp-max-verstappen-george-russell-lando-norris-among-nine-f1-drivers-to-miss-first-practice",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Polémica con Kylian Mbappé: el Real Madrid también pidió disculpas, pero China se mantiene inflexible y no volverá a transmitir LaLiga",
-   "u": "https://www.ole.com.ar/futbol-internacional/espana/kylianmbappe-realmadrid-china-laliga-javiertebas_0_emzaRr7TEb.html",
-   "f": "Olé",
-   "alta": false,
+   "t": "El Inter Miami de Lionel Messi enfrentará a Cincinnati por la MLS: hora, TV y formaciones",
+   "u": "https://www.infobae.com/deportes/2026/10/28/el-inter-miami-de-lionel-messi-enfrentara-a-cincinnati-por-la-mls-hora-tv-y-formaciones/",
+   "f": "Infobae",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -296,8 +296,8 @@
    "pais": "IT"
   },
   {
-   "t": "Les affiches du 7e tour de la Coupe de France : un derby Paris 13 Atletico - Red Star, Nantes face au Stade Castelbourgeois, Montpellier ira en Corse",
-   "u": "https://www.lequipe.fr/Football/Actualites/Les-affiches-du-7e-tour-de-la-coupe-de-france-un-derby-paris-13-atletico-red-star-nantes-face-au-stade-castelbourgeois-montpellier-ira-en-corse/1739251#at_medium=RSS_feeds",
+   "t": "« Il n'y a pas d'âge pour aller en équipe de France » : apprentissage express pour la jeunesse bleue en Nouvelle-Zélande",
+   "u": "https://www.lequipe.fr/Rugby/Actualites/-il-n-y-a-pas-d-age-pour-aller-en-equipe-de-france-apprentissage-express-pour-la-jeunesse-bleue-en-nouvelle-zelande/1739326#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
