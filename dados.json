@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-28T18:56:24+00:00",
+ "atualizado": "2026-10-28T23:19:11+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Conmebol rejeita ação do Flamengo e mantém Estudiantes na final da Libertadores",
-     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/28/estudiantes-anuncia-que-conmebol-negou-acao-do-flamengo-e-confirmou-argentinos-na-final-da-libertadores.ghtml",
-     "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Vasco treina no Nilton Santos antes de clássico contra o Flamengo",
-     "u": "https://www.gazetaesportiva.com/times/vasco/vasco-treina-no-nilton-santos-antes-de-classico-contra-o-flamengo/",
+     "t": "Atlético-MG x Cruzeiro: onde assistir, horário e prováveis escalações pelo Brasileirão",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/atletico-mg-x-cruzeiro-onde-assistir-brasileirao/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Atletas do Inter conquistam bronze no Mundial de Hóquei",
-     "u": "https://ge.globo.com/sp/santos-e-regiao/noticia/2026/10/28/atletas-do-inter-conquistam-bronze-no-mundial-de-hoquei.ghtml",
+     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-10-2026/atletico-mg-cruzeiro.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Técnico do Cruzeiro exalta campanha histórica na Libertadores Feminina",
-     "u": "https://www.gazetaesportiva.com/times/cruzeiro/tecnico-do-cruzeiro-exalta-campanha-historica-na-libertadores-feminina/",
+     "t": "Conmebol rejeita ação do Flamengo e Estudiantes enfrentará o Palmeiras na final da Libertadores",
+     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/conmebol-rejeita-protesto-flamengo-estudiantes-final-libertadores/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Fluminense x Internacional - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/28-10-2026/fluminense-internacional.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Ernie Johnson makes major ‘Inside the NBA’ announcement, 'It's just time'",
-     "u": "https://sports.yahoo.com/articles/ernie-johnson-makes-major-inside-184202878.html",
-     "f": "Yahoo Sports",
-     "alta": true
-    },
-    {
-     "t": "Cristiano Ronaldo named BOAT winner! France Football readers vote Portuguese icon's 2008 triumph ahead of Lionel Messi's 2012 campaign",
-     "u": "https://sports.yahoo.com/articles/cristiano-ronaldo-named-boat-winner-184055738.html",
-     "f": "Yahoo Sports",
-     "alta": true
-    },
-    {
-     "t": "Knicks vs. Bulls odds, prediction, time: 2026 NBA picks for Wednesday, Oct. 28 by proven model",
-     "u": "https://www.cbssports.com/betting/news/knicks-bulls-odds-prediction-time-2026-nba-picks-bets-wednesday-october-28/",
+     "t": "Pressure mounts on Ruben Amorim's AC Milan after 4-2 home defeat ahead crucial Inter clash",
+     "u": "https://www.cbssports.com/soccer/news/pressure-mounts-on-ruben-amorims-ac-milan/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NBA DFS: Top DraftKings, FanDuel daily Fantasy basketball picks for Wednesday, Oct. 28 include LaMelo Ball",
-     "u": "https://www.cbssports.com/betting/news/nba-dfs-draftkings-fanduel-daily-fantasy-basketball-picks-wednesday-october-28/",
+     "t": "Knicks vs. Bulls odds, prediction, time: 2026 NBA picks for Wednesday, Oct. 28 by proven model",
+     "u": "https://www.cbssports.com/betting/news/knicks-bulls-odds-prediction-time-2026-nba-picks-best-bets-wednesday-october-28/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Ronald Araújo Named Man of the Match as Liverpool Eliminate Chelsea",
+     "u": "https://sports.yahoo.com/articles/ronald-ara-jo-named-man-230700915.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Ernie Johnson to retire from 'Inside the NBA' in June after a 37-year run as host",
+     "u": "https://sports.yahoo.com/articles/ernie-johnson-retire-inside-nba-230600291.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,28 +79,28 @@
    },
    "noticias": [
     {
-     "t": "Liverpool-Chelsea, em direto",
+     "t": "«FC Porto, Benfica e Sporting são prejudicados na Europa e ninguém pia»",
+     "u": "https://www.abola.pt/video/fc-porto-benfica-e-sporting-sao-prejudicados-na-europa-e-ninguem-pia-2026102819041715665",
+     "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "Liverpool bate Chelsea rumo aos 'quartos' da Taça da Liga após desempate com... 16 penáltis",
      "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261028-180438-liverpool-chelsea-em-direto",
      "f": "Record",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "A classificação da Ligue 1 em 2026/27 atualizada",
-     "u": "https://www.abola.pt/noticias/a-classificacao-da-ligue-1-em-202627-atualizada-2026090912064118642",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Vasco da Gama tenta Carlos Vinícius",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/vasco-da-gama-tenta-carlos-vinicius",
+     "t": "Vítor Pinto e o lance polémico no FC Porto-Ac. Viseu: «Se falarmos de dois ressaltos ainda menos sentido faz este penálti»",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/vitor-pinto-e-o-lance-polemico-no-fc-porto-ac-viseu-se-falarmos-de-dois-ressaltos-ainda-menos-sentido-faz-este-penalti",
      "f": "Record",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "«O problema do Sporting é de liderança técnica»",
-     "u": "https://www.abola.pt/video/o-problema-do-sporting-e-de-lideranca-tecnica-2026102619220469465",
+     "t": "As imagens da vitória difícil do FC Porto com o Académico de Viseu",
+     "u": "https://www.abola.pt/galeria/as-imagens-da-vitoria-dificil-do-fc-porto-com-o-academico-de-viseu-2026102822141760087",
      "f": "A Bola",
-     "alta": false
+     "alta": true
     }
    ]
   },
@@ -113,14 +113,14 @@
    },
    "noticias": [
     {
-     "t": "6-1: El Barça vuelve a la Champions con una goleada",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244343/barca-vuelve-champions-goleada.html",
+     "t": "1-1 (6-5): El Chelsea de Xabi Alonso, fuera tras caer por penaltis ante el Liverpool de Iraola",
+     "u": "https://www.mundodeportivo.com/futbol/premier-league/20261028/1004244433/iraola.html",
      "f": "Mundo Deportivo",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "China ve insuficientes las disculpas del Real Madrid y manda un mensaje claro al club blanco",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261028/1004244102/china-ve-insuficientes-disculpas-real-madrid-manda-mensaje-claro-club-blanco.html",
+     "t": "6-1: El Barça vuelve a la Champions con una goleada",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244343/barca-vuelve-champions-goleada.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -141,27 +141,27 @@
    },
    "noticias": [
     {
+     "t": "European football: Two late own goals return Inter to top of Serie A but Milan lose at home",
+     "u": "https://www.theguardian.com/football/2026/oct/28/european-football-two-late-own-goals-return-inter-top-serie-a-venezia",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
      "t": "Norris, Verstappen among 10 F1 drivers to miss Mexico first practice",
      "u": "https://www.skysports.com/f1/news/12040/13604824/mexico-city-gp-max-verstappen-george-russell-lando-norris-among-nine-f1-drivers-to-miss-first-practice",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Arsenal v Benfica: Women’s Champions League – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/28/arsenal-v-benfica-womens-champions-league-live",
+     "t": "Liverpool beat Chelsea on penalties yet again to secure Carabao Cup progress",
+     "u": "https://www.theguardian.com/football/2026/oct/28/liverpool-chelsea-carabao-cup-fourth-round-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Liverpool v Chelsea: Carabao Cup fourth round – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Liverpool vs Chelsea team news LIVE!",
-     "u": "https://www.skysports.com/football/liverpool-vs-chelsea/live/578612",
-     "f": "Sky Sports",
+     "t": "Russo scores hat-trick as Arsenal beat Benfica",
+     "u": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -175,26 +175,26 @@
    },
    "noticias": [
     {
-     "t": "El Inter Miami de Lionel Messi enfrentará a Cincinnati por la MLS: hora, TV y formaciones",
-     "u": "https://www.infobae.com/deportes/2026/10/28/el-inter-miami-de-lionel-messi-enfrentara-a-cincinnati-por-la-mls-hora-tv-y-formaciones/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
-     "t": "Lionel Messi en Inter Miami vs. Cincinnati, hoy EN VIVO, por la MLS: formaciones, horario y cómo ver",
-     "u": "https://www.ole.com.ar/futbol-internacional/mls/lionel-messi-inter-miami-vs-cincinnati-mls-vivo-formaciones-horario-ver_0_dYTI7d0hlW.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
      "t": "La buena noticia que recibió el Vasco Arruabarrena en Boca Juniors antes del Superclásico contra River Plate",
      "u": "https://www.infobae.com/deportes/2026/10/28/la-buena-noticia-que-recibio-el-vasco-arruabarrena-en-boca-juniors-antes-del-superclasico-contra-river-plate/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Boca vs. River: cuándo juegan, a qué hora y cómo ver el superclásico 2026 en vivo",
-     "u": "https://www.ole.com.ar/futbol-primera/boca-vs-river-superclasico-torneo-clausura-2026-juegan-hora-ver-vivo_0_qC5W3Muqvz.html",
+     "t": "El gesto de Lionel Messi con los juveniles de River Plate en el gran triunfo ante Flamengo por los cuartos de final de la Messi Cup",
+     "u": "https://www.infobae.com/deportes/2026/10/28/el-gesto-de-lionel-messi-con-los-juveniles-de-river-plate-en-el-gran-triunfo-ante-flamengo-por-los-cuartos-de-final-de-la-messi-cup/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Copa de la Liga: Rulli héroe en el City, Mac Allister eliminó a Barco, asistencia de Soler y toda la acción argentina en Inglaterra",
+     "u": "https://www.ole.com.ar/futbol-internacional/carabao-cup-copa-liga-argentinos-rulli-manchester-city-soler-asistencia-buendia-garnacho-liverpool-chelsea-mac-allister-barco-penales_0_TgT3WLkrDH.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Con Rulli clave y Enzo Fernández infalible, el City avanzó por penales en la Copa de la Liga",
+     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/city-copa-liga-inglaterra-city-brighton-rulli-enzo-fernandez_0_jxfG3HqUtp.html",
      "f": "Olé",
      "alta": false
     }
@@ -231,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "« Il n'y a pas d'âge pour aller en équipe de France » : apprentissage express pour la jeunesse bleue en Nouvelle-Zélande",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/-il-n-y-a-pas-d-age-pour-aller-en-equipe-de-france-apprentissage-express-pour-la-jeunesse-bleue-en-nouvelle-zelande/1739326#at_medium=RSS_feeds",
+     "t": "OL Lyonnes s'amuse contre l'Inter Milan en Ligue des champions et prend la tête du classement",
+     "u": "https://www.lequipe.fr/Football/Actualites/Ol-lyonnes-s-amuse-contre-l-inter-milan-en-ligue-des-champions-et-prend-la-tete-du-classement/1739395#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Le premier choix de la draft 2026 AJ Dybantsa va faire ses débuts en NBA cette nuit avec les Washington Wizards",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Le-premier-choix-de-la-draft-2026-aj-dybantsa-va-faire-ses-debuts-en-nba-cette-nuit-avec-les-washington-wizards/1739336#at_medium=RSS_feeds",
+     "t": "Liverpool élimine Chelsea aux tirs au but, du répit pour Pierre Sage et Régis Le Bris",
+     "u": "https://www.lequipe.fr/Football/Actualites/Liverpool-elimine-chelsea-du-repit-pour-pierre-sage-et-regis-le-bris/1739401#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,45 +247,45 @@
  ],
  "destaques": [
   {
-   "t": "Conmebol rejeita ação do Flamengo e mantém Estudiantes na final da Libertadores",
-   "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/28/estudiantes-anuncia-que-conmebol-negou-acao-do-flamengo-e-confirmou-argentinos-na-final-da-libertadores.ghtml",
-   "f": "ge",
-   "alta": true,
+   "t": "Atlético-MG x Cruzeiro: onde assistir, horário e prováveis escalações pelo Brasileirão",
+   "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/atletico-mg-x-cruzeiro-onde-assistir-brasileirao/",
+   "f": "Gazeta Esportiva",
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Ernie Johnson makes major ‘Inside the NBA’ announcement, 'It's just time'",
-   "u": "https://sports.yahoo.com/articles/ernie-johnson-makes-major-inside-184202878.html",
-   "f": "Yahoo Sports",
-   "alta": true,
+   "t": "Pressure mounts on Ruben Amorim's AC Milan after 4-2 home defeat ahead crucial Inter clash",
+   "u": "https://www.cbssports.com/soccer/news/pressure-mounts-on-ruben-amorims-ac-milan/",
+   "f": "CBS Sports",
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "Liverpool-Chelsea, em direto",
-   "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261028-180438-liverpool-chelsea-em-direto",
-   "f": "Record",
-   "alta": false,
+   "t": "«FC Porto, Benfica e Sporting são prejudicados na Europa e ninguém pia»",
+   "u": "https://www.abola.pt/video/fc-porto-benfica-e-sporting-sao-prejudicados-na-europa-e-ninguem-pia-2026102819041715665",
+   "f": "A Bola",
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "6-1: El Barça vuelve a la Champions con una goleada",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244343/barca-vuelve-champions-goleada.html",
+   "t": "1-1 (6-5): El Chelsea de Xabi Alonso, fuera tras caer por penaltis ante el Liverpool de Iraola",
+   "u": "https://www.mundodeportivo.com/futbol/premier-league/20261028/1004244433/iraola.html",
    "f": "Mundo Deportivo",
-   "alta": false,
+   "alta": true,
    "pais": "ES"
   },
   {
-   "t": "Norris, Verstappen among 10 F1 drivers to miss Mexico first practice",
-   "u": "https://www.skysports.com/f1/news/12040/13604824/mexico-city-gp-max-verstappen-george-russell-lando-norris-among-nine-f1-drivers-to-miss-first-practice",
-   "f": "Sky Sports",
+   "t": "European football: Two late own goals return Inter to top of Serie A but Milan lose at home",
+   "u": "https://www.theguardian.com/football/2026/oct/28/european-football-two-late-own-goals-return-inter-top-serie-a-venezia",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "El Inter Miami de Lionel Messi enfrentará a Cincinnati por la MLS: hora, TV y formaciones",
-   "u": "https://www.infobae.com/deportes/2026/10/28/el-inter-miami-de-lionel-messi-enfrentara-a-cincinnati-por-la-mls-hora-tv-y-formaciones/",
+   "t": "La buena noticia que recibió el Vasco Arruabarrena en Boca Juniors antes del Superclásico contra River Plate",
+   "u": "https://www.infobae.com/deportes/2026/10/28/la-buena-noticia-que-recibio-el-vasco-arruabarrena-en-boca-juniors-antes-del-superclasico-contra-river-plate/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -296,8 +296,8 @@
    "pais": "IT"
   },
   {
-   "t": "« Il n'y a pas d'âge pour aller en équipe de France » : apprentissage express pour la jeunesse bleue en Nouvelle-Zélande",
-   "u": "https://www.lequipe.fr/Rugby/Actualites/-il-n-y-a-pas-d-age-pour-aller-en-equipe-de-france-apprentissage-express-pour-la-jeunesse-bleue-en-nouvelle-zelande/1739326#at_medium=RSS_feeds",
+   "t": "OL Lyonnes s'amuse contre l'Inter Milan en Ligue des champions et prend la tête du classement",
+   "u": "https://www.lequipe.fr/Football/Actualites/Ol-lyonnes-s-amuse-contre-l-inter-milan-en-ligue-des-champions-et-prend-la-tete-du-classement/1739395#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
