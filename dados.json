@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-28T05:54:41+00:00",
+ "atualizado": "2026-10-28T13:11:35+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Real Madrid e LaLiga sofrem impacto da crise diplomática de Mbappé com a China",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/28/real-madrid-e-laliga-sofrem-impacto-da-crise-diplomatica-de-mbappe-com-a-china.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-10-2026/atletico-mg-cruzeiro.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "“Não corremos risco”, diz presidente do Estudiantes sobre pleito do Flamengo na Libertadores",
-     "u": "https://www.gazetaesportiva.com/times/flamengo/nao-corremos-risco-diz-presidente-do-estudiantes-sobre-pleito-do-flamengo-na-libertadores/",
+     "t": "Vasco treina no Nilton Santos antes de clássico contra o Flamengo",
+     "u": "https://www.gazetaesportiva.com/times/vasco/vasco-treina-no-nilton-santos-antes-de-classico-contra-o-flamengo/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Leandro Pereira, campeão pelo Palmeiras, anuncia aposentadoria do futebol",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/leandro-pereira-campeao-pelo-palmeiras-anuncia-aposentadoria-do-futebol/",
+     "t": "Inter finaliza preparação e viaja ao Rio para jogo contra o Fluminense",
+     "u": "https://www.gazetaesportiva.com/times/internacional/inter-finaliza-preparacao-e-viaja-ao-rio-para-jogo-contra-o-fluminense/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Libertadores e uma marca inédita: o que o Santos disputa no clássico com o Palmeiras",
+     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/28/libertadores-e-uma-marca-inedita-o-que-o-santos-disputa-no-classico-com-o-palmeiras.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Palmeiras defende temporada sem derrotas em clássicos na \"despedida\" contra o Santos",
+     "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/28/palmeiras-defende-temporada-sem-derrotas-em-classicos-na-despedida-contra-o-santos.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Serie A Preview: Venezia vs Inter – Team News, Lineups & Prediction",
-     "u": "https://sports.yahoo.com/articles/serie-preview-venezia-vs-inter-054000899.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
      "t": "Pistons vs. Knicks NBA parlay picks: Shorthanded Detroit due first loss and New York first win Tuesday",
      "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-nba-parlay-picks-short-handed-detroit-due-first-loss-new-york-first-win-tuesday/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Inter Milan XI vs Venezia – Predicted lineup and team news",
-     "u": "https://sports.yahoo.com/articles/inter-milan-xi-vs-venezia-053600502.html",
+     "t": "Pistons vs. Knicks prediction, odds, betting preview, start time: NBA picks, best bets on Tuesday, Oct. 27",
+     "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-prediction-odds-betting-preview-start-time-nba-picks-best-bets-tuesday-oct-27/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Milan Keeping Tabs on Manchester United Star Midfielder",
+     "u": "https://sports.yahoo.com/articles/milan-keeping-tabs-manchester-united-130000173.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Pistons vs. Knicks prediction, odds, betting preview, start time: NBA picks, best bets on Tuesday, Oct. 27",
-     "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-prediction-odds-betting-preview-start-time-nba-picks-best-bets-tuesday-oct-27/",
-     "f": "CBS Sports",
+     "t": "The NBA’s DAZN experiment offers warning for the future of streaming RSNs",
+     "u": "https://sports.yahoo.com/articles/nba-dazn-experiment-offers-warning-130031365.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Mulher de estrela da Roma 'dispara': «Traiu-me durante a gravidez e com prostitutas»",
-     "u": "https://www.abola.pt/noticias/mulher-de-estrela-da-roma-dispara-traiu-me-durante-a-gravidez-e-com-prostitutas-2026102617260217715",
-     "f": "A Bola",
-     "alta": true
-    },
-    {
-     "t": "A diferença de FC Porto para Benfica e Sporting na Liga está na baliza",
-     "u": "https://www.abola.pt/video/a-diferenca-de-fc-porto-para-benfica-e-sporting-na-liga-esta-na-baliza-2026102519184113555",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Geny Catamo fez o 150.º jogo pelo Sporting",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/geny-catamo-fez-o-150-jogo-pelo-sporting",
+     "t": "Mobilidade será dos \"maiores desafios\" do Grande Prémio de F1 no Algarve em 2027",
+     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/mobilidade-sera-dos-maiores-desafios-do-grande-premio-de-f1-no-algarve-em-2027",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "«A FIFA falhou em tudo o que prometeu» Líder da Amnistia Internacional - Portugal aponta o dedo",
-     "u": "https://www.record.pt/internacional/detalhe/a-fifa-falhou-em-tudo-o-que-prometeu-lider-da-amnistia-internacional-portugal-aponta-o-dedo",
+     "t": "Bronca na seleção de Itália na Taça Davis e a 'culpa' é de uma modelo",
+     "u": "https://www.abola.pt/noticias/bronca-na-selecao-de-italia-na-taca-davis-e-a-culpa-e-de-uma-modelo-2026102715351079733",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Gesto de João Neves para Luis Enrique dá que falar em França... por bons motivos (vídeo)",
+     "u": "https://www.abola.pt/noticias/gesto-de-joao-neves-para-luis-enrique-da-que-falar-em-franca-por-bons-motivos-video-2026102716395851802",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Dupla dos sub-23 do Sporting no radar da federação colombiana: os casos de Osorio e Siza",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/dupla-dos-sub-23-do-sporting-no-radar-da-federacao-colombiana-os-casos-de-osorio-e-siza",
      "f": "Record",
      "alta": false
     }
@@ -113,21 +113,21 @@
    },
    "noticias": [
     {
+     "t": "El Barça, entre los clubs interesados en la lateral del Bayern Franziska Kett",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/femenino/20261028/1004244168/barca-clubs-interesados-franzika-kett.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "China ve insuficientes las disculpas del Real Madrid y manda un mensaje claro al club blanco",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261028/1004244102/china-ve-insuficientes-disculpas-real-madrid-manda-mensaje-claro-club-blanco.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "Estremecedora lesión de tobillo de Jalen Williams en el duelo español entre Aday Mara y Baba Miller en la NBA",
      "u": "https://www.marca.com/baloncesto/nba/2026/10/26/estremecedora-lesion-tobillo-jalen-williams-duelo-espanol-aday-mara-baba-miller-nba-video.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "86-104: El Real Madrid más ofensivo suma y sigue ante el colista Baskonia",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261027/1004243985/cronica-baskonia-real-madrid.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "De Jong, un refuerzo que vuelve a tope para el Barça",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244015/jong-refuerzo-vuelve-tope-barca.html",
-     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -141,26 +141,26 @@
    },
    "noticias": [
     {
-     "t": "Barcelona fined £503 over their approach for Atlético Madrid star Álvarez",
-     "u": "https://www.theguardian.com/football/2026/oct/27/barcelona-fined-503-over-their-approach-for-atletico-madrid-star-alvarez",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
      "t": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
      "u": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Arsenal dumped out of Carabao Cup by League Two Fleetwood",
-     "u": "https://www.skysports.com/football/fleetwood-town-vs-arsenal/report/578610",
+     "t": "South Africa v Australia: third men’s cricket Test, day two – live",
+     "u": "https://www.theguardian.com/sport/live/2026/oct/28/south-africa-v-australia-third-test-day-two-cricket-newlands-cape-town-live-updates",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Anderson set to continue playing career in Italy",
+     "u": "https://www.skysports.com/cricket/news/12040/13604693/james-anderson-set-to-continue-playing-career-in-italy-with-napoli-8204knights-in-the-italia-t10-league",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Dowman sees red as Arsenal dumped out, but did Arteta go too far?",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cmg47g7dngxlo?at_medium=RSS&at_campaign=rss",
+     "t": "Arsenal to appeal against Dowman red card",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c3dxwdnjqj17o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -175,6 +175,12 @@
    },
    "noticias": [
     {
+     "t": "Polémica con Kylian Mbappé: el Real Madrid también pidió disculpas, pero China se mantiene inflexible y no volverá a transmitir LaLiga",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/kylianmbappe-realmadrid-china-laliga-javiertebas_0_emzaRr7TEb.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Batacazo: Arsenal fue eliminado por un equipo de Cuarta División en los penales y quedó afuera de la Copa de la Liga",
      "u": "https://www.infobae.com/deportes/2026/10/27/batacazo-arsenal-fue-eliminado-por-un-equipo-de-cuarta-division-en-los-penales-y-quedo-afuera-de-la-copa-de-la-liga/",
      "f": "Infobae",
@@ -187,14 +193,8 @@
      "alta": false
     },
     {
-     "t": "Un piloto de F1 jugó al fútbol y le metió un pelotazo en la cara a un arquero mundialista",
-     "u": "https://www.ole.com.ar/autos/piloto-f1-jugo-futbol-pelotazo-cara-arquero-checo-perez-conejo_0_j1bK2NG5p5.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "¿Cómo cayó en Boca la designación de Nicolás Ramírez como árbitro del Súper?",
-     "u": "https://www.ole.com.ar/boca-juniors/superclasico-nicolasramirez-bombonera-manuellanzini-miltongimenez-silviotrucco-var-juanromanriquelme-miguelmerentiel-andresgariano-xeneize_0_vsarLxNrK2.html",
+     "t": "Boca y la chance de lograr un hito sin batir en más de tres décadas de superclásicos",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-partido-river-superclasico-bombonera-historial-clausura-libertadores_0_D8VQNimuOR.html",
      "f": "Olé",
      "alta": false
     }
@@ -231,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Côme punit le Torino en fin de match, l'AS Rome se rapproche de l'Inter Milan en Serie A",
-     "u": "https://www.lequipe.fr/Football/Actualites/Come-punit-le-torino-en-fin-de-match-l-as-rome-se-rapproche-de-l-inter-milan-en-serie-a/1739175#at_medium=RSS_feeds",
+     "t": "Les affiches du 7e tour de la Coupe de France : un derby Paris 13 Atletico - Red Star, Nantes face au Stade Castelbourgeois, Montpellier ira en Corse",
+     "u": "https://www.lequipe.fr/Football/Actualites/Les-affiches-du-7e-tour-de-la-coupe-de-france-un-derby-paris-13-atletico-red-star-nantes-face-au-stade-castelbourgeois-montpellier-ira-en-corse/1739251#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Les San Antonio Spurs écrasent les Sacramento Kings en NBA, avec 29 points de Victor Wembanyama",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Les-san-antonio-spurs-ecrasent-les-sacramento-kings-en-nba-avec-29-points-de-victor-wembanyama/1739199#at_medium=RSS_feeds",
+     "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
+     "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,44 +247,44 @@
  ],
  "destaques": [
   {
-   "t": "Real Madrid e LaLiga sofrem impacto da crise diplomática de Mbappé com a China",
-   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/28/real-madrid-e-laliga-sofrem-impacto-da-crise-diplomatica-de-mbappe-com-a-china.ghtml",
-   "f": "ge",
+   "t": "Vasco treina no Nilton Santos antes de clássico contra o Flamengo",
+   "u": "https://www.gazetaesportiva.com/times/vasco/vasco-treina-no-nilton-santos-antes-de-classico-contra-o-flamengo/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Serie A Preview: Venezia vs Inter – Team News, Lineups & Prediction",
-   "u": "https://sports.yahoo.com/articles/serie-preview-venezia-vs-inter-054000899.html",
-   "f": "Yahoo Sports",
+   "t": "Pistons vs. Knicks NBA parlay picks: Shorthanded Detroit due first loss and New York first win Tuesday",
+   "u": "https://www.cbssports.com/betting/news/pistons-vs-knicks-nba-parlay-picks-short-handed-detroit-due-first-loss-new-york-first-win-tuesday/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Mulher de estrela da Roma 'dispara': «Traiu-me durante a gravidez e com prostitutas»",
-   "u": "https://www.abola.pt/noticias/mulher-de-estrela-da-roma-dispara-traiu-me-durante-a-gravidez-e-com-prostitutas-2026102617260217715",
-   "f": "A Bola",
-   "alta": true,
+   "t": "Mobilidade será dos \"maiores desafios\" do Grande Prémio de F1 no Algarve em 2027",
+   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/mobilidade-sera-dos-maiores-desafios-do-grande-premio-de-f1-no-algarve-em-2027",
+   "f": "Record",
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Estremecedora lesión de tobillo de Jalen Williams en el duelo español entre Aday Mara y Baba Miller en la NBA",
-   "u": "https://www.marca.com/baloncesto/nba/2026/10/26/estremecedora-lesion-tobillo-jalen-williams-duelo-espanol-aday-mara-baba-miller-nba-video.html",
-   "f": "Marca",
+   "t": "El Barça, entre los clubs interesados en la lateral del Bayern Franziska Kett",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/femenino/20261028/1004244168/barca-clubs-interesados-franzika-kett.html",
+   "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Barcelona fined £503 over their approach for Atlético Madrid star Álvarez",
-   "u": "https://www.theguardian.com/football/2026/oct/27/barcelona-fined-503-over-their-approach-for-atletico-madrid-star-alvarez",
+   "t": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
+   "u": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Batacazo: Arsenal fue eliminado por un equipo de Cuarta División en los penales y quedó afuera de la Copa de la Liga",
-   "u": "https://www.infobae.com/deportes/2026/10/27/batacazo-arsenal-fue-eliminado-por-un-equipo-de-cuarta-division-en-los-penales-y-quedo-afuera-de-la-copa-de-la-liga/",
-   "f": "Infobae",
+   "t": "Polémica con Kylian Mbappé: el Real Madrid también pidió disculpas, pero China se mantiene inflexible y no volverá a transmitir LaLiga",
+   "u": "https://www.ole.com.ar/futbol-internacional/espana/kylianmbappe-realmadrid-china-laliga-javiertebas_0_emzaRr7TEb.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -296,8 +296,8 @@
    "pais": "IT"
   },
   {
-   "t": "Côme punit le Torino en fin de match, l'AS Rome se rapproche de l'Inter Milan en Serie A",
-   "u": "https://www.lequipe.fr/Football/Actualites/Come-punit-le-torino-en-fin-de-match-l-as-rome-se-rapproche-de-l-inter-milan-en-serie-a/1739175#at_medium=RSS_feeds",
+   "t": "Les affiches du 7e tour de la Coupe de France : un derby Paris 13 Atletico - Red Star, Nantes face au Stade Castelbourgeois, Montpellier ira en Corse",
+   "u": "https://www.lequipe.fr/Football/Actualites/Les-affiches-du-7e-tour-de-la-coupe-de-france-un-derby-paris-13-atletico-red-star-nantes-face-au-stade-castelbourgeois-montpellier-ira-en-corse/1739251#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
