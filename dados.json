@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-28T23:19:11+00:00",
+ "atualizado": "2026-10-29T05:59:04+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,25 +11,25 @@
    },
    "noticias": [
     {
-     "t": "Atlético-MG x Cruzeiro: onde assistir, horário e prováveis escalações pelo Brasileirão",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/atletico-mg-x-cruzeiro-onde-assistir-brasileirao/",
+     "t": "Inter toma virada do Fluminense, e Corinthians pode sair do Z4 do Brasileiro",
+     "u": "https://www.gazetaesportiva.com/times/internacional/fluminense-vence-internacional-virada-lucho-acosta-brasileirao/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-10-2026/atletico-mg-cruzeiro.ghtml",
+     "t": "Palmeiras empata com Santos, e Flamengo pode aumentar vantagem na ponta",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/palmeiras-empata-santos-flamengo-lideranca-brasileirao/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Remo volta a vencer o Botafogo, único a perder duas vezes para os azulinos nesta Série A",
+     "u": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/10/29/remo-volta-a-vencer-o-botafogo-unico-a-perder-duas-vezes-para-os-azulinos-nesta-serie-a.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Conmebol rejeita ação do Flamengo e Estudiantes enfrentará o Palmeiras na final da Libertadores",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/conmebol-rejeita-protesto-flamengo-estudiantes-final-libertadores/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Fluminense x Internacional - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+     "t": "Com gol no fim, Fluminense vira para cima do Inter no Maracanã",
      "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/28-10-2026/fluminense-internacional.ghtml",
      "f": "ge",
      "alta": false
@@ -51,20 +51,20 @@
      "alta": false
     },
     {
-     "t": "Knicks vs. Bulls odds, prediction, time: 2026 NBA picks for Wednesday, Oct. 28 by proven model",
-     "u": "https://www.cbssports.com/betting/news/knicks-bulls-odds-prediction-time-2026-nba-picks-best-bets-wednesday-october-28/",
+     "t": "UWCL Star Power Index: Lily Yohannes shines against Inter Milan; Alessia Russo carries Arsenal",
+     "u": "https://www.cbssports.com/soccer/news/uwcl-star-power-index-lily-yohannes-shines-against-inter-milan/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Ronald Araújo Named Man of the Match as Liverpool Eliminate Chelsea",
-     "u": "https://sports.yahoo.com/articles/ronald-ara-jo-named-man-230700915.html",
+     "t": "Mbappe, Real Madrid and La Liga face long road to redemption in China",
+     "u": "https://sports.yahoo.com/articles/mbappe-real-madrid-la-liga-053006661.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Ernie Johnson to retire from 'Inside the NBA' in June after a 37-year run as host",
-     "u": "https://sports.yahoo.com/articles/ernie-johnson-retire-inside-nba-230600291.html",
+     "t": "LeBron James gets humbled by Jalen Slawson in viral NBA moment in Pacers vs. 76ers",
+     "u": "https://sports.yahoo.com/articles/lebron-james-gets-humbled-jalen-054403405.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,28 +79,28 @@
    },
    "noticias": [
     {
+     "t": "Palmeiras não passa do nulo com o Santos e pode ver Flamengo fugir na liderança do Brasileirão",
+     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/palmeiras-nao-passa-do-nulo-com-o-santos-e-pode-ver-flamengo-fugir-na-lideranca-do-brasileirao",
+     "f": "Record",
+     "alta": true
+    },
+    {
      "t": "«FC Porto, Benfica e Sporting são prejudicados na Europa e ninguém pia»",
      "u": "https://www.abola.pt/video/fc-porto-benfica-e-sporting-sao-prejudicados-na-europa-e-ninguem-pia-2026102819041715665",
      "f": "A Bola",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Liverpool bate Chelsea rumo aos 'quartos' da Taça da Liga após desempate com... 16 penáltis",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261028-180438-liverpool-chelsea-em-direto",
+     "t": "A crónica do Arsenal-Benfica, 3-0: sentença de Russo",
+     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/a-cronica-do-arsenal-benfica-3-0-sentenca-de-russo",
      "f": "Record",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Vítor Pinto e o lance polémico no FC Porto-Ac. Viseu: «Se falarmos de dois ressaltos ainda menos sentido faz este penálti»",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/vitor-pinto-e-o-lance-polemico-no-fc-porto-ac-viseu-se-falarmos-de-dois-ressaltos-ainda-menos-sentido-faz-este-penalti",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "As imagens da vitória difícil do FC Porto com o Académico de Viseu",
-     "u": "https://www.abola.pt/galeria/as-imagens-da-vitoria-dificil-do-fc-porto-com-o-academico-de-viseu-2026102822141760087",
+     "t": "Vitória 50 no FC Porto, Prpic, Mec e Inbeom: tudo o que disse Farioli",
+     "u": "https://www.abola.pt/noticias/vitoria-50-no-fc-porto-prpic-mec-e-inbeom-tudo-o-que-disse-farioli-2026102823515502088",
      "f": "A Bola",
-     "alta": true
+     "alta": false
     }
    ]
   },
@@ -113,20 +113,26 @@
    },
    "noticias": [
     {
-     "t": "1-1 (6-5): El Chelsea de Xabi Alonso, fuera tras caer por penaltis ante el Liverpool de Iraola",
-     "u": "https://www.mundodeportivo.com/futbol/premier-league/20261028/1004244433/iraola.html",
-     "f": "Mundo Deportivo",
-     "alta": true
-    },
-    {
      "t": "6-1: El Barça vuelve a la Champions con una goleada",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244343/barca-vuelve-champions-goleada.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Estremecedora lesión de tobillo de Jalen Williams en el duelo español entre Aday Mara y Baba Miller en la NBA",
-     "u": "https://www.marca.com/baloncesto/nba/2026/10/26/estremecedora-lesion-tobillo-jalen-williams-duelo-espanol-aday-mara-baba-miller-nba-video.html",
+     "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
+     "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "1-1 (6-5): El Chelsea de Xabi Alonso, fuera tras caer por penaltis ante el Liverpool de Iraola",
+     "u": "https://www.mundodeportivo.com/futbol/premier-league/20261028/1004244433/iraola.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "María Herrera, la reina de las motos: \"Quiero llevar el Mundial Femenino a MotoGP\"",
+     "u": "https://www.marca.com/motor/mas-motor/2026/10/21/maria-herrera-reina-motos-quiero-llevar-mundial-femenino-motogp.html",
      "f": "Marca",
      "alta": false
     }
@@ -141,12 +147,6 @@
    },
    "noticias": [
     {
-     "t": "European football: Two late own goals return Inter to top of Serie A but Milan lose at home",
-     "u": "https://www.theguardian.com/football/2026/oct/28/european-football-two-late-own-goals-return-inter-top-serie-a-venezia",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
      "t": "Norris, Verstappen among 10 F1 drivers to miss Mexico first practice",
      "u": "https://www.skysports.com/f1/news/12040/13604824/mexico-city-gp-max-verstappen-george-russell-lando-norris-among-nine-f1-drivers-to-miss-first-practice",
      "f": "Sky Sports",
@@ -159,9 +159,15 @@
      "alta": false
     },
     {
-     "t": "Russo scores hat-trick as Arsenal beat Benfica",
-     "u": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Liverpool beat Chelsea on penalties to reach last eight",
+     "u": "https://www.skysports.com/football/liverpool-vs-chelsea/report/578612",
+     "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Arsenal’s Slegers hails ‘role model’ Russo after historic hat-trick sinks Benfica",
+     "u": "https://www.theguardian.com/football/2026/oct/28/arsenal-v-benfica-womens-champions-league-match-report",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -175,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "La buena noticia que recibió el Vasco Arruabarrena en Boca Juniors antes del Superclásico contra River Plate",
-     "u": "https://www.infobae.com/deportes/2026/10/28/la-buena-noticia-que-recibio-el-vasco-arruabarrena-en-boca-juniors-antes-del-superclasico-contra-river-plate/",
+     "t": "Gerónimo Rulli atajó dos penales y el Manchester City avanzó a los cuartos de final de la Copa de la Liga inglesa",
+     "u": "https://www.infobae.com/deportes/2026/10/29/geronimo-rulli-atajo-dos-penales-y-el-manchester-city-avanzo-a-los-cuartos-de-final-de-la-copa-de-la-liga-inglesa/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El gesto de Lionel Messi con los juveniles de River Plate en el gran triunfo ante Flamengo por los cuartos de final de la Messi Cup",
-     "u": "https://www.infobae.com/deportes/2026/10/28/el-gesto-de-lionel-messi-con-los-juveniles-de-river-plate-en-el-gran-triunfo-ante-flamengo-por-los-cuartos-de-final-de-la-messi-cup/",
+     "t": "El día que River Plate saldó una deuda de su historia y logró su primera Copa Libertadores con un equipo extraordinario",
+     "u": "https://www.infobae.com/deportes/2026/10/29/el-dia-que-river-plate-saldo-una-deuda-de-su-historia-y-logro-su-primera-copa-libertadores-con-un-equipo-extraordinario/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Copa de la Liga: Rulli héroe en el City, Mac Allister eliminó a Barco, asistencia de Soler y toda la acción argentina en Inglaterra",
-     "u": "https://www.ole.com.ar/futbol-internacional/carabao-cup-copa-liga-argentinos-rulli-manchester-city-soler-asistencia-buendia-garnacho-liverpool-chelsea-mac-allister-barco-penales_0_TgT3WLkrDH.html",
+     "t": "¿Quién es el Riquelme que anotó un gol para el Inter Miami de Messi?",
+     "u": "https://www.ole.com.ar/mls/inter-miami/riquelme-brasileno-companero-de-messi-inter-miami-riquelme-fillipi_0_ESudq8J8Sd.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Con Rulli clave y Enzo Fernández infalible, el City avanzó por penales en la Copa de la Liga",
-     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/city-copa-liga-inglaterra-city-brighton-rulli-enzo-fernandez_0_jxfG3HqUtp.html",
+     "t": "Mundial Femenino Sub 17: buen ambiente, comodidad y las selecciones de Sudamérica dejando su marca",
+     "u": "https://www.ole.com.ar/futbol-femenino/mundial-femenino-sub-17-marruecos-selecciones-sudamericanas_0_M9yu9NH0CK.html",
      "f": "Olé",
      "alta": false
     }
@@ -231,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "OL Lyonnes s'amuse contre l'Inter Milan en Ligue des champions et prend la tête du classement",
-     "u": "https://www.lequipe.fr/Football/Actualites/Ol-lyonnes-s-amuse-contre-l-inter-milan-en-ligue-des-champions-et-prend-la-tete-du-classement/1739395#at_medium=RSS_feeds",
+     "t": "Les joueuses de Manchester City, championnes d'Angleterre et adversaires du PSG en Ligue des champions, devraient aussi pâtir des sanctions qui menace",
+     "u": "https://www.lequipe.fr/Football/Actualites/Les-joueuses-de-manchester-city-championnes-d-angleterre-et-adversaire-du-psg-en-ligue-des-champions-devraient-aussi-patir-des-sanctions-qui-menacent-le-club/1739324#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Liverpool élimine Chelsea aux tirs au but, du répit pour Pierre Sage et Régis Le Bris",
-     "u": "https://www.lequipe.fr/Football/Actualites/Liverpool-elimine-chelsea-du-repit-pour-pierre-sage-et-regis-le-bris/1739401#at_medium=RSS_feeds",
+     "t": "Tsonga, Benneteau, Pouille, Mahut : après un énième échec, la France se cherche un nouveau capitaine et un nouvel élan en Coupe Davis",
+     "u": "https://www.lequipe.fr/Tennis/Article/Tsonga-benneteau-pouille-mahut-apres-un-enieme-echec-la-france-se-cherche-un-nouveau-capitaine-de-coupe-davis-capable-de-relancer-l-interet-pour-la-competition/1739295#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,8 +253,8 @@
  ],
  "destaques": [
   {
-   "t": "Atlético-MG x Cruzeiro: onde assistir, horário e prováveis escalações pelo Brasileirão",
-   "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/atletico-mg-x-cruzeiro-onde-assistir-brasileirao/",
+   "t": "Inter toma virada do Fluminense, e Corinthians pode sair do Z4 do Brasileiro",
+   "u": "https://www.gazetaesportiva.com/times/internacional/fluminense-vence-internacional-virada-lucho-acosta-brasileirao/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
@@ -261,29 +267,29 @@
    "pais": "US"
   },
   {
-   "t": "«FC Porto, Benfica e Sporting são prejudicados na Europa e ninguém pia»",
-   "u": "https://www.abola.pt/video/fc-porto-benfica-e-sporting-sao-prejudicados-na-europa-e-ninguem-pia-2026102819041715665",
-   "f": "A Bola",
+   "t": "Palmeiras não passa do nulo com o Santos e pode ver Flamengo fugir na liderança do Brasileirão",
+   "u": "https://www.record.pt/internacional/paises/brasil/detalhe/palmeiras-nao-passa-do-nulo-com-o-santos-e-pode-ver-flamengo-fugir-na-lideranca-do-brasileirao",
+   "f": "Record",
    "alta": true,
    "pais": "PT"
   },
   {
-   "t": "1-1 (6-5): El Chelsea de Xabi Alonso, fuera tras caer por penaltis ante el Liverpool de Iraola",
-   "u": "https://www.mundodeportivo.com/futbol/premier-league/20261028/1004244433/iraola.html",
+   "t": "6-1: El Barça vuelve a la Champions con una goleada",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244343/barca-vuelve-champions-goleada.html",
    "f": "Mundo Deportivo",
-   "alta": true,
+   "alta": false,
    "pais": "ES"
   },
   {
-   "t": "European football: Two late own goals return Inter to top of Serie A but Milan lose at home",
-   "u": "https://www.theguardian.com/football/2026/oct/28/european-football-two-late-own-goals-return-inter-top-serie-a-venezia",
-   "f": "The Guardian",
+   "t": "Norris, Verstappen among 10 F1 drivers to miss Mexico first practice",
+   "u": "https://www.skysports.com/f1/news/12040/13604824/mexico-city-gp-max-verstappen-george-russell-lando-norris-among-nine-f1-drivers-to-miss-first-practice",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "La buena noticia que recibió el Vasco Arruabarrena en Boca Juniors antes del Superclásico contra River Plate",
-   "u": "https://www.infobae.com/deportes/2026/10/28/la-buena-noticia-que-recibio-el-vasco-arruabarrena-en-boca-juniors-antes-del-superclasico-contra-river-plate/",
+   "t": "Gerónimo Rulli atajó dos penales y el Manchester City avanzó a los cuartos de final de la Copa de la Liga inglesa",
+   "u": "https://www.infobae.com/deportes/2026/10/29/geronimo-rulli-atajo-dos-penales-y-el-manchester-city-avanzo-a-los-cuartos-de-final-de-la-copa-de-la-liga-inglesa/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -296,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "OL Lyonnes s'amuse contre l'Inter Milan en Ligue des champions et prend la tête du classement",
-   "u": "https://www.lequipe.fr/Football/Actualites/Ol-lyonnes-s-amuse-contre-l-inter-milan-en-ligue-des-champions-et-prend-la-tete-du-classement/1739395#at_medium=RSS_feeds",
+   "t": "Les joueuses de Manchester City, championnes d'Angleterre et adversaires du PSG en Ligue des champions, devraient aussi pâtir des sanctions qui menace",
+   "u": "https://www.lequipe.fr/Football/Actualites/Les-joueuses-de-manchester-city-championnes-d-angleterre-et-adversaire-du-psg-en-ligue-des-champions-devraient-aussi-patir-des-sanctions-qui-menacent-le-club/1739324#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
