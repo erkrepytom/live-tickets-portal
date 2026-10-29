@@ -33,6 +33,13 @@ FONTE_REG = RAIZ / "scripts/fontes/DejaVuSansCondensed.ttf"
 
 VOZES = {"pt": "pf_dora", "en": "af_heart", "es": "ef_dora"}
 LANG_KOKORO = {"pt": "p", "en": "a", "es": "e"}
+# Vozes Piper (MIT; baixadas das releases do GitHub k2-fsa/sherpa-onnx, espelho das piper-voices)
+PIPER_DIR = Path(os.environ.get("PIPER_DIR", "/opt/piper-dl"))
+PIPER_MODELOS = {
+    "pt": "vits-piper-pt_BR-faber-medium/pt_BR-faber-medium.onnx",
+    "en": "vits-piper-en_US-lessac-medium/en_US-lessac-medium.onnx",
+    "es": "vits-piper-es_ES-sharvard-medium/es_ES-sharvard-medium.onnx",
+}
 MES = {
     "pt": ["JAN", "FEV", "MAR", "ABR", "MAI", "JUN", "JUL", "AGO", "SET", "OUT", "NOV", "DEZ"],
     "en": ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
@@ -194,6 +201,50 @@ def tts_kokoro(falas, lang, pasta):
     return saidas
 
 
+def tts_piper(falas, lang, pasta):
+    """Mesma interface do tts_kokoro, usando piper-tts (pip install piper-tts) + modelos locais."""
+    import wave
+    from piper import PiperVoice
+    voz = PiperVoice.load(str(PIPER_DIR / PIPER_MODELOS[lang]))
+    saidas = []
+    for i, fala in enumerate(falas):
+        arq = pasta / f"voz{i}.wav"
+        with wave.open(str(arq), "wb") as w:
+            voz.synthesize(fala, w)
+        with wave.open(str(arq)) as w:
+            dur = w.getnframes() / w.getframerate()
+        saidas.append((arq, dur))
+    return saidas
+
+
+def tts_piper_bin(falas, lang, pasta):
+    """Piper pelo binário oficial (releases do rhasspy/piper), sem dependência de pip."""
+    import wave
+    binario = os.environ.get("PIPER_BIN", str(PIPER_DIR / "piper/piper"))
+    if not Path(binario).exists():
+        raise ImportError("binário do piper não encontrado")
+    saidas = []
+    for i, fala in enumerate(falas):
+        arq = pasta / f"voz{i}.wav"
+        subprocess.run([binario, "--model", str(PIPER_DIR / PIPER_MODELOS[lang]),
+                        "--output_file", str(arq)],
+                       input=fala.encode("utf-8"), check=True, capture_output=True)
+        with wave.open(str(arq)) as w:
+            saidas.append((arq, w.getnframes() / w.getframerate()))
+    return saidas
+
+
+def tts(falas, lang, pasta):
+    """Kokoro quando instalado; senão Piper (pip ou binário); senão explica como instalar."""
+    for motor in (tts_kokoro, tts_piper, tts_piper_bin):
+        try:
+            return motor(falas, lang, pasta)
+        except ImportError:
+            continue
+    sys.exit("Sem motor de voz: pip install kokoro  (ou)  pip install piper-tts  (ou) "
+             f"binário piper + modelos em {PIPER_DIR}. Nenhum vídeo sai mudo.")
+
+
 def ambiencia(dur, arq):
     """Ruído 'de arquibancada' sintético: marrom filtrado com ondulação lenta."""
     import numpy as np
@@ -226,7 +277,7 @@ def montar(ev, lang, sem_voz=False):
         duracoes = [5.0, 4.5, 4.5, 5.0]
         vozes = []
     else:
-        vozes = tts_kokoro([c["fala"] for c in cenas], lang, tmp)
+        vozes = tts([c["fala"] for c in cenas], lang, tmp)
         duracoes = [max(d + 0.5, 3.5) for (_, d) in vozes]
     total = sum(duracoes)
     inicios = [sum(duracoes[:i]) for i in range(len(duracoes))]
@@ -265,10 +316,10 @@ def montar(ev, lang, sem_voz=False):
             ms = int((ini + 0.25) * 1000)
             vozfil += f"[{n_ents+i}:a]aresample=44100,adelay={ms}|{ms}[d{i}];"
             rot.append(f"[d{i}]")
-        vozfil += (f"{''.join(rot)}amix=inputs={len(rot)}:normalize=0[voz];"
+        vozfil += (f"{''.join(rot)}amix=inputs={len(rot)}:normalize=0,asplit=2[voz1][voz2];"
                    f"[{n_ents+len(cenas)}:a]atrim=0:{total:.3f},volume=0.35[ambi];"
-                   f"[ambi][voz]sidechaincompress=threshold=0.015:ratio=8:attack=40:release=600[duck];"
-                   f"[duck][voz]amix=inputs=2:normalize=0,"
+                   f"[ambi][voz1]sidechaincompress=threshold=0.015:ratio=8:attack=40:release=600[duck];"
+                   f"[duck][voz2]amix=inputs=2:normalize=0,"
                    f"loudnorm=I=-14:TP=-1.5:LRA=9[aout]")
         fil = fil + ";" + vozfil
         mapa = ["-map", "[vout]", "-map", "[aout]"]
@@ -282,7 +333,9 @@ def montar(ev, lang, sem_voz=False):
            ["-c:v", "libx264", "-preset", "medium", "-crf", "21", "-r", str(FPS),
             "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2",
             "-movflags", "+faststart", "-t", f"{total:.3f}", str(saida)])
-    subprocess.run(cmd, check=True)
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode:
+        sys.exit(f"ffmpeg falhou:\n{r.stderr[-2000:]}")
     print(f"ok: {saida.relative_to(RAIZ)} ({total:.1f}s)")
     return saida
 
