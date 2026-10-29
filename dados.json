@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-29T05:59:04+00:00",
+ "atualizado": "2026-10-29T13:18:19+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Inter toma virada do Fluminense, e Corinthians pode sair do Z4 do Brasileiro",
-     "u": "https://www.gazetaesportiva.com/times/internacional/fluminense-vence-internacional-virada-lucho-acosta-brasileirao/",
+     "t": "Riquelme Fillipi, ex-Palmeiras, marca seu primeiro gol pelo Inter Miami; confira",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/riquelme-fillipi-ex-palmeiras-marca-seu-primeiro-gol-pelo-inter-miami-confira/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Palmeiras empata com Santos, e Flamengo pode aumentar vantagem na ponta",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/palmeiras-empata-santos-flamengo-lideranca-brasileirao/",
+     "t": "Abel evita pensar no Flamengo e mantém sonho do Palmeiras pelo Brasileiro: “Não vamos abrir mão de nada”",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/abel-evita-pensar-no-flamengo-e-mantem-sonho-do-palmeiras-pelo-brasileiro-nao-vamos-abrir-mao-de-nada/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Remo volta a vencer o Botafogo, único a perder duas vezes para os azulinos nesta Série A",
-     "u": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/10/29/remo-volta-a-vencer-o-botafogo-unico-a-perder-duas-vezes-para-os-azulinos-nesta-serie-a.ghtml",
+     "t": "Botafogo chega a três meses sem vencer fora de casa; veja retrospecto",
+     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/29/botafogo-chega-a-tres-meses-sem-vencer-fora-de-casa-veja-retrospecto.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Com gol no fim, Fluminense vira para cima do Inter no Maracanã",
-     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/28-10-2026/fluminense-internacional.ghtml",
+     "t": "Jair não avança na renovação, vive momento de indefinição, mas mantém o desejo de permanecer no Vasco",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/29/jair-nao-avanca-na-renovacao-vive-momento-de-indefinicao-mas-mantem-o-desejo-de-permanecer-no-vasco.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Pressure mounts on Ruben Amorim's AC Milan after 4-2 home defeat ahead crucial Inter clash",
-     "u": "https://www.cbssports.com/soccer/news/pressure-mounts-on-ruben-amorims-ac-milan/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
      "t": "UWCL Star Power Index: Lily Yohannes shines against Inter Milan; Alessia Russo carries Arsenal",
      "u": "https://www.cbssports.com/soccer/news/uwcl-star-power-index-lily-yohannes-shines-against-inter-milan/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Mbappe, Real Madrid and La Liga face long road to redemption in China",
-     "u": "https://sports.yahoo.com/articles/mbappe-real-madrid-la-liga-053006661.html",
+     "t": "It wouldn't shock me if ... NFL Week 8: Colts split Jonathan Taylor's reps, Lamar Jackson shows no rust",
+     "u": "https://www.cbssports.com/nfl/news/nfl-week-8-shocking-predictions-colts-jonathan-taylors-lamar-jackson/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Andy Reid’s comments on Justin Tucker signing shows hollowness of NFL coachspeak",
+     "u": "https://sports.yahoo.com/articles/andy-reid-comments-justin-tucker-130047234.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "LeBron James gets humbled by Jalen Slawson in viral NBA moment in Pacers vs. 76ers",
-     "u": "https://sports.yahoo.com/articles/lebron-james-gets-humbled-jalen-054403405.html",
+     "t": "'Give every talent a chance' - Former Arsenal boss Arsene Wenger hails impact of innovative 8v8 FIFA U-15 World Cup featuring 189 nations in Azerbaija",
+     "u": "https://sports.yahoo.com/articles/every-talent-chance-former-arsenal-130214155.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Palmeiras não passa do nulo com o Santos e pode ver Flamengo fugir na liderança do Brasileirão",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/palmeiras-nao-passa-do-nulo-com-o-santos-e-pode-ver-flamengo-fugir-na-lideranca-do-brasileirao",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "«FC Porto, Benfica e Sporting são prejudicados na Europa e ninguém pia»",
-     "u": "https://www.abola.pt/video/fc-porto-benfica-e-sporting-sao-prejudicados-na-europa-e-ninguem-pia-2026102819041715665",
+     "t": "Ainda há confronto direto: o que falta jogar a Flamengo e Palmeiras no Brasileirão",
+     "u": "https://www.abola.pt/noticias/ainda-ha-confronto-direto-o-que-falta-jogar-a-flamengo-e-palmeiras-no-brasileirao-2026102909580520827",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "A crónica do Arsenal-Benfica, 3-0: sentença de Russo",
-     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/a-cronica-do-arsenal-benfica-3-0-sentenca-de-russo",
+     "t": "Nem Real, nem City, nem PSG: Sporting é o 2.º clube do mundo a formar Bolas de Ouro (veja os outros)",
+     "u": "https://www.abola.pt/noticias/nem-real-nem-city-nem-psg-sporting-e-o-2o-clube-do-mundo-a-formar-bolas-de-ouro-veja-os-outros-2026102809441359607",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Benfica eliminado da Messi Cup em jogo intenso: luta pelo resultado e nove golos (um deles do meio-campo)",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/benfica-diz-adeus-a-messi-cup-em-jogo-com-nove-golos-e-um-deles-foi-do-meio-campo",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Vitória 50 no FC Porto, Prpic, Mec e Inbeom: tudo o que disse Farioli",
-     "u": "https://www.abola.pt/noticias/vitoria-50-no-fc-porto-prpic-mec-e-inbeom-tudo-o-que-disse-farioli-2026102823515502088",
-     "f": "A Bola",
+     "t": "Sporting felicita Jérémy Mathieu pelo 43.º aniversário",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sporting-felicita-jeremy-mathieu-pelo-43-aniversario",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -113,26 +113,20 @@
    },
    "noticias": [
     {
-     "t": "6-1: El Barça vuelve a la Champions con una goleada",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244343/barca-vuelve-champions-goleada.html",
+     "t": "Lío de Champions: el día que la victoria da cuatro puntos al Barça y dos la derrota",
+     "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244365/lio-champions-dia-victoria-da-cuatro-puntos-barca-dos-derrota.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Los 10 jugadores mejor pagados del fútbol mundial, según Forbes<br>",
-     "u": "https://www.marca.com/futbol/album/2026/10/21/10-jugadores-mejor-pagados-futbol-mundial-forbes-cristiano-messi-inalcanzables.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "1-1 (6-5): El Chelsea de Xabi Alonso, fuera tras caer por penaltis ante el Liverpool de Iraola",
-     "u": "https://www.mundodeportivo.com/futbol/premier-league/20261028/1004244433/iraola.html",
+     "t": "France Football se olvida del Balón de Oro de Lewandowski",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261029/1004244447/france-football-olvida-balon-oro-lewandowski.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "María Herrera, la reina de las motos: \"Quiero llevar el Mundial Femenino a MotoGP\"",
-     "u": "https://www.marca.com/motor/mas-motor/2026/10/21/maria-herrera-reina-motos-quiero-llevar-mundial-femenino-motogp.html",
+     "t": "Estremecedora lesión de tobillo de Jalen Williams en el duelo español entre Aday Mara y Baba Miller en la NBA",
+     "u": "https://www.marca.com/baloncesto/nba/2026/10/26/estremecedora-lesion-tobillo-jalen-williams-duelo-espanol-aday-mara-baba-miller-nba-video.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,27 +141,27 @@
    },
    "noticias": [
     {
-     "t": "Norris, Verstappen among 10 F1 drivers to miss Mexico first practice",
-     "u": "https://www.skysports.com/f1/news/12040/13604824/mexico-city-gp-max-verstappen-george-russell-lando-norris-among-nine-f1-drivers-to-miss-first-practice",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "Liverpool beat Chelsea on penalties yet again to secure Carabao Cup progress",
-     "u": "https://www.theguardian.com/football/2026/oct/28/liverpool-chelsea-carabao-cup-fourth-round-match-report",
+     "t": "High-flying Lazio’s thrashing of Sassuolo marked by Mussolini’s first Serie A goal | Nicky Bandini",
+     "u": "https://www.theguardian.com/football/blog/2026/oct/29/serie-a-lazio-sassuolo-romano-floriani-mussolini-gennaro-gattuso",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Liverpool beat Chelsea on penalties to reach last eight",
-     "u": "https://www.skysports.com/football/liverpool-vs-chelsea/report/578612",
-     "f": "Sky Sports",
+     "t": "England urged to hold nerve as Rugby League World Cup hopes hang by a thread",
+     "u": "https://www.theguardian.com/sport/2026/oct/29/england-rugby-league-world-cup-papua-new-guinea",
+     "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Arsenal’s Slegers hails ‘role model’ Russo after historic hat-trick sinks Benfica",
-     "u": "https://www.theguardian.com/football/2026/oct/28/arsenal-v-benfica-womens-champions-league-match-report",
-     "f": "The Guardian",
+     "t": "Russo scores hat-trick as Arsenal beat Benfica",
+     "u": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Mourinho and chaos - is Real Madrid boss misunderstood?",
+     "u": "https://www.bbc.co.uk/sport/football/articles/crly062vd0z7o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -187,20 +181,14 @@
      "alta": false
     },
     {
-     "t": "El día que River Plate saldó una deuda de su historia y logró su primera Copa Libertadores con un equipo extraordinario",
-     "u": "https://www.infobae.com/deportes/2026/10/29/el-dia-que-river-plate-saldo-una-deuda-de-su-historia-y-logro-su-primera-copa-libertadores-con-un-equipo-extraordinario/",
+     "t": "Fue múltiple campeón con River Plate y afirmó que Boca Juniors ganará la Sudamericana",
+     "u": "https://www.infobae.com/deportes/2026/10/29/fue-multiple-campeon-con-river-plate-y-afirmo-que-boca-juniors-ganara-la-copa-sudamericana-sin-dudas/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "¿Quién es el Riquelme que anotó un gol para el Inter Miami de Messi?",
-     "u": "https://www.ole.com.ar/mls/inter-miami/riquelme-brasileno-companero-de-messi-inter-miami-riquelme-fillipi_0_ESudq8J8Sd.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Mundial Femenino Sub 17: buen ambiente, comodidad y las selecciones de Sudamérica dejando su marca",
-     "u": "https://www.ole.com.ar/futbol-femenino/mundial-femenino-sub-17-marruecos-selecciones-sudamericanas_0_M9yu9NH0CK.html",
+     "t": "El ex Boca que hizo historia en River y elogió al equipo de Ponzio para el Súper: \"Tiene actitud y huevo\"",
+     "u": "https://www.ole.com.ar/river-plate/river-plate-jonatan-maidana-boca-superclasico-huevo-ponzio_0_anb0aPeByE.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +225,14 @@
    },
    "noticias": [
     {
-     "t": "Les joueuses de Manchester City, championnes d'Angleterre et adversaires du PSG en Ligue des champions, devraient aussi pâtir des sanctions qui menace",
-     "u": "https://www.lequipe.fr/Football/Actualites/Les-joueuses-de-manchester-city-championnes-d-angleterre-et-adversaire-du-psg-en-ligue-des-champions-devraient-aussi-patir-des-sanctions-qui-menacent-le-club/1739324#at_medium=RSS_feeds",
+     "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
+     "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Tsonga, Benneteau, Pouille, Mahut : après un énième échec, la France se cherche un nouveau capitaine et un nouvel élan en Coupe Davis",
-     "u": "https://www.lequipe.fr/Tennis/Article/Tsonga-benneteau-pouille-mahut-apres-un-enieme-echec-la-france-se-cherche-un-nouveau-capitaine-de-coupe-davis-capable-de-relancer-l-interet-pour-la-competition/1739295#at_medium=RSS_feeds",
+     "t": "La France candidate à l'organisation du Final Four de la Ligue des nations en cas de qualification",
+     "u": "https://www.lequipe.fr/Football/Actualites/La-france-candidate-a-l-organisation-du-final-four-de-la-ligue-des-nations-en-cas-de-qualification/1739486#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,37 +241,37 @@
  ],
  "destaques": [
   {
-   "t": "Inter toma virada do Fluminense, e Corinthians pode sair do Z4 do Brasileiro",
-   "u": "https://www.gazetaesportiva.com/times/internacional/fluminense-vence-internacional-virada-lucho-acosta-brasileirao/",
+   "t": "Riquelme Fillipi, ex-Palmeiras, marca seu primeiro gol pelo Inter Miami; confira",
+   "u": "https://www.gazetaesportiva.com/todas-as-noticias/riquelme-fillipi-ex-palmeiras-marca-seu-primeiro-gol-pelo-inter-miami-confira/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Pressure mounts on Ruben Amorim's AC Milan after 4-2 home defeat ahead crucial Inter clash",
-   "u": "https://www.cbssports.com/soccer/news/pressure-mounts-on-ruben-amorims-ac-milan/",
+   "t": "UWCL Star Power Index: Lily Yohannes shines against Inter Milan; Alessia Russo carries Arsenal",
+   "u": "https://www.cbssports.com/soccer/news/uwcl-star-power-index-lily-yohannes-shines-against-inter-milan/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Palmeiras não passa do nulo com o Santos e pode ver Flamengo fugir na liderança do Brasileirão",
-   "u": "https://www.record.pt/internacional/paises/brasil/detalhe/palmeiras-nao-passa-do-nulo-com-o-santos-e-pode-ver-flamengo-fugir-na-lideranca-do-brasileirao",
-   "f": "Record",
-   "alta": true,
+   "t": "Ainda há confronto direto: o que falta jogar a Flamengo e Palmeiras no Brasileirão",
+   "u": "https://www.abola.pt/noticias/ainda-ha-confronto-direto-o-que-falta-jogar-a-flamengo-e-palmeiras-no-brasileirao-2026102909580520827",
+   "f": "A Bola",
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "6-1: El Barça vuelve a la Champions con una goleada",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261028/1004244343/barca-vuelve-champions-goleada.html",
+   "t": "Lío de Champions: el día que la victoria da cuatro puntos al Barça y dos la derrota",
+   "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244365/lio-champions-dia-victoria-da-cuatro-puntos-barca-dos-derrota.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Norris, Verstappen among 10 F1 drivers to miss Mexico first practice",
-   "u": "https://www.skysports.com/f1/news/12040/13604824/mexico-city-gp-max-verstappen-george-russell-lando-norris-among-nine-f1-drivers-to-miss-first-practice",
-   "f": "Sky Sports",
+   "t": "High-flying Lazio’s thrashing of Sassuolo marked by Mussolini’s first Serie A goal | Nicky Bandini",
+   "u": "https://www.theguardian.com/football/blog/2026/oct/29/serie-a-lazio-sassuolo-romano-floriani-mussolini-gennaro-gattuso",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
@@ -302,8 +290,8 @@
    "pais": "IT"
   },
   {
-   "t": "Les joueuses de Manchester City, championnes d'Angleterre et adversaires du PSG en Ligue des champions, devraient aussi pâtir des sanctions qui menace",
-   "u": "https://www.lequipe.fr/Football/Actualites/Les-joueuses-de-manchester-city-championnes-d-angleterre-et-adversaire-du-psg-en-ligue-des-champions-devraient-aussi-patir-des-sanctions-qui-menacent-le-club/1739324#at_medium=RSS_feeds",
+   "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
+   "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
