@@ -1,6 +1,6 @@
 {
  "": {
-  "h": "078d9618195a37b8",
+  "h": "e1677109e9cb1732",
   "d": "2026-10-29"
  },
  "afiliados-e-aviso-legal/": {
@@ -8,91 +8,151 @@
   "d": "2026-10-26"
  },
  "alertas-de-golpe/": {
-  "h": "6d88f5a5537e4fec",
-  "d": "2026-10-26"
+  "h": "e7116cb3836356bf",
+  "d": "2026-10-29"
  },
  "alertas-de-golpe/cinco-golpes-comuns-em-shows-e-finais/": {
-  "h": "316f1c1f5628460b",
-  "d": "2026-10-26"
+  "h": "5eb95abc80c19609",
+  "d": "2026-10-29"
  },
  "alertas-de-golpe/como-reconhecer-um-site-falso-de-ingressos/": {
-  "h": "849e235595a95f31",
-  "d": "2026-10-26"
+  "h": "a04a87d260fec06f",
+  "d": "2026-10-29"
+ },
+ "cidades/londres/": {
+  "h": "8ad14ce80cb09af3",
+  "d": "2026-10-29"
  },
  "cidades/milao/": {
-  "h": "8e4eca200def4440",
+  "h": "619c5244936709fe",
   "d": "2026-10-29"
  },
  "cidades/paris/": {
-  "h": "57f970b9e89dbba4",
+  "h": "3e636a532293ce1b",
   "d": "2026-10-29"
  },
  "como-funciona/": {
   "h": "e238c61f6c4ab898",
   "d": "2026-10-26"
  },
+ "competicoes/six-nations/": {
+  "h": "6e456ea5bfb69251",
+  "d": "2026-10-29"
+ },
  "competicoes/uefa-champions-league/": {
-  "h": "7f2d0d87cb983a14",
+  "h": "3e161935ecc19b17",
+  "d": "2026-10-29"
+ },
+ "competicoes/uefa-nations-league/": {
+  "h": "25677d2f03b4b821",
   "d": "2026-10-29"
  },
  "en/": {
-  "h": "50d30e2cf74f0b09",
+  "h": "31bfd15af2125d35",
   "d": "2026-10-29"
  },
  "en/affiliate-disclosure/": {
   "h": "4bf1df9ad5422c43",
   "d": "2026-10-26"
  },
+ "en/cities/london/": {
+  "h": "5c000c661b1e2fa5",
+  "d": "2026-10-29"
+ },
  "en/cities/milan/": {
-  "h": "feced4c61f2aeede",
+  "h": "b5ed12f896a0cf86",
   "d": "2026-10-29"
  },
  "en/cities/paris/": {
-  "h": "159d40f4f01497c9",
+  "h": "59be87e753a89b61",
+  "d": "2026-10-29"
+ },
+ "en/competitions/six-nations/": {
+  "h": "2640b07d63d17837",
   "d": "2026-10-29"
  },
  "en/competitions/uefa-champions-league/": {
-  "h": "433c02a6df133324",
+  "h": "9bdf0c038b450ed7",
+  "d": "2026-10-29"
+ },
+ "en/competitions/uefa-nations-league/": {
+  "h": "4650bafaef7785d7",
+  "d": "2026-10-29"
+ },
+ "en/events/arsenal-vs-hull-city-2026-11-07/": {
+  "h": "5cbbf97408b51583",
   "d": "2026-10-29"
  },
  "en/events/barcelona-vs-manchester-city-2026-12-08/": {
-  "h": "6aac479d2d6351b4",
+  "h": "f56e66ad197594e5",
   "d": "2026-10-29"
  },
  "en/events/celine-dion-paris-2027-05-14/": {
-  "h": "8db75340f12c0536",
+  "h": "25aa5a58beef851b",
   "d": "2026-10-29"
  },
  "en/events/final-australian-open-2027-01-31/": {
-  "h": "e6c54d2d1b670e43",
+  "h": "a330e6636894d8b3",
   "d": "2026-10-29"
  },
  "en/events/final-champions-league-2027-06-05/": {
-  "h": "1580806b8542a924",
+  "h": "6fda3155bbac1bfe",
+  "d": "2026-10-29"
+ },
+ "en/events/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/": {
+  "h": "9f50b63f8478b5f1",
+  "d": "2026-10-29"
+ },
+ "en/events/final-sul-americana-atletico-mg-vs-boca-2026-11-21/": {
+  "h": "02dacd04e0b1d7bd",
+  "d": "2026-10-29"
+ },
+ "en/events/final-supercopa-italia-inter-vs-lazio-2026-12-22/": {
+  "h": "3893b1442754d771",
   "d": "2026-10-29"
  },
  "en/events/franca-vs-africa-do-sul-2026-11-13/": {
-  "h": "03db7246f29b7dbd",
+  "h": "12e5b664f50414f9",
+  "d": "2026-10-29"
+ },
+ "en/events/franca-vs-pais-de-gales-six-nations-2027-02-06/": {
+  "h": "b83e76baa7c2742e",
   "d": "2026-10-29"
  },
  "en/events/gp-abu-dhabi-f1-2026-12-06/": {
-  "h": "81c3f04ecc138959",
+  "h": "577b0ba92bbf52d2",
+  "d": "2026-10-29"
+ },
+ "en/events/inglaterra-vs-croacia-2026-11-12/": {
+  "h": "99be020f17dbf094",
+  "d": "2026-10-29"
+ },
+ "en/events/irlanda-vs-inglaterra-six-nations-2027-02-05/": {
+  "h": "a55b735943325269",
   "d": "2026-10-29"
  },
  "en/events/italia-vs-franca-2026-11-12/": {
-  "h": "c7b17b9779c3b361",
+  "h": "678cc0112cfe1b3b",
   "d": "2026-10-29"
  },
  "en/events/knicks-vs-nuggets-2027-01-11/": {
-  "h": "02db3dba910011f4",
+  "h": "fb5a8835f7eff20b",
   "d": "2026-10-29"
  },
  "en/events/milan-vs-inter-2026-10-31/": {
-  "h": "10e8b3bb1aa831b7",
+  "h": "b2185e9db6ee432e",
+  "d": "2026-10-29"
+ },
+ "en/events/sporting-vs-barcelona-2027-01-20/": {
+  "h": "4285128a9b27ba97",
+  "d": "2026-10-29"
+ },
+ "en/events/supercopa-espanha-barcelona-vs-atletico-2027-02-02/": {
+  "h": "31eac7f867791fcf",
   "d": "2026-10-29"
  },
  "en/football/": {
-  "h": "8bc2b13d86b568c7",
+  "h": "fa49cadd5faa7d7b",
   "d": "2026-10-29"
  },
  "en/guides/barcelona-tickets-camp-nou/": {
@@ -100,8 +160,8 @@
   "d": "2026-10-26"
  },
  "en/guides/buy-tickets-europe-safely/": {
-  "h": "3608e508b181060c",
-  "d": "2026-10-26"
+  "h": "e8d7b591c285d8a7",
+  "d": "2026-10-29"
  },
  "en/how-it-works/": {
   "h": "c4f27b906f1ccfc1",
@@ -111,24 +171,28 @@
   "h": "3290fa9ada468411",
   "d": "2026-10-26"
  },
+ "en/rugby/": {
+  "h": "b17f42105f4cc568",
+  "d": "2026-10-29"
+ },
  "en/scam-alerts/": {
-  "h": "8585309588d6ad46",
-  "d": "2026-10-26"
+  "h": "f7ecda5f05f895c7",
+  "d": "2026-10-29"
  },
  "en/scam-alerts/five-common-scams-at-concerts-and-finals/": {
-  "h": "0a93b7e3f2c5ff77",
-  "d": "2026-10-26"
+  "h": "2521780fbcabfcb2",
+  "d": "2026-10-29"
  },
  "en/scam-alerts/how-to-spot-a-fake-ticket-site/": {
-  "h": "0d15f19fe3f7bee6",
-  "d": "2026-10-26"
+  "h": "b9d1abe5d6e775c0",
+  "d": "2026-10-29"
  },
  "en/videos/": {
   "h": "295e22e77b53490b",
   "d": "2026-10-29"
  },
  "es/": {
-  "h": "744df40d8c94cbc7",
+  "h": "35b1052dad2d5744",
   "d": "2026-10-29"
  },
  "es/afiliados-y-aviso-legal/": {
@@ -136,76 +200,124 @@
   "d": "2026-10-26"
  },
  "es/alertas-de-estafas/": {
-  "h": "83d42b59c6e0d542",
-  "d": "2026-10-26"
+  "h": "8b3ccb42c2aaf955",
+  "d": "2026-10-29"
  },
  "es/alertas-de-estafas/cinco-estafas-comunes-en-conciertos-y-finales/": {
-  "h": "645e3cfe59d06c37",
-  "d": "2026-10-26"
+  "h": "e2db059edef60ba9",
+  "d": "2026-10-29"
  },
  "es/alertas-de-estafas/como-reconocer-un-sitio-falso-de-entradas/": {
-  "h": "c428421ab9e2662e",
-  "d": "2026-10-26"
+  "h": "b4ee21a9dad4d714",
+  "d": "2026-10-29"
+ },
+ "es/ciudades/londres/": {
+  "h": "cdf0dd54b8306fa3",
+  "d": "2026-10-29"
  },
  "es/ciudades/milan/": {
-  "h": "ee2aee02e85cad8b",
+  "h": "fcd4a6d4c692ffb4",
   "d": "2026-10-29"
  },
  "es/ciudades/paris/": {
-  "h": "fb3d12f9303938ef",
+  "h": "7aa3744c4047b56d",
   "d": "2026-10-29"
  },
  "es/como-funciona/": {
   "h": "5c5e1565b1a135c2",
   "d": "2026-10-26"
  },
+ "es/competiciones/six-nations/": {
+  "h": "e3bdfdc371af9f21",
+  "d": "2026-10-29"
+ },
  "es/competiciones/uefa-champions-league/": {
-  "h": "d5161e8b594796fb",
+  "h": "e44dd3ff4bf1f798",
+  "d": "2026-10-29"
+ },
+ "es/competiciones/uefa-nations-league/": {
+  "h": "9fe9408cca7decdd",
+  "d": "2026-10-29"
+ },
+ "es/eventos/arsenal-vs-hull-city-2026-11-07/": {
+  "h": "305dc8afd90f3544",
   "d": "2026-10-29"
  },
  "es/eventos/barcelona-vs-manchester-city-2026-12-08/": {
-  "h": "d9be99d1318e6174",
+  "h": "d4991cf57ef9c3e8",
   "d": "2026-10-29"
  },
  "es/eventos/celine-dion-paris-2027-05-14/": {
-  "h": "ae6057c6289bfd0d",
+  "h": "62f77f43d1637244",
   "d": "2026-10-29"
  },
  "es/eventos/final-australian-open-2027-01-31/": {
-  "h": "d136513a055ca122",
+  "h": "84c40cfd47cf3dfe",
   "d": "2026-10-29"
  },
  "es/eventos/final-champions-league-2027-06-05/": {
-  "h": "22f4592f02814b85",
+  "h": "3859a67fbf318322",
+  "d": "2026-10-29"
+ },
+ "es/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/": {
+  "h": "e410e76db4508787",
+  "d": "2026-10-29"
+ },
+ "es/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/": {
+  "h": "ceac14d872e24fcb",
+  "d": "2026-10-29"
+ },
+ "es/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/": {
+  "h": "30f8363baf49f6cf",
   "d": "2026-10-29"
  },
  "es/eventos/franca-vs-africa-do-sul-2026-11-13/": {
-  "h": "7f3e11e871c82ba2",
+  "h": "d9b817076622a4e2",
+  "d": "2026-10-29"
+ },
+ "es/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/": {
+  "h": "c886c39dfc43b6b9",
   "d": "2026-10-29"
  },
  "es/eventos/gp-abu-dhabi-f1-2026-12-06/": {
-  "h": "2555d075dd4a7449",
+  "h": "69f8675f84516f32",
+  "d": "2026-10-29"
+ },
+ "es/eventos/inglaterra-vs-croacia-2026-11-12/": {
+  "h": "4c3cc5a40712b468",
+  "d": "2026-10-29"
+ },
+ "es/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/": {
+  "h": "68884b259b912050",
   "d": "2026-10-29"
  },
  "es/eventos/italia-vs-franca-2026-11-12/": {
-  "h": "8132ba3cda8b9cc7",
+  "h": "07aafeb1e8d0eb84",
   "d": "2026-10-29"
  },
  "es/eventos/knicks-vs-nuggets-2027-01-11/": {
-  "h": "2efb04a09a00ed5a",
+  "h": "fdd42fd53db6d7cd",
   "d": "2026-10-29"
  },
  "es/eventos/milan-vs-inter-2026-10-31/": {
-  "h": "14a22675ceaeaeea",
+  "h": "65592383c3d82ee4",
+  "d": "2026-10-29"
+ },
+ "es/eventos/sporting-vs-barcelona-2027-01-20/": {
+  "h": "f197aba51e5a5e39",
+  "d": "2026-10-29"
+ },
+ "es/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/": {
+  "h": "edf45344d98efc1c",
   "d": "2026-10-29"
  },
  "es/futbol/": {
-  "h": "b3ac538b43f54b07",
+  "h": "09a458e5bb0020cc",
   "d": "2026-10-29"
  },
  "es/guias/comprar-entradas-europa-sin-riesgo/": {
-  "h": "e74858c6a7872d11",
-  "d": "2026-10-26"
+  "h": "9dcceb979a291bdc",
+  "d": "2026-10-29"
  },
  "es/guias/entradas-barcelona-camp-nou/": {
   "h": "ca2f13ee0f630ab5",
@@ -215,53 +327,93 @@
   "h": "ce8f4a60fdf01216",
   "d": "2026-10-26"
  },
+ "es/rugby/": {
+  "h": "a755a80ef39f059b",
+  "d": "2026-10-29"
+ },
  "es/videos/": {
   "h": "d9225f2441cc8a92",
   "d": "2026-10-29"
  },
+ "eventos/arsenal-vs-hull-city-2026-11-07/": {
+  "h": "dc12e52450b0b74d",
+  "d": "2026-10-29"
+ },
  "eventos/barcelona-vs-manchester-city-2026-12-08/": {
-  "h": "3535ded12678306a",
+  "h": "11497cfea58c5fa8",
   "d": "2026-10-29"
  },
  "eventos/celine-dion-paris-2027-05-14/": {
-  "h": "3f45bed9e3ed427a",
+  "h": "d592bf4baa072a17",
   "d": "2026-10-29"
  },
  "eventos/final-australian-open-2027-01-31/": {
-  "h": "a14f6f38ab22fa28",
+  "h": "7692df5f03ded541",
   "d": "2026-10-29"
  },
  "eventos/final-champions-league-2027-06-05/": {
-  "h": "6dc4d7c38fa33ceb",
+  "h": "64c1f0aa12c1fa0d",
+  "d": "2026-10-29"
+ },
+ "eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/": {
+  "h": "c001d7bf2d7623d8",
+  "d": "2026-10-29"
+ },
+ "eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/": {
+  "h": "c27432277f2f6b44",
+  "d": "2026-10-29"
+ },
+ "eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/": {
+  "h": "4d51adfccee8800b",
   "d": "2026-10-29"
  },
  "eventos/franca-vs-africa-do-sul-2026-11-13/": {
-  "h": "8fd1db54cc1b851a",
+  "h": "867b44008297573f",
+  "d": "2026-10-29"
+ },
+ "eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/": {
+  "h": "1dc2c1fa5c8a0307",
   "d": "2026-10-29"
  },
  "eventos/gp-abu-dhabi-f1-2026-12-06/": {
-  "h": "ad0e8432fefba35d",
+  "h": "24cda6c4ef83481f",
+  "d": "2026-10-29"
+ },
+ "eventos/inglaterra-vs-croacia-2026-11-12/": {
+  "h": "acca917cb0c493cf",
+  "d": "2026-10-29"
+ },
+ "eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/": {
+  "h": "55f9123130e88457",
   "d": "2026-10-29"
  },
  "eventos/italia-vs-franca-2026-11-12/": {
-  "h": "f3e84e657cd193a3",
+  "h": "757d2ac327a7fa12",
   "d": "2026-10-29"
  },
  "eventos/knicks-vs-nuggets-2027-01-11/": {
-  "h": "9bb973ee021573f7",
+  "h": "a6db0466fabfbda8",
   "d": "2026-10-29"
  },
  "eventos/milan-vs-inter-2026-10-31/": {
-  "h": "af67d78316519df5",
+  "h": "fe451abeecf7a0f6",
+  "d": "2026-10-29"
+ },
+ "eventos/sporting-vs-barcelona-2027-01-20/": {
+  "h": "3fc91ce30ebc879e",
+  "d": "2026-10-29"
+ },
+ "eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/": {
+  "h": "930700899b636617",
   "d": "2026-10-29"
  },
  "futebol/": {
-  "h": "5922b80d76f27170",
+  "h": "454d38c3b762aadd",
   "d": "2026-10-29"
  },
  "guias/comprar-ingressos-europa-sem-risco/": {
-  "h": "4ce99ba374324d50",
-  "d": "2026-10-26"
+  "h": "9f32c2309a738dbd",
+  "d": "2026-10-29"
  },
  "guias/ingresso-barcelona-camp-nou/": {
   "h": "ae765834d91bc413",
@@ -270,6 +422,10 @@
  "privacidade/": {
   "h": "f59fa5461e557f45",
   "d": "2026-10-26"
+ },
+ "rugbi/": {
+  "h": "3436138e0794cd3a",
+  "d": "2026-10-29"
  },
  "videos/": {
   "h": "b635e657988d80a2",
