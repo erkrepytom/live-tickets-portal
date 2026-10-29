@@ -36,10 +36,28 @@ LANG_KOKORO = {"pt": "p", "en": "a", "es": "e"}
 # Vozes Piper (MIT; baixadas das releases do GitHub k2-fsa/sherpa-onnx, espelho das piper-voices)
 PIPER_DIR = Path(os.environ.get("PIPER_DIR", "/opt/piper-dl"))
 PIPER_MODELOS = {
-    "pt": "vits-piper-pt_BR-faber-medium/pt_BR-faber-medium.onnx",
-    "en": "vits-piper-en_US-lessac-medium/en_US-lessac-medium.onnx",
-    "es": "vits-piper-es_ES-sharvard-medium/es_ES-sharvard-medium.onnx",
+    "pt": ("vits-piper-pt_BR-faber-medium/pt_BR-faber-medium.onnx", None),
+    "en": ("vits-piper-en_US-lessac-medium/en_US-lessac-medium.onnx", None),
+    "es": ("vits-piper-es_ES-sharvard-medium/es_ES-sharvard-medium.onnx", 1),
 }
+
+
+def modelo_compativel(caminho):
+    """O binário do piper (onnxruntime embutido) aceita ONNX até IR 8; modelos novos vêm
+    com IR 9, que muda só o número de versão do contêiner, não os operadores. Quando o
+    modelo começa com ir_version=9 (protobuf: 0x08 0x09), grava uma cópia -ir8 e usa ela."""
+    import shutil
+    caminho = Path(caminho)
+    with open(caminho, "rb") as f:
+        inicio = f.read(2)
+    if inicio != bytes([0x08, 0x09]):
+        return caminho
+    alvo = caminho.with_name(caminho.stem + "-ir8.onnx")
+    if not alvo.exists():
+        b = caminho.read_bytes()
+        alvo.write_bytes(bytes([0x08, 0x08]) + b[2:])
+        shutil.copy(f"{caminho}.json", f"{alvo}.json")
+    return alvo
 MES = {
     "pt": ["JAN", "FEV", "MAR", "ABR", "MAI", "JUN", "JUL", "AGO", "SET", "OUT", "NOV", "DEZ"],
     "en": ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
@@ -205,12 +223,13 @@ def tts_piper(falas, lang, pasta):
     """Mesma interface do tts_kokoro, usando piper-tts (pip install piper-tts) + modelos locais."""
     import wave
     from piper import PiperVoice
-    voz = PiperVoice.load(str(PIPER_DIR / PIPER_MODELOS[lang]))
+    modelo, falante = PIPER_MODELOS[lang]
+    voz = PiperVoice.load(str(PIPER_DIR / modelo))
     saidas = []
     for i, fala in enumerate(falas):
         arq = pasta / f"voz{i}.wav"
         with wave.open(str(arq), "wb") as w:
-            voz.synthesize(fala, w)
+            voz.synthesize(fala, w, speaker_id=falante)
         with wave.open(str(arq)) as w:
             dur = w.getnframes() / w.getframerate()
         saidas.append((arq, dur))
@@ -223,10 +242,13 @@ def tts_piper_bin(falas, lang, pasta):
     binario = os.environ.get("PIPER_BIN", str(PIPER_DIR / "piper/piper"))
     if not Path(binario).exists():
         raise ImportError("binário do piper não encontrado")
+    modelo, falante = PIPER_MODELOS[lang]
+    modelo = modelo_compativel(PIPER_DIR / modelo)
+    extra = ["--speaker", str(falante)] if falante is not None else []
     saidas = []
     for i, fala in enumerate(falas):
         arq = pasta / f"voz{i}.wav"
-        subprocess.run([binario, "--model", str(PIPER_DIR / PIPER_MODELOS[lang]),
+        subprocess.run([binario, "--model", str(modelo), *extra,
                         "--output_file", str(arq)],
                        input=fala.encode("utf-8"), check=True, capture_output=True)
         with wave.open(str(arq)) as w:
