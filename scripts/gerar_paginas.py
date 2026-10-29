@@ -1422,6 +1422,7 @@ def cabeca(lang, pagina, titulo, desc, alternos, extra="", imagem=None):
 <meta name="description" content="{e(desc)}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="theme-color" content="{COR_TEMA}">
+<meta name="impact-site-verification" value="e803406f-8cf4-48d2-89b7-4244a9deef47">
 <link rel="canonical" href="{BASE_URL}/{pagina}">
 {alt}
 <link rel="alternate" hreflang="x-default" href="{BASE_URL}/{alternos['en']}">
