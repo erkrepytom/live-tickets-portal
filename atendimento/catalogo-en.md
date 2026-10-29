@@ -12,6 +12,14 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 - Metro M5 to San Siro Stadio station, next to the stadium.
 - Tram 16 also stops at the square in front of the stadium.
 
+### Arsenal vs Hull City
+- Date: Saturday, November 7, 2026
+- Venue: Emirates Stadium, London, England (Premier League)
+- Tickets: https://www.sportsevents365.com/event/393012?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/arsenal-vs-hull-city-2026-11-07/
+- Underground (Piccadilly line) to Arsenal station, a few minutes' walk away.
+- Holloway Road and Highbury & Islington also work; around kick-off Holloway Road can be exit-only.
+
 ### Italy vs France
 - Date: Thursday, November 12, 2026
 - Venue: San Siro (Giuseppe Meazza), Milan, Italy (UEFA Nations League)
@@ -20,6 +28,14 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 - Metro M5 to San Siro Stadio station, next to the stadium.
 - Night internationals pack the metro after the final whistle. It pays to wait 20 minutes.
 
+### England vs Croatia
+- Date: Thursday, November 12, 2026
+- Venue: Wembley Stadium, London, England (UEFA Nations League)
+- Tickets: https://www.sportsevents365.com/event/387541?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/
+- Underground to Wembley Park (Jubilee or Metropolitan line), then walk up Olympic Way.
+- Chiltern Railways from Marylebone to Wembley Stadium station, next to the ground.
+
 ### France vs South Africa
 - Date: Friday, November 13, 2026
 - Venue: Stade de France, Paris, France (World Rugby Nations Championship)
@@ -27,6 +43,22 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 - Guide on the site: https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/
 - RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.
 - Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away.
+
+### Copa Sudamericana Final: Atlético Mineiro vs Boca Juniors
+- Date: Saturday, November 21, 2026
+- Venue: Estadio Metropolitano Roberto Meléndez, Barranquilla, Colombia (Copa Sudamericana)
+- Tickets: https://www.sportsevents365.com/event/399058?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/final-sul-americana-atletico-mg-vs-boca-2026-11-21/
+- The stadium is in the south of Barranquilla. By taxi or ride app, allow about 30 minutes from the northern hotel area.
+- Kick-off is 5 pm in Caribbean heat: arrive early and drink water before going in.
+
+### Copa Libertadores Final: Palmeiras vs Estudiantes
+- Date: Saturday, November 28, 2026
+- Venue: Estadio Centenario, Montevideo, Uruguay (Copa Libertadores)
+- Tickets: https://www.sportsevents365.com/event/398045?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/
+- The Centenario sits in Parque Batlle, about 15 minutes by taxi from central Montevideo.
+- At a final, security keeps the fans apart: check your gate on the ticket and arrive early.
 
 ### Formula 1 Abu Dhabi Grand Prix
 - Date: Sunday, December 6, 2026
@@ -44,6 +76,14 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 - Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal.
 - Champions League games are on weeknights. Book a hotel near a metro line.
 
+### Italian Super Cup Final: Inter vs Lazio
+- Date: Tuesday, December 22, 2026
+- Venue: San Siro (Giuseppe Meazza), Milan, Italy (Supercoppa Italiana)
+- Tickets: https://www.sportsevents365.com/event/391307?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/final-supercopa-italia-inter-vs-lazio-2026-12-22/
+- Metro M5 to San Siro Stadio station, next to the stadium.
+- Tram 16 also stops at the square in front of the stadium.
+
 ### New York Knicks vs Denver Nuggets
 - Date: Monday, January 11, 2027
 - Venue: Madison Square Garden, New York, USA (NBA)
@@ -52,6 +92,14 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 - The arena sits above Penn Station: subway 1, 2, 3, A, C and E to 34 St–Penn Station.
 - Doors usually open one hour before tip-off.
 
+### Sporting CP vs Barcelona
+- Date: Wednesday, January 20, 2027
+- Venue: Estádio José Alvalade, Lisbon, Portugal (UEFA Champions League)
+- Tickets: https://www.sportsevents365.com/event/402457?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/sporting-vs-barcelona-2027-01-20/
+- Lisbon Metro, green or yellow line, to Campo Grande station, right next to the stadium.
+- The metro fills up after the match: walk a few minutes to another station or wait for the queue to ease.
+
 ### Australian Open Men's Final
 - Date: Sunday, January 31, 2027
 - Venue: Rod Laver Arena, Melbourne, Australia (Australian Open (Grand Slam))
@@ -59,6 +107,30 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 - Guide on the site: https://mytickets.tours/en/events/final-australian-open-2027-01-31/
 - Rod Laver Arena is in Melbourne Park, about a 15-minute walk from Flinders Street station.
 - Extra trams run to Melbourne Park during the tournament. Check times on the Australian Open site.
+
+### Spanish Super Cup: Barcelona vs Atlético Madrid
+- Date: Tuesday, February 2, 2027
+- Venue: Estádio Şükrü Saracoğlu (Fenerbahçe), Istanbul, Turkey (Supercopa de España)
+- Tickets: https://www.sportsevents365.com/event/391305?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/supercopa-espanha-barcelona-vs-atletico-2027-02-02/
+- The stadium is in Kadıköy on the Asian side: take the ferry from Eminönü or Karaköy to Kadıköy and walk about 15 minutes.
+- The Marmaray line also works: get off at Söğütlüçeşme, a few minutes' walk away.
+
+### Ireland vs England (Six Nations)
+- Date: Friday, February 5, 2027
+- Venue: Aviva Stadium, Dublin, Ireland (Six Nations)
+- Tickets: https://www.sportsevents365.com/event/388439?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/irlanda-vs-inglaterra-six-nations-2027-02-05/
+- DART train to Lansdowne Road, right by the stadium.
+- From central Dublin it is also about a 30-minute walk.
+
+### France vs Wales (Six Nations)
+- Date: Saturday, February 6, 2027
+- Venue: Stade de France, Paris, France (Six Nations)
+- Tickets: https://www.sportsevents365.com/event/388441?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
+- Guide on the site: https://mytickets.tours/en/events/franca-vs-pais-de-gales-six-nations-2027-02-06/
+- RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.
+- Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away.
 
 ### Celine Dion in Paris
 - Date: Friday, May 14, 2027

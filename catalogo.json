@@ -54,6 +54,36 @@
    }
   },
   {
+   "id": "393012",
+   "slug": "arsenal-vs-hull-city-2026-11-07",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Arsenal x Hull City",
+    "en": "Arsenal vs Hull City",
+    "es": "Arsenal vs Hull City"
+   },
+   "data": "2026-11-07",
+   "hora_local": "15:00",
+   "local": "Emirates Stadium",
+   "cidade": {
+    "pt": "Londres",
+    "en": "London",
+    "es": "Londres"
+   },
+   "pais": {
+    "pt": "Inglaterra",
+    "en": "England",
+    "es": "Inglaterra"
+   },
+   "competicao": "Premier League",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/arsenal-vs-hull-city-2026-11-07/",
+    "en": "https://mytickets.tours/en/events/arsenal-vs-hull-city-2026-11-07/",
+    "es": "https://mytickets.tours/es/eventos/arsenal-vs-hull-city-2026-11-07/"
+   },
+   "preco": null
+  },
+  {
    "id": "387682",
    "slug": "italia-vs-franca-2026-11-12",
    "tipo": "football",
@@ -89,6 +119,36 @@
    }
   },
   {
+   "id": "387541",
+   "slug": "inglaterra-vs-croacia-2026-11-12",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Inglaterra x Croácia",
+    "en": "England vs Croatia",
+    "es": "Inglaterra vs Croacia"
+   },
+   "data": "2026-11-12",
+   "hora_local": "19:45",
+   "local": "Wembley Stadium",
+   "cidade": {
+    "pt": "Londres",
+    "en": "London",
+    "es": "Londres"
+   },
+   "pais": {
+    "pt": "Inglaterra",
+    "en": "England",
+    "es": "Inglaterra"
+   },
+   "competicao": "UEFA Nations League",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/inglaterra-vs-croacia-2026-11-12/",
+    "en": "https://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/",
+    "es": "https://mytickets.tours/es/eventos/inglaterra-vs-croacia-2026-11-12/"
+   },
+   "preco": null
+  },
+  {
    "id": "383977",
    "slug": "franca-vs-africa-do-sul-2026-11-13",
    "tipo": "rugby",
@@ -122,6 +182,66 @@
     "conferido": "2026-10-29",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
+  },
+  {
+   "id": "399058",
+   "slug": "final-sul-americana-atletico-mg-vs-boca-2026-11-21",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Final da Sul-Americana: Atlético-MG x Boca Juniors",
+    "en": "Copa Sudamericana Final: Atlético Mineiro vs Boca Juniors",
+    "es": "Final de la Sudamericana: Atlético Mineiro vs Boca Juniors"
+   },
+   "data": "2026-11-21",
+   "hora_local": "17:00",
+   "local": "Estadio Metropolitano Roberto Meléndez",
+   "cidade": {
+    "pt": "Barranquilla",
+    "en": "Barranquilla",
+    "es": "Barranquilla"
+   },
+   "pais": {
+    "pt": "Colômbia",
+    "en": "Colombia",
+    "es": "Colombia"
+   },
+   "competicao": "Copa Sudamericana",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
+    "en": "https://mytickets.tours/en/events/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
+    "es": "https://mytickets.tours/es/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/"
+   },
+   "preco": null
+  },
+  {
+   "id": "398045",
+   "slug": "final-libertadores-palmeiras-vs-estudiantes-2026-11-28",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Final da Libertadores: Palmeiras x Estudiantes",
+    "en": "Copa Libertadores Final: Palmeiras vs Estudiantes",
+    "es": "Final de la Libertadores: Palmeiras vs Estudiantes"
+   },
+   "data": "2026-11-28",
+   "hora_local": "20:00",
+   "local": "Estadio Centenario",
+   "cidade": {
+    "pt": "Montevidéu",
+    "en": "Montevideo",
+    "es": "Montevideo"
+   },
+   "pais": {
+    "pt": "Uruguai",
+    "en": "Uruguay",
+    "es": "Uruguay"
+   },
+   "competicao": "Copa Libertadores",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
+    "en": "https://mytickets.tours/en/events/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
+    "es": "https://mytickets.tours/es/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/"
+   },
+   "preco": null
   },
   {
    "id": "387903",
@@ -194,6 +314,36 @@
    }
   },
   {
+   "id": "391307",
+   "slug": "final-supercopa-italia-inter-vs-lazio-2026-12-22",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Final da Supercopa da Itália: Inter x Lazio",
+    "en": "Italian Super Cup Final: Inter vs Lazio",
+    "es": "Final de la Supercopa de Italia: Inter vs Lazio"
+   },
+   "data": "2026-12-22",
+   "hora_local": "21:00",
+   "local": "San Siro (Giuseppe Meazza)",
+   "cidade": {
+    "pt": "Milão",
+    "en": "Milan",
+    "es": "Milán"
+   },
+   "pais": {
+    "pt": "Itália",
+    "en": "Italy",
+    "es": "Italia"
+   },
+   "competicao": "Supercoppa Italiana",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
+    "en": "https://mytickets.tours/en/events/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
+    "es": "https://mytickets.tours/es/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/"
+   },
+   "preco": null
+  },
+  {
    "id": "401302",
    "slug": "knicks-vs-nuggets-2027-01-11",
    "tipo": "nba",
@@ -229,6 +379,36 @@
    }
   },
   {
+   "id": "402457",
+   "slug": "sporting-vs-barcelona-2027-01-20",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Sporting x Barcelona",
+    "en": "Sporting CP vs Barcelona",
+    "es": "Sporting de Portugal vs Barcelona"
+   },
+   "data": "2027-01-20",
+   "hora_local": "20:00",
+   "local": "Estádio José Alvalade",
+   "cidade": {
+    "pt": "Lisboa",
+    "en": "Lisbon",
+    "es": "Lisboa"
+   },
+   "pais": {
+    "pt": "Portugal",
+    "en": "Portugal",
+    "es": "Portugal"
+   },
+   "competicao": "UEFA Champions League",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/sporting-vs-barcelona-2027-01-20/",
+    "en": "https://mytickets.tours/en/events/sporting-vs-barcelona-2027-01-20/",
+    "es": "https://mytickets.tours/es/eventos/sporting-vs-barcelona-2027-01-20/"
+   },
+   "preco": null
+  },
+  {
    "id": "390886",
    "slug": "final-australian-open-2027-01-31",
    "tipo": "tennis",
@@ -262,6 +442,96 @@
     "conferido": "2026-10-29",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
+  },
+  {
+   "id": "391305",
+   "slug": "supercopa-espanha-barcelona-vs-atletico-2027-02-02",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Supercopa da Espanha: Barcelona x Atlético de Madrid",
+    "en": "Spanish Super Cup: Barcelona vs Atlético Madrid",
+    "es": "Supercopa de España: Barcelona vs Atlético de Madrid"
+   },
+   "data": "2027-02-02",
+   "hora_local": "22:00",
+   "local": "Estádio Şükrü Saracoğlu (Fenerbahçe)",
+   "cidade": {
+    "pt": "Istambul",
+    "en": "Istanbul",
+    "es": "Estambul"
+   },
+   "pais": {
+    "pt": "Turquia",
+    "en": "Turkey",
+    "es": "Turquía"
+   },
+   "competicao": "Supercopa de España",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
+    "en": "https://mytickets.tours/en/events/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
+    "es": "https://mytickets.tours/es/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/"
+   },
+   "preco": null
+  },
+  {
+   "id": "388439",
+   "slug": "irlanda-vs-inglaterra-six-nations-2027-02-05",
+   "tipo": "rugby",
+   "titulo": {
+    "pt": "Irlanda x Inglaterra (Six Nations)",
+    "en": "Ireland vs England (Six Nations)",
+    "es": "Irlanda vs Inglaterra (Seis Naciones)"
+   },
+   "data": "2027-02-05",
+   "hora_local": "20:10",
+   "local": "Aviva Stadium",
+   "cidade": {
+    "pt": "Dublin",
+    "en": "Dublin",
+    "es": "Dublín"
+   },
+   "pais": {
+    "pt": "Irlanda",
+    "en": "Ireland",
+    "es": "Irlanda"
+   },
+   "competicao": "Six Nations",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/",
+    "en": "https://mytickets.tours/en/events/irlanda-vs-inglaterra-six-nations-2027-02-05/",
+    "es": "https://mytickets.tours/es/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/"
+   },
+   "preco": null
+  },
+  {
+   "id": "388441",
+   "slug": "franca-vs-pais-de-gales-six-nations-2027-02-06",
+   "tipo": "rugby",
+   "titulo": {
+    "pt": "França x País de Gales (Six Nations)",
+    "en": "France vs Wales (Six Nations)",
+    "es": "Francia vs Gales (Seis Naciones)"
+   },
+   "data": "2027-02-06",
+   "hora_local": "16:40",
+   "local": "Stade de France",
+   "cidade": {
+    "pt": "Paris",
+    "en": "Paris",
+    "es": "París"
+   },
+   "pais": {
+    "pt": "França",
+    "en": "France",
+    "es": "Francia"
+   },
+   "competicao": "Six Nations",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/",
+    "en": "https://mytickets.tours/en/events/franca-vs-pais-de-gales-six-nations-2027-02-06/",
+    "es": "https://mytickets.tours/es/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/"
+   },
+   "preco": null
   },
   {
    "id": "391312",
