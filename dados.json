@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-29T13:18:19+00:00",
+ "atualizado": "2026-10-29T19:43:12+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Riquelme Fillipi, ex-Palmeiras, marca seu primeiro gol pelo Inter Miami; confira",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/riquelme-fillipi-ex-palmeiras-marca-seu-primeiro-gol-pelo-inter-miami-confira/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Abel evita pensar no Flamengo e mantém sonho do Palmeiras pelo Brasileiro: “Não vamos abrir mão de nada”",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/abel-evita-pensar-no-flamengo-e-mantem-sonho-do-palmeiras-pelo-brasileiro-nao-vamos-abrir-mao-de-nada/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Botafogo chega a três meses sem vencer fora de casa; veja retrospecto",
-     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/29/botafogo-chega-a-tres-meses-sem-vencer-fora-de-casa-veja-retrospecto.ghtml",
+     "t": "Quem está pior leva a melhor? Atlético-MG e Cruzeiro chegam a clássico em cenário raro",
+     "u": "https://ge.globo.com/mg/futebol/noticia/2026/10/29/quem-esta-pior-leva-a-melhor-atletico-mg-e-cruzeiro-chegam-a-classico-em-cenario-raro.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Jair não avança na renovação, vive momento de indefinição, mas mantém o desejo de permanecer no Vasco",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/29/jair-nao-avanca-na-renovacao-vive-momento-de-indefinicao-mas-mantem-o-desejo-de-permanecer-no-vasco.ghtml",
+     "t": "Convocado pela Seleção, Danilo pode perder duelo direto do Botafogo com Corinthians",
+     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/29/convocado-pela-selecao-danilo-pode-perder-duelo-direto-do-botafogo-com-corinthians.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Lucas Jorge projeta clássicos entre São Paulo e Palmeiras nas quartas do Paulista Sub-15",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/lucas-jorge-projeta-classicos-entre-sao-paulo-e-palmeiras-nas-quartas-do-paulista-sub-15/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Kimi Antonelli pode se tornar campeão mais jovem da F1 no GP do México",
+     "u": "https://www.gazetaesportiva.com/motor/formula-1/kimi-antonelli-pode-fazer-historia-e-conquistar-titulo-da-formula-1-no-mexico/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "UWCL Star Power Index: Lily Yohannes shines against Inter Milan; Alessia Russo carries Arsenal",
-     "u": "https://www.cbssports.com/soccer/news/uwcl-star-power-index-lily-yohannes-shines-against-inter-milan/",
+     "t": "NFL DFS, Packers vs. Panthers: Top daily Fantasy picks, lineup advice for 'Thursday Night Football'",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-packers-panthers-daily-fantasy-picks-draftkings-fanduel-lineup-strategy-for-thursday-night-football/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "It wouldn't shock me if ... NFL Week 8: Colts split Jonathan Taylor's reps, Lamar Jackson shows no rust",
-     "u": "https://www.cbssports.com/nfl/news/nfl-week-8-shocking-predictions-colts-jonathan-taylors-lamar-jackson/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Andy Reid’s comments on Justin Tucker signing shows hollowness of NFL coachspeak",
-     "u": "https://sports.yahoo.com/articles/andy-reid-comments-justin-tucker-130047234.html",
+     "t": "Mexico Grand Prix: Where to watch the Formula 1 race today, schedule, how to stream and more",
+     "u": "https://sports.yahoo.com/f1/article/mexico-grand-prix-where-to-watch-the-formula-1-race-today-schedule-how-to-stream-and-more-193000328.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "'Give every talent a chance' - Former Arsenal boss Arsene Wenger hails impact of innovative 8v8 FIFA U-15 World Cup featuring 189 nations in Azerbaija",
-     "u": "https://sports.yahoo.com/articles/every-talent-chance-former-arsenal-130214155.html",
+     "t": "Panthers vs. Packers odds, first touchdown scorer picks, predictions for NFL Week 8 Thursday Night Football",
+     "u": "https://www.cbssports.com/prediction/news/panthers-vs-packers-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-8-thursday-night-football/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "NBA ratings still rising to start new season",
+     "u": "https://sports.yahoo.com/articles/nba-ratings-still-rising-start-193009263.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Ainda há confronto direto: o que falta jogar a Flamengo e Palmeiras no Brasileirão",
-     "u": "https://www.abola.pt/noticias/ainda-ha-confronto-direto-o-que-falta-jogar-a-flamengo-e-palmeiras-no-brasileirao-2026102909580520827",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Nem Real, nem City, nem PSG: Sporting é o 2.º clube do mundo a formar Bolas de Ouro (veja os outros)",
-     "u": "https://www.abola.pt/noticias/nem-real-nem-city-nem-psg-sporting-e-o-2o-clube-do-mundo-a-formar-bolas-de-ouro-veja-os-outros-2026102809441359607",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Benfica eliminado da Messi Cup em jogo intenso: luta pelo resultado e nove golos (um deles do meio-campo)",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/benfica-diz-adeus-a-messi-cup-em-jogo-com-nove-golos-e-um-deles-foi-do-meio-campo",
+     "t": "Ancelotti anuncia convocatória do Brasil sem jogadores de Flamengo e Palmeiras",
+     "u": "https://www.record.pt/internacional/detalhe/ancelotti-anuncia-convocatoria-do-brasil-sem-jogadores-de-flamengo-e-palmeiras",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Sporting felicita Jérémy Mathieu pelo 43.º aniversário",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sporting-felicita-jeremy-mathieu-pelo-43-aniversario",
+     "t": "Alexander Zverev vence em Viena e oficializa estatuto de n.º 1 ATP",
+     "u": "https://www.record.pt/modalidades/tenis/detalhe/alexander-zverev-vence-em-viena-e-oficializa-estatuto-de-n-1-atp",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Atenção, Sporting: Shakhtar vence Dínamo Kiev e avança na Taça da Ucrânia",
+     "u": "https://www.abola.pt/noticias/atencao-sporting-shakhtar-vence-dinamo-kiev-e-avanca-na-taca-da-ucrania-2026102720012292336",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Samu (e não só) fora dos convocados do FC Porto",
+     "u": "https://www.abola.pt/noticias/samu-e-nao-so-fora-dos-convocados-do-fc-porto-2026102718442360246",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,20 +113,26 @@
    },
    "noticias": [
     {
-     "t": "Lío de Champions: el día que la victoria da cuatro puntos al Barça y dos la derrota",
-     "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244365/lio-champions-dia-victoria-da-cuatro-puntos-barca-dos-derrota.html",
+     "t": "Real Madrid - Fenerbahçe, en directo",
+     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261029/1004243818/real-madrid-fenerbahce-directo-euroliga-baloncesto.html",
+     "f": "Mundo Deportivo",
+     "alta": true
+    },
+    {
+     "t": "ElPozo Murcia sufre su primera derrota en Champions ante el Benfica",
+     "u": "https://www.marca.com/futbol/futbol-sala/2026/10/29/elpozo-murcia-sufre-primera-derrota-champions-benfica.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "1-6: Golpe de autoridad del Barça en la Champions y billete a octavos",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261029/1004244731/1-6-golpe-autoridad-barca-champions-billete-octavos.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "France Football se olvida del Balón de Oro de Lewandowski",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261029/1004244447/france-football-olvida-balon-oro-lewandowski.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Estremecedora lesión de tobillo de Jalen Williams en el duelo español entre Aday Mara y Baba Miller en la NBA",
-     "u": "https://www.marca.com/baloncesto/nba/2026/10/26/estremecedora-lesion-tobillo-jalen-williams-duelo-espanol-aday-mara-baba-miller-nba-video.html",
+     "t": "Lorenzo Brown aún reclama el anillo de campeón de la NBA de 2019",
+     "u": "https://www.marca.com/baloncesto/nba/2026/10/29/lorenzo-brown-aun-reclama-anillo-campeon-nba-2019.html",
      "f": "Marca",
      "alta": false
     }
@@ -141,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "High-flying Lazio’s thrashing of Sassuolo marked by Mussolini’s first Serie A goal | Nicky Bandini",
-     "u": "https://www.theguardian.com/football/blog/2026/oct/29/serie-a-lazio-sassuolo-romano-floriani-mussolini-gennaro-gattuso",
+     "t": "Manchester City v Paris Saint-Germain: Women’s Champions League – live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/29/manchester-city-v-paris-saint-germain-womens-champions-league-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "England urged to hold nerve as Rugby League World Cup hopes hang by a thread",
-     "u": "https://www.theguardian.com/sport/2026/oct/29/england-rugby-league-world-cup-papua-new-guinea",
+     "t": "WCL: Man City vs PSG team news LIVE!",
+     "u": "https://www.skysports.com/football/manchester-city-women-vs-paris-saint-germain-women/live/578257",
+     "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Mussolini’s first Serie A goal marks high-flying Lazio’s thrashing of Sassuolo | Nicky Bandini",
+     "u": "https://www.theguardian.com/football/blog/2026/oct/29/serie-a-lazio-sassuolo-romano-floriani-mussolini-gennaro-gattuso",
      "f": "The Guardian",
      "alta": false
     },
     {
      "t": "Russo scores hat-trick as Arsenal beat Benfica",
      "u": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Mourinho and chaos - is Real Madrid boss misunderstood?",
-     "u": "https://www.bbc.co.uk/sport/football/articles/crly062vd0z7o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -175,20 +181,26 @@
    },
    "noticias": [
     {
+     "t": "Los 10 puntos clave para entender el nuevo formato del campeonato de la Liga Profesional de Fútbol",
+     "u": "https://www.infobae.com/deportes/2026/10/29/los-10-puntos-clave-para-entender-el-nuevo-formato-del-campeonato-de-la-liga-profesional-de-futbol/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Inédito en la Fórmula 1: diez novatos copan la FP1 en el GP de México y esperan Colapinto, Verstappen y más",
+     "u": "https://www.ole.com.ar/autos/formula1-granpremiodemexico-fia-francocolapinto-gabrielemini-alpine_0_b5qIP1MrfI.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Gerónimo Rulli atajó dos penales y el Manchester City avanzó a los cuartos de final de la Copa de la Liga inglesa",
      "u": "https://www.infobae.com/deportes/2026/10/29/geronimo-rulli-atajo-dos-penales-y-el-manchester-city-avanzo-a-los-cuartos-de-final-de-la-copa-de-la-liga-inglesa/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Fue múltiple campeón con River Plate y afirmó que Boca Juniors ganará la Sudamericana",
-     "u": "https://www.infobae.com/deportes/2026/10/29/fue-multiple-campeon-con-river-plate-y-afirmo-que-boca-juniors-ganara-la-copa-sudamericana-sin-dudas/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "El ex Boca que hizo historia en River y elogió al equipo de Ponzio para el Súper: \"Tiene actitud y huevo\"",
-     "u": "https://www.ole.com.ar/river-plate/river-plate-jonatan-maidana-boca-superclasico-huevo-ponzio_0_anb0aPeByE.html",
+     "t": "Fiorentina vs Atalanta, por la Serie A, EN VIVO: Mastantuono y Pellegrino titulares",
+     "u": "https://www.ole.com.ar/futbol-internacional/italia/fiorentina-atalanta-serie-fecha-9-mastantuono-pellegrino-italia_0_N7ZVTeyzQ9.html",
      "f": "Olé",
      "alta": false
     }
@@ -225,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
-     "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
+     "t": "Ces cols boudés par le Tour de France qui valent le détour",
+     "u": "https://www.lequipe.fr/Respire/Pratique-sportive/Actualites/Ces-cols-boudes-pour-l-instant-par-le-tour-de-france-qui-valent-pourtant-le-detour/1737991#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "La France candidate à l'organisation du Final Four de la Ligue des nations en cas de qualification",
-     "u": "https://www.lequipe.fr/Football/Actualites/La-france-candidate-a-l-organisation-du-final-four-de-la-ligue-des-nations-en-cas-de-qualification/1739486#at_medium=RSS_feeds",
+     "t": "Les Brooklyn Nets ont activé la troisième année du contrat de Nolan Traoré en NBA",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Les-brooklyn-nets-ont-active-la-troisieme-annee-du-contrat-de-nolan-traore-en-nba/1739574#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -241,43 +253,43 @@
  ],
  "destaques": [
   {
-   "t": "Riquelme Fillipi, ex-Palmeiras, marca seu primeiro gol pelo Inter Miami; confira",
-   "u": "https://www.gazetaesportiva.com/todas-as-noticias/riquelme-fillipi-ex-palmeiras-marca-seu-primeiro-gol-pelo-inter-miami-confira/",
-   "f": "Gazeta Esportiva",
+   "t": "Quem está pior leva a melhor? Atlético-MG e Cruzeiro chegam a clássico em cenário raro",
+   "u": "https://ge.globo.com/mg/futebol/noticia/2026/10/29/quem-esta-pior-leva-a-melhor-atletico-mg-e-cruzeiro-chegam-a-classico-em-cenario-raro.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "UWCL Star Power Index: Lily Yohannes shines against Inter Milan; Alessia Russo carries Arsenal",
-   "u": "https://www.cbssports.com/soccer/news/uwcl-star-power-index-lily-yohannes-shines-against-inter-milan/",
+   "t": "NFL DFS, Packers vs. Panthers: Top daily Fantasy picks, lineup advice for 'Thursday Night Football'",
+   "u": "https://www.cbssports.com/betting/news/nfl-dfs-packers-panthers-daily-fantasy-picks-draftkings-fanduel-lineup-strategy-for-thursday-night-football/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Ainda há confronto direto: o que falta jogar a Flamengo e Palmeiras no Brasileirão",
-   "u": "https://www.abola.pt/noticias/ainda-ha-confronto-direto-o-que-falta-jogar-a-flamengo-e-palmeiras-no-brasileirao-2026102909580520827",
-   "f": "A Bola",
+   "t": "Ancelotti anuncia convocatória do Brasil sem jogadores de Flamengo e Palmeiras",
+   "u": "https://www.record.pt/internacional/detalhe/ancelotti-anuncia-convocatoria-do-brasil-sem-jogadores-de-flamengo-e-palmeiras",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Lío de Champions: el día que la victoria da cuatro puntos al Barça y dos la derrota",
-   "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244365/lio-champions-dia-victoria-da-cuatro-puntos-barca-dos-derrota.html",
+   "t": "Real Madrid - Fenerbahçe, en directo",
+   "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261029/1004243818/real-madrid-fenerbahce-directo-euroliga-baloncesto.html",
    "f": "Mundo Deportivo",
-   "alta": false,
+   "alta": true,
    "pais": "ES"
   },
   {
-   "t": "High-flying Lazio’s thrashing of Sassuolo marked by Mussolini’s first Serie A goal | Nicky Bandini",
-   "u": "https://www.theguardian.com/football/blog/2026/oct/29/serie-a-lazio-sassuolo-romano-floriani-mussolini-gennaro-gattuso",
+   "t": "Manchester City v Paris Saint-Germain: Women’s Champions League – live",
+   "u": "https://www.theguardian.com/football/live/2026/oct/29/manchester-city-v-paris-saint-germain-womens-champions-league-live",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Gerónimo Rulli atajó dos penales y el Manchester City avanzó a los cuartos de final de la Copa de la Liga inglesa",
-   "u": "https://www.infobae.com/deportes/2026/10/29/geronimo-rulli-atajo-dos-penales-y-el-manchester-city-avanzo-a-los-cuartos-de-final-de-la-copa-de-la-liga-inglesa/",
+   "t": "Los 10 puntos clave para entender el nuevo formato del campeonato de la Liga Profesional de Fútbol",
+   "u": "https://www.infobae.com/deportes/2026/10/29/los-10-puntos-clave-para-entender-el-nuevo-formato-del-campeonato-de-la-liga-profesional-de-futbol/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -290,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
-   "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
+   "t": "Ces cols boudés par le Tour de France qui valent le détour",
+   "u": "https://www.lequipe.fr/Respire/Pratique-sportive/Actualites/Ces-cols-boudes-pour-l-instant-par-le-tour-de-france-qui-valent-pourtant-le-detour/1737991#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
