@@ -5,8 +5,7 @@
  "o_que_e": "Guia independente de ingressos para eventos esportivos e shows internacionais, em português, inglês e espanhol.",
  "aviso": "Este site NÃO vende ingresso e não é o fornecedor primário. Ele encaminha para parceiros revendedores e recebe comissão, sem custo extra para o comprador. Os preços são do parceiro e podem ficar acima do valor de face.",
  "vendedores": [
-  "SportsEvents365",
-  "GetYourGuide"
+  "Ticketmaster"
  ],
  "contato": {
   "email": "email@mytickets.tours",
@@ -46,12 +45,7 @@
     "en": "https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/",
     "es": "https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/"
    },
-   "preco": {
-    "a_partir_de": 244.0,
-    "moeda": "USD",
-    "conferido": "2026-10-29",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
+   "preco": null
   },
   {
    "id": "393012",
@@ -111,12 +105,7 @@
     "en": "https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/",
     "es": "https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/"
    },
-   "preco": {
-    "a_partir_de": 53.0,
-    "moeda": "USD",
-    "conferido": "2026-10-29",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
+   "preco": null
   },
   {
    "id": "387541",
@@ -176,12 +165,7 @@
     "en": "https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/",
     "es": "https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/"
    },
-   "preco": {
-    "a_partir_de": 45.0,
-    "moeda": "USD",
-    "conferido": "2026-10-29",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
+   "preco": null
   },
   {
    "id": "399058",
@@ -271,12 +255,7 @@
     "en": "https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/",
     "es": "https://mytickets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/"
    },
-   "preco": {
-    "a_partir_de": 404.0,
-    "moeda": "USD",
-    "conferido": "2026-10-29",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
+   "preco": null
   },
   {
    "id": "402363",
@@ -306,12 +285,7 @@
     "en": "https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/",
     "es": "https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/"
    },
-   "preco": {
-    "a_partir_de": 538.0,
-    "moeda": "USD",
-    "conferido": "2026-10-29",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
+   "preco": null
   },
   {
    "id": "391307",
@@ -371,12 +345,7 @@
     "en": "https://mytickets.tours/en/events/knicks-vs-nuggets-2027-01-11/",
     "es": "https://mytickets.tours/es/eventos/knicks-vs-nuggets-2027-01-11/"
    },
-   "preco": {
-    "a_partir_de": 220.0,
-    "moeda": "USD",
-    "conferido": "2026-10-29",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
+   "preco": null
   },
   {
    "id": "402457",
@@ -436,12 +405,7 @@
     "en": "https://mytickets.tours/en/events/final-australian-open-2027-01-31/",
     "es": "https://mytickets.tours/es/eventos/final-australian-open-2027-01-31/"
    },
-   "preco": {
-    "a_partir_de": 1355.0,
-    "moeda": "USD",
-    "conferido": "2026-10-29",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
+   "preco": null
   },
   {
    "id": "391305",
@@ -561,12 +525,7 @@
     "en": "https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/",
     "es": "https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/"
    },
-   "preco": {
-    "a_partir_de": 368.0,
-    "moeda": "USD",
-    "conferido": "2026-10-29",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
+   "preco": null
   },
   {
    "id": "399236",
@@ -596,12 +555,7 @@
     "en": "https://mytickets.tours/en/events/final-champions-league-2027-06-05/",
     "es": "https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/"
    },
-   "preco": {
-    "a_partir_de": 6965.0,
-    "moeda": "USD",
-    "conferido": "2026-10-29",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
+   "preco": null
   }
  ]
 }

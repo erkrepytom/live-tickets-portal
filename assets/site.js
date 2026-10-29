@@ -98,15 +98,16 @@ function partnerLink(a){
   // Parceiros de viagem sem código de afiliado ainda: link externo comum, mas medimos o clique do mesmo jeito.
   if (a.getAttribute("data-kind") === "travel") return { type: "travel", id: "", partner: (u.hostname.match(/(booking|omio|getyourguide|tiqets)/) || ["", "travel"])[1], path: u.pathname, url: u, cloaked: false, plain: true };
   const ir = u.host === location.host && u.pathname.match(/\/ir\/(?:[a-z]{2}\/)?(\d+)\/?$/);
-  if (ir) return { type: "event", id: ir[1], partner: "se365", path: u.pathname, url: u, cloaked: true };
-  // Sites do parceiro: .com (inglês), 365tickets.com.br (português), .es (espanhol). aff.: indicação de afiliados, não é venda.
-  if (!/(^|\.)(sportsevents365\.com|sportsevents365\.es|365tickets\.com\.br)$/.test(u.hostname) || /^aff\./.test(u.hostname)) return null;
-  const p = u.pathname, m = p.match(/^\/event\/(\d+)/);
-  const type = m ? "event" : /\/dock\/competition\//.test(p) ? "competition" : /\/dock\/team\//.test(p) ? "team"
-    : /\/dock\/cities\//.test(p) ? "city" : /\/dock\/music\//.test(p) ? "artist" : /\/concerts/.test(p) ? "sport" : "home";
-  return { type, id: m ? m[1] : "", partner: "se365", path: p, url: u, cloaked: false };
+  if (ir) return { type: "event", id: ir[1], partner: "ticketmaster", path: u.pathname, url: u, cloaked: true };
+  // Ticketmaster direto ou pelo link de rastreamento do Impact (ticketmaster.evyy.net/c/...?u=<url da Ticketmaster>).
+  let t = u;
+  if (/(^|\.)evyy\.net$/.test(u.hostname)) { try { t = new URL(u.searchParams.get("u") || ""); } catch (e) { return null; } }
+  if (!/(^|\.)ticketmaster\.[a-z.]+$/.test(t.hostname)) return null;
+  const p = t.pathname, m = p.match(/\/event\/([A-Za-z0-9]+)/);
+  const type = m ? "event" : /^\/search/.test(p) ? "search" : /^\/discover/.test(p) ? "sport" : "home";
+  return { type, id: m ? m[1] : "", partner: "ticketmaster", path: p, url: u, cloaked: false, impact: t !== u };
 }
-/* SubID do painel de afiliado: data1 = onde foi o clique, data2 = em qual página (aparecem no relatório de comissões). */
+/* SubID do Impact: subId1 = onde foi o clique, subId2 = em qual página (aparecem no relatório de comissões). */
 function subId(){
   const pg = location.pathname.replace(/^\/|\/$/g, "").replace(/\//g, "_") || "home";
   return pg.slice(0, 90);
@@ -123,7 +124,7 @@ document.addEventListener("click", ev => {
   // Escreve o SubID no próprio link antes de o navegador seguir (o evento roda na fase de captura).
   const u = l.url;
   if (l.cloaked){ u.searchParams.set("d1", where); u.searchParams.set("d2", subId()); a.href = u.toString(); }
-  else if (!l.plain){ u.searchParams.set("data1", where); u.searchParams.set("data2", subId()); a.href = u.toString(); }
+  else if (l.impact){ u.searchParams.set("subId1", where); u.searchParams.set("subId2", subId()); a.href = u.toString(); }
   // Conversão principal do site afiliado: marque "affiliate_click" como evento-chave no GA4 e importe no Google Ads.
   track({ event: "affiliate_click", link_type: l.type, link_url: a.href, partner_event_id: l.id, click_location: where, partner: l.partner });
   // Comparação entre parceiros: qual vendedor o público escolhe em cada evento e idioma.
@@ -132,7 +133,7 @@ document.addEventListener("click", ev => {
   if (l.type === "travel"){ track({ event: "travel_click", partner: l.partner, click_location: where, event_name: (window.MT_ITEM && window.MT_ITEM.item_name) || l.slug || "" }); return; }
   if (l.type === "event"){
     const it = (window.MT_ITEM && window.MT_ITEM.item_id === l.id) ? window.MT_ITEM
-      : { item_id: l.id, item_name: (a.getAttribute("aria-label") || a.textContent || "").replace(/^[^:]*:\s*/, "").trim(), item_brand: "SportsEvents365" };
+      : { item_id: l.id, item_name: (a.getAttribute("aria-label") || a.textContent || "").replace(/^[^:]*:\s*/, "").trim(), item_brand: "Ticketmaster" };
     track({ ecommerce: null });
     track({ event: "begin_checkout", click_location: where, ecommerce: { items: [it] } });
   }
@@ -523,11 +524,11 @@ if (vivo){
       '<button type="button" class="yt-play" aria-label="' + play + '">' + PLAY_SVG + '</button>' +
       '<span class="yt-sound" aria-hidden="true">' + play + '</span></div>';
   };
-  const ingresso = t => t.evento ? '/go/se365/pt/' + esc(t.evento) + '/' : (docks[t.categoria] || "");
+  const ingresso = t => t.evento ? '/go/ticketmaster/pt/' + esc(t.evento) + '/' : (docks[t.categoria] || "");
   const acoes = t => {
     const href = ingresso(t);
     return '<div class="vcard-actions">' +
-      (href ? '<a class="btn btn-signal btn-sm" data-magnetic data-partner="se365" target="_blank" rel="sponsored nofollow noopener" href="' + esc(href) + '"><span class="mag-inner">' + esc(vivo.dataset.ingressos) + ' <span class="arrow" aria-hidden="true">→</span></span></a>' : '') +
+      (href ? '<a class="btn btn-signal btn-sm" data-magnetic data-partner="ticketmaster" target="_blank" rel="sponsored nofollow noopener" href="' + esc(href) + '"><span class="mag-inner">' + esc(vivo.dataset.ingressos) + ' <span class="arrow" aria-hidden="true">→</span></span></a>' : '') +
       (t.evento ? '<a class="btn btn-ghost btn-sm" href="/eventos/' + esc(t.evento) + '/">' + esc(vivo.dataset.guia) + '</a>' : '') +
     '</div>';
   };

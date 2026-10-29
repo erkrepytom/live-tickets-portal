@@ -46,7 +46,7 @@ O arquivo HTML independente inclui todo o CSS e JavaScript. Procure o script `em
   title: "Formula 1",
   description: "Explore race weekends and ticket availability.",
   cta: "Get Tickets",
-  href: "https://sportsevents365.com/?a_aid=6821d72fcdbe3",
+  href: "https://www.ticketmaster.com/",
   alt: "Illustrative racing cars in different colors",
   image: "https://seu-site.com/imagens/formula-1.jpg"
 }
@@ -59,7 +59,7 @@ No JSON do HTML, mantenha aspas duplas e não use vírgula após o último item.
 - Pesquisa por equipe, esporte, competição, cidade, local e artista quando essas informações constam nos eventos cadastrados.
 - Oferece todas as datas, hoje, próximos 7 dias, próximos 30 dias e intervalo personalizado.
 - Pesquisa os cartões Top events / Top Sellers e os eventos importados pelo feed configurado. Os banners representam categorias e não criam jogos, datas ou estoque.
-- Não consulta automaticamente a base da SportsEvents365. Sem API ou feed conectado, a disponibilidade e a compra são verificadas no catálogo do fornecedor.
+- Não consulta automaticamente a base da Ticketmaster. Sem API ou feed conectado, a disponibilidade e a compra são verificadas no catálogo do fornecedor.
 - Todos os botões iniciais do carrossel preservam o link geral de afiliado fornecido. Não foram inventados links específicos para cada competição.
 
 ## Acessibilidade e imagens

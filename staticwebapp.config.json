@@ -34,12 +34,12 @@
     },
     {
       "route": "/tickets",
-      "redirect": "https://sportsevents365.com/?a_aid=6821d72fcdbe3",
+      "redirect": "https://www.ticketmaster.com/",
       "statusCode": 302
     },
     {
       "route": "/tickets/*",
-      "redirect": "https://sportsevents365.com/?a_aid=6821d72fcdbe3",
+      "redirect": "https://www.ticketmaster.com/",
       "statusCode": 302
     },
     {

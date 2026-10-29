@@ -44,7 +44,7 @@ if(!T[L])L='pt';const g=T[L];
 const MO={pt:['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'],es:['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'],en:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']};
 const fdate=([y,m,d])=>L==='en'?`${MO.en[m-1]} ${d}, ${y}`:`${String(d).padStart(2,'0')} ${MO[L][m-1]} ${y}`;
 const guideURL=k=>`${BASE}${L==='pt'?'/eventos/':L==='en'?'/en/events/':'/es/eventos/'}${EV[k].slug}/?utm_source=mytickets&utm_medium=arena&utm_campaign=${k}`;
-const tixURL=k=>`${BASE}/go/se365/${L}/${EV[k].slug}/`;
+const tixURL=k=>`${BASE}/go/ticketmaster/${L}/${EV[k].slug}/`;
 root.querySelectorAll('[data-t]').forEach(el=>el.textContent=g[el.dataset.t]);
 
 /* ---------- utilidades ---------- */

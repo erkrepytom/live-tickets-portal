@@ -1,5 +1,5 @@
 {
- "_leia": "Eventos do catálogo SportsEvents365 (id = /event/<id>). Edite aqui e rode: python scripts/gerar_paginas.py Campos opcionais: hora (local), inicio (ISO com fuso), conferido (data em que data/hora foram conferidas no parceiro), status (EventScheduled, EventPostponed, EventRescheduled, EventCancelled).",
+ "_leia": "Eventos do site (id = código interno antigo; o link de compra fica em links.ticketmaster, a URL exata do evento na Ticketmaster). Edite aqui e rode: python scripts/gerar_paginas.py Campos opcionais: hora (local), inicio (ISO com fuso), conferido (data em que data/hora foram conferidas no parceiro), status (EventScheduled, EventPostponed, EventRescheduled, EventCancelled).",
  "eventos": [
   {
    "slug": "barcelona-vs-real-madrid-2026-10-25",
@@ -347,7 +347,10 @@
    },
    "hora": "19:45",
    "inicio": "2026-11-12T19:45:00+00:00",
-   "conferido": "2026-10-29"
+   "conferido": "2026-10-29",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.co.uk/england-v-croatia-england-fans-only-london-12-11-2026/event/230065308D761170"
+   }
   },
   {
    "slug": "franca-vs-africa-do-sul-2026-11-13",
@@ -818,7 +821,10 @@
    },
    "hora": "19:30",
    "inicio": "2027-01-11T19:30:00-05:00",
-   "conferido": "2026-10-15"
+   "conferido": "2026-10-29",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.com/new-york-knicks-vs-denver-nuggets-new-york-new-york-01-11-2027/event/3B006511E927864C"
+   }
   },
   {
    "slug": "sporting-vs-barcelona-2027-01-20",
@@ -944,7 +950,10 @@
    },
    "hora": "19:30",
    "inicio": "2027-01-31T19:30:00+11:00",
-   "conferido": "2026-10-15"
+   "conferido": "2026-10-29",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.com.au/rod-laver-arena-single-session-night-melbourne-31-01-2027/event/250064DA80FB1ABB"
+   }
   },
   {
    "slug": "supercopa-espanha-barcelona-vs-atletico-2027-02-02",

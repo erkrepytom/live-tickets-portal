@@ -1,6 +1,6 @@
 # MyTickets Tours
 
-> Independent guide to international sports and concert tickets, in Portuguese, English and Spanish. Tickets are sold and delivered by the partner SportsEvents365; MyTickets Tours is an affiliate and earns a commission at no extra cost to the buyer.
+> Independent guide to international sports and concert tickets, in Portuguese, English and Spanish. Tickets are sold and delivered by the partner Ticketmaster; MyTickets Tours is an affiliate and may earn a commission at no extra cost to the buyer.
 
 ## Home pages
 
@@ -41,7 +41,7 @@
 - [Six Nations tickets 2026/2027](https://mytickets.tours/en/competitions/six-nations/)
 - [How to buy tickets for games in Europe without getting scammed (2026 guide)](https://mytickets.tours/en/guides/buy-tickets-europe-safely/)
 - [FC Barcelona tickets at Camp Nou: how to buy safely as a tourist](https://mytickets.tours/en/guides/barcelona-tickets-camp-nou/)
-- [How MyTickets works and what is guaranteed](https://mytickets.tours/en/how-it-works/)
+- [How MyTickets works and who sells the tickets](https://mytickets.tours/en/how-it-works/)
 - [Affiliate disclosure and legal notice | MyTickets Tours](https://mytickets.tours/en/affiliate-disclosure/)
 
 ## Feeds and sitemaps

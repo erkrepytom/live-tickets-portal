@@ -1,7 +1,7 @@
 {
  "name": "MyTickets Tours",
  "short_name": "MyTickets",
- "description": "Tickets for La Liga, Serie A, the Champions League, NBA, Formula 1, tennis and concerts worldwide, with a guide to every event. Sold and delivered by SportsEvents365.",
+ "description": "Tickets for La Liga, Serie A, the Champions League, NBA, Formula 1, tennis and concerts worldwide, with a guide to every event. Sold and delivered by Ticketmaster.",
  "start_url": "/?utm_source=pwa",
  "scope": "/",
  "display": "standalone",

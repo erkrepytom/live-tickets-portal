@@ -1,4 +1,4 @@
-"""Lê o menor preço de cada evento no parceiro (SportsEvents365) e grava em data/precos.json.
+"""Desligado em 10/2026: lia o menor preço na SportsEvents365 (main_se365) e gravava em data/precos.json.
 
 A página de evento do parceiro traz os lotes à venda nos dados estruturados (JSON-LD, "offers" com
 "price" e "priceCurrency"). Guardamos o menor preço em estoque, a moeda e quando foi conferido.
@@ -81,6 +81,15 @@ def guardar_historico(precos):
 
 
 def main():
+    # A SportsEvents365 encerrou a parceria em 10/2026 e era a única fonte destes preços. Até haver
+    # leitura de preço da Ticketmaster (Discovery API, priceRanges), o arquivo fica vazio e o site
+    # não mostra preço: nunca exibir preço de um vendedor que não está mais no site.
+    ARQ.write_text("{}\n", encoding="utf-8")
+    print("Sem fonte de preços ativa (SportsEvents365 desligada): data/precos.json zerado.")
+    return 0
+
+
+def main_se365():
     eventos = json.loads((RAIZ / "data" / "eventos.json").read_text(encoding="utf-8"))["eventos"]
     hoje = dt.date.today().isoformat()
     try:

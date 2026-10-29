@@ -1,9 +1,9 @@
 {
  "atualizado": "2026-10-29",
- "afiliado": "6821d72fcdbe3",
+ "afiliado": "ticketmaster/impact",
  "idiomas": {
   "pt": {
-   "catalogo_parceiro": "https://365tickets.com.br/?a_aid=6821d72fcdbe3",
+   "catalogo_parceiro": "https://www.ticketmaster.com/",
    "eventos": [
     {
      "nome": "AC Milan x Inter",
@@ -17,7 +17,7 @@
       "AC Milan",
       "Inter"
      ],
-     "ingressos": "https://365tickets.com.br/event/391609?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/",
      "como_chegar": [
       "Metrô M5 até a estação San Siro Stadio, ao lado do estádio.",
@@ -41,7 +41,7 @@
       "Arsenal",
       "Hull City"
      ],
-     "ingressos": "https://365tickets.com.br/event/393012?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/arsenal-vs-hull-city-2026-11-07/",
      "como_chegar": [
       "Metrô (Piccadilly line) até a estação Arsenal, a poucos minutos a pé.",
@@ -65,7 +65,7 @@
       "Itália",
       "França"
      ],
-     "ingressos": "https://365tickets.com.br/event/387682?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/italia-vs-franca-2026-11-12/",
      "como_chegar": [
       "Metrô M5 até a estação San Siro Stadio, ao lado do estádio.",
@@ -89,7 +89,7 @@
       "Inglaterra",
       "Croácia"
      ],
-     "ingressos": "https://365tickets.com.br/event/387541?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "https://www.ticketmaster.co.uk/england-v-croatia-england-fans-only-london-12-11-2026/event/230065308D761170",
      "guia": "https://mytickets.tours/eventos/inglaterra-vs-croacia-2026-11-12/",
      "como_chegar": [
       "Metrô até Wembley Park (Jubilee ou Metropolitan line) e depois a Olympic Way até o estádio.",
@@ -113,7 +113,7 @@
       "França",
       "África do Sul"
      ],
-     "ingressos": "https://365tickets.com.br/event/383977?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/",
      "como_chegar": [
       "RER D até Stade de France–Saint-Denis ou RER B até La Plaine–Stade de France.",
@@ -137,7 +137,7 @@
       "Atlético Mineiro",
       "Boca Juniors"
      ],
-     "ingressos": "https://365tickets.com.br/event/399058?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
      "como_chegar": [
       "O estádio fica no sul de Barranquilla. De táxi ou aplicativo, conte uns 30 minutos a partir da zona norte, onde ficam os hotéis.",
@@ -161,7 +161,7 @@
       "Palmeiras",
       "Estudiantes de La Plata"
      ],
-     "ingressos": "https://365tickets.com.br/event/398045?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
      "como_chegar": [
       "O Centenário fica no Parque Batlle, a uns 15 minutos de táxi do centro de Montevidéu.",
@@ -182,7 +182,7 @@
      "pais": "Emirados Árabes Unidos",
      "competicao": "Formula 1",
      "times": [],
-     "ingressos": "https://365tickets.com.br/event/387903?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/gp-abu-dhabi-f1-2026-12-06/",
      "como_chegar": [
       "O circuito fica na Ilha Yas, a cerca de 30 minutos de carro do centro de Abu Dhabi.",
@@ -206,7 +206,7 @@
       "FC Barcelona",
       "Manchester City"
      ],
-     "ingressos": "https://365tickets.com.br/event/402363?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/barcelona-vs-manchester-city-2026-12-08/",
      "como_chegar": [
       "Metrô L3, estações Les Corts e Palau Reial, ou L5, estações Collblanc e Badal.",
@@ -230,7 +230,7 @@
       "Inter",
       "Lazio"
      ],
-     "ingressos": "https://365tickets.com.br/event/391307?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
      "como_chegar": [
       "Metrô M5 até a estação San Siro Stadio, ao lado do estádio.",
@@ -254,7 +254,7 @@
       "New York Knicks",
       "Denver Nuggets"
      ],
-     "ingressos": "https://365tickets.com.br/event/401302?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "https://www.ticketmaster.com/new-york-knicks-vs-denver-nuggets-new-york-new-york-01-11-2027/event/3B006511E927864C",
      "guia": "https://mytickets.tours/eventos/knicks-vs-nuggets-2027-01-11/",
      "como_chegar": [
       "A arena fica sobre a Penn Station: metrô linhas 1, 2, 3, A, C e E até 34 St–Penn Station.",
@@ -278,7 +278,7 @@
       "Sporting",
       "Barcelona"
      ],
-     "ingressos": "https://365tickets.com.br/event/402457?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/sporting-vs-barcelona-2027-01-20/",
      "como_chegar": [
       "Metro de Lisboa, linhas verde ou amarela, até a estação Campo Grande, ao lado do estádio.",
@@ -299,7 +299,7 @@
      "pais": "Austrália",
      "competicao": "Australian Open (Grand Slam)",
      "times": [],
-     "ingressos": "https://365tickets.com.br/event/390886?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "https://www.ticketmaster.com.au/rod-laver-arena-single-session-night-melbourne-31-01-2027/event/250064DA80FB1ABB",
      "guia": "https://mytickets.tours/eventos/final-australian-open-2027-01-31/",
      "como_chegar": [
       "A Rod Laver Arena fica no Melbourne Park, a cerca de 15 minutos a pé da estação Flinders Street.",
@@ -323,7 +323,7 @@
       "Barcelona",
       "Atlético de Madrid"
      ],
-     "ingressos": "https://365tickets.com.br/event/391305?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
      "como_chegar": [
       "O estádio fica em Kadıköy, no lado asiático: pegue a balsa de Eminönü ou Karaköy até Kadıköy e caminhe uns 15 minutos.",
@@ -347,7 +347,7 @@
       "Irlanda",
       "Inglaterra"
      ],
-     "ingressos": "https://365tickets.com.br/event/388439?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/",
      "como_chegar": [
       "Trem DART até Lansdowne Road, ao lado do estádio.",
@@ -371,7 +371,7 @@
       "França",
       "País de Gales"
      ],
-     "ingressos": "https://365tickets.com.br/event/388441?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/",
      "como_chegar": [
       "RER D até Stade de France–Saint-Denis ou RER B até La Plaine–Stade de France.",
@@ -394,7 +394,7 @@
      "times": [
       "Celine Dion"
      ],
-     "ingressos": "https://365tickets.com.br/event/391312?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/celine-dion-paris-2027-05-14/",
      "como_chegar": [
       "RER A, metrô linha 1 ou bonde T2 até La Défense–Grande Arche.",
@@ -415,7 +415,7 @@
      "pais": "Espanha",
      "competicao": "UEFA Champions League",
      "times": [],
-     "ingressos": "https://365tickets.com.br/event/399236?a_aid=6821d72fcdbe3&data1=whatsapp&data2=pt",
+     "ingressos": "",
      "guia": "https://mytickets.tours/eventos/final-champions-league-2027-06-05/",
      "como_chegar": [
       "Metrô linha 7 até a estação Estadio Metropolitano, em frente ao estádio.",
@@ -431,152 +431,152 @@
    "competicoes": [
     {
      "nome": "Premier League",
-     "link": "https://365tickets.com.br/dock/competition/premier-league?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Premier%20League"
     },
     {
      "nome": "La Liga",
-     "link": "https://365tickets.com.br/dock/competition/la-liga?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=La%20Liga"
     },
     {
      "nome": "Serie A",
-     "link": "https://365tickets.com.br/dock/competition/serie-a?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Serie%20A"
     },
     {
      "nome": "NBA",
-     "link": "https://365tickets.com.br/dock/competition/nba?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NBA"
     },
     {
      "nome": "NHL",
-     "link": "https://365tickets.com.br/dock/competition/nhl?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NHL"
     },
     {
      "nome": "MLB",
-     "link": "https://365tickets.com.br/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=MLB"
     },
     {
      "nome": "Fórmula 1",
-     "link": "https://365tickets.com.br/dock/competition/formula-1?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Formula%201"
     }
    ],
    "times": [
     {
      "nome": "FC Barcelona",
-     "link": "https://365tickets.com.br/dock/team/barcelona-fc?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=FC%20Barcelona"
     },
     {
      "nome": "AC Milan",
-     "link": "https://365tickets.com.br/dock/team/ac-milan?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=AC%20Milan"
     },
     {
      "nome": "Inter",
-     "link": "https://365tickets.com.br/dock/team/inter?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Inter"
     },
     {
      "nome": "AS Roma",
-     "link": "https://365tickets.com.br/dock/team/as-roma?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=AS%20Roma"
     }
    ],
    "cidades": [
     {
      "nome": "Barcelona",
-     "link": "https://365tickets.com.br/dock/cities/barcelona?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Barcelona"
     },
     {
      "nome": "Madri",
-     "link": "https://365tickets.com.br/dock/cities/madrid?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Madrid"
     },
     {
      "nome": "Roma",
-     "link": "https://365tickets.com.br/dock/cities/rome?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Rome"
     },
     {
      "nome": "Milão",
-     "link": "https://365tickets.com.br/dock/cities/milano?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Milan"
     },
     {
      "nome": "Londres",
-     "link": "https://365tickets.com.br/dock/cities/london?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=London"
     },
     {
      "nome": "Paris",
-     "link": "https://365tickets.com.br/dock/cities/paris?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Paris"
     },
     {
      "nome": "Amsterdã",
-     "link": "https://365tickets.com.br/dock/cities/amsterdam?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Amsterdam"
     },
     {
      "nome": "Berlim",
-     "link": "https://365tickets.com.br/dock/cities/berlin?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Berlin"
     }
    ],
    "artistas": [
     {
      "nome": "Oasis",
-     "link": "https://365tickets.com.br/dock/music/oasis?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Oasis"
     },
     {
      "nome": "Stevie Wonder",
-     "link": "https://365tickets.com.br/dock/music/steviewonder?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Stevie%20Wonder"
     },
     {
      "nome": "Andrea Bocelli",
-     "link": "https://365tickets.com.br/dock/music/andrea-bocelli?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Andrea%20Bocelli"
     },
     {
      "nome": "Shakira",
-     "link": "https://365tickets.com.br/dock/music/shakira?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Shakira"
     },
     {
      "nome": "BTS",
-     "link": "https://365tickets.com.br/dock/music/bts?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=BTS"
     },
     {
      "nome": "Celine Dion",
-     "link": "https://365tickets.com.br/dock/music/celine-dion?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Celine%20Dion"
     },
     {
      "nome": "Backstreet Boys",
-     "link": "https://365tickets.com.br/dock/music/backstreet-boys?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Backstreet%20Boys"
     }
    ],
    "esportes": [
     {
      "nome": "Futebol",
-     "link": "https://365tickets.com.br/dock/competition/premier-league?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=soccer"
     },
     {
      "nome": "Tênis",
-     "link": "https://365tickets.com.br/dock/competition/australian-open?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=tennis"
     },
     {
      "nome": "Basquete",
-     "link": "https://365tickets.com.br/dock/competition/nba?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NBA"
     },
     {
      "nome": "Automobilismo",
-     "link": "https://365tickets.com.br/dock/competition/formula-1?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Formula%201"
     },
     {
      "nome": "Rúgbi",
-     "link": "https://365tickets.com.br/dock/competition/world-rugby-nations-championship?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=rugby"
     },
     {
      "nome": "Beisebol",
-     "link": "https://365tickets.com.br/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=MLB"
     },
     {
      "nome": "Hóquei no gelo",
-     "link": "https://365tickets.com.br/dock/competition/nhl?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NHL"
     },
     {
      "nome": "Shows",
-     "link": "https://365tickets.com.br/concerts?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/discover/concerts"
     }
    ]
   },
   "en": {
-   "catalogo_parceiro": "https://www.sportsevents365.com/?a_aid=6821d72fcdbe3",
+   "catalogo_parceiro": "https://www.ticketmaster.com/",
    "eventos": [
     {
      "nome": "AC Milan vs Inter",
@@ -590,7 +590,7 @@
       "AC Milan",
       "Inter"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/391609?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/",
      "como_chegar": [
       "Metro M5 to San Siro Stadio station, next to the stadium.",
@@ -614,7 +614,7 @@
       "Arsenal",
       "Hull City"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/393012?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/arsenal-vs-hull-city-2026-11-07/",
      "como_chegar": [
       "Underground (Piccadilly line) to Arsenal station, a few minutes' walk away.",
@@ -638,7 +638,7 @@
       "Italy",
       "France"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/387682?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/",
      "como_chegar": [
       "Metro M5 to San Siro Stadio station, next to the stadium.",
@@ -662,7 +662,7 @@
       "England",
       "Croatia"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/387541?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "https://www.ticketmaster.co.uk/england-v-croatia-england-fans-only-london-12-11-2026/event/230065308D761170",
      "guia": "https://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/",
      "como_chegar": [
       "Underground to Wembley Park (Jubilee or Metropolitan line), then walk up Olympic Way.",
@@ -686,7 +686,7 @@
       "France",
       "South Africa"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/383977?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/",
      "como_chegar": [
       "RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.",
@@ -710,7 +710,7 @@
       "Atlético Mineiro",
       "Boca Juniors"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/399058?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
      "como_chegar": [
       "The stadium is in the south of Barranquilla. By taxi or ride app, allow about 30 minutes from the northern hotel area.",
@@ -734,7 +734,7 @@
       "Palmeiras",
       "Estudiantes de La Plata"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/398045?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
      "como_chegar": [
       "The Centenario sits in Parque Batlle, about 15 minutes by taxi from central Montevideo.",
@@ -755,7 +755,7 @@
      "pais": "United Arab Emirates",
      "competicao": "Formula 1",
      "times": [],
-     "ingressos": "https://www.sportsevents365.com/event/387903?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/",
      "como_chegar": [
       "The circuit is on Yas Island, about 30 minutes by car from central Abu Dhabi.",
@@ -779,7 +779,7 @@
       "FC Barcelona",
       "Manchester City"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/402363?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/",
      "como_chegar": [
       "Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal.",
@@ -803,7 +803,7 @@
       "Inter",
       "Lazio"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/391307?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
      "como_chegar": [
       "Metro M5 to San Siro Stadio station, next to the stadium.",
@@ -827,7 +827,7 @@
       "New York Knicks",
       "Denver Nuggets"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/401302?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "https://www.ticketmaster.com/new-york-knicks-vs-denver-nuggets-new-york-new-york-01-11-2027/event/3B006511E927864C",
      "guia": "https://mytickets.tours/en/events/knicks-vs-nuggets-2027-01-11/",
      "como_chegar": [
       "The arena sits above Penn Station: subway 1, 2, 3, A, C and E to 34 St–Penn Station.",
@@ -851,7 +851,7 @@
       "Sporting CP",
       "Barcelona"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/402457?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/sporting-vs-barcelona-2027-01-20/",
      "como_chegar": [
       "Lisbon Metro, green or yellow line, to Campo Grande station, right next to the stadium.",
@@ -872,7 +872,7 @@
      "pais": "Australia",
      "competicao": "Australian Open (Grand Slam)",
      "times": [],
-     "ingressos": "https://www.sportsevents365.com/event/390886?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "https://www.ticketmaster.com.au/rod-laver-arena-single-session-night-melbourne-31-01-2027/event/250064DA80FB1ABB",
      "guia": "https://mytickets.tours/en/events/final-australian-open-2027-01-31/",
      "como_chegar": [
       "Rod Laver Arena is in Melbourne Park, about a 15-minute walk from Flinders Street station.",
@@ -896,7 +896,7 @@
       "Barcelona",
       "Atlético Madrid"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/391305?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
      "como_chegar": [
       "The stadium is in Kadıköy on the Asian side: take the ferry from Eminönü or Karaköy to Kadıköy and walk about 15 minutes.",
@@ -920,7 +920,7 @@
       "Ireland",
       "England"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/388439?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/irlanda-vs-inglaterra-six-nations-2027-02-05/",
      "como_chegar": [
       "DART train to Lansdowne Road, right by the stadium.",
@@ -944,7 +944,7 @@
       "France",
       "Wales"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/388441?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/franca-vs-pais-de-gales-six-nations-2027-02-06/",
      "como_chegar": [
       "RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.",
@@ -967,7 +967,7 @@
      "times": [
       "Celine Dion"
      ],
-     "ingressos": "https://www.sportsevents365.com/event/391312?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/",
      "como_chegar": [
       "RER A, metro line 1 or tram T2 to La Défense–Grande Arche.",
@@ -988,7 +988,7 @@
      "pais": "Spain",
      "competicao": "UEFA Champions League",
      "times": [],
-     "ingressos": "https://www.sportsevents365.com/event/399236?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en",
+     "ingressos": "",
      "guia": "https://mytickets.tours/en/events/final-champions-league-2027-06-05/",
      "como_chegar": [
       "Metro line 7 to Estadio Metropolitano station, right outside the stadium.",
@@ -1004,152 +1004,152 @@
    "competicoes": [
     {
      "nome": "Premier League",
-     "link": "https://www.sportsevents365.com/dock/competition/premier-league?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Premier%20League"
     },
     {
      "nome": "La Liga",
-     "link": "https://www.sportsevents365.com/dock/competition/la-liga?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=La%20Liga"
     },
     {
      "nome": "Serie A",
-     "link": "https://www.sportsevents365.com/dock/competition/serie-a?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Serie%20A"
     },
     {
      "nome": "NBA",
-     "link": "https://www.sportsevents365.com/dock/competition/nba?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NBA"
     },
     {
      "nome": "NHL",
-     "link": "https://www.sportsevents365.com/dock/competition/nhl?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NHL"
     },
     {
      "nome": "MLB",
-     "link": "https://www.sportsevents365.com/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=MLB"
     },
     {
      "nome": "Formula 1",
-     "link": "https://www.sportsevents365.com/dock/competition/formula-1?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Formula%201"
     }
    ],
    "times": [
     {
      "nome": "FC Barcelona",
-     "link": "https://www.sportsevents365.com/dock/team/barcelona-fc?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=FC%20Barcelona"
     },
     {
      "nome": "AC Milan",
-     "link": "https://www.sportsevents365.com/dock/team/ac-milan?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=AC%20Milan"
     },
     {
      "nome": "Inter",
-     "link": "https://www.sportsevents365.com/dock/team/inter?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Inter"
     },
     {
      "nome": "AS Roma",
-     "link": "https://www.sportsevents365.com/dock/team/as-roma?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=AS%20Roma"
     }
    ],
    "cidades": [
     {
      "nome": "Barcelona",
-     "link": "https://www.sportsevents365.com/dock/cities/barcelona?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Barcelona"
     },
     {
      "nome": "Madrid",
-     "link": "https://www.sportsevents365.com/dock/cities/madrid?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Madrid"
     },
     {
      "nome": "Rome",
-     "link": "https://www.sportsevents365.com/dock/cities/rome?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Rome"
     },
     {
      "nome": "Milan",
-     "link": "https://www.sportsevents365.com/dock/cities/milano?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Milan"
     },
     {
      "nome": "London",
-     "link": "https://www.sportsevents365.com/dock/cities/london?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=London"
     },
     {
      "nome": "Paris",
-     "link": "https://www.sportsevents365.com/dock/cities/paris?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Paris"
     },
     {
      "nome": "Amsterdam",
-     "link": "https://www.sportsevents365.com/dock/cities/amsterdam?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Amsterdam"
     },
     {
      "nome": "Berlin",
-     "link": "https://www.sportsevents365.com/dock/cities/berlin?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Berlin"
     }
    ],
    "artistas": [
     {
      "nome": "Oasis",
-     "link": "https://www.sportsevents365.com/dock/music/oasis?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Oasis"
     },
     {
      "nome": "Stevie Wonder",
-     "link": "https://www.sportsevents365.com/dock/music/steviewonder?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Stevie%20Wonder"
     },
     {
      "nome": "Andrea Bocelli",
-     "link": "https://www.sportsevents365.com/dock/music/andrea-bocelli?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Andrea%20Bocelli"
     },
     {
      "nome": "Shakira",
-     "link": "https://www.sportsevents365.com/dock/music/shakira?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Shakira"
     },
     {
      "nome": "BTS",
-     "link": "https://www.sportsevents365.com/dock/music/bts?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=BTS"
     },
     {
      "nome": "Celine Dion",
-     "link": "https://www.sportsevents365.com/dock/music/celine-dion?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Celine%20Dion"
     },
     {
      "nome": "Backstreet Boys",
-     "link": "https://www.sportsevents365.com/dock/music/backstreet-boys?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Backstreet%20Boys"
     }
    ],
    "esportes": [
     {
      "nome": "Football",
-     "link": "https://www.sportsevents365.com/dock/competition/premier-league?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=soccer"
     },
     {
      "nome": "Tennis",
-     "link": "https://www.sportsevents365.com/dock/competition/australian-open?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=tennis"
     },
     {
      "nome": "Basketball",
-     "link": "https://www.sportsevents365.com/dock/competition/nba?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NBA"
     },
     {
      "nome": "Motor racing",
-     "link": "https://www.sportsevents365.com/dock/competition/formula-1?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Formula%201"
     },
     {
      "nome": "Rugby",
-     "link": "https://www.sportsevents365.com/dock/competition/world-rugby-nations-championship?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=rugby"
     },
     {
      "nome": "Baseball",
-     "link": "https://www.sportsevents365.com/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=MLB"
     },
     {
      "nome": "Ice hockey",
-     "link": "https://www.sportsevents365.com/dock/competition/nhl?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NHL"
     },
     {
      "nome": "Concerts",
-     "link": "https://www.sportsevents365.com/concerts?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/discover/concerts"
     }
    ]
   },
   "es": {
-   "catalogo_parceiro": "https://sportsevents365.es/?a_aid=6821d72fcdbe3",
+   "catalogo_parceiro": "https://www.ticketmaster.com/",
    "eventos": [
     {
      "nome": "AC Milan vs Inter",
@@ -1163,7 +1163,7 @@
       "AC Milan",
       "Inter"
      ],
-     "ingressos": "https://sportsevents365.es/event/391609?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/",
      "como_chegar": [
       "Metro M5 hasta la estación San Siro Stadio, junto al estadio.",
@@ -1187,7 +1187,7 @@
       "Arsenal",
       "Hull City"
      ],
-     "ingressos": "https://sportsevents365.es/event/393012?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/arsenal-vs-hull-city-2026-11-07/",
      "como_chegar": [
       "Metro (Piccadilly line) hasta la estación Arsenal, a pocos minutos a pie.",
@@ -1211,7 +1211,7 @@
       "Italia",
       "Francia"
      ],
-     "ingressos": "https://sportsevents365.es/event/387682?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/",
      "como_chegar": [
       "Metro M5 hasta la estación San Siro Stadio, junto al estadio.",
@@ -1235,7 +1235,7 @@
       "Inglaterra",
       "Croacia"
      ],
-     "ingressos": "https://sportsevents365.es/event/387541?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "https://www.ticketmaster.co.uk/england-v-croatia-england-fans-only-london-12-11-2026/event/230065308D761170",
      "guia": "https://mytickets.tours/es/eventos/inglaterra-vs-croacia-2026-11-12/",
      "como_chegar": [
       "Metro hasta Wembley Park (líneas Jubilee o Metropolitan) y luego Olympic Way hasta el estadio.",
@@ -1259,7 +1259,7 @@
       "Francia",
       "Sudáfrica"
      ],
-     "ingressos": "https://sportsevents365.es/event/383977?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/",
      "como_chegar": [
       "RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.",
@@ -1283,7 +1283,7 @@
       "Atlético Mineiro",
       "Boca Juniors"
      ],
-     "ingressos": "https://sportsevents365.es/event/399058?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
      "como_chegar": [
       "El estadio está en el sur de Barranquilla. En taxi o aplicación, calcula unos 30 minutos desde la zona norte, donde están los hoteles.",
@@ -1307,7 +1307,7 @@
       "Palmeiras",
       "Estudiantes de La Plata"
      ],
-     "ingressos": "https://sportsevents365.es/event/398045?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
      "como_chegar": [
       "El Centenario está en el Parque Batlle, a unos 15 minutos en taxi del centro de Montevideo.",
@@ -1328,7 +1328,7 @@
      "pais": "Emiratos Árabes Unidos",
      "competicao": "Formula 1",
      "times": [],
-     "ingressos": "https://sportsevents365.es/event/387903?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/",
      "como_chegar": [
       "El circuito está en la isla Yas, a unos 30 minutos en coche del centro de Abu Dabi.",
@@ -1352,7 +1352,7 @@
       "FC Barcelona",
       "Manchester City"
      ],
-     "ingressos": "https://sportsevents365.es/event/402363?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/",
      "como_chegar": [
       "Metro L3, estaciones Les Corts y Palau Reial, o L5, estaciones Collblanc y Badal.",
@@ -1376,7 +1376,7 @@
       "Inter",
       "Lazio"
      ],
-     "ingressos": "https://sportsevents365.es/event/391307?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
      "como_chegar": [
       "Metro M5 hasta la estación San Siro Stadio, junto al estadio.",
@@ -1400,7 +1400,7 @@
       "New York Knicks",
       "Denver Nuggets"
      ],
-     "ingressos": "https://sportsevents365.es/event/401302?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "https://www.ticketmaster.com/new-york-knicks-vs-denver-nuggets-new-york-new-york-01-11-2027/event/3B006511E927864C",
      "guia": "https://mytickets.tours/es/eventos/knicks-vs-nuggets-2027-01-11/",
      "como_chegar": [
       "La arena está sobre Penn Station: metro líneas 1, 2, 3, A, C y E hasta 34 St–Penn Station.",
@@ -1424,7 +1424,7 @@
       "Sporting de Portugal",
       "Barcelona"
      ],
-     "ingressos": "https://sportsevents365.es/event/402457?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/sporting-vs-barcelona-2027-01-20/",
      "como_chegar": [
       "Metro de Lisboa, líneas verde o amarilla, hasta la estación Campo Grande, junto al estadio.",
@@ -1445,7 +1445,7 @@
      "pais": "Australia",
      "competicao": "Australian Open (Grand Slam)",
      "times": [],
-     "ingressos": "https://sportsevents365.es/event/390886?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "https://www.ticketmaster.com.au/rod-laver-arena-single-session-night-melbourne-31-01-2027/event/250064DA80FB1ABB",
      "guia": "https://mytickets.tours/es/eventos/final-australian-open-2027-01-31/",
      "como_chegar": [
       "La Rod Laver Arena está en el Melbourne Park, a unos 15 minutos a pie de la estación Flinders Street.",
@@ -1469,7 +1469,7 @@
       "Barcelona",
       "Atlético de Madrid"
      ],
-     "ingressos": "https://sportsevents365.es/event/391305?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
      "como_chegar": [
       "El estadio está en Kadıköy, en el lado asiático: toma el ferry desde Eminönü o Karaköy hasta Kadıköy y camina unos 15 minutos.",
@@ -1493,7 +1493,7 @@
       "Irlanda",
       "Inglaterra"
      ],
-     "ingressos": "https://sportsevents365.es/event/388439?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/",
      "como_chegar": [
       "Tren DART hasta Lansdowne Road, junto al estadio.",
@@ -1517,7 +1517,7 @@
       "Francia",
       "Gales"
      ],
-     "ingressos": "https://sportsevents365.es/event/388441?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/",
      "como_chegar": [
       "RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.",
@@ -1540,7 +1540,7 @@
      "times": [
       "Celine Dion"
      ],
-     "ingressos": "https://sportsevents365.es/event/391312?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/",
      "como_chegar": [
       "RER A, metro línea 1 o tranvía T2 hasta La Défense–Grande Arche.",
@@ -1561,7 +1561,7 @@
      "pais": "España",
      "competicao": "UEFA Champions League",
      "times": [],
-     "ingressos": "https://sportsevents365.es/event/399236?a_aid=6821d72fcdbe3&data1=whatsapp&data2=es",
+     "ingressos": "",
      "guia": "https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/",
      "como_chegar": [
       "Metro línea 7 hasta la estación Estadio Metropolitano, frente al estadio.",
@@ -1577,147 +1577,147 @@
    "competicoes": [
     {
      "nome": "Premier League",
-     "link": "https://sportsevents365.es/dock/competition/premier-league?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Premier%20League"
     },
     {
      "nome": "La Liga",
-     "link": "https://sportsevents365.es/dock/competition/la-liga?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=La%20Liga"
     },
     {
      "nome": "Serie A",
-     "link": "https://sportsevents365.es/dock/competition/serie-a?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Serie%20A"
     },
     {
      "nome": "NBA",
-     "link": "https://sportsevents365.es/dock/competition/nba?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NBA"
     },
     {
      "nome": "NHL",
-     "link": "https://sportsevents365.es/dock/competition/nhl?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NHL"
     },
     {
      "nome": "MLB",
-     "link": "https://sportsevents365.es/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=MLB"
     },
     {
      "nome": "Fórmula 1",
-     "link": "https://sportsevents365.es/dock/competition/formula-1?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Formula%201"
     }
    ],
    "times": [
     {
      "nome": "FC Barcelona",
-     "link": "https://sportsevents365.es/dock/team/barcelona-fc?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=FC%20Barcelona"
     },
     {
      "nome": "AC Milan",
-     "link": "https://sportsevents365.es/dock/team/ac-milan?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=AC%20Milan"
     },
     {
      "nome": "Inter",
-     "link": "https://sportsevents365.es/dock/team/inter?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Inter"
     },
     {
      "nome": "AS Roma",
-     "link": "https://sportsevents365.es/dock/team/as-roma?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=AS%20Roma"
     }
    ],
    "cidades": [
     {
      "nome": "Barcelona",
-     "link": "https://sportsevents365.es/dock/cities/barcelona?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Barcelona"
     },
     {
      "nome": "Madrid",
-     "link": "https://sportsevents365.es/dock/cities/madrid?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Madrid"
     },
     {
      "nome": "Roma",
-     "link": "https://sportsevents365.es/dock/cities/rome?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Rome"
     },
     {
      "nome": "Milán",
-     "link": "https://sportsevents365.es/dock/cities/milano?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Milan"
     },
     {
      "nome": "Londres",
-     "link": "https://sportsevents365.es/dock/cities/london?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=London"
     },
     {
      "nome": "París",
-     "link": "https://sportsevents365.es/dock/cities/paris?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Paris"
     },
     {
      "nome": "Ámsterdam",
-     "link": "https://sportsevents365.es/dock/cities/amsterdam?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Amsterdam"
     },
     {
      "nome": "Berlín",
-     "link": "https://sportsevents365.es/dock/cities/berlin?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Berlin"
     }
    ],
    "artistas": [
     {
      "nome": "Oasis",
-     "link": "https://sportsevents365.es/dock/music/oasis?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Oasis"
     },
     {
      "nome": "Stevie Wonder",
-     "link": "https://sportsevents365.es/dock/music/steviewonder?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Stevie%20Wonder"
     },
     {
      "nome": "Andrea Bocelli",
-     "link": "https://sportsevents365.es/dock/music/andrea-bocelli?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Andrea%20Bocelli"
     },
     {
      "nome": "Shakira",
-     "link": "https://sportsevents365.es/dock/music/shakira?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Shakira"
     },
     {
      "nome": "BTS",
-     "link": "https://sportsevents365.es/dock/music/bts?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=BTS"
     },
     {
      "nome": "Celine Dion",
-     "link": "https://sportsevents365.es/dock/music/celine-dion?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Celine%20Dion"
     },
     {
      "nome": "Backstreet Boys",
-     "link": "https://sportsevents365.es/dock/music/backstreet-boys?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Backstreet%20Boys"
     }
    ],
    "esportes": [
     {
      "nome": "Fútbol",
-     "link": "https://sportsevents365.es/dock/competition/premier-league?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=soccer"
     },
     {
      "nome": "Tenis",
-     "link": "https://sportsevents365.es/dock/competition/australian-open?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=tennis"
     },
     {
      "nome": "Baloncesto",
-     "link": "https://sportsevents365.es/dock/competition/nba?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NBA"
     },
     {
      "nome": "Automovilismo",
-     "link": "https://sportsevents365.es/dock/competition/formula-1?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=Formula%201"
     },
     {
      "nome": "Rugby",
-     "link": "https://sportsevents365.es/dock/competition/world-rugby-nations-championship?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=rugby"
     },
     {
      "nome": "Béisbol",
-     "link": "https://sportsevents365.es/dock/competition/major-league-baseball?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=MLB"
     },
     {
      "nome": "Hockey sobre hielo",
-     "link": "https://sportsevents365.es/dock/competition/nhl?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/search?q=NHL"
     },
     {
      "nome": "Conciertos",
-     "link": "https://sportsevents365.es/concerts?a_aid=6821d72fcdbe3"
+     "link": "https://www.ticketmaster.com/discover/concerts"
     }
    ]
   }
