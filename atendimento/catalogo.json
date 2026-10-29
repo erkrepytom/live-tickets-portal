@@ -6,78 +6,6 @@
    "catalogo_parceiro": "https://www.ticketmaster.com/",
    "eventos": [
     {
-     "nome": "AC Milan x Inter",
-     "data": "2026-10-31",
-     "data_texto": "sábado, 31 de outubro de 2026",
-     "local": "San Siro (Giuseppe Meazza)",
-     "cidade": "Milão",
-     "pais": "Itália",
-     "competicao": "Serie A",
-     "times": [
-      "AC Milan",
-      "Inter"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/",
-     "como_chegar": [
-      "Metrô M5 até a estação San Siro Stadio, ao lado do estádio.",
-      "O bonde 16 também chega à praça em frente ao estádio."
-     ],
-     "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
-     ]
-    },
-    {
-     "nome": "Arsenal x Hull City",
-     "data": "2026-11-07",
-     "data_texto": "sábado, 7 de novembro de 2026",
-     "local": "Emirates Stadium",
-     "cidade": "Londres",
-     "pais": "Inglaterra",
-     "competicao": "Premier League",
-     "times": [
-      "Arsenal",
-      "Hull City"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/arsenal-vs-hull-city-2026-11-07/",
-     "como_chegar": [
-      "Metrô (Piccadilly line) até a estação Arsenal, a poucos minutos a pé.",
-      "Holloway Road e Highbury & Islington também servem; perto do jogo, Holloway Road pode ficar só de saída."
-     ],
-     "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
-     ]
-    },
-    {
-     "nome": "Itália x França",
-     "data": "2026-11-12",
-     "data_texto": "quinta, 12 de novembro de 2026",
-     "local": "San Siro (Giuseppe Meazza)",
-     "cidade": "Milão",
-     "pais": "Itália",
-     "competicao": "UEFA Nations League",
-     "times": [
-      "Itália",
-      "França"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/italia-vs-franca-2026-11-12/",
-     "como_chegar": [
-      "Metrô M5 até a estação San Siro Stadio, ao lado do estádio.",
-      "Jogos de seleção à noite lotam o metrô depois do apito final. Vale esperar 20 minutos."
-     ],
-     "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
-     ]
-    },
-    {
      "nome": "Inglaterra x Croácia",
      "data": "2026-11-12",
      "data_texto": "quinta, 12 de novembro de 2026",
@@ -102,144 +30,75 @@
      ]
     },
     {
-     "nome": "França x África do Sul",
-     "data": "2026-11-13",
-     "data_texto": "sexta, 13 de novembro de 2026",
-     "local": "Stade de France",
-     "cidade": "Paris",
-     "pais": "França",
-     "competicao": "World Rugby Nations Championship",
+     "nome": "México x Jamaica",
+     "data": "2026-11-17",
+     "data_texto": "terça, 17 de novembro de 2026",
+     "local": "Estadio BBVA",
+     "cidade": "Monterrey",
+     "pais": "México",
+     "competicao": "CONCACAF Nations League",
      "times": [
-      "França",
+      "México",
+      "Jamaica"
+     ],
+     "ingressos": "https://www.ticketmaster.com.mx/mexico-v-jamaica-cf-concacaf-nations-guadalupe-17-11-2026/event/3D00654B976C3198",
+     "guia": "https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/",
+     "como_chegar": [
+      "O estádio fica em Guadalupe, na região metropolitana de Monterrey. Táxi ou aplicativo é o caminho mais simples.",
+      "Na saída a procura por carro é grande: combine antes o ponto de encontro."
+     ],
+     "dicas": [
+      "Setores laterais dão a melhor visão do campo inteiro.",
+      "Setores altos costumam ter o menor preço.",
+      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
+     ]
+    },
+    {
+     "nome": "Irlanda x África do Sul",
+     "data": "2026-11-21",
+     "data_texto": "sábado, 21 de novembro de 2026",
+     "local": "Aviva Stadium",
+     "cidade": "Dublin",
+     "pais": "Irlanda",
+     "competicao": "Nations Championship",
+     "times": [
+      "Irlanda",
       "África do Sul"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/",
+     "ingressos": "https://www.ticketmaster.ie/nations-championship-2026-ireland-v-south-dublin-21-11-2026/event/180064D992CF3DCE",
+     "guia": "https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/",
      "como_chegar": [
-      "RER D até Stade de France–Saint-Denis ou RER B até La Plaine–Stade de France.",
-      "Metrô linha 13, estação Saint-Denis–Porte de Paris, a poucos minutos a pé."
+      "Trem DART até a estação Lansdowne Road, ao lado do estádio.",
+      "Em dia de jogo a estação fica cheia: chegue com folga."
      ],
      "dicas": [
       "Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.",
-      "Leve casaco: as noites de novembro em Paris são frias.",
+      "Leve casaco: jogos de novembro a março costumam ser frios.",
       "Em grupo, compre os lugares no mesmo pedido."
      ]
     },
     {
-     "nome": "Final da Sul-Americana: Atlético-MG x Boca Juniors",
-     "data": "2026-11-21",
-     "data_texto": "sábado, 21 de novembro de 2026",
-     "local": "Estadio Metropolitano Roberto Meléndez",
-     "cidade": "Barranquilla",
-     "pais": "Colômbia",
-     "competicao": "Copa Sudamericana",
+     "nome": "Los Angeles Lakers x Boston Celtics",
+     "data": "2027-01-07",
+     "data_texto": "quinta, 7 de janeiro de 2027",
+     "local": "Crypto.com Arena",
+     "cidade": "Los Angeles",
+     "pais": "EUA",
+     "competicao": "NBA",
      "times": [
-      "Atlético Mineiro",
-      "Boca Juniors"
+      "Los Angeles Lakers",
+      "Boston Celtics"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
+     "ingressos": "https://www.ticketmaster.com/los-angeles-lakers-vs-boston-celtics-los-angeles-california-01-07-2027/event/2C00650CC26E0D94",
+     "guia": "https://mytickets.tours/eventos/lakers-vs-celtics-2027-01-07/",
      "como_chegar": [
-      "O estádio fica no sul de Barranquilla. De táxi ou aplicativo, conte uns 30 minutos a partir da zona norte, onde ficam os hotéis.",
-      "O jogo é às 17h no calor do Caribe: chegue cedo e se hidrate antes de entrar."
+      "Metrô linhas A e E até a estação Pico, a poucos minutos a pé da arena.",
+      "Os portões costumam abrir uma hora antes do jogo."
      ],
      "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
-     ]
-    },
-    {
-     "nome": "Final da Libertadores: Palmeiras x Estudiantes",
-     "data": "2026-11-28",
-     "data_texto": "sábado, 28 de novembro de 2026",
-     "local": "Estadio Centenario",
-     "cidade": "Montevidéu",
-     "pais": "Uruguai",
-     "competicao": "Copa Libertadores",
-     "times": [
-      "Palmeiras",
-      "Estudiantes de La Plata"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
-     "como_chegar": [
-      "O Centenário fica no Parque Batlle, a uns 15 minutos de táxi do centro de Montevidéu.",
-      "Em final, a segurança separa as torcidas: confira no ingresso qual portão é o seu e chegue com antecedência."
-     ],
-     "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
-     ]
-    },
-    {
-     "nome": "GP de Abu Dhabi de Fórmula 1",
-     "data": "2026-12-06",
-     "data_texto": "domingo, 6 de dezembro de 2026",
-     "local": "Yas Marina Circuit",
-     "cidade": "Abu Dhabi",
-     "pais": "Emirados Árabes Unidos",
-     "competicao": "Formula 1",
-     "times": [],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/gp-abu-dhabi-f1-2026-12-06/",
-     "como_chegar": [
-      "O circuito fica na Ilha Yas, a cerca de 30 minutos de carro do centro de Abu Dhabi.",
-      "No fim de semana da corrida a organização costuma oferecer ônibus. Confira no site oficial do GP."
-     ],
-     "dicas": [
-      "Arquibancadas perto de curvas lentas mostram mais ultrapassagens.",
-      "Confira se o ingresso vale para um dia ou para o fim de semana inteiro.",
-      "Leve protetor auricular."
-     ]
-    },
-    {
-     "nome": "FC Barcelona x Manchester City",
-     "data": "2026-12-08",
-     "data_texto": "terça, 8 de dezembro de 2026",
-     "local": "Camp Nou",
-     "cidade": "Barcelona",
-     "pais": "Espanha",
-     "competicao": "UEFA Champions League",
-     "times": [
-      "FC Barcelona",
-      "Manchester City"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/barcelona-vs-manchester-city-2026-12-08/",
-     "como_chegar": [
-      "Metrô L3, estações Les Corts e Palau Reial, ou L5, estações Collblanc e Badal.",
-      "Jogos de Champions são à noite em dia útil. Reserve o hotel perto de uma linha de metrô."
-     ],
-     "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
-     ]
-    },
-    {
-     "nome": "Final da Supercopa da Itália: Inter x Lazio",
-     "data": "2026-12-22",
-     "data_texto": "terça, 22 de dezembro de 2026",
-     "local": "San Siro (Giuseppe Meazza)",
-     "cidade": "Milão",
-     "pais": "Itália",
-     "competicao": "Supercoppa Italiana",
-     "times": [
-      "Inter",
-      "Lazio"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
-     "como_chegar": [
-      "Metrô M5 até a estação San Siro Stadio, ao lado do estádio.",
-      "O bonde 16 também chega à praça em frente ao estádio."
-     ],
-     "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
+      "Lugares no nível inferior, nas laterais, ficam mais perto da quadra.",
+      "Lugares atrás das cestas costumam ser mais baratos.",
+      "Chegue cedo para ver o aquecimento dos jogadores."
      ]
     },
     {
@@ -267,27 +126,27 @@
      ]
     },
     {
-     "nome": "Sporting x Barcelona",
-     "data": "2027-01-20",
-     "data_texto": "quarta, 20 de janeiro de 2027",
-     "local": "Estádio José Alvalade",
-     "cidade": "Lisboa",
-     "pais": "Portugal",
-     "competicao": "UEFA Champions League",
+     "nome": "NBA em Manchester: Pelicans x Spurs",
+     "data": "2027-01-17",
+     "data_texto": "domingo, 17 de janeiro de 2027",
+     "local": "Co-op Live",
+     "cidade": "Manchester",
+     "pais": "Reino Unido",
+     "competicao": "NBA",
      "times": [
-      "Sporting",
-      "Barcelona"
+      "New Orleans Pelicans",
+      "San Antonio Spurs"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/sporting-vs-barcelona-2027-01-20/",
+     "ingressos": "https://www.ticketmaster.co.uk/nba-manchester-game-2027-manchester-17-01-2027/event/37006507A634155B",
+     "guia": "https://mytickets.tours/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/",
      "como_chegar": [
-      "Metro de Lisboa, linhas verde ou amarela, até a estação Campo Grande, ao lado do estádio.",
-      "Depois do jogo o metro enche: dá para andar uns minutos até outra estação ou esperar a fila baixar."
+      "Metrolink (bonde) até a parada Etihad Campus, ao lado da arena.",
+      "A arena fica no mesmo complexo do estádio do Manchester City."
      ],
      "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
+      "Lugares no nível inferior, nas laterais, ficam mais perto da quadra.",
+      "Lugares atrás das cestas costumam ser mais baratos.",
+      "Chegue cedo para ver o aquecimento dos jogadores."
      ]
     },
     {
@@ -312,93 +171,21 @@
      ]
     },
     {
-     "nome": "Supercopa da Espanha: Barcelona x Atlético de Madrid",
-     "data": "2027-02-02",
-     "data_texto": "terça, 2 de fevereiro de 2027",
-     "local": "Estádio Şükrü Saracoğlu (Fenerbahçe)",
-     "cidade": "Istambul",
-     "pais": "Turquia",
-     "competicao": "Supercopa de España",
-     "times": [
-      "Barcelona",
-      "Atlético de Madrid"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
-     "como_chegar": [
-      "O estádio fica em Kadıköy, no lado asiático: pegue a balsa de Eminönü ou Karaköy até Kadıköy e caminhe uns 15 minutos.",
-      "O Marmaray também chega: desça em Söğütlüçeşme, a poucos minutos a pé."
-     ],
-     "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
-     ]
-    },
-    {
-     "nome": "Irlanda x Inglaterra (Six Nations)",
-     "data": "2027-02-05",
-     "data_texto": "sexta, 5 de fevereiro de 2027",
-     "local": "Aviva Stadium",
-     "cidade": "Dublin",
-     "pais": "Irlanda",
-     "competicao": "Six Nations",
-     "times": [
-      "Irlanda",
-      "Inglaterra"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/",
-     "como_chegar": [
-      "Trem DART até Lansdowne Road, ao lado do estádio.",
-      "Do centro de Dublin também dá para ir a pé, em uns 30 minutos."
-     ],
-     "dicas": [
-      "Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.",
-      "Leve casaco: as noites de novembro em Paris são frias.",
-      "Em grupo, compre os lugares no mesmo pedido."
-     ]
-    },
-    {
-     "nome": "França x País de Gales (Six Nations)",
-     "data": "2027-02-06",
-     "data_texto": "sábado, 6 de fevereiro de 2027",
-     "local": "Stade de France",
-     "cidade": "Paris",
-     "pais": "França",
-     "competicao": "Six Nations",
-     "times": [
-      "França",
-      "País de Gales"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/",
-     "como_chegar": [
-      "RER D até Stade de France–Saint-Denis ou RER B até La Plaine–Stade de France.",
-      "Metrô linha 13, estação Saint-Denis–Porte de Paris, a poucos minutos a pé."
-     ],
-     "dicas": [
-      "Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.",
-      "Leve casaco: as noites de novembro em Paris são frias.",
-      "Em grupo, compre os lugares no mesmo pedido."
-     ]
-    },
-    {
-     "nome": "Celine Dion em Paris",
-     "data": "2027-05-14",
-     "data_texto": "sexta, 14 de maio de 2027",
-     "local": "Paris La Défense Arena",
-     "cidade": "Paris",
-     "pais": "França",
+     "nome": "Foo Fighters em São Paulo",
+     "data": "2027-02-20",
+     "data_texto": "sábado, 20 de fevereiro de 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brasil",
      "competicao": "Shows",
      "times": [
-      "Celine Dion"
+      "Foo Fighters"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/celine-dion-paris-2027-05-14/",
+     "ingressos": "https://www.ticketmaster.com.br/event/venda-geral-foo-fighters-sao-paulo",
+     "guia": "https://mytickets.tours/eventos/foo-fighters-sao-paulo-2027-02-20/",
      "como_chegar": [
-      "RER A, metrô linha 1 ou bonde T2 até La Défense–Grande Arche.",
-      "A arena fica a cerca de 10 minutos a pé da estação."
+      "A estação São Paulo–Morumbi, da Linha 4-Amarela do metrô, é a mais próxima; de lá ainda há uma caminhada até o estádio.",
+      "Na saída o metrô e os aplicativos lotam: planeje a volta antes."
      ],
      "dicas": [
       "Pista fica mais perto do palco; cadeiras mostram o show inteiro.",
@@ -407,24 +194,49 @@
      ]
     },
     {
-     "nome": "Final da Champions League 2027",
-     "data": "2027-06-05",
-     "data_texto": "sábado, 5 de junho de 2027",
-     "local": "Estadio Metropolitano",
-     "cidade": "Madri",
-     "pais": "Espanha",
-     "competicao": "UEFA Champions League",
-     "times": [],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/final-champions-league-2027-06-05/",
+     "nome": "U2 na Cidade do México",
+     "data": "2027-02-23",
+     "data_texto": "terça, 23 de fevereiro de 2027",
+     "local": "Estadio GNP Seguros",
+     "cidade": "Cidade do México",
+     "pais": "México",
+     "competicao": "Shows",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F",
+     "guia": "https://mytickets.tours/eventos/u2-cidade-do-mexico-2027-02-23/",
      "como_chegar": [
-      "Metrô linha 7 até a estação Estadio Metropolitano, em frente ao estádio.",
-      "Em finais, chegue duas horas antes. A revista e as filas são longas."
+      "Metrô Linha 9 até a estação Ciudad Deportiva, ao lado do estádio.",
+      "Na saída o metrô lota: tenha um plano B de volta."
      ],
      "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
+      "Pista fica mais perto do palco; cadeiras mostram o show inteiro.",
+      "Lugares de frente para o palco têm o melhor som.",
+      "Em grupo, compre os lugares no mesmo pedido."
+     ]
+    },
+    {
+     "nome": "U2 em São Paulo",
+     "data": "2027-03-10",
+     "data_texto": "quarta, 10 de março de 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brasil",
+     "competicao": "Shows",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "https://www.ticketmaster.com.br/event/u2",
+     "guia": "https://mytickets.tours/eventos/u2-sao-paulo-2027-03-10/",
+     "como_chegar": [
+      "A estação São Paulo–Morumbi, da Linha 4-Amarela do metrô, é a mais próxima; de lá ainda há uma caminhada até o estádio.",
+      "Na saída o metrô e os aplicativos lotam: planeje a volta antes."
+     ],
+     "dicas": [
+      "Pista fica mais perto do palco; cadeiras mostram o show inteiro.",
+      "Lugares de frente para o palco têm o melhor som.",
+      "Em grupo, compre os lugares no mesmo pedido."
      ]
     }
    ],
@@ -579,78 +391,6 @@
    "catalogo_parceiro": "https://www.ticketmaster.com/",
    "eventos": [
     {
-     "nome": "AC Milan vs Inter",
-     "data": "2026-10-31",
-     "data_texto": "Saturday, October 31, 2026",
-     "local": "San Siro (Giuseppe Meazza)",
-     "cidade": "Milan",
-     "pais": "Italy",
-     "competicao": "Serie A",
-     "times": [
-      "AC Milan",
-      "Inter"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/",
-     "como_chegar": [
-      "Metro M5 to San Siro Stadio station, next to the stadium.",
-      "Tram 16 also stops at the square in front of the stadium."
-     ],
-     "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
-     ]
-    },
-    {
-     "nome": "Arsenal vs Hull City",
-     "data": "2026-11-07",
-     "data_texto": "Saturday, November 7, 2026",
-     "local": "Emirates Stadium",
-     "cidade": "London",
-     "pais": "England",
-     "competicao": "Premier League",
-     "times": [
-      "Arsenal",
-      "Hull City"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/arsenal-vs-hull-city-2026-11-07/",
-     "como_chegar": [
-      "Underground (Piccadilly line) to Arsenal station, a few minutes' walk away.",
-      "Holloway Road and Highbury & Islington also work; around kick-off Holloway Road can be exit-only."
-     ],
-     "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
-     ]
-    },
-    {
-     "nome": "Italy vs France",
-     "data": "2026-11-12",
-     "data_texto": "Thursday, November 12, 2026",
-     "local": "San Siro (Giuseppe Meazza)",
-     "cidade": "Milan",
-     "pais": "Italy",
-     "competicao": "UEFA Nations League",
-     "times": [
-      "Italy",
-      "France"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/",
-     "como_chegar": [
-      "Metro M5 to San Siro Stadio station, next to the stadium.",
-      "Night internationals pack the metro after the final whistle. It pays to wait 20 minutes."
-     ],
-     "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
-     ]
-    },
-    {
      "nome": "England vs Croatia",
      "data": "2026-11-12",
      "data_texto": "Thursday, November 12, 2026",
@@ -675,144 +415,75 @@
      ]
     },
     {
-     "nome": "France vs South Africa",
-     "data": "2026-11-13",
-     "data_texto": "Friday, November 13, 2026",
-     "local": "Stade de France",
-     "cidade": "Paris",
-     "pais": "France",
-     "competicao": "World Rugby Nations Championship",
+     "nome": "Mexico vs Jamaica",
+     "data": "2026-11-17",
+     "data_texto": "Tuesday, November 17, 2026",
+     "local": "Estadio BBVA",
+     "cidade": "Monterrey",
+     "pais": "Mexico",
+     "competicao": "CONCACAF Nations League",
      "times": [
-      "France",
+      "Mexico",
+      "Jamaica"
+     ],
+     "ingressos": "https://www.ticketmaster.com.mx/mexico-v-jamaica-cf-concacaf-nations-guadalupe-17-11-2026/event/3D00654B976C3198",
+     "guia": "https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/",
+     "como_chegar": [
+      "The stadium is in Guadalupe, in the Monterrey metro area. A taxi or ride-hailing app is the simplest way in.",
+      "Demand for rides is high after the match: agree a pickup point in advance."
+     ],
+     "dicas": [
+      "Side sections give the best view of the whole pitch.",
+      "Upper tiers are usually the cheapest.",
+      "For a group, buy all seats in one order so you sit together."
+     ]
+    },
+    {
+     "nome": "Ireland vs South Africa",
+     "data": "2026-11-21",
+     "data_texto": "Saturday, November 21, 2026",
+     "local": "Aviva Stadium",
+     "cidade": "Dublin",
+     "pais": "Ireland",
+     "competicao": "Nations Championship",
+     "times": [
+      "Ireland",
       "South Africa"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/",
+     "ingressos": "https://www.ticketmaster.ie/nations-championship-2026-ireland-v-south-dublin-21-11-2026/event/180064D992CF3DCE",
+     "guia": "https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/",
      "como_chegar": [
-      "RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.",
-      "Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away."
+      "DART train to Lansdowne Road station, right next to the stadium.",
+      "The station gets very busy on match day: arrive with time to spare."
      ],
      "dicas": [
       "Side seats near halfway show the play best.",
-      "Bring a coat: November nights in Paris are cold.",
+      "Bring a coat: games from November to March are usually cold.",
       "For a group, buy all seats in one order."
      ]
     },
     {
-     "nome": "Copa Sudamericana Final: Atlético Mineiro vs Boca Juniors",
-     "data": "2026-11-21",
-     "data_texto": "Saturday, November 21, 2026",
-     "local": "Estadio Metropolitano Roberto Meléndez",
-     "cidade": "Barranquilla",
-     "pais": "Colombia",
-     "competicao": "Copa Sudamericana",
+     "nome": "Los Angeles Lakers vs Boston Celtics",
+     "data": "2027-01-07",
+     "data_texto": "Thursday, January 7, 2027",
+     "local": "Crypto.com Arena",
+     "cidade": "Los Angeles",
+     "pais": "USA",
+     "competicao": "NBA",
      "times": [
-      "Atlético Mineiro",
-      "Boca Juniors"
+      "Los Angeles Lakers",
+      "Boston Celtics"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
+     "ingressos": "https://www.ticketmaster.com/los-angeles-lakers-vs-boston-celtics-los-angeles-california-01-07-2027/event/2C00650CC26E0D94",
+     "guia": "https://mytickets.tours/en/events/lakers-vs-celtics-2027-01-07/",
      "como_chegar": [
-      "The stadium is in the south of Barranquilla. By taxi or ride app, allow about 30 minutes from the northern hotel area.",
-      "Kick-off is 5 pm in Caribbean heat: arrive early and drink water before going in."
+      "Metro A and E Lines to Pico station, a few minutes' walk from the arena.",
+      "Doors usually open one hour before tip-off."
      ],
      "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
-     ]
-    },
-    {
-     "nome": "Copa Libertadores Final: Palmeiras vs Estudiantes",
-     "data": "2026-11-28",
-     "data_texto": "Saturday, November 28, 2026",
-     "local": "Estadio Centenario",
-     "cidade": "Montevideo",
-     "pais": "Uruguay",
-     "competicao": "Copa Libertadores",
-     "times": [
-      "Palmeiras",
-      "Estudiantes de La Plata"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
-     "como_chegar": [
-      "The Centenario sits in Parque Batlle, about 15 minutes by taxi from central Montevideo.",
-      "At a final, security keeps the fans apart: check your gate on the ticket and arrive early."
-     ],
-     "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
-     ]
-    },
-    {
-     "nome": "Formula 1 Abu Dhabi Grand Prix",
-     "data": "2026-12-06",
-     "data_texto": "Sunday, December 6, 2026",
-     "local": "Yas Marina Circuit",
-     "cidade": "Abu Dhabi",
-     "pais": "United Arab Emirates",
-     "competicao": "Formula 1",
-     "times": [],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/",
-     "como_chegar": [
-      "The circuit is on Yas Island, about 30 minutes by car from central Abu Dhabi.",
-      "Organizers usually run shuttle buses on race weekend. Check the official GP site."
-     ],
-     "dicas": [
-      "Grandstands near slow corners show more overtakes.",
-      "Check whether the ticket covers one day or the whole weekend.",
-      "Bring ear protection."
-     ]
-    },
-    {
-     "nome": "FC Barcelona vs Manchester City",
-     "data": "2026-12-08",
-     "data_texto": "Tuesday, December 8, 2026",
-     "local": "Camp Nou",
-     "cidade": "Barcelona",
-     "pais": "Spain",
-     "competicao": "UEFA Champions League",
-     "times": [
-      "FC Barcelona",
-      "Manchester City"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/",
-     "como_chegar": [
-      "Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal.",
-      "Champions League games are on weeknights. Book a hotel near a metro line."
-     ],
-     "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
-     ]
-    },
-    {
-     "nome": "Italian Super Cup Final: Inter vs Lazio",
-     "data": "2026-12-22",
-     "data_texto": "Tuesday, December 22, 2026",
-     "local": "San Siro (Giuseppe Meazza)",
-     "cidade": "Milan",
-     "pais": "Italy",
-     "competicao": "Supercoppa Italiana",
-     "times": [
-      "Inter",
-      "Lazio"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
-     "como_chegar": [
-      "Metro M5 to San Siro Stadio station, next to the stadium.",
-      "Tram 16 also stops at the square in front of the stadium."
-     ],
-     "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
+      "Lower-level sideline seats are closest to the court.",
+      "Seats behind the baskets are usually cheaper.",
+      "Arrive early to watch warm-ups."
      ]
     },
     {
@@ -840,27 +511,27 @@
      ]
     },
     {
-     "nome": "Sporting CP vs Barcelona",
-     "data": "2027-01-20",
-     "data_texto": "Wednesday, January 20, 2027",
-     "local": "Estádio José Alvalade",
-     "cidade": "Lisbon",
-     "pais": "Portugal",
-     "competicao": "UEFA Champions League",
+     "nome": "NBA Manchester Game: Pelicans vs Spurs",
+     "data": "2027-01-17",
+     "data_texto": "Sunday, January 17, 2027",
+     "local": "Co-op Live",
+     "cidade": "Manchester",
+     "pais": "United Kingdom",
+     "competicao": "NBA",
      "times": [
-      "Sporting CP",
-      "Barcelona"
+      "New Orleans Pelicans",
+      "San Antonio Spurs"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/sporting-vs-barcelona-2027-01-20/",
+     "ingressos": "https://www.ticketmaster.co.uk/nba-manchester-game-2027-manchester-17-01-2027/event/37006507A634155B",
+     "guia": "https://mytickets.tours/en/events/nba-manchester-pelicans-vs-spurs-2027-01-17/",
      "como_chegar": [
-      "Lisbon Metro, green or yellow line, to Campo Grande station, right next to the stadium.",
-      "The metro fills up after the match: walk a few minutes to another station or wait for the queue to ease."
+      "Metrolink tram to the Etihad Campus stop, next to the arena.",
+      "The arena is on the same campus as Manchester City's stadium."
      ],
      "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
+      "Lower-level sideline seats are closest to the court.",
+      "Seats behind the baskets are usually cheaper.",
+      "Arrive early to watch warm-ups."
      ]
     },
     {
@@ -885,93 +556,21 @@
      ]
     },
     {
-     "nome": "Spanish Super Cup: Barcelona vs Atlético Madrid",
-     "data": "2027-02-02",
-     "data_texto": "Tuesday, February 2, 2027",
-     "local": "Estádio Şükrü Saracoğlu (Fenerbahçe)",
-     "cidade": "Istanbul",
-     "pais": "Turkey",
-     "competicao": "Supercopa de España",
-     "times": [
-      "Barcelona",
-      "Atlético Madrid"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
-     "como_chegar": [
-      "The stadium is in Kadıköy on the Asian side: take the ferry from Eminönü or Karaköy to Kadıköy and walk about 15 minutes.",
-      "The Marmaray line also works: get off at Söğütlüçeşme, a few minutes' walk away."
-     ],
-     "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
-     ]
-    },
-    {
-     "nome": "Ireland vs England (Six Nations)",
-     "data": "2027-02-05",
-     "data_texto": "Friday, February 5, 2027",
-     "local": "Aviva Stadium",
-     "cidade": "Dublin",
-     "pais": "Ireland",
-     "competicao": "Six Nations",
-     "times": [
-      "Ireland",
-      "England"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/irlanda-vs-inglaterra-six-nations-2027-02-05/",
-     "como_chegar": [
-      "DART train to Lansdowne Road, right by the stadium.",
-      "From central Dublin it is also about a 30-minute walk."
-     ],
-     "dicas": [
-      "Side seats near halfway show the play best.",
-      "Bring a coat: November nights in Paris are cold.",
-      "For a group, buy all seats in one order."
-     ]
-    },
-    {
-     "nome": "France vs Wales (Six Nations)",
-     "data": "2027-02-06",
-     "data_texto": "Saturday, February 6, 2027",
-     "local": "Stade de France",
-     "cidade": "Paris",
-     "pais": "France",
-     "competicao": "Six Nations",
-     "times": [
-      "France",
-      "Wales"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/franca-vs-pais-de-gales-six-nations-2027-02-06/",
-     "como_chegar": [
-      "RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.",
-      "Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away."
-     ],
-     "dicas": [
-      "Side seats near halfway show the play best.",
-      "Bring a coat: November nights in Paris are cold.",
-      "For a group, buy all seats in one order."
-     ]
-    },
-    {
-     "nome": "Celine Dion in Paris",
-     "data": "2027-05-14",
-     "data_texto": "Friday, May 14, 2027",
-     "local": "Paris La Défense Arena",
-     "cidade": "Paris",
-     "pais": "France",
+     "nome": "Foo Fighters in São Paulo",
+     "data": "2027-02-20",
+     "data_texto": "Saturday, February 20, 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brazil",
      "competicao": "Concerts",
      "times": [
-      "Celine Dion"
+      "Foo Fighters"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/",
+     "ingressos": "https://www.ticketmaster.com.br/event/venda-geral-foo-fighters-sao-paulo",
+     "guia": "https://mytickets.tours/en/events/foo-fighters-sao-paulo-2027-02-20/",
      "como_chegar": [
-      "RER A, metro line 1 or tram T2 to La Défense–Grande Arche.",
-      "The arena is about a 10-minute walk from the station."
+      "São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium.",
+      "Trains and ride apps are packed after the show: plan your way back in advance."
      ],
      "dicas": [
       "Floor is closest to the stage; seats show the whole show.",
@@ -980,24 +579,49 @@
      ]
     },
     {
-     "nome": "2027 Champions League Final",
-     "data": "2027-06-05",
-     "data_texto": "Saturday, June 5, 2027",
-     "local": "Estadio Metropolitano",
-     "cidade": "Madrid",
-     "pais": "Spain",
-     "competicao": "UEFA Champions League",
-     "times": [],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/final-champions-league-2027-06-05/",
+     "nome": "U2 in Mexico City",
+     "data": "2027-02-23",
+     "data_texto": "Tuesday, February 23, 2027",
+     "local": "Estadio GNP Seguros",
+     "cidade": "Mexico City",
+     "pais": "Mexico",
+     "competicao": "Concerts",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F",
+     "guia": "https://mytickets.tours/en/events/u2-cidade-do-mexico-2027-02-23/",
      "como_chegar": [
-      "Metro line 7 to Estadio Metropolitano station, right outside the stadium.",
-      "Arrive two hours early for a final. Security and queues are long."
+      "Metro Line 9 to Ciudad Deportiva station, next to the stadium.",
+      "The metro is packed after the show: have a plan B for getting back."
      ],
      "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
+      "Floor is closest to the stage; seats show the whole show.",
+      "Seats facing the stage have the best sound.",
+      "For a group, buy all seats in one order."
+     ]
+    },
+    {
+     "nome": "U2 in São Paulo",
+     "data": "2027-03-10",
+     "data_texto": "Wednesday, March 10, 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brazil",
+     "competicao": "Concerts",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "https://www.ticketmaster.com.br/event/u2",
+     "guia": "https://mytickets.tours/en/events/u2-sao-paulo-2027-03-10/",
+     "como_chegar": [
+      "São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium.",
+      "Trains and ride apps are packed after the show: plan your way back in advance."
+     ],
+     "dicas": [
+      "Floor is closest to the stage; seats show the whole show.",
+      "Seats facing the stage have the best sound.",
+      "For a group, buy all seats in one order."
      ]
     }
    ],
@@ -1152,78 +776,6 @@
    "catalogo_parceiro": "https://www.ticketmaster.com/",
    "eventos": [
     {
-     "nome": "AC Milan vs Inter",
-     "data": "2026-10-31",
-     "data_texto": "sábado, 31 de octubre de 2026",
-     "local": "San Siro (Giuseppe Meazza)",
-     "cidade": "Milán",
-     "pais": "Italia",
-     "competicao": "Serie A",
-     "times": [
-      "AC Milan",
-      "Inter"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/",
-     "como_chegar": [
-      "Metro M5 hasta la estación San Siro Stadio, junto al estadio.",
-      "El tranvía 16 también llega a la plaza frente al estadio."
-     ],
-     "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
-     ]
-    },
-    {
-     "nome": "Arsenal vs Hull City",
-     "data": "2026-11-07",
-     "data_texto": "sábado, 7 de noviembre de 2026",
-     "local": "Emirates Stadium",
-     "cidade": "Londres",
-     "pais": "Inglaterra",
-     "competicao": "Premier League",
-     "times": [
-      "Arsenal",
-      "Hull City"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/arsenal-vs-hull-city-2026-11-07/",
-     "como_chegar": [
-      "Metro (Piccadilly line) hasta la estación Arsenal, a pocos minutos a pie.",
-      "Holloway Road y Highbury & Islington también sirven; cerca del partido, Holloway Road puede ser solo de salida."
-     ],
-     "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
-     ]
-    },
-    {
-     "nome": "Italia vs Francia",
-     "data": "2026-11-12",
-     "data_texto": "jueves, 12 de noviembre de 2026",
-     "local": "San Siro (Giuseppe Meazza)",
-     "cidade": "Milán",
-     "pais": "Italia",
-     "competicao": "UEFA Nations League",
-     "times": [
-      "Italia",
-      "Francia"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/",
-     "como_chegar": [
-      "Metro M5 hasta la estación San Siro Stadio, junto al estadio.",
-      "Los partidos de selección de noche llenan el metro al final. Conviene esperar 20 minutos."
-     ],
-     "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
-     ]
-    },
-    {
      "nome": "Inglaterra vs Croacia",
      "data": "2026-11-12",
      "data_texto": "jueves, 12 de noviembre de 2026",
@@ -1248,144 +800,75 @@
      ]
     },
     {
-     "nome": "Francia vs Sudáfrica",
-     "data": "2026-11-13",
-     "data_texto": "viernes, 13 de noviembre de 2026",
-     "local": "Stade de France",
-     "cidade": "París",
-     "pais": "Francia",
-     "competicao": "World Rugby Nations Championship",
+     "nome": "México vs Jamaica",
+     "data": "2026-11-17",
+     "data_texto": "martes, 17 de noviembre de 2026",
+     "local": "Estadio BBVA",
+     "cidade": "Monterrey",
+     "pais": "México",
+     "competicao": "CONCACAF Nations League",
      "times": [
-      "Francia",
+      "México",
+      "Jamaica"
+     ],
+     "ingressos": "https://www.ticketmaster.com.mx/mexico-v-jamaica-cf-concacaf-nations-guadalupe-17-11-2026/event/3D00654B976C3198",
+     "guia": "https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/",
+     "como_chegar": [
+      "El estadio está en Guadalupe, en la zona metropolitana de Monterrey. Taxi o aplicación es lo más sencillo.",
+      "A la salida hay mucha demanda de autos: acuerda antes el punto de encuentro."
+     ],
+     "dicas": [
+      "Los laterales dan la mejor vista de todo el campo.",
+      "Los sectores altos suelen ser los más baratos.",
+      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
+     ]
+    },
+    {
+     "nome": "Irlanda vs Sudáfrica",
+     "data": "2026-11-21",
+     "data_texto": "sábado, 21 de noviembre de 2026",
+     "local": "Aviva Stadium",
+     "cidade": "Dublín",
+     "pais": "Irlanda",
+     "competicao": "Nations Championship",
+     "times": [
+      "Irlanda",
       "Sudáfrica"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/",
+     "ingressos": "https://www.ticketmaster.ie/nations-championship-2026-ireland-v-south-dublin-21-11-2026/event/180064D992CF3DCE",
+     "guia": "https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/",
      "como_chegar": [
-      "RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.",
-      "Metro línea 13, estación Saint-Denis–Porte de Paris, a pocos minutos a pie."
+      "Tren DART hasta la estación Lansdowne Road, junto al estadio.",
+      "El día del partido la estación se llena: llega con margen."
      ],
      "dicas": [
       "Los asientos laterales cerca de la mitad muestran mejor el juego.",
-      "Lleva abrigo: las noches de noviembre en París son frías.",
+      "Lleva abrigo: los partidos de noviembre a marzo suelen ser fríos.",
       "En grupo, compra todos los asientos en el mismo pedido."
      ]
     },
     {
-     "nome": "Final de la Sudamericana: Atlético Mineiro vs Boca Juniors",
-     "data": "2026-11-21",
-     "data_texto": "sábado, 21 de noviembre de 2026",
-     "local": "Estadio Metropolitano Roberto Meléndez",
-     "cidade": "Barranquilla",
-     "pais": "Colombia",
-     "competicao": "Copa Sudamericana",
+     "nome": "Los Angeles Lakers vs Boston Celtics",
+     "data": "2027-01-07",
+     "data_texto": "jueves, 7 de enero de 2027",
+     "local": "Crypto.com Arena",
+     "cidade": "Los Ángeles",
+     "pais": "EE. UU.",
+     "competicao": "NBA",
      "times": [
-      "Atlético Mineiro",
-      "Boca Juniors"
+      "Los Angeles Lakers",
+      "Boston Celtics"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
+     "ingressos": "https://www.ticketmaster.com/los-angeles-lakers-vs-boston-celtics-los-angeles-california-01-07-2027/event/2C00650CC26E0D94",
+     "guia": "https://mytickets.tours/es/eventos/lakers-vs-celtics-2027-01-07/",
      "como_chegar": [
-      "El estadio está en el sur de Barranquilla. En taxi o aplicación, calcula unos 30 minutos desde la zona norte, donde están los hoteles.",
-      "El partido es a las 17:00 con el calor del Caribe: llega temprano e hidrátate antes de entrar."
+      "Metro líneas A y E hasta la estación Pico, a pocos minutos a pie de la arena.",
+      "Las puertas suelen abrir una hora antes del partido."
      ],
      "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
-     ]
-    },
-    {
-     "nome": "Final de la Libertadores: Palmeiras vs Estudiantes",
-     "data": "2026-11-28",
-     "data_texto": "sábado, 28 de noviembre de 2026",
-     "local": "Estadio Centenario",
-     "cidade": "Montevideo",
-     "pais": "Uruguay",
-     "competicao": "Copa Libertadores",
-     "times": [
-      "Palmeiras",
-      "Estudiantes de La Plata"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
-     "como_chegar": [
-      "El Centenario está en el Parque Batlle, a unos 15 minutos en taxi del centro de Montevideo.",
-      "En una final, la seguridad separa a las hinchadas: revisa tu puerta en la entrada y llega con tiempo."
-     ],
-     "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
-     ]
-    },
-    {
-     "nome": "GP de Abu Dabi de Fórmula 1",
-     "data": "2026-12-06",
-     "data_texto": "domingo, 6 de diciembre de 2026",
-     "local": "Yas Marina Circuit",
-     "cidade": "Abu Dabi",
-     "pais": "Emiratos Árabes Unidos",
-     "competicao": "Formula 1",
-     "times": [],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/",
-     "como_chegar": [
-      "El circuito está en la isla Yas, a unos 30 minutos en coche del centro de Abu Dabi.",
-      "El fin de semana de carrera la organización suele ofrecer autobuses. Consulta la web oficial del GP."
-     ],
-     "dicas": [
-      "Las tribunas cerca de curvas lentas muestran más adelantamientos.",
-      "Comprueba si la entrada vale para un día o para todo el fin de semana.",
-      "Lleva protección para los oídos."
-     ]
-    },
-    {
-     "nome": "FC Barcelona vs Manchester City",
-     "data": "2026-12-08",
-     "data_texto": "martes, 8 de diciembre de 2026",
-     "local": "Camp Nou",
-     "cidade": "Barcelona",
-     "pais": "España",
-     "competicao": "UEFA Champions League",
-     "times": [
-      "FC Barcelona",
-      "Manchester City"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/",
-     "como_chegar": [
-      "Metro L3, estaciones Les Corts y Palau Reial, o L5, estaciones Collblanc y Badal.",
-      "La Champions se juega entre semana por la noche. Reserva el hotel cerca de una línea de metro."
-     ],
-     "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
-     ]
-    },
-    {
-     "nome": "Final de la Supercopa de Italia: Inter vs Lazio",
-     "data": "2026-12-22",
-     "data_texto": "martes, 22 de diciembre de 2026",
-     "local": "San Siro (Giuseppe Meazza)",
-     "cidade": "Milán",
-     "pais": "Italia",
-     "competicao": "Supercoppa Italiana",
-     "times": [
-      "Inter",
-      "Lazio"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
-     "como_chegar": [
-      "Metro M5 hasta la estación San Siro Stadio, junto al estadio.",
-      "El tranvía 16 también llega a la plaza frente al estadio."
-     ],
-     "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
+      "Los asientos laterales del nivel inferior están más cerca de la pista.",
+      "Los asientos detrás de las canastas suelen ser más baratos.",
+      "Llega temprano para ver el calentamiento."
      ]
     },
     {
@@ -1413,27 +896,27 @@
      ]
     },
     {
-     "nome": "Sporting de Portugal vs Barcelona",
-     "data": "2027-01-20",
-     "data_texto": "miércoles, 20 de enero de 2027",
-     "local": "Estádio José Alvalade",
-     "cidade": "Lisboa",
-     "pais": "Portugal",
-     "competicao": "UEFA Champions League",
+     "nome": "NBA en Mánchester: Pelicans vs Spurs",
+     "data": "2027-01-17",
+     "data_texto": "domingo, 17 de enero de 2027",
+     "local": "Co-op Live",
+     "cidade": "Mánchester",
+     "pais": "Reino Unido",
+     "competicao": "NBA",
      "times": [
-      "Sporting de Portugal",
-      "Barcelona"
+      "New Orleans Pelicans",
+      "San Antonio Spurs"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/sporting-vs-barcelona-2027-01-20/",
+     "ingressos": "https://www.ticketmaster.co.uk/nba-manchester-game-2027-manchester-17-01-2027/event/37006507A634155B",
+     "guia": "https://mytickets.tours/es/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/",
      "como_chegar": [
-      "Metro de Lisboa, líneas verde o amarilla, hasta la estación Campo Grande, junto al estadio.",
-      "Después del partido el metro se llena: puedes caminar unos minutos hasta otra estación o esperar a que baje la fila."
+      "Tranvía Metrolink hasta la parada Etihad Campus, junto a la arena.",
+      "La arena está en el mismo complejo que el estadio del Manchester City."
      ],
      "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
+      "Los asientos laterales del nivel inferior están más cerca de la pista.",
+      "Los asientos detrás de las canastas suelen ser más baratos.",
+      "Llega temprano para ver el calentamiento."
      ]
     },
     {
@@ -1458,93 +941,21 @@
      ]
     },
     {
-     "nome": "Supercopa de España: Barcelona vs Atlético de Madrid",
-     "data": "2027-02-02",
-     "data_texto": "martes, 2 de febrero de 2027",
-     "local": "Estádio Şükrü Saracoğlu (Fenerbahçe)",
-     "cidade": "Estambul",
-     "pais": "Turquía",
-     "competicao": "Supercopa de España",
-     "times": [
-      "Barcelona",
-      "Atlético de Madrid"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
-     "como_chegar": [
-      "El estadio está en Kadıköy, en el lado asiático: toma el ferry desde Eminönü o Karaköy hasta Kadıköy y camina unos 15 minutos.",
-      "El Marmaray también llega: bájate en Söğütlüçeşme, a pocos minutos a pie."
-     ],
-     "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
-     ]
-    },
-    {
-     "nome": "Irlanda vs Inglaterra (Seis Naciones)",
-     "data": "2027-02-05",
-     "data_texto": "viernes, 5 de febrero de 2027",
-     "local": "Aviva Stadium",
-     "cidade": "Dublín",
-     "pais": "Irlanda",
-     "competicao": "Six Nations",
-     "times": [
-      "Irlanda",
-      "Inglaterra"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/",
-     "como_chegar": [
-      "Tren DART hasta Lansdowne Road, junto al estadio.",
-      "Desde el centro de Dublín también se puede ir caminando, unos 30 minutos."
-     ],
-     "dicas": [
-      "Los asientos laterales cerca de la mitad muestran mejor el juego.",
-      "Lleva abrigo: las noches de noviembre en París son frías.",
-      "En grupo, compra todos los asientos en el mismo pedido."
-     ]
-    },
-    {
-     "nome": "Francia vs Gales (Seis Naciones)",
-     "data": "2027-02-06",
-     "data_texto": "sábado, 6 de febrero de 2027",
-     "local": "Stade de France",
-     "cidade": "París",
-     "pais": "Francia",
-     "competicao": "Six Nations",
-     "times": [
-      "Francia",
-      "Gales"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/",
-     "como_chegar": [
-      "RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.",
-      "Metro línea 13, estación Saint-Denis–Porte de Paris, a pocos minutos a pie."
-     ],
-     "dicas": [
-      "Los asientos laterales cerca de la mitad muestran mejor el juego.",
-      "Lleva abrigo: las noches de noviembre en París son frías.",
-      "En grupo, compra todos los asientos en el mismo pedido."
-     ]
-    },
-    {
-     "nome": "Celine Dion en París",
-     "data": "2027-05-14",
-     "data_texto": "viernes, 14 de mayo de 2027",
-     "local": "Paris La Défense Arena",
-     "cidade": "París",
-     "pais": "Francia",
+     "nome": "Foo Fighters en São Paulo",
+     "data": "2027-02-20",
+     "data_texto": "sábado, 20 de febrero de 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brasil",
      "competicao": "Conciertos",
      "times": [
-      "Celine Dion"
+      "Foo Fighters"
      ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/",
+     "ingressos": "https://www.ticketmaster.com.br/event/venda-geral-foo-fighters-sao-paulo",
+     "guia": "https://mytickets.tours/es/eventos/foo-fighters-sao-paulo-2027-02-20/",
      "como_chegar": [
-      "RER A, metro línea 1 o tranvía T2 hasta La Défense–Grande Arche.",
-      "La arena está a unos 10 minutos a pie de la estación."
+      "La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.",
+      "A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes."
      ],
      "dicas": [
       "La pista está más cerca del escenario; las gradas muestran todo el show.",
@@ -1553,24 +964,49 @@
      ]
     },
     {
-     "nome": "Final de la Champions League 2027",
-     "data": "2027-06-05",
-     "data_texto": "sábado, 5 de junio de 2027",
-     "local": "Estadio Metropolitano",
-     "cidade": "Madrid",
-     "pais": "España",
-     "competicao": "UEFA Champions League",
-     "times": [],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/",
+     "nome": "U2 en la Ciudad de México",
+     "data": "2027-02-23",
+     "data_texto": "martes, 23 de febrero de 2027",
+     "local": "Estadio GNP Seguros",
+     "cidade": "Ciudad de México",
+     "pais": "México",
+     "competicao": "Conciertos",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F",
+     "guia": "https://mytickets.tours/es/eventos/u2-cidade-do-mexico-2027-02-23/",
      "como_chegar": [
-      "Metro línea 7 hasta la estación Estadio Metropolitano, frente al estadio.",
-      "En una final, llega dos horas antes. Los controles y las colas son largos."
+      "Metro Línea 9 hasta la estación Ciudad Deportiva, junto al estadio.",
+      "A la salida el metro se llena: ten un plan B para volver."
      ],
      "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
+      "La pista está más cerca del escenario; las gradas muestran todo el show.",
+      "Los asientos frente al escenario tienen el mejor sonido.",
+      "En grupo, compra todos los asientos en el mismo pedido."
+     ]
+    },
+    {
+     "nome": "U2 en São Paulo",
+     "data": "2027-03-10",
+     "data_texto": "miércoles, 10 de marzo de 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brasil",
+     "competicao": "Conciertos",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "https://www.ticketmaster.com.br/event/u2",
+     "guia": "https://mytickets.tours/es/eventos/u2-sao-paulo-2027-03-10/",
+     "como_chegar": [
+      "La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.",
+      "A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes."
+     ],
+     "dicas": [
+      "La pista está más cerca del escenario; las gradas muestran todo el show.",
+      "Los asientos frente al escenario tienen el mejor sonido.",
+      "En grupo, compra todos los asientos en el mismo pedido."
      ]
     }
    ],

@@ -18,96 +18,6 @@
  "uso": "Livre para ler, citar e referenciar. Pedimos que cite o nome do site, MyTickets Tours.",
  "eventos": [
   {
-   "id": "391609",
-   "slug": "milan-vs-inter-2026-10-31",
-   "tipo": "football",
-   "titulo": {
-    "pt": "AC Milan x Inter",
-    "en": "AC Milan vs Inter",
-    "es": "AC Milan vs Inter"
-   },
-   "data": "2026-10-31",
-   "hora_local": "20:45",
-   "local": "San Siro (Giuseppe Meazza)",
-   "cidade": {
-    "pt": "Milão",
-    "en": "Milan",
-    "es": "Milán"
-   },
-   "pais": {
-    "pt": "Itália",
-    "en": "Italy",
-    "es": "Italia"
-   },
-   "competicao": "Serie A",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/",
-    "en": "https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/",
-    "es": "https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/"
-   },
-   "preco": null
-  },
-  {
-   "id": "393012",
-   "slug": "arsenal-vs-hull-city-2026-11-07",
-   "tipo": "football",
-   "titulo": {
-    "pt": "Arsenal x Hull City",
-    "en": "Arsenal vs Hull City",
-    "es": "Arsenal vs Hull City"
-   },
-   "data": "2026-11-07",
-   "hora_local": "15:00",
-   "local": "Emirates Stadium",
-   "cidade": {
-    "pt": "Londres",
-    "en": "London",
-    "es": "Londres"
-   },
-   "pais": {
-    "pt": "Inglaterra",
-    "en": "England",
-    "es": "Inglaterra"
-   },
-   "competicao": "Premier League",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/arsenal-vs-hull-city-2026-11-07/",
-    "en": "https://mytickets.tours/en/events/arsenal-vs-hull-city-2026-11-07/",
-    "es": "https://mytickets.tours/es/eventos/arsenal-vs-hull-city-2026-11-07/"
-   },
-   "preco": null
-  },
-  {
-   "id": "387682",
-   "slug": "italia-vs-franca-2026-11-12",
-   "tipo": "football",
-   "titulo": {
-    "pt": "Itália x França",
-    "en": "Italy vs France",
-    "es": "Italia vs Francia"
-   },
-   "data": "2026-11-12",
-   "hora_local": "20:45",
-   "local": "San Siro (Giuseppe Meazza)",
-   "cidade": {
-    "pt": "Milão",
-    "en": "Milan",
-    "es": "Milán"
-   },
-   "pais": {
-    "pt": "Itália",
-    "en": "Italy",
-    "es": "Italia"
-   },
-   "competicao": "UEFA Nations League",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/italia-vs-franca-2026-11-12/",
-    "en": "https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/",
-    "es": "https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/"
-   },
-   "preco": null
-  },
-  {
    "id": "387541",
    "slug": "inglaterra-vs-croacia-2026-11-12",
    "tipo": "football",
@@ -138,182 +48,92 @@
    "preco": null
   },
   {
-   "id": "383977",
-   "slug": "franca-vs-africa-do-sul-2026-11-13",
+   "id": "G5dVZ_fm9hdkb",
+   "slug": "mexico-vs-jamaica-2026-11-17",
+   "tipo": "football",
+   "titulo": {
+    "pt": "México x Jamaica",
+    "en": "Mexico vs Jamaica",
+    "es": "México vs Jamaica"
+   },
+   "data": "2026-11-17",
+   "hora_local": "20:30",
+   "local": "Estadio BBVA",
+   "cidade": {
+    "pt": "Monterrey",
+    "en": "Monterrey",
+    "es": "Monterrey"
+   },
+   "pais": {
+    "pt": "México",
+    "en": "Mexico",
+    "es": "México"
+   },
+   "competicao": "CONCACAF Nations League",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/",
+    "en": "https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/",
+    "es": "https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/"
+   },
+   "preco": null
+  },
+  {
+   "id": "17kZv0G6uJ3SSMC",
+   "slug": "ireland-vs-south-africa-2026-11-21",
    "tipo": "rugby",
    "titulo": {
-    "pt": "França x África do Sul",
-    "en": "France vs South Africa",
-    "es": "Francia vs Sudáfrica"
-   },
-   "data": "2026-11-13",
-   "hora_local": "21:10",
-   "local": "Stade de France",
-   "cidade": {
-    "pt": "Paris",
-    "en": "Paris",
-    "es": "París"
-   },
-   "pais": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
-   },
-   "competicao": "World Rugby Nations Championship",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/",
-    "en": "https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/",
-    "es": "https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/"
-   },
-   "preco": null
-  },
-  {
-   "id": "399058",
-   "slug": "final-sul-americana-atletico-mg-vs-boca-2026-11-21",
-   "tipo": "football",
-   "titulo": {
-    "pt": "Final da Sul-Americana: Atlético-MG x Boca Juniors",
-    "en": "Copa Sudamericana Final: Atlético Mineiro vs Boca Juniors",
-    "es": "Final de la Sudamericana: Atlético Mineiro vs Boca Juniors"
+    "pt": "Irlanda x África do Sul",
+    "en": "Ireland vs South Africa",
+    "es": "Irlanda vs Sudáfrica"
    },
    "data": "2026-11-21",
-   "hora_local": "17:00",
-   "local": "Estadio Metropolitano Roberto Meléndez",
+   "hora_local": "16:40",
+   "local": "Aviva Stadium",
    "cidade": {
-    "pt": "Barranquilla",
-    "en": "Barranquilla",
-    "es": "Barranquilla"
+    "pt": "Dublin",
+    "en": "Dublin",
+    "es": "Dublín"
    },
    "pais": {
-    "pt": "Colômbia",
-    "en": "Colombia",
-    "es": "Colombia"
+    "pt": "Irlanda",
+    "en": "Ireland",
+    "es": "Irlanda"
    },
-   "competicao": "Copa Sudamericana",
+   "competicao": "Nations Championship",
    "guia": {
-    "pt": "https://mytickets.tours/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
-    "en": "https://mytickets.tours/en/events/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
-    "es": "https://mytickets.tours/es/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/"
+    "pt": "https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/",
+    "en": "https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/",
+    "es": "https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/"
    },
    "preco": null
   },
   {
-   "id": "398045",
-   "slug": "final-libertadores-palmeiras-vs-estudiantes-2026-11-28",
-   "tipo": "football",
+   "id": "G5eYZ_8SehOUf",
+   "slug": "lakers-vs-celtics-2027-01-07",
+   "tipo": "nba",
    "titulo": {
-    "pt": "Final da Libertadores: Palmeiras x Estudiantes",
-    "en": "Copa Libertadores Final: Palmeiras vs Estudiantes",
-    "es": "Final de la Libertadores: Palmeiras vs Estudiantes"
+    "pt": "Los Angeles Lakers x Boston Celtics",
+    "en": "Los Angeles Lakers vs Boston Celtics",
+    "es": "Los Angeles Lakers vs Boston Celtics"
    },
-   "data": "2026-11-28",
-   "hora_local": "20:00",
-   "local": "Estadio Centenario",
+   "data": "2027-01-07",
+   "hora_local": "19:00",
+   "local": "Crypto.com Arena",
    "cidade": {
-    "pt": "Montevidéu",
-    "en": "Montevideo",
-    "es": "Montevideo"
+    "pt": "Los Angeles",
+    "en": "Los Angeles",
+    "es": "Los Ángeles"
    },
    "pais": {
-    "pt": "Uruguai",
-    "en": "Uruguay",
-    "es": "Uruguay"
+    "pt": "EUA",
+    "en": "USA",
+    "es": "EE. UU."
    },
-   "competicao": "Copa Libertadores",
+   "competicao": "NBA",
    "guia": {
-    "pt": "https://mytickets.tours/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
-    "en": "https://mytickets.tours/en/events/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
-    "es": "https://mytickets.tours/es/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/"
-   },
-   "preco": null
-  },
-  {
-   "id": "387903",
-   "slug": "gp-abu-dhabi-f1-2026-12-06",
-   "tipo": "f1",
-   "titulo": {
-    "pt": "GP de Abu Dhabi de Fórmula 1",
-    "en": "Formula 1 Abu Dhabi Grand Prix",
-    "es": "GP de Abu Dabi de Fórmula 1"
-   },
-   "data": "2026-12-06",
-   "hora_local": "14:00",
-   "local": "Yas Marina Circuit",
-   "cidade": {
-    "pt": "Abu Dhabi",
-    "en": "Abu Dhabi",
-    "es": "Abu Dabi"
-   },
-   "pais": {
-    "pt": "Emirados Árabes Unidos",
-    "en": "United Arab Emirates",
-    "es": "Emiratos Árabes Unidos"
-   },
-   "competicao": "Formula 1",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/gp-abu-dhabi-f1-2026-12-06/",
-    "en": "https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/",
-    "es": "https://mytickets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/"
-   },
-   "preco": null
-  },
-  {
-   "id": "402363",
-   "slug": "barcelona-vs-manchester-city-2026-12-08",
-   "tipo": "football",
-   "titulo": {
-    "pt": "FC Barcelona x Manchester City",
-    "en": "FC Barcelona vs Manchester City",
-    "es": "FC Barcelona vs Manchester City"
-   },
-   "data": "2026-12-08",
-   "hora_local": "21:00",
-   "local": "Camp Nou",
-   "cidade": {
-    "pt": "Barcelona",
-    "en": "Barcelona",
-    "es": "Barcelona"
-   },
-   "pais": {
-    "pt": "Espanha",
-    "en": "Spain",
-    "es": "España"
-   },
-   "competicao": "UEFA Champions League",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/barcelona-vs-manchester-city-2026-12-08/",
-    "en": "https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/",
-    "es": "https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/"
-   },
-   "preco": null
-  },
-  {
-   "id": "391307",
-   "slug": "final-supercopa-italia-inter-vs-lazio-2026-12-22",
-   "tipo": "football",
-   "titulo": {
-    "pt": "Final da Supercopa da Itália: Inter x Lazio",
-    "en": "Italian Super Cup Final: Inter vs Lazio",
-    "es": "Final de la Supercopa de Italia: Inter vs Lazio"
-   },
-   "data": "2026-12-22",
-   "hora_local": "21:00",
-   "local": "San Siro (Giuseppe Meazza)",
-   "cidade": {
-    "pt": "Milão",
-    "en": "Milan",
-    "es": "Milán"
-   },
-   "pais": {
-    "pt": "Itália",
-    "en": "Italy",
-    "es": "Italia"
-   },
-   "competicao": "Supercoppa Italiana",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
-    "en": "https://mytickets.tours/en/events/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
-    "es": "https://mytickets.tours/es/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/"
+    "pt": "https://mytickets.tours/eventos/lakers-vs-celtics-2027-01-07/",
+    "en": "https://mytickets.tours/en/events/lakers-vs-celtics-2027-01-07/",
+    "es": "https://mytickets.tours/es/eventos/lakers-vs-celtics-2027-01-07/"
    },
    "preco": null
   },
@@ -348,32 +168,32 @@
    "preco": null
   },
   {
-   "id": "402457",
-   "slug": "sporting-vs-barcelona-2027-01-20",
-   "tipo": "football",
+   "id": "1AMZkf6GkeJuv4h",
+   "slug": "nba-manchester-pelicans-vs-spurs-2027-01-17",
+   "tipo": "nba",
    "titulo": {
-    "pt": "Sporting x Barcelona",
-    "en": "Sporting CP vs Barcelona",
-    "es": "Sporting de Portugal vs Barcelona"
+    "pt": "NBA em Manchester: Pelicans x Spurs",
+    "en": "NBA Manchester Game: Pelicans vs Spurs",
+    "es": "NBA en Mánchester: Pelicans vs Spurs"
    },
-   "data": "2027-01-20",
-   "hora_local": "20:00",
-   "local": "Estádio José Alvalade",
+   "data": "2027-01-17",
+   "hora_local": "15:30",
+   "local": "Co-op Live",
    "cidade": {
-    "pt": "Lisboa",
-    "en": "Lisbon",
-    "es": "Lisboa"
+    "pt": "Manchester",
+    "en": "Manchester",
+    "es": "Mánchester"
    },
    "pais": {
-    "pt": "Portugal",
-    "en": "Portugal",
-    "es": "Portugal"
+    "pt": "Reino Unido",
+    "en": "United Kingdom",
+    "es": "Reino Unido"
    },
-   "competicao": "UEFA Champions League",
+   "competicao": "NBA",
    "guia": {
-    "pt": "https://mytickets.tours/eventos/sporting-vs-barcelona-2027-01-20/",
-    "en": "https://mytickets.tours/en/events/sporting-vs-barcelona-2027-01-20/",
-    "es": "https://mytickets.tours/es/eventos/sporting-vs-barcelona-2027-01-20/"
+    "pt": "https://mytickets.tours/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/",
+    "en": "https://mytickets.tours/en/events/nba-manchester-pelicans-vs-spurs-2027-01-17/",
+    "es": "https://mytickets.tours/es/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/"
    },
    "preco": null
   },
@@ -408,152 +228,92 @@
    "preco": null
   },
   {
-   "id": "391305",
-   "slug": "supercopa-espanha-barcelona-vs-atletico-2027-02-02",
-   "tipo": "football",
-   "titulo": {
-    "pt": "Supercopa da Espanha: Barcelona x Atlético de Madrid",
-    "en": "Spanish Super Cup: Barcelona vs Atlético Madrid",
-    "es": "Supercopa de España: Barcelona vs Atlético de Madrid"
-   },
-   "data": "2027-02-02",
-   "hora_local": "22:00",
-   "local": "Estádio Şükrü Saracoğlu (Fenerbahçe)",
-   "cidade": {
-    "pt": "Istambul",
-    "en": "Istanbul",
-    "es": "Estambul"
-   },
-   "pais": {
-    "pt": "Turquia",
-    "en": "Turkey",
-    "es": "Turquía"
-   },
-   "competicao": "Supercopa de España",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
-    "en": "https://mytickets.tours/en/events/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
-    "es": "https://mytickets.tours/es/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/"
-   },
-   "preco": null
-  },
-  {
-   "id": "388439",
-   "slug": "irlanda-vs-inglaterra-six-nations-2027-02-05",
-   "tipo": "rugby",
-   "titulo": {
-    "pt": "Irlanda x Inglaterra (Six Nations)",
-    "en": "Ireland vs England (Six Nations)",
-    "es": "Irlanda vs Inglaterra (Seis Naciones)"
-   },
-   "data": "2027-02-05",
-   "hora_local": "20:10",
-   "local": "Aviva Stadium",
-   "cidade": {
-    "pt": "Dublin",
-    "en": "Dublin",
-    "es": "Dublín"
-   },
-   "pais": {
-    "pt": "Irlanda",
-    "en": "Ireland",
-    "es": "Irlanda"
-   },
-   "competicao": "Six Nations",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/",
-    "en": "https://mytickets.tours/en/events/irlanda-vs-inglaterra-six-nations-2027-02-05/",
-    "es": "https://mytickets.tours/es/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/"
-   },
-   "preco": null
-  },
-  {
-   "id": "388441",
-   "slug": "franca-vs-pais-de-gales-six-nations-2027-02-06",
-   "tipo": "rugby",
-   "titulo": {
-    "pt": "França x País de Gales (Six Nations)",
-    "en": "France vs Wales (Six Nations)",
-    "es": "Francia vs Gales (Seis Naciones)"
-   },
-   "data": "2027-02-06",
-   "hora_local": "16:40",
-   "local": "Stade de France",
-   "cidade": {
-    "pt": "Paris",
-    "en": "Paris",
-    "es": "París"
-   },
-   "pais": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
-   },
-   "competicao": "Six Nations",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/",
-    "en": "https://mytickets.tours/en/events/franca-vs-pais-de-gales-six-nations-2027-02-06/",
-    "es": "https://mytickets.tours/es/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/"
-   },
-   "preco": null
-  },
-  {
-   "id": "391312",
-   "slug": "celine-dion-paris-2027-05-14",
+   "id": "ZFIMVHtnMZ17Fzb7",
+   "slug": "foo-fighters-sao-paulo-2027-02-20",
    "tipo": "concert",
    "titulo": {
-    "pt": "Celine Dion em Paris",
-    "en": "Celine Dion in Paris",
-    "es": "Celine Dion en París"
+    "pt": "Foo Fighters em São Paulo",
+    "en": "Foo Fighters in São Paulo",
+    "es": "Foo Fighters en São Paulo"
    },
-   "data": "2027-05-14",
-   "hora_local": "19:30",
-   "local": "Paris La Défense Arena",
+   "data": "2027-02-20",
+   "hora_local": "20:00",
+   "local": "MorumBis",
    "cidade": {
-    "pt": "Paris",
-    "en": "Paris",
-    "es": "París"
+    "pt": "São Paulo",
+    "en": "São Paulo",
+    "es": "São Paulo"
    },
    "pais": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
+    "pt": "Brasil",
+    "en": "Brazil",
+    "es": "Brasil"
    },
    "competicao": null,
    "guia": {
-    "pt": "https://mytickets.tours/eventos/celine-dion-paris-2027-05-14/",
-    "en": "https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/",
-    "es": "https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/"
+    "pt": "https://mytickets.tours/eventos/foo-fighters-sao-paulo-2027-02-20/",
+    "en": "https://mytickets.tours/en/events/foo-fighters-sao-paulo-2027-02-20/",
+    "es": "https://mytickets.tours/es/eventos/foo-fighters-sao-paulo-2027-02-20/"
    },
    "preco": null
   },
   {
-   "id": "399236",
-   "slug": "final-champions-league-2027-06-05",
-   "tipo": "football",
+   "id": "1AfZk4aGkeysi-T",
+   "slug": "u2-cidade-do-mexico-2027-02-23",
+   "tipo": "concert",
    "titulo": {
-    "pt": "Final da Champions League 2027",
-    "en": "2027 Champions League Final",
-    "es": "Final de la Champions League 2027"
+    "pt": "U2 na Cidade do México",
+    "en": "U2 in Mexico City",
+    "es": "U2 en la Ciudad de México"
    },
-   "data": "2027-06-05",
+   "data": "2027-02-23",
    "hora_local": "21:00",
-   "local": "Estadio Metropolitano",
+   "local": "Estadio GNP Seguros",
    "cidade": {
-    "pt": "Madri",
-    "en": "Madrid",
-    "es": "Madrid"
+    "pt": "Cidade do México",
+    "en": "Mexico City",
+    "es": "Ciudad de México"
    },
    "pais": {
-    "pt": "Espanha",
-    "en": "Spain",
-    "es": "España"
+    "pt": "México",
+    "en": "Mexico",
+    "es": "México"
    },
-   "competicao": "UEFA Champions League",
+   "competicao": null,
    "guia": {
-    "pt": "https://mytickets.tours/eventos/final-champions-league-2027-06-05/",
-    "en": "https://mytickets.tours/en/events/final-champions-league-2027-06-05/",
-    "es": "https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/"
+    "pt": "https://mytickets.tours/eventos/u2-cidade-do-mexico-2027-02-23/",
+    "en": "https://mytickets.tours/en/events/u2-cidade-do-mexico-2027-02-23/",
+    "es": "https://mytickets.tours/es/eventos/u2-cidade-do-mexico-2027-02-23/"
+   },
+   "preco": null
+  },
+  {
+   "id": "ZFIMVHtnMZ17a4r3",
+   "slug": "u2-sao-paulo-2027-03-10",
+   "tipo": "concert",
+   "titulo": {
+    "pt": "U2 em São Paulo",
+    "en": "U2 in São Paulo",
+    "es": "U2 en São Paulo"
+   },
+   "data": "2027-03-10",
+   "hora_local": "21:00",
+   "local": "MorumBis",
+   "cidade": {
+    "pt": "São Paulo",
+    "en": "São Paulo",
+    "es": "São Paulo"
+   },
+   "pais": {
+    "pt": "Brasil",
+    "en": "Brazil",
+    "es": "Brasil"
+   },
+   "competicao": null,
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/u2-sao-paulo-2027-03-10/",
+    "en": "https://mytickets.tours/en/events/u2-sao-paulo-2027-03-10/",
+    "es": "https://mytickets.tours/es/eventos/u2-sao-paulo-2027-03-10/"
    },
    "preco": null
   }

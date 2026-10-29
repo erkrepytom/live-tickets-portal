@@ -20,7 +20,7 @@
    },
    "competicao": {
     "nome": "La Liga",
-    "dock": "/dock/competition/la-liga"
+    "dock": "/search?q=La%20Liga"
    },
    "times": [
     {
@@ -36,7 +36,7 @@
     "pt": "Barcelona",
     "en": "Barcelona",
     "es": "Barcelona",
-    "dock": "/dock/cities/barcelona"
+    "dock": "/search?q=Barcelona"
    },
    "pais": {
     "pt": "Espanha",
@@ -68,217 +68,6 @@
    "conferido": "2026-10-15"
   },
   {
-   "slug": "milan-vs-inter-2026-10-31",
-   "id": 391609,
-   "data": "2026-10-31",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "photo-1489944440615-453fc2b6a9a9",
-   "titulo": {
-    "pt": "AC Milan x Inter",
-    "en": "AC Milan vs Inter",
-    "es": "AC Milan vs Inter"
-   },
-   "painel": {
-    "pt": "MILAN X INTER",
-    "en": "MILAN VS INTER",
-    "es": "MILAN VS INTER"
-   },
-   "competicao": {
-    "nome": "Serie A",
-    "dock": "/dock/competition/serie-a"
-   },
-   "times": [
-    {
-     "nome": "AC Milan",
-     "dock": "/dock/team/ac-milan"
-    },
-    {
-     "nome": "Inter",
-     "dock": "/dock/team/inter"
-    }
-   ],
-   "local": "San Siro (Giuseppe Meazza)",
-   "cidade": {
-    "pt": "Milão",
-    "en": "Milan",
-    "es": "Milán",
-    "dock": "/dock/cities/milano"
-   },
-   "pais": {
-    "pt": "Itália",
-    "en": "Italy",
-    "es": "Italia"
-   },
-   "intro": {
-    "pt": "O Derby della Madonnina, clássico de Milão, pela Serie A. Os dois times dividem o San Siro, e a cidade para no dia do jogo.",
-    "en": "The Milan derby (Derby della Madonnina) in Serie A. Both clubs share San Siro, and the city stops on match day.",
-    "es": "El Derby della Madonnina, el clásico de Milán, por la Serie A. Los dos equipos comparten San Siro y la ciudad se paraliza."
-   },
-   "chegar": {
-    "pt": [
-     "Metrô M5 até a estação San Siro Stadio, ao lado do estádio.",
-     "O bonde 16 também chega à praça em frente ao estádio."
-    ],
-    "en": [
-     "Metro M5 to San Siro Stadio station, next to the stadium.",
-     "Tram 16 also stops at the square in front of the stadium."
-    ],
-    "es": [
-     "Metro M5 hasta la estación San Siro Stadio, junto al estadio.",
-     "El tranvía 16 también llega a la plaza frente al estadio."
-    ]
-   },
-   "banner": "05-serie-a.jpg",
-   "hora": "20:45",
-   "inicio": "2026-10-31T20:45:00+01:00",
-   "conferido": "2026-10-15"
-  },
-  {
-   "slug": "arsenal-vs-hull-city-2026-11-07",
-   "id": 393012,
-   "data": "2026-11-07",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "sports.jpg",
-   "banner": "sports.jpg",
-   "titulo": {
-    "pt": "Arsenal x Hull City",
-    "en": "Arsenal vs Hull City",
-    "es": "Arsenal vs Hull City"
-   },
-   "painel": {
-    "pt": "ARSENAL X HULL",
-    "en": "ARSENAL VS HULL",
-    "es": "ARSENAL VS HULL"
-   },
-   "competicao": {
-    "nome": "Premier League",
-    "dock": "/dock/competition/premier-league"
-   },
-   "times": [
-    {
-     "nome": {
-      "pt": "Arsenal",
-      "en": "Arsenal",
-      "es": "Arsenal"
-     }
-    },
-    {
-     "nome": {
-      "pt": "Hull City",
-      "en": "Hull City",
-      "es": "Hull City"
-     }
-    }
-   ],
-   "local": "Emirates Stadium",
-   "cidade": {
-    "pt": "Londres",
-    "en": "London",
-    "es": "Londres"
-   },
-   "pais": {
-    "pt": "Inglaterra",
-    "en": "England",
-    "es": "Inglaterra"
-   },
-   "intro": {
-    "pt": "O Arsenal recebe o Hull City no Emirates, em Londres, pela Premier League.",
-    "en": "Arsenal host Hull City at the Emirates in London in the Premier League.",
-    "es": "El Arsenal recibe al Hull City en el Emirates, en Londres, por la Premier League."
-   },
-   "chegar": {
-    "pt": [
-     "Metrô (Piccadilly line) até a estação Arsenal, a poucos minutos a pé.",
-     "Holloway Road e Highbury & Islington também servem; perto do jogo, Holloway Road pode ficar só de saída."
-    ],
-    "en": [
-     "Underground (Piccadilly line) to Arsenal station, a few minutes' walk away.",
-     "Holloway Road and Highbury & Islington also work; around kick-off Holloway Road can be exit-only."
-    ],
-    "es": [
-     "Metro (Piccadilly line) hasta la estación Arsenal, a pocos minutos a pie.",
-     "Holloway Road y Highbury & Islington también sirven; cerca del partido, Holloway Road puede ser solo de salida."
-    ]
-   },
-   "hora": "15:00",
-   "inicio": "2026-11-07T15:00:00+00:00",
-   "conferido": "2026-10-29"
-  },
-  {
-   "slug": "italia-vs-franca-2026-11-12",
-   "id": 387682,
-   "data": "2026-11-12",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "photo-1556056504-5c7696c4c28d",
-   "titulo": {
-    "pt": "Itália x França",
-    "en": "Italy vs France",
-    "es": "Italia vs Francia"
-   },
-   "painel": {
-    "pt": "ITÁLIA X FRANÇA",
-    "en": "ITALY VS FRANCE",
-    "es": "ITALIA VS FRANCIA"
-   },
-   "competicao": {
-    "nome": "UEFA Nations League"
-   },
-   "times": [
-    {
-     "nome": {
-      "pt": "Itália",
-      "en": "Italy",
-      "es": "Italia"
-     }
-    },
-    {
-     "nome": {
-      "pt": "França",
-      "en": "France",
-      "es": "Francia"
-     }
-    }
-   ],
-   "local": "San Siro (Giuseppe Meazza)",
-   "cidade": {
-    "pt": "Milão",
-    "en": "Milan",
-    "es": "Milán",
-    "dock": "/dock/cities/milano"
-   },
-   "pais": {
-    "pt": "Itália",
-    "en": "Italy",
-    "es": "Italia"
-   },
-   "intro": {
-    "pt": "Duas seleções campeãs do mundo se enfrentam no San Siro, pela Liga das Nações da UEFA.",
-    "en": "Two World Cup-winning nations meet at San Siro in the UEFA Nations League.",
-    "es": "Dos selecciones campeonas del mundo se enfrentan en San Siro, por la Liga de Naciones de la UEFA."
-   },
-   "chegar": {
-    "pt": [
-     "Metrô M5 até a estação San Siro Stadio, ao lado do estádio.",
-     "Jogos de seleção à noite lotam o metrô depois do apito final. Vale esperar 20 minutos."
-    ],
-    "en": [
-     "Metro M5 to San Siro Stadio station, next to the stadium.",
-     "Night internationals pack the metro after the final whistle. It pays to wait 20 minutes."
-    ],
-    "es": [
-     "Metro M5 hasta la estación San Siro Stadio, junto al estadio.",
-     "Los partidos de selección de noche llenan el metro al final. Conviene esperar 20 minutos."
-    ]
-   },
-   "banner": "07-euro-league.jpg",
-   "hora": "20:45",
-   "inicio": "2026-11-12T20:45:00+01:00",
-   "conferido": "2026-10-15"
-  },
-  {
    "slug": "inglaterra-vs-croacia-2026-11-12",
    "id": 387541,
    "data": "2026-11-12",
@@ -297,7 +86,8 @@
     "es": "INGLATERRA VS CROACIA"
    },
    "competicao": {
-    "nome": "UEFA Nations League"
+    "nome": "UEFA Nations League",
+    "dock": "/search?q=UEFA%20Nations%20League"
    },
    "times": [
     {
@@ -353,31 +143,106 @@
    }
   },
   {
-   "slug": "franca-vs-africa-do-sul-2026-11-13",
-   "id": 383977,
-   "data": "2026-11-13",
-   "tipo": "rugby",
-   "esporte_tipo": 1020,
-   "img": "08-six-nations.jpg",
+   "slug": "mexico-vs-jamaica-2026-11-17",
+   "id": "G5dVZ_fm9hdkb",
+   "data": "2026-11-17",
+   "tipo": "football",
+   "esporte_tipo": 1000,
+   "img": "sports.jpg",
    "titulo": {
-    "pt": "França x África do Sul",
-    "en": "France vs South Africa",
-    "es": "Francia vs Sudáfrica"
+    "pt": "México x Jamaica",
+    "en": "Mexico vs Jamaica",
+    "es": "México vs Jamaica"
    },
    "painel": {
-    "pt": "FRANÇA X ÁFRICA DO SUL",
-    "en": "FRANCE VS SOUTH AFRICA",
-    "es": "FRANCIA VS SUDÁFRICA"
+    "pt": "MÉXICO X JAMAICA",
+    "en": "MEXICO VS JAMAICA",
+    "es": "MÉXICO VS JAMAICA"
    },
    "competicao": {
-    "nome": "World Rugby Nations Championship"
+    "nome": "CONCACAF Nations League",
+    "dock": "/search?q=CONCACAF%20Nations%20League"
    },
    "times": [
     {
      "nome": {
-      "pt": "França",
-      "en": "France",
-      "es": "Francia"
+      "pt": "México",
+      "en": "Mexico",
+      "es": "México"
+     }
+    },
+    {
+     "nome": {
+      "pt": "Jamaica",
+      "en": "Jamaica",
+      "es": "Jamaica"
+     }
+    }
+   ],
+   "local": "Estadio BBVA",
+   "cidade": {
+    "pt": "Monterrey",
+    "en": "Monterrey",
+    "es": "Monterrey"
+   },
+   "pais": {
+    "pt": "México",
+    "en": "Mexico",
+    "es": "México"
+   },
+   "intro": {
+    "pt": "A seleção mexicana recebe a Jamaica no Estadio BBVA, em Guadalupe, na região de Monterrey, pela CONCACAF Nations League.",
+    "en": "Mexico host Jamaica at Estadio BBVA in Guadalupe, in the Monterrey area, in the CONCACAF Nations League.",
+    "es": "El Tri recibe a Jamaica en el Estadio BBVA, en Guadalupe, zona metropolitana de Monterrey, por la CONCACAF Nations League."
+   },
+   "chegar": {
+    "pt": [
+     "O estádio fica em Guadalupe, na região metropolitana de Monterrey. Táxi ou aplicativo é o caminho mais simples.",
+     "Na saída a procura por carro é grande: combine antes o ponto de encontro."
+    ],
+    "en": [
+     "The stadium is in Guadalupe, in the Monterrey metro area. A taxi or ride-hailing app is the simplest way in.",
+     "Demand for rides is high after the match: agree a pickup point in advance."
+    ],
+    "es": [
+     "El estadio está en Guadalupe, en la zona metropolitana de Monterrey. Taxi o aplicación es lo más sencillo.",
+     "A la salida hay mucha demanda de autos: acuerda antes el punto de encuentro."
+    ]
+   },
+   "hora": "20:30",
+   "inicio": "2026-11-17T20:30:00-06:00",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.com.mx/mexico-v-jamaica-cf-concacaf-nations-guadalupe-17-11-2026/event/3D00654B976C3198"
+   },
+   "conferido": "2026-10-29"
+  },
+  {
+   "slug": "ireland-vs-south-africa-2026-11-21",
+   "id": "17kZv0G6uJ3SSMC",
+   "data": "2026-11-21",
+   "tipo": "rugby",
+   "esporte_tipo": 1020,
+   "img": "08-six-nations.jpg",
+   "titulo": {
+    "pt": "Irlanda x África do Sul",
+    "en": "Ireland vs South Africa",
+    "es": "Irlanda vs Sudáfrica"
+   },
+   "painel": {
+    "pt": "IRLANDA X ÁFRICA DO SUL",
+    "en": "IRELAND VS SOUTH AFRICA",
+    "es": "IRLANDA VS SUDÁFRICA"
+   },
+   "competicao": {
+    "nome": "Nations Championship",
+    "dock": "/search?q=Nations%20Championship"
+   },
+   "times": [
+    {
+     "nome": {
+      "pt": "Irlanda",
+      "en": "Ireland",
+      "es": "Irlanda"
      }
     },
     {
@@ -388,376 +253,107 @@
      }
     }
    ],
-   "local": "Stade de France",
+   "local": "Aviva Stadium",
    "cidade": {
-    "pt": "Paris",
-    "en": "Paris",
-    "es": "París",
-    "dock": "/dock/cities/paris"
+    "pt": "Dublin",
+    "en": "Dublin",
+    "es": "Dublín"
    },
    "pais": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
+    "pt": "Irlanda",
+    "en": "Ireland",
+    "es": "Irlanda"
    },
    "intro": {
-    "pt": "Rúgbi de seleções no Stade de France: a França recebe a África do Sul pelo World Rugby Nations Championship.",
-    "en": "Test rugby at the Stade de France: France host South Africa in the World Rugby Nations Championship.",
-    "es": "Rugby de selecciones en el Stade de France: Francia recibe a Sudáfrica en el World Rugby Nations Championship."
+    "pt": "Irlanda recebe a África do Sul no Aviva Stadium, em Dublin, pelo Nations Championship 2026.",
+    "en": "Ireland host South Africa at the Aviva Stadium in Dublin in the 2026 Nations Championship.",
+    "es": "Irlanda recibe a Sudáfrica en el Aviva Stadium de Dublín, en el Nations Championship 2026."
    },
    "chegar": {
     "pt": [
-     "RER D até Stade de France–Saint-Denis ou RER B até La Plaine–Stade de France.",
-     "Metrô linha 13, estação Saint-Denis–Porte de Paris, a poucos minutos a pé."
+     "Trem DART até a estação Lansdowne Road, ao lado do estádio.",
+     "Em dia de jogo a estação fica cheia: chegue com folga."
     ],
     "en": [
-     "RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.",
-     "Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away."
+     "DART train to Lansdowne Road station, right next to the stadium.",
+     "The station gets very busy on match day: arrive with time to spare."
     ],
     "es": [
-     "RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.",
-     "Metro línea 13, estación Saint-Denis–Porte de Paris, a pocos minutos a pie."
+     "Tren DART hasta la estación Lansdowne Road, junto al estadio.",
+     "El día del partido la estación se llena: llega con margen."
     ]
    },
-   "banner": "08-six-nations.jpg",
-   "hora": "21:10",
-   "inicio": "2026-11-13T21:10:00+01:00",
-   "conferido": "2026-10-15"
-  },
-  {
-   "slug": "final-sul-americana-atletico-mg-vs-boca-2026-11-21",
-   "id": 399058,
-   "data": "2026-11-21",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "10-brazil.jpg",
-   "banner": "10-brazil.jpg",
-   "titulo": {
-    "pt": "Final da Sul-Americana: Atlético-MG x Boca Juniors",
-    "en": "Copa Sudamericana Final: Atlético Mineiro vs Boca Juniors",
-    "es": "Final de la Sudamericana: Atlético Mineiro vs Boca Juniors"
+   "hora": "16:40",
+   "inicio": "2026-11-21T16:40:00+00:00",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.ie/nations-championship-2026-ireland-v-south-dublin-21-11-2026/event/180064D992CF3DCE"
    },
-   "painel": {
-    "pt": "ATLÉTICO-MG X BOCA",
-    "en": "ATLÉTICO-MG VS BOCA",
-    "es": "ATLÉTICO-MG VS BOCA"
-   },
-   "competicao": {
-    "nome": "Copa Sudamericana"
-   },
-   "times": [
-    {
-     "nome": {
-      "pt": "Atlético Mineiro",
-      "en": "Atlético Mineiro",
-      "es": "Atlético Mineiro"
-     }
-    },
-    {
-     "nome": {
-      "pt": "Boca Juniors",
-      "en": "Boca Juniors",
-      "es": "Boca Juniors"
-     }
-    }
-   ],
-   "local": "Estadio Metropolitano Roberto Meléndez",
-   "cidade": {
-    "pt": "Barranquilla",
-    "en": "Barranquilla",
-    "es": "Barranquilla"
-   },
-   "pais": {
-    "pt": "Colômbia",
-    "en": "Colombia",
-    "es": "Colombia"
-   },
-   "intro": {
-    "pt": "Galo e Boca decidem a Copa Sul-Americana em jogo único, em campo neutro em Barranquilla, na Colômbia.",
-    "en": "Atlético Mineiro and Boca Juniors decide the Copa Sudamericana in a one-off final on neutral ground in Barranquilla, Colombia.",
-    "es": "Atlético Mineiro y Boca Juniors definen la Copa Sudamericana a partido único, en cancha neutral en Barranquilla, Colombia."
-   },
-   "chegar": {
-    "pt": [
-     "O estádio fica no sul de Barranquilla. De táxi ou aplicativo, conte uns 30 minutos a partir da zona norte, onde ficam os hotéis.",
-     "O jogo é às 17h no calor do Caribe: chegue cedo e se hidrate antes de entrar."
-    ],
-    "en": [
-     "The stadium is in the south of Barranquilla. By taxi or ride app, allow about 30 minutes from the northern hotel area.",
-     "Kick-off is 5 pm in Caribbean heat: arrive early and drink water before going in."
-    ],
-    "es": [
-     "El estadio está en el sur de Barranquilla. En taxi o aplicación, calcula unos 30 minutos desde la zona norte, donde están los hoteles.",
-     "El partido es a las 17:00 con el calor del Caribe: llega temprano e hidrátate antes de entrar."
-    ]
-   },
-   "hora": "17:00",
-   "inicio": "2026-11-21T17:00:00-05:00",
    "conferido": "2026-10-29"
   },
   {
-   "slug": "final-libertadores-palmeiras-vs-estudiantes-2026-11-28",
-   "id": 398045,
-   "data": "2026-11-28",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "09-argentina.jpg",
-   "banner": "09-argentina.jpg",
+   "slug": "lakers-vs-celtics-2027-01-07",
+   "id": "G5eYZ_8SehOUf",
+   "data": "2027-01-07",
+   "tipo": "nba",
+   "esporte_tipo": 1002,
+   "img": "photo-1546519638-68e109498ffc",
    "titulo": {
-    "pt": "Final da Libertadores: Palmeiras x Estudiantes",
-    "en": "Copa Libertadores Final: Palmeiras vs Estudiantes",
-    "es": "Final de la Libertadores: Palmeiras vs Estudiantes"
+    "pt": "Los Angeles Lakers x Boston Celtics",
+    "en": "Los Angeles Lakers vs Boston Celtics",
+    "es": "Los Angeles Lakers vs Boston Celtics"
    },
    "painel": {
-    "pt": "PALMEIRAS X ESTUDIANTES",
-    "en": "PALMEIRAS VS ESTUDIANTES",
-    "es": "PALMEIRAS VS ESTUDIANTES"
+    "pt": "LAKERS X CELTICS",
+    "en": "LAKERS VS CELTICS",
+    "es": "LAKERS VS CELTICS"
    },
    "competicao": {
-    "nome": "Copa Libertadores",
-    "dock": "/dock/competition/copa-libertadores"
+    "nome": "NBA",
+    "dock": "/search?q=NBA"
    },
    "times": [
     {
-     "nome": {
-      "pt": "Palmeiras",
-      "en": "Palmeiras",
-      "es": "Palmeiras"
-     }
+     "nome": "Los Angeles Lakers"
     },
     {
-     "nome": {
-      "pt": "Estudiantes de La Plata",
-      "en": "Estudiantes de La Plata",
-      "es": "Estudiantes de La Plata"
-     }
+     "nome": "Boston Celtics"
     }
    ],
-   "local": "Estadio Centenario",
+   "local": "Crypto.com Arena",
    "cidade": {
-    "pt": "Montevidéu",
-    "en": "Montevideo",
-    "es": "Montevideo"
+    "pt": "Los Angeles",
+    "en": "Los Angeles",
+    "es": "Los Ángeles"
    },
    "pais": {
-    "pt": "Uruguai",
-    "en": "Uruguay",
-    "es": "Uruguay"
+    "pt": "EUA",
+    "en": "USA",
+    "es": "EE. UU."
    },
    "intro": {
-    "pt": "Palmeiras e Estudiantes decidem a Libertadores em jogo único no Centenário, o estádio da primeira Copa do Mundo.",
-    "en": "Palmeiras and Estudiantes decide the Copa Libertadores in a one-off final at the Centenario, home of the first World Cup.",
-    "es": "Palmeiras y Estudiantes definen la Libertadores a partido único en el Centenario, el estadio del primer Mundial."
+    "pt": "O maior clássico da NBA: Lakers recebem os Celtics na Crypto.com Arena, em Los Angeles.",
+    "en": "The NBA's biggest rivalry: the Lakers host the Celtics at Crypto.com Arena in Los Angeles.",
+    "es": "El gran clásico de la NBA: los Lakers reciben a los Celtics en la Crypto.com Arena de Los Ángeles."
    },
    "chegar": {
     "pt": [
-     "O Centenário fica no Parque Batlle, a uns 15 minutos de táxi do centro de Montevidéu.",
-     "Em final, a segurança separa as torcidas: confira no ingresso qual portão é o seu e chegue com antecedência."
+     "Metrô linhas A e E até a estação Pico, a poucos minutos a pé da arena.",
+     "Os portões costumam abrir uma hora antes do jogo."
     ],
     "en": [
-     "The Centenario sits in Parque Batlle, about 15 minutes by taxi from central Montevideo.",
-     "At a final, security keeps the fans apart: check your gate on the ticket and arrive early."
+     "Metro A and E Lines to Pico station, a few minutes' walk from the arena.",
+     "Doors usually open one hour before tip-off."
     ],
     "es": [
-     "El Centenario está en el Parque Batlle, a unos 15 minutos en taxi del centro de Montevideo.",
-     "En una final, la seguridad separa a las hinchadas: revisa tu puerta en la entrada y llega con tiempo."
+     "Metro líneas A y E hasta la estación Pico, a pocos minutos a pie de la arena.",
+     "Las puertas suelen abrir una hora antes del partido."
     ]
    },
-   "hora": "20:00",
-   "inicio": "2026-11-28T20:00:00-03:00",
-   "conferido": "2026-10-29"
-  },
-  {
-   "slug": "gp-abu-dhabi-f1-2026-12-06",
-   "id": 387903,
-   "data": "2026-12-06",
-   "tipo": "f1",
-   "esporte_tipo": 1003,
-   "img": "01-formula-1.jpg",
-   "titulo": {
-    "pt": "GP de Abu Dhabi de Fórmula 1",
-    "en": "Formula 1 Abu Dhabi Grand Prix",
-    "es": "GP de Abu Dabi de Fórmula 1"
+   "hora": "19:00",
+   "inicio": "2027-01-07T19:00:00-08:00",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.com/los-angeles-lakers-vs-boston-celtics-los-angeles-california-01-07-2027/event/2C00650CC26E0D94"
    },
-   "painel": {
-    "pt": "GP DE ABU DHABI F1",
-    "en": "ABU DHABI GP F1",
-    "es": "GP DE ABU DABI F1"
-   },
-   "competicao": {
-    "nome": "Formula 1",
-    "dock": "/dock/competition/formula-1"
-   },
-   "times": [],
-   "local": "Yas Marina Circuit",
-   "cidade": {
-    "pt": "Abu Dhabi",
-    "en": "Abu Dhabi",
-    "es": "Abu Dabi"
-   },
-   "pais": {
-    "pt": "Emirados Árabes Unidos",
-    "en": "United Arab Emirates",
-    "es": "Emiratos Árabes Unidos"
-   },
-   "intro": {
-    "pt": "A última etapa da temporada de Fórmula 1, com a corrida que começa no fim de tarde e termina sob os refletores de Yas Marina.",
-    "en": "The final round of the Formula 1 season, a race that starts at dusk and finishes under the Yas Marina floodlights.",
-    "es": "La última carrera de la temporada de Fórmula 1, que empieza al atardecer y termina bajo los focos de Yas Marina."
-   },
-   "chegar": {
-    "pt": [
-     "O circuito fica na Ilha Yas, a cerca de 30 minutos de carro do centro de Abu Dhabi.",
-     "No fim de semana da corrida a organização costuma oferecer ônibus. Confira no site oficial do GP."
-    ],
-    "en": [
-     "The circuit is on Yas Island, about 30 minutes by car from central Abu Dhabi.",
-     "Organizers usually run shuttle buses on race weekend. Check the official GP site."
-    ],
-    "es": [
-     "El circuito está en la isla Yas, a unos 30 minutos en coche del centro de Abu Dabi.",
-     "El fin de semana de carrera la organización suele ofrecer autobuses. Consulta la web oficial del GP."
-    ]
-   },
-   "banner": "01-formula-1.jpg",
-   "hora": "14:00",
-   "inicio": "2026-12-06T14:00:00+04:00",
-   "conferido": "2026-10-15"
-  },
-  {
-   "slug": "barcelona-vs-manchester-city-2026-12-08",
-   "id": 402363,
-   "data": "2026-12-08",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "photo-1560272564-c83b66b1ad12",
-   "titulo": {
-    "pt": "FC Barcelona x Manchester City",
-    "en": "FC Barcelona vs Manchester City",
-    "es": "FC Barcelona vs Manchester City"
-   },
-   "painel": {
-    "pt": "BARCELONA X MAN. CITY",
-    "en": "BARCELONA VS MAN. CITY",
-    "es": "BARCELONA VS MAN. CITY"
-   },
-   "competicao": {
-    "nome": "UEFA Champions League"
-   },
-   "times": [
-    {
-     "nome": "FC Barcelona",
-     "dock": "/dock/team/barcelona-fc"
-    },
-    {
-     "nome": "Manchester City"
-    }
-   ],
-   "local": "Camp Nou",
-   "cidade": {
-    "pt": "Barcelona",
-    "en": "Barcelona",
-    "es": "Barcelona",
-    "dock": "/dock/cities/barcelona"
-   },
-   "pais": {
-    "pt": "Espanha",
-    "en": "Spain",
-    "es": "España"
-   },
-   "intro": {
-    "pt": "Noite de Champions League no Camp Nou: o Barcelona recebe o Manchester City.",
-    "en": "Champions League night at Camp Nou: Barcelona host Manchester City.",
-    "es": "Noche de Champions League en el Camp Nou: el Barcelona recibe al Manchester City."
-   },
-   "chegar": {
-    "pt": [
-     "Metrô L3, estações Les Corts e Palau Reial, ou L5, estações Collblanc e Badal.",
-     "Jogos de Champions são à noite em dia útil. Reserve o hotel perto de uma linha de metrô."
-    ],
-    "en": [
-     "Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal.",
-     "Champions League games are on weeknights. Book a hotel near a metro line."
-    ],
-    "es": [
-     "Metro L3, estaciones Les Corts y Palau Reial, o L5, estaciones Collblanc y Badal.",
-     "La Champions se juega entre semana por la noche. Reserva el hotel cerca de una línea de metro."
-    ]
-   },
-   "banner": "06-champions.jpg",
-   "hora": "21:00",
-   "inicio": "2026-12-08T21:00:00+01:00",
-   "conferido": "2026-10-15"
-  },
-  {
-   "slug": "final-supercopa-italia-inter-vs-lazio-2026-12-22",
-   "id": 391307,
-   "data": "2026-12-22",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "05-serie-a.jpg",
-   "banner": "05-serie-a.jpg",
-   "titulo": {
-    "pt": "Final da Supercopa da Itália: Inter x Lazio",
-    "en": "Italian Super Cup Final: Inter vs Lazio",
-    "es": "Final de la Supercopa de Italia: Inter vs Lazio"
-   },
-   "painel": {
-    "pt": "INTER X LAZIO",
-    "en": "INTER VS LAZIO",
-    "es": "INTER VS LAZIO"
-   },
-   "competicao": {
-    "nome": "Supercoppa Italiana"
-   },
-   "times": [
-    {
-     "nome": {
-      "pt": "Inter",
-      "en": "Inter",
-      "es": "Inter"
-     }
-    },
-    {
-     "nome": {
-      "pt": "Lazio",
-      "en": "Lazio",
-      "es": "Lazio"
-     }
-    }
-   ],
-   "local": "San Siro (Giuseppe Meazza)",
-   "cidade": {
-    "pt": "Milão",
-    "en": "Milan",
-    "es": "Milán"
-   },
-   "pais": {
-    "pt": "Itália",
-    "en": "Italy",
-    "es": "Italia"
-   },
-   "intro": {
-    "pt": "Inter e Lazio decidem a Supercopa da Itália no San Siro, em Milão.",
-    "en": "Inter and Lazio meet in the Italian Super Cup final at San Siro in Milan.",
-    "es": "Inter y Lazio definen la Supercopa de Italia en San Siro, en Milán."
-   },
-   "chegar": {
-    "pt": [
-     "Metrô M5 até a estação San Siro Stadio, ao lado do estádio.",
-     "O bonde 16 também chega à praça em frente ao estádio."
-    ],
-    "en": [
-     "Metro M5 to San Siro Stadio station, next to the stadium.",
-     "Tram 16 also stops at the square in front of the stadium."
-    ],
-    "es": [
-     "Metro M5 hasta la estación San Siro Stadio, junto al estadio.",
-     "El tranvía 16 también llega a la plaza frente al estadio."
-    ]
-   },
-   "hora": "21:00",
-   "inicio": "2026-12-22T21:00:00+01:00",
    "conferido": "2026-10-29"
   },
   {
@@ -779,7 +375,7 @@
    },
    "competicao": {
     "nome": "NBA",
-    "dock": "/dock/competition/nba"
+    "dock": "/search?q=NBA"
    },
    "times": [
     {
@@ -827,74 +423,69 @@
    }
   },
   {
-   "slug": "sporting-vs-barcelona-2027-01-20",
-   "id": 402457,
-   "data": "2027-01-20",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "06-champions.jpg",
-   "banner": "06-champions.jpg",
+   "slug": "nba-manchester-pelicans-vs-spurs-2027-01-17",
+   "id": "1AMZkf6GkeJuv4h",
+   "data": "2027-01-17",
+   "tipo": "nba",
+   "esporte_tipo": 1002,
+   "img": "photo-1546519638-68e109498ffc",
    "titulo": {
-    "pt": "Sporting x Barcelona",
-    "en": "Sporting CP vs Barcelona",
-    "es": "Sporting de Portugal vs Barcelona"
+    "pt": "NBA em Manchester: Pelicans x Spurs",
+    "en": "NBA Manchester Game: Pelicans vs Spurs",
+    "es": "NBA en Mánchester: Pelicans vs Spurs"
    },
    "painel": {
-    "pt": "SPORTING X BARCELONA",
-    "en": "SPORTING VS BARCELONA",
-    "es": "SPORTING VS BARCELONA"
+    "pt": "PELICANS X SPURS",
+    "en": "PELICANS VS SPURS",
+    "es": "PELICANS VS SPURS"
    },
    "competicao": {
-    "nome": "UEFA Champions League"
+    "nome": "NBA",
+    "dock": "/search?q=NBA"
    },
    "times": [
     {
-     "nome": {
-      "pt": "Sporting",
-      "en": "Sporting CP",
-      "es": "Sporting de Portugal"
-     }
+     "nome": "New Orleans Pelicans"
     },
     {
-     "nome": {
-      "pt": "Barcelona",
-      "en": "Barcelona",
-      "es": "Barcelona"
-     }
+     "nome": "San Antonio Spurs"
     }
    ],
-   "local": "Estádio José Alvalade",
+   "local": "Co-op Live",
    "cidade": {
-    "pt": "Lisboa",
-    "en": "Lisbon",
-    "es": "Lisboa"
+    "pt": "Manchester",
+    "en": "Manchester",
+    "es": "Mánchester"
    },
    "pais": {
-    "pt": "Portugal",
-    "en": "Portugal",
-    "es": "Portugal"
+    "pt": "Reino Unido",
+    "en": "United Kingdom",
+    "es": "Reino Unido"
    },
    "intro": {
-    "pt": "O Barcelona visita o Sporting em Alvalade, em Lisboa, pela fase de liga da Champions League.",
-    "en": "Barcelona visit Sporting at the Alvalade in Lisbon in the Champions League league phase.",
-    "es": "El Barcelona visita al Sporting en el Alvalade, en Lisboa, en la fase de liga de la Champions League."
+    "pt": "Jogo oficial da temporada regular da NBA na Europa: New Orleans Pelicans x San Antonio Spurs na Co-op Live, em Manchester.",
+    "en": "A regular-season NBA game in Europe: New Orleans Pelicans vs San Antonio Spurs at Co-op Live in Manchester.",
+    "es": "Partido oficial de temporada regular de la NBA en Europa: New Orleans Pelicans vs San Antonio Spurs en el Co-op Live de Mánchester."
    },
    "chegar": {
     "pt": [
-     "Metro de Lisboa, linhas verde ou amarela, até a estação Campo Grande, ao lado do estádio.",
-     "Depois do jogo o metro enche: dá para andar uns minutos até outra estação ou esperar a fila baixar."
+     "Metrolink (bonde) até a parada Etihad Campus, ao lado da arena.",
+     "A arena fica no mesmo complexo do estádio do Manchester City."
     ],
     "en": [
-     "Lisbon Metro, green or yellow line, to Campo Grande station, right next to the stadium.",
-     "The metro fills up after the match: walk a few minutes to another station or wait for the queue to ease."
+     "Metrolink tram to the Etihad Campus stop, next to the arena.",
+     "The arena is on the same campus as Manchester City's stadium."
     ],
     "es": [
-     "Metro de Lisboa, líneas verde o amarilla, hasta la estación Campo Grande, junto al estadio.",
-     "Después del partido el metro se llena: puedes caminar unos minutos hasta otra estación o esperar a que baje la fila."
+     "Tranvía Metrolink hasta la parada Etihad Campus, junto a la arena.",
+     "La arena está en el mismo complejo que el estadio del Manchester City."
     ]
    },
-   "hora": "20:00",
-   "inicio": "2027-01-20T20:00:00+00:00",
+   "hora": "15:30",
+   "inicio": "2027-01-17T15:30:00+00:00",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.co.uk/nba-manchester-game-2027-manchester-17-01-2027/event/37006507A634155B"
+   },
    "conferido": "2026-10-29"
   },
   {
@@ -915,7 +506,8 @@
     "es": "FINAL OPEN AUSTRALIA"
    },
    "competicao": {
-    "nome": "Australian Open (Grand Slam)"
+    "nome": "Australian Open (Grand Slam)",
+    "dock": "/search?q=Australian%20Open"
    },
    "times": [],
    "local": "Rod Laver Arena",
@@ -956,234 +548,21 @@
    }
   },
   {
-   "slug": "supercopa-espanha-barcelona-vs-atletico-2027-02-02",
-   "id": 391305,
-   "data": "2027-02-02",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "04-la-liga.jpg",
-   "banner": "04-la-liga.jpg",
-   "titulo": {
-    "pt": "Supercopa da Espanha: Barcelona x Atlético de Madrid",
-    "en": "Spanish Super Cup: Barcelona vs Atlético Madrid",
-    "es": "Supercopa de España: Barcelona vs Atlético de Madrid"
-   },
-   "painel": {
-    "pt": "BARÇA X ATLÉTICO",
-    "en": "BARÇA VS ATLÉTICO",
-    "es": "BARÇA VS ATLÉTICO"
-   },
-   "competicao": {
-    "nome": "Supercopa de España"
-   },
-   "times": [
-    {
-     "nome": {
-      "pt": "Barcelona",
-      "en": "Barcelona",
-      "es": "Barcelona"
-     }
-    },
-    {
-     "nome": {
-      "pt": "Atlético de Madrid",
-      "en": "Atlético Madrid",
-      "es": "Atlético de Madrid"
-     }
-    }
-   ],
-   "local": "Estádio Şükrü Saracoğlu (Fenerbahçe)",
-   "cidade": {
-    "pt": "Istambul",
-    "en": "Istanbul",
-    "es": "Estambul"
-   },
-   "pais": {
-    "pt": "Turquia",
-    "en": "Turkey",
-    "es": "Turquía"
-   },
-   "intro": {
-    "pt": "Barcelona e Atlético de Madrid fazem a semifinal da Supercopa da Espanha em Istambul, no estádio do Fenerbahçe.",
-    "en": "Barcelona and Atlético Madrid meet in the Spanish Super Cup semi-final in Istanbul, at Fenerbahçe's stadium.",
-    "es": "Barcelona y Atlético de Madrid juegan la semifinal de la Supercopa de España en Estambul, en el estadio del Fenerbahçe."
-   },
-   "chegar": {
-    "pt": [
-     "O estádio fica em Kadıköy, no lado asiático: pegue a balsa de Eminönü ou Karaköy até Kadıköy e caminhe uns 15 minutos.",
-     "O Marmaray também chega: desça em Söğütlüçeşme, a poucos minutos a pé."
-    ],
-    "en": [
-     "The stadium is in Kadıköy on the Asian side: take the ferry from Eminönü or Karaköy to Kadıköy and walk about 15 minutes.",
-     "The Marmaray line also works: get off at Söğütlüçeşme, a few minutes' walk away."
-    ],
-    "es": [
-     "El estadio está en Kadıköy, en el lado asiático: toma el ferry desde Eminönü o Karaköy hasta Kadıköy y camina unos 15 minutos.",
-     "El Marmaray también llega: bájate en Söğütlüçeşme, a pocos minutos a pie."
-    ]
-   },
-   "hora": "22:00",
-   "inicio": "2027-02-02T22:00:00+03:00",
-   "conferido": "2026-10-29"
-  },
-  {
-   "slug": "irlanda-vs-inglaterra-six-nations-2027-02-05",
-   "id": 388439,
-   "data": "2027-02-05",
-   "tipo": "rugby",
-   "esporte_tipo": 1020,
-   "img": "08-six-nations.jpg",
-   "banner": "08-six-nations.jpg",
-   "titulo": {
-    "pt": "Irlanda x Inglaterra (Six Nations)",
-    "en": "Ireland vs England (Six Nations)",
-    "es": "Irlanda vs Inglaterra (Seis Naciones)"
-   },
-   "painel": {
-    "pt": "IRLANDA X INGLATERRA",
-    "en": "IRELAND VS ENGLAND",
-    "es": "IRLANDA VS INGLATERRA"
-   },
-   "competicao": {
-    "nome": "Six Nations"
-   },
-   "times": [
-    {
-     "nome": {
-      "pt": "Irlanda",
-      "en": "Ireland",
-      "es": "Irlanda"
-     }
-    },
-    {
-     "nome": {
-      "pt": "Inglaterra",
-      "en": "England",
-      "es": "Inglaterra"
-     }
-    }
-   ],
-   "local": "Aviva Stadium",
-   "cidade": {
-    "pt": "Dublin",
-    "en": "Dublin",
-    "es": "Dublín"
-   },
-   "pais": {
-    "pt": "Irlanda",
-    "en": "Ireland",
-    "es": "Irlanda"
-   },
-   "intro": {
-    "pt": "Irlanda e Inglaterra abrem a rodada do Six Nations no Aviva Stadium, em Dublin.",
-    "en": "Ireland host England in the Six Nations at the Aviva Stadium in Dublin.",
-    "es": "Irlanda recibe a Inglaterra en el Seis Naciones, en el Aviva Stadium de Dublín."
-   },
-   "chegar": {
-    "pt": [
-     "Trem DART até Lansdowne Road, ao lado do estádio.",
-     "Do centro de Dublin também dá para ir a pé, em uns 30 minutos."
-    ],
-    "en": [
-     "DART train to Lansdowne Road, right by the stadium.",
-     "From central Dublin it is also about a 30-minute walk."
-    ],
-    "es": [
-     "Tren DART hasta Lansdowne Road, junto al estadio.",
-     "Desde el centro de Dublín también se puede ir caminando, unos 30 minutos."
-    ]
-   },
-   "hora": "20:10",
-   "inicio": "2027-02-05T20:10:00+00:00",
-   "conferido": "2026-10-29"
-  },
-  {
-   "slug": "franca-vs-pais-de-gales-six-nations-2027-02-06",
-   "id": 388441,
-   "data": "2027-02-06",
-   "tipo": "rugby",
-   "esporte_tipo": 1020,
-   "img": "08-six-nations.jpg",
-   "banner": "08-six-nations.jpg",
-   "titulo": {
-    "pt": "França x País de Gales (Six Nations)",
-    "en": "France vs Wales (Six Nations)",
-    "es": "Francia vs Gales (Seis Naciones)"
-   },
-   "painel": {
-    "pt": "FRANÇA X GALES",
-    "en": "FRANCE VS WALES",
-    "es": "FRANCIA VS GALES"
-   },
-   "competicao": {
-    "nome": "Six Nations"
-   },
-   "times": [
-    {
-     "nome": {
-      "pt": "França",
-      "en": "France",
-      "es": "Francia"
-     }
-    },
-    {
-     "nome": {
-      "pt": "País de Gales",
-      "en": "Wales",
-      "es": "Gales"
-     }
-    }
-   ],
-   "local": "Stade de France",
-   "cidade": {
-    "pt": "Paris",
-    "en": "Paris",
-    "es": "París"
-   },
-   "pais": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
-   },
-   "intro": {
-    "pt": "A França recebe o País de Gales no Stade de France, pelo Six Nations.",
-    "en": "France host Wales at the Stade de France in the Six Nations.",
-    "es": "Francia recibe a Gales en el Stade de France, por el Seis Naciones."
-   },
-   "chegar": {
-    "pt": [
-     "RER D até Stade de France–Saint-Denis ou RER B até La Plaine–Stade de France.",
-     "Metrô linha 13, estação Saint-Denis–Porte de Paris, a poucos minutos a pé."
-    ],
-    "en": [
-     "RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.",
-     "Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away."
-    ],
-    "es": [
-     "RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.",
-     "Metro línea 13, estación Saint-Denis–Porte de Paris, a pocos minutos a pie."
-    ]
-   },
-   "hora": "16:40",
-   "inicio": "2027-02-06T16:40:00+01:00",
-   "conferido": "2026-10-29"
-  },
-  {
-   "slug": "celine-dion-paris-2027-05-14",
-   "id": 391312,
-   "data": "2027-05-14",
+   "slug": "foo-fighters-sao-paulo-2027-02-20",
+   "id": "ZFIMVHtnMZ17Fzb7",
+   "data": "2027-02-20",
    "tipo": "concert",
    "esporte_tipo": 0,
-   "img": "sports.jpg",
+   "img": "11-concerts.jpg",
    "titulo": {
-    "pt": "Celine Dion em Paris",
-    "en": "Celine Dion in Paris",
-    "es": "Celine Dion en París"
+    "pt": "Foo Fighters em São Paulo",
+    "en": "Foo Fighters in São Paulo",
+    "es": "Foo Fighters en São Paulo"
    },
    "painel": {
-    "pt": "CELINE DION · PARIS",
-    "en": "CELINE DION · PARIS",
-    "es": "CELINE DION · PARÍS"
+    "pt": "FOO FIGHTERS · SÃO PAULO",
+    "en": "FOO FIGHTERS · SÃO PAULO",
+    "es": "FOO FIGHTERS · SÃO PAULO"
    },
    "competicao": {
     "nome": {
@@ -1191,105 +570,183 @@
      "en": "Concerts",
      "es": "Conciertos"
     },
-    "dock": "/concerts"
+    "dock": "/discover/concerts"
    },
    "artista": {
-    "nome": "Celine Dion",
-    "dock": "/dock/music/celine-dion"
+    "nome": "Foo Fighters",
+    "dock": "/search?q=Foo%20Fighters"
    },
    "times": [],
-   "local": "Paris La Défense Arena",
+   "local": "MorumBis",
    "cidade": {
-    "pt": "Paris",
-    "en": "Paris",
-    "es": "París",
-    "dock": "/dock/cities/paris"
+    "pt": "São Paulo",
+    "en": "São Paulo",
+    "es": "São Paulo"
    },
    "pais": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
+    "pt": "Brasil",
+    "en": "Brazil",
+    "es": "Brasil"
    },
    "intro": {
-    "pt": "Celine Dion se apresenta na Paris La Défense Arena. Há também uma data no dia seguinte, 15 de maio, no catálogo do parceiro.",
-    "en": "Celine Dion performs at Paris La Défense Arena. The partner also lists a second date the next day, May 15.",
-    "es": "Celine Dion actúa en el Paris La Défense Arena. El socio también ofrece una segunda fecha al día siguiente, el 15 de mayo."
+    "pt": "Foo Fighters traz a turnê Take Cover ao MorumBis, em São Paulo. A banda também toca na Arena MRV, em Belo Horizonte, em 18 de fevereiro.",
+    "en": "Foo Fighters bring the Take Cover Tour to MorumBis in São Paulo. The band also plays Arena MRV in Belo Horizonte on February 18.",
+    "es": "Foo Fighters lleva el Take Cover Tour al MorumBis de São Paulo. La banda también toca en el Arena MRV de Belo Horizonte el 18 de febrero."
    },
    "chegar": {
     "pt": [
-     "RER A, metrô linha 1 ou bonde T2 até La Défense–Grande Arche.",
-     "A arena fica a cerca de 10 minutos a pé da estação."
+     "A estação São Paulo–Morumbi, da Linha 4-Amarela do metrô, é a mais próxima; de lá ainda há uma caminhada até o estádio.",
+     "Na saída o metrô e os aplicativos lotam: planeje a volta antes."
     ],
     "en": [
-     "RER A, metro line 1 or tram T2 to La Défense–Grande Arche.",
-     "The arena is about a 10-minute walk from the station."
+     "São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium.",
+     "Trains and ride apps are packed after the show: plan your way back in advance."
     ],
     "es": [
-     "RER A, metro línea 1 o tranvía T2 hasta La Défense–Grande Arche.",
-     "La arena está a unos 10 minutos a pie de la estación."
+     "La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.",
+     "A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes."
     ]
    },
-   "banner": "11-concerts.jpg",
-   "hora": "19:30",
-   "inicio": "2027-05-14T19:30:00+02:00",
-   "conferido": "2026-10-15"
+   "hora": "20:00",
+   "inicio": "2027-02-20T20:00:00-03:00",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.com.br/event/venda-geral-foo-fighters-sao-paulo"
+   },
+   "conferido": "2026-10-29"
   },
   {
-   "slug": "final-champions-league-2027-06-05",
-   "id": 399236,
-   "data": "2027-06-05",
-   "tipo": "football",
-   "esporte_tipo": 1000,
-   "img": "photo-1574629810360-7efbbe195018",
+   "slug": "u2-cidade-do-mexico-2027-02-23",
+   "id": "1AfZk4aGkeysi-T",
+   "data": "2027-02-23",
+   "tipo": "concert",
+   "esporte_tipo": 0,
+   "img": "11-concerts.jpg",
    "titulo": {
-    "pt": "Final da Champions League 2027",
-    "en": "2027 Champions League Final",
-    "es": "Final de la Champions League 2027"
+    "pt": "U2 na Cidade do México",
+    "en": "U2 in Mexico City",
+    "es": "U2 en la Ciudad de México"
    },
    "painel": {
-    "pt": "FINAL DA CHAMPIONS",
-    "en": "CHAMPIONS LEAGUE FINAL",
-    "es": "FINAL DE LA CHAMPIONS"
+    "pt": "U2 · CIDADE DO MÉXICO",
+    "en": "U2 · MEXICO CITY",
+    "es": "U2 · CDMX"
    },
    "competicao": {
-    "nome": "UEFA Champions League"
+    "nome": {
+     "pt": "Shows",
+     "en": "Concerts",
+     "es": "Conciertos"
+    },
+    "dock": "/discover/concerts"
+   },
+   "artista": {
+    "nome": "U2",
+    "dock": "/search?q=U2"
    },
    "times": [],
-   "local": "Estadio Metropolitano",
+   "local": "Estadio GNP Seguros",
    "cidade": {
-    "pt": "Madri",
-    "en": "Madrid",
-    "es": "Madrid",
-    "dock": "/dock/cities/madrid"
+    "pt": "Cidade do México",
+    "en": "Mexico City",
+    "es": "Ciudad de México"
    },
    "pais": {
-    "pt": "Espanha",
-    "en": "Spain",
-    "es": "España"
+    "pt": "México",
+    "en": "Mexico",
+    "es": "México"
    },
    "intro": {
-    "pt": "A final da Champions League de 2027 será no Estadio Metropolitano, em Madri. Os finalistas ainda não estão definidos.",
-    "en": "The 2027 Champions League final is at the Estadio Metropolitano in Madrid. The finalists are not decided yet.",
-    "es": "La final de la Champions League 2027 será en el Estadio Metropolitano de Madrid. Los finalistas aún no están definidos."
+    "pt": "U2 abre a temporada mexicana da turnê The Greatest Show On Earth no Estadio GNP Seguros. Há outras datas em 26 e 28 de fevereiro e 2 de março.",
+    "en": "U2 open the Mexico City run of The Greatest Show On Earth tour at Estadio GNP Seguros. More dates follow on February 26 and 28 and March 2.",
+    "es": "U2 abre su temporada en la CDMX de la gira The Greatest Show On Earth en el Estadio GNP Seguros. Hay más fechas el 26 y 28 de febrero y el 2 de marzo."
    },
    "chegar": {
     "pt": [
-     "Metrô linha 7 até a estação Estadio Metropolitano, em frente ao estádio.",
-     "Em finais, chegue duas horas antes. A revista e as filas são longas."
+     "Metrô Linha 9 até a estação Ciudad Deportiva, ao lado do estádio.",
+     "Na saída o metrô lota: tenha um plano B de volta."
     ],
     "en": [
-     "Metro line 7 to Estadio Metropolitano station, right outside the stadium.",
-     "Arrive two hours early for a final. Security and queues are long."
+     "Metro Line 9 to Ciudad Deportiva station, next to the stadium.",
+     "The metro is packed after the show: have a plan B for getting back."
     ],
     "es": [
-     "Metro línea 7 hasta la estación Estadio Metropolitano, frente al estadio.",
-     "En una final, llega dos horas antes. Los controles y las colas son largos."
+     "Metro Línea 9 hasta la estación Ciudad Deportiva, junto al estadio.",
+     "A la salida el metro se llena: ten un plan B para volver."
     ]
    },
-   "banner": "13-conference.jpg",
    "hora": "21:00",
-   "inicio": "2027-06-05T21:00:00+02:00",
-   "conferido": "2026-10-15"
+   "inicio": "2027-02-23T21:00:00-06:00",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F"
+   },
+   "conferido": "2026-10-29"
+  },
+  {
+   "slug": "u2-sao-paulo-2027-03-10",
+   "id": "ZFIMVHtnMZ17a4r3",
+   "data": "2027-03-10",
+   "tipo": "concert",
+   "esporte_tipo": 0,
+   "img": "11-concerts.jpg",
+   "titulo": {
+    "pt": "U2 em São Paulo",
+    "en": "U2 in São Paulo",
+    "es": "U2 en São Paulo"
+   },
+   "painel": {
+    "pt": "U2 · SÃO PAULO",
+    "en": "U2 · SÃO PAULO",
+    "es": "U2 · SÃO PAULO"
+   },
+   "competicao": {
+    "nome": {
+     "pt": "Shows",
+     "en": "Concerts",
+     "es": "Conciertos"
+    },
+    "dock": "/discover/concerts"
+   },
+   "artista": {
+    "nome": "U2",
+    "dock": "/search?q=U2"
+   },
+   "times": [],
+   "local": "MorumBis",
+   "cidade": {
+    "pt": "São Paulo",
+    "en": "São Paulo",
+    "es": "São Paulo"
+   },
+   "pais": {
+    "pt": "Brasil",
+    "en": "Brazil",
+    "es": "Brasil"
+   },
+   "intro": {
+    "pt": "U2 volta ao Brasil com a turnê The Greatest Show On Earth no MorumBis. Há uma segunda data em 12 de março.",
+    "en": "U2 return to Brazil with The Greatest Show On Earth tour at MorumBis. A second date follows on March 12.",
+    "es": "U2 vuelve a Brasil con la gira The Greatest Show On Earth en el MorumBis. Hay una segunda fecha el 12 de marzo."
+   },
+   "chegar": {
+    "pt": [
+     "A estação São Paulo–Morumbi, da Linha 4-Amarela do metrô, é a mais próxima; de lá ainda há uma caminhada até o estádio.",
+     "Na saída o metrô e os aplicativos lotam: planeje a volta antes."
+    ],
+    "en": [
+     "São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium.",
+     "Trains and ride apps are packed after the show: plan your way back in advance."
+    ],
+    "es": [
+     "La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.",
+     "A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes."
+    ]
+   },
+   "hora": "21:00",
+   "inicio": "2027-03-10T21:00:00-03:00",
+   "links": {
+    "ticketmaster": "https://www.ticketmaster.com.br/event/u2"
+   },
+   "conferido": "2026-10-29"
   }
  ]
 }

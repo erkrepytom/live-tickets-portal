@@ -115,10 +115,18 @@ LOCAIS = {
  "Rod Laver Arena": {"rua": "Olympic Blvd, Melbourne Park", "cep": "3001", "cidade": "Melbourne", "regiao": "VIC", "geo": (-37.8216, 144.9785)},
  "Paris La Défense Arena": {"rua": "99 Jardin de l'Arche", "cep": "92000", "cidade": "Nanterre", "regiao": "Île-de-France", "geo": (48.8957, 2.2297)},
  "Estadio Metropolitano": {"rua": "Av. de Luis Aragonés, 4", "cep": "28022", "cidade": "Madrid", "regiao": "Comunidad de Madrid", "geo": (40.4362, -3.5995)},
+ # Endereços e coordenadas abaixo vêm da Discovery API da Ticketmaster (conferidos em 29/10/2026).
+ "Aviva Stadium": {"rua": "Lansdowne Road", "cep": "", "cidade": "Dublin", "regiao": "Dublin", "geo": (53.3352, -6.2285)},
+ "Estadio BBVA": {"rua": "Av. Pablo Livas 2011", "cep": "67140", "cidade": "Guadalupe", "regiao": "Nuevo León", "geo": (25.6692, -100.2444)},
+ "Crypto.com Arena": {"rua": "1111 S. Figueroa St", "cep": "90015", "cidade": "Los Angeles", "regiao": "CA", "geo": (34.0430, -118.2673)},
+ "Co-op Live": {"rua": "1 Sports City Way", "cep": "M11 3DU", "cidade": "Manchester", "regiao": "England", "geo": (53.4866, -2.1996)},
+ "MorumBis": {"rua": "Praça Roberto Gomes Pedrosa, 1", "cep": "05653-070", "cidade": "São Paulo", "regiao": "SP", "geo": (-23.6003, -46.7211)},
+ "Estadio GNP Seguros": {"rua": "Viaducto Piedad y Río Churubusco s/n, Ciudad Deportiva", "cep": "08400", "cidade": "Ciudad de México", "regiao": "CDMX", "geo": (19.4052, -99.0956)},
 }
 # País (nome em inglês do campo "pais") → código ISO 3166-1, o formato que o Google prefere.
 PAIS_ISO = {"Spain": "ES", "Italy": "IT", "France": "FR", "United Arab Emirates": "AE", "USA": "US", "United States": "US",
-            "Australia": "AU", "United Kingdom": "GB", "Germany": "DE", "Netherlands": "NL", "Portugal": "PT", "Brazil": "BR"}
+            "Australia": "AU", "United Kingdom": "GB", "Germany": "DE", "Netherlands": "NL", "Portugal": "PT", "Brazil": "BR",
+            "Ireland": "IE", "Mexico": "MX"}
 FOTO_TOPO = "hero.jpg"  # imagens locais ficam em assets/img (banners do portal anterior)
 
 T = {
@@ -242,9 +250,9 @@ DICAS = {
  "football": {"pt": ["Setores laterais dão a melhor visão do campo inteiro.", "Setores altos costumam ter o menor preço.", "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."],
               "en": ["Side sections give the best view of the whole pitch.", "Upper tiers are usually the cheapest.", "For a group, buy all seats in one order so you sit together."],
               "es": ["Los laterales dan la mejor vista de todo el campo.", "Los sectores altos suelen ser los más baratos.", "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."]},
- "rugby": {"pt": ["Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.", "Leve casaco: as noites de novembro em Paris são frias.", "Em grupo, compre os lugares no mesmo pedido."],
-           "en": ["Side seats near halfway show the play best.", "Bring a coat: November nights in Paris are cold.", "For a group, buy all seats in one order."],
-           "es": ["Los asientos laterales cerca de la mitad muestran mejor el juego.", "Lleva abrigo: las noches de noviembre en París son frías.", "En grupo, compra todos los asientos en el mismo pedido."]},
+ "rugby": {"pt": ["Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.", "Leve casaco: jogos de novembro a março costumam ser frios.", "Em grupo, compre os lugares no mesmo pedido."],
+           "en": ["Side seats near halfway show the play best.", "Bring a coat: games from November to March are usually cold.", "For a group, buy all seats in one order."],
+           "es": ["Los asientos laterales cerca de la mitad muestran mejor el juego.", "Lleva abrigo: los partidos de noviembre a marzo suelen ser fríos.", "En grupo, compra todos los asientos en el mismo pedido."]},
  "f1": {"pt": ["Arquibancadas perto de curvas lentas mostram mais ultrapassagens.", "Confira se o ingresso vale para um dia ou para o fim de semana inteiro.", "Leve protetor auricular."],
         "en": ["Grandstands near slow corners show more overtakes.", "Check whether the ticket covers one day or the whole weekend.", "Bring ear protection."],
         "es": ["Las tribunas cerca de curvas lentas muestran más adelantamientos.", "Comprueba si la entrada vale para un día o para todo el fin de semana.", "Lleva protección para los oídos."]},
@@ -985,7 +993,8 @@ def faixa_vitrine(lang, pagina, id_, estilo="", dentro=False, eventos=()):
 
 
 IATA = {"Barcelona": "BCN", "Milan": "MXP", "Paris": "CDG", "Madrid": "MAD", "New York": "JFK",
-        "Melbourne": "MEL", "Abu Dhabi": "AUH", "London": "LHR", "Rome": "FCO"}
+        "Melbourne": "MEL", "Abu Dhabi": "AUH", "London": "LHR", "Rome": "FCO", "Los Angeles": "LAX", "São Paulo": "GRU",
+        "Mexico City": "MEX", "Monterrey": "MTY", "Dublin": "DUB", "Manchester": "MAN"}
 
 
 def rota_evento(ev, origem="GRU"):
@@ -1532,8 +1541,16 @@ def home(lang, eventos, noticias, hubs):
     solar_css = (RAIZ / "assets" / "solar-banner.css").read_text(encoding="utf-8")
     h = cabeca(lang, pagina, t["brand_title"], t["home_desc"], alternos, preload(FOTO_TOPO, 1800, pagina) + f"<style>\n{solar_css}</style>")
     clas = eventos[0]
-    passes = [("GRU → BCN", eventos[0], 0.9, -6, "left:0;top:2%"), ("MEX → JFK", next(x for x in eventos if x["tipo"] == "nba"), 1.4, 5, "left:44%;top:40%"),
-              ("EZE → MEL", next(x for x in eventos if x["tipo"] == "tennis"), 0.6, 3, "left:4%;top:60%"), ("LIS → MAD", eventos[-1], 1.1, -3, "left:50%;top:-4%")]
+    def rota(origem, ev):
+        """Rota do cartão de embarque: aeroporto de origem → aeroporto da cidade do evento."""
+        destino = IATA.get(L(ev["cidade"], "en"), L(ev["cidade"], "en")[:3].upper())
+        if destino == origem:
+            origem = "LIS" if origem != "LIS" else "MAD"
+        return f"{origem} → {destino}"
+    pass_ev = [(o, x) for o, x in [("GRU", eventos[0]), ("MEX", next(x for x in eventos if x["tipo"] == "nba")),
+                                    ("EZE", next(x for x in eventos if x["tipo"] == "tennis")), ("LIS", eventos[-1])]]
+    passes = [(rota(o, x), x, d, r, pos) for (o, x), (d, r, pos) in
+              zip(pass_ev, [(0.9, -6, "left:0;top:2%"), (1.4, 5, "left:44%;top:40%"), (0.6, 3, "left:4%;top:60%"), (1.1, -3, "left:50%;top:-4%")])]
     passes_html = "".join(
         f'<a class="pass" data-i="{i+1}" data-depth="{d}" data-rot="{r}" style="{pos}" href="{rel(pagina, caminho_evento(lang, ev["slug"]))}" tabindex="-1">'
         f'<span class="pass-top"><span>{rota[:3]}</span><span>{t["gate"]} {7 + i * 3}</span></span>'

@@ -48,13 +48,13 @@ def local_curto(local):
 ENTRADA = {
  "football": {
   "pt": ["Leve passaporte ou documento com foto. Ingressos de revenda às vezes saem no nome de outra pessoa, e o parceiro explica por e-mail o que apresentar.",
-         "Mochilas e bolsas grandes costumam ser barradas em estádios europeus. Leve só o essencial numa bolsa pequena.",
+         "Mochilas e bolsas grandes costumam ser barradas em grandes estádios. Leve só o essencial numa bolsa pequena.",
          "Garrafas, sinalizadores e objetos cortantes são proibidos. A revista na entrada pode ser demorada em jogos grandes."],
   "en": ["Bring your passport or a photo ID. Resale tickets sometimes carry another person's name, and the partner explains by email what to show.",
-         "Backpacks and large bags are often refused at European stadiums. Carry only the essentials in a small bag.",
+         "Backpacks and large bags are often refused at big stadiums. Carry only the essentials in a small bag.",
          "Bottles, flares and sharp objects are banned. Security checks can be slow at big matches."],
   "es": ["Lleva pasaporte o documento con foto. Las entradas de reventa a veces llevan el nombre de otra persona, y el socio explica por correo qué presentar.",
-         "Las mochilas y bolsos grandes suelen rechazarse en estadios europeos. Lleva solo lo esencial en un bolso pequeño.",
+         "Las mochilas y bolsos grandes suelen rechazarse en los grandes estadios. Lleva solo lo esencial en un bolso pequeño.",
          "Botellas, bengalas y objetos cortantes están prohibidos. El control de acceso puede tardar en partidos grandes."]},
  "rugby": {
   "pt": ["Leve passaporte ou documento com foto, além do ingresso no formato que o parceiro enviar.",

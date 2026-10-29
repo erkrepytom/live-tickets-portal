@@ -8,30 +8,6 @@
   <author><name>MyTickets Tours</name><email>email@mytickets.tours</email></author>
   <icon>https://mytickets.tours/assets/icons/icon-192.png</icon>
   <entry>
-    <title>Ingressos AC Milan x Inter 2026: onde comprar + guia do San Siro</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/"/>
-    <id>https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>O Derby della Madonnina, clássico de Milão, pela Serie A. Os dois times dividem o San Siro, e a cidade para no dia do jogo.</summary>
-    <category term="football"/>
-  </entry>
-  <entry>
-    <title>Ingressos Arsenal x Hull City 2026 | Emirates Stadium</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/arsenal-vs-hull-city-2026-11-07/"/>
-    <id>https://mytickets.tours/eventos/arsenal-vs-hull-city-2026-11-07/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>O Arsenal recebe o Hull City no Emirates, em Londres, pela Premier League.</summary>
-    <category term="football"/>
-  </entry>
-  <entry>
-    <title>Ingressos Itália x França 2026: onde comprar + guia do San Siro</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/italia-vs-franca-2026-11-12/"/>
-    <id>https://mytickets.tours/eventos/italia-vs-franca-2026-11-12/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>Duas seleções campeãs do mundo se enfrentam no San Siro, pela Liga das Nações da UEFA.</summary>
-    <category term="football"/>
-  </entry>
-  <entry>
     <title>Ingressos Inglaterra x Croácia 2026 | Wembley Stadium</title>
     <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/inglaterra-vs-croacia-2026-11-12/"/>
     <id>https://mytickets.tours/eventos/inglaterra-vs-croacia-2026-11-12/</id>
@@ -40,52 +16,28 @@
     <category term="football"/>
   </entry>
   <entry>
-    <title>Ingressos França x África do Sul 2026 | Stade de France</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/"/>
-    <id>https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/</id>
+    <title>Ingressos México x Jamaica 2026 | Estadio BBVA</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/"/>
+    <id>https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/</id>
     <updated>2026-10-29T00:00:00Z</updated>
-    <summary>Rúgbi de seleções no Stade de France: a França recebe a África do Sul pelo World Rugby Nations Championship.</summary>
+    <summary>A seleção mexicana recebe a Jamaica no Estadio BBVA, em Guadalupe, na região de Monterrey, pela CONCACAF Nations League.</summary>
+    <category term="football"/>
+  </entry>
+  <entry>
+    <title>Ingressos Irlanda x África do Sul 2026 | Aviva Stadium</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/"/>
+    <id>https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/</id>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <summary>Irlanda recebe a África do Sul no Aviva Stadium, em Dublin, pelo Nations Championship 2026.</summary>
     <category term="rugby"/>
   </entry>
   <entry>
-    <title>Ingressos Final da Sul-Americana: Atlético-MG x Boca Juniors 2026</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/"/>
-    <id>https://mytickets.tours/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/</id>
+    <title>Ingressos Los Angeles Lakers x Boston Celtics 2027</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/lakers-vs-celtics-2027-01-07/"/>
+    <id>https://mytickets.tours/eventos/lakers-vs-celtics-2027-01-07/</id>
     <updated>2026-10-29T00:00:00Z</updated>
-    <summary>Galo e Boca decidem a Copa Sul-Americana em jogo único, em campo neutro em Barranquilla, na Colômbia.</summary>
-    <category term="football"/>
-  </entry>
-  <entry>
-    <title>Ingressos Final da Libertadores: Palmeiras x Estudiantes 2026</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/"/>
-    <id>https://mytickets.tours/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>Palmeiras e Estudiantes decidem a Libertadores em jogo único no Centenário, o estádio da primeira Copa do Mundo.</summary>
-    <category term="football"/>
-  </entry>
-  <entry>
-    <title>Ingressos GP de Abu Dhabi de Fórmula 1 2026 | Yas Marina Circuit</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/gp-abu-dhabi-f1-2026-12-06/"/>
-    <id>https://mytickets.tours/eventos/gp-abu-dhabi-f1-2026-12-06/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>A última etapa da temporada de Fórmula 1, com a corrida que começa no fim de tarde e termina sob os refletores de Yas Marina.</summary>
-    <category term="f1"/>
-  </entry>
-  <entry>
-    <title>Ingressos FC Barcelona x Manchester City 2026 | Camp Nou</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/barcelona-vs-manchester-city-2026-12-08/"/>
-    <id>https://mytickets.tours/eventos/barcelona-vs-manchester-city-2026-12-08/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>Noite de Champions League no Camp Nou: o Barcelona recebe o Manchester City.</summary>
-    <category term="football"/>
-  </entry>
-  <entry>
-    <title>Ingressos Final da Supercopa da Itália: Inter x Lazio 2026</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/"/>
-    <id>https://mytickets.tours/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>Inter e Lazio decidem a Supercopa da Itália no San Siro, em Milão.</summary>
-    <category term="football"/>
+    <summary>O maior clássico da NBA: Lakers recebem os Celtics na Crypto.com Arena, em Los Angeles.</summary>
+    <category term="nba"/>
   </entry>
   <entry>
     <title>Ingressos New York Knicks x Denver Nuggets 2027</title>
@@ -96,12 +48,12 @@
     <category term="nba"/>
   </entry>
   <entry>
-    <title>Ingressos Sporting x Barcelona 2027 | Estádio José Alvalade</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/sporting-vs-barcelona-2027-01-20/"/>
-    <id>https://mytickets.tours/eventos/sporting-vs-barcelona-2027-01-20/</id>
+    <title>Ingressos NBA em Manchester: Pelicans x Spurs 2027 | Co-op Live</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/"/>
+    <id>https://mytickets.tours/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/</id>
     <updated>2026-10-29T00:00:00Z</updated>
-    <summary>O Barcelona visita o Sporting em Alvalade, em Lisboa, pela fase de liga da Champions League.</summary>
-    <category term="football"/>
+    <summary>Jogo oficial da temporada regular da NBA na Europa: New Orleans Pelicans x San Antonio Spurs na Co-op Live, em Manchester.</summary>
+    <category term="nba"/>
   </entry>
   <entry>
     <title>Ingressos Final masculina do Australian Open 2027</title>
@@ -112,43 +64,27 @@
     <category term="tennis"/>
   </entry>
   <entry>
-    <title>Ingressos Supercopa da Espanha: Barcelona x Atlético de Madrid</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/"/>
-    <id>https://mytickets.tours/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/</id>
+    <title>Ingressos Foo Fighters em São Paulo 2027 | MorumBis</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/foo-fighters-sao-paulo-2027-02-20/"/>
+    <id>https://mytickets.tours/eventos/foo-fighters-sao-paulo-2027-02-20/</id>
     <updated>2026-10-29T00:00:00Z</updated>
-    <summary>Barcelona e Atlético de Madrid fazem a semifinal da Supercopa da Espanha em Istambul, no estádio do Fenerbahçe.</summary>
-    <category term="football"/>
-  </entry>
-  <entry>
-    <title>Ingressos Irlanda x Inglaterra (Six Nations) 2027 | Aviva Stadium</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/"/>
-    <id>https://mytickets.tours/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>Irlanda e Inglaterra abrem a rodada do Six Nations no Aviva Stadium, em Dublin.</summary>
-    <category term="rugby"/>
-  </entry>
-  <entry>
-    <title>Ingressos França x País de Gales (Six Nations) 2027</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/"/>
-    <id>https://mytickets.tours/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>A França recebe o País de Gales no Stade de France, pelo Six Nations.</summary>
-    <category term="rugby"/>
-  </entry>
-  <entry>
-    <title>Ingressos Celine Dion em Paris 2027 | Paris La Défense Arena</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/celine-dion-paris-2027-05-14/"/>
-    <id>https://mytickets.tours/eventos/celine-dion-paris-2027-05-14/</id>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <summary>Celine Dion se apresenta na Paris La Défense Arena. Há também uma data no dia seguinte, 15 de maio, no catálogo do parceiro.</summary>
+    <summary>Foo Fighters traz a turnê Take Cover ao MorumBis, em São Paulo. A banda também toca na Arena MRV, em Belo Horizonte, em 18 de fevereiro.</summary>
     <category term="concert"/>
   </entry>
   <entry>
-    <title>Ingressos Final da Champions League 2027 | Estadio Metropolitano</title>
-    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/final-champions-league-2027-06-05/"/>
-    <id>https://mytickets.tours/eventos/final-champions-league-2027-06-05/</id>
+    <title>Ingressos U2 na Cidade do México 2027 | Estadio GNP Seguros</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/u2-cidade-do-mexico-2027-02-23/"/>
+    <id>https://mytickets.tours/eventos/u2-cidade-do-mexico-2027-02-23/</id>
     <updated>2026-10-29T00:00:00Z</updated>
-    <summary>A final da Champions League de 2027 será no Estadio Metropolitano, em Madri. Os finalistas ainda não estão definidos.</summary>
-    <category term="football"/>
+    <summary>U2 abre a temporada mexicana da turnê The Greatest Show On Earth no Estadio GNP Seguros. Há outras datas em 26 e 28 de fevereiro e 2 de março.</summary>
+    <category term="concert"/>
+  </entry>
+  <entry>
+    <title>Ingressos U2 em São Paulo 2027: onde comprar + guia do MorumBis</title>
+    <link rel="alternate" type="text/html" href="https://mytickets.tours/eventos/u2-sao-paulo-2027-03-10/"/>
+    <id>https://mytickets.tours/eventos/u2-sao-paulo-2027-03-10/</id>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <summary>U2 volta ao Brasil com a turnê The Greatest Show On Earth no MorumBis. Há uma segunda data em 12 de março.</summary>
+    <category term="concert"/>
   </entry>
 </feed>

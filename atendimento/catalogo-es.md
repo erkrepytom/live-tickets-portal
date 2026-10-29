@@ -4,30 +4,6 @@ Catálogo completo del socio: https://www.ticketmaster.com/
 
 ## Eventos con página
 
-### AC Milan vs Inter
-- Fecha: sábado, 31 de octubre de 2026
-- Recinto: San Siro (Giuseppe Meazza), Milán, Italia (Serie A)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/
-- Metro M5 hasta la estación San Siro Stadio, junto al estadio.
-- El tranvía 16 también llega a la plaza frente al estadio.
-
-### Arsenal vs Hull City
-- Fecha: sábado, 7 de noviembre de 2026
-- Recinto: Emirates Stadium, Londres, Inglaterra (Premier League)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/arsenal-vs-hull-city-2026-11-07/
-- Metro (Piccadilly line) hasta la estación Arsenal, a pocos minutos a pie.
-- Holloway Road y Highbury & Islington también sirven; cerca del partido, Holloway Road puede ser solo de salida.
-
-### Italia vs Francia
-- Fecha: jueves, 12 de noviembre de 2026
-- Recinto: San Siro (Giuseppe Meazza), Milán, Italia (UEFA Nations League)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/
-- Metro M5 hasta la estación San Siro Stadio, junto al estadio.
-- Los partidos de selección de noche llenan el metro al final. Conviene esperar 20 minutos.
-
 ### Inglaterra vs Croacia
 - Fecha: jueves, 12 de noviembre de 2026
 - Recinto: Wembley Stadium, Londres, Inglaterra (UEFA Nations League)
@@ -36,53 +12,29 @@ Catálogo completo del socio: https://www.ticketmaster.com/
 - Metro hasta Wembley Park (líneas Jubilee o Metropolitan) y luego Olympic Way hasta el estadio.
 - Tren de Chiltern Railways desde Marylebone hasta Wembley Stadium, junto al estadio.
 
-### Francia vs Sudáfrica
-- Fecha: viernes, 13 de noviembre de 2026
-- Recinto: Stade de France, París, Francia (World Rugby Nations Championship)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/
-- RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.
-- Metro línea 13, estación Saint-Denis–Porte de Paris, a pocos minutos a pie.
+### México vs Jamaica
+- Fecha: martes, 17 de noviembre de 2026
+- Recinto: Estadio BBVA, Monterrey, México (CONCACAF Nations League)
+- Entradas: https://www.ticketmaster.com.mx/mexico-v-jamaica-cf-concacaf-nations-guadalupe-17-11-2026/event/3D00654B976C3198
+- Guía en el sitio: https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/
+- El estadio está en Guadalupe, en la zona metropolitana de Monterrey. Taxi o aplicación es lo más sencillo.
+- A la salida hay mucha demanda de autos: acuerda antes el punto de encuentro.
 
-### Final de la Sudamericana: Atlético Mineiro vs Boca Juniors
+### Irlanda vs Sudáfrica
 - Fecha: sábado, 21 de noviembre de 2026
-- Recinto: Estadio Metropolitano Roberto Meléndez, Barranquilla, Colombia (Copa Sudamericana)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/
-- El estadio está en el sur de Barranquilla. En taxi o aplicación, calcula unos 30 minutos desde la zona norte, donde están los hoteles.
-- El partido es a las 17:00 con el calor del Caribe: llega temprano e hidrátate antes de entrar.
+- Recinto: Aviva Stadium, Dublín, Irlanda (Nations Championship)
+- Entradas: https://www.ticketmaster.ie/nations-championship-2026-ireland-v-south-dublin-21-11-2026/event/180064D992CF3DCE
+- Guía en el sitio: https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/
+- Tren DART hasta la estación Lansdowne Road, junto al estadio.
+- El día del partido la estación se llena: llega con margen.
 
-### Final de la Libertadores: Palmeiras vs Estudiantes
-- Fecha: sábado, 28 de noviembre de 2026
-- Recinto: Estadio Centenario, Montevideo, Uruguay (Copa Libertadores)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/
-- El Centenario está en el Parque Batlle, a unos 15 minutos en taxi del centro de Montevideo.
-- En una final, la seguridad separa a las hinchadas: revisa tu puerta en la entrada y llega con tiempo.
-
-### GP de Abu Dabi de Fórmula 1
-- Fecha: domingo, 6 de diciembre de 2026
-- Recinto: Yas Marina Circuit, Abu Dabi, Emiratos Árabes Unidos (Formula 1)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/
-- El circuito está en la isla Yas, a unos 30 minutos en coche del centro de Abu Dabi.
-- El fin de semana de carrera la organización suele ofrecer autobuses. Consulta la web oficial del GP.
-
-### FC Barcelona vs Manchester City
-- Fecha: martes, 8 de diciembre de 2026
-- Recinto: Camp Nou, Barcelona, España (UEFA Champions League)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/
-- Metro L3, estaciones Les Corts y Palau Reial, o L5, estaciones Collblanc y Badal.
-- La Champions se juega entre semana por la noche. Reserva el hotel cerca de una línea de metro.
-
-### Final de la Supercopa de Italia: Inter vs Lazio
-- Fecha: martes, 22 de diciembre de 2026
-- Recinto: San Siro (Giuseppe Meazza), Milán, Italia (Supercoppa Italiana)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/
-- Metro M5 hasta la estación San Siro Stadio, junto al estadio.
-- El tranvía 16 también llega a la plaza frente al estadio.
+### Los Angeles Lakers vs Boston Celtics
+- Fecha: jueves, 7 de enero de 2027
+- Recinto: Crypto.com Arena, Los Ángeles, EE. UU. (NBA)
+- Entradas: https://www.ticketmaster.com/los-angeles-lakers-vs-boston-celtics-los-angeles-california-01-07-2027/event/2C00650CC26E0D94
+- Guía en el sitio: https://mytickets.tours/es/eventos/lakers-vs-celtics-2027-01-07/
+- Metro líneas A y E hasta la estación Pico, a pocos minutos a pie de la arena.
+- Las puertas suelen abrir una hora antes del partido.
 
 ### New York Knicks vs Denver Nuggets
 - Fecha: lunes, 11 de enero de 2027
@@ -92,13 +44,13 @@ Catálogo completo del socio: https://www.ticketmaster.com/
 - La arena está sobre Penn Station: metro líneas 1, 2, 3, A, C y E hasta 34 St–Penn Station.
 - Las puertas suelen abrir una hora antes del partido.
 
-### Sporting de Portugal vs Barcelona
-- Fecha: miércoles, 20 de enero de 2027
-- Recinto: Estádio José Alvalade, Lisboa, Portugal (UEFA Champions League)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/sporting-vs-barcelona-2027-01-20/
-- Metro de Lisboa, líneas verde o amarilla, hasta la estación Campo Grande, junto al estadio.
-- Después del partido el metro se llena: puedes caminar unos minutos hasta otra estación o esperar a que baje la fila.
+### NBA en Mánchester: Pelicans vs Spurs
+- Fecha: domingo, 17 de enero de 2027
+- Recinto: Co-op Live, Mánchester, Reino Unido (NBA)
+- Entradas: https://www.ticketmaster.co.uk/nba-manchester-game-2027-manchester-17-01-2027/event/37006507A634155B
+- Guía en el sitio: https://mytickets.tours/es/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/
+- Tranvía Metrolink hasta la parada Etihad Campus, junto a la arena.
+- La arena está en el mismo complejo que el estadio del Manchester City.
 
 ### Final masculina del Open de Australia
 - Fecha: domingo, 31 de enero de 2027
@@ -108,45 +60,29 @@ Catálogo completo del socio: https://www.ticketmaster.com/
 - La Rod Laver Arena está en el Melbourne Park, a unos 15 minutos a pie de la estación Flinders Street.
 - Durante el torneo hay tranvías extra hasta el Melbourne Park. Consulta los horarios en la web del torneo.
 
-### Supercopa de España: Barcelona vs Atlético de Madrid
-- Fecha: martes, 2 de febrero de 2027
-- Recinto: Estádio Şükrü Saracoğlu (Fenerbahçe), Estambul, Turquía (Supercopa de España)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/
-- El estadio está en Kadıköy, en el lado asiático: toma el ferry desde Eminönü o Karaköy hasta Kadıköy y camina unos 15 minutos.
-- El Marmaray también llega: bájate en Söğütlüçeşme, a pocos minutos a pie.
+### Foo Fighters en São Paulo
+- Fecha: sábado, 20 de febrero de 2027
+- Recinto: MorumBis, São Paulo, Brasil (Conciertos)
+- Entradas: https://www.ticketmaster.com.br/event/venda-geral-foo-fighters-sao-paulo
+- Guía en el sitio: https://mytickets.tours/es/eventos/foo-fighters-sao-paulo-2027-02-20/
+- La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.
+- A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes.
 
-### Irlanda vs Inglaterra (Seis Naciones)
-- Fecha: viernes, 5 de febrero de 2027
-- Recinto: Aviva Stadium, Dublín, Irlanda (Six Nations)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/
-- Tren DART hasta Lansdowne Road, junto al estadio.
-- Desde el centro de Dublín también se puede ir caminando, unos 30 minutos.
+### U2 en la Ciudad de México
+- Fecha: martes, 23 de febrero de 2027
+- Recinto: Estadio GNP Seguros, Ciudad de México, México (Conciertos)
+- Entradas: https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F
+- Guía en el sitio: https://mytickets.tours/es/eventos/u2-cidade-do-mexico-2027-02-23/
+- Metro Línea 9 hasta la estación Ciudad Deportiva, junto al estadio.
+- A la salida el metro se llena: ten un plan B para volver.
 
-### Francia vs Gales (Seis Naciones)
-- Fecha: sábado, 6 de febrero de 2027
-- Recinto: Stade de France, París, Francia (Six Nations)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/
-- RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.
-- Metro línea 13, estación Saint-Denis–Porte de Paris, a pocos minutos a pie.
-
-### Celine Dion en París
-- Fecha: viernes, 14 de mayo de 2027
-- Recinto: Paris La Défense Arena, París, Francia (Conciertos)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/
-- RER A, metro línea 1 o tranvía T2 hasta La Défense–Grande Arche.
-- La arena está a unos 10 minutos a pie de la estación.
-
-### Final de la Champions League 2027
-- Fecha: sábado, 5 de junio de 2027
-- Recinto: Estadio Metropolitano, Madrid, España (UEFA Champions League)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/
-- Metro línea 7 hasta la estación Estadio Metropolitano, frente al estadio.
-- En una final, llega dos horas antes. Los controles y las colas son largos.
+### U2 en São Paulo
+- Fecha: miércoles, 10 de marzo de 2027
+- Recinto: MorumBis, São Paulo, Brasil (Conciertos)
+- Entradas: https://www.ticketmaster.com.br/event/u2
+- Guía en el sitio: https://mytickets.tours/es/eventos/u2-sao-paulo-2027-03-10/
+- La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.
+- A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes.
 
 ## Ligas y competiciones
 

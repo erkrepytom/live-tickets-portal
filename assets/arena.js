@@ -24,15 +24,15 @@ es:{kicker:'Arena MyTickets',title:'Calienta antes de embarcar',sub:'Cuatro puer
  r:{goal:'¡GOL!',save:'¡PARADA!',post:'¡AL PALO!',high:'¡POR ARRIBA!',wide:'¡AFUERA!',swish:'¡LIMPIA! +3',bank:'¡CANASTA! +2',miss:'¡FALLÓ!',good:'¡ES BUENO! +',short:'¡CORTO!',bar:'¡AL TRAVESAÑO!',fwide:'¡DESVIADO!',fpost:'¡AL POSTE!'}}
 };
 const EV={
- soccer:{e:'⚽',slug:'final-champions-league-2027-06-05',g:16,from:'LIS',to:'MAD',d:[2027,6,5],
-  n:{pt:'Final da Champions League',en:'Champions League Final',es:'Final de la Champions League'},
-  v:{pt:'Estadio Metropolitano · Madri',en:'Estadio Metropolitano · Madrid',es:'Estadio Metropolitano · Madrid'}},
+ soccer:{e:'⚽',slug:'mexico-vs-jamaica-2026-11-17',g:16,from:'BOG',to:'MTY',d:[2026,11,17],
+  n:{pt:'México x Jamaica',en:'Mexico vs Jamaica',es:'México vs Jamaica'},
+  v:{pt:'Estadio BBVA · Monterrey',en:'Estadio BBVA · Monterrey',es:'Estadio BBVA · Monterrey'}},
  basket:{e:'🏀',slug:'knicks-vs-nuggets-2027-01-11',g:10,from:'MEX',to:'JFK',d:[2027,1,11],
   n:{pt:'New York Knicks x Denver Nuggets',en:'New York Knicks vs Denver Nuggets',es:'New York Knicks vs Denver Nuggets'},
   v:{pt:'Madison Square Garden · Nova York',en:'Madison Square Garden · New York',es:'Madison Square Garden · Nueva York'}},
- fg:{e:'🏈',slug:'franca-vs-africa-do-sul-2026-11-13',g:4,from:'GRU',to:'CDG',d:[2026,11,13],
-  n:{pt:'França x África do Sul · Rúgbi',en:'France vs South Africa · Rugby',es:'Francia vs Sudáfrica · Rugby'},
-  v:{pt:'Paris',en:'Paris',es:'París'}},
+ fg:{e:'🏈',slug:'ireland-vs-south-africa-2026-11-21',g:4,from:'LHR',to:'DUB',d:[2026,11,21],
+  n:{pt:'Irlanda x África do Sul · Rúgbi',en:'Ireland vs South Africa · Rugby',es:'Irlanda vs Sudáfrica · Rugby'},
+  v:{pt:'Aviva Stadium · Dublin',en:'Aviva Stadium · Dublin',es:'Aviva Stadium · Dublín'}},
  tennis:{e:'🥎',slug:'final-australian-open-2027-01-31',g:13,from:'EZE',to:'MEL',d:[2027,1,31],
   n:{pt:'Final do Australian Open',en:'Australian Open Final',es:'Final del Australian Open'},
   v:{pt:'Rod Laver Arena · Melbourne',en:'Rod Laver Arena · Melbourne',es:'Rod Laver Arena · Melbourne'}}
