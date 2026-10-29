@@ -30,6 +30,7 @@ AFILIADO = "6821d72fcdbe3"
 # site do parceiro ("não conseguimos encontrar esse evento" alguns segundos depois de abrir).
 PARCEIRO = {"pt": "https://365tickets.com.br", "en": "https://www.sportsevents365.com", "es": "https://sportsevents365.es"}
 IDIOMAS = ["pt", "en", "es"]
+CATALOGO = []  # todos os eventos (futuros + encerrados); main() preenche. cta_video usa para achar evento encerrado.
 # Formulário de alertas: o FormSubmit entrega cada cadastro como e-mail na caixa do Titan.
 # Coloque aqui https://formsubmit.co/ajax/<seu-email-titan> (ou o código aleatório que o
 # FormSubmit envia depois da ativação). Vazio = formulário mostra "em breve".
@@ -610,14 +611,25 @@ def facade_video(v, lang, pagina, vertical=False):
 
 
 def cta_video(v, lang, pagina, eventos):
-    """Botão de ação do vídeo: ingressos do evento ligado, reserva num parceiro de viagem, ou um link indicado no JSON."""
+    """Botão de ação do vídeo: ingressos do evento ligado, reserva num parceiro de viagem, ou um link indicado no JSON.
+
+    Vídeo ligado a evento que já aconteceu não fica sem direcionamento: o botão de
+    ingressos vira "Ver o próximo evento de {competição}" (ou "os próximos eventos"),
+    apontando para a página do próximo evento — sem oferecer ingresso de jogo encerrado."""
     vx = C.VIDEOS_TXT[lang]
     cta = v.get("cta") or {}
     ev = next((x for x in eventos if x["slug"] == v.get("evento")), None)
-    tipo = cta.get("tipo") or ("evento" if ev else "")
+    ev_cat = ev or next((x for x in CATALOGO if x["slug"] == v.get("evento")), None)
+    tipo = cta.get("tipo") or ("evento" if ev_cat else "")
     botoes = []
-    if tipo == "evento" and ev:
+    if tipo == "evento" and ev and not ev.get("encerrado"):
         botoes.append(mag(rel(pagina, caminho_go("se365", lang, ev)), e(vx["ingressos"]), "btn btn-signal btn-sm"))
+    elif tipo == "evento" and ev_cat:
+        prox, mesma = proximo_da_competicao(ev_cat, eventos)
+        x = ENCERRADO[lang]
+        rotulo = x["cta_comp"].format(c=L(ev_cat["competicao"]["nome"], lang)) if (prox and mesma) else x["cta_geral"]
+        destino = caminho_evento(lang, prox["slug"]) if prox else caminho_home(lang)
+        botoes.append(mag(rel(pagina, destino), e(rotulo), "btn btn-signal btn-sm", ext=False))
     elif tipo == "viagem" and ev and cta.get("parceiro") in C.VIAGEM:
         pk = cta["parceiro"]
         destino = rel(pagina, caminho_go(pk, lang, ev)) if viagem_afiliado(pk) else destino_viagem(pk, lang, ev)
@@ -627,8 +639,8 @@ def cta_video(v, lang, pagina, eventos):
         rot = L(rot, lang) if isinstance(rot, dict) else (rot or vx["reservar"])
         rel_attr = "sponsored nofollow noopener" if cta.get("afiliado", True) else "noopener"
         botoes.append(f'<a class="btn btn-signal btn-sm" data-magnetic href="{e(cta["url"])}" target="_blank" rel="{rel_attr}"><span class="mag-inner">{e(rot)} →</span></a>')
-    if ev:
-        botoes.append(f'<a class="btn btn-ghost btn-sm" href="{rel(pagina, caminho_evento(lang, ev["slug"]))}">{e(vx["ver_guia"])}</a>')
+    if ev_cat and caminho_evento(lang, ev_cat["slug"]) != pagina:
+        botoes.append(f'<a class="btn btn-ghost btn-sm" href="{rel(pagina, caminho_evento(lang, ev_cat["slug"]))}">{e(vx["ver_guia"])}</a>')
     return "".join(botoes)
 
 
@@ -2606,6 +2618,7 @@ def main():
     encerrados = sorted([x for x in dados["eventos"] if x["data"] < hoje], key=lambda x: x["data"], reverse=True)
     for x in encerrados:
         x["encerrado"] = True
+    CATALOGO[:] = eventos + encerrados
     try:
         noticias = json.loads((RAIZ / "dados.json").read_text(encoding="utf-8")).get("paises", [])
     except (OSError, ValueError):
