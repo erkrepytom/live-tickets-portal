@@ -41,7 +41,8 @@
    "cta": {
     "tipo": "evento"
    },
-   "ativo": true
+   "ativo": false,
+   "nota": "Barcelona x Real Madrid já foi jogado (25/10/2026). Desativado em 29/10/2026 para a home destacar Milan x Inter (31/10)."
   },
   {
    "yt": "0c8RD3fd9hc",
@@ -63,7 +64,7 @@
   {
    "yt": "7YyOTvPR950",
    "titulo": {
-    "pt": "Milan x Inter: melhores momentos do Derby della Madonnina (Serie A)",
+    "pt": "Milan x Inter: melhores momentos do Derby della Madonnina (Serie A 2025/26)",
     "en": "Milan-Inter highlights: tight clash in the Milan derby (Serie A 2025/26)",
     "es": "Milan-Inter: resumen del derbi de Milán (Serie A 2025/26)"
    },
