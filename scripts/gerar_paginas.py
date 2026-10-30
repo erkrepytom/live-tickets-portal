@@ -1767,7 +1767,7 @@ def ld_evento(lang, ev, pagina):
     if loc.get("geo"):
         lugar["geo"] = {"@type": "GeoCoordinates", "latitude": loc["geo"][0], "longitude": loc["geo"][1]}
     ld = {"@context": "https://schema.org", "@type": "MusicEvent" if ev["tipo"] == "concert" else "SportsEvent",
-          "name": titulo, "url": f"{BASE_URL}/{pagina}", "startDate": ev.get("inicio", ev["data"]), "inLanguage": HREFLANG[lang],
+          "@id": f"{BASE_URL}/{pagina}#event", "name": titulo, "url": f"{BASE_URL}/{pagina}", "startDate": ev.get("inicio", ev["data"]), "inLanguage": HREFLANG[lang],
           "eventStatus": "https://schema.org/" + ev.get("status", "EventScheduled"),
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
           "location": lugar, "image": [foto_abs(ev.get("banner", ev["img"]))], "description": L(ev["intro"], lang),
@@ -1786,6 +1786,8 @@ def ld_evento(lang, ev, pagina):
         # não é verdade e não bate com o texto visível.
         ld["offers"]["@type"] = "AggregateOffer"
         ld["offers"]["lowPrice"] = f"{pr['min']:.2f}"
+        if pr.get("max"):  # só quando a fonte informa o teto; nunca estimado
+            ld["offers"]["highPrice"] = f"{pr['max']:.2f}"
         ld["offers"]["priceCurrency"] = pr["moeda"]
         if pr.get("lotes"):
             ld["offers"]["offerCount"] = pr["lotes"]
@@ -1907,7 +1909,9 @@ def evento(lang, ev, eventos, hubs):
     url_pg = f"{BASE_URL}/{pagina}"
     ld_pagina = {"@context": "https://schema.org", "@type": "WebPage", "@id": url_pg, "url": url_pg, "name": titulo,
                  "inLanguage": HREFLANG[lang], "isPartOf": {"@id": f"{BASE_URL}/#site"}, "publisher": {"@id": f"{BASE_URL}/#org"},
-                 "about": {"@type": "SportsEvent" if ev["tipo"] != "concert" else "MusicEvent", "name": L(ev["titulo"], "en"), "startDate": ev.get("inicio") or ev["data"]},
+                 # Só a referência ao Event completo de ld_evento. Um Event com @type aqui seria lido
+                 # pelo Google como um segundo evento, sem local nem oferta (erro crítico no Search Console).
+                 "about": {"@id": f"{url_pg}#event"},
                  "reviewedBy": {"@type": "Person", "name": RESPONSAVEL}}
     if ev.get("conferido"):
         # lastReviewed diz "alguém conferiu"; dateModified é o campo que buscadores e
