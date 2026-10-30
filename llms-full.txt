@@ -19,7 +19,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Venue: San Siro (Giuseppe Meazza), Piazzale Angelo Moratti, Milan, Italy
 - Competition: Serie A
 - Teams: AC Milan vs Inter
-- Lowest price seen at the partner: US$ 174 (checked 2026-10-30; prices change)
+- Lowest price seen at the partner: US$ 152 (checked 2026-10-30; prices change)
 - About: The Milan derby (Derby della Madonnina) in Serie A. Both clubs share San Siro, and the city stops on match day.
 - Getting there: Metro M5 to San Siro Stadio station, next to the stadium. Tram 16 also stops at the square in front of the stadium.
 - Guide pages: pt-BR https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/, en https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/, es https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/
@@ -30,7 +30,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Venue: San Siro (Giuseppe Meazza), Piazzale Angelo Moratti, Milan, Italy
 - Competition: UEFA Nations League
 - Teams: Italy vs France
-- Lowest price seen at the partner: US$ 50 (checked 2026-10-30; prices change)
+- Lowest price seen at the partner: US$ 49 (checked 2026-10-30; prices change)
 - About: Two World Cup-winning nations meet at San Siro in the UEFA Nations League.
 - Getting there: Metro M5 to San Siro Stadio station, next to the stadium. Night internationals pack the metro after the final whistle. It pays to wait 20 minutes.
 - Guide pages: pt-BR https://mytickets.tours/eventos/italia-vs-franca-2026-11-12/, en https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/, es https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/
@@ -51,7 +51,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Date: Sunday, December 6, 2026, 14:00 local time
 - Venue: Yas Marina Circuit, Yas Island, Abu Dhabi, United Arab Emirates
 - Competition: Formula 1
-- Lowest price seen at the partner: US$ 387 (checked 2026-10-30; prices change)
+- Lowest price seen at the partner: US$ 386 (checked 2026-10-30; prices change)
 - About: The final round of the Formula 1 season, a race that starts at dusk and finishes under the Yas Marina floodlights.
 - Getting there: The circuit is on Yas Island, about 30 minutes by car from central Abu Dhabi. Organizers usually run shuttle buses on race weekend. Check the official GP site.
 - Guide pages: pt-BR https://mytickets.tours/eventos/gp-abu-dhabi-f1-2026-12-06/, en https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/, es https://mytickets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/
@@ -93,7 +93,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Date: Friday, May 14, 2027, 19:30 local time
 - Venue: Paris La Défense Arena, 99 Jardin de l'Arche, Paris, France
 - Artist: Celine Dion
-- Lowest price seen at the partner: US$ 351 (checked 2026-10-30; prices change)
+- Lowest price seen at the partner: US$ 349 (checked 2026-10-30; prices change)
 - About: Celine Dion performs at Paris La Défense Arena. The partner also lists a second date the next day, May 15.
 - Getting there: RER A, metro line 1 or tram T2 to La Défense–Grande Arche. The arena is about a 10-minute walk from the station.
 - Guide pages: pt-BR https://mytickets.tours/eventos/celine-dion-paris-2027-05-14/, en https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/, es https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/
@@ -103,7 +103,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Date: Saturday, June 5, 2027, 21:00 local time
 - Venue: Estadio Metropolitano, Av. de Luis Aragonés, 4, Madrid, Spain
 - Competition: UEFA Champions League
-- Lowest price seen at the partner: US$ 6,647 (checked 2026-10-30; prices change)
+- Lowest price seen at the partner: US$ 6,625 (checked 2026-10-30; prices change)
 - About: The 2027 Champions League final is at the Estadio Metropolitano in Madrid. The finalists are not decided yet.
 - Getting there: Metro line 7 to Estadio Metropolitano station, right outside the stadium. Arrive two hours early for a final. Security and queues are long.
 - Guide pages: pt-BR https://mytickets.tours/eventos/final-champions-league-2027-06-05/, en https://mytickets.tours/en/events/final-champions-league-2027-06-05/, es https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/
