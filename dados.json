@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-29T19:43:12+00:00",
+ "atualizado": "2026-10-30T00:00:01+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Quem está pior leva a melhor? Atlético-MG e Cruzeiro chegam a clássico em cenário raro",
-     "u": "https://ge.globo.com/mg/futebol/noticia/2026/10/29/quem-esta-pior-leva-a-melhor-atletico-mg-e-cruzeiro-chegam-a-classico-em-cenario-raro.ghtml",
+     "t": "Inter de Milão e Milan anunciam projeto do novo San Siro; veja vídeo",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/29/inter-de-milao-e-milan-anunciam-projeto-do-novo-san-siro-veja-video.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Convocado pela Seleção, Danilo pode perder duelo direto do Botafogo com Corinthians",
-     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/29/convocado-pela-selecao-danilo-pode-perder-duelo-direto-do-botafogo-com-corinthians.ghtml",
+     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-10-2026/atletico-mg-cruzeiro.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Lucas Jorge projeta clássicos entre São Paulo e Palmeiras nas quartas do Paulista Sub-15",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/lucas-jorge-projeta-classicos-entre-sao-paulo-e-palmeiras-nas-quartas-do-paulista-sub-15/",
+     "t": "Vasco e Flamengo definem escalações para clássico pelo Brasileirão",
+     "u": "https://www.gazetaesportiva.com/times/flamengo/vasco-e-flamengo-definem-escalacoes-para-classico-pelo-brasileirao/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Kimi Antonelli pode se tornar campeão mais jovem da F1 no GP do México",
-     "u": "https://www.gazetaesportiva.com/motor/formula-1/kimi-antonelli-pode-fazer-historia-e-conquistar-titulo-da-formula-1-no-mexico/",
+     "t": "Prefeito de São Paulo revela desejo de renovar contrato com a Fórmula 1",
+     "u": "https://www.gazetaesportiva.com/motor/formula-1/prefeito-de-sao-paulo-revela-desejo-de-renovar-contrato-com-a-formula-1/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "NFL DFS, Packers vs. Panthers: Top daily Fantasy picks, lineup advice for 'Thursday Night Football'",
-     "u": "https://www.cbssports.com/betting/news/nfl-dfs-packers-panthers-daily-fantasy-picks-draftkings-fanduel-lineup-strategy-for-thursday-night-football/",
+     "t": "UWCL Star Power Index: Lily Yohannes shines against Inter Milan; Alessia Russo carries Arsenal",
+     "u": "https://www.cbssports.com/soccer/news/uwcl-star-power-index-lily-yohannes-shines-against-inter-milan/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Mexico Grand Prix: Where to watch the Formula 1 race today, schedule, how to stream and more",
-     "u": "https://sports.yahoo.com/f1/article/mexico-grand-prix-where-to-watch-the-formula-1-race-today-schedule-how-to-stream-and-more-193000328.html",
+     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Panthers vs. Packers, NFL betting",
+     "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-panthers-packers-nfl-betting/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "NBA Cup 2026: How does it work, schedule, format, bracket, odds, location for NBA's in-season tournament",
+     "u": "https://sports.yahoo.com/articles/nba-cup-2026-does-schedule-234310804.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Panthers vs. Packers odds, first touchdown scorer picks, predictions for NFL Week 8 Thursday Night Football",
-     "u": "https://www.cbssports.com/prediction/news/panthers-vs-packers-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-8-thursday-night-football/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "NBA ratings still rising to start new season",
-     "u": "https://sports.yahoo.com/articles/nba-ratings-still-rising-start-193009263.html",
+     "t": "DWU basketball eager to open season at home with CorTrust Classic this weekend",
+     "u": "https://sports.yahoo.com/articles/dwu-basketball-eager-open-season-234900644.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Ancelotti anuncia convocatória do Brasil sem jogadores de Flamengo e Palmeiras",
-     "u": "https://www.record.pt/internacional/detalhe/ancelotti-anuncia-convocatoria-do-brasil-sem-jogadores-de-flamengo-e-palmeiras",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Alexander Zverev vence em Viena e oficializa estatuto de n.º 1 ATP",
-     "u": "https://www.record.pt/modalidades/tenis/detalhe/alexander-zverev-vence-em-viena-e-oficializa-estatuto-de-n-1-atp",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Atenção, Sporting: Shakhtar vence Dínamo Kiev e avança na Taça da Ucrânia",
-     "u": "https://www.abola.pt/noticias/atencao-sporting-shakhtar-vence-dinamo-kiev-e-avanca-na-taca-da-ucrania-2026102720012292336",
+     "t": "Vai ser assim o novo San Siro: Inter e Milan vão ter novo estádio em 2032",
+     "u": "https://www.abola.pt/video/vai-ser-assim-o-novo-san-siro-inter-e-milan-vao-ter-novo-estadio-em-2032-2026102921013964414",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Samu (e não só) fora dos convocados do FC Porto",
-     "u": "https://www.abola.pt/noticias/samu-e-nao-so-fora-dos-convocados-do-fc-porto-2026102718442360246",
+     "t": "Ricardo Esgaio sobre a derrota na Luz: «Sabemos como é o futebol»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/ricardo-esgaio-sobre-a-derrota-na-luz-sabemos-como-e-o-futebol",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Oliveirense vence Sporting e está nas meias-finais da Elite Cup",
+     "u": "https://www.abola.pt/noticias/oliveirense-vence-sporting-e-esta-nas-meias-finais-da-elite-cup-2026102923371909994",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Marco Silva \"compreende\" revolta de Luís Pinto sobre Durán mas atira: «Benfica não pode ficar calado»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/marco-silva-compreende-revolta-de-luis-pinto-sobre-duran-mas-atira-benfica-nao-pode-ficar-calado",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -113,10 +113,10 @@
    },
    "noticias": [
     {
-     "t": "Real Madrid - Fenerbahçe, en directo",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261029/1004243818/real-madrid-fenerbahce-directo-euroliga-baloncesto.html",
+     "t": "27-30: Un Barça de récord pasa a la segunda fase de la Champions con cuatro puntos",
+     "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244814/27-30-barca-record-pasa-segunda-fase-champions-cuatro-puntos.html",
      "f": "Mundo Deportivo",
-     "alta": true
+     "alta": false
     },
     {
      "t": "ElPozo Murcia sufre su primera derrota en Champions ante el Benfica",
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "1-6: Golpe de autoridad del Barça en la Champions y billete a octavos",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261029/1004244731/1-6-golpe-autoridad-barca-champions-billete-octavos.html",
+     "t": "Así quedan los nuevos grupos de la segunda fase de la Champions: puro espectáculo con el Barça",
+     "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244770/asi-quedan-dos-nuevos-grupos-segunda-fase-champions-proximos-rivales-barca.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "Manchester City v Paris Saint-Germain: Women’s Champions League – live",
-     "u": "https://www.theguardian.com/football/live/2026/oct/29/manchester-city-v-paris-saint-germain-womens-champions-league-live",
+     "t": "Inter and Milan unveil plans for new shared stadium to replace San Siro",
+     "u": "https://www.theguardian.com/football/2026/oct/29/inter-milan-generali-stadium-new-venue-san-siro-protests",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "WCL: Man City vs PSG team news LIVE!",
-     "u": "https://www.skysports.com/football/manchester-city-women-vs-paris-saint-germain-women/live/578257",
+     "t": "PSG claim late point after Shaw penalty to hit Manchester City’s WCL top-four hopes",
+     "u": "https://www.theguardian.com/football/2026/oct/29/manchester-city-paris-saint-germain-womens-champions-league-match-report",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "'I'm built differently' - Hamilton defiant over extending F1 career into 2030s",
+     "u": "https://www.skysports.com/f1/news/12040/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Mussolini’s first Serie A goal marks high-flying Lazio’s thrashing of Sassuolo | Nicky Bandini",
-     "u": "https://www.theguardian.com/football/blog/2026/oct/29/serie-a-lazio-sassuolo-romano-floriani-mussolini-gennaro-gattuso",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Russo scores hat-trick as Arsenal beat Benfica",
-     "u": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
+     "t": "PSG score late to hold struggling Man City",
+     "u": "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -187,20 +187,20 @@
      "alta": false
     },
     {
-     "t": "Inédito en la Fórmula 1: diez novatos copan la FP1 en el GP de México y esperan Colapinto, Verstappen y más",
-     "u": "https://www.ole.com.ar/autos/formula1-granpremiodemexico-fia-francocolapinto-gabrielemini-alpine_0_b5qIP1MrfI.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Gerónimo Rulli atajó dos penales y el Manchester City avanzó a los cuartos de final de la Copa de la Liga inglesa",
-     "u": "https://www.infobae.com/deportes/2026/10/29/geronimo-rulli-atajo-dos-penales-y-el-manchester-city-avanzo-a-los-cuartos-de-final-de-la-copa-de-la-liga-inglesa/",
+     "t": "Viaje al interior de la pasión en las tribunas durante un partido de la Copa de Alemania: el show de los fanáticos en Bayern Múnich-Magdeburgo",
+     "u": "https://www.infobae.com/deportes/2026/10/29/viaje-al-interior-de-la-pasion-en-las-tribunas-durante-un-partido-de-la-copa-de-alemania-el-show-de-los-fanaticos-en-bayern-munich-magdeburgo/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Fiorentina vs Atalanta, por la Serie A, EN VIVO: Mastantuono y Pellegrino titulares",
-     "u": "https://www.ole.com.ar/futbol-internacional/italia/fiorentina-atalanta-serie-fecha-9-mastantuono-pellegrino-italia_0_N7ZVTeyzQ9.html",
+     "t": "Armá tu 11 de Boca para el Súper",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-river-super-torneoclausura-libertadores-labombonera-tablaanual_0_4CZl3yJ7o1.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "El Tribunal eliminó a Boca Unidos del Federal A",
+     "u": "https://www.ole.com.ar/futbol-ascenso/bocaunidos-federala-tribunaldedisciplina-gimnasiadechivilcoy-consejofederaldelaafa-nicolasdormisch_0_nK9Ov86gKl.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Ces cols boudés par le Tour de France qui valent le détour",
-     "u": "https://www.lequipe.fr/Respire/Pratique-sportive/Actualites/Ces-cols-boudes-pour-l-instant-par-le-tour-de-france-qui-valent-pourtant-le-detour/1737991#at_medium=RSS_feeds",
+     "t": "Ligue des champions féminine : Le PSG arrache un point à Manchester City",
+     "u": "https://www.lequipe.fr/Football/Actualites/Ligue-des-champions-feminine-le-psg-arrache-un-point-a-manchester-city/1739634#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Les Brooklyn Nets ont activé la troisième année du contrat de Nolan Traoré en NBA",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Les-brooklyn-nets-ont-active-la-troisieme-annee-du-contrat-de-nolan-traore-en-nba/1739574#at_medium=RSS_feeds",
+     "t": "Novak Djokovic stoppé au deuxième tour à Bâle par Jan-Lennard Struff, sa qualification pour les finales ATP se jouera à Paris",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Novak-djokovic-stoppe-au-deuxieme-tour-a-bale-au-terme-d-un-superbe-duel-face-a-jan-lennard-struff/1739619#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,36 +253,36 @@
  ],
  "destaques": [
   {
-   "t": "Quem está pior leva a melhor? Atlético-MG e Cruzeiro chegam a clássico em cenário raro",
-   "u": "https://ge.globo.com/mg/futebol/noticia/2026/10/29/quem-esta-pior-leva-a-melhor-atletico-mg-e-cruzeiro-chegam-a-classico-em-cenario-raro.ghtml",
+   "t": "Inter de Milão e Milan anunciam projeto do novo San Siro; veja vídeo",
+   "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/29/inter-de-milao-e-milan-anunciam-projeto-do-novo-san-siro-veja-video.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "NFL DFS, Packers vs. Panthers: Top daily Fantasy picks, lineup advice for 'Thursday Night Football'",
-   "u": "https://www.cbssports.com/betting/news/nfl-dfs-packers-panthers-daily-fantasy-picks-draftkings-fanduel-lineup-strategy-for-thursday-night-football/",
+   "t": "UWCL Star Power Index: Lily Yohannes shines against Inter Milan; Alessia Russo carries Arsenal",
+   "u": "https://www.cbssports.com/soccer/news/uwcl-star-power-index-lily-yohannes-shines-against-inter-milan/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Ancelotti anuncia convocatória do Brasil sem jogadores de Flamengo e Palmeiras",
-   "u": "https://www.record.pt/internacional/detalhe/ancelotti-anuncia-convocatoria-do-brasil-sem-jogadores-de-flamengo-e-palmeiras",
-   "f": "Record",
+   "t": "Vai ser assim o novo San Siro: Inter e Milan vão ter novo estádio em 2032",
+   "u": "https://www.abola.pt/video/vai-ser-assim-o-novo-san-siro-inter-e-milan-vao-ter-novo-estadio-em-2032-2026102921013964414",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Real Madrid - Fenerbahçe, en directo",
-   "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261029/1004243818/real-madrid-fenerbahce-directo-euroliga-baloncesto.html",
+   "t": "27-30: Un Barça de récord pasa a la segunda fase de la Champions con cuatro puntos",
+   "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244814/27-30-barca-record-pasa-segunda-fase-champions-cuatro-puntos.html",
    "f": "Mundo Deportivo",
-   "alta": true,
+   "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Manchester City v Paris Saint-Germain: Women’s Champions League – live",
-   "u": "https://www.theguardian.com/football/live/2026/oct/29/manchester-city-v-paris-saint-germain-womens-champions-league-live",
+   "t": "Inter and Milan unveil plans for new shared stadium to replace San Siro",
+   "u": "https://www.theguardian.com/football/2026/oct/29/inter-milan-generali-stadium-new-venue-san-siro-protests",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Ces cols boudés par le Tour de France qui valent le détour",
-   "u": "https://www.lequipe.fr/Respire/Pratique-sportive/Actualites/Ces-cols-boudes-pour-l-instant-par-le-tour-de-france-qui-valent-pourtant-le-detour/1737991#at_medium=RSS_feeds",
+   "t": "Ligue des champions féminine : Le PSG arrache un point à Manchester City",
+   "u": "https://www.lequipe.fr/Football/Actualites/Ligue-des-champions-feminine-le-psg-arrache-un-point-a-manchester-city/1739634#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
