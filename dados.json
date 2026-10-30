@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-30T00:00:01+00:00",
+ "atualizado": "2026-10-30T05:59:58+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Inter de Milão e Milan anunciam projeto do novo San Siro; veja vídeo",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/29/inter-de-milao-e-milan-anunciam-projeto-do-novo-san-siro-veja-video.ghtml",
+     "t": "Watson vai ao hospital, volta a campo e ajuda Packers a vencerem na NFL",
+     "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/10/30/watson-vai-ao-hospital-volta-a-campo-e-ajuda-packers-a-vencerem-na-nfl.ghtml",
      "f": "ge",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Atlético-MG x Cruzeiro - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-10-2026/atletico-mg-cruzeiro.ghtml",
+     "t": "NFL - Carolina Panthers x Green Bay Packers - AO VIVO",
+     "u": "https://ge.globo.com/futebol-americano/nfl/ao-vivo/nfl-carolina-panthers-x-green-bay-packers-ao-vivo.ghtml",
      "f": "ge",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Vasco e Flamengo definem escalações para clássico pelo Brasileirão",
-     "u": "https://www.gazetaesportiva.com/times/flamengo/vasco-e-flamengo-definem-escalacoes-para-classico-pelo-brasileirao/",
+     "t": "Grêmio vence Athletico-PR, põe Inter no Z4 e complica o Corinthians",
+     "u": "https://www.gazetaesportiva.com/times/gremio/gremio-vence-athletico-pr-poe-inter-no-z4-e-complica-o-corinthians/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Prefeito de São Paulo revela desejo de renovar contrato com a Fórmula 1",
-     "u": "https://www.gazetaesportiva.com/motor/formula-1/prefeito-de-sao-paulo-revela-desejo-de-renovar-contrato-com-a-formula-1/",
+     "t": "Flamengo goleia o Vasco no Nilton Santos; veja lances",
+     "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-goleia-o-vasco-no-nilton-santos-veja-lances/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
+     "t": "Inter and AC Milan unveil plans for new 71,500-seat Generali Stadium to replace iconic San Siro",
+     "u": "https://www.cbssports.com/soccer/news/inter-and-ac-milan-unveil-plans-for-new-71500-seat-generali-stadium/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
      "t": "UWCL Star Power Index: Lily Yohannes shines against Inter Milan; Alessia Russo carries Arsenal",
      "u": "https://www.cbssports.com/soccer/news/uwcl-star-power-index-lily-yohannes-shines-against-inter-milan/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Panthers vs. Packers, NFL betting",
-     "u": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-panthers-packers-nfl-betting/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "NBA Cup 2026: How does it work, schedule, format, bracket, odds, location for NBA's in-season tournament",
-     "u": "https://sports.yahoo.com/articles/nba-cup-2026-does-schedule-234310804.html",
+     "t": "‘Delusional,’ ‘Still Live in 2010’ — Outcry Ensues As Lakers Fans Show Little Love for LeBron James Amid Jersey Retirement Debate",
+     "u": "https://sports.yahoo.com/articles/delusional-still-live-2010-outcry-052655371.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "DWU basketball eager to open season at home with CorTrust Classic this weekend",
-     "u": "https://sports.yahoo.com/articles/dwu-basketball-eager-open-season-234900644.html",
+     "t": "Celtics Announce $200 Million Gift With an Impact Far Beyond Basketball",
+     "u": "https://sports.yahoo.com/articles/celtics-announce-200-million-gift-052050881.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Vai ser assim o novo San Siro: Inter e Milan vão ter novo estádio em 2032",
-     "u": "https://www.abola.pt/video/vai-ser-assim-o-novo-san-siro-inter-e-milan-vao-ter-novo-estadio-em-2032-2026102921013964414",
+     "t": "Kika Nazareth brilha em goleada de 8-0 do Barcelona na Champions",
+     "u": "https://www.abola.pt/noticias/kika-nazareth-brilha-em-goleada-de-8-0-do-barcelona-na-champions-2026102922144614904",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Ricardo Esgaio sobre a derrota na Luz: «Sabemos como é o futebol»",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/ricardo-esgaio-sobre-a-derrota-na-luz-sabemos-como-e-o-futebol",
+     "t": "Leonardo Jardim derrota Pedro Emanuel e Flamengo abre fosso para o Palmeiras na liderança do Brasileirão",
+     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/leonardo-jardim-derrota-pedro-emanuel-e-flamengo-abre-fosso-para-o-palmeiras-na-lideranca-do-brasileirao",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Oliveirense vence Sporting e está nas meias-finais da Elite Cup",
-     "u": "https://www.abola.pt/noticias/oliveirense-vence-sporting-e-esta-nas-meias-finais-da-elite-cup-2026102923371909994",
+     "t": "€288 milhões movimentados: o balanço do mercado de verão do Sporting",
+     "u": "https://www.abola.pt/noticias/euro288-milhoes-movimentados-o-balanco-do-mercado-de-verao-do-sporting-2026102918081798010",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Marco Silva \"compreende\" revolta de Luís Pinto sobre Durán mas atira: «Benfica não pode ficar calado»",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/marco-silva-compreende-revolta-de-luis-pinto-sobre-duran-mas-atira-benfica-nao-pode-ficar-calado",
+     "t": "Os casos do Benfica-Gil Vicente",
+     "u": "https://www.record.pt/futebol/futebol-nacional/allianz-cup/detalhe/20261030-005807-os-casos-do-benfica-gil-vicente",
      "f": "Record",
      "alta": false
     }
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Los 10 puntos clave para entender el nuevo formato del campeonato de la Liga Profesional de Fútbol",
-     "u": "https://www.infobae.com/deportes/2026/10/29/los-10-puntos-clave-para-entender-el-nuevo-formato-del-campeonato-de-la-liga-profesional-de-futbol/",
+     "t": "El emocionante homenaje de la NBA a Manu Ginóbili por los 24 años de su histórico debut en la liga más prestigiosa del mundo",
+     "u": "https://www.infobae.com/deportes/2026/10/30/el-emocionante-homenaje-de-la-nba-a-manu-ginobili-por-los-24-anos-de-su-historico-debut-en-la-liga-mas-prestigiosa-del-mundo/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Atento Boca Juniors: las dos bajas por lesión que sufrió el Atlético Mineiro, rival en la final de la Copa Sudamericana",
+     "u": "https://www.infobae.com/deportes/2026/10/30/atento-boca-juniors-las-dos-bajas-por-lesion-que-sufrio-el-atletico-mineiro-rival-en-la-final-de-la-copa-sudamericana/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Viaje al interior de la pasión en las tribunas durante un partido de la Copa de Alemania: el show de los fanáticos en Bayern Múnich-Magdeburgo",
-     "u": "https://www.infobae.com/deportes/2026/10/29/viaje-al-interior-de-la-pasion-en-las-tribunas-durante-un-partido-de-la-copa-de-alemania-el-show-de-los-fanaticos-en-bayern-munich-magdeburgo/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Armá tu 11 de Boca para el Súper",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-river-super-torneoclausura-libertadores-labombonera-tablaanual_0_4CZl3yJ7o1.html",
+     "t": "Atento Boca: un jugador de Atlético Mineiro al hospital y otro con posible desgarro en la derrota del clásico",
+     "u": "https://www.ole.com.ar/futbol-internacional/atleticomineiro-boca-copasudamericana-cruzeiro-eduardodominguez-vitao-gabrieldelfim-reinier_0_okI3oYjGCI.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "El Tribunal eliminó a Boca Unidos del Federal A",
-     "u": "https://www.ole.com.ar/futbol-ascenso/bocaunidos-federala-tribunaldedisciplina-gimnasiadechivilcoy-consejofederaldelaafa-nicolasdormisch_0_nK9Ov86gKl.html",
+     "t": "Una leve mejoría para la Liga Profesional",
+     "u": "https://www.ole.com.ar/opinion/futbolargentinoafaligaprofesional_0_GRwF6NJUVj.html",
      "f": "Olé",
      "alta": false
     }
@@ -243,8 +243,8 @@
      "alta": false
     },
     {
-     "t": "Novak Djokovic stoppé au deuxième tour à Bâle par Jan-Lennard Struff, sa qualification pour les finales ATP se jouera à Paris",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/Novak-djokovic-stoppe-au-deuxieme-tour-a-bale-au-terme-d-un-superbe-duel-face-a-jan-lennard-struff/1739619#at_medium=RSS_feeds",
+     "t": "Ce qu'il faut retenir de la nuit en NBA : les Portland Trail Blazers battus, les New Orleans Pelicans enfin victorieux",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Les-portland-trail-blazers-battus-les-new-orleans-pelicans-enfin-victorieux-en-nba/1739647#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,22 +253,22 @@
  ],
  "destaques": [
   {
-   "t": "Inter de Milão e Milan anunciam projeto do novo San Siro; veja vídeo",
-   "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/29/inter-de-milao-e-milan-anunciam-projeto-do-novo-san-siro-veja-video.ghtml",
+   "t": "Watson vai ao hospital, volta a campo e ajuda Packers a vencerem na NFL",
+   "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/10/30/watson-vai-ao-hospital-volta-a-campo-e-ajuda-packers-a-vencerem-na-nfl.ghtml",
    "f": "ge",
-   "alta": false,
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "UWCL Star Power Index: Lily Yohannes shines against Inter Milan; Alessia Russo carries Arsenal",
-   "u": "https://www.cbssports.com/soccer/news/uwcl-star-power-index-lily-yohannes-shines-against-inter-milan/",
+   "t": "Inter and AC Milan unveil plans for new 71,500-seat Generali Stadium to replace iconic San Siro",
+   "u": "https://www.cbssports.com/soccer/news/inter-and-ac-milan-unveil-plans-for-new-71500-seat-generali-stadium/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Vai ser assim o novo San Siro: Inter e Milan vão ter novo estádio em 2032",
-   "u": "https://www.abola.pt/video/vai-ser-assim-o-novo-san-siro-inter-e-milan-vao-ter-novo-estadio-em-2032-2026102921013964414",
+   "t": "Kika Nazareth brilha em goleada de 8-0 do Barcelona na Champions",
+   "u": "https://www.abola.pt/noticias/kika-nazareth-brilha-em-goleada-de-8-0-do-barcelona-na-champions-2026102922144614904",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -288,10 +288,10 @@
    "pais": "GB"
   },
   {
-   "t": "Los 10 puntos clave para entender el nuevo formato del campeonato de la Liga Profesional de Fútbol",
-   "u": "https://www.infobae.com/deportes/2026/10/29/los-10-puntos-clave-para-entender-el-nuevo-formato-del-campeonato-de-la-liga-profesional-de-futbol/",
+   "t": "El emocionante homenaje de la NBA a Manu Ginóbili por los 24 años de su histórico debut en la liga más prestigiosa del mundo",
+   "u": "https://www.infobae.com/deportes/2026/10/30/el-emocionante-homenaje-de-la-nba-a-manu-ginobili-por-los-24-anos-de-su-historico-debut-en-la-liga-mas-prestigiosa-del-mundo/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
