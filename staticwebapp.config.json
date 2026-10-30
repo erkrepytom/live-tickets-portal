@@ -1,6 +1,666 @@
 {
   "routes": [
     {
+      "route": "/cidades/londres",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/cidades/milao",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/cidades/paris",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/competicoes/six-nations",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/competicoes/uefa-champions-league",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/competicoes/uefa-nations-league",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/cities/london",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/cities/milan",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/cities/paris",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/competitions/six-nations",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/competitions/uefa-champions-league",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/competitions/uefa-nations-league",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/arsenal-vs-hull-city-2026-11-07",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/barcelona-vs-manchester-city-2026-12-08",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/celine-dion-paris-2027-05-14",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/final-champions-league-2027-06-05",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/final-libertadores-palmeiras-vs-estudiantes-2026-11-28",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/final-sul-americana-atletico-mg-vs-boca-2026-11-21",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/final-supercopa-italia-inter-vs-lazio-2026-12-22",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/franca-vs-africa-do-sul-2026-11-13",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/franca-vs-pais-de-gales-six-nations-2027-02-06",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/gp-abu-dhabi-f1-2026-12-06",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/irlanda-vs-inglaterra-six-nations-2027-02-05",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/italia-vs-franca-2026-11-12",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/milan-vs-inter-2026-10-31",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/sporting-vs-barcelona-2027-01-20",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/supercopa-espanha-barcelona-vs-atletico-2027-02-02",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/rugby",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/ciudades/londres",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/ciudades/milan",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/ciudades/paris",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/competiciones/six-nations",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/competiciones/uefa-champions-league",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/competiciones/uefa-nations-league",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/arsenal-vs-hull-city-2026-11-07",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/barcelona-vs-manchester-city-2026-12-08",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/celine-dion-paris-2027-05-14",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/final-champions-league-2027-06-05",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/franca-vs-africa-do-sul-2026-11-13",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/gp-abu-dhabi-f1-2026-12-06",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/italia-vs-franca-2026-11-12",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/milan-vs-inter-2026-10-31",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/sporting-vs-barcelona-2027-01-20",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/rugby",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/arsenal-vs-hull-city-2026-11-07",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/barcelona-vs-manchester-city-2026-12-08",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/celine-dion-paris-2027-05-14",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/final-champions-league-2027-06-05",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/franca-vs-africa-do-sul-2026-11-13",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/gp-abu-dhabi-f1-2026-12-06",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/italia-vs-franca-2026-11-12",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/milan-vs-inter-2026-10-31",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/sporting-vs-barcelona-2027-01-20",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/rugbi",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/cidades/londres/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/cidades/milao/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/cidades/paris/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/competicoes/six-nations/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/competicoes/uefa-champions-league/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/competicoes/uefa-nations-league/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/cities/london/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/cities/milan/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/cities/paris/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/competitions/six-nations/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/competitions/uefa-champions-league/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/competitions/uefa-nations-league/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/arsenal-vs-hull-city-2026-11-07/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/barcelona-vs-manchester-city-2026-12-08/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/celine-dion-paris-2027-05-14/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/final-champions-league-2027-06-05/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/franca-vs-africa-do-sul-2026-11-13/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/franca-vs-pais-de-gales-six-nations-2027-02-06/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/gp-abu-dhabi-f1-2026-12-06/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/irlanda-vs-inglaterra-six-nations-2027-02-05/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/italia-vs-franca-2026-11-12/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/milan-vs-inter-2026-10-31/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/sporting-vs-barcelona-2027-01-20/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/events/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/en/rugby/",
+      "redirect": "/en/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/ciudades/londres/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/ciudades/milan/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/ciudades/paris/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/competiciones/six-nations/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/competiciones/uefa-champions-league/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/competiciones/uefa-nations-league/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/arsenal-vs-hull-city-2026-11-07/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/barcelona-vs-manchester-city-2026-12-08/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/celine-dion-paris-2027-05-14/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/final-champions-league-2027-06-05/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/franca-vs-africa-do-sul-2026-11-13/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/gp-abu-dhabi-f1-2026-12-06/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/italia-vs-franca-2026-11-12/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/milan-vs-inter-2026-10-31/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/sporting-vs-barcelona-2027-01-20/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/es/rugby/",
+      "redirect": "/es/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/arsenal-vs-hull-city-2026-11-07/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/barcelona-vs-manchester-city-2026-12-08/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/celine-dion-paris-2027-05-14/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/final-champions-league-2027-06-05/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/final-libertadores-palmeiras-vs-estudiantes-2026-11-28/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/final-sul-americana-atletico-mg-vs-boca-2026-11-21/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/final-supercopa-italia-inter-vs-lazio-2026-12-22/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/franca-vs-africa-do-sul-2026-11-13/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/franca-vs-pais-de-gales-six-nations-2027-02-06/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/gp-abu-dhabi-f1-2026-12-06/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/irlanda-vs-inglaterra-six-nations-2027-02-05/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/italia-vs-franca-2026-11-12/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/milan-vs-inter-2026-10-31/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/sporting-vs-barcelona-2027-01-20/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/eventos/supercopa-espanha-barcelona-vs-atletico-2027-02-02/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/rugbi/",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
       "route": "/go/*",
       "headers": {
         "X-Robots-Tag": "noindex, nofollow",
