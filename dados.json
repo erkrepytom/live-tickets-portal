@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-30T05:59:58+00:00",
+ "atualizado": "2026-10-30T13:09:53+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,16 +11,10 @@
    },
    "noticias": [
     {
-     "t": "Watson vai ao hospital, volta a campo e ajuda Packers a vencerem na NFL",
-     "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/10/30/watson-vai-ao-hospital-volta-a-campo-e-ajuda-packers-a-vencerem-na-nfl.ghtml",
+     "t": "Times rebaixados à Série B disputam a Libertadores? Entenda situações de Grêmio e Vasco",
+     "u": "https://ge.globo.com/rs/futebol/libertadores/noticia/2026/10/30/times-rebaixados-a-serie-b-disputam-a-libertadores-entenda-situacoes-de-gremio-e-vasco.ghtml",
      "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "NFL - Carolina Panthers x Green Bay Packers - AO VIVO",
-     "u": "https://ge.globo.com/futebol-americano/nfl/ao-vivo/nfl-carolina-panthers-x-green-bay-packers-ao-vivo.ghtml",
-     "f": "ge",
-     "alta": true
+     "alta": false
     },
     {
      "t": "Grêmio vence Athletico-PR, põe Inter no Z4 e complica o Corinthians",
@@ -32,6 +26,12 @@
      "t": "Flamengo goleia o Vasco no Nilton Santos; veja lances",
      "u": "https://www.gazetaesportiva.com/times/flamengo/flamengo-goleia-o-vasco-no-nilton-santos-veja-lances/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Sem clube, ex-joia portuguesa que passou por Bayern e PSG nega falta de profissionalismo",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/30/sem-clube-ex-joia-portuguesa-que-passou-por-bayern-e-psg-nega-falta-de-profissionalismo.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -57,14 +57,14 @@
      "alta": false
     },
     {
-     "t": "‘Delusional,’ ‘Still Live in 2010’ — Outcry Ensues As Lakers Fans Show Little Love for LeBron James Amid Jersey Retirement Debate",
-     "u": "https://sports.yahoo.com/articles/delusional-still-live-2010-outcry-052655371.html",
+     "t": "AC Milan owner Gerry Cardinale gives Ruben Amorim unconditional backing and insists Scudetto is '100% possible'",
+     "u": "https://sports.yahoo.com/articles/ac-milan-owner-gerry-cardinale-130425528.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Celtics Announce $200 Million Gift With an Impact Far Beyond Basketball",
-     "u": "https://sports.yahoo.com/articles/celtics-announce-200-million-gift-052050881.html",
+     "t": "LSU Football’s NFL Draft Stock: Entering Week 9",
+     "u": "https://sports.yahoo.com/articles/lsu-football-nfl-draft-stock-130000449.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Kika Nazareth brilha em goleada de 8-0 do Barcelona na Champions",
-     "u": "https://www.abola.pt/noticias/kika-nazareth-brilha-em-goleada-de-8-0-do-barcelona-na-champions-2026102922144614904",
+     "t": "Liverpool elimina Chelsea, Man. City sofre mas segue na Taça da Liga",
+     "u": "https://www.abola.pt/noticias/liverpool-elimina-chelsea-man-city-vence-e-segue-na-taca-da-liga-2026102822155744156",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Leonardo Jardim derrota Pedro Emanuel e Flamengo abre fosso para o Palmeiras na liderança do Brasileirão",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/leonardo-jardim-derrota-pedro-emanuel-e-flamengo-abre-fosso-para-o-palmeiras-na-lideranca-do-brasileirao",
+     "t": "Pereira da Costa: «Sócios do Benfica poderão expor assuntos da ordem do dia na AG»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/pereira-da-costa-socios-do-benfica-poderao-expor-assuntos-da-ordem-do-dia-na-ag",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "€288 milhões movimentados: o balanço do mercado de verão do Sporting",
-     "u": "https://www.abola.pt/noticias/euro288-milhoes-movimentados-o-balanco-do-mercado-de-verao-do-sporting-2026102918081798010",
+     "t": "Real Madrid: Valverde dá passo em frente para ajudar na tragédia de Toledo",
+     "u": "https://www.abola.pt/noticias/real-madrid-valverde-da-passo-em-frente-para-ajudar-na-tragedia-de-toledo-2026102818371660380",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Os casos do Benfica-Gil Vicente",
-     "u": "https://www.record.pt/futebol/futebol-nacional/allianz-cup/detalhe/20261030-005807-os-casos-do-benfica-gil-vicente",
+     "t": "Vasco Botelho da Costa projeta receção ao E. Amadora: «Vai ser seguramente um jogo bastante tático»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/moreirense/detalhe/vasco-botelho-da-costa-projeta-rececao-ao-e-amadora-vai-ser-seguramente-um-jogo-bastante-tatico",
      "f": "Record",
      "alta": false
     }
@@ -113,8 +113,8 @@
    },
    "noticias": [
     {
-     "t": "27-30: Un Barça de récord pasa a la segunda fase de la Champions con cuatro puntos",
-     "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244814/27-30-barca-record-pasa-segunda-fase-champions-cuatro-puntos.html",
+     "t": "\"Es el problema del Real Madrid: menos mal que ni Bayern ni Barça tienen a nadie parecido\"",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261030/1004244962/problema-real-madrid-mal-bayern-barca-nadie-parecido.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -125,15 +125,15 @@
      "alta": false
     },
     {
-     "t": "Así quedan los nuevos grupos de la segunda fase de la Champions: puro espectáculo con el Barça",
-     "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244770/asi-quedan-dos-nuevos-grupos-segunda-fase-champions-proximos-rivales-barca.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "Lorenzo Brown aún reclama el anillo de campeón de la NBA de 2019",
      "u": "https://www.marca.com/baloncesto/nba/2026/10/29/lorenzo-brown-aun-reclama-anillo-campeon-nba-2019.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Desvelado lo que sucedió en el vestuario del Real Madrid después del Clásico",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261030/1004244982/vestuario.html",
+     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -153,20 +153,20 @@
      "alta": false
     },
     {
-     "t": "PSG claim late point after Shaw penalty to hit Manchester City’s WCL top-four hopes",
-     "u": "https://www.theguardian.com/football/2026/oct/29/manchester-city-paris-saint-germain-womens-champions-league-match-report",
+     "t": "Penalty seals England win in controversial U-15 World Cup match, Afcon to be held every two years, and Premier League news – football live",
+     "u": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "'I'm built differently' - Hamilton defiant over extending F1 career into 2030s",
-     "u": "https://www.skysports.com/f1/news/12040/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s",
-     "f": "Sky Sports",
+     "t": "F1 has never had anyone like me - Hamilton",
+     "u": "https://www.bbc.co.uk/sport/formula1/articles/cmvg9z1v33keo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "PSG score late to hold struggling Man City",
-     "u": "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss",
+     "t": "Why time is running out for Milan's iconic San Siro",
+     "u": "https://www.bbc.co.uk/sport/football/videos/c0q4k74kvy5o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "El emocionante homenaje de la NBA a Manu Ginóbili por los 24 años de su histórico debut en la liga más prestigiosa del mundo",
-     "u": "https://www.infobae.com/deportes/2026/10/30/el-emocionante-homenaje-de-la-nba-a-manu-ginobili-por-los-24-anos-de-su-historico-debut-en-la-liga-mas-prestigiosa-del-mundo/",
+     "t": "Estalló la guerra de pilotos en la Fórmula 1 tras las críticas de Fernando Alonso a un sector de la parrilla: “Espero que no nos crucemos en pista”",
+     "u": "https://www.infobae.com/deportes/2026/10/30/estallo-la-guerra-de-pilotos-en-la-formula-1-tras-las-criticas-de-fernando-alonso-a-un-sector-de-la-parrilla-espero-que-no-nos-crucemos-en-pista/",
      "f": "Infobae",
      "alta": true
     },
     {
-     "t": "Atento Boca Juniors: las dos bajas por lesión que sufrió el Atlético Mineiro, rival en la final de la Copa Sudamericana",
-     "u": "https://www.infobae.com/deportes/2026/10/30/atento-boca-juniors-las-dos-bajas-por-lesion-que-sufrio-el-atletico-mineiro-rival-en-la-final-de-la-copa-sudamericana/",
+     "t": "El emocionante homenaje de la NBA a Manu Ginóbili por los 24 años de su histórico debut en la liga más prestigiosa del mundo",
+     "u": "https://www.infobae.com/deportes/2026/10/30/el-emocionante-homenaje-de-la-nba-a-manu-ginobili-por-los-24-anos-de-su-historico-debut-en-la-liga-mas-prestigiosa-del-mundo/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Atento Boca: un jugador de Atlético Mineiro al hospital y otro con posible desgarro en la derrota del clásico",
-     "u": "https://www.ole.com.ar/futbol-internacional/atleticomineiro-boca-copasudamericana-cruzeiro-eduardodominguez-vitao-gabrieldelfim-reinier_0_okI3oYjGCI.html",
+     "t": "Un clásico, Vasco: la racha de Boca contra los grandes justo antes del cruce contra River",
+     "u": "https://www.ole.com.ar/boca-juniors/racha-boca-equipos-grandes-rodolfo-arruabarrena-superclasico-river_0_E2btKq8YPX.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Una leve mejoría para la Liga Profesional",
-     "u": "https://www.ole.com.ar/opinion/futbolargentinoafaligaprofesional_0_GRwF6NJUVj.html",
+     "t": "El cinco del cinco: la apuesta que tiene en mente Ponzio para ir a ganar a la cancha de Boca",
+     "u": "https://www.ole.com.ar/river-plate/river-plate-lucas-silva-superclasico-boca-bombonera-titular_0_bseTOj40uV.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Ligue des champions féminine : Le PSG arrache un point à Manchester City",
-     "u": "https://www.lequipe.fr/Football/Actualites/Ligue-des-champions-feminine-le-psg-arrache-un-point-a-manchester-city/1739634#at_medium=RSS_feeds",
+     "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
+     "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Ce qu'il faut retenir de la nuit en NBA : les Portland Trail Blazers battus, les New Orleans Pelicans enfin victorieux",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Les-portland-trail-blazers-battus-les-new-orleans-pelicans-enfin-victorieux-en-nba/1739647#at_medium=RSS_feeds",
+     "t": "Champion NBA avec les Knicks, Pacôme Dadiet devrait être libre de tout contrat à la fin de la saison",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Champion-nba-avec-les-knicks-pacome-dadiet-devrait-etre-libre-de-tout-contrat-a-la-fin-de-la-saison/1739706#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,10 +253,10 @@
  ],
  "destaques": [
   {
-   "t": "Watson vai ao hospital, volta a campo e ajuda Packers a vencerem na NFL",
-   "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/10/30/watson-vai-ao-hospital-volta-a-campo-e-ajuda-packers-a-vencerem-na-nfl.ghtml",
+   "t": "Times rebaixados à Série B disputam a Libertadores? Entenda situações de Grêmio e Vasco",
+   "u": "https://ge.globo.com/rs/futebol/libertadores/noticia/2026/10/30/times-rebaixados-a-serie-b-disputam-a-libertadores-entenda-situacoes-de-gremio-e-vasco.ghtml",
    "f": "ge",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
@@ -267,15 +267,15 @@
    "pais": "US"
   },
   {
-   "t": "Kika Nazareth brilha em goleada de 8-0 do Barcelona na Champions",
-   "u": "https://www.abola.pt/noticias/kika-nazareth-brilha-em-goleada-de-8-0-do-barcelona-na-champions-2026102922144614904",
+   "t": "Liverpool elimina Chelsea, Man. City sofre mas segue na Taça da Liga",
+   "u": "https://www.abola.pt/noticias/liverpool-elimina-chelsea-man-city-vence-e-segue-na-taca-da-liga-2026102822155744156",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "27-30: Un Barça de récord pasa a la segunda fase de la Champions con cuatro puntos",
-   "u": "https://www.mundodeportivo.com/balonmano/20261029/1004244814/27-30-barca-record-pasa-segunda-fase-champions-cuatro-puntos.html",
+   "t": "\"Es el problema del Real Madrid: menos mal que ni Bayern ni Barça tienen a nadie parecido\"",
+   "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261030/1004244962/problema-real-madrid-mal-bayern-barca-nadie-parecido.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
@@ -288,8 +288,8 @@
    "pais": "GB"
   },
   {
-   "t": "El emocionante homenaje de la NBA a Manu Ginóbili por los 24 años de su histórico debut en la liga más prestigiosa del mundo",
-   "u": "https://www.infobae.com/deportes/2026/10/30/el-emocionante-homenaje-de-la-nba-a-manu-ginobili-por-los-24-anos-de-su-historico-debut-en-la-liga-mas-prestigiosa-del-mundo/",
+   "t": "Estalló la guerra de pilotos en la Fórmula 1 tras las críticas de Fernando Alonso a un sector de la parrilla: “Espero que no nos crucemos en pista”",
+   "u": "https://www.infobae.com/deportes/2026/10/30/estallo-la-guerra-de-pilotos-en-la-formula-1-tras-las-criticas-de-fernando-alonso-a-un-sector-de-la-parrilla-espero-que-no-nos-crucemos-en-pista/",
    "f": "Infobae",
    "alta": true,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Ligue des champions féminine : Le PSG arrache un point à Manchester City",
-   "u": "https://www.lequipe.fr/Football/Actualites/Ligue-des-champions-feminine-le-psg-arrache-un-point-a-manchester-city/1739634#at_medium=RSS_feeds",
+   "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
+   "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
