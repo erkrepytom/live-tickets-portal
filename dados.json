@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-31T15:47:14+00:00",
+ "atualizado": "2026-10-31T20:04:21+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Manchester City x Brighton - Campeonato Inglês 2026/27 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/31-10-2026/Manchestercity-brighton.ghtml",
+     "t": "Vasco chega a São Paulo para enfrentar o Palmeiras na Copa do Brasil; veja a provável escalação",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/31/vasco-chega-a-sao-paulo-para-enfrentar-o-palmeiras-na-copa-do-brasil-veja-a-provavel-escalacao.ghtml",
      "f": "ge",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Corinthians x Cruzeiro - Campeonato Brasileiro sub-17 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/jogo/31-10-2026/corinthians-cruzeiro.ghtml",
+     "t": "Atlético-MG x Boca Juniors: Conmebol muda horário da final da Copa Sul-Americana",
+     "u": "https://ge.globo.com/mg/futebol/copa-sul-americana/noticia/2026/10/31/atletico-mg-x-boca-juniors-conmebol-muda-horario-da-final-da-copa-sul-americana.ghtml",
      "f": "ge",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Primeiro gol de Vitor Reis pelo Manchester City",
-     "u": "https://www.gazetaesportiva.com/futebol/futebol-internacional/primeiro-gol-de-vitor-reis-pelo-manchester-city/",
+     "t": "Conmebol define horário da final entre Atlético-MG e Boca Juniors",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-sulamericana/conmebol-define-horario-da-final-da-sul-americana-entre-atletico-mg-e-boca-juniors/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Bastidores da vitória do Cruzeiro sobre o Atlético-MG na Arena MRV",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/bastidores-da-vitoria-do-cruzeiro-sobre-o-atletico-mg-na-arena-mrv/",
+     "t": "Palmeiras faz último treino antes de enfrentar o Vasco pela semifinal da Copa do Brasil",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-faz-ultimo-treino-antes-de-enfrentar-o-vasco-pela-semifinal-da-copa-do-brasil/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Carrick confident he will be Manchester United manager against Roma on Nov 3",
-     "u": "https://sports.yahoo.com/articles/carrick-confident-manchester-united-manager-153600428.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Manchester United player ratings vs Chelsea: Lisandro Martinez red costly as Carrick's side crumble at Stamford Bridge",
-     "u": "https://sports.yahoo.com/articles/manchester-united-player-ratings-vs-153551345.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "NFL Week 8 odds, picks: Brinson's best bets, player props, anytime touchdown scorers for Sunday's games",
-     "u": "https://www.cbssports.com/betting/news/nfl-week-8-odds-picks-brinsons-best-bets-player-props-anytime-touchdown-scorers-for-sundays-games/",
+     "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Florida-Georgia, Miami-UNC, college football",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-florida-georgia-miami-unc-college-football/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Georgia vs. Florida odds, picks, predictions, spread, line: Saturday college football betting preview",
-     "u": "https://www.cbssports.com/betting/news/georgia-vs-florida-odds-picks-predictions-spread-line-saturday-college-football-betting-preview/",
+     "t": "Masked legends to costume icons: Ranking NBA’s all-time most Halloween-ready looks",
+     "u": "https://sports.yahoo.com/articles/masked-legends-costume-icons-ranking-195551140.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Dortmund peg back injury-hit Bayern twice to draw 2-2",
+     "u": "https://sports.yahoo.com/articles/dortmund-peg-back-injury-hit-194824276.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Jeanie Buss accuses siblings of conspiring against her as dispute over Lakers stake continues",
+     "u": "https://www.cbssports.com/nba/news/jeanie-buss-lakers-sale-family-dispute/",
      "f": "CBS Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Sporting ataca a Champions: Rui Borges orientou treino após a vitória frente ao Casa Pia",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sporting-ataca-a-champions-rui-borges-orientou-treino-apos-a-vitoria-frente-ao-casa-pia",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Programa do Sporting para a Champions definido: treino na Academia e conferências em Londres",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/programa-do-sporting-para-a-champions-definido-treino-na-academia-e-conferencias-em-londres",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "FC Porto: Santiago Gimenez contra o infortúnio",
-     "u": "https://www.abola.pt/noticias/fc-porto-santiago-gimenez-contra-o-infortunio-2026102915172282688",
+     "t": "Milan e Inter revelam projeto do novo estádio para render San Siro (fotos)",
+     "u": "https://www.abola.pt/noticias/milan-e-inter-revelam-projeto-do-novo-estadio-para-render-san-siro-fotos-2026102920425434743",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "VOTE: qual deve ser o onze do FC Porto para o Estoril?",
-     "u": "https://www.abola.pt/noticias/vote-qual-deve-ser-o-onze-do-fc-porto-para-o-estoril-2026102916120008386",
+     "t": "Golo de Fábio Silva garante empate do Dortmund com o Bayern nos minutos finais",
+     "u": "https://www.record.pt/internacional/paises/alemanha/detalhe/20261031-143451-bayern-munique-borussia-dortmund-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Diego Moreira ‘reforça’ Amorim antes do dérbi com o Inter",
+     "u": "https://www.abola.pt/noticias/diego-moreira-reforca-amorim-antes-do-derbi-com-o-inter-2026102920231145671",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Relatório e contas do Benfica aprovado com 73,68% dos votos",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/relatorio-e-contas-do-benfica-aprovado-com-73-68-dos-votos",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -119,21 +119,21 @@
      "alta": false
     },
     {
-     "t": "Horario, canal y dónde ver por TV el Barça - Alavés de LaLiga EA Sports",
-     "u": "https://www.mundodeportivo.com/horarios/futbol/20261030/1004244915/horario-canal-ver-tv-fc-barcelona-alaves-laliga-ea-sports-primera-division-futbol.html",
+     "t": "Jódar, histórico ya en el tenis español ATP: abrió Orantes, lideraron Nadal, Alcaraz, Moyà y Ferrero",
+     "u": "https://www.mundodeportivo.com/tenis/20261031/1004245495/jodar-historico-tenis-espanol-atp-abrio-orantes-lideraron-nadal-alcaraz-moya-ferrero.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "La gran final del Mundial Sub-15, en directo",
-     "u": "https://www.marca.com/futbol/seleccion/2026/10/30/6ae49b2a020dbf8b21b1dec8-directo.html",
+     "t": "0-1: El Brighton se venga del Manchester City y logra un triunfo histórico en el Etihad",
+     "u": "https://www.mundodeportivo.com/futbol/premier-league/20261031/1004245455/brighton.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "¡Ladrando al campo equivocado! Un perro irrumpe en un partido de la Premier League egipcia.",
+     "u": "https://www.marca.com/futbol/2026/10/30/ladrando-campo-equivocado-perro-irrumpe-partido-premier-league-egipcia-video.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Las claves del Barça-Alavés, por Lobo Carrasco",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261031/1004245058/claves-barca-alaves-lobo-carrasco.html",
-     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
      "t": "AC Milan v Inter and the tale of an iconic image",
      "u": "https://www.bbc.co.uk/sport/football/articles/cq99zlpzm87ro?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Antonelli set for F1 title, Premier League, and NFL action – follow with us",
-     "u": "https://www.theguardian.com/sport/2026/oct/30/antonelli-set-for-f1-title-premier-league-and-nfl-action-follow-with-us",
+     "t": "Manchester United crisis deepens with Chelsea defeat and Martínez red card",
+     "u": "https://www.theguardian.com/football/2026/oct/31/chelsea-manchester-united-premier-league-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Manchester United crisis deepens with Chelsea defeat and Martínez red card",
-     "u": "https://www.theguardian.com/football/2026/oct/31/chelsea-manchester-united-premier-league-match-report",
+     "t": "Manchester United’s capitulation at Chelsea paints picture of a club that barely exists | Barney Ronay",
+     "u": "https://www.theguardian.com/football/2026/oct/31/manchester-united-chelsea-premier-league-michael-carrick",
      "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Briton Dart reaches first WTA Tour singles final",
+     "u": "https://www.bbc.co.uk/sport/tennis/articles/cqwyr2r3jggno?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Antes de la clasificación, Franco Colapinto afrontará la última práctica libre del Gran Premio de México de la Fórmula 1: hora, TV y formaciones",
-     "u": "https://www.infobae.com/deportes/2026/10/31/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-libre-del-gran-premio-de-mexico-de-la-formula-1-hora-tv-y-formaciones/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Las posibles formaciones de Boca Juniors y River Plate para el Superclásico del domingo en la Bombonera",
-     "u": "https://www.infobae.com/deportes/2026/10/31/las-posibles-formaciones-de-boca-juniors-y-river-plate-para-el-superclasico-del-domingo-en-la-bombonera/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Oficial: Boca y Atlético Mineiro ya tienen horario de inicio de la final",
-     "u": "https://www.ole.com.ar/futbol-internacional/sudamericana/boca-atleticomineiro-copasudamericana-conmebol-barranquilla-20_0_Q3ijKuT0hI.html",
+     "t": "Milan vs. Inter, hoy en VIVO: ¡Gol tempranero de Pulisic!",
+     "u": "https://www.ole.com.ar/futbol-internacional/italia/inter-milan-derbi-serie-lautaro-martinez_0_MxUhMmihMg.html",
      "f": "Olé",
+     "alta": true
+    },
+    {
+     "t": "La guía de Franco Colapinto a Lewis Hamilton para preparar un mate durante el Gran Premio de México de la Fórmula 1",
+     "u": "https://www.infobae.com/deportes/2026/10/31/la-guia-de-franco-colapinto-a-lewis-hamilton-para-preparar-un-mate-durante-el-gran-premio-de-mexico-de-la-formula-1/",
+     "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Bomba en la Fórmula 1: de la nada, cambian a un piloto titular por un reserva en el GP de México",
-     "u": "https://www.ole.com.ar/autos/granpremiodemexico-estebanocon-ryohirakawa-haas-formula1_0_fNGvijMFPf.html",
+     "t": "Shock en la Fórmula 1: Haas bajó a Esteban Ocon de su butaca para el Gran Premio de México y estallaron los rumores",
+     "u": "https://www.infobae.com/deportes/2026/10/31/sorpresa-en-la-formula-1-haas-anuncio-que-reemplazara-a-esteban-ocon-por-su-piloto-de-reserva-en-el-gran-premio-de-mexico/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Quimsa le ganó a Peñarol y es el único líder de la Liga Nacional",
+     "u": "https://www.ole.com.ar/basquet/quimsa-penarol-lider-liga-nacional-basquet_0_ARWFVtyDec.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "« Il a voulu me tuer » : Greg LeMond s'en prend à Lance Armstrong et jure qu'il était « incapable de gagner le Tour de France »",
-     "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/-il-a-voulu-me-tuer-greg-lemond-s-en-prend-a-lance-armstrong-et-jure-qu-il-etait-incapable-de-gagner-le-tour-de-france/1740040#at_medium=RSS_feeds",
+     "t": "Où voir AC Milan-Inter Milan ?",
+     "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-ac-milan-inter-milan-en-serie-a/1739781#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "L'Atlético de Madrid s'impose sur la pelouse de Levante et prend provisoirement la tête de la Liga",
-     "u": "https://www.lequipe.fr/Football/Actualites/L-atletico-de-madrid-s-impose-sur-la-pelouse-de-levante-et-prend-provisoirement-la-tete-de-la-liga/1740033#at_medium=RSS_feeds",
+     "t": "Le Bayern Munich accroché par le Borussia Dortmund, Harry Kane pas vraiment à la fête",
+     "u": "https://www.lequipe.fr/Football/Actualites/Le-bayern-munich-accroche-par-le-borussia-dortmund-harry-kane-pas-vraiment-a-la-fete/1740138#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,23 +253,23 @@
  ],
  "destaques": [
   {
-   "t": "Manchester City x Brighton - Campeonato Inglês 2026/27 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/31-10-2026/Manchestercity-brighton.ghtml",
+   "t": "Vasco chega a São Paulo para enfrentar o Palmeiras na Copa do Brasil; veja a provável escalação",
+   "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/31/vasco-chega-a-sao-paulo-para-enfrentar-o-palmeiras-na-copa-do-brasil-veja-a-provavel-escalacao.ghtml",
    "f": "ge",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Carrick confident he will be Manchester United manager against Roma on Nov 3",
-   "u": "https://sports.yahoo.com/articles/carrick-confident-manchester-united-manager-153600428.html",
-   "f": "Yahoo Sports",
+   "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Florida-Georgia, Miami-UNC, college football",
+   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-florida-georgia-miami-unc-college-football/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Sporting ataca a Champions: Rui Borges orientou treino após a vitória frente ao Casa Pia",
-   "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sporting-ataca-a-champions-rui-borges-orientou-treino-apos-a-vitoria-frente-ao-casa-pia",
-   "f": "Record",
+   "t": "Milan e Inter revelam projeto do novo estádio para render San Siro (fotos)",
+   "u": "https://www.abola.pt/noticias/milan-e-inter-revelam-projeto-do-novo-estadio-para-render-san-siro-fotos-2026102920425434743",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
@@ -281,17 +281,17 @@
    "pais": "ES"
   },
   {
-   "t": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
-   "u": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
+   "t": "AC Milan v Inter and the tale of an iconic image",
+   "u": "https://www.bbc.co.uk/sport/football/articles/cq99zlpzm87ro?at_medium=RSS&at_campaign=rss",
    "f": "BBC Sport",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Antes de la clasificación, Franco Colapinto afrontará la última práctica libre del Gran Premio de México de la Fórmula 1: hora, TV y formaciones",
-   "u": "https://www.infobae.com/deportes/2026/10/31/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-libre-del-gran-premio-de-mexico-de-la-formula-1-hora-tv-y-formaciones/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Milan vs. Inter, hoy en VIVO: ¡Gol tempranero de Pulisic!",
+   "u": "https://www.ole.com.ar/futbol-internacional/italia/inter-milan-derbi-serie-lautaro-martinez_0_MxUhMmihMg.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "« Il a voulu me tuer » : Greg LeMond s'en prend à Lance Armstrong et jure qu'il était « incapable de gagner le Tour de France »",
-   "u": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/-il-a-voulu-me-tuer-greg-lemond-s-en-prend-a-lance-armstrong-et-jure-qu-il-etait-incapable-de-gagner-le-tour-de-france/1740040#at_medium=RSS_feeds",
+   "t": "Où voir AC Milan-Inter Milan ?",
+   "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-ac-milan-inter-milan-en-serie-a/1739781#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
