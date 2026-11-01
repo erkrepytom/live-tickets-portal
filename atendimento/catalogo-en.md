@@ -4,14 +4,6 @@ Full partner catalogue: https://www.sportsevents365.com/?a_aid=6821d72fcdbe3
 
 ## Events with a page
 
-### AC Milan vs Inter
-- Date: Saturday, October 31, 2026
-- Venue: San Siro (Giuseppe Meazza), Milan, Italy (Serie A)
-- Tickets: https://www.sportsevents365.com/event/391609?a_aid=6821d72fcdbe3&data1=whatsapp&data2=en
-- Guide on the site: https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/
-- Metro M5 to San Siro Stadio station, next to the stadium.
-- Tram 16 also stops at the square in front of the stadium.
-
 ### Italy vs France
 - Date: Thursday, November 12, 2026
 - Venue: San Siro (Giuseppe Meazza), Milan, Italy (UEFA Nations League)

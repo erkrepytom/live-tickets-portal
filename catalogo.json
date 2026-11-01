@@ -1,7 +1,7 @@
 {
  "nome": "MyTickets Tours",
  "url": "https://mytickets.tours/",
- "atualizado": "2026-10-31",
+ "atualizado": "2026-11-01",
  "o_que_e": "Guia independente de ingressos para eventos esportivos e shows internacionais, em português, inglês e espanhol.",
  "aviso": "Este site NÃO vende ingresso e não é o fornecedor primário. Ele encaminha para parceiros revendedores e recebe comissão, sem custo extra para o comprador. Os preços são do parceiro e podem ficar acima do valor de face.",
  "vendedores": [
@@ -18,41 +18,6 @@
  },
  "uso": "Livre para ler, citar e referenciar. Pedimos que cite o nome do site, MyTickets Tours.",
  "eventos": [
-  {
-   "id": "391609",
-   "slug": "milan-vs-inter-2026-10-31",
-   "tipo": "football",
-   "titulo": {
-    "pt": "AC Milan x Inter",
-    "en": "AC Milan vs Inter",
-    "es": "AC Milan vs Inter"
-   },
-   "data": "2026-10-31",
-   "hora_local": "20:45",
-   "local": "San Siro (Giuseppe Meazza)",
-   "cidade": {
-    "pt": "Milão",
-    "en": "Milan",
-    "es": "Milán"
-   },
-   "pais": {
-    "pt": "Itália",
-    "en": "Italy",
-    "es": "Italia"
-   },
-   "competicao": "Serie A",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/milan-vs-inter-2026-10-31/",
-    "en": "https://mytickets.tours/en/events/milan-vs-inter-2026-10-31/",
-    "es": "https://mytickets.tours/es/eventos/milan-vs-inter-2026-10-31/"
-   },
-   "preco": {
-    "a_partir_de": 239.0,
-    "moeda": "USD",
-    "conferido": "2026-10-31",
-    "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
-   }
-  },
   {
    "id": "387682",
    "slug": "italia-vs-franca-2026-11-12",
@@ -84,7 +49,7 @@
    "preco": {
     "a_partir_de": 53.0,
     "moeda": "USD",
-    "conferido": "2026-10-31",
+    "conferido": "2026-11-01",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
   },
@@ -117,9 +82,9 @@
     "es": "https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/"
    },
    "preco": {
-    "a_partir_de": 41.0,
+    "a_partir_de": 40.0,
     "moeda": "USD",
-    "conferido": "2026-10-31",
+    "conferido": "2026-11-01",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
   },
@@ -154,7 +119,7 @@
    "preco": {
     "a_partir_de": 407.0,
     "moeda": "USD",
-    "conferido": "2026-10-31",
+    "conferido": "2026-11-01",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
   },
@@ -189,7 +154,7 @@
    "preco": {
     "a_partir_de": 501.0,
     "moeda": "USD",
-    "conferido": "2026-10-31",
+    "conferido": "2026-11-01",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
   },
@@ -224,7 +189,7 @@
    "preco": {
     "a_partir_de": 223.0,
     "moeda": "USD",
-    "conferido": "2026-10-31",
+    "conferido": "2026-11-01",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
   },
@@ -259,7 +224,7 @@
    "preco": {
     "a_partir_de": 1355.0,
     "moeda": "USD",
-    "conferido": "2026-10-31",
+    "conferido": "2026-11-01",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
   },
@@ -292,9 +257,9 @@
     "es": "https://mytickets.tours/es/eventos/celine-dion-paris-2027-05-14/"
    },
    "preco": {
-    "a_partir_de": 370.0,
+    "a_partir_de": 367.0,
     "moeda": "USD",
-    "conferido": "2026-10-31",
+    "conferido": "2026-11-01",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
   },
@@ -329,7 +294,7 @@
    "preco": {
     "a_partir_de": 7006.0,
     "moeda": "USD",
-    "conferido": "2026-10-31",
+    "conferido": "2026-11-01",
     "observacao": "menor preço visto no parceiro; taxas e entrega são cobradas no checkout dele"
    }
   }

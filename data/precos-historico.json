@@ -766,5 +766,119 @@
     "moeda": "USD"
    }
   }
+ },
+ "2026-11-01": {
+  "383977": {
+   "en": {
+    "min": 38.0,
+    "moeda": "USD"
+   },
+   "es": {
+    "min": 39.0,
+    "moeda": "USD"
+   },
+   "pt": {
+    "min": 40.0,
+    "moeda": "USD"
+   }
+  },
+  "387682": {
+   "en": {
+    "min": 50.0,
+    "moeda": "USD"
+   },
+   "es": {
+    "min": 51.0,
+    "moeda": "USD"
+   },
+   "pt": {
+    "min": 53.0,
+    "moeda": "USD"
+   }
+  },
+  "387903": {
+   "en": {
+    "min": 386.0,
+    "moeda": "USD"
+   },
+   "es": {
+    "min": 390.0,
+    "moeda": "USD"
+   },
+   "pt": {
+    "min": 407.0,
+    "moeda": "USD"
+   }
+  },
+  "390886": {
+   "en": {
+    "min": 1286.0,
+    "moeda": "USD"
+   },
+   "es": {
+    "min": 1300.0,
+    "moeda": "USD"
+   },
+   "pt": {
+    "min": 1355.0,
+    "moeda": "USD"
+   }
+  },
+  "391312": {
+   "en": {
+    "min": 348.0,
+    "moeda": "USD"
+   },
+   "es": {
+    "min": 352.0,
+    "moeda": "USD"
+   },
+   "pt": {
+    "min": 367.0,
+    "moeda": "USD"
+   }
+  },
+  "399236": {
+   "en": {
+    "min": 6653.0,
+    "moeda": "USD"
+   },
+   "es": {
+    "min": 6720.0,
+    "moeda": "USD"
+   },
+   "pt": {
+    "min": 7006.0,
+    "moeda": "USD"
+   }
+  },
+  "401302": {
+   "en": {
+    "min": 212.0,
+    "moeda": "USD"
+   },
+   "es": {
+    "min": 214.0,
+    "moeda": "USD"
+   },
+   "pt": {
+    "min": 223.0,
+    "moeda": "USD"
+   }
+  },
+  "402363": {
+   "en": {
+    "min": 476.0,
+    "moeda": "USD"
+   },
+   "es": {
+    "min": 480.0,
+    "moeda": "USD"
+   },
+   "pt": {
+    "min": 501.0,
+    "moeda": "USD"
+   }
+  }
  }
 }
