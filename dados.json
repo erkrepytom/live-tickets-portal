@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-31T23:28:21+00:00",
+ "atualizado": "2026-11-01T06:23:09+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Corinthians x Cruzeiro - Taça Libertadores Feminina 2026 - globoesporte.com",
+     "t": "Lewis Hamilton conquista pole position do GP do México de Fórmula 1",
+     "u": "https://www.gazetaesportiva.com/motor/formula-1/lewis-hamilton-conquista-pole-position-do-gp-do-mexico-de-formula-1/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "Confira as fotos do treino classificatório da Fórmula 1 no México",
+     "u": "https://www.gazetaesportiva.com/motor/formula-1/confira-as-fotos-do-treino-classificatorio-da-formula-1-no-mexico/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "Cruzeiro vence Corinthians nos pênaltis após reação incrível e conquista a Libertadores Feminina",
      "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Grêmio x Atlético-MG pela Copa do Brasil: onde assistir, estatísticas, histórico e prováveis escalações",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/gremio-x-atletico-mg-pela-copa-do-brasil-onde-assistir-estatisticas-historico-e-provaveis-escalacoes/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Sem Andrés Gómez, Vasco chega a São Paulo para enfrentar o Palmeiras",
-     "u": "https://www.gazetaesportiva.com/times/vasco/sem-andres-gomez-vasco-chega-a-sao-paulo-para-enfrentar-o-palmeiras/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Éder Militão teve casa roubada durante o clássico Barcelona x Real Madrid",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/31/eder-militao-teve-casa-roubada-durante-o-classico-barcelona-x-real-madrid.ghtml",
+     "t": "Juninho, ex-Flamengo, marca de letra em vitória do Pumas: \"Recurso\"",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/01/juninho-ex-flamengo-marca-de-letra-em-vitoria-do-pumas-recurso.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,8 +45,8 @@
    },
    "noticias": [
     {
-     "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Ohio State-USC, Miami-UNC, college football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-ohio-state-usc-miami-unc-college-football/",
+     "t": "Borussia Dortmund spoil Harry Kane's Ballon d'Or coronation, keep pace in Bundesliga title race",
+     "u": "https://www.cbssports.com/soccer/news/harry-kane-ballon-dor-coronation-borussia-dortmund-bundesliga-title-race/",
      "f": "CBS Sports",
      "alta": false
     },
@@ -57,14 +57,14 @@
      "alta": false
     },
     {
-     "t": "Hamilton takes first pole for Ferrari at Mexico City Grand Prix",
-     "u": "https://sports.yahoo.com/articles/hamilton-takes-first-pole-ferrari-221738713.html",
+     "t": "Kings’ Darius Acuff Jr. ties NBA rookie record with monster shooting game vs. Grizzlies",
+     "u": "https://sports.yahoo.com/articles/kings-darius-acuff-jr-ties-060628544.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "2026 VidantaWorld Mexico Open final round tee times, how to watch PGA Tour",
-     "u": "https://sports.yahoo.com/articles/2026-vidantaworld-mexico-open-final-232149944.html",
+     "t": "4 things we learned from Ohio State football's loss at USC",
+     "u": "https://sports.yahoo.com/articles/4-things-learned-ohio-state-060951296.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Gabri Veiga trabalhou bem na área e não perdoou: foi assim que o FC Porto chegou ao 4-0",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/gabri-veiga-trabalhou-bem-na-area-e-nao-perdoou-foi-assim-que-o-fc-porto-chegou-ao-4-0",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Gabri Veiga e a pressão dos rivais: «Não me interessam os outros. Quero é saber do FC Porto»",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/gabri-veiga-garante-que-nao-olha-para-os-rivais-nao-me-interessam-os-outros-quero-e-saber-do-fc-porto",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "NBA Cup: Celtics batem Bulls com Neemias em destaque",
-     "u": "https://www.abola.pt/noticias/nba-cup-celtics-batem-bulls-com-neemias-em-destaque-2026103108372273908",
+     "t": "Champions: Benfica goleia após arranque demolidor e fecha grupo na liderança",
+     "u": "https://www.abola.pt/noticias/champions-benfica-goleia-apos-arranque-demolidor-e-fecha-grupo-na-lideranca-2026103120062831675",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Já imaginou um clássico em versão... Playmobil? Aconteceu no Bayern-Dortmund (vídeos)",
-     "u": "https://www.abola.pt/noticias/ja-imaginou-um-classico-em-versao-playmobil-aconteceu-no-bayern-dortmund-videos-2026103119145282132",
+     "t": "Amorim após vencer o Inter: «Há 2 dias parecia que estávamos num cemitério... Agora já falam no Scudetto»",
+     "u": "https://www.record.pt/internacional/paises/italia/ac-milan/detalhe/amorim-apos-vencer-o-inter-ha-2-dias-parecia-que-estavamos-num-cemiterio-agora-ja-falam-no-scudetto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Grimaldo abriu caminho e Atlético voa na LaLiga (resumo)",
+     "u": "https://www.abola.pt/video/grimaldo-abriu-caminho-e-atletico-voa-na-laliga-resumo-2026103115075610708",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Rotação para continuar? O que pensa Marco Silva da baliza do Benfica",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/rotacao-para-continuar-o-que-pensa-marco-silva-da-baliza-do-benfica",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -113,28 +113,28 @@
    },
    "noticias": [
     {
-     "t": "Hamilton, primera pole con Ferrari y se cuela en la fiesta de Kimi; Alonso, jarro de agua fría",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261031/1004245576/lewis-hamilton-logra-primera-pole-ferrari-cuela-fiesta-kimi-golpe-enorme-alonso.html",
+     "t": "Flick llega a las 100 victorias con el Barça",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261031/1004241204/flick-llega-100-victorias-barca.html",
      "f": "Mundo Deportivo",
      "alta": true
     },
     {
-     "t": "La nueva casa de Inter y Milan",
-     "u": "https://www.marca.com/futbol/liga-italiana/2026/10/30/nueva-casa-inter-milan-video.html",
+     "t": "Luís Castro: \"El Atlético es mucho mejor que el año pasado, tanto a nivel individual como colectivo\"",
+     "u": "https://www.marca.com/futbol/levante/2026/10/30/luis-castro-atletico-mejor-ano-pasado-tanto-nivel-individual-colectivo.html",
      "f": "Marca",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Así queda la clasificación de LaLiga tras la goleada del líder Barça",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261031/1004245563/asi-queda-clasificacion-laliga-goleada-lider-barca.html",
+     "t": "1-1: Suzuki regala la victoria de un vulnerable Aston Villa antes de ir a Barcelona",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261031/1004245567/suzuki-regala-victoria-vulnerable-aston-villa-barcelona.html",
      "f": "Mundo Deportivo",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "La gran final del Mundial Sub-15, en directo",
-     "u": "https://www.marca.com/futbol/seleccion/2026/10/30/6ae49b2a020dbf8b21b1dec8-directo.html",
+     "t": "Mazazo para España: Javi Leal sustituye a Ale Galán para el Mundial de pádel",
+     "u": "https://www.marca.com/padel/2026/10/30/javi-leal-sustituye-ale-galan-convocatoria-espana-mundial-padel.html",
      "f": "Marca",
-     "alta": false
+     "alta": true
     }
    ]
   },
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "AC Milan score three first-half goals to seal derby victory over Inter",
-     "u": "https://www.bbc.co.uk/sport/football/videos/cmqln15wdyxgo?at_medium=RSS&at_campaign=rss",
+     "t": "Antonelli set for F1 title, Premier League, and NFL action – follow with us",
+     "u": "https://www.theguardian.com/sport/2026/oct/30/antonelli-set-for-f1-title-premier-league-and-nfl-action-follow-with-us",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Manchester United’s capitulation at Chelsea paints picture of a club that barely exists | Barney Ronay",
+     "u": "https://www.theguardian.com/football/2026/oct/31/manchester-united-chelsea-premier-league-michael-carrick",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Briton Dart reaches first WTA Tour singles final",
+     "u": "https://www.bbc.co.uk/sport/tennis/articles/cqwyr2r3jggno?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Lewis Hamilton storms to his first Ferrari pole at F1 Mexican GP with Antonelli fourth",
-     "u": "https://www.theguardian.com/sport/2026/oct/31/lewis-hamilton-storms-to-first-ferrari-pole-at-f1-mexican-grand-prix-with-antonelli-fifth",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Michael Carrick insists he will still be in charge of Manchester United against Roma",
-     "u": "https://www.theguardian.com/football/2026/oct/31/michael-carrick-chelsea-manchester-united-roma-premier-league",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Hamilton takes first pole for Ferrari at Mexico City Grand Prix",
-     "u": "https://www.bbc.co.uk/sport/formula1/articles/c6reyl8zp3jwo?at_medium=RSS&at_campaign=rss",
+     "t": "Kane misses Bayern penalty before late Dortmund goal earns draw",
+     "u": "https://www.bbc.co.uk/sport/football/videos/ckpdg3eq06z5o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -184,24 +184,24 @@
      "t": "La guía de Franco Colapinto a Lewis Hamilton para preparar un mate durante el Gran Premio de México de la Fórmula 1",
      "u": "https://www.infobae.com/deportes/2026/10/31/la-guia-de-franco-colapinto-a-lewis-hamilton-para-preparar-un-mate-durante-el-gran-premio-de-mexico-de-la-formula-1/",
      "f": "Infobae",
-     "alta": true
-    },
-    {
-     "t": "Lewis Hamilton hizo su primera pole en Ferrari y cortó una sequía de más de tres años",
-     "u": "https://www.ole.com.ar/autos/lewishamilton-primera-pole-position-ferrari-formula1-mexico_0_VpJnxeRxu7.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
-     "t": "El Barcelona se recuperó de la derrota ante el Real Madrid: goleó al Alavés y volvió a la punta de La Liga",
-     "u": "https://www.ole.com.ar/futbol-internacional/espana/barcelona-recupero-derrota-real-madrid-goleo-alaves_0_O9BC6VOaOw.html",
-     "f": "Olé",
      "alta": false
     },
     {
      "t": "El gol agónico del Borussia Dortmund para empatar con el Bayern Múnich en el clásico de la Bundesliga: el festejo cara a cara de los fanáticos",
      "u": "https://www.infobae.com/deportes/2026/10/31/el-gol-agonico-del-borussia-dortmund-para-empatar-con-el-bayern-munich-en-el-clasico-de-la-bundesliga-el-festejo-cara-a-cara-de-los-fanaticos/",
      "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "La lucha por el Campeón de Liga: Central puntero y por qué Boca y Argentinos están \"obligados\" a ganar lo que queda",
+     "u": "https://www.ole.com.ar/futbol-primera/lucha-campeon-liga-tabla-anual-posiciones-rosario-central-boca-argentinos_0_dr1J5G9dvA.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "La clasificación a las copas: quiénes están en zona de Libertadores y Sudamericana",
+     "u": "https://www.ole.com.ar/futbol-primera/tabla-anual-posiciones-clasificacion-copas-libertadores-sudamericana_0_mqf4wpCmf9.html",
+     "f": "Olé",
      "alta": false
     }
    ]
@@ -237,53 +237,53 @@
    },
    "noticias": [
     {
-     "t": "Grâce à un excellent Diego Moreira, l'AC Milan fait tomber l'Inter Milan pour la première fois en Serie A",
-     "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-excellent-diego-moreira-l-ac-milan-fait-tomber-l-inter-milan-pour-la-premiere-fois-en-serie-a/1740175#at_medium=RSS_feeds",
+     "t": "NBA : Le résumé vidéo de San Antonio - Minnesota avec les 43 points de Victor Wembanyama",
+     "u": "https://www.lequipe.fr/Basket/Video/Nba-nba-le-resume-video-de-san-antonio-minnesota-avec-les-43-points-de-victor-wembanyama/20244591#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Porté par les doublés de Raphinha et de Lamine Yamal contre Alavés, le FC Barcelone reprend la tête de la Liga",
-     "u": "https://www.lequipe.fr/Football/Actualites/Porte-par-les-doubles-de-raphinha-et-de-lamine-yamal-contre-alaves-le-fc-barcelone-reprend-la-tete-de-la-liga/1740181#at_medium=RSS_feeds",
+     "t": "Victor Wembanyama dévore les Minnesota Timberwolves avec 43 points inscrits, son deuxième meilleur total en NBA",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Victor-wembanyama-devore-les-minnesota-timberwolves-avec-43-points-inscrits-son-deuxieme-meilleur-total-en-nba/1740215#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": false
+     "alta": true
     }
    ]
   }
  ],
  "destaques": [
   {
-   "t": "Corinthians x Cruzeiro - Taça Libertadores Feminina 2026 - globoesporte.com",
-   "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml",
-   "f": "ge",
-   "alta": false,
+   "t": "Lewis Hamilton conquista pole position do GP do México de Fórmula 1",
+   "u": "https://www.gazetaesportiva.com/motor/formula-1/lewis-hamilton-conquista-pole-position-do-gp-do-mexico-de-formula-1/",
+   "f": "Gazeta Esportiva",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Ohio State-USC, Miami-UNC, college football",
-   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-ohio-state-usc-miami-unc-college-football/",
+   "t": "Borussia Dortmund spoil Harry Kane's Ballon d'Or coronation, keep pace in Bundesliga title race",
+   "u": "https://www.cbssports.com/soccer/news/harry-kane-ballon-dor-coronation-borussia-dortmund-bundesliga-title-race/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Gabri Veiga trabalhou bem na área e não perdoou: foi assim que o FC Porto chegou ao 4-0",
-   "u": "https://www.record.pt/multimedia/videos/detalhe/gabri-veiga-trabalhou-bem-na-area-e-nao-perdoou-foi-assim-que-o-fc-porto-chegou-ao-4-0",
-   "f": "Record",
-   "alta": true,
+   "t": "Champions: Benfica goleia após arranque demolidor e fecha grupo na liderança",
+   "u": "https://www.abola.pt/noticias/champions-benfica-goleia-apos-arranque-demolidor-e-fecha-grupo-na-lideranca-2026103120062831675",
+   "f": "A Bola",
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Hamilton, primera pole con Ferrari y se cuela en la fiesta de Kimi; Alonso, jarro de agua fría",
-   "u": "https://www.mundodeportivo.com/motor/f1/20261031/1004245576/lewis-hamilton-logra-primera-pole-ferrari-cuela-fiesta-kimi-golpe-enorme-alonso.html",
+   "t": "Flick llega a las 100 victorias con el Barça",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261031/1004241204/flick-llega-100-victorias-barca.html",
    "f": "Mundo Deportivo",
    "alta": true,
    "pais": "ES"
   },
   {
-   "t": "AC Milan score three first-half goals to seal derby victory over Inter",
-   "u": "https://www.bbc.co.uk/sport/football/videos/cmqln15wdyxgo?at_medium=RSS&at_campaign=rss",
-   "f": "BBC Sport",
+   "t": "Antonelli set for F1 title, Premier League, and NFL action – follow with us",
+   "u": "https://www.theguardian.com/sport/2026/oct/30/antonelli-set-for-f1-title-premier-league-and-nfl-action-follow-with-us",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
@@ -291,7 +291,7 @@
    "t": "La guía de Franco Colapinto a Lewis Hamilton para preparar un mate durante el Gran Premio de México de la Fórmula 1",
    "u": "https://www.infobae.com/deportes/2026/10/31/la-guia-de-franco-colapinto-a-lewis-hamilton-para-preparar-un-mate-durante-el-gran-premio-de-mexico-de-la-formula-1/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,10 +302,10 @@
    "pais": "IT"
   },
   {
-   "t": "Grâce à un excellent Diego Moreira, l'AC Milan fait tomber l'Inter Milan pour la première fois en Serie A",
-   "u": "https://www.lequipe.fr/Football/Actualites/Grace-a-un-excellent-diego-moreira-l-ac-milan-fait-tomber-l-inter-milan-pour-la-premiere-fois-en-serie-a/1740175#at_medium=RSS_feeds",
+   "t": "NBA : Le résumé vidéo de San Antonio - Minnesota avec les 43 points de Victor Wembanyama",
+   "u": "https://www.lequipe.fr/Basket/Video/Nba-nba-le-resume-video-de-san-antonio-minnesota-avec-les-43-points-de-victor-wembanyama/20244591#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": false,
+   "alta": true,
    "pais": "FR"
   }
  ],
