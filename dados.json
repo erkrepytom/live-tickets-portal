@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-01T14:22:11+00:00",
+ "atualizado": "2026-11-01T19:46:24+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Classificação do segundo turno: Flamengo lidera, Grêmio passa o Inter, e Corinthians é lanterna",
-     "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/01/classificacao-do-segundo-turno-flamengo-lidera-gremio-passa-o-inter-e-corinthians-e-lanterna.ghtml",
+     "t": "Veja os campeões da Copa Santa Catarina de tênis, em Itajaí",
+     "u": "https://ge.globo.com/sc/tenis/noticia/2026/11/01/veja-os-campeoes-da-copa-santa-catarina-de-tenis-em-itajai.ghtml",
      "f": "ge",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Gabigol celebra título do Cruzeiro contra o Corinthians na Libertadores Feminina",
-     "u": "https://www.gazetaesportiva.com/times/cruzeiro/gabigol-celebra-titulo-do-cruzeiro-contra-o-corinthians-na-libertadores-feminina/",
+     "t": "Nubank Parque mobiliza 500 profissionais para receber Palmeiras x Vasco após show",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/nubank-parque-500-profissionais-palmeiras-vasco-apos-show/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Corinthians perde do Cruzeiro nos pênaltis e fica com vice da Libertadores feminina",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/corinthians-x-cruzeiro-final-libertadores-feminina-2026/",
-     "f": "Gazeta Esportiva",
+     "t": "Cruzeiro vence Corinthians nos pênaltis após reação incrível e conquista a Libertadores Feminina",
+     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml",
+     "f": "ge",
      "alta": false
     },
     {
-     "t": "Da primeira aparição de Lamacchia aos reforços: o que mudou desde o último Palmeiras x Vasco",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/01/da-primeira-aparicao-de-lamacchia-aos-reforcos-o-que-mudou-desde-o-ultimo-palmeiras-x-vasco.ghtml",
-     "f": "ge",
+     "t": "Palmeiras volta a vencer o São Paulo e vai enfrentar o Santos na semifinal do Paulista sub-20",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-elimina-sao-paulo-e-vai-enfrentar-o-santos-na-semifinal-do-paulista-sub-20/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Serie A Preview: Juventus vs Napoli – Team News, Lineups & Prediction",
-     "u": "https://sports.yahoo.com/articles/serie-preview-juventus-vs-napoli-140200911.html",
+     "t": "How to watch Celtics vs Magic: Live stream NBA, TV channel",
+     "u": "https://sports.yahoo.com/articles/watch-celtics-vs-magic-live-193000074.html",
      "f": "Yahoo Sports",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "It wouldn't shock me if ... NFL Week 8: Colts reduce Jonathan Taylor's reps, Lamar Jackson shows no rust",
-     "u": "https://www.cbssports.com/nfl/news/nfl-week-8-shocking-predictions-colts-jonathan-taylors-lamar-jackson/",
+     "t": "Bengals rookie TE Jack Endries' first NFL catch is TD from Joe Burrow",
+     "u": "https://sports.yahoo.com/articles/bengals-rookie-te-jack-endries-193526542.html",
+     "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
+     "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass on Broncos-Chiefs, Eagles-Commanders, NFL Week 8",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-nba-league-pass-broncos-chiefs-eagles-commanders-nfl-week-8/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Injury Chaos: Full update on Bayern Munich’s injuries after Borussia Dortmund draw",
-     "u": "https://sports.yahoo.com/articles/injury-chaos-full-bayern-munich-141500385.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Eagles vs. Commanders odds, first touchdown scorer picks, predictions for NFL Week 8 Sunday Night Football",
-     "u": "https://www.cbssports.com/prediction/news/eagles-vs-commanders-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-8-sunday-night-football/",
+     "t": "NFL DFS, Eagles vs. Commanders: Daily Fantasy football picks, lineup advice for 'Sunday Night Football'",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-eagles-commanders-daily-fantasy-football-picks-lineup-advice-draftkings-fanduel-sunday-night-football/",
      "f": "CBS Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Cruzeiro conquista Libertadores feminina nos penáltis e quebra sequência do Corinthians",
-     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/cruzeiro-conquista-libertadores-feminina-nos-penaltis-e-quebra-sequencia-do-corinthians",
+     "t": "Arsenal vence Liverpool e assume liderança isolada da Premier League",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261101-111719-liverpool-arsenal-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Leclerc domina treinos livres no México, Hamilton com problemas",
-     "u": "https://www.abola.pt/noticias/leclerc-domina-treinos-livres-no-mexico-hamilton-com-problemas-2026103023300222182",
+     "t": "O aplauso ao Bola de Ouro: Kane homenageado antes do Bayern-Dortmund",
+     "u": "https://www.abola.pt/video/o-aplauso-ao-bola-de-ouro-kane-homenageado-antes-do-bayern-dortmund-2026103117533380915",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Champions: Sporting já conhece calendário da main round",
-     "u": "https://www.abola.pt/noticias/champions-sporting-ja-conhece-calendario-da-main-round-2026103015253761518",
+     "t": "NBA Cup: Celtics batem Bulls com Neemias em destaque",
+     "u": "https://www.abola.pt/noticias/nba-cup-celtics-batem-bulls-com-neemias-em-destaque-2026103108372273908",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Benfica conquista a quinta Elite Cup consecutiva",
-     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/benfica-conquista-a-quinta-elite-cup-consecutiva",
+     "t": "Notícia Record: Paulo Fonseca fechado como treinador do Sporting",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/noticia-record-paulo-fonseca-fechado-como-treinador-do-sporting",
      "f": "Record",
      "alta": false
     }
@@ -119,8 +119,8 @@
      "alta": false
     },
     {
-     "t": "\"Creo que cometió un gran error al ir a Real Madrid y ahora quieren que se vaya\"",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261101/1004245758/creo-cometio-gran-error-real-madrid-quieren.html",
+     "t": "El 1x1 del Real Madrid ante el Racing",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261101/1004245849/1x1-real-madrid-racing.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,13 +147,19 @@
    },
    "noticias": [
     {
-     "t": "Arsenal 1-1 Aston Villa, London City Lionesses 1-2 Manchester City, and more: Women’s Super League – live",
-     "u": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
+     "t": "Rice rewarded, Wirtz must do more - Liverpool and Arsenal player ratings",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Arsenal hold on for vital win at Liverpool after Kai Havertz’s close-range finish",
+     "u": "https://www.theguardian.com/football/2026/nov/01/liverpool-arsenal-premier-league-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "How England's rugby league bosses plan to avoid repeat of World Cup pain",
+     "t": "The plan England's rugby league bosses hope avoids repeat of World Cup pain",
      "u": "https://www.bbc.co.uk/sport/rugby-league/articles/c5y439xp22n7o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
@@ -162,12 +168,6 @@
      "t": "Michael Carrick to stay in charge of Manchester United for Roma game",
      "u": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-stay-manager-manchester-united-roma-game",
      "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Kane misses Bayern penalty before late Dortmund goal earns draw",
-     "u": "https://www.bbc.co.uk/sport/football/videos/ckpdg3eq06z5o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "El gol agónico del Borussia Dortmund para empatar con el Bayern Múnich en el clásico de la Bundesliga: el festejo cara a cara de los fanáticos",
-     "u": "https://www.infobae.com/deportes/2026/10/31/el-gol-agonico-del-borussia-dortmund-para-empatar-con-el-bayern-munich-en-el-clasico-de-la-bundesliga-el-festejo-cara-a-cara-de-los-fanaticos/",
+     "t": "Franco Colapinto largará desde el puesto 11 el Gran Premio de México de la Fórmula 1: todo lo que hay que saber",
+     "u": "https://www.infobae.com/deportes/2026/11/01/franco-colapinto-largara-desde-el-puesto-11-el-gran-premio-de-mexico-de-la-formula-1-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Boca Juniors y River Plate animarán una atrapante edición del Superclásico del fútbol argentino en la Bombonera: hora, TV y formaciones",
+     "t": "Boca Juniors le gana a River Plate en una nueva edición del Superclásico en la Bombonera: expulsado Martínez Quarta",
      "u": "https://www.infobae.com/deportes/2026/11/01/boca-juniors-y-river-animaran-una-atrapante-edicion-del-superclasico-del-futbol-argentino-en-la-bombonera-hora-tv-y-formaciones/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Atlético Tucumán vs. Argentinos Juniors, por el Torneo Clausura 2026: horario, árbitro y por dónde ver",
-     "u": "https://www.ole.com.ar/futbol-primera/atletico-tucuman-vs-argentinos-juniors-torneo-clausura-2026-dia-horario-arbitro-tv_0_BFGK20q0nD.html",
+     "t": "Tras un nuevo cambio, así quedó la parrilla definitiva del GP de México de Fórmula 1",
+     "u": "https://www.ole.com.ar/autos/francocolapinto-granpremiodemexico-formula1-liamlawson-racingbulls-parquecerrado-fia-lewishamilton-parrilla_0_ORtBwedtjH.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "La coincidencia histórica que puede cerrar el Vasco Arruabarrena contra River",
-     "u": "https://www.ole.com.ar/boca-juniors/rodolfoarruabarrena-boca-superclasico-river-bombonera-fabianmonzon-danielangelici_0_HCkr3lx549.html",
+     "t": "Rodolfo D'Onofrio explotó por la roja a Martínez Quarta en el Boca vs. River: \"¡Qué ladrones que son!\"",
+     "u": "https://www.ole.com.ar/futbol-primera/rodolfo-donofrio-exploto-roja-matinez-quarta-bocavs-river-ladrones-redes-sociales_0_lkn6jNlqNL.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
-     "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
+     "t": "Arsenal fait le travail à Anfield et retrouve le fauteuil de leader de Premier League",
+     "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-fait-le-travail-a-anfield-et-retrouve-le-fauteuil-de-leader-de-premier-league/1740349#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "L'Allemand Felix Zwayer désigné arbitre de Villarreal-PSG en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/L-allemand-felix-zwayer-designe-arbitre-de-villarreal-psg-en-ligue-des-champions/1740254#at_medium=RSS_feeds",
+     "t": "« Il y a un peu de spectacle, on n'a pas l'habitude » :quand Montpellier sait aussi faire le show en Top 14",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/-il-y-a-un-peu-de-spectacle-on-n-a-pas-l-habitude-quand-montpellier-sait-aussi-faire-le-show-en-top-14/1740368#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,22 +253,22 @@
  ],
  "destaques": [
   {
-   "t": "Classificação do segundo turno: Flamengo lidera, Grêmio passa o Inter, e Corinthians é lanterna",
-   "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/01/classificacao-do-segundo-turno-flamengo-lidera-gremio-passa-o-inter-e-corinthians-e-lanterna.ghtml",
+   "t": "Veja os campeões da Copa Santa Catarina de tênis, em Itajaí",
+   "u": "https://ge.globo.com/sc/tenis/noticia/2026/11/01/veja-os-campeoes-da-copa-santa-catarina-de-tenis-em-itajai.ghtml",
    "f": "ge",
-   "alta": false,
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Serie A Preview: Juventus vs Napoli – Team News, Lineups & Prediction",
-   "u": "https://sports.yahoo.com/articles/serie-preview-juventus-vs-napoli-140200911.html",
+   "t": "How to watch Celtics vs Magic: Live stream NBA, TV channel",
+   "u": "https://sports.yahoo.com/articles/watch-celtics-vs-magic-live-193000074.html",
    "f": "Yahoo Sports",
-   "alta": false,
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Cruzeiro conquista Libertadores feminina nos penáltis e quebra sequência do Corinthians",
-   "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/cruzeiro-conquista-libertadores-feminina-nos-penaltis-e-quebra-sequencia-do-corinthians",
+   "t": "Arsenal vence Liverpool e assume liderança isolada da Premier League",
+   "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261101-111719-liverpool-arsenal-em-direto",
    "f": "Record",
    "alta": false,
    "pais": "PT"
@@ -281,17 +281,17 @@
    "pais": "ES"
   },
   {
-   "t": "Arsenal 1-1 Aston Villa, London City Lionesses 1-2 Manchester City, and more: Women’s Super League – live",
-   "u": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
-   "f": "The Guardian",
+   "t": "Rice rewarded, Wirtz must do more - Liverpool and Arsenal player ratings",
+   "u": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o?at_medium=RSS&at_campaign=rss",
+   "f": "BBC Sport",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "El gol agónico del Borussia Dortmund para empatar con el Bayern Múnich en el clásico de la Bundesliga: el festejo cara a cara de los fanáticos",
-   "u": "https://www.infobae.com/deportes/2026/10/31/el-gol-agonico-del-borussia-dortmund-para-empatar-con-el-bayern-munich-en-el-clasico-de-la-bundesliga-el-festejo-cara-a-cara-de-los-fanaticos/",
+   "t": "Franco Colapinto largará desde el puesto 11 el Gran Premio de México de la Fórmula 1: todo lo que hay que saber",
+   "u": "https://www.infobae.com/deportes/2026/11/01/franco-colapinto-largara-desde-el-puesto-11-el-gran-premio-de-mexico-de-la-formula-1-todo-lo-que-hay-que-saber/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
-   "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
+   "t": "Arsenal fait le travail à Anfield et retrouve le fauteuil de leader de Premier League",
+   "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-fait-le-travail-a-anfield-et-retrouve-le-fauteuil-de-leader-de-premier-league/1740349#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
