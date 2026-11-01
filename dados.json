@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-01T06:23:09+00:00",
+ "atualizado": "2026-11-01T14:22:11+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Lewis Hamilton conquista pole position do GP do México de Fórmula 1",
-     "u": "https://www.gazetaesportiva.com/motor/formula-1/lewis-hamilton-conquista-pole-position-do-gp-do-mexico-de-formula-1/",
-     "f": "Gazeta Esportiva",
-     "alta": true
-    },
-    {
-     "t": "Confira as fotos do treino classificatório da Fórmula 1 no México",
-     "u": "https://www.gazetaesportiva.com/motor/formula-1/confira-as-fotos-do-treino-classificatorio-da-formula-1-no-mexico/",
-     "f": "Gazeta Esportiva",
-     "alta": true
-    },
-    {
-     "t": "Cruzeiro vence Corinthians nos pênaltis após reação incrível e conquista a Libertadores Feminina",
-     "u": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml",
+     "t": "Classificação do segundo turno: Flamengo lidera, Grêmio passa o Inter, e Corinthians é lanterna",
+     "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/01/classificacao-do-segundo-turno-flamengo-lidera-gremio-passa-o-inter-e-corinthians-e-lanterna.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Juninho, ex-Flamengo, marca de letra em vitória do Pumas: \"Recurso\"",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/01/juninho-ex-flamengo-marca-de-letra-em-vitoria-do-pumas-recurso.ghtml",
+     "t": "Gabigol celebra título do Cruzeiro contra o Corinthians na Libertadores Feminina",
+     "u": "https://www.gazetaesportiva.com/times/cruzeiro/gabigol-celebra-titulo-do-cruzeiro-contra-o-corinthians-na-libertadores-feminina/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Corinthians perde do Cruzeiro nos pênaltis e fica com vice da Libertadores feminina",
+     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/corinthians-x-cruzeiro-final-libertadores-feminina-2026/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Da primeira aparição de Lamacchia aos reforços: o que mudou desde o último Palmeiras x Vasco",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/01/da-primeira-aparicao-de-lamacchia-aos-reforcos-o-que-mudou-desde-o-ultimo-palmeiras-x-vasco.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Borussia Dortmund spoil Harry Kane's Ballon d'Or coronation, keep pace in Bundesliga title race",
-     "u": "https://www.cbssports.com/soccer/news/harry-kane-ballon-dor-coronation-borussia-dortmund-bundesliga-title-race/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "NFL DFS, Sunday: Top daily Fantasy football picks, stacks, lineup advice for the Week 8 main slate",
-     "u": "https://www.cbssports.com/betting/news/nfl-dfs-sunday-daily-fantasy-football-picks-lineups-advice-stacks-draftkings-fanduel-week-8-main-slate/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Kings’ Darius Acuff Jr. ties NBA rookie record with monster shooting game vs. Grizzlies",
-     "u": "https://sports.yahoo.com/articles/kings-darius-acuff-jr-ties-060628544.html",
+     "t": "Serie A Preview: Juventus vs Napoli – Team News, Lineups & Prediction",
+     "u": "https://sports.yahoo.com/articles/serie-preview-juventus-vs-napoli-140200911.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "4 things we learned from Ohio State football's loss at USC",
-     "u": "https://sports.yahoo.com/articles/4-things-learned-ohio-state-060951296.html",
+     "t": "It wouldn't shock me if ... NFL Week 8: Colts reduce Jonathan Taylor's reps, Lamar Jackson shows no rust",
+     "u": "https://www.cbssports.com/nfl/news/nfl-week-8-shocking-predictions-colts-jonathan-taylors-lamar-jackson/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Injury Chaos: Full update on Bayern Munich’s injuries after Borussia Dortmund draw",
+     "u": "https://sports.yahoo.com/articles/injury-chaos-full-bayern-munich-141500385.html",
      "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Eagles vs. Commanders odds, first touchdown scorer picks, predictions for NFL Week 8 Sunday Night Football",
+     "u": "https://www.cbssports.com/prediction/news/eagles-vs-commanders-odds-first-touchdown-scorer-picks-predictions-for-nfl-week-8-sunday-night-football/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Champions: Benfica goleia após arranque demolidor e fecha grupo na liderança",
-     "u": "https://www.abola.pt/noticias/champions-benfica-goleia-apos-arranque-demolidor-e-fecha-grupo-na-lideranca-2026103120062831675",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Amorim após vencer o Inter: «Há 2 dias parecia que estávamos num cemitério... Agora já falam no Scudetto»",
-     "u": "https://www.record.pt/internacional/paises/italia/ac-milan/detalhe/amorim-apos-vencer-o-inter-ha-2-dias-parecia-que-estavamos-num-cemiterio-agora-ja-falam-no-scudetto",
+     "t": "Cruzeiro conquista Libertadores feminina nos penáltis e quebra sequência do Corinthians",
+     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/cruzeiro-conquista-libertadores-feminina-nos-penaltis-e-quebra-sequencia-do-corinthians",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Grimaldo abriu caminho e Atlético voa na LaLiga (resumo)",
-     "u": "https://www.abola.pt/video/grimaldo-abriu-caminho-e-atletico-voa-na-laliga-resumo-2026103115075610708",
+     "t": "Leclerc domina treinos livres no México, Hamilton com problemas",
+     "u": "https://www.abola.pt/noticias/leclerc-domina-treinos-livres-no-mexico-hamilton-com-problemas-2026103023300222182",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Rotação para continuar? O que pensa Marco Silva da baliza do Benfica",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/rotacao-para-continuar-o-que-pensa-marco-silva-da-baliza-do-benfica",
+     "t": "Champions: Sporting já conhece calendário da main round",
+     "u": "https://www.abola.pt/noticias/champions-sporting-ja-conhece-calendario-da-main-round-2026103015253761518",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Benfica conquista a quinta Elite Cup consecutiva",
+     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/benfica-conquista-a-quinta-elite-cup-consecutiva",
      "f": "Record",
      "alta": false
     }
@@ -113,28 +113,28 @@
    },
    "noticias": [
     {
-     "t": "Flick llega a las 100 victorias con el Barça",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261031/1004241204/flick-llega-100-victorias-barca.html",
-     "f": "Mundo Deportivo",
-     "alta": true
-    },
-    {
-     "t": "Luís Castro: \"El Atlético es mucho mejor que el año pasado, tanto a nivel individual como colectivo\"",
-     "u": "https://www.marca.com/futbol/levante/2026/10/30/luis-castro-atletico-mejor-ano-pasado-tanto-nivel-individual-colectivo.html",
+     "t": "La nueva casa de Inter y Milan",
+     "u": "https://www.marca.com/futbol/liga-italiana/2026/10/30/nueva-casa-inter-milan-video.html",
      "f": "Marca",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "1-1: Suzuki regala la victoria de un vulnerable Aston Villa antes de ir a Barcelona",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261031/1004245567/suzuki-regala-victoria-vulnerable-aston-villa-barcelona.html",
+     "t": "\"Creo que cometió un gran error al ir a Real Madrid y ahora quieren que se vaya\"",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261101/1004245758/creo-cometio-gran-error-real-madrid-quieren.html",
      "f": "Mundo Deportivo",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Mazazo para España: Javi Leal sustituye a Ale Galán para el Mundial de pádel",
-     "u": "https://www.marca.com/padel/2026/10/30/javi-leal-sustituye-ale-galan-convocatoria-espana-mundial-padel.html",
+     "t": "The Sun: \"Estaban viendo el partido PSG-Barcelona, bebieron mucho\"",
+     "u": "https://www.mundodeportivo.com/futbol/premier-league/20261101/1004245769/the-sun-estaban-viendo-partido-psg-barcelona-bebieron.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "¡Ladrando al campo equivocado! Un perro irrumpe en un partido de la Premier League egipcia.",
+     "u": "https://www.marca.com/futbol/2026/10/30/ladrando-campo-equivocado-perro-irrumpe-partido-premier-league-egipcia-video.html",
      "f": "Marca",
-     "alta": true
+     "alta": false
     }
    ]
   },
@@ -147,21 +147,21 @@
    },
    "noticias": [
     {
-     "t": "Antonelli set for F1 title, Premier League, and NFL action – follow with us",
-     "u": "https://www.theguardian.com/sport/2026/oct/30/antonelli-set-for-f1-title-premier-league-and-nfl-action-follow-with-us",
+     "t": "Arsenal 1-1 Aston Villa, London City Lionesses 1-2 Manchester City, and more: Women’s Super League – live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Manchester United’s capitulation at Chelsea paints picture of a club that barely exists | Barney Ronay",
-     "u": "https://www.theguardian.com/football/2026/oct/31/manchester-united-chelsea-premier-league-michael-carrick",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Briton Dart reaches first WTA Tour singles final",
-     "u": "https://www.bbc.co.uk/sport/tennis/articles/cqwyr2r3jggno?at_medium=RSS&at_campaign=rss",
+     "t": "How England's rugby league bosses plan to avoid repeat of World Cup pain",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/articles/c5y439xp22n7o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Michael Carrick to stay in charge of Manchester United for Roma game",
+     "u": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-stay-manager-manchester-united-roma-game",
+     "f": "The Guardian",
      "alta": false
     },
     {
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "La guía de Franco Colapinto a Lewis Hamilton para preparar un mate durante el Gran Premio de México de la Fórmula 1",
-     "u": "https://www.infobae.com/deportes/2026/10/31/la-guia-de-franco-colapinto-a-lewis-hamilton-para-preparar-un-mate-durante-el-gran-premio-de-mexico-de-la-formula-1/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
      "t": "El gol agónico del Borussia Dortmund para empatar con el Bayern Múnich en el clásico de la Bundesliga: el festejo cara a cara de los fanáticos",
      "u": "https://www.infobae.com/deportes/2026/10/31/el-gol-agonico-del-borussia-dortmund-para-empatar-con-el-bayern-munich-en-el-clasico-de-la-bundesliga-el-festejo-cara-a-cara-de-los-fanaticos/",
      "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Boca Juniors y River Plate animarán una atrapante edición del Superclásico del fútbol argentino en la Bombonera: hora, TV y formaciones",
+     "u": "https://www.infobae.com/deportes/2026/11/01/boca-juniors-y-river-animaran-una-atrapante-edicion-del-superclasico-del-futbol-argentino-en-la-bombonera-hora-tv-y-formaciones/",
+     "f": "Infobae",
      "alta": false
     },
     {
-     "t": "La lucha por el Campeón de Liga: Central puntero y por qué Boca y Argentinos están \"obligados\" a ganar lo que queda",
-     "u": "https://www.ole.com.ar/futbol-primera/lucha-campeon-liga-tabla-anual-posiciones-rosario-central-boca-argentinos_0_dr1J5G9dvA.html",
+     "t": "Atlético Tucumán vs. Argentinos Juniors, por el Torneo Clausura 2026: horario, árbitro y por dónde ver",
+     "u": "https://www.ole.com.ar/futbol-primera/atletico-tucuman-vs-argentinos-juniors-torneo-clausura-2026-dia-horario-arbitro-tv_0_BFGK20q0nD.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "La clasificación a las copas: quiénes están en zona de Libertadores y Sudamericana",
-     "u": "https://www.ole.com.ar/futbol-primera/tabla-anual-posiciones-clasificacion-copas-libertadores-sudamericana_0_mqf4wpCmf9.html",
+     "t": "La coincidencia histórica que puede cerrar el Vasco Arruabarrena contra River",
+     "u": "https://www.ole.com.ar/boca-juniors/rodolfoarruabarrena-boca-superclasico-river-bombonera-fabianmonzon-danielangelici_0_HCkr3lx549.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,61 +237,61 @@
    },
    "noticias": [
     {
-     "t": "NBA : Le résumé vidéo de San Antonio - Minnesota avec les 43 points de Victor Wembanyama",
-     "u": "https://www.lequipe.fr/Basket/Video/Nba-nba-le-resume-video-de-san-antonio-minnesota-avec-les-43-points-de-victor-wembanyama/20244591#at_medium=RSS_feeds",
+     "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
+     "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Victor Wembanyama dévore les Minnesota Timberwolves avec 43 points inscrits, son deuxième meilleur total en NBA",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Victor-wembanyama-devore-les-minnesota-timberwolves-avec-43-points-inscrits-son-deuxieme-meilleur-total-en-nba/1740215#at_medium=RSS_feeds",
+     "t": "L'Allemand Felix Zwayer désigné arbitre de Villarreal-PSG en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/L-allemand-felix-zwayer-designe-arbitre-de-villarreal-psg-en-ligue-des-champions/1740254#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": true
+     "alta": false
     }
    ]
   }
  ],
  "destaques": [
   {
-   "t": "Lewis Hamilton conquista pole position do GP do México de Fórmula 1",
-   "u": "https://www.gazetaesportiva.com/motor/formula-1/lewis-hamilton-conquista-pole-position-do-gp-do-mexico-de-formula-1/",
-   "f": "Gazeta Esportiva",
-   "alta": true,
+   "t": "Classificação do segundo turno: Flamengo lidera, Grêmio passa o Inter, e Corinthians é lanterna",
+   "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/01/classificacao-do-segundo-turno-flamengo-lidera-gremio-passa-o-inter-e-corinthians-e-lanterna.ghtml",
+   "f": "ge",
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Borussia Dortmund spoil Harry Kane's Ballon d'Or coronation, keep pace in Bundesliga title race",
-   "u": "https://www.cbssports.com/soccer/news/harry-kane-ballon-dor-coronation-borussia-dortmund-bundesliga-title-race/",
-   "f": "CBS Sports",
+   "t": "Serie A Preview: Juventus vs Napoli – Team News, Lineups & Prediction",
+   "u": "https://sports.yahoo.com/articles/serie-preview-juventus-vs-napoli-140200911.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Champions: Benfica goleia após arranque demolidor e fecha grupo na liderança",
-   "u": "https://www.abola.pt/noticias/champions-benfica-goleia-apos-arranque-demolidor-e-fecha-grupo-na-lideranca-2026103120062831675",
-   "f": "A Bola",
+   "t": "Cruzeiro conquista Libertadores feminina nos penáltis e quebra sequência do Corinthians",
+   "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/cruzeiro-conquista-libertadores-feminina-nos-penaltis-e-quebra-sequencia-do-corinthians",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Flick llega a las 100 victorias con el Barça",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261031/1004241204/flick-llega-100-victorias-barca.html",
-   "f": "Mundo Deportivo",
-   "alta": true,
+   "t": "La nueva casa de Inter y Milan",
+   "u": "https://www.marca.com/futbol/liga-italiana/2026/10/30/nueva-casa-inter-milan-video.html",
+   "f": "Marca",
+   "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Antonelli set for F1 title, Premier League, and NFL action – follow with us",
-   "u": "https://www.theguardian.com/sport/2026/oct/30/antonelli-set-for-f1-title-premier-league-and-nfl-action-follow-with-us",
+   "t": "Arsenal 1-1 Aston Villa, London City Lionesses 1-2 Manchester City, and more: Women’s Super League – live",
+   "u": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "La guía de Franco Colapinto a Lewis Hamilton para preparar un mate durante el Gran Premio de México de la Fórmula 1",
-   "u": "https://www.infobae.com/deportes/2026/10/31/la-guia-de-franco-colapinto-a-lewis-hamilton-para-preparar-un-mate-durante-el-gran-premio-de-mexico-de-la-formula-1/",
+   "t": "El gol agónico del Borussia Dortmund para empatar con el Bayern Múnich en el clásico de la Bundesliga: el festejo cara a cara de los fanáticos",
+   "u": "https://www.infobae.com/deportes/2026/10/31/el-gol-agonico-del-borussia-dortmund-para-empatar-con-el-bayern-munich-en-el-clasico-de-la-bundesliga-el-festejo-cara-a-cara-de-los-fanaticos/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,10 +302,10 @@
    "pais": "IT"
   },
   {
-   "t": "NBA : Le résumé vidéo de San Antonio - Minnesota avec les 43 points de Victor Wembanyama",
-   "u": "https://www.lequipe.fr/Basket/Video/Nba-nba-le-resume-video-de-san-antonio-minnesota-avec-les-43-points-de-victor-wembanyama/20244591#at_medium=RSS_feeds",
+   "t": "Ligue 1+, Barça-Real, NFL : quel abonnement DAZN choisir ?",
+   "u": "https://www.lequipe.fr/Guide-d-achat/High-tech-multimedia/Actualites/Ligue-1-barca-real-nfl-quel-abonnement-dazn-choisir/1737202#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": true,
+   "alta": false,
    "pais": "FR"
   }
  ],
