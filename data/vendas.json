@@ -7,7 +7,7 @@
    "status": "desconhecido",
    "fonte": "https://www.figc.it/en/national-teams/tickets/",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-11-02T06:54:10+00:00"
+   "tentado": "2026-11-02T19:49:44+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -95,9 +95,7 @@
    "fonte": "https://billetterie.ffr.fr/",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-11-01T22:27:55+00:00",
-   "erro": "HTTPError: HTTP Error 502: Bad Gateway",
-   "tentado": "2026-11-02T06:54:10+00:00"
+   "conferido": "2026-11-02T19:49:44+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -115,7 +113,7 @@
    "status": "desconhecido",
    "fonte": "https://www.yasmarinacircuit.com/en/formula-1",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-11-02T06:54:10+00:00"
+   "tentado": "2026-11-02T19:49:44+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -133,7 +131,7 @@
    "status": "desconhecido",
    "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-11-02T06:54:10+00:00"
+   "tentado": "2026-11-02T19:49:44+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -154,7 +152,7 @@
    "fonte": "https://www.nba.com/knicks/tickets",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-11-02T06:54:10+00:00"
+   "conferido": "2026-11-02T19:49:44+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -172,7 +170,7 @@
    "status": "desconhecido",
    "fonte": "https://ausopen.com/tickets",
    "erro": "HTTPError: HTTP Error 403: Forbidden",
-   "tentado": "2026-11-02T06:54:10+00:00"
+   "tentado": "2026-11-02T19:49:44+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -193,7 +191,7 @@
    "fonte": "https://www.celinedion.com/tour/",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-11-02T06:54:10+00:00"
+   "conferido": "2026-11-02T19:49:44+00:00"
   },
   "parceiro": {
    "status": "a_venda",
@@ -211,7 +209,7 @@
    "status": "desconhecido",
    "fonte": "https://www.uefa.com/uefachampionsleague/tickets/",
    "erro": "TimeoutError: The read operation timed out",
-   "tentado": "2026-11-02T06:54:10+00:00"
+   "tentado": "2026-11-02T19:49:44+00:00"
   },
   "parceiro": {
    "status": "a_venda",
