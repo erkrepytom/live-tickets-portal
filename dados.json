@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-02T06:24:24+00:00",
+ "atualizado": "2026-11-02T17:13:15+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Com dois a mais, Boca Juniors vence River Plate e garante vaga na Libertadores",
-     "u": "https://www.gazetaesportiva.com/campeonato-argentino/com-dois-a-mais-boca-juniors-vence-river-plate-e-garante-vaga-na-libertadores/",
+     "t": "GP São Paulo de F1 terá shows de IZA, João Gomes, Matuê e Paralamas na Fanzone de Interlagos",
+     "u": "https://www.gazetaesportiva.com/motor/formula-1/gp-sao-paulo-anuncia-programacao-da-f1-fanzone-com-shows-e-atracoes/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Eduardo Domínguez admite falhas contra Grêmio e cobra melhora no ataque do Atlético-MG",
-     "u": "https://www.gazetaesportiva.com/times/atletico-mg/eduardo-dominguez-admite-falhas-contra-gremio-e-cobra-melhora-no-ataque-do-atletico-mg/",
+     "t": "Goleiros do Bayern prontos para encarar o Atlético na Champions League",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/goleiros-do-bayern-prontos-para-encarar-o-atletico-na-champions-league/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Antonelli, Verstappen e Hamilton formam pódio com mais títulos na história da F1",
-     "u": "https://ge.globo.com/motor/formula-1/noticia/2026/11/01/antonelli-verstappen-e-hamilton-formam-podio-com-mais-titulos-mundiais-na-historia-da-f1.ghtml",
+     "t": "Atlético-MG x Santa Cruz - Copa do Brasil Sub-20 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/copa-do-brasil-sub-20/jogo/04-11-2026/atletico-mg-santa-cruz.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Dá pra virar? Barba revela reação do vestiário do Atlético-MG após derrota para Grêmio",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/01/da-pra-virar-barba-revela-reacao-do-vestiario-do-atletico-mg-apos-derrota-para-gremio.ghtml",
+     "t": "Weverton comenta suspensão forçada contra o Flamengo em meio a briga do Grêmio contra o Z-4",
+     "u": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/02/weverton-comenta-suspensao-forcada-contra-o-flamengo-em-meio-a-briga-do-gremio-contra-o-z-4.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,28 +45,28 @@
    },
    "noticias": [
     {
-     "t": "Juventus ride a pair of bangers to critical win over Napoli",
-     "u": "https://sports.yahoo.com/articles/juventus-ride-pair-bangers-critical-061523862.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "NBA fans have mixed reactions to Scottie Barnes and Luka Doncic's scuffle during Lakers vs Raptors",
-     "u": "https://sports.yahoo.com/articles/nba-fans-mixed-reactions-scottie-055949262.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Eagles vs. Commanders odds, NFL Week 8 first touchdown scorer picks, predictions for Sunday Night Football",
-     "u": "https://www.cbssports.com/prediction/news/eagles-vs-commanders-odds-nfl-week-8-first-touchdown-scorer-picks-predictions-for-sunday-night-football/",
+     "t": "Knicks vs. Nets odds, prediction, time: 2026 NBA picks for Monday, Nov. 2 by proven model",
+     "u": "https://www.cbssports.com/betting/news/knicks-nets-odds-prediction-time-2026-nba-picks-monday-november-2/",
      "f": "CBS Sports",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Eagles-Commanders, Sunday Night Football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-nba-league-pass-eagles-commanders-sunday-night-football/",
+     "t": "2026 NBA betting promos: Get over $3,000 in bonuses from top online betting apps, sportsbooks for November 2",
+     "u": "https://www.cbssports.com/betting/news/2026-nba-betting-promos-get-over-3000-in-bonuses-from-top-online-betting-apps-sportsbooks-for-november-2/",
      "f": "CBS Sports",
-     "alta": false
+     "alta": true
+    },
+    {
+     "t": "Five storylines to watch for 2026-27 Ohio State women’s basketball season",
+     "u": "https://sports.yahoo.com/articles/five-storylines-watch-2026-27-170100011.html",
+     "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
+     "t": "Men's college basketball national championship odds for 2026-2027: Duke, Florida are title favorites heading into season",
+     "u": "https://sports.yahoo.com/mens-college-basketball/betting/article/mens-college-basketball-national-championship-odds-for-2026-2027-duke-florida-are-title-favorites-heading-into-season-170015845.html",
+     "f": "Yahoo Sports",
+     "alta": true
     }
    ]
   },
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "NBA Cup: Celtics batem Bulls com Neemias em destaque",
-     "u": "https://www.abola.pt/noticias/nba-cup-celtics-batem-bulls-com-neemias-em-destaque-2026103108372273908",
+     "t": "Sporting a caminho de Londres: um regresso e uma baixa para a Champions",
+     "u": "https://www.abola.pt/video/sporting-a-caminho-de-londres-um-regresso-e-uma-baixa-para-a-champions-2026110214504515904",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "O aplauso ao Bola de Ouro: Kane homenageado antes do Bayern-Dortmund",
-     "u": "https://www.abola.pt/video/o-aplauso-ao-bola-de-ouro-kane-homenageado-antes-do-bayern-dortmund-2026103117533380915",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Rui Borges deixa a fatura e Paulo Fonseca recebe o cheque: eis os valores que o Sporting pode ter de pagar",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rui-borges-deixa-a-fatura-e-paulo-fonseca-recebe-o-cheque-eis-os-valores-que-o-sporting-pode-ter-de-pagar",
+     "t": "Gonçalo Paciência e Lucas França poupados do jogo com o Marítimo por questões físicas",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/santa-clara/detalhe/goncalo-paciencia-e-lucas-franca-poupados-do-jogo-com-o-maritimo-por-questoes-fisicas",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Benfica perde pela primeira vez",
-     "u": "https://www.record.pt/futebol/futebol-nacional/juvenis/detalhe/benfica-perde-pela-primeira-vez",
+     "t": "Pai garante compromisso de Haaland com o Manchester City perante ameaça de descida",
+     "u": "https://www.abola.pt/noticias/pai-garante-compromisso-de-haaland-com-o-manchester-city-perante-ameaca-de-descida-2026110209161079744",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Notáveis do Manchester United apostam em Unai Emery",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/notaveis-do-manchester-united-apostam-em-unai-emery",
      "f": "Record",
      "alta": false
     }
@@ -119,20 +119,20 @@
      "alta": false
     },
     {
-     "t": "Kimi Antonelli es el campeón más joven de la historia de la F1 tras GP México; Verstappen triunfa en el caos",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261101/1004245929/kimi-antonelli-campeon-joven-historia-f1.html",
+     "t": "Louzán, sobre la posible sede de la final del Mundial en el Camp Nou: \"Ojalá así sea\"",
+     "u": "https://www.mundodeportivo.com/futbol/mundial/20261102/1004246187/louzan-sobre-posible-sede-final-mundial-camp-nou-ojala-asi-sea.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Los campeones de Fórmula 1 por número de títulos: ¿Quién tiene más mundiales de F1?",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261101/1004245938/campeones-f1-numero-titulos.html",
+     "t": "Cinco ausencias y máxima presión: así llega el Barça al duelo de Champions",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261102/1004246297/cinco-ausencias-maxima-presion-asi-llega-barca-duelo-champions.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "La gran final del Mundial Sub-15, en directo",
-     "u": "https://www.marca.com/futbol/seleccion/2026/10/30/6ae49b2a020dbf8b21b1dec8-directo.html",
+     "t": "¡Ladrando al campo equivocado! Un perro irrumpe en un partido de la Premier League egipcia.",
+     "u": "https://www.marca.com/futbol/2026/10/30/ladrando-campo-equivocado-perro-irrumpe-partido-premier-league-egipcia-video.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "America's next great heavyweight? 'Stop looking. I'm already here!'",
-     "u": "https://www.skysports.com/boxing/news/12040/13606850/damazion-vanhouter-americas-next-great-heavyweight-they-can-stop-looking-because-im-already-here",
-     "f": "Sky Sports",
-     "alta": true
-    },
-    {
-     "t": "Liverpool’s work in progress fizzles out in the face of streetwise champions | Andy Hunter",
-     "u": "https://www.theguardian.com/football/2026/nov/01/liverpool-work-in-progress-fizzles-out-arsenal-premier-league",
+     "t": "Arsenal end Anfield wait and Manchester United beaten again | Football Weekly – video",
+     "u": "https://www.theguardian.com/football/video/2026/nov/02/arsenal-end-anfield-wait-and-manchester-united-beaten-again-football-weekly-video",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "'It's a mentality thing' - Hamilton hits out at Leclerc after Mexico clash",
-     "u": "https://www.skysports.com/f1/news/12040/13606690/lewis-hamilton-hits-out-at-charles-leclerc-after-ferrari-drivers-mexico-city-gp-clash-as-he-questions-team-mates-approach",
-     "f": "Sky Sports",
+     "t": "England’s exit from Rugby League World Cup was a disaster years in the making | Aaron Bower",
+     "u": "https://www.theguardian.com/sport/2026/nov/02/england-2026-rugby-league-world-cup-disaster",
+     "f": "The Guardian",
      "alta": false
     },
     {
      "t": "Were Arsenal 'lucky' not to concede penalty at Liverpool?",
      "u": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Merse: Arsenal showed mark of champions at Anfield",
+     "u": "https://www.skysports.com/football/news/12040/13607147/paul-merson-arsenal-showed-mark-of-champions-against-liverpool-in-defensive-masterclass-victory-at-anfield",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,20 +181,26 @@
    },
    "noticias": [
     {
+     "t": "Arde la interna en Ferrari tras el incidente entre Hamilton y Leclerc en la largada del GP de México de Fórmula 1: \"Una falta de respeto a la marca\"",
+     "u": "https://www.infobae.com/deportes/2026/11/02/arde-la-interna-en-ferrari-tras-el-incidente-entre-hamilton-y-leclerc-en-la-largada-del-gp-de-mexico-de-formula-1-una-falta-de-respeto-a-la-marca/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Estalló la interna en Ferrari tras el incidente entre Hamilton y Leclerc en la largada del Gran Premio de México",
+     "u": "https://www.ole.com.ar/autos/lewishamilton-charlesleclerc-ferrari-formula1-fredericvasseur_0_T5TOQxsINV.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Tras la caída ante Boca: qué necesita River Plate para clasificarse a la Copa Libertadores 2027",
      "u": "https://www.infobae.com/deportes/2026/11/01/tras-la-caida-ante-boca-que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El llanto desconsolado de Kimi Antonelli tras consagrarse campeón de la Fórmula 1 y el inesperado gesto de Hamilton",
-     "u": "https://www.infobae.com/deportes/2026/11/01/el-llanto-desconsolado-de-kimi-antonelli-tras-consagrarse-campeon-de-la-formula-1-y-el-inesperado-gesto-de-hamilton/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Atento Boca: Atlético Mineiro volvió a perder",
-     "u": "https://www.ole.com.ar/futbol-internacional/atleticomineiro-eduardodominguez-gremio-copabrasil-boca-copasudamericana-carlosvinicius_0_CcexXch7oK.html",
+     "t": "La particular frase de Simeone antes de enfrentar al Bayern Munich: \"Me gustaría atacar los 80 minutos\"",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/particular-frase-simeone-antes-enfrentar-bayern-munich-me-gustaria-atacar-80-minutos_0_nsQAGslEIe.html",
      "f": "Olé",
      "alta": false
     }
@@ -221,48 +227,26 @@
      "alta": false
     }
    ]
-  },
-  {
-   "pais": "FR",
-   "nome": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
-   },
-   "noticias": [
-    {
-     "t": "Kimi Antonelli devient le plus jeune champion du monde de l'histoire de la F1, Max Verstappen vainqueur du Grand Prix du Mexique",
-     "u": "https://www.lequipe.fr/Formule-1/Actualites/Kimi-antonelli-devient-le-plus-jeune-champion-du-monde-de-l-histoire-de-la-f1-max-verstappen-vainqueur-du-grand-prix-du-mexique/1740427#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": false
-    },
-    {
-     "t": "Sorti sur protocole commotion avec Toulouse, Anthony Jelonch incertain pour le rassemblement du XV de France et le match face aux Fidji",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Sorti-sur-protocole-commotion-avec-toulouse-anthony-jelonch-incertain-pour-le-rassemblement-du-xv-de-france-et-le-match-face-aux-fidji/1740438#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": false
-    }
-   ]
   }
  ],
  "destaques": [
   {
-   "t": "Com dois a mais, Boca Juniors vence River Plate e garante vaga na Libertadores",
-   "u": "https://www.gazetaesportiva.com/campeonato-argentino/com-dois-a-mais-boca-juniors-vence-river-plate-e-garante-vaga-na-libertadores/",
+   "t": "GP São Paulo de F1 terá shows de IZA, João Gomes, Matuê e Paralamas na Fanzone de Interlagos",
+   "u": "https://www.gazetaesportiva.com/motor/formula-1/gp-sao-paulo-anuncia-programacao-da-f1-fanzone-com-shows-e-atracoes/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Juventus ride a pair of bangers to critical win over Napoli",
-   "u": "https://sports.yahoo.com/articles/juventus-ride-pair-bangers-critical-061523862.html",
-   "f": "Yahoo Sports",
-   "alta": false,
+   "t": "Knicks vs. Nets odds, prediction, time: 2026 NBA picks for Monday, Nov. 2 by proven model",
+   "u": "https://www.cbssports.com/betting/news/knicks-nets-odds-prediction-time-2026-nba-picks-monday-november-2/",
+   "f": "CBS Sports",
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "NBA Cup: Celtics batem Bulls com Neemias em destaque",
-   "u": "https://www.abola.pt/noticias/nba-cup-celtics-batem-bulls-com-neemias-em-destaque-2026103108372273908",
+   "t": "Sporting a caminho de Londres: um regresso e uma baixa para a Champions",
+   "u": "https://www.abola.pt/video/sporting-a-caminho-de-londres-um-regresso-e-uma-baixa-para-a-champions-2026110214504515904",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -275,15 +259,15 @@
    "pais": "ES"
   },
   {
-   "t": "America's next great heavyweight? 'Stop looking. I'm already here!'",
-   "u": "https://www.skysports.com/boxing/news/12040/13606850/damazion-vanhouter-americas-next-great-heavyweight-they-can-stop-looking-because-im-already-here",
-   "f": "Sky Sports",
-   "alta": true,
+   "t": "Arsenal end Anfield wait and Manchester United beaten again | Football Weekly – video",
+   "u": "https://www.theguardian.com/football/video/2026/nov/02/arsenal-end-anfield-wait-and-manchester-united-beaten-again-football-weekly-video",
+   "f": "The Guardian",
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Tras la caída ante Boca: qué necesita River Plate para clasificarse a la Copa Libertadores 2027",
-   "u": "https://www.infobae.com/deportes/2026/11/01/tras-la-caida-ante-boca-que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027/",
+   "t": "Arde la interna en Ferrari tras el incidente entre Hamilton y Leclerc en la largada del GP de México de Fórmula 1: \"Una falta de respeto a la marca\"",
+   "u": "https://www.infobae.com/deportes/2026/11/02/arde-la-interna-en-ferrari-tras-el-incidente-entre-hamilton-y-leclerc-en-la-largada-del-gp-de-mexico-de-formula-1-una-falta-de-respeto-a-la-marca/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -294,13 +278,6 @@
    "f": "La Gazzetta dello Sport",
    "alta": false,
    "pais": "IT"
-  },
-  {
-   "t": "Kimi Antonelli devient le plus jeune champion du monde de l'histoire de la F1, Max Verstappen vainqueur du Grand Prix du Mexique",
-   "u": "https://www.lequipe.fr/Formule-1/Actualites/Kimi-antonelli-devient-le-plus-jeune-champion-du-monde-de-l-histoire-de-la-f1-max-verstappen-vainqueur-du-grand-prix-du-mexique/1740427#at_medium=RSS_feeds",
-   "f": "L'Équipe",
-   "alta": false,
-   "pais": "FR"
   }
  ],
  "jogos": []
