@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-01T23:41:34+00:00",
+ "atualizado": "2026-11-02T06:24:24+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Grêmio x Atlético-MG - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/rs/futebol/copa-do-brasil/jogo/01-11-2026/gremio-atletico-mg.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Grêmio bate Atlético-MG com brilho de Weverton e abre vantagem na semi",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/gremio-x-atletico-mg-semifinal-copa-do-brasil-01-11-2026/",
+     "t": "Com dois a mais, Boca Juniors vence River Plate e garante vaga na Libertadores",
+     "u": "https://www.gazetaesportiva.com/campeonato-argentino/com-dois-a-mais-boca-juniors-vence-river-plate-e-garante-vaga-na-libertadores/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Atuações: falhas defensivas custam caro ao Atlético-MG em jogo de ida contra Grêmio; dê notas",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/01/atuacoes-falhas-defensivas-custam-caro-ao-atletico-mg-em-jogo-de-ida-contra-gremio-de-notas.ghtml",
+     "t": "Eduardo Domínguez admite falhas contra Grêmio e cobra melhora no ataque do Atlético-MG",
+     "u": "https://www.gazetaesportiva.com/times/atletico-mg/eduardo-dominguez-admite-falhas-contra-gremio-e-cobra-melhora-no-ataque-do-atletico-mg/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Antonelli, Verstappen e Hamilton formam pódio com mais títulos na história da F1",
+     "u": "https://ge.globo.com/motor/formula-1/noticia/2026/11/01/antonelli-verstappen-e-hamilton-formam-podio-com-mais-titulos-mundiais-na-historia-da-f1.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Grêmio x Atlético-MG: veja fotos do jogo de ida da semifinal da Copa do Brasil",
-     "u": "https://www.gazetaesportiva.com/campeonatos/serie-a/gremio-x-atletico-mg-veja-fotos-do-jogo-de-ida-da-semifinal-da-copa-do-brasil/",
-     "f": "Gazeta Esportiva",
+     "t": "Dá pra virar? Barba revela reação do vestiário do Atlético-MG após derrota para Grêmio",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/01/da-pra-virar-barba-revela-reacao-do-vestiario-do-atletico-mg-apos-derrota-para-gremio.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,9 +45,15 @@
    },
    "noticias": [
     {
-     "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Eagles-Commanders, Sunday Night Football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-nba-league-pass-eagles-commanders-sunday-night-football/",
-     "f": "CBS Sports",
+     "t": "Juventus ride a pair of bangers to critical win over Napoli",
+     "u": "https://sports.yahoo.com/articles/juventus-ride-pair-bangers-critical-061523862.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "NBA fans have mixed reactions to Scottie Barnes and Luka Doncic's scuffle during Lakers vs Raptors",
+     "u": "https://sports.yahoo.com/articles/nba-fans-mixed-reactions-scottie-055949262.html",
+     "f": "Yahoo Sports",
      "alta": false
     },
     {
@@ -57,15 +63,9 @@
      "alta": false
     },
     {
-     "t": "Antonelli heads list of F1's youngest champions",
-     "u": "https://sports.yahoo.com/articles/antonelli-heads-list-f1s-youngest-223548435.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Player Ratings: Racing Santander 0–3 Real Madrid",
-     "u": "https://sports.yahoo.com/articles/player-ratings-racing-santander-0-233405179.html",
-     "f": "Yahoo Sports",
+     "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Eagles-Commanders, Sunday Night Football",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-nba-league-pass-eagles-commanders-sunday-night-football/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Fez-se história: Kimi Antonelli conquista título mundial de Fórmula 1",
-     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/hoje-pode-haver-campeao-siga-o-grande-premio-do-mexico-em-direto",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Antonelli sagra-se campeão do mundo e faz história na Fórmula 1",
-     "u": "https://www.abola.pt/noticias/antonelli-sagra-se-campeao-do-mundo-e-faz-historia-na-formula-1-2026110122415899000",
-     "f": "A Bola",
-     "alta": true
-    },
-    {
-     "t": "Paulo Fonseca no Sporting: feito inédito no P. Ferreira, falhanço no FC Porto e reinvenção no Lyon",
-     "u": "https://www.abola.pt/noticias/paulo-fonseca-no-sporting-feito-inedito-no-p-ferreira-falhanco-no-fc-porto-e-reinvencao-no-lyon-2026110119220345292",
+     "t": "NBA Cup: Celtics batem Bulls com Neemias em destaque",
+     "u": "https://www.abola.pt/noticias/nba-cup-celtics-batem-bulls-com-neemias-em-destaque-2026103108372273908",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Taça do Brasil: Palmeiras de Abel Ferreira vence Vasco de Pedro Emanuel e parte em vantagem nas 'meias'",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/taca-do-brasil-palmeiras-de-abel-ferreira-vence-vasco-de-pedro-emanuel-e-parte-em-vantagem-nas-meias",
+     "t": "O aplauso ao Bola de Ouro: Kane homenageado antes do Bayern-Dortmund",
+     "u": "https://www.abola.pt/video/o-aplauso-ao-bola-de-ouro-kane-homenageado-antes-do-bayern-dortmund-2026103117533380915",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Rui Borges deixa a fatura e Paulo Fonseca recebe o cheque: eis os valores que o Sporting pode ter de pagar",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/rui-borges-deixa-a-fatura-e-paulo-fonseca-recebe-o-cheque-eis-os-valores-que-o-sporting-pode-ter-de-pagar",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Benfica perde pela primeira vez",
+     "u": "https://www.record.pt/futebol/futebol-nacional/juvenis/detalhe/benfica-perde-pela-primeira-vez",
      "f": "Record",
      "alta": false
     }
@@ -119,14 +119,14 @@
      "alta": false
     },
     {
-     "t": "Palmarés F1: Kimi Antonelli se añade a la lista de todos los campeones del mundo de Fórmula 1",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261101/1004245666/palmares-f1-kimi-antonelli-anade-lista-todos-campeones-mundo-formula-1.html",
+     "t": "Kimi Antonelli es el campeón más joven de la historia de la F1 tras GP México; Verstappen triunfa en el caos",
+     "u": "https://www.mundodeportivo.com/motor/f1/20261101/1004245929/kimi-antonelli-campeon-joven-historia-f1.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Kimi Antonelli es el campeón más joven de la historia de la F1 tras GP México; Verstappen triunfa en el caos",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261101/1004245929/kimi-antonelli-campeon-joven-historia-f1.html",
+     "t": "Los campeones de Fórmula 1 por número de títulos: ¿Quién tiene más mundiales de F1?",
+     "u": "https://www.mundodeportivo.com/motor/f1/20261101/1004245938/campeones-f1-numero-titulos.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Arsenal move clear at the top with a rare win at Liverpool",
-     "u": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
+     "t": "America's next great heavyweight? 'Stop looking. I'm already here!'",
+     "u": "https://www.skysports.com/boxing/news/12040/13606850/damazion-vanhouter-americas-next-great-heavyweight-they-can-stop-looking-because-im-already-here",
+     "f": "Sky Sports",
+     "alta": true
     },
     {
-     "t": "Michael Carrick to stay in charge of Manchester United for Roma game",
-     "u": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-stay-manager-manchester-united-roma-game",
+     "t": "Liverpool’s work in progress fizzles out in the face of streetwise champions | Andy Hunter",
+     "u": "https://www.theguardian.com/football/2026/nov/01/liverpool-work-in-progress-fizzles-out-arsenal-premier-league",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Antonelli heads list of F1's youngest champions",
-     "u": "https://www.bbc.co.uk/sport/formula1/articles/cjy56wkdk3nko?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "'It's a mentality thing' - Hamilton hits out at Leclerc after Mexico clash",
+     "u": "https://www.skysports.com/f1/news/12040/13606690/lewis-hamilton-hits-out-at-charles-leclerc-after-ferrari-drivers-mexico-city-gp-clash-as-he-questions-team-mates-approach",
+     "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Hamilton collides with Verstappen in DRAMATIC race restart!",
-     "u": "https://www.skysports.com/watch/video/13606842/mexico-city-gp-lewis-hamilton-collides-with-max-verstappen-in-dramatic-race-restart",
-     "f": "Sky Sports",
+     "t": "Were Arsenal 'lucky' not to concede penalty at Liverpool?",
+     "u": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,26 +181,20 @@
    },
    "noticias": [
     {
-     "t": "Franco Colapinto terminó octavo en el Gran Premio de la Ciudad de México, que ganó Max Verstappen: Kimi Antonelli se consagró campeón de la Fórmula 1",
-     "u": "https://www.infobae.com/deportes/2026/11/01/franco-colapinto-largara-desde-el-puesto-11-el-gran-premio-de-mexico-de-la-formula-1-todo-lo-que-hay-que-saber/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
      "t": "Tras la caída ante Boca: qué necesita River Plate para clasificarse a la Copa Libertadores 2027",
      "u": "https://www.infobae.com/deportes/2026/11/01/tras-la-caida-ante-boca-que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Italia volvió a la gloria en la F1: siete décadas sin campeones, algunos amagues y el título histórico de Kimi Antonelli",
-     "u": "https://www.ole.com.ar/autos/italia-gloria-f1-formula-1-kimi-antonelli-mercedes-mexico-73-anos_0_e8dF4fTAuw.html",
-     "f": "Olé",
+     "t": "El llanto desconsolado de Kimi Antonelli tras consagrarse campeón de la Fórmula 1 y el inesperado gesto de Hamilton",
+     "u": "https://www.infobae.com/deportes/2026/11/01/el-llanto-desconsolado-de-kimi-antonelli-tras-consagrarse-campeon-de-la-formula-1-y-el-inesperado-gesto-de-hamilton/",
+     "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Parecía un hincha de Mercedes, pero era el futuro campeón de la Fórmula 1: la historia de Kimi Antonelli",
-     "u": "https://www.ole.com.ar/autos/andreakimiantonelli-mercedes-formula1-totowolff-lewishamilton-ferrari_0_KGNNlMqOyh.html",
+     "t": "Atento Boca: Atlético Mineiro volvió a perder",
+     "u": "https://www.ole.com.ar/futbol-internacional/atleticomineiro-eduardodominguez-gremio-copabrasil-boca-copasudamericana-carlosvinicius_0_CcexXch7oK.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Des bijoux de Kerim Alajbegovic et de Jérémie Boga portent la Juventus Turin contre Naples en Serie A",
-     "u": "https://www.lequipe.fr/Football/Actualites/Des-bijoux-de-kerim-alajbegovic-et-jeremie-boga-portent-la-juventus-turin-contre-naples-en-serie-a/1740406#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": true
-    },
-    {
      "t": "Kimi Antonelli devient le plus jeune champion du monde de l'histoire de la F1, Max Verstappen vainqueur du Grand Prix du Mexique",
      "u": "https://www.lequipe.fr/Formule-1/Actualites/Kimi-antonelli-devient-le-plus-jeune-champion-du-monde-de-l-histoire-de-la-f1-max-verstappen-vainqueur-du-grand-prix-du-mexique/1740427#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    },
+    {
+     "t": "Sorti sur protocole commotion avec Toulouse, Anthony Jelonch incertain pour le rassemblement du XV de France et le match face aux Fidji",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Sorti-sur-protocole-commotion-avec-toulouse-anthony-jelonch-incertain-pour-le-rassemblement-du-xv-de-france-et-le-match-face-aux-fidji/1740438#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,24 +247,24 @@
  ],
  "destaques": [
   {
-   "t": "Grêmio x Atlético-MG - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/rs/futebol/copa-do-brasil/jogo/01-11-2026/gremio-atletico-mg.ghtml",
-   "f": "ge",
+   "t": "Com dois a mais, Boca Juniors vence River Plate e garante vaga na Libertadores",
+   "u": "https://www.gazetaesportiva.com/campeonato-argentino/com-dois-a-mais-boca-juniors-vence-river-plate-e-garante-vaga-na-libertadores/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Eagles-Commanders, Sunday Night Football",
-   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-nba-league-pass-eagles-commanders-sunday-night-football/",
-   "f": "CBS Sports",
+   "t": "Juventus ride a pair of bangers to critical win over Napoli",
+   "u": "https://sports.yahoo.com/articles/juventus-ride-pair-bangers-critical-061523862.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Fez-se história: Kimi Antonelli conquista título mundial de Fórmula 1",
-   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/hoje-pode-haver-campeao-siga-o-grande-premio-do-mexico-em-direto",
-   "f": "Record",
-   "alta": true,
+   "t": "NBA Cup: Celtics batem Bulls com Neemias em destaque",
+   "u": "https://www.abola.pt/noticias/nba-cup-celtics-batem-bulls-com-neemias-em-destaque-2026103108372273908",
+   "f": "A Bola",
+   "alta": false,
    "pais": "PT"
   },
   {
@@ -281,15 +275,15 @@
    "pais": "ES"
   },
   {
-   "t": "Arsenal move clear at the top with a rare win at Liverpool",
-   "u": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
-   "f": "BBC Sport",
-   "alta": false,
+   "t": "America's next great heavyweight? 'Stop looking. I'm already here!'",
+   "u": "https://www.skysports.com/boxing/news/12040/13606850/damazion-vanhouter-americas-next-great-heavyweight-they-can-stop-looking-because-im-already-here",
+   "f": "Sky Sports",
+   "alta": true,
    "pais": "GB"
   },
   {
-   "t": "Franco Colapinto terminó octavo en el Gran Premio de la Ciudad de México, que ganó Max Verstappen: Kimi Antonelli se consagró campeón de la Fórmula 1",
-   "u": "https://www.infobae.com/deportes/2026/11/01/franco-colapinto-largara-desde-el-puesto-11-el-gran-premio-de-mexico-de-la-formula-1-todo-lo-que-hay-que-saber/",
+   "t": "Tras la caída ante Boca: qué necesita River Plate para clasificarse a la Copa Libertadores 2027",
+   "u": "https://www.infobae.com/deportes/2026/11/01/tras-la-caida-ante-boca-que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -302,10 +296,10 @@
    "pais": "IT"
   },
   {
-   "t": "Des bijoux de Kerim Alajbegovic et de Jérémie Boga portent la Juventus Turin contre Naples en Serie A",
-   "u": "https://www.lequipe.fr/Football/Actualites/Des-bijoux-de-kerim-alajbegovic-et-jeremie-boga-portent-la-juventus-turin-contre-naples-en-serie-a/1740406#at_medium=RSS_feeds",
+   "t": "Kimi Antonelli devient le plus jeune champion du monde de l'histoire de la F1, Max Verstappen vainqueur du Grand Prix du Mexique",
+   "u": "https://www.lequipe.fr/Formule-1/Actualites/Kimi-antonelli-devient-le-plus-jeune-champion-du-monde-de-l-histoire-de-la-f1-max-verstappen-vainqueur-du-grand-prix-du-mexique/1740427#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": true,
+   "alta": false,
    "pais": "FR"
   }
  ],
