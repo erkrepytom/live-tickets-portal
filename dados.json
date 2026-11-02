@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-02T17:13:15+00:00",
+ "atualizado": "2026-11-02T23:56:05+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "GP São Paulo de F1 terá shows de IZA, João Gomes, Matuê e Paralamas na Fanzone de Interlagos",
-     "u": "https://www.gazetaesportiva.com/motor/formula-1/gp-sao-paulo-anuncia-programacao-da-f1-fanzone-com-shows-e-atracoes/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Goleiros do Bayern prontos para encarar o Atlético na Champions League",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/goleiros-do-bayern-prontos-para-encarar-o-atletico-na-champions-league/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Atlético-MG x Santa Cruz - Copa do Brasil Sub-20 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/copa-do-brasil-sub-20/jogo/04-11-2026/atletico-mg-santa-cruz.ghtml",
+     "t": "Tiquinho treina como titular e deve retomar vaga no ataque do Botafogo contra o Atlético-MG",
+     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/02/tiquinho-treina-como-titular-e-deve-retomar-vaga-no-ataque-do-botafogo-contra-o-atletico-mg.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Weverton comenta suspensão forçada contra o Flamengo em meio a briga do Grêmio contra o Z-4",
-     "u": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/02/weverton-comenta-suspensao-forcada-contra-o-flamengo-em-meio-a-briga-do-gremio-contra-o-z-4.ghtml",
+     "t": "Atlético de Madrid x Bayern de Munique: veja prováveis escalações e onde assistir ao jogo pela Champions",
+     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/atletico-de-madrid-x-bayern-de-munique-onde-assistir-champions-league-4-rodada/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Manchester United x Roma: veja prováveis escalações e onde assistir ao jogo da Champions",
+     "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/manchester-united-x-roma-veja-provaveis-escalacoes-e-onde-assistir-ao-jogo-da-champions/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Palmeiras x Vasco: CBF não divulgará análise do VAR de possível pênalti de Barboza",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/02/palmeiras-x-vasco-cbf-nao-divulgara-analise-do-var-de-possivel-penalti-de-barboza.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -46,27 +46,27 @@
    "noticias": [
     {
      "t": "Knicks vs. Nets odds, prediction, time: 2026 NBA picks for Monday, Nov. 2 by proven model",
-     "u": "https://www.cbssports.com/betting/news/knicks-nets-odds-prediction-time-2026-nba-picks-monday-november-2/",
+     "u": "https://www.cbssports.com/betting/news/knicks-nets-odds-prediction-time-2026-nba-picks-best-bets-monday-november-2/",
      "f": "CBS Sports",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "2026 NBA betting promos: Get over $3,000 in bonuses from top online betting apps, sportsbooks for November 2",
-     "u": "https://www.cbssports.com/betting/news/2026-nba-betting-promos-get-over-3000-in-bonuses-from-top-online-betting-apps-sportsbooks-for-november-2/",
+     "t": "UEFA Champions League scores, schedule: League phase reaches halfway point with Matchday 4",
+     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-4/",
      "f": "CBS Sports",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Five storylines to watch for 2026-27 Ohio State women’s basketball season",
-     "u": "https://sports.yahoo.com/articles/five-storylines-watch-2026-27-170100011.html",
+     "t": "Iowa women's basketball vs. Towson: Updates, score, highlights",
+     "u": "https://sports.yahoo.com/articles/iowa-womens-basketball-vs-towson-235022220.html",
      "f": "Yahoo Sports",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Men's college basketball national championship odds for 2026-2027: Duke, Florida are title favorites heading into season",
-     "u": "https://sports.yahoo.com/mens-college-basketball/betting/article/mens-college-basketball-national-championship-odds-for-2026-2027-duke-florida-are-title-favorites-heading-into-season-170015845.html",
+     "t": "Vote for the Hometeam Football Player of the Week, presented by the YMCA of Central Massachusetts",
+     "u": "https://sports.yahoo.com/articles/vote-hometeam-football-player-week-234920589.html",
      "f": "Yahoo Sports",
-     "alta": true
+     "alta": false
     }
    ]
   },
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Sporting a caminho de Londres: um regresso e uma baixa para a Champions",
-     "u": "https://www.abola.pt/video/sporting-a-caminho-de-londres-um-regresso-e-uma-baixa-para-a-champions-2026110214504515904",
+     "t": "Saída de Paulo Fonseca para o Sporting causa polémica em França: «Dá-me nojo»",
+     "u": "https://www.abola.pt/noticias/saida-de-paulo-fonseca-para-o-sporting-causa-polemica-em-franca-da-me-nojo-2026110219394018456",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Gonçalo Paciência e Lucas França poupados do jogo com o Marítimo por questões físicas",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/santa-clara/detalhe/goncalo-paciencia-e-lucas-franca-poupados-do-jogo-com-o-maritimo-por-questoes-fisicas",
+     "t": "Harry Kane trocaria Bola de Ouro pela Champions: «Troféus de equipa são a razão pela qual jogamos futebol»",
+     "u": "https://www.record.pt/internacional/paises/alemanha/bayern-munique/detalhe/harry-kane-trocaria-bola-de-ouro-pela-champions-trofeus-de-equipa-sao-a-razao-pela-qual-jogamos-futebol",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Pai garante compromisso de Haaland com o Manchester City perante ameaça de descida",
-     "u": "https://www.abola.pt/noticias/pai-garante-compromisso-de-haaland-com-o-manchester-city-perante-ameaca-de-descida-2026110209161079744",
+     "t": "Portugal abre Mundial com vitória por 3-0 frente ao Qatar",
+     "u": "https://www.record.pt/modalidades/padel/detalhe/portugal-abre-mundial-com-vitoria-por-3-0-frente-ao-qatar",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Golo bem anulado e penálti bem assinalado no Benfica-Alverca? A análise de Pedro Henriques",
+     "u": "https://www.abola.pt/video/golo-bem-anulado-e-penalti-bem-assinalado-no-benfica-alverca-a-analise-de-pedro-henriques-2026110223195472050",
      "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Notáveis do Manchester United apostam em Unai Emery",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/notaveis-do-manchester-united-apostam-em-unai-emery",
-     "f": "Record",
      "alta": false
     }
    ]
@@ -119,21 +119,21 @@
      "alta": false
     },
     {
-     "t": "Louzán, sobre la posible sede de la final del Mundial en el Camp Nou: \"Ojalá así sea\"",
-     "u": "https://www.mundodeportivo.com/futbol/mundial/20261102/1004246187/louzan-sobre-posible-sede-final-mundial-camp-nou-ojala-asi-sea.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Cinco ausencias y máxima presión: así llega el Barça al duelo de Champions",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261102/1004246297/cinco-ausencias-maxima-presion-asi-llega-barca-duelo-champions.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "¡Ladrando al campo equivocado! Un perro irrumpe en un partido de la Premier League egipcia.",
-     "u": "https://www.marca.com/futbol/2026/10/30/ladrando-campo-equivocado-perro-irrumpe-partido-premier-league-egipcia-video.html",
+     "t": "La gran final del Mundial Sub-15, en directo",
+     "u": "https://www.marca.com/futbol/seleccion/2026/10/30/6ae49b2a020dbf8b21b1dec8-directo.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Estudian presentar candidatura para la final de la Champions femenina 2031",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261102/1004246392/barca-generalitat-estudian-presentar-candidatura-final-champions-femenina-2031.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Gran éxito de la VI Gala Femenina del Fútbol Europeo",
+     "u": "https://www.mundodeportivo.com/futbol/femenino/20261102/1004246395/gran-exito-vi-gala-femenina-futbol-europeo.html",
+     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -147,9 +147,15 @@
    },
    "noticias": [
     {
-     "t": "Arsenal end Anfield wait and Manchester United beaten again | Football Weekly – video",
-     "u": "https://www.theguardian.com/football/video/2026/nov/02/arsenal-end-anfield-wait-and-manchester-united-beaten-again-football-weekly-video",
+     "t": "Arsenal have everything they need to repeat as Premier League champions | Jonathan Wilson",
+     "u": "https://www.theguardian.com/football/2026/nov/02/arsenal-liverpool-premier-league",
      "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "England to host South Africa live on Sky Sports in Netball World Cup prep",
+     "u": "https://www.skysports.com/netball/news/12040/13607188/england-to-host-south-africa-in-three-test-netball-series-live-on-sky-sports-in-february-as-world-cup-preparation",
+     "f": "Sky Sports",
      "alta": false
     },
     {
@@ -163,12 +169,6 @@
      "u": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
-    },
-    {
-     "t": "Merse: Arsenal showed mark of champions at Anfield",
-     "u": "https://www.skysports.com/football/news/12040/13607147/paul-merson-arsenal-showed-mark-of-champions-against-liverpool-in-defensive-masterclass-victory-at-anfield",
-     "f": "Sky Sports",
-     "alta": false
     }
    ]
   },
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
+     "t": "Manchester United vs. Roma, por la Champions League: hora, cómo ver y probables formaciones",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/manchester-united-vs-roma-ver-champions-league-tv-online-formaciones_0_oT6t6mp5vB.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Arde la interna en Ferrari tras el incidente entre Hamilton y Leclerc en la largada del GP de México de Fórmula 1: \"Una falta de respeto a la marca\"",
      "u": "https://www.infobae.com/deportes/2026/11/02/arde-la-interna-en-ferrari-tras-el-incidente-entre-hamilton-y-leclerc-en-la-largada-del-gp-de-mexico-de-formula-1-una-falta-de-respeto-a-la-marca/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Estalló la interna en Ferrari tras el incidente entre Hamilton y Leclerc en la largada del Gran Premio de México",
-     "u": "https://www.ole.com.ar/autos/lewishamilton-charlesleclerc-ferrari-formula1-fredericvasseur_0_T5TOQxsINV.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Tras la caída ante Boca: qué necesita River Plate para clasificarse a la Copa Libertadores 2027",
-     "u": "https://www.infobae.com/deportes/2026/11/01/tras-la-caida-ante-boca-que-necesita-river-plate-para-clasificarse-a-la-copa-libertadores-2027/",
+     "t": "El polémico lugar que un medio inglés le dio a Franco Colapinto en su ranking del GP Ciudad de México de Fórmula 1",
+     "u": "https://www.infobae.com/deportes/2026/11/02/el-polemico-lugar-que-un-medio-ingles-le-dio-a-franco-colapinto-en-su-ranking-del-gp-ciudad-de-mexico-de-formula-1/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "La particular frase de Simeone antes de enfrentar al Bayern Munich: \"Me gustaría atacar los 80 minutos\"",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/particular-frase-simeone-antes-enfrentar-bayern-munich-me-gustaria-atacar-80-minutos_0_nsQAGslEIe.html",
+     "t": "Las tapas de Kimi Antonelli campeón: qué dijeron los periódicos de Italia",
+     "u": "https://www.ole.com.ar/autos/kimi-antonelli-tapas-periodicos-diarios-italia-campeon-formula1_0_24rz5pvx2N.html",
      "f": "Olé",
      "alta": false
     }
@@ -227,26 +227,48 @@
      "alta": false
     }
    ]
+  },
+  {
+   "pais": "FR",
+   "nome": {
+    "pt": "França",
+    "en": "France",
+    "es": "Francia"
+   },
+   "noticias": [
+    {
+     "t": "Deux incertitudes majeures dans le onze du PSG pour le déplacement à Villarreal en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Deux-incertitudes-majeures-dans-le-onze-du-psg-pour-le-deplacement-a-villarreal-en-ligue-des-champions/1740694#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    },
+    {
+     "t": "Ludovic Ajorque « disponible » pour l'équipe de France de Zinédine Zidane « s'il a besoin », selon son entraîneur à Brest, Julien Lachuer",
+     "u": "https://www.lequipe.fr/Football/Actualites/Ludovic-ajorque-disponible-pour-l-equipe-de-france-de-zinedine-zidane-s-il-a-besoin-selon-son-entraineur-a-brest-julien-lachuer/1740707#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    }
+   ]
   }
  ],
  "destaques": [
   {
-   "t": "GP São Paulo de F1 terá shows de IZA, João Gomes, Matuê e Paralamas na Fanzone de Interlagos",
-   "u": "https://www.gazetaesportiva.com/motor/formula-1/gp-sao-paulo-anuncia-programacao-da-f1-fanzone-com-shows-e-atracoes/",
-   "f": "Gazeta Esportiva",
+   "t": "Tiquinho treina como titular e deve retomar vaga no ataque do Botafogo contra o Atlético-MG",
+   "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/02/tiquinho-treina-como-titular-e-deve-retomar-vaga-no-ataque-do-botafogo-contra-o-atletico-mg.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
    "t": "Knicks vs. Nets odds, prediction, time: 2026 NBA picks for Monday, Nov. 2 by proven model",
-   "u": "https://www.cbssports.com/betting/news/knicks-nets-odds-prediction-time-2026-nba-picks-monday-november-2/",
+   "u": "https://www.cbssports.com/betting/news/knicks-nets-odds-prediction-time-2026-nba-picks-best-bets-monday-november-2/",
    "f": "CBS Sports",
-   "alta": true,
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "Sporting a caminho de Londres: um regresso e uma baixa para a Champions",
-   "u": "https://www.abola.pt/video/sporting-a-caminho-de-londres-um-regresso-e-uma-baixa-para-a-champions-2026110214504515904",
+   "t": "Saída de Paulo Fonseca para o Sporting causa polémica em França: «Dá-me nojo»",
+   "u": "https://www.abola.pt/noticias/saida-de-paulo-fonseca-para-o-sporting-causa-polemica-em-franca-da-me-nojo-2026110219394018456",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -259,16 +281,16 @@
    "pais": "ES"
   },
   {
-   "t": "Arsenal end Anfield wait and Manchester United beaten again | Football Weekly – video",
-   "u": "https://www.theguardian.com/football/video/2026/nov/02/arsenal-end-anfield-wait-and-manchester-united-beaten-again-football-weekly-video",
+   "t": "Arsenal have everything they need to repeat as Premier League champions | Jonathan Wilson",
+   "u": "https://www.theguardian.com/football/2026/nov/02/arsenal-liverpool-premier-league",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Arde la interna en Ferrari tras el incidente entre Hamilton y Leclerc en la largada del GP de México de Fórmula 1: \"Una falta de respeto a la marca\"",
-   "u": "https://www.infobae.com/deportes/2026/11/02/arde-la-interna-en-ferrari-tras-el-incidente-entre-hamilton-y-leclerc-en-la-largada-del-gp-de-mexico-de-formula-1-una-falta-de-respeto-a-la-marca/",
-   "f": "Infobae",
+   "t": "Manchester United vs. Roma, por la Champions League: hora, cómo ver y probables formaciones",
+   "u": "https://www.ole.com.ar/futbol-internacional/champions/manchester-united-vs-roma-ver-champions-league-tv-online-formaciones_0_oT6t6mp5vB.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -278,6 +300,13 @@
    "f": "La Gazzetta dello Sport",
    "alta": false,
    "pais": "IT"
+  },
+  {
+   "t": "Deux incertitudes majeures dans le onze du PSG pour le déplacement à Villarreal en Ligue des champions",
+   "u": "https://www.lequipe.fr/Football/Actualites/Deux-incertitudes-majeures-dans-le-onze-du-psg-pour-le-deplacement-a-villarreal-en-ligue-des-champions/1740694#at_medium=RSS_feeds",
+   "f": "L'Équipe",
+   "alta": false,
+   "pais": "FR"
   }
  ],
  "jogos": []
