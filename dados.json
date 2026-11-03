@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-03T15:18:53+00:00",
+ "atualizado": "2026-11-03T21:51:01+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Imprensa argentina repercute série de derrotas do Atlético-MG: \"Boca sorri\"",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/03/imprensa-argentina-repercute-serie-de-derrotas-do-atletico-mg-boca-sorri.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Botafogo convoca torcida e supera média de público do ano contra o Atlético-MG",
-     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/03/botafogo-convoca-torcida-e-supera-media-de-publico-do-ano-contra-o-atletico-mg.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "São Paulo x Corinthians: veja onde assistir ao clássico pelo Brasileirão",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/sao-paulo-x-corinthians-veja-onde-assistir-ao-classico-pelo-brasileirao-2/",
+     "t": "Veja fotos de Atlético de Madrid e Bayern pela Champions",
+     "u": "https://www.gazetaesportiva.com/times/atletico-de-madrid/veja-fotos-de-atletico-de-madrid-e-bayern-pela-champions/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Cuca critica arbitragem após derrota do Santos e mantém “sonho” de vaga na Libertadores",
-     "u": "https://www.gazetaesportiva.com/times/santos/cuca-critica-arbitragem-santos-libertadores/",
+     "t": "Grêmio abre vantagem na semifinal contra o Atlético-MG; veja bastidores",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/gremio-abre-vantagem-na-semifinal-contra-o-atletico-mg-veja-bastidores/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Atlético de Madrid x Bayern de Munique - Liga dos Campeões 2026/2027 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/03-11-2026/atleticodemadri-bayerndemunique.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "ASA fecha com volante que estava no futebol gaúcho e jogou na base do Corinthians",
+     "u": "https://ge.globo.com/al/futebol/times/asa/noticia/2026/11/03/asa-fecha-com-volante-que-estava-no-futebol-gaucho-e-jogou-na-base-do-corinthians.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "What to watch in UEFA Champions League: Michael Carrick's Manchester United future on the line",
-     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-michael-carrick-manchester-united-bayern-inter/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Tom Fornelli's College Football Power Ratings: Georgia and Miami remain on top, but cracks begin to show",
-     "u": "https://www.cbssports.com/college-football/news/college-football-power-ratings-2026-georgia-miami-flaws/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "4 former Iowa football players who stood out in Week 8 of NFL season",
-     "u": "https://sports.yahoo.com/articles/4-former-iowa-football-players-150423409.html",
+     "t": "Iowa football shows support to Jack Campbell after scary injury",
+     "u": "https://sports.yahoo.com/articles/iowa-football-shows-support-jack-214220836.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Seahawks’ fireworks show nearly takes out Black Hawk during Army flyby",
-     "u": "https://sports.yahoo.com/articles/seahawks-fireworks-show-nearly-takes-151334250.html",
+     "t": "First CFP football rankings live updates: When is CFP rankings show?",
+     "u": "https://sports.yahoo.com/articles/first-cfp-football-rankings-live-214253271.html",
      "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "NFL DFS, Jaguars vs. Ravens: Top daily Fantasy picks, lineup advice for 'Thursday Night Football'",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-jaguars-ravens-daily-fantasy-picks-draftkings-fanduel-lineup-advice-thursday-night-football/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Fantasy football Week 9 TE preview: Kyle Pitts' must-start status is in jeopardy, and for good reason",
+     "u": "https://www.cbssports.com/fantasy/football/news/fantasy-football-2026-week-9-te-preview/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Farioli: a baixa e a dúvida para o Nápoles, \"o mesmo FC Porto de sempre\" e treinar... em Itália",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/em-direto-siga-a-antevisao-de-farioli-e-andre-silva-ao-jogo-com-o-napoles",
+     "t": "Villarreal-PSG, em direto",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/villarreal-psg-em-direto",
      "f": "Record",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Campeã mundial França recebe Europeu de hóquei em patins de 2027",
-     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/campea-mundial-franca-recebe-europeu-de-hoquei-em-patins-de-2027",
+     "t": "Atlético Madrid-Bayern, em direto",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/atletico-madrid-bayern-em-direto",
      "f": "Record",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Uma ausência e uma dúvida no último treino do FC Porto antes da Champions",
-     "u": "https://www.abola.pt/noticias/uma-ausencia-e-uma-duvida-no-ultimo-treino-do-fc-porto-antes-da-champions-2026110310485391269",
+     "t": "FC Porto e Benfica dominam convocatória dos sub-19 com vários dos plantéis principais",
+     "u": "https://www.abola.pt/noticias/fc-porto-e-benfica-dominam-convocatoria-dos-sub-19-com-varios-dos-planteis-principais-2026110219193866531",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Alverca virou página do Benfica e já tem outro dérbi lisboeta no horizonte",
-     "u": "https://www.abola.pt/noticias/alverca-virou-pagina-do-benfica-e-ja-tem-outro-derbi-lisboeta-no-horizonte-2026110314124243407",
+     "t": "Unai Emery recorda 1-6 em Camp Nou: «VAR teria sido necessário»",
+     "u": "https://www.abola.pt/noticias/unai-emery-recorda-1-6-em-camp-nou-var-teria-sido-necessario-2026110223201243296",
      "f": "A Bola",
      "alta": false
     }
@@ -113,15 +113,15 @@
    },
    "noticias": [
     {
-     "t": "La nueva casa de Inter y Milan",
-     "u": "https://www.marca.com/futbol/liga-italiana/2026/10/30/nueva-casa-inter-milan-video.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
      "t": "Horario, canal y dónde hoy ver por TV el FC Barcelona - Aston Villa",
      "u": "https://www.mundodeportivo.com/horarios/futbol/20261102/1004245693/horario-canal-ver-tv-fc-barcelona-aston-villa-uefa-champions-league.html",
      "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "La nueva casa de Inter y Milan",
+     "u": "https://www.marca.com/futbol/liga-italiana/2026/10/30/nueva-casa-inter-milan-video.html",
+     "f": "Marca",
      "alta": false
     },
     {
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "Hamilton calls for 'serious talks' at Ferrari after Leclerc incident",
-     "u": "https://www.skysports.com/f1/news/12040/13607145/lewis-hamilton-demands-serious-talks-at-ferrari-after-charles-leclerc-incident-at-mexico-city-grand-prix",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "Don’t call it a remontada: Emery’s Camp Nou comeback focuses European blur",
-     "u": "https://www.theguardian.com/football/2026/nov/03/unai-emery-aston-villa-barcelona-camp-nou-champions-league",
+     "t": "Manchester United v Roma: Champions League – live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Falling revenues, bigger losses, higher wages: Prem Rugby clubs’ debt climbs to £366m",
-     "u": "https://www.theguardian.com/sport/2026/nov/03/falling-revenues-bigger-losses-higher-wages-prem-rugby-union-clubs-debt",
+     "t": "Lionesses to face France and Portugal in Nations League",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qxge7zo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Barcelona v Aston Villa: Champions League – live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/03/barcelona-v-aston-villa-champions-league-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Emery looks to show Villa can compete with elite",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c5ev3m9ddzgmo?at_medium=RSS&at_campaign=rss",
+     "t": "Death threats for Briton Burrage on WTA Tour return",
+     "u": "https://www.bbc.co.uk/sport/tennis/articles/cq62y9yzgzgeo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,27 +181,27 @@
    },
    "noticias": [
     {
-     "t": "Con Atlético Madrid-Bayern Múnich y Manchester United-Roma se abre la cuarta fecha de la Champions: la agenda completa",
+     "t": "Matías Soulé en modo Champions: buen gol para Roma vs. Manchester United, generó penal y gran noticia para Scaloni",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/video-gol-matias-soule-roma-manchester-united-champions-league-figura_0_tAE3o90R34.html",
+     "f": "Olé",
+     "alta": true
+    },
+    {
+     "t": "A pesar del gol de Soulé, Roma pierde contra el Manchester United por la cuarta fecha de la Champions League: la agenda completa",
      "u": "https://www.infobae.com/deportes/2026/11/03/con-atletico-madrid-bayern-munich-y-manchester-united-roma-se-abre-la-cuarta-fecha-de-la-champions-la-agenda-completa/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Argentinos Juniors le ganó 2-1 a Atlético Tucumán, alcanzó a Boca en la Tabla Anual y se clasificó a la Libertadores",
-     "u": "https://www.infobae.com/deportes/2026/11/02/defensa-y-justicia-e-independiente-se-miden-por-la-fecha-15-del-torneo-clausura-hora-tv-y-formaciones/",
+     "t": "El show de goles del PSG ante el Villarreal en apenas 16 minutos",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/video-goleada-psg-villarreal-champions-league_0_sC2gF6n0BI.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Oficial: Haas confirmó que Esteban Ocon no correrá más en el equipo y anunció quién lo reemplazará en la Fórmula 1",
+     "u": "https://www.infobae.com/deportes/2026/11/03/oficial-haas-confirmo-que-esteban-ocon-no-correra-mas-en-el-equipo-y-anuncio-quien-lo-reemplazara-en-la-formula-1/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "La chicana de Boca a River con un video de la actuación de Álvaro Montero",
-     "u": "https://www.ole.com.ar/boca-juniors/superclasico-boca-river-alvaromontero-canaldeboca-juanromanriquelme-labombonera-chicana-thiagoalmada-redessociales_0_BXQIhwMWIm.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Qué hizo Otamendi con el banderín de Boca que le regaló Paredes en el Súper",
-     "u": "https://www.ole.com.ar/boca-juniors/nicolasotamendi-leandroparedes-superclasico-banderin-river-boca-andresarouxet-bombonera-instagram_0_3djUO4zOGl.html",
-     "f": "Olé",
      "alta": false
     }
    ]
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "La minute de silence du Real Madrid et d'Arsenal",
-     "u": "https://www.lequipe.fr/Football/Video/Mort-de-jesus-de-miguel-la-minute-de-silence-des-joueurs-du-real-madrid-et-d-arsenal/20244767#at_medium=RSS_feeds",
+     "t": "Les chiffres de la folle entame du Paris Saint-Germain contre Villarreal en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Les-chiffres-de-la-folle-entame-du-paris-saint-germain-contre-villarreal-en-ligue-des-champions/1740920#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Thibault Poret s'incline face à un Zhou Qihao irrésistible au premier tour du Champions de Francfort",
-     "u": "https://www.lequipe.fr/Tennis-de-table/Actualites/Thibault-poret-s-incline-face-a-un-zhou-qihao-irresistible-au-premier-tour-du-champions-de-francfort/1740778#at_medium=RSS_feeds",
+     "t": "Le Stade Français ne veut pas être lésé par le PSG",
+     "u": "https://www.lequipe.fr/Football/Article/-un-acteur-incontournable-du-quartier-le-stade-francais-omnisports-ne-veut-pas-etre-lese-si-le-psg-venait-a-racheter-le-parc-des-princes/1740928#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "Imprensa argentina repercute série de derrotas do Atlético-MG: \"Boca sorri\"",
-   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/03/imprensa-argentina-repercute-serie-de-derrotas-do-atletico-mg-boca-sorri.ghtml",
-   "f": "ge",
+   "t": "Veja fotos de Atlético de Madrid e Bayern pela Champions",
+   "u": "https://www.gazetaesportiva.com/times/atletico-de-madrid/veja-fotos-de-atletico-de-madrid-e-bayern-pela-champions/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "What to watch in UEFA Champions League: Michael Carrick's Manchester United future on the line",
-   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-michael-carrick-manchester-united-bayern-inter/",
-   "f": "CBS Sports",
+   "t": "Iowa football shows support to Jack Campbell after scary injury",
+   "u": "https://sports.yahoo.com/articles/iowa-football-shows-support-jack-214220836.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Farioli: a baixa e a dúvida para o Nápoles, \"o mesmo FC Porto de sempre\" e treinar... em Itália",
-   "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/em-direto-siga-a-antevisao-de-farioli-e-andre-silva-ao-jogo-com-o-napoles",
+   "t": "Villarreal-PSG, em direto",
+   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/villarreal-psg-em-direto",
    "f": "Record",
-   "alta": false,
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "La nueva casa de Inter y Milan",
-   "u": "https://www.marca.com/futbol/liga-italiana/2026/10/30/nueva-casa-inter-milan-video.html",
-   "f": "Marca",
+   "t": "Horario, canal y dónde hoy ver por TV el FC Barcelona - Aston Villa",
+   "u": "https://www.mundodeportivo.com/horarios/futbol/20261102/1004245693/horario-canal-ver-tv-fc-barcelona-aston-villa-uefa-champions-league.html",
+   "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Hamilton calls for 'serious talks' at Ferrari after Leclerc incident",
-   "u": "https://www.skysports.com/f1/news/12040/13607145/lewis-hamilton-demands-serious-talks-at-ferrari-after-charles-leclerc-incident-at-mexico-city-grand-prix",
-   "f": "Sky Sports",
+   "t": "Manchester United v Roma: Champions League – live",
+   "u": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Con Atlético Madrid-Bayern Múnich y Manchester United-Roma se abre la cuarta fecha de la Champions: la agenda completa",
-   "u": "https://www.infobae.com/deportes/2026/11/03/con-atletico-madrid-bayern-munich-y-manchester-united-roma-se-abre-la-cuarta-fecha-de-la-champions-la-agenda-completa/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Matías Soulé en modo Champions: buen gol para Roma vs. Manchester United, generó penal y gran noticia para Scaloni",
+   "u": "https://www.ole.com.ar/futbol-internacional/champions/video-gol-matias-soule-roma-manchester-united-champions-league-figura_0_tAE3o90R34.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "La minute de silence du Real Madrid et d'Arsenal",
-   "u": "https://www.lequipe.fr/Football/Video/Mort-de-jesus-de-miguel-la-minute-de-silence-des-joueurs-du-real-madrid-et-d-arsenal/20244767#at_medium=RSS_feeds",
+   "t": "Les chiffres de la folle entame du Paris Saint-Germain contre Villarreal en Ligue des champions",
+   "u": "https://www.lequipe.fr/Football/Actualites/Les-chiffres-de-la-folle-entame-du-paris-saint-germain-contre-villarreal-en-ligue-des-champions/1740920#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
