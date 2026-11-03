@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-02T23:56:05+00:00",
+ "atualizado": "2026-11-03T06:58:54+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -10,12 +10,6 @@
     "es": "Brasil"
    },
    "noticias": [
-    {
-     "t": "Tiquinho treina como titular e deve retomar vaga no ataque do Botafogo contra o Atlético-MG",
-     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/02/tiquinho-treina-como-titular-e-deve-retomar-vaga-no-ataque-do-botafogo-contra-o-atletico-mg.ghtml",
-     "f": "ge",
-     "alta": false
-    },
     {
      "t": "Atlético de Madrid x Bayern de Munique: veja prováveis escalações e onde assistir ao jogo pela Champions",
      "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/atletico-de-madrid-x-bayern-de-munique-onde-assistir-champions-league-4-rodada/",
@@ -29,8 +23,14 @@
      "alta": false
     },
     {
-     "t": "Palmeiras x Vasco: CBF não divulgará análise do VAR de possível pênalti de Barboza",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/02/palmeiras-x-vasco-cbf-nao-divulgara-analise-do-var-de-possivel-penalti-de-barboza.ghtml",
+     "t": "Tiquinho treina como titular e deve retomar vaga no ataque do Botafogo contra o Atlético-MG",
+     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/02/tiquinho-treina-como-titular-e-deve-retomar-vaga-no-ataque-do-botafogo-contra-o-atletico-mg.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Léo Ortiz, do Flamengo, analisa quase golaço no clássico contra o Vasco: \"Podia ganhar o Puskás\"",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/02/leo-ortiz-do-flamengo-analisa-quase-golaco-no-classico-contra-o-vasco-podia-ganhar-o-puskas.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
+     "t": "Çalha/Isaksen renewals, Juve/Roma moves 🤑 Milan rotation: morning news☀️",
+     "u": "https://sports.yahoo.com/articles/alha-isaksen-renewals-juve-roma-064400546.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Use FanDuel promo code to get $200 in bonus bets by targeting Seahawks vs. Bears, NFL Monday Night Football",
+     "u": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-seahawks-vs-bears-nfl-monday-night-football/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
      "t": "Knicks vs. Nets odds, prediction, time: 2026 NBA picks for Monday, Nov. 2 by proven model",
      "u": "https://www.cbssports.com/betting/news/knicks-nets-odds-prediction-time-2026-nba-picks-best-bets-monday-november-2/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "UEFA Champions League scores, schedule: League phase reaches halfway point with Matchday 4",
-     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-schedule-matchday-4/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Iowa women's basketball vs. Towson: Updates, score, highlights",
-     "u": "https://sports.yahoo.com/articles/iowa-womens-basketball-vs-towson-235022220.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Vote for the Hometeam Football Player of the Week, presented by the YMCA of Central Massachusetts",
-     "u": "https://sports.yahoo.com/articles/vote-hometeam-football-player-week-234920589.html",
+     "t": "Manchester City Set to Rival Chelsea For Club Brugge Striker Nicolò Tresoldi",
+     "u": "https://sports.yahoo.com/articles/manchester-city-set-rival-chelsea-063000476.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -85,21 +85,21 @@
      "alta": false
     },
     {
-     "t": "Harry Kane trocaria Bola de Ouro pela Champions: «Troféus de equipa são a razão pela qual jogamos futebol»",
-     "u": "https://www.record.pt/internacional/paises/alemanha/bayern-munique/detalhe/harry-kane-trocaria-bola-de-ouro-pela-champions-trofeus-de-equipa-sao-a-razao-pela-qual-jogamos-futebol",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Portugal abre Mundial com vitória por 3-0 frente ao Qatar",
-     "u": "https://www.record.pt/modalidades/padel/detalhe/portugal-abre-mundial-com-vitoria-por-3-0-frente-ao-qatar",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Golo bem anulado e penálti bem assinalado no Benfica-Alverca? A análise de Pedro Henriques",
-     "u": "https://www.abola.pt/video/golo-bem-anulado-e-penalti-bem-assinalado-no-benfica-alverca-a-analise-de-pedro-henriques-2026110223195472050",
+     "t": "Golo anulado e penálti no Benfica-Alverca: a análise de Pedro Henriques",
+     "u": "https://www.abola.pt/video/golo-anulado-e-penalti-no-benfica-alverca-a-analise-de-pedro-henriques-2026110223195472050",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Benfica jogou de 'reencarnado'",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/benfica-jogou-de-reencarnado",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Daniel Carrasco e a mudança do FC Porto para o Académico Viseu: «Foi uma escolha acertada»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-next-gen/detalhe/daniel-carrasco-e-a-mudanca-do-fc-porto-para-o-academico-viseu-foi-uma-escolha-acertada",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -125,14 +125,14 @@
      "alta": false
     },
     {
-     "t": "Estudian presentar candidatura para la final de la Champions femenina 2031",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261102/1004246392/barca-generalitat-estudian-presentar-candidatura-final-champions-femenina-2031.html",
+     "t": "Gran éxito de la VI Gala Femenina del Fútbol Europeo",
+     "u": "https://www.mundodeportivo.com/futbol/femenino/20261102/1004246395/gran-exito-vi-gala-femenina-futbol-europeo.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Gran éxito de la VI Gala Femenina del Fútbol Europeo",
-     "u": "https://www.mundodeportivo.com/futbol/femenino/20261102/1004246395/gran-exito-vi-gala-femenina-futbol-europeo.html",
+     "t": "Barça-Aston Villa: Reivindicación europea",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261103/1004246361/barca-aston-villa-reivindicacion-europea.html",
      "f": "Mundo Deportivo",
      "alta": false
     }
@@ -159,15 +159,15 @@
      "alta": false
     },
     {
-     "t": "England’s exit from Rugby League World Cup was a disaster years in the making | Aaron Bower",
-     "u": "https://www.theguardian.com/sport/2026/nov/02/england-2026-rugby-league-world-cup-disaster",
-     "f": "The Guardian",
+     "t": "Hamilton calls for 'serious talks' at Ferrari after Leclerc incident",
+     "u": "https://www.skysports.com/f1/news/12040/13607145/lewis-hamilton-demands-serious-talks-at-ferrari-after-charles-leclerc-incident-at-mexico-city-grand-prix",
+     "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Were Arsenal 'lucky' not to concede penalty at Liverpool?",
-     "u": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "England’s exit from Rugby League World Cup was a disaster years in the making | Aaron Bower",
+     "u": "https://www.theguardian.com/sport/2026/nov/02/england-2026-rugby-league-world-cup-disaster",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Manchester United vs. Roma, por la Champions League: hora, cómo ver y probables formaciones",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/manchester-united-vs-roma-ver-champions-league-tv-online-formaciones_0_oT6t6mp5vB.html",
+     "t": "Argentinos Juniors le ganó 2-1 a Atlético Tucumán, alcanzó a Boca en la Tabla Anual y se clasificó a la Libertadores",
+     "u": "https://www.infobae.com/deportes/2026/11/02/defensa-y-justicia-e-independiente-se-miden-por-la-fecha-15-del-torneo-clausura-hora-tv-y-formaciones/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Olé, doblemente distinguido en los Premios ADEPA: del fútbol en Malvinas al Mundial",
+     "u": "https://www.ole.com.ar/informacion-general/premios-adep-periodismo-ole-mundial-ole_0_6PsbNjNubA.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Arde la interna en Ferrari tras el incidente entre Hamilton y Leclerc en la largada del GP de México de Fórmula 1: \"Una falta de respeto a la marca\"",
-     "u": "https://www.infobae.com/deportes/2026/11/02/arde-la-interna-en-ferrari-tras-el-incidente-entre-hamilton-y-leclerc-en-la-largada-del-gp-de-mexico-de-formula-1-una-falta-de-respeto-a-la-marca/",
+     "t": "Salen a la venta las entradas para la final de la Copa Sudamericana entre Boca y Atlético Mineiro: valores y horarios de expendio",
+     "u": "https://www.infobae.com/deportes/2026/11/03/salen-a-la-venta-las-entradas-para-la-final-de-la-copa-sudamericana-entre-boca-y-atletico-mineiro-valores-y-horarios-de-expendio/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El polémico lugar que un medio inglés le dio a Franco Colapinto en su ranking del GP Ciudad de México de Fórmula 1",
-     "u": "https://www.infobae.com/deportes/2026/11/02/el-polemico-lugar-que-un-medio-ingles-le-dio-a-franco-colapinto-en-su-ranking-del-gp-ciudad-de-mexico-de-formula-1/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Las tapas de Kimi Antonelli campeón: qué dijeron los periódicos de Italia",
-     "u": "https://www.ole.com.ar/autos/kimi-antonelli-tapas-periodicos-diarios-italia-campeon-formula1_0_24rz5pvx2N.html",
+     "t": "Boca, Argentinos y Central, a todo o nada por ser el Campeón de Liga",
+     "u": "https://www.ole.com.ar/futbol-primera/campeon-liga-boca-rosario-central-argentinos_0_MREh8xbZ5u.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Deux incertitudes majeures dans le onze du PSG pour le déplacement à Villarreal en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Deux-incertitudes-majeures-dans-le-onze-du-psg-pour-le-deplacement-a-villarreal-en-ligue-des-champions/1740694#at_medium=RSS_feeds",
+     "t": "Luka Doncic (Lakers) et Shai Gilgeous-Alexander (Thunder) affolent les compteurs en NBA",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Luka-doncic-lakers-et-shai-gilgeous-alexander-thunder-affolent-les-compteurs-en-nba/1740719#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Ludovic Ajorque « disponible » pour l'équipe de France de Zinédine Zidane « s'il a besoin », selon son entraîneur à Brest, Julien Lachuer",
-     "u": "https://www.lequipe.fr/Football/Actualites/Ludovic-ajorque-disponible-pour-l-equipe-de-france-de-zinedine-zidane-s-il-a-besoin-selon-son-entraineur-a-brest-julien-lachuer/1740707#at_medium=RSS_feeds",
+     "t": "Face à Villarreal, le PSG vise une dixième victoire de suite toutes compétitions confondues pour conforter sa position dans le top 8 de la Ligue des c",
+     "u": "https://www.lequipe.fr/Football/Article/Face-a-villarreal-le-psg-vise-une-dixieme-victoire-de-suite-toutes-competitions-confondues-pour-se-rapprocher-du-top-8-de-la-ligue-des-champions/1740685#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,16 +253,16 @@
  ],
  "destaques": [
   {
-   "t": "Tiquinho treina como titular e deve retomar vaga no ataque do Botafogo contra o Atlético-MG",
-   "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/02/tiquinho-treina-como-titular-e-deve-retomar-vaga-no-ataque-do-botafogo-contra-o-atletico-mg.ghtml",
-   "f": "ge",
+   "t": "Atlético de Madrid x Bayern de Munique: veja prováveis escalações e onde assistir ao jogo pela Champions",
+   "u": "https://www.gazetaesportiva.com/campeonatos/champions-league/atletico-de-madrid-x-bayern-de-munique-onde-assistir-champions-league-4-rodada/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Knicks vs. Nets odds, prediction, time: 2026 NBA picks for Monday, Nov. 2 by proven model",
-   "u": "https://www.cbssports.com/betting/news/knicks-nets-odds-prediction-time-2026-nba-picks-best-bets-monday-november-2/",
-   "f": "CBS Sports",
+   "t": "Çalha/Isaksen renewals, Juve/Roma moves 🤑 Milan rotation: morning news☀️",
+   "u": "https://sports.yahoo.com/articles/alha-isaksen-renewals-juve-roma-064400546.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
@@ -288,9 +288,9 @@
    "pais": "GB"
   },
   {
-   "t": "Manchester United vs. Roma, por la Champions League: hora, cómo ver y probables formaciones",
-   "u": "https://www.ole.com.ar/futbol-internacional/champions/manchester-united-vs-roma-ver-champions-league-tv-online-formaciones_0_oT6t6mp5vB.html",
-   "f": "Olé",
+   "t": "Argentinos Juniors le ganó 2-1 a Atlético Tucumán, alcanzó a Boca en la Tabla Anual y se clasificó a la Libertadores",
+   "u": "https://www.infobae.com/deportes/2026/11/02/defensa-y-justicia-e-independiente-se-miden-por-la-fecha-15-del-torneo-clausura-hora-tv-y-formaciones/",
+   "f": "Infobae",
    "alta": false,
    "pais": "AR"
   },
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Deux incertitudes majeures dans le onze du PSG pour le déplacement à Villarreal en Ligue des champions",
-   "u": "https://www.lequipe.fr/Football/Actualites/Deux-incertitudes-majeures-dans-le-onze-du-psg-pour-le-deplacement-a-villarreal-en-ligue-des-champions/1740694#at_medium=RSS_feeds",
+   "t": "Luka Doncic (Lakers) et Shai Gilgeous-Alexander (Thunder) affolent les compteurs en NBA",
+   "u": "https://www.lequipe.fr/Basket/Actualites/Luka-doncic-lakers-et-shai-gilgeous-alexander-thunder-affolent-les-compteurs-en-nba/1740719#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
