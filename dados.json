@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-04T02:26:09+00:00",
+ "atualizado": "2026-11-04T18:00:22+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Botafogo x Atlético-MG pelo Brasileirão: onde assistir, estatísticas e prováveis escalações",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/botafogo-x-atletico-mg-pelo-brasileirao-onde-assistir-estatisticas-e-provaveis-escalacoes/",
+     "t": "AEK Atenas x Real Madrid - Liga dos Campeões 2026/2027 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/04-11-2026/aek-realmadrid.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Coritiba pega dupla que briga por Libertadores e Flamengo e Palmeiras na reta final da Série A",
+     "u": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/11/04/coritiba-pega-dupla-que-briga-por-libertadores-e-flamengo-e-palmeiras-na-reta-final-da-serie-a.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Arteta acredita que Saliba está pronto voltar ao Arsenal na Champions",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/arteta-acredita-que-saliba-esta-pronto-voltar-ao-arsenal-na-champions/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Bayern de Munique vence o Atlético de Madrid e sobe na tabela da Champions",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/03-11-2026/atleticodemadri-bayerndemunique.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Cruzeiro x Corinthians - Campeonato Brasileiro sub-17 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/jogo/03-11-2026/cruzeiro-corinthians.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Slavia Praga x Arsenal: veja onde assistir e prováveis escalações do jogo da Champions",
-     "u": "https://www.gazetaesportiva.com/times/arsenal/slavia-praga-x-arsenal-veja-onde-assistir-e-provaveis-escalacoes-do-jogo-da-champions/",
+     "t": "Gakpo frustrado com decisões sobre pênaltis na derrota do Liverpool frente ao Arsenal",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/gakpo-frustrado-com-decisoes-sobre-penaltis-na-derrota-do-liverpool-frente-ao-arsenal/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Champions League panic meter: Man United end skid with late drama; Atletico, Roma in trouble",
-     "u": "https://www.cbssports.com/soccer/news/champions-league-panic-meter-man-united-rebound-as-roma-atletico/",
+     "t": "What to watch in UEFA Champions League: Liverpool's attack in need of jump start",
+     "u": "https://www.cbssports.com/soccer/news/what-to-watch-in-uefa-champions-league-liverpool-attack/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Manchester United stun Roma with three-goal second-half Champions League comeback after dreadful start",
-     "u": "https://www.cbssports.com/soccer/news/manchester-united-roma-three-goal-champions-league-comeback/",
+     "t": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for 76ers-Pistons, NBA, college football on Wednesday",
+     "u": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-76ers-pistons-nba-college-football-on-wednesday/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Fever’s Sophie Cunningham’s IG following grew more this season than other top 49 WNBA players combined, any NBA star",
-     "u": "https://sports.yahoo.com/articles/fever-sophie-cunningham-ig-following-021407827.html",
+     "t": "Manchester United’s Benjamin Sesko emerging as target for Juventus",
+     "u": "https://sports.yahoo.com/articles/manchester-united-benjamin-sesko-emerging-174600127.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Dayton basketball notes: Flyers show improved rebounding in opener",
-     "u": "https://sports.yahoo.com/articles/dayton-basketball-notes-flyers-show-020300154.html",
+     "t": "Thomas Haugh lands on list of 2027 NBA Draft prospects to watch",
+     "u": "https://sports.yahoo.com/articles/thomas-haugh-lands-list-2027-174929844.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Champions: Inter e LASK goleiam, Lille soma primeiro ponto",
-     "u": "https://www.abola.pt/noticias/champions-inter-e-lask-goleiam-lille-soma-primeiro-ponto-2026110321581835142",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Champions: Bayern aproveitou prenda de Le Normand para impor a lei em Madrid",
-     "u": "https://www.abola.pt/noticias/champions-bayern-aproveitou-prenda-de-le-normand-para-impor-a-lei-em-madrid-2026110322022765593",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Sporting com 95.3% de chances de avançar para o playoff da Champions",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/sporting-com-95-3-de-chances-de-avancar-para-o-playoff-da-champions",
+     "t": "Tiago Fernandes inspira-se no Inter e Silas Andersen \"mete Hjulmand no bolso de trás\": ainda a vitória do Sporting em Londres",
+     "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/tiago-fernandes-inspira-se-no-inter-e-silas-andersen-mete-hjulmand-no-bolso-de-tras-ainda-a-vitoria-do-sporting-em-londres",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Inter quer renovar com Federico Dimarco",
-     "u": "https://www.record.pt/internacional/paises/italia/inter-milao/detalhe/inter-quer-renovar-com-federico-dimarco",
+     "t": "Direção Técnica Nacional valida expulsão no Gil Vicente-FC Porto e amarelo no Santa Clara-Benfica",
+     "u": "https://www.record.pt/futebol/arbitragem/detalhe/direcao-tecnica-nacional-valida-expulsao-no-gil-vicente-fc-porto-e-amarelo-no-santa-clara-benfica",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Unai Emery recorda 1-6 em Camp Nou: «VAR teria sido necessário»",
+     "u": "https://www.abola.pt/noticias/unai-emery-recorda-1-6-em-camp-nou-var-teria-sido-necessario-2026110223201243296",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Benfica-SC Braga e muito mais: horários de mais duas jornadas da Liga já são conhecidos",
+     "u": "https://www.abola.pt/noticias/benfica-sc-braga-e-muito-mais-horarios-de-mais-duas-jornadas-da-liga-ja-sao-conhecidos-2026110218274508846",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,26 +113,26 @@
    },
    "noticias": [
     {
-     "t": "Horario, canal y dónde hoy ver por TV el FC Barcelona - Aston Villa",
-     "u": "https://www.mundodeportivo.com/horarios/futbol/20261102/1004245693/horario-canal-ver-tv-fc-barcelona-aston-villa-uefa-champions-league.html",
+     "t": "Este es el once titular del Real Madrid ante el AEK Atenas: Mou agita su pizarra",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261104/1004247248/once-titular-real-madrid-aek-atenas-mou-agita-pizarra.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "La nueva casa de Inter y Milan",
-     "u": "https://www.marca.com/futbol/liga-italiana/2026/10/30/nueva-casa-inter-milan-video.html",
+     "t": "Dos policías detienen a un campeón NBA y discuten sobre el \"innombrable\" LeBron : \"Todo fue culpa suya\"",
+     "u": "https://www.marca.com/baloncesto/nba/2026/11/04/dos-policias-detienen-campeon-nba-discuten-sobre-innombrable-lebron-culpa-suya-video.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "0-2: El Bayern somete al Atlético",
-     "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261103/1004246920/0-2-bayern-somete-atletico.html",
+     "t": "AEK Atenas - Real Madrid, en directo",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261104/1004245229/aek-atenas-real-madrid-directo-champions-league-futbol.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "¡Ladrando al campo equivocado! Un perro irrumpe en un partido de la Premier League egipcia.",
-     "u": "https://www.marca.com/futbol/2026/10/30/ladrando-campo-equivocado-perro-irrumpe-partido-premier-league-egipcia-video.html",
+     "t": "El padre de Bellingham mete siete goles con Inglaterra<br>",
+     "u": "https://www.marca.com/futbol/real-madrid/2026/11/04/mark-padre-bellingham-mete-siete-goles-inglaterra-pele-futbol-aficionado.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Manchester United produce comeback for the ages as Cunha double floors Roma",
-     "u": "https://www.theguardian.com/football/2026/nov/03/manchester-united-roma-champions-league-match-report",
+     "t": "Borthwick given RFU backing for World Cup even if England flop in Nations Championship",
+     "u": "https://www.theguardian.com/sport/2026/nov/04/steve-borthwick-rugby-world-cup-rfu-backing-england",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Lennart Karl steals in behind Atlético Madrid to inspire Bayern Munich win",
-     "u": "https://www.theguardian.com/football/2026/nov/03/atletico-madrid-bayern-munich-champions-league-match-report",
+     "t": "The long goodbye: England taking their time to leave Rugby League World Cup",
+     "u": "https://www.theguardian.com/sport/no-helmets-required/2026/nov/04/long-goodbye-england-tournament-brian-mcdermott-rugby-league-world-cup",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Man Utd beat Roma - the other great Champions League comebacks",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c64g1dg0d84ko?at_medium=RSS&at_campaign=rss",
+     "t": "England thrash USA to secure place in World Cup semi-finals",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/cxnv0n879vmno?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Lionesses to face France and Portugal in Nations League",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qxge7zo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Alexa Rendell joins Sky Sports F1 team ahead of Sao Paulo GP",
+     "u": "https://www.skysports.com/f1/news/12040/13607898/alexa-rendell-joins-sky-sports-f1-team-ahead-of-sao-paulo-grand-prix-in-brazil",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Manchester United dio vuelta un partido electrizante y le ganó 3-2 a la Roma por la Champions League: todos los goles del día",
-     "u": "https://www.infobae.com/deportes/2026/11/03/con-atletico-madrid-bayern-munich-y-manchester-united-roma-se-abre-la-cuarta-fecha-de-la-champions-la-agenda-completa/",
+     "t": "Los Pumas confirmaron la formación para enfrentar a Irlanda en Dublín por el Nations Championship",
+     "u": "https://www.infobae.com/deportes/2026/11/04/los-pumas-confirmaron-la-formacion-para-enfrentar-a-irlanda-en-dublin-por-el-nations-championship/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Del golazo al tenso cruce con Bruno Fernandes: el partido de Matías Soulé en la caída de la Roma ante el United por la Champions",
-     "u": "https://www.infobae.com/deportes/2026/11/03/del-golazo-al-tenso-cruce-con-bruno-fernandes-el-partido-de-matias-soule-en-la-caida-de-la-roma-ante-el-united-por-la-champions/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "La definición del Campeón de Liga con Boca, Argentinos y Central: cuándo, dónde, cómo y por qué",
-     "u": "https://www.ole.com.ar/futbol-primera/definicion-campeon-liga_0_CwanuwbnQd.html",
+     "t": "Franco Colapinto lleva los colores de Boca a la Fórmula 1: el nuevo traje del piloto para el Gran Premio de Brasil",
+     "u": "https://www.ole.com.ar/autos/franco-colapinto-nuevo-traje-colores-boca-azul-amarillo-gran-premio-brasil-alpine-interlagos-pierre-gasly-mercadolibre_0_gbz1bblP7E.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "A 17 días de Boca, Eduardo Domínguez guarda 10 titulares y tiene cinco lesionados",
-     "u": "https://www.ole.com.ar/boca-juniors/atletico-mineiro-dominguez-guarda-titulares-botafogo_0_9wfOYkbGOk.html",
+     "t": "La dura autocrítica del Cholo Simeone tras la derrota del Atlético de Madrid con el Bayern Múnich por la Champions League",
+     "u": "https://www.infobae.com/deportes/2026/11/04/la-dura-autocritica-del-cholo-simeone-tras-la-derrota-del-atletico-de-madrid-con-el-bayern-munich-por-la-champions-league/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Liverpool - Fenerbahce, en VIVO por la Champions League: con Mac Allister de titular, ya se juega en Turquía",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/liverpool-fenerbahce-vivo-champions-league-alexis-macallister-titular-turquia_0_YhG5FQmOxM.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Avec 14 matches d'affilée sans défaite en Ligue des champions, le PSG égale un record de l'OL",
-     "u": "https://www.lequipe.fr/Football/Actualites/Avec-14-matches-d-affilee-sans-defaite-en-ligue-des-champions-le-psg-egale-un-record-de-l-ol/1740973#at_medium=RSS_feeds",
+     "t": "Le Real Madrid avec Eduardo Camavinga et Vinicius chez l'AEK Athènes en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Le-real-madrid-avec-eduardo-camavinga-et-vinicius-chez-l-aek-athenes-en-ligue-des-champions/1741136#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Fabian Ruiz après la large victoire du PSG sur la pelouse de Villarreal en Ligue des champions : « On a toujours cette envie de gagner »",
-     "u": "https://www.lequipe.fr/Football/Actualites/Fabian-ruiz-apres-la-large-victoire-du-psg-sur-la-pelouse-de-villarreal-en-ligue-des-champions-on-a-toujours-cette-envie-de-gagner/1740972#at_medium=RSS_feeds",
+     "t": "Saison terminée pour Novak Djokovic, battu au deuxième tour du Rolex Paris Masters par Rinky Hijikata et qui n'ira pas aux Finales ATP",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Saison-terminee-pour-novak-djokovic-battu-au-deuxieme-tour-du-rolex-paris-masters-par-rinky-hijikata-et-qui-n-ira-pas-aux-finales-atp/1741138#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,43 +253,43 @@
  ],
  "destaques": [
   {
-   "t": "Botafogo x Atlético-MG pelo Brasileirão: onde assistir, estatísticas e prováveis escalações",
-   "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/botafogo-x-atletico-mg-pelo-brasileirao-onde-assistir-estatisticas-e-provaveis-escalacoes/",
-   "f": "Gazeta Esportiva",
-   "alta": false,
+   "t": "AEK Atenas x Real Madrid - Liga dos Campeões 2026/2027 - Ao vivo - globoesporte.com",
+   "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/04-11-2026/aek-realmadrid.ghtml",
+   "f": "ge",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Champions League panic meter: Man United end skid with late drama; Atletico, Roma in trouble",
-   "u": "https://www.cbssports.com/soccer/news/champions-league-panic-meter-man-united-rebound-as-roma-atletico/",
+   "t": "What to watch in UEFA Champions League: Liverpool's attack in need of jump start",
+   "u": "https://www.cbssports.com/soccer/news/what-to-watch-in-uefa-champions-league-liverpool-attack/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Champions: Inter e LASK goleiam, Lille soma primeiro ponto",
-   "u": "https://www.abola.pt/noticias/champions-inter-e-lask-goleiam-lille-soma-primeiro-ponto-2026110321581835142",
-   "f": "A Bola",
+   "t": "Tiago Fernandes inspira-se no Inter e Silas Andersen \"mete Hjulmand no bolso de trás\": ainda a vitória do Sporting em Londres",
+   "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/tiago-fernandes-inspira-se-no-inter-e-silas-andersen-mete-hjulmand-no-bolso-de-tras-ainda-a-vitoria-do-sporting-em-londres",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Horario, canal y dónde hoy ver por TV el FC Barcelona - Aston Villa",
-   "u": "https://www.mundodeportivo.com/horarios/futbol/20261102/1004245693/horario-canal-ver-tv-fc-barcelona-aston-villa-uefa-champions-league.html",
+   "t": "Este es el once titular del Real Madrid ante el AEK Atenas: Mou agita su pizarra",
+   "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261104/1004247248/once-titular-real-madrid-aek-atenas-mou-agita-pizarra.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Manchester United produce comeback for the ages as Cunha double floors Roma",
-   "u": "https://www.theguardian.com/football/2026/nov/03/manchester-united-roma-champions-league-match-report",
+   "t": "Borthwick given RFU backing for World Cup even if England flop in Nations Championship",
+   "u": "https://www.theguardian.com/sport/2026/nov/04/steve-borthwick-rugby-world-cup-rfu-backing-england",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Manchester United dio vuelta un partido electrizante y le ganó 3-2 a la Roma por la Champions League: todos los goles del día",
-   "u": "https://www.infobae.com/deportes/2026/11/03/con-atletico-madrid-bayern-munich-y-manchester-united-roma-se-abre-la-cuarta-fecha-de-la-champions-la-agenda-completa/",
+   "t": "Los Pumas confirmaron la formación para enfrentar a Irlanda en Dublín por el Nations Championship",
+   "u": "https://www.infobae.com/deportes/2026/11/04/los-pumas-confirmaron-la-formacion-para-enfrentar-a-irlanda-en-dublin-por-el-nations-championship/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Avec 14 matches d'affilée sans défaite en Ligue des champions, le PSG égale un record de l'OL",
-   "u": "https://www.lequipe.fr/Football/Actualites/Avec-14-matches-d-affilee-sans-defaite-en-ligue-des-champions-le-psg-egale-un-record-de-l-ol/1740973#at_medium=RSS_feeds",
+   "t": "Le Real Madrid avec Eduardo Camavinga et Vinicius chez l'AEK Athènes en Ligue des champions",
+   "u": "https://www.lequipe.fr/Football/Actualites/Le-real-madrid-avec-eduardo-camavinga-et-vinicius-chez-l-aek-athenes-en-ligue-des-champions/1741136#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
