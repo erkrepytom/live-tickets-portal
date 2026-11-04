@@ -207,6 +207,78 @@
    "conferido": "2026-10-15"
   },
   {
+   "slug": "inglaterra-vs-croacia-2026-11-12",
+   "id": 387541,
+   "data": "2026-11-12",
+   "tipo": "football",
+   "esporte_tipo": 1000,
+   "img": "07-euro-league.jpg",
+   "banner": "07-euro-league.jpg",
+   "titulo": {
+    "pt": "Inglaterra x Croácia",
+    "en": "England vs Croatia",
+    "es": "Inglaterra vs Croacia"
+   },
+   "painel": {
+    "pt": "INGLATERRA X CROÁCIA",
+    "en": "ENGLAND VS CROATIA",
+    "es": "INGLATERRA VS CROACIA"
+   },
+   "competicao": {
+    "nome": "UEFA Nations League",
+    "dock": "/search?q=UEFA%20Nations%20League"
+   },
+   "times": [
+    {
+     "nome": {
+      "pt": "Inglaterra",
+      "en": "England",
+      "es": "Inglaterra"
+     }
+    },
+    {
+     "nome": {
+      "pt": "Croácia",
+      "en": "Croatia",
+      "es": "Croacia"
+     }
+    }
+   ],
+   "local": "Wembley Stadium",
+   "cidade": {
+    "pt": "Londres",
+    "en": "London",
+    "es": "Londres"
+   },
+   "pais": {
+    "pt": "Inglaterra",
+    "en": "England",
+    "es": "Inglaterra"
+   },
+   "intro": {
+    "pt": "Inglaterra e Croácia se enfrentam em Wembley, pela Liga das Nações da UEFA.",
+    "en": "England face Croatia at Wembley in the UEFA Nations League.",
+    "es": "Inglaterra y Croacia se enfrentan en Wembley, por la Liga de Naciones de la UEFA."
+   },
+   "chegar": {
+    "pt": [
+     "Metrô até Wembley Park (Jubilee ou Metropolitan line) e depois a Olympic Way até o estádio.",
+     "Trem da Chiltern Railways desde Marylebone até Wembley Stadium, ao lado do estádio."
+    ],
+    "en": [
+     "Underground to Wembley Park (Jubilee or Metropolitan line), then walk up Olympic Way.",
+     "Chiltern Railways from Marylebone to Wembley Stadium station, next to the ground."
+    ],
+    "es": [
+     "Metro hasta Wembley Park (líneas Jubilee o Metropolitan) y luego Olympic Way hasta el estadio.",
+     "Tren de Chiltern Railways desde Marylebone hasta Wembley Stadium, junto al estadio."
+    ]
+   },
+   "hora": "19:45",
+   "inicio": "2026-11-12T19:45:00+00:00",
+   "conferido": "2026-10-29"
+  },
+  {
    "slug": "franca-vs-africa-do-sul-2026-11-13",
    "id": 383977,
    "data": "2026-11-13",
@@ -277,6 +349,148 @@
    "hora": "21:10",
    "inicio": "2026-11-13T21:10:00+01:00",
    "conferido": "2026-10-15"
+  },
+  {
+   "slug": "mexico-vs-jamaica-2026-11-17",
+   "id": "G5dVZ_fm9hdkb",
+   "data": "2026-11-17",
+   "tipo": "football",
+   "esporte_tipo": 1000,
+   "img": "sports.jpg",
+   "titulo": {
+    "pt": "México x Jamaica",
+    "en": "Mexico vs Jamaica",
+    "es": "México vs Jamaica"
+   },
+   "painel": {
+    "pt": "MÉXICO X JAMAICA",
+    "en": "MEXICO VS JAMAICA",
+    "es": "MÉXICO VS JAMAICA"
+   },
+   "competicao": {
+    "nome": "CONCACAF Nations League",
+    "dock": "/search?q=CONCACAF%20Nations%20League"
+   },
+   "times": [
+    {
+     "nome": {
+      "pt": "México",
+      "en": "Mexico",
+      "es": "México"
+     }
+    },
+    {
+     "nome": {
+      "pt": "Jamaica",
+      "en": "Jamaica",
+      "es": "Jamaica"
+     }
+    }
+   ],
+   "local": "Estadio BBVA",
+   "cidade": {
+    "pt": "Monterrey",
+    "en": "Monterrey",
+    "es": "Monterrey"
+   },
+   "pais": {
+    "pt": "México",
+    "en": "Mexico",
+    "es": "México"
+   },
+   "intro": {
+    "pt": "A seleção mexicana recebe a Jamaica no Estadio BBVA, em Guadalupe, na região de Monterrey, pela CONCACAF Nations League.",
+    "en": "Mexico host Jamaica at Estadio BBVA in Guadalupe, in the Monterrey area, in the CONCACAF Nations League.",
+    "es": "El Tri recibe a Jamaica en el Estadio BBVA, en Guadalupe, zona metropolitana de Monterrey, por la CONCACAF Nations League."
+   },
+   "chegar": {
+    "pt": [
+     "O estádio fica em Guadalupe, na região metropolitana de Monterrey. Táxi ou aplicativo é o caminho mais simples.",
+     "Na saída a procura por carro é grande: combine antes o ponto de encontro."
+    ],
+    "en": [
+     "The stadium is in Guadalupe, in the Monterrey metro area. A taxi or ride-hailing app is the simplest way in.",
+     "Demand for rides is high after the match: agree a pickup point in advance."
+    ],
+    "es": [
+     "El estadio está en Guadalupe, en la zona metropolitana de Monterrey. Taxi o aplicación es lo más sencillo.",
+     "A la salida hay mucha demanda de autos: acuerda antes el punto de encuentro."
+    ]
+   },
+   "hora": "20:30",
+   "inicio": "2026-11-17T20:30:00-06:00",
+   "conferido": "2026-10-29"
+  },
+  {
+   "slug": "ireland-vs-south-africa-2026-11-21",
+   "id": "17kZv0G6uJ3SSMC",
+   "data": "2026-11-21",
+   "tipo": "rugby",
+   "esporte_tipo": 1020,
+   "img": "08-six-nations.jpg",
+   "titulo": {
+    "pt": "Irlanda x África do Sul",
+    "en": "Ireland vs South Africa",
+    "es": "Irlanda vs Sudáfrica"
+   },
+   "painel": {
+    "pt": "IRLANDA X ÁFRICA DO SUL",
+    "en": "IRELAND VS SOUTH AFRICA",
+    "es": "IRLANDA VS SUDÁFRICA"
+   },
+   "competicao": {
+    "nome": "Nations Championship",
+    "dock": "/search?q=Nations%20Championship"
+   },
+   "times": [
+    {
+     "nome": {
+      "pt": "Irlanda",
+      "en": "Ireland",
+      "es": "Irlanda"
+     }
+    },
+    {
+     "nome": {
+      "pt": "África do Sul",
+      "en": "South Africa",
+      "es": "Sudáfrica"
+     }
+    }
+   ],
+   "local": "Aviva Stadium",
+   "cidade": {
+    "pt": "Dublin",
+    "en": "Dublin",
+    "es": "Dublín"
+   },
+   "pais": {
+    "pt": "Irlanda",
+    "en": "Ireland",
+    "es": "Irlanda"
+   },
+   "intro": {
+    "pt": "Irlanda recebe a África do Sul no Aviva Stadium, em Dublin, pelo Nations Championship 2026.",
+    "en": "Ireland host South Africa at the Aviva Stadium in Dublin in the 2026 Nations Championship.",
+    "es": "Irlanda recibe a Sudáfrica en el Aviva Stadium de Dublín, en el Nations Championship 2026."
+   },
+   "chegar": {
+    "pt": [
+     "Trem DART até a estação Lansdowne Road, ao lado do estádio.",
+     "Em dia de jogo a estação fica cheia: chegue com folga."
+    ],
+    "en": [
+     "DART train to Lansdowne Road station, right next to the stadium.",
+     "The station gets very busy on match day: arrive with time to spare."
+    ],
+    "es": [
+     "Tren DART hasta la estación Lansdowne Road, junto al estadio.",
+     "El día del partido la estación se llena: llega con margen."
+    ]
+   },
+   "hora": "16:40",
+   "inicio": "2026-11-21T16:40:00+00:00",
+   "conferido": "2026-10-29"
   },
   {
    "slug": "gp-abu-dhabi-f1-2026-12-06",
@@ -401,6 +615,69 @@
    "conferido": "2026-10-15"
   },
   {
+   "slug": "lakers-vs-celtics-2027-01-07",
+   "id": "G5eYZ_8SehOUf",
+   "data": "2027-01-07",
+   "tipo": "nba",
+   "esporte_tipo": 1002,
+   "img": "photo-1546519638-68e109498ffc",
+   "titulo": {
+    "pt": "Los Angeles Lakers x Boston Celtics",
+    "en": "Los Angeles Lakers vs Boston Celtics",
+    "es": "Los Angeles Lakers vs Boston Celtics"
+   },
+   "painel": {
+    "pt": "LAKERS X CELTICS",
+    "en": "LAKERS VS CELTICS",
+    "es": "LAKERS VS CELTICS"
+   },
+   "competicao": {
+    "nome": "NBA",
+    "dock": "/search?q=NBA"
+   },
+   "times": [
+    {
+     "nome": "Los Angeles Lakers"
+    },
+    {
+     "nome": "Boston Celtics"
+    }
+   ],
+   "local": "Crypto.com Arena",
+   "cidade": {
+    "pt": "Los Angeles",
+    "en": "Los Angeles",
+    "es": "Los Ángeles"
+   },
+   "pais": {
+    "pt": "EUA",
+    "en": "USA",
+    "es": "EE. UU."
+   },
+   "intro": {
+    "pt": "O maior clássico da NBA: Lakers recebem os Celtics na Crypto.com Arena, em Los Angeles.",
+    "en": "The NBA's biggest rivalry: the Lakers host the Celtics at Crypto.com Arena in Los Angeles.",
+    "es": "El gran clásico de la NBA: los Lakers reciben a los Celtics en la Crypto.com Arena de Los Ángeles."
+   },
+   "chegar": {
+    "pt": [
+     "Metrô linhas A e E até a estação Pico, a poucos minutos a pé da arena.",
+     "Os portões costumam abrir uma hora antes do jogo."
+    ],
+    "en": [
+     "Metro A and E Lines to Pico station, a few minutes' walk from the arena.",
+     "Doors usually open one hour before tip-off."
+    ],
+    "es": [
+     "Metro líneas A y E hasta la estación Pico, a pocos minutos a pie de la arena.",
+     "Las puertas suelen abrir una hora antes del partido."
+    ]
+   },
+   "hora": "19:00",
+   "inicio": "2027-01-07T19:00:00-08:00",
+   "conferido": "2026-10-29"
+  },
+  {
    "slug": "knicks-vs-nuggets-2027-01-11",
    "id": 401302,
    "data": "2027-01-11",
@@ -464,6 +741,69 @@
    "conferido": "2026-10-15"
   },
   {
+   "slug": "nba-manchester-pelicans-vs-spurs-2027-01-17",
+   "id": "1AMZkf6GkeJuv4h",
+   "data": "2027-01-17",
+   "tipo": "nba",
+   "esporte_tipo": 1002,
+   "img": "photo-1546519638-68e109498ffc",
+   "titulo": {
+    "pt": "NBA em Manchester: Pelicans x Spurs",
+    "en": "NBA Manchester Game: Pelicans vs Spurs",
+    "es": "NBA en Mánchester: Pelicans vs Spurs"
+   },
+   "painel": {
+    "pt": "PELICANS X SPURS",
+    "en": "PELICANS VS SPURS",
+    "es": "PELICANS VS SPURS"
+   },
+   "competicao": {
+    "nome": "NBA",
+    "dock": "/search?q=NBA"
+   },
+   "times": [
+    {
+     "nome": "New Orleans Pelicans"
+    },
+    {
+     "nome": "San Antonio Spurs"
+    }
+   ],
+   "local": "Co-op Live",
+   "cidade": {
+    "pt": "Manchester",
+    "en": "Manchester",
+    "es": "Mánchester"
+   },
+   "pais": {
+    "pt": "Reino Unido",
+    "en": "United Kingdom",
+    "es": "Reino Unido"
+   },
+   "intro": {
+    "pt": "Jogo oficial da temporada regular da NBA na Europa: New Orleans Pelicans x San Antonio Spurs na Co-op Live, em Manchester.",
+    "en": "A regular-season NBA game in Europe: New Orleans Pelicans vs San Antonio Spurs at Co-op Live in Manchester.",
+    "es": "Partido oficial de temporada regular de la NBA en Europa: New Orleans Pelicans vs San Antonio Spurs en el Co-op Live de Mánchester."
+   },
+   "chegar": {
+    "pt": [
+     "Metrolink (bonde) até a parada Etihad Campus, ao lado da arena.",
+     "A arena fica no mesmo complexo do estádio do Manchester City."
+    ],
+    "en": [
+     "Metrolink tram to the Etihad Campus stop, next to the arena.",
+     "The arena is on the same campus as Manchester City's stadium."
+    ],
+    "es": [
+     "Tranvía Metrolink hasta la parada Etihad Campus, junto a la arena.",
+     "La arena está en el mismo complejo que el estadio del Manchester City."
+    ]
+   },
+   "hora": "15:30",
+   "inicio": "2027-01-17T15:30:00+00:00",
+   "conferido": "2026-10-29"
+  },
+  {
    "slug": "final-australian-open-2027-01-31",
    "id": 390886,
    "data": "2027-01-31",
@@ -517,6 +857,198 @@
    "hora": "19:30",
    "inicio": "2027-01-31T19:30:00+11:00",
    "conferido": "2026-10-15"
+  },
+  {
+   "slug": "foo-fighters-sao-paulo-2027-02-20",
+   "id": "ZFIMVHtnMZ17Fzb7",
+   "data": "2027-02-20",
+   "tipo": "concert",
+   "esporte_tipo": 0,
+   "img": "11-concerts.jpg",
+   "titulo": {
+    "pt": "Foo Fighters em São Paulo",
+    "en": "Foo Fighters in São Paulo",
+    "es": "Foo Fighters en São Paulo"
+   },
+   "painel": {
+    "pt": "FOO FIGHTERS · SÃO PAULO",
+    "en": "FOO FIGHTERS · SÃO PAULO",
+    "es": "FOO FIGHTERS · SÃO PAULO"
+   },
+   "competicao": {
+    "nome": {
+     "pt": "Shows",
+     "en": "Concerts",
+     "es": "Conciertos"
+    },
+    "dock": "/discover/concerts"
+   },
+   "artista": {
+    "nome": "Foo Fighters",
+    "dock": "/search?q=Foo%20Fighters"
+   },
+   "times": [],
+   "local": "MorumBis",
+   "cidade": {
+    "pt": "São Paulo",
+    "en": "São Paulo",
+    "es": "São Paulo"
+   },
+   "pais": {
+    "pt": "Brasil",
+    "en": "Brazil",
+    "es": "Brasil"
+   },
+   "intro": {
+    "pt": "Foo Fighters traz a turnê Take Cover ao MorumBis, em São Paulo. A banda também toca na Arena MRV, em Belo Horizonte, em 18 de fevereiro.",
+    "en": "Foo Fighters bring the Take Cover Tour to MorumBis in São Paulo. The band also plays Arena MRV in Belo Horizonte on February 18.",
+    "es": "Foo Fighters lleva el Take Cover Tour al MorumBis de São Paulo. La banda también toca en el Arena MRV de Belo Horizonte el 18 de febrero."
+   },
+   "chegar": {
+    "pt": [
+     "A estação São Paulo–Morumbi, da Linha 4-Amarela do metrô, é a mais próxima; de lá ainda há uma caminhada até o estádio.",
+     "Na saída o metrô e os aplicativos lotam: planeje a volta antes."
+    ],
+    "en": [
+     "São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium.",
+     "Trains and ride apps are packed after the show: plan your way back in advance."
+    ],
+    "es": [
+     "La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.",
+     "A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes."
+    ]
+   },
+   "hora": "20:00",
+   "inicio": "2027-02-20T20:00:00-03:00",
+   "conferido": "2026-10-29"
+  },
+  {
+   "slug": "u2-cidade-do-mexico-2027-02-23",
+   "id": "1AfZk4aGkeysi-T",
+   "data": "2027-02-23",
+   "tipo": "concert",
+   "esporte_tipo": 0,
+   "img": "11-concerts.jpg",
+   "titulo": {
+    "pt": "U2 na Cidade do México",
+    "en": "U2 in Mexico City",
+    "es": "U2 en la Ciudad de México"
+   },
+   "painel": {
+    "pt": "U2 · CIDADE DO MÉXICO",
+    "en": "U2 · MEXICO CITY",
+    "es": "U2 · CDMX"
+   },
+   "competicao": {
+    "nome": {
+     "pt": "Shows",
+     "en": "Concerts",
+     "es": "Conciertos"
+    },
+    "dock": "/discover/concerts"
+   },
+   "artista": {
+    "nome": "U2",
+    "dock": "/search?q=U2"
+   },
+   "times": [],
+   "local": "Estadio GNP Seguros",
+   "cidade": {
+    "pt": "Cidade do México",
+    "en": "Mexico City",
+    "es": "Ciudad de México"
+   },
+   "pais": {
+    "pt": "México",
+    "en": "Mexico",
+    "es": "México"
+   },
+   "intro": {
+    "pt": "U2 abre a temporada mexicana da turnê The Greatest Show On Earth no Estadio GNP Seguros. Há outras datas em 26 e 28 de fevereiro e 2 de março.",
+    "en": "U2 open the Mexico City run of The Greatest Show On Earth tour at Estadio GNP Seguros. More dates follow on February 26 and 28 and March 2.",
+    "es": "U2 abre su temporada en la CDMX de la gira The Greatest Show On Earth en el Estadio GNP Seguros. Hay más fechas el 26 y 28 de febrero y el 2 de marzo."
+   },
+   "chegar": {
+    "pt": [
+     "Metrô Linha 9 até a estação Ciudad Deportiva, ao lado do estádio.",
+     "Na saída o metrô lota: tenha um plano B de volta."
+    ],
+    "en": [
+     "Metro Line 9 to Ciudad Deportiva station, next to the stadium.",
+     "The metro is packed after the show: have a plan B for getting back."
+    ],
+    "es": [
+     "Metro Línea 9 hasta la estación Ciudad Deportiva, junto al estadio.",
+     "A la salida el metro se llena: ten un plan B para volver."
+    ]
+   },
+   "hora": "21:00",
+   "inicio": "2027-02-23T21:00:00-06:00",
+   "conferido": "2026-10-29"
+  },
+  {
+   "slug": "u2-sao-paulo-2027-03-10",
+   "id": "ZFIMVHtnMZ17a4r3",
+   "data": "2027-03-10",
+   "tipo": "concert",
+   "esporte_tipo": 0,
+   "img": "11-concerts.jpg",
+   "titulo": {
+    "pt": "U2 em São Paulo",
+    "en": "U2 in São Paulo",
+    "es": "U2 en São Paulo"
+   },
+   "painel": {
+    "pt": "U2 · SÃO PAULO",
+    "en": "U2 · SÃO PAULO",
+    "es": "U2 · SÃO PAULO"
+   },
+   "competicao": {
+    "nome": {
+     "pt": "Shows",
+     "en": "Concerts",
+     "es": "Conciertos"
+    },
+    "dock": "/discover/concerts"
+   },
+   "artista": {
+    "nome": "U2",
+    "dock": "/search?q=U2"
+   },
+   "times": [],
+   "local": "MorumBis",
+   "cidade": {
+    "pt": "São Paulo",
+    "en": "São Paulo",
+    "es": "São Paulo"
+   },
+   "pais": {
+    "pt": "Brasil",
+    "en": "Brazil",
+    "es": "Brasil"
+   },
+   "intro": {
+    "pt": "U2 volta ao Brasil com a turnê The Greatest Show On Earth no MorumBis. Há uma segunda data em 12 de março.",
+    "en": "U2 return to Brazil with The Greatest Show On Earth tour at MorumBis. A second date follows on March 12.",
+    "es": "U2 vuelve a Brasil con la gira The Greatest Show On Earth en el MorumBis. Hay una segunda fecha el 12 de marzo."
+   },
+   "chegar": {
+    "pt": [
+     "A estação São Paulo–Morumbi, da Linha 4-Amarela do metrô, é a mais próxima; de lá ainda há uma caminhada até o estádio.",
+     "Na saída o metrô e os aplicativos lotam: planeje a volta antes."
+    ],
+    "en": [
+     "São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium.",
+     "Trains and ride apps are packed after the show: plan your way back in advance."
+    ],
+    "es": [
+     "La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.",
+     "A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes."
+    ]
+   },
+   "hora": "21:00",
+   "inicio": "2027-03-10T21:00:00-03:00",
+   "conferido": "2026-10-29"
   },
   {
    "slug": "celine-dion-paris-2027-05-14",

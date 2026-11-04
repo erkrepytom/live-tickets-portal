@@ -46,6 +46,36 @@
    "preco": null
   },
   {
+   "id": "387541",
+   "slug": "inglaterra-vs-croacia-2026-11-12",
+   "tipo": "football",
+   "titulo": {
+    "pt": "Inglaterra x Croácia",
+    "en": "England vs Croatia",
+    "es": "Inglaterra vs Croacia"
+   },
+   "data": "2026-11-12",
+   "hora_local": "19:45",
+   "local": "Wembley Stadium",
+   "cidade": {
+    "pt": "Londres",
+    "en": "London",
+    "es": "Londres"
+   },
+   "pais": {
+    "pt": "Inglaterra",
+    "en": "England",
+    "es": "Inglaterra"
+   },
+   "competicao": "UEFA Nations League",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/inglaterra-vs-croacia-2026-11-12/",
+    "en": "https://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/",
+    "es": "https://mytickets.tours/es/eventos/inglaterra-vs-croacia-2026-11-12/"
+   },
+   "preco": null
+  },
+  {
    "id": "383977",
    "slug": "franca-vs-africa-do-sul-2026-11-13",
    "tipo": "rugby",
@@ -72,6 +102,66 @@
     "pt": "https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/",
     "en": "https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/",
     "es": "https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/"
+   },
+   "preco": null
+  },
+  {
+   "id": "G5dVZ_fm9hdkb",
+   "slug": "mexico-vs-jamaica-2026-11-17",
+   "tipo": "football",
+   "titulo": {
+    "pt": "México x Jamaica",
+    "en": "Mexico vs Jamaica",
+    "es": "México vs Jamaica"
+   },
+   "data": "2026-11-17",
+   "hora_local": "20:30",
+   "local": "Estadio BBVA",
+   "cidade": {
+    "pt": "Monterrey",
+    "en": "Monterrey",
+    "es": "Monterrey"
+   },
+   "pais": {
+    "pt": "México",
+    "en": "Mexico",
+    "es": "México"
+   },
+   "competicao": "CONCACAF Nations League",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/",
+    "en": "https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/",
+    "es": "https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/"
+   },
+   "preco": null
+  },
+  {
+   "id": "17kZv0G6uJ3SSMC",
+   "slug": "ireland-vs-south-africa-2026-11-21",
+   "tipo": "rugby",
+   "titulo": {
+    "pt": "Irlanda x África do Sul",
+    "en": "Ireland vs South Africa",
+    "es": "Irlanda vs Sudáfrica"
+   },
+   "data": "2026-11-21",
+   "hora_local": "16:40",
+   "local": "Aviva Stadium",
+   "cidade": {
+    "pt": "Dublin",
+    "en": "Dublin",
+    "es": "Dublín"
+   },
+   "pais": {
+    "pt": "Irlanda",
+    "en": "Ireland",
+    "es": "Irlanda"
+   },
+   "competicao": "Nations Championship",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/",
+    "en": "https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/",
+    "es": "https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/"
    },
    "preco": null
   },
@@ -136,6 +226,36 @@
    "preco": null
   },
   {
+   "id": "G5eYZ_8SehOUf",
+   "slug": "lakers-vs-celtics-2027-01-07",
+   "tipo": "nba",
+   "titulo": {
+    "pt": "Los Angeles Lakers x Boston Celtics",
+    "en": "Los Angeles Lakers vs Boston Celtics",
+    "es": "Los Angeles Lakers vs Boston Celtics"
+   },
+   "data": "2027-01-07",
+   "hora_local": "19:00",
+   "local": "Crypto.com Arena",
+   "cidade": {
+    "pt": "Los Angeles",
+    "en": "Los Angeles",
+    "es": "Los Ángeles"
+   },
+   "pais": {
+    "pt": "EUA",
+    "en": "USA",
+    "es": "EE. UU."
+   },
+   "competicao": "NBA",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/lakers-vs-celtics-2027-01-07/",
+    "en": "https://mytickets.tours/en/events/lakers-vs-celtics-2027-01-07/",
+    "es": "https://mytickets.tours/es/eventos/lakers-vs-celtics-2027-01-07/"
+   },
+   "preco": null
+  },
+  {
    "id": "401302",
    "slug": "knicks-vs-nuggets-2027-01-11",
    "tipo": "nba",
@@ -166,6 +286,36 @@
    "preco": null
   },
   {
+   "id": "1AMZkf6GkeJuv4h",
+   "slug": "nba-manchester-pelicans-vs-spurs-2027-01-17",
+   "tipo": "nba",
+   "titulo": {
+    "pt": "NBA em Manchester: Pelicans x Spurs",
+    "en": "NBA Manchester Game: Pelicans vs Spurs",
+    "es": "NBA en Mánchester: Pelicans vs Spurs"
+   },
+   "data": "2027-01-17",
+   "hora_local": "15:30",
+   "local": "Co-op Live",
+   "cidade": {
+    "pt": "Manchester",
+    "en": "Manchester",
+    "es": "Mánchester"
+   },
+   "pais": {
+    "pt": "Reino Unido",
+    "en": "United Kingdom",
+    "es": "Reino Unido"
+   },
+   "competicao": "NBA",
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/",
+    "en": "https://mytickets.tours/en/events/nba-manchester-pelicans-vs-spurs-2027-01-17/",
+    "es": "https://mytickets.tours/es/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/"
+   },
+   "preco": null
+  },
+  {
    "id": "390886",
    "slug": "final-australian-open-2027-01-31",
    "tipo": "tennis",
@@ -192,6 +342,96 @@
     "pt": "https://mytickets.tours/eventos/final-australian-open-2027-01-31/",
     "en": "https://mytickets.tours/en/events/final-australian-open-2027-01-31/",
     "es": "https://mytickets.tours/es/eventos/final-australian-open-2027-01-31/"
+   },
+   "preco": null
+  },
+  {
+   "id": "ZFIMVHtnMZ17Fzb7",
+   "slug": "foo-fighters-sao-paulo-2027-02-20",
+   "tipo": "concert",
+   "titulo": {
+    "pt": "Foo Fighters em São Paulo",
+    "en": "Foo Fighters in São Paulo",
+    "es": "Foo Fighters en São Paulo"
+   },
+   "data": "2027-02-20",
+   "hora_local": "20:00",
+   "local": "MorumBis",
+   "cidade": {
+    "pt": "São Paulo",
+    "en": "São Paulo",
+    "es": "São Paulo"
+   },
+   "pais": {
+    "pt": "Brasil",
+    "en": "Brazil",
+    "es": "Brasil"
+   },
+   "competicao": null,
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/foo-fighters-sao-paulo-2027-02-20/",
+    "en": "https://mytickets.tours/en/events/foo-fighters-sao-paulo-2027-02-20/",
+    "es": "https://mytickets.tours/es/eventos/foo-fighters-sao-paulo-2027-02-20/"
+   },
+   "preco": null
+  },
+  {
+   "id": "1AfZk4aGkeysi-T",
+   "slug": "u2-cidade-do-mexico-2027-02-23",
+   "tipo": "concert",
+   "titulo": {
+    "pt": "U2 na Cidade do México",
+    "en": "U2 in Mexico City",
+    "es": "U2 en la Ciudad de México"
+   },
+   "data": "2027-02-23",
+   "hora_local": "21:00",
+   "local": "Estadio GNP Seguros",
+   "cidade": {
+    "pt": "Cidade do México",
+    "en": "Mexico City",
+    "es": "Ciudad de México"
+   },
+   "pais": {
+    "pt": "México",
+    "en": "Mexico",
+    "es": "México"
+   },
+   "competicao": null,
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/u2-cidade-do-mexico-2027-02-23/",
+    "en": "https://mytickets.tours/en/events/u2-cidade-do-mexico-2027-02-23/",
+    "es": "https://mytickets.tours/es/eventos/u2-cidade-do-mexico-2027-02-23/"
+   },
+   "preco": null
+  },
+  {
+   "id": "ZFIMVHtnMZ17a4r3",
+   "slug": "u2-sao-paulo-2027-03-10",
+   "tipo": "concert",
+   "titulo": {
+    "pt": "U2 em São Paulo",
+    "en": "U2 in São Paulo",
+    "es": "U2 en São Paulo"
+   },
+   "data": "2027-03-10",
+   "hora_local": "21:00",
+   "local": "MorumBis",
+   "cidade": {
+    "pt": "São Paulo",
+    "en": "São Paulo",
+    "es": "São Paulo"
+   },
+   "pais": {
+    "pt": "Brasil",
+    "en": "Brazil",
+    "es": "Brasil"
+   },
+   "competicao": null,
+   "guia": {
+    "pt": "https://mytickets.tours/eventos/u2-sao-paulo-2027-03-10/",
+    "en": "https://mytickets.tours/en/events/u2-sao-paulo-2027-03-10/",
+    "es": "https://mytickets.tours/es/eventos/u2-sao-paulo-2027-03-10/"
    },
    "preco": null
   },

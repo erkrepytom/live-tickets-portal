@@ -23,6 +23,16 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Getting there: Metro M5 to San Siro Stadio station, next to the stadium. Night internationals pack the metro after the final whistle. It pays to wait 20 minutes.
 - Guide pages: pt-BR https://mytickets.tours/eventos/italia-vs-franca-2026-11-12/, en https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/, es https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/
 
+### England vs Croatia
+
+- Date: Thursday, November 12, 2026, 19:45 local time
+- Venue: Wembley Stadium, London, England
+- Competition: UEFA Nations League
+- Teams: England vs Croatia
+- About: England face Croatia at Wembley in the UEFA Nations League.
+- Getting there: Underground to Wembley Park (Jubilee or Metropolitan line), then walk up Olympic Way. Chiltern Railways from Marylebone to Wembley Stadium station, next to the ground.
+- Guide pages: pt-BR https://mytickets.tours/eventos/inglaterra-vs-croacia-2026-11-12/, en https://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/, es https://mytickets.tours/es/eventos/inglaterra-vs-croacia-2026-11-12/
+
 ### France vs South Africa
 
 - Date: Friday, November 13, 2026, 21:10 local time
@@ -32,6 +42,26 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - About: Test rugby at the Stade de France: France host South Africa in the World Rugby Nations Championship.
 - Getting there: RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France. Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away.
 - Guide pages: pt-BR https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/, en https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/, es https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/
+
+### Mexico vs Jamaica
+
+- Date: Tuesday, November 17, 2026, 20:30 local time
+- Venue: Estadio BBVA, Av. Pablo Livas 2011, Monterrey, Mexico
+- Competition: CONCACAF Nations League
+- Teams: Mexico vs Jamaica
+- About: Mexico host Jamaica at Estadio BBVA in Guadalupe, in the Monterrey area, in the CONCACAF Nations League.
+- Getting there: The stadium is in Guadalupe, in the Monterrey metro area. A taxi or ride-hailing app is the simplest way in. Demand for rides is high after the match: agree a pickup point in advance.
+- Guide pages: pt-BR https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/, en https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/, es https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/
+
+### Ireland vs South Africa
+
+- Date: Saturday, November 21, 2026, 16:40 local time
+- Venue: Aviva Stadium, Lansdowne Road, Dublin, Ireland
+- Competition: Nations Championship
+- Teams: Ireland vs South Africa
+- About: Ireland host South Africa at the Aviva Stadium in Dublin in the 2026 Nations Championship.
+- Getting there: DART train to Lansdowne Road station, right next to the stadium. The station gets very busy on match day: arrive with time to spare.
+- Guide pages: pt-BR https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/, en https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/, es https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/
 
 ### Formula 1 Abu Dhabi Grand Prix
 
@@ -52,6 +82,16 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Getting there: Metro L3 to Les Corts or Palau Reial, or L5 to Collblanc or Badal. Champions League games are on weeknights. Book a hotel near a metro line.
 - Guide pages: pt-BR https://mytickets.tours/eventos/barcelona-vs-manchester-city-2026-12-08/, en https://mytickets.tours/en/events/barcelona-vs-manchester-city-2026-12-08/, es https://mytickets.tours/es/eventos/barcelona-vs-manchester-city-2026-12-08/
 
+### Los Angeles Lakers vs Boston Celtics
+
+- Date: Thursday, January 7, 2027, 19:00 local time
+- Venue: Crypto.com Arena, 1111 S. Figueroa St, Los Angeles, USA
+- Competition: NBA
+- Teams: Los Angeles Lakers vs Boston Celtics
+- About: The NBA's biggest rivalry: the Lakers host the Celtics at Crypto.com Arena in Los Angeles.
+- Getting there: Metro A and E Lines to Pico station, a few minutes' walk from the arena. Doors usually open one hour before tip-off.
+- Guide pages: pt-BR https://mytickets.tours/eventos/lakers-vs-celtics-2027-01-07/, en https://mytickets.tours/en/events/lakers-vs-celtics-2027-01-07/, es https://mytickets.tours/es/eventos/lakers-vs-celtics-2027-01-07/
+
 ### New York Knicks vs Denver Nuggets
 
 - Date: Monday, January 11, 2027, 19:30 local time
@@ -62,6 +102,16 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Getting there: The arena sits above Penn Station: subway 1, 2, 3, A, C and E to 34 St–Penn Station. Doors usually open one hour before tip-off.
 - Guide pages: pt-BR https://mytickets.tours/eventos/knicks-vs-nuggets-2027-01-11/, en https://mytickets.tours/en/events/knicks-vs-nuggets-2027-01-11/, es https://mytickets.tours/es/eventos/knicks-vs-nuggets-2027-01-11/
 
+### NBA Manchester Game: Pelicans vs Spurs
+
+- Date: Sunday, January 17, 2027, 15:30 local time
+- Venue: Co-op Live, 1 Sports City Way, Manchester, United Kingdom
+- Competition: NBA
+- Teams: New Orleans Pelicans vs San Antonio Spurs
+- About: A regular-season NBA game in Europe: New Orleans Pelicans vs San Antonio Spurs at Co-op Live in Manchester.
+- Getting there: Metrolink tram to the Etihad Campus stop, next to the arena. The arena is on the same campus as Manchester City's stadium.
+- Guide pages: pt-BR https://mytickets.tours/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/, en https://mytickets.tours/en/events/nba-manchester-pelicans-vs-spurs-2027-01-17/, es https://mytickets.tours/es/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/
+
 ### Australian Open Men's Final
 
 - Date: Sunday, January 31, 2027, 19:30 local time
@@ -70,6 +120,33 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - About: The men's final of the year's first Grand Slam, on the main court at Melbourne Park.
 - Getting there: Rod Laver Arena is in Melbourne Park, about a 15-minute walk from Flinders Street station. Extra trams run to Melbourne Park during the tournament. Check times on the Australian Open site.
 - Guide pages: pt-BR https://mytickets.tours/eventos/final-australian-open-2027-01-31/, en https://mytickets.tours/en/events/final-australian-open-2027-01-31/, es https://mytickets.tours/es/eventos/final-australian-open-2027-01-31/
+
+### Foo Fighters in São Paulo
+
+- Date: Saturday, February 20, 2027, 20:00 local time
+- Venue: MorumBis, Praça Roberto Gomes Pedrosa, 1, São Paulo, Brazil
+- Artist: Foo Fighters
+- About: Foo Fighters bring the Take Cover Tour to MorumBis in São Paulo. The band also plays Arena MRV in Belo Horizonte on February 18.
+- Getting there: São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium. Trains and ride apps are packed after the show: plan your way back in advance.
+- Guide pages: pt-BR https://mytickets.tours/eventos/foo-fighters-sao-paulo-2027-02-20/, en https://mytickets.tours/en/events/foo-fighters-sao-paulo-2027-02-20/, es https://mytickets.tours/es/eventos/foo-fighters-sao-paulo-2027-02-20/
+
+### U2 in Mexico City
+
+- Date: Tuesday, February 23, 2027, 21:00 local time
+- Venue: Estadio GNP Seguros, Viaducto Piedad y Río Churubusco s/n, Ciudad Deportiva, Mexico City, Mexico
+- Artist: U2
+- About: U2 open the Mexico City run of The Greatest Show On Earth tour at Estadio GNP Seguros. More dates follow on February 26 and 28 and March 2.
+- Getting there: Metro Line 9 to Ciudad Deportiva station, next to the stadium. The metro is packed after the show: have a plan B for getting back.
+- Guide pages: pt-BR https://mytickets.tours/eventos/u2-cidade-do-mexico-2027-02-23/, en https://mytickets.tours/en/events/u2-cidade-do-mexico-2027-02-23/, es https://mytickets.tours/es/eventos/u2-cidade-do-mexico-2027-02-23/
+
+### U2 in São Paulo
+
+- Date: Wednesday, March 10, 2027, 21:00 local time
+- Venue: MorumBis, Praça Roberto Gomes Pedrosa, 1, São Paulo, Brazil
+- Artist: U2
+- About: U2 return to Brazil with The Greatest Show On Earth tour at MorumBis. A second date follows on March 12.
+- Getting there: São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium. Trains and ride apps are packed after the show: plan your way back in advance.
+- Guide pages: pt-BR https://mytickets.tours/eventos/u2-sao-paulo-2027-03-10/, en https://mytickets.tours/en/events/u2-sao-paulo-2027-03-10/, es https://mytickets.tours/es/eventos/u2-sao-paulo-2027-03-10/
 
 ### Celine Dion in Paris
 
@@ -91,9 +168,15 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 
 ## Guides by sport, competition and city
 
-- Football tickets 2026/2027: https://mytickets.tours/en/football/ (3 events)
+- NBA and basketball tickets 2027: https://mytickets.tours/en/basketball/ (3 events)
+- International concerts tickets 2027: https://mytickets.tours/en/concerts/ (4 events)
+- Football tickets 2026/2027: https://mytickets.tours/en/football/ (5 events)
+- Rugby tickets 2026/2027: https://mytickets.tours/en/rugby/ (2 events)
+- NBA tickets 2027: https://mytickets.tours/en/competitions/nba/ (3 events)
 - UEFA Champions League tickets 2026/2027: https://mytickets.tours/en/competitions/uefa-champions-league/ (2 events)
+- UEFA Nations League tickets 2026/2027: https://mytickets.tours/en/competitions/uefa-nations-league/ (2 events)
 - Tickets in Paris: https://mytickets.tours/en/cities/paris/ (2 events)
+- Tickets in São Paulo: https://mytickets.tours/en/cities/sao-paulo/ (2 events)
 
 ## Safety and trust
 

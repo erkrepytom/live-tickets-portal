@@ -30,6 +30,30 @@
      ]
     },
     {
+     "nome": "Inglaterra x Croácia",
+     "data": "2026-11-12",
+     "data_texto": "quinta, 12 de novembro de 2026",
+     "local": "Wembley Stadium",
+     "cidade": "Londres",
+     "pais": "Inglaterra",
+     "competicao": "UEFA Nations League",
+     "times": [
+      "Inglaterra",
+      "Croácia"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/eventos/inglaterra-vs-croacia-2026-11-12/",
+     "como_chegar": [
+      "Metrô até Wembley Park (Jubilee ou Metropolitan line) e depois a Olympic Way até o estádio.",
+      "Trem da Chiltern Railways desde Marylebone até Wembley Stadium, ao lado do estádio."
+     ],
+     "dicas": [
+      "Setores laterais dão a melhor visão do campo inteiro.",
+      "Setores altos costumam ter o menor preço.",
+      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
+     ]
+    },
+    {
      "nome": "França x África do Sul",
      "data": "2026-11-13",
      "data_texto": "sexta, 13 de novembro de 2026",
@@ -49,7 +73,55 @@
      ],
      "dicas": [
       "Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.",
-      "Leve casaco: as noites de novembro em Paris são frias.",
+      "Leve casaco: jogos de novembro a março costumam ser frios.",
+      "Em grupo, compre os lugares no mesmo pedido."
+     ]
+    },
+    {
+     "nome": "México x Jamaica",
+     "data": "2026-11-17",
+     "data_texto": "terça, 17 de novembro de 2026",
+     "local": "Estadio BBVA",
+     "cidade": "Monterrey",
+     "pais": "México",
+     "competicao": "CONCACAF Nations League",
+     "times": [
+      "México",
+      "Jamaica"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/",
+     "como_chegar": [
+      "O estádio fica em Guadalupe, na região metropolitana de Monterrey. Táxi ou aplicativo é o caminho mais simples.",
+      "Na saída a procura por carro é grande: combine antes o ponto de encontro."
+     ],
+     "dicas": [
+      "Setores laterais dão a melhor visão do campo inteiro.",
+      "Setores altos costumam ter o menor preço.",
+      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
+     ]
+    },
+    {
+     "nome": "Irlanda x África do Sul",
+     "data": "2026-11-21",
+     "data_texto": "sábado, 21 de novembro de 2026",
+     "local": "Aviva Stadium",
+     "cidade": "Dublin",
+     "pais": "Irlanda",
+     "competicao": "Nations Championship",
+     "times": [
+      "Irlanda",
+      "África do Sul"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/",
+     "como_chegar": [
+      "Trem DART até a estação Lansdowne Road, ao lado do estádio.",
+      "Em dia de jogo a estação fica cheia: chegue com folga."
+     ],
+     "dicas": [
+      "Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.",
+      "Leve casaco: jogos de novembro a março costumam ser frios.",
       "Em grupo, compre os lugares no mesmo pedido."
      ]
     },
@@ -99,6 +171,30 @@
      ]
     },
     {
+     "nome": "Los Angeles Lakers x Boston Celtics",
+     "data": "2027-01-07",
+     "data_texto": "quinta, 7 de janeiro de 2027",
+     "local": "Crypto.com Arena",
+     "cidade": "Los Angeles",
+     "pais": "EUA",
+     "competicao": "NBA",
+     "times": [
+      "Los Angeles Lakers",
+      "Boston Celtics"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/eventos/lakers-vs-celtics-2027-01-07/",
+     "como_chegar": [
+      "Metrô linhas A e E até a estação Pico, a poucos minutos a pé da arena.",
+      "Os portões costumam abrir uma hora antes do jogo."
+     ],
+     "dicas": [
+      "Lugares no nível inferior, nas laterais, ficam mais perto da quadra.",
+      "Lugares atrás das cestas costumam ser mais baratos.",
+      "Chegue cedo para ver o aquecimento dos jogadores."
+     ]
+    },
+    {
      "nome": "New York Knicks x Denver Nuggets",
      "data": "2027-01-11",
      "data_texto": "segunda, 11 de janeiro de 2027",
@@ -115,6 +211,30 @@
      "como_chegar": [
       "A arena fica sobre a Penn Station: metrô linhas 1, 2, 3, A, C e E até 34 St–Penn Station.",
       "Os portões costumam abrir uma hora antes do jogo."
+     ],
+     "dicas": [
+      "Lugares no nível inferior, nas laterais, ficam mais perto da quadra.",
+      "Lugares atrás das cestas costumam ser mais baratos.",
+      "Chegue cedo para ver o aquecimento dos jogadores."
+     ]
+    },
+    {
+     "nome": "NBA em Manchester: Pelicans x Spurs",
+     "data": "2027-01-17",
+     "data_texto": "domingo, 17 de janeiro de 2027",
+     "local": "Co-op Live",
+     "cidade": "Manchester",
+     "pais": "Reino Unido",
+     "competicao": "NBA",
+     "times": [
+      "New Orleans Pelicans",
+      "San Antonio Spurs"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/",
+     "como_chegar": [
+      "Metrolink (bonde) até a parada Etihad Campus, ao lado da arena.",
+      "A arena fica no mesmo complexo do estádio do Manchester City."
      ],
      "dicas": [
       "Lugares no nível inferior, nas laterais, ficam mais perto da quadra.",
@@ -141,6 +261,75 @@
       "Confira a sessão no ingresso: a final masculina tem sessão própria.",
       "Lugares nas laterais da quadra mostram os dois jogadores.",
       "Leve protetor solar: janeiro é verão em Melbourne."
+     ]
+    },
+    {
+     "nome": "Foo Fighters em São Paulo",
+     "data": "2027-02-20",
+     "data_texto": "sábado, 20 de fevereiro de 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brasil",
+     "competicao": "Shows",
+     "times": [
+      "Foo Fighters"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/eventos/foo-fighters-sao-paulo-2027-02-20/",
+     "como_chegar": [
+      "A estação São Paulo–Morumbi, da Linha 4-Amarela do metrô, é a mais próxima; de lá ainda há uma caminhada até o estádio.",
+      "Na saída o metrô e os aplicativos lotam: planeje a volta antes."
+     ],
+     "dicas": [
+      "Pista fica mais perto do palco; cadeiras mostram o show inteiro.",
+      "Lugares de frente para o palco têm o melhor som.",
+      "Em grupo, compre os lugares no mesmo pedido."
+     ]
+    },
+    {
+     "nome": "U2 na Cidade do México",
+     "data": "2027-02-23",
+     "data_texto": "terça, 23 de fevereiro de 2027",
+     "local": "Estadio GNP Seguros",
+     "cidade": "Cidade do México",
+     "pais": "México",
+     "competicao": "Shows",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/eventos/u2-cidade-do-mexico-2027-02-23/",
+     "como_chegar": [
+      "Metrô Linha 9 até a estação Ciudad Deportiva, ao lado do estádio.",
+      "Na saída o metrô lota: tenha um plano B de volta."
+     ],
+     "dicas": [
+      "Pista fica mais perto do palco; cadeiras mostram o show inteiro.",
+      "Lugares de frente para o palco têm o melhor som.",
+      "Em grupo, compre os lugares no mesmo pedido."
+     ]
+    },
+    {
+     "nome": "U2 em São Paulo",
+     "data": "2027-03-10",
+     "data_texto": "quarta, 10 de março de 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brasil",
+     "competicao": "Shows",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/eventos/u2-sao-paulo-2027-03-10/",
+     "como_chegar": [
+      "A estação São Paulo–Morumbi, da Linha 4-Amarela do metrô, é a mais próxima; de lá ainda há uma caminhada até o estádio.",
+      "Na saída o metrô e os aplicativos lotam: planeje a volta antes."
+     ],
+     "dicas": [
+      "Pista fica mais perto do palco; cadeiras mostram o show inteiro.",
+      "Lugares de frente para o palco têm o melhor som.",
+      "Em grupo, compre os lugares no mesmo pedido."
      ]
     },
     {
@@ -363,6 +552,30 @@
      ]
     },
     {
+     "nome": "England vs Croatia",
+     "data": "2026-11-12",
+     "data_texto": "Thursday, November 12, 2026",
+     "local": "Wembley Stadium",
+     "cidade": "London",
+     "pais": "England",
+     "competicao": "UEFA Nations League",
+     "times": [
+      "England",
+      "Croatia"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/",
+     "como_chegar": [
+      "Underground to Wembley Park (Jubilee or Metropolitan line), then walk up Olympic Way.",
+      "Chiltern Railways from Marylebone to Wembley Stadium station, next to the ground."
+     ],
+     "dicas": [
+      "Side sections give the best view of the whole pitch.",
+      "Upper tiers are usually the cheapest.",
+      "For a group, buy all seats in one order so you sit together."
+     ]
+    },
+    {
      "nome": "France vs South Africa",
      "data": "2026-11-13",
      "data_texto": "Friday, November 13, 2026",
@@ -382,7 +595,55 @@
      ],
      "dicas": [
       "Side seats near halfway show the play best.",
-      "Bring a coat: November nights in Paris are cold.",
+      "Bring a coat: games from November to March are usually cold.",
+      "For a group, buy all seats in one order."
+     ]
+    },
+    {
+     "nome": "Mexico vs Jamaica",
+     "data": "2026-11-17",
+     "data_texto": "Tuesday, November 17, 2026",
+     "local": "Estadio BBVA",
+     "cidade": "Monterrey",
+     "pais": "Mexico",
+     "competicao": "CONCACAF Nations League",
+     "times": [
+      "Mexico",
+      "Jamaica"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/",
+     "como_chegar": [
+      "The stadium is in Guadalupe, in the Monterrey metro area. A taxi or ride-hailing app is the simplest way in.",
+      "Demand for rides is high after the match: agree a pickup point in advance."
+     ],
+     "dicas": [
+      "Side sections give the best view of the whole pitch.",
+      "Upper tiers are usually the cheapest.",
+      "For a group, buy all seats in one order so you sit together."
+     ]
+    },
+    {
+     "nome": "Ireland vs South Africa",
+     "data": "2026-11-21",
+     "data_texto": "Saturday, November 21, 2026",
+     "local": "Aviva Stadium",
+     "cidade": "Dublin",
+     "pais": "Ireland",
+     "competicao": "Nations Championship",
+     "times": [
+      "Ireland",
+      "South Africa"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/",
+     "como_chegar": [
+      "DART train to Lansdowne Road station, right next to the stadium.",
+      "The station gets very busy on match day: arrive with time to spare."
+     ],
+     "dicas": [
+      "Side seats near halfway show the play best.",
+      "Bring a coat: games from November to March are usually cold.",
       "For a group, buy all seats in one order."
      ]
     },
@@ -432,6 +693,30 @@
      ]
     },
     {
+     "nome": "Los Angeles Lakers vs Boston Celtics",
+     "data": "2027-01-07",
+     "data_texto": "Thursday, January 7, 2027",
+     "local": "Crypto.com Arena",
+     "cidade": "Los Angeles",
+     "pais": "USA",
+     "competicao": "NBA",
+     "times": [
+      "Los Angeles Lakers",
+      "Boston Celtics"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/en/events/lakers-vs-celtics-2027-01-07/",
+     "como_chegar": [
+      "Metro A and E Lines to Pico station, a few minutes' walk from the arena.",
+      "Doors usually open one hour before tip-off."
+     ],
+     "dicas": [
+      "Lower-level sideline seats are closest to the court.",
+      "Seats behind the baskets are usually cheaper.",
+      "Arrive early to watch warm-ups."
+     ]
+    },
+    {
      "nome": "New York Knicks vs Denver Nuggets",
      "data": "2027-01-11",
      "data_texto": "Monday, January 11, 2027",
@@ -448,6 +733,30 @@
      "como_chegar": [
       "The arena sits above Penn Station: subway 1, 2, 3, A, C and E to 34 St–Penn Station.",
       "Doors usually open one hour before tip-off."
+     ],
+     "dicas": [
+      "Lower-level sideline seats are closest to the court.",
+      "Seats behind the baskets are usually cheaper.",
+      "Arrive early to watch warm-ups."
+     ]
+    },
+    {
+     "nome": "NBA Manchester Game: Pelicans vs Spurs",
+     "data": "2027-01-17",
+     "data_texto": "Sunday, January 17, 2027",
+     "local": "Co-op Live",
+     "cidade": "Manchester",
+     "pais": "United Kingdom",
+     "competicao": "NBA",
+     "times": [
+      "New Orleans Pelicans",
+      "San Antonio Spurs"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/en/events/nba-manchester-pelicans-vs-spurs-2027-01-17/",
+     "como_chegar": [
+      "Metrolink tram to the Etihad Campus stop, next to the arena.",
+      "The arena is on the same campus as Manchester City's stadium."
      ],
      "dicas": [
       "Lower-level sideline seats are closest to the court.",
@@ -474,6 +783,75 @@
       "Check the session on the ticket: the men's final has its own session.",
       "Seats along the sides show both players.",
       "Bring sunscreen: January is summer in Melbourne."
+     ]
+    },
+    {
+     "nome": "Foo Fighters in São Paulo",
+     "data": "2027-02-20",
+     "data_texto": "Saturday, February 20, 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brazil",
+     "competicao": "Concerts",
+     "times": [
+      "Foo Fighters"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/en/events/foo-fighters-sao-paulo-2027-02-20/",
+     "como_chegar": [
+      "São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium.",
+      "Trains and ride apps are packed after the show: plan your way back in advance."
+     ],
+     "dicas": [
+      "Floor is closest to the stage; seats show the whole show.",
+      "Seats facing the stage have the best sound.",
+      "For a group, buy all seats in one order."
+     ]
+    },
+    {
+     "nome": "U2 in Mexico City",
+     "data": "2027-02-23",
+     "data_texto": "Tuesday, February 23, 2027",
+     "local": "Estadio GNP Seguros",
+     "cidade": "Mexico City",
+     "pais": "Mexico",
+     "competicao": "Concerts",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/en/events/u2-cidade-do-mexico-2027-02-23/",
+     "como_chegar": [
+      "Metro Line 9 to Ciudad Deportiva station, next to the stadium.",
+      "The metro is packed after the show: have a plan B for getting back."
+     ],
+     "dicas": [
+      "Floor is closest to the stage; seats show the whole show.",
+      "Seats facing the stage have the best sound.",
+      "For a group, buy all seats in one order."
+     ]
+    },
+    {
+     "nome": "U2 in São Paulo",
+     "data": "2027-03-10",
+     "data_texto": "Wednesday, March 10, 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brazil",
+     "competicao": "Concerts",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/en/events/u2-sao-paulo-2027-03-10/",
+     "como_chegar": [
+      "São Paulo–Morumbi station on Metro Line 4-Yellow is the closest; there is still a walk to the stadium.",
+      "Trains and ride apps are packed after the show: plan your way back in advance."
+     ],
+     "dicas": [
+      "Floor is closest to the stage; seats show the whole show.",
+      "Seats facing the stage have the best sound.",
+      "For a group, buy all seats in one order."
      ]
     },
     {
@@ -696,6 +1074,30 @@
      ]
     },
     {
+     "nome": "Inglaterra vs Croacia",
+     "data": "2026-11-12",
+     "data_texto": "jueves, 12 de noviembre de 2026",
+     "local": "Wembley Stadium",
+     "cidade": "Londres",
+     "pais": "Inglaterra",
+     "competicao": "UEFA Nations League",
+     "times": [
+      "Inglaterra",
+      "Croacia"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/es/eventos/inglaterra-vs-croacia-2026-11-12/",
+     "como_chegar": [
+      "Metro hasta Wembley Park (líneas Jubilee o Metropolitan) y luego Olympic Way hasta el estadio.",
+      "Tren de Chiltern Railways desde Marylebone hasta Wembley Stadium, junto al estadio."
+     ],
+     "dicas": [
+      "Los laterales dan la mejor vista de todo el campo.",
+      "Los sectores altos suelen ser los más baratos.",
+      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
+     ]
+    },
+    {
      "nome": "Francia vs Sudáfrica",
      "data": "2026-11-13",
      "data_texto": "viernes, 13 de noviembre de 2026",
@@ -715,7 +1117,55 @@
      ],
      "dicas": [
       "Los asientos laterales cerca de la mitad muestran mejor el juego.",
-      "Lleva abrigo: las noches de noviembre en París son frías.",
+      "Lleva abrigo: los partidos de noviembre a marzo suelen ser fríos.",
+      "En grupo, compra todos los asientos en el mismo pedido."
+     ]
+    },
+    {
+     "nome": "México vs Jamaica",
+     "data": "2026-11-17",
+     "data_texto": "martes, 17 de noviembre de 2026",
+     "local": "Estadio BBVA",
+     "cidade": "Monterrey",
+     "pais": "México",
+     "competicao": "CONCACAF Nations League",
+     "times": [
+      "México",
+      "Jamaica"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/",
+     "como_chegar": [
+      "El estadio está en Guadalupe, en la zona metropolitana de Monterrey. Taxi o aplicación es lo más sencillo.",
+      "A la salida hay mucha demanda de autos: acuerda antes el punto de encuentro."
+     ],
+     "dicas": [
+      "Los laterales dan la mejor vista de todo el campo.",
+      "Los sectores altos suelen ser los más baratos.",
+      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
+     ]
+    },
+    {
+     "nome": "Irlanda vs Sudáfrica",
+     "data": "2026-11-21",
+     "data_texto": "sábado, 21 de noviembre de 2026",
+     "local": "Aviva Stadium",
+     "cidade": "Dublín",
+     "pais": "Irlanda",
+     "competicao": "Nations Championship",
+     "times": [
+      "Irlanda",
+      "Sudáfrica"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/",
+     "como_chegar": [
+      "Tren DART hasta la estación Lansdowne Road, junto al estadio.",
+      "El día del partido la estación se llena: llega con margen."
+     ],
+     "dicas": [
+      "Los asientos laterales cerca de la mitad muestran mejor el juego.",
+      "Lleva abrigo: los partidos de noviembre a marzo suelen ser fríos.",
       "En grupo, compra todos los asientos en el mismo pedido."
      ]
     },
@@ -765,6 +1215,30 @@
      ]
     },
     {
+     "nome": "Los Angeles Lakers vs Boston Celtics",
+     "data": "2027-01-07",
+     "data_texto": "jueves, 7 de enero de 2027",
+     "local": "Crypto.com Arena",
+     "cidade": "Los Ángeles",
+     "pais": "EE. UU.",
+     "competicao": "NBA",
+     "times": [
+      "Los Angeles Lakers",
+      "Boston Celtics"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/es/eventos/lakers-vs-celtics-2027-01-07/",
+     "como_chegar": [
+      "Metro líneas A y E hasta la estación Pico, a pocos minutos a pie de la arena.",
+      "Las puertas suelen abrir una hora antes del partido."
+     ],
+     "dicas": [
+      "Los asientos laterales del nivel inferior están más cerca de la pista.",
+      "Los asientos detrás de las canastas suelen ser más baratos.",
+      "Llega temprano para ver el calentamiento."
+     ]
+    },
+    {
      "nome": "New York Knicks vs Denver Nuggets",
      "data": "2027-01-11",
      "data_texto": "lunes, 11 de enero de 2027",
@@ -781,6 +1255,30 @@
      "como_chegar": [
       "La arena está sobre Penn Station: metro líneas 1, 2, 3, A, C y E hasta 34 St–Penn Station.",
       "Las puertas suelen abrir una hora antes del partido."
+     ],
+     "dicas": [
+      "Los asientos laterales del nivel inferior están más cerca de la pista.",
+      "Los asientos detrás de las canastas suelen ser más baratos.",
+      "Llega temprano para ver el calentamiento."
+     ]
+    },
+    {
+     "nome": "NBA en Mánchester: Pelicans vs Spurs",
+     "data": "2027-01-17",
+     "data_texto": "domingo, 17 de enero de 2027",
+     "local": "Co-op Live",
+     "cidade": "Mánchester",
+     "pais": "Reino Unido",
+     "competicao": "NBA",
+     "times": [
+      "New Orleans Pelicans",
+      "San Antonio Spurs"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/es/eventos/nba-manchester-pelicans-vs-spurs-2027-01-17/",
+     "como_chegar": [
+      "Tranvía Metrolink hasta la parada Etihad Campus, junto a la arena.",
+      "La arena está en el mismo complejo que el estadio del Manchester City."
      ],
      "dicas": [
       "Los asientos laterales del nivel inferior están más cerca de la pista.",
@@ -807,6 +1305,75 @@
       "Revisa la sesión en la entrada: la final masculina tiene sesión propia.",
       "Los asientos laterales muestran a los dos jugadores.",
       "Lleva protector solar: enero es verano en Melbourne."
+     ]
+    },
+    {
+     "nome": "Foo Fighters en São Paulo",
+     "data": "2027-02-20",
+     "data_texto": "sábado, 20 de febrero de 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brasil",
+     "competicao": "Conciertos",
+     "times": [
+      "Foo Fighters"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/es/eventos/foo-fighters-sao-paulo-2027-02-20/",
+     "como_chegar": [
+      "La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.",
+      "A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes."
+     ],
+     "dicas": [
+      "La pista está más cerca del escenario; las gradas muestran todo el show.",
+      "Los asientos frente al escenario tienen el mejor sonido.",
+      "En grupo, compra todos los asientos en el mismo pedido."
+     ]
+    },
+    {
+     "nome": "U2 en la Ciudad de México",
+     "data": "2027-02-23",
+     "data_texto": "martes, 23 de febrero de 2027",
+     "local": "Estadio GNP Seguros",
+     "cidade": "Ciudad de México",
+     "pais": "México",
+     "competicao": "Conciertos",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/es/eventos/u2-cidade-do-mexico-2027-02-23/",
+     "como_chegar": [
+      "Metro Línea 9 hasta la estación Ciudad Deportiva, junto al estadio.",
+      "A la salida el metro se llena: ten un plan B para volver."
+     ],
+     "dicas": [
+      "La pista está más cerca del escenario; las gradas muestran todo el show.",
+      "Los asientos frente al escenario tienen el mejor sonido.",
+      "En grupo, compra todos los asientos en el mismo pedido."
+     ]
+    },
+    {
+     "nome": "U2 en São Paulo",
+     "data": "2027-03-10",
+     "data_texto": "miércoles, 10 de marzo de 2027",
+     "local": "MorumBis",
+     "cidade": "São Paulo",
+     "pais": "Brasil",
+     "competicao": "Conciertos",
+     "times": [
+      "U2"
+     ],
+     "ingressos": "",
+     "guia": "https://mytickets.tours/es/eventos/u2-sao-paulo-2027-03-10/",
+     "como_chegar": [
+      "La estación São Paulo–Morumbi, de la Línea 4-Amarilla del metro, es la más cercana; desde allí hay que caminar hasta el estadio.",
+      "A la salida el metro y las aplicaciones se saturan: planifica la vuelta antes."
+     ],
+     "dicas": [
+      "La pista está más cerca del escenario; las gradas muestran todo el show.",
+      "Los asientos frente al escenario tienen el mejor sonido.",
+      "En grupo, compra todos los asientos en el mismo pedido."
      ]
     },
     {
