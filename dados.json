@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-03T21:51:01+00:00",
+ "atualizado": "2026-11-04T02:26:09+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Veja fotos de Atlético de Madrid e Bayern pela Champions",
-     "u": "https://www.gazetaesportiva.com/times/atletico-de-madrid/veja-fotos-de-atletico-de-madrid-e-bayern-pela-champions/",
+     "t": "Botafogo x Atlético-MG pelo Brasileirão: onde assistir, estatísticas e prováveis escalações",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/botafogo-x-atletico-mg-pelo-brasileirao-onde-assistir-estatisticas-e-provaveis-escalacoes/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Grêmio abre vantagem na semifinal contra o Atlético-MG; veja bastidores",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/gremio-abre-vantagem-na-semifinal-contra-o-atletico-mg-veja-bastidores/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Atlético de Madrid x Bayern de Munique - Liga dos Campeões 2026/2027 - Ao vivo - globoesporte.com",
+     "t": "Bayern de Munique vence o Atlético de Madrid e sobe na tabela da Champions",
      "u": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/03-11-2026/atleticodemadri-bayerndemunique.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "ASA fecha com volante que estava no futebol gaúcho e jogou na base do Corinthians",
-     "u": "https://ge.globo.com/al/futebol/times/asa/noticia/2026/11/03/asa-fecha-com-volante-que-estava-no-futebol-gaucho-e-jogou-na-base-do-corinthians.ghtml",
+     "t": "Cruzeiro x Corinthians - Campeonato Brasileiro sub-17 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/jogo/03-11-2026/cruzeiro-corinthians.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Slavia Praga x Arsenal: veja onde assistir e prováveis escalações do jogo da Champions",
+     "u": "https://www.gazetaesportiva.com/times/arsenal/slavia-praga-x-arsenal-veja-onde-assistir-e-provaveis-escalacoes-do-jogo-da-champions/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Iowa football shows support to Jack Campbell after scary injury",
-     "u": "https://sports.yahoo.com/articles/iowa-football-shows-support-jack-214220836.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "First CFP football rankings live updates: When is CFP rankings show?",
-     "u": "https://sports.yahoo.com/articles/first-cfp-football-rankings-live-214253271.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "NFL DFS, Jaguars vs. Ravens: Top daily Fantasy picks, lineup advice for 'Thursday Night Football'",
-     "u": "https://www.cbssports.com/betting/news/nfl-dfs-jaguars-ravens-daily-fantasy-picks-draftkings-fanduel-lineup-advice-thursday-night-football/",
+     "t": "Champions League panic meter: Man United end skid with late drama; Atletico, Roma in trouble",
+     "u": "https://www.cbssports.com/soccer/news/champions-league-panic-meter-man-united-rebound-as-roma-atletico/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Fantasy football Week 9 TE preview: Kyle Pitts' must-start status is in jeopardy, and for good reason",
-     "u": "https://www.cbssports.com/fantasy/football/news/fantasy-football-2026-week-9-te-preview/",
+     "t": "Manchester United stun Roma with three-goal second-half Champions League comeback after dreadful start",
+     "u": "https://www.cbssports.com/soccer/news/manchester-united-roma-three-goal-champions-league-comeback/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Fever’s Sophie Cunningham’s IG following grew more this season than other top 49 WNBA players combined, any NBA star",
+     "u": "https://sports.yahoo.com/articles/fever-sophie-cunningham-ig-following-021407827.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Dayton basketball notes: Flyers show improved rebounding in opener",
+     "u": "https://sports.yahoo.com/articles/dayton-basketball-notes-flyers-show-020300154.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Villarreal-PSG, em direto",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/villarreal-psg-em-direto",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Atlético Madrid-Bayern, em direto",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/atletico-madrid-bayern-em-direto",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "FC Porto e Benfica dominam convocatória dos sub-19 com vários dos plantéis principais",
-     "u": "https://www.abola.pt/noticias/fc-porto-e-benfica-dominam-convocatoria-dos-sub-19-com-varios-dos-planteis-principais-2026110219193866531",
+     "t": "Champions: Inter e LASK goleiam, Lille soma primeiro ponto",
+     "u": "https://www.abola.pt/noticias/champions-inter-e-lask-goleiam-lille-soma-primeiro-ponto-2026110321581835142",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Unai Emery recorda 1-6 em Camp Nou: «VAR teria sido necessário»",
-     "u": "https://www.abola.pt/noticias/unai-emery-recorda-1-6-em-camp-nou-var-teria-sido-necessario-2026110223201243296",
+     "t": "Champions: Bayern aproveitou prenda de Le Normand para impor a lei em Madrid",
+     "u": "https://www.abola.pt/noticias/champions-bayern-aproveitou-prenda-de-le-normand-para-impor-a-lei-em-madrid-2026110322022765593",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Sporting com 95.3% de chances de avançar para o playoff da Champions",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/sporting-com-95-3-de-chances-de-avancar-para-o-playoff-da-champions",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Inter quer renovar com Federico Dimarco",
+     "u": "https://www.record.pt/internacional/paises/italia/inter-milao/detalhe/inter-quer-renovar-com-federico-dimarco",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -125,15 +125,15 @@
      "alta": false
     },
     {
-     "t": "La gran final del Mundial Sub-15, en directo",
-     "u": "https://www.marca.com/futbol/seleccion/2026/10/30/6ae49b2a020dbf8b21b1dec8-directo.html",
-     "f": "Marca",
+     "t": "0-2: El Bayern somete al Atlético",
+     "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261103/1004246920/0-2-bayern-somete-atletico.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "El mundo del fútbol llora la muerte de Jesús de Miguel",
-     "u": "https://www.mundodeportivo.com/futbol/20261103/1004246534/reacciones-muerte-jesus-miguel-directo-ultima-hora-fallecimiento-jugador-tenerife.html",
-     "f": "Mundo Deportivo",
+     "t": "¡Ladrando al campo equivocado! Un perro irrumpe en un partido de la Premier League egipcia.",
+     "u": "https://www.marca.com/futbol/2026/10/30/ladrando-campo-equivocado-perro-irrumpe-partido-premier-league-egipcia-video.html",
+     "f": "Marca",
      "alta": false
     }
    ]
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "Manchester United v Roma: Champions League – live",
-     "u": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live",
+     "t": "Manchester United produce comeback for the ages as Cunha double floors Roma",
+     "u": "https://www.theguardian.com/football/2026/nov/03/manchester-united-roma-champions-league-match-report",
      "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Lennart Karl steals in behind Atlético Madrid to inspire Bayern Munich win",
+     "u": "https://www.theguardian.com/football/2026/nov/03/atletico-madrid-bayern-munich-champions-league-match-report",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Man Utd beat Roma - the other great Champions League comebacks",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c64g1dg0d84ko?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
      "t": "Lionesses to face France and Portugal in Nations League",
      "u": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qxge7zo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Barcelona v Aston Villa: Champions League – live",
-     "u": "https://www.theguardian.com/football/live/2026/nov/03/barcelona-v-aston-villa-champions-league-live",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Death threats for Briton Burrage on WTA Tour return",
-     "u": "https://www.bbc.co.uk/sport/tennis/articles/cq62y9yzgzgeo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,27 +181,27 @@
    },
    "noticias": [
     {
-     "t": "Matías Soulé en modo Champions: buen gol para Roma vs. Manchester United, generó penal y gran noticia para Scaloni",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/video-gol-matias-soule-roma-manchester-united-champions-league-figura_0_tAE3o90R34.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
-     "t": "A pesar del gol de Soulé, Roma pierde contra el Manchester United por la cuarta fecha de la Champions League: la agenda completa",
+     "t": "Manchester United dio vuelta un partido electrizante y le ganó 3-2 a la Roma por la Champions League: todos los goles del día",
      "u": "https://www.infobae.com/deportes/2026/11/03/con-atletico-madrid-bayern-munich-y-manchester-united-roma-se-abre-la-cuarta-fecha-de-la-champions-la-agenda-completa/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El show de goles del PSG ante el Villarreal en apenas 16 minutos",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/video-goleada-psg-villarreal-champions-league_0_sC2gF6n0BI.html",
+     "t": "Del golazo al tenso cruce con Bruno Fernandes: el partido de Matías Soulé en la caída de la Roma ante el United por la Champions",
+     "u": "https://www.infobae.com/deportes/2026/11/03/del-golazo-al-tenso-cruce-con-bruno-fernandes-el-partido-de-matias-soule-en-la-caida-de-la-roma-ante-el-united-por-la-champions/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "La definición del Campeón de Liga con Boca, Argentinos y Central: cuándo, dónde, cómo y por qué",
+     "u": "https://www.ole.com.ar/futbol-primera/definicion-campeon-liga_0_CwanuwbnQd.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Oficial: Haas confirmó que Esteban Ocon no correrá más en el equipo y anunció quién lo reemplazará en la Fórmula 1",
-     "u": "https://www.infobae.com/deportes/2026/11/03/oficial-haas-confirmo-que-esteban-ocon-no-correra-mas-en-el-equipo-y-anuncio-quien-lo-reemplazara-en-la-formula-1/",
-     "f": "Infobae",
+     "t": "A 17 días de Boca, Eduardo Domínguez guarda 10 titulares y tiene cinco lesionados",
+     "u": "https://www.ole.com.ar/boca-juniors/atletico-mineiro-dominguez-guarda-titulares-botafogo_0_9wfOYkbGOk.html",
+     "f": "Olé",
      "alta": false
     }
    ]
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Les chiffres de la folle entame du Paris Saint-Germain contre Villarreal en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Les-chiffres-de-la-folle-entame-du-paris-saint-germain-contre-villarreal-en-ligue-des-champions/1740920#at_medium=RSS_feeds",
+     "t": "Avec 14 matches d'affilée sans défaite en Ligue des champions, le PSG égale un record de l'OL",
+     "u": "https://www.lequipe.fr/Football/Actualites/Avec-14-matches-d-affilee-sans-defaite-en-ligue-des-champions-le-psg-egale-un-record-de-l-ol/1740973#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Le Stade Français ne veut pas être lésé par le PSG",
-     "u": "https://www.lequipe.fr/Football/Article/-un-acteur-incontournable-du-quartier-le-stade-francais-omnisports-ne-veut-pas-etre-lese-si-le-psg-venait-a-racheter-le-parc-des-princes/1740928#at_medium=RSS_feeds",
+     "t": "Fabian Ruiz après la large victoire du PSG sur la pelouse de Villarreal en Ligue des champions : « On a toujours cette envie de gagner »",
+     "u": "https://www.lequipe.fr/Football/Actualites/Fabian-ruiz-apres-la-large-victoire-du-psg-sur-la-pelouse-de-villarreal-en-ligue-des-champions-on-a-toujours-cette-envie-de-gagner/1740972#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,24 +253,24 @@
  ],
  "destaques": [
   {
-   "t": "Veja fotos de Atlético de Madrid e Bayern pela Champions",
-   "u": "https://www.gazetaesportiva.com/times/atletico-de-madrid/veja-fotos-de-atletico-de-madrid-e-bayern-pela-champions/",
+   "t": "Botafogo x Atlético-MG pelo Brasileirão: onde assistir, estatísticas e prováveis escalações",
+   "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/botafogo-x-atletico-mg-pelo-brasileirao-onde-assistir-estatisticas-e-provaveis-escalacoes/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Iowa football shows support to Jack Campbell after scary injury",
-   "u": "https://sports.yahoo.com/articles/iowa-football-shows-support-jack-214220836.html",
-   "f": "Yahoo Sports",
+   "t": "Champions League panic meter: Man United end skid with late drama; Atletico, Roma in trouble",
+   "u": "https://www.cbssports.com/soccer/news/champions-league-panic-meter-man-united-rebound-as-roma-atletico/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Villarreal-PSG, em direto",
-   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/villarreal-psg-em-direto",
-   "f": "Record",
-   "alta": true,
+   "t": "Champions: Inter e LASK goleiam, Lille soma primeiro ponto",
+   "u": "https://www.abola.pt/noticias/champions-inter-e-lask-goleiam-lille-soma-primeiro-ponto-2026110321581835142",
+   "f": "A Bola",
+   "alta": false,
    "pais": "PT"
   },
   {
@@ -281,17 +281,17 @@
    "pais": "ES"
   },
   {
-   "t": "Manchester United v Roma: Champions League – live",
-   "u": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live",
+   "t": "Manchester United produce comeback for the ages as Cunha double floors Roma",
+   "u": "https://www.theguardian.com/football/2026/nov/03/manchester-united-roma-champions-league-match-report",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Matías Soulé en modo Champions: buen gol para Roma vs. Manchester United, generó penal y gran noticia para Scaloni",
-   "u": "https://www.ole.com.ar/futbol-internacional/champions/video-gol-matias-soule-roma-manchester-united-champions-league-figura_0_tAE3o90R34.html",
-   "f": "Olé",
-   "alta": true,
+   "t": "Manchester United dio vuelta un partido electrizante y le ganó 3-2 a la Roma por la Champions League: todos los goles del día",
+   "u": "https://www.infobae.com/deportes/2026/11/03/con-atletico-madrid-bayern-munich-y-manchester-united-roma-se-abre-la-cuarta-fecha-de-la-champions-la-agenda-completa/",
+   "f": "Infobae",
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Les chiffres de la folle entame du Paris Saint-Germain contre Villarreal en Ligue des champions",
-   "u": "https://www.lequipe.fr/Football/Actualites/Les-chiffres-de-la-folle-entame-du-paris-saint-germain-contre-villarreal-en-ligue-des-champions/1740920#at_medium=RSS_feeds",
+   "t": "Avec 14 matches d'affilée sans défaite en Ligue des champions, le PSG égale un record de l'OL",
+   "u": "https://www.lequipe.fr/Football/Actualites/Avec-14-matches-d-affilee-sans-defaite-en-ligue-des-champions-le-psg-egale-un-record-de-l-ol/1740973#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
