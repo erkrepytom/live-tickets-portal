@@ -10,12 +10,8 @@
    "tentado": "2026-11-04T11:37:46+00:00"
   },
   "parceiro": {
-   "status": "a_venda",
-   "min": 47.0,
-   "moeda": "USD",
-   "lotes": 10,
-   "conferido": "2026-11-04T06:43:00+00:00",
-   "fonte": "https://www.sportsevents365.com/event/387682"
+   "status": "desconhecido",
+   "conferido": "2026-11-04T17:50:00+00:00"
   }
  },
  "franca-vs-africa-do-sul-2026-11-13": {
@@ -98,12 +94,8 @@
    "conferido": "2026-11-04T11:37:46+00:00"
   },
   "parceiro": {
-   "status": "a_venda",
-   "min": 35.0,
-   "moeda": "USD",
-   "lotes": 10,
-   "conferido": "2026-11-04T06:43:00+00:00",
-   "fonte": "https://www.sportsevents365.com/event/383977"
+   "status": "desconhecido",
+   "conferido": "2026-11-04T17:50:00+00:00"
   }
  },
  "gp-abu-dhabi-f1-2026-12-06": {
@@ -116,12 +108,8 @@
    "tentado": "2026-11-04T11:37:46+00:00"
   },
   "parceiro": {
-   "status": "a_venda",
-   "min": 388.0,
-   "moeda": "USD",
-   "lotes": 10,
-   "conferido": "2026-11-04T06:43:00+00:00",
-   "fonte": "https://www.sportsevents365.com/event/387903"
+   "status": "desconhecido",
+   "conferido": "2026-11-04T17:50:00+00:00"
   }
  },
  "barcelona-vs-manchester-city-2026-12-08": {
@@ -134,12 +122,8 @@
    "tentado": "2026-11-04T11:37:46+00:00"
   },
   "parceiro": {
-   "status": "a_venda",
-   "min": 467.0,
-   "moeda": "USD",
-   "lotes": 10,
-   "conferido": "2026-11-04T06:43:00+00:00",
-   "fonte": "https://www.sportsevents365.com/event/402363"
+   "status": "desconhecido",
+   "conferido": "2026-11-04T17:50:00+00:00"
   }
  },
  "knicks-vs-nuggets-2027-01-11": {
@@ -155,12 +139,8 @@
    "conferido": "2026-11-04T11:37:46+00:00"
   },
   "parceiro": {
-   "status": "a_venda",
-   "min": 210.0,
-   "moeda": "USD",
-   "lotes": 10,
-   "conferido": "2026-11-04T06:43:00+00:00",
-   "fonte": "https://www.sportsevents365.com/event/401302"
+   "status": "desconhecido",
+   "conferido": "2026-11-04T17:50:00+00:00"
   }
  },
  "final-australian-open-2027-01-31": {
@@ -173,12 +153,8 @@
    "tentado": "2026-11-04T11:37:46+00:00"
   },
   "parceiro": {
-   "status": "a_venda",
-   "min": 1286.0,
-   "moeda": "USD",
-   "lotes": 5,
-   "conferido": "2026-11-04T06:43:00+00:00",
-   "fonte": "https://www.sportsevents365.com/event/390886"
+   "status": "desconhecido",
+   "conferido": "2026-11-04T17:50:00+00:00"
   }
  },
  "celine-dion-paris-2027-05-14": {
@@ -194,12 +170,8 @@
    "conferido": "2026-11-04T11:37:46+00:00"
   },
   "parceiro": {
-   "status": "a_venda",
-   "min": 346.0,
-   "moeda": "USD",
-   "lotes": 10,
-   "conferido": "2026-11-04T06:43:00+00:00",
-   "fonte": "https://www.sportsevents365.com/event/391312"
+   "status": "desconhecido",
+   "conferido": "2026-11-04T17:50:00+00:00"
   }
  },
  "final-champions-league-2027-06-05": {
@@ -212,12 +184,8 @@
    "tentado": "2026-11-04T11:37:46+00:00"
   },
   "parceiro": {
-   "status": "a_venda",
-   "min": 6681.0,
-   "moeda": "USD",
-   "lotes": 10,
-   "conferido": "2026-11-04T06:43:00+00:00",
-   "fonte": "https://www.sportsevents365.com/event/399236"
+   "status": "desconhecido",
+   "conferido": "2026-11-04T17:50:00+00:00"
   }
  }
 }

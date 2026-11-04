@@ -132,7 +132,7 @@ document.addEventListener("click", ev => {
   if (l.type === "travel"){ track({ event: "travel_click", partner: l.partner, click_location: where, event_name: (window.MT_ITEM && window.MT_ITEM.item_name) || l.slug || "" }); return; }
   if (l.type === "event"){
     const it = (window.MT_ITEM && window.MT_ITEM.item_id === l.id) ? window.MT_ITEM
-      : { item_id: l.id, item_name: (a.getAttribute("aria-label") || a.textContent || "").replace(/^[^:]*:\s*/, "").trim(), item_brand: "SportsEvents365" };
+      : { item_id: l.id, item_name: (a.getAttribute("aria-label") || a.textContent || "").replace(/^[^:]*:\s*/, "").trim(), item_brand: "MyTickets Tours" };
     track({ ecommerce: null });
     track({ event: "begin_checkout", click_location: where, ecommerce: { items: [it] } });
   }
@@ -523,7 +523,8 @@ if (vivo){
       '<button type="button" class="yt-play" aria-label="' + play + '">' + PLAY_SVG + '</button>' +
       '<span class="yt-sound" aria-hidden="true">' + play + '</span></div>';
   };
-  const ingresso = t => t.evento ? '/go/se365/pt/' + esc(t.evento) + '/' : (docks[t.categoria] || "");
+  // Sem parceiro de venda (desde 04/11/2026): o botão de ingresso só aparece quando há um link de catálogo em data-docks.
+  const ingresso = t => docks[t.categoria] || "";
   const acoes = t => {
     const href = ingresso(t);
     return '<div class="vcard-actions">' +

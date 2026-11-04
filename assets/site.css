@@ -614,3 +614,8 @@ html{scroll-padding-top:120px}
   background:var(--card,#faf8f4)}
 .ev-fim strong{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
 .ev-fim p{margin:0;flex:1 1 18rem;font-size:.95rem}
+
+/* Informações do evento no lugar do botão de ingresso (sem parceiro de venda) */
+.ev-info{flex-basis:100%;list-style:none;margin:6px 0 4px;padding:0;font-size:.86rem;line-height:1.45;opacity:.92}
+.ev-info li{margin:3px 0}
+.ev-info b{font-weight:700}

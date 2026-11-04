@@ -81,6 +81,13 @@ def guardar_historico(precos):
 
 
 def main():
+    # A SportsEvents365 deixou de ser parceira em 04/11/2026: sem parceiro, não há preço para ler.
+    # O robô grava um arquivo vazio para o site nunca mostrar preço antigo. main_se365() guarda a leitura antiga.
+    ARQ.write_text("{}\n", encoding="utf-8")
+    print("sem parceiro de venda: data/precos.json vazio")
+
+
+def main_se365():
     eventos = json.loads((RAIZ / "data" / "eventos.json").read_text(encoding="utf-8"))["eventos"]
     hoje = dt.date.today().isoformat()
     try:

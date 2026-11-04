@@ -1,5 +1,5 @@
 {
- "_leia": "Eventos do catálogo SportsEvents365 (id = /event/<id>). Edite aqui e rode: python scripts/gerar_paginas.py Campos opcionais: hora (local), inicio (ISO com fuso), conferido (data em que data/hora foram conferidas no parceiro), status (EventScheduled, EventPostponed, EventRescheduled, EventCancelled).",
+ "_leia": "Eventos do site (id = número antigo do evento, usado nos endereços /ir/<id>/). Edite aqui e rode: python scripts/gerar_paginas.py Campos opcionais: hora (local), inicio (ISO com fuso), conferido (data em que data/hora foram conferidas no parceiro), status (EventScheduled, EventPostponed, EventRescheduled, EventCancelled).",
  "eventos": [
   {
    "slug": "barcelona-vs-real-madrid-2026-10-25",

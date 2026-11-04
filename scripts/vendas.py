@@ -122,7 +122,7 @@ def classificar(texto, palavras):
 def status_parceiro(ev, precos, agora):
     """Estoque no parceiro a partir de data/precos.json (lido pelo robô de preços)."""
     linhas = precos.get(str(ev["id"]), {})
-    if not linhas:
+    if not linhas:  # sem parceiro de venda (desde 04/11/2026) o arquivo de preços fica vazio
         return {"status": "desconhecido", "conferido": agora}
     melhor = None
     for lang, pr in linhas.items():

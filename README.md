@@ -1,6 +1,8 @@
 # MyTickets Tours
 
-Affiliate portal for international sports and show tickets, in Portuguese, English and Spanish. Tickets are sold and delivered by SportsEvents365.
+Independent guide to international sports and show events, in Portuguese, English and Spanish.
+
+> Since 2026-11-04 the site has no ticket sales partner: SportsEvents365 removed MyTickets from its affiliate program. `PARCEIRO` in `scripts/gerar_paginas.py` is empty and `se365` is off in `scripts/conteudo.py`, so no ticket link leaves the site; ticket buttons go to the sale alert on each event page, and old `/go/se365/` and `/ir/` addresses redirect to the event page. The notes below about SportsEvents365 are kept for history.
 
 ## Pages
 
