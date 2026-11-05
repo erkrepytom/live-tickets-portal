@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:mexico-vs-jamaica-2026-11-17-es@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261118T023000Z
+DTEND:20261118T043000Z
+SUMMARY:México vs Jamaica
+LOCATION:Estadio BBVA\, Av. Pablo Livas 2011\, Monterrey\, México
+DESCRIPTION:El Tri recibe a Jamaica en el Estadio BBVA\, en Guadalupe\
+ , zona metropolitana de Monterrey\, por la CONCACAF Nations League.\n
+ https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/
+URL:https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/
+GEO:25.6692;-100.2444
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:México vs Jamaica
+END:VALARM
+END:VEVENT
+END:VCALENDAR

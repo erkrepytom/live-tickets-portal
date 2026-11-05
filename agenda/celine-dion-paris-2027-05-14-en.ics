@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:celine-dion-paris-2027-05-14-en@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270514T173000Z
+DTEND:20270514T203000Z
+SUMMARY:Celine Dion in Paris
+LOCATION:Paris La Défense Arena\, 99 Jardin de l'Arche\, Paris\, France
+DESCRIPTION:Celine Dion performs at Paris La Défense Arena. The partne
+ r also lists a second date the next day\, May 15.\nhttps://mytickets.
+ tours/en/events/celine-dion-paris-2027-05-14/
+URL:https://mytickets.tours/en/events/celine-dion-paris-2027-05-14/
+GEO:48.8957;2.2297
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Celine Dion in Paris
+END:VALARM
+END:VEVENT
+END:VCALENDAR

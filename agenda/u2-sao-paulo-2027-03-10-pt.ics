@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:u2-sao-paulo-2027-03-10-pt@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270311T000000Z
+DTEND:20270311T030000Z
+SUMMARY:U2 em São Paulo
+LOCATION:MorumBis\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo\, Brasil
+DESCRIPTION:U2 volta ao Brasil com a turnê The Greatest Show On Earth 
+ no MorumBis. Há uma segunda data em 12 de março.\nhttps://mytickets.t
+ ours/eventos/u2-sao-paulo-2027-03-10/
+URL:https://mytickets.tours/eventos/u2-sao-paulo-2027-03-10/
+GEO:-23.6003;-46.7211
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U2 em São Paulo
+END:VALARM
+END:VEVENT
+END:VCALENDAR

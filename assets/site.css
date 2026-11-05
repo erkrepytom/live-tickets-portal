@@ -405,6 +405,14 @@ html{scroll-padding-top:120px}
   color:var(--ink, inherit);background:var(--surface);box-shadow:inset 0 0 0 1px var(--line);text-decoration:none}
 .btn-pin:hover,.btn-pin:focus-visible{box-shadow:inset 0 0 0 2px var(--signal)}
 .btn-pin svg{color:#E60023}
+button.btn-pin{border:0;cursor:pointer}
+.btn-cal svg{color:var(--signal-text)}
+/* Antes do evento: contagem regressiva + previsão do tempo */
+.antes{margin:22px 0 0;padding:16px 18px;border-radius:14px;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line);display:grid;gap:6px}
+.antes h2{margin:0;font:700 12px/1.3 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--signal-text)}
+.antes-conta{margin:0;font:800 28px/1.1 var(--f-display);letter-spacing:.01em}
+.antes-tempo p{margin:0}
+.antes-tempo .disclose{font-size:13px;color:var(--mut)}
 /* Preço "a partir de" lido do parceiro (o mesmo valor vai para o JSON-LD) */
 .buy-price{margin:0 0 4px;font-weight:600;color:var(--ink)}
 

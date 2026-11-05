@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ireland-vs-south-africa-2026-11-21-en@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261121T164000Z
+DTEND:20261121T184000Z
+SUMMARY:Ireland vs South Africa
+LOCATION:Aviva Stadium\, Lansdowne Road\, Dublin\, Ireland
+DESCRIPTION:Ireland host South Africa at the Aviva Stadium in Dublin i
+ n the 2026 Nations Championship.\nhttps://mytickets.tours/en/events/i
+ reland-vs-south-africa-2026-11-21/
+URL:https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/
+GEO:53.3352;-6.2285
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Ireland vs South Africa
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:foo-fighters-sao-paulo-2027-02-20-es@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270220T230000Z
+DTEND:20270221T020000Z
+SUMMARY:Foo Fighters en São Paulo
+LOCATION:MorumBis\, Praça Roberto Gomes Pedrosa\, 1\, São Paulo\, Brasil
+DESCRIPTION:Foo Fighters lleva el Take Cover Tour al MorumBis de São P
+ aulo. La banda también toca en el Arena MRV de Belo Horizonte el 18 d
+ e febrero.\nhttps://mytickets.tours/es/eventos/foo-fighters-sao-paulo
+ -2027-02-20/
+URL:https://mytickets.tours/es/eventos/foo-fighters-sao-paulo-2027-02-20/
+GEO:-23.6003;-46.7211
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Foo Fighters en São Paulo
+END:VALARM
+END:VEVENT
+END:VCALENDAR

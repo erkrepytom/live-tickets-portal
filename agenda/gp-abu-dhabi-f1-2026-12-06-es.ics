@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gp-abu-dhabi-f1-2026-12-06-es@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261206T100000Z
+DTEND:20261206T120000Z
+SUMMARY:GP de Abu Dabi de Fórmula 1
+LOCATION:Yas Marina Circuit\, Yas Island\, Abu Dabi\, Emiratos Árabes 
+ Unidos
+DESCRIPTION:La última carrera de la temporada de Fórmula 1\, que empie
+ za al atardecer y termina bajo los focos de Yas Marina.\nhttps://myti
+ ckets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/
+URL:https://mytickets.tours/es/eventos/gp-abu-dhabi-f1-2026-12-06/
+GEO:24.4672;54.6031
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:GP de Abu Dabi de Fórmula 1
+END:VALARM
+END:VEVENT
+END:VCALENDAR

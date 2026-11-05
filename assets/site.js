@@ -592,4 +592,75 @@ function ligarCarrossel(carr){
 }
 document.querySelectorAll(".vcarr").forEach(ligarCarrossel);
 
+/* ---------- Compartilhar e agenda (links comuns; o JS só acrescenta o nativo, o copiar e a medição) ---------- */
+document.querySelectorAll("[data-share-native]").forEach(b => {
+  if (!navigator.share) return;
+  b.hidden = false;
+  b.addEventListener("click", () => {
+    navigator.share({ title: b.dataset.shareTitle, text: b.dataset.shareText, url: b.dataset.shareUrl + "?utm_source=native_share&utm_medium=social&utm_campaign=share" })
+      .then(() => track({ event: "share", method: "native", content_type: "page", item_id: location.pathname }))
+      .catch(() => {});
+  });
+});
+document.querySelectorAll("[data-share]").forEach(a => a.addEventListener("click", () =>
+  track({ event: "share", method: a.dataset.share, content_type: "page", item_id: location.pathname })));
+document.querySelectorAll("[data-share-copy]").forEach(b => b.addEventListener("click", () => {
+  const url = b.dataset.shareCopy + "?utm_source=copy_link&utm_medium=social&utm_campaign=share";
+  const ok = () => { const t = b.textContent; b.textContent = b.dataset.ok; setTimeout(() => { b.textContent = t; }, 2000);
+    track({ event: "share", method: "copy_link", content_type: "page", item_id: location.pathname }); };
+  if (navigator.clipboard) navigator.clipboard.writeText(url).then(ok, () => prompt("", url));
+  else prompt("", url);
+}));
+document.querySelectorAll("[data-cal]").forEach(a => a.addEventListener("click", () =>
+  track({ event: "add_to_calendar", method: a.dataset.cal, item_id: location.pathname })));
+
+/* ---------- Antes do evento: contagem regressiva e previsão do tempo (Open-Meteo, sem chave) ---------- */
+const WMO = { pt: { 0: "Céu limpo", 1: "Poucas nuvens", 2: "Parcialmente nublado", 3: "Nublado", 45: "Neblina", 51: "Garoa", 61: "Chuva fraca", 63: "Chuva", 65: "Chuva forte", 71: "Neve fraca", 73: "Neve", 75: "Neve forte", 80: "Pancadas de chuva", 95: "Trovoadas" },
+  en: { 0: "Clear sky", 1: "Mostly clear", 2: "Partly cloudy", 3: "Cloudy", 45: "Fog", 51: "Drizzle", 61: "Light rain", 63: "Rain", 65: "Heavy rain", 71: "Light snow", 73: "Snow", 75: "Heavy snow", 80: "Rain showers", 95: "Thunderstorms" },
+  es: { 0: "Despejado", 1: "Poco nuboso", 2: "Parcialmente nublado", 3: "Nublado", 45: "Niebla", 51: "Llovizna", 61: "Lluvia débil", 63: "Lluvia", 65: "Lluvia fuerte", 71: "Nieve débil", 73: "Nieve", 75: "Nieve fuerte", 80: "Chubascos", 95: "Tormentas" } };
+const WMO_ICO = c => c === 0 ? "☀️" : c <= 2 ? "⛅" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 67 || (c >= 80 && c <= 82) ? "🌧️" : c <= 77 || (c >= 85 && c <= 86) ? "❄️" : "⛈️";
+function wmoTexto(c, lang){
+  const t = WMO[lang] || WMO.en;
+  const k = Object.keys(t).map(Number).filter(x => x <= c).pop();
+  return t[k] || "";
+}
+document.querySelectorAll("[data-antes]").forEach(box => {
+  let tx = {};
+  try { tx = JSON.parse(box.dataset.txt); } catch (e) {}
+  const lang = (document.documentElement.lang || "en").slice(0, 2);
+  const inicio = box.dataset.inicio ? new Date(box.dataset.inicio) : new Date(box.dataset.data + "T12:00:00");
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  const dia = new Date(box.dataset.data + "T00:00:00");
+  const dias = Math.round((dia - hoje) / 864e5);
+  if (dias < 0 || inicio < new Date(Date.now() - 4 * 36e5)) return;
+  box.hidden = false;
+  box.querySelector("[data-conta]").textContent = dias === 0 ? tx.hoje : dias === 1 ? tx.amanha : (tx.faltam || "").replace("{n}", dias);
+  const alvo = box.querySelector("[data-tempo-txt]");
+  if (!alvo) return;
+  if (dias > 15){ alvo.textContent = tx.cedo; return; }
+  const u = "https://api.open-meteo.com/v1/forecast?latitude=" + box.dataset.lat + "&longitude=" + box.dataset.lon +
+    "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&start_date=" + box.dataset.data + "&end_date=" + box.dataset.data;
+  const io = new IntersectionObserver(es => {
+    if (!es.some(x => x.isIntersecting)) return;
+    io.disconnect();
+    fetch(u).then(r => r.ok ? r.json() : Promise.reject()).then(d => {
+      const dd = d.daily || {};
+      const c = (dd.weather_code || [])[0];
+      if (c === undefined || c === null) return;
+      const max = Math.round(dd.temperature_2m_max[0]), min = Math.round(dd.temperature_2m_min[0]);
+      const pr = (dd.precipitation_probability_max || [])[0];
+      alvo.textContent = WMO_ICO(c) + " " + tx.tempo + ": " + wmoTexto(c, lang) + " · " + min + "° / " + max + "°C" + (pr !== null && pr !== undefined ? " · " + pr + "% " + tx.chuva : "");
+      track({ event: "weather_view", item_id: location.pathname });
+    }).catch(() => { alvo.closest("[data-tempo]").hidden = true; });
+  }, { rootMargin: "200px" });
+  io.observe(box);
+});
+
+/* ---------- PWA: service worker (páginas já vistas abrem sem internet) ---------- */
+if ("serviceWorker" in navigator && location.protocol === "https:"){
+  const me = document.currentScript || document.querySelector('script[src*="assets/site.js"]');
+  const sw = me && me.src ? me.src.replace(/assets\/site\.js.*$/, "sw.js") : "/sw.js";
+  addEventListener("load", () => navigator.serviceWorker.register(sw).catch(() => {}));
+}
+
 })();

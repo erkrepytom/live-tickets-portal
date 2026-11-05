@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:franca-vs-africa-do-sul-2026-11-13-en@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261113T201000Z
+DTEND:20261113T221000Z
+SUMMARY:France vs South Africa
+LOCATION:Stade de France\, ZAC du Cornillon Nord\, Paris\, France
+DESCRIPTION:Test rugby at the Stade de France: France host South Afric
+ a in the World Rugby Nations Championship.\nhttps://mytickets.tours/e
+ n/events/franca-vs-africa-do-sul-2026-11-13/
+URL:https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/
+GEO:48.9245;2.3602
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:France vs South Africa
+END:VALARM
+END:VEVENT
+END:VCALENDAR

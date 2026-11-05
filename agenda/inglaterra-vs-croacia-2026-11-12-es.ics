@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:inglaterra-vs-croacia-2026-11-12-es@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261112T194500Z
+DTEND:20261112T214500Z
+SUMMARY:Inglaterra vs Croacia
+LOCATION:Wembley Stadium\, Wembley\, Londres\, Inglaterra
+DESCRIPTION:Inglaterra y Croacia se enfrentan en Wembley\, por la Liga
+  de Naciones de la UEFA.\nhttps://mytickets.tours/es/eventos/inglater
+ ra-vs-croacia-2026-11-12/
+URL:https://mytickets.tours/es/eventos/inglaterra-vs-croacia-2026-11-12/
+GEO:51.556;-0.2796
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Inglaterra vs Croacia
+END:VALARM
+END:VEVENT
+END:VCALENDAR

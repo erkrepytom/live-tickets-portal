@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:u2-cidade-do-mexico-2027-02-23-es@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270224T030000Z
+DTEND:20270224T060000Z
+SUMMARY:U2 en la Ciudad de México
+LOCATION:Estadio GNP Seguros\, Viaducto Piedad y Río Churubusco s/n\, 
+ Ciudad Deportiva\, Ciudad de México\, México
+DESCRIPTION:U2 abre su temporada en la CDMX de la gira The Greatest Sh
+ ow On Earth en el Estadio GNP Seguros. Hay más fechas el 26 y 28 de f
+ ebrero y el 2 de marzo.\nhttps://mytickets.tours/es/eventos/u2-cidade
+ -do-mexico-2027-02-23/
+URL:https://mytickets.tours/es/eventos/u2-cidade-do-mexico-2027-02-23/
+GEO:19.4052;-99.0956
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U2 en la Ciudad de México
+END:VALARM
+END:VEVENT
+END:VCALENDAR

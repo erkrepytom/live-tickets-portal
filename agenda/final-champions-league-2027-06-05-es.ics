@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:final-champions-league-2027-06-05-es@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270605T190000Z
+DTEND:20270605T210000Z
+SUMMARY:Final de la Champions League 2027
+LOCATION:Estadio Metropolitano\, Av. de Luis Aragonés\, 4\, Madrid\, E
+ spaña
+DESCRIPTION:La final de la Champions League 2027 será en el Estadio Me
+ tropolitano de Madrid. Los finalistas aún no están definidos.\nhttps:
+ //mytickets.tours/es/eventos/final-champions-league-2027-06-05/
+URL:https://mytickets.tours/es/eventos/final-champions-league-2027-06-05/
+GEO:40.4362;-3.5995
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Final de la Champions League 2027
+END:VALARM
+END:VEVENT
+END:VCALENDAR

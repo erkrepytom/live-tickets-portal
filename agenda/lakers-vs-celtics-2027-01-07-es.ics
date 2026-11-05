@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lakers-vs-celtics-2027-01-07-es@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270108T030000Z
+DTEND:20270108T050000Z
+SUMMARY:Los Angeles Lakers vs Boston Celtics
+LOCATION:Crypto.com Arena\, 1111 S. Figueroa St\, Los Ángeles\, EE. UU.
+DESCRIPTION:El gran clásico de la NBA: los Lakers reciben a los Celtic
+ s en la Crypto.com Arena de Los Ángeles.\nhttps://mytickets.tours/es/
+ eventos/lakers-vs-celtics-2027-01-07/
+URL:https://mytickets.tours/es/eventos/lakers-vs-celtics-2027-01-07/
+GEO:34.043;-118.2673
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Los Angeles Lakers vs Boston Celtics
+END:VALARM
+END:VEVENT
+END:VCALENDAR

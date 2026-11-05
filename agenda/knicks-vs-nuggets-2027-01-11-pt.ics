@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:knicks-vs-nuggets-2027-01-11-pt@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270112T003000Z
+DTEND:20270112T023000Z
+SUMMARY:New York Knicks x Denver Nuggets
+LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza\, Nova York\, EUA
+DESCRIPTION:NBA no Madison Square Garden\, a arena mais famosa do basq
+ uete\, com os Knicks recebendo os Nuggets.\nhttps://mytickets.tours/e
+ ventos/knicks-vs-nuggets-2027-01-11/
+URL:https://mytickets.tours/eventos/knicks-vs-nuggets-2027-01-11/
+GEO:40.7505;-73.9934
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:New York Knicks x Denver Nuggets
+END:VALARM
+END:VEVENT
+END:VCALENDAR

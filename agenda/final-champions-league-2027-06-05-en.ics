@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:final-champions-league-2027-06-05-en@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270605T190000Z
+DTEND:20270605T210000Z
+SUMMARY:2027 Champions League Final
+LOCATION:Estadio Metropolitano\, Av. de Luis Aragonés\, 4\, Madrid\, S
+ pain
+DESCRIPTION:The 2027 Champions League final is at the Estadio Metropol
+ itano in Madrid. The finalists are not decided yet.\nhttps://myticket
+ s.tours/en/events/final-champions-league-2027-06-05/
+URL:https://mytickets.tours/en/events/final-champions-league-2027-06-05/
+GEO:40.4362;-3.5995
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:2027 Champions League Final
+END:VALARM
+END:VEVENT
+END:VCALENDAR
