@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:barcelona-vs-manchester-city-2026-12-08-en@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+SUMMARY:FC Barcelona vs Manchester City
+LOCATION:Camp Nou\, C. d'Arístides Maillol\, 12\, Barcelona\, Spain
+DESCRIPTION:Champions League night at Camp Nou: Barcelona host Manches
+ ter City.\nhttps://mytickets.tours/en/events/barcelona-vs-manchester-
+ city-2026-12-08/
+URL:https://mytickets.tours/en/events/barcelona-vs-manchester-city-202
+ 6-12-08/
+GEO:41.3809;2.1228
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:FC Barcelona vs Manchester City
+END:VALARM
+END:VEVENT
+END:VCALENDAR

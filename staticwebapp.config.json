@@ -1,6 +1,20 @@
 {
   "routes": [
     {
+      "route": "/sw.js",
+      "headers": {
+        "Cache-Control": "no-cache",
+        "Service-Worker-Allowed": "/"
+      }
+    },
+    {
+      "route": "/agenda/*",
+      "headers": {
+        "X-Robots-Tag": "noindex",
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
       "route": "/go/*",
       "headers": {
         "X-Robots-Tag": "noindex, nofollow",
@@ -93,13 +107,14 @@
     "X-Frame-Options": "DENY",
     "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()",
     "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
-    "Content-Security-Policy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://formsubmit.co; upgrade-insecure-requests; script-src 'self' 'unsafe-inline' https://www.clarity.ms https://*.clarity.ms https://www.googletagmanager.com https://www.google-analytics.com https://cdn.jsdelivr.net https://assets.pinterest.com https://*.pinterest.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://*.clarity.ms https://c.bing.com https://images.unsplash.com https://i.ytimg.com https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com https://*.doubleclick.net https://*.pinimg.com https://*.pinterest.com; media-src 'self'; connect-src 'self' https://*.clarity.ms https://c.bing.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.google.com https://*.doubleclick.net https://formsubmit.co https://cdn.jsdelivr.net https://*.pinterest.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com https://www.googletagmanager.com https://*.doubleclick.net https://*.pinterest.com; worker-src 'self' blob:; manifest-src 'self'",
+    "Content-Security-Policy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://formsubmit.co; upgrade-insecure-requests; script-src 'self' 'unsafe-inline' https://www.clarity.ms https://*.clarity.ms https://www.googletagmanager.com https://www.google-analytics.com https://cdn.jsdelivr.net https://assets.pinterest.com https://*.pinterest.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://*.clarity.ms https://c.bing.com https://images.unsplash.com https://i.ytimg.com https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com https://*.doubleclick.net https://*.pinimg.com https://*.pinterest.com; media-src 'self'; connect-src 'self' https://*.clarity.ms https://c.bing.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://*.google.com https://*.doubleclick.net https://formsubmit.co https://cdn.jsdelivr.net https://*.pinterest.com https://api.open-meteo.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com https://www.googletagmanager.com https://*.doubleclick.net https://*.pinterest.com; worker-src 'self' blob:; manifest-src 'self'",
     "X-Permitted-Cross-Domain-Policies": "none"
   },
   "mimeTypes": {
     ".json": "application/json",
     ".mp4": "video/mp4",
     ".webmanifest": "application/manifest+json",
-    ".txt": "text/plain; charset=utf-8"
+    ".txt": "text/plain; charset=utf-8",
+    ".ics": "text/calendar; charset=utf-8"
   }
 }

@@ -93,6 +93,22 @@ def fim_evento(ev):
     return (ini + dt.timedelta(hours=DURACAO_H.get(ev["tipo"], 2))).isoformat()
 PIN_TXT = {"pt": ("Salvar no Pinterest", "Seguir no Pinterest"), "en": ("Save to Pinterest", "Follow on Pinterest"),
            "es": ("Guardar en Pinterest", "Seguir en Pinterest")}
+# Barra "Compartilhar e salvar" e bloco "Antes do jogo" (contagem regressiva + previsão do tempo).
+# A previsão vem da Open-Meteo (sem chave; atribuição obrigatória, CC BY 4.0) e só aparece nos 16 dias antes do evento.
+ENG_TXT = {
+ "pt": {"share": "Compartilhar", "copy": "Copiar link", "copied": "Link copiado", "cal": "Adicionar à agenda", "gcal": "Google Agenda",
+        "h": "Antes do evento", "faltam": "Faltam {n} dias", "amanha": "É amanhã", "hoje": "É hoje",
+        "tempo": "Previsão do tempo para o dia", "tempo_cedo": "A previsão do tempo para {c} aparece aqui 16 dias antes do evento.",
+        "chuva": "chuva", "fonte": "Previsão: Open-Meteo.com", "msg": "Vamos? {t}"},
+ "en": {"share": "Share", "copy": "Copy link", "copied": "Link copied", "cal": "Add to calendar", "gcal": "Google Calendar",
+        "h": "Before the event", "faltam": "{n} days to go", "amanha": "It's tomorrow", "hoje": "It's today",
+        "tempo": "Weather forecast for the day", "tempo_cedo": "The weather forecast for {c} shows here 16 days before the event.",
+        "chuva": "rain", "fonte": "Forecast: Open-Meteo.com", "msg": "Shall we go? {t}"},
+ "es": {"share": "Compartir", "copy": "Copiar enlace", "copied": "Enlace copiado", "cal": "Añadir al calendario", "gcal": "Google Calendar",
+        "h": "Antes del evento", "faltam": "Faltan {n} días", "amanha": "Es mañana", "hoje": "Es hoy",
+        "tempo": "Pronóstico del tiempo para el día", "tempo_cedo": "El pronóstico del tiempo para {c} aparece aquí 16 días antes del evento.",
+        "chuva": "lluvia", "fonte": "Pronóstico: Open-Meteo.com", "msg": "¿Vamos? {t}"},
+}
 # Chave pública do IndexNow (Bing, Yandex, Seznam, Naver). O arquivo <chave>.txt fica na raiz.
 INDEXNOW_KEY = "3fd2b7b8fea97fff39010e15706a1aff"
 # Uma página-hub (esporte, cidade, competição) só é gerada com pelo menos este número de eventos,
@@ -119,6 +135,7 @@ LOCAIS = {
  "Crypto.com Arena": {"rua": "1111 S. Figueroa St", "cep": "90015", "cidade": "Los Angeles", "regiao": "CA", "geo": (34.0430, -118.2673)},
  "Co-op Live": {"rua": "1 Sports City Way", "cep": "M11 3DU", "cidade": "Manchester", "regiao": "England", "geo": (53.4866, -2.1996)},
  "MorumBis": {"rua": "Praça Roberto Gomes Pedrosa, 1", "cep": "05653-070", "cidade": "São Paulo", "regiao": "SP", "geo": (-23.6003, -46.7211)},
+ "Wembley Stadium": {"rua": "Wembley", "cep": "HA9 0WS", "cidade": "London", "regiao": "England", "geo": (51.5560, -0.2796)},
  "Estadio GNP Seguros": {"rua": "Viaducto Piedad y Río Churubusco s/n, Ciudad Deportiva", "cep": "08400", "cidade": "Ciudad de México", "regiao": "CDMX", "geo": (19.4052, -99.0956)},
 }
 # País (nome em inglês do campo "pais") → código ISO 3166-1, o formato que o Google prefere.
@@ -1281,6 +1298,140 @@ def botoes_pinterest(lang, pagina, imagem, descricao):
     return f'<p class="pin-row">{html}</p>'
 
 
+def caminho_ics(lang, slug):
+    return f"agenda/{slug}-{lang}.ics"
+
+
+def duracao_evento(ev):
+    return dt.timedelta(hours=3 if ev["tipo"] == "concert" else 2)
+
+
+def ics_evento(lang, ev):
+    """Arquivo .ics (RFC 5545) do evento: abre no Google Agenda, Apple Calendar e Outlook com data, hora e local."""
+    def esc(x):
+        return str(x).replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+    url = f"{BASE_URL}/{caminho_evento(lang, ev['slug'])}"
+    loc = LOCAIS.get(ev["local"], {})
+    onde = ", ".join(x for x in (ev["local"], loc.get("rua", ""), L(ev["cidade"], lang), L(ev["pais"], lang)) if x)
+    if ev.get("inicio"):
+        ini = dt.datetime.fromisoformat(ev["inicio"]).astimezone(dt.timezone.utc)
+        fim = ini + duracao_evento(ev)
+        quando = [f"DTSTART:{ini:%Y%m%dT%H%M%SZ}", f"DTEND:{fim:%Y%m%dT%H%M%SZ}"]
+    else:
+        d = dt.date.fromisoformat(ev["data"])
+        quando = [f"DTSTART;VALUE=DATE:{d:%Y%m%d}", f"DTEND;VALUE=DATE:{d + dt.timedelta(days=1):%Y%m%d}"]
+    linhas = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//MyTickets Tours//Agenda//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+              "BEGIN:VEVENT", f"UID:{ev['slug']}-{lang}@mytickets.tours", f"DTSTAMP:{dt.datetime.now(dt.timezone.utc):%Y%m%dT000000Z}",
+              *quando, f"SUMMARY:{esc(L(ev['titulo'], lang))}", f"LOCATION:{esc(onde)}",
+              f"DESCRIPTION:{esc(L(ev['intro'], lang) + chr(10) + url)}", f"URL:{url}"]
+    if loc.get("geo"):
+        linhas.append(f"GEO:{loc['geo'][0]};{loc['geo'][1]}")
+    linhas += ["BEGIN:VALARM", "TRIGGER:-P1D", "ACTION:DISPLAY", f"DESCRIPTION:{esc(L(ev['titulo'], lang))}", "END:VALARM",
+               "END:VEVENT", "END:VCALENDAR"]
+    # linhas longas são dobradas (RFC 5545, 3.1): continuação começa com espaço
+    dobradas = []
+    for ln in linhas:
+        while len(ln.encode("utf-8")) > 74:
+            corte = 70
+            while len(ln[:corte].encode("utf-8")) > 74:
+                corte -= 1
+            dobradas.append(ln[:corte])
+            ln = " " + ln[corte:]
+        dobradas.append(ln)
+    return "\r\n".join(dobradas) + "\r\n"
+
+
+def link_google_agenda(lang, ev):
+    q = urllib.parse.quote
+    if ev.get("inicio"):
+        ini = dt.datetime.fromisoformat(ev["inicio"]).astimezone(dt.timezone.utc)
+        datas = f"{ini:%Y%m%dT%H%M%SZ}/{ini + duracao_evento(ev):%Y%m%dT%H%M%SZ}"
+    else:
+        d = dt.date.fromisoformat(ev["data"])
+        datas = f"{d:%Y%m%d}/{d + dt.timedelta(days=1):%Y%m%d}"
+    url = f"{BASE_URL}/{caminho_evento(lang, ev['slug'])}"
+    return (f"https://calendar.google.com/calendar/render?action=TEMPLATE&text={q(L(ev['titulo'], lang))}&dates={datas}"
+            f"&location={q(ev['local'] + ', ' + L(ev['cidade'], lang))}&details={q(url)}")
+
+
+def barra_compartilhar(lang, pagina, imagem, descricao, titulo, ev=None):
+    """Pinterest + WhatsApp, Telegram, X, Facebook, copiar link, compartilhamento nativo do celular e, em evento futuro,
+    "Adicionar à agenda" (.ics + Google Agenda). Tudo link comum: funciona sem JavaScript e sem script de terceiros."""
+    q = urllib.parse.quote
+    tx = ENG_TXT[lang]
+    url = f"{BASE_URL}/{pagina}"
+    utm = lambda src: q(f"{url}?utm_source={src}&utm_medium=social&utm_campaign=share", safe="")
+    msg = tx["msg"].format(t=titulo)
+    redes = [("whatsapp", "WhatsApp", f"https://wa.me/?text={q(msg + ' ', safe='')}{utm('whatsapp')}"),
+             ("telegram", "Telegram", f"https://t.me/share/url?url={utm('telegram')}&text={q(msg, safe='')}"),
+             ("x", "X", f"https://x.com/intent/post?url={utm('x')}&text={q(msg, safe='')}"),
+             ("facebook", "Facebook", f"https://www.facebook.com/sharer/sharer.php?u={utm('facebook')}")]
+    pin = botoes_pinterest(lang, pagina, imagem, descricao)
+    html = pin[len('<p class="pin-row">'):-len('</p>')]
+    html += (f'<button type="button" class="btn-pin" data-share-native data-share-title="{e(titulo)}" data-share-text="{e(msg)}" '
+             f'data-share-url="{e(url)}" hidden>{e(tx["share"])}</button>')
+    html += "".join(f'<a class="btn-pin btn-share" data-share="{k}" href="{e(h)}" target="_blank" rel="noopener nofollow">{e(n)}</a>' for k, n, h in redes)
+    html += (f'<button type="button" class="btn-pin" data-share-copy="{e(url)}" data-ok="{e(tx["copied"])}">{e(tx["copy"])}</button>')
+    if ev and not ev.get("encerrado"):
+        html += (f'<a class="btn-pin btn-cal" data-cal="ics" href="{rel(pagina, caminho_ics(lang, ev["slug"]))}" download>'
+                 f'<svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M7 2h2v2h6V2h2v2h3a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3V2zm12 8H5v9h14v-9z"/></svg>'
+                 f'{e(tx["cal"])}</a>'
+                 f'<a class="btn-pin" data-cal="google" href="{e(link_google_agenda(lang, ev))}" target="_blank" rel="noopener nofollow">{e(tx["gcal"])}</a>')
+    return f'<p class="pin-row share-row">{html}</p>'
+
+
+def bloco_antes(lang, ev):
+    """Contagem regressiva e previsão do tempo no local (preenchidas pelo assets/site.js).
+    Sem JavaScript o bloco fica escondido; evento encerrado não tem bloco."""
+    if ev.get("encerrado"):
+        return ""
+    tx = ENG_TXT[lang]
+    geo = LOCAIS.get(ev["local"], {}).get("geo")
+    attrs = f'data-data="{e(ev["data"])}" data-inicio="{e(ev.get("inicio", ""))}"'
+    if geo:
+        attrs += f' data-lat="{geo[0]}" data-lon="{geo[1]}"'
+    textos = {k: tx[k] for k in ("faltam", "amanha", "hoje", "tempo", "chuva")}
+    textos["cedo"] = tx["tempo_cedo"].format(c=L(ev["cidade"], lang))
+    return (f'<aside class="antes" data-antes {attrs} data-txt="{e(json.dumps(textos, ensure_ascii=False))}" hidden aria-labelledby="antes-h">'
+            f'<h2 id="antes-h">{e(tx["h"])}</h2><p class="antes-conta" data-conta></p>'
+            + (f'<div class="antes-tempo" data-tempo><p class="antes-tempo-txt" data-tempo-txt></p>'
+               f'<p class="disclose"><a href="https://open-meteo.com/" target="_blank" rel="noopener">{e(tx["fonte"])}</a></p></div>' if geo else "")
+            + '</aside>')
+
+
+def gerar_agenda(eventos):
+    """agenda/<slug>-<idioma>.ics de cada evento futuro; apaga os de eventos que já passaram."""
+    pasta = RAIZ / "agenda"
+    pasta.mkdir(exist_ok=True)
+    vivos = set()
+    for ev in eventos:
+        for lang in IDIOMAS:
+            arq = RAIZ / caminho_ics(lang, ev["slug"])
+            vivos.add(arq.name)
+            conteudo = ics_evento(lang, ev)
+            antigo = arq.read_bytes().decode("utf-8") if arq.exists() else ""
+            # DTSTAMP muda todo dia; só regrava quando o resto mudou, para não gerar commit à toa
+            if re.sub(r"DTSTAMP:\S+", "", antigo) != re.sub(r"DTSTAMP:\S+", "", conteudo):
+                arq.write_bytes(conteudo.encode("utf-8"))
+    for arq in pasta.glob("*.ics"):
+        if arq.name not in vivos:
+            arq.unlink()
+
+
+def gerar_offline():
+    """offline.html: o que o service worker (sw.js) mostra quando a pessoa abre uma página sem internet."""
+    (RAIZ / "offline.html").write_text(f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Offline · MyTickets Tours</title><meta name="theme-color" content="{COR_TEMA}">
+<style>body{{margin:0;min-height:100vh;display:grid;place-items:center;background:{COR_TEMA};color:#EEF2F6;font:400 17px/1.5 system-ui,sans-serif;padding:24px}}
+main{{max-width:34rem}}h1{{font-size:28px;margin:0 0 12px}}p{{margin:0 0 10px;color:#A3B3C6}}a{{color:#FFC400}}</style></head>
+<body><main><h1>Sem conexão · You are offline · Sin conexión</h1>
+<p>As páginas que você já abriu continuam disponíveis. Assim que a internet voltar, <a href="/">recarregue</a>.</p>
+<p>Pages you already opened are still available. When you are back online, <a href="/">reload</a>.</p>
+<p>Las páginas que ya abriste siguen disponibles. Cuando vuelva la conexión, <a href="/">recarga</a>.</p></main></body></html>
+""", encoding="utf-8")
+
+
 def foto(img, w=1200, pagina=""):
     """Foto do Unsplash (id photo-...) ou imagem local do portal anterior em assets/img."""
     if img.startswith("photo-"):
@@ -2080,7 +2231,8 @@ def evento(lang, ev, eventos, hubs):
     <div class="event-main">
       <p class="lead">{e(L(ev['intro'], lang))}</p>
       {bloco_video}
-      {botoes_pinterest(lang, pagina, ev.get("banner", ev["img"]), f"{titulo_pg}. {L(ev['intro'], lang)}")}
+      {barra_compartilhar(lang, pagina, ev.get("banner", ev["img"]), f"{titulo_pg}. {L(ev['intro'], lang)}", titulo, ev)}
+      {bloco_antes(lang, ev)}
       <div class="tips">
         <div><h2>{e(t['get_h'])}</h2><ul>{chegar}</ul></div>
         <div><h2>{e(t['tips_h'])}</h2><ul>{dicas}</ul></div>
@@ -2248,7 +2400,7 @@ def pagina_texto(lang, pg, pagina, alternos, ld, extra_html="", imagem=None):
                      for i, (tit, pars) in enumerate(pg["secoes"], 1))
     trilha = [(T[lang]["home"], caminho_home(lang)), (pg["h1"], pagina)]
     cab = cabeca(lang, pagina, pg["title"], pg["desc"], alternos, ld_script(ld, ld_breadcrumb(trilha)), imagem=imagem)
-    pin = botoes_pinterest(lang, pagina, imagem, f"{pg['title']}. {pg['desc']}") if imagem else ""
+    pin = barra_compartilhar(lang, pagina, imagem, f"{pg['title']}. {pg['desc']}", pg.get("h1", pg["title"])) if imagem else ""
     corpo = f"""
 <body>
 {topo(lang, pagina, alternos)}
@@ -2740,6 +2892,8 @@ def main():
     for lang in IDIOMAS:
         feed_atom(lang, eventos, manifesto)
     manifesto_pwa()
+    gerar_agenda(eventos)
+    gerar_offline()
     llms_txt(eventos, hubs)
     llms_full_txt(eventos, hubs)
     catalogo_json(eventos)

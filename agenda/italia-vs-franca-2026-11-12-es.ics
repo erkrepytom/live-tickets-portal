@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:italia-vs-franca-2026-11-12-es@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261112T194500Z
+DTEND:20261112T214500Z
+SUMMARY:Italia vs Francia
+LOCATION:San Siro (Giuseppe Meazza)\, Piazzale Angelo Moratti\, Milán\
+ , Italia
+DESCRIPTION:Dos selecciones campeonas del mundo se enfrentan en San Si
+ ro\, por la Liga de Naciones de la UEFA.\nhttps://mytickets.tours/es/
+ eventos/italia-vs-franca-2026-11-12/
+URL:https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/
+GEO:45.4781;9.124
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Italia vs Francia
+END:VALARM
+END:VEVENT
+END:VCALENDAR

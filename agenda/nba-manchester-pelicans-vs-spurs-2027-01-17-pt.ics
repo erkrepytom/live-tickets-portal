@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:nba-manchester-pelicans-vs-spurs-2027-01-17-pt@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270117T153000Z
+DTEND:20270117T173000Z
+SUMMARY:NBA em Manchester: Pelicans x Spurs
+LOCATION:Co-op Live\, 1 Sports City Way\, Manchester\, Reino Unido
+DESCRIPTION:Jogo oficial da temporada regular da NBA na Europa: New Or
+ leans Pelicans x San Antonio Spurs na Co-op Live\, em Manchester.\nht
+ tps://mytickets.tours/eventos/nba-manchester-pelicans-vs-spurs-2027-0
+ 1-17/
+URL:https://mytickets.tours/eventos/nba-manchester-pelicans-vs-spurs-2
+ 027-01-17/
+GEO:53.4866;-2.1996
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:NBA em Manchester: Pelicans x Spurs
+END:VALARM
+END:VEVENT
+END:VCALENDAR

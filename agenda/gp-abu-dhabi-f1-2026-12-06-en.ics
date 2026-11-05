@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gp-abu-dhabi-f1-2026-12-06-en@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261206T100000Z
+DTEND:20261206T120000Z
+SUMMARY:Formula 1 Abu Dhabi Grand Prix
+LOCATION:Yas Marina Circuit\, Yas Island\, Abu Dhabi\, United Arab Emi
+ rates
+DESCRIPTION:The final round of the Formula 1 season\, a race that star
+ ts at dusk and finishes under the Yas Marina floodlights.\nhttps://my
+ tickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/
+URL:https://mytickets.tours/en/events/gp-abu-dhabi-f1-2026-12-06/
+GEO:24.4672;54.6031
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Formula 1 Abu Dhabi Grand Prix
+END:VALARM
+END:VEVENT
+END:VCALENDAR

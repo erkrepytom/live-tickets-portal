@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:franca-vs-africa-do-sul-2026-11-13-es@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261113T201000Z
+DTEND:20261113T221000Z
+SUMMARY:Francia vs Sudáfrica
+LOCATION:Stade de France\, ZAC du Cornillon Nord\, París\, Francia
+DESCRIPTION:Rugby de selecciones en el Stade de France: Francia recibe
+  a Sudáfrica en el World Rugby Nations Championship.\nhttps://myticke
+ ts.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/
+URL:https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/
+GEO:48.9245;2.3602
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Francia vs Sudáfrica
+END:VALARM
+END:VEVENT
+END:VCALENDAR

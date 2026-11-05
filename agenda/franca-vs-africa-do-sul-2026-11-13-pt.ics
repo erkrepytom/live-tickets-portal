@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:franca-vs-africa-do-sul-2026-11-13-pt@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261113T201000Z
+DTEND:20261113T221000Z
+SUMMARY:França x África do Sul
+LOCATION:Stade de France\, ZAC du Cornillon Nord\, Paris\, França
+DESCRIPTION:Rúgbi de seleções no Stade de France: a França recebe a Á
+ frica do Sul pelo World Rugby Nations Championship.\nhttps://myticket
+ s.tours/eventos/franca-vs-africa-do-sul-2026-11-13/
+URL:https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/
+GEO:48.9245;2.3602
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:França x África do Sul
+END:VALARM
+END:VEVENT
+END:VCALENDAR

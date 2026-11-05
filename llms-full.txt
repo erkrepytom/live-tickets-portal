@@ -26,7 +26,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 ### England vs Croatia
 
 - Date: Thursday, November 12, 2026, 19:45 local time
-- Venue: Wembley Stadium, London, England
+- Venue: Wembley Stadium, Wembley, London, England
 - Competition: UEFA Nations League
 - Teams: England vs Croatia
 - About: England face Croatia at Wembley in the UEFA Nations League.

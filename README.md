@@ -85,6 +85,13 @@ Pages are fetched with Scrapling's `Fetcher` (browser-like headers and TLS, no b
 
 The email sale alerts ("Tell me when it opens" form) were removed on 2026-10-25, and the scheduled task "Alertas de venda" is paused. In their place each page shows the "WhatsApp support" block (`alertas()` in the generator, `#whatsapp`), still marked "coming soon", where the automated WhatsApp support will go. `mudancas` stays in `data/vendas.json` for a future WhatsApp notice.
 
+## Engagement without third-party accounts
+
+- **Share and save** (`barra_compartilhar()` in the generator): event and guide pages show Pinterest, WhatsApp, Telegram, X, Facebook, copy link and, on phones, the native share sheet. Links carry `utm_source=<network>&utm_campaign=share`; clicks go to GA4 as `share` (`method`). All are plain links, no third-party script.
+- **Add to calendar**: every upcoming event gets `agenda/<slug>-<lang>.ics` (start time from `inicio`, venue address, one-day reminder) and a Google Calendar link. Measured as `add_to_calendar`. Files of past events are deleted on the next build.
+- **Before the event** (`bloco_antes()`): countdown and, in the 16 days before the event, the weather forecast at the venue from [Open-Meteo](https://open-meteo.com/) (no key; attribution link required, CC BY 4.0; free tier is for non-commercial use, so review this if the site starts selling again). Needs `geo` in `LOCAIS`. Measured as `weather_view`.
+- **PWA / offline**: `sw.js` caches pages already visited (network first) and versioned assets; without internet it shows `offline.html`. Served with `Cache-Control: no-cache`. To force every visitor to drop the cache, change `VERSAO` in `sw.js`.
+
 ## Minigames next to "Next match"
 
 The home pages show a minigame in the free space of each "Next match" block (`quadro_jogo()` and `arena_home()` in the generator): penalties next to the next football match, a basketball shot next to the NBA one and a target game in the baseball strip. `assets/arena.js` and `assets/arena.css` (~70 KB) load only when a game frame gets near the screen; the crowd recordings in `assets/audio/` (~330 KB) load only when someone presses Play. On phones the game opens full screen; the end card links to the tickets of the same event.

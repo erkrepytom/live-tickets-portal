@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:inglaterra-vs-croacia-2026-11-12-en@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20261112T194500Z
+DTEND:20261112T214500Z
+SUMMARY:England vs Croatia
+LOCATION:Wembley Stadium\, Wembley\, London\, England
+DESCRIPTION:England face Croatia at Wembley in the UEFA Nations League
+ .\nhttps://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/
+URL:https://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/
+GEO:51.556;-0.2796
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:England vs Croatia
+END:VALARM
+END:VEVENT
+END:VCALENDAR

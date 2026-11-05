@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MyTickets Tours//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:final-australian-open-2027-01-31-pt@mytickets.tours
+DTSTAMP:20261105T000000Z
+DTSTART:20270131T083000Z
+DTEND:20270131T103000Z
+SUMMARY:Final masculina do Australian Open
+LOCATION:Rod Laver Arena\, Olympic Blvd\, Melbourne Park\, Melbourne\,
+  Austrália
+DESCRIPTION:A final masculina do primeiro Grand Slam do ano\, na quadr
+ a central do Melbourne Park.\nhttps://mytickets.tours/eventos/final-a
+ ustralian-open-2027-01-31/
+URL:https://mytickets.tours/eventos/final-australian-open-2027-01-31/
+GEO:-37.8216;144.9785
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Final masculina do Australian Open
+END:VALARM
+END:VEVENT
+END:VCALENDAR
