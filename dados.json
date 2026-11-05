@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-05T16:32:17+00:00",
+ "atualizado": "2026-11-05T22:42:39+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "São Paulo recebe etapa do Circuito Mundial de Rugby Sevens em 2027; ingressos à venda",
-     "u": "https://www.gazetaesportiva.com/mais-esportes/sao-paulo-circuito-mundial-rugby-sevens-2027-ingressos/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Ex-Cruzeiro e América-MG, Paulo Assis será o novo CEO do Botafogo-PB",
-     "u": "https://ge.globo.com/pb/futebol/times/botafogo-pb/noticia/2026/11/05/ex-cruzeiro-e-america-mg-paulo-assis-sera-o-novo-ceo-do-botafogo-pb.ghtml",
+     "t": "Botafogo vence o Atlético-MG e aumenta distância para o Z-4 do Brasileirão",
+     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/04-11-2026/botafogo-atletico-mg.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Santos busca novo terreno em São Paulo para construir CT da base",
-     "u": "https://www.gazetaesportiva.com/times/santos/santos-busca-novo-terreno-em-sao-paulo-para-construir-ct-da-base/",
+     "t": "Corinthians se reapresenta e abre preparação para duelo contra o Botafogo",
+     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-preparacao-botafogo-desfalques-brasileirao/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Everson retorna depois de 63 dias e faz mistério sobre titularidade no Atlético-MG",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/05/everson-retorna-depois-de-63-dias-e-faz-misterio-sobre-titularidade-no-atletico-mg.ghtml",
+     "t": "Sob olhares de ex-Real Madrid, Santos trabalha parte física e dinâmicas de jogo",
+     "u": "https://www.gazetaesportiva.com/times/santos/santos-treino-michel-salgado-lesionados-data-fifa/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Corinthians segura empate com São Paulo mesmo com um a menos, mas segue no Z-4 do Brasileirão",
+     "u": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/04-11-2026/sao-paulo-corinthians.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Jaguars vs. Ravens odds, first touchdown scorer picks, predictions for NFL Week 9 Thursday Night Football",
-     "u": "https://www.cbssports.com/prediction/news/jaguars-vs-ravens-odds-first-touchdown-scorer-picks-predictions-nfl-week-9-thursday-night-football/",
+     "t": "Serie A Power Rankings: Inter are not the favorites anymore; Lazio and AC Milan improving",
+     "u": "https://www.cbssports.com/soccer/news/serie-a-power-rankings-inter-roma-lazio-milan-juventus/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Jaguars vs. Ravens prediction, odds, time: NFL Week 9 'Thursday Night Football' picks from proven model",
-     "u": "https://www.cbssports.com/betting/news/jaguars-ravens-prediction-odds-time-nfl-week-9-thursday-night-football-picks-best-bets/",
+     "t": "Use DraftKings promo code to claim $200 bonus + NBA League Pass for Ravens-Jaguars, Thursday Night Football",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-nba-league-pass-ravens-jaguars-thursday-night-football/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "7 NBA thoughts + college draft prospects to watch with Sam Vecenie",
-     "u": "https://sports.yahoo.com/nba/article/7-nba-thoughts--college-draft-prospects-to-watch-with-sam-vecenie-162412967.html",
+     "t": "Bill Simmons gets 100% real on NBA’s 82-game schedule",
+     "u": "https://sports.yahoo.com/articles/bill-simmons-gets-100-real-222631792.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Wisconsin high school boys soccer state tournament updates",
-     "u": "https://sports.yahoo.com/articles/wisconsin-high-school-boys-soccer-162908610.html",
+     "t": "Should the PGA Tour bring former LIV golfers back? Here's what Rory McIlroy said last month",
+     "u": "https://sports.yahoo.com/articles/pga-tour-bring-former-liv-223032772.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "As contas da Champions: Sporting quase apurado, FC Porto melhora",
-     "u": "https://www.abola.pt/noticias/as-contas-da-champions-sporting-quase-apurado-fc-porto-melhora-2026110401153937498",
+     "t": "Ex-treinador de Benfica e FC Porto é o novo selecionador nacional",
+     "u": "https://www.abola.pt/noticias/ex-treinador-de-benfica-e-fc-porto-e-o-novo-selecionador-nacional-2026110515540393515",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Benfica e Sporting podem defrontar-se nos 'quartos' da 'Champions'",
-     "u": "https://www.abola.pt/noticias/benfica-e-sporting-podem-defrontar-se-nos-quartos-da-champions-2026110412351103797",
+     "t": "Dedic causa o pânico em Inglaterra: é apanhado com arco e flecha e abordado... por seis carros da polícia",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/newcastle/detalhe/dedic-causa-o-panico-em-inglaterra-e-apanhado-com-arco-e-flecha-e-abordado-por-seis-carros-da-policia",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Os casos do Benfica-Lech Poznan",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/20261105-221831-os-casos-do-benfica-lech-poznan",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Benfica confirmou seca com sotaque ribatejano: urge voltar a tirar medidas",
+     "u": "https://www.abola.pt/noticias/benfica-confirmou-seca-com-sotaque-ribatejano-urge-voltar-a-tirar-medidas-2026110521272631931",
      "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Mãos à obra: as imagens do primeiro treino de Paulo Fonseca no Sporting",
-     "u": "https://www.record.pt/multimedia/fotogalerias/detalhe/maos-a-obra-as-imagens-do-primeiro-treino-de-paulo-fonseca-no-sporting",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Joaquim Evangelista enaltece legado de Ronaldo: «Criou um impacto mundial sem comparação»",
-     "u": "https://www.record.pt/futebol/selecoes/detalhe/joaquim-evangelista-enaltece-legado-de-ronaldo-criou-um-impacto-mundial-sem-comparacao",
-     "f": "Record",
      "alta": false
     }
    ]
@@ -119,6 +119,12 @@
      "alta": false
     },
     {
+     "t": "Dureza para el Barça en Champions: cinco rivales en el top-10",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261105/1004247624/dureza-barca-champions-cinco-rivales-top-10.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "Dos policías detienen a un campeón NBA y discuten sobre el \"innombrable\" LeBron : \"Todo fue culpa suya\"",
      "u": "https://www.marca.com/baloncesto/nba/2026/11/04/dos-policias-detienen-campeon-nba-discuten-sobre-innombrable-lebron-culpa-suya-video.html",
      "f": "Marca",
@@ -128,12 +134,6 @@
      "t": "El padre de Bellingham mete siete goles con Inglaterra<br>",
      "u": "https://www.marca.com/futbol/real-madrid/2026/11/04/mark-padre-bellingham-mete-siete-goles-inglaterra-pele-futbol-aficionado.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "LaLiga confirma que la jornada se disputará con homenajes a Jesús de Miguel en todos los estadios",
-     "u": "https://www.mundodeportivo.com/futbol/laliga/20261105/1004247619/comunicado-laliga.html",
-     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -147,21 +147,21 @@
    },
    "noticias": [
     {
-     "t": "Nations Championship: Under-fire England, confusing Ireland, hopeful Scotland",
-     "u": "https://www.skysports.com/rugby-union/news/12040/13608334/nations-championship-steve-borthwicks-under-fire-england-andy-farrells-confusing-ireland-gregor-townsends-hopeful-scotland",
+     "t": "Hamilton: Leclerc more aggressive racing me than he was Verstappen",
+     "u": "https://www.skysports.com/f1/news/12040/13608314/lewis-hamilton-ferrari-driver-says-team-mate-charles-leclerc-races-him-harder-than-other-f1-rivals",
      "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "The long goodbye: England taking their time to leave Rugby League World Cup",
-     "u": "https://www.theguardian.com/sport/no-helmets-required/2026/nov/04/long-goodbye-england-tournament-brian-mcdermott-rugby-league-world-cup",
-     "f": "The Guardian",
      "alta": false
     },
     {
      "t": "What new Kane deal means for England and the Premier League record",
      "u": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Wallabies’ pay dispute with Rugby Australia overshadows Nations Championship finale",
+     "u": "https://www.theguardian.com/sport/blog/2026/nov/06/wallabies-pay-dispute-with-rugby-australia-overshadows-nations-championship-finale",
+     "f": "The Guardian",
      "alta": false
     },
     {
@@ -187,20 +187,20 @@
      "alta": false
     },
     {
-     "t": "Con un grito de Enzo Fernández, Manchester City derrotó 3-2 al RB Leipzig por la Champions League: todos los goles del día",
-     "u": "https://www.infobae.com/deportes/2026/11/04/liverpool-manchester-city-y-como-saldran-a-la-cancha-por-la-fecha-4-de-la-champions-league-la-agenda-de-la-jornada/",
+     "t": "Las explosivas declaraciones de Hamilton contra Leclerc que intensificaron la tensión en Ferrari: “No me van a silenciar”",
+     "u": "https://www.infobae.com/deportes/2026/11/05/las-explosivas-declaraciones-de-hamilton-contra-leclerc-que-intensificaron-la-tension-en-ferrari-no-me-van-a-silenciar/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Franco Colapinto: la Fórmula 1 \"más simple\" que quiere y Alpine ya mira al 2027",
-     "u": "https://www.ole.com.ar/autos/francocolapinto-alpine-formula1-interlagos_0_3xpxy9L5rV.html",
+     "t": "Mastantuono recordó su paso por el Real Madrid, habló de Messi y sorprendió al elegir a su jugador favorito",
+     "u": "https://www.ole.com.ar/futbol-internacional/italia/franco-mastantuono-realmadrid-fiorentina-river-jude-bellingham-lionel-messi-gabriel-batistuta_0_VQKACXH8Dr.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Los técnicos de la Liga Profesional que renunciaron o fueron despedidos en lo que va de 2026",
-     "u": "https://www.ole.com.ar/futbol-primera/tecnicos-ligaprofesional-renunciaron-despedidos-2026-dejaron-cargo_0_bEeoPSg9xn.html",
+     "t": "Vozinha y un deseo para su futuro en Colo Colo: “Vine con la intención de jugar la Libertadores”",
+     "u": "https://www.ole.com.ar/futbol-internacional/america/vozinha-colo-colo-chile-continuidad-copa-libertadores_0_9uvcg3Vc0r.html",
      "f": "Olé",
      "alta": false
     }
@@ -227,26 +227,48 @@
      "alta": false
     }
    ]
+  },
+  {
+   "pais": "FR",
+   "nome": {
+    "pt": "França",
+    "en": "France",
+    "es": "Francia"
+   },
+   "noticias": [
+    {
+     "t": "L'AC Milan tombe face à Ferencvaros, le Crystal Palace de Pierre Sage sauve les apparences face à Hoffenheim et Bournemouth enchaîne",
+     "u": "https://www.lequipe.fr/Football/Actualites/L-ac-milan-tombe-face-a-ferencvaros-le-crystal-palace-de-pierre-sage-sauve-les-apparences-face-a-hoffenheim-et-bournemouth-enchaine/1741451#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    },
+    {
+     "t": "L'équipe de France s'incline face à la Norvège, médaillée de bronze au Mondial, en Coupe d'Europe des Nations",
+     "u": "https://www.lequipe.fr/Hockey-sur-glace/Actualites/L-equipe-de-france-s-incline-face-a-la-norvege-en-coupe-d-europe-des-nations/1741468#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    }
+   ]
   }
  ],
  "destaques": [
   {
-   "t": "São Paulo recebe etapa do Circuito Mundial de Rugby Sevens em 2027; ingressos à venda",
-   "u": "https://www.gazetaesportiva.com/mais-esportes/sao-paulo-circuito-mundial-rugby-sevens-2027-ingressos/",
-   "f": "Gazeta Esportiva",
+   "t": "Botafogo vence o Atlético-MG e aumenta distância para o Z-4 do Brasileirão",
+   "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/04-11-2026/botafogo-atletico-mg.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Jaguars vs. Ravens odds, first touchdown scorer picks, predictions for NFL Week 9 Thursday Night Football",
-   "u": "https://www.cbssports.com/prediction/news/jaguars-vs-ravens-odds-first-touchdown-scorer-picks-predictions-nfl-week-9-thursday-night-football/",
+   "t": "Serie A Power Rankings: Inter are not the favorites anymore; Lazio and AC Milan improving",
+   "u": "https://www.cbssports.com/soccer/news/serie-a-power-rankings-inter-roma-lazio-milan-juventus/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "As contas da Champions: Sporting quase apurado, FC Porto melhora",
-   "u": "https://www.abola.pt/noticias/as-contas-da-champions-sporting-quase-apurado-fc-porto-melhora-2026110401153937498",
+   "t": "Ex-treinador de Benfica e FC Porto é o novo selecionador nacional",
+   "u": "https://www.abola.pt/noticias/ex-treinador-de-benfica-e-fc-porto-e-o-novo-selecionador-nacional-2026110515540393515",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -259,8 +281,8 @@
    "pais": "ES"
   },
   {
-   "t": "Nations Championship: Under-fire England, confusing Ireland, hopeful Scotland",
-   "u": "https://www.skysports.com/rugby-union/news/12040/13608334/nations-championship-steve-borthwicks-under-fire-england-andy-farrells-confusing-ireland-gregor-townsends-hopeful-scotland",
+   "t": "Hamilton: Leclerc more aggressive racing me than he was Verstappen",
+   "u": "https://www.skysports.com/f1/news/12040/13608314/lewis-hamilton-ferrari-driver-says-team-mate-charles-leclerc-races-him-harder-than-other-f1-rivals",
    "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
@@ -278,6 +300,13 @@
    "f": "La Gazzetta dello Sport",
    "alta": false,
    "pais": "IT"
+  },
+  {
+   "t": "L'AC Milan tombe face à Ferencvaros, le Crystal Palace de Pierre Sage sauve les apparences face à Hoffenheim et Bournemouth enchaîne",
+   "u": "https://www.lequipe.fr/Football/Actualites/L-ac-milan-tombe-face-a-ferencvaros-le-crystal-palace-de-pierre-sage-sauve-les-apparences-face-a-hoffenheim-et-bournemouth-enchaine/1741451#at_medium=RSS_feeds",
+   "f": "L'Équipe",
+   "alta": false,
+   "pais": "FR"
   }
  ],
  "jogos": []
