@@ -1,0 +1,111 @@
+{
+ "evento": "ireland-vs-south-africa-2026-11-21",
+ "idioma": "en",
+ "cores": [
+  [
+   "#169b62",
+   "#ffffff",
+   "atleta"
+  ],
+  [
+   "#ffb612",
+   "#007a4d",
+   "atleta"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "NOV 21 · 4:40 PM (DUBLIN)",
+   "titulo": "IRELAND VS SOUTH AFRICA",
+   "nome": "",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "Ireland vs South Africa at Aviva Stadium, Dublin, on November 21."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "rugby",
+   "chip": "NATIONS CHAMPIONSHIP",
+   "titulo": "WHAT'S AT STAKE",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "Ireland host South Africa at the Aviva Stadium in Dublin in the 2026 Nations Championship."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "GETTING THERE",
+   "linha": "Metro",
+   "origem": "City centre",
+   "destino": "Aviva Stadium",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "DART train to Lansdowne Road station, right next to the stadium."
+  },
+  {
+   "tipo": "fila",
+   "chip": "LOCAL TIP",
+   "placa": "Aviva Stadium",
+   "linha": "Metro",
+   "balao": "relax",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "The station gets very busy on match day: arrive with time to spare."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "AVOID SCAMS",
+   "sinais": [
+    [
+     "$",
+     "Bank transfer to a stranger"
+    ],
+    [
+     "%",
+     "Price far too low"
+    ],
+    [
+     "QR",
+     "Just a screenshot"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Avoid scams: no bank transfers to strangers, be wary of prices far too low, and of screenshots."
+  },
+  {
+   "tipo": "final",
+   "esporte": "rugby",
+   "pergunta": "Who wins? Tell us in the comments!",
+   "cta": "Follow us",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "So, who wins? Tell us in the comments, and follow us for more."
+  }
+ ]
+}

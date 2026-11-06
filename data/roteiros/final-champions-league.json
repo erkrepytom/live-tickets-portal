@@ -1,0 +1,116 @@
+{
+ "evento": "final-champions-league-2027-06-05",
+ "idioma": "es",
+ "cores": [
+  [
+   "#00b3a4",
+   "#ffffff",
+   "atleta"
+  ],
+  [
+   "#e0252e",
+   "#ffffff",
+   "atleta"
+  ],
+  [
+   "#2b3bd6",
+   "#ffffff",
+   "atleta"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "5 JUN · 21:00 (MADRID)",
+   "titulo": "FINAL DE LA CHAMPIONS",
+   "nome": "",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "Final de la Champions League 2027, en el Estadio Metropolitano, en Madrid, el 5 de junio."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "football",
+   "chip": "UEFA CHAMPIONS LEAGUE",
+   "titulo": "QUÉ SE JUEGA",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "La final de la Champions League 2027 será en el Estadio Metropolitano de Madrid. Los finalistas aún no están definidos."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "CÓMO LLEGAR",
+   "linha": "Metro",
+   "origem": "Centro",
+   "destino": "Estadio Metropolitano",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "Metro línea 7 hasta la estación Estadio Metropolitano, frente al estadio."
+  },
+  {
+   "tipo": "fila",
+   "chip": "CONSEJO LOCAL",
+   "placa": "Estadio Metropolitano",
+   "linha": "Metro",
+   "balao": "tranqui",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "En una final, llega dos horas antes. Los controles y las colas son largos."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "OJO CON LAS ESTAFAS",
+   "sinais": [
+    [
+     "$",
+     "Transferencia a un particular"
+    ],
+    [
+     "%",
+     "Precio demasiado bajo"
+    ],
+    [
+     "QR",
+     "Solo una captura"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Ojo con las estafas: nada de transferencias a particulares, desconfía de precios demasiado bajos y de las capturas."
+  },
+  {
+   "tipo": "final",
+   "esporte": "football",
+   "pergunta": "¿Quién gana? ¡Comenta!",
+   "cta": "Síguenos",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "¿Quién gana? Cuéntanos en los comentarios y síguenos para más."
+  }
+ ]
+}

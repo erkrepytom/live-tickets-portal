@@ -1,0 +1,116 @@
+{
+ "evento": "gp-abu-dhabi-f1-2026-12-06",
+ "idioma": "en",
+ "cores": [
+  [
+   "#00b3a4",
+   "#ffffff",
+   "piloto"
+  ],
+  [
+   "#e0252e",
+   "#ffffff",
+   "piloto"
+  ],
+  [
+   "#2b3bd6",
+   "#ffffff",
+   "piloto"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "DEC 6 · 2 PM (ABU DHABI)",
+   "titulo": "ABU DHABI GP F1",
+   "nome": "",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "Formula 1 Abu Dhabi Grand Prix at Yas Marina Circuit, Abu Dhabi, on December 6."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "f1",
+   "chip": "FORMULA 1",
+   "titulo": "WHAT'S AT STAKE",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "The final round of the Formula 1 season, a race that starts at dusk and finishes under the Yas Marina floodlights."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "GETTING THERE",
+   "linha": "Metro",
+   "origem": "City centre",
+   "destino": "Yas Marina Circuit",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "The circuit is on Yas Island, about 30 minutes by car from central Abu Dhabi."
+  },
+  {
+   "tipo": "fila",
+   "chip": "LOCAL TIP",
+   "placa": "Yas Marina Circuit",
+   "linha": "Metro",
+   "balao": "relax",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "Organizers usually run shuttle buses on race weekend. Check the official GP site."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "AVOID SCAMS",
+   "sinais": [
+    [
+     "$",
+     "Bank transfer to a stranger"
+    ],
+    [
+     "%",
+     "Price far too low"
+    ],
+    [
+     "QR",
+     "Just a screenshot"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Avoid scams: no bank transfers to strangers, be wary of prices far too low, and of screenshots."
+  },
+  {
+   "tipo": "final",
+   "esporte": "f1",
+   "pergunta": "Who wins? Tell us in the comments!",
+   "cta": "Follow us",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "So, who wins? Tell us in the comments, and follow us for more."
+  }
+ ]
+}

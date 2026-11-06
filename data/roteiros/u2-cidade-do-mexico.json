@@ -1,0 +1,106 @@
+{
+ "evento": "u2-cidade-do-mexico-2027-02-23",
+ "idioma": "es",
+ "cores": [
+  [
+   "#7b2cbf",
+   "#ffc400",
+   "artista"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "23 FEB · 21:00 (CIUDAD DE MÉXICO)",
+   "titulo": "U2 · CDMX",
+   "nome": "U2",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "U2 en la Ciudad de México, en el Estadio GNP Seguros, en Ciudad de México, el 23 de febrero."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "concert",
+   "chip": "EL CONCIERTO",
+   "titulo": "EL CONCIERTO",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "U2 abre su temporada en la CDMX de la gira The Greatest Show On Earth en el Estadio GNP Seguros. Hay más fechas el 26 y 28 de febrero y el 2 de marzo."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "CÓMO LLEGAR",
+   "linha": "Metro",
+   "origem": "Centro",
+   "destino": "Estadio GNP Seguros",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "Metro Línea 9 hasta la estación Ciudad Deportiva, junto al estadio."
+  },
+  {
+   "tipo": "fila",
+   "chip": "CONSEJO LOCAL",
+   "placa": "Estadio GNP Seguros",
+   "linha": "Metro",
+   "balao": "tranqui",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "A la salida el metro se llena: ten un plan B para volver."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "OJO CON LAS ESTAFAS",
+   "sinais": [
+    [
+     "$",
+     "Transferencia a un particular"
+    ],
+    [
+     "%",
+     "Precio demasiado bajo"
+    ],
+    [
+     "QR",
+     "Solo una captura"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Ojo con las estafas: nada de transferencias a particulares, desconfía de precios demasiado bajos y de las capturas."
+  },
+  {
+   "tipo": "final",
+   "esporte": "concert",
+   "pergunta": "¿Qué canción no puede faltar?",
+   "cta": "Síguenos",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "¿Qué canción no puede faltar? Cuéntanos en los comentarios y síguenos para más."
+  }
+ ]
+}

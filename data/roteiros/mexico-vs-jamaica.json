@@ -1,0 +1,111 @@
+{
+ "evento": "mexico-vs-jamaica-2026-11-17",
+ "idioma": "es",
+ "cores": [
+  [
+   "#006847",
+   "#ffffff",
+   "atleta"
+  ],
+  [
+   "#fed100",
+   "#009b3a",
+   "atleta"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "17 NOV · 20:30 (MONTERREY)",
+   "titulo": "MÉXICO VS JAMAICA",
+   "nome": "",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "México vs Jamaica, en el Estadio BBVA, en Monterrey, el 17 de noviembre."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "football",
+   "chip": "CONCACAF NATIONS LEAGUE",
+   "titulo": "QUÉ SE JUEGA",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "El Tri recibe a Jamaica en el Estadio BBVA, en Guadalupe, zona metropolitana de Monterrey, por la CONCACAF Nations League."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "CÓMO LLEGAR",
+   "linha": "Metro",
+   "origem": "Centro",
+   "destino": "Estadio BBVA",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "El estadio está en Guadalupe, en la zona metropolitana de Monterrey. Taxi o aplicación es lo más sencillo."
+  },
+  {
+   "tipo": "fila",
+   "chip": "CONSEJO LOCAL",
+   "placa": "Estadio BBVA",
+   "linha": "Metro",
+   "balao": "tranqui",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "A la salida hay mucha demanda de autos: acuerda antes el punto de encuentro."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "OJO CON LAS ESTAFAS",
+   "sinais": [
+    [
+     "$",
+     "Transferencia a un particular"
+    ],
+    [
+     "%",
+     "Precio demasiado bajo"
+    ],
+    [
+     "QR",
+     "Solo una captura"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Ojo con las estafas: nada de transferencias a particulares, desconfía de precios demasiado bajos y de las capturas."
+  },
+  {
+   "tipo": "final",
+   "esporte": "football",
+   "pergunta": "¿Quién gana? ¡Comenta!",
+   "cta": "Síguenos",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "¿Quién gana? Cuéntanos en los comentarios y síguenos para más."
+  }
+ ]
+}

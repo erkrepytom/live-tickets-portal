@@ -1,0 +1,106 @@
+{
+ "evento": "u2-sao-paulo-2027-03-10",
+ "idioma": "pt",
+ "cores": [
+  [
+   "#7b2cbf",
+   "#ffc400",
+   "artista"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "10 MAR · 21H00 (SÃO PAULO)",
+   "titulo": "U2 · SÃO PAULO",
+   "nome": "U2",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "U2 em São Paulo, no MorumBis, em São Paulo, dia 10 de março."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "concert",
+   "chip": "O SHOW",
+   "titulo": "O SHOW",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "U2 volta ao Brasil com a turnê The Greatest Show On Earth no MorumBis. Há uma segunda data em 12 de março."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "COMO CHEGAR",
+   "linha": "Metrô",
+   "origem": "Centro",
+   "destino": "MorumBis",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "A estação São Paulo–Morumbi, da Linha 4-Amarela do metrô, é a mais próxima; de lá ainda há uma caminhada até o estádio."
+  },
+  {
+   "tipo": "fila",
+   "chip": "DICA DO LOCAL",
+   "placa": "MorumBis",
+   "linha": "Metrô",
+   "balao": "de boa",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "Na saída o metrô e os aplicativos lotam: planeje a volta antes."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "CUIDADO COM GOLPE",
+   "sinais": [
+    [
+     "R$",
+     "Pix para pessoa física"
+    ],
+    [
+     "%",
+     "Preço baixo demais"
+    ],
+    [
+     "QR",
+     "Só um print"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Cuidado com golpe: nada de Pix para pessoa física, desconfie de preço baixo demais e de print."
+  },
+  {
+   "tipo": "final",
+   "esporte": "concert",
+   "pergunta": "Qual música não pode faltar?",
+   "cta": "Siga a gente",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "Qual música não pode faltar? Comenta aí e segue a gente pra mais."
+  }
+ ]
+}
