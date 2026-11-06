@@ -35,6 +35,12 @@ def titulo_evento(lang, titulo, ano, local, limite=65):
     return next((x for x in opcoes if len(x) <= limite), opcoes[-1])
 
 
+def desc_evento(lang, titulo, data, hora, loc, limite=155):
+    """Escolhe a descrição mais completa que cabe antes de o Google cortar o trecho (~155-160 caracteres)."""
+    opcoes = [x.format(t=titulo, d=data, h=hora, loc=loc) for x in ROT[lang]["descs"]]
+    return next((x for x in opcoes if len(x) <= limite), opcoes[-1])
+
+
 def local_curto(local):
     """'San Siro (Giuseppe Meazza)' -> 'San Siro' para caber no título."""
     return local.split(" (")[0]
@@ -283,19 +289,29 @@ ROT = {
         # Palavra de busca primeiro ("Ingressos ..."), como SeatPick, Ticombo e P1 Travel (aprovado em 24/10/2026).
         "titulos": ["Ingressos {t}{ano}: guia {art} {loc}", "Ingressos {t}{ano} | {loc}",
                     "Ingressos {t}{ano}", "Ingressos {t}"],
-        "desc": "Ingressos (bilhetes) para {t}: {d} às {h}, {loc}. Como chegar, melhor setor para família ou torcida e o que levar.",
+        # Da mais completa para a mais curta; desc_evento() usa a primeira que cabe em ~155 caracteres.
+        "descs": ["Ingressos (bilhetes) para {t}: {d} às {h}, {loc}. Como chegar, melhor setor para família ou torcida e o que levar.",
+                  "Ingressos para {t}: {d} às {h}, {loc}. Como chegar, melhor setor e o que levar.",
+                  "Ingressos para {t}: {d}, {loc}. Como chegar, melhor setor e o que levar.",
+                  "Ingressos para {t}: {d}. Como chegar, melhor setor e o que levar."],
         "f_time": "Horário", "como_h": "Como funciona", "guia_h": "Comprar ingressos na Europa sem risco"},
  "en": {"entrada_h": "What to bring and what gets refused", "publico_h": "Best section for each fan", "faq_h": "Frequently asked questions",
         "conferido": "Date and time checked on {conf}.", "hora_local": "{h} (local time)",
         "titulos": ["{t}{ano} tickets: {loc} guide", "{t}{ano} tickets | {loc}",
                     "{t}{ano} tickets", "{t} tickets"],
-        "desc": "Tickets for {t}: {d}, {h}, {loc}. Getting there, best sections for families or loud support, and what to bring.",
+        "descs": ["Tickets for {t}: {d}, {h}, {loc}. Getting there, best sections for families or loud support, and what to bring.",
+                  "Tickets for {t}: {d}, {h}, {loc}. Getting there, best sections and what to bring.",
+                  "Tickets for {t}: {d}, {loc}. Getting there, best sections and what to bring.",
+                  "Tickets for {t}: {d}. Getting there, best sections and what to bring."],
         "f_time": "Start", "como_h": "How it works", "guia_h": "Buying tickets in Europe safely"},
  "es": {"entrada_h": "Qué llevar y qué no se permite", "publico_h": "Mejor sector para cada perfil", "faq_h": "Preguntas frecuentes",
         "conferido": "Fecha y hora revisadas el {conf}.", "hora_local": "{h} (hora local)",
         "titulos": ["Entradas {t}{ano}: guía {art} {loc}", "Entradas {t}{ano} | {loc}",
                     "Entradas {t}{ano}", "Entradas {t}"],
-        "desc": "Entradas para {t}: {d} a las {h}, {loc}. Cómo llegar, mejor sector para familias o animación y qué llevar.",
+        "descs": ["Entradas para {t}: {d} a las {h}, {loc}. Cómo llegar, mejor sector para familias o animación y qué llevar.",
+                  "Entradas para {t}: {d} a las {h}, {loc}. Cómo llegar, mejor sector y qué llevar.",
+                  "Entradas para {t}: {d}, {loc}. Cómo llegar, mejor sector y qué llevar.",
+                  "Entradas para {t}: {d}. Cómo llegar, mejor sector y qué llevar."],
         "f_time": "Hora", "como_h": "Cómo funciona", "guia_h": "Comprar entradas en Europa sin riesgo"},
 }
 
@@ -347,7 +363,7 @@ COMO_FUNCIONA = {
 
 # ---------- Guia-referência (linkable asset) ----------
 GUIA = {
- "pt": {"path": "guias/comprar-ingressos-europa-sem-risco/", "title": "Como comprar ingressos para jogos na Europa sem cair em golpe (guia 2026)",
+ "pt": {"path": "guias/comprar-ingressos-europa-sem-risco/", "title": "Ingressos para jogos na Europa sem cair em golpe (guia 2026)",
   "desc": "Guia prático para brasileiros: onde comprar, sinais de golpe, ingresso nominal, câmbio e taxas, datas que mudam por causa da TV, entrega e o que fazer no dia.",
   "h1": "Comprar ingressos na Europa sem risco", "lead": "Um guia prático para quem sai do Brasil para ver futebol, rúgbi, Fórmula 1 ou um show na Europa. Pode citar e linkar à vontade.",
   "secoes": [
@@ -378,7 +394,7 @@ GUIA = {
   ],
   "cite_h": "Use este guia no seu site", "cite_p": "Blogs de viagem e de futebol podem linkar este guia livremente. Copie o código abaixo:",
   "eventos_h": "Guias de eventos com essas dicas aplicadas"},
- "en": {"path": "en/guides/buy-tickets-europe-safely/", "title": "How to buy tickets for games in Europe without getting scammed (2026 guide)",
+ "en": {"path": "en/guides/buy-tickets-europe-safely/", "title": "Buying football tickets in Europe without scams (2026 guide)",
   "desc": "A practical guide for international fans: where to buy, scam warning signs, named tickets, currency and fees, dates that move for TV, delivery and match day.",
   "h1": "Buying tickets in Europe safely", "lead": "A practical guide for fans travelling to see football, rugby, Formula 1 or a concert in Europe. Feel free to cite and link it.",
   "secoes": [
@@ -408,8 +424,8 @@ GUIA = {
   ],
   "cite_h": "Use this guide on your site", "cite_p": "Travel and football blogs are welcome to link to this guide. Copy the code below:",
   "eventos_h": "Event guides with these tips applied"},
- "es": {"path": "es/guias/comprar-entradas-europa-sin-riesgo/", "title": "Cómo comprar entradas para partidos en Europa sin caer en estafas (guía 2026)",
-  "desc": "Guía práctica para aficionados de viaje: dónde comprar, señales de estafa, entradas nominales, cambio y comisiones, fechas que cambian por la TV, entrega y el día del partido.",
+ "es": {"path": "es/guias/comprar-entradas-europa-sin-riesgo/", "title": "Entradas para partidos en Europa sin estafas (guía 2026)",
+  "desc": "Guía práctica para aficionados de viaje: dónde comprar, señales de estafa, entradas nominales, comisiones, fechas que cambia la TV y el día del partido.",
   "h1": "Comprar entradas en Europa sin riesgo", "lead": "Una guía práctica para quien viaja a ver fútbol, rugby, Fórmula 1 o un concierto en Europa. Puedes citarla y enlazarla libremente.",
   "secoes": [
    ("1. Dónde comprar", ["La taquilla oficial del club: precio nominal, pero la venta general suele ir primero a socios y se agota rápido en clásicos y finales.",
@@ -583,7 +599,7 @@ GUIA_BARCA_FONTES = [
 ]
 GUIA_BARCA = {
  "pt": {"path": "guias/ingresso-barcelona-camp-nou/", "title": "Ingresso do Barcelona no Camp Nou: como comprar com segurança",
-  "desc": "Venda oficial, quando os ingressos saem, ingresso nominal, cartão brasileiro recusado, regra da UEFA na Champions e revenda com garantia. Guia para quem sai do Brasil.",
+  "desc": "Venda oficial, quando os ingressos saem, ingresso nominal, cartão brasileiro recusado, regra da UEFA e revenda com garantia. Guia para quem sai do Brasil.",
   "h1": "Ingresso do Barça: como comprar com segurança", "lead": "Tudo o que um torcedor que sai do Brasil precisa saber para ver o Barcelona no Camp Nou, do canal oficial à revenda com garantia.",
   "secoes": [
    ("1. Comece pelo canal oficial", ["O Barça vende pelo site oficial (fcbarcelona.com), nas bilheterias do Camp Nou e nas lojas oficiais do clube em Barcelona. É o preço de face e o caminho mais seguro.",
@@ -606,7 +622,7 @@ GUIA_BARCA = {
   ],
   "eventos_h": "Próximos jogos do Barça", "fontes_h": "Fontes", "guia_geral": "Guia completo: comprar ingressos na Europa sem risco"},
  "en": {"path": "en/guides/barcelona-tickets-camp-nou/", "title": "FC Barcelona tickets at Camp Nou: how to buy safely as a tourist",
-  "desc": "Official sale, when tickets are released, named tickets and ID, card problems, UEFA's Champions League rule and resale with a guarantee. A guide for visiting fans.",
+  "desc": "Official sale, release dates, named tickets and ID, card problems, UEFA's Champions League rule and resale with a guarantee. A guide for visiting fans.",
   "h1": "Barcelona tickets: how to buy safely as a tourist", "lead": "What a visiting fan needs to know to see Barça at Camp Nou, from the official sale to resale with a guarantee.",
   "secoes": [
    ("1. Start with the official sale", ["Barça sells through its official site (fcbarcelona.com), the Camp Nou ticket offices and the club's official stores in Barcelona. That is face value and the safest route.",
@@ -629,7 +645,7 @@ GUIA_BARCA = {
   ],
   "eventos_h": "Upcoming Barça games", "fontes_h": "Sources", "guia_geral": "Full guide: buying tickets in Europe safely"},
  "es": {"path": "es/guias/entradas-barcelona-camp-nou/", "title": "Entradas del Barça en el Camp Nou: cómo comprar con seguridad",
-  "desc": "Venta oficial, cuándo salen las entradas, entradas nominales, tarjetas rechazadas, la norma de la UEFA en Champions y reventa con garantía. Guía para quien viaja.",
+  "desc": "Venta oficial, cuándo salen las entradas, entradas nominales, tarjetas rechazadas, la norma de la UEFA y reventa con garantía. Guía para quien viaja.",
   "h1": "Entradas del Barça: cómo comprar con seguridad", "lead": "Lo que necesita saber un aficionado que viaja para ver al Barça en el Camp Nou, desde la venta oficial hasta la reventa con garantía.",
   "secoes": [
    ("1. Empieza por la venta oficial", ["El Barça vende en su web oficial (fcbarcelona.com), en las taquillas del Camp Nou y en las tiendas oficiales del club en Barcelona. Es el precio nominal y la vía más segura.",
