@@ -1,0 +1,111 @@
+{
+ "evento": "nba-manchester-pelicans-vs-spurs-2027-01-17",
+ "idioma": "en",
+ "cores": [
+  [
+   "#0c2340",
+   "#c8102e",
+   "atleta"
+  ],
+  [
+   "#c4ced4",
+   "#111111",
+   "atleta"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "JAN 17 · 3:30 PM (MANCHESTER)",
+   "titulo": "PELICANS VS SPURS",
+   "nome": "",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "NBA Manchester Game: Pelicans vs Spurs at Co-op Live, Manchester, on January 17."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "nba",
+   "chip": "NBA",
+   "titulo": "WHAT'S AT STAKE",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "A regular-season NBA game in Europe: New Orleans Pelicans vs San Antonio Spurs at Co-op Live in Manchester."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "GETTING THERE",
+   "linha": "Metro",
+   "origem": "City centre",
+   "destino": "Co-op Live",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "Metrolink tram to the Etihad Campus stop, next to the arena."
+  },
+  {
+   "tipo": "fila",
+   "chip": "LOCAL TIP",
+   "placa": "Co-op Live",
+   "linha": "Metro",
+   "balao": "relax",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "The arena is on the same campus as Manchester City's stadium."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "AVOID SCAMS",
+   "sinais": [
+    [
+     "$",
+     "Bank transfer to a stranger"
+    ],
+    [
+     "%",
+     "Price far too low"
+    ],
+    [
+     "QR",
+     "Just a screenshot"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Avoid scams: no bank transfers to strangers, be wary of prices far too low, and of screenshots."
+  },
+  {
+   "tipo": "final",
+   "esporte": "nba",
+   "pergunta": "Who wins? Tell us in the comments!",
+   "cta": "Follow us",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "So, who wins? Tell us in the comments, and follow us for more."
+  }
+ ]
+}

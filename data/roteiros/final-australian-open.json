@@ -1,0 +1,116 @@
+{
+ "evento": "final-australian-open-2027-01-31",
+ "idioma": "en",
+ "cores": [
+  [
+   "#00b3a4",
+   "#ffffff",
+   "atleta"
+  ],
+  [
+   "#e0252e",
+   "#ffffff",
+   "atleta"
+  ],
+  [
+   "#2b3bd6",
+   "#ffffff",
+   "atleta"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "JAN 31 · 7:30 PM (MELBOURNE)",
+   "titulo": "AUSTRALIAN OPEN FINAL",
+   "nome": "",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "Australian Open Men's Final at Rod Laver Arena, Melbourne, on January 31."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "tennis",
+   "chip": "AUSTRALIAN OPEN (GRAND SLAM)",
+   "titulo": "WHAT'S AT STAKE",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "The men's final of the year's first Grand Slam, on the main court at Melbourne Park."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "GETTING THERE",
+   "linha": "Metro",
+   "origem": "City centre",
+   "destino": "Rod Laver Arena",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "Rod Laver Arena is in Melbourne Park, about a 15-minute walk from Flinders Street station."
+  },
+  {
+   "tipo": "fila",
+   "chip": "LOCAL TIP",
+   "placa": "Rod Laver Arena",
+   "linha": "Metro",
+   "balao": "relax",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "Extra trams run to Melbourne Park during the tournament. Check times on the Australian Open site."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "AVOID SCAMS",
+   "sinais": [
+    [
+     "$",
+     "Bank transfer to a stranger"
+    ],
+    [
+     "%",
+     "Price far too low"
+    ],
+    [
+     "QR",
+     "Just a screenshot"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Avoid scams: no bank transfers to strangers, be wary of prices far too low, and of screenshots."
+  },
+  {
+   "tipo": "final",
+   "esporte": "tennis",
+   "pergunta": "Who wins? Tell us in the comments!",
+   "cta": "Follow us",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "So, who wins? Tell us in the comments, and follow us for more."
+  }
+ ]
+}

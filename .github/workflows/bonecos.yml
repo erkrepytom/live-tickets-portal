@@ -1,0 +1,76 @@
+name: Vídeos com bonecos
+# Gera (e refaz quando os dados mudam) o vídeo cinematográfico de cada evento futuro com
+# scripts/cinema_bonecos.py, apaga os de eventos que saíram da agenda e publica o site.
+on:
+  schedule:
+    - cron: "23 5 * * *"   # todo dia, fora do minuto 0
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["data/eventos.json", "data/roteiros/**", "scripts/cinema_bonecos.py", "scripts/bonecos.py"]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  bonecos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependências (desenho, voz e ambiência)
+        run: |
+          pip install --quiet pillow numpy scipy piper-tts
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core fonts-dejavu-extra > /dev/null
+      - name: Vozes Piper (EN, ES, PT-BR)
+        run: |
+          sudo mkdir -p /opt/piper-dl && sudo chown "$USER" /opt/piper-dl
+          for m in en_US-lessac-medium es_ES-sharvard-medium pt_BR-faber-medium; do
+            curl -sSfL "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-$m.tar.bz2" | tar xj -C /opt/piper-dl
+          done
+      - name: Gerar os vídeos que faltam ou mudaram
+        run: python scripts/cinema_bonecos.py
+      - name: Regerar o site
+        run: python scripts/gerar_paginas.py
+      - name: Publicar se houver mudança
+        id: pub
+        run: |
+          git config user.name "bonecos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "mudou=nao" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Atualiza vídeos com bonecos"
+            git push
+            echo "mudou=sim" >> "$GITHUB_OUTPUT"
+          fi
+      # O push com o token do Actions não dispara o pages.yml, então o deploy é feito aqui.
+      - name: Publicar em mytickets.tours (Azure Static Web Apps)
+        if: steps.pub.outputs.mudou == 'sim'
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: "."
+          skip_app_build: true
+          skip_api_build: true
+      - uses: actions/configure-pages@v5
+        if: steps.pub.outputs.mudou == 'sim'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.pub.outputs.mudou == 'sim'
+        with:
+          path: .
+      - name: Deploy
+        id: deployment
+        if: steps.pub.outputs.mudou == 'sim'
+        uses: actions/deploy-pages@v4

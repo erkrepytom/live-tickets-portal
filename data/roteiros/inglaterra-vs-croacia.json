@@ -1,0 +1,111 @@
+{
+ "evento": "inglaterra-vs-croacia-2026-11-12",
+ "idioma": "en",
+ "cores": [
+  [
+   "#f4f4f4",
+   "#cf081f",
+   "atleta"
+  ],
+  [
+   "#e2231a",
+   "#ffffff",
+   "atleta"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "NOV 12 · 7:45 PM (LONDON)",
+   "titulo": "ENGLAND VS CROATIA",
+   "nome": "",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "England vs Croatia at Wembley Stadium, London, on November 12."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "football",
+   "chip": "UEFA NATIONS LEAGUE",
+   "titulo": "WHAT'S AT STAKE",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "England face Croatia at Wembley in the UEFA Nations League."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "GETTING THERE",
+   "linha": "Metro",
+   "origem": "City centre",
+   "destino": "Wembley Stadium",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "Underground to Wembley Park (Jubilee or Metropolitan line), then walk up Olympic Way."
+  },
+  {
+   "tipo": "fila",
+   "chip": "LOCAL TIP",
+   "placa": "Wembley Stadium",
+   "linha": "Metro",
+   "balao": "relax",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "Chiltern Railways from Marylebone to Wembley Stadium station, next to the ground."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "AVOID SCAMS",
+   "sinais": [
+    [
+     "$",
+     "Bank transfer to a stranger"
+    ],
+    [
+     "%",
+     "Price far too low"
+    ],
+    [
+     "QR",
+     "Just a screenshot"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Avoid scams: no bank transfers to strangers, be wary of prices far too low, and of screenshots."
+  },
+  {
+   "tipo": "final",
+   "esporte": "football",
+   "pergunta": "Who wins? Tell us in the comments!",
+   "cta": "Follow us",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "So, who wins? Tell us in the comments, and follow us for more."
+  }
+ ]
+}

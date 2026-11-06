@@ -610,11 +610,36 @@ def videos_locais(eventos):
     return _LOCAIS
 
 
+BONECOS_T = {"pt": "{t} explicado em menos de 1 minuto", "en": "{t} explained in under a minute",
+             "es": "{t} explicado en menos de un minuto"}
+
+
+def video_bonecos(ev, lang):
+    """Vídeo cinematográfico com bonecos (scripts/cinema_bonecos.py): um por evento, no idioma do público principal
+    (data/roteiros/<chave>.json), mostrado nas páginas PT/EN/ES. No máximo um por página, leve (720x1280, ~2 MB) e
+    baixado só quando entra na tela. Sem botão de compra."""
+    chave = C.chave_evento(ev["slug"])
+    if not (RAIZ / "assets" / "videos" / "bonecos" / f"{chave}.mp4").exists():
+        return None
+    try:
+        idioma = json.loads((RAIZ / "data" / "roteiros" / f"{chave}.json").read_text(encoding="utf-8"))["idioma"]
+    except (OSError, ValueError, KeyError):
+        idioma = "en"
+    return {"mp4": f"assets/videos/bonecos/{chave}.mp4", "idioma": idioma, "evento": ev["slug"], "vertical": True,
+            "publicado": ev.get("conferido", ev["data"]), "cta": {"tipo": "nenhum"}, "ativo": True,
+            "titulo": {lang: BONECOS_T[lang].format(t=L(ev["titulo"], lang))},
+            "poster": f"bonecos/{chave}.webp" if (RAIZ / "assets" / "img" / "bonecos" / f"{chave}.webp").exists() else ev["img"]}
+
+
 def videos_do_evento(ev, lang):
-    """Vídeos ligados ao evento: YouTube primeiro (no idioma da página, depois os outros), depois os shorts locais
-    cujo idioma ainda não tem versão no YouTube."""
-    yt = [v for v in videos_todos() if v.get("evento") == ev["slug"]]
-    return sorted(yt, key=lambda v: (v.get("idioma") != lang, ))
+    """Vídeos ligados ao evento: YouTube no idioma da página, depois o vídeo de bonecos do mesmo idioma,
+    depois os vídeos do YouTube em outros idiomas."""
+    yt = sorted([v for v in videos_todos() if v.get("evento") == ev["slug"]], key=lambda v: (v.get("idioma") != lang, ))
+    bon = video_bonecos(ev, lang)
+    if not bon:
+        return yt
+    n = sum(1 for v in yt if v.get("idioma") == lang)
+    return yt[:n] + [bon] + yt[n:]
 
 
 _EVENTOS = []
@@ -1963,12 +1988,12 @@ def evento(lang, ev, eventos, hubs):
                   f'<div class="platforms"><span>SHORTS</span><span>REELS</span><span>TIKTOK</span></div></div>')
     bloco_video = ""
     if vids:  # player do YouTube em largura total, como num post do Blogger, logo abaixo da introdução
-        bloco_video = (f'<figure class="vpost">{facade_video(vids[0], lang, pagina)}<figcaption><strong>{e(titulo_video(vids[0], lang))}</strong>{credito_video(vids[0])}'
+        bloco_video = (f'<figure class="vpost{" vpost-v" if vids[0].get("vertical") else ""}">{facade_video(vids[0], lang, pagina, vids[0].get("vertical", False))}<figcaption><strong>{e(titulo_video(vids[0], lang))}</strong>{credito_video(vids[0])}'
                        f'<div class="vcard-actions">{cta_video(vids[0], lang, pagina, eventos)}</div></figcaption></figure>')
     mais_videos = ""
     if len(vids) > 1:
         mais_videos = (f'<div class="vmore"><h2>{e(vx["ev_h"])}</h2><div class="vgrid vgrid-swipe">'
-                       + "".join(cartao_video(v, lang, pagina, eventos) for v in vids[1:4]) + f'</div><p class="disclose"><a href="{rel(pagina, vx["path"])}">{e(vx["todos"])} →</a></p></div>')
+                       + "".join(cartao_video(v, lang, pagina, eventos, v.get("vertical", False)) for v in vids[1:4]) + f'</div><p class="disclose"><a href="{rel(pagina, vx["path"])}">{e(vx["todos"])} →</a></p></div>')
     rt = C.ROT[lang]
     hora_txt = ev.get("hora") or "--:--"
     titulo_pg = C.titulo_evento(lang, titulo, ev["data"][:4], ev["local"])

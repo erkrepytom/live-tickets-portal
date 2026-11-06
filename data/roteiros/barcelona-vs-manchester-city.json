@@ -1,0 +1,111 @@
+{
+ "evento": "barcelona-vs-manchester-city-2026-12-08",
+ "idioma": "es",
+ "cores": [
+  [
+   "#a50044",
+   "#004d98",
+   "atleta"
+  ],
+  [
+   "#6cabdd",
+   "#1c2c5b",
+   "atleta"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "8 DIC · 21:00 (BARCELONA)",
+   "titulo": "BARCELONA VS MAN. CITY",
+   "nome": "",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "FC Barcelona vs Manchester City, en el Camp Nou, en Barcelona, el 8 de diciembre."
+  },
+  {
+   "tipo": "estadio",
+   "esporte": "football",
+   "chip": "UEFA CHAMPIONS LEAGUE",
+   "titulo": "QUÉ SE JUEGA",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "fala": "Noche de Champions League en el Camp Nou: el Barcelona recibe al Manchester City."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "CÓMO LLEGAR",
+   "linha": "L3",
+   "origem": "Centro",
+   "destino": "Camp Nou",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "Metro L3, estaciones Les Corts y Palau Reial, o L5, estaciones Collblanc y Badal."
+  },
+  {
+   "tipo": "fila",
+   "chip": "CONSEJO LOCAL",
+   "placa": "Camp Nou",
+   "linha": "L3",
+   "balao": "tranqui",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "La Champions se juega entre semana por la noche. Reserva el hotel cerca de una línea de metro."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "OJO CON LAS ESTAFAS",
+   "sinais": [
+    [
+     "$",
+     "Transferencia a un particular"
+    ],
+    [
+     "%",
+     "Precio demasiado bajo"
+    ],
+    [
+     "QR",
+     "Solo una captura"
+    ]
+   ],
+   "passo": 1.6,
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "fala": "Ojo con las estafas: nada de transferencias a particulares, desconfía de precios demasiado bajos y de las capturas."
+  },
+  {
+   "tipo": "final",
+   "esporte": "football",
+   "pergunta": "¿Quién gana? ¡Comenta!",
+   "cta": "Síguenos",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "¿Quién gana? Cuéntanos en los comentarios y síguenos para más."
+  }
+ ]
+}

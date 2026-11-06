@@ -1,0 +1,119 @@
+{
+ "manual": true,
+ "evento": "italia-vs-franca-2026-11-12",
+ "idioma": "en",
+ "publico": "International match in Milan with fans from both countries and visitors: English reaches the widest audience.",
+ "cores": [
+  [
+   "#0066cc",
+   "#ffffff"
+  ],
+  [
+   "#f4f4f4",
+   "#1f3f9e"
+  ]
+ ],
+ "cenas": [
+  {
+   "tipo": "cidade",
+   "chip": "NOV 12 · 8:45 PM · MILAN",
+   "titulo": "ITALY vs FRANCE",
+   "camera": [
+    1.12,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "Italy against France, at San Siro in Milan. Thursday, November twelfth, at eight forty-five PM.",
+   "catedral": true
+  },
+  {
+   "tipo": "estadio",
+   "chip": "NATIONS LEAGUE",
+   "titulo": "Champions vs champions",
+   "camera": [
+    1.0,
+    1.12,
+    0,
+    -80
+   ],
+   "numeros": [
+    [
+     "4",
+     "World Cups Italy"
+    ],
+    [
+     "2",
+     "World Cups France"
+    ]
+   ],
+   "fala": "Two world champion nations: Italy has won four World Cups, France has won two."
+  },
+  {
+   "tipo": "mapa",
+   "chip": "GETTING THERE",
+   "linha": "M5",
+   "origem": "Garibaldi",
+   "destino": "San Siro Stadio",
+   "camera": [
+    1.0,
+    1.1,
+    -60,
+    40
+   ],
+   "fala": "Getting there: take the purple metro line, M5, to San Siro Stadio, right next to the stadium."
+  },
+  {
+   "tipo": "fila",
+   "chip": "LOCAL TIP",
+   "placa": "San Siro Stadio",
+   "linha": "M5",
+   "balao": "relax",
+   "camera": [
+    1.08,
+    1.0,
+    0,
+    0
+   ],
+   "fala": "After the final whistle the metro gets packed. Waiting about twenty minutes pays off."
+  },
+  {
+   "tipo": "golpe",
+   "chip": "AVOID SCAMS",
+   "camera": [
+    1.0,
+    1.06,
+    0,
+    0
+   ],
+   "passo": 1.6,
+   "sinais": [
+    [
+     "$",
+     "Bank transfer to a stranger"
+    ],
+    [
+     "%",
+     "Price far too low"
+    ],
+    [
+     "QR",
+     "Just a screenshot"
+    ]
+   ],
+   "fala": "Avoid scams: no bank transfers to strangers, be wary of prices far too low, and of screenshots."
+  },
+  {
+   "tipo": "final",
+   "pergunta": "Who wins? Tell us in the comments!",
+   "cta": "Follow us",
+   "camera": [
+    1.0,
+    1.05,
+    0,
+    0
+   ],
+   "fala": "So, who wins? Tell us in the comments, and follow us for more."
+  }
+ ]
+}
