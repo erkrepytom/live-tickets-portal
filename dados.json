@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-05T22:42:39+00:00",
+ "atualizado": "2026-11-06T03:29:25+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Botafogo vence o Atlético-MG e aumenta distância para o Z-4 do Brasileirão",
-     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/04-11-2026/botafogo-atletico-mg.ghtml",
+     "t": "Franca vence Cruzeiro e interrompe sequência negativa no NBB",
+     "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-vence-cruzeiro-e-interrompe-sequencia-negativa-no-nbb.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Corinthians se reapresenta e abre preparação para duelo contra o Botafogo",
-     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-preparacao-botafogo-desfalques-brasileirao/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Sob olhares de ex-Real Madrid, Santos trabalha parte física e dinâmicas de jogo",
-     "u": "https://www.gazetaesportiva.com/times/santos/santos-treino-michel-salgado-lesionados-data-fifa/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Corinthians segura empate com São Paulo mesmo com um a menos, mas segue no Z-4 do Brasileirão",
-     "u": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/04-11-2026/sao-paulo-corinthians.ghtml",
+     "t": "Com golaço de Kaio Jorge, Cruzeiro vira sobre o Bahia e fica perto de confirmar vaga na Libertadores",
+     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/05-11-2026/cruzeiro-bahia.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Abel celebra atuação do Palmeiras após goleada, mas diz que Flamengo “tem tudo para ganhar” o Brasileiro",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/abel-celebra-atuacao-do-palmeiras-apos-goleada-mas-diz-que-flamengo-tem-tudo-para-ganhar-o-brasileiro/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Com nova camisa, Palmeiras goleia Remo e impede disparada do Flamengo",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-goleia-remo-34-rodada-brasileirao-05-11-2026/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Serie A Power Rankings: Inter are not the favorites anymore; Lazio and AC Milan improving",
-     "u": "https://www.cbssports.com/soccer/news/serie-a-power-rankings-inter-roma-lazio-milan-juventus/",
+     "t": "Jaguars vs. Ravens prediction, odds, time: NFL Week 9 'Thursday Night Football' picks via advanced model",
+     "u": "https://www.cbssports.com/betting/news/jaguars-ravens-prediction-odds-time-spread-nfl-week-9-thursday-night-football-picks-best-bets/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to claim $200 bonus + NBA League Pass for Ravens-Jaguars, Thursday Night Football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-nba-league-pass-ravens-jaguars-thursday-night-football/",
+     "t": "NFL DFS, Jaguars vs. Ravens: Top daily Fantasy picks, lineups, advice for 'Thursday Night Football'",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-jaguars-ravens-daily-fantasy-picks-draftkings-fanduel-lineups-advice-strategy-stacks-thursday-night-football/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Bill Simmons gets 100% real on NBA’s 82-game schedule",
-     "u": "https://sports.yahoo.com/articles/bill-simmons-gets-100-real-222631792.html",
+     "t": "Lakers assign Bronny Games to G League Coachella Valley Lakers",
+     "u": "https://sports.yahoo.com/articles/lakers-assign-bronny-games-g-032251048.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Should the PGA Tour bring former LIV golfers back? Here's what Rory McIlroy said last month",
-     "u": "https://sports.yahoo.com/articles/pga-tour-bring-former-liv-223032772.html",
+     "t": "Will Arch Manning, Dante Moore and questions around other QB prospects influence NFL trade deadline? How changing view of 2027 draft class could shape",
+     "u": "https://sports.yahoo.com/nfl/article/will-arch-manning-dante-moore-and-questions-around-other-qb-prospects-influence-nfl-trade-deadline-how-changing-view-of-2027-draft-class-could-shape-next-weeks-deals-032232080.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Ex-treinador de Benfica e FC Porto é o novo selecionador nacional",
-     "u": "https://www.abola.pt/noticias/ex-treinador-de-benfica-e-fc-porto-e-o-novo-selecionador-nacional-2026110515540393515",
+     "t": "«Benfica no 'top-5' da Liga Europa» e Ronaldo «é sempre triste»",
+     "u": "https://www.abola.pt/noticias/benfica-no-top-5-da-liga-europa-e-ronaldo-e-sempre-triste-2026110522534435711",
+     "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "Ranking UEFA: ronda europeia quase perfeita para Portugal abre boas perspetivas na luta pela vaga extra na Champions",
+     "u": "https://www.record.pt/internacional/detalhe/ranking-uefa-ronda-europeia-quase-perfeita-para-portugal-abre-boas-perspetivas-na-luta-pela-vaga-extra-na-champions",
+     "f": "Record",
+     "alta": true
+    },
+    {
+     "t": "Ex-Benfica provoca aparato policial em Inglaterra após ser visto com arco e flechas",
+     "u": "https://www.abola.pt/noticias/ex-benfica-provoca-aparato-policial-em-inglaterra-apos-ser-visto-com-arco-e-flechas-2026110518450993226",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Dedic causa o pânico em Inglaterra: é apanhado com arco e flecha e abordado... por seis carros da polícia",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/newcastle/detalhe/dedic-causa-o-panico-em-inglaterra-e-apanhado-com-arco-e-flecha-e-abordado-por-seis-carros-da-policia",
+     "t": "Paulo Fonseca até dormiu na Academia: treinador sem tempo a perder nas primeiras horas de Sporting",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/paulo-fonseca-ate-dormiu-na-academia-treinador-sem-tempo-a-perder-nas-primeiras-horas-de-sporting",
      "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Os casos do Benfica-Lech Poznan",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/20261105-221831-os-casos-do-benfica-lech-poznan",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Benfica confirmou seca com sotaque ribatejano: urge voltar a tirar medidas",
-     "u": "https://www.abola.pt/noticias/benfica-confirmou-seca-com-sotaque-ribatejano-urge-voltar-a-tirar-medidas-2026110521272631931",
-     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,6 +113,18 @@
    },
    "noticias": [
     {
+     "t": "JJ Gabriel, a un paso del Real Madrid",
+     "u": "https://www.marca.com/futbol/real-madrid/2026/11/04/jj-gabriel-paso-real-madrid.html",
+     "f": "Marca",
+     "alta": true
+    },
+    {
+     "t": "\"Champions en día de luto\"",
+     "u": "https://www.marca.com/futbol/atletico/opinion/2026/11/04/champions-dia-luto.html",
+     "f": "Marca",
+     "alta": true
+    },
+    {
      "t": "El Barça apremia a Limak por las obras del Spotify Camp Nou",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261105/1004247423/barca-apremia-limak-obras-camp-nou.html",
      "f": "Mundo Deportivo",
@@ -122,18 +134,6 @@
      "t": "Dureza para el Barça en Champions: cinco rivales en el top-10",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261105/1004247624/dureza-barca-champions-cinco-rivales-top-10.html",
      "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Dos policías detienen a un campeón NBA y discuten sobre el \"innombrable\" LeBron : \"Todo fue culpa suya\"",
-     "u": "https://www.marca.com/baloncesto/nba/2026/11/04/dos-policias-detienen-campeon-nba-discuten-sobre-innombrable-lebron-culpa-suya-video.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "El padre de Bellingham mete siete goles con Inglaterra<br>",
-     "u": "https://www.marca.com/futbol/real-madrid/2026/11/04/mark-padre-bellingham-mete-siete-goles-inglaterra-pele-futbol-aficionado.html",
-     "f": "Marca",
      "alta": false
     }
    ]
@@ -181,9 +181,9 @@
    },
    "noticias": [
     {
-     "t": "Noche histórica en la NBA: Wembanyama rompió un récord que llevaba 52 años con una actuación implacable para San Antonio Spurs",
-     "u": "https://www.infobae.com/deportes/2026/11/05/noche-historica-en-la-nba-wembanyama-rompio-un-record-que-llevaba-52-anos-con-una-actuacion-implacable-para-san-antonio-spurs/",
-     "f": "Infobae",
+     "t": "Los rayos X del VAR en el fútbol argentino: quién es el más beneficiado, el caso Barracas y la diferencia entre Boca y River",
+     "u": "https://www.ole.com.ar/futbol-primera/var-ole-afa-liga-profesional-registro_0_u8yuvOvz8I.html",
+     "f": "Olé",
      "alta": false
     },
     {
@@ -193,14 +193,14 @@
      "alta": false
     },
     {
-     "t": "Mastantuono recordó su paso por el Real Madrid, habló de Messi y sorprendió al elegir a su jugador favorito",
-     "u": "https://www.ole.com.ar/futbol-internacional/italia/franco-mastantuono-realmadrid-fiorentina-river-jude-bellingham-lionel-messi-gabriel-batistuta_0_VQKACXH8Dr.html",
-     "f": "Olé",
+     "t": "Giro inesperado en el futuro de Mauro Icardi tras el portazo del Inter: otro gigante europeo lo tiene en carpeta",
+     "u": "https://www.infobae.com/deportes/2026/11/06/giro-inesperado-en-el-futuro-de-mauro-icardi-tras-el-portazo-del-inter-otro-gigante-europeo-lo-tiene-en-carpeta/",
+     "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Vozinha y un deseo para su futuro en Colo Colo: “Vine con la intención de jugar la Libertadores”",
-     "u": "https://www.ole.com.ar/futbol-internacional/america/vozinha-colo-colo-chile-continuidad-copa-libertadores_0_9uvcg3Vc0r.html",
+     "t": "Atenti Estudiantes: Palmeiras goleó con un gol del Flaco López y sueña con la triple corona",
+     "u": "https://www.ole.com.ar/futbol-internacional/palmeiras-remo-brasileirao_0_Glaxn5BdbI.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "L'AC Milan tombe face à Ferencvaros, le Crystal Palace de Pierre Sage sauve les apparences face à Hoffenheim et Bournemouth enchaîne",
-     "u": "https://www.lequipe.fr/Football/Actualites/L-ac-milan-tombe-face-a-ferencvaros-le-crystal-palace-de-pierre-sage-sauve-les-apparences-face-a-hoffenheim-et-bournemouth-enchaine/1741451#at_medium=RSS_feeds",
+     "t": "Indice UEFA : avec un bilan quasi parfait, le Portugal met un peu plus la pression sur la France",
+     "u": "https://www.lequipe.fr/Football/Actualites/Indice-uefa-avec-un-bilan-quasi-parfait-le-portugal-met-un-peu-plus-la-pression-sur-la-france/1741510#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "L'équipe de France s'incline face à la Norvège, médaillée de bronze au Mondial, en Coupe d'Europe des Nations",
-     "u": "https://www.lequipe.fr/Hockey-sur-glace/Actualites/L-equipe-de-france-s-incline-face-a-la-norvege-en-coupe-d-europe-des-nations/1741468#at_medium=RSS_feeds",
+     "t": "Yorick Treille, après la défaite de la France face à la Norvège en Coupe des Nations : « Un match serré face à une belle équipe »",
+     "u": "https://www.lequipe.fr/Hockey-sur-glace/Actualites/Yorick-treille-apres-la-defaite-de-la-france-face-a-la-norvege-en-coupe-des-nations-un-match-serre-face-a-une-belle-equipe/1741495#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,31 +253,31 @@
  ],
  "destaques": [
   {
-   "t": "Botafogo vence o Atlético-MG e aumenta distância para o Z-4 do Brasileirão",
-   "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/04-11-2026/botafogo-atletico-mg.ghtml",
+   "t": "Franca vence Cruzeiro e interrompe sequência negativa no NBB",
+   "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-vence-cruzeiro-e-interrompe-sequencia-negativa-no-nbb.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Serie A Power Rankings: Inter are not the favorites anymore; Lazio and AC Milan improving",
-   "u": "https://www.cbssports.com/soccer/news/serie-a-power-rankings-inter-roma-lazio-milan-juventus/",
+   "t": "Jaguars vs. Ravens prediction, odds, time: NFL Week 9 'Thursday Night Football' picks via advanced model",
+   "u": "https://www.cbssports.com/betting/news/jaguars-ravens-prediction-odds-time-spread-nfl-week-9-thursday-night-football-picks-best-bets/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Ex-treinador de Benfica e FC Porto é o novo selecionador nacional",
-   "u": "https://www.abola.pt/noticias/ex-treinador-de-benfica-e-fc-porto-e-o-novo-selecionador-nacional-2026110515540393515",
+   "t": "«Benfica no 'top-5' da Liga Europa» e Ronaldo «é sempre triste»",
+   "u": "https://www.abola.pt/noticias/benfica-no-top-5-da-liga-europa-e-ronaldo-e-sempre-triste-2026110522534435711",
    "f": "A Bola",
-   "alta": false,
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "El Barça apremia a Limak por las obras del Spotify Camp Nou",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261105/1004247423/barca-apremia-limak-obras-camp-nou.html",
-   "f": "Mundo Deportivo",
-   "alta": false,
+   "t": "JJ Gabriel, a un paso del Real Madrid",
+   "u": "https://www.marca.com/futbol/real-madrid/2026/11/04/jj-gabriel-paso-real-madrid.html",
+   "f": "Marca",
+   "alta": true,
    "pais": "ES"
   },
   {
@@ -288,9 +288,9 @@
    "pais": "GB"
   },
   {
-   "t": "Noche histórica en la NBA: Wembanyama rompió un récord que llevaba 52 años con una actuación implacable para San Antonio Spurs",
-   "u": "https://www.infobae.com/deportes/2026/11/05/noche-historica-en-la-nba-wembanyama-rompio-un-record-que-llevaba-52-anos-con-una-actuacion-implacable-para-san-antonio-spurs/",
-   "f": "Infobae",
+   "t": "Los rayos X del VAR en el fútbol argentino: quién es el más beneficiado, el caso Barracas y la diferencia entre Boca y River",
+   "u": "https://www.ole.com.ar/futbol-primera/var-ole-afa-liga-profesional-registro_0_u8yuvOvz8I.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "L'AC Milan tombe face à Ferencvaros, le Crystal Palace de Pierre Sage sauve les apparences face à Hoffenheim et Bournemouth enchaîne",
-   "u": "https://www.lequipe.fr/Football/Actualites/L-ac-milan-tombe-face-a-ferencvaros-le-crystal-palace-de-pierre-sage-sauve-les-apparences-face-a-hoffenheim-et-bournemouth-enchaine/1741451#at_medium=RSS_feeds",
+   "t": "Indice UEFA : avec un bilan quasi parfait, le Portugal met un peu plus la pression sur la France",
+   "u": "https://www.lequipe.fr/Football/Actualites/Indice-uefa-avec-un-bilan-quasi-parfait-le-portugal-met-un-peu-plus-la-pression-sur-la-france/1741510#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
