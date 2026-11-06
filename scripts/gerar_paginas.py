@@ -130,7 +130,7 @@ FOTO_TOPO = "hero.jpg"  # imagens locais ficam em assets/img (banners do portal 
 T = {
  "pt": {
   "brand_title": "MyTickets Tours | Ingressos para esporte e shows no mundo todo",
-  "home_desc": "Ingressos para La Liga, Serie A, Champions League, NBA, Fórmula 1, tênis e shows internacionais, com o guia de cada evento: data, local, como chegar e dicas de setor.",
+  "home_desc": "Ingressos para La Liga, Serie A, Champions League, NBA, Fórmula 1, tênis e shows internacionais, com guia de cada evento: data, local e dicas de setor.",
   "nav": ["Partidas", "Explorar", "Como funciona"], "cta": "Ver eventos",
   "hero_kicker": "Ingressos para esporte e shows no mundo todo", "hero_l1": "PARTIDAS PARA", "hero_l2": "O JOGO", "hero_h1": "Partidas para o jogo",
   "hero_sub": "Escolha o evento e planeje a viagem: data, local, como chegar e dicas de setor. Em português, inglês e espanhol.",
@@ -168,7 +168,7 @@ T = {
  },
  "en": {
   "brand_title": "MyTickets Tours | Tickets for sports and shows worldwide",
-  "home_desc": "Tickets for La Liga, Serie A, the Champions League, NBA, Formula 1, tennis and concerts worldwide, with a guide to every event: date, venue, getting there and seating tips.",
+  "home_desc": "Tickets for La Liga, Serie A, the Champions League, NBA, Formula 1, tennis and concerts worldwide, with a guide to every event and seating tips.",
   "nav": ["Departures", "Explore", "How it works"], "cta": "See events",
   "hero_kicker": "Tickets for sports and shows worldwide", "hero_l1": "DEPARTURES TO", "hero_l2": "THE GAME", "hero_h1": "Departures to the game",
   "hero_sub": "Pick the event and plan the trip: date, venue, getting there and seating tips. In Portuguese, English and Spanish.",
@@ -206,7 +206,7 @@ T = {
  },
  "es": {
   "brand_title": "MyTickets Tours | Entradas para deportes y shows en todo el mundo",
-  "home_desc": "Entradas para La Liga, Serie A, Champions League, NBA, Fórmula 1, tenis y conciertos internacionales, con la guía de cada evento: fecha, recinto, cómo llegar y consejos de sector.",
+  "home_desc": "Entradas para La Liga, Serie A, Champions League, NBA, Fórmula 1, tenis y conciertos internacionales, con guía de cada evento y consejos de sector.",
   "nav": ["Salidas", "Explorar", "Cómo funciona"], "cta": "Ver eventos",
   "hero_kicker": "Entradas para deportes y shows en todo el mundo", "hero_l1": "SALIDAS HACIA", "hero_l2": "EL PARTIDO", "hero_h1": "Salidas hacia el partido",
   "hero_sub": "Elige el evento y planea el viaje: fecha, recinto, cómo llegar y consejos de sector. En portugués, inglés y español.",
@@ -284,17 +284,17 @@ HUB_ESPORTE = {
 }
 HT = {
  "pt": {"resumo": "{n} eventos em {m} locais, de {d1} a {d2}", "resumo_preco": ", a partir de {p}", "faq_h": "Perguntas frequentes", "q_quantos": "Quantos eventos estão listados em {x}?", "q_proximo": "Qual é o próximo evento de {x}?", "q_onde": "Em quais locais acontecem?", "q_preco": "A partir de quanto custa?", "a_proximo": "{t}, em {d}, no {l}, em {c}.", "a_onde": "Em {m} local(is): {lista}.", "a_preco": "O menor preço entre os eventos listados é {p}, conferido em {d} no parceiro.", "h_esporte": "Ingressos de {x}", "h_cidade": "Ingressos em {x}", "h_competicao": "Ingressos {x}",
-        "desc": "{n} eventos com guia completo, como {lista}. Datas, locais, como chegar e dicas de setor.",
+        "desc": "{x}: {n} eventos com guia completo, como {lista}. Datas, locais, como chegar e dicas de setor.",
         "lead": "{n} eventos com página própria no MyTickets: data, local, como chegar e dicas de setor.",
         "list_h": "Próximas datas", "partner": "Ver todos os eventos", "guides": "Guias no site", "kicker": "Guia de ingressos",
         "c_text": "Usamos cookies do Google Analytics e do Microsoft Clarity para medir visitas e cliques e melhorar o site, só com a sua permissão.", "c_yes": "Aceitar", "c_no": "Recusar", "c_more": "Privacidade"},
  "en": {"resumo": "{n} events at {m} venues, from {d1} to {d2}", "resumo_preco": ", starting at {p}", "faq_h": "Frequently asked questions", "q_quantos": "How many events are listed for {x}?", "q_proximo": "Which {x} event is next?", "q_onde": "Which venues do they take place at?", "q_preco": "How much do they start at?", "a_proximo": "{t}, on {d}, at {l}, in {c}.", "a_onde": "At {m} venue(s): {lista}.", "a_preco": "The lowest price among the listed events is {p}, checked on {d} at the partner.", "h_esporte": "{X} tickets", "h_cidade": "Tickets in {x}", "h_competicao": "{x} tickets",
-        "desc": "{n} events with a full guide, including {lista}. Dates, venues, getting there and seating tips.",
+        "desc": "{x}: {n} events with a full guide, including {lista}. Dates, venues, getting there and seating tips.",
         "lead": "{n} events with their own page on MyTickets: date, venue, getting there and seating tips.",
         "list_h": "Upcoming dates", "partner": "See all events", "guides": "Guides on the site", "kicker": "Ticket guide",
         "c_text": "We use Google Analytics and Microsoft Clarity cookies to measure visits and clicks and improve the site, only with your permission.", "c_yes": "Accept", "c_no": "Decline", "c_more": "Privacy"},
  "es": {"resumo": "{n} eventos en {m} recintos, del {d1} al {d2}", "resumo_preco": ", desde {p}", "faq_h": "Preguntas frecuentes", "q_quantos": "¿Cuántos eventos hay listados en {x}?", "q_proximo": "¿Cuál es el próximo evento de {x}?", "q_onde": "¿En qué recintos se celebran?", "q_preco": "¿Desde cuánto cuestan?", "a_proximo": "{t}, el {d}, en {l}, en {c}.", "a_onde": "En {m} recinto(s): {lista}.", "a_preco": "El precio más bajo entre los eventos listados es {p}, verificado el {d} en el socio.", "h_esporte": "Entradas de {x}", "h_cidade": "Entradas en {x}", "h_competicao": "Entradas {x}",
-        "desc": "{n} eventos con guía completa, como {lista}. Fechas, recintos, cómo llegar y consejos de sector.",
+        "desc": "{x}: {n} eventos con guía completa, como {lista}. Fechas, recintos, cómo llegar y consejos de sector.",
         "lead": "{n} eventos con página propia en MyTickets: fecha, recinto, cómo llegar y consejos de sector.",
         "list_h": "Próximas fechas", "partner": "Ver todos los eventos", "guides": "Guías en el sitio", "kicker": "Guía de entradas",
         "c_text": "Usamos cookies de Google Analytics y Microsoft Clarity para medir visitas y clics y mejorar el sitio, solo con tu permiso.", "c_yes": "Aceptar", "c_no": "Rechazar", "c_more": "Privacidad"},
@@ -817,7 +817,7 @@ def pagina_artigo(lang, art, eventos):
     alternos = {l: caminho_artigo(l, art) for l in IDIOMAS}
     titulo = L(art["titulo"], lang)
     trilha = [(T[lang]["home"], caminho_home(lang)), (ax["h1"], ax["path"]), (titulo, pagina)]
-    h = cabeca(lang, pagina, f"{titulo} | MyTickets Tours"[:70], L(art["resumo"], lang), alternos, ld_script(ld_artigo(lang, art, pagina), ld_breadcrumb(trilha)))
+    h = cabeca(lang, pagina, titulo_com_marca(titulo), L(art["resumo"], lang), alternos, ld_script(ld_artigo(lang, art, pagina), ld_breadcrumb(trilha)))
     corpo_html = "".join(f'<h2>{e(b["h"])}</h2>' + "".join(f"<p>{e(x)}</p>" for x in b["p"]) for b in art["corpo"][lang])
     citados = [ev for ev in eventos if ev["slug"] in art.get("eventos", [])]
     cards = "".join(cartao(lang, pagina, ev) for ev in citados)
@@ -1436,7 +1436,15 @@ def regras_especulacao(pagina):
     return f'<script type="speculationrules">{json.dumps(regras)}</script>'
 
 
+def titulo_com_marca(titulo, limite=65):
+    """'Título | MyTickets Tours' quando cabe no limite do Google; senão só o título, sem cortar no meio da palavra."""
+    com = f"{titulo} | MyTickets Tours"
+    return com if len(com) <= limite else titulo
+
+
 def cabeca(lang, pagina, titulo, desc, alternos, extra="", imagem=None):
+    if len(titulo) > 65 or len(desc) > 160:
+        print(f"aviso SEO: {pagina} tem título com {len(titulo)} ou descrição com {len(desc)} caracteres (Google corta acima de ~65 / ~160)")
     extra = ld_script(ld_org(lang), ld_site(lang)) + extra
     alt = "\n".join(f'<link rel="alternate" hreflang="{HREFLANG[l]}" href="{BASE_URL}/{p}">' for l, p in alternos.items())
     og_img = foto_abs(imagem or OG_PADRAO)
@@ -1972,7 +1980,7 @@ def evento(lang, ev, eventos, hubs):
     rt = C.ROT[lang]
     hora_txt = ev.get("hora") or "--:--"
     titulo_pg = C.titulo_evento(lang, titulo, ev["data"][:4], ev["local"])
-    desc_pg = rt["desc"].format(t=titulo, d=dlonga, h=hora_txt, loc=f'{C.local_curto(ev["local"])}, {cidade}')
+    desc_pg = C.desc_evento(lang, titulo, dlonga, hora_txt, f'{C.local_curto(ev["local"])}, {cidade}')
     h = cabeca(lang, pagina, titulo_pg, desc_pg, alternos, preload(ev.get("banner", ev["img"]), 1800, pagina) + extra, imagem=ev.get("banner", ev["img"]))
 
     def link_parceiro(nome, dock):
@@ -2184,8 +2192,11 @@ def hub(lang, g, eventos, hubs):
     titulo = titulo_hub(lang, g)
     evs = sorted(g["eventos"], key=lambda x: x["data"])
     nomes = [L(x["titulo"], lang) for x in evs[:3]]
-    lista = ", ".join(nomes)
-    desc = h["desc"].format(n=len(evs), lista=lista)
+    # Menos nomes de evento até caber antes de o Google cortar o trecho (~155 caracteres).
+    for k in range(len(nomes), 0, -1):
+        desc = h["desc"].format(x=titulo, n=len(evs), lista=", ".join(nomes[:k]))
+        if len(desc) <= 155:
+            break
     itens = {"@context": "https://schema.org", "@type": "ItemList", "name": titulo, "numberOfItems": len(evs),
              "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{BASE_URL}/{caminho_evento(lang, x['slug'])}",
                                   "name": L(x["titulo"], lang)} for i, x in enumerate(evs)]}
