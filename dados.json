@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07T18:07:16+00:00",
+ "atualizado": "2026-11-07T21:59:21+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Nottingham Forest x Manchester City - Campeonato Inglês 2026/27 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/07-11-2026/nottingham-forest-Manchestercity.ghtml",
-     "f": "ge",
+     "t": "Argentina recorrerá no TAS contra punições da Fifa por incidentes na final da Copa do Mundo",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-mundo/afa-recorrer-tas-punicoes-fifa-final-copa-2026/",
+     "f": "Gazeta Esportiva",
      "alta": true
     },
     {
-     "t": "Paraguai divulga lista de convocados para amistosos com jogadores de Palmeiras, Santos e São Paulo",
-     "u": "https://www.gazetaesportiva.com/times/paraguai/lista-convocacao-paraguai-data-fifa-novembro/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "GP de São Paulo de F1: Max Verstappen lidera o terceiro treino livre",
-     "u": "https://ge.globo.com/motor/formula-1/ao-vivo/gp-brasil-de-f1-2026-assista-ao-vivo-a-etapa-de-sao-paulo.ghtml",
+     "t": "Atlético-MG x Grêmio - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/mg/futebol/copa-do-brasil/jogo/07-11-2026/atletico-mg-gremio.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Zidane convoca 23 jogadores da França para jogos contra Itália e Turquia; confira a lista",
-     "u": "https://www.gazetaesportiva.com/times/franca/zidane-convoca-23-jogadores-da-franca-para-jogos-contra-italia-e-turquia-confira-a-lista/",
+     "t": "Atlético-MG x Grêmio: veja fotos do jogo de volta da semifinal da Copa do Brasil",
+     "u": "https://www.gazetaesportiva.com/fotos/atletico-mg-x-gremio-veja-fotos-do-jogo-de-volta-da-semifinal-da-copa-do-brasil/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Festa da torcida do Atlético-MG na Arena MRV atrasa semifinal contra o Grêmio; veja imagens",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/07/festa-da-torcida-do-atletico-mg-na-arena-mrv-atrasa-semifinal-contra-o-gremio-veja-imagens.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Seahawks star RB a fantasy football sleeper for Week 9",
-     "u": "https://sports.yahoo.com/articles/seahawks-star-rb-fantasy-football-180140913.html",
+     "t": "NFL survivor pool picks, knockout strategy, advice for Week 9, 2026: Fade the New England Patriots",
+     "u": "https://www.cbssports.com/betting/news/nfl-survivor-picks-knockout-pool-strategy-advice-revival-league-advice-for-week-9-2026/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Real Madrid star accused of slapping security official during Valencia clash",
+     "u": "https://sports.yahoo.com/articles/real-madrid-star-accused-slapping-215000197.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "NFL trade deadline rumors: Could Giants' John Harbaugh reunite with former running back?",
-     "u": "https://www.cbssports.com/nfl/news/nfl-trade-deadline-rumors-giants-john-harbaugh-reunite-former-running-back/",
+     "t": "Kai Havertz leads the Premier League in offsides as Arsenal pile up infractions in 1-0 win over Hull City",
+     "u": "https://www.cbssports.com/soccer/news/kai-havertz-premier-league-arsenal-1-0-win-hull-city/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NFL week 9 anytime TD best bets: Look for Jonah Coleman and Joe Milton III to find end zone",
-     "u": "https://www.cbssports.com/nfl/news/nfl-week-9-anytime-td-best-bets-jonah-coleman-joe-milton-iii/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Wisconsin football vs Rutgers score, live updates, highlights, channel",
-     "u": "https://sports.yahoo.com/articles/wisconsin-football-vs-rutgers-score-180127519.html",
+     "t": "Lewis Hamilton opens up on clear-the-air talks with Charles Leclerc after Mexican GP clash",
+     "u": "https://sports.yahoo.com/articles/lewis-hamilton-opens-clear-air-213936049.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Hamilton, Leclerc e Verstappen penalizados: holandês vai sair do fundo da grelha no Brasil",
-     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/hamilton-leclerc-e-verstappen-penalizados-holandes-vai-sair-do-fundo-da-grelha-no-brasil",
+     "t": "Rodrigo Mora marca pelo terceiro jogo seguido na Serie A e ajuda Roma a bater o Sassuolo",
+     "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261107-114332-roma-sassuolo-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Hamilton volta a visar Leclerc: «Já fez o mesmo com Vettel e Sainz...»",
-     "u": "https://www.abola.pt/noticias/hamilton-volta-a-visar-leclerc-ja-fez-o-mesmo-com-vettel-e-sainz-2026110521233474977",
+     "t": "FC Porto vence Beveren e fica mais perto da Champions",
+     "u": "https://www.abola.pt/noticias/fc-porto-vence-beveren-e-fica-mais-perto-da-champions-2026110522271095909",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Renato Paiva volta a ganhar no México",
-     "u": "https://www.record.pt/internacional/detalhe/renato-paiva-volta-a-ganhar-no-mexico",
+     "t": "Rodrigo Mora de pé quente antes da Seleção: jovem marcou pelo terceiro jogo seguido na Serie A",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/rodrigo-mora-de-pe-quente-antes-da-selecao-jovem-marcou-pelo-terceiro-jogo-seguido-na-serie-a",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Vote no MELHOR EM CAMPO do Benfica-Lech Poznan",
-     "u": "https://www.abola.pt/noticias/vote-no-melhor-em-campo-do-benfica-lech-poznan-2026110515344646107",
+     "t": "Benfica imparável, Torreense a sonhar e Amorim… nem por isso: as previsões do supercomputador",
+     "u": "https://www.abola.pt/noticias/benfica-imparavel-torreense-a-sonhar-e-amorim-nem-por-isso-as-previsoes-do-supercomputador-2026110523151862442",
      "f": "A Bola",
      "alta": false
     }
@@ -113,27 +113,27 @@
    },
    "noticias": [
     {
-     "t": "La federación internacional prohíbe a Bielorrusia disputar el Mundial",
-     "u": "https://www.marca.com/deportes-invierno/2026/11/07/federacion-internacional-prohibe-bielorrusia-disputar-mundial.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
      "t": "El Barça busca el triunfo en LaLiga en el Metropolitano sin sus dos últimos goleadores",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261107/1004248363/barca-busca-triunfo-laliga-metropolitano-dos-ultimos-goleadores.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "1-1: El Athletic frena al Real Madrid en Lezama con un zarpazo en el descuento",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261107/1004248348/1-1-athletic-frena-real-madrid-lezama-zarpazo-descuento.html",
-     "f": "Mundo Deportivo",
+     "t": "Hezonja se aferra a la NBA",
+     "u": "https://www.marca.com/baloncesto/nba/2026/11/06/hezonja-aferra-nba.html",
+     "f": "Marca",
      "alta": false
     },
     {
-     "t": "La curiosa paradoja que nos deja el regreso de la NFL",
-     "u": "https://www.marca.com/nfl/2026/11/07/curiosa-paradoja-deja-regreso-nfl.html",
+     "t": "Gustavo Varela: de jugar contra su padre a 'Pichichi' de la Serie A... ¿y sustituto de Cristiano en Portugal?",
+     "u": "https://www.marca.com/futbol/liga-italiana/2026/11/06/gustavo-varela-jugar-padre-pichichi-serie-sustituto-cristiano-portugal.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Lío en los vestuarios de Mestalla en el descanso del Valencia-Real Madrid",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261107/1004248435/lio-vestuarios-mestalla-descanso-valencia-real-madrid.html",
+     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -153,21 +153,21 @@
      "alta": false
     },
     {
-     "t": "England secure group top spot with Ireland win",
-     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/cxly441nej84o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Lando Norris claims F1 São Paulo GP pole as heavy rain disrupts qualifying",
+     "u": "https://www.theguardian.com/sport/2026/nov/07/lando-norris-claims-pole-for-f1-sao-paulo-gp-as-rain-disrupts-qualifying",
+     "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Hamilton joins Verstappen at back of Sao Paulo GP grid",
-     "u": "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+     "t": "Norris claims Sao Paulo GP pole after treacherous rain-hit qualifying",
+     "u": "https://www.skysports.com/f1/news/12040/13609197/sao-paulo-gp-qualifying-lando-norris-claims-rain-hit-pole-in-wild-conditions-with-lewis-hamilton-max-verstappen-to-start-at-back",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Nottingham Forest v Manchester City: Premier League – live",
-     "u": "https://www.theguardian.com/football/live/2026/nov/07/nottingham-forest-v-manchester-city-premier-league-live",
-     "f": "The Guardian",
+     "t": "Sao Paulo Grand Prix - Qualifying Highlights",
+     "u": "https://www.skysports.com/watch/video/13609562/sao-paulo-grand-prix-qualifying-highlights",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -187,20 +187,20 @@
      "alta": false
     },
     {
-     "t": "Con Verstappen, Hamilton, Leclerc y Russell penalizados, Colapinto afronta la qualy en Brasil: la sesión se detuvo por lluvia",
-     "u": "https://www.infobae.com/deportes/2026/11/07/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-en-el-gran-premio-de-brasil-de-formula-1-hora-y-todo-lo-que-hay-que-saber/",
+     "t": "Franco Colapinto cerró un primer día positivo en el Gran Premio de Brasil de Fórmula 1 con un 11° lugar",
+     "u": "https://www.infobae.com/deportes/2026/11/06/franco-colapinto-comenzara-su-actividad-en-el-gran-premio-de-brasil-de-formula-1-horarios-y-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Nottingham Forest vs Manchester City, EN VIVO, por la Premier League: pierde el equipo de Enzo",
-     "u": "https://www.ole.com.ar/futbol-internacional/nottingham-forest-partido-manchester-city-resultados-goles_0_enHmR8y3qS.html",
+     "t": "Así quedó la parrilla de salida del GP de Brasil de Fórmula 1",
+     "u": "https://www.ole.com.ar/autos/quedo-parrilla-salida-gp-brasli-formula-1_0_S6HEDyHIvO.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Más problemas para Hamilton: de diez puestos, al fondo de la parrilla con Verstappen",
-     "u": "https://www.ole.com.ar/autos/lewishamilton-granpremiodesanpablo-ferrari-unidaddepotencia-maxverstappen-sergioperez_0_UHsGegLQAb.html",
+     "t": "Messi y su Inter Miami vs. Charlotte por la MLS EN VIVO: gana el local con gol de Fray",
+     "u": "https://www.ole.com.ar/futbol-internacional/mls/inter-miami-vs-charlotte-messi-bota-oro-ultima-fecha-vivo_0_UpSAlxyJ6Z.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Le Bayern Munich et Dortmund au coude-à-coude en Bundesliga, Leipzig colle cinq buts à Augsbourg",
-     "u": "https://www.lequipe.fr/Football/Actualites/Le-bayern-munich-et-dortmund-au-coude-a-coude-en-bundesliga-leipzig-colle-cinq-buts-a-augsbourg/1741968#at_medium=RSS_feeds",
+     "t": "Lando Norris décroche la pole du Grand Prix du Brésil au terme d'une séance longtemps retardée par la pluie",
+     "u": "https://www.lequipe.fr/Formule-1/Actualites/Lando-norris-decroche-la-pole-du-grand-prix-du-bresil-au-terme-d-une-seance-interrompue-par-la-pluie/1742069#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "La Russie remporte les Championnats d'Europe par équipes mixtes, la France se classe 3e",
-     "u": "https://www.lequipe.fr/Judo/Actualites/La-russie-remporte-les-championnats-d-europe-par-equipes-mixtes-la-france-se-classe-3e/1741984#at_medium=RSS_feeds",
+     "t": "Touché à l'épaule gauche, Romain Ntamack sort sur blessure contre les Fidji à une semaine de France-Afrique du Sud",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Touche-a-l-epaule-gauche-romain-ntamack-sort-sur-blessure-contre-les-fidji/1742083#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,30 +253,30 @@
  ],
  "destaques": [
   {
-   "t": "Nottingham Forest x Manchester City - Campeonato Inglês 2026/27 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/07-11-2026/nottingham-forest-Manchestercity.ghtml",
-   "f": "ge",
+   "t": "Argentina recorrerá no TAS contra punições da Fifa por incidentes na final da Copa do Mundo",
+   "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-mundo/afa-recorrer-tas-punicoes-fifa-final-copa-2026/",
+   "f": "Gazeta Esportiva",
    "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Seahawks star RB a fantasy football sleeper for Week 9",
-   "u": "https://sports.yahoo.com/articles/seahawks-star-rb-fantasy-football-180140913.html",
-   "f": "Yahoo Sports",
+   "t": "NFL survivor pool picks, knockout strategy, advice for Week 9, 2026: Fade the New England Patriots",
+   "u": "https://www.cbssports.com/betting/news/nfl-survivor-picks-knockout-pool-strategy-advice-revival-league-advice-for-week-9-2026/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Hamilton, Leclerc e Verstappen penalizados: holandês vai sair do fundo da grelha no Brasil",
-   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/hamilton-leclerc-e-verstappen-penalizados-holandes-vai-sair-do-fundo-da-grelha-no-brasil",
+   "t": "Rodrigo Mora marca pelo terceiro jogo seguido na Serie A e ajuda Roma a bater o Sassuolo",
+   "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261107-114332-roma-sassuolo-em-direto",
    "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "La federación internacional prohíbe a Bielorrusia disputar el Mundial",
-   "u": "https://www.marca.com/deportes-invierno/2026/11/07/federacion-internacional-prohibe-bielorrusia-disputar-mundial.html",
-   "f": "Marca",
+   "t": "El Barça busca el triunfo en LaLiga en el Metropolitano sin sus dos últimos goleadores",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261107/1004248363/barca-busca-triunfo-laliga-metropolitano-dos-ultimos-goleadores.html",
+   "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Le Bayern Munich et Dortmund au coude-à-coude en Bundesliga, Leipzig colle cinq buts à Augsbourg",
-   "u": "https://www.lequipe.fr/Football/Actualites/Le-bayern-munich-et-dortmund-au-coude-a-coude-en-bundesliga-leipzig-colle-cinq-buts-a-augsbourg/1741968#at_medium=RSS_feeds",
+   "t": "Lando Norris décroche la pole du Grand Prix du Brésil au terme d'une séance longtemps retardée par la pluie",
+   "u": "https://www.lequipe.fr/Formule-1/Actualites/Lando-norris-decroche-la-pole-du-grand-prix-du-bresil-au-terme-d-une-seance-interrompue-par-la-pluie/1742069#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
