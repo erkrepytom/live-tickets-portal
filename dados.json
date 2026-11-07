@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07T13:16:53+00:00",
+ "atualizado": "2026-11-07T18:07:16+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Classificação do segundo turno: Flamengo segue líder, Inter passa o Grêmio, e Corinthians fica em 20º",
-     "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/07/classificacao-do-segundo-turno-flamengo-segue-lider-inter-passa-o-gremio-e-corinthians-fica-em-20o.ghtml",
+     "t": "Nottingham Forest x Manchester City - Campeonato Inglês 2026/27 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/07-11-2026/nottingham-forest-Manchestercity.ghtml",
      "f": "ge",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Atlético-MG x Grêmio pela Copa do Brasil: onde assistir, estatísticas, histórico e prováveis escalações",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/atletico-mg-x-gremio-pela-copa-do-brasil-onde-assistir-estatisticas-historico-e-provaveis-escalacoes/",
+     "t": "Paraguai divulga lista de convocados para amistosos com jogadores de Palmeiras, Santos e São Paulo",
+     "u": "https://www.gazetaesportiva.com/times/paraguai/lista-convocacao-paraguai-data-fifa-novembro/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Helinho elogia postura do Franca, e Andrezão valoriza defesa contra o Cruzeiro",
-     "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/07/helinho-elogia-postura-do-franca-e-andrezao-valoriza-defesa-contra-o-cruzeiro.ghtml",
+     "t": "GP de São Paulo de F1: Max Verstappen lidera o terceiro treino livre",
+     "u": "https://ge.globo.com/motor/formula-1/ao-vivo/gp-brasil-de-f1-2026-assista-ao-vivo-a-etapa-de-sao-paulo.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Vasco x Palmeiras: saiba onde assistir ao jogo de volta da semifinal da Copa do Brasil",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/vasco-x-palmeiras-saiba-onde-assistir-ao-jogo-de-volta-da-semifinal-da-copa-do-brasil/",
+     "t": "Zidane convoca 23 jogadores da França para jogos contra Itália e Turquia; confira a lista",
+     "u": "https://www.gazetaesportiva.com/times/franca/zidane-convoca-23-jogadores-da-franca-para-jogos-contra-italia-e-turquia-confira-a-lista/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "👕 This week's new kits: Real Madrid, Bayern, Palmeiras and more; photos",
-     "u": "https://sports.yahoo.com/articles/weeks-kits-real-madrid-bayern-130400845.html",
+     "t": "Seahawks star RB a fantasy football sleeper for Week 9",
+     "u": "https://sports.yahoo.com/articles/seahawks-star-rb-fantasy-football-180140913.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "7 Arsenal youngsters called up to England youth teams",
-     "u": "https://sports.yahoo.com/articles/7-arsenal-youngsters-called-england-130100406.html",
+     "t": "NFL trade deadline rumors: Could Giants' John Harbaugh reunite with former running back?",
+     "u": "https://www.cbssports.com/nfl/news/nfl-trade-deadline-rumors-giants-john-harbaugh-reunite-former-running-back/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "NFL week 9 anytime TD best bets: Look for Jonah Coleman and Joe Milton III to find end zone",
+     "u": "https://www.cbssports.com/nfl/news/nfl-week-9-anytime-td-best-bets-jonah-coleman-joe-milton-iii/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Wisconsin football vs Rutgers score, live updates, highlights, channel",
+     "u": "https://sports.yahoo.com/articles/wisconsin-football-vs-rutgers-score-180127519.html",
      "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Texas vs. Missouri prediction, odds, time: Week 10 college football picks from proven model",
-     "u": "https://www.cbssports.com/betting/news/texas-missouri-prediction-odds-time-2026-week-10-college-football-picks-bets/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "BYU vs. Utah prediction, odds, time: Week 10 college football picks from proven model",
-     "u": "https://www.cbssports.com/betting/news/byu-utah-prediction-odds-time-2026-week-10-college-football-picks-bets/",
-     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Vasco Peso sagra-se campeão do Mundo de tumbling",
-     "u": "https://www.record.pt/modalidades/ginastica/detalhe/vasco-peso-sagra-se-campeao-do-mundo-de-tumbling",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Supertaça: Benfica-Sporting, em direto",
-     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/supertaca-benfica-sporting-em-direto",
+     "t": "Hamilton, Leclerc e Verstappen penalizados: holandês vai sair do fundo da grelha no Brasil",
+     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/hamilton-leclerc-e-verstappen-penalizados-holandes-vai-sair-do-fundo-da-grelha-no-brasil",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Médio do Sporting e pérola de Amorim convocados por Mancini para a seleção de Itália",
-     "u": "https://www.abola.pt/noticias/medio-do-sporting-e-perola-de-amorim-convocados-por-mancini-para-a-selecao-de-italia-2026110518103429464",
+     "t": "Hamilton volta a visar Leclerc: «Já fez o mesmo com Vettel e Sainz...»",
+     "u": "https://www.abola.pt/noticias/hamilton-volta-a-visar-leclerc-ja-fez-o-mesmo-com-vettel-e-sainz-2026110521233474977",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Nem a febre impediu Gabri Veiga de estar na equipa da semana da Champions",
-     "u": "https://www.abola.pt/noticias/nem-a-febre-impediu-gabri-veiga-de-estar-na-equipa-da-semana-da-champions-2026110516344712966",
+     "t": "Renato Paiva volta a ganhar no México",
+     "u": "https://www.record.pt/internacional/detalhe/renato-paiva-volta-a-ganhar-no-mexico",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Vote no MELHOR EM CAMPO do Benfica-Lech Poznan",
+     "u": "https://www.abola.pt/noticias/vote-no-melhor-em-campo-do-benfica-lech-poznan-2026110515344646107",
      "f": "A Bola",
      "alta": false
     }
@@ -113,26 +113,26 @@
    },
    "noticias": [
     {
-     "t": "\"¿El PSG? Sería un sueño, está a la altura de Barça, Real Madrid o Arsenal\"",
-     "u": "https://www.mundodeportivo.com/futbol/bundesliga/20261107/1004248215/psg-seria-sueno-altura-barca-real-madrid-arsenal.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "La Liga que la Federación borró de la historia: la verdad sobre el título del Barça de 1947",
-     "u": "https://www.mundodeportivo.com/baloncesto/basket-feb/20261107/1004241973/liga-federacion-borro-historia-verdad-sobre-titulo-barca-1947.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Hezonja se aferra a la NBA",
-     "u": "https://www.marca.com/baloncesto/nba/2026/11/06/hezonja-aferra-nba.html",
+     "t": "La federación internacional prohíbe a Bielorrusia disputar el Mundial",
+     "u": "https://www.marca.com/deportes-invierno/2026/11/07/federacion-internacional-prohibe-bielorrusia-disputar-mundial.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "Gustavo Varela: de jugar contra su padre a 'Pichichi' de la Serie A... ¿y sustituto de Cristiano en Portugal?",
-     "u": "https://www.marca.com/futbol/liga-italiana/2026/11/06/gustavo-varela-jugar-padre-pichichi-serie-sustituto-cristiano-portugal.html",
+     "t": "El Barça busca el triunfo en LaLiga en el Metropolitano sin sus dos últimos goleadores",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261107/1004248363/barca-busca-triunfo-laliga-metropolitano-dos-ultimos-goleadores.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "1-1: El Athletic frena al Real Madrid en Lezama con un zarpazo en el descuento",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261107/1004248348/1-1-athletic-frena-real-madrid-lezama-zarpazo-descuento.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "La curiosa paradoja que nos deja el regreso de la NFL",
+     "u": "https://www.marca.com/nfl/2026/11/07/curiosa-paradoja-deja-regreso-nfl.html",
      "f": "Marca",
      "alta": false
     }
@@ -153,21 +153,21 @@
      "alta": false
     },
     {
-     "t": "Ferrari's Hamilton-Leclerc problem - and other F1 stories to follow",
-     "u": "https://www.bbc.co.uk/sport/formula1/articles/cm62y4283534o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Scotland v New Zealand: Nations Championship rugby union – live",
-     "u": "https://www.theguardian.com/sport/live/2026/nov/07/scotland-v-new-zealand-nations-championship-rugby-union-live",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
      "t": "England secure group top spot with Ireland win",
      "u": "https://www.bbc.co.uk/sport/rugby-league/videos/cxly441nej84o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Hamilton joins Verstappen at back of Sao Paulo GP grid",
+     "u": "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+     "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Nottingham Forest v Manchester City: Premier League – live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/07/nottingham-forest-v-manchester-city-premier-league-live",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -187,20 +187,20 @@
      "alta": false
     },
     {
-     "t": "Antes de la clasificación, Franco Colapinto afrontará la última práctica en el Gran Premio de Brasil de Fórmula 1: hora y todo lo que hay que saber",
+     "t": "Con Verstappen, Hamilton, Leclerc y Russell penalizados, Colapinto afronta la qualy en Brasil: la sesión se detuvo por lluvia",
      "u": "https://www.infobae.com/deportes/2026/11/07/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-en-el-gran-premio-de-brasil-de-formula-1-hora-y-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Franco Colapinto EN VIVO en el GP de Brasil: a qué hora corre y por dónde ver la F1",
-     "u": "https://www.ole.com.ar/autos/franco-colapinto-vivo-gran-premio-brasil-formula-1-hora-ver-tv-online_0_xcrsUrXyMY.html",
+     "t": "Nottingham Forest vs Manchester City, EN VIVO, por la Premier League: pierde el equipo de Enzo",
+     "u": "https://www.ole.com.ar/futbol-internacional/nottingham-forest-partido-manchester-city-resultados-goles_0_enHmR8y3qS.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Video: la gran definición de Rodrigo Castillo para Fluminense",
-     "u": "https://www.ole.com.ar/futbol-internacional/brasileirao-rodrigo-castillo-fluminense-gol_0_wdm1nQc1Wj.html",
+     "t": "Más problemas para Hamilton: de diez puestos, al fondo de la parrilla con Verstappen",
+     "u": "https://www.ole.com.ar/autos/lewishamilton-granpremiodesanpablo-ferrari-unidaddepotencia-maxverstappen-sergioperez_0_UHsGegLQAb.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,46 +237,46 @@
    },
    "noticias": [
     {
-     "t": "La FFT officialise la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/La-fft-officialise-la-nomination-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741876#at_medium=RSS_feeds",
+     "t": "Le Bayern Munich et Dortmund au coude-à-coude en Bundesliga, Leipzig colle cinq buts à Augsbourg",
+     "u": "https://www.lequipe.fr/Football/Actualites/Le-bayern-munich-et-dortmund-au-coude-a-coude-en-bundesliga-leipzig-colle-cinq-buts-a-augsbourg/1741968#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Gaël Monfils très bientôt nommé capitaine de l'équipe de France de Coupe Davis ?",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/Gael-monfils-tres-bientot-nomme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741870#at_medium=RSS_feeds",
+     "t": "La Russie remporte les Championnats d'Europe par équipes mixtes, la France se classe 3e",
+     "u": "https://www.lequipe.fr/Judo/Actualites/La-russie-remporte-les-championnats-d-europe-par-equipes-mixtes-la-france-se-classe-3e/1741984#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": true
+     "alta": false
     }
    ]
   }
  ],
  "destaques": [
   {
-   "t": "Classificação do segundo turno: Flamengo segue líder, Inter passa o Grêmio, e Corinthians fica em 20º",
-   "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/07/classificacao-do-segundo-turno-flamengo-segue-lider-inter-passa-o-gremio-e-corinthians-fica-em-20o.ghtml",
+   "t": "Nottingham Forest x Manchester City - Campeonato Inglês 2026/27 - Ao vivo - globoesporte.com",
+   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/07-11-2026/nottingham-forest-Manchestercity.ghtml",
    "f": "ge",
-   "alta": false,
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "👕 This week's new kits: Real Madrid, Bayern, Palmeiras and more; photos",
-   "u": "https://sports.yahoo.com/articles/weeks-kits-real-madrid-bayern-130400845.html",
+   "t": "Seahawks star RB a fantasy football sleeper for Week 9",
+   "u": "https://sports.yahoo.com/articles/seahawks-star-rb-fantasy-football-180140913.html",
    "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Vasco Peso sagra-se campeão do Mundo de tumbling",
-   "u": "https://www.record.pt/modalidades/ginastica/detalhe/vasco-peso-sagra-se-campeao-do-mundo-de-tumbling",
+   "t": "Hamilton, Leclerc e Verstappen penalizados: holandês vai sair do fundo da grelha no Brasil",
+   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/hamilton-leclerc-e-verstappen-penalizados-holandes-vai-sair-do-fundo-da-grelha-no-brasil",
    "f": "Record",
-   "alta": true,
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "\"¿El PSG? Sería un sueño, está a la altura de Barça, Real Madrid o Arsenal\"",
-   "u": "https://www.mundodeportivo.com/futbol/bundesliga/20261107/1004248215/psg-seria-sueno-altura-barca-real-madrid-arsenal.html",
-   "f": "Mundo Deportivo",
+   "t": "La federación internacional prohíbe a Bielorrusia disputar el Mundial",
+   "u": "https://www.marca.com/deportes-invierno/2026/11/07/federacion-internacional-prohibe-bielorrusia-disputar-mundial.html",
+   "f": "Marca",
    "alta": false,
    "pais": "ES"
   },
@@ -302,10 +302,10 @@
    "pais": "IT"
   },
   {
-   "t": "La FFT officialise la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis",
-   "u": "https://www.lequipe.fr/Tennis/Actualites/La-fft-officialise-la-nomination-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741876#at_medium=RSS_feeds",
+   "t": "Le Bayern Munich et Dortmund au coude-à-coude en Bundesliga, Leipzig colle cinq buts à Augsbourg",
+   "u": "https://www.lequipe.fr/Football/Actualites/Le-bayern-munich-et-dortmund-au-coude-a-coude-en-bundesliga-leipzig-colle-cinq-buts-a-augsbourg/1741968#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": true,
+   "alta": false,
    "pais": "FR"
   }
  ],
