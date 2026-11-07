@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07T06:12:34+00:00",
+ "atualizado": "2026-11-07T13:16:53+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,14 +11,8 @@
    },
    "noticias": [
     {
-     "t": "Reis de Copas? Atlético-MG x Grêmio marca duelo entre técnicos especialistas em mata-matas",
-     "u": "https://ge.globo.com/mg/futebol/copa-do-brasil/noticia/2026/11/07/reis-de-copas-atletico-mg-x-gremio-marca-duelo-entre-tecnicos-especialistas-em-mata-matas.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Atlético-MG x Grêmio: onde assistir ao vivo, horário e escalações",
-     "u": "https://ge.globo.com/mg/futebol/copa-do-brasil/noticia/2026/11/07/atletico-mg-x-gremio-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+     "t": "Classificação do segundo turno: Flamengo segue líder, Inter passa o Grêmio, e Corinthians fica em 20º",
+     "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/07/classificacao-do-segundo-turno-flamengo-segue-lider-inter-passa-o-gremio-e-corinthians-fica-em-20o.ghtml",
      "f": "ge",
      "alta": false
     },
@@ -29,8 +23,14 @@
      "alta": false
     },
     {
-     "t": "Palmeiras x Estudiantes: Conmebol anuncia data para nova venda de ingressos para final da Libertadores",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/palmeiras-estudiantes-conmebol-venda-ingressos-final-libertadores/",
+     "t": "Helinho elogia postura do Franca, e Andrezão valoriza defesa contra o Cruzeiro",
+     "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/07/helinho-elogia-postura-do-franca-e-andrezao-valoriza-defesa-contra-o-cruzeiro.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Vasco x Palmeiras: saiba onde assistir ao jogo de volta da semifinal da Copa do Brasil",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/vasco-x-palmeiras-saiba-onde-assistir-ao-jogo-de-volta-da-semifinal-da-copa-do-brasil/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Verstappen can benefit from Red Bull’s smart choice, Norris shows alternative",
-     "u": "https://sports.yahoo.com/articles/verstappen-benefit-red-bull-smart-060300827.html",
+     "t": "👕 This week's new kits: Real Madrid, Bayern, Palmeiras and more; photos",
+     "u": "https://sports.yahoo.com/articles/weeks-kits-real-madrid-bayern-130400845.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "NBA player props, odds, picks: Jayson Tatum, Donovan Mitchell among best bets for Friday, Nov. 6",
-     "u": "https://www.cbssports.com/betting/news/nba-player-props-odds-picks-jayson-tatum-donovan-mitchell-among-best-bets-friday/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "76ers vs. Cavaliers predictions, odds, line: Proven model reveals NBA Cup picks for Friday, Nov. 6",
-     "u": "https://www.cbssports.com/betting/news/76ers-cavaliers-predictions-odds-line-proven-model-reveals-2026-nba-cup-picks-best-bets-friday-november-6/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Week 11 West Texas, Concho Valley, San Angelo high school football results",
-     "u": "https://sports.yahoo.com/articles/week-11-west-texas-concho-060429011.html",
+     "t": "7 Arsenal youngsters called up to England youth teams",
+     "u": "https://sports.yahoo.com/articles/7-arsenal-youngsters-called-england-130100406.html",
      "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Texas vs. Missouri prediction, odds, time: Week 10 college football picks from proven model",
+     "u": "https://www.cbssports.com/betting/news/texas-missouri-prediction-odds-time-2026-week-10-college-football-picks-bets/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "BYU vs. Utah prediction, odds, time: Week 10 college football picks from proven model",
+     "u": "https://www.cbssports.com/betting/news/byu-utah-prediction-odds-time-2026-week-10-college-football-picks-bets/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "NBA volta a equacionar redução do tempo de jogo",
-     "u": "https://www.abola.pt/noticias/nba-volta-a-equacionar-reducao-do-tempo-de-jogo-2026110616310589209",
-     "f": "A Bola",
-     "alta": false
+     "t": "Vasco Peso sagra-se campeão do Mundo de tumbling",
+     "u": "https://www.record.pt/modalidades/ginastica/detalhe/vasco-peso-sagra-se-campeao-do-mundo-de-tumbling",
+     "f": "Record",
+     "alta": true
     },
     {
-     "t": "Benfica: UNUM apresenta as 17 medidas para reformar a arbitragem",
-     "u": "https://www.abola.pt/noticias/benfica-unum-apresenta-as-17-medidas-para-reformar-a-arbitragem-2026110623050172286",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Martin Turk evitou descalabro com o FC Porto e pode manter-se na baliza do Estoril",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/estoril/detalhe/martin-turk-evitou-descalabro-com-o-fc-porto-e-pode-manter-se-na-baliza",
+     "t": "Supertaça: Benfica-Sporting, em direto",
+     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/supertaca-benfica-sporting-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Desabamento de prédio em São Paulo faz dezenas de feridos",
-     "u": "https://www.record.pt/fora-de-campo/detalhe/desabamento-de-predio-em-sao-paulo-faz-dezenas-de-feridos",
-     "f": "Record",
+     "t": "Médio do Sporting e pérola de Amorim convocados por Mancini para a seleção de Itália",
+     "u": "https://www.abola.pt/noticias/medio-do-sporting-e-perola-de-amorim-convocados-por-mancini-para-a-selecao-de-italia-2026110518103429464",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Nem a febre impediu Gabri Veiga de estar na equipa da semana da Champions",
+     "u": "https://www.abola.pt/noticias/nem-a-febre-impediu-gabri-veiga-de-estar-na-equipa-da-semana-da-champions-2026110516344712966",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,8 +113,14 @@
    },
    "noticias": [
     {
-     "t": "El Atleti ya conoce fecha y hora de su partido frente al Barça en el Camp Nou",
-     "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261106/1004248043/atleti-conoce-fecha-hora-partido-elche-camp-nou.html",
+     "t": "\"¿El PSG? Sería un sueño, está a la altura de Barça, Real Madrid o Arsenal\"",
+     "u": "https://www.mundodeportivo.com/futbol/bundesliga/20261107/1004248215/psg-seria-sueno-altura-barca-real-madrid-arsenal.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "La Liga que la Federación borró de la historia: la verdad sobre el título del Barça de 1947",
+     "u": "https://www.mundodeportivo.com/baloncesto/basket-feb/20261107/1004241973/liga-federacion-borro-historia-verdad-sobre-titulo-barca-1947.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -129,12 +135,6 @@
      "u": "https://www.marca.com/futbol/liga-italiana/2026/11/06/gustavo-varela-jugar-padre-pichichi-serie-sustituto-cristiano-portugal.html",
      "f": "Marca",
      "alta": false
-    },
-    {
-     "t": "\"Alexia está revolucionando la WSL, tiene seis veces más seguidores que la Liga\"",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261107/1004248137/alexia-revolucionando-wsl-seis-veces-seguidores-liga.html",
-     "f": "Mundo Deportivo",
-     "alta": false
     }
    ]
   },
@@ -147,7 +147,7 @@
    },
    "noticias": [
     {
-     "t": "Nations championship, Rugby League World Cup and NFL action – follow with us",
+     "t": "Nations Championship, Rugby League World Cup and NFL action – follow with us",
      "u": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-rugby-league-world-cup-and-nfl-action-follow-with-us",
      "f": "The Guardian",
      "alta": false
@@ -159,8 +159,8 @@
      "alta": false
     },
     {
-     "t": "Injury crises and Borthwick under scrutiny: it’s that time of year again for England rugby",
-     "u": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-injuries-steve-borthwick-england-australia-rugby",
+     "t": "Scotland v New Zealand: Nations Championship rugby union – live",
+     "u": "https://www.theguardian.com/sport/live/2026/nov/07/scotland-v-new-zealand-nations-championship-rugby-union-live",
      "f": "The Guardian",
      "alta": false
     },
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "El mensaje de Miguel Merentiel que hizo emocionar a Leandro Paredes en medio de las finales que afrontará Boca Juniors",
-     "u": "https://www.infobae.com/deportes/2026/11/07/el-mensaje-de-miguel-merentiel-que-hizo-emocionar-a-leandro-paredes-en-medio-de-las-finales-que-afrontara-boca-juniors/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
      "t": "Los Pumas perdieron 42-12 con Irlanda en Dublín por el Nations Championship",
      "u": "https://www.infobae.com/deportes/2026/11/06/los-pumas-enfrentaran-a-irlanda-por-el-nations-championship-hora-tv-y-formaciones/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "¿Qué necesitan Boca, Argentinos y Central para ser Campeón de Liga?",
-     "u": "https://www.ole.com.ar/futbol-primera/necesita-boca-argentinos-central-campeon_0_cw8zVNsk4f.html",
+     "t": "Antes de la clasificación, Franco Colapinto afrontará la última práctica en el Gran Premio de Brasil de Fórmula 1: hora y todo lo que hay que saber",
+     "u": "https://www.infobae.com/deportes/2026/11/07/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-en-el-gran-premio-de-brasil-de-formula-1-hora-y-todo-lo-que-hay-que-saber/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Franco Colapinto EN VIVO en el GP de Brasil: a qué hora corre y por dónde ver la F1",
+     "u": "https://www.ole.com.ar/autos/franco-colapinto-vivo-gran-premio-brasil-formula-1-hora-ver-tv-online_0_xcrsUrXyMY.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "En un partidazo, Banfield remontó ante Atlético Tucumán, empataron 2-2 y cerraron sus participaciones en el Clausura",
-     "u": "https://www.ole.com.ar/futbol-primera/banfield-atletico-tucuman-torneo-clausura_0_ht9YYmZDBa.html",
+     "t": "Video: la gran definición de Rodrigo Castillo para Fluminense",
+     "u": "https://www.ole.com.ar/futbol-internacional/brasileirao-rodrigo-castillo-fluminense-gol_0_wdm1nQc1Wj.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,61 +237,61 @@
    },
    "noticias": [
     {
-     "t": "Vainqueur du choc face à Oyonnax, Provence Rugby prend les commandes de la Pro D2",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Vainqueur-du-choc-face-a-oyonnax-provence-rugby-prend-les-commandes-de-la-pro-d2/1741819#at_medium=RSS_feeds",
+     "t": "La FFT officialise la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/La-fft-officialise-la-nomination-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741876#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": true
     },
     {
-     "t": "Où en serait la France à l'indice UEFA sans le PSG, son club le plus performant ?",
-     "u": "https://www.lequipe.fr/Football/Article/Ou-en-serait-la-france-a-l-indice-uefa-sans-le-psg-son-club-le-plus-performant/1741851#at_medium=RSS_feeds",
+     "t": "Gaël Monfils très bientôt nommé capitaine de l'équipe de France de Coupe Davis ?",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Gael-monfils-tres-bientot-nomme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741870#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": false
+     "alta": true
     }
    ]
   }
  ],
  "destaques": [
   {
-   "t": "Reis de Copas? Atlético-MG x Grêmio marca duelo entre técnicos especialistas em mata-matas",
-   "u": "https://ge.globo.com/mg/futebol/copa-do-brasil/noticia/2026/11/07/reis-de-copas-atletico-mg-x-gremio-marca-duelo-entre-tecnicos-especialistas-em-mata-matas.ghtml",
+   "t": "Classificação do segundo turno: Flamengo segue líder, Inter passa o Grêmio, e Corinthians fica em 20º",
+   "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/07/classificacao-do-segundo-turno-flamengo-segue-lider-inter-passa-o-gremio-e-corinthians-fica-em-20o.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Verstappen can benefit from Red Bull’s smart choice, Norris shows alternative",
-   "u": "https://sports.yahoo.com/articles/verstappen-benefit-red-bull-smart-060300827.html",
+   "t": "👕 This week's new kits: Real Madrid, Bayern, Palmeiras and more; photos",
+   "u": "https://sports.yahoo.com/articles/weeks-kits-real-madrid-bayern-130400845.html",
    "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "NBA volta a equacionar redução do tempo de jogo",
-   "u": "https://www.abola.pt/noticias/nba-volta-a-equacionar-reducao-do-tempo-de-jogo-2026110616310589209",
-   "f": "A Bola",
-   "alta": false,
+   "t": "Vasco Peso sagra-se campeão do Mundo de tumbling",
+   "u": "https://www.record.pt/modalidades/ginastica/detalhe/vasco-peso-sagra-se-campeao-do-mundo-de-tumbling",
+   "f": "Record",
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "El Atleti ya conoce fecha y hora de su partido frente al Barça en el Camp Nou",
-   "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261106/1004248043/atleti-conoce-fecha-hora-partido-elche-camp-nou.html",
+   "t": "\"¿El PSG? Sería un sueño, está a la altura de Barça, Real Madrid o Arsenal\"",
+   "u": "https://www.mundodeportivo.com/futbol/bundesliga/20261107/1004248215/psg-seria-sueno-altura-barca-real-madrid-arsenal.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Nations championship, Rugby League World Cup and NFL action – follow with us",
+   "t": "Nations Championship, Rugby League World Cup and NFL action – follow with us",
    "u": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-rugby-league-world-cup-and-nfl-action-follow-with-us",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "El mensaje de Miguel Merentiel que hizo emocionar a Leandro Paredes en medio de las finales que afrontará Boca Juniors",
-   "u": "https://www.infobae.com/deportes/2026/11/07/el-mensaje-de-miguel-merentiel-que-hizo-emocionar-a-leandro-paredes-en-medio-de-las-finales-que-afrontara-boca-juniors/",
+   "t": "Los Pumas perdieron 42-12 con Irlanda en Dublín por el Nations Championship",
+   "u": "https://www.infobae.com/deportes/2026/11/06/los-pumas-enfrentaran-a-irlanda-por-el-nations-championship-hora-tv-y-formaciones/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Vainqueur du choc face à Oyonnax, Provence Rugby prend les commandes de la Pro D2",
-   "u": "https://www.lequipe.fr/Rugby/Actualites/Vainqueur-du-choc-face-a-oyonnax-provence-rugby-prend-les-commandes-de-la-pro-d2/1741819#at_medium=RSS_feeds",
+   "t": "La FFT officialise la nomination de Gaël Monfils comme capitaine de l'équipe de France de Coupe Davis",
+   "u": "https://www.lequipe.fr/Tennis/Actualites/La-fft-officialise-la-nomination-de-gael-monfils-comme-capitaine-de-l-equipe-de-france-de-coupe-davis/1741876#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": true,
    "pais": "FR"
