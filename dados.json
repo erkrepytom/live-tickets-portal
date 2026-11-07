@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07T00:09:43+00:00",
+ "atualizado": "2026-11-07T06:12:34+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,6 +11,18 @@
    },
    "noticias": [
     {
+     "t": "Reis de Copas? Atlético-MG x Grêmio marca duelo entre técnicos especialistas em mata-matas",
+     "u": "https://ge.globo.com/mg/futebol/copa-do-brasil/noticia/2026/11/07/reis-de-copas-atletico-mg-x-gremio-marca-duelo-entre-tecnicos-especialistas-em-mata-matas.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Atlético-MG x Grêmio: onde assistir ao vivo, horário e escalações",
+     "u": "https://ge.globo.com/mg/futebol/copa-do-brasil/noticia/2026/11/07/atletico-mg-x-gremio-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
      "t": "Atlético-MG x Grêmio pela Copa do Brasil: onde assistir, estatísticas, histórico e prováveis escalações",
      "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/atletico-mg-x-gremio-pela-copa-do-brasil-onde-assistir-estatisticas-historico-e-provaveis-escalacoes/",
      "f": "Gazeta Esportiva",
@@ -20,18 +32,6 @@
      "t": "Palmeiras x Estudiantes: Conmebol anuncia data para nova venda de ingressos para final da Libertadores",
      "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/palmeiras-estudiantes-conmebol-venda-ingressos-final-libertadores/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Palmeiras x Estudiantes: Conmebol anuncia nova venda de ingressos para setor misto na Libertadores",
-     "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/06/palmeiras-x-estudiantes-conmebol-anuncia-nova-venda-de-ingressos-para-torcida-mista.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Rivais no futebol, Brasil e Argentina se unem na admiração por Senna na F1",
-     "u": "https://ge.globo.com/motor/formula-1/noticia/2026/11/06/rivais-no-futebol-brasil-e-argentina-se-unem-na-admiracao-por-senna-na-f1.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for Cavaliers-76ers, NBA, Nevada-New Mexico Friday",
-     "u": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-cavaliers-76ers-nba-nevada-new-mexico-friday/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Use DraftKings promo code to get $200 bonus + NBA League Pass for Cavaliers-76ers, NBA, New Mexico-Nevada",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-nba-league-pass-cavaliers-76ers-nba-new-mexico-nevada/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Horacio Llamas talks Michael Jordan, Karim López, and his historic career ahead of the NBA Mexico City Game",
-     "u": "https://sports.yahoo.com/articles/horacio-llamas-talks-michael-jordan-234642428.html",
+     "t": "Verstappen can benefit from Red Bull’s smart choice, Norris shows alternative",
+     "u": "https://sports.yahoo.com/articles/verstappen-benefit-red-bull-smart-060300827.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Boris Becker suggests he could return to coaching on the ATP Tour after ‘several inquiries’ made",
-     "u": "https://sports.yahoo.com/articles/boris-becker-suggests-could-return-000000736.html",
+     "t": "NBA player props, odds, picks: Jayson Tatum, Donovan Mitchell among best bets for Friday, Nov. 6",
+     "u": "https://www.cbssports.com/betting/news/nba-player-props-odds-picks-jayson-tatum-donovan-mitchell-among-best-bets-friday/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "76ers vs. Cavaliers predictions, odds, line: Proven model reveals NBA Cup picks for Friday, Nov. 6",
+     "u": "https://www.cbssports.com/betting/news/76ers-cavaliers-predictions-odds-line-proven-model-reveals-2026-nba-cup-picks-best-bets-friday-november-6/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Week 11 West Texas, Concho Valley, San Angelo high school football results",
+     "u": "https://sports.yahoo.com/articles/week-11-west-texas-concho-060429011.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,15 +79,9 @@
    },
    "noticias": [
     {
-     "t": "Mafalda Rosa oitava na Taça do Mundo de águas abertas no México",
-     "u": "https://www.record.pt/modalidades/natacao/detalhe/mafalda-rosa-oitava-na-taca-do-mundo-de-aguas-abertas-no-mexico",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Desabamento de prédio em São Paulo faz dezenas de feridos",
-     "u": "https://www.record.pt/fora-de-campo/detalhe/desabamento-de-predio-em-sao-paulo-faz-dezenas-de-feridos",
-     "f": "Record",
+     "t": "NBA volta a equacionar redução do tempo de jogo",
+     "u": "https://www.abola.pt/noticias/nba-volta-a-equacionar-reducao-do-tempo-de-jogo-2026110616310589209",
+     "f": "A Bola",
      "alta": false
     },
     {
@@ -97,9 +91,15 @@
      "alta": false
     },
     {
-     "t": "Sporting: e se o projeto se chamava Ruben Amorim?",
-     "u": "https://www.abola.pt/noticias/sporting-e-se-o-projeto-se-chamava-ruben-amorim-2026110416020934371",
-     "f": "A Bola",
+     "t": "Martin Turk evitou descalabro com o FC Porto e pode manter-se na baliza do Estoril",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/estoril/detalhe/martin-turk-evitou-descalabro-com-o-fc-porto-e-pode-manter-se-na-baliza",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Desabamento de prédio em São Paulo faz dezenas de feridos",
+     "u": "https://www.record.pt/fora-de-campo/detalhe/desabamento-de-predio-em-sao-paulo-faz-dezenas-de-feridos",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -181,8 +181,8 @@
    },
    "noticias": [
     {
-     "t": "Sorpresa tras la investigación que realizó Cadillac por el extraño accidente que sufrió Valtteri Bottas en la Fórmula 1",
-     "u": "https://www.infobae.com/deportes/2026/11/06/sorpresa-tras-la-investigacion-que-realizo-cadillac-por-el-extrano-accidente-que-sufrio-valtteri-bottas-en-la-formula-1/",
+     "t": "El mensaje de Miguel Merentiel que hizo emocionar a Leandro Paredes en medio de las finales que afrontará Boca Juniors",
+     "u": "https://www.infobae.com/deportes/2026/11/07/el-mensaje-de-miguel-merentiel-que-hizo-emocionar-a-leandro-paredes-en-medio-de-las-finales-que-afrontara-boca-juniors/",
      "f": "Infobae",
      "alta": true
     },
@@ -193,14 +193,14 @@
      "alta": false
     },
     {
-     "t": "El equipo de la Primera Nacional que busca el ascenso y comparte récord con Boca",
-     "u": "https://www.ole.com.ar/futbol-ascenso/tristan-suarez-boca-juniors-ascenso-descenso-godoy-cruz_0_ulTreHLNft.html",
+     "t": "¿Qué necesitan Boca, Argentinos y Central para ser Campeón de Liga?",
+     "u": "https://www.ole.com.ar/futbol-primera/necesita-boca-argentinos-central-campeon_0_cw8zVNsk4f.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "El primer título del año: Boca va por la tabla Anual y el adiós a la sequía",
-     "u": "https://www.ole.com.ar/boca-juniors/1300-dias-despues-boca-paso-volver-campeon_0_nETAo94icy.html",
+     "t": "En un partidazo, Banfield remontó ante Atlético Tucumán, empataron 2-2 y cerraron sus participaciones en el Clausura",
+     "u": "https://www.ole.com.ar/futbol-primera/banfield-atletico-tucuman-torneo-clausura_0_ht9YYmZDBa.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Vasseur recadre Hamilton et Leclerc",
-     "u": "https://www.lequipe.fr/Formule-1/Article/-la-regle-d-or-reste-la-meme-tout-est-base-sur-le-respect-frederic-vasseur-recadre-lewis-hamilton-et-charles-leclerc-avant-le-gp-du-bresil/1741800#at_medium=RSS_feeds",
+     "t": "Vainqueur du choc face à Oyonnax, Provence Rugby prend les commandes de la Pro D2",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Vainqueur-du-choc-face-a-oyonnax-provence-rugby-prend-les-commandes-de-la-pro-d2/1741819#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Première victoire de la saison pour l'équipe de France, qui domine la Slovénie en Coupe d'Europe des Nations",
-     "u": "https://www.lequipe.fr/Hockey-sur-glace/Actualites/Premiere-victoire-de-la-saison-pour-l-equipe-de-france-qui-domine-la-slovenie-en-coupe-d-europe-des-nations/1741820#at_medium=RSS_feeds",
+     "t": "Où en serait la France à l'indice UEFA sans le PSG, son club le plus performant ?",
+     "u": "https://www.lequipe.fr/Football/Article/Ou-en-serait-la-france-a-l-indice-uefa-sans-le-psg-son-club-le-plus-performant/1741851#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,23 +253,23 @@
  ],
  "destaques": [
   {
-   "t": "Atlético-MG x Grêmio pela Copa do Brasil: onde assistir, estatísticas, histórico e prováveis escalações",
-   "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/atletico-mg-x-gremio-pela-copa-do-brasil-onde-assistir-estatisticas-historico-e-provaveis-escalacoes/",
-   "f": "Gazeta Esportiva",
+   "t": "Reis de Copas? Atlético-MG x Grêmio marca duelo entre técnicos especialistas em mata-matas",
+   "u": "https://ge.globo.com/mg/futebol/copa-do-brasil/noticia/2026/11/07/reis-de-copas-atletico-mg-x-gremio-marca-duelo-entre-tecnicos-especialistas-em-mata-matas.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for Cavaliers-76ers, NBA, Nevada-New Mexico Friday",
-   "u": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-cavaliers-76ers-nba-nevada-new-mexico-friday/",
-   "f": "CBS Sports",
+   "t": "Verstappen can benefit from Red Bull’s smart choice, Norris shows alternative",
+   "u": "https://sports.yahoo.com/articles/verstappen-benefit-red-bull-smart-060300827.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Mafalda Rosa oitava na Taça do Mundo de águas abertas no México",
-   "u": "https://www.record.pt/modalidades/natacao/detalhe/mafalda-rosa-oitava-na-taca-do-mundo-de-aguas-abertas-no-mexico",
-   "f": "Record",
+   "t": "NBA volta a equacionar redução do tempo de jogo",
+   "u": "https://www.abola.pt/noticias/nba-volta-a-equacionar-reducao-do-tempo-de-jogo-2026110616310589209",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
@@ -288,8 +288,8 @@
    "pais": "GB"
   },
   {
-   "t": "Sorpresa tras la investigación que realizó Cadillac por el extraño accidente que sufrió Valtteri Bottas en la Fórmula 1",
-   "u": "https://www.infobae.com/deportes/2026/11/06/sorpresa-tras-la-investigacion-que-realizo-cadillac-por-el-extrano-accidente-que-sufrio-valtteri-bottas-en-la-formula-1/",
+   "t": "El mensaje de Miguel Merentiel que hizo emocionar a Leandro Paredes en medio de las finales que afrontará Boca Juniors",
+   "u": "https://www.infobae.com/deportes/2026/11/07/el-mensaje-de-miguel-merentiel-que-hizo-emocionar-a-leandro-paredes-en-medio-de-las-finales-que-afrontara-boca-juniors/",
    "f": "Infobae",
    "alta": true,
    "pais": "AR"
@@ -302,10 +302,10 @@
    "pais": "IT"
   },
   {
-   "t": "Vasseur recadre Hamilton et Leclerc",
-   "u": "https://www.lequipe.fr/Formule-1/Article/-la-regle-d-or-reste-la-meme-tout-est-base-sur-le-respect-frederic-vasseur-recadre-lewis-hamilton-et-charles-leclerc-avant-le-gp-du-bresil/1741800#at_medium=RSS_feeds",
+   "t": "Vainqueur du choc face à Oyonnax, Provence Rugby prend les commandes de la Pro D2",
+   "u": "https://www.lequipe.fr/Rugby/Actualites/Vainqueur-du-choc-face-a-oyonnax-provence-rugby-prend-les-commandes-de-la-pro-d2/1741819#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": false,
+   "alta": true,
    "pais": "FR"
   }
  ],
