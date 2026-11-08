@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07T21:59:21+00:00",
+ "atualizado": "2026-11-08T01:30:13+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Argentina recorrerá no TAS contra punições da Fifa por incidentes na final da Copa do Mundo",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-mundo/afa-recorrer-tas-punicoes-fifa-final-copa-2026/",
+     "t": "Grêmio elimina Atlético-MG e aguarda vencedor de Vasco x Palmeiras na final da Copa do Brasil",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/gremio-elimina-atletico-semifinal-copa-do-brasil-07-11-2026/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Atlético-MG x Grêmio - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/mg/futebol/copa-do-brasil/jogo/07-11-2026/atletico-mg-gremio.ghtml",
+     "t": "Melhores momentos: Atlético-MG 1 x 1 Grêmio pela Copa do Brasil",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/melhores-momentos-atletico-mg-1-x-1-gremio-pela-copa-do-brasil/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Barba cita erros em eliminação do Atlético-MG e explica Fred no banco contra o Grêmio",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/07/barba-cita-erros-em-eliminacao-do-atletico-mg-e-explica-fred-no-banco-contra-o-gremio.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Atlético-MG x Grêmio: veja fotos do jogo de volta da semifinal da Copa do Brasil",
-     "u": "https://www.gazetaesportiva.com/fotos/atletico-mg-x-gremio-veja-fotos-do-jogo-de-volta-da-semifinal-da-copa-do-brasil/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Festa da torcida do Atlético-MG na Arena MRV atrasa semifinal contra o Grêmio; veja imagens",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/07/festa-da-torcida-do-atletico-mg-na-arena-mrv-atrasa-semifinal-contra-o-gremio-veja-imagens.ghtml",
+     "t": "Vasco ou Palmeiras? Weverton revela preferência por rival do Grêmio na final da Copa do Brasil",
+     "u": "https://ge.globo.com/rs/futebol/copa-do-brasil/noticia/2026/11/07/vasco-ou-palmeiras-weverton-revela-preferencia-por-rival-do-gremio-na-final-da-copa-do-brasil.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
+     "t": "Nuggets hold off Pacers in NBA Mexico City game",
+     "u": "https://sports.yahoo.com/articles/nuggets-hold-off-pacers-nba-010746763.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "MLB rumors: Max Scherzer mulling another season, Ty France drawing interest, top Taiwanese reliever posted",
+     "u": "https://www.cbssports.com/mlb/news/mlb-rumors-free-agency-max-scherzer-ty-france/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "F1 São Paulo Grand Prix starting grid",
+     "u": "https://sports.yahoo.com/articles/f1-o-paulo-grand-prix-010701566.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "NFL survivor pool picks, knockout strategy, advice for Week 9, 2026: Fade the New England Patriots",
      "u": "https://www.cbssports.com/betting/news/nfl-survivor-picks-knockout-pool-strategy-advice-revival-league-advice-for-week-9-2026/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Real Madrid star accused of slapping security official during Valencia clash",
-     "u": "https://sports.yahoo.com/articles/real-madrid-star-accused-slapping-215000197.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Kai Havertz leads the Premier League in offsides as Arsenal pile up infractions in 1-0 win over Hull City",
-     "u": "https://www.cbssports.com/soccer/news/kai-havertz-premier-league-arsenal-1-0-win-hull-city/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Lewis Hamilton opens up on clear-the-air talks with Charles Leclerc after Mexican GP clash",
-     "u": "https://sports.yahoo.com/articles/lewis-hamilton-opens-clear-air-213936049.html",
-     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Rodrigo Mora marca pelo terceiro jogo seguido na Serie A e ajuda Roma a bater o Sassuolo",
-     "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261107-114332-roma-sassuolo-em-direto",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "FC Porto vence Beveren e fica mais perto da Champions",
-     "u": "https://www.abola.pt/noticias/fc-porto-vence-beveren-e-fica-mais-perto-da-champions-2026110522271095909",
+     "t": "Mora ajuda Roma a aproximar-se da liderança da Serie A",
+     "u": "https://www.abola.pt/noticias/mora-ajuda-roma-a-aproximar-se-da-lideranca-da-serie-a-2026110721382745613",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Rodrigo Mora de pé quente antes da Seleção: jovem marcou pelo terceiro jogo seguido na Serie A",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/rodrigo-mora-de-pe-quente-antes-da-selecao-jovem-marcou-pelo-terceiro-jogo-seguido-na-serie-a",
+     "t": "Benfica vence o Sporting com reviravolta e conquista a Supertaça!",
+     "u": "https://www.abola.pt/noticias/benfica-vence-o-sporting-e-conquista-a-supertaca-2026110713412027546",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "A crónica do Benfica-Sporting, 3-2: águia voa mais alto em Santo Tirso",
+     "u": "https://www.record.pt/modalidades/hoquei-em-patins/detalhe/a-cronica-do-benfica-sporting-3-2-aguia-voa-mais-alto-em-santo-tirso",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Benfica imparável, Torreense a sonhar e Amorim… nem por isso: as previsões do supercomputador",
-     "u": "https://www.abola.pt/noticias/benfica-imparavel-torreense-a-sonhar-e-amorim-nem-por-isso-as-previsoes-do-supercomputador-2026110523151862442",
-     "f": "A Bola",
+     "t": "Benfica bate Atlético e reforça liderança da Liga feminina",
+     "u": "https://www.record.pt/futebol/futsal/detalhe/benfica-bate-atletico-e-reforca-lideranca-da-liga-feminina",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -119,6 +119,12 @@
      "alta": false
     },
     {
+     "t": "0-3: Triunfo fácil del Real Madrid en Valencia",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261107/1004248458/triunfo-facil-real-madrid-valencia.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "Hezonja se aferra a la NBA",
      "u": "https://www.marca.com/baloncesto/nba/2026/11/06/hezonja-aferra-nba.html",
      "f": "Marca",
@@ -128,12 +134,6 @@
      "t": "Gustavo Varela: de jugar contra su padre a 'Pichichi' de la Serie A... ¿y sustituto de Cristiano en Portugal?",
      "u": "https://www.marca.com/futbol/liga-italiana/2026/11/06/gustavo-varela-jugar-padre-pichichi-serie-sustituto-cristiano-portugal.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Lío en los vestuarios de Mestalla en el descanso del Valencia-Real Madrid",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261107/1004248435/lio-vestuarios-mestalla-descanso-valencia-real-madrid.html",
-     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "Nations Championship, Rugby League World Cup and NFL action – follow with us",
-     "u": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-rugby-league-world-cup-and-nfl-action-follow-with-us",
+     "t": "Can Verstappen, Hamilton come from the back in Sao Paulo 'reverse grid' race?",
+     "u": "https://www.skysports.com/f1/news/12040/13609205/sao-paulo-gp-can-max-verstappen-lewis-hamilton-come-from-the-back-again-as-lando-norris-hopes-for-rain-to-fight-kimi-antonelli",
+     "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Lando Norris claims F1 São Paulo GP pole as ‘crazy’ rain disrupts qualifying",
+     "u": "https://www.theguardian.com/sport/2026/nov/07/lando-norris-claims-pole-for-f1-sao-paulo-gp-as-rain-disrupts-qualifying",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Lando Norris claims F1 São Paulo GP pole as heavy rain disrupts qualifying",
-     "u": "https://www.theguardian.com/sport/2026/nov/07/lando-norris-claims-pole-for-f1-sao-paulo-gp-as-rain-disrupts-qualifying",
+     "t": "European football: Mbappé eases Real Madrid past Valencia to move joint top",
+     "u": "https://www.theguardian.com/football/2026/nov/07/european-football-bayern-beat-mainz-but-neuers-record-breaking-day-turns-sour",
      "f": "The Guardian",
      "alta": false
     },
     {
      "t": "Norris claims Sao Paulo GP pole after treacherous rain-hit qualifying",
      "u": "https://www.skysports.com/f1/news/12040/13609197/sao-paulo-gp-qualifying-lando-norris-claims-rain-hit-pole-in-wild-conditions-with-lewis-hamilton-max-verstappen-to-start-at-back",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "Sao Paulo Grand Prix - Qualifying Highlights",
-     "u": "https://www.skysports.com/watch/video/13609562/sao-paulo-grand-prix-qualifying-highlights",
      "f": "Sky Sports",
      "alta": false
     }
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Los Pumas perdieron 42-12 con Irlanda en Dublín por el Nations Championship",
-     "u": "https://www.infobae.com/deportes/2026/11/06/los-pumas-enfrentaran-a-irlanda-por-el-nations-championship-hora-tv-y-formaciones/",
+     "t": "Franco Colapinto miró con Bizarrap la emotiva definición que consagró a Boca Juniors campeón de la Liga Profesional",
+     "u": "https://www.infobae.com/deportes/2026/11/08/franco-colapinto-miro-con-bizarrap-la-emotiva-definicion-que-consagro-a-boca-juniors-campeon-de-la-liga-profesional/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Franco Colapinto cerró un primer día positivo en el Gran Premio de Brasil de Fórmula 1 con un 11° lugar",
-     "u": "https://www.infobae.com/deportes/2026/11/06/franco-colapinto-comenzara-su-actividad-en-el-gran-premio-de-brasil-de-formula-1-horarios-y-todo-lo-que-hay-que-saber/",
+     "t": "Las frases del Vasco Arruabarrena tras el título de Boca: de las finales que quedan al festejo de los jugadores que lo sorprendió",
+     "u": "https://www.infobae.com/deportes/2026/11/08/las-frases-del-vasco-arruabarrena-tras-el-titulo-de-boca-de-las-finales-que-quedan-al-festejo-de-los-jugadores-que-lo-sorprendio/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Así quedó la parrilla de salida del GP de Brasil de Fórmula 1",
-     "u": "https://www.ole.com.ar/autos/quedo-parrilla-salida-gp-brasli-formula-1_0_S6HEDyHIvO.html",
+     "t": "El equipo campeón del Vasco Arruabarrena: \"Ganamos a lo Boca\", tercer título como DT y los elogios de sus jugadores",
+     "u": "https://www.ole.com.ar/boca-juniors/vasco-arruabarrena-campeon-boca-juniors-anual-elogios-jugadores_0_2jdV19Ahye.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Messi y su Inter Miami vs. Charlotte por la MLS EN VIVO: gana el local con gol de Fray",
-     "u": "https://www.ole.com.ar/futbol-internacional/mls/inter-miami-vs-charlotte-messi-bota-oro-ultima-fecha-vivo_0_UpSAlxyJ6Z.html",
+     "t": "El cuadro de la MLS y el rival del Inter Miami de Messi: clasificados a playoffs, formato y fechas",
+     "u": "https://www.ole.com.ar/futbol-internacional/mls/cuadro-completo-mls-inter-miami-messi-rival-clasificados-playoffs-formato-fechas_0_FHBeWBBssa.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Lando Norris décroche la pole du Grand Prix du Brésil au terme d'une séance longtemps retardée par la pluie",
-     "u": "https://www.lequipe.fr/Formule-1/Actualites/Lando-norris-decroche-la-pole-du-grand-prix-du-bresil-au-terme-d-une-seance-interrompue-par-la-pluie/1742069#at_medium=RSS_feeds",
+     "t": "L'AS Rome écrase Sassuolo et revient provisoirement à un point de la Lazio, en tête de la Serie A",
+     "u": "https://www.lequipe.fr/Football/Actualites/L-as-rome-ecrase-sassuolo-et-revient-provisoirement-a-un-point-de-la-lazio-en-tete-de-la-serie-a/1742110#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Touché à l'épaule gauche, Romain Ntamack sort sur blessure contre les Fidji à une semaine de France-Afrique du Sud",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Touche-a-l-epaule-gauche-romain-ntamack-sort-sur-blessure-contre-les-fidji/1742083#at_medium=RSS_feeds",
+     "t": "La suite du programme du XV de France en Championnat des nations",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/La-suite-du-programme-du-xv-de-france-en-championnat-des-nations/1742138#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,23 +253,23 @@
  ],
  "destaques": [
   {
-   "t": "Argentina recorrerá no TAS contra punições da Fifa por incidentes na final da Copa do Mundo",
-   "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-mundo/afa-recorrer-tas-punicoes-fifa-final-copa-2026/",
+   "t": "Grêmio elimina Atlético-MG e aguarda vencedor de Vasco x Palmeiras na final da Copa do Brasil",
+   "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/gremio-elimina-atletico-semifinal-copa-do-brasil-07-11-2026/",
    "f": "Gazeta Esportiva",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "NFL survivor pool picks, knockout strategy, advice for Week 9, 2026: Fade the New England Patriots",
-   "u": "https://www.cbssports.com/betting/news/nfl-survivor-picks-knockout-pool-strategy-advice-revival-league-advice-for-week-9-2026/",
-   "f": "CBS Sports",
+   "t": "Nuggets hold off Pacers in NBA Mexico City game",
+   "u": "https://sports.yahoo.com/articles/nuggets-hold-off-pacers-nba-010746763.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Rodrigo Mora marca pelo terceiro jogo seguido na Serie A e ajuda Roma a bater o Sassuolo",
-   "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261107-114332-roma-sassuolo-em-direto",
-   "f": "Record",
+   "t": "Mora ajuda Roma a aproximar-se da liderança da Serie A",
+   "u": "https://www.abola.pt/noticias/mora-ajuda-roma-a-aproximar-se-da-lideranca-da-serie-a-2026110721382745613",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
@@ -281,15 +281,15 @@
    "pais": "ES"
   },
   {
-   "t": "Nations Championship, Rugby League World Cup and NFL action – follow with us",
-   "u": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-rugby-league-world-cup-and-nfl-action-follow-with-us",
-   "f": "The Guardian",
+   "t": "Can Verstappen, Hamilton come from the back in Sao Paulo 'reverse grid' race?",
+   "u": "https://www.skysports.com/f1/news/12040/13609205/sao-paulo-gp-can-max-verstappen-lewis-hamilton-come-from-the-back-again-as-lando-norris-hopes-for-rain-to-fight-kimi-antonelli",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Los Pumas perdieron 42-12 con Irlanda en Dublín por el Nations Championship",
-   "u": "https://www.infobae.com/deportes/2026/11/06/los-pumas-enfrentaran-a-irlanda-por-el-nations-championship-hora-tv-y-formaciones/",
+   "t": "Franco Colapinto miró con Bizarrap la emotiva definición que consagró a Boca Juniors campeón de la Liga Profesional",
+   "u": "https://www.infobae.com/deportes/2026/11/08/franco-colapinto-miro-con-bizarrap-la-emotiva-definicion-que-consagro-a-boca-juniors-campeon-de-la-liga-profesional/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Lando Norris décroche la pole du Grand Prix du Brésil au terme d'une séance longtemps retardée par la pluie",
-   "u": "https://www.lequipe.fr/Formule-1/Actualites/Lando-norris-decroche-la-pole-du-grand-prix-du-bresil-au-terme-d-une-seance-interrompue-par-la-pluie/1742069#at_medium=RSS_feeds",
+   "t": "L'AS Rome écrase Sassuolo et revient provisoirement à un point de la Lazio, en tête de la Serie A",
+   "u": "https://www.lequipe.fr/Football/Actualites/L-as-rome-ecrase-sassuolo-et-revient-provisoirement-a-un-point-de-la-lazio-en-tete-de-la-serie-a/1742110#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
