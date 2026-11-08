@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-08T16:04:18+00:00",
+ "atualizado": "2026-11-08T20:35:46+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Manchester United x Aston Villa - Campeonato Inglês 2026/27 - globoesporte.com",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/08-11-2026/Manchesterunited-Astonvilla.ghtml",
+     "t": "Vasco x Palmeiras - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/rj/futebol/copa-do-brasil/jogo/08-11-2026/vasco-palmeiras.ghtml",
      "f": "ge",
      "alta": true
     },
     {
-     "t": "Veja fotos dos famosos que acompanharam o Grande Prêmio de São Paulo de Fórmula 1",
-     "u": "https://www.gazetaesportiva.com/motor/formula-1/veja-fotos-dos-famosos-que-acompanharam-o-grande-premio-de-sao-paulo-de-formula-1/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Santos pode contar com ajuda do rival Palmeiras para ir à Libertadores",
-     "u": "https://www.gazetaesportiva.com/times/santos/santos-pode-contar-com-ajuda-do-rival-palmeiras-para-ir-a-libertadores/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Campeões do UCI Gran Fondo em Timbó garantem vaga no mundial da França; confira os pódios",
-     "u": "https://ge.globo.com/sc/ciclismo/noticia/2026/11/08/veja-os-campeoes-e-classificados-ao-mundial-do-uci-gran-fondo-em-timbo.ghtml",
+     "t": "Gallardo convoca Equador com jogadores de Flamengo, Atlético-MG, Cruzeiro e Inter",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/gallardo-convoca-equador-pela-primeira-vez-com-jogadores-de-flamengo-e-atletico-mg.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Palmeiras repete time do jogo de ida para buscar vaga na final contra o Vasco; veja escalações",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/escalacoes-vasco-palmeiras-semifinal-copa-do-brasil-08-11-2026/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Norris vence em Interlagos e Verstappen sai de 21º para 2º; brasileiros são discretos",
+     "u": "https://www.gazetaesportiva.com/motor/formula-1/norris-vence-em-interlagos-e-verstappen-sai-de-21o-para-2o-brasileiros-sao-discretos/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "NFL survivor pool picks, knockout strategy, advice for Week 9, 2026: Fade the New England Patriots",
-     "u": "https://www.cbssports.com/betting/news/nfl-survivor-picks-knockout-pool-strategy-advice-revival-league-advice-for-week-9-2026/",
+     "t": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Packers-Patriots, Bears-Buccaneers, NFL",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-packers-patriots-bears-buccaneers-nfl/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Panthers-Broncos, Packers-Patriots, NFL",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-panthers-broncos-packers-patriots-nfl/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Should you start any Vikings WR in fantasy football in Week 9?",
-     "u": "https://sports.yahoo.com/articles/start-vikings-wr-fantasy-football-155529343.html",
+     "t": "Arsenal Are Set To Rival Manchester United For This Bournemouth Talent: Good Option For Arteta?",
+     "u": "https://sports.yahoo.com/articles/arsenal-set-rival-manchester-united-202000288.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "betPARX Promo Code YAHOOBONUS: Bet $25, Get $50 in Bonus Bets for NFL Sunday Week 9",
-     "u": "https://sports.yahoo.com/betting/promos/article/betparx-promo-code-yahoobonus-bet-25-get-50-in-bonus-bets-for-nfl-sunday-week-9-155500432.html",
+     "t": "NFL DFS, Bears vs. Buccaneers: Top daily Fantasy picks, lineups, advice for 'Sunday Night Football'",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-bears-buccaneers-daily-fantasy-picks-draftkings-fanduel-lineups-sunday-night-football/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Packers vs. Patriots live updates, inactives, where to watch: A.J. Brown, TreVeyon Henderson out for New England as Jordan Love, Drake Maye face off i",
+     "u": "https://sports.yahoo.com/nfl/live/packers-patriots-score-live-updates-inactives-news-stats-where-to-watch-week-9-202219312.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Sunderland-Chelsea, em direto",
-     "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261108-125359-sunderland-chelsea-em-direto",
+     "t": "Serie A: Inter abana o Como, regressa às vitórias e aproxima-se do topo",
+     "u": "https://www.abola.pt/noticias/serie-a-inter-abana-o-como-regressa-as-vitorias-e-aproxima-se-do-topo-2026110819065675503",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Rui Borges 'regressa' ao futebol para ver o filho após deixar o Sporting",
+     "u": "https://www.abola.pt/noticias/rui-borges-regressa-ao-futebol-para-ver-o-filho-apos-deixar-o-sporting-2026110817113455356",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Atlético Madrid-Barcelona, em direto",
+     "u": "https://www.record.pt/internacional/paises/espanha/detalhe/20261108-131641-atletico-madrid-barcelona-em-direto",
      "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "A classificação da Serie A em 2026/27 atualizada",
-     "u": "https://www.abola.pt/noticias/a-classificacao-da-serie-a-em-202627-atualizada-2026090912123806404",
-     "f": "A Bola",
      "alta": false
     },
     {
-     "t": "«O jogo com o FC Porto é vital para o Sporting»",
-     "u": "https://www.abola.pt/video/o-jogo-com-o-fc-porto-e-vital-para-o-sporting-2026110723292984075",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Feyenoord perde e tem liderança da Liga holandesa em risco antes do jogo com o FC Porto",
-     "u": "https://www.record.pt/internacional/detalhe/feyenoord-perde-e-tem-lideranca-da-liga-holandesa-em-risco-antes-do-jogo-com-o-fc-porto",
+     "t": "Fu Yu e o par Marcos Freitas/Tiago Apolónia campeões no WTT Feeder de Vila Nova de Gaia em ténis de mesa",
+     "u": "https://www.record.pt/modalidades/tenis-de-mesa/detalhe/fu-yu-e-o-par-marcos-freitas-tiago-apolonia-campeoes-no-wtt-feeder-de-vila-nova-de-gaia-em-tenis-de-mesa",
      "f": "Record",
      "alta": false
     }
@@ -113,8 +113,14 @@
    },
    "noticias": [
     {
-     "t": "El posible once del Barça ante el Atlético en el Metropolitano",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261108/1004248453/posible-once-barca-atletico-metropolitano.html",
+     "t": "Ya hay once del Atlético para medirse al Barça",
+     "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261108/1004248742/hay-once-atletico-medirse-barca.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Norris triunfa en la locura de Interlagos, Verstappen remonta y Alonso se luce, sin premio",
+     "u": "https://www.mundodeportivo.com/motor/f1/20261108/1004248757/norris-triunfa-locura-interlagos-verstappen-remonta-alonso-luce-premio.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -122,12 +128,6 @@
      "t": "La federación internacional prohíbe a Bielorrusia disputar el Mundial",
      "u": "https://www.marca.com/deportes-invierno/2026/11/07/federacion-internacional-prohibe-bielorrusia-disputar-mundial.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Iker Casillas se enfada y saca a sus hijos de la cantera del Real Madrid",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261108/1004248556/iker-casillas-enfada-saca-hijos-cantera-real-madrid.html",
-     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Sao Paulo GP: Norris on pole as rain arrives with Hamilton and Verstappen at back LIVE!",
-     "u": "https://www.skysports.com/f1/live-blog/12040/13608639/f1-sao-paulo-gp-live-race-updates-results-stream-and-highlights-from-20th-round-of-2026-formula-1-season-in-brazil-at-interlagos",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "England v Australia: Nations Championship – rugby union live",
-     "u": "https://www.theguardian.com/sport/live/2026/nov/08/england-v-australia-nations-championship-rugby-union-live",
+     "t": "Dominant Lando Norris powers to victory in São Paulo F1 Grand Prix",
+     "u": "https://www.theguardian.com/sport/2026/nov/08/lando-norris-wins-f1-sao-paulo-grand-prix-max-verstappen-kimi-antonelli-lewis-hamilton-mercedes",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Crystal Palace v Liverpool, Sunderland v Chelsea, and more: Premier League – live",
-     "u": "https://www.theguardian.com/football/live/2026/nov/08/crystal-palace-v-liverpool-brighton-v-brentford-and-more-premier-league-live",
+     "t": "Lando Norris claims F1 São Paulo GP pole as ‘crazy’ rain disrupts qualifying",
+     "u": "https://www.theguardian.com/sport/2026/nov/07/lando-norris-claims-pole-for-f1-sao-paulo-gp-as-rain-disrupts-qualifying",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Man City latest: Brighton more likely to challenge Arsenal for title, says Redknapp",
-     "u": "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+     "t": "Norris wins wet Sao Paulo GP as Mercedes seal constructors' title",
+     "u": "https://www.skysports.com/f1/news/12040/13609694/sao-paulo-gp-lando-norris-wins-wet-race-for-mclaren-as-mercedes-seal-2026-f1-constructors-championship-in-brazil",
      "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Struggling Sunderland beat Chelsea to move off bottom of Premier League",
+     "u": "https://www.bbc.co.uk/sport/football/videos/c64g1nj4v4rmo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Colapinto se benefició con una sanción a otro piloto y largará 14° el Gran Premio de Brasil de la Fórmula 1: todo lo que hay que saber",
-     "u": "https://www.infobae.com/deportes/2026/11/08/franco-colapinto-largara-desde-el-puesto-15-el-gran-premio-de-brasil-de-la-formula-1-todo-lo-que-hay-que-saber/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
      "t": "Lionel Messi logró un nuevo récord en su carrera en el fútbol tras marcar 26 goles para el Inter Miami en la MLS",
      "u": "https://www.infobae.com/deportes/2026/11/08/lionel-messi-logro-un-nuevo-record-en-su-carrera-en-el-futbol-tras-marcar-26-goles-para-el-inter-miami-en-la-mls/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El récord mundial que rompió Boca tras consagrarse Campeón de Liga",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-enner-valencia-gol-agonico-campeon-liga-record-mundial_0_oIEyteEAg5.html",
+     "t": "Franco Colapinto finalizó 13° en el Gran Premio de Brasil, que ganó Lando Norris",
+     "u": "https://www.infobae.com/deportes/2026/11/08/franco-colapinto-largara-desde-el-puesto-15-el-gran-premio-de-brasil-de-la-formula-1-todo-lo-que-hay-que-saber/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Así quedaron las posiciones de la Fórmula 1 tras el GP de Brasil",
+     "u": "https://www.ole.com.ar/autos/quedaron-posiciones-formula-1-gran-premio-brasil-f1-mercedes-campeon-antonelli-colapinto_0_5jpfmkWXwS.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Úbeda y los otros nueve campeones en el título de Boca en la Tabla Anual",
-     "u": "https://www.ole.com.ar/boca-juniors/claudio-ubeda-jugadores-campeones-boca-tabla-anual_0_RtMqzdMR83.html",
+     "t": "El agradecimiento de Aranda a Messi tras ser campeón con Boca",
+     "u": "https://www.ole.com.ar/boca-juniors/agradecimiento-aranda-messi-campeon-boca_0_v9c12kdZdq.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "La Lazio Rome, leader de Serie A, freinée sur la pelouse du Napoli",
-     "u": "https://www.lequipe.fr/Football/Actualites/La-lazio-rome-leader-de-serie-a-freinee-sur-la-pelouse-du-napoli/1742214#at_medium=RSS_feeds",
+     "t": "Une semaine au show et Alcaraz a fini par briser sa malédiction",
+     "u": "https://www.lequipe.fr/Tennis/Article/Du-show-et-du-jeu-pour-le-bonheur-du-public-carlos-alcaraz-a-fini-par-briser-sa-malediction-au-rolex-paris-masters/1742334#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Lille s'impose à Rennes avec un grand Soriba Diaoune et est à nouveau dauphin du PSG en Ligue 1",
-     "u": "https://www.lequipe.fr/Football/Actualites/Lille-s-impose-a-rennes-avec-un-grand-soriba-diaoune-et-est-a-nouveau-dauphin-du-psg-en-ligue-1/1742231#at_medium=RSS_feeds",
+     "t": "Paul Boudehent forfait à son tour pour l'Afrique du Sud, remplacé par Paul Gabrillagues",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Paul-boudehent-forfait-a-son-tour-pour-l-afrique-du-sud-remplace-par-paul-gabrillagues/1742335#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,43 +253,43 @@
  ],
  "destaques": [
   {
-   "t": "Manchester United x Aston Villa - Campeonato Inglês 2026/27 - globoesporte.com",
-   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/08-11-2026/Manchesterunited-Astonvilla.ghtml",
+   "t": "Vasco x Palmeiras - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
+   "u": "https://ge.globo.com/rj/futebol/copa-do-brasil/jogo/08-11-2026/vasco-palmeiras.ghtml",
    "f": "ge",
    "alta": true,
    "pais": "BR"
   },
   {
-   "t": "NFL survivor pool picks, knockout strategy, advice for Week 9, 2026: Fade the New England Patriots",
-   "u": "https://www.cbssports.com/betting/news/nfl-survivor-picks-knockout-pool-strategy-advice-revival-league-advice-for-week-9-2026/",
+   "t": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Packers-Patriots, Bears-Buccaneers, NFL",
+   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-packers-patriots-bears-buccaneers-nfl/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Sunderland-Chelsea, em direto",
-   "u": "https://www.record.pt/internacional/paises/inglaterra/detalhe/20261108-125359-sunderland-chelsea-em-direto",
-   "f": "Record",
-   "alta": true,
+   "t": "Serie A: Inter abana o Como, regressa às vitórias e aproxima-se do topo",
+   "u": "https://www.abola.pt/noticias/serie-a-inter-abana-o-como-regressa-as-vitorias-e-aproxima-se-do-topo-2026110819065675503",
+   "f": "A Bola",
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "El posible once del Barça ante el Atlético en el Metropolitano",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261108/1004248453/posible-once-barca-atletico-metropolitano.html",
+   "t": "Ya hay once del Atlético para medirse al Barça",
+   "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261108/1004248742/hay-once-atletico-medirse-barca.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Sao Paulo GP: Norris on pole as rain arrives with Hamilton and Verstappen at back LIVE!",
-   "u": "https://www.skysports.com/f1/live-blog/12040/13608639/f1-sao-paulo-gp-live-race-updates-results-stream-and-highlights-from-20th-round-of-2026-formula-1-season-in-brazil-at-interlagos",
-   "f": "Sky Sports",
+   "t": "Dominant Lando Norris powers to victory in São Paulo F1 Grand Prix",
+   "u": "https://www.theguardian.com/sport/2026/nov/08/lando-norris-wins-f1-sao-paulo-grand-prix-max-verstappen-kimi-antonelli-lewis-hamilton-mercedes",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Colapinto se benefició con una sanción a otro piloto y largará 14° el Gran Premio de Brasil de la Fórmula 1: todo lo que hay que saber",
-   "u": "https://www.infobae.com/deportes/2026/11/08/franco-colapinto-largara-desde-el-puesto-15-el-gran-premio-de-brasil-de-la-formula-1-todo-lo-que-hay-que-saber/",
+   "t": "Lionel Messi logró un nuevo récord en su carrera en el fútbol tras marcar 26 goles para el Inter Miami en la MLS",
+   "u": "https://www.infobae.com/deportes/2026/11/08/lionel-messi-logro-un-nuevo-record-en-su-carrera-en-el-futbol-tras-marcar-26-goles-para-el-inter-miami-en-la-mls/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "La Lazio Rome, leader de Serie A, freinée sur la pelouse du Napoli",
-   "u": "https://www.lequipe.fr/Football/Actualites/La-lazio-rome-leader-de-serie-a-freinee-sur-la-pelouse-du-napoli/1742214#at_medium=RSS_feeds",
+   "t": "Une semaine au show et Alcaraz a fini par briser sa malédiction",
+   "u": "https://www.lequipe.fr/Tennis/Article/Du-show-et-du-jeu-pour-le-bonheur-du-public-carlos-alcaraz-a-fini-par-briser-sa-malediction-au-rolex-paris-masters/1742334#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
