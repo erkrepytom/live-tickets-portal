@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09T00:59:58+00:00",
+ "atualizado": "2026-11-09T08:06:59+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -17,21 +17,21 @@
      "alta": false
     },
     {
-     "t": "Com Palmeiras na final, Grêmio terá vaga na fase de grupos da Libertadores se não for rebaixado",
-     "u": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/08/com-palmeiras-na-final-gremio-tera-vaga-na-fase-de-grupos-da-libertadores-se-nao-for-rebaixado.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Barcelona vence o Atlético de Madrid de virada e segue firme na liderança da LaLiga",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/08-11-2026/atleticodemadri-barcelona.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Melhores momentos: Vasco (4) 2 x 1 (5) Palmeiras pela Copa do Brasil",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/melhores-momentos-vasco-4-2-x-1-5-palmeiras-pela-copa-do-brasil/",
+     "t": "Palmeiras x Santos: saiba onde assistir à partida de ida das semifinais do Paulista sub-20",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-x-santos-saiba-onde-assistir-a-partida-de-ida-das-semifinais-do-paulista-sub-20/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Eduardo Baptista abre espaço para a base do Inter, mas apenas três jovens ganham minutos",
+     "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/09/eduardo-baptista-abre-espaco-para-a-base-do-inter-mas-apenas-tres-jovens-ganham-minutos.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Metade do Maracanã: conheça Novo Horizonte, a menor cidade da Série A no século",
+     "u": "https://ge.globo.com/sp/tem-esporte/futebol/times/novorizontino/noticia/2026/11/09/metade-do-maracana-conheca-novo-horizonte-a-menor-cidade-da-serie-a-no-seculo.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Bears-Buccaneers, Sunday Night Football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-bears-buccaneers-sunday-night-football/",
+     "t": "Week 9 Fantasy football standouts: Early Week 10 waiver wire adds to boost your rest-of-season rosters",
+     "u": "https://www.cbssports.com/fantasy/football/news/week-9-fantasy-football-standouts-early-week-10-waiver-wire-adds-to-boost-your-rest-of-season-rosters/",
      "f": "CBS Sports",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Buccaneers vs. Bears odds: NFL Week 9 Sunday Night Football first touchdown scorer picks, predictions",
-     "u": "https://www.cbssports.com/betting/news/buccaneers-vs-bears-odds-nfl-week-9-sunday-night-football-first-touchdown-scorer-picks-predictions/",
+     "t": "Fantasy football Week 10 stock watch: The perfect time to buy Chase Brown is right now",
+     "u": "https://www.cbssports.com/fantasy/football/news/fantasy-football-week-10-stock-watch-the-perfect-time-to-buy-chase-brown-is-right-now/",
      "f": "CBS Sports",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Fantasy Football Booms and Busts: Mega-star WRs show out in otherwise wonky Week 9",
-     "u": "https://sports.yahoo.com/fantasy/article/fantasy-football-booms-and-busts-mega-star-wrs-show-out-in-otherwise-wonky-week-9-004718347.html",
+     "t": "Real Madrid summer signing dominates La Liga in three major statistics; continues remarkable start to his career",
+     "u": "https://sports.yahoo.com/articles/real-madrid-summer-signing-dominates-074500887.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Several area schools advance to regional semifinals of high school football playoffs",
-     "u": "https://sports.yahoo.com/articles/several-area-schools-advance-regional-004919717.html",
+     "t": "Gavi, Cubarsi react after Atletico Madrid 1-2 Barcelona: ‘They’re like a battle’",
+     "u": "https://sports.yahoo.com/articles/gavi-cubarsi-react-atletico-madrid-074000628.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Namorada de Gabriel Bortoleto arrasa no GP de São Paulo com vestido personalizado da Audi (fotos e vídeo)",
-     "u": "https://www.abola.pt/noticias/namorada-de-gabriel-bortoleto-arrasa-no-gp-de-sao-paulo-com-vestido-personalizado-da-audi-fotos-e-video-2026110817284755165",
-     "f": "A Bola",
-     "alta": true
-    },
-    {
-     "t": "Revolta no Ac. Viseu: «Se isto acontecesse a Benfica, FC Porto e Sporting...»",
-     "u": "https://www.abola.pt/noticias/revolta-no-ac-viseu-se-isto-acontecesse-a-benfica-fc-porto-e-sporting-2026110820035841094",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Pepa: «O futebol é assim. Parabéns ao Benfica, mas acima de tudo parabéns ao Estrela pela grande segunda parte»",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/e--amadora/detalhe/pepa-o-futebol-e-assim-parabens-ao-benfica-mas-acima-de-tudo-parabens-ao-estrela-pela-grande-segunda-parte",
+     "t": "«Cá esperamos o Sporting no Dragão a 9 pontos»: adeptos do FC Porto celebram vitória em Guimarães",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/ca-esperamos-o-sporting-no-dragao-a-9-pontos-adeptos-do-fc-porto-celebram-vitoria-em-guimaraes",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "As notas dos jogadores do Benfica: Gioconda Prestianni e os Deuses a favor",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/as-notas-dos-jogadores-do-benfica-gioconda-prestianni-e-os-deuses-a-favor",
+     "t": "Sporting é a barreira final rumo a novo máximo para o FC Porto de Farioli",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/sporting-e-a-barreira-final-rumo-a-novo-maximo-para-o-fc-porto-de-farioli",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Ex-Benfica apenas 4 golos atrás de Messi na Bota de Ouro da MLS",
+     "u": "https://www.abola.pt/noticias/ex-benfica-apenas-4-golos-atras-de-messi-na-bota-de-ouro-da-mls-2026110810193508699",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "FC Porto B perde em casa com o Portimonense",
+     "u": "https://www.abola.pt/noticias/fc-porto-b-perde-em-casa-com-o-portimonense-2026110813020925441",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -125,14 +125,14 @@
      "alta": false
     },
     {
-     "t": "Hezonja se aferra a la NBA",
-     "u": "https://www.marca.com/baloncesto/nba/2026/11/06/hezonja-aferra-nba.html",
+     "t": "La federación internacional prohíbe a Bielorrusia disputar el Mundial",
+     "u": "https://www.marca.com/deportes-invierno/2026/11/07/federacion-internacional-prohibe-bielorrusia-disputar-mundial.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "Gustavo Varela: de jugar contra su padre a 'Pichichi' de la Serie A... ¿y sustituto de Cristiano en Portugal?",
-     "u": "https://www.marca.com/futbol/liga-italiana/2026/11/06/gustavo-varela-jugar-padre-pichichi-serie-sustituto-cristiano-portugal.html",
+     "t": "La curiosa paradoja que nos deja el regreso de la NFL",
+     "u": "https://www.marca.com/nfl/2026/11/07/curiosa-paradoja-deja-regreso-nfl.html",
      "f": "Marca",
      "alta": false
     }
@@ -153,15 +153,15 @@
      "alta": false
     },
     {
-     "t": "Struggling Sunderland beat Chelsea to move off bottom of Premier League",
-     "u": "https://www.bbc.co.uk/sport/football/videos/c64g1nj4v4rmo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Teenager Brown secures maiden PGA Tour title in Mexico",
+     "u": "https://www.skysports.com/watch/video/13610058/world-wide-technology-championship-day-four-highlights",
+     "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Sao Paulo Grand Prix - Race highlights",
-     "u": "https://www.skysports.com/watch/video/13609926/sao-paulo-grand-prix-race-highlights",
-     "f": "Sky Sports",
+     "t": "Norris sparkles in Sao Paulo despite firework mishap",
+     "u": "https://www.bbc.co.uk/sport/formula1/articles/c6gr8e822kzqo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "El show de Neymar en el Gran Premio de Brasil: blooper, regalo a Verstappen y un rol muy especial",
-     "u": "https://www.infobae.com/deportes/2026/11/08/el-show-de-neymar-en-el-gran-premio-de-brasil-blooper-regalo-a-verstappen-y-un-rol-muy-especial/",
+     "t": "Asistencia de Julián Álvarez y definición de Giuliano Simeone: el gol del Atlético de Madrid en la derrota frente al Barcelona",
+     "u": "https://www.infobae.com/deportes/2026/11/08/asistencia-de-julian-alvarez-y-definicion-de-giuliano-simeone-el-gol-del-atletico-de-madrid-en-la-derrota-frente-al-barcelona/",
      "f": "Infobae",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "“Casi confirmado”: revelaron detalles del amistoso que el Inter Miami de Messi jugaría frente a River Plate en el Monumental",
-     "u": "https://www.infobae.com/deportes/2026/11/08/casi-confirmado-revelaron-detalles-del-amistoso-que-el-inter-miami-de-messi-jugaria-frente-a-river-plate-en-el-monumental/",
+     "t": "La concluyente sentencia de Simeone al hablar de las chances falladas por Julián Álvarez en la caída del Atlético de Madrid",
+     "u": "https://www.infobae.com/deportes/2026/11/09/la-concluyente-sentencia-de-simeone-al-hablar-dee-las-chances-falladas-por-julian-alvarez-en-la-caida-del-atletico-de-madrid/",
      "f": "Infobae",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Video: el golazo de Gianluca Prestianni en la liga portuguesa y sus números notables antes de la fecha FIFA",
-     "u": "https://www.ole.com.ar/futbol-internacional/video-golazo-gianluca-prestianni-liga-portuguesa-notables-numeros-fecha-fifa_0_GGO9OKLNpP.html",
+     "t": "El Vasco lo transformó en un Boca ganador",
+     "u": "https://www.ole.com.ar/opinion/vasco-arruabarrena-boca-ganador-riquelme-echar-cavani_0_OIVjOHE61O.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Campaz fue baja en Colombia: va otro jugador del fútbol argentino",
-     "u": "https://www.ole.com.ar/futbol-internacional/america/jamintoncampaz-nestorlorenzo-seleccioncolombia-rosariocentral-oscarcortes-huracan_0_7V1GGEOzMx.html",
+     "t": "Con la coronación de Boca, ¿cómo queda el rompecabezas de los cupos a las copas internacionales?",
+     "u": "https://www.ole.com.ar/futbol-primera/clasificacion-copas-internacionales-torneos-continentales-cupos-tabla-anual_0_3WmRSrXfwH.html",
      "f": "Olé",
      "alta": false
     }
@@ -227,28 +227,6 @@
      "alta": false
     }
    ]
-  },
-  {
-   "pais": "FR",
-   "nome": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
-   },
-   "noticias": [
-    {
-     "t": "Accrochée par la Fiorentina, la Juventus Turin continue son surplace en Serie A",
-     "u": "https://www.lequipe.fr/Football/Actualites/Accrochee-par-la-fiorentina-la-juventus-turin-continue-son-surplace-en-serie-a/1742382#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": false
-    },
-    {
-     "t": "La France remporte la Coupe Davis juniors pour la première fois depuis 21 ans",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/La-france-remporte-la-coupe-davis-juniors-pour-la-premiere-fois-depuis-21-ans/1742389#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": false
-    }
-   ]
   }
  ],
  "destaques": [
@@ -260,17 +238,17 @@
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Bears-Buccaneers, Sunday Night Football",
-   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-bears-buccaneers-sunday-night-football/",
+   "t": "Week 9 Fantasy football standouts: Early Week 10 waiver wire adds to boost your rest-of-season rosters",
+   "u": "https://www.cbssports.com/fantasy/football/news/week-9-fantasy-football-standouts-early-week-10-waiver-wire-adds-to-boost-your-rest-of-season-rosters/",
    "f": "CBS Sports",
-   "alta": false,
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Namorada de Gabriel Bortoleto arrasa no GP de São Paulo com vestido personalizado da Audi (fotos e vídeo)",
-   "u": "https://www.abola.pt/noticias/namorada-de-gabriel-bortoleto-arrasa-no-gp-de-sao-paulo-com-vestido-personalizado-da-audi-fotos-e-video-2026110817284755165",
-   "f": "A Bola",
-   "alta": true,
+   "t": "«Cá esperamos o Sporting no Dragão a 9 pontos»: adeptos do FC Porto celebram vitória em Guimarães",
+   "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/ca-esperamos-o-sporting-no-dragao-a-9-pontos-adeptos-do-fc-porto-celebram-vitoria-em-guimaraes",
+   "f": "Record",
+   "alta": false,
    "pais": "PT"
   },
   {
@@ -288,10 +266,10 @@
    "pais": "GB"
   },
   {
-   "t": "El show de Neymar en el Gran Premio de Brasil: blooper, regalo a Verstappen y un rol muy especial",
-   "u": "https://www.infobae.com/deportes/2026/11/08/el-show-de-neymar-en-el-gran-premio-de-brasil-blooper-regalo-a-verstappen-y-un-rol-muy-especial/",
+   "t": "Asistencia de Julián Álvarez y definición de Giuliano Simeone: el gol del Atlético de Madrid en la derrota frente al Barcelona",
+   "u": "https://www.infobae.com/deportes/2026/11/08/asistencia-de-julian-alvarez-y-definicion-de-giuliano-simeone-el-gol-del-atletico-de-madrid-en-la-derrota-frente-al-barcelona/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -300,13 +278,6 @@
    "f": "La Gazzetta dello Sport",
    "alta": false,
    "pais": "IT"
-  },
-  {
-   "t": "Accrochée par la Fiorentina, la Juventus Turin continue son surplace en Serie A",
-   "u": "https://www.lequipe.fr/Football/Actualites/Accrochee-par-la-fiorentina-la-juventus-turin-continue-son-surplace-en-serie-a/1742382#at_medium=RSS_feeds",
-   "f": "L'Équipe",
-   "alta": false,
-   "pais": "FR"
   }
  ],
  "jogos": []
