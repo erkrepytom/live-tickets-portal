@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-10T02:16:06+00:00",
+ "atualizado": "2026-11-10T10:04:24+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -17,21 +17,9 @@
      "alta": false
     },
     {
-     "t": "Corinthians retoma treinos e intensifica preparação para duelo contra o Botafogo",
-     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-retoma-treinos-e-intensifica-preparacao-para-duelo-contra-o-botafogo/",
+     "t": "Palmeiras reencontra Grêmio em final da Copa do Brasil com Gómez como único remanescente",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-gremio-final-copa-do-brasil-gomez-unico-remanescente/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Roberto Melo e Leonardo Aquino avançam para o segundo turno da eleição à presidência do Inter",
-     "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/09/roberto-melo-e-leonardo-aquino-avancam-para-o-segundo-turno-da-eleicao-a-presidencia-do-inter.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Grêmio e Palmeiras farão a final da Copa do Brasil 2026",
-     "u": "https://ge.globo.com/blogs/completando-a-jogada/post/2026/11/09/gremio-e-palmeiras-farao-a-final-da-copa-do-brasil-2026.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,9 +33,15 @@
    },
    "noticias": [
     {
-     "t": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Bills-Vikings, Monday Night Football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-bills-vs-vikings-monday-night-football/",
-     "f": "CBS Sports",
+     "t": "Bookmakers Give AS Roma Among the Highest Odds of Winning Serie A",
+     "u": "https://sports.yahoo.com/articles/bookmakers-roma-among-highest-odds-095000428.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "La Liga giants plotting move to sign Arsenal midfielder",
+     "u": "https://sports.yahoo.com/articles/la-liga-giants-plotting-move-095000051.html",
+     "f": "Yahoo Sports",
      "alta": false
     },
     {
@@ -57,15 +51,9 @@
      "alta": false
     },
     {
-     "t": "Germany squad update ahead of UEFA Nations League group stage finale",
-     "u": "https://sports.yahoo.com/articles/germany-squad-ahead-uefa-nations-020000078.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "📮 Inter presidential election goes to a run-off; see the candidates",
-     "u": "https://sports.yahoo.com/articles/run-off-confirmed-internacional-presidential-020200626.html",
-     "f": "Yahoo Sports",
+     "t": "Use FanDuel promo code to get $200 bonus bets for Bills vs. Vikings, Monday Night Football, NFL betting",
+     "u": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-bills-vs-vikings-monday-night-football-nfl-betting/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,27 +67,27 @@
    },
    "noticias": [
     {
-     "t": "Sporting não esquece avançado que brilha no México",
-     "u": "https://www.abola.pt/noticias/sporting-nao-esquece-avancado-que-brilha-no-mexico-2026110912264793687",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Sporting: Luis Suárez entra em top-10 mundial",
-     "u": "https://www.abola.pt/noticias/sporting-luis-suarez-entra-em-top-10-mundial-2026110920235826178",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Rui Costa inaugura Casa do Benfica de Cantanhede esta sexta-feira",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/rui-costa-inaugura-casa-do-benfica-de-cantanhede-esta-sexta-feira",
+     "t": "Viciou-se a apostar em ténis de mesa russo, foi expulso da NBA e apontou uma arma à cabeça: a história de Jontay Porter",
+     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/viciou-se-a-apostar-em-tenis-de-mesa-russo-foi-expulso-da-nba-e-apontou-uma-arma-a-cabeca-a-historia-de-jontay-porter",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Musiala preocupa Bayern: «Não sei se algum dia voltará a atingir o nível que tinha»",
-     "u": "https://www.record.pt/internacional/paises/alemanha/bayern-munique/detalhe/musiala-preocupa-bayern-nao-sei-se-algum-dia-voltara-a-atingir-o-nivel-que-tinha",
+     "t": "Estrelas a brilhar: Doncic leva Lakers ao topo da NBA e Wembanyama faz história",
+     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/estrelas-a-brilhar-doncic-leva-lakers-ao-topo-da-nba-e-wembanyama-faz-historia",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Rui Borges 'regressa' ao futebol para ver o filho após deixar o Sporting",
+     "u": "https://www.abola.pt/noticias/rui-borges-regressa-ao-futebol-para-ver-o-filho-apos-deixar-o-sporting-2026110817113455356",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Ex-Benfica apenas 4 golos atrás de Messi na Bota de Ouro da MLS",
+     "u": "https://www.abola.pt/noticias/ex-benfica-apenas-4-golos-atras-de-messi-na-bota-de-ouro-da-mls-2026110810193508699",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,27 +101,27 @@
    },
    "noticias": [
     {
+     "t": "Roberto Gómez señala al Real Madrid tras el fichaje de Raúl por el Oviedo: \"Ya era hora\"",
+     "u": "https://www.marca.com/radio/2026/11/10/roberto-gomez-senala-real-madrid-fichaje-raul-oviedo-hora.html",
+     "f": "Marca",
+     "alta": true
+    },
+    {
      "t": "La FIFA inspecciona el Spotify Camp Nou para el Mundial",
      "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261109/1004249204/fifa-inspecciona-spotify-camp-nou-mundial.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Hezonja se aferra a la NBA",
-     "u": "https://www.marca.com/baloncesto/nba/2026/11/06/hezonja-aferra-nba.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Gustavo Varela: de jugar contra su padre a 'Pichichi' de la Serie A... ¿y sustituto de Cristiano en Portugal?",
-     "u": "https://www.marca.com/futbol/liga-italiana/2026/11/06/gustavo-varela-jugar-padre-pichichi-serie-sustituto-cristiano-portugal.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Oyarzabal, baja ante Chequia por enfermedad y duda contra Inglaterra",
-     "u": "https://www.mundodeportivo.com/futbol/real-sociedad/20261109/1004249001/oyarzabal-baja-temporal-perdera-minimo-partido-chequia-duda-inglaterra.html",
+     "t": "Así hackeó Rui Pinto al PSG o al Manchester City",
+     "u": "https://www.mundodeportivo.com/futbol/internacional/20261110/1004249322/asi-hackeo-rui-pinto-psg-manchester-city-hoy-testigo-protegido.html",
      "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "La nueva perla de Inglaterra, bajo la tutela de Bellingham y Kane",
+     "u": "https://www.marca.com/futbol/nations-league/2026/11/10/nueva-perla-inglaterra-tutela-bellingham-kan-video.html",
+     "f": "Marca",
      "alta": false
     }
    ]
@@ -153,21 +141,21 @@
      "alta": false
     },
     {
+     "t": "Uncapped Notts spinner Patterson-White earns England Test call-up for South Africa",
+     "u": "https://www.theguardian.com/sport/2026/nov/09/uncapped-spinner-patterson-white-england-test-call-up-south-africa-cricket",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
      "t": "England wing Feyi-Waboso out of Nations Championship",
      "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cw5yny20m7jzo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "England duo ruled out of rest of Nations Championship",
-     "u": "https://www.skysports.com/rugby-union/news/12040/13610326/nations-championship-englands-immanuel-feyi-waboso-and-tom-curry-ruled-out-of-rest-of-tournament",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "Uncapped Notts spinner Patterson-White earns England Test call-up for South Africa",
-     "u": "https://www.theguardian.com/sport/2026/nov/09/uncapped-spinner-patterson-white-england-test-call-up-south-africa-cricket",
-     "f": "The Guardian",
+     "t": "Kane and Bellingham air strong views in England World Cup review",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,10 +169,10 @@
    },
    "noticias": [
     {
-     "t": "El grande del fútbol argentino en el que Rodrigo De Paul estaría dispuesto a jugar si no vuelve a Racing: “Se pondría la camiseta”",
-     "u": "https://www.infobae.com/deportes/2026/11/09/el-grande-del-futbol-argentino-en-el-que-rodrigo-de-paul-estaria-dispuesto-a-jugar-si-no-vuelve-a-racing-se-pondria-la-camiseta/",
+     "t": "Lando Norris, con Infobae: “Espero con ilusión correr con la Fórmula 1 en Argentina”",
+     "u": "https://www.infobae.com/deportes/2026/11/10/lando-norris-con-infobae-espero-con-ilusion-correr-con-la-formula-1-en-argentina/",
      "f": "Infobae",
-     "alta": true
+     "alta": false
     },
     {
      "t": "El dardo del ayudante egipicio del Vasco Arruabarrena a River Plate tras el título de Boca Juniors",
@@ -199,8 +187,8 @@
      "alta": false
     },
     {
-     "t": "Manchester United: inminente despido de Carrick y ¿llega Pochettino?",
-     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/manchester-united-entrenador-michael-carrick-mauricio-pochettino_0_HyKclHGKBK.html",
+     "t": "Partidos de HOY, martes 10 de noviembre: horario y por dónde ver fútbol EN VIVO",
+     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-martes-10-noviembre-horario-ver-futbol-vivo-tv-online_0_n0pxg5aCsz.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +225,14 @@
    },
    "noticias": [
     {
-     "t": "Saël Kumbedi, appelé pour la première fois en équipe de France alors qu'il joue en D2 : « Le dernier, je crois que c'était David Trezeguet ! »",
-     "u": "https://www.lequipe.fr/Football/Article/Sael-kumbedi-appele-pour-la-premiere-fois-en-equipe-de-france-alors-qu-il-joue-en-d2-le-dernier-je-crois-que-c-etait-david-trezeguet/1742657#at_medium=RSS_feeds",
+     "t": "Pour Marc Cucurella, le Real Madrid est supérieur au PSG : « Actuellement, je dirais que c'est la meilleure équipe au monde »",
+     "u": "https://www.lequipe.fr/Football/Actualites/Pour-marc-cucurella-le-real-madrid-est-superieur-au-psg-actuellement-je-dirais-que-c-est-la-meilleure-equipe-au-monde/1742676#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Mirra Andreeva clinique face à Elina Svitolina pour son entrée en lice aux Finales WTA",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/Mirra-andreeva-clinique-face-a-elina-svitolina-pour-son-entree-en-lice-aux-finales-wta/1742663#at_medium=RSS_feeds",
+     "t": "Après le forfait de Rybakina pour les WTA Finals, l'association des joueurs professionnels de tennis réitère ses critiques sur la densité du calendrie",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Apres-le-forfait-de-rybakina-pour-les-wta-finals-l-association-des-joueurs-professionnels-de-tennis-reitere-ses-critiques-sur-la-densite-du-calendrier/1742670#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -260,24 +248,24 @@
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Bills-Vikings, Monday Night Football",
-   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-bills-vs-vikings-monday-night-football/",
-   "f": "CBS Sports",
+   "t": "Bookmakers Give AS Roma Among the Highest Odds of Winning Serie A",
+   "u": "https://sports.yahoo.com/articles/bookmakers-roma-among-highest-odds-095000428.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Sporting não esquece avançado que brilha no México",
-   "u": "https://www.abola.pt/noticias/sporting-nao-esquece-avancado-que-brilha-no-mexico-2026110912264793687",
-   "f": "A Bola",
+   "t": "Viciou-se a apostar em ténis de mesa russo, foi expulso da NBA e apontou uma arma à cabeça: a história de Jontay Porter",
+   "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/viciou-se-a-apostar-em-tenis-de-mesa-russo-foi-expulso-da-nba-e-apontou-uma-arma-a-cabeca-a-historia-de-jontay-porter",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "La FIFA inspecciona el Spotify Camp Nou para el Mundial",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261109/1004249204/fifa-inspecciona-spotify-camp-nou-mundial.html",
-   "f": "Mundo Deportivo",
-   "alta": false,
+   "t": "Roberto Gómez señala al Real Madrid tras el fichaje de Raúl por el Oviedo: \"Ya era hora\"",
+   "u": "https://www.marca.com/radio/2026/11/10/roberto-gomez-senala-real-madrid-fichaje-raul-oviedo-hora.html",
+   "f": "Marca",
+   "alta": true,
    "pais": "ES"
   },
   {
@@ -288,10 +276,10 @@
    "pais": "GB"
   },
   {
-   "t": "El grande del fútbol argentino en el que Rodrigo De Paul estaría dispuesto a jugar si no vuelve a Racing: “Se pondría la camiseta”",
-   "u": "https://www.infobae.com/deportes/2026/11/09/el-grande-del-futbol-argentino-en-el-que-rodrigo-de-paul-estaria-dispuesto-a-jugar-si-no-vuelve-a-racing-se-pondria-la-camiseta/",
+   "t": "Lando Norris, con Infobae: “Espero con ilusión correr con la Fórmula 1 en Argentina”",
+   "u": "https://www.infobae.com/deportes/2026/11/10/lando-norris-con-infobae-espero-con-ilusion-correr-con-la-formula-1-en-argentina/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +290,8 @@
    "pais": "IT"
   },
   {
-   "t": "Saël Kumbedi, appelé pour la première fois en équipe de France alors qu'il joue en D2 : « Le dernier, je crois que c'était David Trezeguet ! »",
-   "u": "https://www.lequipe.fr/Football/Article/Sael-kumbedi-appele-pour-la-premiere-fois-en-equipe-de-france-alors-qu-il-joue-en-d2-le-dernier-je-crois-que-c-etait-david-trezeguet/1742657#at_medium=RSS_feeds",
+   "t": "Pour Marc Cucurella, le Real Madrid est supérieur au PSG : « Actuellement, je dirais que c'est la meilleure équipe au monde »",
+   "u": "https://www.lequipe.fr/Football/Actualites/Pour-marc-cucurella-le-real-madrid-est-superieur-au-psg-actuellement-je-dirais-que-c-est-la-meilleure-equipe-au-monde/1742676#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
