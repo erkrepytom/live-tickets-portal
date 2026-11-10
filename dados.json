@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09T18:55:41+00:00",
+ "atualizado": "2026-11-10T02:16:06+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Análise: Norris e Verstappen brilham em Interlagos, o melhor palco para emoção na F1",
-     "u": "https://ge.globo.com/motor/formula-1/noticia/2026/11/09/analise-norris-e-verstappen-brilham-em-interlagos-o-melhor-palco-para-emocao-na-f1.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Antonelli é 3º no México e se torna o campeão mais jovem da F1",
-     "u": "https://ge.globo.com/motor/formula-1/ao-vivo/gp-do-mexico-a-19-etapa-da-f1-em-2026.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Raúl González, ídolo do Real Madrid, é o novo técnico do Oviedo",
-     "u": "https://www.gazetaesportiva.com/campeonatos/laliga/raul-gonzalez-idolo-do-real-madrid-e-o-novo-tecnico-do-oviedo/",
+     "t": "A festa impressionante da torcida do Atlético-MG contra o Grêmio",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/a-festa-impressionante-da-torcida-do-atletico-mg-contra-o-gremio/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Hamilton lamenta resultado no GP de São Paulo, mas agradece carinho dos fãs: “Lugar especial”",
-     "u": "https://www.gazetaesportiva.com/motor/formula-1/hamilton-lamenta-resultado-no-gp-de-sao-paulo-mas-agradece-carinho-dos-fas-lugar-especial/",
+     "t": "Corinthians retoma treinos e intensifica preparação para duelo contra o Botafogo",
+     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-retoma-treinos-e-intensifica-preparacao-para-duelo-contra-o-botafogo/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Roberto Melo e Leonardo Aquino avançam para o segundo turno da eleição à presidência do Inter",
+     "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/09/roberto-melo-e-leonardo-aquino-avancam-para-o-segundo-turno-da-eleicao-a-presidencia-do-inter.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Grêmio e Palmeiras farão a final da Copa do Brasil 2026",
+     "u": "https://ge.globo.com/blogs/completando-a-jogada/post/2026/11/09/gremio-e-palmeiras-farao-a-final-da-copa-do-brasil-2026.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Davon Godchaux trade grades: Who won Jaguars-Saints deal for DaVon Hamilton's replacement?",
-     "u": "https://sports.yahoo.com/articles/davon-godchaux-trade-grades-won-184011685.html",
+     "t": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Bills-Vikings, Monday Night Football",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-bills-vs-vikings-monday-night-football/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Lakers vs. Hawks prediction, odds, time: 2026 NBA picks for Monday, Nov. 9 from proven model",
+     "u": "https://www.cbssports.com/betting/news/lakers-hawks-prediction-odds-time-2026-nba-picks-best-bets-monday-november-9/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Germany squad update ahead of UEFA Nations League group stage finale",
+     "u": "https://sports.yahoo.com/articles/germany-squad-ahead-uefa-nations-020000078.html",
      "f": "Yahoo Sports",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Florida stays atop Coaches Poll top 25; Kentucky, Purdue drop out of college basketball rankings",
-     "u": "https://www.cbssports.com/college-basketball/news/coaches-poll-top-25-kentucky-purdue-drops-out/",
-     "f": "CBS Sports",
-     "alta": true
-    },
-    {
-     "t": "UCLA, Virginia jump in AP Top 25 poll after big wins; Arizona, Arkansas drop in college basketball rankings",
-     "u": "https://www.cbssports.com/college-basketball/news/ap-top-25-rankings-ucla-virginia-jump-arizona-arkansas-drop/",
-     "f": "CBS Sports",
-     "alta": true
-    },
-    {
-     "t": "Miami reportedly to host NBA All-Star game in 2028 for first time since 1990",
-     "u": "https://sports.yahoo.com/nba/breaking-news/article/miami-reportedly-to-host-nba-all-star-game-in-2028-for-first-time-since-1990-185209844.html",
+     "t": "📮 Inter presidential election goes to a run-off; see the candidates",
+     "u": "https://sports.yahoo.com/articles/run-off-confirmed-internacional-presidential-020200626.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Melhor onze para voltar a atacar o melhor ciclo (a equipa provável do Benfica)",
-     "u": "https://www.abola.pt/noticias/melhor-onze-para-voltar-a-atacar-o-melhor-ciclo-a-equipa-provavel-do-benfica-2026110722062310039",
+     "t": "Sporting não esquece avançado que brilha no México",
+     "u": "https://www.abola.pt/noticias/sporting-nao-esquece-avancado-que-brilha-no-mexico-2026110912264793687",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "FC Porto B perde em casa com o Portimonense",
-     "u": "https://www.abola.pt/noticias/fc-porto-b-perde-em-casa-com-o-portimonense-2026110813020925441",
+     "t": "Sporting: Luis Suárez entra em top-10 mundial",
+     "u": "https://www.abola.pt/noticias/sporting-luis-suarez-entra-em-top-10-mundial-2026110920235826178",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Ténis: um desporto de valores",
-     "u": "https://www.record.pt/opiniao/detalhe/tenis-um-desporto-de-valores",
+     "t": "Rui Costa inaugura Casa do Benfica de Cantanhede esta sexta-feira",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/rui-costa-inaugura-casa-do-benfica-de-cantanhede-esta-sexta-feira",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Óskarsson tem pretendentes em Inglaterra",
-     "u": "https://www.record.pt/internacional/paises/espanha/real-sociedad/detalhe/oskarsson-tem-pretendentes-em-inglaterra",
+     "t": "Musiala preocupa Bayern: «Não sei se algum dia voltará a atingir o nível que tinha»",
+     "u": "https://www.record.pt/internacional/paises/alemanha/bayern-munique/detalhe/musiala-preocupa-bayern-nao-sei-se-algum-dia-voltara-a-atingir-o-nivel-que-tinha",
      "f": "Record",
      "alta": false
     }
@@ -113,26 +113,26 @@
    },
    "noticias": [
     {
-     "t": "La federación internacional prohíbe a Bielorrusia disputar el Mundial",
-     "u": "https://www.marca.com/deportes-invierno/2026/11/07/federacion-internacional-prohibe-bielorrusia-disputar-mundial.html",
+     "t": "La FIFA inspecciona el Spotify Camp Nou para el Mundial",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261109/1004249204/fifa-inspecciona-spotify-camp-nou-mundial.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Hezonja se aferra a la NBA",
+     "u": "https://www.marca.com/baloncesto/nba/2026/11/06/hezonja-aferra-nba.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Gustavo Varela: de jugar contra su padre a 'Pichichi' de la Serie A... ¿y sustituto de Cristiano en Portugal?",
+     "u": "https://www.marca.com/futbol/liga-italiana/2026/11/06/gustavo-varela-jugar-padre-pichichi-serie-sustituto-cristiano-portugal.html",
      "f": "Marca",
      "alta": false
     },
     {
      "t": "Oyarzabal, baja ante Chequia por enfermedad y duda contra Inglaterra",
      "u": "https://www.mundodeportivo.com/futbol/real-sociedad/20261109/1004249001/oyarzabal-baja-temporal-perdera-minimo-partido-chequia-duda-inglaterra.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "La curiosa paradoja que nos deja el regreso de la NFL",
-     "u": "https://www.marca.com/nfl/2026/11/07/curiosa-paradoja-deja-regreso-nfl.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Salvajada de Max Verstappen, del 21º al 2º: \"Había algún problema. El coche no iba bien\"",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261109/1004249174/salvajada-max-verstappen-21o-2o-brasil-empece-adelantar-coches-toda-velocidad-curva-hay-averiguar-rompio-coche-no-normal-habia-problema-hice-mayor-parte-carrera-coche-no.html",
      "f": "Mundo Deportivo",
      "alta": false
     }
@@ -147,15 +147,9 @@
    },
    "noticias": [
     {
-     "t": "Uncapped Notts spinner Patterson-White earns England Test call-up for South Africa",
-     "u": "https://www.theguardian.com/sport/2026/nov/09/uncapped-spinner-patterson-white-england-test-call-up-south-africa-cricket",
+     "t": "Feyi-Waboso and Tom Curry out of Nations Championship in fresh blow to England",
+     "u": "https://www.theguardian.com/sport/2026/nov/09/england-fresh-injury-woe-feyi-waboso-tom-curry-out-nations-championship",
      "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "England duo ruled out of rest of Nations Championship",
-     "u": "https://www.skysports.com/rugby-union/news/12040/13610326/nations-championship-englands-immanuel-feyi-waboso-and-tom-curry-ruled-out-of-rest-of-tournament",
-     "f": "Sky Sports",
      "alta": false
     },
     {
@@ -165,9 +159,15 @@
      "alta": false
     },
     {
-     "t": "Kane and Bellingham air strong views in England World Cup review",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "England duo ruled out of rest of Nations Championship",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13610326/nations-championship-englands-immanuel-feyi-waboso-and-tom-curry-ruled-out-of-rest-of-tournament",
+     "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Uncapped Notts spinner Patterson-White earns England Test call-up for South Africa",
+     "u": "https://www.theguardian.com/sport/2026/nov/09/uncapped-spinner-patterson-white-england-test-call-up-south-africa-cricket",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "“Casi confirmado”: revelaron detalles del amistoso que el Inter Miami de Messi jugaría frente a River Plate en el Monumental",
-     "u": "https://www.infobae.com/deportes/2026/11/08/casi-confirmado-revelaron-detalles-del-amistoso-que-el-inter-miami-de-messi-jugaria-frente-a-river-plate-en-el-monumental/",
+     "t": "El grande del fútbol argentino en el que Rodrigo De Paul estaría dispuesto a jugar si no vuelve a Racing: “Se pondría la camiseta”",
+     "u": "https://www.infobae.com/deportes/2026/11/09/el-grande-del-futbol-argentino-en-el-que-rodrigo-de-paul-estaria-dispuesto-a-jugar-si-no-vuelve-a-racing-se-pondria-la-camiseta/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "El dardo del ayudante egipicio del Vasco Arruabarrena a River Plate tras el título de Boca Juniors",
+     "u": "https://www.infobae.com/deportes/2026/11/09/el-dardo-del-ayudante-egipicio-del-vasco-arruabarrena-a-river-plate-tras-el-titulo-de-boca-juniors/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Cuáles son los ocho títulos por los que sigue en carrera Boca Juniors tras conquistar la Liga vía Tabla Anual",
-     "u": "https://www.infobae.com/deportes/2026/11/08/cuales-son-los-ocho-titulos-por-los-que-sigue-en-carrera-boca-juniors-tras-conquistar-la-liga-via-tabla-anual/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "El ídolo de Real Madrid que tendrá su primera vez como DT en un equipo profesional",
-     "u": "https://www.ole.com.ar/futbol-internacional/raul-madrid-ex-gloria-oviedo-nuevo-dt_0_T34hRpw79l.html",
+     "t": "El argumento argentino que tendría Gremio para jugar la Libertadores si desciende",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/gremio-copalibertadores-palmeiras-conmebol-brasileirao-copabrasil_0_Os6Wvu10fU.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "La decisión de Gallardo que puede favorecer a Boca",
-     "u": "https://www.ole.com.ar/futbol-internacional/ecuador-marcelogallardo-boca-atleticomineiro-copasudamericana-copaargentina_0_XLcvIM56xq.html",
+     "t": "Manchester United: inminente despido de Carrick y ¿llega Pochettino?",
+     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/manchester-united-entrenador-michael-carrick-mauricio-pochettino_0_HyKclHGKBK.html",
      "f": "Olé",
      "alta": false
     }
@@ -215,14 +215,14 @@
    },
    "noticias": [
     {
-     "t": "Coco, lei, l'altra e il coltello: la folle notte a Porto Cervo",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/23-11-2023/serie-a-noir-coco-lei-l-altra-e-il-coltello.shtml",
-     "f": "La Gazzetta dello Sport",
-     "alta": true
-    },
-    {
      "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
      "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+     "f": "La Gazzetta dello Sport",
+     "alta": false
+    },
+    {
+     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
      "f": "La Gazzetta dello Sport",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Rassie Erasmus, sélectionneur de l'Afrique du Sud, avant d'affronter la France : « C'est dur de changer notre réputation »",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Rassie-erasmus-selectionneur-de-l-afrique-du-sud-avant-d-affronter-la-france-c-est-dur-de-changer-notre-reputation/1742552#at_medium=RSS_feeds",
+     "t": "Saël Kumbedi, appelé pour la première fois en équipe de France alors qu'il joue en D2 : « Le dernier, je crois que c'était David Trezeguet ! »",
+     "u": "https://www.lequipe.fr/Football/Article/Sael-kumbedi-appele-pour-la-premiere-fois-en-equipe-de-france-alors-qu-il-joue-en-d2-le-dernier-je-crois-que-c-etait-david-trezeguet/1742657#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "L'entraîneuse du Paris FC Sandrine Soubeyrand avant le déplacement sur le terrain du Real Madrid : « On va jouer autrement, avec d'autres qualités »",
-     "u": "https://www.lequipe.fr/Football/Actualites/L-entraineuse-du-paris-fc-sandrine-soubeyrand-avant-le-deplacement-sur-le-terrain-du-real-madrid-on-va-jouer-autrement-avec-d-autres-qualites/1742543#at_medium=RSS_feeds",
+     "t": "Mirra Andreeva clinique face à Elina Svitolina pour son entrée en lice aux Finales WTA",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Mirra-andreeva-clinique-face-a-elina-svitolina-pour-son-entree-en-lice-aux-finales-wta/1742663#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,57 +253,57 @@
  ],
  "destaques": [
   {
-   "t": "Análise: Norris e Verstappen brilham em Interlagos, o melhor palco para emoção na F1",
-   "u": "https://ge.globo.com/motor/formula-1/noticia/2026/11/09/analise-norris-e-verstappen-brilham-em-interlagos-o-melhor-palco-para-emocao-na-f1.ghtml",
-   "f": "ge",
+   "t": "A festa impressionante da torcida do Atlético-MG contra o Grêmio",
+   "u": "https://www.gazetaesportiva.com/todas-as-noticias/a-festa-impressionante-da-torcida-do-atletico-mg-contra-o-gremio/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Davon Godchaux trade grades: Who won Jaguars-Saints deal for DaVon Hamilton's replacement?",
-   "u": "https://sports.yahoo.com/articles/davon-godchaux-trade-grades-won-184011685.html",
-   "f": "Yahoo Sports",
-   "alta": true,
+   "t": "Use DraftKings promo code to get $200 bonus + free NBA League Pass for Bills-Vikings, Monday Night Football",
+   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-bills-vs-vikings-monday-night-football/",
+   "f": "CBS Sports",
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "Melhor onze para voltar a atacar o melhor ciclo (a equipa provável do Benfica)",
-   "u": "https://www.abola.pt/noticias/melhor-onze-para-voltar-a-atacar-o-melhor-ciclo-a-equipa-provavel-do-benfica-2026110722062310039",
+   "t": "Sporting não esquece avançado que brilha no México",
+   "u": "https://www.abola.pt/noticias/sporting-nao-esquece-avancado-que-brilha-no-mexico-2026110912264793687",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "La federación internacional prohíbe a Bielorrusia disputar el Mundial",
-   "u": "https://www.marca.com/deportes-invierno/2026/11/07/federacion-internacional-prohibe-bielorrusia-disputar-mundial.html",
-   "f": "Marca",
+   "t": "La FIFA inspecciona el Spotify Camp Nou para el Mundial",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261109/1004249204/fifa-inspecciona-spotify-camp-nou-mundial.html",
+   "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Uncapped Notts spinner Patterson-White earns England Test call-up for South Africa",
-   "u": "https://www.theguardian.com/sport/2026/nov/09/uncapped-spinner-patterson-white-england-test-call-up-south-africa-cricket",
+   "t": "Feyi-Waboso and Tom Curry out of Nations Championship in fresh blow to England",
+   "u": "https://www.theguardian.com/sport/2026/nov/09/england-fresh-injury-woe-feyi-waboso-tom-curry-out-nations-championship",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "“Casi confirmado”: revelaron detalles del amistoso que el Inter Miami de Messi jugaría frente a River Plate en el Monumental",
-   "u": "https://www.infobae.com/deportes/2026/11/08/casi-confirmado-revelaron-detalles-del-amistoso-que-el-inter-miami-de-messi-jugaria-frente-a-river-plate-en-el-monumental/",
+   "t": "El grande del fútbol argentino en el que Rodrigo De Paul estaría dispuesto a jugar si no vuelve a Racing: “Se pondría la camiseta”",
+   "u": "https://www.infobae.com/deportes/2026/11/09/el-grande-del-futbol-argentino-en-el-que-rodrigo-de-paul-estaria-dispuesto-a-jugar-si-no-vuelve-a-racing-se-pondria-la-camiseta/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
-   "t": "Coco, lei, l'altra e il coltello: la folle notte a Porto Cervo",
-   "u": "https://www.gazzetta.it/Calcio/Serie-A/23-11-2023/serie-a-noir-coco-lei-l-altra-e-il-coltello.shtml",
+   "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+   "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": true,
+   "alta": false,
    "pais": "IT"
   },
   {
-   "t": "Rassie Erasmus, sélectionneur de l'Afrique du Sud, avant d'affronter la France : « C'est dur de changer notre réputation »",
-   "u": "https://www.lequipe.fr/Rugby/Actualites/Rassie-erasmus-selectionneur-de-l-afrique-du-sud-avant-d-affronter-la-france-c-est-dur-de-changer-notre-reputation/1742552#at_medium=RSS_feeds",
+   "t": "Saël Kumbedi, appelé pour la première fois en équipe de France alors qu'il joue en D2 : « Le dernier, je crois que c'était David Trezeguet ! »",
+   "u": "https://www.lequipe.fr/Football/Article/Sael-kumbedi-appele-pour-la-premiere-fois-en-equipe-de-france-alors-qu-il-joue-en-d2-le-dernier-je-crois-que-c-etait-david-trezeguet/1742657#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
