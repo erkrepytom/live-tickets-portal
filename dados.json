@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-10T17:57:22+00:00",
+ "atualizado": "2026-11-10T23:30:40+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "França atende torcida e treina de olho na Itália",
-     "u": "https://www.gazetaesportiva.com/times/franca/franca-atende-torcida-e-treina-de-olho-na-italia/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Ex-campeão da Libertadores pelo Grêmio é anunciado como técnico do Oratório",
-     "u": "https://ge.globo.com/ap/noticia/2026/11/10/ex-campeao-da-libertadores-pelo-gremio-e-anunciado-como-tecnico-do-oratorio.ghtml",
+     "t": "TCE mantém suspensão de patrocínio de R$ 32 milhões para América-MG, Atlético-MG e Cruzeiro",
+     "u": "https://ge.globo.com/mg/futebol/noticia/2026/11/10/tce-mantem-suspensao-de-patrocinio-de-r-32-milhoes-para-america-mg-atletico-mg-e-cruzeiro.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Alecsandro diz que Grêmio entregou jogo para impedir título do Inter em 2009",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/11/10/alecsandro-diz-que-gremio-entregou-jogo-para-impedir-titulo-do-inter-em-2009.ghtml",
-     "f": "ge",
+     "t": "Lesionado, Tchouaméni vai desfalcar França contra Itália e Turquia na Liga das Nações",
+     "u": "https://www.gazetaesportiva.com/times/franca/lesionado-tchouameni-vai-desfalcar-franca-contra-italia-e-turquia-na-liga-das-nacoes/",
+     "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Bastidores da classificação do Palmeiras sobre o Vasco na Copa do Brasil",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/bastidores-da-classificacao-do-palmeiras-sobre-o-vasco-na-copa-do-brasil/",
+     "t": "Seleção feminina é convocada com jogadoras de Palmeiras, Corinthians e São Paulo; veja lista",
+     "u": "https://www.gazetaesportiva.com/times/brasil/selecao-feminina-e-convocada-com-jogadoras-de-palmeiras-corinthians-e-sao-paulo-veja-lista/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Atlético-MG se reapresenta depois de eliminação e foca em jogo adiantado e final da Sul-Americana",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/10/atletico-mg-se-reapresenta-depois-de-eliminacao-e-foca-em-jogo-adiantado-e-final-da-sul-americana.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Celtics vs. 76ers NBA picks: Expect big nights from Jayson Tatum, Jaylen Brown in first grudge game of season",
-     "u": "https://www.cbssports.com/betting/news/celtics-vs-76ers-nba-picks-expect-big-nights-from-jayson-tatum-jaylen-brown-in-first-grudge-game-of-season/",
+     "t": "Serie A hot takes: AC Milan's star is no longer Christian Pulisic; Napoli need to find a new coach",
+     "u": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-ac-milans-christian-pulisic-napoli/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NFL DFS, Giants vs. Commanders: Top daily Fantasy picks, lineup advice for 'Thursday Night Football'",
-     "u": "https://www.cbssports.com/betting/news/nfl-dfs-giants-commanders-daily-fantasy-picks-fanduel-draftkings-lineup-advice-thursday-night-football/",
+     "t": "Celtics vs. 76ers prediction, odds, time: 2026 NBA picks for Tuesday, Nov. 10 from proven model",
+     "u": "https://www.cbssports.com/betting/news/celtics-76ers-prediction-odds-time-2026-nba-picks-best-bets-tuesday-november-10/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Arsenal plot January swoop for 20-year-old Real Madrid attacker – report",
-     "u": "https://sports.yahoo.com/articles/arsenal-plot-january-swoop-20-174500380.html",
+     "t": "NBA's last two-minute report disagrees with Rick Carlisle on collision",
+     "u": "https://sports.yahoo.com/articles/nbas-last-two-minute-report-232050195.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "The first song being played at Celtics shootaround in …",
-     "u": "https://sports.yahoo.com/articles/first-song-being-played-celtics-174555677.html",
+     "t": "Arsenal eye Real's Endrick - Wednesday's gossip",
+     "u": "https://sports.yahoo.com/articles/arsenal-eye-reals-endrick-wednesdays-231132786.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Sporting (masculinos) e FC Porto (femininos) estão a uma vitória da fase de grupos da Champions de voleibol",
-     "u": "https://www.record.pt/modalidades/voleibol/detalhe/sporting-masculinos-e-fc-porto-femininos-estao-a-uma-vitoria-da-fase-de-grupos-da-champions-de-voleibol",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Benfica e Sporting entram em ação esta quarta-feira na FIBA Europe Cup",
-     "u": "https://www.record.pt/modalidades/basquetebol/detalhe/benfica-defende-lideranca-na-fiba-europe-cup-a-porta-fechada",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Ex-Benfica foi aconselhado a mudar-se para o basquetebol e recusou Bayern",
-     "u": "https://www.abola.pt/noticias/ex-benfica-foi-aconselhado-a-mudar-se-para-o-basquetebol-e-recusou-bayern-2026110915461461165",
+     "t": "Mercado: avançado do Real Madrid fora dos planos do Sporting",
+     "u": "https://www.abola.pt/noticias/mercado-avancado-do-real-madrid-fora-dos-planos-do-sporting-2026111019370835185",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Lenda do Real Madrid vai treinar na segunda divisão espanhola",
-     "u": "https://www.abola.pt/noticias/lenda-do-real-madrid-vai-treinar-na-segunda-divisao-espanhola-2026110911315324321",
+     "t": "Cimeira de Presidentes marcada pelo mau tempo: Benfica e Sporting à distância, Villas-Boas em silêncio",
+     "u": "https://www.abola.pt/noticias/cimeira-de-presidentes-marcada-pelo-mau-tempo-benfica-e-sporting-a-distancia-villas-boas-em-silencio-2026111010071030939",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Gustavo Varela, Rodrigo Mora e Nazinho em ação: FPF mostra imagens do treino da Seleção na Cidade do Futebol",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/gustavo-varela-rodrigo-mora-e-nazinho-em-acao-fpf-mostra-imagens-do-treino-da-selecao-na-cidade-do-futebol",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Mau tempo: circulação já sem restrições nas pontes Vasco da Gama e 25 de Abril",
+     "u": "https://www.record.pt/fora-de-campo/detalhe/mau-tempo-circulacao-ja-sem-restricoes-nas-pontes-vasco-da-gama-e-25-de-abril",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -113,14 +113,14 @@
    },
    "noticias": [
     {
-     "t": "¡Interlagos es territorio de espectáculo! Norris vence, Verstappen vuela y Alonso enamora",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261110/1004249579/interlagos-territorio-espectaculo-norris-vence-verstappen-vuela-alonso-enamora.html",
+     "t": "34-18: El Barça recupera el liderato de la Liga en el festival de Novakovic, de 18 años",
+     "u": "https://www.mundodeportivo.com/balonmano/20261110/1004249609/barca.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Alegría para el Barça con vistas al Arsenal",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261110/1004249365/alegria-barca-vistas-arsenal.html",
+     "t": "El Barça-Espanyol de la Liga F ya tiene fecha",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261110/1004249679/barca-espanyol-liga-f-fecha.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,16 +147,10 @@
    },
    "noticias": [
     {
-     "t": "WCL: Hacken vs Chelsea LIVE!",
-     "u": "https://www.skysports.com/football/bk-hcken-women-vs-chelsea-women/live/578259",
-     "f": "Sky Sports",
-     "alta": true
-    },
-    {
-     "t": "NFL trade deadline 2026: Jonathan Taylor status, Vikings eye QB and more – live updates",
-     "u": "https://www.theguardian.com/sport/live/2026/nov/10/nfl-trade-deadline-2026-live-updates-deals-rumors-news",
+     "t": "Fujino’s double sparks WCL comeback win for Manchester City against Inter",
+     "u": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report",
      "f": "The Guardian",
-     "alta": true
+     "alta": false
     },
     {
      "t": "Uncapped Notts spinner Patterson-White earns England Test call-up for South Africa",
@@ -168,6 +162,12 @@
      "t": "World Cup finalists England still feel short of best",
      "u": "https://www.bbc.co.uk/sport/rugby-league/articles/ckzd6dmm5z19o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "England focused on Curry and Feyi-Waboso winning World Cup fitness race",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13610706/england-focused-on-ensuring-immanuel-feyi-waboso-and-tom-curry-get-fit-for-rugby-world-cup",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
+     "t": "Tras el Gran Premio de Brasil, un piloto de la Fórmula 1 se fue de viaje a Ecuador junto a su pareja: el álbum de fotos",
+     "u": "https://www.infobae.com/deportes/2026/11/10/tras-el-gran-premio-de-brasil-un-piloto-de-la-formula-1-se-fue-de-viaje-a-ecuador-junto-a-su-pareja-el-album-de-fotos/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Conmebol multó a Flamengo por la semi de la Copa Libertadores contra Estudiantes",
+     "u": "https://www.ole.com.ar/futbol-internacional/conmebol-multo-flamengo-copa-libertadores_0_aIrbHXouRT.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Quién es el nuevo “europibe” convocado a la Sub 20 de Argentina que se formó en Real Madrid y fue comprado por la Lazio",
      "u": "https://www.infobae.com/deportes/2026/11/10/quien-es-el-nuevo-europibe-convocado-a-la-sub-20-de-argentina-que-se-formo-en-real-madrid-y-fue-comprado-por-la-lazio/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Lando Norris, con Infobae: “Espero con ilusión correr con la Fórmula 1 en Argentina”",
-     "u": "https://www.infobae.com/deportes/2026/11/10/lando-norris-con-infobae-espero-con-ilusion-correr-con-la-formula-1-en-argentina/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "La curiosidad de Messi en la MLS: por primera vez desde su llegada a la liga, termina el año sin premios al mejor del mes",
-     "u": "https://www.ole.com.ar/messi/lionel-messi-mls-inter-miami-premio-jugador-mes-mvp-goleador-asistencias_0_fueCESJmw7.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Herrón, tras el título lleno de pibes de Boca Predio: \"La exigencia de Román es total\"",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-herron-boca-predio-reserva-dt-interino-jugadores-clave_0_ekVjc1dhI6.html",
+     "t": "La fiesta terminó: la decisión de Arruabarrena en la vuelta a las prácticas en Boca Predio",
+     "u": "https://www.ole.com.ar/boca-juniors/decision-arruabarrena-vuelta-practicas-boca-predio_0_GVMmYQKBpT.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Liga, Serie A : DAZN prolonge sa promo",
-     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Liga-serie-a-dazn-prolonge-sa-promo-a-7-99-et-8364-mois-jusqu-au-9-novembre/1741332#at_medium=RSS_feeds",
+     "t": "Paulo César, entraîneur du PSG, après la défaite face au Bayern Munich en Ligue des champions : « Continuer à avancer et regarder devant nous »",
+     "u": "https://www.lequipe.fr/Football/Actualites/Paulo-cesar-entraineur-du-psg-apres-la-defaite-face-au-bayern-munich-en-ligue-des-champions-continuer-a-avancer-et-regarder-devant-nous/1742912#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "La F1 Academy annonce son calendrier 2027 avec sept week-ends au programme en support de la F1",
-     "u": "https://www.lequipe.fr/Sport-auto/Actualites/La-f1-academy-annonce-son-calendrier-2027-avec-sept-week-ends-au-programme-en-support-de-la-f1/1742787#at_medium=RSS_feeds",
+     "t": "Après une première période manquée, le PSG s'incline à domicile face au Bayern Munich en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Apres-une-premiere-periode-manquee-le-psg-s-incline-a-domicile-face-au-bayern-munich-en-ligue-des-champions/1742905#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,43 +253,43 @@
  ],
  "destaques": [
   {
-   "t": "França atende torcida e treina de olho na Itália",
-   "u": "https://www.gazetaesportiva.com/times/franca/franca-atende-torcida-e-treina-de-olho-na-italia/",
-   "f": "Gazeta Esportiva",
+   "t": "TCE mantém suspensão de patrocínio de R$ 32 milhões para América-MG, Atlético-MG e Cruzeiro",
+   "u": "https://ge.globo.com/mg/futebol/noticia/2026/11/10/tce-mantem-suspensao-de-patrocinio-de-r-32-milhoes-para-america-mg-atletico-mg-e-cruzeiro.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Celtics vs. 76ers NBA picks: Expect big nights from Jayson Tatum, Jaylen Brown in first grudge game of season",
-   "u": "https://www.cbssports.com/betting/news/celtics-vs-76ers-nba-picks-expect-big-nights-from-jayson-tatum-jaylen-brown-in-first-grudge-game-of-season/",
+   "t": "Serie A hot takes: AC Milan's star is no longer Christian Pulisic; Napoli need to find a new coach",
+   "u": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-ac-milans-christian-pulisic-napoli/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Sporting (masculinos) e FC Porto (femininos) estão a uma vitória da fase de grupos da Champions de voleibol",
-   "u": "https://www.record.pt/modalidades/voleibol/detalhe/sporting-masculinos-e-fc-porto-femininos-estao-a-uma-vitoria-da-fase-de-grupos-da-champions-de-voleibol",
-   "f": "Record",
+   "t": "Mercado: avançado do Real Madrid fora dos planos do Sporting",
+   "u": "https://www.abola.pt/noticias/mercado-avancado-do-real-madrid-fora-dos-planos-do-sporting-2026111019370835185",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "¡Interlagos es territorio de espectáculo! Norris vence, Verstappen vuela y Alonso enamora",
-   "u": "https://www.mundodeportivo.com/motor/f1/20261110/1004249579/interlagos-territorio-espectaculo-norris-vence-verstappen-vuela-alonso-enamora.html",
+   "t": "34-18: El Barça recupera el liderato de la Liga en el festival de Novakovic, de 18 años",
+   "u": "https://www.mundodeportivo.com/balonmano/20261110/1004249609/barca.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "WCL: Hacken vs Chelsea LIVE!",
-   "u": "https://www.skysports.com/football/bk-hcken-women-vs-chelsea-women/live/578259",
-   "f": "Sky Sports",
-   "alta": true,
+   "t": "Fujino’s double sparks WCL comeback win for Manchester City against Inter",
+   "u": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report",
+   "f": "The Guardian",
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Quién es el nuevo “europibe” convocado a la Sub 20 de Argentina que se formó en Real Madrid y fue comprado por la Lazio",
-   "u": "https://www.infobae.com/deportes/2026/11/10/quien-es-el-nuevo-europibe-convocado-a-la-sub-20-de-argentina-que-se-formo-en-real-madrid-y-fue-comprado-por-la-lazio/",
+   "t": "Tras el Gran Premio de Brasil, un piloto de la Fórmula 1 se fue de viaje a Ecuador junto a su pareja: el álbum de fotos",
+   "u": "https://www.infobae.com/deportes/2026/11/10/tras-el-gran-premio-de-brasil-un-piloto-de-la-formula-1-se-fue-de-viaje-a-ecuador-junto-a-su-pareja-el-album-de-fotos/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Liga, Serie A : DAZN prolonge sa promo",
-   "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Liga-serie-a-dazn-prolonge-sa-promo-a-7-99-et-8364-mois-jusqu-au-9-novembre/1741332#at_medium=RSS_feeds",
+   "t": "Paulo César, entraîneur du PSG, après la défaite face au Bayern Munich en Ligue des champions : « Continuer à avancer et regarder devant nous »",
+   "u": "https://www.lequipe.fr/Football/Actualites/Paulo-cesar-entraineur-du-psg-apres-la-defaite-face-au-bayern-munich-en-ligue-des-champions-continuer-a-avancer-et-regarder-devant-nous/1742912#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
