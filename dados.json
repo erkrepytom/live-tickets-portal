@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-10T10:04:24+00:00",
+ "atualizado": "2026-11-10T17:57:22+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,14 +11,26 @@
    },
    "noticias": [
     {
-     "t": "A festa impressionante da torcida do Atlético-MG contra o Grêmio",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/a-festa-impressionante-da-torcida-do-atletico-mg-contra-o-gremio/",
+     "t": "França atende torcida e treina de olho na Itália",
+     "u": "https://www.gazetaesportiva.com/times/franca/franca-atende-torcida-e-treina-de-olho-na-italia/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Palmeiras reencontra Grêmio em final da Copa do Brasil com Gómez como único remanescente",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-gremio-final-copa-do-brasil-gomez-unico-remanescente/",
+     "t": "Ex-campeão da Libertadores pelo Grêmio é anunciado como técnico do Oratório",
+     "u": "https://ge.globo.com/ap/noticia/2026/11/10/ex-campeao-da-libertadores-pelo-gremio-e-anunciado-como-tecnico-do-oratorio.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Alecsandro diz que Grêmio entregou jogo para impedir título do Inter em 2009",
+     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/11/10/alecsandro-diz-que-gremio-entregou-jogo-para-impedir-titulo-do-inter-em-2009.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Bastidores da classificação do Palmeiras sobre o Vasco na Copa do Brasil",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/bastidores-da-classificacao-do-palmeiras-sobre-o-vasco-na-copa-do-brasil/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -33,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Bookmakers Give AS Roma Among the Highest Odds of Winning Serie A",
-     "u": "https://sports.yahoo.com/articles/bookmakers-roma-among-highest-odds-095000428.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "La Liga giants plotting move to sign Arsenal midfielder",
-     "u": "https://sports.yahoo.com/articles/la-liga-giants-plotting-move-095000051.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Lakers vs. Hawks prediction, odds, time: 2026 NBA picks for Monday, Nov. 9 from proven model",
-     "u": "https://www.cbssports.com/betting/news/lakers-hawks-prediction-odds-time-2026-nba-picks-best-bets-monday-november-9/",
+     "t": "Celtics vs. 76ers NBA picks: Expect big nights from Jayson Tatum, Jaylen Brown in first grudge game of season",
+     "u": "https://www.cbssports.com/betting/news/celtics-vs-76ers-nba-picks-expect-big-nights-from-jayson-tatum-jaylen-brown-in-first-grudge-game-of-season/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Use FanDuel promo code to get $200 bonus bets for Bills vs. Vikings, Monday Night Football, NFL betting",
-     "u": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-bills-vs-vikings-monday-night-football-nfl-betting/",
+     "t": "NFL DFS, Giants vs. Commanders: Top daily Fantasy picks, lineup advice for 'Thursday Night Football'",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-giants-commanders-daily-fantasy-picks-fanduel-draftkings-lineup-advice-thursday-night-football/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Arsenal plot January swoop for 20-year-old Real Madrid attacker – report",
+     "u": "https://sports.yahoo.com/articles/arsenal-plot-january-swoop-20-174500380.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "The first song being played at Celtics shootaround in …",
+     "u": "https://sports.yahoo.com/articles/first-song-being-played-celtics-174555677.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -67,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Viciou-se a apostar em ténis de mesa russo, foi expulso da NBA e apontou uma arma à cabeça: a história de Jontay Porter",
-     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/viciou-se-a-apostar-em-tenis-de-mesa-russo-foi-expulso-da-nba-e-apontou-uma-arma-a-cabeca-a-historia-de-jontay-porter",
+     "t": "Sporting (masculinos) e FC Porto (femininos) estão a uma vitória da fase de grupos da Champions de voleibol",
+     "u": "https://www.record.pt/modalidades/voleibol/detalhe/sporting-masculinos-e-fc-porto-femininos-estao-a-uma-vitoria-da-fase-de-grupos-da-champions-de-voleibol",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Estrelas a brilhar: Doncic leva Lakers ao topo da NBA e Wembanyama faz história",
-     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/estrelas-a-brilhar-doncic-leva-lakers-ao-topo-da-nba-e-wembanyama-faz-historia",
+     "t": "Benfica e Sporting entram em ação esta quarta-feira na FIBA Europe Cup",
+     "u": "https://www.record.pt/modalidades/basquetebol/detalhe/benfica-defende-lideranca-na-fiba-europe-cup-a-porta-fechada",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Rui Borges 'regressa' ao futebol para ver o filho após deixar o Sporting",
-     "u": "https://www.abola.pt/noticias/rui-borges-regressa-ao-futebol-para-ver-o-filho-apos-deixar-o-sporting-2026110817113455356",
+     "t": "Ex-Benfica foi aconselhado a mudar-se para o basquetebol e recusou Bayern",
+     "u": "https://www.abola.pt/noticias/ex-benfica-foi-aconselhado-a-mudar-se-para-o-basquetebol-e-recusou-bayern-2026110915461461165",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Ex-Benfica apenas 4 golos atrás de Messi na Bota de Ouro da MLS",
-     "u": "https://www.abola.pt/noticias/ex-benfica-apenas-4-golos-atras-de-messi-na-bota-de-ouro-da-mls-2026110810193508699",
+     "t": "Lenda do Real Madrid vai treinar na segunda divisão espanhola",
+     "u": "https://www.abola.pt/noticias/lenda-do-real-madrid-vai-treinar-na-segunda-divisao-espanhola-2026110911315324321",
      "f": "A Bola",
      "alta": false
     }
@@ -101,26 +113,26 @@
    },
    "noticias": [
     {
-     "t": "Roberto Gómez señala al Real Madrid tras el fichaje de Raúl por el Oviedo: \"Ya era hora\"",
-     "u": "https://www.marca.com/radio/2026/11/10/roberto-gomez-senala-real-madrid-fichaje-raul-oviedo-hora.html",
-     "f": "Marca",
-     "alta": true
-    },
-    {
-     "t": "La FIFA inspecciona el Spotify Camp Nou para el Mundial",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261109/1004249204/fifa-inspecciona-spotify-camp-nou-mundial.html",
+     "t": "¡Interlagos es territorio de espectáculo! Norris vence, Verstappen vuela y Alonso enamora",
+     "u": "https://www.mundodeportivo.com/motor/f1/20261110/1004249579/interlagos-territorio-espectaculo-norris-vence-verstappen-vuela-alonso-enamora.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Así hackeó Rui Pinto al PSG o al Manchester City",
-     "u": "https://www.mundodeportivo.com/futbol/internacional/20261110/1004249322/asi-hackeo-rui-pinto-psg-manchester-city-hoy-testigo-protegido.html",
+     "t": "Alegría para el Barça con vistas al Arsenal",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261110/1004249365/alegria-barca-vistas-arsenal.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
      "t": "La nueva perla de Inglaterra, bajo la tutela de Bellingham y Kane",
      "u": "https://www.marca.com/futbol/nations-league/2026/11/10/nueva-perla-inglaterra-tutela-bellingham-kan-video.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "El Langui cierra una temporada inolvidable con una plata en Sao Paulo",
+     "u": "https://www.marca.com/paralimpicos/2026/11/10/langui-cierra-temporada-inolvidable-primer-podio-copa-mundo.html",
      "f": "Marca",
      "alta": false
     }
@@ -135,10 +147,16 @@
    },
    "noticias": [
     {
-     "t": "Feyi-Waboso and Tom Curry out of Nations Championship in fresh blow to England",
-     "u": "https://www.theguardian.com/sport/2026/nov/09/england-fresh-injury-woe-feyi-waboso-tom-curry-out-nations-championship",
+     "t": "WCL: Hacken vs Chelsea LIVE!",
+     "u": "https://www.skysports.com/football/bk-hcken-women-vs-chelsea-women/live/578259",
+     "f": "Sky Sports",
+     "alta": true
+    },
+    {
+     "t": "NFL trade deadline 2026: Jonathan Taylor status, Vikings eye QB and more – live updates",
+     "u": "https://www.theguardian.com/sport/live/2026/nov/10/nfl-trade-deadline-2026-live-updates-deals-rumors-news",
      "f": "The Guardian",
-     "alta": false
+     "alta": true
     },
     {
      "t": "Uncapped Notts spinner Patterson-White earns England Test call-up for South Africa",
@@ -147,14 +165,8 @@
      "alta": false
     },
     {
-     "t": "England wing Feyi-Waboso out of Nations Championship",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cw5yny20m7jzo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Kane and Bellingham air strong views in England World Cup review",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss",
+     "t": "World Cup finalists England still feel short of best",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/articles/ckzd6dmm5z19o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -169,26 +181,26 @@
    },
    "noticias": [
     {
+     "t": "Quién es el nuevo “europibe” convocado a la Sub 20 de Argentina que se formó en Real Madrid y fue comprado por la Lazio",
+     "u": "https://www.infobae.com/deportes/2026/11/10/quien-es-el-nuevo-europibe-convocado-a-la-sub-20-de-argentina-que-se-formo-en-real-madrid-y-fue-comprado-por-la-lazio/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
      "t": "Lando Norris, con Infobae: “Espero con ilusión correr con la Fórmula 1 en Argentina”",
      "u": "https://www.infobae.com/deportes/2026/11/10/lando-norris-con-infobae-espero-con-ilusion-correr-con-la-formula-1-en-argentina/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El dardo del ayudante egipicio del Vasco Arruabarrena a River Plate tras el título de Boca Juniors",
-     "u": "https://www.infobae.com/deportes/2026/11/09/el-dardo-del-ayudante-egipicio-del-vasco-arruabarrena-a-river-plate-tras-el-titulo-de-boca-juniors/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "El argumento argentino que tendría Gremio para jugar la Libertadores si desciende",
-     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/gremio-copalibertadores-palmeiras-conmebol-brasileirao-copabrasil_0_Os6Wvu10fU.html",
+     "t": "La curiosidad de Messi en la MLS: por primera vez desde su llegada a la liga, termina el año sin premios al mejor del mes",
+     "u": "https://www.ole.com.ar/messi/lionel-messi-mls-inter-miami-premio-jugador-mes-mvp-goleador-asistencias_0_fueCESJmw7.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Partidos de HOY, martes 10 de noviembre: horario y por dónde ver fútbol EN VIVO",
-     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-martes-10-noviembre-horario-ver-futbol-vivo-tv-online_0_n0pxg5aCsz.html",
+     "t": "Herrón, tras el título lleno de pibes de Boca Predio: \"La exigencia de Román es total\"",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-herron-boca-predio-reserva-dt-interino-jugadores-clave_0_ekVjc1dhI6.html",
      "f": "Olé",
      "alta": false
     }
@@ -225,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Pour Marc Cucurella, le Real Madrid est supérieur au PSG : « Actuellement, je dirais que c'est la meilleure équipe au monde »",
-     "u": "https://www.lequipe.fr/Football/Actualites/Pour-marc-cucurella-le-real-madrid-est-superieur-au-psg-actuellement-je-dirais-que-c-est-la-meilleure-equipe-au-monde/1742676#at_medium=RSS_feeds",
+     "t": "Liga, Serie A : DAZN prolonge sa promo",
+     "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Liga-serie-a-dazn-prolonge-sa-promo-a-7-99-et-8364-mois-jusqu-au-9-novembre/1741332#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Après le forfait de Rybakina pour les WTA Finals, l'association des joueurs professionnels de tennis réitère ses critiques sur la densité du calendrie",
-     "u": "https://www.lequipe.fr/Tennis/Actualites/Apres-le-forfait-de-rybakina-pour-les-wta-finals-l-association-des-joueurs-professionnels-de-tennis-reitere-ses-critiques-sur-la-densite-du-calendrier/1742670#at_medium=RSS_feeds",
+     "t": "La F1 Academy annonce son calendrier 2027 avec sept week-ends au programme en support de la F1",
+     "u": "https://www.lequipe.fr/Sport-auto/Actualites/La-f1-academy-annonce-son-calendrier-2027-avec-sept-week-ends-au-programme-en-support-de-la-f1/1742787#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -241,43 +253,43 @@
  ],
  "destaques": [
   {
-   "t": "A festa impressionante da torcida do Atlético-MG contra o Grêmio",
-   "u": "https://www.gazetaesportiva.com/todas-as-noticias/a-festa-impressionante-da-torcida-do-atletico-mg-contra-o-gremio/",
+   "t": "França atende torcida e treina de olho na Itália",
+   "u": "https://www.gazetaesportiva.com/times/franca/franca-atende-torcida-e-treina-de-olho-na-italia/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Bookmakers Give AS Roma Among the Highest Odds of Winning Serie A",
-   "u": "https://sports.yahoo.com/articles/bookmakers-roma-among-highest-odds-095000428.html",
-   "f": "Yahoo Sports",
+   "t": "Celtics vs. 76ers NBA picks: Expect big nights from Jayson Tatum, Jaylen Brown in first grudge game of season",
+   "u": "https://www.cbssports.com/betting/news/celtics-vs-76ers-nba-picks-expect-big-nights-from-jayson-tatum-jaylen-brown-in-first-grudge-game-of-season/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Viciou-se a apostar em ténis de mesa russo, foi expulso da NBA e apontou uma arma à cabeça: a história de Jontay Porter",
-   "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/viciou-se-a-apostar-em-tenis-de-mesa-russo-foi-expulso-da-nba-e-apontou-uma-arma-a-cabeca-a-historia-de-jontay-porter",
+   "t": "Sporting (masculinos) e FC Porto (femininos) estão a uma vitória da fase de grupos da Champions de voleibol",
+   "u": "https://www.record.pt/modalidades/voleibol/detalhe/sporting-masculinos-e-fc-porto-femininos-estao-a-uma-vitoria-da-fase-de-grupos-da-champions-de-voleibol",
    "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Roberto Gómez señala al Real Madrid tras el fichaje de Raúl por el Oviedo: \"Ya era hora\"",
-   "u": "https://www.marca.com/radio/2026/11/10/roberto-gomez-senala-real-madrid-fichaje-raul-oviedo-hora.html",
-   "f": "Marca",
-   "alta": true,
+   "t": "¡Interlagos es territorio de espectáculo! Norris vence, Verstappen vuela y Alonso enamora",
+   "u": "https://www.mundodeportivo.com/motor/f1/20261110/1004249579/interlagos-territorio-espectaculo-norris-vence-verstappen-vuela-alonso-enamora.html",
+   "f": "Mundo Deportivo",
+   "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Feyi-Waboso and Tom Curry out of Nations Championship in fresh blow to England",
-   "u": "https://www.theguardian.com/sport/2026/nov/09/england-fresh-injury-woe-feyi-waboso-tom-curry-out-nations-championship",
-   "f": "The Guardian",
-   "alta": false,
+   "t": "WCL: Hacken vs Chelsea LIVE!",
+   "u": "https://www.skysports.com/football/bk-hcken-women-vs-chelsea-women/live/578259",
+   "f": "Sky Sports",
+   "alta": true,
    "pais": "GB"
   },
   {
-   "t": "Lando Norris, con Infobae: “Espero con ilusión correr con la Fórmula 1 en Argentina”",
-   "u": "https://www.infobae.com/deportes/2026/11/10/lando-norris-con-infobae-espero-con-ilusion-correr-con-la-formula-1-en-argentina/",
+   "t": "Quién es el nuevo “europibe” convocado a la Sub 20 de Argentina que se formó en Real Madrid y fue comprado por la Lazio",
+   "u": "https://www.infobae.com/deportes/2026/11/10/quien-es-el-nuevo-europibe-convocado-a-la-sub-20-de-argentina-que-se-formo-en-real-madrid-y-fue-comprado-por-la-lazio/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -290,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Pour Marc Cucurella, le Real Madrid est supérieur au PSG : « Actuellement, je dirais que c'est la meilleure équipe au monde »",
-   "u": "https://www.lequipe.fr/Football/Actualites/Pour-marc-cucurella-le-real-madrid-est-superieur-au-psg-actuellement-je-dirais-que-c-est-la-meilleure-equipe-au-monde/1742676#at_medium=RSS_feeds",
+   "t": "Liga, Serie A : DAZN prolonge sa promo",
+   "u": "https://www.lequipe.fr/Guide-d-achat/Equipement-football/Actualites/Liga-serie-a-dazn-prolonge-sa-promo-a-7-99-et-8364-mois-jusqu-au-9-novembre/1741332#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
