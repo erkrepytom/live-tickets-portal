@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-11T15:24:04+00:00",
+ "atualizado": "2026-11-11T22:47:15+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Arsenal sonda Endrick, que admite possibilidade de deixar o Real Madrid",
-     "u": "https://www.gazetaesportiva.com/times/arsenal/arsenal-monitora-endrick-possivel-saida-real-madrid/",
-     "f": "Gazeta Esportiva",
-     "alta": false
+     "t": "Atlético-PB x Treze - Copa Paraíba 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/pb/futebol/copa-paraiba/jogo/11-11-2026/atletico-pb-treze.ghtml",
+     "f": "ge",
+     "alta": true
     },
     {
-     "t": "Cruzeiro tem mais de um time de campeãs da Libertadores em fim de contrato; veja situação",
-     "u": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/11/cruzeiro-tem-mais-de-um-time-de-campeas-da-libertadores-em-fim-de-contrato-veja-situacao.ghtml",
+     "t": "Ex-Real Madrid e Arsenal, Júlio Baptista revela por que resistiu a chegar de carro-forte ao Cruzeiro",
+     "u": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/11/ex-real-madrid-e-arsenal-julio-baptista-revela-por-que-resistiu-a-chegar-de-carro-forte-ao-cruzeiro.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Flamengo perde do Sesi Franca e encerra série de vitórias no NBB",
-     "u": "https://www.gazetaesportiva.com/campeonatos/nbb-novo-basquete-brasil/flamengo-perde-do-sesi-franca-e-encerra-serie-de-vitorias-no-nbb/",
+     "t": "França intensifica preparativos sob chuva antes de enfrentar a Itália",
+     "u": "https://www.gazetaesportiva.com/todas-as-noticias/franca-intensifica-preparativos-sob-chuva-antes-de-enfrentar-a-italia/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Vítor Pereira se arrepende de assumir o Flamengo após saída do Corinthians: \"Erro tremendo\"",
-     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/11/vitor-pereira-se-arrepende-de-assumir-o-flamengo-apos-saida-do-corinthians-erro-tremendo.ghtml",
-     "f": "ge",
+     "t": "Dupla do Atlético-MG é cortada da seleção do Equador por lesões musculares",
+     "u": "https://www.gazetaesportiva.com/times/atletico-mg/atletico-mg-dupla-cortada-equador-lesoes/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Use FanDuel promo code to get $200 bonus bets by targeting Buffalo-Ball State, Cavaliers-Knicks, NBA, football",
-     "u": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-buffalo-ball-state-cavaliers-knicks-nba-football/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "NBA Power Rankings: Lakers thriving behind two-way Luka Dončić, plus a new team at No. 1",
-     "u": "https://www.cbssports.com/nba/news/nba-power-rankings-lakers-luka-doncic-nov-11/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Five NBA contenders and two pretenders",
-     "u": "https://sports.yahoo.com/articles/five-nba-contenders-two-pretenders-151535478.html",
+     "t": "Marquette basketball vs Michigan | Live updates, highlights",
+     "u": "https://sports.yahoo.com/articles/marquette-basketball-vs-michigan-live-223019485.html",
      "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
+     "t": "Use FanDuel promo code to get $200 bonus bets by targeting Buffalo-Ball State, Knicks-Cavaliers, NBA, football",
+     "u": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-buffalo-ball-state-knicks-cavaliers-nba-football/",
+     "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Manchester United set to appoint Mauricio Pochettino",
-     "u": "https://sports.yahoo.com/articles/manchester-united-set-appoint-mauricio-151159169.html",
+     "t": "Knicks vs. Cavaliers prediction, odds, time: 2026 NBA picks for Wednesday, Nov. 11 from proven model",
+     "u": "https://www.cbssports.com/betting/news/knicks-cavaliers-prediction-odds-time-2026-nba-picks-best-bets-wednesday-november-11/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Tottenham Hotspur star Pedro Porro sends Barcelona transfer message",
+     "u": "https://sports.yahoo.com/articles/tottenham-hotspur-star-pedro-porro-223941588.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Ex-Liverpool e flop no Milan deixa futebol para se dedicar... aos estudos",
-     "u": "https://www.record.pt/internacional/detalhe/ex-liverpool-e-flop-no-milan-deixa-futebol-para-se-dedicar-aos-estudos",
+     "t": "Amor eterno ao clube: Barcelona vai abrir 'cemitério' em pleno Camp Nou",
+     "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/amor-eterno-ao-clube-barcelona-vai-abrir-cemiterio-em-pleno-camp-nou",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Ex-Sporting pisca o olho ao Barcelona: «Quando os melhores se interessam…»",
-     "u": "https://www.abola.pt/noticias/ex-sporting-pisca-o-olho-ao-barcelona-quando-os-melhores-se-interessam-2026111110242544891",
+     "t": "Sporting falha Champions ao perder com o Khilasedichi Baku no Golden Set",
+     "u": "https://www.record.pt/modalidades/voleibol/detalhe/sporting-falha-champions-ao-perder-com-o-khilasedichi-baku-no-golden-set",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Momento manteiga na derrota do Sporting na Taça Europa",
+     "u": "https://www.abola.pt/noticias/momento-manteiga-na-derrota-do-sporting-na-taca-europa-2026111120272009404",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Sporting coloca à venda bilhetes para visita a Barcelona",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sporting-coloca-a-venda-bilhetes-para-visita-a-barcelona",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Benfica: jogo da Champions cancelado por causa do mau tempo",
-     "u": "https://www.abola.pt/noticias/benfica-jogo-da-champions-cancelado-por-causa-do-mau-tempo-2026111014452449560",
+     "t": "Amorim já tem alternativa a Gonçalo Inácio: Milan segue promessa de 1,96m",
+     "u": "https://www.abola.pt/noticias/amorim-ja-tem-alternativa-a-goncalo-inacio-milan-segue-promessa-de-196m-2026111122341130577",
      "f": "A Bola",
      "alta": false
     }
@@ -113,27 +113,27 @@
    },
    "noticias": [
     {
-     "t": "La Gravel Burn 2026 desde dentro: el Tour de Francia del gravel con etapas a toda velocidad por sabanas y desiertos",
-     "u": "https://www.mundodeportivo.com/solobici/20261111/1004249882/gravel-burn-2026-cronica.html",
+     "t": "Zidane confirma la baja de Mbappé contra Italia",
+     "u": "https://www.mundodeportivo.com/futbol/uefa-nations-league/20261111/1004250016/zidane-confirma-baja-mbappe-italia.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Mbappé enciende las alarmas: no entrena con Francia",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261111/1004249816/mbappe-enciende-alarmas-no-entrena-francia.html",
+     "t": "La nueva perla de Inglaterra, bajo la tutela de Bellingham y Kane",
+     "u": "https://www.marca.com/futbol/nations-league/2026/11/10/nueva-perla-inglaterra-tutela-bellingham-kan-video.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "El Langui cierra una temporada inolvidable con una plata en Sao Paulo",
+     "u": "https://www.marca.com/paralimpicos/2026/11/10/langui-cierra-temporada-inolvidable-primer-podio-copa-mundo.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Scholes se moja con el futuro de Haaland: \"Irá al Barça\"",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261111/1004249822/scholes-moja-futuro-haaland-ira-barca.html",
      "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Incógnita Mbappé: no se entrena con Francia",
-     "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "El Barça de Flick sabe sufrir",
-     "u": "https://www.marca.com/futbol/barcelona/2026/11/11/barca-flick-sufrir.html",
-     "f": "Marca",
      "alta": false
     }
    ]
@@ -147,8 +147,8 @@
    },
    "noticias": [
     {
-     "t": "England's Bethell out of Australia tour and a doubt for South Africa Tests",
-     "u": "https://www.skysports.com/cricket/news/12040/13610898/jacob-bethell-england-batter-out-of-australia-white-ball-tour-and-doubt-for-test-series-in-south-africa",
+     "t": "Papers: Arsenal, Chelsea and Liverpool chase Bournemouth star Scott",
+     "u": "https://www.skysports.com/football/news/12040/13611225/arsenal-chelsea-and-liverpool-chase-bournemouth-star-alex-scott-paper-talk",
      "f": "Sky Sports",
      "alta": false
     },
@@ -165,9 +165,9 @@
      "alta": false
     },
     {
-     "t": "Coyd family one step from England Wheelchair World Cup glory",
-     "u": "https://www.skysports.com/rugby-league/news/12040/13610977/wheelchair-rugby-league-world-cup-tom-and-joe-coyd-looking-to-take-england-to-successive-world-cup-titles-as-france-await-in-final",
-     "f": "Sky Sports",
+     "t": "Man City thrash Inter to claim first CL win of season",
+     "u": "https://www.bbc.co.uk/sport/football/videos/cwzd6d9zrlz7o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Murió Carlos Babington, emblema de Huracán y símbolo del fútbol argentino",
-     "u": "https://www.infobae.com/deportes/2026/11/11/murio-carlos-babington-emblema-de-huracan-y-simbolo-del-futbol-argentino/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
-     "t": "Dolor en el fútbol argentino: murió Carlos Babington",
-     "u": "https://www.ole.com.ar/informacion-general/dolor-futbol-argentino-murio-carlos-babington-idolo-huracan-futbolista-tecnico-presidente-seleccion-argentina_0_hqfNzskpTa.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
-     "t": "La ácida crítica de un referente de la Fórmula 1 contra Lewis Hamilton en medio de la crisis que atraviesa Ferrari",
-     "u": "https://www.infobae.com/deportes/2026/11/11/la-acida-critica-de-un-referente-de-la-formula-1-contra-lewis-hamilton-en-medio-de-la-crisis-que-atraviesa-ferrari/",
+     "t": "Sorpresa en el fútbol internacional por la convocatoria del nieto de la leyenda Johan Cruyff a una selección de América",
+     "u": "https://www.infobae.com/deportes/2026/11/11/sorpresa-en-el-futbol-internacional-por-la-convocatoria-del-nieto-de-la-leyenda-johan-cruyff-a-una-seleccion-de-america/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Tensión entre Zinedine Zidane y Kylian Mbappé en la selección de Francia",
-     "u": "https://www.ole.com.ar/futbol-internacional/francia/tension-zinedine-zidane-kylian-mbappe-seleccion-francia-cambio-posicion-delantero-tecnico-capitan_0_uGXNnazu1B.html",
+     "t": "Se confirmó la lista de la selección argentina para el Mundial Sub 17: del “pibe de las rabonas” a los convocados de River y Boca",
+     "u": "https://www.infobae.com/deportes/2026/11/11/se-confirmo-la-lista-de-la-seleccion-argentina-para-el-mundial-sub-17-del-pibe-de-las-rabonas-a-los-convocados-de-river-y-boca/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "La última cuenta pendiente: el trofeo mundial que todavía falta en las vitrinas de la AFA",
+     "u": "https://www.ole.com.ar/seleccion/mundialsub17-afa-diegoplacente-vitrina-trofeo_0_cjCLdhCYz7.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Bombazo en el Mundial Sub 17: Estados Unidos se bajaría del torneo en Qatar por motivos de seguridad",
+     "u": "https://www.ole.com.ar/futbol-internacional/bombazo-mundial-sub-17-qatar-estados-unidos-seleccion-participa-baja-retira-competencia-paso_0_PnuS7L8YMw.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "« Si on joue à domicile contre le PSG, tu crois qu'ils nous battent ? » : pour le milieu Marc Bernal, le Barça est la meilleure équipe d'Europe",
-     "u": "https://www.lequipe.fr/Football/Actualites/-si-on-joue-a-domicile-contre-le-psg-tu-crois-qu-ils-nous-battent-pour-le-milieu-marc-bernal-le-barca-est-la-meilleure-equipe-d-europe/1742965#at_medium=RSS_feeds",
+     "t": "Habitué des missions maintien et à la recherche d'une première expérience en France : Valérien Ismaël bientôt au chevet du Havre, dernier de Ligue 1",
+     "u": "https://www.lequipe.fr/Football/Actualites/Habitue-des-missions-maintien-et-a-la-recherche-d-une-premiere-experience-en-france-valerien-ismael-bientot-au-chevet-du-havre-dernier-de-ligue-1/1743072#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Fabien Galthié, sélectionneur de l'équipe de France : « Un défi immense à relever » face à l'Afrique du Sud en Championnat des nations",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Fabien-galthie-selectionneur-de-l-equipe-de-france-un-defi-immense-a-relever-face-a-l-afrique-du-sud-en-championnat-des-nations/1742958#at_medium=RSS_feeds",
+     "t": "Panenka repoussée, ballon relâché : le penalty en deux temps de Wendie Renard contre la Juventus Turin en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Panenka-repoussee-ballon-relache-le-penalty-en-deux-temps-de-wendie-renard-contre-la-juventus-turin-en-ligue-des-champions/1743083#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "Arsenal sonda Endrick, que admite possibilidade de deixar o Real Madrid",
-   "u": "https://www.gazetaesportiva.com/times/arsenal/arsenal-monitora-endrick-possivel-saida-real-madrid/",
-   "f": "Gazeta Esportiva",
-   "alta": false,
+   "t": "Atlético-PB x Treze - Copa Paraíba 2026 - Ao vivo - globoesporte.com",
+   "u": "https://ge.globo.com/pb/futebol/copa-paraiba/jogo/11-11-2026/atletico-pb-treze.ghtml",
+   "f": "ge",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Use FanDuel promo code to get $200 bonus bets by targeting Buffalo-Ball State, Cavaliers-Knicks, NBA, football",
-   "u": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-buffalo-ball-state-cavaliers-knicks-nba-football/",
-   "f": "CBS Sports",
-   "alta": false,
+   "t": "Marquette basketball vs Michigan | Live updates, highlights",
+   "u": "https://sports.yahoo.com/articles/marquette-basketball-vs-michigan-live-223019485.html",
+   "f": "Yahoo Sports",
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Ex-Liverpool e flop no Milan deixa futebol para se dedicar... aos estudos",
-   "u": "https://www.record.pt/internacional/detalhe/ex-liverpool-e-flop-no-milan-deixa-futebol-para-se-dedicar-aos-estudos",
+   "t": "Amor eterno ao clube: Barcelona vai abrir 'cemitério' em pleno Camp Nou",
+   "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/amor-eterno-ao-clube-barcelona-vai-abrir-cemiterio-em-pleno-camp-nou",
    "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "La Gravel Burn 2026 desde dentro: el Tour de Francia del gravel con etapas a toda velocidad por sabanas y desiertos",
-   "u": "https://www.mundodeportivo.com/solobici/20261111/1004249882/gravel-burn-2026-cronica.html",
+   "t": "Zidane confirma la baja de Mbappé contra Italia",
+   "u": "https://www.mundodeportivo.com/futbol/uefa-nations-league/20261111/1004250016/zidane-confirma-baja-mbappe-italia.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "England's Bethell out of Australia tour and a doubt for South Africa Tests",
-   "u": "https://www.skysports.com/cricket/news/12040/13610898/jacob-bethell-england-batter-out-of-australia-white-ball-tour-and-doubt-for-test-series-in-south-africa",
+   "t": "Papers: Arsenal, Chelsea and Liverpool chase Bournemouth star Scott",
+   "u": "https://www.skysports.com/football/news/12040/13611225/arsenal-chelsea-and-liverpool-chase-bournemouth-star-alex-scott-paper-talk",
    "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Murió Carlos Babington, emblema de Huracán y símbolo del fútbol argentino",
-   "u": "https://www.infobae.com/deportes/2026/11/11/murio-carlos-babington-emblema-de-huracan-y-simbolo-del-futbol-argentino/",
+   "t": "Sorpresa en el fútbol internacional por la convocatoria del nieto de la leyenda Johan Cruyff a una selección de América",
+   "u": "https://www.infobae.com/deportes/2026/11/11/sorpresa-en-el-futbol-internacional-por-la-convocatoria-del-nieto-de-la-leyenda-johan-cruyff-a-una-seleccion-de-america/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "« Si on joue à domicile contre le PSG, tu crois qu'ils nous battent ? » : pour le milieu Marc Bernal, le Barça est la meilleure équipe d'Europe",
-   "u": "https://www.lequipe.fr/Football/Actualites/-si-on-joue-a-domicile-contre-le-psg-tu-crois-qu-ils-nous-battent-pour-le-milieu-marc-bernal-le-barca-est-la-meilleure-equipe-d-europe/1742965#at_medium=RSS_feeds",
+   "t": "Habitué des missions maintien et à la recherche d'une première expérience en France : Valérien Ismaël bientôt au chevet du Havre, dernier de Ligue 1",
+   "u": "https://www.lequipe.fr/Football/Actualites/Habitue-des-missions-maintien-et-a-la-recherche-d-une-premiere-experience-en-france-valerien-ismael-bientot-au-chevet-du-havre-dernier-de-ligue-1/1743072#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
