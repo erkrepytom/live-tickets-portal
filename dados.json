@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-10T23:30:40+00:00",
+ "atualizado": "2026-11-11T06:43:24+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -23,14 +23,14 @@
      "alta": false
     },
     {
-     "t": "Seleção feminina é convocada com jogadoras de Palmeiras, Corinthians e São Paulo; veja lista",
-     "u": "https://www.gazetaesportiva.com/times/brasil/selecao-feminina-e-convocada-com-jogadoras-de-palmeiras-corinthians-e-sao-paulo-veja-lista/",
+     "t": "Flamengo perde do Sesi Franca e encerra série de vitórias no NBB",
+     "u": "https://www.gazetaesportiva.com/campeonatos/nbb-novo-basquete-brasil/flamengo-perde-do-sesi-franca-e-encerra-serie-de-vitorias-no-nbb/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Atlético-MG se reapresenta depois de eliminação e foca em jogo adiantado e final da Sul-Americana",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/10/atletico-mg-se-reapresenta-depois-de-eliminacao-e-foca-em-jogo-adiantado-e-final-da-sul-americana.ghtml",
+     "t": "Franca domina Flamengo no Maracanãzinho e conquista primeira vitória fora de casa",
+     "u": "https://ge.globo.com/basquete/noticia/2026/11/10/franca-domina-flamengo-dentro-do-maracanazinho-e-conquista-primeira-vitoria-fora-de-casa.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Serie A hot takes: AC Milan's star is no longer Christian Pulisic; Napoli need to find a new coach",
-     "u": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-ac-milans-christian-pulisic-napoli/",
+     "t": "Celtics vs. 76ers odds, prediction, betting preview, start time: NBA picks, best bets on Tuesday, Nov. 10",
+     "u": "https://www.cbssports.com/betting/news/celtics-vs-76ers-odds-prediction-betting-preview-start-time-nba-picks-best-bets-on-tuesday-nov-10/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Celtics vs. 76ers prediction, odds, time: 2026 NBA picks for Tuesday, Nov. 10 from proven model",
-     "u": "https://www.cbssports.com/betting/news/celtics-76ers-prediction-odds-time-2026-nba-picks-best-bets-tuesday-november-10/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "NBA's last two-minute report disagrees with Rick Carlisle on collision",
-     "u": "https://sports.yahoo.com/articles/nbas-last-two-minute-report-232050195.html",
+     "t": "Jaylen Brown’s ‘war’ mentality falls short as the Boston Celtics humble the 76ers",
+     "u": "https://sports.yahoo.com/articles/jaylen-brown-war-mentality-falls-062352164.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Arsenal eye Real's Endrick - Wednesday's gossip",
-     "u": "https://sports.yahoo.com/articles/arsenal-eye-reals-endrick-wednesdays-231132786.html",
+     "t": "Celtics vs. 76ers winners and losers: Jayson Tatum outduels Jaylen Brown, but Paul George steals the show",
+     "u": "https://www.cbssports.com/nba/news/celtics-76ers-winners-losers-jayson-tatum-jaylen-brown-paul-george/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Does Pickford finally face serious competition for his England place?",
+     "u": "https://sports.yahoo.com/articles/does-pickford-finally-face-serious-062432578.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,8 +79,8 @@
    },
    "noticias": [
     {
-     "t": "Mercado: avançado do Real Madrid fora dos planos do Sporting",
-     "u": "https://www.abola.pt/noticias/mercado-avancado-do-real-madrid-fora-dos-planos-do-sporting-2026111019370835185",
+     "t": "Já há nova data para o jogo do Benfica na Champions",
+     "u": "https://www.abola.pt/noticias/ja-ha-nova-data-para-o-jogo-do-benfica-na-champions-2026111021141969987",
      "f": "A Bola",
      "alta": false
     },
@@ -91,14 +91,14 @@
      "alta": false
     },
     {
-     "t": "Gustavo Varela, Rodrigo Mora e Nazinho em ação: FPF mostra imagens do treino da Seleção na Cidade do Futebol",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/gustavo-varela-rodrigo-mora-e-nazinho-em-acao-fpf-mostra-imagens-do-treino-da-selecao-na-cidade-do-futebol",
+     "t": "Trubin vai à escola de CR7: Julerson Dias ajudou guarda-redes do Benfica com o jogo de pés",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/trubin-vai-a-escola-de-cr7-julerson-dias-ajudou-guarda-redes-com-o-jogo-de-pes",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Mau tempo: circulação já sem restrições nas pontes Vasco da Gama e 25 de Abril",
-     "u": "https://www.record.pt/fora-de-campo/detalhe/mau-tempo-circulacao-ja-sem-restricoes-nas-pontes-vasco-da-gama-e-25-de-abril",
+     "t": "Do sonho ao pesadelo: a crise infindável do Manchester United",
+     "u": "https://www.record.pt/internacional/paises/inglaterra/man--united/detalhe/do-sonho-ao-pesadelo-a-crise-infindavel-do-manchester-united",
      "f": "Record",
      "alta": false
     }
@@ -119,8 +119,8 @@
      "alta": false
     },
     {
-     "t": "El Barça-Espanyol de la Liga F ya tiene fecha",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261110/1004249679/barca-espanyol-liga-f-fecha.html",
+     "t": "¡Interlagos es territorio de espectáculo! Norris vence, Verstappen vuela y Alonso enamora",
+     "u": "https://www.mundodeportivo.com/motor/f1/20261110/1004249579/interlagos-territorio-espectaculo-norris-vence-verstappen-vuela-alonso-enamora.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -153,21 +153,21 @@
      "alta": false
     },
     {
-     "t": "Uncapped Notts spinner Patterson-White earns England Test call-up for South Africa",
-     "u": "https://www.theguardian.com/sport/2026/nov/09/uncapped-spinner-patterson-white-england-test-call-up-south-africa-cricket",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
      "t": "World Cup finalists England still feel short of best",
      "u": "https://www.bbc.co.uk/sport/rugby-league/articles/ckzd6dmm5z19o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "England focused on Curry and Feyi-Waboso winning World Cup fitness race",
-     "u": "https://www.skysports.com/rugby-union/news/12040/13610706/england-focused-on-ensuring-immanuel-feyi-waboso-and-tom-curry-get-fit-for-rugby-world-cup",
+     "t": "Hill insists Ferrari should back 'extraordinary' Hamilton over Leclerc",
+     "u": "https://www.skysports.com/f1/news/12040/13610730/ferrari-should-back-extraordinary-lewis-hamilton-over-charles-leclerc-as-number-one-driver-damon-hill-tells-sky-sports-the-f1-show",
      "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "Man City thrash Inter to claim first CL win of season",
+     "u": "https://www.bbc.co.uk/sport/football/videos/cwzd6d9zrlz7o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,15 +181,15 @@
    },
    "noticias": [
     {
+     "t": "Video: la explicación del relato fallido del supuesto gol anulado a Boca y los festejos del \"bicampeonato\" de Rosario Central",
+     "u": "https://www.ole.com.ar/futbol-primera/video-explicacion-relato-fallido_0_K3seQ9aJdS.html",
+     "f": "Olé",
+     "alta": true
+    },
+    {
      "t": "Tras el Gran Premio de Brasil, un piloto de la Fórmula 1 se fue de viaje a Ecuador junto a su pareja: el álbum de fotos",
      "u": "https://www.infobae.com/deportes/2026/11/10/tras-el-gran-premio-de-brasil-un-piloto-de-la-formula-1-se-fue-de-viaje-a-ecuador-junto-a-su-pareja-el-album-de-fotos/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Conmebol multó a Flamengo por la semi de la Copa Libertadores contra Estudiantes",
-     "u": "https://www.ole.com.ar/futbol-internacional/conmebol-multo-flamengo-copa-libertadores_0_aIrbHXouRT.html",
-     "f": "Olé",
      "alta": false
     },
     {
@@ -199,8 +199,8 @@
      "alta": false
     },
     {
-     "t": "La fiesta terminó: la decisión de Arruabarrena en la vuelta a las prácticas en Boca Predio",
-     "u": "https://www.ole.com.ar/boca-juniors/decision-arruabarrena-vuelta-practicas-boca-predio_0_GVMmYQKBpT.html",
+     "t": "Atención Estudiantes: más entradas para la final de la Libertadores",
+     "u": "https://www.ole.com.ar/estudiantes/estudiantes-copalibertadores-palmeiras-centenario-entradas_0_xNH2WS4gzI.html",
      "f": "Olé",
      "alta": false
     }
@@ -260,15 +260,15 @@
    "pais": "BR"
   },
   {
-   "t": "Serie A hot takes: AC Milan's star is no longer Christian Pulisic; Napoli need to find a new coach",
-   "u": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-ac-milans-christian-pulisic-napoli/",
+   "t": "Celtics vs. 76ers odds, prediction, betting preview, start time: NBA picks, best bets on Tuesday, Nov. 10",
+   "u": "https://www.cbssports.com/betting/news/celtics-vs-76ers-odds-prediction-betting-preview-start-time-nba-picks-best-bets-on-tuesday-nov-10/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Mercado: avançado do Real Madrid fora dos planos do Sporting",
-   "u": "https://www.abola.pt/noticias/mercado-avancado-do-real-madrid-fora-dos-planos-do-sporting-2026111019370835185",
+   "t": "Já há nova data para o jogo do Benfica na Champions",
+   "u": "https://www.abola.pt/noticias/ja-ha-nova-data-para-o-jogo-do-benfica-na-champions-2026111021141969987",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -288,10 +288,10 @@
    "pais": "GB"
   },
   {
-   "t": "Tras el Gran Premio de Brasil, un piloto de la Fórmula 1 se fue de viaje a Ecuador junto a su pareja: el álbum de fotos",
-   "u": "https://www.infobae.com/deportes/2026/11/10/tras-el-gran-premio-de-brasil-un-piloto-de-la-formula-1-se-fue-de-viaje-a-ecuador-junto-a-su-pareja-el-album-de-fotos/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Video: la explicación del relato fallido del supuesto gol anulado a Boca y los festejos del \"bicampeonato\" de Rosario Central",
+   "u": "https://www.ole.com.ar/futbol-primera/video-explicacion-relato-fallido_0_K3seQ9aJdS.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
