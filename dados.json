@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12T03:54:50+00:00",
+ "atualizado": "2026-11-12T12:54:20+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,6 +11,18 @@
    },
    "noticias": [
     {
+     "t": "Douglas Santos admite sondagem do Flamengo em reta final de contrato com Zenit: “Energiza e motiva”",
+     "u": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/12/douglas-santos-admite-sondagem-do-flamengo-em-reta-final-de-contrato-com-zenit-energiza-e-motiva.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Itália x França - Liga das Nações 2026/2027 - globoesporte.com",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/12-11-2026/italia-franca.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
      "t": "Itália x França: veja prováveis escalações e onde assistir ao duelo pela Liga das Nações",
      "u": "https://www.gazetaesportiva.com/times/franca/italia-x-franca-veja-provaveis-escalacoes-e-onde-assistir-ao-duelo-pela-liga-das-nacoes/",
      "f": "Gazeta Esportiva",
@@ -20,18 +32,6 @@
      "t": "Inglaterra x Croácia: veja prováveis escalações e onde assistir ao duelo pela Liga das Nações",
      "u": "https://www.gazetaesportiva.com/campeonatos/uefa-nations-league/inglaterra-x-croacia-veja-provaveis-escalacoes-e-onde-assistir-ao-duelo-pela-liga-das-nacoes/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Inter vira sobre o Flamengo e abre vantagem na final da Copa do Brasil Feminina",
-     "u": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/11-11-2026/flamengo-internacional.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Após devolver Fast à Série A, presidente anuncia saída e revela meta inicial para 2027: \"Não cair\"",
-     "u": "https://ge.globo.com/am/futebol/times/fast/noticia/2026/11/12/apos-devolver-fast-a-serie-a-presidente-anuncia-saida-e-revela-meta-inicial-para-2027-nao-cair.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Luka Doncic injury update: What we know after Lakers star rolls ankle late in win vs Bucks",
-     "u": "https://sports.yahoo.com/articles/luka-doncic-injury-know-lakers-033737079.html",
-     "f": "Yahoo Sports",
-     "alta": true
-    },
-    {
-     "t": "Use FanDuel promo code to get $200 bonus bets by targeting Buffalo-Ball State, Knicks-Cavaliers, NBA, football",
-     "u": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-buffalo-ball-state-knicks-cavaliers-nba-football/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
      "t": "Nuggets vs. Grizzlies odds, prediction, betting preview: NBA picks, best bets for Wednesday, Nov. 11",
      "u": "https://www.cbssports.com/betting/news/nuggets-vs-grizzlies-odds-prediction-betting-preview-nba-picks-best-bets-for-wednesday-nov-11/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Rutgers women's basketball wins but major scare from Monmouth, Gigi Gamble",
-     "u": "https://sports.yahoo.com/articles/rutgers-womens-basketball-wins-major-034906529.html",
+     "t": "Knicks vs. Cavaliers prediction, odds, time: 2026 NBA picks for Wednesday, Nov. 11 from proven model",
+     "u": "https://www.cbssports.com/betting/news/knicks-cavaliers-prediction-odds-time-2026-nba-picks-best-bets-wednesday-november-11/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Manchester City Prepare New Contract for Highly-Rated Defender Amid Impressive Premier League Loan",
+     "u": "https://sports.yahoo.com/articles/manchester-city-prepare-contract-highly-123000087.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "ATP FINALS 2026: Capsules on the 8 qualifiers",
+     "u": "https://sports.yahoo.com/articles/atp-finals-2026-capsules-8-124253625.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "«Adoro futebol e lavo a alma com música»: conheça João Leite Carvalho, o CEO do Atlético que é DJ",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-3/detalhe/adoro-futebol-e-lavo-a-alma-com-musica-conheca-joao-leite-carvalho-o-ceo-do-atletico-que-e-dj",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Sporting perde vaga na Champions após derrota amarga no... sexto set",
-     "u": "https://www.abola.pt/noticias/sporting-perde-vaga-na-champions-apos-derrota-amarga-no-sexto-set-2026111122394342972",
+     "t": "Benfica: jogo da Champions cancelado por causa do mau tempo",
+     "u": "https://www.abola.pt/noticias/benfica-jogo-da-champions-cancelado-por-causa-do-mau-tempo-2026111014452449560",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Entre lesões e seleções: Abel Ferreira com 11 baixas no Palmeiras antes de jogo decisivo com o Cruzeiro",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/entre-lesoes-e-selecoes-abel-ferreira-com-11-baixas-no-palmeiras-antes-de-jogo-decisivo-com-o-cruzeiro",
+     "t": "Akanji alimenta rivalidade em Itália: «O Como? Ainda tem muito para aprender»",
+     "u": "https://www.record.pt/internacional/paises/italia/detalhe/akanji-alimenta-rivalidade-em-italia-o-como-ainda-tem-muito-para-aprender",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Pérola de Abel que esteve na mira do Sporting tem interessados (e o Barcelona esfrega as mãos)",
-     "u": "https://www.abola.pt/noticias/perola-de-abel-que-esteve-na-mira-do-sporting-tem-interessados-e-o-barcelona-esfrega-as-maos-2026111113373100912",
+     "t": "Benfica: Richard Ríos recupera de lesão grave no Palmeiras",
+     "u": "https://www.abola.pt/noticias/benfica-richard-rios-recupera-de-lesao-grave-no-palmeiras-2026111022264753505",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Rafael João Almeida: «Shorts, resumos, backstage: o Mundial trouxe-nos outras oportunidades de consumo»",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/rafael-almeida-shorts-resumos-backstage-o-mundial-trouxe-nos-outras-oportunidades-de-consumo",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -113,8 +113,14 @@
    },
    "noticias": [
     {
-     "t": "Zidane confirma la baja de Mbappé contra Italia",
-     "u": "https://www.mundodeportivo.com/futbol/uefa-nations-league/20261111/1004250016/zidane-confirma-baja-mbappe-italia.html",
+     "t": "Episodio 10 de #FutFem: un Barça-Arsenal con aires de revancha, el Real Madrid ya gana en Champions y el once de la jornada de la Liga F Moeve",
+     "u": "https://www.mundodeportivo.com/futbol/femenino/20261112/1004249813/episodio-10-futfem-barca-arsenal-aires-revancha-real-madrid-gana-champions-once-jornada-liga-f-moeve.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Horario y dónde ver por TV el Barça - Arsenal de la Champions femenina",
+     "u": "https://www.mundodeportivo.com/horarios/futbol/20261111/1004250028/horario-canal-ver-tv-barca-arsenal-femenino-champions-league-futbol-femenino.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -122,12 +128,6 @@
      "t": "Incógnita Mbappé: no se entrena con Francia",
      "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "El Barça, rey absoluto del gol en las Ligas europeas",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261112/1004249446/barca-rey-absoluto-gol-ligas-europeas.html",
-     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,20 +147,20 @@
    },
    "noticias": [
     {
-     "t": "Papers: Arsenal, Chelsea and Liverpool chase Bournemouth star Scott",
-     "u": "https://www.skysports.com/football/news/12040/13611225/arsenal-chelsea-and-liverpool-chase-bournemouth-star-alex-scott-paper-talk",
-     "f": "Sky Sports",
+     "t": "BBC to show England-France wheelchair World Cup final",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/articles/c8dx16rnrpkxo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "World Cup triumph would only be half the story for England’s wheelchair rugby league squad",
+     "u": "https://www.theguardian.com/sport/2026/nov/12/england-france-wheelchair-rugby-league-squad-world-cup-final",
+     "f": "The Guardian",
      "alta": false
     },
     {
      "t": "‘An eternal shame’: Bilic and Croatia aim to use 7-0 humbling as fuel against England",
      "u": "https://www.theguardian.com/football/2026/nov/11/slaven-bilic-croatia-7-0-england-nations-league-wembley",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Bethell faces fitness race for South Africa Tests after being ruled out of Australia tour",
-     "u": "https://www.theguardian.com/sport/2026/nov/11/jacob-bethell-cricket-england-fitness-south-africa-tests-australia-white-ball-tour",
      "f": "The Guardian",
      "alta": false
     },
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
+     "t": "La singular promesa de Pedro Troglio al plantel si Banfield elimina a Boca de la Copa Argentina",
+     "u": "https://www.infobae.com/deportes/2026/11/12/la-singular-promesa-de-pedro-troglio-al-plantel-si-banfield-elimina-a-boca-de-la-copa-argentina/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
      "t": "Sorpresa en el fútbol internacional por la convocatoria del nieto de la leyenda Johan Cruyff a una selección de América",
      "u": "https://www.infobae.com/deportes/2026/11/11/sorpresa-en-el-futbol-internacional-por-la-convocatoria-del-nieto-de-la-leyenda-johan-cruyff-a-una-seleccion-de-america/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Video: el golazo de un jugador de la Selección que fue elegido como el mejor del mes en la Serie A",
-     "u": "https://www.ole.com.ar/futbol-internacional/italia/santiagocastro-mejor-gol-seriea-roma-bologna-seleccionargentina_0_ZbGbp092w2.html",
+     "t": "La otra obsesión de Arruabarrena tras el primer título de Boca",
+     "u": "https://www.ole.com.ar/boca-juniors/rodolfo-arruabarrena-obsesion-boca-copa-argentina-titulo_0_8yWRX3FLRj.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Se confirmó la lista de la selección argentina para el Mundial Sub 17: del “pibe de las rabonas” a los convocados de River y Boca",
-     "u": "https://www.infobae.com/deportes/2026/11/11/se-confirmo-la-lista-de-la-seleccion-argentina-para-el-mundial-sub-17-del-pibe-de-las-rabonas-a-los-convocados-de-river-y-boca/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Luto en el fútbol argentino por la muerte del Negro Rodríguez",
-     "u": "https://www.ole.com.ar/informacion-general/murio-ricardo-negro-rodriguez_0_h6hmtHwqEf.html",
+     "t": "Con dos jugadores de selección: el uno por uno del Banfield que buscará el pase ante Boca",
+     "u": "https://www.ole.com.ar/banfield/boca-banfield-semifinal-copa-argentina_0_T0CN0JdClu.html",
      "f": "Olé",
      "alta": false
     }
@@ -215,14 +215,14 @@
    },
    "noticias": [
     {
-     "t": "A un passo dall'Inter, poi l'arresto: il centrocampista testimone della morte del boss",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/30-11-2023/serie-a-noir-storia-di-antonio-la-fortezza-dal-sogno-inter-alla-malavita.shtml",
-     "f": "La Gazzetta dello Sport",
-     "alta": true
-    },
-    {
      "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
      "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+     "f": "La Gazzetta dello Sport",
+     "alta": false
+    },
+    {
+     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
      "f": "La Gazzetta dello Sport",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Frank Ntilikina après le succès du Paris Basketball contre Fenerbahçe : « Ça me rappelle les U18 avec l'équipe de France »",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Frank-ntilikina-apres-le-succes-du-paris-basketball-contre-fenerbahce-ca-me-rappelle-les-u18-avec-l-equipe-de-france/1743096#at_medium=RSS_feeds",
+     "t": "« Cette rencontre pourrait inciter les ultras du Stade Rennais à faire le déplacement » : les supporters de Nantes interdits de déplacement pour le 7e",
+     "u": "https://www.lequipe.fr/Football/Actualites/-cette-rencontre-pourrait-inciter-les-ultras-du-stade-rennais-a-faire-le-deplacement-les-supporters-de-nantes-interdits-de-deplacement-pour-le-7e-tour-de-coupe-de-france-contre-chateaubourg-club-de-r1/1743143#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Habitué des missions maintien et à la recherche d'une première expérience en France : Valérien Ismaël bientôt au chevet du Havre, dernier de Ligue 1",
-     "u": "https://www.lequipe.fr/Football/Actualites/Habitue-des-missions-maintien-et-a-la-recherche-d-une-premiere-experience-en-france-valerien-ismael-bientot-au-chevet-du-havre-dernier-de-ligue-1/1743072#at_medium=RSS_feeds",
+     "t": "18e de Premier League, Manchester United a licencié Michael Carrick de son poste d'entraîneur",
+     "u": "https://www.lequipe.fr/Football/Actualites/18e-de-premier-league-manchester-united-a-licencie-michael-carrick-de-son-poste-d-entraineur/1743132#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,57 +253,57 @@
  ],
  "destaques": [
   {
-   "t": "Itália x França: veja prováveis escalações e onde assistir ao duelo pela Liga das Nações",
-   "u": "https://www.gazetaesportiva.com/times/franca/italia-x-franca-veja-provaveis-escalacoes-e-onde-assistir-ao-duelo-pela-liga-das-nacoes/",
-   "f": "Gazeta Esportiva",
-   "alta": false,
+   "t": "Douglas Santos admite sondagem do Flamengo em reta final de contrato com Zenit: “Energiza e motiva”",
+   "u": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/12/douglas-santos-admite-sondagem-do-flamengo-em-reta-final-de-contrato-com-zenit-energiza-e-motiva.ghtml",
+   "f": "ge",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Luka Doncic injury update: What we know after Lakers star rolls ankle late in win vs Bucks",
-   "u": "https://sports.yahoo.com/articles/luka-doncic-injury-know-lakers-033737079.html",
-   "f": "Yahoo Sports",
-   "alta": true,
+   "t": "Nuggets vs. Grizzlies odds, prediction, betting preview: NBA picks, best bets for Wednesday, Nov. 11",
+   "u": "https://www.cbssports.com/betting/news/nuggets-vs-grizzlies-odds-prediction-betting-preview-nba-picks-best-bets-for-wednesday-nov-11/",
+   "f": "CBS Sports",
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "«Adoro futebol e lavo a alma com música»: conheça João Leite Carvalho, o CEO do Atlético que é DJ",
-   "u": "https://www.record.pt/futebol/futebol-nacional/liga-3/detalhe/adoro-futebol-e-lavo-a-alma-com-musica-conheca-joao-leite-carvalho-o-ceo-do-atletico-que-e-dj",
-   "f": "Record",
+   "t": "Benfica: jogo da Champions cancelado por causa do mau tempo",
+   "u": "https://www.abola.pt/noticias/benfica-jogo-da-champions-cancelado-por-causa-do-mau-tempo-2026111014452449560",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Zidane confirma la baja de Mbappé contra Italia",
-   "u": "https://www.mundodeportivo.com/futbol/uefa-nations-league/20261111/1004250016/zidane-confirma-baja-mbappe-italia.html",
+   "t": "Episodio 10 de #FutFem: un Barça-Arsenal con aires de revancha, el Real Madrid ya gana en Champions y el once de la jornada de la Liga F Moeve",
+   "u": "https://www.mundodeportivo.com/futbol/femenino/20261112/1004249813/episodio-10-futfem-barca-arsenal-aires-revancha-real-madrid-gana-champions-once-jornada-liga-f-moeve.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Papers: Arsenal, Chelsea and Liverpool chase Bournemouth star Scott",
-   "u": "https://www.skysports.com/football/news/12040/13611225/arsenal-chelsea-and-liverpool-chase-bournemouth-star-alex-scott-paper-talk",
-   "f": "Sky Sports",
+   "t": "BBC to show England-France wheelchair World Cup final",
+   "u": "https://www.bbc.co.uk/sport/rugby-league/articles/c8dx16rnrpkxo?at_medium=RSS&at_campaign=rss",
+   "f": "BBC Sport",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Sorpresa en el fútbol internacional por la convocatoria del nieto de la leyenda Johan Cruyff a una selección de América",
-   "u": "https://www.infobae.com/deportes/2026/11/11/sorpresa-en-el-futbol-internacional-por-la-convocatoria-del-nieto-de-la-leyenda-johan-cruyff-a-una-seleccion-de-america/",
+   "t": "La singular promesa de Pedro Troglio al plantel si Banfield elimina a Boca de la Copa Argentina",
+   "u": "https://www.infobae.com/deportes/2026/11/12/la-singular-promesa-de-pedro-troglio-al-plantel-si-banfield-elimina-a-boca-de-la-copa-argentina/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
-   "t": "A un passo dall'Inter, poi l'arresto: il centrocampista testimone della morte del boss",
-   "u": "https://www.gazzetta.it/Calcio/Serie-A/30-11-2023/serie-a-noir-storia-di-antonio-la-fortezza-dal-sogno-inter-alla-malavita.shtml",
+   "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+   "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": true,
+   "alta": false,
    "pais": "IT"
   },
   {
-   "t": "Frank Ntilikina après le succès du Paris Basketball contre Fenerbahçe : « Ça me rappelle les U18 avec l'équipe de France »",
-   "u": "https://www.lequipe.fr/Basket/Actualites/Frank-ntilikina-apres-le-succes-du-paris-basketball-contre-fenerbahce-ca-me-rappelle-les-u18-avec-l-equipe-de-france/1743096#at_medium=RSS_feeds",
+   "t": "« Cette rencontre pourrait inciter les ultras du Stade Rennais à faire le déplacement » : les supporters de Nantes interdits de déplacement pour le 7e",
+   "u": "https://www.lequipe.fr/Football/Actualites/-cette-rencontre-pourrait-inciter-les-ultras-du-stade-rennais-a-faire-le-deplacement-les-supporters-de-nantes-interdits-de-deplacement-pour-le-7e-tour-de-coupe-de-france-contre-chateaubourg-club-de-r1/1743143#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
