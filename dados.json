@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-11T22:47:15+00:00",
+ "atualizado": "2026-11-12T03:54:50+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Atlético-PB x Treze - Copa Paraíba 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/pb/futebol/copa-paraiba/jogo/11-11-2026/atletico-pb-treze.ghtml",
-     "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Ex-Real Madrid e Arsenal, Júlio Baptista revela por que resistiu a chegar de carro-forte ao Cruzeiro",
-     "u": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/11/ex-real-madrid-e-arsenal-julio-baptista-revela-por-que-resistiu-a-chegar-de-carro-forte-ao-cruzeiro.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "França intensifica preparativos sob chuva antes de enfrentar a Itália",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/franca-intensifica-preparativos-sob-chuva-antes-de-enfrentar-a-italia/",
+     "t": "Itália x França: veja prováveis escalações e onde assistir ao duelo pela Liga das Nações",
+     "u": "https://www.gazetaesportiva.com/times/franca/italia-x-franca-veja-provaveis-escalacoes-e-onde-assistir-ao-duelo-pela-liga-das-nacoes/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Dupla do Atlético-MG é cortada da seleção do Equador por lesões musculares",
-     "u": "https://www.gazetaesportiva.com/times/atletico-mg/atletico-mg-dupla-cortada-equador-lesoes/",
+     "t": "Inglaterra x Croácia: veja prováveis escalações e onde assistir ao duelo pela Liga das Nações",
+     "u": "https://www.gazetaesportiva.com/campeonatos/uefa-nations-league/inglaterra-x-croacia-veja-provaveis-escalacoes-e-onde-assistir-ao-duelo-pela-liga-das-nacoes/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Inter vira sobre o Flamengo e abre vantagem na final da Copa do Brasil Feminina",
+     "u": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/11-11-2026/flamengo-internacional.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Após devolver Fast à Série A, presidente anuncia saída e revela meta inicial para 2027: \"Não cair\"",
+     "u": "https://ge.globo.com/am/futebol/times/fast/noticia/2026/11/12/apos-devolver-fast-a-serie-a-presidente-anuncia-saida-e-revela-meta-inicial-para-2027-nao-cair.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,8 +45,8 @@
    },
    "noticias": [
     {
-     "t": "Marquette basketball vs Michigan | Live updates, highlights",
-     "u": "https://sports.yahoo.com/articles/marquette-basketball-vs-michigan-live-223019485.html",
+     "t": "Luka Doncic injury update: What we know after Lakers star rolls ankle late in win vs Bucks",
+     "u": "https://sports.yahoo.com/articles/luka-doncic-injury-know-lakers-033737079.html",
      "f": "Yahoo Sports",
      "alta": true
     },
@@ -57,14 +57,14 @@
      "alta": false
     },
     {
-     "t": "Knicks vs. Cavaliers prediction, odds, time: 2026 NBA picks for Wednesday, Nov. 11 from proven model",
-     "u": "https://www.cbssports.com/betting/news/knicks-cavaliers-prediction-odds-time-2026-nba-picks-best-bets-wednesday-november-11/",
+     "t": "Nuggets vs. Grizzlies odds, prediction, betting preview: NBA picks, best bets for Wednesday, Nov. 11",
+     "u": "https://www.cbssports.com/betting/news/nuggets-vs-grizzlies-odds-prediction-betting-preview-nba-picks-best-bets-for-wednesday-nov-11/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Tottenham Hotspur star Pedro Porro sends Barcelona transfer message",
-     "u": "https://sports.yahoo.com/articles/tottenham-hotspur-star-pedro-porro-223941588.html",
+     "t": "Rutgers women's basketball wins but major scare from Monmouth, Gigi Gamble",
+     "u": "https://sports.yahoo.com/articles/rutgers-womens-basketball-wins-major-034906529.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Amor eterno ao clube: Barcelona vai abrir 'cemitério' em pleno Camp Nou",
-     "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/amor-eterno-ao-clube-barcelona-vai-abrir-cemiterio-em-pleno-camp-nou",
+     "t": "«Adoro futebol e lavo a alma com música»: conheça João Leite Carvalho, o CEO do Atlético que é DJ",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-3/detalhe/adoro-futebol-e-lavo-a-alma-com-musica-conheca-joao-leite-carvalho-o-ceo-do-atletico-que-e-dj",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Sporting falha Champions ao perder com o Khilasedichi Baku no Golden Set",
-     "u": "https://www.record.pt/modalidades/voleibol/detalhe/sporting-falha-champions-ao-perder-com-o-khilasedichi-baku-no-golden-set",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Momento manteiga na derrota do Sporting na Taça Europa",
-     "u": "https://www.abola.pt/noticias/momento-manteiga-na-derrota-do-sporting-na-taca-europa-2026111120272009404",
+     "t": "Sporting perde vaga na Champions após derrota amarga no... sexto set",
+     "u": "https://www.abola.pt/noticias/sporting-perde-vaga-na-champions-apos-derrota-amarga-no-sexto-set-2026111122394342972",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Amorim já tem alternativa a Gonçalo Inácio: Milan segue promessa de 1,96m",
-     "u": "https://www.abola.pt/noticias/amorim-ja-tem-alternativa-a-goncalo-inacio-milan-segue-promessa-de-196m-2026111122341130577",
+     "t": "Entre lesões e seleções: Abel Ferreira com 11 baixas no Palmeiras antes de jogo decisivo com o Cruzeiro",
+     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/entre-lesoes-e-selecoes-abel-ferreira-com-11-baixas-no-palmeiras-antes-de-jogo-decisivo-com-o-cruzeiro",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Pérola de Abel que esteve na mira do Sporting tem interessados (e o Barcelona esfrega as mãos)",
+     "u": "https://www.abola.pt/noticias/perola-de-abel-que-esteve-na-mira-do-sporting-tem-interessados-e-o-barcelona-esfrega-as-maos-2026111113373100912",
      "f": "A Bola",
      "alta": false
     }
@@ -119,21 +119,21 @@
      "alta": false
     },
     {
-     "t": "La nueva perla de Inglaterra, bajo la tutela de Bellingham y Kane",
-     "u": "https://www.marca.com/futbol/nations-league/2026/11/10/nueva-perla-inglaterra-tutela-bellingham-kan-video.html",
+     "t": "Incógnita Mbappé: no se entrena con Francia",
+     "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "El Langui cierra una temporada inolvidable con una plata en Sao Paulo",
-     "u": "https://www.marca.com/paralimpicos/2026/11/10/langui-cierra-temporada-inolvidable-primer-podio-copa-mundo.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Scholes se moja con el futuro de Haaland: \"Irá al Barça\"",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261111/1004249822/scholes-moja-futuro-haaland-ira-barca.html",
+     "t": "El Barça, rey absoluto del gol en las Ligas europeas",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261112/1004249446/barca-rey-absoluto-gol-ligas-europeas.html",
      "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "El Barça de Flick sabe sufrir",
+     "u": "https://www.marca.com/futbol/barcelona/2026/11/11/barca-flick-sufrir.html",
+     "f": "Marca",
      "alta": false
     }
    ]
@@ -187,20 +187,20 @@
      "alta": false
     },
     {
+     "t": "Video: el golazo de un jugador de la Selección que fue elegido como el mejor del mes en la Serie A",
+     "u": "https://www.ole.com.ar/futbol-internacional/italia/santiagocastro-mejor-gol-seriea-roma-bologna-seleccionargentina_0_ZbGbp092w2.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Se confirmó la lista de la selección argentina para el Mundial Sub 17: del “pibe de las rabonas” a los convocados de River y Boca",
      "u": "https://www.infobae.com/deportes/2026/11/11/se-confirmo-la-lista-de-la-seleccion-argentina-para-el-mundial-sub-17-del-pibe-de-las-rabonas-a-los-convocados-de-river-y-boca/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "La última cuenta pendiente: el trofeo mundial que todavía falta en las vitrinas de la AFA",
-     "u": "https://www.ole.com.ar/seleccion/mundialsub17-afa-diegoplacente-vitrina-trofeo_0_cjCLdhCYz7.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Bombazo en el Mundial Sub 17: Estados Unidos se bajaría del torneo en Qatar por motivos de seguridad",
-     "u": "https://www.ole.com.ar/futbol-internacional/bombazo-mundial-sub-17-qatar-estados-unidos-seleccion-participa-baja-retira-competencia-paso_0_PnuS7L8YMw.html",
+     "t": "Luto en el fútbol argentino por la muerte del Negro Rodríguez",
+     "u": "https://www.ole.com.ar/informacion-general/murio-ricardo-negro-rodriguez_0_h6hmtHwqEf.html",
      "f": "Olé",
      "alta": false
     }
@@ -215,14 +215,14 @@
    },
    "noticias": [
     {
-     "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
-     "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+     "t": "A un passo dall'Inter, poi l'arresto: il centrocampista testimone della morte del boss",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/30-11-2023/serie-a-noir-storia-di-antonio-la-fortezza-dal-sogno-inter-alla-malavita.shtml",
      "f": "La Gazzetta dello Sport",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
+     "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+     "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
      "f": "La Gazzetta dello Sport",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Habitué des missions maintien et à la recherche d'une première expérience en France : Valérien Ismaël bientôt au chevet du Havre, dernier de Ligue 1",
-     "u": "https://www.lequipe.fr/Football/Actualites/Habitue-des-missions-maintien-et-a-la-recherche-d-une-premiere-experience-en-france-valerien-ismael-bientot-au-chevet-du-havre-dernier-de-ligue-1/1743072#at_medium=RSS_feeds",
+     "t": "Frank Ntilikina après le succès du Paris Basketball contre Fenerbahçe : « Ça me rappelle les U18 avec l'équipe de France »",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Frank-ntilikina-apres-le-succes-du-paris-basketball-contre-fenerbahce-ca-me-rappelle-les-u18-avec-l-equipe-de-france/1743096#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Panenka repoussée, ballon relâché : le penalty en deux temps de Wendie Renard contre la Juventus Turin en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Panenka-repoussee-ballon-relache-le-penalty-en-deux-temps-de-wendie-renard-contre-la-juventus-turin-en-ligue-des-champions/1743083#at_medium=RSS_feeds",
+     "t": "Habitué des missions maintien et à la recherche d'une première expérience en France : Valérien Ismaël bientôt au chevet du Havre, dernier de Ligue 1",
+     "u": "https://www.lequipe.fr/Football/Actualites/Habitue-des-missions-maintien-et-a-la-recherche-d-une-premiere-experience-en-france-valerien-ismael-bientot-au-chevet-du-havre-dernier-de-ligue-1/1743072#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,22 +253,22 @@
  ],
  "destaques": [
   {
-   "t": "Atlético-PB x Treze - Copa Paraíba 2026 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/pb/futebol/copa-paraiba/jogo/11-11-2026/atletico-pb-treze.ghtml",
-   "f": "ge",
-   "alta": true,
+   "t": "Itália x França: veja prováveis escalações e onde assistir ao duelo pela Liga das Nações",
+   "u": "https://www.gazetaesportiva.com/times/franca/italia-x-franca-veja-provaveis-escalacoes-e-onde-assistir-ao-duelo-pela-liga-das-nacoes/",
+   "f": "Gazeta Esportiva",
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Marquette basketball vs Michigan | Live updates, highlights",
-   "u": "https://sports.yahoo.com/articles/marquette-basketball-vs-michigan-live-223019485.html",
+   "t": "Luka Doncic injury update: What we know after Lakers star rolls ankle late in win vs Bucks",
+   "u": "https://sports.yahoo.com/articles/luka-doncic-injury-know-lakers-033737079.html",
    "f": "Yahoo Sports",
    "alta": true,
    "pais": "US"
   },
   {
-   "t": "Amor eterno ao clube: Barcelona vai abrir 'cemitério' em pleno Camp Nou",
-   "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/amor-eterno-ao-clube-barcelona-vai-abrir-cemiterio-em-pleno-camp-nou",
+   "t": "«Adoro futebol e lavo a alma com música»: conheça João Leite Carvalho, o CEO do Atlético que é DJ",
+   "u": "https://www.record.pt/futebol/futebol-nacional/liga-3/detalhe/adoro-futebol-e-lavo-a-alma-com-musica-conheca-joao-leite-carvalho-o-ceo-do-atletico-que-e-dj",
    "f": "Record",
    "alta": false,
    "pais": "PT"
@@ -295,15 +295,15 @@
    "pais": "AR"
   },
   {
-   "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
-   "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+   "t": "A un passo dall'Inter, poi l'arresto: il centrocampista testimone della morte del boss",
+   "u": "https://www.gazzetta.it/Calcio/Serie-A/30-11-2023/serie-a-noir-storia-di-antonio-la-fortezza-dal-sogno-inter-alla-malavita.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": false,
+   "alta": true,
    "pais": "IT"
   },
   {
-   "t": "Habitué des missions maintien et à la recherche d'une première expérience en France : Valérien Ismaël bientôt au chevet du Havre, dernier de Ligue 1",
-   "u": "https://www.lequipe.fr/Football/Actualites/Habitue-des-missions-maintien-et-a-la-recherche-d-une-premiere-experience-en-france-valerien-ismael-bientot-au-chevet-du-havre-dernier-de-ligue-1/1743072#at_medium=RSS_feeds",
+   "t": "Frank Ntilikina après le succès du Paris Basketball contre Fenerbahçe : « Ça me rappelle les U18 avec l'équipe de France »",
+   "u": "https://www.lequipe.fr/Basket/Actualites/Frank-ntilikina-apres-le-succes-du-paris-basketball-contre-fenerbahce-ca-me-rappelle-les-u18-avec-l-equipe-de-france/1743096#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
