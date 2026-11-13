@@ -10,8 +10,6 @@
 
 ## Event guides (English)
 
-- [Italy vs France — Thursday, November 12, 2026, San Siro (Giuseppe Meazza), Milan](https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/)
-- [England vs Croatia — Thursday, November 12, 2026, Wembley Stadium, London](https://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/)
 - [France vs South Africa — Friday, November 13, 2026, Stade de France, Paris](https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/)
 - [Mexico vs Jamaica — Tuesday, November 17, 2026, Estadio BBVA, Monterrey](https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/)
 - [Ireland vs South Africa — Saturday, November 21, 2026, Aviva Stadium, Dublin](https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/)
@@ -29,10 +27,9 @@
 
 ## Guides
 
-- [Football tickets 2026/2027](https://mytickets.tours/en/football/)
-- [UEFA Nations League tickets 2026/2027](https://mytickets.tours/en/competitions/uefa-nations-league/)
 - [Rugby tickets 2026/2027](https://mytickets.tours/en/rugby/)
 - [Tickets in Paris](https://mytickets.tours/en/cities/paris/)
+- [Football tickets 2026/2027](https://mytickets.tours/en/football/)
 - [UEFA Champions League tickets 2026/2027](https://mytickets.tours/en/competitions/uefa-champions-league/)
 - [NBA and basketball tickets 2027](https://mytickets.tours/en/basketball/)
 - [NBA tickets 2027](https://mytickets.tours/en/competitions/nba/)

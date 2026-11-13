@@ -1,7 +1,7 @@
 {
  "nome": "MyTickets Tours",
  "url": "https://mytickets.tours/",
- "atualizado": "2026-11-12",
+ "atualizado": "2026-11-13",
  "o_que_e": "Guia independente de ingressos para eventos esportivos e shows internacionais, em português, inglês e espanhol.",
  "aviso": "Este site NÃO vende ingresso e, no momento, não tem parceiro de venda de ingressos.",
  "vendedores": [],
@@ -15,66 +15,6 @@
  },
  "uso": "Livre para ler, citar e referenciar. Pedimos que cite o nome do site, MyTickets Tours.",
  "eventos": [
-  {
-   "id": "387682",
-   "slug": "italia-vs-franca-2026-11-12",
-   "tipo": "football",
-   "titulo": {
-    "pt": "Itália x França",
-    "en": "Italy vs France",
-    "es": "Italia vs Francia"
-   },
-   "data": "2026-11-12",
-   "hora_local": "20:45",
-   "local": "San Siro (Giuseppe Meazza)",
-   "cidade": {
-    "pt": "Milão",
-    "en": "Milan",
-    "es": "Milán"
-   },
-   "pais": {
-    "pt": "Itália",
-    "en": "Italy",
-    "es": "Italia"
-   },
-   "competicao": "UEFA Nations League",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/italia-vs-franca-2026-11-12/",
-    "en": "https://mytickets.tours/en/events/italia-vs-franca-2026-11-12/",
-    "es": "https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/"
-   },
-   "preco": null
-  },
-  {
-   "id": "387541",
-   "slug": "inglaterra-vs-croacia-2026-11-12",
-   "tipo": "football",
-   "titulo": {
-    "pt": "Inglaterra x Croácia",
-    "en": "England vs Croatia",
-    "es": "Inglaterra vs Croacia"
-   },
-   "data": "2026-11-12",
-   "hora_local": "19:45",
-   "local": "Wembley Stadium",
-   "cidade": {
-    "pt": "Londres",
-    "en": "London",
-    "es": "Londres"
-   },
-   "pais": {
-    "pt": "Inglaterra",
-    "en": "England",
-    "es": "Inglaterra"
-   },
-   "competicao": "UEFA Nations League",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/inglaterra-vs-croacia-2026-11-12/",
-    "en": "https://mytickets.tours/en/events/inglaterra-vs-croacia-2026-11-12/",
-    "es": "https://mytickets.tours/es/eventos/inglaterra-vs-croacia-2026-11-12/"
-   },
-   "preco": null
-  },
   {
    "id": "383977",
    "slug": "franca-vs-africa-do-sul-2026-11-13",

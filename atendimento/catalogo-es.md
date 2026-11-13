@@ -4,22 +4,6 @@ Catálogo completo del socio:
 
 ## Eventos con página
 
-### Italia vs Francia
-- Fecha: jueves, 12 de noviembre de 2026
-- Recinto: San Siro (Giuseppe Meazza), Milán, Italia (UEFA Nations League)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/italia-vs-franca-2026-11-12/
-- Metro M5 hasta la estación San Siro Stadio, junto al estadio.
-- Los partidos de selección de noche llenan el metro al final. Conviene esperar 20 minutos.
-
-### Inglaterra vs Croacia
-- Fecha: jueves, 12 de noviembre de 2026
-- Recinto: Wembley Stadium, Londres, Inglaterra (UEFA Nations League)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/inglaterra-vs-croacia-2026-11-12/
-- Metro hasta Wembley Park (líneas Jubilee o Metropolitan) y luego Olympic Way hasta el estadio.
-- Tren de Chiltern Railways desde Marylebone hasta Wembley Stadium, junto al estadio.
-
 ### Francia vs Sudáfrica
 - Fecha: viernes, 13 de noviembre de 2026
 - Recinto: Stade de France, París, Francia (World Rugby Nations Championship)
