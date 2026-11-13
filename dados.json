@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-13T17:51:39+00:00",
+ "atualizado": "2026-11-13T23:40:58+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Com Luciano de volta, São Paulo conclui quinto dia de preparação em meio à data Fifa",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/com-luciano-de-volta-sao-paulo-conclui-quinto-dia-de-preparacao-em-meio-a-data-fifa/",
+     "t": "Com três de Fabiano, Palmeiras supera Santos e pega o Corinthians na final do Paulistão sub-20",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/com-tres-de-fabiano-palmeiras-supera-santos-e-pega-o-corinthians-na-final-do-paulistao-sub-20/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Fifa anuncia ingressos a partir de R$ 30 para Copa do Mundo Feminina no Brasil",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-mundo-feminina/fifa-anuncia-ingressos-a-partir-de-r-30-para-copa-do-mundo-feminina-no-brasil/",
+     "t": "Messi voltará à Argentina para amistoso entre Inter Miami e River Plate",
+     "u": "https://www.gazetaesportiva.com/messi/messi-voltara-a-argentina-para-amistoso-entre-inter-miami-e-river-plate/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Internacional x Flamengo - Copa do Brasil Feminina 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/15-11-2026/internacional-flamengo-feminino.ghtml",
+     "t": "Flag Football: Brasileirão Série A define campeão neste fim de semana",
+     "u": "https://ge.globo.com/ms/noticia/2026/11/13/flag-football-brasileirao-serie-a-define-campeao-neste-fim-de-semana.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Wesley brinca sobre futuro de Douglas Santos, lateral da Seleção: \"Ele vai para o Flamengo\"",
-     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/13/wesley-brinca-sobre-futuro-de-douglas-santos-lateral-da-selecao-ele-vai-para-o-flamengo.ghtml",
+     "t": "Mirassol x Atlético-MG - Campeonato Brasileiro 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/14-11-2026/mirassol-atletico-mg.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "AC Milan emerge as potential destination for Liverpool's Virgil van Dijk on a free transfer",
-     "u": "https://sports.yahoo.com/articles/ac-milan-emerge-potential-destination-174400895.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "NBA Rookie of the Year race: Three players at top, but don't count out AJ Dybantsa, Darryn Peterson just yet",
-     "u": "https://www.cbssports.com/nba/news/nba-rookie-of-the-year-race-yaxel-lendeborg-cameron-boozer-darryn-peterson-aj-dybantsa/",
+     "t": "Knicks vs. Pacers prediction, odds, time: 2026 NBA Cup picks for Friday, Nov. 13 from proven model",
+     "u": "https://www.cbssports.com/betting/news/knicks-pacers-prediction-odds-time-2026-nba-cup-picks-best-bets-friday-november-13/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Bengals facing massive NFL scheduling disadvantage vs. Steelers in Week 10: No team has ever overcome this",
-     "u": "https://www.cbssports.com/nfl/news/bengals-facing-massive-nfl-scheduling-disadvantage-vs-steelers-week-10-no-team-ever/",
-     "f": "CBS Sports",
+     "t": "Dissecting the Boston Celtics 4-0 road trip",
+     "u": "https://sports.yahoo.com/articles/dissecting-boston-celtics-4-0-233250031.html",
+     "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Week 10 NFL odds, picks, predictions: Our 6 best bets for this week's games",
-     "u": "https://sports.yahoo.com/nfl/betting/article/week-10-nfl-odds-picks-predictions-our-6-best-bets-for-this-weeks-games-174930538.html",
+     "t": "The Boston Celtics have overcome an issue that previously haunted them",
+     "u": "https://sports.yahoo.com/articles/boston-celtics-overcome-issue-previously-233138673.html",
      "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "NBA player props, odds, picks: James Harden, Shai Gilgeous-Alexander featured in Friday's best bets",
+     "u": "https://www.cbssports.com/betting/news/nba-player-props-odds-picks-james-harden-shai-gilgeous-alexander-featured-in-fridays-best-bets/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Barcelona garante mais 300 milhões de euros para finalizar o Camp Nou",
-     "u": "https://www.abola.pt/noticias/barcelona-garante-mais-300-milhoes-de-euros-para-finalizar-o-camp-nou-2026111313233313699",
+     "t": "Bis à França e boa forma no Inter: será Esposito o novo grande avançado de Itália?",
+     "u": "https://www.abola.pt/noticias/bis-a-franca-e-boa-forma-no-inter-sera-esposito-o-novo-grande-avancado-de-italia-2026111310114931946",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "CD arquiva participação do Benfica sobre arbitragem do clássico com o FC Porto e deixa reparo às águias",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/cd-arquiva-participacao-do-benfica-sobre-arbitragem-do-classico-com-o-fc-porto-e-deixa-reparo-as-aguias",
+     "t": "Imagens mostram resgates após colisão de navio-tanque com cruzeiro perto do porto de Nova-Orleães",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/imagens-mostram-resgates-apos-colisao-de-navio-tanque-com-cruzeiro-perto-do-porto-de-nova-orleaes",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Luís Godinho vai dirigir o Croácia-República Checa da Liga das Nações",
-     "u": "https://www.record.pt/futebol/arbitragem/detalhe/luis-godinho-vai-dirigir-o-croacia-republica-checa-da-liga-das-nacoes",
+     "t": "Antigo diretor desportivo do Milan visa Rafael Leão: «O futebol já não era uma prioridade para ele»",
+     "u": "https://www.record.pt/internacional/paises/italia/ac-milan/detalhe/antigo-diretor-desportivo-do-milan-visa-rafael-leao-o-futebol-ja-nao-era-uma-prioridade-para-ele",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "FC Porto cai no set de ouro e está fora da Champions",
-     "u": "https://www.abola.pt/noticias/fc-porto-cai-no-set-de-ouro-e-esta-fora-da-champions-2026111119551018789",
+     "t": "Conhecidos seis clubes apontados para a nova NBA Europa",
+     "u": "https://www.abola.pt/noticias/conhecidos-seis-clubes-apontados-para-a-nova-nba-europa-2026111319151063153",
      "f": "A Bola",
      "alta": false
     }
@@ -113,27 +113,27 @@
    },
    "noticias": [
     {
-     "t": "Ancelotti responde a Real Madrid y Barça",
-     "u": "https://www.mundodeportivo.com/futbol/internacional/20261113/1004250595/ancelotti-responde-real-madrid-barca.html",
+     "t": "37-28: Tres porteros y tres goleadores se lucen en el Barça-Proin de la Liga ASOBAL",
+     "u": "https://www.mundodeportivo.com/balonmano/20261113/1004250783/37-28-tres-porteros-tres-goleadores-lucen-barca-proin-liga-asobal.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "El Barça completa una emisión de 300 millones para acabar las obras del Spotify Camp Nou",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261113/1004250571/barca-completa-emision-300-millones-acabar-obras-spotify-camp-nou.html",
+     "t": "La nueva perla de Inglaterra, bajo la tutela de Bellingham y Kane",
+     "u": "https://www.marca.com/futbol/nations-league/2026/11/10/nueva-perla-inglaterra-tutela-bellingham-kan-video.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "El Langui cierra una temporada inolvidable con una plata en Sao Paulo",
+     "u": "https://www.marca.com/paralimpicos/2026/11/10/langui-cierra-temporada-inolvidable-primer-podio-copa-mundo.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "74-76: Triunfo colosal de un Barça resistente en el OAKA",
+     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261113/1004250789/74-76-triunfo-colosal-barca-resistente-oaka.html",
      "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Incógnita Mbappé: no se entrena con Francia",
-     "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "El Barça de Flick sabe sufrir",
-     "u": "https://www.marca.com/futbol/barcelona/2026/11/11/barca-flick-sufrir.html",
-     "f": "Marca",
      "alta": false
     }
    ]
@@ -165,8 +165,8 @@
      "alta": false
     },
     {
-     "t": "Sharks, ladders and a four-year plan - how England won World Cup",
-     "u": "https://www.bbc.co.uk/sport/rugby-league/articles/crly54evvvv4o?at_medium=RSS&at_campaign=rss",
+     "t": "France hold nerve to edge past South Africa in thriller",
+     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cqm2j810r2m2o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Del blooper de Donnarumma que le regaló el gol a Francia a la noche histórica de Kane en Inglaterra: las perlitas de la Nations League",
-     "u": "https://www.infobae.com/deportes/2026/11/12/del-blooper-de-donnarumma-que-le-regalo-el-gol-a-francia-a-la-noche-historica-de-kane-en-inglaterra-las-perlitas-de-la-nations-league/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
      "t": "Lionel Messi volverá a jugar en Argentina: Inter Miami disputará un amistoso ante River Plate en el Monumental",
      "u": "https://www.infobae.com/deportes/2026/11/13/lionel-messi-volvera-a-jugar-en-argentina-inter-miami-disputara-un-amistoso-ante-river-plate-en-el-monumental/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El capo de la NBA busca bajar el tiempo de juego en los partidos a 40 minutos",
-     "u": "https://www.ole.com.ar/basquet/nba-adam-silver-tiempo-partidos-40-48-minutos-criticas-comisionados_0_Iz4Qj1g47m.html",
+     "t": "Se confirmó quién será el árbitro para la final de la Copa Sudamericana entre Boca Juniors y Atlético Mineiro",
+     "u": "https://www.infobae.com/deportes/2026/11/13/se-confirmo-quien-sera-el-arbitro-para-la-final-de-la-copa-sudamericana-entre-boca-juniors-y-atletico-mineiro/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Oficial: la Liga Profesional ya muestra a Independiente por encima de Defensa y Justicia",
+     "u": "https://www.ole.com.ar/futbol-primera/ligaprofesional-independiente-defensayjusticia-fairplay-tribunaldedisciplina-afa_0_MY7lNWMmqJ.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Williams Alarcón, en la selección de Chile: \"Lo de Boca no lo viví en ningún otro lado\"",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-copa-argentina-banfield-williams-alarcon-convocatoria-seleccion-chile_0_cL1yU5QlEz.html",
+     "t": "Ruso Rodríguez, con Olé, antes del partido con Boca: “La presión la tienen ellos”",
+     "u": "https://www.ole.com.ar/banfield/boca-juniors-banfield-copa-argentina-ruso-rodriguez_0_IDC17eIMcg.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Le champion NBA Josh Hart nouvel investisseur au Napoli Basket, futur membre de l'Euroligue",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Le-champion-nba-josh-hart-nouvel-investisseur-au-napoli-basket-futur-membre-de-l-euroligue/1743424#at_medium=RSS_feeds",
+     "t": "Les notes de France - Afrique du Sud",
+     "u": "https://www.lequipe.fr/Rugby/Article/Les-notes-de-france-afrique-du-sud-dupont-inegalable-woki-infaillible/1743547#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Manon Errard finalement appelée en équipe de France pour la préparation du Championnat d'Europe",
-     "u": "https://www.lequipe.fr/Handball/Actualites/Manon-errard-finalement-appelee-en-equipe-de-france-pour-la-preparation-du-championnat-d-europe/1743438#at_medium=RSS_feeds",
+     "t": "Notez les joueurs du XV de France après la superbe victoire contre l'Afrique du Sud",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Notez-les-joueurs-du-xv-de-france-apres-la-superbe-victoire-contre-l-afrique-du-sud/1743541#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,29 +253,29 @@
  ],
  "destaques": [
   {
-   "t": "Com Luciano de volta, São Paulo conclui quinto dia de preparação em meio à data Fifa",
-   "u": "https://www.gazetaesportiva.com/times/sao-paulo/com-luciano-de-volta-sao-paulo-conclui-quinto-dia-de-preparacao-em-meio-a-data-fifa/",
+   "t": "Com três de Fabiano, Palmeiras supera Santos e pega o Corinthians na final do Paulistão sub-20",
+   "u": "https://www.gazetaesportiva.com/times/palmeiras/com-tres-de-fabiano-palmeiras-supera-santos-e-pega-o-corinthians-na-final-do-paulistao-sub-20/",
    "f": "Gazeta Esportiva",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "AC Milan emerge as potential destination for Liverpool's Virgil van Dijk on a free transfer",
-   "u": "https://sports.yahoo.com/articles/ac-milan-emerge-potential-destination-174400895.html",
-   "f": "Yahoo Sports",
+   "t": "Knicks vs. Pacers prediction, odds, time: 2026 NBA Cup picks for Friday, Nov. 13 from proven model",
+   "u": "https://www.cbssports.com/betting/news/knicks-pacers-prediction-odds-time-2026-nba-cup-picks-best-bets-friday-november-13/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Barcelona garante mais 300 milhões de euros para finalizar o Camp Nou",
-   "u": "https://www.abola.pt/noticias/barcelona-garante-mais-300-milhoes-de-euros-para-finalizar-o-camp-nou-2026111313233313699",
+   "t": "Bis à França e boa forma no Inter: será Esposito o novo grande avançado de Itália?",
+   "u": "https://www.abola.pt/noticias/bis-a-franca-e-boa-forma-no-inter-sera-esposito-o-novo-grande-avancado-de-italia-2026111310114931946",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Ancelotti responde a Real Madrid y Barça",
-   "u": "https://www.mundodeportivo.com/futbol/internacional/20261113/1004250595/ancelotti-responde-real-madrid-barca.html",
+   "t": "37-28: Tres porteros y tres goleadores se lucen en el Barça-Proin de la Liga ASOBAL",
+   "u": "https://www.mundodeportivo.com/balonmano/20261113/1004250783/37-28-tres-porteros-tres-goleadores-lucen-barca-proin-liga-asobal.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
@@ -288,8 +288,8 @@
    "pais": "GB"
   },
   {
-   "t": "Del blooper de Donnarumma que le regaló el gol a Francia a la noche histórica de Kane en Inglaterra: las perlitas de la Nations League",
-   "u": "https://www.infobae.com/deportes/2026/11/12/del-blooper-de-donnarumma-que-le-regalo-el-gol-a-francia-a-la-noche-historica-de-kane-en-inglaterra-las-perlitas-de-la-nations-league/",
+   "t": "Lionel Messi volverá a jugar en Argentina: Inter Miami disputará un amistoso ante River Plate en el Monumental",
+   "u": "https://www.infobae.com/deportes/2026/11/13/lionel-messi-volvera-a-jugar-en-argentina-inter-miami-disputara-un-amistoso-ante-river-plate-en-el-monumental/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Le champion NBA Josh Hart nouvel investisseur au Napoli Basket, futur membre de l'Euroligue",
-   "u": "https://www.lequipe.fr/Basket/Actualites/Le-champion-nba-josh-hart-nouvel-investisseur-au-napoli-basket-futur-membre-de-l-euroligue/1743424#at_medium=RSS_feeds",
+   "t": "Les notes de France - Afrique du Sud",
+   "u": "https://www.lequipe.fr/Rugby/Article/Les-notes-de-france-afrique-du-sud-dupont-inegalable-woki-infaillible/1743547#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
