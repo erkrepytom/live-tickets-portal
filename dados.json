@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-13T01:56:14+00:00",
+ "atualizado": "2026-11-13T09:42:18+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
+     "t": "Rodrygo visita CT do Santos e recebe recado de Neymar: “A casa é sua”",
+     "u": "https://www.gazetaesportiva.com/times/santos/rodrygo-visita-ct-santos-ligacao-neymar/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "O que Neymar pai fará na função de CEO do Santos e como ficam os agenciados por sua empresa",
+     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/13/o-que-neymar-pai-fara-na-funcao-de-ceo-do-santos-e-como-ficam-os-agenciados-por-sua-empresa.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
      "t": "Inglaterra toma susto no segundo tempo, mas conta com Kane para vencer Croácia na Liga das Nações",
      "u": "https://www.gazetaesportiva.com/campeonatos/uefa-nations-league/inglaterra-toma-susto-no-segundo-tempo-mas-conta-com-kane-para-vencer-croacia-na-liga-das-nacoes/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Itália vence a França de virada e assume a liderança do Grupo A1 da Liga das Nações",
-     "u": "https://www.gazetaesportiva.com/times/franca/italia-vence-a-franca-de-virada-e-assume-a-lideranca-do-grupo-a1-da-liga-das-nacoes/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Franca domina segundo tempo, vence Botafogo e fecha sequência no Rio com 100%",
-     "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/12/franca-domina-segundo-tempo-vence-botafogo-e-fecha-sequencia-no-rio-com-100percent.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Itália vira sobre a França, e assume liderança do grupo A1 da Nations",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/12-11-2026/italia-franca.ghtml",
+     "t": "Entenda chances de classificação do Atlético-MG para a Libertadores via Brasileiro",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/13/entenda-chances-de-classificacao-do-atletico-mg-para-a-libertadores-via-brasileiro.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -51,20 +51,20 @@
      "alta": false
     },
     {
-     "t": "Jamal Murray Is Safe As Denver Nuggets Put Multiple Players On The Trade Block",
-     "u": "https://sports.yahoo.com/articles/jamal-murray-safe-denver-nuggets-013431640.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
      "t": "Commanders vs. Giants odds, first touchdown scorer picks, predictions for Thursday Night Football, NFL Week 10",
      "u": "https://www.cbssports.com/prediction/news/commanders-vs-giants-odds-first-touchdown-scorer-picks-predictions-thursday-night-football-nfl-week-10/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "lululemon pairs Lewis Hamilton with Jordan Clarkson for Rest Day",
-     "u": "https://sports.yahoo.com/articles/lululemon-pairs-lewis-hamilton-jordan-013723062.html",
+     "t": "Report: €100m-rated Brighton defender dreams of Real Madrid move despite Liverpool interest",
+     "u": "https://sports.yahoo.com/articles/report-100m-rated-brighton-defender-092000017.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "England thrashed by Australia in first ODI",
+     "u": "https://sports.yahoo.com/articles/england-bundled-australia-first-odi-071616043.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "A crónica do Itália-França, 3-1: Bravo, bravíssimo... ninguém lhes tira o Pio",
-     "u": "https://www.record.pt/internacional/competicoes-de-selecoes/liga-das-nacoes/detalhe/a-cronica-do-italia-franca-3-1-bravo-bravissimo-ninguem-lhes-tira-o-pio",
+     "t": "Miguel Minhava: reerguer do Benfica campeão, Betinho na NBA e a célebre pergunta a Jorge Jesus",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/miguel-minhava-reerguer-do-benfica-campeao-betinho-na-nba-e-a-celebre-pergunta-a-jorge-jesus",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Benfica bate Áustria Viena e alimenta sonho de chegar ao playoff na Champions feminina",
-     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/benfica-austria-viena-em-direto",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Tiro: Manuel Vieira da Silva mantém-se na luta pelo pódio no Mundial",
-     "u": "https://www.abola.pt/noticias/tiro-manuel-vieira-da-silva-mantem-se-na-luta-pelo-podio-no-mundial-2026111115291809737",
+     "t": "Ex-Sporting pisca o olho ao Barcelona: «Quando os melhores se interessam…»",
+     "u": "https://www.abola.pt/noticias/ex-sporting-pisca-o-olho-ao-barcelona-quando-os-melhores-se-interessam-2026111110242544891",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Eis a gala do Sporting: três históricos homenageados (fotos)",
-     "u": "https://www.abola.pt/noticias/eis-a-gala-do-sporting-tres-historicos-homenageados-fotos-2026111222113348117",
+     "t": "Noite para esquecer: Desire Doue parte um dente na derrota de França",
+     "u": "https://www.record.pt/multimedia/fotogalerias/detalhe/noite-para-esquecer-desire-doue-parte-um-dente-na-derrota-de-franca",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Paul George gera polémica com gesto obsceno na NBA (vídeo)",
+     "u": "https://www.abola.pt/noticias/paul-george-gera-polemica-com-gesto-obsceno-na-nba-video-2026111111154122249",
      "f": "A Bola",
      "alta": false
     }
@@ -125,14 +125,14 @@
      "alta": false
     },
     {
-     "t": "La nueva perla de Inglaterra, bajo la tutela de Bellingham y Kane",
-     "u": "https://www.marca.com/futbol/nations-league/2026/11/10/nueva-perla-inglaterra-tutela-bellingham-kan-video.html",
+     "t": "Incógnita Mbappé: no se entrena con Francia",
+     "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "El Langui cierra una temporada inolvidable con una plata en Sao Paulo",
-     "u": "https://www.marca.com/paralimpicos/2026/11/10/langui-cierra-temporada-inolvidable-primer-podio-copa-mundo.html",
+     "t": "El Barça de Flick sabe sufrir",
+     "u": "https://www.marca.com/futbol/barcelona/2026/11/11/barca-flick-sufrir.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,21 +147,21 @@
    },
    "noticias": [
     {
-     "t": "World Cup triumph would be only half the story for England’s wheelchair rugby league squad",
-     "u": "https://www.theguardian.com/sport/2026/nov/12/england-france-wheelchair-rugby-league-squad-world-cup-final",
-     "f": "The Guardian",
+     "t": "England and Ireland's points battle, the return of Jones and France's Springboks clash",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13611539/nations-championship-england-ireland-in-points-race-return-of-eddie-jones-to-twickenham-injury-hit-france-face-springboks",
+     "f": "Sky Sports",
      "alta": false
+    },
+    {
+     "t": "NFL midseason awards: Allen’s brilliance, a Seahawks shocker and a new Super Bowl pick",
+     "u": "https://www.theguardian.com/sport/2026/nov/12/nfl-midseason-awards-josh-allen-jahmyr-gibbs-seahawks-bears",
+     "f": "The Guardian",
+     "alta": true
     },
     {
      "t": "Nations League: Italy roar back to beat France despite Donnarumma’s early howler",
      "u": "https://www.theguardian.com/football/2026/nov/12/nations-league-italy-france-spain-czechia",
      "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Euro latest: Esposito double helps Italy beat France",
-     "u": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
-     "f": "Sky Sports",
      "alta": false
     },
     {
@@ -180,6 +180,12 @@
     "es": "Argentina"
    },
    "noticias": [
+    {
+     "t": "Partidos de HOY, viernes 13 de noviembre: horario y por dónde ver fútbol EN VIVO",
+     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-viernes-13-noviembre-2026-agenda-ole-horario-ver-futbol-vivo_0_LzlmfwTCFm.html",
+     "f": "Olé",
+     "alta": true
+    },
     {
      "t": "Del blooper de Donnarumma que le regaló el gol a Francia a la noche histórica de Kane en Inglaterra: las perlitas de la Nations League",
      "u": "https://www.infobae.com/deportes/2026/11/12/del-blooper-de-donnarumma-que-le-regalo-el-gol-a-francia-a-la-noche-historica-de-kane-en-inglaterra-las-perlitas-de-la-nations-league/",
@@ -203,14 +209,14 @@
    },
    "noticias": [
     {
-     "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
-     "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+     "t": "Fedez denuncia gli haters del figlio dopo Milan-Frosinone. Ma post vergognosi e minacce continuano",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Milan/07-12-2023/fedez-denuncia-haters-del-figlio-leone-minacce-di-morte-dopo-milan-frosinone.shtml",
      "f": "La Gazzetta dello Sport",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
+     "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+     "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
      "f": "La Gazzetta dello Sport",
      "alta": false
     }
@@ -225,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Zinédine Zidane après la défaite de l'équipe de France en Italie en Ligue des nations : « On s'est effrités après la pause »",
-     "u": "https://www.lequipe.fr/Football/Actualites/Zinedine-zidane-apres-la-defaite-de-l-equipe-de-france-en-italie-en-ligue-des-nations-on-s-est-effrites-apres-la-pause/1743306#at_medium=RSS_feeds",
+     "t": "6,43 millions de téléspectateurs devant Italie-France sur TF1",
+     "u": "https://www.lequipe.fr/Medias/Actualites/6-43-millions-de-telespectateurs-devant-italie-france-sur-tf1/1743347#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Les notes d'Italie-France",
-     "u": "https://www.lequipe.fr/Football/Article/Les-notes-d-italie-france-gusto-et-upamecano-ont-pris-l-eau/1743301#at_medium=RSS_feeds",
+     "t": "La France qualifiée dimanche en quarts de finale de Ligue des nations si...",
+     "u": "https://www.lequipe.fr/Football/Actualites/La-france-qualifiee-dimanche-en-quarts-de-finale-de-ligue-des-nations-si/1743342#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -241,10 +247,10 @@
  ],
  "destaques": [
   {
-   "t": "Inglaterra toma susto no segundo tempo, mas conta com Kane para vencer Croácia na Liga das Nações",
-   "u": "https://www.gazetaesportiva.com/campeonatos/uefa-nations-league/inglaterra-toma-susto-no-segundo-tempo-mas-conta-com-kane-para-vencer-croacia-na-liga-das-nacoes/",
+   "t": "Rodrygo visita CT do Santos e recebe recado de Neymar: “A casa é sua”",
+   "u": "https://www.gazetaesportiva.com/times/santos/rodrygo-visita-ct-santos-ligacao-neymar/",
    "f": "Gazeta Esportiva",
-   "alta": false,
+   "alta": true,
    "pais": "BR"
   },
   {
@@ -255,8 +261,8 @@
    "pais": "US"
   },
   {
-   "t": "A crónica do Itália-França, 3-1: Bravo, bravíssimo... ninguém lhes tira o Pio",
-   "u": "https://www.record.pt/internacional/competicoes-de-selecoes/liga-das-nacoes/detalhe/a-cronica-do-italia-franca-3-1-bravo-bravissimo-ninguem-lhes-tira-o-pio",
+   "t": "Miguel Minhava: reerguer do Benfica campeão, Betinho na NBA e a célebre pergunta a Jorge Jesus",
+   "u": "https://www.record.pt/multimedia/videos/detalhe/miguel-minhava-reerguer-do-benfica-campeao-betinho-na-nba-e-a-celebre-pergunta-a-jorge-jesus",
    "f": "Record",
    "alta": false,
    "pais": "PT"
@@ -269,29 +275,29 @@
    "pais": "ES"
   },
   {
-   "t": "World Cup triumph would be only half the story for England’s wheelchair rugby league squad",
-   "u": "https://www.theguardian.com/sport/2026/nov/12/england-france-wheelchair-rugby-league-squad-world-cup-final",
-   "f": "The Guardian",
+   "t": "England and Ireland's points battle, the return of Jones and France's Springboks clash",
+   "u": "https://www.skysports.com/rugby-union/news/12040/13611539/nations-championship-england-ireland-in-points-race-return-of-eddie-jones-to-twickenham-injury-hit-france-face-springboks",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Del blooper de Donnarumma que le regaló el gol a Francia a la noche histórica de Kane en Inglaterra: las perlitas de la Nations League",
-   "u": "https://www.infobae.com/deportes/2026/11/12/del-blooper-de-donnarumma-que-le-regalo-el-gol-a-francia-a-la-noche-historica-de-kane-en-inglaterra-las-perlitas-de-la-nations-league/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Partidos de HOY, viernes 13 de noviembre: horario y por dónde ver fútbol EN VIVO",
+   "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-viernes-13-noviembre-2026-agenda-ole-horario-ver-futbol-vivo_0_LzlmfwTCFm.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
-   "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
-   "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+   "t": "Fedez denuncia gli haters del figlio dopo Milan-Frosinone. Ma post vergognosi e minacce continuano",
+   "u": "https://www.gazzetta.it/Calcio/Serie-A/Milan/07-12-2023/fedez-denuncia-haters-del-figlio-leone-minacce-di-morte-dopo-milan-frosinone.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": false,
+   "alta": true,
    "pais": "IT"
   },
   {
-   "t": "Zinédine Zidane après la défaite de l'équipe de France en Italie en Ligue des nations : « On s'est effrités après la pause »",
-   "u": "https://www.lequipe.fr/Football/Actualites/Zinedine-zidane-apres-la-defaite-de-l-equipe-de-france-en-italie-en-ligue-des-nations-on-s-est-effrites-apres-la-pause/1743306#at_medium=RSS_feeds",
+   "t": "6,43 millions de téléspectateurs devant Italie-France sur TF1",
+   "u": "https://www.lequipe.fr/Medias/Actualites/6-43-millions-de-telespectateurs-devant-italie-france-sur-tf1/1743347#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
