@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-13T09:42:18+00:00",
+ "atualizado": "2026-11-13T17:51:39+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Rodrygo visita CT do Santos e recebe recado de Neymar: “A casa é sua”",
-     "u": "https://www.gazetaesportiva.com/times/santos/rodrygo-visita-ct-santos-ligacao-neymar/",
+     "t": "Com Luciano de volta, São Paulo conclui quinto dia de preparação em meio à data Fifa",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/com-luciano-de-volta-sao-paulo-conclui-quinto-dia-de-preparacao-em-meio-a-data-fifa/",
      "f": "Gazeta Esportiva",
      "alta": true
     },
     {
-     "t": "O que Neymar pai fará na função de CEO do Santos e como ficam os agenciados por sua empresa",
-     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/13/o-que-neymar-pai-fara-na-funcao-de-ceo-do-santos-e-como-ficam-os-agenciados-por-sua-empresa.ghtml",
+     "t": "Fifa anuncia ingressos a partir de R$ 30 para Copa do Mundo Feminina no Brasil",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-mundo-feminina/fifa-anuncia-ingressos-a-partir-de-r-30-para-copa-do-mundo-feminina-no-brasil/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "Internacional x Flamengo - Copa do Brasil Feminina 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/15-11-2026/internacional-flamengo-feminino.ghtml",
      "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Inglaterra toma susto no segundo tempo, mas conta com Kane para vencer Croácia na Liga das Nações",
-     "u": "https://www.gazetaesportiva.com/campeonatos/uefa-nations-league/inglaterra-toma-susto-no-segundo-tempo-mas-conta-com-kane-para-vencer-croacia-na-liga-das-nacoes/",
-     "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Entenda chances de classificação do Atlético-MG para a Libertadores via Brasileiro",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/13/entenda-chances-de-classificacao-do-atletico-mg-para-a-libertadores-via-brasileiro.ghtml",
+     "t": "Wesley brinca sobre futuro de Douglas Santos, lateral da Seleção: \"Ele vai para o Flamengo\"",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/13/wesley-brinca-sobre-futuro-de-douglas-santos-lateral-da-selecao-ele-vai-para-o-flamengo.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "UWCL Power Rankings: Arsenal and Barcelona shake things up; Manchester City and Real Madrid rise",
-     "u": "https://www.cbssports.com/soccer/news/uwcl-power-rankings-arsenal-barcelona-manchester-city-real-madrid/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Commanders vs. Giants odds, first touchdown scorer picks, predictions for Thursday Night Football, NFL Week 10",
-     "u": "https://www.cbssports.com/prediction/news/commanders-vs-giants-odds-first-touchdown-scorer-picks-predictions-thursday-night-football-nfl-week-10/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Report: €100m-rated Brighton defender dreams of Real Madrid move despite Liverpool interest",
-     "u": "https://sports.yahoo.com/articles/report-100m-rated-brighton-defender-092000017.html",
+     "t": "AC Milan emerge as potential destination for Liverpool's Virgil van Dijk on a free transfer",
+     "u": "https://sports.yahoo.com/articles/ac-milan-emerge-potential-destination-174400895.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "England thrashed by Australia in first ODI",
-     "u": "https://sports.yahoo.com/articles/england-bundled-australia-first-odi-071616043.html",
+     "t": "NBA Rookie of the Year race: Three players at top, but don't count out AJ Dybantsa, Darryn Peterson just yet",
+     "u": "https://www.cbssports.com/nba/news/nba-rookie-of-the-year-race-yaxel-lendeborg-cameron-boozer-darryn-peterson-aj-dybantsa/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Bengals facing massive NFL scheduling disadvantage vs. Steelers in Week 10: No team has ever overcome this",
+     "u": "https://www.cbssports.com/nfl/news/bengals-facing-massive-nfl-scheduling-disadvantage-vs-steelers-week-10-no-team-ever/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Week 10 NFL odds, picks, predictions: Our 6 best bets for this week's games",
+     "u": "https://sports.yahoo.com/nfl/betting/article/week-10-nfl-odds-picks-predictions-our-6-best-bets-for-this-weeks-games-174930538.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Miguel Minhava: reerguer do Benfica campeão, Betinho na NBA e a célebre pergunta a Jorge Jesus",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/miguel-minhava-reerguer-do-benfica-campeao-betinho-na-nba-e-a-celebre-pergunta-a-jorge-jesus",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Ex-Sporting pisca o olho ao Barcelona: «Quando os melhores se interessam…»",
-     "u": "https://www.abola.pt/noticias/ex-sporting-pisca-o-olho-ao-barcelona-quando-os-melhores-se-interessam-2026111110242544891",
+     "t": "Barcelona garante mais 300 milhões de euros para finalizar o Camp Nou",
+     "u": "https://www.abola.pt/noticias/barcelona-garante-mais-300-milhoes-de-euros-para-finalizar-o-camp-nou-2026111313233313699",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Noite para esquecer: Desire Doue parte um dente na derrota de França",
-     "u": "https://www.record.pt/multimedia/fotogalerias/detalhe/noite-para-esquecer-desire-doue-parte-um-dente-na-derrota-de-franca",
+     "t": "CD arquiva participação do Benfica sobre arbitragem do clássico com o FC Porto e deixa reparo às águias",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/cd-arquiva-participacao-do-benfica-sobre-arbitragem-do-classico-com-o-fc-porto-e-deixa-reparo-as-aguias",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Paul George gera polémica com gesto obsceno na NBA (vídeo)",
-     "u": "https://www.abola.pt/noticias/paul-george-gera-polemica-com-gesto-obsceno-na-nba-video-2026111111154122249",
+     "t": "Luís Godinho vai dirigir o Croácia-República Checa da Liga das Nações",
+     "u": "https://www.record.pt/futebol/arbitragem/detalhe/luis-godinho-vai-dirigir-o-croacia-republica-checa-da-liga-das-nacoes",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "FC Porto cai no set de ouro e está fora da Champions",
+     "u": "https://www.abola.pt/noticias/fc-porto-cai-no-set-de-ouro-e-esta-fora-da-champions-2026111119551018789",
      "f": "A Bola",
      "alta": false
     }
@@ -113,14 +113,14 @@
    },
    "noticias": [
     {
-     "t": "1-1: Un Arsenal combativo deja al Barça sin revancha",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261112/1004250370/1-1-arsenal-combativo-deja-barca-revancha.html",
+     "t": "Ancelotti responde a Real Madrid y Barça",
+     "u": "https://www.mundodeportivo.com/futbol/internacional/20261113/1004250595/ancelotti-responde-real-madrid-barca.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Barça-Arsenal: duelo estelar entre las últimas reinas de Europa",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261112/1004249902/barca-arsenal-duelo-estelar-ultimas-reinas-europa.html",
+     "t": "El Barça completa una emisión de 300 millones para acabar las obras del Spotify Camp Nou",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261113/1004250571/barca-completa-emision-300-millones-acabar-obras-spotify-camp-nou.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "England and Ireland's points battle, the return of Jones and France's Springboks clash",
-     "u": "https://www.skysports.com/rugby-union/news/12040/13611539/nations-championship-england-ireland-in-points-race-return-of-eddie-jones-to-twickenham-injury-hit-france-face-springboks",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "NFL midseason awards: Allen’s brilliance, a Seahawks shocker and a new Super Bowl pick",
-     "u": "https://www.theguardian.com/sport/2026/nov/12/nfl-midseason-awards-josh-allen-jahmyr-gibbs-seahawks-bears",
-     "f": "The Guardian",
-     "alta": true
-    },
-    {
-     "t": "Nations League: Italy roar back to beat France despite Donnarumma’s early howler",
-     "u": "https://www.theguardian.com/football/2026/nov/12/nations-league-italy-france-spain-czechia",
+     "t": "Rugby League World Cup finals, ATP and WTA tennis, plus WSL – follow with us",
+     "u": "https://www.theguardian.com/sport/2026/nov/13/rugby-league-world-cup-finals-atp-and-wta-tennis-plus-wsl-follow-with-us",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Gritty Arsenal show different side in Barcelona draw",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cqe85vym242jo?at_medium=RSS&at_campaign=rss",
+     "t": "Rugby League World Cup glory again for England’s wheelchair champions",
+     "u": "https://www.theguardian.com/sport/2026/nov/13/england-men-win-back-to-back-wheelchair-rugby-league-world-cups",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "England beat France to become back-to-back world champions",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/cqy4jdxven1go?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Sharks, ladders and a four-year plan - how England won World Cup",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/articles/crly54evvvv4o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,21 +181,27 @@
    },
    "noticias": [
     {
-     "t": "Partidos de HOY, viernes 13 de noviembre: horario y por dónde ver fútbol EN VIVO",
-     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-viernes-13-noviembre-2026-agenda-ole-horario-ver-futbol-vivo_0_LzlmfwTCFm.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
      "t": "Del blooper de Donnarumma que le regaló el gol a Francia a la noche histórica de Kane en Inglaterra: las perlitas de la Nations League",
      "u": "https://www.infobae.com/deportes/2026/11/12/del-blooper-de-donnarumma-que-le-regalo-el-gol-a-francia-a-la-noche-historica-de-kane-en-inglaterra-las-perlitas-de-la-nations-league/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "La filosa frase de Verstappen sobre la crisis entre Leclerc y Hamilton en Ferrari",
-     "u": "https://www.infobae.com/deportes/2026/11/12/la-filosa-frase-de-verstappen-sobre-la-crisis-entre-leclerc-y-hamilton-en-ferrari/",
+     "t": "Lionel Messi volverá a jugar en Argentina: Inter Miami disputará un amistoso ante River Plate en el Monumental",
+     "u": "https://www.infobae.com/deportes/2026/11/13/lionel-messi-volvera-a-jugar-en-argentina-inter-miami-disputara-un-amistoso-ante-river-plate-en-el-monumental/",
      "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "El capo de la NBA busca bajar el tiempo de juego en los partidos a 40 minutos",
+     "u": "https://www.ole.com.ar/basquet/nba-adam-silver-tiempo-partidos-40-48-minutos-criticas-comisionados_0_Iz4Qj1g47m.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Williams Alarcón, en la selección de Chile: \"Lo de Boca no lo viví en ningún otro lado\"",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-copa-argentina-banfield-williams-alarcon-convocatoria-seleccion-chile_0_cL1yU5QlEz.html",
+     "f": "Olé",
      "alta": false
     }
    ]
@@ -209,14 +215,14 @@
    },
    "noticias": [
     {
-     "t": "Fedez denuncia gli haters del figlio dopo Milan-Frosinone. Ma post vergognosi e minacce continuano",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/Milan/07-12-2023/fedez-denuncia-haters-del-figlio-leone-minacce-di-morte-dopo-milan-frosinone.shtml",
-     "f": "La Gazzetta dello Sport",
-     "alta": true
-    },
-    {
      "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
      "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+     "f": "La Gazzetta dello Sport",
+     "alta": false
+    },
+    {
+     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
      "f": "La Gazzetta dello Sport",
      "alta": false
     }
@@ -231,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "6,43 millions de téléspectateurs devant Italie-France sur TF1",
-     "u": "https://www.lequipe.fr/Medias/Actualites/6-43-millions-de-telespectateurs-devant-italie-france-sur-tf1/1743347#at_medium=RSS_feeds",
+     "t": "Le champion NBA Josh Hart nouvel investisseur au Napoli Basket, futur membre de l'Euroligue",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Le-champion-nba-josh-hart-nouvel-investisseur-au-napoli-basket-futur-membre-de-l-euroligue/1743424#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "La France qualifiée dimanche en quarts de finale de Ligue des nations si...",
-     "u": "https://www.lequipe.fr/Football/Actualites/La-france-qualifiee-dimanche-en-quarts-de-finale-de-ligue-des-nations-si/1743342#at_medium=RSS_feeds",
+     "t": "Manon Errard finalement appelée en équipe de France pour la préparation du Championnat d'Europe",
+     "u": "https://www.lequipe.fr/Handball/Actualites/Manon-errard-finalement-appelee-en-equipe-de-france-pour-la-preparation-du-championnat-d-europe/1743438#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -247,57 +253,57 @@
  ],
  "destaques": [
   {
-   "t": "Rodrygo visita CT do Santos e recebe recado de Neymar: “A casa é sua”",
-   "u": "https://www.gazetaesportiva.com/times/santos/rodrygo-visita-ct-santos-ligacao-neymar/",
+   "t": "Com Luciano de volta, São Paulo conclui quinto dia de preparação em meio à data Fifa",
+   "u": "https://www.gazetaesportiva.com/times/sao-paulo/com-luciano-de-volta-sao-paulo-conclui-quinto-dia-de-preparacao-em-meio-a-data-fifa/",
    "f": "Gazeta Esportiva",
    "alta": true,
    "pais": "BR"
   },
   {
-   "t": "UWCL Power Rankings: Arsenal and Barcelona shake things up; Manchester City and Real Madrid rise",
-   "u": "https://www.cbssports.com/soccer/news/uwcl-power-rankings-arsenal-barcelona-manchester-city-real-madrid/",
-   "f": "CBS Sports",
+   "t": "AC Milan emerge as potential destination for Liverpool's Virgil van Dijk on a free transfer",
+   "u": "https://sports.yahoo.com/articles/ac-milan-emerge-potential-destination-174400895.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Miguel Minhava: reerguer do Benfica campeão, Betinho na NBA e a célebre pergunta a Jorge Jesus",
-   "u": "https://www.record.pt/multimedia/videos/detalhe/miguel-minhava-reerguer-do-benfica-campeao-betinho-na-nba-e-a-celebre-pergunta-a-jorge-jesus",
-   "f": "Record",
+   "t": "Barcelona garante mais 300 milhões de euros para finalizar o Camp Nou",
+   "u": "https://www.abola.pt/noticias/barcelona-garante-mais-300-milhoes-de-euros-para-finalizar-o-camp-nou-2026111313233313699",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "1-1: Un Arsenal combativo deja al Barça sin revancha",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261112/1004250370/1-1-arsenal-combativo-deja-barca-revancha.html",
+   "t": "Ancelotti responde a Real Madrid y Barça",
+   "u": "https://www.mundodeportivo.com/futbol/internacional/20261113/1004250595/ancelotti-responde-real-madrid-barca.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "England and Ireland's points battle, the return of Jones and France's Springboks clash",
-   "u": "https://www.skysports.com/rugby-union/news/12040/13611539/nations-championship-england-ireland-in-points-race-return-of-eddie-jones-to-twickenham-injury-hit-france-face-springboks",
-   "f": "Sky Sports",
+   "t": "Rugby League World Cup finals, ATP and WTA tennis, plus WSL – follow with us",
+   "u": "https://www.theguardian.com/sport/2026/nov/13/rugby-league-world-cup-finals-atp-and-wta-tennis-plus-wsl-follow-with-us",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Partidos de HOY, viernes 13 de noviembre: horario y por dónde ver fútbol EN VIVO",
-   "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-viernes-13-noviembre-2026-agenda-ole-horario-ver-futbol-vivo_0_LzlmfwTCFm.html",
-   "f": "Olé",
-   "alta": true,
+   "t": "Del blooper de Donnarumma que le regaló el gol a Francia a la noche histórica de Kane en Inglaterra: las perlitas de la Nations League",
+   "u": "https://www.infobae.com/deportes/2026/11/12/del-blooper-de-donnarumma-que-le-regalo-el-gol-a-francia-a-la-noche-historica-de-kane-en-inglaterra-las-perlitas-de-la-nations-league/",
+   "f": "Infobae",
+   "alta": false,
    "pais": "AR"
   },
   {
-   "t": "Fedez denuncia gli haters del figlio dopo Milan-Frosinone. Ma post vergognosi e minacce continuano",
-   "u": "https://www.gazzetta.it/Calcio/Serie-A/Milan/07-12-2023/fedez-denuncia-haters-del-figlio-leone-minacce-di-morte-dopo-milan-frosinone.shtml",
+   "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+   "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": true,
+   "alta": false,
    "pais": "IT"
   },
   {
-   "t": "6,43 millions de téléspectateurs devant Italie-France sur TF1",
-   "u": "https://www.lequipe.fr/Medias/Actualites/6-43-millions-de-telespectateurs-devant-italie-france-sur-tf1/1743347#at_medium=RSS_feeds",
+   "t": "Le champion NBA Josh Hart nouvel investisseur au Napoli Basket, futur membre de l'Euroligue",
+   "u": "https://www.lequipe.fr/Basket/Actualites/Le-champion-nba-josh-hart-nouvel-investisseur-au-napoli-basket-futur-membre-de-l-euroligue/1743424#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
