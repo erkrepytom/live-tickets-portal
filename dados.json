@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14T19:18:38+00:00",
+ "atualizado": "2026-11-14T23:58:59+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,25 +11,25 @@
    },
    "noticias": [
     {
-     "t": "NFL: Astro dos Ravens, Lamar Jackson passa por cirurgia e ainda pode voltar nesta temporada",
-     "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/11/14/nfl-astro-dos-ravens-lamar-jackson-passa-por-cirurgia-e-ainda-pode-voltar-nesta-temporada.ghtml",
+     "t": "Vila Nova x Atlético-GO: clássico goiano no playoff vai definir acesso à Série A",
+     "u": "https://ge.globo.com/go/futebol/brasileirao-serie-b/noticia/2026/11/14/vila-nova-x-atletico-go-classico-goiano-no-playoff-vai-definir-acesso-a-serie-a.ghtml",
      "f": "ge",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "São Paulo é goleado pelo Palmeiras na ida da semifinal do Paulista sub-17",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-palmeiras-santos-semifinais-paulista-base/",
+     "t": "Walter vê empate com Atlético-MG como positivo e projeta reta final do Mirassol",
+     "u": "https://www.gazetaesportiva.com/times/mirassol/walter-ve-empate-com-atletico-mg-como-positivo-e-projeta-reta-final-do-mirassol/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Final da Copa do Mundo de 2030 na Espanha “é inegociável”, diz chefe do futebol espanhol",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-mundo/final-da-copa-do-mundo-de-2030-na-espanha-e-inegociavel-diz-chefe-do-futebol-espanhol/",
+     "t": "Mirassol e Atlético-MG criam pouco e não saem do zero no Brasileirão",
+     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/mirassol-e-atletico-mg-criam-pouco-e-nao-saem-do-zero-no-brasileirao/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Mirassol x Atlético-MG - Campeonato Brasileiro 2026 - globoesporte.com",
+     "t": "Mirassol e Atlético-MG param na trave e não saem do zero pelo Brasileirão",
      "u": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/14-11-2026/mirassol-atletico-mg.ghtml",
      "f": "ge",
      "alta": false
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Notre Dame vs. Boston College prediction, odds, time: Week 11 college football picks from proven model",
-     "u": "https://www.cbssports.com/betting/news/notre-dame-boston-college-prediction-odds-time-2026-week-11-college-football-picks-best-bets/",
-     "f": "CBS Sports",
-     "alta": false
+     "t": "How to watch Purdue vs Iowa: Live stream NCAA College Football, TV channel",
+     "u": "https://sports.yahoo.com/articles/watch-purdue-vs-iowa-live-234000275.html",
+     "f": "Yahoo Sports",
+     "alta": true
     },
     {
-     "t": "NFL Week 10 last-minute picks, best bets: Chiefs, Steelers take advantage of schedule quirk",
-     "u": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-best-bets-chiefs-steelers/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Football pitch ruined by 'selfish' vandals in car",
-     "u": "https://sports.yahoo.com/articles/football-pitch-ruined-selfish-vandals-190530329.html",
+     "t": "USMNT upcoming schedule — CONCACAF Nations League second leg, friendly vs Jamaica",
+     "u": "https://sports.yahoo.com/articles/usmnt-upcoming-schedule-friendly-vs-134800512.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "‘Everything a coach wants:’ UGA football commit dies after medical emergency",
-     "u": "https://sports.yahoo.com/articles/everything-coach-wants-uga-football-190335745.html",
-     "f": "Yahoo Sports",
+     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Texas vs. LSU, college football",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-texas-lsu-college-football/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Updated NBA championship and MVP odds: Lakers' odds shorten, Doncic in front",
+     "u": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+     "f": "ESPN NBA",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "FC Porto goleia em Rio Tinto com hat trick de avançada ex-PSG",
-     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/fc-porto-goleia-em-rio-tinto-com-hat-trick-de-avancada-ex-psg",
+     "t": "Bah elogia \"coragem\" da Dinamarca e \"futebol incrível\" do Benfica: «Vamos ver se querem falar comigo...»",
+     "u": "https://www.record.pt/internacional/competicoes-de-selecoes/liga-das-nacoes/detalhe/bah-elogia-coragem-da-dinamarca-e-futebol-incrivel-do-benfica-vamos-ver-se-querem-falar-comigo",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "«Prefiro que o FC Porto perca 0-3 e que Froholdt não marque»: Bah fala de Benfica, Mourinho e muito mais",
-     "u": "https://www.abola.pt/noticias/prefiro-que-o-fc-porto-perca-0-3-e-que-froholdt-nao-marque-bah-fala-de-benfica-mourinho-e-muito-mais-2026111415533550155",
+     "t": "Polémica à vista: Raphinha está fora do próximo jogo do Brasil mas não volta mais cedo ao Barcelona",
+     "u": "https://www.record.pt/internacional/paises/espanha/barcelona/detalhe/polemica-a-vista-raphinha-esta-fora-do-proximo-jogo-do-brasil-mas-nao-volta-mais-cedo-ao-barcelona",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Benfica bate Sanjoanense e carimba presença na final da Taça Continental",
+     "u": "https://www.abola.pt/noticias/benfica-bate-sanjoanense-e-carimba-presenca-na-final-da-taca-continental-2026111415382310903",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Selecionador do México e o momento de Gimenez: «Vemo-lo mais forte e com outra atitude»",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/selecionador-do-mexico-e-o-momento-de-gimenez-vemo-lo-mais-forte-e-com-outra-atitude",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Declara-se ao rival antes de confronto: «O Barcelona é o clube do meu coração»",
-     "u": "https://www.abola.pt/noticias/mikautadze-declara-se-ao-rival-antes-de-confronto-o-barcelona-e-o-clube-do-meu-coracao-2026111414344836967",
+     "t": "Federação anuncia por engano a morte de ex-árbitro da Premier League",
+     "u": "https://www.abola.pt/noticias/federacao-anuncia-por-engano-a-morte-de-ex-arbitro-da-premier-league-2026111418223169574",
      "f": "A Bola",
      "alta": false
     }
@@ -113,26 +113,26 @@
    },
    "noticias": [
     {
-     "t": "En Inglaterra también ven \"absurdo\" el debate sobre Lamine y la Roja",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261114/1004250918/inglaterra-ven-absurdo-debate-sobre-lamine-roja.html",
+     "t": "Euskal Selekzioa redondea en el campo la fiesta del fútbol vasco",
+     "u": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261114/1004250953/cronica.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Incógnita Mbappé: no se entrena con Francia",
-     "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
+     "t": "Ronaldinho levanta pasiones en Italia y está listo para jugar",
+     "u": "https://www.mundodeportivo.com/futbol/internacional/20261114/1004251065/ronaldinho-levanta-pasiones-italia-listo-jugar.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "La nueva perla de Inglaterra, bajo la tutela de Bellingham y Kane",
+     "u": "https://www.marca.com/futbol/nations-league/2026/11/10/nueva-perla-inglaterra-tutela-bellingham-kan-video.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "0-1: Un Barça que acaba con diez por las lesiones, sucumbe ante el Girona",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261114/1004250997/barca-atletic-girona-b-directo-segunda-federacion-futbol.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "El Barça de Flick sabe sufrir",
-     "u": "https://www.marca.com/futbol/barcelona/2026/11/11/barca-flick-sufrir.html",
+     "t": "El Langui cierra una temporada inolvidable con una plata en Sao Paulo",
+     "u": "https://www.marca.com/paralimpicos/2026/11/10/langui-cierra-temporada-inolvidable-primer-podio-copa-mundo.html",
      "f": "Marca",
      "alta": false
     }
@@ -153,21 +153,21 @@
      "alta": false
     },
     {
-     "t": "France edge past South Africa after thriller in Nations Championship",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/videos/c6eq4npqy7e0o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Ireland overcome Fiji ahead of South Africa showdown",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13612363/nations-championship-ireland-overcome-fiji-43-15-ahead-of-showdown-with-world-champions-south-africa-next-saturday",
+     "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Rugby League World Cup glory again for England’s wheelchair champions",
-     "u": "https://www.theguardian.com/sport/2026/nov/13/england-men-win-back-to-back-wheelchair-rugby-league-world-cups",
+     "t": "England leave Jones sucking lemons but demolition of Japan shows widening gulf | Gerard Meagher",
+     "u": "https://www.theguardian.com/sport/2026/nov/14/england-leave-jones-sucking-lemons-but-demolition-of-japan-shows-widening-gulf",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "France put injuries behind them to stun Springboks",
-     "u": "https://www.skysports.com/rugby-union/france-vs-south-africa/report/111688",
-     "f": "Sky Sports",
+     "t": "Comeback kid Joseph thrills as England eye All Blacks",
+     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cq0l3pn5z20xo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
+     "t": "Con varios titulares, Atlético Mineiro empató frente a Mirassol en su último partido antes de la final con Boca",
+     "u": "https://www.ole.com.ar/futbol-internacional/america/atletico-mineiro-brasileirao-salio-copa-sudamericana-boca-final-fecha_0_JhnwgcXUOm.html",
+     "f": "Olé",
+     "alta": true
+    },
+    {
+     "t": "Boca y Platense disputarán la final de la Copa Argentina: cuándo se jugará, cuántos millones recibirá el campeón y un premio extra",
+     "u": "https://www.infobae.com/deportes/2026/11/14/boca-y-platense-disputaran-la-final-de-la-copa-argentina-cuando-se-jugara-cuantos-millones-recibira-el-campeon-y-un-premio-extra/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
      "t": "Los Pumas se recuperaron en el Nations Championship y vencieron 19-14 a Italia como visitantes",
      "u": "https://www.infobae.com/deportes/2026/11/14/los-pumas-buscaran-recuperarse-ante-italia-por-el-nations-championship/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "La suspensión de vuelos de la FAA interrumpió los cronogramas y viajes de la NBA, la NHL y del fútbol americano",
-     "u": "https://www.infobae.com/estados-unidos/2026/11/14/la-faa-para-todos-los-vuelos-en-estados-unidos-y-deja-a-mas-de-una-docena-de-equipos-deportivos-sin-poder-llegar-a-sus-sedes/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Portugal vs. Dinamarca, por la UEFA Nations League: horario, formaciones y TV para ver en vivo",
-     "u": "https://www.ole.com.ar/futbol-internacional/portugal-vs-dinamarca-uefa-nations-league-partido-dia-horario-formaciones-tv_0_pDfDsdDAqx.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Quiénes son los tres juveniles que Boca blindó antes del Mundial Sub 17",
-     "u": "https://www.ole.com.ar/boca-juniors/seleccion-sub-17-argentina-boca-barrionuevo-coria-sanchez-2028-primer-contrato-profesional-mundial_0_LJEZKxiwKd.html",
+     "t": "Antes de irse al Manchester United, Pochettino disfrutó de una goleada 6-0 de Estados Unidos contra Haití",
+     "u": "https://www.ole.com.ar/futbol-internacional/goleada-estados-unidos-pochettino-haiti_0_FdWyg8Tkhb.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,45 +237,45 @@
    },
    "noticias": [
     {
-     "t": "Désiré Doué bien présent lors du dernier entraînement avant France-Turquie",
-     "u": "https://www.lequipe.fr/Football/Actualites/Desire-doue-bien-present-lors-du-dernier-entrainement-avant-france-turquie/1743694#at_medium=RSS_feeds",
+     "t": "Elina Svitolina surclasse Linda Noskova et rejoint Mirra Andreeva en finale des Finales WTA",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Elina-svitolina-surclasse-linda-noskova-et-rejoint-mirra-andreeva-en-finale-des-finales-wta/1743768#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Lucas Da Cunha avant France-Turquie en Ligue des nations : « Je dois encore progresser défensivement »",
-     "u": "https://www.lequipe.fr/Football/Actualites/Lucas-da-cunha-avant-france-turquie-en-ligue-des-nations-je-dois-encore-progresser-defensivement/1743690#at_medium=RSS_feeds",
+     "t": "« Ces putains d'Ukrainiens » : Aryna Sabalenka se justifie de ses propos polémiques lors de son match contre Elina Svitolina aux Finales WTA",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/-ces-putains-d-ukrainiens-aryna-sabalenka-se-justifie-de-ses-propos-polemiques-contre-elina-svitolina-aux-finales-wta/1743758#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": false
+     "alta": true
     }
    ]
   }
  ],
  "destaques": [
   {
-   "t": "NFL: Astro dos Ravens, Lamar Jackson passa por cirurgia e ainda pode voltar nesta temporada",
-   "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/11/14/nfl-astro-dos-ravens-lamar-jackson-passa-por-cirurgia-e-ainda-pode-voltar-nesta-temporada.ghtml",
+   "t": "Vila Nova x Atlético-GO: clássico goiano no playoff vai definir acesso à Série A",
+   "u": "https://ge.globo.com/go/futebol/brasileirao-serie-b/noticia/2026/11/14/vila-nova-x-atletico-go-classico-goiano-no-playoff-vai-definir-acesso-a-serie-a.ghtml",
    "f": "ge",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Notre Dame vs. Boston College prediction, odds, time: Week 11 college football picks from proven model",
-   "u": "https://www.cbssports.com/betting/news/notre-dame-boston-college-prediction-odds-time-2026-week-11-college-football-picks-best-bets/",
-   "f": "CBS Sports",
-   "alta": false,
+   "t": "How to watch Purdue vs Iowa: Live stream NCAA College Football, TV channel",
+   "u": "https://sports.yahoo.com/articles/watch-purdue-vs-iowa-live-234000275.html",
+   "f": "Yahoo Sports",
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "FC Porto goleia em Rio Tinto com hat trick de avançada ex-PSG",
-   "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/fc-porto-goleia-em-rio-tinto-com-hat-trick-de-avancada-ex-psg",
+   "t": "Bah elogia \"coragem\" da Dinamarca e \"futebol incrível\" do Benfica: «Vamos ver se querem falar comigo...»",
+   "u": "https://www.record.pt/internacional/competicoes-de-selecoes/liga-das-nacoes/detalhe/bah-elogia-coragem-da-dinamarca-e-futebol-incrivel-do-benfica-vamos-ver-se-querem-falar-comigo",
    "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "En Inglaterra también ven \"absurdo\" el debate sobre Lamine y la Roja",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261114/1004250918/inglaterra-ven-absurdo-debate-sobre-lamine-roja.html",
+   "t": "Euskal Selekzioa redondea en el campo la fiesta del fútbol vasco",
+   "u": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261114/1004250953/cronica.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
@@ -288,10 +288,10 @@
    "pais": "GB"
   },
   {
-   "t": "Los Pumas se recuperaron en el Nations Championship y vencieron 19-14 a Italia como visitantes",
-   "u": "https://www.infobae.com/deportes/2026/11/14/los-pumas-buscaran-recuperarse-ante-italia-por-el-nations-championship/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Con varios titulares, Atlético Mineiro empató frente a Mirassol en su último partido antes de la final con Boca",
+   "u": "https://www.ole.com.ar/futbol-internacional/america/atletico-mineiro-brasileirao-salio-copa-sudamericana-boca-final-fecha_0_JhnwgcXUOm.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,10 +302,10 @@
    "pais": "IT"
   },
   {
-   "t": "Désiré Doué bien présent lors du dernier entraînement avant France-Turquie",
-   "u": "https://www.lequipe.fr/Football/Actualites/Desire-doue-bien-present-lors-du-dernier-entrainement-avant-france-turquie/1743694#at_medium=RSS_feeds",
+   "t": "Elina Svitolina surclasse Linda Noskova et rejoint Mirra Andreeva en finale des Finales WTA",
+   "u": "https://www.lequipe.fr/Tennis/Actualites/Elina-svitolina-surclasse-linda-noskova-et-rejoint-mirra-andreeva-en-finale-des-finales-wta/1743768#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": false,
+   "alta": true,
    "pais": "FR"
   }
  ],
