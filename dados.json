@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14T06:41:33+00:00",
+ "atualizado": "2026-11-14T14:17:25+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -17,21 +17,21 @@
      "alta": false
     },
     {
-     "t": "Flamengo atropela Paisas na estreia das quartas de final da Liga Sul-Americana de Basquete",
-     "u": "https://ge.globo.com/basquete/noticia/2026/11/14/flamengo-atropela-paisas-na-estreia-das-quartas-de-final-da-liga-sul-americana-de-basquete.ghtml",
+     "t": "Ex-Inter e Seleção conta como rebatia preconceito no futebol feminino e detalha luta vencida contra o câncer",
+     "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/14/ex-inter-e-selecao-conta-como-rebatia-preconceito-no-futebol-feminino-e-detalha-luta-vencida-contra-o-cancer.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Mirassol x Atlético-MG: onde assistir ao vivo, horário e escalações",
-     "u": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/noticia/2026/11/14/mirassol-x-atletico-mg-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Messi voltará à Argentina para amistoso entre Inter Miami e River Plate",
-     "u": "https://www.gazetaesportiva.com/messi/messi-voltara-a-argentina-para-amistoso-entre-inter-miami-e-river-plate/",
+     "t": "Ninguém passa? Palmeiras lidera ranking de defesa mais sólida entre times da América do Sul",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-melhor-defesa-america-do-sul-ranking/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Sonho da Libertadores ou Z-4: jogo contra a Chape dita futuro do Vasco no Brasileirão; veja cenários",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/14/sonho-da-libertadores-ou-z-4-jogo-contra-a-chape-dita-futuro-do-vasco-no-brasileirao-veja-cenarios.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Lionel Messi to return to Estadio Monumental on January 19 as Inter Miami face River Plate in historic Buenos Aires preseason friendly",
-     "u": "https://sports.yahoo.com/articles/lionel-messi-return-estadio-monumental-063006640.html",
+     "t": "Jamaica vs. Mexico Concacaf Nations League prediction, start time, how to watch",
+     "u": "https://sports.yahoo.com/articles/jamaica-vs-mexico-concacaf-nations-140138072.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Knicks vs. Pacers prediction, odds, time: 2026 NBA Cup picks for Friday, Nov. 13 from proven model",
-     "u": "https://www.cbssports.com/betting/news/knicks-pacers-prediction-odds-time-2026-nba-cup-picks-best-bets-friday-november-13/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "NBA player props, odds, picks: James Harden, Shai Gilgeous-Alexander featured in Friday's best bets",
-     "u": "https://www.cbssports.com/betting/news/nba-player-props-odds-picks-james-harden-shai-gilgeous-alexander-featured-in-fridays-best-bets/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Warriors find there's no replacement for Steph Curry, as 38-point loss in San Antonio shows",
-     "u": "https://sports.yahoo.com/articles/warriors-theres-no-replacement-steph-062529137.html",
+     "t": "Pumas grind out 19-14 win over Italy after late yellow cards in Nations Championship",
+     "u": "https://sports.yahoo.com/articles/pumas-grind-19-14-win-140335134.html",
      "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Steelers vs. Bengals prediction, odds, time: NFL Week 10 'Sunday Night Football' picks by proven model",
+     "u": "https://www.cbssports.com/betting/news/steelers-bengals-prediction-odds-time-nfl-week-10-sunday-night-football-picks/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Fantasy football rankings Week 10: Dave Richard's tough start/sit calls clear up your toughest flex decisions",
+     "u": "https://www.cbssports.com/fantasy/football/news/fantasy-football-rankings-week-10-dave-richards-tough-startsit-calls/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Champions adiada? Jogadora do Benfica mostrou aos adeptos a rotina em casa",
-     "u": "https://www.abola.pt/video/champions-adiada-jogadora-do-benfica-mostrou-aos-adeptos-a-rotina-em-casa-2026111209185376813",
+     "t": "Caos na Fórmula 1: jornalista foi banido por insultar Leclerc e deixou paddock em polvorosa",
+     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/caos-na-formula-1-jornalista-foi-banido-por-insultar-leclerc-e-deixou-paddock-em-polvorosa",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Antigo diretor-desportivo do Milan tentou 'roubar' Doumbia ao Sporting: «Queria-o a todo o custo»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/antigo-diretor-desportivo-do-milan-tentou-roubar-doumbia-ao-sporting-queria-o-a-todo-o-custo",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Milan queria Doumbia «a todo o custo»… mas o médio foi para ao Sporting",
+     "u": "https://www.abola.pt/noticias/milan-queria-doumbia-a-todo-o-custo-mas-o-medio-foi-para-ao-sporting-2026111412220795509",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Borja Sainz é mesmo um porto seguro",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/borja-sainz-e-mesmo-um-porto-seguro",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Abel Ferreira distinguido devido à defesa do Palmeiras",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/abel-ferreira-distinguido-devido-a-defesa-do-palmeiras",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Perdeu €450 M em apostas e foi banido da NBA: «Ser descoberto salvou-me a vida»",
-     "u": "https://www.abola.pt/noticias/perdeu-euro450-m-em-apostas-e-foi-banido-da-nba-ser-descoberto-salvou-me-a-vida-2026111218263882292",
+     "t": "Melhores estádios, mais habitação: as lições das Antas e de San Siro",
+     "u": "https://www.abola.pt/noticias/melhores-estadios-mais-habitacao-as-licoes-das-antas-e-de-san-siro-2026111315285198516",
      "f": "A Bola",
      "alta": false
     }
@@ -113,8 +113,14 @@
    },
    "noticias": [
     {
-     "t": "37-28: Tres porteros y tres goleadores se lucen en el Barça-Proin de la Liga ASOBAL",
-     "u": "https://www.mundodeportivo.com/balonmano/20261113/1004250783/37-28-tres-porteros-tres-goleadores-lucen-barca-proin-liga-asobal.html",
+     "t": "En Inglaterra también ven \"absurdo\" el debate sobre Lamine y la Roja",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261114/1004250918/inglaterra-ven-absurdo-debate-sobre-lamine-roja.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Definida la fecha para conocer la posible sanción al Manchester City",
+     "u": "https://www.mundodeportivo.com/futbol/20261114/1004250911/definida-fecha-conocer-posible-sancion-manchester-city.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -122,12 +128,6 @@
      "t": "Incógnita Mbappé: no se entrena con Francia",
      "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "74-76: Triunfo colosal de un Barça resistente en el OAKA",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261113/1004250789/74-76-triunfo-colosal-barca-resistente-oaka.html",
-     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -153,15 +153,15 @@
      "alta": false
     },
     {
-     "t": "Rugby League World Cup glory again for England’s wheelchair champions",
-     "u": "https://www.theguardian.com/sport/2026/nov/13/england-men-win-back-to-back-wheelchair-rugby-league-world-cups",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
      "t": "France edge past South Africa after thriller in Nations Championship",
      "u": "https://www.bbc.co.uk/sport/rugby-union/videos/c6eq4npqy7e0o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Rugby League World Cup glory again for England’s wheelchair champions",
+     "u": "https://www.theguardian.com/sport/2026/nov/13/england-men-win-back-to-back-wheelchair-rugby-league-world-cups",
+     "f": "The Guardian",
      "alta": false
     },
     {
@@ -181,21 +181,27 @@
    },
    "noticias": [
     {
-     "t": "A qué hora juegan Los Pumas vs. Italia y dónde ver hoy EN VIVO el partido por el Nations Championship",
-     "u": "https://www.ole.com.ar/rugby/hora-pumas-vs-italia-ver-tv-hoy-vivo-partido-nations-championship_0_k7VqZyHaKf.html",
+     "t": "El argentino Thiago Tirante derrotó a Alejandro Tabilo en Estocolmo y jugará por primera vez una final ATP",
+     "u": "https://www.infobae.com/deportes/2026/11/13/thiago-tirante-derroto-a-alejandro-tabilo-en-estocolmo-y-jugara-por-primera-vez-una-final-atp/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Los Pumas se recuperaron en el Nations Championship y vencieron 19-14 a Italia como visitantes",
+     "u": "https://www.infobae.com/deportes/2026/11/14/los-pumas-buscaran-recuperarse-ante-italia-por-el-nations-championship/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Por qué Los Pumas juegan con la camiseta de la Selección de fútbol ante Italia",
+     "u": "https://www.ole.com.ar/rugby/lospumas-italia-mexico1986-rugby-diegomaradona-unionargentinaderugby-galahome_0_5JNtMBqbQr.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "La suspensión de vuelos de la FAA interrumpió los cronogramas y viajes de la NBA, la NHL y del fútbol americano",
-     "u": "https://www.infobae.com/estados-unidos/2026/11/14/la-faa-para-todos-los-vuelos-en-estados-unidos-y-deja-a-mas-de-una-docena-de-equipos-deportivos-sin-poder-llegar-a-sus-sedes/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "“Esto es fútbol de verdad, no es show”: 1860 München, la pasión en las raíces de Alemania y una histórica rivalidad con el Bayern",
-     "u": "https://www.infobae.com/deportes/2026/11/14/esto-es-futbol-de-verdad-no-es-show-1860-munchen-la-pasion-en-las-raices-de-alemania-y-una-historica-rivalidad-con-el-bayern/",
-     "f": "Infobae",
+     "t": "Qué canal de TV transmite Boca vs. Banfield, por la Copa Argentina 2026",
+     "u": "https://www.ole.com.ar/copa-argentina/boca-vs-banfield-semifinal-copa-argentina-2026-partido-dia-horario-tv-formaciones_0_WOhz0vaAMj.html",
+     "f": "Olé",
      "alta": false
     }
    ]
@@ -231,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Podcast « Crunch » - France-Afrique du Sud : une victoire de prestige, et fondatrice ?",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Podcast-crunch-france-afrique-du-sud-une-victoire-de-prestige-et-fondatrice/1743567#at_medium=RSS_feeds",
+     "t": "Matthieu Jalibert de retour dans le groupe des 42 du XV de France pour préparer le match contre l'Argentine",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Matthieu-jalibert-de-retour-dans-le-groupe-des-42-du-xv-de-france-pour-preparer-le-match-contre-l-argentine/1743624#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "L'oeil de Jean-Baptiste Élissalde après France - Afrique du Sud : « C'est la plus grande performance stratégique du sélectionneur et de son staff »",
-     "u": "https://www.lequipe.fr/Rugby/Article/L-oeil-de-jean-baptiste-elissalde-apres-france-afrique-du-sud-c-est-la-plus-grande-performance-strategique-du-selectionneur-et-de-son-staff/1743552#at_medium=RSS_feeds",
+     "t": "Gilonne Guigonnat gagne sa place en équipe de France pour l'ouverture de la Coupe du monde à Kontiolahti",
+     "u": "https://www.lequipe.fr/Biathlon/Actualites/Gilonne-guigonnat-gagne-sa-place-en-equipe-de-france-pour-l-ouverture-de-la-coupe-du-monde-a-kontiolahti/1743613#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -254,22 +260,22 @@
    "pais": "BR"
   },
   {
-   "t": "Lionel Messi to return to Estadio Monumental on January 19 as Inter Miami face River Plate in historic Buenos Aires preseason friendly",
-   "u": "https://sports.yahoo.com/articles/lionel-messi-return-estadio-monumental-063006640.html",
+   "t": "Jamaica vs. Mexico Concacaf Nations League prediction, start time, how to watch",
+   "u": "https://sports.yahoo.com/articles/jamaica-vs-mexico-concacaf-nations-140138072.html",
    "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Champions adiada? Jogadora do Benfica mostrou aos adeptos a rotina em casa",
-   "u": "https://www.abola.pt/video/champions-adiada-jogadora-do-benfica-mostrou-aos-adeptos-a-rotina-em-casa-2026111209185376813",
-   "f": "A Bola",
+   "t": "Caos na Fórmula 1: jornalista foi banido por insultar Leclerc e deixou paddock em polvorosa",
+   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/caos-na-formula-1-jornalista-foi-banido-por-insultar-leclerc-e-deixou-paddock-em-polvorosa",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "37-28: Tres porteros y tres goleadores se lucen en el Barça-Proin de la Liga ASOBAL",
-   "u": "https://www.mundodeportivo.com/balonmano/20261113/1004250783/37-28-tres-porteros-tres-goleadores-lucen-barca-proin-liga-asobal.html",
+   "t": "En Inglaterra también ven \"absurdo\" el debate sobre Lamine y la Roja",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261114/1004250918/inglaterra-ven-absurdo-debate-sobre-lamine-roja.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
@@ -282,10 +288,10 @@
    "pais": "GB"
   },
   {
-   "t": "A qué hora juegan Los Pumas vs. Italia y dónde ver hoy EN VIVO el partido por el Nations Championship",
-   "u": "https://www.ole.com.ar/rugby/hora-pumas-vs-italia-ver-tv-hoy-vivo-partido-nations-championship_0_k7VqZyHaKf.html",
-   "f": "Olé",
-   "alta": false,
+   "t": "El argentino Thiago Tirante derrotó a Alejandro Tabilo en Estocolmo y jugará por primera vez una final ATP",
+   "u": "https://www.infobae.com/deportes/2026/11/13/thiago-tirante-derroto-a-alejandro-tabilo-en-estocolmo-y-jugara-por-primera-vez-una-final-atp/",
+   "f": "Infobae",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -296,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Podcast « Crunch » - France-Afrique du Sud : une victoire de prestige, et fondatrice ?",
-   "u": "https://www.lequipe.fr/Rugby/Actualites/Podcast-crunch-france-afrique-du-sud-une-victoire-de-prestige-et-fondatrice/1743567#at_medium=RSS_feeds",
+   "t": "Matthieu Jalibert de retour dans le groupe des 42 du XV de France pour préparer le match contre l'Argentine",
+   "u": "https://www.lequipe.fr/Rugby/Actualites/Matthieu-jalibert-de-retour-dans-le-groupe-des-42-du-xv-de-france-pour-preparer-le-match-contre-l-argentine/1743624#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
