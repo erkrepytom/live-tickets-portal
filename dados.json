@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-13T23:40:58+00:00",
+ "atualizado": "2026-11-14T06:41:33+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Com três de Fabiano, Palmeiras supera Santos e pega o Corinthians na final do Paulistão sub-20",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/com-tres-de-fabiano-palmeiras-supera-santos-e-pega-o-corinthians-na-final-do-paulistao-sub-20/",
+     "t": "Com jogadores de Atlético-MG e Cruzeiro, Equador bate Costa Rica em amistoso",
+     "u": "https://www.gazetaesportiva.com/times/equador/com-jogadores-de-atletico-mg-e-cruzeiro-equador-bate-costa-rica-em-amistoso/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Flamengo atropela Paisas na estreia das quartas de final da Liga Sul-Americana de Basquete",
+     "u": "https://ge.globo.com/basquete/noticia/2026/11/14/flamengo-atropela-paisas-na-estreia-das-quartas-de-final-da-liga-sul-americana-de-basquete.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Mirassol x Atlético-MG: onde assistir ao vivo, horário e escalações",
+     "u": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/noticia/2026/11/14/mirassol-x-atletico-mg-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+     "f": "ge",
      "alta": false
     },
     {
      "t": "Messi voltará à Argentina para amistoso entre Inter Miami e River Plate",
      "u": "https://www.gazetaesportiva.com/messi/messi-voltara-a-argentina-para-amistoso-entre-inter-miami-e-river-plate/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Flag Football: Brasileirão Série A define campeão neste fim de semana",
-     "u": "https://ge.globo.com/ms/noticia/2026/11/13/flag-football-brasileirao-serie-a-define-campeao-neste-fim-de-semana.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Mirassol x Atlético-MG - Campeonato Brasileiro 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/14-11-2026/mirassol-atletico-mg.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
+     "t": "Lionel Messi to return to Estadio Monumental on January 19 as Inter Miami face River Plate in historic Buenos Aires preseason friendly",
+     "u": "https://sports.yahoo.com/articles/lionel-messi-return-estadio-monumental-063006640.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Knicks vs. Pacers prediction, odds, time: 2026 NBA Cup picks for Friday, Nov. 13 from proven model",
      "u": "https://www.cbssports.com/betting/news/knicks-pacers-prediction-odds-time-2026-nba-cup-picks-best-bets-friday-november-13/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Dissecting the Boston Celtics 4-0 road trip",
-     "u": "https://sports.yahoo.com/articles/dissecting-boston-celtics-4-0-233250031.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "The Boston Celtics have overcome an issue that previously haunted them",
-     "u": "https://sports.yahoo.com/articles/boston-celtics-overcome-issue-previously-233138673.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
      "t": "NBA player props, odds, picks: James Harden, Shai Gilgeous-Alexander featured in Friday's best bets",
      "u": "https://www.cbssports.com/betting/news/nba-player-props-odds-picks-james-harden-shai-gilgeous-alexander-featured-in-fridays-best-bets/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Warriors find there's no replacement for Steph Curry, as 38-point loss in San Antonio shows",
+     "u": "https://sports.yahoo.com/articles/warriors-theres-no-replacement-steph-062529137.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Bis à França e boa forma no Inter: será Esposito o novo grande avançado de Itália?",
-     "u": "https://www.abola.pt/noticias/bis-a-franca-e-boa-forma-no-inter-sera-esposito-o-novo-grande-avancado-de-italia-2026111310114931946",
+     "t": "Champions adiada? Jogadora do Benfica mostrou aos adeptos a rotina em casa",
+     "u": "https://www.abola.pt/video/champions-adiada-jogadora-do-benfica-mostrou-aos-adeptos-a-rotina-em-casa-2026111209185376813",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Imagens mostram resgates após colisão de navio-tanque com cruzeiro perto do porto de Nova-Orleães",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/imagens-mostram-resgates-apos-colisao-de-navio-tanque-com-cruzeiro-perto-do-porto-de-nova-orleaes",
+     "t": "Borja Sainz é mesmo um porto seguro",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/borja-sainz-e-mesmo-um-porto-seguro",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Antigo diretor desportivo do Milan visa Rafael Leão: «O futebol já não era uma prioridade para ele»",
-     "u": "https://www.record.pt/internacional/paises/italia/ac-milan/detalhe/antigo-diretor-desportivo-do-milan-visa-rafael-leao-o-futebol-ja-nao-era-uma-prioridade-para-ele",
+     "t": "Abel Ferreira distinguido devido à defesa do Palmeiras",
+     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/abel-ferreira-distinguido-devido-a-defesa-do-palmeiras",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Conhecidos seis clubes apontados para a nova NBA Europa",
-     "u": "https://www.abola.pt/noticias/conhecidos-seis-clubes-apontados-para-a-nova-nba-europa-2026111319151063153",
+     "t": "Perdeu €450 M em apostas e foi banido da NBA: «Ser descoberto salvou-me a vida»",
+     "u": "https://www.abola.pt/noticias/perdeu-euro450-m-em-apostas-e-foi-banido-da-nba-ser-descoberto-salvou-me-a-vida-2026111218263882292",
      "f": "A Bola",
      "alta": false
     }
@@ -119,14 +119,8 @@
      "alta": false
     },
     {
-     "t": "La nueva perla de Inglaterra, bajo la tutela de Bellingham y Kane",
-     "u": "https://www.marca.com/futbol/nations-league/2026/11/10/nueva-perla-inglaterra-tutela-bellingham-kan-video.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "El Langui cierra una temporada inolvidable con una plata en Sao Paulo",
-     "u": "https://www.marca.com/paralimpicos/2026/11/10/langui-cierra-temporada-inolvidable-primer-podio-copa-mundo.html",
+     "t": "Incógnita Mbappé: no se entrena con Francia",
+     "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
      "f": "Marca",
      "alta": false
     },
@@ -134,6 +128,12 @@
      "t": "74-76: Triunfo colosal de un Barça resistente en el OAKA",
      "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261113/1004250789/74-76-triunfo-colosal-barca-resistente-oaka.html",
      "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "El Barça de Flick sabe sufrir",
+     "u": "https://www.marca.com/futbol/barcelona/2026/11/11/barca-flick-sufrir.html",
+     "f": "Marca",
      "alta": false
     }
    ]
@@ -159,14 +159,14 @@
      "alta": false
     },
     {
-     "t": "England beat France to become back-to-back world champions",
-     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/cqy4jdxven1go?at_medium=RSS&at_campaign=rss",
+     "t": "France edge past South Africa after thriller in Nations Championship",
+     "u": "https://www.bbc.co.uk/sport/rugby-union/videos/c6eq4npqy7e0o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "France hold nerve to edge past South Africa in thriller",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cqm2j810r2m2o?at_medium=RSS&at_campaign=rss",
+     "t": "England beat France to become back-to-back world champions",
+     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/cqy4jdxven1go?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,27 +181,21 @@
    },
    "noticias": [
     {
-     "t": "Lionel Messi volverá a jugar en Argentina: Inter Miami disputará un amistoso ante River Plate en el Monumental",
-     "u": "https://www.infobae.com/deportes/2026/11/13/lionel-messi-volvera-a-jugar-en-argentina-inter-miami-disputara-un-amistoso-ante-river-plate-en-el-monumental/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Se confirmó quién será el árbitro para la final de la Copa Sudamericana entre Boca Juniors y Atlético Mineiro",
-     "u": "https://www.infobae.com/deportes/2026/11/13/se-confirmo-quien-sera-el-arbitro-para-la-final-de-la-copa-sudamericana-entre-boca-juniors-y-atletico-mineiro/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Oficial: la Liga Profesional ya muestra a Independiente por encima de Defensa y Justicia",
-     "u": "https://www.ole.com.ar/futbol-primera/ligaprofesional-independiente-defensayjusticia-fairplay-tribunaldedisciplina-afa_0_MY7lNWMmqJ.html",
+     "t": "A qué hora juegan Los Pumas vs. Italia y dónde ver hoy EN VIVO el partido por el Nations Championship",
+     "u": "https://www.ole.com.ar/rugby/hora-pumas-vs-italia-ver-tv-hoy-vivo-partido-nations-championship_0_k7VqZyHaKf.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Ruso Rodríguez, con Olé, antes del partido con Boca: “La presión la tienen ellos”",
-     "u": "https://www.ole.com.ar/banfield/boca-juniors-banfield-copa-argentina-ruso-rodriguez_0_IDC17eIMcg.html",
-     "f": "Olé",
+     "t": "La suspensión de vuelos de la FAA interrumpió los cronogramas y viajes de la NBA, la NHL y del fútbol americano",
+     "u": "https://www.infobae.com/estados-unidos/2026/11/14/la-faa-para-todos-los-vuelos-en-estados-unidos-y-deja-a-mas-de-una-docena-de-equipos-deportivos-sin-poder-llegar-a-sus-sedes/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "“Esto es fútbol de verdad, no es show”: 1860 München, la pasión en las raíces de Alemania y una histórica rivalidad con el Bayern",
+     "u": "https://www.infobae.com/deportes/2026/11/14/esto-es-futbol-de-verdad-no-es-show-1860-munchen-la-pasion-en-las-raices-de-alemania-y-una-historica-rivalidad-con-el-bayern/",
+     "f": "Infobae",
      "alta": false
     }
    ]
@@ -237,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Les notes de France - Afrique du Sud",
-     "u": "https://www.lequipe.fr/Rugby/Article/Les-notes-de-france-afrique-du-sud-dupont-inegalable-woki-infaillible/1743547#at_medium=RSS_feeds",
+     "t": "Podcast « Crunch » - France-Afrique du Sud : une victoire de prestige, et fondatrice ?",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Podcast-crunch-france-afrique-du-sud-une-victoire-de-prestige-et-fondatrice/1743567#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Notez les joueurs du XV de France après la superbe victoire contre l'Afrique du Sud",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Notez-les-joueurs-du-xv-de-france-apres-la-superbe-victoire-contre-l-afrique-du-sud/1743541#at_medium=RSS_feeds",
+     "t": "L'oeil de Jean-Baptiste Élissalde après France - Afrique du Sud : « C'est la plus grande performance stratégique du sélectionneur et de son staff »",
+     "u": "https://www.lequipe.fr/Rugby/Article/L-oeil-de-jean-baptiste-elissalde-apres-france-afrique-du-sud-c-est-la-plus-grande-performance-strategique-du-selectionneur-et-de-son-staff/1743552#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,22 +247,22 @@
  ],
  "destaques": [
   {
-   "t": "Com três de Fabiano, Palmeiras supera Santos e pega o Corinthians na final do Paulistão sub-20",
-   "u": "https://www.gazetaesportiva.com/times/palmeiras/com-tres-de-fabiano-palmeiras-supera-santos-e-pega-o-corinthians-na-final-do-paulistao-sub-20/",
+   "t": "Com jogadores de Atlético-MG e Cruzeiro, Equador bate Costa Rica em amistoso",
+   "u": "https://www.gazetaesportiva.com/times/equador/com-jogadores-de-atletico-mg-e-cruzeiro-equador-bate-costa-rica-em-amistoso/",
    "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Knicks vs. Pacers prediction, odds, time: 2026 NBA Cup picks for Friday, Nov. 13 from proven model",
-   "u": "https://www.cbssports.com/betting/news/knicks-pacers-prediction-odds-time-2026-nba-cup-picks-best-bets-friday-november-13/",
-   "f": "CBS Sports",
+   "t": "Lionel Messi to return to Estadio Monumental on January 19 as Inter Miami face River Plate in historic Buenos Aires preseason friendly",
+   "u": "https://sports.yahoo.com/articles/lionel-messi-return-estadio-monumental-063006640.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Bis à França e boa forma no Inter: será Esposito o novo grande avançado de Itália?",
-   "u": "https://www.abola.pt/noticias/bis-a-franca-e-boa-forma-no-inter-sera-esposito-o-novo-grande-avancado-de-italia-2026111310114931946",
+   "t": "Champions adiada? Jogadora do Benfica mostrou aos adeptos a rotina em casa",
+   "u": "https://www.abola.pt/video/champions-adiada-jogadora-do-benfica-mostrou-aos-adeptos-a-rotina-em-casa-2026111209185376813",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -288,9 +282,9 @@
    "pais": "GB"
   },
   {
-   "t": "Lionel Messi volverá a jugar en Argentina: Inter Miami disputará un amistoso ante River Plate en el Monumental",
-   "u": "https://www.infobae.com/deportes/2026/11/13/lionel-messi-volvera-a-jugar-en-argentina-inter-miami-disputara-un-amistoso-ante-river-plate-en-el-monumental/",
-   "f": "Infobae",
+   "t": "A qué hora juegan Los Pumas vs. Italia y dónde ver hoy EN VIVO el partido por el Nations Championship",
+   "u": "https://www.ole.com.ar/rugby/hora-pumas-vs-italia-ver-tv-hoy-vivo-partido-nations-championship_0_k7VqZyHaKf.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -302,8 +296,8 @@
    "pais": "IT"
   },
   {
-   "t": "Les notes de France - Afrique du Sud",
-   "u": "https://www.lequipe.fr/Rugby/Article/Les-notes-de-france-afrique-du-sud-dupont-inegalable-woki-infaillible/1743547#at_medium=RSS_feeds",
+   "t": "Podcast « Crunch » - France-Afrique du Sud : une victoire de prestige, et fondatrice ?",
+   "u": "https://www.lequipe.fr/Rugby/Actualites/Podcast-crunch-france-afrique-du-sud-une-victoire-de-prestige-et-fondatrice/1743567#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
