@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14T14:17:25+00:00",
+ "atualizado": "2026-11-14T19:18:38+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Com jogadores de Atlético-MG e Cruzeiro, Equador bate Costa Rica em amistoso",
-     "u": "https://www.gazetaesportiva.com/times/equador/com-jogadores-de-atletico-mg-e-cruzeiro-equador-bate-costa-rica-em-amistoso/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Ex-Inter e Seleção conta como rebatia preconceito no futebol feminino e detalha luta vencida contra o câncer",
-     "u": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/14/ex-inter-e-selecao-conta-como-rebatia-preconceito-no-futebol-feminino-e-detalha-luta-vencida-contra-o-cancer.ghtml",
+     "t": "NFL: Astro dos Ravens, Lamar Jackson passa por cirurgia e ainda pode voltar nesta temporada",
+     "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/11/14/nfl-astro-dos-ravens-lamar-jackson-passa-por-cirurgia-e-ainda-pode-voltar-nesta-temporada.ghtml",
      "f": "ge",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Ninguém passa? Palmeiras lidera ranking de defesa mais sólida entre times da América do Sul",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-melhor-defesa-america-do-sul-ranking/",
+     "t": "São Paulo é goleado pelo Palmeiras na ida da semifinal do Paulista sub-17",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-palmeiras-santos-semifinais-paulista-base/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Sonho da Libertadores ou Z-4: jogo contra a Chape dita futuro do Vasco no Brasileirão; veja cenários",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/14/sonho-da-libertadores-ou-z-4-jogo-contra-a-chape-dita-futuro-do-vasco-no-brasileirao-veja-cenarios.ghtml",
+     "t": "Final da Copa do Mundo de 2030 na Espanha “é inegociável”, diz chefe do futebol espanhol",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-mundo/final-da-copa-do-mundo-de-2030-na-espanha-e-inegociavel-diz-chefe-do-futebol-espanhol/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Mirassol x Atlético-MG - Campeonato Brasileiro 2026 - globoesporte.com",
+     "u": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/14-11-2026/mirassol-atletico-mg.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Jamaica vs. Mexico Concacaf Nations League prediction, start time, how to watch",
-     "u": "https://sports.yahoo.com/articles/jamaica-vs-mexico-concacaf-nations-140138072.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Pumas grind out 19-14 win over Italy after late yellow cards in Nations Championship",
-     "u": "https://sports.yahoo.com/articles/pumas-grind-19-14-win-140335134.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Steelers vs. Bengals prediction, odds, time: NFL Week 10 'Sunday Night Football' picks by proven model",
-     "u": "https://www.cbssports.com/betting/news/steelers-bengals-prediction-odds-time-nfl-week-10-sunday-night-football-picks/",
+     "t": "Notre Dame vs. Boston College prediction, odds, time: Week 11 college football picks from proven model",
+     "u": "https://www.cbssports.com/betting/news/notre-dame-boston-college-prediction-odds-time-2026-week-11-college-football-picks-best-bets/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Fantasy football rankings Week 10: Dave Richard's tough start/sit calls clear up your toughest flex decisions",
-     "u": "https://www.cbssports.com/fantasy/football/news/fantasy-football-rankings-week-10-dave-richards-tough-startsit-calls/",
+     "t": "NFL Week 10 last-minute picks, best bets: Chiefs, Steelers take advantage of schedule quirk",
+     "u": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-best-bets-chiefs-steelers/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Football pitch ruined by 'selfish' vandals in car",
+     "u": "https://sports.yahoo.com/articles/football-pitch-ruined-selfish-vandals-190530329.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "‘Everything a coach wants:’ UGA football commit dies after medical emergency",
+     "u": "https://sports.yahoo.com/articles/everything-coach-wants-uga-football-190335745.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Caos na Fórmula 1: jornalista foi banido por insultar Leclerc e deixou paddock em polvorosa",
-     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/caos-na-formula-1-jornalista-foi-banido-por-insultar-leclerc-e-deixou-paddock-em-polvorosa",
+     "t": "FC Porto goleia em Rio Tinto com hat trick de avançada ex-PSG",
+     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/fc-porto-goleia-em-rio-tinto-com-hat-trick-de-avancada-ex-psg",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Antigo diretor-desportivo do Milan tentou 'roubar' Doumbia ao Sporting: «Queria-o a todo o custo»",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/antigo-diretor-desportivo-do-milan-tentou-roubar-doumbia-ao-sporting-queria-o-a-todo-o-custo",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Milan queria Doumbia «a todo o custo»… mas o médio foi para ao Sporting",
-     "u": "https://www.abola.pt/noticias/milan-queria-doumbia-a-todo-o-custo-mas-o-medio-foi-para-ao-sporting-2026111412220795509",
+     "t": "«Prefiro que o FC Porto perca 0-3 e que Froholdt não marque»: Bah fala de Benfica, Mourinho e muito mais",
+     "u": "https://www.abola.pt/noticias/prefiro-que-o-fc-porto-perca-0-3-e-que-froholdt-nao-marque-bah-fala-de-benfica-mourinho-e-muito-mais-2026111415533550155",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Melhores estádios, mais habitação: as lições das Antas e de San Siro",
-     "u": "https://www.abola.pt/noticias/melhores-estadios-mais-habitacao-as-licoes-das-antas-e-de-san-siro-2026111315285198516",
+     "t": "Selecionador do México e o momento de Gimenez: «Vemo-lo mais forte e com outra atitude»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/selecionador-do-mexico-e-o-momento-de-gimenez-vemo-lo-mais-forte-e-com-outra-atitude",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Declara-se ao rival antes de confronto: «O Barcelona é o clube do meu coração»",
+     "u": "https://www.abola.pt/noticias/mikautadze-declara-se-ao-rival-antes-de-confronto-o-barcelona-e-o-clube-do-meu-coracao-2026111414344836967",
      "f": "A Bola",
      "alta": false
     }
@@ -119,15 +119,15 @@
      "alta": false
     },
     {
-     "t": "Definida la fecha para conocer la posible sanción al Manchester City",
-     "u": "https://www.mundodeportivo.com/futbol/20261114/1004250911/definida-fecha-conocer-posible-sancion-manchester-city.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "Incógnita Mbappé: no se entrena con Francia",
      "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "0-1: Un Barça que acaba con diez por las lesiones, sucumbe ante el Girona",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261114/1004250997/barca-atletic-girona-b-directo-segunda-federacion-futbol.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -165,9 +165,9 @@
      "alta": false
     },
     {
-     "t": "England beat France to become back-to-back world champions",
-     "u": "https://www.bbc.co.uk/sport/rugby-league/videos/cqy4jdxven1go?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "France put injuries behind them to stun Springboks",
+     "u": "https://www.skysports.com/rugby-union/france-vs-south-africa/report/111688",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "El argentino Thiago Tirante derrotó a Alejandro Tabilo en Estocolmo y jugará por primera vez una final ATP",
-     "u": "https://www.infobae.com/deportes/2026/11/13/thiago-tirante-derroto-a-alejandro-tabilo-en-estocolmo-y-jugara-por-primera-vez-una-final-atp/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
      "t": "Los Pumas se recuperaron en el Nations Championship y vencieron 19-14 a Italia como visitantes",
      "u": "https://www.infobae.com/deportes/2026/11/14/los-pumas-buscaran-recuperarse-ante-italia-por-el-nations-championship/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Por qué Los Pumas juegan con la camiseta de la Selección de fútbol ante Italia",
-     "u": "https://www.ole.com.ar/rugby/lospumas-italia-mexico1986-rugby-diegomaradona-unionargentinaderugby-galahome_0_5JNtMBqbQr.html",
+     "t": "La suspensión de vuelos de la FAA interrumpió los cronogramas y viajes de la NBA, la NHL y del fútbol americano",
+     "u": "https://www.infobae.com/estados-unidos/2026/11/14/la-faa-para-todos-los-vuelos-en-estados-unidos-y-deja-a-mas-de-una-docena-de-equipos-deportivos-sin-poder-llegar-a-sus-sedes/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Portugal vs. Dinamarca, por la UEFA Nations League: horario, formaciones y TV para ver en vivo",
+     "u": "https://www.ole.com.ar/futbol-internacional/portugal-vs-dinamarca-uefa-nations-league-partido-dia-horario-formaciones-tv_0_pDfDsdDAqx.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Qué canal de TV transmite Boca vs. Banfield, por la Copa Argentina 2026",
-     "u": "https://www.ole.com.ar/copa-argentina/boca-vs-banfield-semifinal-copa-argentina-2026-partido-dia-horario-tv-formaciones_0_WOhz0vaAMj.html",
+     "t": "Quiénes son los tres juveniles que Boca blindó antes del Mundial Sub 17",
+     "u": "https://www.ole.com.ar/boca-juniors/seleccion-sub-17-argentina-boca-barrionuevo-coria-sanchez-2028-primer-contrato-profesional-mundial_0_LJEZKxiwKd.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Matthieu Jalibert de retour dans le groupe des 42 du XV de France pour préparer le match contre l'Argentine",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Matthieu-jalibert-de-retour-dans-le-groupe-des-42-du-xv-de-france-pour-preparer-le-match-contre-l-argentine/1743624#at_medium=RSS_feeds",
+     "t": "Désiré Doué bien présent lors du dernier entraînement avant France-Turquie",
+     "u": "https://www.lequipe.fr/Football/Actualites/Desire-doue-bien-present-lors-du-dernier-entrainement-avant-france-turquie/1743694#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Gilonne Guigonnat gagne sa place en équipe de France pour l'ouverture de la Coupe du monde à Kontiolahti",
-     "u": "https://www.lequipe.fr/Biathlon/Actualites/Gilonne-guigonnat-gagne-sa-place-en-equipe-de-france-pour-l-ouverture-de-la-coupe-du-monde-a-kontiolahti/1743613#at_medium=RSS_feeds",
+     "t": "Lucas Da Cunha avant France-Turquie en Ligue des nations : « Je dois encore progresser défensivement »",
+     "u": "https://www.lequipe.fr/Football/Actualites/Lucas-da-cunha-avant-france-turquie-en-ligue-des-nations-je-dois-encore-progresser-defensivement/1743690#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,22 +253,22 @@
  ],
  "destaques": [
   {
-   "t": "Com jogadores de Atlético-MG e Cruzeiro, Equador bate Costa Rica em amistoso",
-   "u": "https://www.gazetaesportiva.com/times/equador/com-jogadores-de-atletico-mg-e-cruzeiro-equador-bate-costa-rica-em-amistoso/",
-   "f": "Gazeta Esportiva",
-   "alta": false,
+   "t": "NFL: Astro dos Ravens, Lamar Jackson passa por cirurgia e ainda pode voltar nesta temporada",
+   "u": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/11/14/nfl-astro-dos-ravens-lamar-jackson-passa-por-cirurgia-e-ainda-pode-voltar-nesta-temporada.ghtml",
+   "f": "ge",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Jamaica vs. Mexico Concacaf Nations League prediction, start time, how to watch",
-   "u": "https://sports.yahoo.com/articles/jamaica-vs-mexico-concacaf-nations-140138072.html",
-   "f": "Yahoo Sports",
+   "t": "Notre Dame vs. Boston College prediction, odds, time: Week 11 college football picks from proven model",
+   "u": "https://www.cbssports.com/betting/news/notre-dame-boston-college-prediction-odds-time-2026-week-11-college-football-picks-best-bets/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Caos na Fórmula 1: jornalista foi banido por insultar Leclerc e deixou paddock em polvorosa",
-   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/caos-na-formula-1-jornalista-foi-banido-por-insultar-leclerc-e-deixou-paddock-em-polvorosa",
+   "t": "FC Porto goleia em Rio Tinto com hat trick de avançada ex-PSG",
+   "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/fc-porto-goleia-em-rio-tinto-com-hat-trick-de-avancada-ex-psg",
    "f": "Record",
    "alta": false,
    "pais": "PT"
@@ -288,10 +288,10 @@
    "pais": "GB"
   },
   {
-   "t": "El argentino Thiago Tirante derrotó a Alejandro Tabilo en Estocolmo y jugará por primera vez una final ATP",
-   "u": "https://www.infobae.com/deportes/2026/11/13/thiago-tirante-derroto-a-alejandro-tabilo-en-estocolmo-y-jugara-por-primera-vez-una-final-atp/",
+   "t": "Los Pumas se recuperaron en el Nations Championship y vencieron 19-14 a Italia como visitantes",
+   "u": "https://www.infobae.com/deportes/2026/11/14/los-pumas-buscaran-recuperarse-ante-italia-por-el-nations-championship/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Matthieu Jalibert de retour dans le groupe des 42 du XV de France pour préparer le match contre l'Argentine",
-   "u": "https://www.lequipe.fr/Rugby/Actualites/Matthieu-jalibert-de-retour-dans-le-groupe-des-42-du-xv-de-france-pour-preparer-le-match-contre-l-argentine/1743624#at_medium=RSS_feeds",
+   "t": "Désiré Doué bien présent lors du dernier entraînement avant France-Turquie",
+   "u": "https://www.lequipe.fr/Football/Actualites/Desire-doue-bien-present-lors-du-dernier-entrainement-avant-france-turquie/1743694#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
