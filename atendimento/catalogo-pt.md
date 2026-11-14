@@ -4,14 +4,6 @@ Catálogo completo do parceiro:
 
 ## Eventos com página
 
-### França x África do Sul
-- Data: sexta, 13 de novembro de 2026
-- Local: Stade de France, Paris, França (World Rugby Nations Championship)
-- Ingressos: 
-- Guia no site: https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/
-- RER D até Stade de France–Saint-Denis ou RER B até La Plaine–Stade de France.
-- Metrô linha 13, estação Saint-Denis–Porte de Paris, a poucos minutos a pé.
-
 ### México x Jamaica
 - Data: terça, 17 de novembro de 2026
 - Local: Estadio BBVA, Monterrey, México (CONCACAF Nations League)

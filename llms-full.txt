@@ -13,16 +13,6 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 
 ## Events
 
-### France vs South Africa
-
-- Date: Friday, November 13, 2026, 21:10 local time
-- Venue: Stade de France, ZAC du Cornillon Nord, Paris, France
-- Competition: World Rugby Nations Championship
-- Teams: France vs South Africa
-- About: Test rugby at the Stade de France: France host South Africa in the World Rugby Nations Championship.
-- Getting there: RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France. Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away.
-- Guide pages: pt-BR https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/, en https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/, es https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/
-
 ### Mexico vs Jamaica
 
 - Date: Tuesday, November 17, 2026, 20:30 local time
@@ -151,10 +141,8 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - NBA and basketball tickets 2027: https://mytickets.tours/en/basketball/ (3 events)
 - International concerts tickets 2027: https://mytickets.tours/en/concerts/ (4 events)
 - Football tickets 2026/2027: https://mytickets.tours/en/football/ (3 events)
-- Rugby tickets 2026/2027: https://mytickets.tours/en/rugby/ (2 events)
 - NBA tickets 2027: https://mytickets.tours/en/competitions/nba/ (3 events)
 - UEFA Champions League tickets 2026/2027: https://mytickets.tours/en/competitions/uefa-champions-league/ (2 events)
-- Tickets in Paris: https://mytickets.tours/en/cities/paris/ (2 events)
 - Tickets in São Paulo: https://mytickets.tours/en/cities/sao-paulo/ (2 events)
 
 ## Safety and trust
@@ -165,4 +153,4 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Affiliate disclosure and legal notice | MyTickets Tours: https://mytickets.tours/en/affiliate-disclosure/
 
 Contact: email@mytickets.tours. Editor: Everton Bras.
-Updated: 2026-11-13
+Updated: 2026-11-14

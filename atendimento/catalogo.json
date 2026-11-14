@@ -1,34 +1,10 @@
 {
- "atualizado": "2026-11-13",
+ "atualizado": "2026-11-14",
  "afiliado": "",
  "idiomas": {
   "pt": {
    "catalogo_parceiro": "",
    "eventos": [
-    {
-     "nome": "França x África do Sul",
-     "data": "2026-11-13",
-     "data_texto": "sexta, 13 de novembro de 2026",
-     "local": "Stade de France",
-     "cidade": "Paris",
-     "pais": "França",
-     "competicao": "World Rugby Nations Championship",
-     "times": [
-      "França",
-      "África do Sul"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/",
-     "como_chegar": [
-      "RER D até Stade de France–Saint-Denis ou RER B até La Plaine–Stade de France.",
-      "Metrô linha 13, estação Saint-Denis–Porte de Paris, a poucos minutos a pé."
-     ],
-     "dicas": [
-      "Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.",
-      "Leve casaco: jogos de novembro a março costumam ser frios.",
-      "Em grupo, compre os lugares no mesmo pedido."
-     ]
-    },
     {
      "nome": "México x Jamaica",
      "data": "2026-11-17",
@@ -480,30 +456,6 @@
    "catalogo_parceiro": "",
    "eventos": [
     {
-     "nome": "France vs South Africa",
-     "data": "2026-11-13",
-     "data_texto": "Friday, November 13, 2026",
-     "local": "Stade de France",
-     "cidade": "Paris",
-     "pais": "France",
-     "competicao": "World Rugby Nations Championship",
-     "times": [
-      "France",
-      "South Africa"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/",
-     "como_chegar": [
-      "RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.",
-      "Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away."
-     ],
-     "dicas": [
-      "Side seats near halfway show the play best.",
-      "Bring a coat: games from November to March are usually cold.",
-      "For a group, buy all seats in one order."
-     ]
-    },
-    {
      "nome": "Mexico vs Jamaica",
      "data": "2026-11-17",
      "data_texto": "Tuesday, November 17, 2026",
@@ -953,30 +905,6 @@
   "es": {
    "catalogo_parceiro": "",
    "eventos": [
-    {
-     "nome": "Francia vs Sudáfrica",
-     "data": "2026-11-13",
-     "data_texto": "viernes, 13 de noviembre de 2026",
-     "local": "Stade de France",
-     "cidade": "París",
-     "pais": "Francia",
-     "competicao": "World Rugby Nations Championship",
-     "times": [
-      "Francia",
-      "Sudáfrica"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/",
-     "como_chegar": [
-      "RER D hasta Stade de France–Saint-Denis o RER B hasta La Plaine–Stade de France.",
-      "Metro línea 13, estación Saint-Denis–Porte de Paris, a pocos minutos a pie."
-     ],
-     "dicas": [
-      "Los asientos laterales cerca de la mitad muestran mejor el juego.",
-      "Lleva abrigo: los partidos de noviembre a marzo suelen ser fríos.",
-      "En grupo, compra todos los asientos en el mismo pedido."
-     ]
-    },
     {
      "nome": "México vs Jamaica",
      "data": "2026-11-17",

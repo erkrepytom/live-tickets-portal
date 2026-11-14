@@ -4,14 +4,6 @@ Full partner catalogue:
 
 ## Events with a page
 
-### France vs South Africa
-- Date: Friday, November 13, 2026
-- Venue: Stade de France, Paris, France (World Rugby Nations Championship)
-- Tickets: 
-- Guide on the site: https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/
-- RER D to Stade de France–Saint-Denis or RER B to La Plaine–Stade de France.
-- Metro line 13 to Saint-Denis–Porte de Paris, a few minutes' walk away.
-
 ### Mexico vs Jamaica
 - Date: Tuesday, November 17, 2026
 - Venue: Estadio BBVA, Monterrey, Mexico (CONCACAF Nations League)

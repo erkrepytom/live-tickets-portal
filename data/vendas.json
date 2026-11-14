@@ -1,95 +1,5 @@
 {
  "_leia": "Gerado por scripts/vendas.py. status: a_venda | em_breve | esgotado | desconhecido. 'mudancas' guarda as últimas transições (a tarefa de alertas usa 'para' == 'a_venda').",
- "franca-vs-africa-do-sul-2026-11-13": {
-  "mudancas": [
-   {
-    "canal": "oficial",
-    "de": "desconhecido",
-    "para": "a_venda",
-    "em": "2026-10-28T00:46:37+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "a_venda",
-    "para": "desconhecido",
-    "em": "2026-10-28T13:35:05+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "desconhecido",
-    "para": "a_venda",
-    "em": "2026-10-28T20:35:56+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "a_venda",
-    "para": "desconhecido",
-    "em": "2026-10-30T20:17:44+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "desconhecido",
-    "para": "a_venda",
-    "em": "2026-10-31T01:05:53+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "a_venda",
-    "para": "desconhecido",
-    "em": "2026-11-04T20:04:53+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "desconhecido",
-    "para": "a_venda",
-    "em": "2026-11-05T01:50:26+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "a_venda",
-    "para": "desconhecido",
-    "em": "2026-11-06T19:50:20+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "desconhecido",
-    "para": "a_venda",
-    "em": "2026-11-07T01:17:30+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "a_venda",
-    "para": "desconhecido",
-    "em": "2026-11-07T10:43:15+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "desconhecido",
-    "para": "a_venda",
-    "em": "2026-11-08T06:45:08+00:00"
-   },
-   {
-    "canal": "oficial",
-    "de": "a_venda",
-    "para": "desconhecido",
-    "em": "2026-11-13T20:05:58+00:00"
-   }
-  ],
-  "oficial": {
-   "nome": "FFR",
-   "status": "desconhecido",
-   "confianca": 0.0,
-   "trecho": "",
-   "fonte": "https://billetterie.ffr.fr/",
-   "http": 200,
-   "motor": "urllib",
-   "conferido": "2026-11-13T20:05:58+00:00"
-  },
-  "parceiro": {
-   "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
-  }
- },
  "gp-abu-dhabi-f1-2026-12-06": {
   "mudancas": [],
   "oficial": {
@@ -97,11 +7,11 @@
    "status": "desconhecido",
    "fonte": "https://www.yasmarinacircuit.com/en/formula-1",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-11-13T20:05:58+00:00"
+   "tentado": "2026-11-14T01:52:11+00:00"
   },
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "barcelona-vs-manchester-city-2026-12-08": {
@@ -111,11 +21,11 @@
    "status": "desconhecido",
    "fonte": "https://www.fcbarcelona.com/en/tickets/football/first-team",
    "erro": "HTTPError: HTTP Error 404: Not Found",
-   "tentado": "2026-11-13T20:05:58+00:00"
+   "tentado": "2026-11-14T01:52:11+00:00"
   },
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "knicks-vs-nuggets-2027-01-11": {
@@ -128,11 +38,11 @@
    "fonte": "https://www.nba.com/knicks/tickets",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   },
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "final-australian-open-2027-01-31": {
@@ -142,11 +52,11 @@
    "status": "desconhecido",
    "fonte": "https://ausopen.com/tickets",
    "erro": "HTTPError: HTTP Error 403: Forbidden",
-   "tentado": "2026-11-13T20:05:58+00:00"
+   "tentado": "2026-11-14T01:52:11+00:00"
   },
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "celine-dion-paris-2027-05-14": {
@@ -159,11 +69,11 @@
    "fonte": "https://www.celinedion.com/tour/",
    "http": 200,
    "motor": "urllib",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   },
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "final-champions-league-2027-06-05": {
@@ -173,60 +83,60 @@
    "status": "desconhecido",
    "fonte": "https://www.uefa.com/uefachampionsleague/tickets/",
    "erro": "TimeoutError: The read operation timed out",
-   "tentado": "2026-11-13T20:05:58+00:00"
+   "tentado": "2026-11-14T01:52:11+00:00"
   },
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "mexico-vs-jamaica-2026-11-17": {
   "mudancas": [],
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "ireland-vs-south-africa-2026-11-21": {
   "mudancas": [],
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "lakers-vs-celtics-2027-01-07": {
   "mudancas": [],
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "nba-manchester-pelicans-vs-spurs-2027-01-17": {
   "mudancas": [],
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "foo-fighters-sao-paulo-2027-02-20": {
   "mudancas": [],
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "u2-cidade-do-mexico-2027-02-23": {
   "mudancas": [],
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  },
  "u2-sao-paulo-2027-03-10": {
   "mudancas": [],
   "parceiro": {
    "status": "desconhecido",
-   "conferido": "2026-11-13T20:05:58+00:00"
+   "conferido": "2026-11-14T01:52:11+00:00"
   }
  }
 }

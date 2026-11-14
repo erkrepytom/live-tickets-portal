@@ -1,7 +1,7 @@
 {
  "nome": "MyTickets Tours",
  "url": "https://mytickets.tours/",
- "atualizado": "2026-11-13",
+ "atualizado": "2026-11-14",
  "o_que_e": "Guia independente de ingressos para eventos esportivos e shows internacionais, em português, inglês e espanhol.",
  "aviso": "Este site NÃO vende ingresso e, no momento, não tem parceiro de venda de ingressos.",
  "vendedores": [],
@@ -15,36 +15,6 @@
  },
  "uso": "Livre para ler, citar e referenciar. Pedimos que cite o nome do site, MyTickets Tours.",
  "eventos": [
-  {
-   "id": "383977",
-   "slug": "franca-vs-africa-do-sul-2026-11-13",
-   "tipo": "rugby",
-   "titulo": {
-    "pt": "França x África do Sul",
-    "en": "France vs South Africa",
-    "es": "Francia vs Sudáfrica"
-   },
-   "data": "2026-11-13",
-   "hora_local": "21:10",
-   "local": "Stade de France",
-   "cidade": {
-    "pt": "Paris",
-    "en": "Paris",
-    "es": "París"
-   },
-   "pais": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
-   },
-   "competicao": "World Rugby Nations Championship",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/franca-vs-africa-do-sul-2026-11-13/",
-    "en": "https://mytickets.tours/en/events/franca-vs-africa-do-sul-2026-11-13/",
-    "es": "https://mytickets.tours/es/eventos/franca-vs-africa-do-sul-2026-11-13/"
-   },
-   "preco": null
-  },
   {
    "id": "G5dVZ_fm9hdkb",
    "slug": "mexico-vs-jamaica-2026-11-17",
