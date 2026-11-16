@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-16T08:03:38+00:00",
+ "atualizado": "2026-11-16T18:40:10+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Atlético-MG busca protagonismo brasileiro que sobra na Libertadores e falta na Sul-Americana",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/16/atletico-mg-busca-protagonismo-brasileiro-que-sobra-na-libertadores-e-falta-na-sul-americana.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Com menos de 1% de chance de Libertadores, São Paulo encara semana decisiva no Brasileirão",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/com-menos-de-1-de-chance-de-libertadores-sao-paulo-encara-semana-decisiva-no-brasileirao/",
+     "t": "No radar do Santos, Emerson Palmieri é submetido a cirurgia no joelho na França",
+     "u": "https://www.gazetaesportiva.com/times/santos/emerson-palmieri-cirurgia-joelho-santos-marseille/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Neymar deve repetir \"maratona\" de 2025 pelo Santos, mas sem lesão e em busca da Libertadores",
-     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/16/neymar-deve-repetir-maratona-de-2025-pelo-santos-mas-sem-lesao-e-em-busca-da-libertadores.ghtml",
+     "t": "Abel comanda treino tático, e Palmeiras terá mudanças para enfrentar o Cruzeiro",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-treino-tatico-mudancas-cruzeiro/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Atlético-MG anuncia patrocínio pontual para final da Sul-Americana",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/16/atletico-mg-anuncia-patrocinio-pontual-para-final-da-sul-americana.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Internacional bate Flamengo e conquista título inédito da Copa do Brasil feminina",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/internacional-bate-flamengo-e-conquista-titulo-inedito-da-copa-do-brasil-feminina/",
-     "f": "Gazeta Esportiva",
+     "t": "Agressões e expulsões: o que diz a súmula de Ferroviária x Corinthians sobre confusão",
+     "u": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/futebol-feminino/noticia/2026/11/16/agressoes-e-expulsoes-o-que-diz-a-sumula-de-ferroviaria-x-corinthians-sobre-confusao.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Zidane heaps praise on Real Madrid superstar after France victory: ‘He deserved two or three goals’",
-     "u": "https://sports.yahoo.com/articles/zidane-heaps-praise-real-madrid-074300076.html",
+     "t": "College basketball rankings: Michigan State jumps in AP Top 25 after win vs. Duke; Kentucky drops out of poll",
+     "u": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-ap-top-25-poll-michigan-state-duke-kentucky-lsu/",
+     "f": "CBS Sports",
+     "alta": true
+    },
+    {
+     "t": "Women's college basketball rankings: UConn drops to No. 7 after stunning loss to Louisville",
+     "u": "https://www.cbssports.com/womens-college-basketball/news/womens-college-basketball-rankings-uconn-drops-to-no-7-after-stunning-loss-to-louisville/",
+     "f": "CBS Sports",
+     "alta": true
+    },
+    {
+     "t": "AC Milan challenging Arsenal for Real Madrid star",
+     "u": "https://sports.yahoo.com/articles/ac-milan-challenging-arsenal-real-183000141.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Revealed: Why Zinedine Zidane left 'frustrated' as France boss slams Nations League display despite Turkey victory",
-     "u": "https://sports.yahoo.com/articles/revealed-why-zinedine-zidane-left-074242626.html",
+     "t": "NFL Injury Report, Week 11: Latest news, updates for Drake Maye, Kenneth Walker III, Brock Bowers, more players for fantasy football",
+     "u": "https://sports.yahoo.com/fantasy/article/nfl-injury-report-week-11-latest-news-updates-for-drake-maye-kenneth-walker-iii-brock-bowers-more-players-for-fantasy-football-183145114.html",
      "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Bengals-Steelers, Sunday Night Football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-bengals-steelers-sunday-night-football/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Bengals vs. Steelers odds: Best Sunday Night Football first touchdown scorer picks, NFL predictions",
-     "u": "https://www.cbssports.com/prediction/news/bengals-vs-steelers-odds-sunday-night-football-first-touchdown-scorer-picks-nfl-predictions/",
-     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Espanha e França lutam pela organização da 'final-four' da Liga das Nações",
-     "u": "https://www.abola.pt/noticias/espanha-e-franca-lutam-pela-organizacao-da-final-four-da-liga-das-nacoes-2026111417011837136",
+     "t": "Sporting: Alvalade esgotado para receber o Manchester United",
+     "u": "https://www.abola.pt/noticias/sporting-alvalade-esgotado-para-receber-o-manchester-united-2026111616253334752",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "«Milagre no Mississippi» após colisão de petroleiro com navio de cruzeiro",
-     "u": "https://www.abola.pt/noticias/milagre-no-mississippi-apos-colisao-de-petroleiro-com-navio-de-cruzeiro-2026111408491956713",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Tempo útil de jogo no futebol português: demora na análise VAR tem margem para ganhos",
-     "u": "https://www.record.pt/futebol/detalhe/tempo-util-de-jogo-no-futebol-portugues-demora-na-analise-var-tem-margem-para-ganhos",
+     "t": "Décio Faustino vai arbitrar final de pares do Mundial de ténis de mesa paralímpico",
+     "u": "https://www.record.pt/modalidades/tenis-de-mesa/detalhe/decio-faustino-vai-arbitrar-final-de-pares-do-mundial-de-tenis-de-mesa-paralimpico",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Alberto Costa é o segundo portista a chegar a internacional A na era Farioli",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/alberto-costa-e-o-segundo-portista-a-chegar-a-internacional-a-na-era-farioli",
+     "t": "Sporting e Benfica patinam para os três pontos",
+     "u": "https://www.abola.pt/noticias/sporting-e-benfica-patinam-para-os-tres-pontos-2026111421471638122",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Sessão de autógrafos na Loja Verde do Freeport com dupla de reforços do Sporting",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/sessao-de-autografos-na-loja-verde-do-freeport-com-dupla-de-reforcos-do-sporting",
      "f": "Record",
      "alta": false
     }
@@ -119,8 +119,8 @@
      "alta": false
     },
     {
-     "t": "El 1x1 de Inglaterra ante España",
-     "u": "https://www.mundodeportivo.com/futbol/uefa-nations-league/20261115/1004251420/1x1-inglaterra-espana.html",
+     "t": "La reacción en la selección española tras la derrota contra Inglaterra: \"El que venga que lo supere\"",
+     "u": "https://www.mundodeportivo.com/seleccion-espanola/20261116/1004251576/reaccion-seleccion-espanola-derrota-inglaterra-venga-supere.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "England fend off fiery Spain fightback after Anderson’s red to top Nations League group",
-     "u": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
+     "t": "Will Joseph poised to start for England against All Blacks after five-try burst",
+     "u": "https://www.theguardian.com/sport/2026/nov/16/will-joseph-steve-borthwick-england-new-zealand-nations-championship-rugby-union",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "England leave Jones sucking lemons but demolition of Japan shows widening gulf | Gerard Meagher",
-     "u": "https://www.theguardian.com/sport/2026/nov/14/england-leave-jones-sucking-lemons-but-demolition-of-japan-shows-widening-gulf",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "One for the World Cup? England's new-ball switch to Baker pays dividends",
-     "u": "https://www.skysports.com/cricket/news/12040/13612458/england-beat-australia-in-second-odi-sonny-baker-new-ball-switch-from-jofra-archer-pays-off-in-adelaide",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "Triumph or flop? The Rugby League World Cup that split opinion",
-     "u": "https://www.bbc.co.uk/sport/rugby-league/articles/cwdr1dl21l1vo?at_medium=RSS&at_campaign=rss",
+     "t": "Five-try Joseph set to start for England against All Blacks",
+     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx20pnd853po?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Moeen Ali warns England ‘cannot win the World Cup’ by sidelining Adil Rashid",
+     "u": "https://www.theguardian.com/sport/2026/nov/16/moeen-ali-warns-england-world-cup-sidelining-adil-rashid",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "'Now we need to go further' - Hamilton outlines next targets to improve F1 diversity",
+     "u": "https://www.skysports.com/f1/news/12040/13612897/lewis-hamilton-says-work-improving-diversity-in-f1-nowhere-near-finished-as-mission-44-outlines-recommendations-for-further-change",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
+     "t": "“Han aprendido de su error”: la comparación de los medios en Inglaterra tras el triunfo ante España y la derrota frente a Argentina en el Mundial",
+     "u": "https://www.infobae.com/deportes/2026/11/16/han-aprendido-de-su-error-la-comparacion-de-los-medios-en-inglaterra-tras-el-triunfo-ante-espana-y-la-derrota-frente-a-argentina-en-el-mundial/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Atlético Mineiro, entre las dudas y las bajas para la final con Boca",
+     "u": "https://www.ole.com.ar/boca-juniors/atletico-mineiro-dudas-bajas-final-boca_0_fOEOO31kYf.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "La lluvia de goles que cerró la fase de grupos de la Nations League: Inglaterra derrotó 3-2 a España y cortó un invicto de 44 partidos",
      "u": "https://www.infobae.com/deportes/2026/11/16/la-lluvia-de-goles-que-cerro-la-fase-de-grupos-de-la-nations-league-inglaterra-derroto-3-2-a-espana-y-corto-un-invicto-de-44-partidos/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Exclusivo: cómo es el plan de financiación para que Argentina recupere la Fórmula 1",
-     "u": "https://www.infobae.com/deportes/2026/11/16/exclusivo-como-es-el-plan-de-financiacion-para-que-argentina-recupere-la-formula-1/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Tuchel, tras el sufrido triunfo de Inglaterra: \"30 minutos contra España con diez parecen tres horas\"",
-     "u": "https://www.ole.com.ar/futbol-internacional/tuchel-hablo-sufrido-triunfo-espana-inglaterra_0_fZrZqJHO9q.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Murió un joven de 18 años tras sufrir un golpe en la cabeza en un partido de Inferiores del fútbol argentino",
-     "u": "https://www.ole.com.ar/informacion-general/murio-joven-18-anos-abel-nunez-fc-ezeiza-nueva-estrella-futsal_0_ugQustHCeG.html",
+     "t": "Los dos jugadores que le ponen suspenso al equipo de Boca para la final",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-atleticomineiro-rodrigobattaglia-lautaroblanco-leandroparedes-barranquilla_0_Lju2sM3klk.html",
      "f": "Olé",
      "alta": false
     }
@@ -231,22 +231,22 @@
  ],
  "destaques": [
   {
-   "t": "Atlético-MG busca protagonismo brasileiro que sobra na Libertadores e falta na Sul-Americana",
-   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/16/atletico-mg-busca-protagonismo-brasileiro-que-sobra-na-libertadores-e-falta-na-sul-americana.ghtml",
-   "f": "ge",
+   "t": "No radar do Santos, Emerson Palmieri é submetido a cirurgia no joelho na França",
+   "u": "https://www.gazetaesportiva.com/times/santos/emerson-palmieri-cirurgia-joelho-santos-marseille/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Zidane heaps praise on Real Madrid superstar after France victory: ‘He deserved two or three goals’",
-   "u": "https://sports.yahoo.com/articles/zidane-heaps-praise-real-madrid-074300076.html",
-   "f": "Yahoo Sports",
-   "alta": false,
+   "t": "College basketball rankings: Michigan State jumps in AP Top 25 after win vs. Duke; Kentucky drops out of poll",
+   "u": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-ap-top-25-poll-michigan-state-duke-kentucky-lsu/",
+   "f": "CBS Sports",
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Espanha e França lutam pela organização da 'final-four' da Liga das Nações",
-   "u": "https://www.abola.pt/noticias/espanha-e-franca-lutam-pela-organizacao-da-final-four-da-liga-das-nacoes-2026111417011837136",
+   "t": "Sporting: Alvalade esgotado para receber o Manchester United",
+   "u": "https://www.abola.pt/noticias/sporting-alvalade-esgotado-para-receber-o-manchester-united-2026111616253334752",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -259,15 +259,15 @@
    "pais": "ES"
   },
   {
-   "t": "England fend off fiery Spain fightback after Anderson’s red to top Nations League group",
-   "u": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
+   "t": "Will Joseph poised to start for England against All Blacks after five-try burst",
+   "u": "https://www.theguardian.com/sport/2026/nov/16/will-joseph-steve-borthwick-england-new-zealand-nations-championship-rugby-union",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "La lluvia de goles que cerró la fase de grupos de la Nations League: Inglaterra derrotó 3-2 a España y cortó un invicto de 44 partidos",
-   "u": "https://www.infobae.com/deportes/2026/11/16/la-lluvia-de-goles-que-cerro-la-fase-de-grupos-de-la-nations-league-inglaterra-derroto-3-2-a-espana-y-corto-un-invicto-de-44-partidos/",
+   "t": "“Han aprendido de su error”: la comparación de los medios en Inglaterra tras el triunfo ante España y la derrota frente a Argentina en el Mundial",
+   "u": "https://www.infobae.com/deportes/2026/11/16/han-aprendido-de-su-error-la-comparacion-de-los-medios-en-inglaterra-tras-el-triunfo-ante-espana-y-la-derrota-frente-a-argentina-en-el-mundial/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
