@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-16T01:07:33+00:00",
+ "atualizado": "2026-11-16T08:03:38+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Thiago Silva, do Fluminense, e Pedro Emanuel, do Vasco, jogam futevôlei em praia no Rio",
-     "u": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/15/thiago-silva-e-pedro-emanuel-jogam-futevolei-em-praia-no-rio.ghtml",
+     "t": "Atlético-MG busca protagonismo brasileiro que sobra na Libertadores e falta na Sul-Americana",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/16/atletico-mg-busca-protagonismo-brasileiro-que-sobra-na-libertadores-e-falta-na-sul-americana.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Flamengo impõe virada ao Boca Juniors e garante classificação ao Final Four da Liga Sul-Americana",
-     "u": "https://ge.globo.com/basquete/noticia/2026/11/15/flamengo-impoe-virada-ao-boca-juniors-e-garante-classificacao-para-o-final-four-da-liga-sul-americana.ghtml",
+     "t": "Com menos de 1% de chance de Libertadores, São Paulo encara semana decisiva no Brasileirão",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/com-menos-de-1-de-chance-de-libertadores-sao-paulo-encara-semana-decisiva-no-brasileirao/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Neymar deve repetir \"maratona\" de 2025 pelo Santos, mas sem lesão e em busca da Libertadores",
+     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/16/neymar-deve-repetir-maratona-de-2025-pelo-santos-mas-sem-lesao-e-em-busca-da-libertadores.ghtml",
      "f": "ge",
      "alta": false
     },
     {
      "t": "Internacional bate Flamengo e conquista título inédito da Copa do Brasil feminina",
      "u": "https://www.gazetaesportiva.com/campeonatos/copa-do-brasil/internacional-bate-flamengo-e-conquista-titulo-inedito-da-copa-do-brasil-feminina/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Corinthians segue preparação para enfrentar o Botafogo",
-     "u": "https://www.gazetaesportiva.com/todas-as-noticias/corinthians-segue-preparacao-para-enfrentar-o-botafogo/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
+     "t": "Zidane heaps praise on Real Madrid superstar after France victory: ‘He deserved two or three goals’",
+     "u": "https://sports.yahoo.com/articles/zidane-heaps-praise-real-madrid-074300076.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Revealed: Why Zinedine Zidane left 'frustrated' as France boss slams Nations League display despite Turkey victory",
+     "u": "https://sports.yahoo.com/articles/revealed-why-zinedine-zidane-left-074242626.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Bengals-Steelers, Sunday Night Football",
      "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-bengals-steelers-sunday-night-football/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Steelers-Bengals, NFL Sunday Night Football picks",
-     "u": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-steelers-bengals-nfl-sunday-night-football-picks/",
+     "t": "Bengals vs. Steelers odds: Best Sunday Night Football first touchdown scorer picks, NFL predictions",
+     "u": "https://www.cbssports.com/prediction/news/bengals-vs-steelers-odds-sunday-night-football-first-touchdown-scorer-picks-nfl-predictions/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "FAMU football's Xavier Smith scores first career NFL TD with Rams",
-     "u": "https://sports.yahoo.com/articles/famu-footballs-xavier-smith-scores-005823880.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Women's handball team celebrate last-minute Champions League win",
-     "u": "https://sports.yahoo.com/articles/womens-handball-team-celebrate-last-010000831.html",
-     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Benfica e Sporting seguem em frente na Taça de Portugal",
-     "u": "https://www.abola.pt/noticias/benfica-e-sporting-seguem-em-frente-na-taca-de-portugal-2026111517291522899",
+     "t": "Espanha e França lutam pela organização da 'final-four' da Liga das Nações",
+     "u": "https://www.abola.pt/noticias/espanha-e-franca-lutam-pela-organizacao-da-final-four-da-liga-das-nacoes-2026111417011837136",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "De la Fuente orgulhoso apesar da derrota com Inglaterra: «Só tiro coisas positivas»",
-     "u": "https://www.record.pt/internacional/competicoes-de-selecoes/liga-das-nacoes/detalhe/de-la-fuente-orgulhoso-apesar-da-derrota-com-inglaterra-so-tiro-coisas-positivas",
+     "t": "«Milagre no Mississippi» após colisão de petroleiro com navio de cruzeiro",
+     "u": "https://www.abola.pt/noticias/milagre-no-mississippi-apos-colisao-de-petroleiro-com-navio-de-cruzeiro-2026111408491956713",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Tempo útil de jogo no futebol português: demora na análise VAR tem margem para ganhos",
+     "u": "https://www.record.pt/futebol/detalhe/tempo-util-de-jogo-no-futebol-portugues-demora-na-analise-var-tem-margem-para-ganhos",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Liga das Nações: drama final salva Croácia da descida de divisão",
-     "u": "https://www.abola.pt/noticias/liga-das-nacoes-drama-final-salva-croacia-da-descida-de-divisao-2026111521434906092",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Selecionador Marcello D'Orey aponta tricampeões europeus ao Mundial'2027",
-     "u": "https://www.record.pt/modalidades/raguebi/detalhe/selecionador-marcello-d-orey-aponta-tricampeoes-europeus-ao-mundial-2027",
+     "t": "Alberto Costa é o segundo portista a chegar a internacional A na era Farioli",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/alberto-costa-e-o-segundo-portista-a-chegar-a-internacional-a-na-era-farioli",
      "f": "Record",
      "alta": false
     }
@@ -113,8 +113,8 @@
    },
    "noticias": [
     {
-     "t": "Horario y dónde ver por TV el España - Inglaterra de la UEFA Nations League",
-     "u": "https://www.mundodeportivo.com/horarios/futbol/20261114/1004251003/horario-canal-ver-tv-espana-inglaterra-uefa-nations-league.html",
+     "t": "Ya está firmado: Limak culminará el Spotify Camp Nou",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261116/1004251316/esta-firmado-limak-culminara-spotify-camp-nou.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -153,8 +153,8 @@
      "alta": false
     },
     {
-     "t": "England handed boost for All Blacks clash with Furbank leading return of cavalry",
-     "u": "https://www.theguardian.com/sport/2026/nov/15/england-new-zealand-rugby-union-nations-championship-george-furbank-chessum-atkinson",
+     "t": "England leave Jones sucking lemons but demolition of Japan shows widening gulf | Gerard Meagher",
+     "u": "https://www.theguardian.com/sport/2026/nov/14/england-leave-jones-sucking-lemons-but-demolition-of-japan-shows-widening-gulf",
      "f": "The Guardian",
      "alta": false
     },
@@ -187,20 +187,20 @@
      "alta": false
     },
     {
-     "t": "El mapa de la UEFA Nations League: clasificados a cuartos, eliminados y los que lucharán por la permanencia",
-     "u": "https://www.ole.com.ar/futbol-internacional/uefa-nations-league-mapa-panorama-resumen-clasificados-cuartos-final-eliminados-descenso-ligas_0_dQWNBixTZ1.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "\"Me estaban dando una paliza\": una ex figura de la Fórmula 1 habló de la \"humillación\" que lo llevó a retirarse",
-     "u": "https://www.infobae.com/deportes/2026/11/16/me-estaban-dando-una-paliza-una-ex-figura-de-la-formula-1-hablo-de-la-humillacion-que-lo-llevo-a-retirarse/",
+     "t": "Exclusivo: cómo es el plan de financiación para que Argentina recupere la Fórmula 1",
+     "u": "https://www.infobae.com/deportes/2026/11/16/exclusivo-como-es-el-plan-de-financiacion-para-que-argentina-recupere-la-formula-1/",
      "f": "Infobae",
      "alta": false
     },
     {
      "t": "Tuchel, tras el sufrido triunfo de Inglaterra: \"30 minutos contra España con diez parecen tres horas\"",
      "u": "https://www.ole.com.ar/futbol-internacional/tuchel-hablo-sufrido-triunfo-espana-inglaterra_0_fZrZqJHO9q.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Murió un joven de 18 años tras sufrir un golpe en la cabeza en un partido de Inferiores del fútbol argentino",
+     "u": "https://www.ole.com.ar/informacion-general/murio-joven-18-anos-abel-nunez-fc-ezeiza-nueva-estrella-futsal_0_ugQustHCeG.html",
      "f": "Olé",
      "alta": false
     }
@@ -227,55 +227,33 @@
      "alta": false
     }
    ]
-  },
-  {
-   "pais": "FR",
-   "nome": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
-   },
-   "noticias": [
-    {
-     "t": "Douzième victoire consécutive pour les San Antonio Spurs, Victor Wembanyama tenu à 26 points et malmené par Mo Bamba",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Douzieme-victoire-consecutive-pour-les-san-antonio-spurs-victor-wembanyama-tenu-a-26-points-et-malmene-par-mo-bamba/1743943#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": true
-    },
-    {
-     "t": "Portés par Luka Doncic, les Los Angeles Lakers dominent les Phoenix Suns, les Los Angeles Clippers s'en sortent face aux Charlotte Hornets",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Portes-par-luka-doncic-les-los-angeles-lakers-dominent-les-phoenix-suns-les-los-angeles-clippers-s-en-sortent-face-aux-charlotte-hornets/1743942#at_medium=RSS_feeds",
-     "f": "L'Équipe",
-     "alta": false
-    }
-   ]
   }
  ],
  "destaques": [
   {
-   "t": "Thiago Silva, do Fluminense, e Pedro Emanuel, do Vasco, jogam futevôlei em praia no Rio",
-   "u": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/15/thiago-silva-e-pedro-emanuel-jogam-futevolei-em-praia-no-rio.ghtml",
+   "t": "Atlético-MG busca protagonismo brasileiro que sobra na Libertadores e falta na Sul-Americana",
+   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/16/atletico-mg-busca-protagonismo-brasileiro-que-sobra-na-libertadores-e-falta-na-sul-americana.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Bengals-Steelers, Sunday Night Football",
-   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-bengals-steelers-sunday-night-football/",
-   "f": "CBS Sports",
+   "t": "Zidane heaps praise on Real Madrid superstar after France victory: ‘He deserved two or three goals’",
+   "u": "https://sports.yahoo.com/articles/zidane-heaps-praise-real-madrid-074300076.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Benfica e Sporting seguem em frente na Taça de Portugal",
-   "u": "https://www.abola.pt/noticias/benfica-e-sporting-seguem-em-frente-na-taca-de-portugal-2026111517291522899",
+   "t": "Espanha e França lutam pela organização da 'final-four' da Liga das Nações",
+   "u": "https://www.abola.pt/noticias/espanha-e-franca-lutam-pela-organizacao-da-final-four-da-liga-das-nacoes-2026111417011837136",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Horario y dónde ver por TV el España - Inglaterra de la UEFA Nations League",
-   "u": "https://www.mundodeportivo.com/horarios/futbol/20261114/1004251003/horario-canal-ver-tv-espana-inglaterra-uefa-nations-league.html",
+   "t": "Ya está firmado: Limak culminará el Spotify Camp Nou",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261116/1004251316/esta-firmado-limak-culminara-spotify-camp-nou.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
@@ -300,13 +278,6 @@
    "f": "La Gazzetta dello Sport",
    "alta": false,
    "pais": "IT"
-  },
-  {
-   "t": "Douzième victoire consécutive pour les San Antonio Spurs, Victor Wembanyama tenu à 26 points et malmené par Mo Bamba",
-   "u": "https://www.lequipe.fr/Basket/Actualites/Douzieme-victoire-consecutive-pour-les-san-antonio-spurs-victor-wembanyama-tenu-a-26-points-et-malmene-par-mo-bamba/1743943#at_medium=RSS_feeds",
-   "f": "L'Équipe",
-   "alta": true,
-   "pais": "FR"
   }
  ],
  "jogos": []
