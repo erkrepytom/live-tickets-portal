@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17T02:30:35+00:00",
+ "atualizado": "2026-11-17T12:04:15+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
+     "t": "Gui Santos se torna o sétimo brasileiro a marcar mais de 1000 pontos na NBA; veja lista",
+     "u": "https://ge.globo.com/basquete/nba/noticia/2026/11/17/gui-santos-se-torna-o-setimo-brasileiro-a-marcar-mais-de-1000-pontos-na-nba-veja-lista.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "A batalha do bebedouro: como foi o último encontro entre Atlético-MG e Boca Juniors",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/17/a-batalha-do-bebedouro-como-foi-o-ultimo-encontro-entre-atletico-mg-e-boca-juniors.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
      "t": "Atlético-MG x São Paulo: veja onde assistir ao jogo da semifinal da Copa do Brasil sub-20",
      "u": "https://www.gazetaesportiva.com/times/sao-paulo/atletico-mg-x-sao-paulo-veja-onde-assistir-ao-jogo-da-semifinal-da-copa-do-brasil-sub-20/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Corinthians x Palmeiras: FPF define detalhes da final do Campeonato Paulista sub-20",
-     "u": "https://www.gazetaesportiva.com/campeonatos/paulista/corinthians-x-palmeiras-fpf-define-detalhes-da-final-do-campeonato-paulista-sub-20/",
+     "t": "Cruzeiro x Palmeiras: saiba onde assistir ao jogo da 35ª rodada do Brasileirão",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/cruzeiro-x-palmeiras-saiba-onde-assistir-ao-jogo-da-35a-rodada-do-brasileirao/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Nacional-AM anuncia ex-Manauara Tibúrcio e bicampeão da Série C Danrlei Santos",
-     "u": "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2026/11/16/nacional-am-anuncia-ex-manauara-tiburcio-e-bicampeao-da-serie-c-danrlei-santos.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Coritiba x Santos - Campeonato Brasileiro 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/18-11-2026/coritiba-santos.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,9 +45,9 @@
    },
    "noticias": [
     {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Monday Night Football, Ravens-Chargers",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-monday-night-football-ravens-chargers/",
-     "f": "CBS Sports",
+     "t": "Liverpool have set their sights on move for La Liga midfielder",
+     "u": "https://sports.yahoo.com/articles/liverpool-set-sights-move-la-115000556.html",
+     "f": "Yahoo Sports",
      "alta": false
     },
     {
@@ -57,14 +57,14 @@
      "alta": false
     },
     {
-     "t": "49ers training in Colorado ahead of Mexico City showdown vs. Vikings",
-     "u": "https://sports.yahoo.com/nfl/article/49ers-training-in-colorado-ahead-of-mexico-city-showdown-vs-vikings-022048642.html",
-     "f": "Yahoo Sports",
+     "t": "Celtics vs. Magic prediction, odds, time: 2026 NBA picks for Monday, Nov. 16 from proven model",
+     "u": "https://www.cbssports.com/betting/news/celtics-magic-prediction-odds-game-time-2026-nba-picks-monday-november-16/",
+     "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Kentucky Basketball blows out Grambling State after slow start: 4 things to know and postgame cheers",
-     "u": "https://sports.yahoo.com/articles/kentucky-basketball-blows-grambling-state-021451622.html",
+     "t": "Report: How Ronald Araujo, Barcelona and Liverpool feel about prospective permanent transfer",
+     "u": "https://sports.yahoo.com/articles/report-ronald-araujo-barcelona-liverpool-114800070.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Sem Curry e com Warriors e Mavs na lama, ESPN prefere Nuggets e Celtics",
-     "u": "https://www.abola.pt/noticias/sem-curry-e-com-warriors-e-mavs-na-lama-espn-prefere-nuggets-e-celtics-2026111618130550917",
+     "t": "Nuno Santos a viver pesadelo sem fim à vista: de indiscutível a invisível",
+     "u": "https://www.abola.pt/noticias/nuno-santos-a-viver-pesadelo-sem-fim-a-vista-de-indiscutivel-a-invisivel-2026111622122025715",
      "f": "A Bola",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Santos condenado a pagar milhões de euros a ex-FC Porto",
-     "u": "https://www.abola.pt/noticias/santos-condenado-a-pagar-milhoes-de-euros-a-ex-fc-porto-2026111622202803070",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Nuno Dias e o triunfo do Sporting na Taça Intercontinental: «Fizemos um bom jogo contra uma equipa difícil»",
-     "u": "https://www.record.pt/futebol/futsal/detalhe/nuno-dias-e-o-triunfo-do-sporting-na-taca-intercontinental-fizemos-um-bom-jogo-contra-uma-equipa-dificil",
+     "t": "Duelo em Roma por Chiesa que soma apenas 1.194 minutos em quase... 27 meses no Liverpool",
+     "u": "https://www.record.pt/internacional/paises/italia/detalhe/duelo-em-roma-por-chiesa-que-soma-apenas-1-194-minutos-em-quase-27-meses-no-liverpool",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Medvedev regressou sereno e com uma vitória às ATP Finals",
-     "u": "https://www.record.pt/modalidades/tenis/detalhe/medveded-regressou-sereno-e-com-uma-vitoria-as-atp-finals",
+     "t": "Loucura do GTA VI chega à NBA: Miami Heat mudam camisola e pavilhão e até já houve alertas para quebra de rendimento",
+     "u": "https://www.record.pt/record-gaming/detalhe/loucura-do-gta-vi-chega-a-nba-miami-heat-mudam-camisola-e-pavilhao-e-ate-ja-houve-alertas-para-quebra-de-rendimento",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Troca de treinadores portugueses em França está mais perto e já se discutem os milhões",
+     "u": "https://www.abola.pt/noticias/troca-de-treinadores-portugueses-em-franca-esta-mais-perto-e-ja-se-discutem-os-milhoes-2026111711012860009",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,26 +113,26 @@
    },
    "noticias": [
     {
-     "t": "Ofrecen al Barça un objetivo de verano del Real Madrid",
-     "u": "https://www.mundodeportivo.com/baloncesto/20261116/1004251860/ofrecen-barca-objetivo-verano-real-madrid.html",
+     "t": "Se calienta el futuro de Balde: Juventus y PSG, tras sus pasos",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261117/1004251949/colocan-psg-pasos-balde.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Ya está firmado: Limak culminará el Spotify Camp Nou",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261116/1004251316/esta-firmado-limak-culminara-spotify-camp-nou.html",
+     "t": "El Barça maneja bien los regresos a la Liga tras las selecciones",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261117/1004251768/barca-maneja-regresos-liga-selecciones.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Incógnita Mbappé: no se entrena con Francia",
-     "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
+     "t": "La nueva perla de Inglaterra, bajo la tutela de Bellingham y Kane",
+     "u": "https://www.marca.com/futbol/nations-league/2026/11/10/nueva-perla-inglaterra-tutela-bellingham-kan-video.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "El Barça de Flick sabe sufrir",
-     "u": "https://www.marca.com/futbol/barcelona/2026/11/11/barca-flick-sufrir.html",
+     "t": "El Langui cierra una temporada inolvidable con una plata en Sao Paulo",
+     "u": "https://www.marca.com/paralimpicos/2026/11/10/langui-cierra-temporada-inolvidable-primer-podio-copa-mundo.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "All Blacks admit they ‘let country down’ against Wales and gear up for England",
-     "u": "https://www.theguardian.com/sport/2026/nov/16/dave-rennie-new-zealand-all-blacks-england-twickenham-nations-championship",
+     "t": "The Breakdown | Rattled All Blacks face rare twin threat as England eye back-to-back scalps",
+     "u": "https://www.theguardian.com/sport/2026/nov/17/all-blacks-new-zealand-england-twickenham-wales-rugby-union",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Five-try Joseph set to start for England against All Blacks",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx20pnd853po?at_medium=RSS&at_campaign=rss",
+     "t": "Why Hamilton is key to Bearman's future - F1 Q&A",
+     "u": "https://www.bbc.co.uk/sport/formula1/articles/c9vg2l8240emo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Moeen Ali warns England ‘cannot win the World Cup’ by sidelining Adil Rashid",
-     "u": "https://www.theguardian.com/sport/2026/nov/16/moeen-ali-warns-england-world-cup-sidelining-adil-rashid",
+     "t": "Carlos Alcaraz blazes past Frances Tiafoe in ATP Finals tennis group stage – as it happened",
+     "u": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "'Now we need to go further' - Hamilton outlines next targets to improve F1 diversity",
-     "u": "https://www.skysports.com/f1/news/12040/13612897/lewis-hamilton-says-work-improving-diversity-in-f1-nowhere-near-finished-as-mission-44-outlines-recommendations-for-further-change",
-     "f": "Sky Sports",
+     "t": "London City's Goodwin gets first England call-up",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,20 +181,26 @@
    },
    "noticias": [
     {
+     "t": "Palmeiras pone el avión: la movida para tener al Flaco López y Giay contra Cruzeiro",
+     "u": "https://www.ole.com.ar/futbol-internacional/america/palmeiras-brasileirao-vuelos-charter-flacolopez-agustingiay-cruzeiro_0_QWS8Gu09Aq.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Alemania apabulló 5-0 a Países Bajos por la UEFA Nations League: todos los clasificados a los cuartos de final",
      "u": "https://www.infobae.com/deportes/2026/11/16/alemania-apabullo-5-0-a-paises-bajos-por-la-uefa-nations-league-todos-los-clasificados-a-los-cuartos-de-final/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "La polémica actitud de una estrella de la NBA: le arrebató la pizarra táctica a una asistente para dar indicaciones",
-     "u": "https://www.infobae.com/deportes/2026/11/16/la-polemica-actitud-de-una-estrella-de-la-nba-le-arrebato-la-pizarra-tactica-a-una-asistente-para-dar-indicaciones/",
+     "t": "El plan de la Fiorentina para retener a Franco Mastantuono por los dos grandes de Italia que lo tienen en la mira",
+     "u": "https://www.infobae.com/deportes/2026/11/17/el-plan-de-la-fiorentina-para-retener-a-franco-mastantuono-por-los-dos-grandes-de-italia-que-lo-tienen-en-la-mira/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Por primera vez en la historia, una árbitra va a dirigir a Los Pumas",
-     "u": "https://www.ole.com.ar/rugby/primera-vez-historia-arbitra-mujer-pumas-francia-hollie-davison_0_TWn1wm2uBd.html",
+     "t": "Romario volvió a cargar contra Ancelotti en Brasil: \"No aportaste nada nuevo a nuestro fútbol\"",
+     "u": "https://www.ole.com.ar/futbol-internacional/america/romario-brasil-respondio-carlo-ancelotti-singapur-amistoso-renuncia_0_hsRqK52BgX.html",
      "f": "Olé",
      "alta": false
     }
@@ -221,48 +227,70 @@
      "alta": false
     }
    ]
+  },
+  {
+   "pais": "FR",
+   "nome": {
+    "pt": "França",
+    "en": "France",
+    "es": "Francia"
+   },
+   "noticias": [
+    {
+     "t": "« Il y a eu 16 plaquages à genoux de la France contre nous. Et pas un seul n'a été sanctionné » : Rassie Erasmus critique l'arbitrage après la défaite",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/-il-y-a-eu-16-plaquages-a-genoux-de-la-france-contre-nous-et-pas-un-seul-n-a-ete-sanctionne-rassie-erasmus-l-entraineur-de-l-afrique-du-sud-critique-l-arbitrage-apres-la-defaite-des-springboks-contre-les-bleus/1744189#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": true
+    },
+    {
+     "t": "Retour en France pour Wissam Ben Yedder : l'ex-attaquant des Bleus s'est engagé avec le Paris 13 Atletico",
+     "u": "https://www.lequipe.fr/Football/Actualites/Retour-en-france-pour-wissam-ben-yedder-l-ex-attaquant-des-bleus-s-est-engage-avec-le-paris-13-atletico/1744200#at_medium=RSS_feeds",
+     "f": "L'Équipe",
+     "alta": false
+    }
+   ]
   }
  ],
  "destaques": [
   {
-   "t": "Atlético-MG x São Paulo: veja onde assistir ao jogo da semifinal da Copa do Brasil sub-20",
-   "u": "https://www.gazetaesportiva.com/times/sao-paulo/atletico-mg-x-sao-paulo-veja-onde-assistir-ao-jogo-da-semifinal-da-copa-do-brasil-sub-20/",
-   "f": "Gazeta Esportiva",
+   "t": "Gui Santos se torna o sétimo brasileiro a marcar mais de 1000 pontos na NBA; veja lista",
+   "u": "https://ge.globo.com/basquete/nba/noticia/2026/11/17/gui-santos-se-torna-o-setimo-brasileiro-a-marcar-mais-de-1000-pontos-na-nba-veja-lista.ghtml",
+   "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Monday Night Football, Ravens-Chargers",
-   "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-monday-night-football-ravens-chargers/",
-   "f": "CBS Sports",
+   "t": "Liverpool have set their sights on move for La Liga midfielder",
+   "u": "https://sports.yahoo.com/articles/liverpool-set-sights-move-la-115000556.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Sem Curry e com Warriors e Mavs na lama, ESPN prefere Nuggets e Celtics",
-   "u": "https://www.abola.pt/noticias/sem-curry-e-com-warriors-e-mavs-na-lama-espn-prefere-nuggets-e-celtics-2026111618130550917",
+   "t": "Nuno Santos a viver pesadelo sem fim à vista: de indiscutível a invisível",
+   "u": "https://www.abola.pt/noticias/nuno-santos-a-viver-pesadelo-sem-fim-a-vista-de-indiscutivel-a-invisivel-2026111622122025715",
    "f": "A Bola",
-   "alta": false,
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "Ofrecen al Barça un objetivo de verano del Real Madrid",
-   "u": "https://www.mundodeportivo.com/baloncesto/20261116/1004251860/ofrecen-barca-objetivo-verano-real-madrid.html",
+   "t": "Se calienta el futuro de Balde: Juventus y PSG, tras sus pasos",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261117/1004251949/colocan-psg-pasos-balde.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "All Blacks admit they ‘let country down’ against Wales and gear up for England",
-   "u": "https://www.theguardian.com/sport/2026/nov/16/dave-rennie-new-zealand-all-blacks-england-twickenham-nations-championship",
+   "t": "The Breakdown | Rattled All Blacks face rare twin threat as England eye back-to-back scalps",
+   "u": "https://www.theguardian.com/sport/2026/nov/17/all-blacks-new-zealand-england-twickenham-wales-rugby-union",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Alemania apabulló 5-0 a Países Bajos por la UEFA Nations League: todos los clasificados a los cuartos de final",
-   "u": "https://www.infobae.com/deportes/2026/11/16/alemania-apabullo-5-0-a-paises-bajos-por-la-uefa-nations-league-todos-los-clasificados-a-los-cuartos-de-final/",
-   "f": "Infobae",
+   "t": "Palmeiras pone el avión: la movida para tener al Flaco López y Giay contra Cruzeiro",
+   "u": "https://www.ole.com.ar/futbol-internacional/america/palmeiras-brasileirao-vuelos-charter-flacolopez-agustingiay-cruzeiro_0_QWS8Gu09Aq.html",
+   "f": "Olé",
    "alta": false,
    "pais": "AR"
   },
@@ -272,6 +300,13 @@
    "f": "La Gazzetta dello Sport",
    "alta": false,
    "pais": "IT"
+  },
+  {
+   "t": "« Il y a eu 16 plaquages à genoux de la France contre nous. Et pas un seul n'a été sanctionné » : Rassie Erasmus critique l'arbitrage après la défaite",
+   "u": "https://www.lequipe.fr/Rugby/Actualites/-il-y-a-eu-16-plaquages-a-genoux-de-la-france-contre-nous-et-pas-un-seul-n-a-ete-sanctionne-rassie-erasmus-l-entraineur-de-l-afrique-du-sud-critique-l-arbitrage-apres-la-defaite-des-springboks-contre-les-bleus/1744189#at_medium=RSS_feeds",
+   "f": "L'Équipe",
+   "alta": true,
+   "pais": "FR"
   }
  ],
  "jogos": []
