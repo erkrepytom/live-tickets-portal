@@ -1,34 +1,10 @@
 {
- "atualizado": "2026-11-17",
+ "atualizado": "2026-11-18",
  "afiliado": "",
  "idiomas": {
   "pt": {
    "catalogo_parceiro": "",
    "eventos": [
-    {
-     "nome": "México x Jamaica",
-     "data": "2026-11-17",
-     "data_texto": "terça, 17 de novembro de 2026",
-     "local": "Estadio BBVA",
-     "cidade": "Monterrey",
-     "pais": "México",
-     "competicao": "CONCACAF Nations League",
-     "times": [
-      "México",
-      "Jamaica"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/",
-     "como_chegar": [
-      "O estádio fica em Guadalupe, na região metropolitana de Monterrey. Táxi ou aplicativo é o caminho mais simples.",
-      "Na saída a procura por carro é grande: combine antes o ponto de encontro."
-     ],
-     "dicas": [
-      "Setores laterais dão a melhor visão do campo inteiro.",
-      "Setores altos costumam ter o menor preço.",
-      "Em grupo, compre os lugares no mesmo pedido para sentarem juntos."
-     ]
-    },
     {
      "nome": "Irlanda x África do Sul",
      "data": "2026-11-21",
@@ -456,30 +432,6 @@
    "catalogo_parceiro": "",
    "eventos": [
     {
-     "nome": "Mexico vs Jamaica",
-     "data": "2026-11-17",
-     "data_texto": "Tuesday, November 17, 2026",
-     "local": "Estadio BBVA",
-     "cidade": "Monterrey",
-     "pais": "Mexico",
-     "competicao": "CONCACAF Nations League",
-     "times": [
-      "Mexico",
-      "Jamaica"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/",
-     "como_chegar": [
-      "The stadium is in Guadalupe, in the Monterrey metro area. A taxi or ride-hailing app is the simplest way in.",
-      "Demand for rides is high after the match: agree a pickup point in advance."
-     ],
-     "dicas": [
-      "Side sections give the best view of the whole pitch.",
-      "Upper tiers are usually the cheapest.",
-      "For a group, buy all seats in one order so you sit together."
-     ]
-    },
-    {
      "nome": "Ireland vs South Africa",
      "data": "2026-11-21",
      "data_texto": "Saturday, November 21, 2026",
@@ -905,30 +857,6 @@
   "es": {
    "catalogo_parceiro": "",
    "eventos": [
-    {
-     "nome": "México vs Jamaica",
-     "data": "2026-11-17",
-     "data_texto": "martes, 17 de noviembre de 2026",
-     "local": "Estadio BBVA",
-     "cidade": "Monterrey",
-     "pais": "México",
-     "competicao": "CONCACAF Nations League",
-     "times": [
-      "México",
-      "Jamaica"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/",
-     "como_chegar": [
-      "El estadio está en Guadalupe, en la zona metropolitana de Monterrey. Taxi o aplicación es lo más sencillo.",
-      "A la salida hay mucha demanda de autos: acuerda antes el punto de encuentro."
-     ],
-     "dicas": [
-      "Los laterales dan la mejor vista de todo el campo.",
-      "Los sectores altos suelen ser los más baratos.",
-      "En grupo, compra todos los asientos en el mismo pedido para sentarse juntos."
-     ]
-    },
     {
      "nome": "Irlanda vs Sudáfrica",
      "data": "2026-11-21",

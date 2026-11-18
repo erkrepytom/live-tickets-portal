@@ -4,14 +4,6 @@ Full partner catalogue:
 
 ## Events with a page
 
-### Mexico vs Jamaica
-- Date: Tuesday, November 17, 2026
-- Venue: Estadio BBVA, Monterrey, Mexico (CONCACAF Nations League)
-- Tickets: 
-- Guide on the site: https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/
-- The stadium is in Guadalupe, in the Monterrey metro area. A taxi or ride-hailing app is the simplest way in.
-- Demand for rides is high after the match: agree a pickup point in advance.
-
 ### Ireland vs South Africa
 - Date: Saturday, November 21, 2026
 - Venue: Aviva Stadium, Dublin, Ireland (Nations Championship)

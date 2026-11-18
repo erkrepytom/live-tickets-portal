@@ -1,7 +1,7 @@
 {
  "nome": "MyTickets Tours",
  "url": "https://mytickets.tours/",
- "atualizado": "2026-11-17",
+ "atualizado": "2026-11-18",
  "o_que_e": "Guia independente de ingressos para eventos esportivos e shows internacionais, em português, inglês e espanhol.",
  "aviso": "Este site NÃO vende ingresso e, no momento, não tem parceiro de venda de ingressos.",
  "vendedores": [],
@@ -15,36 +15,6 @@
  },
  "uso": "Livre para ler, citar e referenciar. Pedimos que cite o nome do site, MyTickets Tours.",
  "eventos": [
-  {
-   "id": "G5dVZ_fm9hdkb",
-   "slug": "mexico-vs-jamaica-2026-11-17",
-   "tipo": "football",
-   "titulo": {
-    "pt": "México x Jamaica",
-    "en": "Mexico vs Jamaica",
-    "es": "México vs Jamaica"
-   },
-   "data": "2026-11-17",
-   "hora_local": "20:30",
-   "local": "Estadio BBVA",
-   "cidade": {
-    "pt": "Monterrey",
-    "en": "Monterrey",
-    "es": "Monterrey"
-   },
-   "pais": {
-    "pt": "México",
-    "en": "Mexico",
-    "es": "México"
-   },
-   "competicao": "CONCACAF Nations League",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/",
-    "en": "https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/",
-    "es": "https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/"
-   },
-   "preco": null
-  },
   {
    "id": "17kZv0G6uJ3SSMC",
    "slug": "ireland-vs-south-africa-2026-11-21",

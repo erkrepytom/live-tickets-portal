@@ -4,14 +4,6 @@ Catálogo completo do parceiro:
 
 ## Eventos com página
 
-### México x Jamaica
-- Data: terça, 17 de novembro de 2026
-- Local: Estadio BBVA, Monterrey, México (CONCACAF Nations League)
-- Ingressos: 
-- Guia no site: https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/
-- O estádio fica em Guadalupe, na região metropolitana de Monterrey. Táxi ou aplicativo é o caminho mais simples.
-- Na saída a procura por carro é grande: combine antes o ponto de encontro.
-
 ### Irlanda x África do Sul
 - Data: sábado, 21 de novembro de 2026
 - Local: Aviva Stadium, Dublin, Irlanda (Nations Championship)

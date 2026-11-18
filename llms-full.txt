@@ -13,16 +13,6 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 
 ## Events
 
-### Mexico vs Jamaica
-
-- Date: Tuesday, November 17, 2026, 20:30 local time
-- Venue: Estadio BBVA, Av. Pablo Livas 2011, Monterrey, Mexico
-- Competition: CONCACAF Nations League
-- Teams: Mexico vs Jamaica
-- About: Mexico host Jamaica at Estadio BBVA in Guadalupe, in the Monterrey area, in the CONCACAF Nations League.
-- Getting there: The stadium is in Guadalupe, in the Monterrey metro area. A taxi or ride-hailing app is the simplest way in. Demand for rides is high after the match: agree a pickup point in advance.
-- Guide pages: pt-BR https://mytickets.tours/eventos/mexico-vs-jamaica-2026-11-17/, en https://mytickets.tours/en/events/mexico-vs-jamaica-2026-11-17/, es https://mytickets.tours/es/eventos/mexico-vs-jamaica-2026-11-17/
-
 ### Ireland vs South Africa
 
 - Date: Saturday, November 21, 2026, 16:40 local time
@@ -140,7 +130,7 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 
 - NBA and basketball tickets 2027: https://mytickets.tours/en/basketball/ (3 events)
 - International concerts tickets 2027: https://mytickets.tours/en/concerts/ (4 events)
-- Football tickets 2026/2027: https://mytickets.tours/en/football/ (3 events)
+- Football tickets 2026/2027: https://mytickets.tours/en/football/ (2 events)
 - NBA tickets 2027: https://mytickets.tours/en/competitions/nba/ (3 events)
 - UEFA Champions League tickets 2026/2027: https://mytickets.tours/en/competitions/uefa-champions-league/ (2 events)
 - Tickets in São Paulo: https://mytickets.tours/en/cities/sao-paulo/ (2 events)
@@ -153,4 +143,4 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Affiliate disclosure and legal notice | MyTickets Tours: https://mytickets.tours/en/affiliate-disclosure/
 
 Contact: email@mytickets.tours. Editor: Everton Bras.
-Updated: 2026-11-17
+Updated: 2026-11-18
