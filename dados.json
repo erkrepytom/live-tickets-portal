@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18T02:57:39+00:00",
+ "atualizado": "2026-11-18T11:55:32+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -17,21 +17,21 @@
      "alta": false
     },
     {
-     "t": "Do que Grêmio e Inter precisam para escapar do Z-4 na 35ª rodada? Veja e simule",
-     "u": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/noticia/2026/11/17/do-que-gremio-e-inter-precisam-para-escapar-do-z-4-na-35a-rodada-veja-e-simule.ghtml",
+     "t": "Florianópolis recebe ATP Challenger 75 e WTT W75 de tênis",
+     "u": "https://ge.globo.com/sc/tenis/noticia/2026/11/18/florianopolis-recebe-atp-challenger-75-e-wtt-w75-de-tenis.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Atlético e São Paulo empatam no jogo de ida da semifinal da Copa do Brasil Sub-20",
-     "u": "https://ge.globo.com/mg/triangulo-mineiro/futebol/copa-do-brasil-sub-20/jogo/17-11-2026/atletico-mg-sao-paulo.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Rumo ao Real Madrid, promessa JJ Gabriel se despede do Manchester United",
-     "u": "https://www.gazetaesportiva.com/times/real-madrid/rumo-ao-real-madrid-promessa-jj-gabriel-se-despede-do-manchester-united/",
+     "t": "Corinthians faz último treino na Neo Química Arena antes de enfrentar o Botafogo",
+     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-faz-ultimo-treino-na-neo-quimica-arena-antes-de-enfrentar-o-botafogo/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Bobadilla deve ser nono desfalque do São Paulo contra o Fluminense",
+     "u": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/11/18/bobadilla-deve-ser-nono-desfalque-do-sao-paulo-contra-o-fluminense.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,6 +45,12 @@
    },
    "noticias": [
     {
+     "t": "Iran war dents Middle East sports model as events are canceled or postponed. F1 bucks the trend",
+     "u": "https://sports.yahoo.com/articles/iran-war-dents-middle-east-050721976.html",
+     "f": "Yahoo Sports",
+     "alta": true
+    },
+    {
      "t": "Lakers vs. Hornets prediction, odds, time: 2026 NBA picks for Tuesday, Nov. 17 from proven model",
      "u": "https://www.cbssports.com/betting/news/lakers-hornets-prediction-odds-time-2026-nba-picks-best-bets-tuesday-november-17/",
      "f": "CBS Sports",
@@ -57,14 +63,8 @@
      "alta": false
     },
     {
-     "t": "Stephen A. Smith drops harsh truth bomb on Steph Curry’s NBA future",
-     "u": "https://sports.yahoo.com/articles/stephen-smith-drops-harsh-truth-025209975.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Players Era 8 TV schedule, bracket, channels, live streams to watch 2026 college basketball tournament",
-     "u": "https://sports.yahoo.com/articles/players-era-8-tv-schedule-060002934.html",
+     "t": "Victor Wembanyama’s ridiculous self-assisted dunk steals the show despite Spurs’ 105-93 loss to Pistons",
+     "u": "https://sports.yahoo.com/articles/victor-wembanyama-ridiculous-self-assisted-053007452.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Prestianni volta a assistir e quase faz um golaço: extremo do Benfica em grande na goleada da Argentina à Costa Rica",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/prestianni-volta-a-assistir-e-quase-faz-um-golaco-extremo-do-benfica-em-grande-na-goleada-da-argentina-a-costa-rica",
+     "t": "Vasco Peso: «Nem nos meus melhores sonhos pensei ser campeão europeu e mundial no mesmo ano»",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/vasco-peso-nem-nos-meus-melhores-sonhos-pensei-ser-campeao-europeu-e-mundial-no-mesmo-ano",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Fernando Pimenta e FPF recebem Prémio Prestígio Internacional da FADU",
-     "u": "https://www.record.pt/modalidades/detalhe/fernando-pimenta-e-fpf-recebem-premio-prestigio-internacional-da-fadu",
+     "t": "NBA: jogador dos Spurs pendura-se no próprio aro por motivos nobres... mas acaba sancionado",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/nba-jogador-dos-spurs-pendura-se-no-proprio-aro-por-motivos-nobres-mas-acaba-sancionado",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Benfica: Lukebakio volta para acabar o trabalho",
-     "u": "https://www.abola.pt/noticias/benfica-lukebakio-volta-para-acabar-o-trabalho-2026111618561257338",
+     "t": "O Dragão numa palavra: eis as escolhas dos jogadores do FC Porto",
+     "u": "https://www.abola.pt/video/o-dragao-numa-palavra-eis-as-escolhas-dos-jogadores-do-fc-porto-2026111611550610694",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "«Quase me dá vontade de chorar»: Froya Dorsin rendida ao Benfica",
-     "u": "https://www.abola.pt/noticias/quase-me-da-vontade-de-chorar-froya-dorsin-rendida-ao-benfica-2026111618145435826",
+     "t": "FC Porto: Cláudio Ramos assinalou 35.º aniversário com discurso ao plantel",
+     "u": "https://www.abola.pt/video/fc-porto-claudio-ramos-assinalou-35o-aniversario-com-discurso-ao-plantel-2026111613192119952",
      "f": "A Bola",
      "alta": false
     }
@@ -125,14 +125,14 @@
      "alta": false
     },
     {
-     "t": "Incógnita Mbappé: no se entrena con Francia",
-     "u": "https://www.marca.com/futbol/real-madrid/2026/11/11/mbappe-entrena-francia.html",
+     "t": "Jon Rahm ya está más cerca del podio mundial... pero sigue lejos del PGA Tour",
+     "u": "https://www.marca.com/golf/2026/11/17/jon-rahm-cerca-podio-mundial.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "El Barça de Flick sabe sufrir",
-     "u": "https://www.marca.com/futbol/barcelona/2026/11/11/barca-flick-sufrir.html",
+     "t": "El Milan quiere llevarse a la gran joya de Atlético Nacional",
+     "u": "https://www.marca.com/co/2026/11/17/milan-quiere-llevarse-gran-joya-atletico-nacional.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,15 +147,15 @@
    },
    "noticias": [
     {
-     "t": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
-     "u": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
-     "f": "The Guardian",
-     "alta": true
+     "t": "Ireland's Prendergast cleared to play Springboks as citing dismissed",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13613471/nations-championship-irelands-sam-prendergast-cleared-to-play-south-africas-springboks-as-hip-drop-tackle-citing-dismissed",
+     "f": "Sky Sports",
+     "alta": false
     },
     {
-     "t": "FA wants to host Nations League finals in England",
-     "u": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "The Breakdown | Rattled All Blacks face rare twin threat as England eye back-to-back scalps",
+     "u": "https://www.theguardian.com/sport/2026/nov/17/all-blacks-new-zealand-england-twickenham-wales-rugby-union",
+     "f": "The Guardian",
      "alta": false
     },
     {
@@ -165,9 +165,9 @@
      "alta": false
     },
     {
-     "t": "England's Atkinson set for All Blacks dream date",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/c6rrg0l2gz5jo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "England cruise to ODI series win over Australia",
+     "u": "https://www.skysports.com/cricket/news/12040/13613516/england-cruise-to-odi-series-win-over-australia-as-ben-duckett-scores-century-and-sonny-baker-takes-four-wickets",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "La concluyente sentencia de Luis Suárez cuando le preguntaron sobre su retiro del fútbol y el de Lionel Messi",
-     "u": "https://www.infobae.com/deportes/2026/11/17/la-concluyente-sentencia-de-luis-suarez-cuando-le-preguntaron-sobre-su-retiro-del-futbol-y-el-de-lionel-messi/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
      "t": "De pensar en dejar el fútbol a brillar en Italia: la historia de Mariano Troilo, uno de los debutantes de la selección argentina",
      "u": "https://www.infobae.com/deportes/2026/11/18/de-pensar-en-dejar-el-futbol-a-brillar-en-italia-la-historia-de-mariano-troilo-uno-de-los-debutantes-de-la-seleccion-argentina/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Football Manager 27 se presentó en el Monumental: el mea culpa de los creadores tras las críticas y las novedades que trae",
-     "u": "https://www.ole.com.ar/informacion-general/football-manager-2027-presentacion-oficial-monumental-novedades_0_dSXTiGh3MJ.html",
+     "t": "La última copa internacional de Boca: un campeón del mundo en Qatar, el doloroso momento de Palermo y el gol de Riquelme que selló el título",
+     "u": "https://www.infobae.com/deportes/2026/11/18/la-ultima-copa-internacional-de-boca-un-campeon-del-mundo-en-qatar-el-doloroso-momento-de-palermo-y-el-gol-de-riquelme-que-sello-el-titulo/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Selección Argentina vs. Australia, por el Mundial Sub 17: día, hora, cómo ver por TV y convocados",
+     "u": "https://www.ole.com.ar/seleccion/seleccion-argentina-vs-australia-mundial-sub-17-qatar-dia-hora-ver-tv-online-convocados_0_zX6aGuAnKz.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Anselmino: el debut de la ex joyita de Boca que sumó pocos minutos en 2026",
-     "u": "https://www.ole.com.ar/seleccion/aaron-anselmino-debut-seleccion-argentina-costa-rica-boca_0_VuizHtXJbQ.html",
+     "t": "Partidos de fútbol de hoy, miércoles 18 de noviembre: horario y cómo ver por TV y online",
+     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-futbol-hoy-miercoles-18-noviembre-horario-ver-vivo-tv-online_0_N60eAfTjyQ.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Pressenti au Real Madrid, JJ Gabriel fait ses adieux à Manchester United",
-     "u": "https://www.lequipe.fr/Football/Actualites/Pressenti-au-real-madrid-jj-gabriel-fait-ses-adieux-a-manchester-united/1744375#at_medium=RSS_feeds",
+     "t": "France Télévisions diffusera les matches des Bleues lors de l'Euro 2026",
+     "u": "https://www.lequipe.fr/Medias/Actualites/France-televisions-diffusera-les-matches-des-bleues-lors-de-l-euro-2026/1744418#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Qui la France peut-elle affronter en quarts de finale ?",
-     "u": "https://www.lequipe.fr/Football/Actualites/L-espagne-parmi-les-adversaires-potentiels-qui-la-france-peut-elle-affronter-en-quarts-de-finale-de-la-ligue-des-nations/1743923#at_medium=RSS_feeds",
+     "t": "Arda Güler prolonge son contrat avec le Real Madrid jusqu'en 2032",
+     "u": "https://www.lequipe.fr/Football/Actualites/Arda-guler-prolonge-son-contrat-avec-le-real-madrid-jusqu-en-2032/1744417#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -260,15 +260,15 @@
    "pais": "BR"
   },
   {
-   "t": "Lakers vs. Hornets prediction, odds, time: 2026 NBA picks for Tuesday, Nov. 17 from proven model",
-   "u": "https://www.cbssports.com/betting/news/lakers-hornets-prediction-odds-time-2026-nba-picks-best-bets-tuesday-november-17/",
-   "f": "CBS Sports",
-   "alta": false,
+   "t": "Iran war dents Middle East sports model as events are canceled or postponed. F1 bucks the trend",
+   "u": "https://sports.yahoo.com/articles/iran-war-dents-middle-east-050721976.html",
+   "f": "Yahoo Sports",
+   "alta": true,
    "pais": "US"
   },
   {
-   "t": "Prestianni volta a assistir e quase faz um golaço: extremo do Benfica em grande na goleada da Argentina à Costa Rica",
-   "u": "https://www.record.pt/multimedia/videos/detalhe/prestianni-volta-a-assistir-e-quase-faz-um-golaco-extremo-do-benfica-em-grande-na-goleada-da-argentina-a-costa-rica",
+   "t": "Vasco Peso: «Nem nos meus melhores sonhos pensei ser campeão europeu e mundial no mesmo ano»",
+   "u": "https://www.record.pt/multimedia/videos/detalhe/vasco-peso-nem-nos-meus-melhores-sonhos-pensei-ser-campeao-europeu-e-mundial-no-mesmo-ano",
    "f": "Record",
    "alta": false,
    "pais": "PT"
@@ -281,17 +281,17 @@
    "pais": "ES"
   },
   {
-   "t": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
-   "u": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
-   "f": "The Guardian",
-   "alta": true,
+   "t": "Ireland's Prendergast cleared to play Springboks as citing dismissed",
+   "u": "https://www.skysports.com/rugby-union/news/12040/13613471/nations-championship-irelands-sam-prendergast-cleared-to-play-south-africas-springboks-as-hip-drop-tackle-citing-dismissed",
+   "f": "Sky Sports",
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "La concluyente sentencia de Luis Suárez cuando le preguntaron sobre su retiro del fútbol y el de Lionel Messi",
-   "u": "https://www.infobae.com/deportes/2026/11/17/la-concluyente-sentencia-de-luis-suarez-cuando-le-preguntaron-sobre-su-retiro-del-futbol-y-el-de-lionel-messi/",
+   "t": "De pensar en dejar el fútbol a brillar en Italia: la historia de Mariano Troilo, uno de los debutantes de la selección argentina",
+   "u": "https://www.infobae.com/deportes/2026/11/18/de-pensar-en-dejar-el-futbol-a-brillar-en-italia-la-historia-de-mariano-troilo-uno-de-los-debutantes-de-la-seleccion-argentina/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Pressenti au Real Madrid, JJ Gabriel fait ses adieux à Manchester United",
-   "u": "https://www.lequipe.fr/Football/Actualites/Pressenti-au-real-madrid-jj-gabriel-fait-ses-adieux-a-manchester-united/1744375#at_medium=RSS_feeds",
+   "t": "France Télévisions diffusera les matches des Bleues lors de l'Euro 2026",
+   "u": "https://www.lequipe.fr/Medias/Actualites/France-televisions-diffusera-les-matches-des-bleues-lors-de-l-euro-2026/1744418#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
