@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T02:39:33+00:00",
+ "atualizado": "2026-11-19T11:52:52+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Vasco x Internacional pelo Brasileirão: onde assistir, estatísticas, histórico e prováveis escalações",
-     "u": "https://www.gazetaesportiva.com/times/vasco/vasco-x-internacional-pelo-brasileirao-onde-assistir-estatisticas-historico-e-provaveis-escalacoes-2/",
-     "f": "Gazeta Esportiva",
-     "alta": true
-    },
-    {
-     "t": "Real Madrid e Manchester City vencem e entram na briga na Champions feminina",
-     "u": "https://www.gazetaesportiva.com/times/real-madrid/real-madrid-e-manchester-city-vencem-e-entram-na-briga-na-champions-feminina/",
+     "t": "Com gramado novo, São Paulo retorna ao Morumbis após mais de um mês",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/com-gramado-novo-sao-paulo-retorna-ao-morumbis-apos-mais-de-um-mes/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Cruzeiro garante vaga direta na Libertadores com vitória sobre o Palmeiras",
-     "u": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/18/cruzeiro-garante-vaga-direta-na-libertadores-com-vitoria-sobre-o-palmeiras.ghtml",
+     "t": "Ex-Real Madrid critica volta de Ronaldinho ao futebol: \"Farsa ridícula\"",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/19/ex-real-madrid-critica-volta-de-ronaldinho-ao-futebol-farsa-ridicula.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Cruzeiro bate o Palmeiras, garante vaga direta na Libertadores e complica rival na briga pelo título",
-     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/18-11-2026/cruzeiro-palmeiras.ghtml",
+     "t": "Com campeões da Libertadores de futebol e futsal, Panathlon Club anuncia Mérito Esportivo 2026",
+     "u": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/noticia/2026/11/19/com-campeoes-da-libertadores-de-futebol-e-futsal-panathlon-club-anuncia-merito-esportivo-2026.ghtml",
      "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Andreas vê título do Brasileiro distante e projeta Palmeiras x Flamengo: “Vamos entrar para ganhar”",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/andreas-pereira-palmeiras-projeta-duelo-flamengo/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,15 +45,15 @@
    },
    "noticias": [
     {
-     "t": "LEGO reveals Speed Champions sets for all 2026 F1 drivers and teams",
-     "u": "https://sports.yahoo.com/articles/lego-reveals-speed-champions-sets-022238655.html",
+     "t": "Beauden Barrett to win 150th cap as All Blacks ring changes for England clash",
+     "u": "https://sports.yahoo.com/articles/beauden-barrett-win-150th-cap-114534504.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "NFL DFS, Texans vs. Colts: Top daily Fantasy picks, lineup advice for 'Thursday Night Football'",
-     "u": "https://www.cbssports.com/betting/news/nfl-dfs-texans-colts-daily-fantasy-picks-fanduel-draftkings-lineup-advice-strategy-thursday-night-football/",
-     "f": "CBS Sports",
+     "t": "Delaware football can clinch bowl eligibility at New Mexico State",
+     "u": "https://sports.yahoo.com/articles/delaware-football-clinch-bowl-eligibility-113545937.html",
+     "f": "Yahoo Sports",
      "alta": false
     },
     {
@@ -63,9 +63,9 @@
      "alta": false
     },
     {
-     "t": "Kevin Doelling resigns as Tocoi Creek football coach after two seasons",
-     "u": "https://sports.yahoo.com/articles/kevin-doelling-resigns-tocoi-creek-022641579.html",
-     "f": "Yahoo Sports",
+     "t": "Fantasy Baseball Offseason Tracker: Maikel Garcia, Bryce Miller swap spots in rare lose-lose deal",
+     "u": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-offseason-tracker-maikel-garcia-bryce-miller-swap-spots-in-rare-lose-lose-deal/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Palmeiras de Abel Ferreira perde em casa do Cruzeiro e título é uma miragem",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/20261118-145038-cruzeiro-palmeiras-em-direto",
+     "t": "Rui Jorge recorda polémica da camisola rasgada no Sporting-FC Porto",
+     "u": "https://www.abola.pt/video/rui-jorge-recorda-polemica-da-camisola-rasgada-no-sporting-fc-porto-2026111612394197557",
+     "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "Vasco Rocha recorda vitória frente ao FC Porto: «Houve muita polémica»",
+     "u": "https://www.abola.pt/video/vasco-rocha-recorda-vitoria-frente-ao-fc-porto-houve-muita-polemica-2026111711332616786",
+     "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "FC Porto, Benfica e Sporting: qual o mais desgastado com a pausa das seleções?",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/fc-porto-benfica-e-sporting-qual-o-mais-desgastado-com-a-pausa-das-selecoes",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Globe Soccer Awards: Benfica e muitas figuras nacionais entre os nomeados",
-     "u": "https://www.abola.pt/noticias/globe-soccer-awards-benfica-e-muitas-figuras-nacionais-entre-os-nomeados-2026111812291206197",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Benfica com ambição máxima: «Não queremos jogar só 6 jogos na Champions»",
-     "u": "https://www.abola.pt/noticias/benfica-com-ambicao-maxima-nao-queremos-jogar-so-6-jogos-na-champions-2026111815382633774",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Flamengo derrota At. Paranaense no Maracanã e dá passo de gigante rumo ao título",
-     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/flamengo-at-paranaense-em-direto",
+     "t": "Antigo guarda-redes de Benfica, FC Porto e Alverca quer evitar descida do Lokomotiv",
+     "u": "https://www.record.pt/internacional/detalhe/antigo-guarda-redes-de-benfica-fc-porto-e-alverca-quer-evitar-descida-do-lokomotiv",
      "f": "Record",
      "alta": false
     }
@@ -113,27 +113,27 @@
    },
    "noticias": [
     {
-     "t": "34-31: El Füchse de Gidsel se mete en un buen lío en la Champions, amenaza para el Barça",
-     "u": "https://www.mundodeportivo.com/balonmano/20261118/1004252739/34-31-fuechse-gidsel-mete-buen-lio-champions-amenaza-barca.html",
+     "t": "\"Dejar La Masia fue muy duro. Soy del Barça y me fui al Real Madrid\"",
+     "u": "https://www.mundodeportivo.com/futbol/futbol-catala/20261119/1004252543/dejar-masia-duro-barca-me-real-madrid.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Así queda la clasificación de la Euroliga tras el tropiezo inesperado del Real Madrid",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261118/1004252731/asi-queda-clasificacion-euroliga-tropiezo-inesperado-real-madrid-pista-besiktas.html",
+     "t": "Santi Aldama vuelve y es testigo directo de la decadencia de los Warriors en la NBA",
+     "u": "https://www.marca.com/baloncesto/nba/2026/11/19/santi-aldama-vuelve-testigo-directo-decadencia-warriors-nba.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Aday Mara rubrica su récord de asistencias y otea su primer triple-doble en la NBA",
+     "u": "https://www.marca.com/baloncesto/nba/2026/11/19/aday-mara-rubrica-record-asistencias-otea-primer-triple-doble-nba.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "El día que el Real Madrid inscribió a Neymar",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261119/1004252776/dia-real-madrid-inscribio-neymar.html",
      "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Jon Rahm ya está más cerca del podio mundial... pero sigue lejos del PGA Tour",
-     "u": "https://www.marca.com/golf/2026/11/17/jon-rahm-cerca-podio-mundial.html",
-     "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "El Milan quiere llevarse a la gran joya de Atlético Nacional",
-     "u": "https://www.marca.com/co/2026/11/17/milan-quiere-llevarse-gran-joya-atletico-nacional.html",
-     "f": "Marca",
      "alta": false
     }
    ]
@@ -147,14 +147,20 @@
    },
    "noticias": [
     {
-     "t": "Ireland’s Prendergast free to face South Africa after avoiding hip-drop tackle ban",
-     "u": "https://www.theguardian.com/sport/2026/nov/18/ireland-sam-prendergast-free-face-south-africa-avoiding-hip-drop-tackle-ban-rassie-erasmus-rugby-union",
-     "f": "The Guardian",
+     "t": "Weekly sports quiz: When did England last beat the men's world champions?",
+     "u": "https://www.bbc.co.uk/sport/articles/c6pw4xnjrzydo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Banned Springboks coach Erasmus invites fans to watch along of Ireland game",
-     "u": "https://www.skysports.com/rugby-union/news/12040/13613672/rassie-erasmus-south-africa-coach-invites-fans-to-watch-along-of-springboks-clash-vs-ireland-following-six-match-ban",
+     "t": "Tennis the saviour for player who tried to take own life before Wimbledon",
+     "u": "https://www.bbc.co.uk/sport/tennis/articles/cm5y18p5v12yo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Verstappen trusts F1 chiefs over plan to proceed with Middle East races",
+     "u": "https://www.skysports.com/f1/news/12040/13613637/max-verstappen-says-he-trusts-f1-bosses-over-plans-to-proceed-with-season-ending-races-in-qatar-and-abu-dhabi-amid-conflict-in-middle-east",
      "f": "Sky Sports",
      "alta": false
     },
@@ -162,12 +168,6 @@
      "t": "Chelsea snatch late winner vs PSG to move top of WCL table",
      "u": "https://www.skysports.com/football/chelsea-women-vs-paris-saint-germain-women/report/578268",
      "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "Veerle Buurman scrambles late WCL winner to push blunt Chelsea past PSG",
-     "u": "https://www.theguardian.com/football/2026/nov/18/chelsea-paris-saint-germain-womens-champions-league-match-report",
-     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,28 +181,28 @@
    },
    "noticias": [
     {
-     "t": "Salió a la luz el original apodo que una leyenda del fútbol le puso a Nico Paz cuando surgió en el Real Madrid",
-     "u": "https://www.infobae.com/deportes/2026/11/19/salio-a-la-luz-el-original-apodo-que-una-leyenda-del-futbol-le-puso-a-nico-paz-cuando-surgio-en-el-real-madrid/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "El video del tenso cruce entre hinchas de Boca y Atlético Mineiro en un aeropuerto rumbo a Barranquilla para la final de Sudamericana",
-     "u": "https://www.infobae.com/deportes/2026/11/19/el-video-del-tenso-cruce-entre-hinchas-de-boca-y-atletico-mineiro-en-un-aeropuerto-rumbo-a-barranquilla-para-la-final-de-sudamericana/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Videos y fotos: la llegada de Boca a Barranquilla y la pasión de su gente",
-     "u": "https://www.ole.com.ar/boca-juniors/videos-fotos-llegada-boca-barranquilla-sudamericana-final_0_xB4MutVihZ.html",
+     "t": "Partidos de HOY, jueves 19 de noviembre: horario y por dónde ver fútbol EN VIVO",
+     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-jueves-19-noviembre-agenda-ole-horario-ver-futbol-vivo_0_tepT2sUEhQ.html",
      "f": "Olé",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Boca aterrizó en Barranquilla y lo esperan más de mil hinchas en el hotel",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-llego-barranquilla-jugar-final-sudamericana_0_sDfoIZXeLE.html",
+     "t": "Qué canal de TV transmite Argentina vs. Australia, por el Mundial Sub 17",
+     "u": "https://www.ole.com.ar/seleccion/seleccion-argentina-vs-australia-mundial-sub-17-qatar-dia-hora-ver-tv-online-convocados_0_zX6aGuAnKz.html",
      "f": "Olé",
-     "alta": false
+     "alta": true
+    },
+    {
+     "t": "La selección argentina debutará en el Mundial Sub 17 ante Australia: hora, TV y todo lo que tenés que saber",
+     "u": "https://www.infobae.com/deportes/2026/11/19/la-seleccion-argentina-debutara-en-el-mundial-sub-17-ante-australia-hora-tv-y-todo-lo-que-tenes-que-saber/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Comienza el Mundial Sub 17: las figuras a seguir de cerca, el dueño de la N° 10 de Argentina y todo lo que hay que saber",
+     "u": "https://www.infobae.com/deportes/2026/11/19/comienza-el-mundial-sub-17-las-figuras-a-seguir-de-cerca-el-dueno-de-la-n-10-de-argentina-y-todo-lo-que-hay-que-saber/",
+     "f": "Infobae",
+     "alta": true
     }
    ]
   },
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "« On n'a pas le choix, on doit se qualifier » : après la défaite à Chelsea, le PSG continue à y croire en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/-on-n-a-pas-le-choix-on-doit-se-qualifier-apres-la-defaite-a-chelsea-le-psg-continue-a-y-croire-en-ligue-des-champions/1744565#at_medium=RSS_feeds",
+     "t": "Sept joueurs non inscrits sur la feuille de match face à l'Argentine restent dans le groupe France comme réservistes",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Sept-joueurs-non-inscrits-sur-la-feuille-de-match-face-a-l-argentine-restent-dans-le-groupe-france-comme-reservistes/1744614#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Le PSG se fait surprendre dans les dernières minutes face à Chelsea",
-     "u": "https://www.lequipe.fr/Football/Actualites/Le-psg-se-fait-surprendre-dans-les-dernieres-minutes-face-a-chelsea/1744553#at_medium=RSS_feeds",
+     "t": "Julian Montoya capitaine avec l'Argentine pour le match du Championnat des nations contre le XV de France",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Julian-montoya-capitaine-avec-l-argentine-pour-le-match-du-championnat-des-nations-contre-le-xv-de-france/1744607#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "Vasco x Internacional pelo Brasileirão: onde assistir, estatísticas, histórico e prováveis escalações",
-   "u": "https://www.gazetaesportiva.com/times/vasco/vasco-x-internacional-pelo-brasileirao-onde-assistir-estatisticas-historico-e-provaveis-escalacoes-2/",
+   "t": "Com gramado novo, São Paulo retorna ao Morumbis após mais de um mês",
+   "u": "https://www.gazetaesportiva.com/times/sao-paulo/com-gramado-novo-sao-paulo-retorna-ao-morumbis-apos-mais-de-um-mes/",
    "f": "Gazeta Esportiva",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "LEGO reveals Speed Champions sets for all 2026 F1 drivers and teams",
-   "u": "https://sports.yahoo.com/articles/lego-reveals-speed-champions-sets-022238655.html",
+   "t": "Beauden Barrett to win 150th cap as All Blacks ring changes for England clash",
+   "u": "https://sports.yahoo.com/articles/beauden-barrett-win-150th-cap-114534504.html",
    "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Palmeiras de Abel Ferreira perde em casa do Cruzeiro e título é uma miragem",
-   "u": "https://www.record.pt/internacional/paises/brasil/detalhe/20261118-145038-cruzeiro-palmeiras-em-direto",
-   "f": "Record",
-   "alta": false,
+   "t": "Rui Jorge recorda polémica da camisola rasgada no Sporting-FC Porto",
+   "u": "https://www.abola.pt/video/rui-jorge-recorda-polemica-da-camisola-rasgada-no-sporting-fc-porto-2026111612394197557",
+   "f": "A Bola",
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "34-31: El Füchse de Gidsel se mete en un buen lío en la Champions, amenaza para el Barça",
-   "u": "https://www.mundodeportivo.com/balonmano/20261118/1004252739/34-31-fuechse-gidsel-mete-buen-lio-champions-amenaza-barca.html",
+   "t": "\"Dejar La Masia fue muy duro. Soy del Barça y me fui al Real Madrid\"",
+   "u": "https://www.mundodeportivo.com/futbol/futbol-catala/20261119/1004252543/dejar-masia-duro-barca-me-real-madrid.html",
    "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Ireland’s Prendergast free to face South Africa after avoiding hip-drop tackle ban",
-   "u": "https://www.theguardian.com/sport/2026/nov/18/ireland-sam-prendergast-free-face-south-africa-avoiding-hip-drop-tackle-ban-rassie-erasmus-rugby-union",
-   "f": "The Guardian",
+   "t": "Weekly sports quiz: When did England last beat the men's world champions?",
+   "u": "https://www.bbc.co.uk/sport/articles/c6pw4xnjrzydo?at_medium=RSS&at_campaign=rss",
+   "f": "BBC Sport",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Salió a la luz el original apodo que una leyenda del fútbol le puso a Nico Paz cuando surgió en el Real Madrid",
-   "u": "https://www.infobae.com/deportes/2026/11/19/salio-a-la-luz-el-original-apodo-que-una-leyenda-del-futbol-le-puso-a-nico-paz-cuando-surgio-en-el-real-madrid/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Partidos de HOY, jueves 19 de noviembre: horario y por dónde ver fútbol EN VIVO",
+   "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-jueves-19-noviembre-agenda-ole-horario-ver-futbol-vivo_0_tepT2sUEhQ.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "« On n'a pas le choix, on doit se qualifier » : après la défaite à Chelsea, le PSG continue à y croire en Ligue des champions",
-   "u": "https://www.lequipe.fr/Football/Actualites/-on-n-a-pas-le-choix-on-doit-se-qualifier-apres-la-defaite-a-chelsea-le-psg-continue-a-y-croire-en-ligue-des-champions/1744565#at_medium=RSS_feeds",
+   "t": "Sept joueurs non inscrits sur la feuille de match face à l'Argentine restent dans le groupe France comme réservistes",
+   "u": "https://www.lequipe.fr/Rugby/Actualites/Sept-joueurs-non-inscrits-sur-la-feuille-de-match-face-a-l-argentine-restent-dans-le-groupe-france-comme-reservistes/1744614#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
