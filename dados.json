@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T20:47:09+00:00",
+ "atualizado": "2026-11-20T02:24:18+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,26 +11,26 @@
    },
    "noticias": [
     {
-     "t": "Final da Libertadores terá Pedro Sampaio no show de intervalo de Palmeiras x Estudiantes",
-     "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/19/final-da-libertadores-tera-pedro-sampaio-no-show-de-intervalo-de-palmeiras-x-estudiantes.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Atlético-MG x Boca Juniors - Copa Sul-Americana 2026 - globoesporte.com",
-     "u": "https://ge.globo.com/mg/futebol/copa-sul-americana/jogo/21-11-2026/atletico-mg-boca-juniors.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Confira o primeiro gol de Woltemade na Serie A pela Juventus",
-     "u": "https://www.gazetaesportiva.com/times/juventus/confira-o-primeiro-gol-de-woltemade-na-serie-a-pela-juventus/",
+     "t": "Após derrota para o Vasco, Ronaldo convoca torcida do Inter por permanência na Série A",
+     "u": "https://www.gazetaesportiva.com/times/internacional/ronaldo-convoca-torcida-inter-permanencia-serie-a/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Final da Libertadores terá show no intervalo pela primeira vez na história",
-     "u": "https://www.gazetaesportiva.com/campeonatos/libertadores-da-america/final-libertadores-show-intervalo-pedro-sampaio/",
+     "t": "Pedro Emanuel critica gramado, mira a Libertadores e valoriza vitória do Vasco contra o Inter: \"É o que vale\"",
+     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/19/pedro-emanuel-corneta-gramado-e-destaca-vitoria-dificil-do-vasco-salvamos-os-tres-pontos.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Vasco vence o Inter em São Januário e mantém sonho de vaga na Libertadores",
+     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/19-11-2026/vasco-internacional.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Vasco vence, elimina risco de rebaixamento e deixa Inter no Z4",
+     "u": "https://www.gazetaesportiva.com/times/vasco/vasco-vence-elimina-risco-de-rebaixamento-e-deixa-inter-no-z4/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Puka Nacua suspended by the NFL",
-     "u": "https://sports.yahoo.com/articles/puka-nacua-suspended-nfl-203518733.html",
-     "f": "Yahoo Sports",
-     "alta": true
-    },
-    {
-     "t": "Rams’ Puka Nacua suspended for violating NFL’s personal conduct policy",
-     "u": "https://sports.yahoo.com/articles/rams-puka-nacua-suspended-violating-203234611.html",
-     "f": "Yahoo Sports",
-     "alta": true
-    },
-    {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Texans-Colts, Thursday Night Football",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-texans-colts-thursday-night-football/",
+     "t": "Knicks vs. Timberwolves prediction, odds, time: 2026 NBA picks for Thursday, Nov. 19 from proven model",
+     "u": "https://www.cbssports.com/betting/news/knicks-timberwolves-prediction-odds-time-spread-2026-nba-picks-thursday-november-19/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Kalshi promo code CBSSPORTS55: Score $55 bonus for Texans vs. Colts, NFL Thursday Night Football predictions",
-     "u": "https://www.cbssports.com/prediction/news/kalshi-promo-code-cbssports55-score-55-bonus-texans-vs-colts-nfl-thursday-night-football-predictions/",
+     "t": "Texans vs. Colts prediction, odds, time: NFL Week 11 'Thursday Night Football' picks from advanced model",
+     "u": "https://www.cbssports.com/betting/news/texans-colts-prediction-odds-time-nfl-week-11-thursday-night-football-picks-tnf-line-bets/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Officials explain controversial tech on Celtics star Jayson Tatum in Nuggets loss",
+     "u": "https://sports.yahoo.com/articles/officials-explain-controversial-tech-celtics-020236028.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Packers’ 7-round 2027 NFL Draft according to PFF mock draft simulator during bye week",
+     "u": "https://sports.yahoo.com/articles/packers-7-round-2027-nfl-021232779.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "FC Porto: pérola de 15 anos segue com a equipa B para Inglaterra",
-     "u": "https://www.abola.pt/noticias/fc-porto-perola-de-15-anos-segue-com-a-equipa-b-para-inglaterra-2026111917264719899",
+     "t": "NBA: Neemias brilha, mas não evita desaire dos Celtics",
+     "u": "https://www.abola.pt/noticias/nba-neemias-brilha-mas-nao-evita-desaire-dos-celtics-2026111907495889728",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Benfica-Roma, 1-1 (1.ª parte)",
+     "t": "A crónica do Benfica-Roma, 2-3: balde de água gelada",
+     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/a-cronica-do-benfica-roma-2-3-balde-de-agua-gelada",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Benfica sofre golo aos 90'+2 e perde em casa com a Roma",
      "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/benfica-roma-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Sporting: rescisão de Rui Borges pode parar no… tribunal",
-     "u": "https://www.abola.pt/noticias/sporting-rescisao-de-rui-borges-pode-parar-no-tribunal-2026111919190716340",
+     "t": "Farioli e o futuro no FC Porto: «É a primeira vez que me sinto realmente integrado»",
+     "u": "https://www.abola.pt/video/farioli-e-o-futuro-no-fc-porto-e-a-primeira-vez-que-me-sinto-realmente-integrado-2026111914522416535",
      "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Pote quebra o silêncio sobre o afastamento no Sporting: «Foi tudo por trás. Não falaram comigo...»",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/pote-quebra-o-silencio-sobre-o-afastamento-no-sporting-foi-tudo-por-tras-nao-falaram-comigo",
-     "f": "Record",
      "alta": false
     }
    ]
@@ -113,26 +113,26 @@
    },
    "noticias": [
     {
+     "t": "El mercado de fichajes de fútbol, en directo",
+     "u": "https://www.mundodeportivo.com/futbol/fichajes/20261116/1004251198/mercado-fichajes-futbol-directo-hoy-rumores-altas-bajas.html",
+     "f": "Mundo Deportivo",
+     "alta": true
+    },
+    {
      "t": "\"Dejar La Masia fue muy duro. Soy del Barça y me fui al Real Madrid\"",
      "u": "https://www.mundodeportivo.com/futbol/futbol-catala/20261119/1004252543/dejar-masia-duro-barca-me-real-madrid.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "2-0: Barça - Servette, Champions League femenina, en directo",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261119/1004253053/barca-servette-directo-champions-league-futbol-femenino.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Santi Aldama vuelve y es testigo directo de la decadencia de los Warriors en la NBA",
-     "u": "https://www.marca.com/baloncesto/nba/2026/11/19/santi-aldama-vuelve-testigo-directo-decadencia-warriors-nba.html",
+     "t": "Jon Rahm ya está más cerca del podio mundial... pero sigue lejos del PGA Tour",
+     "u": "https://www.marca.com/golf/2026/11/17/jon-rahm-cerca-podio-mundial.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "Aday Mara rubrica su récord de asistencias y otea su primer triple-doble en la NBA",
-     "u": "https://www.marca.com/baloncesto/nba/2026/11/19/aday-mara-rubrica-record-asistencias-otea-primer-triple-doble-nba.html",
+     "t": "El Milan quiere llevarse a la gran joya de Atlético Nacional",
+     "u": "https://www.marca.com/co/2026/11/17/milan-quiere-llevarse-gran-joya-atletico-nacional.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,22 +147,22 @@
    },
    "noticias": [
     {
-     "t": "Alexander Zverev v Arthur Fils: ATP Finals tennis group stage – live",
-     "u": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live",
+     "t": "F1 to bring in full-time race stewards for 2027 season in bid to end controversy",
+     "u": "https://www.theguardian.com/sport/2026/nov/19/f1-full-time-race-stewards-2027-season-controversy-fia",
      "f": "The Guardian",
      "alta": true
     },
     {
-     "t": "Mauricio Pochettino calls for Manchester United to show no fear against Liverpool",
-     "u": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
-     "f": "The Guardian",
-     "alta": false
+     "t": "FIA to introduce full-time F1 stewards",
+     "u": "https://www.skysports.com/f1/news/12040/13614150/fia-announce-introduction-of-full-time-f1-stewards-from-2027-ahead-of-las-vegas-grand-prix",
+     "f": "Sky Sports",
+     "alta": true
     },
     {
-     "t": "Furbank leads returning England trio for All Blacks visit",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/ckdd1y064y0go?at_medium=RSS&at_campaign=rss",
+     "t": "F1 to introduce full-time race stewards from 2027",
+     "u": "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
-     "alta": false
+     "alta": true
     },
     {
      "t": "Ireland hooker Sheehan named at number eight for Springboks game",
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Los Pumas confirmaron siete cambios para visitar a Francia por el Nations Championship",
-     "u": "https://www.ole.com.ar/rugby/pumas-cambios-confirmados-enfrentar-francia-nations-championship_0_VJm9zGZXZG.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
      "t": "Los Pumas confirmaron siete cambios para enfrentar a Francia por el Nations Championship",
      "u": "https://www.infobae.com/deportes/2026/11/19/los-pumas-confirmaron-siete-cambios-para-enfrentar-a-francia-por-el-nations-championship/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Franco Colapinto afrontará las primeras prácticas del Gran Premio de Las Vegas nocturno de Fórmula 1: hora, TV y todo lo que hay que saber",
-     "u": "https://www.infobae.com/deportes/2026/11/19/franco-colapinto-afrontara-las-primeras-practicas-del-gran-premio-de-las-vegas-nocturno-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
+     "t": "La ATP prepara una revolución en el circuito: los cambios que llegarían al tenis masculino en 2028",
+     "u": "https://www.infobae.com/deportes/2026/11/20/la-atp-prepara-una-revolucion-en-el-circuito-los-cambios-que-llegarian-al-tenis-masculino-en-2028/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Un hincha del Manchester United no podrá ir a Old Trafford por tres años por tirar una pelota de tenis al campo de juego",
-     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/manchester-united-oldtrafford-roma-championsleague-familiaglazer-reddevils_0_NIh28FiOvW.html",
+     "t": "El video de Boca presentando el estadio para la final, con un sutil mensaje de identidad",
+     "u": "https://www.ole.com.ar/boca-juniors/video-boca-presentando-estadio-final-sutil-mensaje-identidad_0_I4DJJv2Eyp.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Montero, antes de la final: \"El estadio va a estar lleno de Boca\" y \"Aranda tiene magia\"",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-copasudamericana-alvaromontero-barranquilla-metropolitanorobertomelendez-colombia-tomasaranda-xeneize-atleticomineiro-chichoserna-hinchas-final_0_ir5KJI6muI.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Troyes sans Paolo Gozzi ni Junior Diaz contre Le Havre en Ligue 1",
-     "u": "https://www.lequipe.fr/Football/Actualites/Troyes-sans-paolo-gozzi-ni-junior-diaz-contre-le-havre-en-ligue-1/1744708#at_medium=RSS_feeds",
+     "t": "OL Lyonnes dompte Arsenal et assure sa place en quarts de finale de la Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Ol-lyonnes-dompte-arsenal-et-assure-sa-place-en-quarts-de-finale-de-la-ligue-des-champions/1744771#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Entre les Argentins et la France, un lien particulier",
-     "u": "https://www.lequipe.fr/Rugby/Article/Deuxieme-pays-etranger-le-plus-represente-en-top-14-entre-les-argentins-et-la-france-un-lien-particulier/1744711#at_medium=RSS_feeds",
+     "t": "Le PSG lance son tour principal avec un succès à Melsungen",
+     "u": "https://www.lequipe.fr/Handball/Actualites/Le-psg-lance-son-tour-principal-avec-un-succes-a-melsungen/1744768#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,44 +253,44 @@
  ],
  "destaques": [
   {
-   "t": "Final da Libertadores terá Pedro Sampaio no show de intervalo de Palmeiras x Estudiantes",
-   "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/19/final-da-libertadores-tera-pedro-sampaio-no-show-de-intervalo-de-palmeiras-x-estudiantes.ghtml",
-   "f": "ge",
+   "t": "Após derrota para o Vasco, Ronaldo convoca torcida do Inter por permanência na Série A",
+   "u": "https://www.gazetaesportiva.com/times/internacional/ronaldo-convoca-torcida-inter-permanencia-serie-a/",
+   "f": "Gazeta Esportiva",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Puka Nacua suspended by the NFL",
-   "u": "https://sports.yahoo.com/articles/puka-nacua-suspended-nfl-203518733.html",
-   "f": "Yahoo Sports",
-   "alta": true,
+   "t": "Knicks vs. Timberwolves prediction, odds, time: 2026 NBA picks for Thursday, Nov. 19 from proven model",
+   "u": "https://www.cbssports.com/betting/news/knicks-timberwolves-prediction-odds-time-spread-2026-nba-picks-thursday-november-19/",
+   "f": "CBS Sports",
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "FC Porto: pérola de 15 anos segue com a equipa B para Inglaterra",
-   "u": "https://www.abola.pt/noticias/fc-porto-perola-de-15-anos-segue-com-a-equipa-b-para-inglaterra-2026111917264719899",
+   "t": "NBA: Neemias brilha, mas não evita desaire dos Celtics",
+   "u": "https://www.abola.pt/noticias/nba-neemias-brilha-mas-nao-evita-desaire-dos-celtics-2026111907495889728",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "\"Dejar La Masia fue muy duro. Soy del Barça y me fui al Real Madrid\"",
-   "u": "https://www.mundodeportivo.com/futbol/futbol-catala/20261119/1004252543/dejar-masia-duro-barca-me-real-madrid.html",
+   "t": "El mercado de fichajes de fútbol, en directo",
+   "u": "https://www.mundodeportivo.com/futbol/fichajes/20261116/1004251198/mercado-fichajes-futbol-directo-hoy-rumores-altas-bajas.html",
    "f": "Mundo Deportivo",
-   "alta": false,
+   "alta": true,
    "pais": "ES"
   },
   {
-   "t": "Alexander Zverev v Arthur Fils: ATP Finals tennis group stage – live",
-   "u": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live",
+   "t": "F1 to bring in full-time race stewards for 2027 season in bid to end controversy",
+   "u": "https://www.theguardian.com/sport/2026/nov/19/f1-full-time-race-stewards-2027-season-controversy-fia",
    "f": "The Guardian",
    "alta": true,
    "pais": "GB"
   },
   {
-   "t": "Los Pumas confirmaron siete cambios para visitar a Francia por el Nations Championship",
-   "u": "https://www.ole.com.ar/rugby/pumas-cambios-confirmados-enfrentar-francia-nations-championship_0_VJm9zGZXZG.html",
-   "f": "Olé",
+   "t": "Los Pumas confirmaron siete cambios para enfrentar a Francia por el Nations Championship",
+   "u": "https://www.infobae.com/deportes/2026/11/19/los-pumas-confirmaron-siete-cambios-para-enfrentar-a-francia-por-el-nations-championship/",
+   "f": "Infobae",
    "alta": false,
    "pais": "AR"
   },
@@ -302,10 +302,10 @@
    "pais": "IT"
   },
   {
-   "t": "Troyes sans Paolo Gozzi ni Junior Diaz contre Le Havre en Ligue 1",
-   "u": "https://www.lequipe.fr/Football/Actualites/Troyes-sans-paolo-gozzi-ni-junior-diaz-contre-le-havre-en-ligue-1/1744708#at_medium=RSS_feeds",
+   "t": "OL Lyonnes dompte Arsenal et assure sa place en quarts de finale de la Ligue des champions",
+   "u": "https://www.lequipe.fr/Football/Actualites/Ol-lyonnes-dompte-arsenal-et-assure-sa-place-en-quarts-de-finale-de-la-ligue-des-champions/1744771#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": true,
+   "alta": false,
    "pais": "FR"
   }
  ],
