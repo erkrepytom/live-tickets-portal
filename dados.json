@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-20T02:24:18+00:00",
+ "atualizado": "2026-11-20T11:53:36+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -17,20 +17,20 @@
      "alta": false
     },
     {
-     "t": "Pedro Emanuel critica gramado, mira a Libertadores e valoriza vitória do Vasco contra o Inter: \"É o que vale\"",
-     "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/19/pedro-emanuel-corneta-gramado-e-destaca-vitoria-dificil-do-vasco-salvamos-os-tres-pontos.ghtml",
+     "t": "Palmeiras e Flamengo ficam 30 rodadas na liderança do Brasileiro; Fluminense é o intocável do G-6",
+     "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/20/palmeiras-e-flamengo-ficam-30-rodadas-na-lideranca-do-brasileiro-fluminense-e-o-intocavel-do-g-6.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Vasco vence o Inter em São Januário e mantém sonho de vaga na Libertadores",
-     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/19-11-2026/vasco-internacional.ghtml",
+     "t": "ATP aprova aumento de prêmios do tênis para mais de R$ 2 bi e adia decisão sobre reforma nas duplas",
+     "u": "https://ge.globo.com/tenis/noticia/2026/11/20/atp-aprova-aumento-de-premios-do-tenis-para-mais-de-r-2-bi-e-adia-decisao-sobre-reforma-nas-duplas.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Vasco vence, elimina risco de rebaixamento e deixa Inter no Z4",
-     "u": "https://www.gazetaesportiva.com/times/vasco/vasco-vence-elimina-risco-de-rebaixamento-e-deixa-inter-no-z4/",
+     "t": "Palmeiras x Flamengo: saiba onde assistir ao jogo pela 36ª rodada do Brasileirão",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-x-flamengo-saiba-onde-assistir-ao-jogo-pela-36a-rodada-do-brasileirao/",
      "f": "Gazeta Esportiva",
      "alta": false
     }
@@ -45,6 +45,18 @@
    },
    "noticias": [
     {
+     "t": "Apple TV streaming guide: How to watch MLB, MLS, F1 and original shows",
+     "u": "https://sports.yahoo.com/articles/watch-live-sports-apple-tv-144500194.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Spain take on France in Nations League quarters, Germany face Belgium",
+     "u": "https://sports.yahoo.com/articles/spain-france-nations-league-quarters-114823594.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Knicks vs. Timberwolves prediction, odds, time: 2026 NBA picks for Thursday, Nov. 19 from proven model",
      "u": "https://www.cbssports.com/betting/news/knicks-timberwolves-prediction-odds-time-spread-2026-nba-picks-thursday-november-19/",
      "f": "CBS Sports",
@@ -54,18 +66,6 @@
      "t": "Texans vs. Colts prediction, odds, time: NFL Week 11 'Thursday Night Football' picks from advanced model",
      "u": "https://www.cbssports.com/betting/news/texans-colts-prediction-odds-time-nfl-week-11-thursday-night-football-picks-tnf-line-bets/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Officials explain controversial tech on Celtics star Jayson Tatum in Nuggets loss",
-     "u": "https://sports.yahoo.com/articles/officials-explain-controversial-tech-celtics-020236028.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Packers’ 7-round 2027 NFL Draft according to PFF mock draft simulator during bye week",
-     "u": "https://sports.yahoo.com/articles/packers-7-round-2027-nfl-021232779.html",
-     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "NBA: Neemias brilha, mas não evita desaire dos Celtics",
-     "u": "https://www.abola.pt/noticias/nba-neemias-brilha-mas-nao-evita-desaire-dos-celtics-2026111907495889728",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "A crónica do Benfica-Roma, 2-3: balde de água gelada",
-     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/a-cronica-do-benfica-roma-2-3-balde-de-agua-gelada",
+     "t": "Pote revela a única vez que pediu para sair do Sporting: foi com Amorim e o destino era Inglaterra…",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/pote-revela-a-unica-vez-que-pediu-para-sair-do-sporting-foi-com-amorim-e-o-destino-era-inglaterra",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Benfica sofre golo aos 90'+2 e perde em casa com a Roma",
-     "u": "https://www.record.pt/futebol/futebol-feminino/detalhe/benfica-roma-em-direto",
-     "f": "Record",
+     "t": "FC Porto promove ação para apoiar crianças e jovens refugiados no México",
+     "u": "https://www.abola.pt/noticias/fc-porto-promove-acao-para-apoiar-criancas-e-jovens-refugiados-no-mexico-2026111812504150901",
+     "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Farioli e o futuro no FC Porto: «É a primeira vez que me sinto realmente integrado»",
-     "u": "https://www.abola.pt/video/farioli-e-o-futuro-no-fc-porto-e-a-primeira-vez-que-me-sinto-realmente-integrado-2026111914522416535",
+     "t": "Triatlo: Vasco Vilaça foca teste para LA-2028 e admite prescindir de etapas no Mundial",
+     "u": "https://www.abola.pt/noticias/triatlo-vasco-vilaca-foca-teste-para-la-2028-e-admite-prescindir-de-etapas-no-mundial-2026112000575877756",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Nike será parceira oficial da Fórmula 1 a partir de 2027",
+     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/nike-sera-parceira-oficial-da-formula-1-a-partir-de-2027",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -113,26 +113,26 @@
    },
    "noticias": [
     {
-     "t": "El mercado de fichajes de fútbol, en directo",
-     "u": "https://www.mundodeportivo.com/futbol/fichajes/20261116/1004251198/mercado-fichajes-futbol-directo-hoy-rumores-altas-bajas.html",
-     "f": "Mundo Deportivo",
-     "alta": true
-    },
-    {
-     "t": "\"Dejar La Masia fue muy duro. Soy del Barça y me fui al Real Madrid\"",
-     "u": "https://www.mundodeportivo.com/futbol/futbol-catala/20261119/1004252543/dejar-masia-duro-barca-me-real-madrid.html",
+     "t": "Cambiados los horarios del Barça-City de la Youth y del Barça-Espanyol de la Liga F",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261120/1004253328/cambiados-horarios-barca-city-youth-barca-espanyol-liga-f.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Jon Rahm ya está más cerca del podio mundial... pero sigue lejos del PGA Tour",
-     "u": "https://www.marca.com/golf/2026/11/17/jon-rahm-cerca-podio-mundial.html",
+     "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
+     "u": "https://www.marca.com/futbol/nations-league/2026/11/20/uefa-multa-inglaterra-canticos-anticatolicos-aficionados-madrid.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "El Milan quiere llevarse a la gran joya de Atlético Nacional",
-     "u": "https://www.marca.com/co/2026/11/17/milan-quiere-llevarse-gran-joya-atletico-nacional.html",
+     "t": "El entorno de JJ Gabriel inquieta al Real Madrid",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261120/1004252972/entorno-jj-gabriel-inquieta-real-madrid.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "El botín de más de un millón y medio de dólares que acumula Zverev en las ATP Finals de Turín",
+     "u": "https://www.marca.com/tenis/copa-masters/2026/11/20/botin-millon-medio-dolares-acumula-zverev-atp-finals-turin.html",
      "f": "Marca",
      "alta": false
     }
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "F1 to bring in full-time race stewards for 2027 season in bid to end controversy",
-     "u": "https://www.theguardian.com/sport/2026/nov/19/f1-full-time-race-stewards-2027-season-controversy-fia",
+     "t": "Pochettino’s first session leaked on drone footage; Nations League draw; Premier League news – football live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/20/weekend-football-countdown-live-news-updates",
      "f": "The Guardian",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "FIA to introduce full-time F1 stewards",
-     "u": "https://www.skysports.com/f1/news/12040/13614150/fia-announce-introduction-of-full-time-f1-stewards-from-2027-ahead-of-las-vegas-grand-prix",
+     "t": "England to face Norway in Nations League last eight",
+     "u": "https://www.skysports.com/football/news/12040/13614281/nations-league-quarter-finals-england-to-face-norway-in-the-last-eight-with-a-potential-semi-final-tie-with-germany-waiting",
      "f": "Sky Sports",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "F1 to introduce full-time race stewards from 2027",
-     "u": "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": true
+     "t": "Sports quiz of the week: England’s world beaters, Beckham’s dismay and rugby drama",
+     "u": "https://www.theguardian.com/sport/2026/nov/20/sports-quiz-week-football-rugby-tennis-surfing-f1-golf",
+     "f": "The Guardian",
+     "alta": false
     },
     {
-     "t": "Ireland hooker Sheehan named at number eight for Springboks game",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cm4gnpgn3z1wo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "England's All Blacks acid test, Erasmus circus, Boks to storm Dublin?",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13614001/nations-championship-englands-all-blacks-acid-test-at-twickenham-rassie-erasmus-circus-springboks-to-storm-to-win-vs-ireland-in-dublin",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Los Pumas confirmaron siete cambios para enfrentar a Francia por el Nations Championship",
-     "u": "https://www.infobae.com/deportes/2026/11/19/los-pumas-confirmaron-siete-cambios-para-enfrentar-a-francia-por-el-nations-championship/",
+     "t": "Antes de la clasificación, Franco Colapinto afrontará la última práctica del Gran Premio de Las Vegas de Fórmula 1: hora, TV y todo lo que hay que sab",
+     "u": "https://www.infobae.com/deportes/2026/11/20/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-del-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "La ATP prepara una revolución en el circuito: los cambios que llegarían al tenis masculino en 2028",
-     "u": "https://www.infobae.com/deportes/2026/11/20/la-atp-prepara-una-revolucion-en-el-circuito-los-cambios-que-llegarian-al-tenis-masculino-en-2028/",
+     "t": "Cimbronazo en la Fórmula 1: cinco pilotos recibieron sanciones de cara a la clasificación del Gran Premio de Las Vegas",
+     "u": "https://www.infobae.com/deportes/2026/11/20/cimbronazo-en-la-formula-1-cinco-pilotos-recibieron-sanciones-de-cara-a-la-clasificacion-del-gran-premio-de-las-vegas/",
      "f": "Infobae",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "El video de Boca presentando el estadio para la final, con un sutil mensaje de identidad",
-     "u": "https://www.ole.com.ar/boca-juniors/video-boca-presentando-estadio-final-sutil-mensaje-identidad_0_I4DJJv2Eyp.html",
+     "t": "Mourinho fue contundente con Vinicius en Real Madrid y evitó polemizar sobre Cristiano Ronaldo",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/jose-mourinho-contundente-vinicius-junior-cristiano-ronaldo-seleccion-portugal-real-madrid_0_x1BuxInUDO.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Montero, antes de la final: \"El estadio va a estar lleno de Boca\" y \"Aranda tiene magia\"",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-copasudamericana-alvaromontero-barranquilla-metropolitanorobertomelendez-colombia-tomasaranda-xeneize-atleticomineiro-chichoserna-hinchas-final_0_ir5KJI6muI.html",
+     "t": "Colidio metió un gol y salvó al Vasco del descenso: cómo quedó la lucha entre otros pesados en el Brasileirao",
+     "u": "https://www.ole.com.ar/futbol-internacional/america/facundo-colidio-vasco-da-gama-gol-descenso-inter-brasileirao_0_RqGNXnv0ez.html",
      "f": "Olé",
      "alta": false
     }
@@ -218,7 +218,7 @@
      "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
      "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
      "f": "La Gazzetta dello Sport",
-     "alta": false
+     "alta": true
     },
     {
      "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "OL Lyonnes dompte Arsenal et assure sa place en quarts de finale de la Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Ol-lyonnes-dompte-arsenal-et-assure-sa-place-en-quarts-de-finale-de-la-ligue-des-champions/1744771#at_medium=RSS_feeds",
+     "t": "La FFR met en place une « sensory room » à chaque match des équipes de France",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/La-ffr-met-en-place-une-sensory-room-a-chaque-match-des-equipes-de-france/1744830#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Le PSG lance son tour principal avec un succès à Melsungen",
-     "u": "https://www.lequipe.fr/Handball/Actualites/Le-psg-lance-son-tour-principal-avec-un-succes-a-melsungen/1744768#at_medium=RSS_feeds",
+     "t": "World Rugby instaure avec effet immédiat le protocole commotion dès l'échauffement",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/World-rugby-instaure-avec-effet-immediat-le-protocole-commotion-des-l-echauffement/1744840#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -260,50 +260,50 @@
    "pais": "BR"
   },
   {
-   "t": "Knicks vs. Timberwolves prediction, odds, time: 2026 NBA picks for Thursday, Nov. 19 from proven model",
-   "u": "https://www.cbssports.com/betting/news/knicks-timberwolves-prediction-odds-time-spread-2026-nba-picks-thursday-november-19/",
-   "f": "CBS Sports",
+   "t": "Apple TV streaming guide: How to watch MLB, MLS, F1 and original shows",
+   "u": "https://sports.yahoo.com/articles/watch-live-sports-apple-tv-144500194.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "NBA: Neemias brilha, mas não evita desaire dos Celtics",
-   "u": "https://www.abola.pt/noticias/nba-neemias-brilha-mas-nao-evita-desaire-dos-celtics-2026111907495889728",
-   "f": "A Bola",
+   "t": "Pote revela a única vez que pediu para sair do Sporting: foi com Amorim e o destino era Inglaterra…",
+   "u": "https://www.record.pt/multimedia/videos/detalhe/pote-revela-a-unica-vez-que-pediu-para-sair-do-sporting-foi-com-amorim-e-o-destino-era-inglaterra",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "El mercado de fichajes de fútbol, en directo",
-   "u": "https://www.mundodeportivo.com/futbol/fichajes/20261116/1004251198/mercado-fichajes-futbol-directo-hoy-rumores-altas-bajas.html",
+   "t": "Cambiados los horarios del Barça-City de la Youth y del Barça-Espanyol de la Liga F",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261120/1004253328/cambiados-horarios-barca-city-youth-barca-espanyol-liga-f.html",
    "f": "Mundo Deportivo",
-   "alta": true,
+   "alta": false,
    "pais": "ES"
   },
   {
-   "t": "F1 to bring in full-time race stewards for 2027 season in bid to end controversy",
-   "u": "https://www.theguardian.com/sport/2026/nov/19/f1-full-time-race-stewards-2027-season-controversy-fia",
+   "t": "Pochettino’s first session leaked on drone footage; Nations League draw; Premier League news – football live",
+   "u": "https://www.theguardian.com/football/live/2026/nov/20/weekend-football-countdown-live-news-updates",
    "f": "The Guardian",
-   "alta": true,
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Los Pumas confirmaron siete cambios para enfrentar a Francia por el Nations Championship",
-   "u": "https://www.infobae.com/deportes/2026/11/19/los-pumas-confirmaron-siete-cambios-para-enfrentar-a-francia-por-el-nations-championship/",
+   "t": "Antes de la clasificación, Franco Colapinto afrontará la última práctica del Gran Premio de Las Vegas de Fórmula 1: hora, TV y todo lo que hay que sab",
+   "u": "https://www.infobae.com/deportes/2026/11/20/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-del-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
    "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
    "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": false,
+   "alta": true,
    "pais": "IT"
   },
   {
-   "t": "OL Lyonnes dompte Arsenal et assure sa place en quarts de finale de la Ligue des champions",
-   "u": "https://www.lequipe.fr/Football/Actualites/Ol-lyonnes-dompte-arsenal-et-assure-sa-place-en-quarts-de-finale-de-la-ligue-des-champions/1744771#at_medium=RSS_feeds",
+   "t": "La FFR met en place une « sensory room » à chaque match des équipes de France",
+   "u": "https://www.lequipe.fr/Rugby/Actualites/La-ffr-met-en-place-une-sensory-room-a-chaque-match-des-equipes-de-france/1744830#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
