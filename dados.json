@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-20T20:31:01+00:00",
+ "atualizado": "2026-11-21T02:28:10+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Manchester City x Fulham pela Premier League: onde assistir ao vivo e horário",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/11/20/manchester-city-x-fulham-pela-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+     "t": "Classificação do segundo turno: Santos empata com Palmeiras; Corinthians deixa lanterna",
+     "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/20/classificacao-do-segundo-turno-santos-empata-com-palmeiras-corinthians-deixa-lanterna.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Chelsea x Leeds na Premier League: onde assistir ao vivo e horário",
-     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/20/chelsea-x-leeds-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+     "t": "Paredes projeta final “especial” da Sul-Americana do Boca Juniors contra o Atlético-MG",
+     "u": "https://www.gazetaesportiva.com/times/boca-juniors/paredes-projeta-final-especial-da-sul-americana-do-boca-juniors-contra-o-atletico-mg/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Atlético-MG x Boca Juniors pela Sul-Americana: onde assistir ao vivo, histórico e escalações",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-sulamericana/atletico-mg-x-boca-juniors-pela-sul-americana-onde-assistir-ao-vivo-historico-e-escalacoes/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Torcida do Boca \"invade\" Caribe colombiano e faz banderazo antes da final contra Atlético-MG; assista",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/20/torcida-do-boca-invade-caribe-colombiano-e-faz-banderazo-antes-da-final-contra-atletico-mg-assista.ghtml",
      "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Guto Miguel treina com estrelas do tênis no ATP Finals e destaca aprendizado com Alcaraz",
-     "u": "https://www.gazetaesportiva.com/mais-esportes/tenis/guto-miguel-treinos-atp-finals-alcaraz/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Palmeiras x Flamengo: saiba onde assistir ao jogo pela 36ª rodada do Brasileirão",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-x-flamengo-saiba-onde-assistir-ao-jogo-pela-36a-rodada-do-brasileirao/",
-     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "How to watch Serie A: Inter meet Atalanta away from home after a challenging break",
-     "u": "https://www.cbssports.com/soccer/news/how-to-watch-serie-a-inter-meet-atalanta-away-from-home-after-a-challenging-break/",
+     "t": "49ers lose shot at breaking NFL record for most miles traveled due to Week 11 travel detour en route to Mexico",
+     "u": "https://www.cbssports.com/nfl/news/49ers-lose-shot-breaking-nfl-record-most-miles-traveled-week-11-travel-detour/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NBA DFS: Top DraftKings, FanDuel daily Fantasy basketball picks for Friday, Nov. 20 include Tre Jones",
-     "u": "https://www.cbssports.com/betting/news/nba-dfs-top-draftkings-fanduel-daily-fantasy-basketball-picks-friday-november-20-2026/",
+     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Rockets-Nuggets, Oregon-Michigan State",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-rockets-nuggets-oregon-michigan-state/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "📸 Protest over fixture scheduling! Why Bayern fans are angry",
-     "u": "https://sports.yahoo.com/articles/protest-over-fixture-scheduling-why-202600556.html",
+     "t": "Ranked football teams overshadow renewal of a top college basketball's top rivalry, Kentucky-Indiana",
+     "u": "https://sports.yahoo.com/articles/ranked-football-teams-overshadow-renewal-021749222.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Dianna Russini shares seven words her NFL connections are telling her about Daniel Jones’ release by Indianapolis Colts",
-     "u": "https://sports.yahoo.com/articles/dianna-russini-shares-seven-words-202419130.html",
+     "t": "Luke Mergott injury update: Duke football linebacker exits Clemson game",
+     "u": "https://sports.yahoo.com/articles/luke-mergott-injury-duke-football-021444370.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
+     "t": "FC Porto B perde em Inglaterra",
+     "u": "https://www.abola.pt/noticias/fc-porto-b-perde-em-inglaterra-2026112021075875837",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
      "t": "FC Porto B homenageia Bobby Robson em Inglaterra",
      "u": "https://www.abola.pt/noticias/fc-porto-b-homenageia-bobby-robson-em-inglaterra-2026112018441354460",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "O momento em que avião se despenha e incendeia em autoestrada no México após perder potência",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/o-momento-em-que-aviao-se-despenha-e-incendeia-em-autoestrada-no-mexico-apos-perder-potencia",
+     "t": "Um susto como há muito não se via: FC Porto evitou novo escândalo na Taça",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/um-susto-como-ha-muito-nao-se-via-fc-porto-evitou-novo-escandalo-na-taca",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "De braço ao peito e sorriso no rosto: as imagens do regresso de Kompany ao banco do Bayern",
-     "u": "https://www.record.pt/multimedia/fotogalerias/detalhe/de-braco-ao-peito-e-com-sorriso-no-rosto-as-imagens-do-regresso-de-kompany-ao-banco-do-bayern",
+     "t": "O interrogatório do FC Porto-Paredes: luvas de Cláudio salvam Moura",
+     "u": "https://www.record.pt/futebol/futebol-nacional/taca-de-portugal/detalhe/o-interrogatorio-do-fc-porto-paredes-luvas-de-claudio-salvam-moura",
      "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Sporting: conheça melhor os dois diamantes que Paulo Fonseca vai mostrar ao mundo",
-     "u": "https://www.abola.pt/noticias/sporting-conheca-melhor-os-dois-diamantes-que-paulo-fonseca-vai-mostrar-ao-mundo-2026112017535110704",
-     "f": "A Bola",
      "alta": false
     }
    ]
@@ -119,21 +119,21 @@
      "alta": false
     },
     {
-     "t": "Olympiacos - Real Madrid, en directo",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261120/1004253064/olympiacos-real-madrid-directo-euroliga-baloncesto-vivo.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Barça - Estrella Roja, en directo",
-     "u": "https://www.mundodeportivo.com/baloncesto/euroliga/20261120/1004253497/barcelona-estrella-roja-partido-baloncesto-hoy-en-directo-euroliga-ext-pau.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "El botín de más de un millón y medio de dólares que acumula Zverev en las ATP Finals de Turín",
      "u": "https://www.marca.com/tenis/copa-masters/2026/11/20/botin-millon-medio-dolares-acumula-zverev-atp-finals-turin.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "Noche de terror para el Bayern",
+     "u": "https://www.mundodeportivo.com/futbol/bundesliga/20261120/1004253540/bayern.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "Ahogo al Manchester City",
+     "u": "https://www.mundodeportivo.com/futbol/premier-league/20261119/1004253082/ahogo-manchester-city.html",
+     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -153,21 +153,21 @@
      "alta": false
     },
     {
-     "t": "Expect a fearsome backlash from cornered All Blacks – but England must play with freedom | Ugo Monye",
-     "u": "https://www.theguardian.com/sport/2026/nov/20/rugby-union-england-new-zealand-all-blacks-backlash-nations-championship",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Tennis scores: Medvedev to face Tiafoe at ATP Finals",
-     "u": "https://www.skysports.com/tennis/scores-schedule",
+     "t": "England's Penge grabs PGA Tour lead as battle to keep cards heats up",
+     "u": "https://www.skysports.com/golf/news/12040/13614419/pga-tour-englands-marco-penge-grabs-halfway-lead-at-rsm-classic-as-big-names-battle-to-secure-fedexcup-future",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Lyon outclass Arsenal for Champions League win",
-     "u": "https://www.bbc.co.uk/sport/football/videos/c3dx1n4xp1xxo?at_medium=RSS&at_campaign=rss",
+     "t": "NFL great Brady could buy Chelsea stake",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "The Super Bowl of F1: how Las Vegas GP has hit the jackpot after turbulent start",
+     "u": "https://www.theguardian.com/sport/2026/nov/20/super-bowl-formula-one-las-vegas-grand-prix-jackpot",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Sonríe el Bayern Munich: Kompany volvió a dirigir por la Bundesliga tras su internación",
-     "u": "https://www.ole.com.ar/futbol-internacional/sonrie-bayern-munich-bundesliga-volvio-vincent-kompany-dirigir-dt-colonia-resultado_0_pruSHFn849.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
-     "t": "Antes de la clasificación, Franco Colapinto afrontará la última práctica del Gran Premio de Las Vegas de Fórmula 1: hora, TV y todo lo que hay que sab",
+     "t": "Antes de la clasificación, Franco Colapinto quedó quinto en la última práctica del Gran Premio de Las Vegas de Fórmula 1",
      "u": "https://www.infobae.com/deportes/2026/11/20/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-del-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "A qué hora juegan Boca Juniors-Atlético Mineiro la final de la Copa Sudamericana y cómo verla en vivo",
-     "u": "https://www.infobae.com/deportes/2026/11/20/a-que-hora-juegan-boca-juniors-atletico-mineiro-la-final-de-la-copa-sudamericana-y-como-verla-en-vivo/",
+     "t": "Armá tu 11 de Boca para la final de la Copa Sudamericana ante Atlético Mineiro",
+     "u": "https://www.ole.com.ar/boca-juniors/arma-11-boca-formacion-final-copasudamericana-atleticomineiro-vascoarruabarrena_0_hWPBGsAp5j.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Cimbronazo en la Fórmula 1: cinco pilotos recibieron sanciones de cara a la clasificación del Gran Premio de Las Vegas",
+     "u": "https://www.infobae.com/deportes/2026/11/20/cimbronazo-en-la-formula-1-cinco-pilotos-recibieron-sanciones-de-cara-a-la-clasificacion-del-gran-premio-de-las-vegas/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "De la NFL a Stamford Bridge: Tom Brady negocia para desembarcar como accionista del Chelsea",
-     "u": "https://www.ole.com.ar/futbol-internacional/inglaterra/nfl-stamford-bridge-tom-brady-negocia-desembarcar-accionista-chelsea-premier-league_0_G0ky1IKQCg.html",
+     "t": "Lionel Messi en Inter Miami vs. Columbus Crew, por los playoffs de la MLS: horario y cómo ver en vivo",
+     "u": "https://www.ole.com.ar/futbol-internacional/mls/inter-miami-vs-columbus-crew-playoffs-mls-horario-ver-tv-online_0_oLglWm8NK5.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Hernandez : «La France est ma deuxième maison»",
-     "u": "https://www.lequipe.fr/Rugby/Article/L-argentin-juan-martin-hernandez-le-magicien-passe-par-la-france-raconte-ses-souvenirs-c-est-ma-deuxieme-maison/1744738#at_medium=RSS_feeds",
+     "t": "Olympiakos et Evan Fournier dominent le Real Madrid de Théo Maledon et Timothé Luwawu-Cabarrot en Euroligue",
+     "u": "https://www.lequipe.fr/Basket/Actualites/Olympiakos-et-evan-fournier-dominent-le-real-madrid-de-theo-maledon-et-timothe-luwawu-cabarrot-en-euroligue/1745027#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Pochettino peut-il sauver Manchester United ?",
-     "u": "https://www.lequipe.fr/Football/Actualites/Podcast-big-5-mauricio-pochettino-peut-il-sauver-manchester-united/1744713#at_medium=RSS_feeds",
+     "t": "Hernandez : «La France est ma deuxième maison»",
+     "u": "https://www.lequipe.fr/Rugby/Article/L-argentin-juan-martin-hernandez-le-magicien-passe-par-la-france-raconte-ses-souvenirs-c-est-ma-deuxieme-maison/1744738#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,22 +253,22 @@
  ],
  "destaques": [
   {
-   "t": "Manchester City x Fulham pela Premier League: onde assistir ao vivo e horário",
-   "u": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/11/20/manchester-city-x-fulham-pela-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+   "t": "Classificação do segundo turno: Santos empata com Palmeiras; Corinthians deixa lanterna",
+   "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/20/classificacao-do-segundo-turno-santos-empata-com-palmeiras-corinthians-deixa-lanterna.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "How to watch Serie A: Inter meet Atalanta away from home after a challenging break",
-   "u": "https://www.cbssports.com/soccer/news/how-to-watch-serie-a-inter-meet-atalanta-away-from-home-after-a-challenging-break/",
+   "t": "49ers lose shot at breaking NFL record for most miles traveled due to Week 11 travel detour en route to Mexico",
+   "u": "https://www.cbssports.com/nfl/news/49ers-lose-shot-breaking-nfl-record-most-miles-traveled-week-11-travel-detour/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "FC Porto B homenageia Bobby Robson em Inglaterra",
-   "u": "https://www.abola.pt/noticias/fc-porto-b-homenageia-bobby-robson-em-inglaterra-2026112018441354460",
+   "t": "FC Porto B perde em Inglaterra",
+   "u": "https://www.abola.pt/noticias/fc-porto-b-perde-em-inglaterra-2026112021075875837",
    "f": "A Bola",
    "alta": false,
    "pais": "PT"
@@ -288,10 +288,10 @@
    "pais": "GB"
   },
   {
-   "t": "Sonríe el Bayern Munich: Kompany volvió a dirigir por la Bundesliga tras su internación",
-   "u": "https://www.ole.com.ar/futbol-internacional/sonrie-bayern-munich-bundesliga-volvio-vincent-kompany-dirigir-dt-colonia-resultado_0_pruSHFn849.html",
-   "f": "Olé",
-   "alta": true,
+   "t": "Antes de la clasificación, Franco Colapinto quedó quinto en la última práctica del Gran Premio de Las Vegas de Fórmula 1",
+   "u": "https://www.infobae.com/deportes/2026/11/20/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-del-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
+   "f": "Infobae",
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Hernandez : «La France est ma deuxième maison»",
-   "u": "https://www.lequipe.fr/Rugby/Article/L-argentin-juan-martin-hernandez-le-magicien-passe-par-la-france-raconte-ses-souvenirs-c-est-ma-deuxieme-maison/1744738#at_medium=RSS_feeds",
+   "t": "Olympiakos et Evan Fournier dominent le Real Madrid de Théo Maledon et Timothé Luwawu-Cabarrot en Euroligue",
+   "u": "https://www.lequipe.fr/Basket/Actualites/Olympiakos-et-evan-fournier-dominent-le-real-madrid-de-theo-maledon-et-timothe-luwawu-cabarrot-en-euroligue/1745027#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
