@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T02:28:10+00:00",
+ "atualizado": "2026-11-21T11:23:34+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,9 +11,15 @@
    },
    "noticias": [
     {
-     "t": "Classificação do segundo turno: Santos empata com Palmeiras; Corinthians deixa lanterna",
-     "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/20/classificacao-do-segundo-turno-santos-empata-com-palmeiras-corinthians-deixa-lanterna.ghtml",
-     "f": "ge",
+     "t": "O retrospecto do Boca contra brasileiros em finais antes de encarar o Atlético-MG e o que assistir no Disney+",
+     "u": "https://www.espn.com.br/futebol/libertadores/artigo/_/id/17531030/atletico-mg-boca-juniors-final-sulamericana-retrospecto-finais-brasileiros-disney-plus",
+     "f": "ESPN Brasil",
+     "alta": false
+    },
+    {
+     "t": "Como destino 'repete filme' para Danilo em Palmeiras x Flamengo após virar herói na Libertadores, mas agora em outra 'função'",
+     "u": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17533777/danilo-flamengo-palmeiras-destino-heroi-libertadores-outra-funcao",
+     "f": "ESPN Brasil",
      "alta": false
     },
     {
@@ -23,14 +29,8 @@
      "alta": false
     },
     {
-     "t": "Atlético-MG x Boca Juniors pela Sul-Americana: onde assistir ao vivo, histórico e escalações",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-sulamericana/atletico-mg-x-boca-juniors-pela-sul-americana-onde-assistir-ao-vivo-historico-e-escalacoes/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Torcida do Boca \"invade\" Caribe colombiano e faz banderazo antes da final contra Atlético-MG; assista",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/20/torcida-do-boca-invade-caribe-colombiano-e-faz-banderazo-antes-da-final-contra-atletico-mg-assista.ghtml",
+     "t": "Campeão em São Paulo? Flamengo tenta novo título na casa do Palmeiras e vê estado como berço de troféus",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/21/campeao-em-sao-paulo-flamengo-tenta-novo-titulo-na-casa-do-palmeiras-e-ve-estado-como-berco-de-trofeus.ghtml",
      "f": "ge",
      "alta": false
     }
@@ -51,21 +51,21 @@
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Rockets-Nuggets, Oregon-Michigan State",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-rockets-nuggets-oregon-michigan-state/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Ranked football teams overshadow renewal of a top college basketball's top rivalry, Kentucky-Indiana",
-     "u": "https://sports.yahoo.com/articles/ranked-football-teams-overshadow-renewal-021749222.html",
+     "t": "🚨 Man City and Fulham confirm XIs for Premier League clash",
+     "u": "https://sports.yahoo.com/articles/man-city-fulham-confirm-xis-111700033.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Luke Mergott injury update: Duke football linebacker exits Clemson game",
-     "u": "https://sports.yahoo.com/articles/luke-mergott-injury-duke-football-021444370.html",
-     "f": "Yahoo Sports",
+     "t": "Our guide to every NFL Week 11 game: Matchup previews, predictions, picks and nuggets",
+     "u": "https://www.espn.com/nfl/story/_/id/50522208/week-11-picks-predictions-schedule-fantasy-odds-2026",
+     "f": "ESPN",
+     "alta": false
+    },
+    {
+     "t": "NHL Power Rankings: Updated poll, plus fantasy hockey add/drops for all 32 teams",
+     "u": "https://www.espn.com/nhl/story/_/id/50532384/nhl-2026-27-power-rankings-top-teams-players-stats-projections-standings-fantasy-hockey",
+     "f": "ESPN",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "FC Porto B perde em Inglaterra",
-     "u": "https://www.abola.pt/noticias/fc-porto-b-perde-em-inglaterra-2026112021075875837",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "FC Porto B homenageia Bobby Robson em Inglaterra",
-     "u": "https://www.abola.pt/noticias/fc-porto-b-homenageia-bobby-robson-em-inglaterra-2026112018441354460",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Um susto como há muito não se via: FC Porto evitou novo escândalo na Taça",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/um-susto-como-ha-muito-nao-se-via-fc-porto-evitou-novo-escandalo-na-taca",
+     "t": "Sporting-Benfica, em direto",
+     "u": "https://www.record.pt/futebol/futebol-nacional/iniciados/detalhe/20261121-100945-sporting-benfica-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "O interrogatório do FC Porto-Paredes: luvas de Cláudio salvam Moura",
-     "u": "https://www.record.pt/futebol/futebol-nacional/taca-de-portugal/detalhe/o-interrogatorio-do-fc-porto-paredes-luvas-de-claudio-salvam-moura",
+     "t": "«Quero voltar a fazer história»: Sporting recebido em festa após título mundial",
+     "u": "https://www.abola.pt/noticias/quero-voltar-a-fazer-historia-sporting-recebido-em-festa-apos-titulo-mundial-2026112109575210540",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "«Isto não para»: Sporting comemora Taça Continental... de olho na Champions",
+     "u": "https://www.abola.pt/video/isto-nao-para-sporting-comemora-taca-continental-de-olho-na-champions-2026112108305247143",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Jonathan Jesus exige ginástica negocial do Benfica: Cruzeiro quer pelo menos 20 milhões de euros",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/jonathan-jesus-exige-ginastica-negocial-do-benfica-cruzeiro-quer-pelo-menos-20-milhoes-de-euros",
      "f": "Record",
      "alta": false
     }
@@ -119,21 +119,21 @@
      "alta": false
     },
     {
+     "t": "Año 1 en el nuevo Spotify Camp Nou",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253551/ano-1-nuevo-spotify-camp-nou.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "La retirada de carnets provoca la rebelión de socios del Real Madrid",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261121/1004253639/retirada-carnets-provoca-rebelion-socios-real-madrid.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "El botín de más de un millón y medio de dólares que acumula Zverev en las ATP Finals de Turín",
      "u": "https://www.marca.com/tenis/copa-masters/2026/11/20/botin-millon-medio-dolares-acumula-zverev-atp-finals-turin.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Noche de terror para el Bayern",
-     "u": "https://www.mundodeportivo.com/futbol/bundesliga/20261120/1004253540/bayern.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Ahogo al Manchester City",
-     "u": "https://www.mundodeportivo.com/futbol/premier-league/20261119/1004253082/ahogo-manchester-city.html",
-     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
+     "t": "Man City vs Fulham team news as Fernandez is benched LIVE!",
+     "u": "https://www.skysports.com/football/manchester-city-vs-fulham/live/559551",
+     "f": "Sky Sports",
+     "alta": true
+    },
+    {
      "t": "Pochettino’s fiery start, plus England v All Blacks and ATP Finals finale – follow with us",
      "u": "https://www.theguardian.com/sport/2026/nov/20/pochettinos-fiery-start-plus-england-v-all-blacks-and-atp-finals-finale-follow-with-us",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "England's Penge grabs PGA Tour lead as battle to keep cards heats up",
-     "u": "https://www.skysports.com/golf/news/12040/13614419/pga-tour-englands-marco-penge-grabs-halfway-lead-at-rsm-classic-as-big-names-battle-to-secure-fedexcup-future",
-     "f": "Sky Sports",
-     "alta": false
-    },
-    {
-     "t": "NFL great Brady could buy Chelsea stake",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "The Super Bowl of F1: how Las Vegas GP has hit the jackpot after turbulent start",
-     "u": "https://www.theguardian.com/sport/2026/nov/20/super-bowl-formula-one-las-vegas-grand-prix-jackpot",
+     "t": "‘I’ll be back’: vows Kane after ankle surgery, Premier League resumes: football news – matchday live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
      "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Hamilton 'devastated', Leclerc 'angry' after Ferrari Las Vegas shocker",
+     "u": "https://www.skysports.com/f1/news/12040/13614577/las-vegas-gp-lewis-hamilton-devastated-and-charles-leclerc-angry-after-both-ferrari-drivers-make-shock-early-exits-from-qualifying",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Antes de la clasificación, Franco Colapinto quedó quinto en la última práctica del Gran Premio de Las Vegas de Fórmula 1",
+     "t": "Los Pumas visitarán a Francia en el cierre de la primera fase del Nations Championship",
+     "u": "https://www.infobae.com/deportes/2026/11/21/los-pumas-visitaran-a-francia-en-el-cierre-de-la-primera-fase-del-nations-championship/",
+     "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Franco Colapinto largará en la 9° posición del Gran Premio de Las Vegas de Fórmula 1: Verstappen se quedó con la pole",
      "u": "https://www.infobae.com/deportes/2026/11/20/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-del-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Armá tu 11 de Boca para la final de la Copa Sudamericana ante Atlético Mineiro",
-     "u": "https://www.ole.com.ar/boca-juniors/arma-11-boca-formacion-final-copasudamericana-atleticomineiro-vascoarruabarrena_0_hWPBGsAp5j.html",
+     "t": "A qué hora juega Boca vs. Atlético Mineiro y cómo ver hoy EN VIVO la final de la Copa Sudamericana",
+     "u": "https://www.ole.com.ar/futbol-internacional/sudamericana/boca-vs-atletico-mineiro-final-copa-sudamericana-boca-hoy-vivo-ver-tv-online-formaciones_0_GuwM4bNr11.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Cimbronazo en la Fórmula 1: cinco pilotos recibieron sanciones de cara a la clasificación del Gran Premio de Las Vegas",
-     "u": "https://www.infobae.com/deportes/2026/11/20/cimbronazo-en-la-formula-1-cinco-pilotos-recibieron-sanciones-de-cara-a-la-clasificacion-del-gran-premio-de-las-vegas/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "Lionel Messi en Inter Miami vs. Columbus Crew, por los playoffs de la MLS: horario y cómo ver en vivo",
-     "u": "https://www.ole.com.ar/futbol-internacional/mls/inter-miami-vs-columbus-crew-playoffs-mls-horario-ver-tv-online_0_oLglWm8NK5.html",
+     "t": "Partidos de HOY, sábado 21 de noviembre: agenda, horario y por dónde ver fútbol EN VIVO",
+     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-sabado-21-noviembre-2026-agenda-ole-horario-ver-futbol-vivo_0_W0MrjBeOHZ.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Olympiakos et Evan Fournier dominent le Real Madrid de Théo Maledon et Timothé Luwawu-Cabarrot en Euroligue",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Olympiakos-et-evan-fournier-dominent-le-real-madrid-de-theo-maledon-et-timothe-luwawu-cabarrot-en-euroligue/1745027#at_medium=RSS_feeds",
+     "t": "« Il faut bien que quelqu'un lui tienne tête » : George Russell remonté contre Max Verstappen après leur accrochage lors des essais libres 3 à Las Veg",
+     "u": "https://www.lequipe.fr/Formule-1/Actualites/-il-faut-bien-que-quelqu-un-lui-tienne-tete-george-russell-remonte-contre-max-verstappen-apres-leur-accrochage-lors-des-essais-libres-3-a-las-vegas/1745056#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Hernandez : «La France est ma deuxième maison»",
-     "u": "https://www.lequipe.fr/Rugby/Article/L-argentin-juan-martin-hernandez-le-magicien-passe-par-la-france-raconte-ses-souvenirs-c-est-ma-deuxieme-maison/1744738#at_medium=RSS_feeds",
+     "t": "À quelle heure et sur quelle chaîne voir San Antonio Spurs - New Orleans Pelicans en NBA ?",
+     "u": "https://www.lequipe.fr/Basket/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-san-antonio-spurs-new-orleans-pelicans-en-nba/1744598#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,9 +253,9 @@
  ],
  "destaques": [
   {
-   "t": "Classificação do segundo turno: Santos empata com Palmeiras; Corinthians deixa lanterna",
-   "u": "https://ge.globo.com/gato-mestre/noticia/2026/11/20/classificacao-do-segundo-turno-santos-empata-com-palmeiras-corinthians-deixa-lanterna.ghtml",
-   "f": "ge",
+   "t": "O retrospecto do Boca contra brasileiros em finais antes de encarar o Atlético-MG e o que assistir no Disney+",
+   "u": "https://www.espn.com.br/futebol/libertadores/artigo/_/id/17531030/atletico-mg-boca-juniors-final-sulamericana-retrospecto-finais-brasileiros-disney-plus",
+   "f": "ESPN Brasil",
    "alta": false,
    "pais": "BR"
   },
@@ -267,9 +267,9 @@
    "pais": "US"
   },
   {
-   "t": "FC Porto B perde em Inglaterra",
-   "u": "https://www.abola.pt/noticias/fc-porto-b-perde-em-inglaterra-2026112021075875837",
-   "f": "A Bola",
+   "t": "Sporting-Benfica, em direto",
+   "u": "https://www.record.pt/futebol/futebol-nacional/iniciados/detalhe/20261121-100945-sporting-benfica-em-direto",
+   "f": "Record",
    "alta": false,
    "pais": "PT"
   },
@@ -281,15 +281,15 @@
    "pais": "ES"
   },
   {
-   "t": "Pochettino’s fiery start, plus England v All Blacks and ATP Finals finale – follow with us",
-   "u": "https://www.theguardian.com/sport/2026/nov/20/pochettinos-fiery-start-plus-england-v-all-blacks-and-atp-finals-finale-follow-with-us",
-   "f": "The Guardian",
-   "alta": false,
+   "t": "Man City vs Fulham team news as Fernandez is benched LIVE!",
+   "u": "https://www.skysports.com/football/manchester-city-vs-fulham/live/559551",
+   "f": "Sky Sports",
+   "alta": true,
    "pais": "GB"
   },
   {
-   "t": "Antes de la clasificación, Franco Colapinto quedó quinto en la última práctica del Gran Premio de Las Vegas de Fórmula 1",
-   "u": "https://www.infobae.com/deportes/2026/11/20/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-del-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
+   "t": "Los Pumas visitarán a Francia en el cierre de la primera fase del Nations Championship",
+   "u": "https://www.infobae.com/deportes/2026/11/21/los-pumas-visitaran-a-francia-en-el-cierre-de-la-primera-fase-del-nations-championship/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
@@ -302,10 +302,10 @@
    "pais": "IT"
   },
   {
-   "t": "Olympiakos et Evan Fournier dominent le Real Madrid de Théo Maledon et Timothé Luwawu-Cabarrot en Euroligue",
-   "u": "https://www.lequipe.fr/Basket/Actualites/Olympiakos-et-evan-fournier-dominent-le-real-madrid-de-theo-maledon-et-timothe-luwawu-cabarrot-en-euroligue/1745027#at_medium=RSS_feeds",
+   "t": "« Il faut bien que quelqu'un lui tienne tête » : George Russell remonté contre Max Verstappen après leur accrochage lors des essais libres 3 à Las Veg",
+   "u": "https://www.lequipe.fr/Formule-1/Actualites/-il-faut-bien-que-quelqu-un-lui-tienne-tete-george-russell-remonte-contre-max-verstappen-apres-leur-accrochage-lors-des-essais-libres-3-a-las-vegas/1745056#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": false,
+   "alta": true,
    "pais": "FR"
   }
  ],
