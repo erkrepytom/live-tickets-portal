@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T11:23:34+00:00",
+ "atualizado": "2026-11-21T19:27:50+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "O retrospecto do Boca contra brasileiros em finais antes de encarar o Atlético-MG e o que assistir no Disney+",
-     "u": "https://www.espn.com.br/futebol/libertadores/artigo/_/id/17531030/atletico-mg-boca-juniors-final-sulamericana-retrospecto-finais-brasileiros-disney-plus",
-     "f": "ESPN Brasil",
-     "alta": false
-    },
-    {
-     "t": "Como destino 'repete filme' para Danilo em Palmeiras x Flamengo após virar herói na Libertadores, mas agora em outra 'função'",
-     "u": "https://www.espn.com.br/futebol/flamengo/artigo/_/id/17533777/danilo-flamengo-palmeiras-destino-heroi-libertadores-outra-funcao",
-     "f": "ESPN Brasil",
-     "alta": false
-    },
-    {
-     "t": "Paredes projeta final “especial” da Sul-Americana do Boca Juniors contra o Atlético-MG",
-     "u": "https://www.gazetaesportiva.com/times/boca-juniors/paredes-projeta-final-especial-da-sul-americana-do-boca-juniors-contra-o-atletico-mg/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Campeão em São Paulo? Flamengo tenta novo título na casa do Palmeiras e vê estado como berço de troféus",
-     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/21/campeao-em-sao-paulo-flamengo-tenta-novo-titulo-na-casa-do-palmeiras-e-ve-estado-como-berco-de-trofeus.ghtml",
+     "t": "Palmeiras x Flamengo - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/21-11-2026/palmeiras-flamengo.ghtml",
      "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Palmeiras tem mudança no ataque e reforços no banco para pegar o Flamengo; veja escalações",
+     "u": "https://www.gazetaesportiva.com/times/palmeiras/escalacoes-palmeiras-x-flamengo-36-rodada-brasileirao-21-11-2026/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "Jardim cutuca Abel Ferreira antes de Palmeiras x Flamengo: \"Os adversários se vitimizam\"",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/21/jardim-cutuca-abel-ferreira-antes-de-palmeiras-x-flamengo-os-adversarios-se-vitimizam.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Brasil bate Irlanda com golaço de joia do Palmeiras e estreia com vitória no Mundial sub-17",
+     "u": "https://www.gazetaesportiva.com/futebol/brasil-vence-irlanda-mundial-sub-17/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "49ers lose shot at breaking NFL record for most miles traveled due to Week 11 travel detour en route to Mexico",
-     "u": "https://www.cbssports.com/nfl/news/49ers-lose-shot-breaking-nfl-record-most-miles-traveled-week-11-travel-detour/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "🚨 Man City and Fulham confirm XIs for Premier League clash",
-     "u": "https://sports.yahoo.com/articles/man-city-fulham-confirm-xis-111700033.html",
+     "t": "PSG lose Doue to knee injury in Ligue 1 win at Nice",
+     "u": "https://sports.yahoo.com/articles/psg-lose-doue-knee-injury-183919160.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Our guide to every NFL Week 11 game: Matchup previews, predictions, picks and nuggets",
-     "u": "https://www.espn.com/nfl/story/_/id/50522208/week-11-picks-predictions-schedule-fantasy-odds-2026",
-     "f": "ESPN",
+     "t": "How to watch 49ers vs. Vikings in Mexico City: TV, streaming, betting odds for 'Sunday Night Football' clash",
+     "u": "https://www.cbssports.com/nfl/news/how-to-watch-49ers-vikings-tv-streaming-betting-odds-sunday-night-football-clash/",
+     "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NHL Power Rankings: Updated poll, plus fantasy hockey add/drops for all 32 teams",
-     "u": "https://www.espn.com/nhl/story/_/id/50532384/nhl-2026-27-power-rankings-top-teams-players-stats-projections-standings-fantasy-hockey",
-     "f": "ESPN",
+     "t": "76ers vs. Bucks prediction, odds, time: 2026 NBA picks for Saturday, Nov. 21 from proven model",
+     "u": "https://www.cbssports.com/betting/news/76ers-bucks-prediction-odds-time-2026-nba-picks-best-bets-saturday-november-21/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "PSG’s 12th straight win marred by serious-looking injury to Doue",
+     "u": "https://sports.yahoo.com/articles/psg-12th-straight-win-marred-191831259.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Sporting-Benfica, em direto",
-     "u": "https://www.record.pt/futebol/futebol-nacional/iniciados/detalhe/20261121-100945-sporting-benfica-em-direto",
+     "t": "Rodrigo Mora aproveitou um corte incompleto e voltou a faturar com a camisola da Roma",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/rodrigo-mora-aproveitou-um-corte-incompleto-e-voltou-a-faturar-com-a-camisola-da-roma",
      "f": "Record",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "«Quero voltar a fazer história»: Sporting recebido em festa após título mundial",
-     "u": "https://www.abola.pt/noticias/quero-voltar-a-fazer-historia-sporting-recebido-em-festa-apos-titulo-mundial-2026112109575210540",
+     "t": "AG do FC Porto: conduta de Ricardo Costa alvo de apelo ao Conselho Fiscal e Disciplinar",
+     "u": "https://www.abola.pt/noticias/ag-do-fc-porto-conduta-de-ricardo-costa-alvo-de-apelo-ao-conselho-fiscal-e-disciplinar-2026112117064537924",
      "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "O longo caminho de Tiago Rodrigues: dos treinos com o pai ao topo do futsal mundial pelo Sporting",
+     "u": "https://www.record.pt/futebol/futsal/detalhe/o-longo-caminho-de-tiago-rodrigues-dos-treinos-com-o-pai-ao-topo-do-futsal-mundial-pelo-sporting",
+     "f": "Record",
      "alta": false
     },
     {
      "t": "«Isto não para»: Sporting comemora Taça Continental... de olho na Champions",
      "u": "https://www.abola.pt/video/isto-nao-para-sporting-comemora-taca-continental-de-olho-na-champions-2026112108305247143",
      "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Jonathan Jesus exige ginástica negocial do Benfica: Cruzeiro quer pelo menos 20 milhões de euros",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/jonathan-jesus-exige-ginastica-negocial-do-benfica-cruzeiro-quer-pelo-menos-20-milhoes-de-euros",
-     "f": "Record",
      "alta": false
     }
    ]
@@ -113,20 +113,20 @@
    },
    "noticias": [
     {
+     "t": "Real Madrid - Celta de Vigo, en directo",
+     "u": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004251893/real-madrid-celta-vigo-directo-laliga-ea-sports-ext-pau.html",
+     "f": "Mundo Deportivo",
+     "alta": true
+    },
+    {
      "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
      "u": "https://www.marca.com/futbol/nations-league/2026/11/20/uefa-multa-inglaterra-canticos-anticatolicos-aficionados-madrid.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "Año 1 en el nuevo Spotify Camp Nou",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253551/ano-1-nuevo-spotify-camp-nou.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "La retirada de carnets provoca la rebelión de socios del Real Madrid",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261121/1004253639/retirada-carnets-provoca-rebelion-socios-real-madrid.html",
+     "t": "Sorpresa con Vinicius en el once titular del Real Madrid ante el Celta",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261121/1004253761/sorpresa-vinicius-once-titular-real-madrid-celta.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Man City vs Fulham team news as Fernandez is benched LIVE!",
-     "u": "https://www.skysports.com/football/manchester-city-vs-fulham/live/559551",
-     "f": "Sky Sports",
-     "alta": true
-    },
-    {
-     "t": "Pochettino’s fiery start, plus England v All Blacks and ATP Finals finale – follow with us",
-     "u": "https://www.theguardian.com/sport/2026/nov/20/pochettinos-fiery-start-plus-england-v-all-blacks-and-atp-finals-finale-follow-with-us",
+     "t": "Ireland stand firm to beat South Africa but Erasmus’s men head to final",
+     "u": "https://www.theguardian.com/sport/2026/nov/21/ireland-south-africa-nations-championship-rugby-union-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "‘I’ll be back’: vows Kane after ankle surgery, Premier League resumes: football news – matchday live",
-     "u": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
-     "f": "The Guardian",
+     "t": "Ireland hold on for huge win over South Africa",
+     "u": "https://www.skysports.com/rugby-union/ireland-vs-south-africa/report/111695",
+     "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Hamilton 'devastated', Leclerc 'angry' after Ferrari Las Vegas shocker",
-     "u": "https://www.skysports.com/f1/news/12040/13614577/las-vegas-gp-lewis-hamilton-devastated-and-charles-leclerc-angry-after-both-ferrari-drivers-make-shock-early-exits-from-qualifying",
-     "f": "Sky Sports",
+     "t": "England call up McKinney for South Africa Tests",
+     "u": "https://www.bbc.co.uk/sport/cricket/articles/cwx2evg5pez6o?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Slade helps sparkling England power to record victory as All Blacks wilt again",
+     "u": "https://www.theguardian.com/sport/2026/nov/21/england-new-zealand-nations-championship-rugby-union-match-report",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,6 +181,18 @@
    },
    "noticias": [
     {
+     "t": "Video: la dura lesión de Desire Doué en el PSG",
+     "u": "https://www.ole.com.ar/futbol-internacional/francia/video-dura-lesion-desire-doue-psg_0_titiqnjaFi.html",
+     "f": "Olé",
+     "alta": true
+    },
+    {
+     "t": "Los Pumas vs. Francia, hoy EN VIVO: a qué hora juegan y dónde ver por TV el partido del Nations Championship",
+     "u": "https://www.ole.com.ar/rugby/pumas-vs-francia-hoy-vivo-hora-ver-tv-partido-nations-championship_0_1aKFpKE6E2.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
      "t": "Los Pumas visitarán a Francia en el cierre de la primera fase del Nations Championship",
      "u": "https://www.infobae.com/deportes/2026/11/21/los-pumas-visitaran-a-francia-en-el-cierre-de-la-primera-fase-del-nations-championship/",
      "f": "Infobae",
@@ -190,18 +202,6 @@
      "t": "Franco Colapinto largará en la 9° posición del Gran Premio de Las Vegas de Fórmula 1: Verstappen se quedó con la pole",
      "u": "https://www.infobae.com/deportes/2026/11/20/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-del-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "A qué hora juega Boca vs. Atlético Mineiro y cómo ver hoy EN VIVO la final de la Copa Sudamericana",
-     "u": "https://www.ole.com.ar/futbol-internacional/sudamericana/boca-vs-atletico-mineiro-final-copa-sudamericana-boca-hoy-vivo-ver-tv-online-formaciones_0_GuwM4bNr11.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Partidos de HOY, sábado 21 de noviembre: agenda, horario y por dónde ver fútbol EN VIVO",
-     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-sabado-21-noviembre-2026-agenda-ole-horario-ver-futbol-vivo_0_W0MrjBeOHZ.html",
-     "f": "Olé",
      "alta": false
     }
    ]
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "« Il faut bien que quelqu'un lui tienne tête » : George Russell remonté contre Max Verstappen après leur accrochage lors des essais libres 3 à Las Veg",
-     "u": "https://www.lequipe.fr/Formule-1/Actualites/-il-faut-bien-que-quelqu-un-lui-tienne-tete-george-russell-remonte-contre-max-verstappen-apres-leur-accrochage-lors-des-essais-libres-3-a-las-vegas/1745056#at_medium=RSS_feeds",
+     "t": "Un quadruplé de Donyell Malen et une invincibilité préservée en Serie A : l'AS Rome déroule contre Parme avant de retrouver le PSG en Ligue des champi",
+     "u": "https://www.lequipe.fr/Football/Actualites/Un-quadruple-de-donyell-malen-et-une-invincibilite-preservee-en-serie-a-l-as-rome-deroule-contre-parme-avant-de-retrouver-le-psg-en-ligue-des-champions/1745185#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": true
     },
     {
-     "t": "À quelle heure et sur quelle chaîne voir San Antonio Spurs - New Orleans Pelicans en NBA ?",
-     "u": "https://www.lequipe.fr/Basket/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-san-antonio-spurs-new-orleans-pelicans-en-nba/1744598#at_medium=RSS_feeds",
+     "t": "Justo Piccardo finalement titulaire avec l'Argentine contre la France, à la place de Santiago Chocobares, blessé",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Justo-piccardo-finalement-titulaire-avec-l-argentine-contre-la-france-a-la-place-de-santiago-chocobares-blesse/1745188#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "O retrospecto do Boca contra brasileiros em finais antes de encarar o Atlético-MG e o que assistir no Disney+",
-   "u": "https://www.espn.com.br/futebol/libertadores/artigo/_/id/17531030/atletico-mg-boca-juniors-final-sulamericana-retrospecto-finais-brasileiros-disney-plus",
-   "f": "ESPN Brasil",
-   "alta": false,
+   "t": "Palmeiras x Flamengo - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+   "u": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/21-11-2026/palmeiras-flamengo.ghtml",
+   "f": "ge",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "49ers lose shot at breaking NFL record for most miles traveled due to Week 11 travel detour en route to Mexico",
-   "u": "https://www.cbssports.com/nfl/news/49ers-lose-shot-breaking-nfl-record-most-miles-traveled-week-11-travel-detour/",
-   "f": "CBS Sports",
+   "t": "PSG lose Doue to knee injury in Ligue 1 win at Nice",
+   "u": "https://sports.yahoo.com/articles/psg-lose-doue-knee-injury-183919160.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Sporting-Benfica, em direto",
-   "u": "https://www.record.pt/futebol/futebol-nacional/iniciados/detalhe/20261121-100945-sporting-benfica-em-direto",
+   "t": "Rodrigo Mora aproveitou um corte incompleto e voltou a faturar com a camisola da Roma",
+   "u": "https://www.record.pt/multimedia/videos/detalhe/rodrigo-mora-aproveitou-um-corte-incompleto-e-voltou-a-faturar-com-a-camisola-da-roma",
    "f": "Record",
-   "alta": false,
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
-   "u": "https://www.marca.com/futbol/nations-league/2026/11/20/uefa-multa-inglaterra-canticos-anticatolicos-aficionados-madrid.html",
-   "f": "Marca",
-   "alta": false,
+   "t": "Real Madrid - Celta de Vigo, en directo",
+   "u": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004251893/real-madrid-celta-vigo-directo-laliga-ea-sports-ext-pau.html",
+   "f": "Mundo Deportivo",
+   "alta": true,
    "pais": "ES"
   },
   {
-   "t": "Man City vs Fulham team news as Fernandez is benched LIVE!",
-   "u": "https://www.skysports.com/football/manchester-city-vs-fulham/live/559551",
-   "f": "Sky Sports",
-   "alta": true,
+   "t": "Ireland stand firm to beat South Africa but Erasmus’s men head to final",
+   "u": "https://www.theguardian.com/sport/2026/nov/21/ireland-south-africa-nations-championship-rugby-union-match-report",
+   "f": "The Guardian",
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Los Pumas visitarán a Francia en el cierre de la primera fase del Nations Championship",
-   "u": "https://www.infobae.com/deportes/2026/11/21/los-pumas-visitaran-a-francia-en-el-cierre-de-la-primera-fase-del-nations-championship/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Video: la dura lesión de Desire Doué en el PSG",
+   "u": "https://www.ole.com.ar/futbol-internacional/francia/video-dura-lesion-desire-doue-psg_0_titiqnjaFi.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "« Il faut bien que quelqu'un lui tienne tête » : George Russell remonté contre Max Verstappen après leur accrochage lors des essais libres 3 à Las Veg",
-   "u": "https://www.lequipe.fr/Formule-1/Actualites/-il-faut-bien-que-quelqu-un-lui-tienne-tete-george-russell-remonte-contre-max-verstappen-apres-leur-accrochage-lors-des-essais-libres-3-a-las-vegas/1745056#at_medium=RSS_feeds",
+   "t": "Un quadruplé de Donyell Malen et une invincibilité préservée en Serie A : l'AS Rome déroule contre Parme avant de retrouver le PSG en Ligue des champi",
+   "u": "https://www.lequipe.fr/Football/Actualites/Un-quadruple-de-donyell-malen-et-une-invincibilite-preservee-en-serie-a-l-as-rome-deroule-contre-parme-avant-de-retrouver-le-psg-en-ligue-des-champions/1745185#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": true,
    "pais": "FR"
