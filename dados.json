@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T08:08:02+00:00",
+ "atualizado": "2026-11-22T16:24:43+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Análise: Domínguez faz Atlético-MG ser engolido pelo Boca e coloca em xeque vaga na Libertadores",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/22/analise-dominguez-faz-atletico-mg-ser-engolido-pelo-boca-e-coloca-em-xeque-vaga-na-libertadores.ghtml",
+     "t": "Escalação: Santos terá Bontempo de volta contra o Grêmio; veja contas por Libertadores",
+     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/22/escalacao-santos-tera-bontempo-de-volta-contra-o-gremio-veja-contas-por-libertadores.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Atlético-MG é dominado pelo Boca Juniors e fica com o vice da Sul-Americana de novo",
-     "u": "https://www.espn.com.br/futebol/sul-americana/artigo/_/id/17545784/atletico-mg-dominado-boca-juniors-fica-com-vice-da-copa-sul-americana-de-novo",
-     "f": "ESPN Brasil",
-     "alta": false
-    },
-    {
-     "t": "Atlético-MG é dominado pelo Boca e amarga segundo vice seguido da Sul-Americana",
-     "u": "https://www.gazetaesportiva.com/times/atletico-mg/atletico-mg-e-dominado-pelo-boca-e-amarga-segundo-vice-seguido-da-sul-americana/",
+     "t": "Corinthians se prepara para confronto contra o Atlético-MG",
+     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-se-prepara-para-confronto-contra-o-atletico-mg/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Antigo alvo do Flamengo faz dois, Leeds goleia Chelsea e quebra jejum de 27 anos na Premier League",
-     "u": "https://www.espn.com.br/futebol/premier-league/artigo/_/id/17542637/antigo-alvo-flamengo-faz-dois-leeds-goleia-chelsea-quebra-jejum-27-anos-premier-league",
-     "f": "ESPN Brasil",
+     "t": "Com vice na Sul-Americana, como fica a situação do Atlético-MG para a Libertadores via Brasileiro?",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/22/com-vice-na-sul-americana-como-fica-a-situacao-do-atletico-mg-para-a-libertadores-via-brasileiro.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Veja fotos do Grande Prêmio de Las Vegas de Fórmula 1",
+     "u": "https://www.gazetaesportiva.com/motor/formula-1/veja-fotos-do-grande-premio-de-las-vegas-de-formula-1/",
+     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Vikings vs. 49ers prediction, odds, time: 'Sunday Night Football' in Mexico City picks by proven model",
-     "u": "https://www.cbssports.com/betting/news/vikings-49ers-prediction-odds-time-2026-sunday-night-football-mexico-city-picks/",
+     "t": "'Sunday Night Football' in Mexico City prediction, odds, time: 49ers vs. Vikings picks by expert on 40-17 run",
+     "u": "https://www.cbssports.com/betting/news/sunday-night-football-mexico-city-prediction-odds-time-49ers-vikings-expert-picks/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Leclerc Hit Hamilton in Vegas. Hamilton Says He Never Asked to Be Ferrari’s No. 1",
-     "u": "https://sports.yahoo.com/articles/leclerc-hit-hamilton-vegas-hamilton-075500853.html",
+     "t": "Vikings vs. 49ers prediction, odds, betting preview: Sunday Night Football picks, best bets for Mexico City",
+     "u": "https://www.cbssports.com/betting/news/vikings-vs-49ers-prediction-odds-betting-preview-sunday-night-football-picks-best-bets-mexico-city/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Tom Jackson, former Broncos star and 'Sunday NFL Countdown' analyst, dead at 75",
+     "u": "https://sports.yahoo.com/articles/tom-jackson-former-broncos-star-161757341.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "F1 odds, predictions: Get almost $4,000 in bonuses from betting apps, sportsbooks for Las Vegas Grand Prix",
-     "u": "https://www.cbssports.com/betting/news/f1-odds-predictions-get-almost-4000-bonuses-from-betting-apps-sportsbooks-las-vegas-grand-prix/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Real Madrid hero Carlos Espi reveals what scoring at the Bernabeu means to him",
-     "u": "https://sports.yahoo.com/articles/real-madrid-hero-carlos-espi-075400594.html",
+     "t": "Daniel Jones next team: Latest waiver news, contract timeline for NFL QB",
+     "u": "https://sports.yahoo.com/articles/daniel-jones-next-team-latest-161135433.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,8 +79,8 @@
    },
    "noticias": [
     {
-     "t": "Neemias Queta em ação no Sacramento Kings-Boston Celtics: equipas, resultado e estatísticas ao minuto",
-     "u": "https://www.record.pt/modalidades/basquetebol/detalhe/sacramento-kings-boston-ao-minuto",
+     "t": "Leclerc bateu em Hamilton e Ferrari está a ferro e fogo: «É absolutamente inaceitável»",
+     "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/leclerc-bateu-em-hamilton-e-ferrari-esta-a-ferro-e-fogo-e-absolutamente-inaceitavel",
      "f": "Record",
      "alta": false
     },
@@ -97,8 +97,8 @@
      "alta": false
     },
     {
-     "t": "Desfeita a dúvida: Trubin assume baliza do Benfica frente ao Torreense",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/desfeita-a-duvida-trubin-regressa-ao-onze-frente-ao-torreense",
+     "t": "Líder de cartel “El Chapo Isidro” é transferido para a Cidade do México após ter sido detido",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/lider-de-cartel-el-chapo-isidro-e-transferido-para-a-cidade-do-mexico-apos-ter-sido-detido",
      "f": "Record",
      "alta": false
     }
@@ -113,27 +113,27 @@
    },
    "noticias": [
     {
-     "t": "Así queda la clasificación de LaLiga EA Sports tras el triunfo del Real Madrid sobre el Celta",
-     "u": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004253896/asi-queda-clasificacion-laliga-ea-sports-triunfo-real-madrid-sobre-celta.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Guerra civil en Ferrari, Hamilton y Leclerc se chocan y se quejan: \"Esto no va a acabar bien\"",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261122/1004253983/hamilton-leclerc-vuelven-pelear-dardos-radio-esto-no-acabar.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
      "u": "https://www.marca.com/futbol/nations-league/2026/11/20/uefa-multa-inglaterra-canticos-anticatolicos-aficionados-madrid.html",
      "f": "Marca",
      "alta": false
     },
     {
+     "t": "Remontada épica de un Barça de dos caras",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261122/1004254088/cronica-barca-villarreal.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "El botín de más de un millón y medio de dólares que acumula Zverev en las ATP Finals de Turín",
      "u": "https://www.marca.com/tenis/copa-masters/2026/11/20/botin-millon-medio-dolares-acumula-zverev-atp-finals-turin.html",
      "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "El 1x1 del Barça contra el Villarreal",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261122/1004254078/1x1-barca-villarreal.html",
+     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "France beat Argentina to set up Nations Championship final with South Africa",
-     "u": "https://www.theguardian.com/sport/2026/nov/21/france-beat-argentina-to-set-up-nations-championship-final-with-south-africa",
+     "t": "Arsenal v West Ham, Manchester City 1-3 Tottenham: WSL clockwatch – live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/22/wsl-manchester-city-tottenham-birmingham-manchester-united-arsenal-west-ham-live",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "France secure Nations Championship final with Springboks",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/c3zxv4e5g5g5o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Liverpool v Manchester United: Premier League – live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
+     "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Las Vegas GP: Reaction as Verstappen wins thriller, Hamilton-Leclerc collide LIVE!",
+     "t": "Las Vegas GP: Reaction after Verstappen wins thriller, Hamilton-Leclerc collide",
      "u": "https://www.skysports.com/f1/live-blog/12040/13615079/f1-las-vegas-gp-live-race-updates-results-stream-and-highlights-from-21st-round-of-2026-formula-1-season-in-usa",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "France reach Nations Championship final with bonus-point Argentina win",
-     "u": "https://www.skysports.com/rugby-union/france-vs-argentina/report/111696",
-     "f": "Sky Sports",
+     "t": "England will not get carried away by beating All Blacks",
+     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/ckr5gdpm1q5no?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     }
    ]
@@ -181,28 +181,28 @@
    },
    "noticias": [
     {
-     "t": "Franco Colapinto terminó sexto en el Gran Premio de Las Vegas de Fórmula 1: Max Verstappen ganó la carrera",
+     "t": "Franco Colapinto igualó su mejor resultado en la Fórmula 1: terminó sexto el Gran Premio de Las Vegas que ganó Max Verstappen",
      "u": "https://www.infobae.com/deportes/2026/11/21/franco-colapinto-largara-9-en-el-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "¿Cuándo vuelve a correr Colapinto? Día, horarios y TV del Gran Premio de Qatar de Fórmula 1",
-     "u": "https://www.ole.com.ar/autos/vuelve-correr-colapinto-dia-horarios-tv-gran-premio-qatar_0_UKgI0EtSGA.html",
+     "t": "NBA: Wembanyama y otro partido de locura con 50 puntos y el triple sobre la chicharra de los Knicks ante los Blazers",
+     "u": "https://www.ole.com.ar/basquet/nba-wembanyama-partido-locura-50-puntos-triple-chicharra-knicks_0_Jy90fQJ7Ya.html",
      "f": "Olé",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Así quedaron las posiciones de la Fórmula 1 tras el GP de Las Vegas",
-     "u": "https://www.ole.com.ar/autos/quedaron-posiciones-formula-1-gp-vegas_0_9HgA2MAhOE.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
-     "t": "Impresionante accidente en un evento de coleccionistas de Ferrari: el Fórmula 1 de la era de Schumacher involucrado en el incidente",
-     "u": "https://www.infobae.com/deportes/2026/11/21/impresionante-accidente-en-un-evento-de-coleccionistas-de-ferrari-el-formula-1-de-la-era-de-schumacher-involucrado-en-el-incidente/",
+     "t": "Cuándo volverá a correr Franco Colapinto en la Fórmula 1 tras su gran actuación en el Gran Premio de Las Vegas",
+     "u": "https://www.infobae.com/deportes/2026/11/22/cuando-volvera-a-correr-franco-colapinto-en-la-formula-1-tras-su-gran-actuacion-en-el-gran-premio-de-las-vegas/",
      "f": "Infobae",
-     "alta": true
+     "alta": false
+    },
+    {
+     "t": "El mensaje de los pibes del Vasco: \"Somos los turros, ¡esto es Boca!\"",
+     "u": "https://www.ole.com.ar/boca-juniors/tomas-aranda-wachiturros-boca-final-copa-sudamericana_0_UhW4nl2BPb.html",
+     "f": "Olé",
+     "alta": false
     }
    ]
   },
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "À quelle heure et sur quelle chaîne voir Atalanta-Inter en Serie A ?",
-     "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-atalanta-inter-en-serie-a/1744873#at_medium=RSS_feeds",
+     "t": "Quelle échéance pour une reprise ? Quel visage pour le PSG et l'équipe de France ? La longue absence de Désiré Doué pose de multiples questions",
+     "u": "https://www.lequipe.fr/Football/Article/Quelle-echeance-pour-une-reprise-quel-visage-pour-le-psg-et-l-equipe-de-france-la-longue-absence-de-desire-doue-pose-de-multiples-questions/1745392#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Frédéric Vasseur, après l'accrochage entre Charles Leclerc et Lewis Hamilton à Las Vegas : « C'est une erreur professionnelle de Charles »",
-     "u": "https://www.lequipe.fr/Formule-1/Actualites/Frederic-vasseur-apres-l-accrochage-entre-charles-leclerc-et-lewis-hamilton-a-las-vegas-c-est-une-erreur-professionnelle-de-charles/1745325#at_medium=RSS_feeds",
+     "t": "Pour sa première avec Manchester United, Pochettino titularise De Ligt et Yoro à Liverpool",
+     "u": "https://www.lequipe.fr/Football/Actualites/Pour-sa-premiere-avec-manchester-united-pochettino-titularise-de-ligt-et-yoro-a-liverpool/1745402#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "Análise: Domínguez faz Atlético-MG ser engolido pelo Boca e coloca em xeque vaga na Libertadores",
-   "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/22/analise-dominguez-faz-atletico-mg-ser-engolido-pelo-boca-e-coloca-em-xeque-vaga-na-libertadores.ghtml",
+   "t": "Escalação: Santos terá Bontempo de volta contra o Grêmio; veja contas por Libertadores",
+   "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/22/escalacao-santos-tera-bontempo-de-volta-contra-o-gremio-veja-contas-por-libertadores.ghtml",
    "f": "ge",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Vikings vs. 49ers prediction, odds, time: 'Sunday Night Football' in Mexico City picks by proven model",
-   "u": "https://www.cbssports.com/betting/news/vikings-49ers-prediction-odds-time-2026-sunday-night-football-mexico-city-picks/",
+   "t": "'Sunday Night Football' in Mexico City prediction, odds, time: 49ers vs. Vikings picks by expert on 40-17 run",
+   "u": "https://www.cbssports.com/betting/news/sunday-night-football-mexico-city-prediction-odds-time-49ers-vikings-expert-picks/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Neemias Queta em ação no Sacramento Kings-Boston Celtics: equipas, resultado e estatísticas ao minuto",
-   "u": "https://www.record.pt/modalidades/basquetebol/detalhe/sacramento-kings-boston-ao-minuto",
+   "t": "Leclerc bateu em Hamilton e Ferrari está a ferro e fogo: «É absolutamente inaceitável»",
+   "u": "https://www.record.pt/modalidades/motores/formula-1/detalhe/leclerc-bateu-em-hamilton-e-ferrari-esta-a-ferro-e-fogo-e-absolutamente-inaceitavel",
    "f": "Record",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Así queda la clasificación de LaLiga EA Sports tras el triunfo del Real Madrid sobre el Celta",
-   "u": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004253896/asi-queda-clasificacion-laliga-ea-sports-triunfo-real-madrid-sobre-celta.html",
-   "f": "Mundo Deportivo",
+   "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
+   "u": "https://www.marca.com/futbol/nations-league/2026/11/20/uefa-multa-inglaterra-canticos-anticatolicos-aficionados-madrid.html",
+   "f": "Marca",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "France beat Argentina to set up Nations Championship final with South Africa",
-   "u": "https://www.theguardian.com/sport/2026/nov/21/france-beat-argentina-to-set-up-nations-championship-final-with-south-africa",
+   "t": "Arsenal v West Ham, Manchester City 1-3 Tottenham: WSL clockwatch – live",
+   "u": "https://www.theguardian.com/football/live/2026/nov/22/wsl-manchester-city-tottenham-birmingham-manchester-united-arsenal-west-ham-live",
    "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Franco Colapinto terminó sexto en el Gran Premio de Las Vegas de Fórmula 1: Max Verstappen ganó la carrera",
+   "t": "Franco Colapinto igualó su mejor resultado en la Fórmula 1: terminó sexto el Gran Premio de Las Vegas que ganó Max Verstappen",
    "u": "https://www.infobae.com/deportes/2026/11/21/franco-colapinto-largara-9-en-el-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "À quelle heure et sur quelle chaîne voir Atalanta-Inter en Serie A ?",
-   "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-atalanta-inter-en-serie-a/1744873#at_medium=RSS_feeds",
+   "t": "Quelle échéance pour une reprise ? Quel visage pour le PSG et l'équipe de France ? La longue absence de Désiré Doué pose de multiples questions",
+   "u": "https://www.lequipe.fr/Football/Article/Quelle-echeance-pour-une-reprise-quel-visage-pour-le-psg-et-l-equipe-de-france-la-longue-absence-de-desire-doue-pose-de-multiples-questions/1745392#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
