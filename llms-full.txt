@@ -13,16 +13,6 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 
 ## Events
 
-### Ireland vs South Africa
-
-- Date: Saturday, November 21, 2026, 16:40 local time
-- Venue: Aviva Stadium, Lansdowne Road, Dublin, Ireland
-- Competition: Nations Championship
-- Teams: Ireland vs South Africa
-- About: Ireland host South Africa at the Aviva Stadium in Dublin in the 2026 Nations Championship.
-- Getting there: DART train to Lansdowne Road station, right next to the stadium. The station gets very busy on match day: arrive with time to spare.
-- Guide pages: pt-BR https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/, en https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/, es https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/
-
 ### Formula 1 Abu Dhabi Grand Prix
 
 - Date: Sunday, December 6, 2026, 14:00 local time
@@ -143,4 +133,4 @@ Site languages: Portuguese (https://mytickets.tours/), English (https://myticket
 - Affiliate disclosure and legal notice | MyTickets Tours: https://mytickets.tours/en/affiliate-disclosure/
 
 Contact: email@mytickets.tours. Editor: Everton Bras.
-Updated: 2026-11-21
+Updated: 2026-11-22

@@ -4,14 +4,6 @@ Catálogo completo del socio:
 
 ## Eventos con página
 
-### Irlanda vs Sudáfrica
-- Fecha: sábado, 21 de noviembre de 2026
-- Recinto: Aviva Stadium, Dublín, Irlanda (Nations Championship)
-- Entradas: 
-- Guía en el sitio: https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/
-- Tren DART hasta la estación Lansdowne Road, junto al estadio.
-- El día del partido la estación se llena: llega con margen.
-
 ### GP de Abu Dabi de Fórmula 1
 - Fecha: domingo, 6 de diciembre de 2026
 - Recinto: Yas Marina Circuit, Abu Dabi, Emiratos Árabes Unidos (Formula 1)

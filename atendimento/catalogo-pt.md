@@ -4,14 +4,6 @@ Catálogo completo do parceiro:
 
 ## Eventos com página
 
-### Irlanda x África do Sul
-- Data: sábado, 21 de novembro de 2026
-- Local: Aviva Stadium, Dublin, Irlanda (Nations Championship)
-- Ingressos: 
-- Guia no site: https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/
-- Trem DART até a estação Lansdowne Road, ao lado do estádio.
-- Em dia de jogo a estação fica cheia: chegue com folga.
-
 ### GP de Abu Dhabi de Fórmula 1
 - Data: domingo, 6 de dezembro de 2026
 - Local: Yas Marina Circuit, Abu Dhabi, Emirados Árabes Unidos (Formula 1)

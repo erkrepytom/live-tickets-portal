@@ -1,7 +1,7 @@
 {
  "nome": "MyTickets Tours",
  "url": "https://mytickets.tours/",
- "atualizado": "2026-11-21",
+ "atualizado": "2026-11-22",
  "o_que_e": "Guia independente de ingressos para eventos esportivos e shows internacionais, em português, inglês e espanhol.",
  "aviso": "Este site NÃO vende ingresso e, no momento, não tem parceiro de venda de ingressos.",
  "vendedores": [],
@@ -15,36 +15,6 @@
  },
  "uso": "Livre para ler, citar e referenciar. Pedimos que cite o nome do site, MyTickets Tours.",
  "eventos": [
-  {
-   "id": "17kZv0G6uJ3SSMC",
-   "slug": "ireland-vs-south-africa-2026-11-21",
-   "tipo": "rugby",
-   "titulo": {
-    "pt": "Irlanda x África do Sul",
-    "en": "Ireland vs South Africa",
-    "es": "Irlanda vs Sudáfrica"
-   },
-   "data": "2026-11-21",
-   "hora_local": "16:40",
-   "local": "Aviva Stadium",
-   "cidade": {
-    "pt": "Dublin",
-    "en": "Dublin",
-    "es": "Dublín"
-   },
-   "pais": {
-    "pt": "Irlanda",
-    "en": "Ireland",
-    "es": "Irlanda"
-   },
-   "competicao": "Nations Championship",
-   "guia": {
-    "pt": "https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/",
-    "en": "https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/",
-    "es": "https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/"
-   },
-   "preco": null
-  },
   {
    "id": "387903",
    "slug": "gp-abu-dhabi-f1-2026-12-06",

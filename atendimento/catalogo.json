@@ -1,34 +1,10 @@
 {
- "atualizado": "2026-11-21",
+ "atualizado": "2026-11-22",
  "afiliado": "",
  "idiomas": {
   "pt": {
    "catalogo_parceiro": "",
    "eventos": [
-    {
-     "nome": "Irlanda x África do Sul",
-     "data": "2026-11-21",
-     "data_texto": "sábado, 21 de novembro de 2026",
-     "local": "Aviva Stadium",
-     "cidade": "Dublin",
-     "pais": "Irlanda",
-     "competicao": "Nations Championship",
-     "times": [
-      "Irlanda",
-      "África do Sul"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/eventos/ireland-vs-south-africa-2026-11-21/",
-     "como_chegar": [
-      "Trem DART até a estação Lansdowne Road, ao lado do estádio.",
-      "Em dia de jogo a estação fica cheia: chegue com folga."
-     ],
-     "dicas": [
-      "Lugares nas laterais, perto do meio-campo, mostram melhor as jogadas.",
-      "Leve casaco: jogos de novembro a março costumam ser frios.",
-      "Em grupo, compre os lugares no mesmo pedido."
-     ]
-    },
     {
      "nome": "GP de Abu Dhabi de Fórmula 1",
      "data": "2026-12-06",
@@ -432,30 +408,6 @@
    "catalogo_parceiro": "",
    "eventos": [
     {
-     "nome": "Ireland vs South Africa",
-     "data": "2026-11-21",
-     "data_texto": "Saturday, November 21, 2026",
-     "local": "Aviva Stadium",
-     "cidade": "Dublin",
-     "pais": "Ireland",
-     "competicao": "Nations Championship",
-     "times": [
-      "Ireland",
-      "South Africa"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/",
-     "como_chegar": [
-      "DART train to Lansdowne Road station, right next to the stadium.",
-      "The station gets very busy on match day: arrive with time to spare."
-     ],
-     "dicas": [
-      "Side seats near halfway show the play best.",
-      "Bring a coat: games from November to March are usually cold.",
-      "For a group, buy all seats in one order."
-     ]
-    },
-    {
      "nome": "Formula 1 Abu Dhabi Grand Prix",
      "data": "2026-12-06",
      "data_texto": "Sunday, December 6, 2026",
@@ -857,30 +809,6 @@
   "es": {
    "catalogo_parceiro": "",
    "eventos": [
-    {
-     "nome": "Irlanda vs Sudáfrica",
-     "data": "2026-11-21",
-     "data_texto": "sábado, 21 de noviembre de 2026",
-     "local": "Aviva Stadium",
-     "cidade": "Dublín",
-     "pais": "Irlanda",
-     "competicao": "Nations Championship",
-     "times": [
-      "Irlanda",
-      "Sudáfrica"
-     ],
-     "ingressos": "",
-     "guia": "https://mytickets.tours/es/eventos/ireland-vs-south-africa-2026-11-21/",
-     "como_chegar": [
-      "Tren DART hasta la estación Lansdowne Road, junto al estadio.",
-      "El día del partido la estación se llena: llega con margen."
-     ],
-     "dicas": [
-      "Los asientos laterales cerca de la mitad muestran mejor el juego.",
-      "Lleva abrigo: los partidos de noviembre a marzo suelen ser fríos.",
-      "En grupo, compra todos los asientos en el mismo pedido."
-     ]
-    },
     {
      "nome": "GP de Abu Dabi de Fórmula 1",
      "data": "2026-12-06",

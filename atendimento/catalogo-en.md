@@ -4,14 +4,6 @@ Full partner catalogue:
 
 ## Events with a page
 
-### Ireland vs South Africa
-- Date: Saturday, November 21, 2026
-- Venue: Aviva Stadium, Dublin, Ireland (Nations Championship)
-- Tickets: 
-- Guide on the site: https://mytickets.tours/en/events/ireland-vs-south-africa-2026-11-21/
-- DART train to Lansdowne Road station, right next to the stadium.
-- The station gets very busy on match day: arrive with time to spare.
-
 ### Formula 1 Abu Dhabi Grand Prix
 - Date: Sunday, December 6, 2026
 - Venue: Yas Marina Circuit, Abu Dhabi, United Arab Emirates (Formula 1)
