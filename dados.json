@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T19:27:50+00:00",
+ "atualizado": "2026-11-22T00:26:14+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Palmeiras x Flamengo - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/21-11-2026/palmeiras-flamengo.ghtml",
+     "t": "Atlético-MG x Boca Juniors - Copa Sul-Americana 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/mg/futebol/copa-sul-americana/jogo/21-11-2026/atletico-mg-boca-juniors.ghtml",
      "f": "ge",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Palmeiras tem mudança no ataque e reforços no banco para pegar o Flamengo; veja escalações",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/escalacoes-palmeiras-x-flamengo-36-rodada-brasileirao-21-11-2026/",
+     "t": "Veja fotos da final da Sul-Americana entre Atlético-MG e Boca Juniors",
+     "u": "https://www.gazetaesportiva.com/times/atletico-mg/veja-fotos-da-final-da-sul-americana-entre-atletico-mg-e-boca-jnuiors/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Jardim cutuca Abel Ferreira antes de Palmeiras x Flamengo: \"Os adversários se vitimizam\"",
-     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/21/jardim-cutuca-abel-ferreira-antes-de-palmeiras-x-flamengo-os-adversarios-se-vitimizam.ghtml",
+     "t": "Atlético-MG está definido para a final da Sul-Americana contra o Boca; veja escalações",
+     "u": "https://www.gazetaesportiva.com/times/atletico-mg/atletico-mg-boca-juniors-final-copa-sul-americana-escalacoes/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Flamengo agradece ao Palmeiras \"pelo respeito e pela cordialidade\" no jogo deste sábado",
+     "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/21/flamengo-agradece-ao-palmeiras-pelo-respeito-e-pela-cordialidade-no-jogo-deste-sabado.ghtml",
      "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Brasil bate Irlanda com golaço de joia do Palmeiras e estreia com vitória no Mundial sub-17",
-     "u": "https://www.gazetaesportiva.com/futebol/brasil-vence-irlanda-mundial-sub-17/",
-     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "PSG lose Doue to knee injury in Ligue 1 win at Nice",
-     "u": "https://sports.yahoo.com/articles/psg-lose-doue-knee-injury-183919160.html",
+     "t": "Is Stephen Curry the real NBA MVP? It's hard not to think so when you watch the Warriors without him",
+     "u": "https://www.cbssports.com/nba/news/stephen-curry-injury-absence-nba-mvp-warriors/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Stanford vs. California odds: Use Polymarket promo code CBSSPORTS for $25 bonus on college football picks",
+     "u": "https://www.cbssports.com/prediction/news/stanford-vs-california-odds-use-polymarket-promo-code-cbssports-for-25-bonus-on-college-football-picks/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Oklahoma State football vs Arizona State live updates: Start time, TV channel for Week 12",
+     "u": "https://sports.yahoo.com/articles/oklahoma-state-football-vs-arizona-001522121.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "How to watch 49ers vs. Vikings in Mexico City: TV, streaming, betting odds for 'Sunday Night Football' clash",
-     "u": "https://www.cbssports.com/nfl/news/how-to-watch-49ers-vikings-tv-streaming-betting-odds-sunday-night-football-clash/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "76ers vs. Bucks prediction, odds, time: 2026 NBA picks for Saturday, Nov. 21 from proven model",
-     "u": "https://www.cbssports.com/betting/news/76ers-bucks-prediction-odds-time-2026-nba-picks-best-bets-saturday-november-21/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "PSG’s 12th straight win marred by serious-looking injury to Doue",
-     "u": "https://sports.yahoo.com/articles/psg-12th-straight-win-marred-191831259.html",
+     "t": "Boys soccer All-Section 1 awards and honorable mention selections",
+     "u": "https://sports.yahoo.com/articles/boys-soccer-section-1-awards-001354285.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Rodrigo Mora aproveitou um corte incompleto e voltou a faturar com a camisola da Roma",
-     "u": "https://www.record.pt/multimedia/videos/detalhe/rodrigo-mora-aproveitou-um-corte-incompleto-e-voltou-a-faturar-com-a-camisola-da-roma",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "AG do FC Porto: conduta de Ricardo Costa alvo de apelo ao Conselho Fiscal e Disciplinar",
-     "u": "https://www.abola.pt/noticias/ag-do-fc-porto-conduta-de-ricardo-costa-alvo-de-apelo-ao-conselho-fiscal-e-disciplinar-2026112117064537924",
+     "t": "FIFPRO acusa Bayern de pressionar Musiala: «É uma estratégia coordenada»",
+     "u": "https://www.abola.pt/noticias/fifpro-acusa-bayern-de-pressionar-musiala-e-uma-estrategia-coordenada-2026112118263513940",
      "f": "A Bola",
      "alta": true
     },
     {
-     "t": "O longo caminho de Tiago Rodrigues: dos treinos com o pai ao topo do futsal mundial pelo Sporting",
-     "u": "https://www.record.pt/futebol/futsal/detalhe/o-longo-caminho-de-tiago-rodrigues-dos-treinos-com-o-pai-ao-topo-do-futsal-mundial-pelo-sporting",
+     "t": "Sacramento Kings-Boston Celtics: equipas, resultado e estatísticas ao minuto",
+     "u": "https://www.record.pt/modalidades/basquetebol/detalhe/sacramento-kings-boston-ao-minuto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "«Isto não para»: Sporting comemora Taça Continental... de olho na Champions",
-     "u": "https://www.abola.pt/video/isto-nao-para-sporting-comemora-taca-continental-de-olho-na-champions-2026112108305247143",
+     "t": "As notas dos jogadores do Sporting frente à União da Serra: força de Irankunda empurra o leão",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/as-notas-dos-jogadores-do-sporting-frente-a-uniao-da-serra-forca-de-irankunda-empurra-o-leao",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Paulo Fonseca já olha para o Manchester United: «Análise para o lixo...»",
+     "u": "https://www.abola.pt/noticias/paulo-fonseca-ja-olha-para-o-manchester-united-analise-para-o-lixo-2026112119345396682",
      "f": "A Bola",
      "alta": false
     }
@@ -113,10 +113,10 @@
    },
    "noticias": [
     {
-     "t": "Real Madrid - Celta de Vigo, en directo",
-     "u": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004251893/real-madrid-celta-vigo-directo-laliga-ea-sports-ext-pau.html",
+     "t": "Así queda la clasificación de LaLiga EA Sports tras el triunfo del Real Madrid sobre el Celta",
+     "u": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004253896/asi-queda-clasificacion-laliga-ea-sports-triunfo-real-madrid-sobre-celta.html",
      "f": "Mundo Deportivo",
-     "alta": true
+     "alta": false
     },
     {
      "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
@@ -125,8 +125,8 @@
      "alta": false
     },
     {
-     "t": "Sorpresa con Vinicius en el once titular del Real Madrid ante el Celta",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261121/1004253761/sorpresa-vinicius-once-titular-real-madrid-celta.html",
+     "t": "El 1x1 del Real Madrid ante el Celta",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261121/1004253885/1x1-real-madrid-celta.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Ireland stand firm to beat South Africa but Erasmus’s men head to final",
-     "u": "https://www.theguardian.com/sport/2026/nov/21/ireland-south-africa-nations-championship-rugby-union-match-report",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Ireland hold on for huge win over South Africa",
-     "u": "https://www.skysports.com/rugby-union/ireland-vs-south-africa/report/111695",
+     "t": "Nations Championship: France vs South Africa in final as England face NZ rematch",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13615041/nations-championship-fixtures-france-to-play-south-africa-in-final-as-england-face-new-zealand-rematch-plus-ireland-vs-australia",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "England call up McKinney for South Africa Tests",
-     "u": "https://www.bbc.co.uk/sport/cricket/articles/cwx2evg5pez6o?at_medium=RSS&at_campaign=rss",
+     "t": "France beat Argentina to set up Nations Championship final with South Africa",
+     "u": "https://www.theguardian.com/sport/2026/nov/21/france-beat-argentina-to-set-up-nations-championship-final-with-south-africa",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "France secure Nations Championship final with Springboks",
+     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/c3zxv4e5g5g5o?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     },
     {
-     "t": "Slade helps sparkling England power to record victory as All Blacks wilt again",
-     "u": "https://www.theguardian.com/sport/2026/nov/21/england-new-zealand-nations-championship-rugby-union-match-report",
-     "f": "The Guardian",
+     "t": "France reach Nations Championship final with bonus-point Argentina win",
+     "u": "https://www.skysports.com/rugby-union/france-vs-argentina/report/111696",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,27 +181,27 @@
    },
    "noticias": [
     {
-     "t": "Video: la dura lesión de Desire Doué en el PSG",
-     "u": "https://www.ole.com.ar/futbol-internacional/francia/video-dura-lesion-desire-doue-psg_0_titiqnjaFi.html",
-     "f": "Olé",
-     "alta": true
-    },
-    {
-     "t": "Los Pumas vs. Francia, hoy EN VIVO: a qué hora juegan y dónde ver por TV el partido del Nations Championship",
-     "u": "https://www.ole.com.ar/rugby/pumas-vs-francia-hoy-vivo-hora-ver-tv-partido-nations-championship_0_1aKFpKE6E2.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Los Pumas visitarán a Francia en el cierre de la primera fase del Nations Championship",
+     "t": "Los Pumas cayeron ante Francia 45-17 en el cierre de la primera fase del Nations Championship",
      "u": "https://www.infobae.com/deportes/2026/11/21/los-pumas-visitaran-a-francia-en-el-cierre-de-la-primera-fase-del-nations-championship/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Franco Colapinto largará en la 9° posición del Gran Premio de Las Vegas de Fórmula 1: Verstappen se quedó con la pole",
-     "u": "https://www.infobae.com/deportes/2026/11/20/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-del-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
+     "t": "Así cierra el Nations Championship: cuándo son la final y el resto de los cruces con Los Pumas en Londres",
+     "u": "https://www.ole.com.ar/rugby/nationschampionship-twickenham-lospumas-asisedefine_0_JXJQ4RkX7h.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "Franco Colapinto largará 9° en el Gran Premio de Las Vegas de Fórmula 1: hora, TV y todo lo que hay que saber",
+     "u": "https://www.infobae.com/deportes/2026/11/21/franco-colapinto-largara-9-en-el-gran-premio-de-las-vegas-de-formula-1-hora-tv-y-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
+     "alta": false
+    },
+    {
+     "t": "Ahora es por Bearman: el rumor que siempre baja a Colapinto de Alpine y la Fórmula 1",
+     "u": "https://www.ole.com.ar/autos/oliverbearman-francocolapinto-alpine-haas-flaviobriatore-formula1_0_iljRQj8xwC.html",
+     "f": "Olé",
      "alta": false
     }
    ]
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Un quadruplé de Donyell Malen et une invincibilité préservée en Serie A : l'AS Rome déroule contre Parme avant de retrouver le PSG en Ligue des champi",
-     "u": "https://www.lequipe.fr/Football/Actualites/Un-quadruple-de-donyell-malen-et-une-invincibilite-preservee-en-serie-a-l-as-rome-deroule-contre-parme-avant-de-retrouver-le-psg-en-ligue-des-champions/1745185#at_medium=RSS_feeds",
+     "t": "Le Flamengo de Leonardo Jardim accroche Palmeiras et peut officiellement fêter son 10e titre de Champion du Brésil",
+     "u": "https://www.lequipe.fr/Football/Actualites/Le-flamengo-de-leonardo-jardim-accroche-palmeiras-et-peut-officiellement-feter-son-10e-titre-de-champion-du-bresil/1745275#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Justo Piccardo finalement titulaire avec l'Argentine contre la France, à la place de Santiago Chocobares, blessé",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Justo-piccardo-finalement-titulaire-avec-l-argentine-contre-la-france-a-la-place-de-santiago-chocobares-blesse/1745188#at_medium=RSS_feeds",
+     "t": "Le programme du week-end final du Championnat des nations, France-Afrique du Sud en vedette le dimanche",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Le-programme-du-week-end-final-du-championnat-des-nations-france-afrique-du-sud-en-vedette-dimanche-29-novembre/1745283#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "Palmeiras x Flamengo - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/21-11-2026/palmeiras-flamengo.ghtml",
+   "t": "Atlético-MG x Boca Juniors - Copa Sul-Americana 2026 - Ao vivo - globoesporte.com",
+   "u": "https://ge.globo.com/mg/futebol/copa-sul-americana/jogo/21-11-2026/atletico-mg-boca-juniors.ghtml",
    "f": "ge",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "PSG lose Doue to knee injury in Ligue 1 win at Nice",
-   "u": "https://sports.yahoo.com/articles/psg-lose-doue-knee-injury-183919160.html",
-   "f": "Yahoo Sports",
+   "t": "Is Stephen Curry the real NBA MVP? It's hard not to think so when you watch the Warriors without him",
+   "u": "https://www.cbssports.com/nba/news/stephen-curry-injury-absence-nba-mvp-warriors/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Rodrigo Mora aproveitou um corte incompleto e voltou a faturar com a camisola da Roma",
-   "u": "https://www.record.pt/multimedia/videos/detalhe/rodrigo-mora-aproveitou-um-corte-incompleto-e-voltou-a-faturar-com-a-camisola-da-roma",
-   "f": "Record",
+   "t": "FIFPRO acusa Bayern de pressionar Musiala: «É uma estratégia coordenada»",
+   "u": "https://www.abola.pt/noticias/fifpro-acusa-bayern-de-pressionar-musiala-e-uma-estrategia-coordenada-2026112118263513940",
+   "f": "A Bola",
    "alta": true,
    "pais": "PT"
   },
   {
-   "t": "Real Madrid - Celta de Vigo, en directo",
-   "u": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004251893/real-madrid-celta-vigo-directo-laliga-ea-sports-ext-pau.html",
+   "t": "Así queda la clasificación de LaLiga EA Sports tras el triunfo del Real Madrid sobre el Celta",
+   "u": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004253896/asi-queda-clasificacion-laliga-ea-sports-triunfo-real-madrid-sobre-celta.html",
    "f": "Mundo Deportivo",
-   "alta": true,
+   "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Ireland stand firm to beat South Africa but Erasmus’s men head to final",
-   "u": "https://www.theguardian.com/sport/2026/nov/21/ireland-south-africa-nations-championship-rugby-union-match-report",
-   "f": "The Guardian",
+   "t": "Nations Championship: France vs South Africa in final as England face NZ rematch",
+   "u": "https://www.skysports.com/rugby-union/news/12040/13615041/nations-championship-fixtures-france-to-play-south-africa-in-final-as-england-face-new-zealand-rematch-plus-ireland-vs-australia",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Video: la dura lesión de Desire Doué en el PSG",
-   "u": "https://www.ole.com.ar/futbol-internacional/francia/video-dura-lesion-desire-doue-psg_0_titiqnjaFi.html",
-   "f": "Olé",
-   "alta": true,
+   "t": "Los Pumas cayeron ante Francia 45-17 en el cierre de la primera fase del Nations Championship",
+   "u": "https://www.infobae.com/deportes/2026/11/21/los-pumas-visitaran-a-francia-en-el-cierre-de-la-primera-fase-del-nations-championship/",
+   "f": "Infobae",
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,10 +302,10 @@
    "pais": "IT"
   },
   {
-   "t": "Un quadruplé de Donyell Malen et une invincibilité préservée en Serie A : l'AS Rome déroule contre Parme avant de retrouver le PSG en Ligue des champi",
-   "u": "https://www.lequipe.fr/Football/Actualites/Un-quadruple-de-donyell-malen-et-une-invincibilite-preservee-en-serie-a-l-as-rome-deroule-contre-parme-avant-de-retrouver-le-psg-en-ligue-des-champions/1745185#at_medium=RSS_feeds",
+   "t": "Le Flamengo de Leonardo Jardim accroche Palmeiras et peut officiellement fêter son 10e titre de Champion du Brésil",
+   "u": "https://www.lequipe.fr/Football/Actualites/Le-flamengo-de-leonardo-jardim-accroche-palmeiras-et-peut-officiellement-feter-son-10e-titre-de-champion-du-bresil/1745275#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": true,
+   "alta": false,
    "pais": "FR"
   }
  ],
