@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T22:32:28+00:00",
+ "atualizado": "2026-11-23T03:46:18+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -17,21 +17,21 @@
      "alta": false
     },
     {
-     "t": "Corinthians trabalha posse de bola e intensifica preparação para encarar o Atlético-MG",
-     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-trabalha-posse-de-bola-e-intensifica-preparacao-para-encarar-o-atletico-mg/",
+     "t": "Vila Nova busca empate com Atlético-GO e fica mais perto da Série A",
+     "u": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/22-11-2026/atletico-go-vila-nova.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Atlético-MG opta por desembarque \"escondido\" após vice na Sul-Americana",
+     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/23/atletico-mg-opta-por-desembarque-escondido-apos-vice-na-sul-americana.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Flamengo vence Basquete Cearense e encerra sequência negativa no NBB",
+     "u": "https://www.gazetaesportiva.com/campeonatos/nbb-novo-basquete-brasil/flamengo-vence-basquete-cearense-e-encerra-sequencia-negativa-no-nbb/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Com Yago inspirado, Flamengo supera o Basquete Cearense por 92 a 66",
-     "u": "https://ge.globo.com/basquete/noticia/2026/11/22/com-yago-inspirado-flamengo-supera-o-basquete-cearense-por-92-a-66.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Palmeiras vence o Corinthians em Itaquera e sai em vantagem na final do Paulistão Sub-20",
-     "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/22/palmeiras-vence-o-corinthians-em-itaquera-e-sai-em-vantagem-na-final-do-paulistao-sub-20.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "NFL Mexico City Game Halftime Show 2026: Here’s Where to Watch The Warning Perform Live Online Free",
-     "u": "https://sports.yahoo.com/articles/nfl-mexico-city-game-halftime-222000418.html",
+     "t": "Vikings vs. 49ers odds: Best Sunday Night Football Mexico City first touchdown scorer picks, NFL predictions",
+     "u": "https://www.cbssports.com/prediction/news/vikings-vs-49ers-odds-best-sunday-night-football-mexico-city-first-touchdown-scorer-picks-nfl-predictions/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "49ers vs. Vikings prediction, odds, betting preview: Sunday Night Football picks, best bets for Mexico City",
+     "u": "https://www.cbssports.com/betting/news/49ers-vs-vikings-prediction-odds-betting-preview-sunday-night-football-picks-best-bets-mexico-city/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "49ers' Nick Bosa booed in Mexico City after recent comments",
+     "u": "https://sports.yahoo.com/articles/49ers-nick-bosa-booed-mexico-033319132.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "'Sunday Night Football' in Mexico City prediction, odds, time: 49ers vs. Vikings picks by expert on 40-17 roll",
-     "u": "https://www.cbssports.com/betting/news/sunday-night-football-prediction-mexico-city-odds-time-49ers-vikings-expert-picks/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Vikings vs. 49ers prediction, odds, time: 'Sunday Night Football' in Mexico City picks from advanced model",
-     "u": "https://www.cbssports.com/betting/news/vikings-49ers-prediction-odds-time-spread-2026-sunday-night-football-mexico-city-picks/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Fifa to confirm UK as host for 2035 Women's World Cup",
-     "u": "https://sports.yahoo.com/articles/fifa-confirm-uk-bid-host-214916273.html",
+     "t": "‘The whole stadium is booing Nick Bosa’: Sports world reacts as Niners star gets brutal reception in Mexico",
+     "u": "https://sports.yahoo.com/articles/whole-stadium-booing-nick-bosa-032101279.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "SAD do FC Porto avisa que pirotecnia em Roterdão pode levar à proibição de venda de bilhetes na Champions",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/sad-do-fc-porto-avisa-que-pirotecnia-em-roterdao-pode-levar-a-proibicao-de-venda-de-bilhetes-na-champions",
-     "f": "Record",
-     "alta": false
+     "t": "Musiala sofre nova crise e polémica com Bayern estala na Alemanha",
+     "u": "https://www.abola.pt/noticias/musiala-sofre-nova-crise-e-polemica-com-bayern-estala-na-alemanha-2026112215545069295",
+     "f": "A Bola",
+     "alta": true
     },
     {
-     "t": "Benfica salva empate contra o Sporting de forma inacreditável!",
-     "u": "https://www.abola.pt/noticias/benfica-salva-empate-contra-o-sporting-de-forma-inacreditavel-2026112221215427715",
+     "t": "Serie A: golpe de teatro e Inter atrasa-se na luta pela liderança",
+     "u": "https://www.abola.pt/noticias/serie-a-golpe-de-teatro-e-inter-atrasa-se-na-luta-pela-lideranca-2026112221080370101",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Inter escorrega em jogo de loucos com a Atalanta: 2-0, 3-1 e 4-2 acabou em... 4-4",
-     "u": "https://www.record.pt/internacional/paises/italia/detalhe/20261122-111436-atalanta-inter-em-direto",
+     "t": "Golden State Warriors-Boston Celtics, ao minuto",
+     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/golden-state-warriors-boston-celtics-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Benfica volta a ceder um set, mas mantém o pleno",
-     "u": "https://www.abola.pt/noticias/benfica-volta-a-ceder-um-set-mas-mantem-o-pleno-2026112218331810442",
-     "f": "A Bola",
+     "t": "New York Knicks-Indiana Pacers, ao minuto",
+     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/new-york-knicks-indiana-pacers-em-direto",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -147,12 +147,6 @@
    },
    "noticias": [
     {
-     "t": "Injured Jacks out of T20 Australia tour",
-     "u": "https://www.bbc.co.uk/sport/cricket/articles/c8p3v1p45360o?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": true
-    },
-    {
      "t": "Jamaica level series with dominant win over England",
      "u": "https://www.skysports.com/netball/news/12040/13615359/england-40-55-jamaica-vitality-roses-beaten-in-london-as-sunshine-girls-impress-and-level-four-test-horizon-series",
      "f": "Sky Sports",
@@ -165,8 +159,14 @@
      "alta": false
     },
     {
-     "t": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
-     "u": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report",
+     "t": "England’s strength in depth finally comes together in landmark victory over All Blacks | Andy Bull",
+     "u": "https://www.theguardian.com/sport/2026/nov/21/englands-thrashing-of-new-zealand-ominous-for-rivals",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Max Verstappen claims dramatic Las Vegas F1 GP win after Ferraris collide",
+     "u": "https://www.theguardian.com/sport/2026/nov/22/max-verstappen-touches-perfection-in-dramatic-las-vegas-grand-prix-win",
      "f": "The Guardian",
      "alta": false
     }
@@ -193,14 +193,8 @@
      "alta": false
     },
     {
-     "t": "Con minutos para Lautaro y tres goles de su reemplazante, el Inter empató en un partidazo que tuvo ocho goles",
-     "u": "https://www.ole.com.ar/futbol-internacional/italia/inter-atalanta-tabla-serie-lautaro-martinez-esposito_0_wO5LWFthM6.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Scaloni sorprendió sobre dos ruedas: podio en una histórica carrera y clasificación al Mundial de Ciclismo",
-     "u": "https://www.ole.com.ar/seleccion/lionel-scaloni-ciclismo-gran-fondo-7-lagos-mundial_0_pMOmETMoKr.html",
+     "t": "EN VIVO: Boca llegó al país tras la conquista de la Sudamericana",
+     "u": "https://www.ole.com.ar/boca-juniors/llegada-argentina-plantel-boca-campeon-copa-sudamericana-2026_0_bthegjdLx5.html",
      "f": "Olé",
      "alta": false
     }
@@ -215,16 +209,16 @@
    },
    "noticias": [
     {
-     "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
-     "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
-     "f": "La Gazzetta dello Sport",
-     "alta": false
-    },
-    {
      "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
      "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
      "f": "La Gazzetta dello Sport",
-     "alta": false
+     "alta": true
+    },
+    {
+     "t": "Preso a zero, ora vale 70 milioni: i segreti di Thuram, l'oro dell'Inter",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Inter/08-12-2023/inter-i-segreti-di-thuram-quanto-vale-sul-mercato.shtml",
+     "f": "La Gazzetta dello Sport",
+     "alta": true
     }
    ]
   },
@@ -237,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Malgré un triplé de Pio Esposito, l'Inter Milan rattrapée par l'Atalanta Bergame au bout d'un match fou",
-     "u": "https://www.lequipe.fr/Football/Actualites/Malgre-un-triple-de-pio-esposito-l-inter-milan-rattrapee-par-l-atalanta-bergame-au-bout-d-un-match-fou/1745483#at_medium=RSS_feeds",
+     "t": "L'Atlético de Madrid retrouve la victoire à Getafe et consolide sa place sur le podium de la Liga",
+     "u": "https://www.lequipe.fr/Football/Actualites/L-atletico-de-madrid-retrouve-la-victoire-a-getafe-et-consolide-sa-place-sur-le-podium-de-la-liga/1745491#at_medium=RSS_feeds",
      "f": "L'Équipe",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Alors qu'il menait 2-0, l'OM s'incline à domicile face au Mans et voit sa série de cinq succès de rang en Ligue 1 brutalement stoppée",
-     "u": "https://www.lequipe.fr/Football/Actualites/Alors-qu-il-menait-2-0-l-om-s-incline-a-domicile-face-au-mans-et-voit-sa-serie-de-cinq-succes-de-rang-en-ligue-1-brutalement-stoppee/1745482#at_medium=RSS_feeds",
+     "t": "Malgré un triplé de Pio Esposito, l'Inter Milan rattrapée par l'Atalanta Bergame au bout d'un match fou",
+     "u": "https://www.lequipe.fr/Football/Actualites/Malgre-un-triple-de-pio-esposito-l-inter-milan-rattrapee-par-l-atalanta-bergame-au-bout-d-un-match-fou/1745483#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -260,17 +254,17 @@
    "pais": "BR"
   },
   {
-   "t": "NFL Mexico City Game Halftime Show 2026: Here’s Where to Watch The Warning Perform Live Online Free",
-   "u": "https://sports.yahoo.com/articles/nfl-mexico-city-game-halftime-222000418.html",
-   "f": "Yahoo Sports",
+   "t": "Vikings vs. 49ers odds: Best Sunday Night Football Mexico City first touchdown scorer picks, NFL predictions",
+   "u": "https://www.cbssports.com/prediction/news/vikings-vs-49ers-odds-best-sunday-night-football-mexico-city-first-touchdown-scorer-picks-nfl-predictions/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "SAD do FC Porto avisa que pirotecnia em Roterdão pode levar à proibição de venda de bilhetes na Champions",
-   "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/fc-porto/detalhe/sad-do-fc-porto-avisa-que-pirotecnia-em-roterdao-pode-levar-a-proibicao-de-venda-de-bilhetes-na-champions",
-   "f": "Record",
-   "alta": false,
+   "t": "Musiala sofre nova crise e polémica com Bayern estala na Alemanha",
+   "u": "https://www.abola.pt/noticias/musiala-sofre-nova-crise-e-polemica-com-bayern-estala-na-alemanha-2026112215545069295",
+   "f": "A Bola",
+   "alta": true,
    "pais": "PT"
   },
   {
@@ -281,10 +275,10 @@
    "pais": "ES"
   },
   {
-   "t": "Injured Jacks out of T20 Australia tour",
-   "u": "https://www.bbc.co.uk/sport/cricket/articles/c8p3v1p45360o?at_medium=RSS&at_campaign=rss",
-   "f": "BBC Sport",
-   "alta": true,
+   "t": "Jamaica level series with dominant win over England",
+   "u": "https://www.skysports.com/netball/news/12040/13615359/england-40-55-jamaica-vitality-roses-beaten-in-london-as-sunshine-girls-impress-and-level-four-test-horizon-series",
+   "f": "Sky Sports",
+   "alta": false,
    "pais": "GB"
   },
   {
@@ -295,17 +289,17 @@
    "pais": "AR"
   },
   {
-   "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
-   "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
+   "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
+   "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": false,
+   "alta": true,
    "pais": "IT"
   },
   {
-   "t": "Malgré un triplé de Pio Esposito, l'Inter Milan rattrapée par l'Atalanta Bergame au bout d'un match fou",
-   "u": "https://www.lequipe.fr/Football/Actualites/Malgre-un-triple-de-pio-esposito-l-inter-milan-rattrapee-par-l-atalanta-bergame-au-bout-d-un-match-fou/1745483#at_medium=RSS_feeds",
+   "t": "L'Atlético de Madrid retrouve la victoire à Getafe et consolide sa place sur le podium de la Liga",
+   "u": "https://www.lequipe.fr/Football/Actualites/L-atletico-de-madrid-retrouve-la-victoire-a-getafe-et-consolide-sa-place-sur-le-podium-de-la-liga/1745491#at_medium=RSS_feeds",
    "f": "L'Équipe",
-   "alta": true,
+   "alta": false,
    "pais": "FR"
   }
  ],
