@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-23T03:46:18+00:00",
+ "atualizado": "2026-11-23T14:54:03+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Santos finaliza preparação para partida contra o Grêmio no Morumbis",
-     "u": "https://www.gazetaesportiva.com/times/santos/santos-finaliza-preparacao-para-partida-contra-o-gremio-no-morumbis/",
+     "t": "Messi ofuscado por ex-São Paulo, United e Chelsea goleados e retorno de Vini Jr: o melhor do futebol internacional no fim de semana",
+     "u": "https://www.espn.com.br/futebol/artigo/_/id/17548357/messi-ofuscado-sao-paulo-united-chelsea-goleados-retorno-vini-junior-melhor-futebol-internacional-fim-de-semana",
+     "f": "ESPN Brasil",
+     "alta": false
+    },
+    {
+     "t": "Santos volta a mandar jogo no Morumbis após fatídico 6 a 0 contra o Vasco",
+     "u": "https://www.gazetaesportiva.com/times/santos/santos-volta-a-mandar-jogo-no-morumbis-apos-fatidico-6-a-0-contra-o-vasco/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Vila Nova busca empate com Atlético-GO e fica mais perto da Série A",
-     "u": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/22-11-2026/atletico-go-vila-nova.ghtml",
+     "t": "Com Tite pressionado, Botafogo enfrenta o São Paulo para tentar encaminhar permanência na Série A",
+     "u": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/23/com-tite-pressionado-botafogo-enfrenta-o-sao-paulo-para-tentar-encaminhar-permanencia-na-serie-a.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Atlético-MG opta por desembarque \"escondido\" após vice na Sul-Americana",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/23/atletico-mg-opta-por-desembarque-escondido-apos-vice-na-sul-americana.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Flamengo vence Basquete Cearense e encerra sequência negativa no NBB",
-     "u": "https://www.gazetaesportiva.com/campeonatos/nbb-novo-basquete-brasil/flamengo-vence-basquete-cearense-e-encerra-sequencia-negativa-no-nbb/",
-     "f": "Gazeta Esportiva",
+     "t": "Atlético-MG tenta elevar multa de joia da base em meio a interesse da Premier League",
+     "u": "https://www.espn.com.br/futebol/mercado-da-bola/artigo/_/id/17552112/atletico-mg-tenta-elevar-multa-vitao-interesse-brighton-premier-league",
+     "f": "ESPN Brasil",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
+     "t": "Confirmed: Real Madrid squad list to face PSV Eindhoven | UEFA Champions League",
+     "u": "https://sports.yahoo.com/articles/confirmed-real-madrid-squad-list-143400336.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Ranking NBA's biggest winners and losers of the week: Knicks hit their stride, while Celtics take step back",
+     "u": "https://www.cbssports.com/nba/news/ranking-nba-biggest-winners-losers-of-the-week-knicks-celtics-nov-23/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Jeremy Doku relishing reunion with Manchester City legend Kevin De Bruyne ahead of Napoli Champions League clash",
+     "u": "https://sports.yahoo.com/articles/jeremy-doku-relishing-reunion-manchester-143706302.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
      "t": "Vikings vs. 49ers odds: Best Sunday Night Football Mexico City first touchdown scorer picks, NFL predictions",
      "u": "https://www.cbssports.com/prediction/news/vikings-vs-49ers-odds-best-sunday-night-football-mexico-city-first-touchdown-scorer-picks-nfl-predictions/",
      "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "49ers vs. Vikings prediction, odds, betting preview: Sunday Night Football picks, best bets for Mexico City",
-     "u": "https://www.cbssports.com/betting/news/49ers-vs-vikings-prediction-odds-betting-preview-sunday-night-football-picks-best-bets-mexico-city/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "49ers' Nick Bosa booed in Mexico City after recent comments",
-     "u": "https://sports.yahoo.com/articles/49ers-nick-bosa-booed-mexico-033319132.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "‘The whole stadium is booing Nick Bosa’: Sports world reacts as Niners star gets brutal reception in Mexico",
-     "u": "https://sports.yahoo.com/articles/whole-stadium-booing-nick-bosa-032101279.html",
-     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Musiala sofre nova crise e polémica com Bayern estala na Alemanha",
-     "u": "https://www.abola.pt/noticias/musiala-sofre-nova-crise-e-polemica-com-bayern-estala-na-alemanha-2026112215545069295",
-     "f": "A Bola",
-     "alta": true
-    },
-    {
-     "t": "Serie A: golpe de teatro e Inter atrasa-se na luta pela liderança",
-     "u": "https://www.abola.pt/noticias/serie-a-golpe-de-teatro-e-inter-atrasa-se-na-luta-pela-lideranca-2026112221080370101",
+     "t": "Supercomputador calculou hipóteses de apuramento de Sporting e FC Porto na Champions (fotos)",
+     "u": "https://www.abola.pt/noticias/supercomputador-calculou-hipoteses-de-apuramento-de-sporting-e-fc-porto-na-champions-fotos-2026112314223518012",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Golden State Warriors-Boston Celtics, ao minuto",
-     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/golden-state-warriors-boston-celtics-em-direto",
+     "t": "Jonathan Jesus queria o Benfica no verão mas Cruzeiro travou-o: o peso do central em futuras negociações",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/benfica/detalhe/jonathan-jesus-queria-o-benfica-no-verao-mas-cruzeiro-travou-o-o-peso-do-central-em-futuras-negociacoes",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "New York Knicks-Indiana Pacers, ao minuto",
-     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/new-york-knicks-indiana-pacers-em-direto",
+     "t": "Fórmula 1: quando o circuito vira uma passerelle",
+     "u": "https://www.record.pt/opiniao/cronistas/daniel-sa/detalhe/formula-1-quando-o-circuito-vira-uma-passerelle",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "A partida do FC Porto para os Países Baixos",
+     "u": "https://www.abola.pt/video/a-partida-do-fc-porto-para-os-paises-baixos-2026112314201862189",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,15 +113,15 @@
    },
    "noticias": [
     {
-     "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
-     "u": "https://www.marca.com/futbol/nations-league/2026/11/20/uefa-multa-inglaterra-canticos-anticatolicos-aficionados-madrid.html",
-     "f": "Marca",
+     "t": "El Barça ya vuela a Bakú, el viaje más largo en la Champions",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261123/1004254444/viaje-barca-champions.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Alcaraz hace historia arrasando en Turín: nuevo campeón invicto de las ATP Finals",
-     "u": "https://www.mundodeportivo.com/tenis/20261122/1004254211/alcaraz-historia-arrasando-turin-nuevo-campeon-atp-finals.html",
-     "f": "Mundo Deportivo",
+     "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
+     "u": "https://www.marca.com/futbol/nations-league/2026/11/20/uefa-multa-inglaterra-canticos-anticatolicos-aficionados-madrid.html",
+     "f": "Marca",
      "alta": false
     },
     {
@@ -131,8 +131,8 @@
      "alta": false
     },
     {
-     "t": "Remontada épica de un Barça de dos caras",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261122/1004254088/cronica-barca-villarreal.html",
+     "t": "¿Por qué no actuó el VAR en el córner del Barça?",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261123/1004254332/no-actuo-var-corner-barca.html",
      "f": "Mundo Deportivo",
      "alta": false
     }
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Jamaica level series with dominant win over England",
-     "u": "https://www.skysports.com/netball/news/12040/13615359/england-40-55-jamaica-vitality-roses-beaten-in-london-as-sunshine-girls-impress-and-level-four-test-horizon-series",
+     "t": "England and Ireland provide champagne rugby for north to tee up finals weekend | Robert Kitson",
+     "u": "https://www.theguardian.com/sport/2026/nov/23/england-ireland-france-nations-championship-rugby-union",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Inside Fifa and US Soccer’s plan for 2031 World Cup: ‘the largest women’s sporting event in history’",
+     "u": "https://www.theguardian.com/football/2026/nov/23/2031-womens-world-cup-projection-fifa-ussf",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Erasmus set for France watch-along as SA coaches deny contact during Ireland loss",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13615582/nations-championship-rassie-erasmus-set-to-host-france-watch-along-as-south-africa-coaches-deny-contact-during-ireland-loss",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "England will not get carried away by beating All Blacks",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/ckr5gdpm1q5no?at_medium=RSS&at_campaign=rss",
+     "t": "49ers win in Mexico and Bills stay top - NFL week 11",
+     "u": "https://www.bbc.co.uk/sport/american-football/articles/c3zxv0nyxl8ro?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "England’s strength in depth finally comes together in landmark victory over All Blacks | Andy Bull",
-     "u": "https://www.theguardian.com/sport/2026/nov/21/englands-thrashing-of-new-zealand-ominous-for-rivals",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Max Verstappen claims dramatic Las Vegas F1 GP win after Ferraris collide",
-     "u": "https://www.theguardian.com/sport/2026/nov/22/max-verstappen-touches-perfection-in-dramatic-las-vegas-grand-prix-win",
-     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,20 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Video: la cruel burla de los hinchas del Cruzeiro para el Atlético Mineiro tras perder su quinta final consecutiva contra Boca",
-     "u": "https://www.infobae.com/deportes/2026/11/22/video-la-cruel-burla-de-los-hinchas-del-cruzeiro-para-el-atletico-mineiro-tras-perder-su-quinta-final-consecutiva-contra-boca/",
+     "t": "Arde la interna en Ferrari tras el toque de Leclerc a Hamilton en el GP de Las Vegas de Fórmula 1: “Una falta de respeto hacia el equipo”",
+     "u": "https://www.infobae.com/deportes/2026/11/23/arde-la-interna-en-ferrari-tras-el-toque-de-leclerc-a-hamilton-en-el-gp-de-las-vegas-de-formula-1-una-falta-de-respeto-hacia-el-equipo/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "En el debut de Pochettino como técnico, el Manchester United perdió 4-0 frente al Liverpool: la jugada que rompió el partido",
-     "u": "https://www.infobae.com/deportes/2026/11/22/en-el-debut-de-pochettino-como-tecnico-el-manchester-united-perdio-4-0-frente-al-liverpool-la-jugada-que-rompio-el-partido/",
+     "t": "El sentido homenaje de los Pumas y Francia para Federico Martín Aramburu tras la sentencia que condenó a los autores de su crimen",
+     "u": "https://www.infobae.com/deportes/2026/11/23/el-sentido-homenaje-de-los-pumas-y-francia-para-federico-martin-aramburu-tras-la-sentencia-que-condeno-a-los-autores-de-su-crimen/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "EN VIVO: Boca llegó al país tras la conquista de la Sudamericana",
-     "u": "https://www.ole.com.ar/boca-juniors/llegada-argentina-plantel-boca-campeon-copa-sudamericana-2026_0_bthegjdLx5.html",
+     "t": "La lesión por la que Lamine Yamal se perderá el partido de Champions de esta semana con el Barcelona",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/lamine-yamal-lesion-barcelona-sabah-partido-champions-league-juega_0_K9vBjGYuLa.html",
+     "f": "Olé",
+     "alta": false
+    },
+    {
+     "t": "La contundente frase de Mourinho sobre el futuro de Nico Paz y una posible vuelta al Real Madrid",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/real-madrid-nico-paz-jose-mourinho-dijo-vuelta-recompra_0_RwyNRxZ8Cc.html",
      "f": "Olé",
      "alta": false
     }
@@ -209,37 +215,15 @@
    },
    "noticias": [
     {
-     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
+     "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+     "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
      "f": "La Gazzetta dello Sport",
-     "alta": true
-    },
-    {
-     "t": "Preso a zero, ora vale 70 milioni: i segreti di Thuram, l'oro dell'Inter",
-     "u": "https://www.gazzetta.it/Calcio/Serie-A/Inter/08-12-2023/inter-i-segreti-di-thuram-quanto-vale-sul-mercato.shtml",
-     "f": "La Gazzetta dello Sport",
-     "alta": true
-    }
-   ]
-  },
-  {
-   "pais": "FR",
-   "nome": {
-    "pt": "França",
-    "en": "France",
-    "es": "Francia"
-   },
-   "noticias": [
-    {
-     "t": "L'Atlético de Madrid retrouve la victoire à Getafe et consolide sa place sur le podium de la Liga",
-     "u": "https://www.lequipe.fr/Football/Actualites/L-atletico-de-madrid-retrouve-la-victoire-a-getafe-et-consolide-sa-place-sur-le-podium-de-la-liga/1745491#at_medium=RSS_feeds",
-     "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Malgré un triplé de Pio Esposito, l'Inter Milan rattrapée par l'Atalanta Bergame au bout d'un match fou",
-     "u": "https://www.lequipe.fr/Football/Actualites/Malgre-un-triple-de-pio-esposito-l-inter-milan-rattrapee-par-l-atalanta-bergame-au-bout-d-un-match-fou/1745483#at_medium=RSS_feeds",
-     "f": "L'Équipe",
+     "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
+     "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
+     "f": "La Gazzetta dello Sport",
      "alta": false
     }
    ]
@@ -247,60 +231,53 @@
  ],
  "destaques": [
   {
-   "t": "Santos finaliza preparação para partida contra o Grêmio no Morumbis",
-   "u": "https://www.gazetaesportiva.com/times/santos/santos-finaliza-preparacao-para-partida-contra-o-gremio-no-morumbis/",
-   "f": "Gazeta Esportiva",
+   "t": "Messi ofuscado por ex-São Paulo, United e Chelsea goleados e retorno de Vini Jr: o melhor do futebol internacional no fim de semana",
+   "u": "https://www.espn.com.br/futebol/artigo/_/id/17548357/messi-ofuscado-sao-paulo-united-chelsea-goleados-retorno-vini-junior-melhor-futebol-internacional-fim-de-semana",
+   "f": "ESPN Brasil",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Vikings vs. 49ers odds: Best Sunday Night Football Mexico City first touchdown scorer picks, NFL predictions",
-   "u": "https://www.cbssports.com/prediction/news/vikings-vs-49ers-odds-best-sunday-night-football-mexico-city-first-touchdown-scorer-picks-nfl-predictions/",
-   "f": "CBS Sports",
+   "t": "Confirmed: Real Madrid squad list to face PSV Eindhoven | UEFA Champions League",
+   "u": "https://sports.yahoo.com/articles/confirmed-real-madrid-squad-list-143400336.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Musiala sofre nova crise e polémica com Bayern estala na Alemanha",
-   "u": "https://www.abola.pt/noticias/musiala-sofre-nova-crise-e-polemica-com-bayern-estala-na-alemanha-2026112215545069295",
+   "t": "Supercomputador calculou hipóteses de apuramento de Sporting e FC Porto na Champions (fotos)",
+   "u": "https://www.abola.pt/noticias/supercomputador-calculou-hipoteses-de-apuramento-de-sporting-e-fc-porto-na-champions-fotos-2026112314223518012",
    "f": "A Bola",
-   "alta": true,
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
-   "u": "https://www.marca.com/futbol/nations-league/2026/11/20/uefa-multa-inglaterra-canticos-anticatolicos-aficionados-madrid.html",
-   "f": "Marca",
+   "t": "El Barça ya vuela a Bakú, el viaje más largo en la Champions",
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261123/1004254444/viaje-barca-champions.html",
+   "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Jamaica level series with dominant win over England",
-   "u": "https://www.skysports.com/netball/news/12040/13615359/england-40-55-jamaica-vitality-roses-beaten-in-london-as-sunshine-girls-impress-and-level-four-test-horizon-series",
-   "f": "Sky Sports",
+   "t": "England and Ireland provide champagne rugby for north to tee up finals weekend | Robert Kitson",
+   "u": "https://www.theguardian.com/sport/2026/nov/23/england-ireland-france-nations-championship-rugby-union",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Video: la cruel burla de los hinchas del Cruzeiro para el Atlético Mineiro tras perder su quinta final consecutiva contra Boca",
-   "u": "https://www.infobae.com/deportes/2026/11/22/video-la-cruel-burla-de-los-hinchas-del-cruzeiro-para-el-atletico-mineiro-tras-perder-su-quinta-final-consecutiva-contra-boca/",
+   "t": "Arde la interna en Ferrari tras el toque de Leclerc a Hamilton en el GP de Las Vegas de Fórmula 1: “Una falta de respeto hacia el equipo”",
+   "u": "https://www.infobae.com/deportes/2026/11/23/arde-la-interna-en-ferrari-tras-el-toque-de-leclerc-a-hamilton-en-el-gp-de-las-vegas-de-formula-1-una-falta-de-respeto-hacia-el-equipo/",
    "f": "Infobae",
    "alta": false,
    "pais": "AR"
   },
   {
-   "t": "Juve-Napoli, in Serie A arriva la body cam: indossata da un bianconero per il riscaldamento",
-   "u": "https://www.gazzetta.it/Calcio/Serie-A/Juventus/07-12-2023/juve-napoli-body-cam-su-un-bianconero-per-il-riscaldamento.shtml",
+   "t": "Inter, sprint per Djalò: si punta al blitz prima di Capodanno. Ma Juve e Atletico...",
+   "u": "https://www.gazzetta.it/Calcio/Calciomercato/Inter/07-12-2023/inter-su-djalo-lo-vogliono-anche-juve-e-atletico-la-trattativa.shtml",
    "f": "La Gazzetta dello Sport",
-   "alta": true,
-   "pais": "IT"
-  },
-  {
-   "t": "L'Atlético de Madrid retrouve la victoire à Getafe et consolide sa place sur le podium de la Liga",
-   "u": "https://www.lequipe.fr/Football/Actualites/L-atletico-de-madrid-retrouve-la-victoire-a-getafe-et-consolide-sa-place-sur-le-podium-de-la-liga/1745491#at_medium=RSS_feeds",
-   "f": "L'Équipe",
    "alta": false,
-   "pais": "FR"
+   "pais": "IT"
   }
  ],
  "jogos": []
