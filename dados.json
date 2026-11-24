@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-24T13:56:38+00:00",
+ "atualizado": "2026-11-24T23:31:48+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
+     "t": "Copinha 2027: veja os grupos de Corinthians, Palmeiras, São Paulo e Santos",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-sao-paulo/copinha-2027-veja-os-grupos-de-corinthians-palmeiras-sao-paulo-e-santos/",
+     "f": "Gazeta Esportiva",
+     "alta": true
+    },
+    {
+     "t": "União-TO cai no grupo de Atlético-MG e Ponte Preta na Copinha 2027",
+     "u": "https://ge.globo.com/to/futebol/copa-sp-de-futebol-junior/noticia/2026/11/24/uniao-to-cai-no-grupo-de-atletico-mg-e-ponte-preta-na-copinha-2027.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Batalhão FC cai no grupo do Fluminense na Copinha 2027; veja a chave",
+     "u": "https://ge.globo.com/to/futebol/copa-sp-de-futebol-junior/noticia/2026/11/24/batalhao-fc-cai-no-grupo-do-fluminense-na-copinha-2027-veja-o-grupo.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
      "t": "De Inter com 92% a Grêmio, Corinthians, Botafogo, Mirassol e Vitória em alerta: as chances de queda no Brasileirão",
      "u": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17555023/inter-dispara-chance-rebaixamento-apos-goleada-beira-rio-veja-probabilidades",
      "f": "ESPN Brasil",
-     "alta": false
-    },
-    {
-     "t": "Atlético-MG x Corinthians: prováveis escalações e onde assistir ao jogo pelo Brasileirão",
-     "u": "https://www.gazetaesportiva.com/times/corinthians/atletico-mg-x-corinthians-provaveis-escalacoes-e-onde-assistir-ao-jogo-pelo-brasileirao/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Com show de Weverton, Grêmio vence o Santos no Morumbi e deixa a zona de rebaixamento",
-     "u": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17554559/com-show-weverton-gremio-vence-santos-morumbi-deixa-zona-rebaixamento",
-     "f": "ESPN Brasil",
-     "alta": false
-    },
-    {
-     "t": "Santos perde do Grêmio, e Corinthians volta ao Z4 do Brasileirão",
-     "u": "https://www.gazetaesportiva.com/times/santos/santos-perde-gremio-corinthians-z4-brasileirao/",
-     "f": "Gazeta Esportiva",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "What to watch in UEFA Champions League: Could Real Madrid, Manchester City exploit PSG and Bayern woes?",
-     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-real-madrid-manchester-city-psg-bayern/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Champions League expert picks, predictions, best bets: Will Arsenal overcome absent David Raya vs. Dortmund?",
-     "u": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "Golliver's too-early NBA All-Star picks: The 24 most deserving players right now",
-     "u": "https://www.espn.com/nba/story/_/id/50558987/all-star-selections-wembanyama-giannis-maxey",
-     "f": "ESPN NBA",
-     "alta": false
-    },
-    {
-     "t": "Chelsea “most likely” destination for Premier League midfielder with potential massive January move on the way",
-     "u": "https://sports.yahoo.com/articles/chelsea-most-likely-destination-premier-133500920.html",
+     "t": "Bellingham beauty in Real Madrid win as Arsenal, Man City held in Champions League",
+     "u": "https://sports.yahoo.com/soccer/articles/bellingham-beauty-real-madrid-win-230842595.html",
      "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "From a freak injury to silencing Man City fans, Noa Lang enjoys Champions League return to England",
+     "u": "https://sports.yahoo.com/soccer/articles/freak-injury-silencing-man-city-231852363.html",
+     "f": "Yahoo Sports",
+     "alta": false
+    },
+    {
+     "t": "Celtics vs. Wizards prediction, odds, time: 2026 NBA Cup picks for Tuesday, Nov. 24 from proven model",
+     "u": "https://www.cbssports.com/betting/news/celtics-wizards-prediction-odds-time-2026-nba-cup-picks-best-bets-tuesday-november-24/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Lakers latest in NBA to establish prediction market partnership",
+     "u": "https://www.espn.com/nba/story/_/id/50586638/lakers-latest-nba-partnership-kalshi",
+     "f": "ESPN NBA",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Lesões no PSG e Bayern e o Chelsea que compra os \"miúdos que mexem\": o nível de interesse dos clubes que seguem Prestianni",
-     "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/lesoes-no-psg-e-bayern-e-o-chelsea-que-compra-os-miudos-que-mexem-o-nivel-de-interesse-dos-clubes-que-seguem-prestianni",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Júlia Leal eliminada no torneio de pares do Mundial jovem de ténis de mesa",
-     "u": "https://www.record.pt/modalidades/tenis-de-mesa/detalhe/julia-leal-eliminada-no-torneio-de-pares-do-mundial-jovem-de-tenis-de-mesa",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Ganhar... ou ganhar no regresso à Champions: o onze provável do FC Porto",
-     "u": "https://www.abola.pt/noticias/ganhar-ou-ganhar-no-regresso-a-champions-o-onze-provavel-do-fc-porto-2026112313591425072",
+     "t": "Gonçalo Borges insultado pelos adeptos do FC Porto em Roterdão",
+     "u": "https://www.abola.pt/video/goncalo-borges-insultado-pelos-adeptos-do-fc-porto-em-roterdao-2026112422015986179",
      "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "Insultos a Gonçalo Borges e cânticos de apoio a Moura: adeptos do FC Porto fazem-se ouvir no final do jogo",
+     "u": "https://www.record.pt/multimedia/videos/fc-porto/detalhe/insultos-a-goncalo-borges-e-canticos-de-apoio-a-moura-adeptos-do-fc-porto-fazem-se-ouvir-no-final-do-jogo",
+     "f": "Record",
+     "alta": true
+    },
+    {
+     "t": "Real Madrid apanha susto mas acaba a golear o PSV e segue invicto na Champions",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/real-madrid-psv-eindhoven-em-direto",
+     "f": "Record",
      "alta": false
     },
     {
-     "t": "21 clubes ainda sonham imitar o Benfica, FC Porto está bem lançado (fotos)",
-     "u": "https://www.abola.pt/noticias/21-clubes-ainda-sonham-imitar-o-benfica-fc-porto-esta-bem-lancado-fotos-2026112316385541147",
+     "t": "FC Porto inicia defesa do título da Liga dos Campeões frente ao Benfica",
+     "u": "https://www.abola.pt/noticias/fc-porto-inicia-defesa-do-titulo-da-liga-dos-campeoes-frente-ao-benfica-2026112416500617681",
      "f": "A Bola",
      "alta": false
     }
@@ -113,21 +113,21 @@
    },
    "noticias": [
     {
-     "t": "Gil Marín dimite como vicepresidente de LaLiga",
-     "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261124/1004254931/miguel-angel-gil-marin-dimite-vicepresidente-laliga.html",
-     "f": "Mundo Deportivo",
-     "alta": true
+     "t": "Raphinha quiere dar otro salto en la Champions League con el Barça",
+     "u": "https://www.marca.com/futbol/barcelona/2026/11/24/raphinha-quiere-dar-salto-champions-league-barca.html",
+     "f": "Marca",
+     "alta": false
     },
     {
-     "t": "El PSG busca extremo, valora a Abde y el Barça se frota las manos",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261124/1004254803/psg-busca-extremo-valora-abde-barca-frota-manos.html",
+     "t": "Nueva guerra en Ferrari tras el GP de Las Vegas: ¿Hamilton o Leclerc?",
+     "u": "https://www.mundodeportivo.com/motor/f1/20261124/1004255057/polemica-ferrari-gp-vegas-hamilton-leclerc.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "Raphinha quiere dar otro salto en la Champions League con el Barça",
-     "u": "https://www.marca.com/futbol/barcelona/2026/11/24/raphinha-quiere-dar-salto-champions-league-barca.html",
-     "f": "Marca",
+     "t": "1-1: El Borussia Dortmund le amarga la noche al Arsenal",
+     "u": "https://www.mundodeportivo.com/futbol/champions-league/20261124/1004255109/borussia-dortmund-le-amarga-noche-arsenal.html",
+     "f": "Mundo Deportivo",
      "alta": false
     },
     {
@@ -147,9 +147,9 @@
    },
    "noticias": [
     {
-     "t": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Sheehan to miss Ireland's Nations Championship finale after two-game ban",
+     "u": "https://www.skysports.com/rugby-union/news/12040/13616108/ireland-captain-dan-sheehan-to-miss-nations-championship-finale-after-two-game-ban-for-red-card-against-south-africa",
+     "f": "Sky Sports",
      "alta": false
     },
     {
@@ -159,14 +159,14 @@
      "alta": false
     },
     {
-     "t": "‘This isn’t F1’: Max Verstappen criticises overtake-heavy Las Vegas Grand Prix",
-     "u": "https://www.theguardian.com/sport/2026/nov/23/max-verstappen-red-bull-f1-formula-one-las-vegas-grand-prix",
+     "t": "Rayan Cherki magic denies Napoli but Manchester City’s struggles continue",
+     "u": "https://www.theguardian.com/football/2026/nov/24/manchester-city-napoli-champions-league-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Nwaneri at risk of becoming Arsenal’s forgotten teenager on return with Dortmund",
-     "u": "https://www.theguardian.com/football/2026/nov/24/ethan-nwaneri-arsenal-dortmund-mikel-arteta-champions-league",
+     "t": "‘This isn’t F1’: Max Verstappen criticises overtake-heavy Las Vegas Grand Prix",
+     "u": "https://www.theguardian.com/sport/2026/nov/23/max-verstappen-red-bull-f1-formula-one-las-vegas-grand-prix",
      "f": "The Guardian",
      "alta": false
     }
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "Estados Unidos, México, Costa Rica y Jamaica serán las sedes del Mundial Femenino de 2031, que tendrá 48 equipos y 104 partidos",
-     "u": "https://www.infobae.com/deportes/2026/11/23/estados-unidos-mexico-costa-rica-y-jamaica-seran-las-sedes-del-mundial-femenino-de-2031-que-tendra-48-equipos-y-104-partidos/",
+     "t": "Impacto argentino en la UFC: Kevin Chino Vallejos se convirtió en el N°3 del mundo y quedó a un paso de pelear por el título mundial",
+     "u": "https://www.infobae.com/deportes/2026/11/24/impacto-argentino-en-la-ufc-kevin-chino-vallejos-se-convirtio-en-el-n3-del-mundo-y-quedo-a-un-paso-de-pelear-por-el-titulo-mundial/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Con Enzo Fernández como titular, Manchester City empató 2-2 ante Napoli por la fecha 5 de la Champions League: todos los goles del día",
+     "u": "https://www.infobae.com/deportes/2026/11/24/con-enzo-fernandez-y-nico-paz-como-protagonistas-se-inicia-la-fecha-5-de-la-champions-league-la-agenda-completa/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Franco Colapinto saldrá a pista este fin de semana en el Gran Premio de Qatar de Fórmula 1: todo lo que hay que saber",
-     "u": "https://www.infobae.com/deportes/2026/11/24/franco-colapinto-saldra-a-pista-este-fin-de-semana-en-el-gran-premio-de-qatar-de-formula-1-todo-lo-que-hay-que-saber/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "La noticia que recibió Palmeiras a días de la final de la Libertadores con Estudiantes",
-     "u": "https://www.ole.com.ar/futbol-internacional/america/palmeiras-buena-noticia-final-libertadores-estudiantes-joaquin-piquerez_0_tPQIt8BDdF.html",
+     "t": "PSG vs. Roma, por la Champions League: hora, cómo ver y probables formaciones",
+     "u": "https://www.ole.com.ar/futbol-internacional/champions/psg-vs-roma-hora-ver-champions-league-tv-online-formaciones_0_4IKKhthb2S.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Neymar estrenó nuevo look, le anularon un gol de tiro libre y quedó complicado para clasificar a la Libertadores 2027 con el Santos",
-     "u": "https://www.ole.com.ar/futbol-internacional/america/santos-tabla-posiciones-brasileirao-neymar-look-rubio-platinado-copa-libertadores-2027-clasificacion-cupos_0_IydPMzcFYC.html",
+     "t": "Golearon a Palmeiras antes de la final de la Libertadores ante Estudiantes",
+     "u": "https://www.ole.com.ar/futbol-internacional/palmeiras-titulares-estudiantes-final_0_ZGnSGaL75j.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Davide Ancelotti, entraîneur de Lille, à propos d'un Bayern Munich affaibli en Ligue des champions : « C'est dangereux de parler comme ça... »",
-     "u": "https://www.lequipe.fr/Football/Actualites/Davide-ancelotti-entraineur-de-lille-a-propos-d-un-bayern-munich-affaibli-en-ligue-des-champions-c-est-dangereux-de-parler-comme-ca/1745792#at_medium=RSS_feeds",
+     "t": "Arsenal freiné par Dortmund en Ligue des champions à l'issue d'un match captivant",
+     "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-freine-par-dortmund-a-l-issue-d-un-match-captivant/1745942#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Pour Yoram Moefana, la France n'a pas pris l'ascendant avant la finale du Championnat des nations : « On n'est pas favoris face à l'Afrique du Sud »",
-     "u": "https://www.lequipe.fr/Rugby/Actualites/Pour-yoram-moefana-la-france-n-a-pas-pris-l-ascendant-avant-la-finale-du-championnat-des-nations-on-n-est-pas-favoris-face-a-l-afrique-du-sud/1745782#at_medium=RSS_feeds",
+     "t": "Auteur de l'égalisation tardive contre Naples en Ligue des champions, Rayan Cherki évite la sortie de route à Manchester City",
+     "u": "https://www.lequipe.fr/Football/Actualites/Auteur-de-l-egalisation-tardive-contre-naples-en-ligue-des-champions-rayan-cherki-evite-la-sortie-de-route-a-manchester-city/1745938#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "De Inter com 92% a Grêmio, Corinthians, Botafogo, Mirassol e Vitória em alerta: as chances de queda no Brasileirão",
-   "u": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17555023/inter-dispara-chance-rebaixamento-apos-goleada-beira-rio-veja-probabilidades",
-   "f": "ESPN Brasil",
-   "alta": false,
+   "t": "Copinha 2027: veja os grupos de Corinthians, Palmeiras, São Paulo e Santos",
+   "u": "https://www.gazetaesportiva.com/campeonatos/copa-sao-paulo/copinha-2027-veja-os-grupos-de-corinthians-palmeiras-sao-paulo-e-santos/",
+   "f": "Gazeta Esportiva",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "What to watch in UEFA Champions League: Could Real Madrid, Manchester City exploit PSG and Bayern woes?",
-   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-real-madrid-manchester-city-psg-bayern/",
-   "f": "CBS Sports",
+   "t": "Bellingham beauty in Real Madrid win as Arsenal, Man City held in Champions League",
+   "u": "https://sports.yahoo.com/soccer/articles/bellingham-beauty-real-madrid-win-230842595.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Lesões no PSG e Bayern e o Chelsea que compra os \"miúdos que mexem\": o nível de interesse dos clubes que seguem Prestianni",
-   "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/lesoes-no-psg-e-bayern-e-o-chelsea-que-compra-os-miudos-que-mexem-o-nivel-de-interesse-dos-clubes-que-seguem-prestianni",
-   "f": "Record",
-   "alta": false,
+   "t": "Gonçalo Borges insultado pelos adeptos do FC Porto em Roterdão",
+   "u": "https://www.abola.pt/video/goncalo-borges-insultado-pelos-adeptos-do-fc-porto-em-roterdao-2026112422015986179",
+   "f": "A Bola",
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "Gil Marín dimite como vicepresidente de LaLiga",
-   "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261124/1004254931/miguel-angel-gil-marin-dimite-vicepresidente-laliga.html",
-   "f": "Mundo Deportivo",
-   "alta": true,
+   "t": "Raphinha quiere dar otro salto en la Champions League con el Barça",
+   "u": "https://www.marca.com/futbol/barcelona/2026/11/24/raphinha-quiere-dar-salto-champions-league-barca.html",
+   "f": "Marca",
+   "alta": false,
    "pais": "ES"
   },
   {
-   "t": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
-   "u": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
-   "f": "BBC Sport",
+   "t": "Sheehan to miss Ireland's Nations Championship finale after two-game ban",
+   "u": "https://www.skysports.com/rugby-union/news/12040/13616108/ireland-captain-dan-sheehan-to-miss-nations-championship-finale-after-two-game-ban-for-red-card-against-south-africa",
+   "f": "Sky Sports",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "Estados Unidos, México, Costa Rica y Jamaica serán las sedes del Mundial Femenino de 2031, que tendrá 48 equipos y 104 partidos",
-   "u": "https://www.infobae.com/deportes/2026/11/23/estados-unidos-mexico-costa-rica-y-jamaica-seran-las-sedes-del-mundial-femenino-de-2031-que-tendra-48-equipos-y-104-partidos/",
+   "t": "Impacto argentino en la UFC: Kevin Chino Vallejos se convirtió en el N°3 del mundo y quedó a un paso de pelear por el título mundial",
+   "u": "https://www.infobae.com/deportes/2026/11/24/impacto-argentino-en-la-ufc-kevin-chino-vallejos-se-convirtio-en-el-n3-del-mundo-y-quedo-a-un-paso-de-pelear-por-el-titulo-mundial/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Davide Ancelotti, entraîneur de Lille, à propos d'un Bayern Munich affaibli en Ligue des champions : « C'est dangereux de parler comme ça... »",
-   "u": "https://www.lequipe.fr/Football/Actualites/Davide-ancelotti-entraineur-de-lille-a-propos-d-un-bayern-munich-affaibli-en-ligue-des-champions-c-est-dangereux-de-parler-comme-ca/1745792#at_medium=RSS_feeds",
+   "t": "Arsenal freiné par Dortmund en Ligue des champions à l'issue d'un match captivant",
+   "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-freine-par-dortmund-a-l-issue-d-un-match-captivant/1745942#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
