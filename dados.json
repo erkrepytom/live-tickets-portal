@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-24T02:19:21+00:00",
+ "atualizado": "2026-11-24T13:56:38+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Santos x Grêmio: veja fotos do jogo pelo Brasileirão no Morumbis",
-     "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/santos-gremio-fotos-jogo-brasileirao-2026/",
+     "t": "De Inter com 92% a Grêmio, Corinthians, Botafogo, Mirassol e Vitória em alerta: as chances de queda no Brasileirão",
+     "u": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17555023/inter-dispara-chance-rebaixamento-apos-goleada-beira-rio-veja-probabilidades",
+     "f": "ESPN Brasil",
+     "alta": false
+    },
+    {
+     "t": "Atlético-MG x Corinthians: prováveis escalações e onde assistir ao jogo pelo Brasileirão",
+     "u": "https://www.gazetaesportiva.com/times/corinthians/atletico-mg-x-corinthians-provaveis-escalacoes-e-onde-assistir-ao-jogo-pelo-brasileirao/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Com show de Weverton, Grêmio vence o Santos no Morumbi e deixa a zona de rebaixamento",
+     "u": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17554559/com-show-weverton-gremio-vence-santos-morumbi-deixa-zona-rebaixamento",
+     "f": "ESPN Brasil",
      "alta": false
     },
     {
      "t": "Santos perde do Grêmio, e Corinthians volta ao Z4 do Brasileirão",
      "u": "https://www.gazetaesportiva.com/times/santos/santos-perde-gremio-corinthians-z4-brasileirao/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Atuações: Santos perde no Morumbis em noite de erros da defesa; dê suas notas",
-     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/23/atuacoes-santos-perde-no-morumbis-em-noite-de-erros-da-defesa-de-suas-notas.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Santos x Grêmio - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/sp/santos-e-regiao/futebol/brasileirao-serie-a/jogo/23-11-2026/santos-gremio.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Bengals vs. Commanders odds: First touchdown scorer picks, Week 11 NFL predictions for Monday Night Football",
-     "u": "https://www.cbssports.com/prediction/news/bengals-vs-commanders-odds-first-touchdown-scorer-picks-week-11-nfl-predictions-for-monday-night-football/",
+     "t": "What to watch in UEFA Champions League: Could Real Madrid, Manchester City exploit PSG and Bayern woes?",
+     "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-real-madrid-manchester-city-psg-bayern/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "NBA trade rumors: Lakers planning to be active, Jazz looking elsewhere after Kyrie Irving buzz",
-     "u": "https://www.cbssports.com/nba/news/nba-trade-rumors-lakers-jazz-kyrie-irving-nov-23/",
+     "t": "Champions League expert picks, predictions, best bets: Will Arsenal overcome absent David Raya vs. Dortmund?",
+     "u": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Two Celtics Veterans Have Alarming Numbers As Boston Searches For Answers",
-     "u": "https://sports.yahoo.com/articles/two-celtics-veterans-alarming-numbers-021026781.html",
-     "f": "Yahoo Sports",
+     "t": "Golliver's too-early NBA All-Star picks: The 24 most deserving players right now",
+     "u": "https://www.espn.com/nba/story/_/id/50558987/all-star-selections-wembanyama-giannis-maxey",
+     "f": "ESPN NBA",
      "alta": false
     },
     {
-     "t": "Here’s your LHSAA quarterfinal-round playoff football matchups",
-     "u": "https://sports.yahoo.com/articles/lhsaa-quarterfinal-round-playoff-football-020832236.html",
+     "t": "Chelsea “most likely” destination for Premier League midfielder with potential massive January move on the way",
+     "u": "https://sports.yahoo.com/articles/chelsea-most-likely-destination-premier-133500920.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Gustavo Varela junta-se a lista de luxo nos últimos 50 anos da Serie A: «Não consigo acreditar no que estou a fazer»",
-     "u": "https://www.record.pt/internacional/paises/italia/monza/detalhe/gustavo-varela-junta-se-a-lista-de-luxo-nos-ultimos-50-anos-da-serie-a-nao-consigo-acreditar-no-que-estou-a-fazer",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "New Orleans Pelicans-Phoenix Suns, ao minuto",
-     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/new-orleans-pelicans-phoenix-suns-ao-minuto",
+     "t": "Lesões no PSG e Bayern e o Chelsea que compra os \"miúdos que mexem\": o nível de interesse dos clubes que seguem Prestianni",
+     "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/lesoes-no-psg-e-bayern-e-o-chelsea-que-compra-os-miudos-que-mexem-o-nivel-de-interesse-dos-clubes-que-seguem-prestianni",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Kokçu: «Cometi erros. O Benfica não merecia»",
-     "u": "https://www.abola.pt/noticias/kokcu-cometi-erros-o-benfica-nao-merecia-2026112318303065090",
+     "t": "Júlia Leal eliminada no torneio de pares do Mundial jovem de ténis de mesa",
+     "u": "https://www.record.pt/modalidades/tenis-de-mesa/detalhe/julia-leal-eliminada-no-torneio-de-pares-do-mundial-jovem-de-tenis-de-mesa",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Ganhar... ou ganhar no regresso à Champions: o onze provável do FC Porto",
+     "u": "https://www.abola.pt/noticias/ganhar-ou-ganhar-no-regresso-a-champions-o-onze-provavel-do-fc-porto-2026112313591425072",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "Jovem promessa do Bayern: «Plano B? Não sou uma pessoa muito inteligente...»",
-     "u": "https://www.abola.pt/noticias/jovem-promessa-do-bayern-plano-b-nao-sou-uma-pessoa-muito-inteligente-2026112320014487581",
+     "t": "21 clubes ainda sonham imitar o Benfica, FC Porto está bem lançado (fotos)",
+     "u": "https://www.abola.pt/noticias/21-clubes-ainda-sonham-imitar-o-benfica-fc-porto-esta-bem-lancado-fotos-2026112316385541147",
      "f": "A Bola",
      "alta": false
     }
@@ -113,27 +113,27 @@
    },
    "noticias": [
     {
-     "t": "1-5: Paso de gigante del Barça en la Champions League",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261123/1004254674/paso-gigante-barca-champions-league.html",
+     "t": "Gil Marín dimite como vicepresidente de LaLiga",
+     "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261124/1004254931/miguel-angel-gil-marin-dimite-vicepresidente-laliga.html",
+     "f": "Mundo Deportivo",
+     "alta": true
+    },
+    {
+     "t": "El PSG busca extremo, valora a Abde y el Barça se frota las manos",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261124/1004254803/psg-busca-extremo-valora-abde-barca-frota-manos.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
     {
-     "t": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid",
-     "u": "https://www.marca.com/futbol/nations-league/2026/11/20/uefa-multa-inglaterra-canticos-anticatolicos-aficionados-madrid.html",
+     "t": "Raphinha quiere dar otro salto en la Champions League con el Barça",
+     "u": "https://www.marca.com/futbol/barcelona/2026/11/24/raphinha-quiere-dar-salto-champions-league-barca.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "El botín de más de un millón y medio de dólares que acumula Zverev en las ATP Finals de Turín",
-     "u": "https://www.marca.com/tenis/copa-masters/2026/11/20/botin-millon-medio-dolares-acumula-zverev-atp-finals-turin.html",
+     "t": "Simeone, un elegido de la Liga... y de las grandes de Europa",
+     "u": "https://www.marca.com/futbol/atletico/2026/11/24/simeone-elegido-liga-grandes-europa.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "Nuevas imágenes de una impactante primera equipación del Barça 2027-28",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261123/1004254708/nuevas-imagenes-impactante-primera-equipacion-barca-2027-28.html",
-     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -153,9 +153,9 @@
      "alta": false
     },
     {
-     "t": "England and Ireland provide champagne rugby for north to tee up finals weekend | Robert Kitson",
-     "u": "https://www.theguardian.com/sport/2026/nov/23/england-ireland-france-nations-championship-rugby-union",
-     "f": "The Guardian",
+     "t": "Is Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A",
+     "u": "https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
      "alta": false
     },
     {
@@ -165,9 +165,9 @@
      "alta": false
     },
     {
-     "t": "England's Freeman in contention for All Blacks rematch",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cm5y1qpnp2lpo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Nwaneri at risk of becoming Arsenal’s forgotten teenager on return with Dortmund",
+     "u": "https://www.theguardian.com/football/2026/nov/24/ethan-nwaneri-arsenal-dortmund-mikel-arteta-champions-league",
+     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -187,20 +187,20 @@
      "alta": false
     },
     {
-     "t": "Arde la interna en Ferrari tras el toque de Leclerc a Hamilton en el GP de Las Vegas de Fórmula 1: “Una falta de respeto hacia el equipo”",
-     "u": "https://www.infobae.com/deportes/2026/11/23/arde-la-interna-en-ferrari-tras-el-toque-de-leclerc-a-hamilton-en-el-gp-de-las-vegas-de-formula-1-una-falta-de-respeto-hacia-el-equipo/",
+     "t": "Franco Colapinto saldrá a pista este fin de semana en el Gran Premio de Qatar de Fórmula 1: todo lo que hay que saber",
+     "u": "https://www.infobae.com/deportes/2026/11/24/franco-colapinto-saldra-a-pista-este-fin-de-semana-en-el-gran-premio-de-qatar-de-formula-1-todo-lo-que-hay-que-saber/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Boca no postergó el duelo con Independiente Rivadavia y Arruabarrena evalúa cambios: las dudas tras el festejo",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-rodolfoarruabarrena-leandroparedes-santiagoascacibar_0_3TPO3T9oeT.html",
+     "t": "La noticia que recibió Palmeiras a días de la final de la Libertadores con Estudiantes",
+     "u": "https://www.ole.com.ar/futbol-internacional/america/palmeiras-buena-noticia-final-libertadores-estudiantes-joaquin-piquerez_0_tPQIt8BDdF.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Las Federaciones ya saben: Copa América 2028 en Estados Unidos",
-     "u": "https://www.ole.com.ar/futbol-internacional/copaamerica2028-estadosunidos-conmebol-alejandrodominguez-argentina_0_l19Ehi4bMI.html",
+     "t": "Neymar estrenó nuevo look, le anularon un gol de tiro libre y quedó complicado para clasificar a la Libertadores 2027 con el Santos",
+     "u": "https://www.ole.com.ar/futbol-internacional/america/santos-tabla-posiciones-brasileirao-neymar-look-rubio-platinado-copa-libertadores-2027-clasificacion-cupos_0_IydPMzcFYC.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "De Bruyne : «Je n’ai que de l’affection pour Manchester City»",
-     "u": "https://www.lequipe.fr/Football/Video/Ligue-des-champions-malgre-les-infractions-financieres-kevin-de-bruyne-n-a-que-de-l-affection-pour-manchester-city/20246188#at_medium=RSS_feeds",
+     "t": "Davide Ancelotti, entraîneur de Lille, à propos d'un Bayern Munich affaibli en Ligue des champions : « C'est dangereux de parler comme ça... »",
+     "u": "https://www.lequipe.fr/Football/Actualites/Davide-ancelotti-entraineur-de-lille-a-propos-d-un-bayern-munich-affaibli-en-ligue-des-champions-c-est-dangereux-de-parler-comme-ca/1745792#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Les 50 points de Victor Wembanyama n'ont pas suffi : Nikola Jokic et Anthony Davis nommés joueurs de la semaine en NBA",
-     "u": "https://www.lequipe.fr/Basket/Actualites/Les-50-points-de-victor-wembanyama-n-ont-pas-suffi-nikola-jokic-et-anthony-davis-nommes-joueurs-de-la-semaine-en-nba/1745707#at_medium=RSS_feeds",
+     "t": "Pour Yoram Moefana, la France n'a pas pris l'ascendant avant la finale du Championnat des nations : « On n'est pas favoris face à l'Afrique du Sud »",
+     "u": "https://www.lequipe.fr/Rugby/Actualites/Pour-yoram-moefana-la-france-n-a-pas-pris-l-ascendant-avant-la-finale-du-championnat-des-nations-on-n-est-pas-favoris-face-a-l-afrique-du-sud/1745782#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,31 +253,31 @@
  ],
  "destaques": [
   {
-   "t": "Santos x Grêmio: veja fotos do jogo pelo Brasileirão no Morumbis",
-   "u": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/santos-gremio-fotos-jogo-brasileirao-2026/",
-   "f": "Gazeta Esportiva",
+   "t": "De Inter com 92% a Grêmio, Corinthians, Botafogo, Mirassol e Vitória em alerta: as chances de queda no Brasileirão",
+   "u": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17555023/inter-dispara-chance-rebaixamento-apos-goleada-beira-rio-veja-probabilidades",
+   "f": "ESPN Brasil",
    "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Bengals vs. Commanders odds: First touchdown scorer picks, Week 11 NFL predictions for Monday Night Football",
-   "u": "https://www.cbssports.com/prediction/news/bengals-vs-commanders-odds-first-touchdown-scorer-picks-week-11-nfl-predictions-for-monday-night-football/",
+   "t": "What to watch in UEFA Champions League: Could Real Madrid, Manchester City exploit PSG and Bayern woes?",
+   "u": "https://www.cbssports.com/soccer/news/uefa-champions-league-real-madrid-manchester-city-psg-bayern/",
    "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Gustavo Varela junta-se a lista de luxo nos últimos 50 anos da Serie A: «Não consigo acreditar no que estou a fazer»",
-   "u": "https://www.record.pt/internacional/paises/italia/monza/detalhe/gustavo-varela-junta-se-a-lista-de-luxo-nos-ultimos-50-anos-da-serie-a-nao-consigo-acreditar-no-que-estou-a-fazer",
+   "t": "Lesões no PSG e Bayern e o Chelsea que compra os \"miúdos que mexem\": o nível de interesse dos clubes que seguem Prestianni",
+   "u": "https://www.record.pt/multimedia/record-na-hora/detalhe/lesoes-no-psg-e-bayern-e-o-chelsea-que-compra-os-miudos-que-mexem-o-nivel-de-interesse-dos-clubes-que-seguem-prestianni",
    "f": "Record",
-   "alta": true,
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "1-5: Paso de gigante del Barça en la Champions League",
-   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261123/1004254674/paso-gigante-barca-champions-league.html",
+   "t": "Gil Marín dimite como vicepresidente de LaLiga",
+   "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261124/1004254931/miguel-angel-gil-marin-dimite-vicepresidente-laliga.html",
    "f": "Mundo Deportivo",
-   "alta": false,
+   "alta": true,
    "pais": "ES"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "De Bruyne : «Je n’ai que de l’affection pour Manchester City»",
-   "u": "https://www.lequipe.fr/Football/Video/Ligue-des-champions-malgre-les-infractions-financieres-kevin-de-bruyne-n-a-que-de-l-affection-pour-manchester-city/20246188#at_medium=RSS_feeds",
+   "t": "Davide Ancelotti, entraîneur de Lille, à propos d'un Bayern Munich affaibli en Ligue des champions : « C'est dangereux de parler comme ça... »",
+   "u": "https://www.lequipe.fr/Football/Actualites/Davide-ancelotti-entraineur-de-lille-a-propos-d-un-bayern-munich-affaibli-en-ligue-des-champions-c-est-dangereux-de-parler-comme-ca/1745792#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
