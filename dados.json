@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T08:50:09+00:00",
+ "atualizado": "2026-11-25T19:25:42+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,28 +11,28 @@
    },
    "noticias": [
     {
-     "t": "Copinha 2027: veja os grupos de Corinthians, Palmeiras, São Paulo e Santos",
-     "u": "https://www.gazetaesportiva.com/campeonatos/copa-sao-paulo/copinha-2027-veja-os-grupos-de-corinthians-palmeiras-sao-paulo-e-santos/",
-     "f": "Gazeta Esportiva",
-     "alta": false
+     "t": "Sabah x Barcelona AO VIVO: siga o duelo da Champions em tempo real",
+     "u": "https://www.espn.com.br/futebol/partida/_/jogoId/401915378",
+     "f": "ESPN Brasil",
+     "alta": true
     },
     {
-     "t": "São Paulo sofre virada do Atlético-MG e dá adeus ao sonho do tri da Copa do Brasil sub-20",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-sofre-virada-do-atletico-mg-e-da-adeus-ao-sonho-do-tri-da-copa-do-brasil-sub-20/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "Athletico seca o Atlético-MG para se garantir na Libertadores; veja as contas",
-     "u": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/11/25/athletico-seca-o-atletico-mg-para-se-garantir-na-libertadores-veja-as-contas.ghtml",
+     "t": "Joia ex-Flamengo brilha e faz quatro gols na Champions League Sub-19; veja os lances",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/25/joia-ex-flamengo-brilha-e-faz-quatro-gols-na-champions-league-sub-19-veja-os-lances.ghtml",
      "f": "ge",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Atlético-MG x Corinthians: onde assistir ao vivo, horário e escalações",
-     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/noticia/2026/11/25/atletico-mg-x-corinthians-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+     "t": "City fica atrás duas vezes, reage, mas só empata contra o Napoli na Champions e chega ao terceiro jogo seguido sem vencer",
+     "u": "https://www.espn.com.br/futebol/champions-league/artigo/_/id/17557954/manchester-city-atras-duas-vezes-reage-empata-napoli-champions-terceiro-jogo-sem-vencer",
+     "f": "ESPN Brasil",
+     "alta": true
+    },
+    {
+     "t": "Sporting x Manchester United - Liga dos Campeões 2026/2027 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/futebol/futebol-internacional/jogo/25-11-2026/sporting-Manchesterunited.ghtml",
      "f": "ge",
-     "alta": false
+     "alta": true
     }
    ]
   },
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Manchester City playmaker Rayan Cherki said he only cares about winning after scoring a late equaliser in a discouraging 2-2 UEFA Champions League dra",
-     "u": "https://sports.yahoo.com/soccer/articles/manchester-city-playmaker-rayan-cherki-083000601.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Paris Saint-Germain and Bayern Munich without star players in the Champions League",
-     "u": "https://sports.yahoo.com/soccer/articles/paris-saint-germain-bayern-munich-083208051.html",
-     "f": "Yahoo Sports",
-     "alta": false
-    },
-    {
-     "t": "Nuggets vs. Mavericks prediction, odds, time: 2026 NBA Cup picks for Tuesday, Nov. 24 from proven model",
-     "u": "https://www.cbssports.com/betting/news/nuggets-mavericks-prediction-odds-time-2026-nba-cup-picks-best-bets-tuesday-november-24/",
+     "t": "Sons of LeBron James, Carmelo Anthony among notable college basketball players with family ties to NBA",
+     "u": "https://www.cbssports.com/college-basketball/news/sons-of-nba-players-lebron-james-carmelo-anthony-ncaa-hoops/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Celtics vs. Wizards odds, prediction, NBA Cup picks: Kalshi promo code CBSSPORTS55 for $55 bonus",
-     "u": "https://www.cbssports.com/prediction/news/celtics-vs-wizards-odds-prediction-nba-cup-picks-kalshi-promo-code-cbssports55-for-55-bonus/",
+     "t": "Lakers latest in NBA to establish prediction market partnership",
+     "u": "https://www.espn.com/nba/story/_/id/50586638/lakers-latest-nba-partnership-kalshi",
+     "f": "ESPN NBA",
+     "alta": false
+    },
+    {
+     "t": "NFL Thanksgiving 2026: Ranking the 10 most memorable Thanksgiving halftime shows",
+     "u": "https://www.cbssports.com/nfl/news/nfl-thanksgiving-2026-ranking-most-memorable-halftime-shows/",
      "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "PSG vs. Roma: Lineups & Game Thread",
+     "u": "https://sports.yahoo.com/soccer/articles/psg-vs-roma-lineups-game-190553335.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,28 +79,28 @@
    },
    "noticias": [
     {
-     "t": "Noite de príncipes na Champions: líder e bicampeão PSG recebe Roma em alta",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/noite-de-principes-na-champions-lider-e-bicampeao-psg-recebe-roma-em-alta",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Neemias Queta brilha com 21 pontos no regresso às vitórias dos Boston Celtics",
-     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/neemias-queta-em-acao-washington-wizards-boston-celtics-em-direto",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "NBA: série invencível dos 76ers termina com chuva de triplos",
-     "u": "https://www.abola.pt/noticias/nba-serie-invencivel-dos-76ers-termina-com-chuva-de-triplos-2026112408225542141",
+     "t": "Liga: já há árbitro para o clássico entre FC Porto e Sporting",
+     "u": "https://www.abola.pt/noticias/liga-ja-ha-arbitro-para-o-classico-entre-fc-porto-e-sporting-2026112517155331261",
      "f": "A Bola",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "Sporting: de Fu Manchu a Cristiano Ronaldo... noites épicas com o Man. United em Alvalade",
-     "u": "https://www.abola.pt/noticias/sporting-de-fu-manchu-a-cristiano-ronaldo-noites-epicas-com-o-man-united-em-alvalade-2026112223325193641",
+     "t": "Liga divulga calendário das próximas jornadas: o dia e a hora do Benfica-Sporting",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/ja-ha-data-e-hora-para-o-benfica-sporting",
+     "f": "Record",
+     "alta": true
+    },
+    {
+     "t": "O onze do Sporting para o jogo com o Manchester United",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/o-onze-do-sporting-para-o-jogo-com-o-manchester-united",
+     "f": "Record",
+     "alta": true
+    },
+    {
+     "t": "O onze do Sporting frente ao Manchester United",
+     "u": "https://www.abola.pt/noticias/o-onze-do-sporting-frente-ao-manchester-united-2026112516591845938",
      "f": "A Bola",
-     "alta": false
+     "alta": true
     }
    ]
   },
@@ -119,21 +119,21 @@
      "alta": false
     },
     {
-     "t": "Raphinha quiere dar otro salto en la Champions League con el Barça",
-     "u": "https://www.marca.com/futbol/barcelona/2026/11/24/raphinha-quiere-dar-salto-champions-league-barca.html",
+     "t": "'Mourinhinas' y remontadas para el Real Madrid de Champions",
+     "u": "https://www.marca.com/futbol/real-madrid/2026/11/25/mourinhinas-remontadas-real-madrid-champions.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "Nueva guerra en Ferrari tras el GP de Las Vegas: ¿Hamilton o Leclerc?",
-     "u": "https://www.mundodeportivo.com/motor/f1/20261124/1004255057/polemica-ferrari-gp-vegas-hamilton-leclerc.html",
+     "t": "Henry sabe cositas: \"Algo está pasando en el Real Madrid, cuidado\"",
+     "u": "https://www.marca.com/futbol/real-madrid/2026/11/25/henry-avisa-europa-pasando-real-madrid-cuidado.html",
+     "f": "Marca",
+     "alta": false
+    },
+    {
+     "t": "El siguiente paso que dará el Barça ante la sanción a Fermín",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261125/1004255417/siguiente-paso-dara-barca-sancion-fermin.html",
      "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "Simeone, un elegido de la Liga... y de las grandes de Europa",
-     "u": "https://www.marca.com/futbol/atletico/2026/11/24/simeone-elegido-liga-grandes-europa.html",
-     "f": "Marca",
      "alta": false
     }
    ]
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Sheehan to miss Ireland's Nations Championship finale after two-game ban",
-     "u": "https://www.skysports.com/rugby-union/news/12040/13616108/ireland-captain-dan-sheehan-to-miss-nations-championship-finale-after-two-game-ban-for-red-card-against-south-africa",
+     "t": "Sporting v Manchester United: Champions League – live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/25/sporting-v-manchester-united-champions-league-live",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Club Brugge v Liverpool, Lille v Bayern Munich and more: Champions League clockwatch – live",
+     "u": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Mulder shreds Bangladesh as South Africa seal 2-0 sweep before England Tests",
+     "u": "https://www.skysports.com/cricket/news/12040/13616372/south-africa-thrash-bangladesh-to-seal-2-0-sweep-before-england-test-series-as-wiaan-mulder-takes-seven-wicket-haul",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "Rayan Cherki magic denies Napoli but Manchester City’s struggles continue",
-     "u": "https://www.theguardian.com/football/2026/nov/24/manchester-city-napoli-champions-league-match-report",
-     "f": "The Guardian",
-     "alta": false
-    },
-    {
-     "t": "Is Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A",
-     "u": "https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo?at_medium=RSS&at_campaign=rss",
+     "t": "Fisilau starts as England change five for All Blacks rematch",
+     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cv8e04gj2wwwo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Cowan-Dickie insists England will not let up after record triumph over All Blacks",
-     "u": "https://www.theguardian.com/sport/2026/nov/24/rugby-union-nations-championship-luke-cowan-dickie-england-all-blacks-new-zealand",
-     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,8 +181,8 @@
    },
    "noticias": [
     {
-     "t": "A seis años de la muerte de Diego Maradona: cuatro historias profundamente humanas de uno de los dioses del fútbol",
-     "u": "https://www.infobae.com/deportes/2026/11/25/a-seis-anos-de-la-muerte-de-diego-maradona-cuatro-historias-profundamente-humanas-de-uno-de-los-dioses-del-futbol/",
+     "t": "El Inter de Lautaro Martínez y el Atlético de Madrid de Julián Álvarez salen a la cancha por la fecha 5 de la Champions League: la agenda de la jornad",
+     "u": "https://www.infobae.com/deportes/2026/11/25/el-inter-de-lautaro-martinez-y-el-atletico-de-madrid-de-julian-alvarez-salen-a-la-cancha-por-la-fecha-5-de-la-champions-league-la-agenda-de-la-jornada/",
      "f": "Infobae",
      "alta": true
     },
@@ -190,17 +190,17 @@
      "t": "Con Enzo Fernández como titular, Manchester City empató 2-2 ante Napoli por la fecha 5 de la Champions League: todos los goles del día",
      "u": "https://www.infobae.com/deportes/2026/11/24/con-enzo-fernandez-y-nico-paz-como-protagonistas-se-inicia-la-fecha-5-de-la-champions-league-la-agenda-completa/",
      "f": "Infobae",
-     "alta": false
+     "alta": true
     },
     {
-     "t": "¿Por qué el técnico de Palmeiras no habló de la final de la Libertadores?",
-     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/palmeiras-copalibertadores-abelferreira-estudiantesdelaplata-chapecoense-arenaconda_0_JAmJfhKK60.html",
+     "t": "Mundial de Rugby 2035: Argentina y Sudamérica avanzan en el sueño de ser anfitriones",
+     "u": "https://www.ole.com.ar/rugby/mundial-rugby-2035-argentina-sudamerica-avanzan-sueno-anfitriones_0_0ErWyOBTqf.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Boca vs. Independiente Rivadavia: la fiesta en la Bombonera y otra final",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-independiente-rivadavia-fiesta-sudamericana-octavos-clausura_0_6HFKzD6l5W.html",
+     "t": "Del otro lado del mundo: las felicitaciones del Pyramids para Amr Mokhtar, el ayudante egipcio de Arruabarrena en Boca",
+     "u": "https://www.ole.com.ar/boca-juniors/lado-mundo-felicitaciones-saludo-pyramids-fc-egipto-amr-mokhtar-ayudante-egipcio-vasco-arruabarrena_0_60bW4qYMaH.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Bodö/Glimt et Manchester City à Bollaert puis déplacement à Liverpool... la suite du programme de Lens en Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Bodo-glimt-et-manchester-city-a-bollaert-puis-deplacement-a-liverpool-la-suite-du-programme-de-lens-en-ligue-des-champions/1745976#at_medium=RSS_feeds",
+     "t": "Trois jours après avoir remporté les Finales ATP, Théo Arribagé et Albano Olivetti battus en Championnats de France par équipes",
+     "u": "https://www.lequipe.fr/Tennis/Actualites/Trois-jours-apres-avoir-remporte-les-finales-atp-theo-arribage-et-albano-olivetti-battus-en-championnats-de-france-par-equipes/1746152#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "À quelle heure et sur quelle chaîne voir Lille-Bayern Munich en Ligue des champions ?",
-     "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-lille-bayern-en-ligue-des-champions/1745746#at_medium=RSS_feeds",
+     "t": "La France, le Royaume-Uni et l'Allemagne annoncent la création d'une nouvelle compétition de natation au format original",
+     "u": "https://www.lequipe.fr/Natation/Actualites/La-france-le-royaume-uni-et-l-allemagne-annoncent-la-creation-d-une-nouvelle-competition-de-natation-au-format-original/1746145#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,24 +253,24 @@
  ],
  "destaques": [
   {
-   "t": "Copinha 2027: veja os grupos de Corinthians, Palmeiras, São Paulo e Santos",
-   "u": "https://www.gazetaesportiva.com/campeonatos/copa-sao-paulo/copinha-2027-veja-os-grupos-de-corinthians-palmeiras-sao-paulo-e-santos/",
-   "f": "Gazeta Esportiva",
-   "alta": false,
+   "t": "Sabah x Barcelona AO VIVO: siga o duelo da Champions em tempo real",
+   "u": "https://www.espn.com.br/futebol/partida/_/jogoId/401915378",
+   "f": "ESPN Brasil",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Manchester City playmaker Rayan Cherki said he only cares about winning after scoring a late equaliser in a discouraging 2-2 UEFA Champions League dra",
-   "u": "https://sports.yahoo.com/soccer/articles/manchester-city-playmaker-rayan-cherki-083000601.html",
-   "f": "Yahoo Sports",
+   "t": "Sons of LeBron James, Carmelo Anthony among notable college basketball players with family ties to NBA",
+   "u": "https://www.cbssports.com/college-basketball/news/sons-of-nba-players-lebron-james-carmelo-anthony-ncaa-hoops/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Noite de príncipes na Champions: líder e bicampeão PSG recebe Roma em alta",
-   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/noite-de-principes-na-champions-lider-e-bicampeao-psg-recebe-roma-em-alta",
-   "f": "Record",
-   "alta": false,
+   "t": "Liga: já há árbitro para o clássico entre FC Porto e Sporting",
+   "u": "https://www.abola.pt/noticias/liga-ja-ha-arbitro-para-o-classico-entre-fc-porto-e-sporting-2026112517155331261",
+   "f": "A Bola",
+   "alta": true,
    "pais": "PT"
   },
   {
@@ -281,15 +281,15 @@
    "pais": "ES"
   },
   {
-   "t": "Sheehan to miss Ireland's Nations Championship finale after two-game ban",
-   "u": "https://www.skysports.com/rugby-union/news/12040/13616108/ireland-captain-dan-sheehan-to-miss-nations-championship-finale-after-two-game-ban-for-red-card-against-south-africa",
-   "f": "Sky Sports",
+   "t": "Sporting v Manchester United: Champions League – live",
+   "u": "https://www.theguardian.com/football/live/2026/nov/25/sporting-v-manchester-united-champions-league-live",
+   "f": "The Guardian",
    "alta": false,
    "pais": "GB"
   },
   {
-   "t": "A seis años de la muerte de Diego Maradona: cuatro historias profundamente humanas de uno de los dioses del fútbol",
-   "u": "https://www.infobae.com/deportes/2026/11/25/a-seis-anos-de-la-muerte-de-diego-maradona-cuatro-historias-profundamente-humanas-de-uno-de-los-dioses-del-futbol/",
+   "t": "El Inter de Lautaro Martínez y el Atlético de Madrid de Julián Álvarez salen a la cancha por la fecha 5 de la Champions League: la agenda de la jornad",
+   "u": "https://www.infobae.com/deportes/2026/11/25/el-inter-de-lautaro-martinez-y-el-atletico-de-madrid-de-julian-alvarez-salen-a-la-cancha-por-la-fecha-5-de-la-champions-league-la-agenda-de-la-jornada/",
    "f": "Infobae",
    "alta": true,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Bodö/Glimt et Manchester City à Bollaert puis déplacement à Liverpool... la suite du programme de Lens en Ligue des champions",
-   "u": "https://www.lequipe.fr/Football/Actualites/Bodo-glimt-et-manchester-city-a-bollaert-puis-deplacement-a-liverpool-la-suite-du-programme-de-lens-en-ligue-des-champions/1745976#at_medium=RSS_feeds",
+   "t": "Trois jours après avoir remporté les Finales ATP, Théo Arribagé et Albano Olivetti battus en Championnats de France par équipes",
+   "u": "https://www.lequipe.fr/Tennis/Actualites/Trois-jours-apres-avoir-remporte-les-finales-atp-theo-arribage-et-albano-olivetti-battus-en-championnats-de-france-par-equipes/1746152#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
