@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-24T23:31:48+00:00",
+ "atualizado": "2026-11-25T08:50:09+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -14,24 +14,24 @@
      "t": "Copinha 2027: veja os grupos de Corinthians, Palmeiras, São Paulo e Santos",
      "u": "https://www.gazetaesportiva.com/campeonatos/copa-sao-paulo/copinha-2027-veja-os-grupos-de-corinthians-palmeiras-sao-paulo-e-santos/",
      "f": "Gazeta Esportiva",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "União-TO cai no grupo de Atlético-MG e Ponte Preta na Copinha 2027",
-     "u": "https://ge.globo.com/to/futebol/copa-sp-de-futebol-junior/noticia/2026/11/24/uniao-to-cai-no-grupo-de-atletico-mg-e-ponte-preta-na-copinha-2027.ghtml",
+     "t": "São Paulo sofre virada do Atlético-MG e dá adeus ao sonho do tri da Copa do Brasil sub-20",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-sofre-virada-do-atletico-mg-e-da-adeus-ao-sonho-do-tri-da-copa-do-brasil-sub-20/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Athletico seca o Atlético-MG para se garantir na Libertadores; veja as contas",
+     "u": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/11/25/athletico-seca-o-atletico-mg-para-se-garantir-na-libertadores-veja-as-contas.ghtml",
      "f": "ge",
-     "alta": true
+     "alta": false
     },
     {
-     "t": "Batalhão FC cai no grupo do Fluminense na Copinha 2027; veja a chave",
-     "u": "https://ge.globo.com/to/futebol/copa-sp-de-futebol-junior/noticia/2026/11/24/batalhao-fc-cai-no-grupo-do-fluminense-na-copinha-2027-veja-o-grupo.ghtml",
+     "t": "Atlético-MG x Corinthians: onde assistir ao vivo, horário e escalações",
+     "u": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/noticia/2026/11/25/atletico-mg-x-corinthians-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
      "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "De Inter com 92% a Grêmio, Corinthians, Botafogo, Mirassol e Vitória em alerta: as chances de queda no Brasileirão",
-     "u": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17555023/inter-dispara-chance-rebaixamento-apos-goleada-beira-rio-veja-probabilidades",
-     "f": "ESPN Brasil",
      "alta": false
     }
    ]
@@ -45,27 +45,27 @@
    },
    "noticias": [
     {
-     "t": "Bellingham beauty in Real Madrid win as Arsenal, Man City held in Champions League",
-     "u": "https://sports.yahoo.com/soccer/articles/bellingham-beauty-real-madrid-win-230842595.html",
+     "t": "Manchester City playmaker Rayan Cherki said he only cares about winning after scoring a late equaliser in a discouraging 2-2 UEFA Champions League dra",
+     "u": "https://sports.yahoo.com/soccer/articles/manchester-city-playmaker-rayan-cherki-083000601.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "From a freak injury to silencing Man City fans, Noa Lang enjoys Champions League return to England",
-     "u": "https://sports.yahoo.com/soccer/articles/freak-injury-silencing-man-city-231852363.html",
+     "t": "Paris Saint-Germain and Bayern Munich without star players in the Champions League",
+     "u": "https://sports.yahoo.com/soccer/articles/paris-saint-germain-bayern-munich-083208051.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Celtics vs. Wizards prediction, odds, time: 2026 NBA Cup picks for Tuesday, Nov. 24 from proven model",
-     "u": "https://www.cbssports.com/betting/news/celtics-wizards-prediction-odds-time-2026-nba-cup-picks-best-bets-tuesday-november-24/",
+     "t": "Nuggets vs. Mavericks prediction, odds, time: 2026 NBA Cup picks for Tuesday, Nov. 24 from proven model",
+     "u": "https://www.cbssports.com/betting/news/nuggets-mavericks-prediction-odds-time-2026-nba-cup-picks-best-bets-tuesday-november-24/",
      "f": "CBS Sports",
      "alta": false
     },
     {
-     "t": "Lakers latest in NBA to establish prediction market partnership",
-     "u": "https://www.espn.com/nba/story/_/id/50586638/lakers-latest-nba-partnership-kalshi",
-     "f": "ESPN NBA",
+     "t": "Celtics vs. Wizards odds, prediction, NBA Cup picks: Kalshi promo code CBSSPORTS55 for $55 bonus",
+     "u": "https://www.cbssports.com/prediction/news/celtics-vs-wizards-odds-prediction-nba-cup-picks-kalshi-promo-code-cbssports55-for-55-bonus/",
+     "f": "CBS Sports",
      "alta": false
     }
    ]
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "Gonçalo Borges insultado pelos adeptos do FC Porto em Roterdão",
-     "u": "https://www.abola.pt/video/goncalo-borges-insultado-pelos-adeptos-do-fc-porto-em-roterdao-2026112422015986179",
-     "f": "A Bola",
-     "alta": true
-    },
-    {
-     "t": "Insultos a Gonçalo Borges e cânticos de apoio a Moura: adeptos do FC Porto fazem-se ouvir no final do jogo",
-     "u": "https://www.record.pt/multimedia/videos/fc-porto/detalhe/insultos-a-goncalo-borges-e-canticos-de-apoio-a-moura-adeptos-do-fc-porto-fazem-se-ouvir-no-final-do-jogo",
-     "f": "Record",
-     "alta": true
-    },
-    {
-     "t": "Real Madrid apanha susto mas acaba a golear o PSV e segue invicto na Champions",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/real-madrid-psv-eindhoven-em-direto",
+     "t": "Noite de príncipes na Champions: líder e bicampeão PSG recebe Roma em alta",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/noite-de-principes-na-champions-lider-e-bicampeao-psg-recebe-roma-em-alta",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "FC Porto inicia defesa do título da Liga dos Campeões frente ao Benfica",
-     "u": "https://www.abola.pt/noticias/fc-porto-inicia-defesa-do-titulo-da-liga-dos-campeoes-frente-ao-benfica-2026112416500617681",
+     "t": "Neemias Queta brilha com 21 pontos no regresso às vitórias dos Boston Celtics",
+     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/neemias-queta-em-acao-washington-wizards-boston-celtics-em-direto",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "NBA: série invencível dos 76ers termina com chuva de triplos",
+     "u": "https://www.abola.pt/noticias/nba-serie-invencivel-dos-76ers-termina-com-chuva-de-triplos-2026112408225542141",
+     "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Sporting: de Fu Manchu a Cristiano Ronaldo... noites épicas com o Man. United em Alvalade",
+     "u": "https://www.abola.pt/noticias/sporting-de-fu-manchu-a-cristiano-ronaldo-noites-epicas-com-o-man-united-em-alvalade-2026112223325193641",
      "f": "A Bola",
      "alta": false
     }
@@ -113,6 +113,12 @@
    },
    "noticias": [
     {
+     "t": "Horario y dónde ver por TV el Sabah - FC Barcelona de la Champions League",
+     "u": "https://www.mundodeportivo.com/horarios/futbol/20261124/1004254800/horario-canal-ver-tv-sabah-fc-barcelona-uefa-champions-league.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "Raphinha quiere dar otro salto en la Champions League con el Barça",
      "u": "https://www.marca.com/futbol/barcelona/2026/11/24/raphinha-quiere-dar-salto-champions-league-barca.html",
      "f": "Marca",
@@ -121,12 +127,6 @@
     {
      "t": "Nueva guerra en Ferrari tras el GP de Las Vegas: ¿Hamilton o Leclerc?",
      "u": "https://www.mundodeportivo.com/motor/f1/20261124/1004255057/polemica-ferrari-gp-vegas-hamilton-leclerc.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "1-1: El Borussia Dortmund le amarga la noche al Arsenal",
-     "u": "https://www.mundodeportivo.com/futbol/champions-league/20261124/1004255109/borussia-dortmund-le-amarga-noche-arsenal.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -153,20 +153,20 @@
      "alta": false
     },
     {
-     "t": "Is Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A",
-     "u": "https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
      "t": "Rayan Cherki magic denies Napoli but Manchester City’s struggles continue",
      "u": "https://www.theguardian.com/football/2026/nov/24/manchester-city-napoli-champions-league-match-report",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "‘This isn’t F1’: Max Verstappen criticises overtake-heavy Las Vegas Grand Prix",
-     "u": "https://www.theguardian.com/sport/2026/nov/23/max-verstappen-red-bull-f1-formula-one-las-vegas-grand-prix",
+     "t": "Is Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A",
+     "u": "https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo?at_medium=RSS&at_campaign=rss",
+     "f": "BBC Sport",
+     "alta": false
+    },
+    {
+     "t": "Cowan-Dickie insists England will not let up after record triumph over All Blacks",
+     "u": "https://www.theguardian.com/sport/2026/nov/24/rugby-union-nations-championship-luke-cowan-dickie-england-all-blacks-new-zealand",
      "f": "The Guardian",
      "alta": false
     }
@@ -181,8 +181,8 @@
    },
    "noticias": [
     {
-     "t": "Impacto argentino en la UFC: Kevin Chino Vallejos se convirtió en el N°3 del mundo y quedó a un paso de pelear por el título mundial",
-     "u": "https://www.infobae.com/deportes/2026/11/24/impacto-argentino-en-la-ufc-kevin-chino-vallejos-se-convirtio-en-el-n3-del-mundo-y-quedo-a-un-paso-de-pelear-por-el-titulo-mundial/",
+     "t": "A seis años de la muerte de Diego Maradona: cuatro historias profundamente humanas de uno de los dioses del fútbol",
+     "u": "https://www.infobae.com/deportes/2026/11/25/a-seis-anos-de-la-muerte-de-diego-maradona-cuatro-historias-profundamente-humanas-de-uno-de-los-dioses-del-futbol/",
      "f": "Infobae",
      "alta": true
     },
@@ -193,14 +193,14 @@
      "alta": false
     },
     {
-     "t": "PSG vs. Roma, por la Champions League: hora, cómo ver y probables formaciones",
-     "u": "https://www.ole.com.ar/futbol-internacional/champions/psg-vs-roma-hora-ver-champions-league-tv-online-formaciones_0_4IKKhthb2S.html",
+     "t": "¿Por qué el técnico de Palmeiras no habló de la final de la Libertadores?",
+     "u": "https://www.ole.com.ar/futbol-internacional/libertadores/palmeiras-copalibertadores-abelferreira-estudiantesdelaplata-chapecoense-arenaconda_0_JAmJfhKK60.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "Golearon a Palmeiras antes de la final de la Libertadores ante Estudiantes",
-     "u": "https://www.ole.com.ar/futbol-internacional/palmeiras-titulares-estudiantes-final_0_ZGnSGaL75j.html",
+     "t": "Boca vs. Independiente Rivadavia: la fiesta en la Bombonera y otra final",
+     "u": "https://www.ole.com.ar/boca-juniors/boca-independiente-rivadavia-fiesta-sudamericana-octavos-clausura_0_6HFKzD6l5W.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Arsenal freiné par Dortmund en Ligue des champions à l'issue d'un match captivant",
-     "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-freine-par-dortmund-a-l-issue-d-un-match-captivant/1745942#at_medium=RSS_feeds",
+     "t": "Bodö/Glimt et Manchester City à Bollaert puis déplacement à Liverpool... la suite du programme de Lens en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Bodo-glimt-et-manchester-city-a-bollaert-puis-deplacement-a-liverpool-la-suite-du-programme-de-lens-en-ligue-des-champions/1745976#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Auteur de l'égalisation tardive contre Naples en Ligue des champions, Rayan Cherki évite la sortie de route à Manchester City",
-     "u": "https://www.lequipe.fr/Football/Actualites/Auteur-de-l-egalisation-tardive-contre-naples-en-ligue-des-champions-rayan-cherki-evite-la-sortie-de-route-a-manchester-city/1745938#at_medium=RSS_feeds",
+     "t": "À quelle heure et sur quelle chaîne voir Lille-Bayern Munich en Ligue des champions ?",
+     "u": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-lille-bayern-en-ligue-des-champions/1745746#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -256,27 +256,27 @@
    "t": "Copinha 2027: veja os grupos de Corinthians, Palmeiras, São Paulo e Santos",
    "u": "https://www.gazetaesportiva.com/campeonatos/copa-sao-paulo/copinha-2027-veja-os-grupos-de-corinthians-palmeiras-sao-paulo-e-santos/",
    "f": "Gazeta Esportiva",
-   "alta": true,
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Bellingham beauty in Real Madrid win as Arsenal, Man City held in Champions League",
-   "u": "https://sports.yahoo.com/soccer/articles/bellingham-beauty-real-madrid-win-230842595.html",
+   "t": "Manchester City playmaker Rayan Cherki said he only cares about winning after scoring a late equaliser in a discouraging 2-2 UEFA Champions League dra",
+   "u": "https://sports.yahoo.com/soccer/articles/manchester-city-playmaker-rayan-cherki-083000601.html",
    "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Gonçalo Borges insultado pelos adeptos do FC Porto em Roterdão",
-   "u": "https://www.abola.pt/video/goncalo-borges-insultado-pelos-adeptos-do-fc-porto-em-roterdao-2026112422015986179",
-   "f": "A Bola",
-   "alta": true,
+   "t": "Noite de príncipes na Champions: líder e bicampeão PSG recebe Roma em alta",
+   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/noite-de-principes-na-champions-lider-e-bicampeao-psg-recebe-roma-em-alta",
+   "f": "Record",
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Raphinha quiere dar otro salto en la Champions League con el Barça",
-   "u": "https://www.marca.com/futbol/barcelona/2026/11/24/raphinha-quiere-dar-salto-champions-league-barca.html",
-   "f": "Marca",
+   "t": "Horario y dónde ver por TV el Sabah - FC Barcelona de la Champions League",
+   "u": "https://www.mundodeportivo.com/horarios/futbol/20261124/1004254800/horario-canal-ver-tv-sabah-fc-barcelona-uefa-champions-league.html",
+   "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
@@ -288,8 +288,8 @@
    "pais": "GB"
   },
   {
-   "t": "Impacto argentino en la UFC: Kevin Chino Vallejos se convirtió en el N°3 del mundo y quedó a un paso de pelear por el título mundial",
-   "u": "https://www.infobae.com/deportes/2026/11/24/impacto-argentino-en-la-ufc-kevin-chino-vallejos-se-convirtio-en-el-n3-del-mundo-y-quedo-a-un-paso-de-pelear-por-el-titulo-mundial/",
+   "t": "A seis años de la muerte de Diego Maradona: cuatro historias profundamente humanas de uno de los dioses del fútbol",
+   "u": "https://www.infobae.com/deportes/2026/11/25/a-seis-anos-de-la-muerte-de-diego-maradona-cuatro-historias-profundamente-humanas-de-uno-de-los-dioses-del-futbol/",
    "f": "Infobae",
    "alta": true,
    "pais": "AR"
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Arsenal freiné par Dortmund en Ligue des champions à l'issue d'un match captivant",
-   "u": "https://www.lequipe.fr/Football/Actualites/Arsenal-freine-par-dortmund-a-l-issue-d-un-match-captivant/1745942#at_medium=RSS_feeds",
+   "t": "Bodö/Glimt et Manchester City à Bollaert puis déplacement à Liverpool... la suite du programme de Lens en Ligue des champions",
+   "u": "https://www.lequipe.fr/Football/Actualites/Bodo-glimt-et-manchester-city-a-bollaert-puis-deplacement-a-liverpool-la-suite-du-programme-de-lens-en-ligue-des-champions/1745976#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
