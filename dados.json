@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T02:54:59+00:00",
+ "atualizado": "2026-11-26T12:50:54+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -17,21 +17,21 @@
      "alta": false
     },
     {
-     "t": "Como fica a briga do Atlético-MG pela Libertadores após empate com o Corinthians; veja contas",
-     "u": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/25/como-fica-a-briga-do-atletico-mg-pela-libertadores-apos-empate-com-o-corinthians.ghtml",
+     "t": "Corinthians reduz risco de queda após empate com o Atlético-MG; veja chances",
+     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-reduz-risco-rebaixamento-brasileirao-ufmg/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Conheça o CT do Albion: Palmeiras treina para Libertadores no clube mais antigo do futebol uruguaio",
+     "u": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/26/conheca-o-ct-do-albion-palmeiras-treina-para-libertadores-no-clube-mais-antigo-do-futebol-uruguaio.ghtml",
      "f": "ge",
      "alta": false
     },
     {
-     "t": "Corinthians cede empate no fim para o Atlético-MG e segue colado na zona de rebaixamento do Brasileirão",
-     "u": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17563119/corinthians-cede-empate-fim-atletico-mg-segue-colado-zona-de-rebaixamento-brasileirao",
-     "f": "ESPN Brasil",
-     "alta": false
-    },
-    {
-     "t": "Como ficou a tabela do Brasileirão após Atlético-MG x Corinthians",
-     "u": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17563075/classificacao-brasileirao-como-ficou-tabela-apos-atletico-mineiro-corinthians",
-     "f": "ESPN Brasil",
+     "t": "Gui Santos anota 22 pontos e tem melhor atuação desta temporada da NBA pelo segundo jogo seguido",
+     "u": "https://ge.globo.com/basquete/nba/noticia/2026/11/26/gui-santos-anota-22-pontos-e-tem-melhor-atuacao-desta-temporada-da-nba-pelo-segundo-jogo-seguido.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,10 +45,10 @@
    },
    "noticias": [
     {
-     "t": "Grizzlies' Zach Edey leaves NBA Cup game vs Clippers with injury",
-     "u": "https://sports.yahoo.com/nba/articles/grizzlies-zach-edey-leaves-nba-023737086.html",
-     "f": "Yahoo Sports",
-     "alta": true
+     "t": "Serie A Power Rankings: Inter drop positions once again; AC Milan and AS Roma at the top",
+     "u": "https://www.cbssports.com/soccer/news/serie-a-power-rankings-inter-milan-roma/",
+     "f": "CBS Sports",
+     "alta": false
     },
     {
      "t": "Champions League power rankings: Real Madrid claim top spot as Man City, Arsenal, PSG stumble",
@@ -57,15 +57,15 @@
      "alta": false
     },
     {
-     "t": "Depleted PSG attack shows vulnerability in 2-2 Champions League draw with Roma",
-     "u": "https://www.cbssports.com/soccer/news/psg-attack-injury-2-2-champions-league-draw-roma/",
-     "f": "CBS Sports",
+     "t": "'I’ve never been a star!' - Gavi opens up on limited Barcelona role under Hansi Flick and 'unique' mentality after rare Champions League start",
+     "u": "https://sports.yahoo.com/soccer/articles/ve-never-star-gavi-opens-123756740.html",
+     "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "NBA, amid push for Europe league, launches $11B arena initiative",
-     "u": "https://www.espn.com/nba/story/_/id/50592672/nba-reveals-11b-initiative-arena-development-europe",
-     "f": "ESPN NBA",
+     "t": "Lando Norris names his ‘best bet’ for F1’s future overtaking rules",
+     "u": "https://sports.yahoo.com/f1/articles/lando-norris-names-best-bet-123100309.html",
+     "f": "Yahoo Sports",
      "alta": false
     }
    ]
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "A crónica do Sporting-Manchester United, 2-2: quando o disparate é mote das emoções",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/a-cronica-do-sporting-manchester-united-2-2-quando-o-disparate-e-mote-das-emocoes",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Portland Trail Blazers-San Antonio Spurs, ao minuto",
-     "u": "https://www.record.pt/modalidades/basquetebol/nba/detalhe/portland-trail-blazers-san-antonio-spurs-ao-minuto",
-     "f": "Record",
-     "alta": false
-    },
-    {
-     "t": "Inter resiste aos ferros para superar o Estugarda (resumo)",
-     "u": "https://www.abola.pt/video/inter-resiste-aos-ferros-para-superar-o-estugarda-resumo-2026112522305418104",
+     "t": "Sporting e… Benfica contra o FC Porto",
+     "u": "https://www.abola.pt/noticias/sporting-e-benfica-contra-o-fc-porto-2026112600292923519",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "«Tomaremos as medidas necessárias»: Manchester City não intimida regulador",
-     "u": "https://www.abola.pt/noticias/tomaremos-as-medidas-necessarias-manchester-city-nao-intimida-regulador-2026112518094201296",
+     "t": "VOTE: qual deve ser o onze do Sporting frente ao FC Porto?",
+     "u": "https://www.abola.pt/noticias/vote-qual-deve-ser-o-onze-do-sporting-frente-ao-fc-porto-2026112609132132897",
      "f": "A Bola",
+     "alta": false
+    },
+    {
+     "t": "Nádia Bravo antecipa playoff \"sempre difícil\" para o Mundial feminino diante da Islândia",
+     "u": "https://www.record.pt/futebol/selecao-feminina/detalhe/nadia-bravo-antecipa-playoff-sempre-dificil-para-o-mundial-feminino-diante-da-islandia",
+     "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "Unidos pelo Benfica na Rep. Checa: 4 amigos de Portimão e Beja brindam no mercado de Natal de Plzen",
+     "u": "https://www.record.pt/multimedia/videos/detalhe/unidos-pelo-benfica-na-rep-checa-4-amigos-de-portimao-e-beja-brindam-no-mercado-de-natal-de-plzen",
+     "f": "Record",
      "alta": false
     }
    ]
@@ -113,20 +113,20 @@
    },
    "noticias": [
     {
-     "t": "Horario y dónde ver por TV el Sabah - FC Barcelona de la Champions League",
-     "u": "https://www.mundodeportivo.com/horarios/futbol/20261124/1004254800/horario-canal-ver-tv-sabah-fc-barcelona-uefa-champions-league.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "'Mourinhinas' y remontadas para el Real Madrid de Champions",
      "u": "https://www.marca.com/futbol/real-madrid/2026/11/25/mourinhinas-remontadas-real-madrid-champions.html",
      "f": "Marca",
      "alta": false
     },
     {
-     "t": "2-0: El Atlético resucita en Champions a costa de los vikingos",
-     "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261125/1004255561/cronica-atletico-viking.html",
+     "t": "Justin Robinson, la estrella del Barça que llama la atención en la NBA: “Me gusta mucho”",
+     "u": "https://www.mundodeportivo.com/baloncesto/nba/20261126/1004255664/justin-robinson-estrella-barca-llama-atencion-nba-me-gusta.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "El Real Madrid, empeñado en darle un giro histórico a su futuro",
+     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261126/1004255675/real-madrid-empenado-darle-giro-historico-futuro.html",
      "f": "Mundo Deportivo",
      "alta": false
     },
@@ -153,8 +153,14 @@
      "alta": false
     },
     {
-     "t": "Greg Fisilau to make England debut start in blockbuster All Blacks rematch",
-     "u": "https://www.theguardian.com/sport/2026/nov/25/greg-fisilau-to-make-england-debut-start-in-blockbuster-all-blacks-rematch-rugby-union",
+     "t": "Manchester United, Liverpool and Spurs using same law firm to set up legal claim against City",
+     "u": "https://www.theguardian.com/football/2026/nov/26/manchester-united-liverpool-tottenham-arsenal-city-legal-claim-financial-breaches-damages",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Pochettino claims officials ‘punished’ Manchester United in chaotic Sporting draw",
+     "u": "https://www.theguardian.com/football/2026/nov/25/mauricio-pochettino-officials-punished-manchester-united-sporting",
      "f": "The Guardian",
      "alta": false
     },
@@ -162,12 +168,6 @@
      "t": "Fisilau starts as England change five for All Blacks rematch",
      "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cv8e04gj2wwwo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Champions League: Lille comeback adds to Bayern woes, Gordon leads Barcelona rout",
-     "u": "https://www.theguardian.com/football/2026/nov/25/champions-league-barcelona-psg-roma-lille-bayern-munich-villarreal",
-     "f": "The Guardian",
      "alta": false
     }
    ]
@@ -181,6 +181,12 @@
    },
    "noticias": [
     {
+     "t": "Partidos de HOY, jueves 26 de noviembre: agenda, horario y por dónde ver fútbol EN VIVO",
+     "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-jueves-26-noviembre-2026-agenda-ole-horario-ver-futbol-vivo_0_6PaIJQpv6P.html",
+     "f": "Olé",
+     "alta": true
+    },
+    {
      "t": "Desmarque y remate potente: así fue el regreso al gol de Lautaro Martínez con el Inter por la Champions League",
      "u": "https://www.infobae.com/deportes/2026/11/25/desmarque-y-remate-potente-asi-fue-el-regreso-al-gol-de-lautaro-martinez-con-el-inter-por-la-champions-league/",
      "f": "Infobae",
@@ -193,14 +199,8 @@
      "alta": false
     },
     {
-     "t": "El uno por uno de un Boca que pasó a cuartos con muchos en alto nivel",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-puntajes-vs-independiente-rivadavia_0_2ZydAJ0ou2.html",
-     "f": "Olé",
-     "alta": false
-    },
-    {
-     "t": "Video: la vuelta olímpica de Boca en la Bombonera luego de conquistar la Sudamericana",
-     "u": "https://www.ole.com.ar/boca-juniors/boca-vuelta-olimpica-copa-sudamericana-video_0_fIwmlsA43Z.html",
+     "t": "Cambio de horario para Boca vs. Gimnasia LP: los motivos y cuándo se juega",
+     "u": "https://www.ole.com.ar/boca-juniors/cambio-horario-boca-gimnasia-plata-cuartos-final_0_jDHqLYmLUl.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Liverpool maîtrise le Club Bruges et intègre le top 5 en Ligue des champions, l'Atlético de Madrid et l'Inter s'imposent",
-     "u": "https://www.lequipe.fr/Football/Actualites/Liverpool-maitrise-le-club-bruges-et-integre-le-top-5-en-ligue-des-champions-l-atletico-de-madrid-et-l-inter-s-imposent/1746210#at_medium=RSS_feeds",
+     "t": "Des victoires de prestige contre le Real Madrid et l'Atlético, une première place de groupe... Le LOSC, un habitué des exploits en Ligue des champions",
+     "u": "https://www.lequipe.fr/Football/Actualites/Des-victoires-de-prestige-contre-le-real-madrid-et-l-atletico-une-premiere-place-de-groupe-le-losc-un-habitue-des-exploits-en-ligue-des-champions/1746319#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "Freiné par l'AS Rome, le PSG laisse filer le Real Madrid en tête du classement de la phase de ligue de Ligue des champions",
-     "u": "https://www.lequipe.fr/Football/Actualites/Freine-par-l-as-rome-le-psg-laisse-filer-le-real-en-tete-du-classement-de-la-phase-de-ligue/1746208#at_medium=RSS_feeds",
+     "t": "L'OL va affronter un Ödegaard : Hans Erik, l'entraîneur de Lilleström et père de Martin, le milieu d'Arsenal",
+     "u": "https://www.lequipe.fr/Football/Actualites/L-ol-va-affronter-un-odegaard-hans-erik-l-entraineur-de-lillestrom-et-pere-de-martin-le-milieu-d-arsenal/1746315#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -260,23 +260,23 @@
    "pais": "BR"
   },
   {
-   "t": "Grizzlies' Zach Edey leaves NBA Cup game vs Clippers with injury",
-   "u": "https://sports.yahoo.com/nba/articles/grizzlies-zach-edey-leaves-nba-023737086.html",
-   "f": "Yahoo Sports",
-   "alta": true,
+   "t": "Serie A Power Rankings: Inter drop positions once again; AC Milan and AS Roma at the top",
+   "u": "https://www.cbssports.com/soccer/news/serie-a-power-rankings-inter-milan-roma/",
+   "f": "CBS Sports",
+   "alta": false,
    "pais": "US"
   },
   {
-   "t": "A crónica do Sporting-Manchester United, 2-2: quando o disparate é mote das emoções",
-   "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-dos-campeoes/detalhe/a-cronica-do-sporting-manchester-united-2-2-quando-o-disparate-e-mote-das-emocoes",
-   "f": "Record",
+   "t": "Sporting e… Benfica contra o FC Porto",
+   "u": "https://www.abola.pt/noticias/sporting-e-benfica-contra-o-fc-porto-2026112600292923519",
+   "f": "A Bola",
    "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Horario y dónde ver por TV el Sabah - FC Barcelona de la Champions League",
-   "u": "https://www.mundodeportivo.com/horarios/futbol/20261124/1004254800/horario-canal-ver-tv-sabah-fc-barcelona-uefa-champions-league.html",
-   "f": "Mundo Deportivo",
+   "t": "'Mourinhinas' y remontadas para el Real Madrid de Champions",
+   "u": "https://www.marca.com/futbol/real-madrid/2026/11/25/mourinhinas-remontadas-real-madrid-champions.html",
+   "f": "Marca",
    "alta": false,
    "pais": "ES"
   },
@@ -288,10 +288,10 @@
    "pais": "GB"
   },
   {
-   "t": "Desmarque y remate potente: así fue el regreso al gol de Lautaro Martínez con el Inter por la Champions League",
-   "u": "https://www.infobae.com/deportes/2026/11/25/desmarque-y-remate-potente-asi-fue-el-regreso-al-gol-de-lautaro-martinez-con-el-inter-por-la-champions-league/",
-   "f": "Infobae",
-   "alta": false,
+   "t": "Partidos de HOY, jueves 26 de noviembre: agenda, horario y por dónde ver fútbol EN VIVO",
+   "u": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-jueves-26-noviembre-2026-agenda-ole-horario-ver-futbol-vivo_0_6PaIJQpv6P.html",
+   "f": "Olé",
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Liverpool maîtrise le Club Bruges et intègre le top 5 en Ligue des champions, l'Atlético de Madrid et l'Inter s'imposent",
-   "u": "https://www.lequipe.fr/Football/Actualites/Liverpool-maitrise-le-club-bruges-et-integre-le-top-5-en-ligue-des-champions-l-atletico-de-madrid-et-l-inter-s-imposent/1746210#at_medium=RSS_feeds",
+   "t": "Des victoires de prestige contre le Real Madrid et l'Atlético, une première place de groupe... Le LOSC, un habitué des exploits en Ligue des champions",
+   "u": "https://www.lequipe.fr/Football/Actualites/Des-victoires-de-prestige-contre-le-real-madrid-et-l-atletico-une-premiere-place-de-groupe-le-losc-un-habitue-des-exploits-en-ligue-des-champions/1746319#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
