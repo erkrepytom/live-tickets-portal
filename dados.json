@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T05:08:25+00:00",
+ "atualizado": "2026-11-27T15:15:45+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
+     "t": "Costa Rica x Brasil - Mundial Sub-17 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/ba/futebol/jogo/27-11-2026/costa-rica-brasil-mundial-sub-17.ghtml",
+     "f": "ge",
+     "alta": true
+    },
+    {
+     "t": "Fluminense pode garantir vaga na fase de grupos da Libertadores contra o Cruzeiro; veja cenários",
+     "u": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/27/fluminense-pode-garantir-vaga-na-fase-de-grupos-da-libertadores-contra-o-cruzeiro-veja-cenarios.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Análise: São Paulo toma susto, mas vence e tira lições para 2027 em despedida do Morumbis",
+     "u": "https://www.gazetaesportiva.com/times/sao-paulo/analise-sao-paulo-toma-susto-mas-vence-e-tira-licoes-para-2027-em-despedida-do-morumbis/",
+     "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
      "t": "Palmeiras goleia Operário-PR e pega o Atlético-MG na final da Copa do Brasil sub-20",
      "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-x-operario-pr-copa-do-brasil-sub-20/",
      "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "São Paulo bate Remo com gols no fim e ouve protestos em adeus ao Morumbis no ano",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-x-remo-brasileirao-37-rodada-26-11-2026/",
-     "f": "Gazeta Esportiva",
-     "alta": false
-    },
-    {
-     "t": "São Paulo se despede da torcida com vitória sobre o Remo em noite de protestos no Morumbis",
-     "u": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/26-11-2026/sao-paulo-remo.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Com passagens nas bases de Flamengo e Vasco, Michel Yan acerta com o Itacoatiara",
-     "u": "https://ge.globo.com/am/futebol/times/itacoatiara/noticia/2026/11/26/com-passagens-nas-bases-de-flamengo-e-vasco-michel-yan-acerta-com-o-itacoatiara.ghtml",
-     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Prisco's Week 12 NFL picks: Browns over Raiders, Steelers overcome issues to upset Broncos",
-     "u": "https://www.cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "NFL Week 12 picks: Our experts face off on Broncos at Steelers, Seahawks at 49ers and more",
-     "u": "https://www.cbssports.com/nfl/news/nfl-week-12-picks-our-experts-face-off-on-bears-at-lions-chiefs-at-bills-and-more/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "South Carolina Basketball Picks Up Big Win Behind Dominant Performance From Aleksas Bieliauskas",
-     "u": "https://sports.yahoo.com/mens-college-basketball/articles/south-carolina-basketball-picks-big-045554421.html",
+     "t": "Milan and Napoli Eyeing Manchester City Midfielder",
+     "u": "https://sports.yahoo.com/soccer/articles/milan-napoli-eyeing-manchester-city-150000487.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Bills stun Chiefs in final seconds to cap epic Thanksgiving NFL feast",
-     "u": "https://sports.yahoo.com/nfl/articles/bills-stun-chiefs-final-seconds-044623288.html",
+     "t": "Use DraftKings promo code to get $200 bonus bets, free NBA League Pass for Steelers-Broncos, Texas-Texas A&M",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-for-steelers-broncos-texas-texas-am/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "NFL DFS, Steelers vs. Broncos: Top daily Fantasy picks, lineups for the 2026 Black Friday game",
+     "u": "https://www.cbssports.com/betting/news/nfl-dfs-steelers-broncos-daily-fantasy-picks-lineups-fanduel-draftkings-2026-black-friday-game/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "What happens now for Bayern Munich and Musiala?",
+     "u": "https://sports.yahoo.com/soccer/articles/happens-now-bayern-munich-musiala-065441052.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,26 +79,26 @@
    },
    "noticias": [
     {
-     "t": "VOTE: qual deve ser o onze do Sporting frente ao FC Porto?",
-     "u": "https://www.abola.pt/noticias/vote-qual-deve-ser-o-onze-do-sporting-frente-ao-fc-porto-2026112609132132897",
+     "t": "Jornalistas do Porto Canal notificados da suspensão de conteúdos informativos",
+     "u": "https://www.abola.pt/noticias/jornalistas-do-porto-canal-notificados-da-suspensao-de-conteudos-informativos-2026112712265049523",
+     "f": "A Bola",
+     "alta": true
+    },
+    {
+     "t": "FC Porto: Juary será homenageado no clássico com o Sporting",
+     "u": "https://www.abola.pt/noticias/fc-porto-juary-sera-homenageado-no-classico-com-o-sporting-2026112714503251135",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "«FC Porto pode chegar a Anfield e discutir o jogo com o Liverpool»",
-     "u": "https://www.abola.pt/video/fc-porto-pode-chegar-a-anfield-e-discutir-o-jogo-com-o-liverpool-2026112520080359572",
-     "f": "A Bola",
-     "alta": false
-    },
-    {
-     "t": "Relvado do José Alvalade tem fim de vida no fim da época e será trocado após o concerto de Plutónio",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/relvado-do-jose-alvalade-so-sera-trocado-apos-o-concerto-de-plutonio-em-junho",
+     "t": "A malha está a apertar: supercomputador da Opta castiga Benfica e dá golpe no sonho do Torreense na Liga Europa",
+     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/a-malha-esta-a-apertar-supercomputador-da-opta-castiga-benfica-e-da-golpe-no-sonho-do-torreense-na-liga-europa",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Suárez de pedra e golo: avançado do Sporting já fez saber que portas do mercado são para ficarem fechadas",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/suarez-de-pedra-e-golo-avancado-do-sporting-ja-fez-saber-que-portas-do-mercado-sao-para-ficarem-fechadas",
+     "t": "Mateus Fernandes confessa: «Se o coração mandasse voltava já para o Sporting»",
+     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/mateus-fernandes-confessa-se-o-coracao-mandasse-voltava-ja-para-o-sporting",
      "f": "Record",
      "alta": false
     }
@@ -113,12 +113,6 @@
    },
    "noticias": [
     {
-     "t": "35-28: 'Punch' final del Barça con resultado engañoso ante el GOG en la Champions",
-     "u": "https://www.mundodeportivo.com/balonmano/20261126/1004255997/barca.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
      "t": "Las dos estrellas del fútbol español brillarán también en Madring y en la Fórmula 1",
      "u": "https://www.marca.com/motor/formula1/gp-espana/2026/11/26/dos-estrellas-futbol-espanol-brillaran-tambien-madring-formula-1.html",
      "f": "Marca",
@@ -131,8 +125,14 @@
      "alta": false
     },
     {
-     "t": "El 1x1 del Real Madrid ante el PSV",
-     "u": "https://www.mundodeportivo.com/futbol/real-madrid/20261124/1004255068/1x1-real-madrid-psv.html",
+     "t": "El Barça vuelve a Riazor tras ocho años: los últimos precedentes ante el Dépor",
+     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261127/1004256196/barca-vuelve-riazor-ocho-anos-ultimos-precedentes-depor.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
+     "t": "La final de la Champions en el Metropolitano le concede cuatro millones a la RFEF",
+     "u": "https://www.mundodeportivo.com/futbol/champions-league/20261127/1004256290/final-champions-metropolitano-le-concede-cuatro-millones-rfef.html",
      "f": "Mundo Deportivo",
      "alta": false
     }
@@ -147,26 +147,26 @@
    },
    "noticias": [
     {
-     "t": "Woolly hats, battered bodies and big TV numbers mark rugby union’s new festival finale",
-     "u": "https://www.theguardian.com/sport/2026/nov/26/nations-championship-woolly-hats-battered-bodies-big-tv-numbers-mark-rugby-union-festival-finale",
+     "t": "Banton’s ascent to England leadership role vindicates all-in approach to white-ball game",
+     "u": "https://www.theguardian.com/sport/2026/nov/26/tom-banton-ascent-england-leadership-role-vindicates-approach-white-ball-cricket",
      "f": "The Guardian",
      "alta": true
     },
     {
-     "t": "No post-match drug testing in South Africa v New Zealand series",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/c69309lz275wo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
-     "alta": false
-    },
-    {
-     "t": "Champions League review: Lille monster Bayern, De Bruyne’s sad return and more United chaos",
-     "u": "https://www.theguardian.com/football/2026/nov/26/champions-league-review-lille-bayern-munich-kevin-de-bruyne-napoli",
+     "t": "All Blacks have ‘no gas in the tank’ but stats show it’s England who should be out of juice",
+     "u": "https://www.theguardian.com/sport/2026/nov/27/all-blacks-no-gas-in-tank-england-steve-borthwick-nations-championship-rugby",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Former England scrum-half and commentator Starmer-Smith dies aged 81",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/c6rrg20xdq2vo?at_medium=RSS&at_campaign=rss",
+     "t": "Russell: Hamilton ruthless like Verstappen but has grace and values",
+     "u": "https://www.skysports.com/f1/news/12040/13616912/george-russell-says-lewis-hamilton-is-a-ruthless-competitor-like-max-verstappen-but-has-incredible-grace-and-values",
+     "f": "Sky Sports",
+     "alta": false
+    },
+    {
+     "t": "'I am not a magician' - what can Maresca's Man City learn from watertight Arsenal?",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cknv47dee54zo?at_medium=RSS&at_campaign=rss",
      "f": "BBC Sport",
      "alta": false
     }
@@ -181,26 +181,26 @@
    },
    "noticias": [
     {
-     "t": "¿La novela del mercado de pases? Boca mostró interés por una de las figuras del fútbol argentino que pretende River",
-     "u": "https://www.infobae.com/deportes/2026/11/27/la-novela-del-mercado-de-pases-boca-mostro-interes-por-una-de-las-figuras-del-futbol-argentino-que-pretende-river/",
+     "t": "La Justicia confirmó la condena por abuso sexual al ex Boca Jorge Martínez: “Es un mensaje para el mundo del fútbol”",
+     "u": "https://www.infobae.com/deportes/2026/11/26/la-justicia-confirmo-la-condena-por-abuso-sexual-al-ex-boca-jorge-martinez-es-un-mensaje-para-el-mundo-del-futbol/",
+     "f": "Infobae",
+     "alta": true
+    },
+    {
+     "t": "Los Pumas confirmaron seis cambios para enfrentar a Escocia en el duelo por el séptimo puesto del Nations Championship",
+     "u": "https://www.infobae.com/deportes/2026/11/27/los-pumas-confirmaron-seis-cambios-para-enfrentar-a-escocia-en-el-duelo-por-el-septimo-puesto-del-nations-championship/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "EN VIVO: Franco Colapinto, cuándo y por dónde ver las prácticas libres 1 y 2 de la Fórmula 1 en Qatar",
-     "u": "https://www.ole.com.ar/autos/vivo-franco-colapinto-ver-practicas-libres-1-2-qatar_0_h8DAcDQlgs.html",
+     "t": "Mourinho apuntó contra la IA al hablar del Real Madrid en la Champions League: \"Es una mierda\"",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/jose-mourinho-real-madrid-favoritismo-champions-league-laliga-alaves-vinicius_0_conlUSazLz.html",
      "f": "Olé",
      "alta": false
     },
     {
-     "t": "La Justicia confirmó la condena por abuso sexual al ex Boca Jorge Martínez: “Es un mensaje para el mundo del fútbol”",
-     "u": "https://www.infobae.com/deportes/2026/11/26/la-justicia-confirmo-la-condena-por-abuso-sexual-al-ex-boca-jorge-martinez-es-un-mensaje-para-el-mundo-del-futbol/",
-     "f": "Infobae",
-     "alta": false
-    },
-    {
-     "t": "La tremenda caravana de Estudiantes: se esperan 35 mil hinchas en Montevideo para la final de la Copa Libertadores",
-     "u": "https://www.ole.com.ar/estudiantes/caravana-estudiantes-plata-final-copa-libertadores-palmeiras-montevideo-entradas_0_vLUjrTGSUW.html",
+     "t": "El pedido de Simeone a la dirigencia del Atlético de Madrid y qué pasa con Cuti Romero",
+     "u": "https://www.ole.com.ar/futbol-internacional/espana/pedido-cholo-simeone-atletico-madrid-pasa-recuperacion-cuti-romero_0_faEjy2AqXd.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +237,14 @@
    },
    "noticias": [
     {
-     "t": "Comment la situation entre Leclerc et Hamilton a dégénéré",
-     "u": "https://www.lequipe.fr/Formule-1/Actualites/Comment-etape-par-etape-la-situation-a-degenere-entre-charles-leclerc-et-lewis-hamilton-chez-ferrari/1746357#at_medium=RSS_feeds",
+     "t": "Lieu, dates, affiches : notre carte interactive pour tout savoir sur le 8e tour de la Coupe de France",
+     "u": "https://www.lequipe.fr/Football/Actualites/Lieu-dates-affiches-notre-carte-interactive-pour-tout-savoir-sur-le-8e-tour-de-la-coupe-de-france/1746631#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "« Cette équipe a du coeur », se félicite Melvyn Richardson arrière droit de Plock après le nul chez le PSG en Ligue des champions",
-     "u": "https://www.lequipe.fr/Handball/Actualites/-cette-equipe-a-du-coeur-se-felicite-melvyn-richardson-arriere-droit-de-plock-apres-le-nul-chez-le-psg-en-ligue-des-champions/1746514#at_medium=RSS_feeds",
+     "t": "L'équipe de France veut finir fort au Sail Grand Prix d'Abu Dhabi",
+     "u": "https://www.lequipe.fr/Voile/Actualites/L-equipe-de-france-veut-finir-fort-au-sail-grand-prix-d-abu-dhabi/1746629#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +253,45 @@
  ],
  "destaques": [
   {
-   "t": "Palmeiras goleia Operário-PR e pega o Atlético-MG na final da Copa do Brasil sub-20",
-   "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-x-operario-pr-copa-do-brasil-sub-20/",
-   "f": "Gazeta Esportiva",
-   "alta": false,
+   "t": "Costa Rica x Brasil - Mundial Sub-17 2026 - Ao vivo - globoesporte.com",
+   "u": "https://ge.globo.com/ba/futebol/jogo/27-11-2026/costa-rica-brasil-mundial-sub-17.ghtml",
+   "f": "ge",
+   "alta": true,
    "pais": "BR"
   },
   {
-   "t": "Prisco's Week 12 NFL picks: Browns over Raiders, Steelers overcome issues to upset Broncos",
-   "u": "https://www.cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks/",
-   "f": "CBS Sports",
+   "t": "Milan and Napoli Eyeing Manchester City Midfielder",
+   "u": "https://sports.yahoo.com/soccer/articles/milan-napoli-eyeing-manchester-city-150000487.html",
+   "f": "Yahoo Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "VOTE: qual deve ser o onze do Sporting frente ao FC Porto?",
-   "u": "https://www.abola.pt/noticias/vote-qual-deve-ser-o-onze-do-sporting-frente-ao-fc-porto-2026112609132132897",
+   "t": "Jornalistas do Porto Canal notificados da suspensão de conteúdos informativos",
+   "u": "https://www.abola.pt/noticias/jornalistas-do-porto-canal-notificados-da-suspensao-de-conteudos-informativos-2026112712265049523",
    "f": "A Bola",
-   "alta": false,
+   "alta": true,
    "pais": "PT"
   },
   {
-   "t": "35-28: 'Punch' final del Barça con resultado engañoso ante el GOG en la Champions",
-   "u": "https://www.mundodeportivo.com/balonmano/20261126/1004255997/barca.html",
-   "f": "Mundo Deportivo",
+   "t": "Las dos estrellas del fútbol español brillarán también en Madring y en la Fórmula 1",
+   "u": "https://www.marca.com/motor/formula1/gp-espana/2026/11/26/dos-estrellas-futbol-espanol-brillaran-tambien-madring-formula-1.html",
+   "f": "Marca",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Woolly hats, battered bodies and big TV numbers mark rugby union’s new festival finale",
-   "u": "https://www.theguardian.com/sport/2026/nov/26/nations-championship-woolly-hats-battered-bodies-big-tv-numbers-mark-rugby-union-festival-finale",
+   "t": "Banton’s ascent to England leadership role vindicates all-in approach to white-ball game",
+   "u": "https://www.theguardian.com/sport/2026/nov/26/tom-banton-ascent-england-leadership-role-vindicates-approach-white-ball-cricket",
    "f": "The Guardian",
    "alta": true,
    "pais": "GB"
   },
   {
-   "t": "¿La novela del mercado de pases? Boca mostró interés por una de las figuras del fútbol argentino que pretende River",
-   "u": "https://www.infobae.com/deportes/2026/11/27/la-novela-del-mercado-de-pases-boca-mostro-interes-por-una-de-las-figuras-del-futbol-argentino-que-pretende-river/",
+   "t": "La Justicia confirmó la condena por abuso sexual al ex Boca Jorge Martínez: “Es un mensaje para el mundo del fútbol”",
+   "u": "https://www.infobae.com/deportes/2026/11/26/la-justicia-confirmo-la-condena-por-abuso-sexual-al-ex-boca-jorge-martinez-es-un-mensaje-para-el-mundo-del-futbol/",
    "f": "Infobae",
-   "alta": false,
+   "alta": true,
    "pais": "AR"
   },
   {
@@ -302,8 +302,8 @@
    "pais": "IT"
   },
   {
-   "t": "Comment la situation entre Leclerc et Hamilton a dégénéré",
-   "u": "https://www.lequipe.fr/Formule-1/Actualites/Comment-etape-par-etape-la-situation-a-degenere-entre-charles-leclerc-et-lewis-hamilton-chez-ferrari/1746357#at_medium=RSS_feeds",
+   "t": "Lieu, dates, affiches : notre carte interactive pour tout savoir sur le 8e tour de la Coupe de France",
+   "u": "https://www.lequipe.fr/Football/Actualites/Lieu-dates-affiches-notre-carte-interactive-pour-tout-savoir-sur-le-8e-tour-de-la-coupe-de-france/1746631#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
