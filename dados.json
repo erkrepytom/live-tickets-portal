@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T15:15:45+00:00",
+ "atualizado": "2026-11-27T23:35:06+00:00",
  "ordem_paises": "padrao",
  "paises": [
   {
@@ -11,27 +11,27 @@
    },
    "noticias": [
     {
-     "t": "Costa Rica x Brasil - Mundial Sub-17 2026 - Ao vivo - globoesporte.com",
-     "u": "https://ge.globo.com/ba/futebol/jogo/27-11-2026/costa-rica-brasil-mundial-sub-17.ghtml",
-     "f": "ge",
-     "alta": true
-    },
-    {
-     "t": "Fluminense pode garantir vaga na fase de grupos da Libertadores contra o Cruzeiro; veja cenários",
-     "u": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/27/fluminense-pode-garantir-vaga-na-fase-de-grupos-da-libertadores-contra-o-cruzeiro-veja-cenarios.ghtml",
-     "f": "ge",
-     "alta": false
-    },
-    {
-     "t": "Análise: São Paulo toma susto, mas vence e tira lições para 2027 em despedida do Morumbis",
-     "u": "https://www.gazetaesportiva.com/times/sao-paulo/analise-sao-paulo-toma-susto-mas-vence-e-tira-licoes-para-2027-em-despedida-do-morumbis/",
+     "t": "Corinthians x Atlético-MG: saiba onde assistir ao duelo pela Copinha Feminina",
+     "u": "https://www.gazetaesportiva.com/campeonatos/copa-sao-paulo/corinthians-atletico-mg-onde-assistir-copinha-feminina/",
      "f": "Gazeta Esportiva",
      "alta": false
     },
     {
-     "t": "Palmeiras goleia Operário-PR e pega o Atlético-MG na final da Copa do Brasil sub-20",
-     "u": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-x-operario-pr-copa-do-brasil-sub-20/",
+     "t": "Fluminense x Cruzeiro - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+     "u": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/27-11-2026/fluminense-cruzeiro.ghtml",
+     "f": "ge",
+     "alta": false
+    },
+    {
+     "t": "Corinthians x Grêmio: veja onde assistir ao jogo pelo Brasileirão",
+     "u": "https://www.gazetaesportiva.com/times/corinthians/corinthians-x-gremio-onde-assistir-brasileirao-37-rodada/",
      "f": "Gazeta Esportiva",
+     "alta": false
+    },
+    {
+     "t": "Eliminatórias para a Copa do Mundo de basquete: Brasil x EUA",
+     "u": "https://ge.globo.com/basquete/ao-vivo/eliminatorias-para-a-copa-do-mundo-de-basquete-brasil-x-eua.ghtml",
+     "f": "ge",
      "alta": false
     }
    ]
@@ -45,26 +45,26 @@
    },
    "noticias": [
     {
-     "t": "Milan and Napoli Eyeing Manchester City Midfielder",
-     "u": "https://sports.yahoo.com/soccer/articles/milan-napoli-eyeing-manchester-city-150000487.html",
+     "t": "Knicks vs. Heat prediction, odds, time: 2026 NBA Cup picks for Friday, Nov. 27 from proven model",
+     "u": "https://www.cbssports.com/betting/news/knicks-heat-prediction-odds-time-2026-nba-cup-picks-for-friday-november-27/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "Use DraftKings promo code to get $200 bonus bets, free NBA League Pass for Texas vs. Texas A&M on Black Friday",
+     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-for-texas-texas-am-black-friday/",
+     "f": "CBS Sports",
+     "alta": false
+    },
+    {
+     "t": "How to watch Texas vs Texas A&M: Live stream College Football, TV channel",
+     "u": "https://sports.yahoo.com/college-football/articles/watch-texas-vs-texas-m-233000352.html",
      "f": "Yahoo Sports",
      "alta": false
     },
     {
-     "t": "Use DraftKings promo code to get $200 bonus bets, free NBA League Pass for Steelers-Broncos, Texas-Texas A&M",
-     "u": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-for-steelers-broncos-texas-texas-am/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "NFL DFS, Steelers vs. Broncos: Top daily Fantasy picks, lineups for the 2026 Black Friday game",
-     "u": "https://www.cbssports.com/betting/news/nfl-dfs-steelers-broncos-daily-fantasy-picks-lineups-fanduel-draftkings-2026-black-friday-game/",
-     "f": "CBS Sports",
-     "alta": false
-    },
-    {
-     "t": "What happens now for Bayern Munich and Musiala?",
-     "u": "https://sports.yahoo.com/soccer/articles/happens-now-bayern-munich-musiala-065441052.html",
+     "t": "UNC Basketball vs. West Virginia live blog, updates, analysis and more",
+     "u": "https://sports.yahoo.com/mens-college-basketball/articles/unc-basketball-vs-west-virginia-232851544.html",
      "f": "Yahoo Sports",
      "alta": false
     }
@@ -79,27 +79,27 @@
    },
    "noticias": [
     {
-     "t": "Jornalistas do Porto Canal notificados da suspensão de conteúdos informativos",
-     "u": "https://www.abola.pt/noticias/jornalistas-do-porto-canal-notificados-da-suspensao-de-conteudos-informativos-2026112712265049523",
-     "f": "A Bola",
-     "alta": true
-    },
-    {
      "t": "FC Porto: Juary será homenageado no clássico com o Sporting",
      "u": "https://www.abola.pt/noticias/fc-porto-juary-sera-homenageado-no-classico-com-o-sporting-2026112714503251135",
      "f": "A Bola",
      "alta": false
     },
     {
-     "t": "A malha está a apertar: supercomputador da Opta castiga Benfica e dá golpe no sonho do Torreense na Liga Europa",
-     "u": "https://www.record.pt/internacional/competicoes-de-clubes/liga-europa/detalhe/a-malha-esta-a-apertar-supercomputador-da-opta-castiga-benfica-e-da-golpe-no-sonho-do-torreense-na-liga-europa",
+     "t": "Fluminense-Cruzeiro, em direto",
+     "u": "https://www.record.pt/internacional/paises/brasil/detalhe/fluminense-cruzeiro-em-direto",
      "f": "Record",
      "alta": false
     },
     {
-     "t": "Mateus Fernandes confessa: «Se o coração mandasse voltava já para o Sporting»",
-     "u": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sporting/detalhe/mateus-fernandes-confessa-se-o-coracao-mandasse-voltava-ja-para-o-sporting",
+     "t": "Há mais um luso-descendente a despontar no Bayern Munique: Noah Codjo-Evora já se estreou na Champions",
+     "u": "https://www.record.pt/internacional/paises/alemanha/bayern-munique/detalhe/ha-mais-um-luso-descendente-a-despontar-no-bayern-munique-noah-codjo-evora-ja-se-estreou-na-champions",
      "f": "Record",
+     "alta": false
+    },
+    {
+     "t": "FC Porto-Benfica: prova de fogo no Dragão e n'A BOLA TV",
+     "u": "https://www.abola.pt/noticias/fc-porto-benfica-prova-de-fogo-no-dragao-e-na-bola-tv-2026112721073833164",
+     "f": "A Bola",
      "alta": false
     }
    ]
@@ -113,27 +113,27 @@
    },
    "noticias": [
     {
+     "t": "Surrealista: dos pilares del Atleti se pueden perder el Camp Nou ¡y vieron sus últimas tarjetas ante el Barça!",
+     "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261127/1004256389/surrealista-dos-pilares-atleti-perder-camp-nou-vieron-ultimas-tarjetas-barca.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "Las dos estrellas del fútbol español brillarán también en Madring y en la Fórmula 1",
      "u": "https://www.marca.com/motor/formula1/gp-espana/2026/11/26/dos-estrellas-futbol-espanol-brillaran-tambien-madring-formula-1.html",
      "f": "Marca",
      "alta": false
     },
     {
+     "t": "El Atlético, tras la pista del delantero que ha revolucionado la Serie A",
+     "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261127/1004256350/atletico-pista-delantero-revolucionado-serie.html",
+     "f": "Mundo Deportivo",
+     "alta": false
+    },
+    {
      "t": "La RFEF confirma que España jugará en Mestalla contra Francia",
      "u": "https://www.marca.com/futbol/nations-league/2026/11/26/rfef-confirma-espana-jugara-mestalla-francia.html",
      "f": "Marca",
-     "alta": false
-    },
-    {
-     "t": "El Barça vuelve a Riazor tras ocho años: los últimos precedentes ante el Dépor",
-     "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261127/1004256196/barca-vuelve-riazor-ocho-anos-ultimos-precedentes-depor.html",
-     "f": "Mundo Deportivo",
-     "alta": false
-    },
-    {
-     "t": "La final de la Champions en el Metropolitano le concede cuatro millones a la RFEF",
-     "u": "https://www.mundodeportivo.com/futbol/champions-league/20261127/1004256290/final-champions-metropolitano-le-concede-cuatro-millones-rfef.html",
-     "f": "Mundo Deportivo",
      "alta": false
     }
    ]
@@ -147,27 +147,27 @@
    },
    "noticias": [
     {
-     "t": "Banton’s ascent to England leadership role vindicates all-in approach to white-ball game",
-     "u": "https://www.theguardian.com/sport/2026/nov/26/tom-banton-ascent-england-leadership-role-vindicates-approach-white-ball-cricket",
-     "f": "The Guardian",
-     "alta": true
-    },
-    {
-     "t": "All Blacks have ‘no gas in the tank’ but stats show it’s England who should be out of juice",
-     "u": "https://www.theguardian.com/sport/2026/nov/27/all-blacks-no-gas-in-tank-england-steve-borthwick-nations-championship-rugby",
+     "t": "Arteta sets Arsenal 100-point Premier League target to emulate Manchester City",
+     "u": "https://www.theguardian.com/football/2026/nov/27/arteta-sets-arsenal-100-point-premier-league-target-to-emulate-manchester-city",
      "f": "The Guardian",
      "alta": false
     },
     {
-     "t": "Russell: Hamilton ruthless like Verstappen but has grace and values",
-     "u": "https://www.skysports.com/f1/news/12040/13616912/george-russell-says-lewis-hamilton-is-a-ruthless-competitor-like-max-verstappen-but-has-incredible-grace-and-values",
+     "t": "Finals weekend will show who really holds rugby power heading into World Cup year | Ugo Monye",
+     "u": "https://www.theguardian.com/sport/2026/nov/27/finals-weekend-who-holds-rugby-power-world-cup-england-new-zealand-france-south-africa",
+     "f": "The Guardian",
+     "alta": false
+    },
+    {
+     "t": "Big spins and Verstappen-Hamilton near miss in dramatic Qatar practice",
+     "u": "https://www.skysports.com/watch/video/13617299/qatar-grand-prix-practice-highlights",
      "f": "Sky Sports",
      "alta": false
     },
     {
-     "t": "'I am not a magician' - what can Maresca's Man City learn from watertight Arsenal?",
-     "u": "https://www.bbc.co.uk/sport/football/articles/cknv47dee54zo?at_medium=RSS&at_campaign=rss",
-     "f": "BBC Sport",
+     "t": "Don't sleep on the NFL 'uncs' - can they finally win a Super Bowl?",
+     "u": "https://www.skysports.com/nfl/news/12040/13615930/nfl-why-kyle-shanahan-brock-purdy-and-san-francisco-49ers-uncs-deserve-super-bowl-moment-plus-kirk-cousins-revenge-game-and-sam-darnold-pressure",
+     "f": "Sky Sports",
      "alta": false
     }
    ]
@@ -181,26 +181,20 @@
    },
    "noticias": [
     {
-     "t": "La Justicia confirmó la condena por abuso sexual al ex Boca Jorge Martínez: “Es un mensaje para el mundo del fútbol”",
-     "u": "https://www.infobae.com/deportes/2026/11/26/la-justicia-confirmo-la-condena-por-abuso-sexual-al-ex-boca-jorge-martinez-es-un-mensaje-para-el-mundo-del-futbol/",
-     "f": "Infobae",
-     "alta": true
-    },
-    {
-     "t": "Los Pumas confirmaron seis cambios para enfrentar a Escocia en el duelo por el séptimo puesto del Nations Championship",
-     "u": "https://www.infobae.com/deportes/2026/11/27/los-pumas-confirmaron-seis-cambios-para-enfrentar-a-escocia-en-el-duelo-por-el-septimo-puesto-del-nations-championship/",
+     "t": "Se definió el rival de Argentina en el Mundial Sub 17: enfrentará a México en 16avos de final",
+     "u": "https://www.infobae.com/deportes/2026/11/27/se-definio-el-rival-de-argentina-en-el-mundial-sub-17-enfrentara-a-mexico-en-16avos-de-final/",
      "f": "Infobae",
      "alta": false
     },
     {
-     "t": "Mourinho apuntó contra la IA al hablar del Real Madrid en la Champions League: \"Es una mierda\"",
-     "u": "https://www.ole.com.ar/futbol-internacional/espana/jose-mourinho-real-madrid-favoritismo-champions-league-laliga-alaves-vinicius_0_conlUSazLz.html",
-     "f": "Olé",
+     "t": "La divertida charla entre una ex figura de Los Pumas y Hamilton: el chiste por un tackle y el deseo del piloto de regresar a Argentina",
+     "u": "https://www.infobae.com/deportes/2026/11/27/la-divertida-charla-entre-una-ex-figura-de-los-pumas-y-hamilton-el-chiste-por-un-tackle-y-el-deseo-del-piloto-de-regresar-a-argentina/",
+     "f": "Infobae",
      "alta": false
     },
     {
-     "t": "El pedido de Simeone a la dirigencia del Atlético de Madrid y qué pasa con Cuti Romero",
-     "u": "https://www.ole.com.ar/futbol-internacional/espana/pedido-cholo-simeone-atletico-madrid-pasa-recuperacion-cuti-romero_0_faEjy2AqXd.html",
+     "t": "Súper finde de fútbol: final de Libertadores, cuartos del Clausura y más",
+     "u": "https://www.ole.com.ar/agenda-deportiva/futbol-fin-semana-ver-envivo-libertadores-final-clausura-cuartos_0_AFjMdNxEG4.html",
      "f": "Olé",
      "alta": false
     }
@@ -237,14 +231,14 @@
    },
    "noticias": [
     {
-     "t": "Lieu, dates, affiches : notre carte interactive pour tout savoir sur le 8e tour de la Coupe de France",
-     "u": "https://www.lequipe.fr/Football/Actualites/Lieu-dates-affiches-notre-carte-interactive-pour-tout-savoir-sur-le-8e-tour-de-la-coupe-de-france/1746631#at_medium=RSS_feeds",
+     "t": "L'exploit de Saint-Omer, club de Régional 1 tombeur de Caen au 8e tour de la Coupe de France",
+     "u": "https://www.lequipe.fr/Football/Actualites/L-exploit-de-saint-omer-club-de-regional-1-tombeur-de-caen-au-8e-tour-de-la-coupe-de-france/1746787#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     },
     {
-     "t": "L'équipe de France veut finir fort au Sail Grand Prix d'Abu Dhabi",
-     "u": "https://www.lequipe.fr/Voile/Actualites/L-equipe-de-france-veut-finir-fort-au-sail-grand-prix-d-abu-dhabi/1746629#at_medium=RSS_feeds",
+     "t": "L'équipe de France sera opposée à l'Ouganda en 16es de finale de la Coupe du monde U17",
+     "u": "https://www.lequipe.fr/Football/Actualites/L-equipe-de-france-sera-opposee-a-l-ouganda-en-16es-de-finale-de-la-coupe-du-monde-u17/1746822#at_medium=RSS_feeds",
      "f": "L'Équipe",
      "alta": false
     }
@@ -253,45 +247,45 @@
  ],
  "destaques": [
   {
-   "t": "Costa Rica x Brasil - Mundial Sub-17 2026 - Ao vivo - globoesporte.com",
-   "u": "https://ge.globo.com/ba/futebol/jogo/27-11-2026/costa-rica-brasil-mundial-sub-17.ghtml",
-   "f": "ge",
-   "alta": true,
+   "t": "Corinthians x Atlético-MG: saiba onde assistir ao duelo pela Copinha Feminina",
+   "u": "https://www.gazetaesportiva.com/campeonatos/copa-sao-paulo/corinthians-atletico-mg-onde-assistir-copinha-feminina/",
+   "f": "Gazeta Esportiva",
+   "alta": false,
    "pais": "BR"
   },
   {
-   "t": "Milan and Napoli Eyeing Manchester City Midfielder",
-   "u": "https://sports.yahoo.com/soccer/articles/milan-napoli-eyeing-manchester-city-150000487.html",
-   "f": "Yahoo Sports",
+   "t": "Knicks vs. Heat prediction, odds, time: 2026 NBA Cup picks for Friday, Nov. 27 from proven model",
+   "u": "https://www.cbssports.com/betting/news/knicks-heat-prediction-odds-time-2026-nba-cup-picks-for-friday-november-27/",
+   "f": "CBS Sports",
    "alta": false,
    "pais": "US"
   },
   {
-   "t": "Jornalistas do Porto Canal notificados da suspensão de conteúdos informativos",
-   "u": "https://www.abola.pt/noticias/jornalistas-do-porto-canal-notificados-da-suspensao-de-conteudos-informativos-2026112712265049523",
+   "t": "FC Porto: Juary será homenageado no clássico com o Sporting",
+   "u": "https://www.abola.pt/noticias/fc-porto-juary-sera-homenageado-no-classico-com-o-sporting-2026112714503251135",
    "f": "A Bola",
-   "alta": true,
+   "alta": false,
    "pais": "PT"
   },
   {
-   "t": "Las dos estrellas del fútbol español brillarán también en Madring y en la Fórmula 1",
-   "u": "https://www.marca.com/motor/formula1/gp-espana/2026/11/26/dos-estrellas-futbol-espanol-brillaran-tambien-madring-formula-1.html",
-   "f": "Marca",
+   "t": "Surrealista: dos pilares del Atleti se pueden perder el Camp Nou ¡y vieron sus últimas tarjetas ante el Barça!",
+   "u": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261127/1004256389/surrealista-dos-pilares-atleti-perder-camp-nou-vieron-ultimas-tarjetas-barca.html",
+   "f": "Mundo Deportivo",
    "alta": false,
    "pais": "ES"
   },
   {
-   "t": "Banton’s ascent to England leadership role vindicates all-in approach to white-ball game",
-   "u": "https://www.theguardian.com/sport/2026/nov/26/tom-banton-ascent-england-leadership-role-vindicates-approach-white-ball-cricket",
+   "t": "Arteta sets Arsenal 100-point Premier League target to emulate Manchester City",
+   "u": "https://www.theguardian.com/football/2026/nov/27/arteta-sets-arsenal-100-point-premier-league-target-to-emulate-manchester-city",
    "f": "The Guardian",
-   "alta": true,
+   "alta": false,
    "pais": "GB"
   },
   {
-   "t": "La Justicia confirmó la condena por abuso sexual al ex Boca Jorge Martínez: “Es un mensaje para el mundo del fútbol”",
-   "u": "https://www.infobae.com/deportes/2026/11/26/la-justicia-confirmo-la-condena-por-abuso-sexual-al-ex-boca-jorge-martinez-es-un-mensaje-para-el-mundo-del-futbol/",
+   "t": "Se definió el rival de Argentina en el Mundial Sub 17: enfrentará a México en 16avos de final",
+   "u": "https://www.infobae.com/deportes/2026/11/27/se-definio-el-rival-de-argentina-en-el-mundial-sub-17-enfrentara-a-mexico-en-16avos-de-final/",
    "f": "Infobae",
-   "alta": true,
+   "alta": false,
    "pais": "AR"
   },
   {
@@ -302,8 +296,8 @@
    "pais": "IT"
   },
   {
-   "t": "Lieu, dates, affiches : notre carte interactive pour tout savoir sur le 8e tour de la Coupe de France",
-   "u": "https://www.lequipe.fr/Football/Actualites/Lieu-dates-affiches-notre-carte-interactive-pour-tout-savoir-sur-le-8e-tour-de-la-coupe-de-france/1746631#at_medium=RSS_feeds",
+   "t": "L'exploit de Saint-Omer, club de Régional 1 tombeur de Caen au 8e tour de la Coupe de France",
+   "u": "https://www.lequipe.fr/Football/Actualites/L-exploit-de-saint-omer-club-de-regional-1-tombeur-de-caen-au-8e-tour-de-la-coupe-de-france/1746787#at_medium=RSS_feeds",
    "f": "L'Équipe",
    "alta": false,
    "pais": "FR"
